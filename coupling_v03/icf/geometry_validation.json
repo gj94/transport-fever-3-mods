@@ -1,0 +1,3411 @@
+{
+  "kind": "icf",
+  "root": "ICF_ROOT_metres_X_forward",
+  "source": "icf/icf_sleeper_interior_v02.blend",
+  "source_original_coupling_bounds": {
+    "Buffer beam": [
+      [
+        -10.574999809265137,
+        -10.38499927520752
+      ],
+      [
+        -1.4299999475479126,
+        1.4299999475479126
+      ],
+      [
+        0.8949999809265137,
+        1.184999942779541
+      ]
+    ],
+    "Buffer beam.001": [
+      [
+        10.38499927520752,
+        10.574999809265137
+      ],
+      [
+        -1.4299999475479126,
+        1.4299999475479126
+      ],
+      [
+        0.8949999809265137,
+        1.184999942779541
+      ]
+    ],
+    "Buffer head": [
+      [
+        -11.148499488830566,
+        -11.088500022888184
+      ],
+      [
+        -1.100000023841858,
+        -0.6499999761581421
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer head.001": [
+      [
+        -11.148499488830566,
+        -11.088500022888184
+      ],
+      [
+        0.6499999761581421,
+        1.100000023841858
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer head.002": [
+      [
+        11.088500022888184,
+        11.148499488830566
+      ],
+      [
+        -1.100000023841858,
+        -0.6499999761581421
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer head.003": [
+      [
+        11.088500022888184,
+        11.148499488830566
+      ],
+      [
+        0.6499999761581421,
+        1.100000023841858
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer housing": [
+      [
+        -10.780000686645508,
+        -10.5
+      ],
+      [
+        -1.034999966621399,
+        -0.7150000333786011
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer housing.001": [
+      [
+        -10.780000686645508,
+        -10.5
+      ],
+      [
+        0.7150000333786011,
+        1.034999966621399
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer housing.002": [
+      [
+        10.5,
+        10.780000686645508
+      ],
+      [
+        -1.034999966621399,
+        -0.7150000333786011
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer housing.003": [
+      [
+        10.5,
+        10.780000686645508
+      ],
+      [
+        0.7150000333786011,
+        1.034999966621399
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer shank": [
+      [
+        -11.019999504089355,
+        -10.539999961853027
+      ],
+      [
+        -0.9800000190734863,
+        -0.7699999809265137
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Buffer shank.001": [
+      [
+        -11.019999504089355,
+        -10.539999961853027
+      ],
+      [
+        0.7699999809265137,
+        0.9800000190734863
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Buffer shank.002": [
+      [
+        10.539999961853027,
+        11.019999504089355
+      ],
+      [
+        -0.9800000190734863,
+        -0.7699999809265137
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Buffer shank.003": [
+      [
+        10.539999961853027,
+        11.019999504089355
+      ],
+      [
+        0.7699999809265137,
+        0.9800000190734863
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Draw hook": [
+      [
+        -11.000293731689453,
+        -10.569999694824219
+      ],
+      [
+        -0.033000003546476364,
+        0.03300000727176666
+      ],
+      [
+        0.928391695022583,
+        1.1030000448226929
+      ]
+    ],
+    "Draw hook.001": [
+      [
+        10.569999694824219,
+        11.000293731689453
+      ],
+      [
+        -0.03300000727176666,
+        0.033000003546476364
+      ],
+      [
+        0.928391695022583,
+        1.1030000448226929
+      ]
+    ],
+    "Screw coupling loop": [
+      [
+        -10.959815979003906,
+        -10.69891357421875
+      ],
+      [
+        -0.09160283207893372,
+        0.092587411403656
+      ],
+      [
+        0.6839399933815002,
+        1.0126835107803345
+      ]
+    ],
+    "Screw coupling loop.001": [
+      [
+        10.69891357421875,
+        10.959815979003906
+      ],
+      [
+        -0.09160283952951431,
+        0.092587411403656
+      ],
+      [
+        0.6839399933815002,
+        1.0126835107803345
+      ]
+    ],
+    "Screw coupling spindle": [
+      [
+        -10.878999710083008,
+        -10.801000595092773
+      ],
+      [
+        -0.11500000208616257,
+        0.11500000208616257
+      ],
+      [
+        0.6909999847412109,
+        0.7690000534057617
+      ]
+    ],
+    "Screw coupling spindle.001": [
+      [
+        10.801000595092773,
+        10.878999710083008
+      ],
+      [
+        -0.11500000208616257,
+        0.11500000208616257
+      ],
+      [
+        0.6909999847412109,
+        0.7690000534057617
+      ]
+    ]
+  },
+  "removed_coupling_objects": [
+    "Draw hook",
+    "Draw hook.001",
+    "Screw coupling loop",
+    "Screw coupling loop.001",
+    "Screw coupling spindle",
+    "Screw coupling spindle.001"
+  ],
+  "modified_buffers": [
+    "Buffer head",
+    "Buffer head.001",
+    "Buffer head.002",
+    "Buffer head.003",
+    "Buffer housing",
+    "Buffer housing.001",
+    "Buffer housing.002",
+    "Buffer housing.003",
+    "Buffer shank",
+    "Buffer shank.001",
+    "Buffer shank.002",
+    "Buffer shank.003"
+  ],
+  "preserved_objects_count": 3047,
+  "unexpected_changes": [],
+  "unit_scale_length": 1.0,
+  "root_world_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rail_datum_z_m": 0.0,
+  "rail_datum_basis": "Original source wheel tread reference; flanges extend below z=0",
+  "coupling_height_m": 1.105,
+  "nominal_reference_heights_m": {
+    "locomotive": 1.09,
+    "coach": 1.105
+  },
+  "artistic_height_choice": "Common 1.105 m; loco raised 15 mm relative to reference nominal for coincident static anchors",
+  "anchor_span_m": 22.297,
+  "anchors": {
+    "COUPLING_FRONT": {
+      "world_location_m": [
+        11.148500442504883,
+        0.0,
+        1.1050000190734863
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          11.148500442504883
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "ICF_ROOT_metres_X_forward"
+    },
+    "COUPLING_REAR": {
+      "world_location_m": [
+        -11.148500442504883,
+        0.0,
+        1.1050000190734863
+      ],
+      "world_matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          -11.148500442504883
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "ICF_ROOT_metres_X_forward"
+    }
+  },
+  "head_bounds": {
+    "CBC_FRONT_closed_knuckle_head": [
+      [
+        10.84850025177002,
+        11.228500366210938
+      ],
+      [
+        -0.18000000715255737,
+        0.18000000715255737
+      ],
+      [
+        0.9900000095367432,
+        1.2200000286102295
+      ]
+    ],
+    "CBC_REAR_closed_knuckle_head": [
+      [
+        -11.228500366210938,
+        -10.84850025177002
+      ],
+      [
+        -0.18000008165836334,
+        0.1799999624490738
+      ],
+      [
+        0.9900000095367432,
+        1.2200000286102295
+      ]
+    ]
+  },
+  "buffer_bounds": {
+    "Buffer beam": [
+      [
+        -10.574999809265137,
+        -10.38499927520752
+      ],
+      [
+        -1.4299999475479126,
+        1.4299999475479126
+      ],
+      [
+        0.8949999809265137,
+        1.184999942779541
+      ]
+    ],
+    "Buffer beam.001": [
+      [
+        10.38499927520752,
+        10.574999809265137
+      ],
+      [
+        -1.4299999475479126,
+        1.4299999475479126
+      ],
+      [
+        0.8949999809265137,
+        1.184999942779541
+      ]
+    ],
+    "Buffer head": [
+      [
+        -11.148499488830566,
+        -11.088500022888184
+      ],
+      [
+        -1.2029999494552612,
+        -0.753000020980835
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer head.001": [
+      [
+        -11.148499488830566,
+        -11.088500022888184
+      ],
+      [
+        0.753000020980835,
+        1.2029999494552612
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer head.002": [
+      [
+        11.088500022888184,
+        11.148499488830566
+      ],
+      [
+        -1.2029999494552612,
+        -0.753000020980835
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer head.003": [
+      [
+        11.088500022888184,
+        11.148499488830566
+      ],
+      [
+        0.753000020980835,
+        1.2029999494552612
+      ],
+      [
+        0.8799999952316284,
+        1.3300000429153442
+      ]
+    ],
+    "Buffer housing": [
+      [
+        -10.780000686645508,
+        -10.5
+      ],
+      [
+        -1.1380000114440918,
+        -0.8179999589920044
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer housing.001": [
+      [
+        -10.780000686645508,
+        -10.5
+      ],
+      [
+        0.8179999589920044,
+        1.1380000114440918
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer housing.002": [
+      [
+        10.5,
+        10.780000686645508
+      ],
+      [
+        -1.1380000114440918,
+        -0.8179999589920044
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer housing.003": [
+      [
+        10.5,
+        10.780000686645508
+      ],
+      [
+        0.8179999589920044,
+        1.1380000114440918
+      ],
+      [
+        0.9449999928474426,
+        1.2649999856948853
+      ]
+    ],
+    "Buffer shank": [
+      [
+        -11.110000610351562,
+        -10.510000228881836
+      ],
+      [
+        -1.0829999446868896,
+        -0.8729999661445618
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Buffer shank.001": [
+      [
+        -11.110000610351562,
+        -10.510000228881836
+      ],
+      [
+        0.8729999661445618,
+        1.0829999446868896
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Buffer shank.002": [
+      [
+        10.510000228881836,
+        11.110000610351562
+      ],
+      [
+        -1.0829999446868896,
+        -0.8729999661445618
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ],
+    "Buffer shank.003": [
+      [
+        10.510000228881836,
+        11.110000610351562
+      ],
+      [
+        0.8729999661445618,
+        1.0829999446868896
+      ],
+      [
+        1.0,
+        1.2100000381469727
+      ]
+    ]
+  },
+  "protected_rig": {
+    "BOGIE_1_PIVOT": {
+      "parent": "ICF_ROOT_metres_X_forward",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.391499996185303
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "BOGIE_1_AXLE_1_ROTATE_Y": {
+      "parent": "BOGIE_1_PIVOT",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.839500427246094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45750001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "BOGIE_1_AXLE_2_ROTATE_Y": {
+      "parent": "BOGIE_1_PIVOT",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.94350004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45750001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "BOGIE_2_PIVOT": {
+      "parent": "ICF_ROOT_metres_X_forward",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.391499996185303
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "BOGIE_2_AXLE_1_ROTATE_Y": {
+      "parent": "BOGIE_2_PIVOT",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.94350004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45750001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "BOGIE_2_AXLE_2_ROTATE_Y": {
+      "parent": "BOGIE_2_PIVOT",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          8.839500427246094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45750001072883606
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "ICF_ROOT_metres_X_forward": {
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    }
+  },
+  "interior_object_names": [
+    "Bay_01_berth_number_plate",
+    "Bay_01_berth_number_plate.001",
+    "Bay_01_fan_blade",
+    "Bay_01_fan_blade.001",
+    "Bay_01_fan_blade.002",
+    "Bay_01_fan_guard",
+    "Bay_01_fan_guard.001",
+    "Bay_01_fan_guard.002",
+    "Bay_01_fan_guard.003",
+    "Bay_01_fan_guard.004",
+    "Bay_01_fan_guard.005",
+    "Bay_01_fan_guard.006",
+    "Bay_01_fan_guard.007",
+    "Bay_01_fan_guard.008",
+    "Bay_01_fan_guard.009",
+    "Bay_01_fan_guard.010",
+    "Bay_01_fan_guard.011",
+    "Bay_01_fan_guard.012",
+    "Bay_01_fan_guard.013",
+    "Bay_01_fan_guard.014",
+    "Bay_01_fan_guard.015",
+    "Bay_01_fan_guard.016",
+    "Bay_01_fan_guard.017",
+    "Bay_01_fan_guard.018",
+    "Bay_01_fan_guard.019",
+    "Bay_01_fan_guard.020",
+    "Bay_01_fan_guard.021",
+    "Bay_01_fan_guard.022",
+    "Bay_01_fan_guard.023",
+    "Bay_01_fan_guard.024",
+    "Bay_01_fan_guard.025",
+    "Bay_01_fan_guard.026",
+    "Bay_01_fan_guard.027",
+    "Bay_01_fan_guard.028",
+    "Bay_01_fan_guard.029",
+    "Bay_01_fan_guard.030",
+    "Bay_01_fan_guard.031",
+    "Bay_01_fan_guard.032",
+    "Bay_01_fan_guard.033",
+    "Bay_01_fan_guard.034",
+    "Bay_01_fan_guard.035",
+    "Bay_01_fan_guard.036",
+    "Bay_01_fan_guard.037",
+    "Bay_01_fan_guard.038",
+    "Bay_01_fan_guard.039",
+    "Bay_01_fan_guard.040",
+    "Bay_01_fan_guard.041",
+    "Bay_01_fan_guard.042",
+    "Bay_01_fan_guard.043",
+    "Bay_01_fan_guard.044",
+    "Bay_01_fan_guard.045",
+    "Bay_01_fan_guard.046",
+    "Bay_01_fan_guard.047",
+    "Bay_01_fan_guard.048",
+    "Bay_01_fan_guard.049",
+    "Bay_01_fan_guard.050",
+    "Bay_01_fan_guard.051",
+    "Bay_01_fan_guard.052",
+    "Bay_01_fan_guard.053",
+    "Bay_01_fan_guard.054",
+    "Bay_01_fan_guard.055",
+    "Bay_01_fan_guard.056",
+    "Bay_01_fan_guard.057",
+    "Bay_01_fan_guard.058",
+    "Bay_01_fan_guard.059",
+    "Bay_01_fan_guard_spoke",
+    "Bay_01_fan_guard_spoke.001",
+    "Bay_01_fan_guard_spoke.002",
+    "Bay_01_fan_guard_spoke.003",
+    "Bay_01_fan_guard_spoke.004",
+    "Bay_01_fan_guard_spoke.005",
+    "Bay_01_fan_guard_spoke.006",
+    "Bay_01_fan_guard_spoke.007",
+    "Bay_01_fan_motor",
+    "Bay_01_fan_stem",
+    "Bay_01_fluorescent_diffuser",
+    "Bay_01_fluorescent_fixture",
+    "Bay_01_fold_hinge",
+    "Bay_01_fold_hinge.001",
+    "Bay_01_fold_hinge.002",
+    "Bay_01_fold_hinge.003",
+    "Bay_01_ladder_rung",
+    "Bay_01_ladder_rung.001",
+    "Bay_01_ladder_rung.002",
+    "Bay_01_ladder_rung.003",
+    "Bay_01_ladder_rung.004",
+    "Bay_01_ladder_rung.005",
+    "Bay_01_ladder_rung.006",
+    "Bay_01_ladder_rung.007",
+    "Bay_01_ladder_rung.008",
+    "Bay_01_ladder_rung.009",
+    "Bay_01_ladder_upright",
+    "Bay_01_ladder_upright.001",
+    "Bay_01_ladder_upright.002",
+    "Bay_01_ladder_upright.003",
+    "Bay_01_lower",
+    "Bay_01_lower.001",
+    "Bay_01_lower_steel_pan",
+    "Bay_01_lower_steel_pan.001",
+    "Bay_01_luggage_rack",
+    "Bay_01_luggage_rack.001",
+    "Bay_01_luggage_rack.002",
+    "Bay_01_luggage_rack.003",
+    "Bay_01_luggage_rack.004",
+    "Bay_01_luggage_rack.005",
+    "Bay_01_luggage_rack.006",
+    "Bay_01_luggage_rack.007",
+    "Bay_01_luggage_rack.008",
+    "Bay_01_luggage_rack.009",
+    "Bay_01_luggage_rack.010",
+    "Bay_01_luggage_rack.011",
+    "Bay_01_middle_folded_backrest",
+    "Bay_01_middle_folded_backrest.001",
+    "Bay_01_partition_end",
+    "Bay_01_partition_start",
+    "Bay_01_rack_rail",
+    "Bay_01_rack_rail.001",
+    "Bay_01_rack_rail.002",
+    "Bay_01_rack_rail.003",
+    "Bay_01_seat_leg",
+    "Bay_01_seat_leg.001",
+    "Bay_01_seat_leg.002",
+    "Bay_01_seat_leg.003",
+    "Bay_01_side_end_trim",
+    "Bay_01_side_end_trim.001",
+    "Bay_01_side_lower",
+    "Bay_01_side_lower_cushion_division",
+    "Bay_01_side_lower_pan",
+    "Bay_01_side_support",
+    "Bay_01_side_support.001",
+    "Bay_01_side_upper",
+    "Bay_01_side_upper_pan",
+    "Bay_01_support_anchor",
+    "Bay_01_support_anchor.001",
+    "Bay_01_support_anchor.002",
+    "Bay_01_support_anchor.003",
+    "Bay_01_table_bracket",
+    "Bay_01_upper",
+    "Bay_01_upper.001",
+    "Bay_01_upper_steel_pan",
+    "Bay_01_upper_steel_pan.001",
+    "Bay_01_upper_support",
+    "Bay_01_upper_support.001",
+    "Bay_01_upper_support.002",
+    "Bay_01_upper_support.003",
+    "Bay_01_window_table",
+    "Bay_02_berth_number_plate",
+    "Bay_02_berth_number_plate.001",
+    "Bay_02_fan_blade",
+    "Bay_02_fan_blade.001",
+    "Bay_02_fan_blade.002",
+    "Bay_02_fan_guard",
+    "Bay_02_fan_guard.001",
+    "Bay_02_fan_guard.002",
+    "Bay_02_fan_guard.003",
+    "Bay_02_fan_guard.004",
+    "Bay_02_fan_guard.005",
+    "Bay_02_fan_guard.006",
+    "Bay_02_fan_guard.007",
+    "Bay_02_fan_guard.008",
+    "Bay_02_fan_guard.009",
+    "Bay_02_fan_guard.010",
+    "Bay_02_fan_guard.011",
+    "Bay_02_fan_guard.012",
+    "Bay_02_fan_guard.013",
+    "Bay_02_fan_guard.014",
+    "Bay_02_fan_guard.015",
+    "Bay_02_fan_guard.016",
+    "Bay_02_fan_guard.017",
+    "Bay_02_fan_guard.018",
+    "Bay_02_fan_guard.019",
+    "Bay_02_fan_guard.020",
+    "Bay_02_fan_guard.021",
+    "Bay_02_fan_guard.022",
+    "Bay_02_fan_guard.023",
+    "Bay_02_fan_guard.024",
+    "Bay_02_fan_guard.025",
+    "Bay_02_fan_guard.026",
+    "Bay_02_fan_guard.027",
+    "Bay_02_fan_guard.028",
+    "Bay_02_fan_guard.029",
+    "Bay_02_fan_guard.030",
+    "Bay_02_fan_guard.031",
+    "Bay_02_fan_guard.032",
+    "Bay_02_fan_guard.033",
+    "Bay_02_fan_guard.034",
+    "Bay_02_fan_guard.035",
+    "Bay_02_fan_guard.036",
+    "Bay_02_fan_guard.037",
+    "Bay_02_fan_guard.038",
+    "Bay_02_fan_guard.039",
+    "Bay_02_fan_guard.040",
+    "Bay_02_fan_guard.041",
+    "Bay_02_fan_guard.042",
+    "Bay_02_fan_guard.043",
+    "Bay_02_fan_guard.044",
+    "Bay_02_fan_guard.045",
+    "Bay_02_fan_guard.046",
+    "Bay_02_fan_guard.047",
+    "Bay_02_fan_guard.048",
+    "Bay_02_fan_guard.049",
+    "Bay_02_fan_guard.050",
+    "Bay_02_fan_guard.051",
+    "Bay_02_fan_guard.052",
+    "Bay_02_fan_guard.053",
+    "Bay_02_fan_guard.054",
+    "Bay_02_fan_guard.055",
+    "Bay_02_fan_guard.056",
+    "Bay_02_fan_guard.057",
+    "Bay_02_fan_guard.058",
+    "Bay_02_fan_guard.059",
+    "Bay_02_fan_guard_spoke",
+    "Bay_02_fan_guard_spoke.001",
+    "Bay_02_fan_guard_spoke.002",
+    "Bay_02_fan_guard_spoke.003",
+    "Bay_02_fan_guard_spoke.004",
+    "Bay_02_fan_guard_spoke.005",
+    "Bay_02_fan_guard_spoke.006",
+    "Bay_02_fan_guard_spoke.007",
+    "Bay_02_fan_motor",
+    "Bay_02_fan_stem",
+    "Bay_02_fluorescent_diffuser",
+    "Bay_02_fluorescent_fixture",
+    "Bay_02_fold_hinge",
+    "Bay_02_fold_hinge.001",
+    "Bay_02_fold_hinge.002",
+    "Bay_02_fold_hinge.003",
+    "Bay_02_ladder_rung",
+    "Bay_02_ladder_rung.001",
+    "Bay_02_ladder_rung.002",
+    "Bay_02_ladder_rung.003",
+    "Bay_02_ladder_rung.004",
+    "Bay_02_ladder_rung.005",
+    "Bay_02_ladder_rung.006",
+    "Bay_02_ladder_rung.007",
+    "Bay_02_ladder_rung.008",
+    "Bay_02_ladder_rung.009",
+    "Bay_02_ladder_upright",
+    "Bay_02_ladder_upright.001",
+    "Bay_02_ladder_upright.002",
+    "Bay_02_ladder_upright.003",
+    "Bay_02_lower",
+    "Bay_02_lower.001",
+    "Bay_02_lower_steel_pan",
+    "Bay_02_lower_steel_pan.001",
+    "Bay_02_luggage_rack",
+    "Bay_02_luggage_rack.001",
+    "Bay_02_luggage_rack.002",
+    "Bay_02_luggage_rack.003",
+    "Bay_02_luggage_rack.004",
+    "Bay_02_luggage_rack.005",
+    "Bay_02_luggage_rack.006",
+    "Bay_02_luggage_rack.007",
+    "Bay_02_luggage_rack.008",
+    "Bay_02_luggage_rack.009",
+    "Bay_02_luggage_rack.010",
+    "Bay_02_luggage_rack.011",
+    "Bay_02_middle_folded_backrest",
+    "Bay_02_middle_folded_backrest.001",
+    "Bay_02_partition_end",
+    "Bay_02_rack_rail",
+    "Bay_02_rack_rail.001",
+    "Bay_02_rack_rail.002",
+    "Bay_02_rack_rail.003",
+    "Bay_02_seat_leg",
+    "Bay_02_seat_leg.001",
+    "Bay_02_seat_leg.002",
+    "Bay_02_seat_leg.003",
+    "Bay_02_side_end_trim",
+    "Bay_02_side_end_trim.001",
+    "Bay_02_side_lower",
+    "Bay_02_side_lower_cushion_division",
+    "Bay_02_side_lower_pan",
+    "Bay_02_side_support",
+    "Bay_02_side_support.001",
+    "Bay_02_side_upper",
+    "Bay_02_side_upper_pan",
+    "Bay_02_support_anchor",
+    "Bay_02_support_anchor.001",
+    "Bay_02_support_anchor.002",
+    "Bay_02_support_anchor.003",
+    "Bay_02_table_bracket",
+    "Bay_02_upper",
+    "Bay_02_upper.001",
+    "Bay_02_upper_steel_pan",
+    "Bay_02_upper_steel_pan.001",
+    "Bay_02_upper_support",
+    "Bay_02_upper_support.001",
+    "Bay_02_upper_support.002",
+    "Bay_02_upper_support.003",
+    "Bay_02_window_table",
+    "Bay_03_berth_number_plate",
+    "Bay_03_berth_number_plate.001",
+    "Bay_03_fan_blade",
+    "Bay_03_fan_blade.001",
+    "Bay_03_fan_blade.002",
+    "Bay_03_fan_guard",
+    "Bay_03_fan_guard.001",
+    "Bay_03_fan_guard.002",
+    "Bay_03_fan_guard.003",
+    "Bay_03_fan_guard.004",
+    "Bay_03_fan_guard.005",
+    "Bay_03_fan_guard.006",
+    "Bay_03_fan_guard.007",
+    "Bay_03_fan_guard.008",
+    "Bay_03_fan_guard.009",
+    "Bay_03_fan_guard.010",
+    "Bay_03_fan_guard.011",
+    "Bay_03_fan_guard.012",
+    "Bay_03_fan_guard.013",
+    "Bay_03_fan_guard.014",
+    "Bay_03_fan_guard.015",
+    "Bay_03_fan_guard.016",
+    "Bay_03_fan_guard.017",
+    "Bay_03_fan_guard.018",
+    "Bay_03_fan_guard.019",
+    "Bay_03_fan_guard.020",
+    "Bay_03_fan_guard.021",
+    "Bay_03_fan_guard.022",
+    "Bay_03_fan_guard.023",
+    "Bay_03_fan_guard.024",
+    "Bay_03_fan_guard.025",
+    "Bay_03_fan_guard.026",
+    "Bay_03_fan_guard.027",
+    "Bay_03_fan_guard.028",
+    "Bay_03_fan_guard.029",
+    "Bay_03_fan_guard.030",
+    "Bay_03_fan_guard.031",
+    "Bay_03_fan_guard.032",
+    "Bay_03_fan_guard.033",
+    "Bay_03_fan_guard.034",
+    "Bay_03_fan_guard.035",
+    "Bay_03_fan_guard.036",
+    "Bay_03_fan_guard.037",
+    "Bay_03_fan_guard.038",
+    "Bay_03_fan_guard.039",
+    "Bay_03_fan_guard.040",
+    "Bay_03_fan_guard.041",
+    "Bay_03_fan_guard.042",
+    "Bay_03_fan_guard.043",
+    "Bay_03_fan_guard.044",
+    "Bay_03_fan_guard.045",
+    "Bay_03_fan_guard.046",
+    "Bay_03_fan_guard.047",
+    "Bay_03_fan_guard.048",
+    "Bay_03_fan_guard.049",
+    "Bay_03_fan_guard.050",
+    "Bay_03_fan_guard.051",
+    "Bay_03_fan_guard.052",
+    "Bay_03_fan_guard.053",
+    "Bay_03_fan_guard.054",
+    "Bay_03_fan_guard.055",
+    "Bay_03_fan_guard.056",
+    "Bay_03_fan_guard.057",
+    "Bay_03_fan_guard.058",
+    "Bay_03_fan_guard.059",
+    "Bay_03_fan_guard_spoke",
+    "Bay_03_fan_guard_spoke.001",
+    "Bay_03_fan_guard_spoke.002",
+    "Bay_03_fan_guard_spoke.003",
+    "Bay_03_fan_guard_spoke.004",
+    "Bay_03_fan_guard_spoke.005",
+    "Bay_03_fan_guard_spoke.006",
+    "Bay_03_fan_guard_spoke.007",
+    "Bay_03_fan_motor",
+    "Bay_03_fan_stem",
+    "Bay_03_fluorescent_diffuser",
+    "Bay_03_fluorescent_fixture",
+    "Bay_03_fold_hinge",
+    "Bay_03_fold_hinge.001",
+    "Bay_03_fold_hinge.002",
+    "Bay_03_fold_hinge.003",
+    "Bay_03_ladder_rung",
+    "Bay_03_ladder_rung.001",
+    "Bay_03_ladder_rung.002",
+    "Bay_03_ladder_rung.003",
+    "Bay_03_ladder_rung.004",
+    "Bay_03_ladder_rung.005",
+    "Bay_03_ladder_rung.006",
+    "Bay_03_ladder_rung.007",
+    "Bay_03_ladder_rung.008",
+    "Bay_03_ladder_rung.009",
+    "Bay_03_ladder_upright",
+    "Bay_03_ladder_upright.001",
+    "Bay_03_ladder_upright.002",
+    "Bay_03_ladder_upright.003",
+    "Bay_03_lower",
+    "Bay_03_lower.001",
+    "Bay_03_lower_steel_pan",
+    "Bay_03_lower_steel_pan.001",
+    "Bay_03_luggage_rack",
+    "Bay_03_luggage_rack.001",
+    "Bay_03_luggage_rack.002",
+    "Bay_03_luggage_rack.003",
+    "Bay_03_luggage_rack.004",
+    "Bay_03_luggage_rack.005",
+    "Bay_03_luggage_rack.006",
+    "Bay_03_luggage_rack.007",
+    "Bay_03_luggage_rack.008",
+    "Bay_03_luggage_rack.009",
+    "Bay_03_luggage_rack.010",
+    "Bay_03_luggage_rack.011",
+    "Bay_03_middle_folded_backrest",
+    "Bay_03_middle_folded_backrest.001",
+    "Bay_03_partition_end",
+    "Bay_03_rack_rail",
+    "Bay_03_rack_rail.001",
+    "Bay_03_rack_rail.002",
+    "Bay_03_rack_rail.003",
+    "Bay_03_seat_leg",
+    "Bay_03_seat_leg.001",
+    "Bay_03_seat_leg.002",
+    "Bay_03_seat_leg.003",
+    "Bay_03_side_end_trim",
+    "Bay_03_side_end_trim.001",
+    "Bay_03_side_lower",
+    "Bay_03_side_lower_cushion_division",
+    "Bay_03_side_lower_pan",
+    "Bay_03_side_support",
+    "Bay_03_side_support.001",
+    "Bay_03_side_upper",
+    "Bay_03_side_upper_pan",
+    "Bay_03_support_anchor",
+    "Bay_03_support_anchor.001",
+    "Bay_03_support_anchor.002",
+    "Bay_03_support_anchor.003",
+    "Bay_03_table_bracket",
+    "Bay_03_upper",
+    "Bay_03_upper.001",
+    "Bay_03_upper_steel_pan",
+    "Bay_03_upper_steel_pan.001",
+    "Bay_03_upper_support",
+    "Bay_03_upper_support.001",
+    "Bay_03_upper_support.002",
+    "Bay_03_upper_support.003",
+    "Bay_03_window_table",
+    "Bay_04_berth_number_plate",
+    "Bay_04_berth_number_plate.001",
+    "Bay_04_fan_blade",
+    "Bay_04_fan_blade.001",
+    "Bay_04_fan_blade.002",
+    "Bay_04_fan_guard",
+    "Bay_04_fan_guard.001",
+    "Bay_04_fan_guard.002",
+    "Bay_04_fan_guard.003",
+    "Bay_04_fan_guard.004",
+    "Bay_04_fan_guard.005",
+    "Bay_04_fan_guard.006",
+    "Bay_04_fan_guard.007",
+    "Bay_04_fan_guard.008",
+    "Bay_04_fan_guard.009",
+    "Bay_04_fan_guard.010",
+    "Bay_04_fan_guard.011",
+    "Bay_04_fan_guard.012",
+    "Bay_04_fan_guard.013",
+    "Bay_04_fan_guard.014",
+    "Bay_04_fan_guard.015",
+    "Bay_04_fan_guard.016",
+    "Bay_04_fan_guard.017",
+    "Bay_04_fan_guard.018",
+    "Bay_04_fan_guard.019",
+    "Bay_04_fan_guard.020",
+    "Bay_04_fan_guard.021",
+    "Bay_04_fan_guard.022",
+    "Bay_04_fan_guard.023",
+    "Bay_04_fan_guard.024",
+    "Bay_04_fan_guard.025",
+    "Bay_04_fan_guard.026",
+    "Bay_04_fan_guard.027",
+    "Bay_04_fan_guard.028",
+    "Bay_04_fan_guard.029",
+    "Bay_04_fan_guard.030",
+    "Bay_04_fan_guard.031",
+    "Bay_04_fan_guard.032",
+    "Bay_04_fan_guard.033",
+    "Bay_04_fan_guard.034",
+    "Bay_04_fan_guard.035",
+    "Bay_04_fan_guard.036",
+    "Bay_04_fan_guard.037",
+    "Bay_04_fan_guard.038",
+    "Bay_04_fan_guard.039",
+    "Bay_04_fan_guard.040",
+    "Bay_04_fan_guard.041",
+    "Bay_04_fan_guard.042",
+    "Bay_04_fan_guard.043",
+    "Bay_04_fan_guard.044",
+    "Bay_04_fan_guard.045",
+    "Bay_04_fan_guard.046",
+    "Bay_04_fan_guard.047",
+    "Bay_04_fan_guard.048",
+    "Bay_04_fan_guard.049",
+    "Bay_04_fan_guard.050",
+    "Bay_04_fan_guard.051",
+    "Bay_04_fan_guard.052",
+    "Bay_04_fan_guard.053",
+    "Bay_04_fan_guard.054",
+    "Bay_04_fan_guard.055",
+    "Bay_04_fan_guard.056",
+    "Bay_04_fan_guard.057",
+    "Bay_04_fan_guard.058",
+    "Bay_04_fan_guard.059",
+    "Bay_04_fan_guard_spoke",
+    "Bay_04_fan_guard_spoke.001",
+    "Bay_04_fan_guard_spoke.002",
+    "Bay_04_fan_guard_spoke.003",
+    "Bay_04_fan_guard_spoke.004",
+    "Bay_04_fan_guard_spoke.005",
+    "Bay_04_fan_guard_spoke.006",
+    "Bay_04_fan_guard_spoke.007",
+    "Bay_04_fan_motor",
+    "Bay_04_fan_stem",
+    "Bay_04_fluorescent_diffuser",
+    "Bay_04_fluorescent_fixture",
+    "Bay_04_fold_hinge",
+    "Bay_04_fold_hinge.001",
+    "Bay_04_fold_hinge.002",
+    "Bay_04_fold_hinge.003",
+    "Bay_04_ladder_rung",
+    "Bay_04_ladder_rung.001",
+    "Bay_04_ladder_rung.002",
+    "Bay_04_ladder_rung.003",
+    "Bay_04_ladder_rung.004",
+    "Bay_04_ladder_rung.005",
+    "Bay_04_ladder_rung.006",
+    "Bay_04_ladder_rung.007",
+    "Bay_04_ladder_rung.008",
+    "Bay_04_ladder_rung.009",
+    "Bay_04_ladder_upright",
+    "Bay_04_ladder_upright.001",
+    "Bay_04_ladder_upright.002",
+    "Bay_04_ladder_upright.003",
+    "Bay_04_lower",
+    "Bay_04_lower.001",
+    "Bay_04_lower_steel_pan",
+    "Bay_04_lower_steel_pan.001",
+    "Bay_04_luggage_rack",
+    "Bay_04_luggage_rack.001",
+    "Bay_04_luggage_rack.002",
+    "Bay_04_luggage_rack.003",
+    "Bay_04_luggage_rack.004",
+    "Bay_04_luggage_rack.005",
+    "Bay_04_luggage_rack.006",
+    "Bay_04_luggage_rack.007",
+    "Bay_04_luggage_rack.008",
+    "Bay_04_luggage_rack.009",
+    "Bay_04_luggage_rack.010",
+    "Bay_04_luggage_rack.011",
+    "Bay_04_middle_folded_backrest",
+    "Bay_04_middle_folded_backrest.001",
+    "Bay_04_partition_end",
+    "Bay_04_rack_rail",
+    "Bay_04_rack_rail.001",
+    "Bay_04_rack_rail.002",
+    "Bay_04_rack_rail.003",
+    "Bay_04_seat_leg",
+    "Bay_04_seat_leg.001",
+    "Bay_04_seat_leg.002",
+    "Bay_04_seat_leg.003",
+    "Bay_04_side_end_trim",
+    "Bay_04_side_end_trim.001",
+    "Bay_04_side_lower",
+    "Bay_04_side_lower_cushion_division",
+    "Bay_04_side_lower_pan",
+    "Bay_04_side_support",
+    "Bay_04_side_support.001",
+    "Bay_04_side_upper",
+    "Bay_04_side_upper_pan",
+    "Bay_04_support_anchor",
+    "Bay_04_support_anchor.001",
+    "Bay_04_support_anchor.002",
+    "Bay_04_support_anchor.003",
+    "Bay_04_table_bracket",
+    "Bay_04_upper",
+    "Bay_04_upper.001",
+    "Bay_04_upper_steel_pan",
+    "Bay_04_upper_steel_pan.001",
+    "Bay_04_upper_support",
+    "Bay_04_upper_support.001",
+    "Bay_04_upper_support.002",
+    "Bay_04_upper_support.003",
+    "Bay_04_window_table",
+    "Bay_05_berth_number_plate",
+    "Bay_05_berth_number_plate.001",
+    "Bay_05_fan_blade",
+    "Bay_05_fan_blade.001",
+    "Bay_05_fan_blade.002",
+    "Bay_05_fan_guard",
+    "Bay_05_fan_guard.001",
+    "Bay_05_fan_guard.002",
+    "Bay_05_fan_guard.003",
+    "Bay_05_fan_guard.004",
+    "Bay_05_fan_guard.005",
+    "Bay_05_fan_guard.006",
+    "Bay_05_fan_guard.007",
+    "Bay_05_fan_guard.008",
+    "Bay_05_fan_guard.009",
+    "Bay_05_fan_guard.010",
+    "Bay_05_fan_guard.011",
+    "Bay_05_fan_guard.012",
+    "Bay_05_fan_guard.013",
+    "Bay_05_fan_guard.014",
+    "Bay_05_fan_guard.015",
+    "Bay_05_fan_guard.016",
+    "Bay_05_fan_guard.017",
+    "Bay_05_fan_guard.018",
+    "Bay_05_fan_guard.019",
+    "Bay_05_fan_guard.020",
+    "Bay_05_fan_guard.021",
+    "Bay_05_fan_guard.022",
+    "Bay_05_fan_guard.023",
+    "Bay_05_fan_guard.024",
+    "Bay_05_fan_guard.025",
+    "Bay_05_fan_guard.026",
+    "Bay_05_fan_guard.027",
+    "Bay_05_fan_guard.028",
+    "Bay_05_fan_guard.029",
+    "Bay_05_fan_guard.030",
+    "Bay_05_fan_guard.031",
+    "Bay_05_fan_guard.032",
+    "Bay_05_fan_guard.033",
+    "Bay_05_fan_guard.034",
+    "Bay_05_fan_guard.035",
+    "Bay_05_fan_guard.036",
+    "Bay_05_fan_guard.037",
+    "Bay_05_fan_guard.038",
+    "Bay_05_fan_guard.039",
+    "Bay_05_fan_guard.040",
+    "Bay_05_fan_guard.041",
+    "Bay_05_fan_guard.042",
+    "Bay_05_fan_guard.043",
+    "Bay_05_fan_guard.044",
+    "Bay_05_fan_guard.045",
+    "Bay_05_fan_guard.046",
+    "Bay_05_fan_guard.047",
+    "Bay_05_fan_guard.048",
+    "Bay_05_fan_guard.049",
+    "Bay_05_fan_guard.050",
+    "Bay_05_fan_guard.051",
+    "Bay_05_fan_guard.052",
+    "Bay_05_fan_guard.053",
+    "Bay_05_fan_guard.054",
+    "Bay_05_fan_guard.055",
+    "Bay_05_fan_guard.056",
+    "Bay_05_fan_guard.057",
+    "Bay_05_fan_guard.058",
+    "Bay_05_fan_guard.059",
+    "Bay_05_fan_guard_spoke",
+    "Bay_05_fan_guard_spoke.001",
+    "Bay_05_fan_guard_spoke.002",
+    "Bay_05_fan_guard_spoke.003",
+    "Bay_05_fan_guard_spoke.004",
+    "Bay_05_fan_guard_spoke.005",
+    "Bay_05_fan_guard_spoke.006",
+    "Bay_05_fan_guard_spoke.007",
+    "Bay_05_fan_motor",
+    "Bay_05_fan_stem",
+    "Bay_05_fluorescent_diffuser",
+    "Bay_05_fluorescent_fixture",
+    "Bay_05_fold_hinge",
+    "Bay_05_fold_hinge.001",
+    "Bay_05_fold_hinge.002",
+    "Bay_05_fold_hinge.003",
+    "Bay_05_ladder_rung",
+    "Bay_05_ladder_rung.001",
+    "Bay_05_ladder_rung.002",
+    "Bay_05_ladder_rung.003",
+    "Bay_05_ladder_rung.004",
+    "Bay_05_ladder_rung.005",
+    "Bay_05_ladder_rung.006",
+    "Bay_05_ladder_rung.007",
+    "Bay_05_ladder_rung.008",
+    "Bay_05_ladder_rung.009",
+    "Bay_05_ladder_upright",
+    "Bay_05_ladder_upright.001",
+    "Bay_05_ladder_upright.002",
+    "Bay_05_ladder_upright.003",
+    "Bay_05_lower",
+    "Bay_05_lower.001",
+    "Bay_05_lower_steel_pan",
+    "Bay_05_lower_steel_pan.001",
+    "Bay_05_luggage_rack",
+    "Bay_05_luggage_rack.001",
+    "Bay_05_luggage_rack.002",
+    "Bay_05_luggage_rack.003",
+    "Bay_05_luggage_rack.004",
+    "Bay_05_luggage_rack.005",
+    "Bay_05_luggage_rack.006",
+    "Bay_05_luggage_rack.007",
+    "Bay_05_luggage_rack.008",
+    "Bay_05_luggage_rack.009",
+    "Bay_05_luggage_rack.010",
+    "Bay_05_luggage_rack.011",
+    "Bay_05_middle_folded_backrest",
+    "Bay_05_middle_folded_backrest.001",
+    "Bay_05_partition_end",
+    "Bay_05_rack_rail",
+    "Bay_05_rack_rail.001",
+    "Bay_05_rack_rail.002",
+    "Bay_05_rack_rail.003",
+    "Bay_05_seat_leg",
+    "Bay_05_seat_leg.001",
+    "Bay_05_seat_leg.002",
+    "Bay_05_seat_leg.003",
+    "Bay_05_side_end_trim",
+    "Bay_05_side_end_trim.001",
+    "Bay_05_side_lower",
+    "Bay_05_side_lower_cushion_division",
+    "Bay_05_side_lower_pan",
+    "Bay_05_side_support",
+    "Bay_05_side_support.001",
+    "Bay_05_side_upper",
+    "Bay_05_side_upper_pan",
+    "Bay_05_support_anchor",
+    "Bay_05_support_anchor.001",
+    "Bay_05_support_anchor.002",
+    "Bay_05_support_anchor.003",
+    "Bay_05_table_bracket",
+    "Bay_05_upper",
+    "Bay_05_upper.001",
+    "Bay_05_upper_steel_pan",
+    "Bay_05_upper_steel_pan.001",
+    "Bay_05_upper_support",
+    "Bay_05_upper_support.001",
+    "Bay_05_upper_support.002",
+    "Bay_05_upper_support.003",
+    "Bay_05_window_table",
+    "Bay_06_berth_number_plate",
+    "Bay_06_berth_number_plate.001",
+    "Bay_06_fan_blade",
+    "Bay_06_fan_blade.001",
+    "Bay_06_fan_blade.002",
+    "Bay_06_fan_guard",
+    "Bay_06_fan_guard.001",
+    "Bay_06_fan_guard.002",
+    "Bay_06_fan_guard.003",
+    "Bay_06_fan_guard.004",
+    "Bay_06_fan_guard.005",
+    "Bay_06_fan_guard.006",
+    "Bay_06_fan_guard.007",
+    "Bay_06_fan_guard.008",
+    "Bay_06_fan_guard.009",
+    "Bay_06_fan_guard.010",
+    "Bay_06_fan_guard.011",
+    "Bay_06_fan_guard.012",
+    "Bay_06_fan_guard.013",
+    "Bay_06_fan_guard.014",
+    "Bay_06_fan_guard.015",
+    "Bay_06_fan_guard.016",
+    "Bay_06_fan_guard.017",
+    "Bay_06_fan_guard.018",
+    "Bay_06_fan_guard.019",
+    "Bay_06_fan_guard.020",
+    "Bay_06_fan_guard.021",
+    "Bay_06_fan_guard.022",
+    "Bay_06_fan_guard.023",
+    "Bay_06_fan_guard.024",
+    "Bay_06_fan_guard.025",
+    "Bay_06_fan_guard.026",
+    "Bay_06_fan_guard.027",
+    "Bay_06_fan_guard.028",
+    "Bay_06_fan_guard.029",
+    "Bay_06_fan_guard.030",
+    "Bay_06_fan_guard.031",
+    "Bay_06_fan_guard.032",
+    "Bay_06_fan_guard.033",
+    "Bay_06_fan_guard.034",
+    "Bay_06_fan_guard.035",
+    "Bay_06_fan_guard.036",
+    "Bay_06_fan_guard.037",
+    "Bay_06_fan_guard.038",
+    "Bay_06_fan_guard.039",
+    "Bay_06_fan_guard.040",
+    "Bay_06_fan_guard.041",
+    "Bay_06_fan_guard.042",
+    "Bay_06_fan_guard.043",
+    "Bay_06_fan_guard.044",
+    "Bay_06_fan_guard.045",
+    "Bay_06_fan_guard.046",
+    "Bay_06_fan_guard.047",
+    "Bay_06_fan_guard.048",
+    "Bay_06_fan_guard.049",
+    "Bay_06_fan_guard.050",
+    "Bay_06_fan_guard.051",
+    "Bay_06_fan_guard.052",
+    "Bay_06_fan_guard.053",
+    "Bay_06_fan_guard.054",
+    "Bay_06_fan_guard.055",
+    "Bay_06_fan_guard.056",
+    "Bay_06_fan_guard.057",
+    "Bay_06_fan_guard.058",
+    "Bay_06_fan_guard.059",
+    "Bay_06_fan_guard_spoke",
+    "Bay_06_fan_guard_spoke.001",
+    "Bay_06_fan_guard_spoke.002",
+    "Bay_06_fan_guard_spoke.003",
+    "Bay_06_fan_guard_spoke.004",
+    "Bay_06_fan_guard_spoke.005",
+    "Bay_06_fan_guard_spoke.006",
+    "Bay_06_fan_guard_spoke.007",
+    "Bay_06_fan_motor",
+    "Bay_06_fan_stem",
+    "Bay_06_fluorescent_diffuser",
+    "Bay_06_fluorescent_fixture",
+    "Bay_06_fold_hinge",
+    "Bay_06_fold_hinge.001",
+    "Bay_06_fold_hinge.002",
+    "Bay_06_fold_hinge.003",
+    "Bay_06_ladder_rung",
+    "Bay_06_ladder_rung.001",
+    "Bay_06_ladder_rung.002",
+    "Bay_06_ladder_rung.003",
+    "Bay_06_ladder_rung.004",
+    "Bay_06_ladder_rung.005",
+    "Bay_06_ladder_rung.006",
+    "Bay_06_ladder_rung.007",
+    "Bay_06_ladder_rung.008",
+    "Bay_06_ladder_rung.009",
+    "Bay_06_ladder_upright",
+    "Bay_06_ladder_upright.001",
+    "Bay_06_ladder_upright.002",
+    "Bay_06_ladder_upright.003",
+    "Bay_06_lower",
+    "Bay_06_lower.001",
+    "Bay_06_lower_steel_pan",
+    "Bay_06_lower_steel_pan.001",
+    "Bay_06_luggage_rack",
+    "Bay_06_luggage_rack.001",
+    "Bay_06_luggage_rack.002",
+    "Bay_06_luggage_rack.003",
+    "Bay_06_luggage_rack.004",
+    "Bay_06_luggage_rack.005",
+    "Bay_06_luggage_rack.006",
+    "Bay_06_luggage_rack.007",
+    "Bay_06_luggage_rack.008",
+    "Bay_06_luggage_rack.009",
+    "Bay_06_luggage_rack.010",
+    "Bay_06_luggage_rack.011",
+    "Bay_06_middle_folded_backrest",
+    "Bay_06_middle_folded_backrest.001",
+    "Bay_06_partition_end",
+    "Bay_06_rack_rail",
+    "Bay_06_rack_rail.001",
+    "Bay_06_rack_rail.002",
+    "Bay_06_rack_rail.003",
+    "Bay_06_seat_leg",
+    "Bay_06_seat_leg.001",
+    "Bay_06_seat_leg.002",
+    "Bay_06_seat_leg.003",
+    "Bay_06_side_end_trim",
+    "Bay_06_side_end_trim.001",
+    "Bay_06_side_lower",
+    "Bay_06_side_lower_cushion_division",
+    "Bay_06_side_lower_pan",
+    "Bay_06_side_support",
+    "Bay_06_side_support.001",
+    "Bay_06_side_upper",
+    "Bay_06_side_upper_pan",
+    "Bay_06_support_anchor",
+    "Bay_06_support_anchor.001",
+    "Bay_06_support_anchor.002",
+    "Bay_06_support_anchor.003",
+    "Bay_06_table_bracket",
+    "Bay_06_upper",
+    "Bay_06_upper.001",
+    "Bay_06_upper_steel_pan",
+    "Bay_06_upper_steel_pan.001",
+    "Bay_06_upper_support",
+    "Bay_06_upper_support.001",
+    "Bay_06_upper_support.002",
+    "Bay_06_upper_support.003",
+    "Bay_06_window_table",
+    "Bay_07_berth_number_plate",
+    "Bay_07_berth_number_plate.001",
+    "Bay_07_fan_blade",
+    "Bay_07_fan_blade.001",
+    "Bay_07_fan_blade.002",
+    "Bay_07_fan_guard",
+    "Bay_07_fan_guard.001",
+    "Bay_07_fan_guard.002",
+    "Bay_07_fan_guard.003",
+    "Bay_07_fan_guard.004",
+    "Bay_07_fan_guard.005",
+    "Bay_07_fan_guard.006",
+    "Bay_07_fan_guard.007",
+    "Bay_07_fan_guard.008",
+    "Bay_07_fan_guard.009",
+    "Bay_07_fan_guard.010",
+    "Bay_07_fan_guard.011",
+    "Bay_07_fan_guard.012",
+    "Bay_07_fan_guard.013",
+    "Bay_07_fan_guard.014",
+    "Bay_07_fan_guard.015",
+    "Bay_07_fan_guard.016",
+    "Bay_07_fan_guard.017",
+    "Bay_07_fan_guard.018",
+    "Bay_07_fan_guard.019",
+    "Bay_07_fan_guard.020",
+    "Bay_07_fan_guard.021",
+    "Bay_07_fan_guard.022",
+    "Bay_07_fan_guard.023",
+    "Bay_07_fan_guard.024",
+    "Bay_07_fan_guard.025",
+    "Bay_07_fan_guard.026",
+    "Bay_07_fan_guard.027",
+    "Bay_07_fan_guard.028",
+    "Bay_07_fan_guard.029",
+    "Bay_07_fan_guard.030",
+    "Bay_07_fan_guard.031",
+    "Bay_07_fan_guard.032",
+    "Bay_07_fan_guard.033",
+    "Bay_07_fan_guard.034",
+    "Bay_07_fan_guard.035",
+    "Bay_07_fan_guard.036",
+    "Bay_07_fan_guard.037",
+    "Bay_07_fan_guard.038",
+    "Bay_07_fan_guard.039",
+    "Bay_07_fan_guard.040",
+    "Bay_07_fan_guard.041",
+    "Bay_07_fan_guard.042",
+    "Bay_07_fan_guard.043",
+    "Bay_07_fan_guard.044",
+    "Bay_07_fan_guard.045",
+    "Bay_07_fan_guard.046",
+    "Bay_07_fan_guard.047",
+    "Bay_07_fan_guard.048",
+    "Bay_07_fan_guard.049",
+    "Bay_07_fan_guard.050",
+    "Bay_07_fan_guard.051",
+    "Bay_07_fan_guard.052",
+    "Bay_07_fan_guard.053",
+    "Bay_07_fan_guard.054",
+    "Bay_07_fan_guard.055",
+    "Bay_07_fan_guard.056",
+    "Bay_07_fan_guard.057",
+    "Bay_07_fan_guard.058",
+    "Bay_07_fan_guard.059",
+    "Bay_07_fan_guard_spoke",
+    "Bay_07_fan_guard_spoke.001",
+    "Bay_07_fan_guard_spoke.002",
+    "Bay_07_fan_guard_spoke.003",
+    "Bay_07_fan_guard_spoke.004",
+    "Bay_07_fan_guard_spoke.005",
+    "Bay_07_fan_guard_spoke.006",
+    "Bay_07_fan_guard_spoke.007",
+    "Bay_07_fan_motor",
+    "Bay_07_fan_stem",
+    "Bay_07_fluorescent_diffuser",
+    "Bay_07_fluorescent_fixture",
+    "Bay_07_fold_hinge",
+    "Bay_07_fold_hinge.001",
+    "Bay_07_fold_hinge.002",
+    "Bay_07_fold_hinge.003",
+    "Bay_07_ladder_rung",
+    "Bay_07_ladder_rung.001",
+    "Bay_07_ladder_rung.002",
+    "Bay_07_ladder_rung.003",
+    "Bay_07_ladder_rung.004",
+    "Bay_07_ladder_rung.005",
+    "Bay_07_ladder_rung.006",
+    "Bay_07_ladder_rung.007",
+    "Bay_07_ladder_rung.008",
+    "Bay_07_ladder_rung.009",
+    "Bay_07_ladder_upright",
+    "Bay_07_ladder_upright.001",
+    "Bay_07_ladder_upright.002",
+    "Bay_07_ladder_upright.003",
+    "Bay_07_lower",
+    "Bay_07_lower.001",
+    "Bay_07_lower_steel_pan",
+    "Bay_07_lower_steel_pan.001",
+    "Bay_07_luggage_rack",
+    "Bay_07_luggage_rack.001",
+    "Bay_07_luggage_rack.002",
+    "Bay_07_luggage_rack.003",
+    "Bay_07_luggage_rack.004",
+    "Bay_07_luggage_rack.005",
+    "Bay_07_luggage_rack.006",
+    "Bay_07_luggage_rack.007",
+    "Bay_07_luggage_rack.008",
+    "Bay_07_luggage_rack.009",
+    "Bay_07_luggage_rack.010",
+    "Bay_07_luggage_rack.011",
+    "Bay_07_middle_folded_backrest",
+    "Bay_07_middle_folded_backrest.001",
+    "Bay_07_partition_end",
+    "Bay_07_rack_rail",
+    "Bay_07_rack_rail.001",
+    "Bay_07_rack_rail.002",
+    "Bay_07_rack_rail.003",
+    "Bay_07_seat_leg",
+    "Bay_07_seat_leg.001",
+    "Bay_07_seat_leg.002",
+    "Bay_07_seat_leg.003",
+    "Bay_07_side_end_trim",
+    "Bay_07_side_end_trim.001",
+    "Bay_07_side_lower",
+    "Bay_07_side_lower_cushion_division",
+    "Bay_07_side_lower_pan",
+    "Bay_07_side_support",
+    "Bay_07_side_support.001",
+    "Bay_07_side_upper",
+    "Bay_07_side_upper_pan",
+    "Bay_07_support_anchor",
+    "Bay_07_support_anchor.001",
+    "Bay_07_support_anchor.002",
+    "Bay_07_support_anchor.003",
+    "Bay_07_table_bracket",
+    "Bay_07_upper",
+    "Bay_07_upper.001",
+    "Bay_07_upper_steel_pan",
+    "Bay_07_upper_steel_pan.001",
+    "Bay_07_upper_support",
+    "Bay_07_upper_support.001",
+    "Bay_07_upper_support.002",
+    "Bay_07_upper_support.003",
+    "Bay_07_window_table",
+    "Bay_08_berth_number_plate",
+    "Bay_08_berth_number_plate.001",
+    "Bay_08_fan_blade",
+    "Bay_08_fan_blade.001",
+    "Bay_08_fan_blade.002",
+    "Bay_08_fan_guard",
+    "Bay_08_fan_guard.001",
+    "Bay_08_fan_guard.002",
+    "Bay_08_fan_guard.003",
+    "Bay_08_fan_guard.004",
+    "Bay_08_fan_guard.005",
+    "Bay_08_fan_guard.006",
+    "Bay_08_fan_guard.007",
+    "Bay_08_fan_guard.008",
+    "Bay_08_fan_guard.009",
+    "Bay_08_fan_guard.010",
+    "Bay_08_fan_guard.011",
+    "Bay_08_fan_guard.012",
+    "Bay_08_fan_guard.013",
+    "Bay_08_fan_guard.014",
+    "Bay_08_fan_guard.015",
+    "Bay_08_fan_guard.016",
+    "Bay_08_fan_guard.017",
+    "Bay_08_fan_guard.018",
+    "Bay_08_fan_guard.019",
+    "Bay_08_fan_guard.020",
+    "Bay_08_fan_guard.021",
+    "Bay_08_fan_guard.022",
+    "Bay_08_fan_guard.023",
+    "Bay_08_fan_guard.024",
+    "Bay_08_fan_guard.025",
+    "Bay_08_fan_guard.026",
+    "Bay_08_fan_guard.027",
+    "Bay_08_fan_guard.028",
+    "Bay_08_fan_guard.029",
+    "Bay_08_fan_guard.030",
+    "Bay_08_fan_guard.031",
+    "Bay_08_fan_guard.032",
+    "Bay_08_fan_guard.033",
+    "Bay_08_fan_guard.034",
+    "Bay_08_fan_guard.035",
+    "Bay_08_fan_guard.036",
+    "Bay_08_fan_guard.037",
+    "Bay_08_fan_guard.038",
+    "Bay_08_fan_guard.039",
+    "Bay_08_fan_guard.040",
+    "Bay_08_fan_guard.041",
+    "Bay_08_fan_guard.042",
+    "Bay_08_fan_guard.043",
+    "Bay_08_fan_guard.044",
+    "Bay_08_fan_guard.045",
+    "Bay_08_fan_guard.046",
+    "Bay_08_fan_guard.047",
+    "Bay_08_fan_guard.048",
+    "Bay_08_fan_guard.049",
+    "Bay_08_fan_guard.050",
+    "Bay_08_fan_guard.051",
+    "Bay_08_fan_guard.052",
+    "Bay_08_fan_guard.053",
+    "Bay_08_fan_guard.054",
+    "Bay_08_fan_guard.055",
+    "Bay_08_fan_guard.056",
+    "Bay_08_fan_guard.057",
+    "Bay_08_fan_guard.058",
+    "Bay_08_fan_guard.059",
+    "Bay_08_fan_guard_spoke",
+    "Bay_08_fan_guard_spoke.001",
+    "Bay_08_fan_guard_spoke.002",
+    "Bay_08_fan_guard_spoke.003",
+    "Bay_08_fan_guard_spoke.004",
+    "Bay_08_fan_guard_spoke.005",
+    "Bay_08_fan_guard_spoke.006",
+    "Bay_08_fan_guard_spoke.007",
+    "Bay_08_fan_motor",
+    "Bay_08_fan_stem",
+    "Bay_08_fluorescent_diffuser",
+    "Bay_08_fluorescent_fixture",
+    "Bay_08_fold_hinge",
+    "Bay_08_fold_hinge.001",
+    "Bay_08_fold_hinge.002",
+    "Bay_08_fold_hinge.003",
+    "Bay_08_ladder_rung",
+    "Bay_08_ladder_rung.001",
+    "Bay_08_ladder_rung.002",
+    "Bay_08_ladder_rung.003",
+    "Bay_08_ladder_rung.004",
+    "Bay_08_ladder_rung.005",
+    "Bay_08_ladder_rung.006",
+    "Bay_08_ladder_rung.007",
+    "Bay_08_ladder_rung.008",
+    "Bay_08_ladder_rung.009",
+    "Bay_08_ladder_upright",
+    "Bay_08_ladder_upright.001",
+    "Bay_08_ladder_upright.002",
+    "Bay_08_ladder_upright.003",
+    "Bay_08_lower",
+    "Bay_08_lower.001",
+    "Bay_08_lower_steel_pan",
+    "Bay_08_lower_steel_pan.001",
+    "Bay_08_luggage_rack",
+    "Bay_08_luggage_rack.001",
+    "Bay_08_luggage_rack.002",
+    "Bay_08_luggage_rack.003",
+    "Bay_08_luggage_rack.004",
+    "Bay_08_luggage_rack.005",
+    "Bay_08_luggage_rack.006",
+    "Bay_08_luggage_rack.007",
+    "Bay_08_luggage_rack.008",
+    "Bay_08_luggage_rack.009",
+    "Bay_08_luggage_rack.010",
+    "Bay_08_luggage_rack.011",
+    "Bay_08_middle_folded_backrest",
+    "Bay_08_middle_folded_backrest.001",
+    "Bay_08_partition_end",
+    "Bay_08_rack_rail",
+    "Bay_08_rack_rail.001",
+    "Bay_08_rack_rail.002",
+    "Bay_08_rack_rail.003",
+    "Bay_08_seat_leg",
+    "Bay_08_seat_leg.001",
+    "Bay_08_seat_leg.002",
+    "Bay_08_seat_leg.003",
+    "Bay_08_side_end_trim",
+    "Bay_08_side_end_trim.001",
+    "Bay_08_side_lower",
+    "Bay_08_side_lower_cushion_division",
+    "Bay_08_side_lower_pan",
+    "Bay_08_side_support",
+    "Bay_08_side_support.001",
+    "Bay_08_side_upper",
+    "Bay_08_side_upper_pan",
+    "Bay_08_support_anchor",
+    "Bay_08_support_anchor.001",
+    "Bay_08_support_anchor.002",
+    "Bay_08_support_anchor.003",
+    "Bay_08_table_bracket",
+    "Bay_08_upper",
+    "Bay_08_upper.001",
+    "Bay_08_upper_steel_pan",
+    "Bay_08_upper_steel_pan.001",
+    "Bay_08_upper_support",
+    "Bay_08_upper_support.001",
+    "Bay_08_upper_support.002",
+    "Bay_08_upper_support.003",
+    "Bay_08_window_table",
+    "Bay_09_berth_number_plate",
+    "Bay_09_berth_number_plate.001",
+    "Bay_09_fan_blade",
+    "Bay_09_fan_blade.001",
+    "Bay_09_fan_blade.002",
+    "Bay_09_fan_guard",
+    "Bay_09_fan_guard.001",
+    "Bay_09_fan_guard.002",
+    "Bay_09_fan_guard.003",
+    "Bay_09_fan_guard.004",
+    "Bay_09_fan_guard.005",
+    "Bay_09_fan_guard.006",
+    "Bay_09_fan_guard.007",
+    "Bay_09_fan_guard.008",
+    "Bay_09_fan_guard.009",
+    "Bay_09_fan_guard.010",
+    "Bay_09_fan_guard.011",
+    "Bay_09_fan_guard.012",
+    "Bay_09_fan_guard.013",
+    "Bay_09_fan_guard.014",
+    "Bay_09_fan_guard.015",
+    "Bay_09_fan_guard.016",
+    "Bay_09_fan_guard.017",
+    "Bay_09_fan_guard.018",
+    "Bay_09_fan_guard.019",
+    "Bay_09_fan_guard.020",
+    "Bay_09_fan_guard.021",
+    "Bay_09_fan_guard.022",
+    "Bay_09_fan_guard.023",
+    "Bay_09_fan_guard.024",
+    "Bay_09_fan_guard.025",
+    "Bay_09_fan_guard.026",
+    "Bay_09_fan_guard.027",
+    "Bay_09_fan_guard.028",
+    "Bay_09_fan_guard.029",
+    "Bay_09_fan_guard.030",
+    "Bay_09_fan_guard.031",
+    "Bay_09_fan_guard.032",
+    "Bay_09_fan_guard.033",
+    "Bay_09_fan_guard.034",
+    "Bay_09_fan_guard.035",
+    "Bay_09_fan_guard.036",
+    "Bay_09_fan_guard.037",
+    "Bay_09_fan_guard.038",
+    "Bay_09_fan_guard.039",
+    "Bay_09_fan_guard.040",
+    "Bay_09_fan_guard.041",
+    "Bay_09_fan_guard.042",
+    "Bay_09_fan_guard.043",
+    "Bay_09_fan_guard.044",
+    "Bay_09_fan_guard.045",
+    "Bay_09_fan_guard.046",
+    "Bay_09_fan_guard.047",
+    "Bay_09_fan_guard.048",
+    "Bay_09_fan_guard.049",
+    "Bay_09_fan_guard.050",
+    "Bay_09_fan_guard.051",
+    "Bay_09_fan_guard.052",
+    "Bay_09_fan_guard.053",
+    "Bay_09_fan_guard.054",
+    "Bay_09_fan_guard.055",
+    "Bay_09_fan_guard.056",
+    "Bay_09_fan_guard.057",
+    "Bay_09_fan_guard.058",
+    "Bay_09_fan_guard.059",
+    "Bay_09_fan_guard_spoke",
+    "Bay_09_fan_guard_spoke.001",
+    "Bay_09_fan_guard_spoke.002",
+    "Bay_09_fan_guard_spoke.003",
+    "Bay_09_fan_guard_spoke.004",
+    "Bay_09_fan_guard_spoke.005",
+    "Bay_09_fan_guard_spoke.006",
+    "Bay_09_fan_guard_spoke.007",
+    "Bay_09_fan_motor",
+    "Bay_09_fan_stem",
+    "Bay_09_fluorescent_diffuser",
+    "Bay_09_fluorescent_fixture",
+    "Bay_09_fold_hinge",
+    "Bay_09_fold_hinge.001",
+    "Bay_09_fold_hinge.002",
+    "Bay_09_fold_hinge.003",
+    "Bay_09_ladder_rung",
+    "Bay_09_ladder_rung.001",
+    "Bay_09_ladder_rung.002",
+    "Bay_09_ladder_rung.003",
+    "Bay_09_ladder_rung.004",
+    "Bay_09_ladder_rung.005",
+    "Bay_09_ladder_rung.006",
+    "Bay_09_ladder_rung.007",
+    "Bay_09_ladder_rung.008",
+    "Bay_09_ladder_rung.009",
+    "Bay_09_ladder_upright",
+    "Bay_09_ladder_upright.001",
+    "Bay_09_ladder_upright.002",
+    "Bay_09_ladder_upright.003",
+    "Bay_09_lower",
+    "Bay_09_lower.001",
+    "Bay_09_lower_steel_pan",
+    "Bay_09_lower_steel_pan.001",
+    "Bay_09_luggage_rack",
+    "Bay_09_luggage_rack.001",
+    "Bay_09_luggage_rack.002",
+    "Bay_09_luggage_rack.003",
+    "Bay_09_luggage_rack.004",
+    "Bay_09_luggage_rack.005",
+    "Bay_09_luggage_rack.006",
+    "Bay_09_luggage_rack.007",
+    "Bay_09_luggage_rack.008",
+    "Bay_09_luggage_rack.009",
+    "Bay_09_luggage_rack.010",
+    "Bay_09_luggage_rack.011",
+    "Bay_09_middle_folded_backrest",
+    "Bay_09_middle_folded_backrest.001",
+    "Bay_09_partition_end",
+    "Bay_09_rack_rail",
+    "Bay_09_rack_rail.001",
+    "Bay_09_rack_rail.002",
+    "Bay_09_rack_rail.003",
+    "Bay_09_seat_leg",
+    "Bay_09_seat_leg.001",
+    "Bay_09_seat_leg.002",
+    "Bay_09_seat_leg.003",
+    "Bay_09_side_end_trim",
+    "Bay_09_side_end_trim.001",
+    "Bay_09_side_lower",
+    "Bay_09_side_lower_cushion_division",
+    "Bay_09_side_lower_pan",
+    "Bay_09_side_support",
+    "Bay_09_side_support.001",
+    "Bay_09_side_upper",
+    "Bay_09_side_upper_pan",
+    "Bay_09_support_anchor",
+    "Bay_09_support_anchor.001",
+    "Bay_09_support_anchor.002",
+    "Bay_09_support_anchor.003",
+    "Bay_09_table_bracket",
+    "Bay_09_upper",
+    "Bay_09_upper.001",
+    "Bay_09_upper_steel_pan",
+    "Bay_09_upper_steel_pan.001",
+    "Bay_09_upper_support",
+    "Bay_09_upper_support.001",
+    "Bay_09_upper_support.002",
+    "Bay_09_upper_support.003",
+    "Bay_09_window_table",
+    "BERTH_01_LOWER",
+    "BERTH_02_MIDDLE_FOLDED",
+    "BERTH_03_UPPER",
+    "BERTH_04_LOWER",
+    "BERTH_05_MIDDLE_FOLDED",
+    "BERTH_06_UPPER",
+    "BERTH_07_SIDE_LOWER",
+    "BERTH_08_SIDE_UPPER",
+    "BERTH_09_LOWER",
+    "BERTH_10_MIDDLE_FOLDED",
+    "BERTH_11_UPPER",
+    "BERTH_12_LOWER",
+    "BERTH_13_MIDDLE_FOLDED",
+    "BERTH_14_UPPER",
+    "BERTH_15_SIDE_LOWER",
+    "BERTH_16_SIDE_UPPER",
+    "BERTH_17_LOWER",
+    "BERTH_18_MIDDLE_FOLDED",
+    "BERTH_19_UPPER",
+    "BERTH_20_LOWER",
+    "BERTH_21_MIDDLE_FOLDED",
+    "BERTH_22_UPPER",
+    "BERTH_23_SIDE_LOWER",
+    "BERTH_24_SIDE_UPPER",
+    "BERTH_25_LOWER",
+    "BERTH_26_MIDDLE_FOLDED",
+    "BERTH_27_UPPER",
+    "BERTH_28_LOWER",
+    "BERTH_29_MIDDLE_FOLDED",
+    "BERTH_30_UPPER",
+    "BERTH_31_SIDE_LOWER",
+    "BERTH_32_SIDE_UPPER",
+    "BERTH_33_LOWER",
+    "BERTH_34_MIDDLE_FOLDED",
+    "BERTH_35_UPPER",
+    "BERTH_36_LOWER",
+    "BERTH_37_MIDDLE_FOLDED",
+    "BERTH_38_UPPER",
+    "BERTH_39_SIDE_LOWER",
+    "BERTH_40_SIDE_UPPER",
+    "BERTH_41_LOWER",
+    "BERTH_42_MIDDLE_FOLDED",
+    "BERTH_43_UPPER",
+    "BERTH_44_LOWER",
+    "BERTH_45_MIDDLE_FOLDED",
+    "BERTH_46_UPPER",
+    "BERTH_47_SIDE_LOWER",
+    "BERTH_48_SIDE_UPPER",
+    "BERTH_49_LOWER",
+    "BERTH_50_MIDDLE_FOLDED",
+    "BERTH_51_UPPER",
+    "BERTH_52_LOWER",
+    "BERTH_53_MIDDLE_FOLDED",
+    "BERTH_54_UPPER",
+    "BERTH_55_SIDE_LOWER",
+    "BERTH_56_SIDE_UPPER",
+    "BERTH_57_LOWER",
+    "BERTH_58_MIDDLE_FOLDED",
+    "BERTH_59_UPPER",
+    "BERTH_60_LOWER",
+    "BERTH_61_MIDDLE_FOLDED",
+    "BERTH_62_UPPER",
+    "BERTH_63_SIDE_LOWER",
+    "BERTH_64_SIDE_UPPER",
+    "BERTH_65_LOWER",
+    "BERTH_66_MIDDLE_FOLDED",
+    "BERTH_67_UPPER",
+    "BERTH_68_LOWER",
+    "BERTH_69_MIDDLE_FOLDED",
+    "BERTH_70_UPPER",
+    "BERTH_71_SIDE_LOWER",
+    "BERTH_72_SIDE_UPPER",
+    "Ceiling panel joint",
+    "Ceiling panel joint.001",
+    "Ceiling panel joint.002",
+    "Ceiling panel joint.003",
+    "Ceiling panel joint.004",
+    "Ceiling panel joint.005",
+    "Ceiling panel joint.006",
+    "Ceiling panel joint.007",
+    "Ceiling panel joint.008",
+    "Ceiling panel joint.009",
+    "Ceiling panel joint.010",
+    "Ceiling panel joint.011",
+    "Ceiling panel joint.012",
+    "Ceiling panel joint.013",
+    "Ceiling panel joint.014",
+    "Ceiling panel joint.015",
+    "Ceiling panel joint.016",
+    "Ceiling panel joint.017",
+    "Ceiling panel joint.018",
+    "Ceiling panel joint.019",
+    "Ceiling panel joint.020",
+    "Ceiling panel joint.021",
+    "Ceiling panel joint.022",
+    "Ceiling panel joint.023",
+    "Ceiling panel joint.024",
+    "Ceiling panel joint.025",
+    "Ceiling panel joint.026",
+    "Ceiling panel joint.027",
+    "Ceiling panel joint.028",
+    "Ceiling panel joint.029",
+    "Ceiling panel joint.030",
+    "Ceiling panel joint.031",
+    "Ceiling panel joint.032",
+    "Ceiling panel joint.033",
+    "Ceiling panel joint.034",
+    "Ceiling panel joint.035",
+    "Ceiling panel joint.036",
+    "Ceiling panel joint.037",
+    "Ceiling panel joint.038",
+    "Ceiling panel joint.039",
+    "Ceiling panel joint.040",
+    "Ceiling panel joint.041",
+    "Ceiling panel joint.042",
+    "Ceiling panel joint.043",
+    "Ceiling panel joint.044",
+    "Ceiling panel joint.045",
+    "Ceiling panel joint.046",
+    "Ceiling panel joint.047",
+    "Ceiling panel joint.048",
+    "Ceiling panel joint.049",
+    "Ceiling panel joint.050",
+    "Ceiling panel joint.051",
+    "Ceiling panel joint.052",
+    "Ceiling panel joint.053",
+    "Ceiling panel joint.054",
+    "Ceiling panel joint.055",
+    "Ceiling panel joint.056",
+    "Ceiling panel joint.057",
+    "Ceiling panel joint.058",
+    "Ceiling panel joint.059",
+    "Ceiling panel joint.060",
+    "Ceiling panel joint.061",
+    "Ceiling panel joint.062",
+    "Ceiling panel joint.063",
+    "Ceiling panel joint.064",
+    "Ceiling panel joint.065",
+    "Ceiling panel joint.066",
+    "Ceiling panel joint.067",
+    "Ceiling panel joint.068",
+    "Ceiling panel joint.069",
+    "Ceiling panel joint.070",
+    "Ceiling panel joint.071",
+    "Ceiling panel joint.072",
+    "Ceiling panel joint.073",
+    "Ceiling panel joint.074",
+    "Ceiling panel joint.075",
+    "Ceiling panel joint.076",
+    "Ceiling panel joint.077",
+    "Ceiling panel joint.078",
+    "Ceiling panel joint.079",
+    "Ceiling panel joint.080",
+    "Ceiling panel joint.081",
+    "Ceiling panel joint.082",
+    "Ceiling panel joint.083",
+    "Ceiling panel joint.084",
+    "Ceiling panel joint.085",
+    "Ceiling panel joint.086",
+    "Ceiling panel joint.087",
+    "Ceiling panel joint.088",
+    "Ceiling panel joint.089",
+    "Ceiling panel joint.090",
+    "Ceiling panel joint.091",
+    "Ceiling panel joint.092",
+    "Ceiling panel joint.093",
+    "Ceiling panel joint.094",
+    "Ceiling panel joint.095",
+    "Ceiling panel joint.096",
+    "Ceiling panel joint.097",
+    "Ceiling panel joint.098",
+    "Ceiling panel joint.099",
+    "Ceiling panel joint.100",
+    "Ceiling panel joint.101",
+    "Ceiling panel joint.102",
+    "Ceiling panel joint.103",
+    "Ceiling panel joint.104",
+    "Ceiling panel joint.105",
+    "Ceiling panel joint.106",
+    "Ceiling panel joint.107",
+    "Ceiling panel joint.108",
+    "Ceiling panel joint.109",
+    "Ceiling panel joint.110",
+    "Ceiling panel joint.111",
+    "Ceiling panel joint.112",
+    "Ceiling panel joint.113",
+    "Ceiling panel joint.114",
+    "Ceiling panel joint.115",
+    "Ceiling panel joint.116",
+    "Ceiling panel joint.117",
+    "Ceiling panel joint.118",
+    "Ceiling panel joint.119",
+    "Ceiling panel joint.120",
+    "Ceiling panel joint.121",
+    "Ceiling panel joint.122",
+    "Ceiling panel joint.123",
+    "Ceiling panel joint.124",
+    "Ceiling panel joint.125",
+    "Ceiling panel joint.126",
+    "Ceiling panel joint.127",
+    "Ceiling panel joint.128",
+    "Ceiling panel joint.129",
+    "Ceiling panel joint.130",
+    "Ceiling panel joint.131",
+    "Ceiling panel joint.132",
+    "Ceiling panel joint.133",
+    "Ceiling panel joint.134",
+    "Ceiling panel joint.135",
+    "Ceiling panel joint.136",
+    "Ceiling panel joint.137",
+    "Ceiling panel joint.138",
+    "Ceiling panel joint.139",
+    "Ceiling panel joint.140",
+    "Ceiling panel joint.141",
+    "Ceiling panel joint.142",
+    "Ceiling panel joint.143",
+    "End portal grab rail",
+    "End portal grab rail.001",
+    "End portal grab rail.002",
+    "End portal grab rail.003",
+    "End saloon bulkhead main",
+    "End saloon bulkhead main.001",
+    "End saloon bulkhead side",
+    "End saloon bulkhead side.001",
+    "End saloon portal lintel",
+    "End saloon portal lintel.001",
+    "Entry door inner lower panel",
+    "Entry door inner lower panel.001",
+    "Entry door inner lower panel.002",
+    "Entry door inner lower panel.003",
+    "Entry door inner upper panel",
+    "Entry door inner upper panel.001",
+    "Entry door inner upper panel.002",
+    "Entry door inner upper panel.003",
+    "Entry door inner window stile",
+    "Entry door inner window stile.001",
+    "Entry door inner window stile.002",
+    "Entry door inner window stile.003",
+    "Entry door inner window stile.004",
+    "Entry door inner window stile.005",
+    "Entry door inner window stile.006",
+    "Entry door inner window stile.007",
+    "Entry inner grab rail",
+    "Entry inner grab rail.001",
+    "Entry inner grab rail.002",
+    "Entry inner grab rail.003",
+    "Entry inner grab rail.004",
+    "Entry inner grab rail.005",
+    "Entry inner grab rail.006",
+    "Entry inner grab rail.007",
+    "Interior curved ceiling lining",
+    "Interior finished floor",
+    "Lower wall lining",
+    "Lower wall lining.001",
+    "PASSENGER_SEATED_01",
+    "PASSENGER_SEATED_02",
+    "PASSENGER_SEATED_03",
+    "PASSENGER_SEATED_04",
+    "PASSENGER_SEATED_05",
+    "PASSENGER_SEATED_06",
+    "PASSENGER_SEATED_07",
+    "PASSENGER_SEATED_08",
+    "PASSENGER_SEATED_09",
+    "PASSENGER_SEATED_10",
+    "PASSENGER_SEATED_11",
+    "PASSENGER_SEATED_12",
+    "PASSENGER_SEATED_13",
+    "PASSENGER_SEATED_14",
+    "PASSENGER_SEATED_15",
+    "PASSENGER_SEATED_16",
+    "PASSENGER_SEATED_17",
+    "PASSENGER_SEATED_18",
+    "PASSENGER_SEATED_19",
+    "PASSENGER_SEATED_20",
+    "PASSENGER_SEATED_21",
+    "PASSENGER_SEATED_22",
+    "PASSENGER_SEATED_23",
+    "PASSENGER_SEATED_24",
+    "PASSENGER_SEATED_25",
+    "PASSENGER_SEATED_26",
+    "PASSENGER_SEATED_27",
+    "PASSENGER_SEATED_28",
+    "PASSENGER_SEATED_29",
+    "PASSENGER_SEATED_30",
+    "PASSENGER_SEATED_31",
+    "PASSENGER_SEATED_32",
+    "PASSENGER_SEATED_33",
+    "PASSENGER_SEATED_34",
+    "PASSENGER_SEATED_35",
+    "PASSENGER_SEATED_36",
+    "PASSENGER_SEATED_37",
+    "PASSENGER_SEATED_38",
+    "PASSENGER_SEATED_39",
+    "PASSENGER_SEATED_40",
+    "PASSENGER_SEATED_41",
+    "PASSENGER_SEATED_42",
+    "PASSENGER_SEATED_43",
+    "PASSENGER_SEATED_44",
+    "PASSENGER_SEATED_45",
+    "PASSENGER_SEATED_46",
+    "PASSENGER_SEATED_47",
+    "PASSENGER_SEATED_48",
+    "PASSENGER_SEATED_49",
+    "PASSENGER_SEATED_50",
+    "PASSENGER_SEATED_51",
+    "PASSENGER_SEATED_52",
+    "PASSENGER_SEATED_53",
+    "PASSENGER_SEATED_54",
+    "PASSENGER_SEATED_55",
+    "PASSENGER_SEATED_56",
+    "PASSENGER_SEATED_57",
+    "PASSENGER_SEATED_58",
+    "PASSENGER_SEATED_59",
+    "PASSENGER_SEATED_60",
+    "PASSENGER_SEATED_61",
+    "PASSENGER_SEATED_62",
+    "PASSENGER_SEATED_63",
+    "PASSENGER_SEATED_64",
+    "PASSENGER_SEATED_65",
+    "PASSENGER_SEATED_66",
+    "PASSENGER_SEATED_67",
+    "PASSENGER_SEATED_68",
+    "PASSENGER_SEATED_69",
+    "PASSENGER_SEATED_70",
+    "PASSENGER_SEATED_71",
+    "PASSENGER_SEATED_72",
+    "Shutter lift handle",
+    "Shutter lift handle.001",
+    "Shutter lift handle.002",
+    "Shutter lift handle.003",
+    "Shutter lift handle.004",
+    "Shutter lift handle.005",
+    "Shutter lift handle.006",
+    "Shutter lift handle.007",
+    "Shutter lift handle.008",
+    "Shutter lift handle.009",
+    "Shutter lift handle.010",
+    "Shutter lift handle.011",
+    "Shutter lift handle.012",
+    "Shutter lift handle.013",
+    "Shutter lift handle.014",
+    "Shutter lift handle.015",
+    "Shutter lift handle.016",
+    "Shutter lift handle.017",
+    "Shutter lift handle.018",
+    "Shutter lift handle.019",
+    "Shutter lift handle.020",
+    "Shutter lift handle.021",
+    "Shutter lift handle.022",
+    "Shutter lift handle.023",
+    "Shutter lift handle.024",
+    "Shutter lift handle.025",
+    "Shutter lift handle.026",
+    "Shutter lift handle.027",
+    "Shutter lift handle.028",
+    "Shutter lift handle.029",
+    "Shutter lift handle.030",
+    "Shutter lift handle.031",
+    "Shutter lift handle.032",
+    "Shutter lift handle.033",
+    "Shutter lift handle.034",
+    "Shutter lift handle.035",
+    "Simplified sealed toilet corridor wall",
+    "Simplified sealed toilet corridor wall.001",
+    "Simplified sealed toilet corridor wall.002",
+    "Simplified sealed toilet corridor wall.003",
+    "Simplified sealed toilet end bulkhead",
+    "Simplified sealed toilet end bulkhead.001",
+    "Simplified sealed toilet end bulkhead.002",
+    "Simplified sealed toilet end bulkhead.003",
+    "Toilet door inset",
+    "Toilet door inset.001",
+    "Toilet door inset.002",
+    "Toilet door inset.003",
+    "Toilet door pull",
+    "Toilet door pull.001",
+    "Toilet door pull.002",
+    "Toilet door pull.003",
+    "Upper wall lining",
+    "Upper wall lining.001",
+    "Vestibule door handrail",
+    "Vestibule door handrail.001",
+    "Vestibule door handrail.002",
+    "Vestibule door handrail.003",
+    "Vestibule inner end header",
+    "Vestibule inner end header.001",
+    "Window horizontal interior trim",
+    "Window horizontal interior trim.001",
+    "Window horizontal interior trim.002",
+    "Window horizontal interior trim.003",
+    "Window interior end pier",
+    "Window interior end pier.001",
+    "Window interior pier",
+    "Window interior pier.001",
+    "Window interior pier.002",
+    "Window interior pier.003",
+    "Window interior pier.004",
+    "Window interior pier.005",
+    "Window interior pier.006",
+    "Window interior pier.007",
+    "Window interior pier.008",
+    "Window interior pier.009",
+    "Window interior pier.010",
+    "Window interior pier.011",
+    "Window interior pier.012",
+    "Window interior pier.013",
+    "Window interior pier.014",
+    "Window interior pier.015",
+    "Window interior pier.016",
+    "Window interior pier.017",
+    "Window interior pier.018",
+    "Window interior pier.019",
+    "Window interior pier.020",
+    "Window interior pier.021",
+    "Window interior pier.022",
+    "Window interior pier.023",
+    "Window interior pier.024",
+    "Window interior pier.025",
+    "Window interior pier.026",
+    "Window interior pier.027",
+    "Window interior pier.028",
+    "Window interior pier.029",
+    "Window interior pier.030",
+    "Window interior pier.031",
+    "Window interior pier.032",
+    "Window interior pier.033",
+    "Window interior pier.034",
+    "Window interior pier.035",
+    "Window interior pier.036",
+    "Window interior pier.037",
+    "Window interior pier.038",
+    "Window interior pier.039",
+    "Window interior pier.040",
+    "Window interior pier.041",
+    "Window interior pier.042",
+    "Window interior pier.043",
+    "Window shutter inner guide",
+    "Window shutter inner guide.001",
+    "Window shutter inner guide.002",
+    "Window shutter inner guide.003",
+    "Window shutter inner guide.004",
+    "Window shutter inner guide.005",
+    "Window shutter inner guide.006",
+    "Window shutter inner guide.007",
+    "Window shutter inner guide.008",
+    "Window shutter inner guide.009",
+    "Window shutter inner guide.010",
+    "Window shutter inner guide.011",
+    "Window shutter inner guide.012",
+    "Window shutter inner guide.013",
+    "Window shutter inner guide.014",
+    "Window shutter inner guide.015",
+    "Window shutter inner guide.016",
+    "Window shutter inner guide.017",
+    "Window shutter inner guide.018",
+    "Window shutter inner guide.019",
+    "Window shutter inner guide.020",
+    "Window shutter inner guide.021",
+    "Window shutter inner guide.022",
+    "Window shutter inner guide.023",
+    "Window shutter inner guide.024",
+    "Window shutter inner guide.025",
+    "Window shutter inner guide.026",
+    "Window shutter inner guide.027",
+    "Window shutter inner guide.028",
+    "Window shutter inner guide.029",
+    "Window shutter inner guide.030",
+    "Window shutter inner guide.031",
+    "Window shutter inner guide.032",
+    "Window shutter inner guide.033",
+    "Window shutter inner guide.034",
+    "Window shutter inner guide.035",
+    "Window shutter inner guide.036",
+    "Window shutter inner guide.037",
+    "Window shutter inner guide.038",
+    "Window shutter inner guide.039",
+    "Window shutter inner guide.040",
+    "Window shutter inner guide.041",
+    "Window shutter inner guide.042",
+    "Window shutter inner guide.043",
+    "Window shutter inner guide.044",
+    "Window shutter inner guide.045",
+    "Window shutter inner guide.046",
+    "Window shutter inner guide.047",
+    "Window shutter inner guide.048",
+    "Window shutter inner guide.049",
+    "Window shutter inner guide.050",
+    "Window shutter inner guide.051",
+    "Window shutter inner guide.052",
+    "Window shutter inner guide.053",
+    "Window shutter inner guide.054",
+    "Window shutter inner guide.055",
+    "Window shutter inner guide.056",
+    "Window shutter inner guide.057",
+    "Window shutter inner guide.058",
+    "Window shutter inner guide.059",
+    "Window shutter inner guide.060",
+    "Window shutter inner guide.061",
+    "Window shutter inner guide.062",
+    "Window shutter inner guide.063",
+    "Window shutter inner guide.064",
+    "Window shutter inner guide.065",
+    "Window shutter inner guide.066",
+    "Window shutter inner guide.067",
+    "Window shutter inner guide.068",
+    "Window shutter inner guide.069",
+    "Window shutter inner guide.070",
+    "Window shutter inner guide.071",
+    "Window sill",
+    "Window sill.001",
+    "Window sill.002",
+    "Window sill.003",
+    "Window sill.004",
+    "Window sill.005",
+    "Window sill.006",
+    "Window sill.007",
+    "Window sill.008",
+    "Window sill.009",
+    "Window sill.010",
+    "Window sill.011",
+    "Window sill.012",
+    "Window sill.013",
+    "Window sill.014",
+    "Window sill.015",
+    "Window sill.016",
+    "Window sill.017",
+    "Window sill.018",
+    "Window sill.019",
+    "Window sill.020",
+    "Window sill.021",
+    "Window sill.022",
+    "Window sill.023",
+    "Window sill.024",
+    "Window sill.025",
+    "Window sill.026",
+    "Window sill.027",
+    "Window sill.028",
+    "Window sill.029",
+    "Window sill.030",
+    "Window sill.031",
+    "Window sill.032",
+    "Window sill.033",
+    "Window sill.034",
+    "Window sill.035"
+  ],
+  "bounds_non_coupling_structure": {
+    "Coach end wall": [
+      [
+        -10.668000221252441,
+        -10.627999305725098
+      ],
+      [
+        -1.5850000381469727,
+        -0.5049999356269836
+      ],
+      [
+        1.2799999713897705,
+        3.3999998569488525
+      ]
+    ],
+    "Coach end wall.001": [
+      [
+        -10.668000221252441,
+        -10.627999305725098
+      ],
+      [
+        0.5049999356269836,
+        1.5850000381469727
+      ],
+      [
+        1.2799999713897705,
+        3.3999998569488525
+      ]
+    ],
+    "Coach end wall.002": [
+      [
+        10.627999305725098,
+        10.668000221252441
+      ],
+      [
+        -1.5850000381469727,
+        -0.5049999356269836
+      ],
+      [
+        1.2799999713897705,
+        3.3999998569488525
+      ]
+    ],
+    "Coach end wall.003": [
+      [
+        10.627999305725098,
+        10.668000221252441
+      ],
+      [
+        0.5049999356269836,
+        1.5850000381469727
+      ],
+      [
+        1.2799999713897705,
+        3.3999998569488525
+      ]
+    ],
+    "Gangway bellows fold": [
+      [
+        -10.673999786376953,
+        -10.645999908447266
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.001": [
+      [
+        -10.673999786376953,
+        -10.645999908447266
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.002": [
+      [
+        -10.708999633789062,
+        -10.680999755859375
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.003": [
+      [
+        -10.708999633789062,
+        -10.680999755859375
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.004": [
+      [
+        -10.743999481201172,
+        -10.715999603271484
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.005": [
+      [
+        -10.743999481201172,
+        -10.715999603271484
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.006": [
+      [
+        -10.779000282287598,
+        -10.75100040435791
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.007": [
+      [
+        -10.779000282287598,
+        -10.75100040435791
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.008": [
+      [
+        -10.814000129699707,
+        -10.78600025177002
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.009": [
+      [
+        -10.814000129699707,
+        -10.78600025177002
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.010": [
+      [
+        -10.848999977111816,
+        -10.821000099182129
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.011": [
+      [
+        -10.848999977111816,
+        -10.821000099182129
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.012": [
+      [
+        -10.883999824523926,
+        -10.855999946594238
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.013": [
+      [
+        -10.883999824523926,
+        -10.855999946594238
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.014": [
+      [
+        10.645999908447266,
+        10.673999786376953
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.015": [
+      [
+        10.645999908447266,
+        10.673999786376953
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.016": [
+      [
+        10.680999755859375,
+        10.708999633789062
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.017": [
+      [
+        10.680999755859375,
+        10.708999633789062
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.018": [
+      [
+        10.715999603271484,
+        10.743999481201172
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.019": [
+      [
+        10.715999603271484,
+        10.743999481201172
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.020": [
+      [
+        10.75100040435791,
+        10.779000282287598
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.021": [
+      [
+        10.75100040435791,
+        10.779000282287598
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.022": [
+      [
+        10.78600025177002,
+        10.814000129699707
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.023": [
+      [
+        10.78600025177002,
+        10.814000129699707
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.024": [
+      [
+        10.821000099182129,
+        10.848999977111816
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.025": [
+      [
+        10.821000099182129,
+        10.848999977111816
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.026": [
+      [
+        10.855999946594238,
+        10.883999824523926
+      ],
+      [
+        -0.6650000214576721,
+        -0.5550000071525574
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows fold.027": [
+      [
+        10.855999946594238,
+        10.883999824523926
+      ],
+      [
+        0.5550000071525574,
+        0.6650000214576721
+      ],
+      [
+        1.2799999713897705,
+        3.240000009536743
+      ]
+    ],
+    "Gangway bellows top": [
+      [
+        -10.673999786376953,
+        -10.645999908447266
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.001": [
+      [
+        -10.708999633789062,
+        -10.680999755859375
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.002": [
+      [
+        -10.743999481201172,
+        -10.715999603271484
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.003": [
+      [
+        -10.779000282287598,
+        -10.75100040435791
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.004": [
+      [
+        -10.814000129699707,
+        -10.78600025177002
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.005": [
+      [
+        -10.848999977111816,
+        -10.821000099182129
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.006": [
+      [
+        -10.883999824523926,
+        -10.855999946594238
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.007": [
+      [
+        10.645999908447266,
+        10.673999786376953
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.008": [
+      [
+        10.680999755859375,
+        10.708999633789062
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.009": [
+      [
+        10.715999603271484,
+        10.743999481201172
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.010": [
+      [
+        10.75100040435791,
+        10.779000282287598
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.011": [
+      [
+        10.78600025177002,
+        10.814000129699707
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.012": [
+      [
+        10.821000099182129,
+        10.848999977111816
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway bellows top.013": [
+      [
+        10.855999946594238,
+        10.883999824523926
+      ],
+      [
+        -0.6399999856948853,
+        0.6399999856948853
+      ],
+      [
+        3.190000057220459,
+        3.2899999618530273
+      ]
+    ],
+    "Gangway tread plate": [
+      [
+        -10.969999313354492,
+        -10.59000015258789
+      ],
+      [
+        -0.5699999928474426,
+        0.5699999928474426
+      ],
+      [
+        1.274999976158142,
+        1.34499990940094
+      ]
+    ],
+    "Gangway tread plate.001": [
+      [
+        10.59000015258789,
+        10.969999313354492
+      ],
+      [
+        -0.5699999928474426,
+        0.5699999928474426
+      ],
+      [
+        1.274999976158142,
+        1.34499990940094
+      ]
+    ],
+    "Lower blue bodyside": [
+      [
+        -10.668499946594238,
+        10.668499946594238
+      ],
+      [
+        -1.622499942779541,
+        -1.5694999694824219
+      ],
+      [
+        1.3049999475479126,
+        1.965000033378601
+      ]
+    ],
+    "Lower blue bodyside.001": [
+      [
+        -10.668499946594238,
+        10.668499946594238
+      ],
+      [
+        1.5694999694824219,
+        1.622499942779541
+      ],
+      [
+        1.3049999475479126,
+        1.965000033378601
+      ]
+    ]
+  }
+}

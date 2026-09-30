@@ -1,0 +1,38 @@
+{
+  "fresh_import_success": true,
+  "anchor_checks": {
+    "COUPLING_FRONT": {
+      "location_m": [
+        10.199999809265137,
+        -1.6617908613625332e-06,
+        1.1050000190734863
+      ],
+      "parent": "WAP7_ROOT",
+      "matrix_max_error": 1.6617908613625332e-06
+    },
+    "COUPLING_REAR": {
+      "location_m": [
+        -10.199999809265137,
+        1.6617908613625332e-06,
+        1.1050000190734863
+      ],
+      "parent": "WAP7_ROOT",
+      "matrix_max_error": 1.6617908613625332e-06
+    }
+  },
+  "protected_rig_max_matrix_error": 1.278927243220096e-06,
+  "rig_parent_names_match": true,
+  "root_location_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fbx_meshes": 2627,
+  "cameras": 0,
+  "lights": 0,
+  "unit_scale_length": 1.0,
+  "interior_locators": [
+    "CAB_A_INTERIOR",
+    "CAB_B_INTERIOR"
+  ]
+}

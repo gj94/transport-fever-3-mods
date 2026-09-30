@@ -1,0 +1,1297 @@
+{
+  "kind": "wap7",
+  "root": "WAP7_ROOT",
+  "source": "wap7/WAP7_interiors_v02.blend",
+  "source_original_coupling_bounds": {
+    "Buffer beam": [
+      [
+        -9.725000381469727,
+        -9.475000381469727
+      ],
+      [
+        -1.3610069751739502,
+        1.3610069751739502
+      ],
+      [
+        1.0199999809265137,
+        1.2999999523162842
+      ]
+    ],
+    "Buffer beam.001": [
+      [
+        9.475000381469727,
+        9.725000381469727
+      ],
+      [
+        -1.3610069751739502,
+        1.3610069751739502
+      ],
+      [
+        1.0199999809265137,
+        1.2999999523162842
+      ]
+    ],
+    "Buffer plate": [
+      [
+        -10.109999656677246,
+        -10.039999961853027
+      ],
+      [
+        -1.167236566543579,
+        -0.7151053547859192
+      ],
+      [
+        0.875,
+        1.3650000095367432
+      ]
+    ],
+    "Buffer plate.001": [
+      [
+        -10.109999656677246,
+        -10.039999961853027
+      ],
+      [
+        0.7151053547859192,
+        1.167236566543579
+      ],
+      [
+        0.875,
+        1.3650000095367432
+      ]
+    ],
+    "Buffer plate.002": [
+      [
+        10.039999961853027,
+        10.109999656677246
+      ],
+      [
+        -1.167236566543579,
+        -0.7151053547859192
+      ],
+      [
+        0.875,
+        1.3650000095367432
+      ]
+    ],
+    "Buffer plate.003": [
+      [
+        10.039999961853027,
+        10.109999656677246
+      ],
+      [
+        0.7151053547859192,
+        1.167236566543579
+      ],
+      [
+        0.875,
+        1.3650000095367432
+      ]
+    ],
+    "Buffer shank": [
+      [
+        -10.059999465942383,
+        -9.65999984741211
+      ],
+      [
+        -1.0426697731018066,
+        -0.8396720886230469
+      ],
+      [
+        1.0099999904632568,
+        1.2300000190734863
+      ]
+    ],
+    "Buffer shank.001": [
+      [
+        -10.059999465942383,
+        -9.65999984741211
+      ],
+      [
+        0.8396720886230469,
+        1.0426697731018066
+      ],
+      [
+        1.0099999904632568,
+        1.2300000190734863
+      ]
+    ],
+    "Buffer shank.002": [
+      [
+        9.65999984741211,
+        10.059999465942383
+      ],
+      [
+        -1.0426697731018066,
+        -0.8396720886230469
+      ],
+      [
+        1.0099999904632568,
+        1.2300000190734863
+      ]
+    ],
+    "Buffer shank.003": [
+      [
+        9.65999984741211,
+        10.059999465942383
+      ],
+      [
+        0.8396720886230469,
+        1.0426697731018066
+      ],
+      [
+        1.0099999904632568,
+        1.2300000190734863
+      ]
+    ],
+    "CBC draft gear": [
+      [
+        -10.109999656677246,
+        -9.609999656677246
+      ],
+      [
+        -0.12918032705783844,
+        0.12918032705783844
+      ],
+      [
+        0.9700000286102295,
+        1.2300000190734863
+      ]
+    ],
+    "CBC draft gear.001": [
+      [
+        9.609999656677246,
+        10.109999656677246
+      ],
+      [
+        -0.12918032705783844,
+        0.12918032705783844
+      ],
+      [
+        0.9700000286102295,
+        1.2300000190734863
+      ]
+    ],
+    "CBC knuckle cutout": [
+      [
+        -10.281000137329102,
+        -10.274999618530273
+      ],
+      [
+        -0.1337939202785492,
+        -0.050749413669109344
+      ],
+      [
+        1.0674999952316284,
+        1.1725000143051147
+      ]
+    ],
+    "CBC knuckle cutout.001": [
+      [
+        10.274999618530273,
+        10.281000137329102
+      ],
+      [
+        -0.1337939202785492,
+        -0.050749413669109344
+      ],
+      [
+        1.0674999952316284,
+        1.1725000143051147
+      ]
+    ],
+    "CBC knuckle housing": [
+      [
+        -10.280999183654785,
+        -10.098999977111816
+      ],
+      [
+        -0.14763465523719788,
+        0.14763465523719788
+      ],
+      [
+        0.9750000238418579,
+        1.225000023841858
+      ]
+    ],
+    "CBC knuckle housing.001": [
+      [
+        10.098999977111816,
+        10.280999183654785
+      ],
+      [
+        -0.14763465523719788,
+        0.14763465523719788
+      ],
+      [
+        0.9750000238418579,
+        1.225000023841858
+      ]
+    ]
+  },
+  "removed_coupling_objects": [
+    "CBC draft gear",
+    "CBC draft gear.001",
+    "CBC knuckle cutout",
+    "CBC knuckle cutout.001",
+    "CBC knuckle housing",
+    "CBC knuckle housing.001"
+  ],
+  "modified_buffers": [
+    "Buffer plate",
+    "Buffer plate.001",
+    "Buffer plate.002",
+    "Buffer plate.003",
+    "Buffer shank",
+    "Buffer shank.001",
+    "Buffer shank.002",
+    "Buffer shank.003"
+  ],
+  "preserved_objects_count": 2617,
+  "unexpected_changes": [],
+  "unit_scale_length": 1.0,
+  "root_world_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rail_datum_z_m": 0.0,
+  "rail_datum_basis": "Original source wheel tread reference; flanges extend below z=0",
+  "coupling_height_m": 1.105,
+  "nominal_reference_heights_m": {
+    "locomotive": 1.09,
+    "coach": 1.105
+  },
+  "artistic_height_choice": "Common 1.105 m; loco raised 15 mm relative to reference nominal for coincident static anchors",
+  "anchor_span_m": 20.4,
+  "anchors": {
+    "COUPLING_FRONT": {
+      "world_location_m": [
+        10.199999809265137,
+        0.0,
+        1.1050000190734863
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.199999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "WAP7_ROOT"
+    },
+    "COUPLING_REAR": {
+      "world_location_m": [
+        -10.199999809265137,
+        0.0,
+        1.1050000190734863
+      ],
+      "world_matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          -10.199999809265137
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": "WAP7_ROOT"
+    }
+  },
+  "head_bounds": {
+    "CBC_FRONT_closed_knuckle_head": [
+      [
+        9.899999618530273,
+        10.279999732971191
+      ],
+      [
+        -0.18000000715255737,
+        0.18000000715255737
+      ],
+      [
+        0.9900000095367432,
+        1.2200000286102295
+      ]
+    ],
+    "CBC_REAR_closed_knuckle_head": [
+      [
+        -10.279999732971191,
+        -9.899999618530273
+      ],
+      [
+        -0.18000008165836334,
+        0.17999997735023499
+      ],
+      [
+        0.9900000095367432,
+        1.2200000286102295
+      ]
+    ]
+  },
+  "buffer_bounds": {
+    "Buffer beam": [
+      [
+        -9.725000381469727,
+        -9.475000381469727
+      ],
+      [
+        -1.3610069751739502,
+        1.3610069751739502
+      ],
+      [
+        1.0199999809265137,
+        1.2999999523162842
+      ]
+    ],
+    "Buffer beam.001": [
+      [
+        9.475000381469727,
+        9.725000381469727
+      ],
+      [
+        -1.3610069751739502,
+        1.3610069751739502
+      ],
+      [
+        1.0199999809265137,
+        1.2999999523162842
+      ]
+    ],
+    "Buffer plate": [
+      [
+        -10.109999656677246,
+        -10.039999961853027
+      ],
+      [
+        -1.2040655612945557,
+        -0.7519343495368958
+      ],
+      [
+        0.8600000143051147,
+        1.350000023841858
+      ]
+    ],
+    "Buffer plate.001": [
+      [
+        -10.109999656677246,
+        -10.039999961853027
+      ],
+      [
+        0.7519343495368958,
+        1.2040655612945557
+      ],
+      [
+        0.8600000143051147,
+        1.350000023841858
+      ]
+    ],
+    "Buffer plate.002": [
+      [
+        10.039999961853027,
+        10.109999656677246
+      ],
+      [
+        -1.2040655612945557,
+        -0.7519343495368958
+      ],
+      [
+        0.8600000143051147,
+        1.350000023841858
+      ]
+    ],
+    "Buffer plate.003": [
+      [
+        10.039999961853027,
+        10.109999656677246
+      ],
+      [
+        0.7519343495368958,
+        1.2040655612945557
+      ],
+      [
+        0.8600000143051147,
+        1.350000023841858
+      ]
+    ],
+    "Buffer shank": [
+      [
+        -10.059999465942383,
+        -9.65999984741211
+      ],
+      [
+        -1.0794987678527832,
+        -0.8765010833740234
+      ],
+      [
+        0.9950000047683716,
+        1.215000033378601
+      ]
+    ],
+    "Buffer shank.001": [
+      [
+        -10.059999465942383,
+        -9.65999984741211
+      ],
+      [
+        0.8765010833740234,
+        1.0794987678527832
+      ],
+      [
+        0.9950000047683716,
+        1.215000033378601
+      ]
+    ],
+    "Buffer shank.002": [
+      [
+        9.65999984741211,
+        10.059999465942383
+      ],
+      [
+        -1.0794987678527832,
+        -0.8765010833740234
+      ],
+      [
+        0.9950000047683716,
+        1.215000033378601
+      ]
+    ],
+    "Buffer shank.003": [
+      [
+        9.65999984741211,
+        10.059999465942383
+      ],
+      [
+        0.8765010833740234,
+        1.0794987678527832
+      ],
+      [
+        0.9950000047683716,
+        1.215000033378601
+      ]
+    ]
+  },
+  "protected_rig": {
+    "BOGIE_A_YAW_Z": {
+      "parent": "WAP7_ROOT",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.8199999928474426
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "AXLE_A_1_ROLL_Y": {
+      "parent": "BOGIE_A_YAW_Z",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.849999904632568
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5460000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "AXLE_A_2_ROLL_Y": {
+      "parent": "BOGIE_A_YAW_Z",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5460000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "AXLE_A_3_ROLL_Y": {
+      "parent": "BOGIE_A_YAW_Z",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.150000095367432
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5460000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "BOGIE_B_YAW_Z": {
+      "parent": "WAP7_ROOT",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.8199999928474426
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "AXLE_B_1_ROLL_Y": {
+      "parent": "BOGIE_B_YAW_Z",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.150000095367432
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5460000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "AXLE_B_2_ROLL_Y": {
+      "parent": "BOGIE_B_YAW_Z",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5460000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "AXLE_B_3_ROLL_Y": {
+      "parent": "BOGIE_B_YAW_Z",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.849999904632568
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5460000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    },
+    "WAP7_ROOT": {
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "EMPTY"
+    }
+  },
+  "interior_object_names": [
+    "CAB_A_INTERIOR",
+    "CAB_A assistant switch",
+    "CAB_A assistant switch.001",
+    "CAB_A assistant switch.002",
+    "CAB_A assistant toggle",
+    "CAB_A assistant toggle.001",
+    "CAB_A assistant toggle.002",
+    "CAB_A assistant toggle.003",
+    "CAB_A assistant toggle.004",
+    "CAB_A assistant toggle.005",
+    "CAB_A blind bottom weight",
+    "CAB_A blind bottom weight.001",
+    "CAB_A bulkhead screw",
+    "CAB_A bulkhead screw.001",
+    "CAB_A bulkhead screw.002",
+    "CAB_A bulkhead screw.003",
+    "CAB_A bulkhead screw.004",
+    "CAB_A bulkhead screw.005",
+    "CAB_A bulkhead screw.006",
+    "CAB_A bulkhead screw.007",
+    "CAB_A ceiling liner",
+    "CAB_A center roof duct",
+    "CAB_A central equipment pedestal",
+    "CAB_A central service access",
+    "CAB_A continuous desk",
+    "CAB_A controller grip",
+    "CAB_A controller grip.001",
+    "CAB_A controller grip.002",
+    "CAB_A controller lever",
+    "CAB_A controller lever.001",
+    "CAB_A controller lever.002",
+    "CAB_A controller mounting boot",
+    "CAB_A controller mounting boot.001",
+    "CAB_A controller mounting boot.002",
+    "CAB_A desk end pedestal",
+    "CAB_A desk end pedestal.001",
+    "CAB_A display bezel",
+    "CAB_A door inner kickplate",
+    "CAB_A door inner kickplate.001",
+    "CAB_A door interior handle",
+    "CAB_A door interior handle.001",
+    "CAB_A door rear pillar",
+    "CAB_A door rear pillar.001",
+    "CAB_A door upper lining",
+    "CAB_A door upper lining.001",
+    "CAB_A driver slanted footboard",
+    "CAB_A emergency stop collar",
+    "CAB_A emergency stop mushroom",
+    "CAB_A floor liner",
+    "CAB_A fluorescent fitting",
+    "CAB_A front desk toe fascia",
+    "CAB_A gangway door",
+    "CAB_A gangway door gasket",
+    "CAB_A gangway door handle",
+    "CAB_A gangway inspection pane",
+    "CAB_A green diagnostic display",
+    "CAB_A indicator chrome collar",
+    "CAB_A indicator chrome collar.001",
+    "CAB_A indicator chrome collar.002",
+    "CAB_A indicator chrome collar.003",
+    "CAB_A indicator lens",
+    "CAB_A indicator lens.001",
+    "CAB_A indicator lens.002",
+    "CAB_A indicator lens.003",
+    "CAB_A keypad key",
+    "CAB_A keypad key.001",
+    "CAB_A keypad key.002",
+    "CAB_A keypad key.003",
+    "CAB_A keypad key.004",
+    "CAB_A keypad key.005",
+    "CAB_A keypad key.006",
+    "CAB_A keypad key.007",
+    "CAB_A lamp diffuser",
+    "CAB_A large push button",
+    "CAB_A large push button.001",
+    "CAB_A large push button.002",
+    "CAB_A left pressure console",
+    "CAB_A meter bezel",
+    "CAB_A meter bezel.001",
+    "CAB_A meter bezel.002",
+    "CAB_A meter bezel.003",
+    "CAB_A meter dark scale",
+    "CAB_A meter dark scale.001",
+    "CAB_A meter dark scale.002",
+    "CAB_A meter dark scale.003",
+    "CAB_A meter needle",
+    "CAB_A meter needle.001",
+    "CAB_A meter needle.002",
+    "CAB_A meter needle.003",
+    "CAB_A meter scale tick",
+    "CAB_A meter scale tick.001",
+    "CAB_A meter scale tick.002",
+    "CAB_A meter scale tick.003",
+    "CAB_A meter scale tick.004",
+    "CAB_A meter scale tick.005",
+    "CAB_A meter scale tick.006",
+    "CAB_A meter scale tick.007",
+    "CAB_A meter scale tick.008",
+    "CAB_A meter scale tick.009",
+    "CAB_A meter scale tick.010",
+    "CAB_A meter scale tick.011",
+    "CAB_A meter scale tick.012",
+    "CAB_A meter scale tick.013",
+    "CAB_A meter scale tick.014",
+    "CAB_A meter scale tick.015",
+    "CAB_A meter scale tick.016",
+    "CAB_A meter scale tick.017",
+    "CAB_A meter scale tick.018",
+    "CAB_A meter scale tick.019",
+    "CAB_A overhead equipment cover",
+    "CAB_A overhead grille slot",
+    "CAB_A overhead grille slot.001",
+    "CAB_A overhead grille slot.002",
+    "CAB_A overhead grille slot.003",
+    "CAB_A overhead grille slot.004",
+    "CAB_A pedal face",
+    "CAB_A pedal face.001",
+    "CAB_A pedal face.002",
+    "CAB_A pedal rib",
+    "CAB_A pedal rib.001",
+    "CAB_A pedal rib.002",
+    "CAB_A pedal rib.003",
+    "CAB_A pedal rib.004",
+    "CAB_A pedal rib.005",
+    "CAB_A pedal rib.006",
+    "CAB_A pedal rib.007",
+    "CAB_A pedal rib.008",
+    "CAB_A pressure gauge face",
+    "CAB_A pressure gauge face.001",
+    "CAB_A pressure gauge face.002",
+    "CAB_A pressure gauge face.003",
+    "CAB_A pressure gauge rim",
+    "CAB_A pressure gauge rim.001",
+    "CAB_A pressure gauge rim.002",
+    "CAB_A pressure gauge rim.003",
+    "CAB_A raised roller blind",
+    "CAB_A raised roller blind.001",
+    "CAB_A rear bulkhead",
+    "CAB_A removable instrument face",
+    "CAB_A removable instrument face.001",
+    "CAB_A removable instrument face.002",
+    "CAB_A roller blind spindle",
+    "CAB_A roller blind spindle.001",
+    "CAB_A rotary switch bezel",
+    "CAB_A rotary switch bezel.001",
+    "CAB_A rotary switch bezel.002",
+    "CAB_A rotary switch bezel.003",
+    "CAB_A rotary switch bezel.004",
+    "CAB_A rotary switch bezel.005",
+    "CAB_A rotary switch bezel.006",
+    "CAB_A rotary switch bezel.007",
+    "CAB_A rotary switch bezel.008",
+    "CAB_A rotary switch bezel.009",
+    "CAB_A rotary switch bezel.010",
+    "CAB_A rotary switch bezel.011",
+    "CAB_A rotary switch bezel.012",
+    "CAB_A rotary switch bezel.013",
+    "CAB_A rotary switch bezel.014",
+    "CAB_A rotary switch bezel.015",
+    "CAB_A rotary switch bezel.016",
+    "CAB_A rotary switch bezel.017",
+    "CAB_A rotary switch bezel.018",
+    "CAB_A rotary switch bezel.019",
+    "CAB_A rotary switch bezel.020",
+    "CAB_A rotary switch bezel.021",
+    "CAB_A rotary switch bezel.022",
+    "CAB_A rotary switch bezel.023",
+    "CAB_A rotary switch bezel.024",
+    "CAB_A rotary switch bezel.025",
+    "CAB_A rotary switch bezel.026",
+    "CAB_A seat adjustment lever",
+    "CAB_A seat adjustment lever.001",
+    "CAB_A seat arm upright",
+    "CAB_A seat arm upright.001",
+    "CAB_A seat arm upright.002",
+    "CAB_A seat arm upright.003",
+    "CAB_A seat armrest",
+    "CAB_A seat armrest.001",
+    "CAB_A seat armrest.002",
+    "CAB_A seat armrest.003",
+    "CAB_A seat back cushion",
+    "CAB_A seat back cushion.001",
+    "CAB_A seat bellows rib",
+    "CAB_A seat bellows rib.001",
+    "CAB_A seat bellows rib.002",
+    "CAB_A seat bellows rib.003",
+    "CAB_A seat bellows rib.004",
+    "CAB_A seat bellows rib.005",
+    "CAB_A seat bellows rib.006",
+    "CAB_A seat bellows rib.007",
+    "CAB_A seat cushion",
+    "CAB_A seat cushion.001",
+    "CAB_A seat hydraulic column",
+    "CAB_A seat hydraulic column.001",
+    "CAB_A seat pan",
+    "CAB_A seat pan.001",
+    "CAB_A seat pedestal foot",
+    "CAB_A seat pedestal foot.001",
+    "CAB_A seat piping",
+    "CAB_A seat piping.001",
+    "CAB_A seat suspension bellows",
+    "CAB_A seat suspension bellows.001",
+    "CAB_A service cabinet louvre",
+    "CAB_A service cabinet louvre.001",
+    "CAB_A service cabinet louvre.002",
+    "CAB_A service cabinet louvre.003",
+    "CAB_A service cabinet louvre.004",
+    "CAB_A side interior lower lining",
+    "CAB_A side interior lower lining.001",
+    "CAB_A sloping console housing",
+    "CAB_A sloping console housing.001",
+    "CAB_A sloping console housing.002",
+    "CAB_A toggle stem",
+    "CAB_A toggle stem.001",
+    "CAB_A toggle stem.002",
+    "CAB_A toggle stem.003",
+    "CAB_A toggle stem.004",
+    "CAB_A toggle stem.005",
+    "CAB_A toggle stem.006",
+    "CAB_A toggle stem.007",
+    "CAB_A toggle stem.008",
+    "CAB_A toggle stem.009",
+    "CAB_A toggle stem.010",
+    "CAB_A toggle stem.011",
+    "CAB_A toggle stem.012",
+    "CAB_A toggle stem.013",
+    "CAB_A toggle stem.014",
+    "CAB_A toggle stem.015",
+    "CAB_A toggle stem.016",
+    "CAB_A toggle stem.017",
+    "CAB_A toggle stem.018",
+    "CAB_A toggle stem.019",
+    "CAB_A toggle stem.020",
+    "CAB_A toggle stem.021",
+    "CAB_A toggle stem.022",
+    "CAB_A toggle stem.023",
+    "CAB_A toggle stem.024",
+    "CAB_A toggle stem.025",
+    "CAB_A toggle stem.026",
+    "CAB_B_INTERIOR",
+    "CAB_B assistant switch",
+    "CAB_B assistant switch.001",
+    "CAB_B assistant switch.002",
+    "CAB_B assistant toggle",
+    "CAB_B assistant toggle.001",
+    "CAB_B assistant toggle.002",
+    "CAB_B assistant toggle.003",
+    "CAB_B assistant toggle.004",
+    "CAB_B assistant toggle.005",
+    "CAB_B blind bottom weight",
+    "CAB_B blind bottom weight.001",
+    "CAB_B bulkhead screw",
+    "CAB_B bulkhead screw.001",
+    "CAB_B bulkhead screw.002",
+    "CAB_B bulkhead screw.003",
+    "CAB_B bulkhead screw.004",
+    "CAB_B bulkhead screw.005",
+    "CAB_B bulkhead screw.006",
+    "CAB_B bulkhead screw.007",
+    "CAB_B ceiling liner",
+    "CAB_B center roof duct",
+    "CAB_B central equipment pedestal",
+    "CAB_B central service access",
+    "CAB_B continuous desk",
+    "CAB_B controller grip",
+    "CAB_B controller grip.001",
+    "CAB_B controller grip.002",
+    "CAB_B controller lever",
+    "CAB_B controller lever.001",
+    "CAB_B controller lever.002",
+    "CAB_B controller mounting boot",
+    "CAB_B controller mounting boot.001",
+    "CAB_B controller mounting boot.002",
+    "CAB_B desk end pedestal",
+    "CAB_B desk end pedestal.001",
+    "CAB_B display bezel",
+    "CAB_B door inner kickplate",
+    "CAB_B door inner kickplate.001",
+    "CAB_B door interior handle",
+    "CAB_B door interior handle.001",
+    "CAB_B door rear pillar",
+    "CAB_B door rear pillar.001",
+    "CAB_B door upper lining",
+    "CAB_B door upper lining.001",
+    "CAB_B driver slanted footboard",
+    "CAB_B emergency stop collar",
+    "CAB_B emergency stop mushroom",
+    "CAB_B floor liner",
+    "CAB_B fluorescent fitting",
+    "CAB_B front desk toe fascia",
+    "CAB_B gangway door",
+    "CAB_B gangway door gasket",
+    "CAB_B gangway door handle",
+    "CAB_B gangway inspection pane",
+    "CAB_B green diagnostic display",
+    "CAB_B indicator chrome collar",
+    "CAB_B indicator chrome collar.001",
+    "CAB_B indicator chrome collar.002",
+    "CAB_B indicator chrome collar.003",
+    "CAB_B indicator lens",
+    "CAB_B indicator lens.001",
+    "CAB_B indicator lens.002",
+    "CAB_B indicator lens.003",
+    "CAB_B keypad key",
+    "CAB_B keypad key.001",
+    "CAB_B keypad key.002",
+    "CAB_B keypad key.003",
+    "CAB_B keypad key.004",
+    "CAB_B keypad key.005",
+    "CAB_B keypad key.006",
+    "CAB_B keypad key.007",
+    "CAB_B lamp diffuser",
+    "CAB_B large push button",
+    "CAB_B large push button.001",
+    "CAB_B large push button.002",
+    "CAB_B left pressure console",
+    "CAB_B meter bezel",
+    "CAB_B meter bezel.001",
+    "CAB_B meter bezel.002",
+    "CAB_B meter bezel.003",
+    "CAB_B meter dark scale",
+    "CAB_B meter dark scale.001",
+    "CAB_B meter dark scale.002",
+    "CAB_B meter dark scale.003",
+    "CAB_B meter needle",
+    "CAB_B meter needle.001",
+    "CAB_B meter needle.002",
+    "CAB_B meter needle.003",
+    "CAB_B meter scale tick",
+    "CAB_B meter scale tick.001",
+    "CAB_B meter scale tick.002",
+    "CAB_B meter scale tick.003",
+    "CAB_B meter scale tick.004",
+    "CAB_B meter scale tick.005",
+    "CAB_B meter scale tick.006",
+    "CAB_B meter scale tick.007",
+    "CAB_B meter scale tick.008",
+    "CAB_B meter scale tick.009",
+    "CAB_B meter scale tick.010",
+    "CAB_B meter scale tick.011",
+    "CAB_B meter scale tick.012",
+    "CAB_B meter scale tick.013",
+    "CAB_B meter scale tick.014",
+    "CAB_B meter scale tick.015",
+    "CAB_B meter scale tick.016",
+    "CAB_B meter scale tick.017",
+    "CAB_B meter scale tick.018",
+    "CAB_B meter scale tick.019",
+    "CAB_B overhead equipment cover",
+    "CAB_B overhead grille slot",
+    "CAB_B overhead grille slot.001",
+    "CAB_B overhead grille slot.002",
+    "CAB_B overhead grille slot.003",
+    "CAB_B overhead grille slot.004",
+    "CAB_B pedal face",
+    "CAB_B pedal face.001",
+    "CAB_B pedal face.002",
+    "CAB_B pedal rib",
+    "CAB_B pedal rib.001",
+    "CAB_B pedal rib.002",
+    "CAB_B pedal rib.003",
+    "CAB_B pedal rib.004",
+    "CAB_B pedal rib.005",
+    "CAB_B pedal rib.006",
+    "CAB_B pedal rib.007",
+    "CAB_B pedal rib.008",
+    "CAB_B pressure gauge face",
+    "CAB_B pressure gauge face.001",
+    "CAB_B pressure gauge face.002",
+    "CAB_B pressure gauge face.003",
+    "CAB_B pressure gauge rim",
+    "CAB_B pressure gauge rim.001",
+    "CAB_B pressure gauge rim.002",
+    "CAB_B pressure gauge rim.003",
+    "CAB_B raised roller blind",
+    "CAB_B raised roller blind.001",
+    "CAB_B rear bulkhead",
+    "CAB_B removable instrument face",
+    "CAB_B removable instrument face.001",
+    "CAB_B removable instrument face.002",
+    "CAB_B roller blind spindle",
+    "CAB_B roller blind spindle.001",
+    "CAB_B rotary switch bezel",
+    "CAB_B rotary switch bezel.001",
+    "CAB_B rotary switch bezel.002",
+    "CAB_B rotary switch bezel.003",
+    "CAB_B rotary switch bezel.004",
+    "CAB_B rotary switch bezel.005",
+    "CAB_B rotary switch bezel.006",
+    "CAB_B rotary switch bezel.007",
+    "CAB_B rotary switch bezel.008",
+    "CAB_B rotary switch bezel.009",
+    "CAB_B rotary switch bezel.010",
+    "CAB_B rotary switch bezel.011",
+    "CAB_B rotary switch bezel.012",
+    "CAB_B rotary switch bezel.013",
+    "CAB_B rotary switch bezel.014",
+    "CAB_B rotary switch bezel.015",
+    "CAB_B rotary switch bezel.016",
+    "CAB_B rotary switch bezel.017",
+    "CAB_B rotary switch bezel.018",
+    "CAB_B rotary switch bezel.019",
+    "CAB_B rotary switch bezel.020",
+    "CAB_B rotary switch bezel.021",
+    "CAB_B rotary switch bezel.022",
+    "CAB_B rotary switch bezel.023",
+    "CAB_B rotary switch bezel.024",
+    "CAB_B rotary switch bezel.025",
+    "CAB_B rotary switch bezel.026",
+    "CAB_B seat adjustment lever",
+    "CAB_B seat adjustment lever.001",
+    "CAB_B seat arm upright",
+    "CAB_B seat arm upright.001",
+    "CAB_B seat arm upright.002",
+    "CAB_B seat arm upright.003",
+    "CAB_B seat armrest",
+    "CAB_B seat armrest.001",
+    "CAB_B seat armrest.002",
+    "CAB_B seat armrest.003",
+    "CAB_B seat back cushion",
+    "CAB_B seat back cushion.001",
+    "CAB_B seat bellows rib",
+    "CAB_B seat bellows rib.001",
+    "CAB_B seat bellows rib.002",
+    "CAB_B seat bellows rib.003",
+    "CAB_B seat bellows rib.004",
+    "CAB_B seat bellows rib.005",
+    "CAB_B seat bellows rib.006",
+    "CAB_B seat bellows rib.007",
+    "CAB_B seat cushion",
+    "CAB_B seat cushion.001",
+    "CAB_B seat hydraulic column",
+    "CAB_B seat hydraulic column.001",
+    "CAB_B seat pan",
+    "CAB_B seat pan.001",
+    "CAB_B seat pedestal foot",
+    "CAB_B seat pedestal foot.001",
+    "CAB_B seat piping",
+    "CAB_B seat piping.001",
+    "CAB_B seat suspension bellows",
+    "CAB_B seat suspension bellows.001",
+    "CAB_B service cabinet louvre",
+    "CAB_B service cabinet louvre.001",
+    "CAB_B service cabinet louvre.002",
+    "CAB_B service cabinet louvre.003",
+    "CAB_B service cabinet louvre.004",
+    "CAB_B side interior lower lining",
+    "CAB_B side interior lower lining.001",
+    "CAB_B sloping console housing",
+    "CAB_B sloping console housing.001",
+    "CAB_B sloping console housing.002",
+    "CAB_B toggle stem",
+    "CAB_B toggle stem.001",
+    "CAB_B toggle stem.002",
+    "CAB_B toggle stem.003",
+    "CAB_B toggle stem.004",
+    "CAB_B toggle stem.005",
+    "CAB_B toggle stem.006",
+    "CAB_B toggle stem.007",
+    "CAB_B toggle stem.008",
+    "CAB_B toggle stem.009",
+    "CAB_B toggle stem.010",
+    "CAB_B toggle stem.011",
+    "CAB_B toggle stem.012",
+    "CAB_B toggle stem.013",
+    "CAB_B toggle stem.014",
+    "CAB_B toggle stem.015",
+    "CAB_B toggle stem.016",
+    "CAB_B toggle stem.017",
+    "CAB_B toggle stem.018",
+    "CAB_B toggle stem.019",
+    "CAB_B toggle stem.020",
+    "CAB_B toggle stem.021",
+    "CAB_B toggle stem.022",
+    "CAB_B toggle stem.023",
+    "CAB_B toggle stem.024",
+    "CAB_B toggle stem.025",
+    "CAB_B toggle stem.026"
+  ],
+  "bounds_non_coupling_structure": {
+    "Chamfered welded body shell": [
+      [
+        -9.520000457763672,
+        9.520000457763672
+      ],
+      [
+        -1.454201340675354,
+        1.454201340675354
+      ],
+      [
+        1.4500000476837158,
+        3.7799999713897705
+      ]
+    ]
+  }
+}

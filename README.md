@@ -1,4 +1,4 @@
-# Indian Rail Prototype Pack v0.2
+# Indian Rail Prototype Pack v0.3
 
 Editable Blender prototypes for an Indian Railways asset-development project:
 
@@ -7,6 +7,25 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 - **Conventional ICF sleeper** coach in blue/cyan
 
 **These are dimensioned visual prototypes, not a working or game-tested Transport Fever 3 mod.** Detailed masters prioritize separated components and reviewable shape; they require optimization and integration before game use.
+
+## Coupling correction v0.3
+
+[Open the corrected WAP-7 + CBC-retrofit ICF assets and full coordinate documentation](coupling_v03).
+
+![Matched CBC visual connection](coupling_v03/paired_connection_closeup.png)
+
+This separate ICF variant uses matched simplified CBC heads; the original screw-coupled v0.2 remains unchanged. Both updated models include root-parented **COUPLING_FRONT** and **COUPLING_REAR** empties in Blender and FBX. Metre scale, original origins, interiors and bogie/axle hierarchy are preserved.
+
+| Authoring model | Front anchor XYZ (m) | Rear anchor XYZ (m) | Point-to-point span |
+|---|---|---|---|
+| WAP-7 | (10.2000, 0, 1.105) | (-10.2000, 0, 1.105) | 20.4000 m |
+| ICF CBC-retrofit visual variant | (11.1485, 0, 1.105) | (-11.1485, 0, 1.105) | 22.2970 m |
+
+The common 1.105 m height is a visual alignment convention, including a 15 mm normalization above the cited locomotive nominal height. These are **model mating planes, not nose-tip bounds or certified prototype dimensions**. Retained side-buffer axes are at Y = ±0.978 m. The anchored straight fixture preserves about 1.160 m body clearance and a 90 mm buffer-face gap.
+
+[Top contact view](coupling_v03/paired_connection_top.png) · [Paired overview](coupling_v03/paired_straight_overview.png) · [Validation and sources](coupling_v03/README.md)
+
+Fresh FBX checks cover both anchor frames and preserved mechanical hierarchy. This fix was checked in Blender only; TF3 vehicle spacing plus straight/curve tests remain with the user. No dynamic coupler yaw or compression is implemented.
 
 ## Interior pass v0.2
 

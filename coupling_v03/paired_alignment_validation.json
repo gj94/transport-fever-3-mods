@@ -1,0 +1,18 @@
+{
+  "pose": "WAP7 +X front to ICF -X rear, straight track",
+  "coach_translation_m": [
+    21.348499298095703,
+    0.0,
+    0.0
+  ],
+  "anchor_residual_m": 9.5367431640625e-07,
+  "outward_axes_dot": -1.0,
+  "root_center_separation_m": 21.348499298095703,
+  "head_interleaving_depth_m": 0.16,
+  "head_positive_area_overlap_grid_samples": 0,
+  "grid_pitch_m": 0.001,
+  "head_contact": "Matching un-beveled stepped face; cast-edge bevel creates fine edge relief",
+  "buffer_face_gap_m": 0.08999999999999986,
+  "body_shell_end_clearance_m": 1.159998893737793,
+  "tf3_tested_by_this_package": false
+}
