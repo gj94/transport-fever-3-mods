@@ -16,7 +16,7 @@ WAP-7 now uses this master, which retains the accepted coupling-v03 geometry.
 
 The editable prototypes now have a locally generated TF3 pack containing WAP-7,
 LHB AC 3-tier, ICF Sleeper and Vande Bharat 8/16-car trainsets. The Blender masters
-are unchanged. Current pack revision is **6**; Vande Bharat source is upstream
+are unchanged. Current local pack revision is **10**; Vande Bharat source is upstream
 commit `644de22`.
 
 For Steam installs, the pack folder belongs at:
@@ -36,8 +36,9 @@ a later release.
 4. Buy **Indian Railways WAP-7** and add either **LHB AC 3-tier** or **ICF Sleeper** coaches.
 5. Assign the train to a passenger route and check departure, curves and loading.
 
-WAP-7 is available from 2000, LHB from 1995, and ICF from 1960. Each coach has
-72 configured passenger places. Gameplay values are initial prototype settings.
+WAP-7 is available from 2000, LHB from 1995, and ICF from 1960. ICF has 80
+configured passenger places (20 at standard game scale); LHB has 88 (22 in game).
+These gameplay capacities are normalized above the 72 physical berth locators.
 The two coach families are intended as separate rakes.
 
 For Vande Bharat, use **2022 or later** and buy **Vande Bharat Express (8 cars)**
@@ -50,7 +51,7 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
   This confirms the corrected update's in-game appearance is acceptable. Exact
   wire contact through curves/slopes, switching after reversal, passenger loading
   and a complete sound/LOD test have not been individually confirmed.
-- Current pack version is revision 6. The entries below also preserve
+- Current local pack version is revision 10. The entries below also preserve
   the earlier problems and fixes; pending checks recorded during those stages
   should be read with the latest result above.
 - The user confirmed the pack loads, WAP-7 appears in the vehicle manager and
@@ -114,7 +115,7 @@ python tools/check_tf3_balance.py --game-root 'D:\SteamLibrary\steamapps\common\
 if ($LASTEXITCODE -ne 0) { throw 'Stock balance comparison failed' }
 python tools/check_vb_character_fit.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
 if ($LASTEXITCODE -ne 0) { throw 'Character-height check failed' }
-python tools/package_tf3_pack.py --copy-to D:\TF3Mods
+python tools/package_tf3_pack.py --private --copy-to D:\TF3Mods
 if ($LASTEXITCODE -ne 0) { throw 'Pack archive verification failed' }
 ```
 
@@ -167,7 +168,17 @@ rather than assuming the current distant silhouette is the final visual quality.
 5. When distributing a build, ZIP the entire mod folder, including `mod.json`,
    `_metadata` and `content`. Keep the stable mod ID so existing saves resolve it.
 
-The local ZIP is `D:\TF3Mods\Indian-Rail-Prototype-Pack-TF3.zip`.
+The private horn ZIP is `D:\TF3Mods\Indian-Rail-Prototype-Pack-TF3-Private.zip`.
+The tracked revision-7 ZIP retains the capacity/fare changes and stock horn.
+The revision-10 local build uses seconds 2–4 of the user's `HornSample.mp4`,
+converted to `D:\TF3Mods\WAP7-Horn-Preview.wav` with short edge fades.
+The exporter automatically uses that local WAV when present; set
+`TF3_WAP7_HORN` to use a different prepared two-second mono PCM16/48 kHz WAV.
+`python tools/wap7_audio.py` applies it to an existing build without rebuilding
+geometry. The recording and private package remain in ignored/local locations.
+The default horn key triggers the complete two-second sound once per press;
+the shipped handler does not accept repeated presses from a held key and does
+not have a release-to-stop callback. In-game playback remains to be checked.
 Generated `game_build/` files are ignored by Git; the scripts and documentation
 are the reproducible source. Original `.blend` and FBX assets remain unchanged.
 The pre-interior rollback ZIP is
@@ -380,3 +391,109 @@ the old reference even though the file exists through filesystem traversal.
 Both installed copies and the ZIP have been updated and hash-verified.
 The fresh game reload reports no missing resources. The user then confirmed
 revision 6 works well in game, resolving the missing-consist purchase-menu issue.
+
+## Conventional coach balance (revision 7, 30 September 2026)
+
+ICF capacity increases from 72 to 80 configured places (18 to 20 in game), and
+LHB from 72 to 88 (18 to 22 in game). The gameplay capacities normalize their
+passengers per metre to within about 10% of ordinary stock seated coaches.
+The 72 physical berth/seat locators in each source remain unchanged. Payload
+weights follow the exporter's existing 80 kg per configured place rule.
+
+WAP-7, ICF and LHB now use `transportVehicle.priceFactor=0.5`, matching normal
+stock trains and Vande Bharat. The previous factor was 1. Purchase and annual
+upkeep remain automatic, with no custom discounts. Increasing capacity also
+increases the automatically calculated coach price and upkeep.
+
+The comparison fills a 320 m spacing budget, includes the locomotive, and uses
+the installed game's cost formula before difficulty/global/company modifiers:
+
+| Rake | Coaches | Game capacity | Length | Speed | Purchase | Annual upkeep | Purchase per game passenger |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| WAP-7 + ICF | 13 | 260 | 310.261 m | 110 km/h | 27,904,950 | 4,650,825 | 107,327 |
+| WAP-7 + LHB | 12 | 264 | 308.400 m | 140 km/h | 31,273,116 | 5,212,186 | 118,459 |
+| Stock TRAXX + China YZ22 | 12 | 288 | 310.503 m | 120 km/h | 27,932,376 | 4,655,396 | 96,987 |
+| Stock TRAXX + EW IV | 11 | 286 | 308.584 m | 160 km/h | 33,302,286 | 5,550,381 | 116,442 |
+| Stock OBB 1042 + EW II | 12 | 300 | 313.294 m | 140 km/h | 26,799,720 | 4,466,620 | 89,332 |
+
+The updated ICF/LHB rakes are competitive but not the cheapest per passenger.
+ICF is about 11% above TRAXX/YZ22 per passenger, while LHB is about 2% above
+TRAXX/EW IV. The lighter, less powerful OBB/EW II combination remains cheaper.
+The new capacities improve the locomotive cost shared by each passenger.
+
+`tools/check_tf3_balance.py` now includes conventional rakes and ignores empty
+cargo filters on locomotives, as the game does. It takes the maximum alternative
+load configuration per compartment instead of adding mutually exclusive loads.
+The full report remains `game_build/vande_bharat_balance.json`.
+
+Validation: pack resource checks passed. An independent Lua execution of the
+installed cost formula matched purchase/upkeep estimates for all ten pack car
+types and five stock comparison vehicles. Only the requested fare factors,
+coach capacities/payload weights and mod revision changed in the built pack;
+all other packaged resources retain their previous hashes. Revision 7 still
+needs an in-game check after restarting TF3.
+
+Revision 7 was packaged, installed into both `local/mods` and
+`local/staging_area`, and every copied file was SHA256-verified. The previous
+installed copies are preserved in `D:\TF3Mods` under
+`Indian-Rail-Prototype-Pack-before-capacity-fare-v06-*-20260930-203314.zip`.
+
+## Local WAP-7 horn (revision 8, 30 September 2026)
+
+The user previewed and approved seconds 2–4 of `D:\TF3Mods\HornSample.mp4`.
+The installed WAV is exactly the preview: two seconds, mono PCM16 at 48 kHz,
+with a 10 ms fade in and 20 ms fade out. It has no clipped samples. WAP-7's
+`soundConfig.effects.horn` supplies this recording while its base electric
+sound set supplies the other tracks and events. Coach/Vande Bharat sound
+configuration and the revision-7 capacity/fare balance are retained.
+
+Validation passed for pack resources, actual Lua metadata, clip format and
+preview hash equality. Comparing WAP-7 against its revision-7 Lua table showed
+only the horn override and cache-version marker changed. The private ZIP has
+1,921 individually hash-verified files. It is outside the tracked release
+archive, which remains the revision-7 balance update with stock audio.
+
+Revision 8 was installed into both `local/mods` and `local/staging_area`;
+every copied file was SHA256-verified. Previous installations are backed up
+as `D:\TF3Mods\Indian-Rail-Prototype-Pack-before-WAP7-horn-v07-*-20260930-205510.zip`.
+Restart TF3 to audition the installed horn; runtime playback/volume is pending.
+
+## Direct horn sound set (revision 9, 30 September 2026)
+
+The revision-8 play test still used the stock horn. The 20:57 SGT game log
+confirmed revision 8 was active from staging and reported no missing resources
+or horn/audio errors. Its `soundConfig.effects.horn` override did not change
+the heard sound, so it has been replaced by a dedicated sound-set resource.
+
+WAP-7 now uses
+`gj94_indian_rail_pack::/vehicle/train/wap7/sound/wap7.snd`, whose `horn` event
+directly references the approved WAV. The five continuous tracks and rail-clack
+event use explicit base-game audio paths. Executing both sound sets with the
+shipped Lua helpers produced identical attributes, curves and update functions
+after rebasing clip paths and replacing the horn. All base audio and update
+script references resolve. Actual WAP-7 metadata otherwise matches revision 7,
+apart from its sound-set reference and cache-version marker.
+
+Pack validation passed and the private archive contains 1,922 individually
+hash-verified files. In-game playback of revision 9 still needs confirmation.
+Both installed copies were updated and every file was hash-verified. Their
+revision-8 backups are
+`D:\TF3Mods\Indian-Rail-Prototype-Pack-before-WAP7-horn-v08-*-20260930-210243.zip`.
+
+## Base helper import (revision 10, 30 September 2026)
+
+The revision-9 play test reported no horn. At 21:04 SGT the log showed
+`module 'gj94_indian_rail_pack::/scripts/soundsetutil.lua' not found`, followed
+by a missing sound-set warning for WAP-7. A leading `/scripts/` in a mod's
+`require` uses that mod's namespace. Revision 10 imports the helper explicitly
+as `::/scripts/soundsetutil.lua`, keeping the direct local horn event.
+
+The revision-9 failure was reproduced with the shipped `base/init.lua`
+require implementation and a resolver modelling the namespaces observed in
+the log. The corrected sound set loaded through the same code under the mod
+namespace and configured the horn, five continuous tracks and ten clack clips.
+The corrected private package has 1,922 hash-verified files. Runtime playback
+still needs the next restart/test.
+Both installed locations now contain revision 10 and every copied file was
+hash-verified. Revision-9 rollback archives are
+`D:\TF3Mods\Indian-Rail-Prototype-Pack-before-WAP7-horn-v09-*-20260930-210733.zip`.

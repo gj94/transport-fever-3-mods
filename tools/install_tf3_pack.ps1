@@ -1,6 +1,7 @@
 param(
     [Parameter(Mandatory=$true)][string]$LocalRoot,
-    [string]$BackupRoot = 'D:\TF3Mods'
+    [string]$BackupRoot = 'D:\TF3Mods',
+    [ValidatePattern('^[a-zA-Z0-9-]+$')][string]$BackupLabel = 'update'
 )
 $ErrorActionPreference = 'Stop'
 $taskRepo = Split-Path -Parent $PSScriptRoot
@@ -17,7 +18,7 @@ foreach ($taskArea in @('mods','staging_area')) {
     if (Test-Path -LiteralPath $taskDestination) {
         $taskInstalled = Get-Content -Raw -LiteralPath (Join-Path $taskDestination 'mod.json') | ConvertFrom-Json
         if ($taskInstalled.modId -ne $taskManifest.modId) { throw 'Unexpected installed mod ID.' }
-        $taskBackup = Join-Path $BackupRoot "Indian-Rail-Prototype-Pack-before-Vande-Bharat-$taskArea-$taskStamp.zip"
+        $taskBackup = Join-Path $BackupRoot "Indian-Rail-Prototype-Pack-before-$BackupLabel-$taskArea-$taskStamp.zip"
         Compress-Archive -LiteralPath $taskDestination -DestinationPath $taskBackup -CompressionLevel Optimal
         Write-Output "Backup: $taskBackup"
     } else {

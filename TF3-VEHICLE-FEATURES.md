@@ -35,7 +35,7 @@ not been individually reported as tested.
 | Lights | Head/tail lights and light-emitting or illuminated materials; native models have timed and direction-sensitive light setups | No complete lighting setup yet |
 | Sounds | Continuous tracks, event clips, volume/pitch curves, custom update scripts and distance settings | Stock modern electric-loco and wagon sound sets referenced |
 | Performance | Speed, empty/payload weight, engine type, power, tractive effort and friction; native train setup also includes braking | Initial prototype gameplay values; tune against intended gameplay and verified vehicle specs |
-| Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | Coaches configured for 72 passengers; boarding/unloading and seats need testing |
+| Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | ICF/LHB configured for 80/88 places (20/22 at standard game scale), retaining 72 physical passenger locators; boarding/unloading and seats need testing |
 | Service and economics | Purchase price/scales, running cost/scales, lifespan, maintenance factors, noise/pollution and availability dates | Basic automatic prices/costs and prototype values |
 | Vehicle identity and UI | Names/descriptions, filter tags, icons, release/retirement years and availability notifications | Names, dates, tags and rendered icons implemented |
 | Physical/visual fit | Colliders, bounds, wheel/axle metadata and bogie behaviour | Box colliders and original axle pivots; curve/coupling tests pending |
@@ -46,8 +46,17 @@ LHB and ICF families as separate rakes; v03 directly addresses the WAP-7/ICF pai
 
 ## Sounds: yes, including custom recordings
 
-The WAP-7 currently points to the base resource
-`::/vehicle/train/shared/sound/train_electric_modern.snd`.
+Local revision 10 points WAP-7 to its own resource
+`gj94_indian_rail_pack::/vehicle/train/wap7/sound/wap7.snd`.
+Its `horn` event directly references `wap7_horn.wav`: the approved two-second
+section of the user's HornSample, in mono PCM16 at 48 kHz. Stock traction,
+wheel and brake tracks use explicit references to the base game's audio with
+the original gain/pitch curves. The local recording is excluded from
+tracked release archives; package this build with `--private`.
+The shipped vehicle window invokes `letVehicleHorn` through a normal
+`react.iaHandler` without accepting held-key repeats. Each key press triggers
+the full clip; holding/releasing the key does not sustain/stop it. A true
+hold-to-sound control would require additional scripting and runtime testing.
 The coaches point to
 `::/vehicle/waggon/shared/sound/waggon_modern.snd`.
 These references reuse the installed game's resources; no native recordings
@@ -100,6 +109,10 @@ special operating triggers may require a custom update script and testing.
 Useful confirmed helpers are `makeSoundSet`, `addTrackParam01`,
 `addTrackCustom`, `addTrackSqueal`, `addTrackBrake`, `addEventClacks`,
 `addEvent` and `addEventCustom`. The game also exposes a vehicle-horn action.
+The revision-8 `soundConfig.effects.horn` attempt loaded without errors but
+the user still heard the stock horn. The local sound set uses the direct event.
+Its base helper import must include `::/scripts/`: a leading `/scripts/` alone
+is resolved inside the mod namespace and caused revision 9's load error.
 Custom scripts can alter gains, pitch and event triggers. Additional audio
 formats or separate cockpit/exterior mixes have not been verified here.
 

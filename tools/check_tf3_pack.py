@@ -1,6 +1,6 @@
 """Check native mesh bounds, resource references and DDS mip chains."""
 from pathlib import Path
-import re, struct, math
+import re, struct, math, wave
 from PIL import Image
 from model_sources import MODELS
 from vande_bharat import CAPACITY
@@ -12,6 +12,12 @@ assert {m.stem for m in models} == {key for key,_ in MODELS}
 for model in models:
     folder = model.parent
     text = model.read_text()
+    transport_text = text.split('transportVehicle=',1)[1]
+    assert 'priceFactor=0.5' in transport_text, f'{model.stem}: fare factor must match stock trains'
+    if model.stem in {'icf_sleeper','lhb_3a'}:
+        capacity = 80 if model.stem == 'icf_sleeper' else 88
+        assert f'capacity={capacity},' in transport_text, f'{model.stem}: incorrect balanced capacity'
+        assert f'weightMaxPayload={capacity*80}' in text, f'{model.stem}: payload must follow capacity'
     meshes = set(re.findall(r'mesh="([^"]+)"', text))
     palette_tiles = set()
     for ref in meshes:
@@ -58,6 +64,7 @@ for model in models:
         assert 'multipleUnitOnly=true' in text
         transport_text=text.split('transportVehicle=',1)[1]
         assert 'filterTags={}' in transport_text, f'{model.stem}: individual car must be hidden from the depot'
+    # The conventional coaches retain the source's 72 physical passenger locators.
     expected=CAPACITY[kind]+(2 if kind=='DTC' else 0) if vb else (2 if model.stem=='wap7' else 72)
     assert seat_text.count('animation=')==expected, f'{model.stem}: missing seats'
     node_text=text.split('metadata=',1)[0]
@@ -79,6 +86,17 @@ for model in models:
         assert abs(anchor_x['front']-anchor_x['rear']-expected_span)<1e-5
         print(f'{model.stem}: coupling frames and spacing span {expected_span} m checked')
     if model.stem=='wap7':
+        horn = folder / 'sound/wap7_horn.wav'
+        if horn.is_file():
+            assert 'name="gj94_indian_rail_pack::/vehicle/train/wap7/sound/wap7.snd"' in text
+            assert 'effects={horn=' not in text
+            sound_set = (folder / 'sound/wap7.snd.lua').read_text()
+            assert 'soundsetutil.addEvent(result, "horn", { "wap7_horn.wav" }, 50.0)' in sound_set
+            assert 'horn_11.wav' not in sound_set
+            with wave.open(str(horn)) as audio:
+                assert (audio.getnchannels(), audio.getsampwidth(), audio.getframerate()) == (1, 2, 48000)
+                assert audio.getnframes() == 96000, 'Approved horn must be the two-second preview'
+            print('wap7: direct horn event, local sound set and PCM format checked; base electric tracks referenced')
         for end in ('front','rear'):
             assert node_text.count('pantograph_'+end+'=')==12
             for part in ('lower_pivot','elbow_pivot','head_level_pivot'):

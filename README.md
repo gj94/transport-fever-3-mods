@@ -14,7 +14,13 @@ the conversion supplies native game resources, materials, LODs and metadata.
 A local TF3 conversion is now installed and play-tested, including updated
 interiors, CBC couplings and pantographs. See [installation and play-test notes](TF3-INSTALL.md)
 for the current revision, reproducible build steps, fixes and remaining checks.
-Download the [playable TF3 pack (revision 6)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+Download the [playable TF3 pack (revision 7)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+Revision 7 balances ICF/LHB capacity to 20/22 passengers per coach at standard
+game scale and uses the normal stock train fare factor. Purchase and upkeep
+retain the game's automatic calculation.
+The local revision-10 customization adds the approved WAP-7 horn. Its private
+recording and archive are kept outside the tracked release package; see the
+installation notes for rebuilding and horn-key behavior.
 Extract its `gj94_indian_rail_pack` folder into your TF3 `local/mods` folder,
 enable **Indian Rail Prototype Pack**, and use electrified track (2000+ for WAP-7,
 2022+ for Vande Bharat).

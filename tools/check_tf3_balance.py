@@ -28,9 +28,38 @@ def number(text,key,default=0):
  match=re.search(r'\b'+key+r'\s*=\s*([-+\d.eE]+)',text)
  return float(match.group(1)) if match else default
 
+def array_tables(text):
+ """Yield direct table entries from a Lua array, excluding nested tables."""
+ depth=0;quote=False;escape=False;start=None
+ for i,c in enumerate(text):
+  if quote:
+   if escape:escape=False
+   elif c=='\\':escape=True
+   elif c=='"':quote=False
+  elif c=='"':quote=True
+  elif c=='{':
+   depth+=1
+   if depth==2:start=i
+  elif c=='}':
+   if depth==2:yield text[start:i+1]
+   depth-=1
+
+def transport_capacity(tv):
+ # Match the game's getTransportVehicleMaxCapacity: empty cargo filters on
+ # locomotives do not carry passengers; alternate load configs are not additive.
+ capacity=0
+ for compartment in array_tables(table(tv,'compartments')):
+  maximum=0
+  for config in array_tables(table(compartment,'loadConfigs')):
+   entry=table(config,'cargoEntry');types=table(entry,'cargoTypeSet')
+   included=table(types,'cargoClassesIncluded')+table(types,'cargoTypesIncluded')
+   if re.search(r'"[^"\n]+"',included):maximum=max(maximum,number(entry,'capacity'))
+  capacity+=maximum
+ return capacity
+
 def model_stats(text):
  metadata=table(text,'metadata');land=table(metadata,'landVehicle');tv=table(metadata,'transportVehicle')
- capacity=sum(float(v) for v in re.findall(r'\bcapacity\s*=\s*([\d.]+)',tv))
+ capacity=transport_capacity(tv)
  speed=number(land,'topSpeed')*3.6
  power=sum(float(v) for v in re.findall(r'\bpower\s*=\s*([\d.]+)',land))
  effort=sum(float(v) for v in re.findall(r'\btractiveEffort\s*=\s*([\d.]+)',land))
@@ -53,10 +82,23 @@ def unit_stats(name,vehicles):
  # TF3 applies its stock quarter-capacity scale to gameplay; keep the authored
  # capacity for cost comparison and also expose the ordinary depot capacity.
  result['standard_game_capacity']=sum(int(v['capacity']/4) for v in vehicles)
+ result['game_passengers_per_m']=round(result['standard_game_capacity']/length,3)
  for k in ('power_kw','tractive_effort_kn','weight_t','base_purchase','base_annual_upkeep'):result[k]=round(sum(v[k] for v in vehicles),3)
  result['purchase_per_seat']=round(result['base_purchase']/capacity)
  result['annual_upkeep_per_seat']=round(result['base_annual_upkeep']/capacity)
  result['purchase_per_game_seat']=round(result['base_purchase']/result['standard_game_capacity'])
+ result['annual_upkeep_per_game_seat']=round(result['base_annual_upkeep']/result['standard_game_capacity'])
+ return result
+
+def stock_model(game_root,category,key):
+ with zipfile.ZipFile(game_root/'base/content/vehicle'/category/(key+'.zip')) as z:
+  model=next(n for n in z.namelist() if n.endswith('.mdl'))
+  return model_stats(z.read(model).decode())
+
+def platform_rake(name,engine,coach,platform=320):
+ count=math.floor((platform-engine['length_m'])/coach['length_m'])
+ result=unit_stats(name,[engine]+[coach]*count)
+ result.update(coaches=count,platform_budget_m=platform)
  return result
 
 def main():
@@ -79,8 +121,15 @@ def main():
   assert 2<=vande[-1]['seats_per_m']<=4.5,'Capacity density outside modern stock range'
   peers=[s for s in stock if s['speed_kmh']>=159]
   assert min(s['purchase_per_seat'] for s in peers)<=vande[-1]['purchase_per_seat']<=max(s['purchase_per_seat'] for s in peers),'Purchase cost per seat outside stock range'
- report={'basis':'Installed stock MU/model resources and base/model_metadata_util.lua cost formula; before difficulty/global cost scales. capacity is authored metadata; standard_game_capacity applies the stock quarter-capacity scale.','stock':stock,'vande_bharat':vande}
+ conventional={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in ('wap7','icf_sleeper','lhb_3a')}
+ assert conventional['icf_sleeper']['capacity']==80 and conventional['lhb_3a']['capacity']==88,'Balanced coach capacities must be 80/88'
+ assert all(v['ticket_price_factor']==.5 for v in conventional.values()),'Conventional pack vehicles must use the stock ticket-price factor'
+ rakes=[platform_rake('WAP-7 + '+label,conventional['wap7'],conventional[key]) for key,label in (('icf_sleeper','ICF Sleeper'),('lhb_3a','LHB 3A'))]
+ stock_rakes=[]
+ for engine,coach in (('br_185_traxx','china_type_yz_22'),('br_185_traxx','ew_iv'),('obb_1042','ew_ii')):
+  stock_rakes.append(platform_rake(engine+' + '+coach,stock_model(args.game_root,'train',engine),stock_model(args.game_root,'waggon',coach)))
+ report={'basis':'Installed stock MU/model resources and base/model_metadata_util.lua cost formula; before difficulty/global cost scales. capacity is authored metadata; standard_game_capacity applies the stock quarter-capacity scale.','stock':stock,'vande_bharat':vande,'conventional_vehicles':conventional,'conventional_rakes':rakes,'stock_conventional_rakes':stock_rakes}
  (root/'game_build/vande_bharat_balance.json').write_text(json.dumps(report,indent=2))
- for s in stock+vande:print(json.dumps(s))
+ for s in stock+vande+rakes+stock_rakes:print(json.dumps(s))
 
 if __name__=='__main__':main()
