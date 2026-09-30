@@ -16,7 +16,12 @@ the conversion supplies native game resources, materials, LODs and metadata.
 A local TF3 conversion is now installed and play-tested, including updated
 interiors, CBC couplings and pantographs. See [installation and play-test notes](TF3-INSTALL.md)
 for the current revision, reproducible build steps, fixes and remaining checks.
-Download the [playable TF3 pack (revision 11)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+Download the [playable TF3 pack (revision 12)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+The rail purchase browser opens on an **Indian Railways** tab containing this
+pack's available locomotives, coaches and complete trainsets. The original
+Locomotive, Wagon, Multiple Unit and search tabs remain available. This new
+interface passes checks against the shipped GUI code, and the user confirmed
+its in-game appearance on 30 September 2026.
 The pack balances ICF/LHB capacity to 20/22 passengers per coach at standard
 game scale and uses the normal stock train fare factor. Purchase and upkeep
 retain the game's automatic calculation.

@@ -62,6 +62,8 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  mod=rootdir/'game_build'/'gj94_indian_rail_pack';folder=mod/'content'/'vehicle'/'train'/key
  for sub in ('msh','mat/tex','icons'): (folder/sub).mkdir(parents=True,exist_ok=True)
  (mod/'_metadata').mkdir(parents=True,exist_ok=True)
+ from vehicle_browser import write_vehicle_browser
+ write_vehicle_browser(mod)
  (mod/'mod.json').write_text(json.dumps({'modId':'gj94_indian_rail_pack','revision':REVISION,'severityAdd':'None','severityRemove':'Warning','visible':True,'cosmetic':False},indent=2))
  (mod/'_metadata'/'modinfo.json').write_text(json.dumps({'name':'Indian Rail Prototype Pack','summary':'WAP-7, WAG-9, WAG-12B, LHB, ICF and Vande Bharat 8/16-car trainsets','description':'Playable original prototypes with requested gameplay speeds and years. Electric locomotives require electrified track. ICF from 1980, WAG-9 from 1995, WAP-7/LHB from 2000, twin-section WAG-12B from 2017 and Vande Bharat from 2019.','authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],'url':'https://github.com/gj94/transport-fever-3-mods'},indent=2))
  texdir=folder/'mat'/'tex';image.filepath_raw=str(texdir/(key+'_albedo_opacity.tga'));image.file_format='TARGA';image.save()

@@ -16,7 +16,7 @@ WAP-7 now uses this master, which retains the accepted coupling-v03 geometry.
 
 The editable prototypes now have a locally generated TF3 pack containing WAP-7,
 WAG-9, paired WAG-12B, LHB AC 3-tier, ICF Sleeper and Vande Bharat 8/16-car
-trainsets. The Blender masters are unchanged. Current pack revision is **11**;
+trainsets. The Blender masters are unchanged. Current pack revision is **12**;
 Vande Bharat source is upstream commit `644de22`; WAG sources are `6f45a50`.
 
 For Steam installs, the pack folder belongs at:
@@ -46,14 +46,17 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
 
 ## What is established so far
 
-- Latest play-test result (30 September 2026): after correcting the pantograph
+- Revision 12's Indian Railways purchase-tab appearance is user-confirmed. The
+  23:19 Singapore-time `Modtest2` load on 30 September 2026 used revision 12,
+  reported no missing resources and initialized the new purchase section.
+- Earlier play-test result (30 September 2026): after correcting the pantograph
   control resource filename and restarting TF3, the user reported "Looks good".
   This confirms the corrected update's in-game appearance is acceptable. Exact
   wire contact through curves/slopes, switching after reversal, passenger loading
   and a complete sound/LOD test have not been individually confirmed.
 - The user confirmed the revision-10 WAP-7 horn works. Revision 11 applies that
   same sound set to the newly converted freight engines; their runtime check is pending.
-- Current local pack version is revision 11. The entries below also preserve
+- Current local pack version is revision 12. The entries below also preserve
   the earlier problems and fixes; pending checks recorded during those stages
   should be read with the latest result above.
 - The user confirmed the pack loads, WAP-7 appears in the vehicle manager and
@@ -608,3 +611,50 @@ Archive metadata checks confirmed every requested speed/year in both packages;
 the private horn hash matches the approved preview and the public package
 contains no private sound files/references. Restart TF3 for the first new-engine
 and construction-panel play test.
+
+## Indian Railways purchase tab (revision 12, 30 September 2026)
+
+The rail **Buy Vehicles** window now opens on an **Indian Railways** tab each
+time it is opened. It shows this pack's WAP-7, WAG-9, complete WAG-12B, LHB and
+ICF coaches, and both Vande Bharat formations together. Native availability
+years and depot compatibility still apply; individual trainset parts remain
+hidden as before. The original Locomotive, Wagon, Multiple Unit and text-search
+tabs retain their usual behaviour. Road, tram, water and air browsers are unchanged.
+This change applies to the purchase browser, not the list of owned vehicles.
+
+`tools/vehicle_browser.py` adds two GUI resources and updates the mod revision
+without re-exporting the models. `tools/native_tf3.py` also includes the extension
+in future full exports. The script is registered through the native
+`ModEntryPointExtension`. It wraps only a tab widget containing the three native
+rail tab identities, preserves original node references and styles, and augments
+the exported rail filter. Filtering uses the owning mod's vehicle resource
+namespace, so coaches and formations do not need to be renamed. No depot filter
+tags or vehicle gameplay fields are changed.
+
+`tools/check_vehicle_browser.py` runs the actual extension with the shipped
+`TopBar`, `vehicleFilter`, `handleRailCarrier` and `showCargoFilters` bodies. Ten
+scenarios pass: all vehicle types in the default section, normal stock tabs,
+clearing stale filters, reopening, controller indices, text search, availability,
+depot compatibility, unrelated tab widgets, repeat initialization and original
+tab references. It treats native tree nodes as opaque. The report is
+`game_build/vehicle_browser_validation.json`. These checks do not establish
+native rendering or controller behaviour in the running game.
+
+Before installation, SHA-256 comparison confirmed all 2,514 existing resources
+apart from `mod.json` are unchanged in both installed copies. The local private
+horn, geometry, animations, speeds, capacities, years and costs are preserved.
+The update is installed in both `local/mods` and `local/staging_area` with each
+copied file hash-verified; backups of revision 11 are in `D:/TF3Mods`, named
+`Indian-Rail-Prototype-Pack-before-indian-rail-tab-v11-*-20260930-231659.zip`.
+
+The public revision-12 ZIP contains 2,515 individually verified files (53,734,987
+bytes), SHA-256 `2493934b0c30795bb7dee4a1391f2e27290a1fb4f67ada6844f98cd8c4e9b058`.
+The private local ZIP contains 2,517 files (53,911,320 bytes), SHA-256
+`604c34630b054154096e0b87b62b33a615e7f28af9a78121b9ede61d680ff5ad`.
+
+The `Modtest2` load at **23:19 on 30 September 2026 (Singapore time)** used
+revision 12 from the synchronized staging copy, reported no missing resources
+and logged `[Indian Railways] Default purchase-browser section installed`.
+The user then reported "looks good", confirming the new tab's in-game appearance.
+Controller navigation, repeated reopening and each availability/depot case have
+automated coverage but have not been individually reported as tested in game.

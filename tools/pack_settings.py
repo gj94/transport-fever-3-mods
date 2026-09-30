@@ -1,3 +1,3 @@
 """Version shared by exporters, local audio updates and release packaging."""
-REVISION = 11
+REVISION = 12
 CACHE_VERSION = f'_v{REVISION:02d}'

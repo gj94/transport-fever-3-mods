@@ -37,7 +37,7 @@ not been individually reported as tested.
 | Performance | Speed, empty/payload weight, engine type, power, tractive effort and friction; native train setup also includes braking | Initial prototype gameplay values; tune against intended gameplay and verified vehicle specs |
 | Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | ICF/LHB configured for 80/88 places (20/22 at standard game scale), retaining 72 physical passenger locators; boarding/unloading and seats need testing |
 | Service and economics | Purchase price/scales, running cost/scales, lifespan, maintenance factors, noise/pollution and availability dates | Basic automatic prices/costs and prototype values |
-| Vehicle identity and UI | Names/descriptions, filter tags, icons, release/retirement years and availability notifications | Names, dates, tags and rendered icons implemented |
+| Vehicle identity and UI | Names/descriptions, filter tags, icons, release/retirement years and availability notifications | Names, dates, tags, rendered icons and a default Indian Railways purchase tab implemented; purchase-tab appearance user-confirmed in game |
 | Physical/visual fit | Colliders, bounds, wheel/axle metadata and bogie behaviour | Box colliders and original axle pivots; curve/coupling tests pending |
 
 Visible couplers, hoses and buffers can be modelled or animated. Do not assume
