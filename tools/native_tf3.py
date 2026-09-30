@@ -6,7 +6,9 @@ and uint32 indices. No proprietary base-game geometry is copied.
 import bpy, json, math, struct, copy, re
 from pathlib import Path
 from mathutils import Vector
-from vande_bharat import CAPACITY,WEIGHT
+from vande_bharat import CAPACITY,WEIGHT,SPEED as VB_SPEED,YEAR as VB_YEAR
+from freight_locomotives import SPECS as FREIGHT_SPECS
+from pack_settings import REVISION,CACHE_VERSION
 
 def lua(value):
  if isinstance(value,dict): return '{'+','.join(k+'='+lua(v) for k,v in value.items())+'}'
@@ -60,8 +62,8 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  mod=rootdir/'game_build'/'gj94_indian_rail_pack';folder=mod/'content'/'vehicle'/'train'/key
  for sub in ('msh','mat/tex','icons'): (folder/sub).mkdir(parents=True,exist_ok=True)
  (mod/'_metadata').mkdir(parents=True,exist_ok=True)
- (mod/'mod.json').write_text(json.dumps({'modId':'gj94_indian_rail_pack','revision':10,'severityAdd':'None','severityRemove':'Warning','visible':True,'cosmetic':False},indent=2))
- (mod/'_metadata'/'modinfo.json').write_text(json.dumps({'name':'Indian Rail Prototype Pack','summary':'WAP-7, LHB, ICF and Vande Bharat 8/16-car trainsets','description':'Playable conversion of the original procedural prototypes. Requires electrified track for WAP-7 and Vande Bharat. Vande Bharat available from 2022.','authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],'url':'https://github.com/gj94/transport-fever-3-mods'},indent=2))
+ (mod/'mod.json').write_text(json.dumps({'modId':'gj94_indian_rail_pack','revision':REVISION,'severityAdd':'None','severityRemove':'Warning','visible':True,'cosmetic':False},indent=2))
+ (mod/'_metadata'/'modinfo.json').write_text(json.dumps({'name':'Indian Rail Prototype Pack','summary':'WAP-7, WAG-9, WAG-12B, LHB, ICF and Vande Bharat 8/16-car trainsets','description':'Playable original prototypes with requested gameplay speeds and years. Electric locomotives require electrified track. ICF from 1980, WAG-9 from 1995, WAP-7/LHB from 2000, twin-section WAG-12B from 2017 and Vande Bharat from 2019.','authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],'url':'https://github.com/gj94/transport-fever-3-mods'},indent=2))
  texdir=folder/'mat'/'tex';image.filepath_raw=str(texdir/(key+'_albedo_opacity.tga'));image.file_format='TARGA';image.save()
  for name in ('normal','metal_gloss_ao'):
   im=bpy.data.images.new(key+'_'+name,width=128,height=128);pixels=[]
@@ -108,6 +110,10 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  elif key in {'vb_tc_cc','vb_tc_ec'}:
   write_lua(folder/'vb.trf.lua',{'updateScript':{'fileName':'vb_transformator.script@vb.updateFn','params':{}},'updateParticleSystemScript':{'fileName':'::/vehicle/train/shared/transformator_train.script@train.updateParticleSystemFn','params':{}}})
   (folder/'vb_transformator.script.tl').write_text((rootdir/'tools/vb_transformator.script.tl').read_text(),encoding='utf8')
+ elif key in FREIGHT_SPECS:
+  family='wag9' if key=='wag9' else 'wag12b'
+  write_lua(folder/(family+'.trf.lua'),{'updateScript':{'fileName':family+'_transformator.script@'+family+'.updateFn','params':{}},'updateParticleSystemScript':{'fileName':'::/vehicle/train/shared/transformator_train.script@train.updateParticleSystemFn','params':{}}})
+  (folder/(family+'_transformator.script.tl')).write_text((rootdir/'tools'/(family+'_transformator.script.tl')).read_text(),encoding='utf8')
  roots=[o for o in newcoll.objects if not o.parent]
  def node(ob,lod):
   data={'name':ob.name,'transf':transform(ob)}
@@ -137,11 +143,16 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
   for ob,m in mods:ob.modifiers.remove(m)
  names={'wap7':'Indian Railways WAP-7','lhb_3a':'LHB AC 3-tier','icf_sleeper':'ICF Sleeper (CBC retrofit)'}
  # Gameplay capacity is normalized slightly above the 72 physical berth locators.
- specs={'wap7':(20.562,123000,140,2000,0,6),'lhb_3a':(24,49000,160,1995,88,7.45),'icf_sleeper':(22.297,39000,110,1960,80,7.3915)}
+ # User-selected speeds/years; power, capacity and fare balance are separate.
+ specs={'wap7':(20.562,123000,180,2000,0,6),'lhb_3a':(24,49000,200,2000,88,7.45),'icf_sleeper':(22.297,39000,110,1980,80,7.3915)}
  vb=key.startswith('vb_');kind=key[3:].upper() if vb else None
  if vb:
   names[key]='Vande Bharat '+kind
-  specs[key]=(19.375,WEIGHT[kind],160,2022,CAPACITY[kind],5.85)
+  specs[key]=(19.375,WEIGHT[kind],VB_SPEED,VB_YEAR,CAPACITY[kind],5.85)
+ if key in FREIGHT_SPECS:
+  freight=FREIGHT_SPECS[key]
+  names[key]=freight['name']
+  specs[key]=(freight['length'],freight['weight'],freight['speed'],freight['year'],0,freight['bogie_distance'])
  spec=specs[key]
  length,weight,speed,year,capacity,bogiedist=spec
  # Vehicle spacing uses mating planes; rendering bounds include the projecting heads.
@@ -151,12 +162,24 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  points=[ob.matrix_world@v.co for ob in merged for v in ob.data.vertices]
  render_bounds={'bbMin':[min(p[a] for p in points) for a in range(3)],'bbMax':[max(p[a] for p in points) for a in range(3)]}
  if key=='wap7' or key in {'vb_tc_cc','vb_tc_ec'}:render_bounds['bbMax'][2]=max(render_bounds['bbMax'][2],6.0)
+ if key in FREIGHT_SPECS:render_bounds['bbMax'][2]=max(render_bounds['bbMax'][2],FREIGHT_SPECS[key]['panto_high'])
  axles=[o.name for o in newcoll.objects if o.type=='EMPTY' and 'axle' in o.name]
  compartment={'loadConfigs':[{'cargoEntry':{'capacity':capacity,'cargoTypeSet':{'cargoClassesIncluded':['PASSENGERS'] if capacity else [],'cargoClassesExcluded':[],'cargoTypesIncluded':[],'cargoTypesExcluded':[]},'loadIndicator':'','seats':[]},'toHide':[]}]}
- metadata={'availability':{'yearFrom':year,'yearTo':0},'cost':{'price':-1},'description':{'name':names[key],'description':'Original Indian Railways prototype converted for TF3.'},'emissions':{'noise':{'score':35},'pollution':{'score':5}},'extent':{'bbMin':[-length/2,-1.9,-.03],'bbMax':[length/2,1.9,4.5]},'landVehicle':{'brakeDeceleration':2.5,'engines':[{'power':4500,'tractiveEffort':392,'type':'ELECTRIC'}] if key=='wap7' else [],'friction':.02,'topSpeed':speed/3.6,'weightEmpty':weight,'weightMaxPayload':capacity*80},'maintenance':{'lifespan':10957,'runningCosts':-1},'railVehicle':{'config':{'axles':axles,'fakeBogies':[[],[],[{'group':'RootNode','offset':0,'position':-bogiedist},{'group':'RootNode','offset':0,'position':bogiedist}]]}},'seatProvider':{'crewModels':[],'drivingLicense':'RAIL','seats':[]},'soundConfig':{'soundSet':{'name':'::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if key=='wap7' else 'waggon/shared/sound/waggon_modern.snd')}},'transformatorConfig':{'skipFromLod':2,'transformator':{'name':'::/vehicle/train/shared/default_train.trf'}},'transportVehicle':{'carrier':'RAIL','comfortFactor':.8 if key=='lhb_3a' else .5,'compartments':[compartment],'engineTransportModes':['ELECTRIC_TRAIN'] if key=='wap7' else [],'transportModes':['TRAIN','ELECTRIC_TRAIN'],'filterTags':['default'],'reversible':key=='wap7','loadSpeed':3,'maintenanceFactor':1,'priceFactor':.5},'versioning':{'__version':'_v10'}}
+ metadata={'availability':{'yearFrom':year,'yearTo':0},'cost':{'price':-1},'description':{'name':names[key],'description':'Original Indian Railways prototype converted for TF3.'},'emissions':{'noise':{'score':35},'pollution':{'score':5}},'extent':{'bbMin':[-length/2,-1.9,-.03],'bbMax':[length/2,1.9,4.5]},'landVehicle':{'brakeDeceleration':2.5,'engines':[{'power':4500,'tractiveEffort':392,'type':'ELECTRIC'}] if key=='wap7' else [],'friction':.02,'topSpeed':speed/3.6,'weightEmpty':weight,'weightMaxPayload':capacity*80},'maintenance':{'lifespan':10957,'runningCosts':-1},'railVehicle':{'config':{'axles':axles,'fakeBogies':[[],[],[{'group':'RootNode','offset':0,'position':-bogiedist},{'group':'RootNode','offset':0,'position':bogiedist}]]}},'seatProvider':{'crewModels':[],'drivingLicense':'RAIL','seats':[]},'soundConfig':{'soundSet':{'name':'::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if key=='wap7' else 'waggon/shared/sound/waggon_modern.snd')}},'transformatorConfig':{'skipFromLod':2,'transformator':{'name':'::/vehicle/train/shared/default_train.trf'}},'transportVehicle':{'carrier':'RAIL','comfortFactor':.8 if key=='lhb_3a' else .5,'compartments':[compartment],'engineTransportModes':['ELECTRIC_TRAIN'] if key=='wap7' else [],'transportModes':['TRAIN','ELECTRIC_TRAIN'],'filterTags':['default'],'reversible':key=='wap7','loadSpeed':3,'maintenanceFactor':1,'priceFactor':.5},'versioning':{'__version':CACHE_VERSION}}
  metadata['railVehicle']['config']['fakeBogies'].append(metadata['railVehicle']['config']['fakeBogies'][-1])
  metadata['extent']['bbMin'][0]=rear;metadata['extent']['bbMax'][0]=front
  metadata['seatProvider']['seats']=seats
+ if key in FREIGHT_SPECS:
+  freight=FREIGHT_SPECS[key]
+  metadata['landVehicle']['engines']=[{'power':freight['power'],'tractiveEffort':freight['effort'],'type':'ELECTRIC'}]
+  metadata['soundConfig']['soundSet']['name']='::/vehicle/train/shared/sound/train_electric_modern.snd'
+  metadata['transportVehicle'].update(engineTransportModes=['ELECTRIC_TRAIN'],reversible=True)
+  if key!='wag9':metadata['transportVehicle'].update(multipleUnitOnly=True,filterTags=[])
+  metadata['extent']['bbMax'][2]=render_bounds['bbMax'][2]
+  family='wag9' if key=='wag9' else 'wag12b'
+  metadata['transformatorConfig']={'skipFromLod':4,'transformator':{'name':family+'.trf'}}
+  from wap7_audio import attach_local_horn
+  attach_local_horn(rootdir,mod/'content/vehicle/train/wap7',metadata['soundConfig'])
  if key=='wap7':
   from wap7_audio import attach_local_horn
   attach_local_horn(rootdir,folder,metadata['soundConfig'])

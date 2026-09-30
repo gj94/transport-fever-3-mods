@@ -15,9 +15,9 @@ Pantograph update source: `6f28461`, directory `pantograph_v04/`.
 WAP-7 now uses this master, which retains the accepted coupling-v03 geometry.
 
 The editable prototypes now have a locally generated TF3 pack containing WAP-7,
-LHB AC 3-tier, ICF Sleeper and Vande Bharat 8/16-car trainsets. The Blender masters
-are unchanged. Current local pack revision is **10**; Vande Bharat source is upstream
-commit `644de22`.
+WAG-9, paired WAG-12B, LHB AC 3-tier, ICF Sleeper and Vande Bharat 8/16-car
+trainsets. The Blender masters are unchanged. Current pack revision is **11**;
+Vande Bharat source is upstream commit `644de22`; WAG sources are `6f45a50`.
 
 For Steam installs, the pack folder belongs at:
 
@@ -36,12 +36,12 @@ a later release.
 4. Buy **Indian Railways WAP-7** and add either **LHB AC 3-tier** or **ICF Sleeper** coaches.
 5. Assign the train to a passenger route and check departure, curves and loading.
 
-WAP-7 is available from 2000, LHB from 1995, and ICF from 1960. ICF has 80
+WAP-7 and LHB are available from 2000, and ICF from 1980. ICF has 80
 configured passenger places (20 at standard game scale); LHB has 88 (22 in game).
 These gameplay capacities are normalized above the 72 physical berth locators.
 The two coach families are intended as separate rakes.
 
-For Vande Bharat, use **2022 or later** and buy **Vande Bharat Express (8 cars)**
+For Vande Bharat, use **2019 or later** and buy **Vande Bharat Express (8 cars)**
 or **Vande Bharat Express (16 cars)** from the electric trainset list.
 
 ## What is established so far
@@ -51,7 +51,9 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
   This confirms the corrected update's in-game appearance is acceptable. Exact
   wire contact through curves/slopes, switching after reversal, passenger loading
   and a complete sound/LOD test have not been individually confirmed.
-- Current local pack version is revision 10. The entries below also preserve
+- The user confirmed the revision-10 WAP-7 horn works. Revision 11 applies that
+  same sound set to the newly converted freight engines; their runtime check is pending.
+- Current local pack version is revision 11. The entries below also preserve
   the earlier problems and fixes; pending checks recorded during those stages
   should be read with the latest result above.
 - The user confirmed the pack loads, WAP-7 appears in the vehicle manager and
@@ -96,7 +98,7 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
 
 ## Build
 
-From the repository root, with Blender 5.2 and Python/Pillow available:
+From the repository root, with Blender 5.2 and Python/Pillow/Lupa available:
 
 ```powershell
 blender --factory-startup -b -t 2 --python-exit-code 1 --python tools/check_tf3_pantograph_rig.py
@@ -115,6 +117,10 @@ python tools/check_tf3_balance.py --game-root 'D:\SteamLibrary\steamapps\common\
 if ($LASTEXITCODE -ne 0) { throw 'Stock balance comparison failed' }
 python tools/check_vb_character_fit.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
 if ($LASTEXITCODE -ne 0) { throw 'Character-height check failed' }
+python tools/check_tf3_freight.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
+if ($LASTEXITCODE -ne 0) { throw 'Freight Lua/motion/character-height check failed' }
+python tools/package_tf3_pack.py --stock-audio
+if ($LASTEXITCODE -ne 0) { throw 'Public pack verification failed' }
 python tools/package_tf3_pack.py --private --copy-to D:\TF3Mods
 if ($LASTEXITCODE -ne 0) { throw 'Pack archive verification failed' }
 ```
@@ -126,7 +132,10 @@ vehicle metadata, box colliders and original axle/bogie pivots.
 
 Current inputs are listed in `tools/model_sources.py`: WAP-7 under
 `pantograph_v04/`, ICF under `coupling_v03/`, LHB under `interiors_v02/`, and seven
-Vande Bharat masters under `vande_bharat_v01/cars/`. To rebuild only Vande Bharat,
+Vande Bharat masters under `vande_bharat_v01/cars/`, WAG-9 under `wag9_v01/` and
+both WAG-12B sections under `wag12_v01/sections/`. To rebuild only the freight
+engines, append `-- --only wag9,wag12b_a,wag12b_b` to preparation and icon rendering.
+To rebuild only Vande Bharat,
 append `-- --only vb` to the preparation and icon-rendering commands.
 Geometry comes from the root's complete descendant
 hierarchy, including interiors in separate collections. Paint, glass and textured
@@ -139,11 +148,11 @@ instrument meshes are protected from being reduced to empty LODs.
 |---|---|---|
 | `tools/pantograph_rig.py` | Adjusts joint driver travel in memory to TF3's operating height, preserving the source master | Shared height range and adapted live rig |
 | `tools/check_tf3_pantograph_rig.py` | Sweeps the adapted rig; checks rigid arm lengths, head level and nearby roof intersections | `game_build/pantograph_validation.json` |
-| `tools/prepare_tf3.py` | Opens the three source `.blend` files; excludes presentation objects; consolidates by original pivot; assigns per-face palette UVs; retains stable hierarchy names | FBX intermediates, preparation report and native pack |
+| `tools/prepare_tf3.py` | Opens the registered source `.blend` files; excludes presentation objects; consolidates by original pivot; assigns per-face palette UVs; retains stable hierarchy names | FBX intermediates, preparation report and native pack |
 | `tools/native_tf3.py` | Called by preparation; writes TF3 mesh buffers, hierarchy, materials and gameplay metadata | `.mdl`, `.msh`, `.msh.blob`, `.mtl`, intermediate TGA textures and manifests |
 | `tools/wap7_transformator.script.tl` | Retains stock train behaviour; selects the active pantograph and samples wire height | Copied runtime script, referenced by `wap7.trf.lua` |
 | `tools/compress_textures.py` | Converts TGA to DDS, writes full mip chains and changes material references | DXT1 opaque/instrument textures, DXT5 glass; corrected vertical orientation |
-| `tools/render_tf3_icons.py` | Renders only vehicle geometry from the masters, with transparent backgrounds | Store and small PNG renders |
+| `tools/render_tf3_icons.py` | Renders only vehicle geometry; construction icons use side profiles, stock physical scale and wheel baseline | Store and small PNG renders |
 | `tools/package_tf3_icons.py` | Resizes those renders to the native vehicle UI sizes | Required TGA icon variants |
 | `tools/check_tf3_pack.py` | Checks buffers, indices, finite numbers, references, DDS headers/mips, palette diversity and icon dimensions/alpha | Console validation result |
 
@@ -169,9 +178,12 @@ rather than assuming the current distant silhouette is the final visual quality.
    `_metadata` and `content`. Keep the stable mod ID so existing saves resolve it.
 
 The private horn ZIP is `D:\TF3Mods\Indian-Rail-Prototype-Pack-TF3-Private.zip`.
-The tracked revision-7 ZIP retains the capacity/fare changes and stock horn.
-The revision-10 local build uses seconds 2–4 of the user's `HornSample.mp4`,
+The tracked revision-11 ZIP includes the freight engines and corrected icons
+with stock audio. `--stock-audio` removes the private audio files and replaces
+their model references inside that archive without altering the local build.
+The revision-11 local build uses seconds 2–4 of the user's `HornSample.mp4`,
 converted to `D:\TF3Mods\WAP7-Horn-Preview.wav` with short edge fades.
+WAP-7, WAG-9 and both WAG-12B sections share one copy of the sound set/recording.
 The exporter automatically uses that local WAV when present; set
 `TF3_WAP7_HORN` to use a different prepared two-second mono PCM16/48 kHz WAV.
 `python tools/wap7_audio.py` applies it to an existing build without rebuilding
@@ -494,6 +506,105 @@ the log. The corrected sound set loaded through the same code under the mod
 namespace and configured the horn, five continuous tracks and ten clack clips.
 The corrected private package has 1,922 hash-verified files. Runtime playback
 still needs the next restart/test.
-Both installed locations now contain revision 10 and every copied file was
+Both installed locations were updated to revision 10 and every copied file was
 hash-verified. Revision-9 rollback archives are
 `D:\TF3Mods\Indian-Rail-Prototype-Pack-before-WAP7-horn-v09-*-20260930-210733.zip`.
+
+## WAG-9, WAG-12B and construction icons (revision 11, 30 September 2026)
+
+Upstream `6f45a50` was pulled with a fast-forward. The conversion opens the live
+WAG-9 master and the two reusable WAG-12B section masters; the source review
+assembly is not imported as one rigid mesh. WAG-9 is a standalone depot engine.
+WAG-12B is a two-member multiple unit, with B reversed so both cabs face outward.
+Individual sections are hidden from standalone purchase. Attach freight wagons.
+
+| Depot choice | Year | Speed | Power | Starting effort | Empty weight | Coupling span | Base purchase | Annual upkeep |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| WAG-9 | 1995 | 120 km/h | 4,500 kW | 460 kN | 123 t | 20.562 m | 18,830,442 | 3,138,407 |
+| WAG-12B complete pair | 2017 | 120 km/h | 9,000 kW | 706 kN | 180 t | 38.400 m | 37,660,884 | 6,276,814 |
+| Stock BR 185 TRAXX | Stock | 160 km/h | 4,200 kW | 300 kN | 84 t | 18.844 m | 16,363,056 | 2,727,176 |
+
+Power, effort and weight basis: [NWR WTT 2025, PDF page 166](https://nwr.indianrailways.gov.in/uploads/files/1742970525725-9%20-%20Working%20Time%20Table.pdf)
+and [RDSO Electrical Directorate Handout, PDF page 7](https://rdso.indianrailways.gov.in/uploads/files/Handout.pdf).
+WAG-9's 46.9 tonne-force is rounded to 460 kN. WAG-12B splits 4,500 kW,
+353 kN and 90 t into each section; totals are not doubled. Power values are
+rounded game settings. Speeds and dates are the explicit user overrides below.
+Costs use the installed automatic formula before global
+and difficulty scales; no custom purchase/upkeep discount is added. The balance
+report also retains the previous passenger-rake comparisons and unchanged fares.
+
+WAG-9 uses six pantograph joint tracks. WAG-12B uses three per section and the
+reversed/trailing section's pantograph is selected. All tracks have 101 samples
+at equal contact-height intervals. WAG-9 spans 4.255–5.917 m; WAG-12B spans
+4.245–7.520 m and samples the current wire height within that range. All four
+LOD bounds include raised travel. Standard rail behaviour is retained through
+the explicit base-game transformer import.
+
+The user confirmed revision-10 horn playback works. The private revision-11
+build points all three locomotive classes at that same working sound set.
+Its two-second WAV remains unchanged and is stored once in the WAP-7 folder.
+The public archive contains stock electric audio references and no private clip.
+
+All 13 car/engine types now have straight side-view construction icons. Their
+widths follow visible vehicle length at approximately 16 pixels/metre at @2x,
+with a common wheel baseline; regular and 20-pixel variants derive from those
+profiles. This matches the stock builder's side-view convention and avoids
+forcing unequal-length vehicles into a fixed 300-pixel perspective image.
+Larger store previews retain the stock-style perspective view.
+
+Validation passed: native mesh/material/texture/reference/formation/icon checks;
+1,246 Lua resource tables executed, including the horn sound set through the
+installed base helpers; 101 exported contact heights through every native LOD
+(maximum error below 0.000002 m); 207 script-logic cases per freight section for
+height clamping, direction selection and missing vehicle state; and actual
+stock driver hip placement at each cushion (within 0.001 m). The script test
+strips known Teal annotations and stubs the stock updater, so it does not prove
+the game's Teal compilation or runtime operation. Full cab anatomy, new-engine
+horn playback, MU purchase/wagon attachment, curves, reversal and wire contact
+still need the first in-game check.
+
+### Requested speeds and availability
+
+After reviewing the difference between design/service speeds and family/variant
+dates, the user explicitly chose the listed gameplay values. These supersede the
+older speed/year settings recorded in the historical revision notes above.
+
+| Vehicle | Maximum game speed | Available from |
+|---|---:|---:|
+| ICF Sleeper | 110 km/h | 1980 |
+| LHB AC 3-tier | 200 km/h | 2000 |
+| WAP-7 | 180 km/h | 2000 |
+| WAG-9 | 120 km/h | 1995 |
+| WAG-12B | 120 km/h | 2017 |
+| Vande Bharat, both formations | 180 km/h | 2019 |
+
+These are gameplay choices, not a claim that the standard fleet operated at
+these limits from those dates. For context, the NWR table gives standard WAP-7
+140 and WAG-9 100 km/h. [RDSO's WAG-12B handout](https://rdso.indianrailways.gov.in/uploads/files/Handout.pdf)
+records 2020 approval for the B variant. [The Ministry of Railways](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148364&lang=2&reg=48)
+distinguishes Vande Bharat's 180 km/h design and 160 km/h operating speeds;
+[its 2.0 introduction report](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1883511&lang=2&reg=48)
+dates the modelled version to 2022, with the original family in 2019.
+[The LHB maintenance manual](https://rdso.indianrailways.gov.in/uploads/files/Revised_LHB_Manual_Vol_I.pdf)
+supports the family introduction in 2000. ICF 1980 is the user's approximate
+gameplay date for this illustrative CBC-retrofit visual, not a certified variant
+introduction date. Automatic prices/upkeep are recalculated for the chosen speeds.
+
+At the chosen speeds, the 320 m budget comparisons are now 26,854,662 purchase /
+4,475,777 annual upkeep for WAP-7 + 13 ICF (260 game passengers, 110 km/h), and
+32,693,724 / 5,448,954 for WAP-7 + 12 LHB (264 passengers, 180 km/h).
+Vande Bharat 8/16-car sets remain within the stock comparison range for automatic
+cost per passenger. Capacity, fare and maintenance factors are retained.
+
+Revision 11 was packaged and installed into both `local/mods` and
+`local/staging_area`; all 2,515 local files were verified after copying.
+Both previous copies are backed up in `D:\TF3Mods` as
+`Indian-Rail-Prototype-Pack-before-freight-icons-v10-*-20260930-221135.zip`.
+The public ZIP has 2,513 individually verified files (53,732,563 bytes), SHA256
+`f4d272aae5878afaed67449a0438561ae45441f5f98fa7ec1908cc4cc142cf20`.
+The private local ZIP has 2,515 files (53,908,896 bytes), SHA256
+`3664adcced63649a9937f863c4e2d4dbef62a31786daaa4a483558bdfd84b1e3`.
+Archive metadata checks confirmed every requested speed/year in both packages;
+the private horn hash matches the approved preview and the public package
+contains no private sound files/references. Restart TF3 for the first new-engine
+and construction-panel play test.

@@ -2,6 +2,10 @@
 import json, math
 
 CAPACITY={'DTC':40,'MC':60,'MC2':60,'TC_CC':60,'TC_EC':40,'NDTC_EC':40,'NDTC_EC2':40}
+# Requested design-speed/family-date gameplay settings, rather than service
+# speed/introduction of the modelled 2.0 variant.
+SPEED=180
+YEAR=2019
 # Initial gameplay tuning, not certified full-size train specifications.
 WEIGHT={'DTC':42000,'MC':45000,'MC2':45000,'TC_CC':48000,'TC_EC':48000,'NDTC_EC':44000,'NDTC_EC2':44000}
 

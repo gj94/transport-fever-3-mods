@@ -3,8 +3,10 @@ from pathlib import Path
 import re, struct, math, wave
 from PIL import Image
 from model_sources import MODELS
-from vande_bharat import CAPACITY
+from vande_bharat import CAPACITY,YEAR as VB_YEAR,SPEED as VB_SPEED
 from tf3_resource_paths import resolve_model_ref
+from freight_locomotives import SPECS as FREIGHT_SPECS
+from tf3_icons import construction_sizes
 
 MOD = Path(__file__).resolve().parents[1] / 'game_build' / 'gj94_indian_rail_pack'
 models = list((MOD / 'content').rglob('*.mdl'))
@@ -14,6 +16,14 @@ for model in models:
     text = model.read_text()
     transport_text = text.split('transportVehicle=',1)[1]
     assert 'priceFactor=0.5' in transport_text, f'{model.stem}: fare factor must match stock trains'
+    from check_tf3_balance import model_stats,number,table
+    speed_year={'icf_sleeper':(110,1980),'lhb_3a':(200,2000),'wap7':(180,2000)}
+    if model.stem in FREIGHT_SPECS:
+        spec=FREIGHT_SPECS[model.stem]
+        speed_year[model.stem]=(spec['speed'],spec['year'])
+    if model.stem.startswith('vb_'):speed_year[model.stem]=(VB_SPEED,VB_YEAR)
+    speed,year=speed_year[model.stem]
+    assert abs(model_stats(text)['speed_kmh']-speed)<.001 and number(table(text,'availability'),'yearFrom')==year
     if model.stem in {'icf_sleeper','lhb_3a'}:
         capacity = 80 if model.stem == 'icf_sleeper' else 88
         assert f'capacity={capacity},' in transport_text, f'{model.stem}: incorrect balanced capacity'
@@ -65,12 +75,12 @@ for model in models:
         transport_text=text.split('transportVehicle=',1)[1]
         assert 'filterTags={}' in transport_text, f'{model.stem}: individual car must be hidden from the depot'
     # The conventional coaches retain the source's 72 physical passenger locators.
-    expected=CAPACITY[kind]+(2 if kind=='DTC' else 0) if vb else (2 if model.stem=='wap7' else 72)
+    expected=CAPACITY[kind]+(2 if kind=='DTC' else 0) if vb else (2 if model.stem=='wap7' or model.stem in FREIGHT_SPECS else 72)
     assert seat_text.count('animation=')==expected, f'{model.stem}: missing seats'
     node_text=text.split('metadata=',1)[0]
     for group in re.findall(r'group="([^"]+)"',seat_text):
         assert 'name="'+group+'"' in node_text, (model.stem,group)
-    if model.stem in {'wap7','icf_sleeper'} or vb:
+    if model.stem in {'wap7','icf_sleeper'} or model.stem in FREIGHT_SPECS or vb:
         anchor_x={}
         for label in ('front','rear'):
             match=re.search(r'name="coupling_'+label+r'",transf=\{([^}]+)\}',node_text)
@@ -83,6 +93,7 @@ for model in models:
         assert abs(float(extent.group(1).split(',')[0])-anchor_x['rear'])<1e-5
         assert abs(float(extent.group(2).split(',')[0])-anchor_x['front'])<1e-5
         expected_span=19.375 if vb else (20.4 if model.stem=='wap7' else 22.297)
+        if model.stem in FREIGHT_SPECS:expected_span=FREIGHT_SPECS[model.stem]['length']
         assert abs(anchor_x['front']-anchor_x['rear']-expected_span)<1e-5
         print(f'{model.stem}: coupling frames and spacing span {expected_span} m checked')
     if model.stem=='wap7':
@@ -113,9 +124,42 @@ for model in models:
         assert (folder/'wap7_transformator.script.tl').is_file()
         assert (folder/'wap7.trf.lua').is_file(), 'TF3 requires a .trf.lua source for the virtual .trf resource'
         print('wap7: six sampled pantograph tracks across all four LODs checked')
+    if model.stem in FREIGHT_SPECS:
+        spec=FREIGHT_SPECS[model.stem]
+        assert f'power={spec["power"]},tractiveEffort={spec["effort"]},type="ELECTRIC"' in text
+        assert f'weightEmpty={spec["weight"]},weightMaxPayload=0' in text
+        assert f'yearFrom={spec["year"]}' in text and 'reversible=true' in transport_text
+        assert 'engineTransportModes={"ELECTRIC_TRAIN"}' in transport_text
+        assert text.count('crew=true')==2 and 'capacity=0' in transport_text
+        assert seat_text.count('forward=false')==(1 if model.stem=='wag9' else 0)
+        if model.stem!='wag9':assert 'multipleUnitOnly=true' in transport_text and 'filterTags={}' in transport_text
+        axle_table=re.search(r'axles=\{([^}]+)\}',text).group(1)
+        assert len(re.findall(r'"[^"]+"',axle_table))==(6 if model.stem=='wag9' else 4)
+        horn=MOD/'content/vehicle/train/wap7/sound/wap7_horn.wav'
+        sound='gj94_indian_rail_pack::/vehicle/train/wap7/sound/wap7.snd' if horn.is_file() else '::/vehicle/train/shared/sound/train_electric_modern.snd'
+        assert 'soundSet={name="'+sound+'"}' in text
+        family='wag9' if model.stem=='wag9' else 'wag12b'
+        assert 'name="'+family+'.trf"' in text and 'skipFromLod=4' in text
+        assert (folder/(family+'.trf.lua')).is_file() and (folder/(family+'_transformator.script.tl')).is_file()
+        for state in ('pantograph_front','pantograph_rear') if family=='wag9' else ('pantograph',):
+            assert node_text.count(state+'=')==12
+        refs=set(re.findall(r'id="(ani/[^"]+)"',node_text))
+        assert len(refs)==(6 if family=='wag9' else 3)
+        for ref in refs:
+            ani=(folder/ref).read_text()
+            times=[float(v) for v in re.search(r'times=\{([^}]+)\}',ani).group(1).split(',')]
+            frames=re.findall(r'\{([0-9.,e+\-]+)\}',ani.split('transfs=',1)[1])
+            values=[[float(v) for v in frame.split(',')] for frame in frames]
+            assert times==list(range(0,1001,10)) and len(values)==101
+            assert all(len(v)==16 and all(math.isfinite(x) for x in v) for v in values)
+            assert abs(values[-1][0]-values[0][0])>.1
+            assert all(abs(v[a])<1e-5 for v in values for a in (12,13,14))
+        bounds=re.search(r'boundingInfo=\{bbMin=\{([^}]+)\},bbMax=\{([^}]+)\}',text)
+        assert float(bounds.group(2).split(',')[2])>=spec['panto_high']
+        print(f'{model.stem}: engine, crew facing, axles, shared horn and pantograph resources checked')
     if vb:
         assert 'multipleUnitOnly=true' in text and 'reversible=true' in text
-        assert 'yearFrom=2022' in text and f'capacity={CAPACITY[kind]}' in text
+        assert f'yearFrom={VB_YEAR}' in text and f'capacity={CAPACITY[kind]}' in text
         assert 'cab_eye_camera_reference' not in seat_text
         assert text.count('crew=true')==(2 if kind=='DTC' else 0)
         for side in ('left','right'):
@@ -137,7 +181,14 @@ for model in models:
             assert (folder/'vb.trf.lua').is_file() and (folder/'vb_transformator.script.tl').is_file()
             bounds=re.search(r'boundingInfo=\{bbMin=\{([^}]+)\},bbMax=\{([^}]+)\}',text)
             assert float(bounds.group(2).split(',')[2])>=5.917
-    for suffix,size in [('store',(414,286)),('icon_small@2x',(300,112)),('icon_small',(150,56)),('icon20@2x',(108,40)),('icon20',(54,20))]:
+    profile=Image.open(folder/'icons'/(model.stem+'_icon_small@2x.png'))
+    # Same physical scale and baseline as stock construction icons.
+    bb=re.search(r'boundingInfo=\{bbMin=\{([^}]+)\},bbMax=\{([^}]+)\}',text)
+    visible_length=float(bb.group(2).split(',')[0])-float(bb.group(1).split(',')[0])
+    assert abs(profile.width-(visible_length*16+4))<3, (model.stem,profile.width,visible_length)
+    bbox=profile.getchannel('A').getbbox()
+    assert bbox and bbox[3]>=108, (model.stem,'rail baseline',bbox)
+    for suffix,size in [('store',(414,286))]+construction_sizes(profile.width):
         icon=Image.open(folder/'icons'/(model.stem+'_'+suffix+'.tga'))
         assert icon.size==size and icon.mode=='RGBA'
         assert icon.getchannel('A').getextrema()==(0,255)
@@ -159,3 +210,11 @@ for count in (8,16):
     assert seats==source['passenger_seats_compact_total']
     assert count*19.375==source['total_outer_anchor_span_m']
     print(f'Vande Bharat {count}: formation references, outward cabs, {seats} seats and {count*19.375} m spacing checked')
+
+path=MOD/'content/vehicle/train/wag12b/wag12b.mu.lua'
+entries=re.findall(r'name="([^"]+\.mdl)",forward=(true|false)',path.read_text())
+assert len(entries)==2 and [facing for _,facing in entries]==['true','false']
+for (ref,_),key in zip(entries,('wag12b_a','wag12b_b')):
+    assert ref.startswith('gj94_indian_rail_pack::/vehicle/train/')
+    assert resolve_model_ref(MOD,path,ref).stem==key
+print('WAG-12B: two independently articulated sections, opposed outward cabs and 38.4 m spacing checked')

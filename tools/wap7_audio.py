@@ -3,6 +3,7 @@ import os
 import shutil
 import wave
 from pathlib import Path
+from pack_settings import REVISION,CACHE_VERSION
 
 
 HORN_REF = 'sound/wap7_horn.wav'
@@ -41,17 +42,28 @@ if __name__ == '__main__':
     assert sum(original.count(ref) for ref in (stock, previous, custom)) == 1
     if not attach_local_horn(root, folder, {'soundSet': {'name': STOCK_SOUND_SET}}):
         raise FileNotFoundError('Set TF3_WAP7_HORN or provide WAP7-Horn-Preview.wav beside the repository')
-    backup = root / 'game_build/wap7_horn_before_v10'
+    backup = root / f'game_build/wap7_horn_before_v{REVISION:02d}'
     backup.mkdir(exist_ok=True)
     for path in [mod / 'mod.json', model]:
         target = backup / path.name
         if not target.exists():
             shutil.copy2(path, target)
     updated = original.replace(previous, custom, 1).replace(stock, custom, 1)
-    for version in ('_v07', '_v08', '_v09'):
-        updated = updated.replace('__version="' + version + '"', '__version="_v10"')
+    import re
+    updated = re.sub(r'__version="_v\d+"', '__version="' + CACHE_VERSION + '"', updated)
     model.write_text(updated)
+    # All locomotives use the same approved sound set, stored only once.
+    for key in ('wag9','wag12b_a','wag12b_b'):
+        other = mod / f'content/vehicle/train/{key}/{key}.mdl'
+        if not other.is_file():
+            continue
+        target = backup / other.name
+        if not target.exists():
+            shutil.copy2(other, target)
+        text = other.read_text().replace(stock, custom, 1)
+        text = re.sub(r'__version="_v\d+"', '__version="' + CACHE_VERSION + '"', text)
+        other.write_text(text)
     metadata = json.loads((mod / 'mod.json').read_text())
-    metadata['revision'] = 10
+    metadata['revision'] = REVISION
     (mod / 'mod.json').write_text(json.dumps(metadata, indent=2) + '\n')
-    print('WAP7 local sound set attached with approved horn and base electric tracks; pack revision 10')
+    print(f'Local sound set attached to available locomotives with approved horn and base electric tracks; pack revision {REVISION}')

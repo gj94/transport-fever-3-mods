@@ -9,6 +9,7 @@ from model_sources import selected_models,asset_objects
 from vande_bharat import sample_tracks,write_formations
 from native_tf3 import write_lua
 from pantograph_rig import configure_tf3_pantographs,MIN_HEIGHT,MAX_HEIGHT
+from freight_locomotives import SPECS as FREIGHT_SPECS, sample_tracks as freight_tracks, write_formation
 OUT=ROOT/'game_build'/'imports'
 def clean(s): return re.sub(r'[^a-z0-9_]','_',s.lower())
 reports=[]
@@ -35,6 +36,7 @@ for key,source in selected_models(sys.argv):
    ctrl['extension']=0.;ctrl.update_tag();bpy.context.view_layer.update()
    pantograph_tracks.update({clean(o.name):{'state':'pantograph_'+end.lower(),'times':list(range(0,1001,10)),'transfs':values} for o,values in tracks.items()})
  if key.startswith('vb_'):pantograph_tracks=sample_tracks(bpy,objects,clean)
+ if key in FREIGHT_SPECS:pantograph_tracks=freight_tracks(bpy,key,clean)
  markers=[o for o in objects if o.type=='EMPTY' and o.name.startswith(('PAX_','PASSENGER_SEATED_','DRIVER_'))]
  empties=[o for o in objects if o.type=='EMPTY' and not o.name.startswith(('PAX_','PASSENGER_SEATED_','BERTH_','DRIVER_','CAB_EYE_CAMERA_REFERENCE'))]
  mats=[]
@@ -103,7 +105,7 @@ for key,source in selected_models(sys.argv):
    number=int(mark.name.rsplit('_',1)[1]);slot=(number-1)%8
    if slot in (3,4,5,7):matrix=matrix@Matrix.Rotation(math.pi,4,'Z')
   seat={'animation':'driving_upright' if mark.name.startswith('DRIVER_') else 'sitting','group':clean(mark.parent.name),'transf':[float(matrix[r][c]) for c in range(4) for r in range(4)]}
-  if mark.name.startswith('DRIVER_'):seat.update(crew=True,forward=True)
+  if mark.name.startswith('DRIVER_'):seat.update(crew=True,forward=not (key=='wag9' and mark.parent.name=='CAB_B'))
   seats.append(seat)
  if key=='wap7':
   for cab in ('CAB_A_INTERIOR','CAB_B_INTERIOR'):
@@ -132,3 +134,4 @@ report_path=OUT.parent/'preparation_report.json'
 old=json.loads(report_path.read_text()) if report_path.exists() else []
 report_path.write_text(json.dumps([r for r in old if r['model'] not in {n['model'] for n in reports}]+reports,indent=2))
 write_formations(ROOT,write_lua)
+write_formation(ROOT,write_lua)

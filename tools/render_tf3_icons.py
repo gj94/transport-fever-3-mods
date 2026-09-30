@@ -1,6 +1,7 @@
 """Render the original vehicle masters on transparent backgrounds for TF3 UI."""
 import bpy
 import sys
+import math
 from pathlib import Path
 from mathutils import Vector
 
@@ -27,16 +28,22 @@ for key,source in selected_models(sys.argv):
     if cam is None:
         cam=bpy.data.objects.new('TF3_ICON_CAMERA',bpy.data.cameras.new('TF3_ICON_CAMERA'))
         scene.collection.objects.link(cam);scene.camera=cam
-        for location,energy,size in [((4,-8,13),2200,8),((-8,4,10),1600,7),((0,0,15),1500,9)]:
+        for location,energy,size in [((16,-12,12),4000,10),((-8,4,10),1600,7),((0,0,15),1500,9)]:
             light=bpy.data.lights.new('TF3_ICON_LIGHT','AREA');light.energy=energy;light.shape='DISK';light.size=size
             ob=bpy.data.objects.new('TF3_ICON_LIGHT',light);scene.collection.objects.link(ob);ob.location=location
             ob.rotation_euler=(Vector((0,0,1.8))-ob.location).to_track_quat('-Z','Y').to_euler()
     cam.data.type='ORTHO'
     out=ROOT/'game_build'/'gj94_indian_rail_pack'/'content'/'vehicle'/'train'/key/'icons'
     out.mkdir(parents=True,exist_ok=True)
-    for suffix,width,height,location,scale in [('store',414,286,(25,-32,17),29),('icon_small@2x',300,112,(7,-35,13),28)]:
+    # Stock construction icons have ~16 pixels/metre at @2x, variable widths
+    # and a common rail baseline. Fixed 300px perspective icons distort rakes.
+    points=[ob.matrix_world @ Vector(corner) for ob in objects if ob.type in {'MESH','FONT','CURVE'} for corner in ob.bound_box]
+    xmin,xmax=min(p.x for p in points),max(p.x for p in points)
+    width=2*math.ceil(((xmax-xmin)*16+4)/2)
+    for suffix,width,height,location,scale in [('store',414,286,(25,-32,17),29),('icon_small@2x',width,112,((xmin+xmax)/2,-35,3.40),width/16)]:
         cam.location=location
-        cam.rotation_euler=(Vector((0,0,1.9))-cam.location).to_track_quat('-Z','Y').to_euler()
+        target=Vector((0,0,1.9)) if suffix=='store' else Vector((location[0],0,location[2]))
+        cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler()
         cam.data.ortho_scale=scale
         scene.render.resolution_x=width;scene.render.resolution_y=height
         scene.render.filepath=str(out/(key+'_'+suffix+'.png'))

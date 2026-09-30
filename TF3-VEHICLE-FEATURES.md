@@ -33,7 +33,7 @@ not been individually reported as tested.
 | Driver and passengers | Crew seats, seated-character animations, group-relative transforms and passenger compartment seat indices | Two driver anchors and 72 passenger anchors per coach; passenger placement still needs a play test |
 | Animation | Door opening/closing, wheels/bogies, pantographs and direction-dependent visible parts | Independent pantographs implemented with wire-height sampling; stock train behaviour retained; custom door animations pending |
 | Lights | Head/tail lights and light-emitting or illuminated materials; native models have timed and direction-sensitive light setups | No complete lighting setup yet |
-| Sounds | Continuous tracks, event clips, volume/pitch curves, custom update scripts and distance settings | Stock modern electric-loco and wagon sound sets referenced |
+| Sounds | Continuous tracks, event clips, volume/pitch curves, custom update scripts and distance settings | Private approved horn shared by WAP-7/WAG-9/WAG-12B; stock electric layers and wagon sound sets referenced |
 | Performance | Speed, empty/payload weight, engine type, power, tractive effort and friction; native train setup also includes braking | Initial prototype gameplay values; tune against intended gameplay and verified vehicle specs |
 | Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | ICF/LHB configured for 80/88 places (20/22 at standard game scale), retaining 72 physical passenger locators; boarding/unloading and seats need testing |
 | Service and economics | Purchase price/scales, running cost/scales, lifespan, maintenance factors, noise/pollution and availability dates | Basic automatic prices/costs and prototype values |
@@ -46,13 +46,16 @@ LHB and ICF families as separate rakes; v03 directly addresses the WAP-7/ICF pai
 
 ## Sounds: yes, including custom recordings
 
-Local revision 10 points WAP-7 to its own resource
+Local revision 11 points WAP-7, WAG-9 and both WAG-12B sections to one resource
 `gj94_indian_rail_pack::/vehicle/train/wap7/sound/wap7.snd`.
 Its `horn` event directly references `wap7_horn.wav`: the approved two-second
 section of the user's HornSample, in mono PCM16 at 48 kHz. Stock traction,
 wheel and brake tracks use explicit references to the base game's audio with
 the original gain/pitch curves. The local recording is excluded from
-tracked release archives; package this build with `--private`.
+tracked release archives; package this build with `--private`, or use
+`--stock-audio` to create the public package with stock horn references.
+The user confirmed revision-10 WAP-7 horn playback works. New-engine horn
+playback still needs a runtime check.
 The shipped vehicle window invokes `letVehicleHorn` through a normal
 `react.iaHandler` without accepting held-key repeats. Each key press triggers
 the full clip; holding/releasing the key does not sustain/stop it. A true
@@ -136,7 +139,7 @@ locally; accurate missing interior geometry is what the upstream update helps wi
 1. Complete curve, slope, reversal, LOD and passenger-loading checks on the
    installed build; updated exterior, interiors, seats and pantographs are integrated.
 2. Verify both cab views and passenger placement under actual service conditions.
-3. Add a WAP-7 horn and a carefully balanced custom traction/rolling sound pass.
+3. Test the shared horn on the new freight engines, then consider a custom traction/rolling sound pass.
 4. Add working doors and direction-dependent lights; pantographs are implemented.
 5. Improve close-up mesh efficiency, distant LOD appearance and weathering.
 

@@ -3,6 +3,8 @@
 Editable Blender prototypes for an Indian Railways asset-development project:
 
 - **WAP-7** locomotive in clean white/red
+- **WAG-9** green/yellow freight locomotive
+- **WAG-12B** blue/cyan twin-section freight locomotive
 - **LHB AC 3-tier** coach in red/grey
 - **Conventional ICF sleeper** coach in blue/cyan
 - **Vande Bharat Express** compact 8-car and 16-car white/blue trainsets
@@ -14,16 +16,23 @@ the conversion supplies native game resources, materials, LODs and metadata.
 A local TF3 conversion is now installed and play-tested, including updated
 interiors, CBC couplings and pantographs. See [installation and play-test notes](TF3-INSTALL.md)
 for the current revision, reproducible build steps, fixes and remaining checks.
-Download the [playable TF3 pack (revision 7)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
-Revision 7 balances ICF/LHB capacity to 20/22 passengers per coach at standard
+Download the [playable TF3 pack (revision 11)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+The pack balances ICF/LHB capacity to 20/22 passengers per coach at standard
 game scale and uses the normal stock train fare factor. Purchase and upkeep
 retain the game's automatic calculation.
-The local revision-10 customization adds the approved WAP-7 horn. Its private
+Revision 11 adds WAG-9 and the complete paired WAG-12B, plus straight side-view
+construction icons at stock scale for every vehicle. The new engines still need
+their first in-game check. The local customization uses the approved WAP-7 horn
+on all three locomotive classes; the user confirmed WAP-7 playback works. Its private
 recording and archive are kept outside the tracked release package; see the
 installation notes for rebuilding and horn-key behavior.
 Extract its `gj94_indian_rail_pack` folder into your TF3 `local/mods` folder,
-enable **Indian Rail Prototype Pack**, and use electrified track (2000+ for WAP-7,
-2022+ for Vande Bharat).
+enable **Indian Rail Prototype Pack**, and use electrified track (1995+ for WAG-9,
+2000+ for WAP-7, 2017+ for WAG-12B and 2019+ for Vande Bharat).
+Speeds and years use the user's chosen gameplay overrides: ICF 110 km/h / 1980,
+LHB 200 / 2000, WAP-7 180 / 2000, WAG-9 120 / 1995, WAG-12B 120 / 2017
+and Vande Bharat 180 / 2019. These mix design speeds and family dates rather
+than asserting the exact operating limits/introduction of each modelled variant.
 See also [moddable vehicle features and sounds](TF3-VEHICLE-FEATURES.md).
 
 For selectable speed caps on individual track sections, see the separate
@@ -32,7 +41,7 @@ For selectable speed caps on individual track sections, see the separate
 underlying variants compatible with saved track sections.
 The original assets and their validation reports below describe the source prototypes.
 
-## WAG-9 and WAG-12B modelling handoff
+## WAG-9 and WAG-12B
 
 New editable source models, prepared against revision 6 of this repository's modelling/conversion workflow:
 
@@ -41,7 +50,14 @@ New editable source models, prepared against revision 6 of this repository's mod
 
 Both packages include Blender masters, static and baked-motion FBX exports, independent level-head pantograph controls, named coupling/driver/light markers, source generators, reference provenance, previews and QA reports. The WAG-9 motion FBX is supplied as a verified lossless ZIP; extract it before import. WAG-12B includes standard-wire and illustrative high-reach poses.
 
-These new locomotive folders are **modelling handoffs only** and are not yet registered in the playable pack linked above. The conversion agent must add vehicle definitions and test character fit, lighting, LODs, wire contact, reversals and curves. Source validation and fresh FBX import are not in-game testing.
+**Converted in revision 11:** buy **Indian Railways WAG-9** or **Indian Railways
+WAG-12B (twin section)** and add freight wagons. WAG-12B is one depot choice with
+two independently articulated sections and outward cabs, totalling 9,000 kW,
+706 kN and 180 t. WAG-9 has 4,500 kW, 460 kN and 123 t. Both have transparent
+glass, crew anchors, four LODs and height-sampled pantographs. Prices/upkeep use
+the installed game's automatic rules. [Integration details and validation](TF3-INSTALL.md#wag-9-wag-12b-and-construction-icons-revision-11-30-september-2026)
+distinguish build checks from the pending game check of wire contact, reversals,
+curves, crew/cockpit appearance and shared horn playback.
 
 ## Vande Bharat compact modelling handoff
 
@@ -63,7 +79,8 @@ The measured visible envelope includes both noses and all evaluated mesh project
 The handoff contains seven per-car Blender masters, eleven static/motion FBXs, independent door/bogie/axle/pantograph EMPTY hierarchies, interiors and character-placement guides. Both trailer pantograph rigs have live controls and baked motion samples. All eleven FBXs were freshly re-imported; all 22 inter-car joins align and both rigs passed 101-pose clearance checks. Linked assembly libraries use relative paths: keep the folder tree intact.
 
 **Converted in pack revision 5:** buy **Vande Bharat Express (8 cars)** or
-**Vande Bharat Express (16 cars)** from year **2022** on electrified track.
+**Vande Bharat Express (16 cars)** on electrified track. Revision 11 sets their
+gameplay availability to **2019** and maximum speed to **180 km/h**.
 They have 420 / 880 configured passenger places and 155 / 310 m spacing lengths.
 The stock gameplay scale gives 105 / 220 passengers in the depot menu.
 The seven car types have interiors, transparent glazing, four LODs, passenger and

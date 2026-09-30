@@ -84,10 +84,12 @@ def unit_stats(name,vehicles):
  result['standard_game_capacity']=sum(int(v['capacity']/4) for v in vehicles)
  result['game_passengers_per_m']=round(result['standard_game_capacity']/length,3)
  for k in ('power_kw','tractive_effort_kn','weight_t','base_purchase','base_annual_upkeep'):result[k]=round(sum(v[k] for v in vehicles),3)
- result['purchase_per_seat']=round(result['base_purchase']/capacity)
- result['annual_upkeep_per_seat']=round(result['base_annual_upkeep']/capacity)
- result['purchase_per_game_seat']=round(result['base_purchase']/result['standard_game_capacity'])
- result['annual_upkeep_per_game_seat']=round(result['base_annual_upkeep']/result['standard_game_capacity'])
+ if capacity:
+  result['purchase_per_seat']=round(result['base_purchase']/capacity)
+  result['annual_upkeep_per_seat']=round(result['base_annual_upkeep']/capacity)
+ if result['standard_game_capacity']:
+  result['purchase_per_game_seat']=round(result['base_purchase']/result['standard_game_capacity'])
+  result['annual_upkeep_per_game_seat']=round(result['base_annual_upkeep']/result['standard_game_capacity'])
  return result
 
 def stock_model(game_root,category,key):
@@ -128,8 +130,13 @@ def main():
  stock_rakes=[]
  for engine,coach in (('br_185_traxx','china_type_yz_22'),('br_185_traxx','ew_iv'),('obb_1042','ew_ii')):
   stock_rakes.append(platform_rake(engine+' + '+coach,stock_model(args.game_root,'train',engine),stock_model(args.game_root,'waggon',coach)))
- report={'basis':'Installed stock MU/model resources and base/model_metadata_util.lua cost formula; before difficulty/global cost scales. capacity is authored metadata; standard_game_capacity applies the stock quarter-capacity scale.','stock':stock,'vande_bharat':vande,'conventional_vehicles':conventional,'conventional_rakes':rakes,'stock_conventional_rakes':stock_rakes}
+ freight_models={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in ('wag9','wag12b_a','wag12b_b')}
+ freight=[unit_stats('WAG-9',[freight_models['wag9']]),unit_stats('WAG-12B (complete pair)',[freight_models['wag12b_a'],freight_models['wag12b_b']])]
+ assert freight[1]['power_kw']==9000 and freight[1]['tractive_effort_kn']==706 and freight[1]['weight_t']==180
+ assert all(s['capacity']==0 and s['ticket_price_factor']==.5 for s in freight_models.values())
+ stock_freight=[unit_stats('BR 185 TRAXX',[stock_model(args.game_root,'train','br_185_traxx')])]
+ report={'basis':'Installed stock MU/model resources and base/model_metadata_util.lua cost formula; before difficulty/global cost scales. capacity is authored metadata; standard_game_capacity applies the stock quarter-capacity scale.','stock':stock,'vande_bharat':vande,'conventional_vehicles':conventional,'conventional_rakes':rakes,'stock_conventional_rakes':stock_rakes,'freight_locomotives':freight,'stock_freight_locomotives':stock_freight}
  (root/'game_build/vande_bharat_balance.json').write_text(json.dumps(report,indent=2))
- for s in stock+vande+rakes+stock_rakes:print(json.dumps(s))
+ for s in stock+vande+rakes+stock_rakes+freight+stock_freight:print(json.dumps(s))
 
 if __name__=='__main__':main()
