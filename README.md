@@ -1,4 +1,4 @@
-# Indian Rail Prototype Pack v0.1
+# Indian Rail Prototype Pack v0.2
 
 Editable Blender prototypes for an Indian Railways asset-development project:
 
@@ -8,18 +8,34 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 
 **These are dimensioned visual prototypes, not a working or game-tested Transport Fever 3 mod.** Detailed masters prioritize separated components and reviewable shape; they require optimization and integration before game use.
 
-## Interior pass v0.2 — previews in progress
+## Interior pass v0.2
 
-The interior refinement is in progress. These are actual Blender renders of the updated models, not in-game screenshots. Final source files and validation notes will follow after review. CPU previews retain some sampling noise.
+Updated editable masters and FBX exports are in [`interiors_v02`](interiors_v02). These are Blender asset-development models, **not a working or game-tested TF3 mod**. The original exterior prototypes remain below for comparison.
 
-### WAP-7 driving cab
-![WAP-7 onboard](interiors_v02/wap7/WAP7_onboard_A.png)
+- WAP-7: both cabs, driving desks, gauges, seats, pedals, window openings and transparent glazing
+- LHB 3A: nine daytime berth bays, folded middle backrests, ladders, racks, partitions, AC fittings, clear aisle and vestibule detail
+- ICF sleeper: variant-specific berth bays, fans, ladders, racks, shutter/window fittings and entry detail
+- Each coach has 72 berth references and 72 seated authoring locators; these are not yet connected to TF3 passenger metadata
 
-### LHB 3A passenger aisle
-![LHB aisle](interiors_v02/lhb/LHB_v02_passenger.png)
+### WAP-7 cab
+![WAP-7 cab review](interiors_v02/wap7/WAP7_cab_review.png)
+[Onboard A](interiors_v02/wap7/WAP7_onboard_A.png) · [Onboard B](interiors_v02/wap7/WAP7_onboard_B.png) · [Cutaway](interiors_v02/wap7/WAP7_cab_cutaway.png) · [Exterior check](interiors_v02/wap7/WAP7_exterior_regression.png) · [Model files and notes](interiors_v02/wap7)
 
-### ICF sleeper passenger aisle
-![ICF aisle](interiors_v02/icf/passenger_aisle.png)
+### LHB 3A interior
+![LHB interior cutaway](interiors_v02/lhb/LHB_v02_cutaway.png)
+[Passenger aisle](interiors_v02/lhb/LHB_v02_passenger.png) · [Bay](interiors_v02/lhb/LHB_v02_bay.png) · [Exterior check](interiors_v02/lhb/LHB_v02_exterior.png) · [Model files and notes](interiors_v02/lhb)
+
+### ICF sleeper interior
+![ICF interior cutaway](interiors_v02/icf/cutaway_overview.png)
+[Passenger aisle](interiors_v02/icf/passenger_aisle.png) · [Bay](interiors_v02/icf/passenger_bay.png) · [Exterior check](interiors_v02/icf/exterior_regression.png) · [Model files and notes](interiors_v02/icf)
+
+### Verification and limitations
+
+All three FBX exports were re-imported into Blender. Mechanical pivots and exterior envelopes were checked; cab image textures are packed/embedded. Coach placement checks use simplified proxies and do not replace actual passenger-animation testing. See each folder's validation files for the scope and results.
+
+The daytime layout is static: deploying berths and opening doors are not animated. No functional driving cockpit is claimed. Some measurements and hardware remain provisional, and the detailed meshes still need game optimization, LODs, TF3 materials/metadata and editor/runtime testing. Some CPU-rendered interior views retain visible sampling noise. Reference photographs are linked in the notes and are not redistributed.
+
+Rebuild scripts in the v0.2 folders document their baseline input; they are separate from the v0.1 generators below. Back up edits before running either generation.
 
 ## Exterior prototypes v0.1
 

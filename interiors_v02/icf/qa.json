@@ -1,0 +1,29 @@
+{
+  "source_baseline_triangles": 217230,
+  "final_asset_triangles": 266335,
+  "interior_triangles": 61021,
+  "growth_triangles": 49105,
+  "protected_original_objects": 1215,
+  "protected_geometry_transform_hierarchy_changes": [],
+  "cushions": 72,
+  "cushion_intersections": [],
+  "berth_locators": 72,
+  "passenger_seated_locators": 72,
+  "nominal_capacity": 72,
+  "middle_configuration": "18 upright folded daytime backrests",
+  "clear_main_aisle_m": 0.53,
+  "longitudinal_berth_length_m": 1.57,
+  "main_berth_length_m": 1.77,
+  "bay_pitch_m": 1.71,
+  "dimensions_from_original": {
+    "body_length_m": 21.337,
+    "length_over_buffers_m": 22.297,
+    "width_m": 3.245,
+    "height_rail_to_roof_m": 4.025,
+    "bogie_centres_m": 14.783,
+    "gauge_m": 1.676,
+    "status": "VISUAL PROTOTYPE \u2014 not game-ready",
+    "interior_nominal_berths": 72
+  },
+  "status": "Detailed visual prototype; no TF3 integration or runtime passenger binding tested"
+}

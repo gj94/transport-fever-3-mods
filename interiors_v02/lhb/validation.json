@@ -1,0 +1,103 @@
+{
+  "blender": "4.3.2",
+  "berth_counts": {
+    "V02_Main_lower": 18,
+    "V02_Main_upper": 18,
+    "V02_Main_middle_FOLDED": 18,
+    "V02_Side_lower": 9,
+    "V02_Side_upper_0": 9
+  },
+  "berth_total": 72,
+  "day_configuration": "18 middle berths stowed upright as backrests; no deploy animation supplied",
+  "seated_locator_count": 72,
+  "torso_head_proxy_collisions": [],
+  "proxy_dimensions_m": [
+    0.32,
+    0.36,
+    1.03
+  ],
+  "proxy_limit": "Torso/head only; not full passenger mesh, limbs or runtime animation validation.",
+  "nominal_main_aisle_clear_width_m": 0.51,
+  "bogie_pivots": {
+    "BOGIE_0_PIVOT_Z": [
+      -7.449999809265137,
+      0.0,
+      0.45750001072883606
+    ],
+    "BOGIE_1_PIVOT_Z": [
+      7.449999809265137,
+      0.0,
+      0.45750001072883606
+    ]
+  },
+  "axle_pivots": {
+    "AXLE_0_0_ROTATE_Y": [
+      -1.2799999713897705,
+      0.0,
+      0.0
+    ],
+    "AXLE_0_1_ROTATE_Y": [
+      1.2799999713897705,
+      0.0,
+      0.0
+    ],
+    "AXLE_1_0_ROTATE_Y": [
+      -1.2799999713897705,
+      0.0,
+      0.0
+    ],
+    "AXLE_1_1_ROTATE_Y": [
+      1.2799999713897705,
+      0.0,
+      0.0
+    ]
+  },
+  "opaque_source_window_block": "No opaque source shell across main window openings. New wall panels preserve apertures.",
+  "door_aperture_raycast_pass": [
+    "Door_recess",
+    "Door_leaf",
+    "Door_recess.001",
+    "Door_leaf.001",
+    "Door_recess.002",
+    "Door_leaf.002",
+    "Door_recess.003",
+    "Door_leaf.003",
+    "V02_Entry_inner_liner",
+    "V02_Entry_inner_liner.001",
+    "V02_Entry_inner_liner.002",
+    "V02_Entry_inner_liner.003"
+  ],
+  "embedded_image_count": 0,
+  "non_render_image_names": [],
+  "asset_objects": 1849,
+  "status": "Editable visual prototype; no game integration or LOD performance test",
+  "fbx_roundtrip": {
+    "objects": 1849,
+    "meshes": 1765,
+    "triangles": 252441,
+    "bounds_min": [
+      -12.0,
+      -1.6825016736984253,
+      -0.024499986320734024
+    ],
+    "bounds_max": [
+      12.0,
+      1.6825015544891357,
+      4.2669997215271
+    ],
+    "locator_count": 72,
+    "presentation_leaks": []
+  },
+  "visual_qa": {
+    "inspected": [
+      "LHB_v02_exterior.png",
+      "LHB_v02_passenger.png",
+      "LHB_v02_bay.png",
+      "LHB_v02_cutaway.png"
+    ],
+    "cutaway_samples": 256,
+    "other_samples": 64,
+    "denoising": false,
+    "observations": "Assembled geometry inspected in actual perspective; offset aisle and folded backrests visible. Cutaway hides roof and near side for inspection, with no floating window frames. Door leaf/recess/liner apertures verified by ray tests. Interior 64-sample views remain visibly grainy."
+  }
+}

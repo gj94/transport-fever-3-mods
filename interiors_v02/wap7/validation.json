@@ -1,0 +1,50 @@
+{
+  "source_master_triangles": 117220,
+  "interior_triangles": 40320,
+  "asset_triangles": 165124,
+  "interior_objects": 478,
+  "axles": [
+    "AXLE_A_1_ROLL_Y",
+    "AXLE_A_2_ROLL_Y",
+    "AXLE_A_3_ROLL_Y",
+    "AXLE_B_1_ROLL_Y",
+    "AXLE_B_2_ROLL_Y",
+    "AXLE_B_3_ROLL_Y"
+  ],
+  "bogies": [
+    "BOGIE_A_YAW_Z",
+    "BOGIE_B_YAW_Z"
+  ],
+  "cab_roots": [
+    "CAB_A_INTERIOR",
+    "CAB_B_INTERIOR"
+  ],
+  "camera_objects": [
+    "Three quarter camera",
+    "CAB_A_ONBOARD_PREVIEW",
+    "CAB_A_CAB_REVIEW",
+    "CAB_B_ONBOARD_PREVIEW",
+    "CAB_B_CAB_REVIEW"
+  ],
+  "denoising": false,
+  "render_device": "CPU",
+  "threads": 2,
+  "tf3_camera_config_integrated": false,
+  "added_net_triangles": 47904,
+  "preview_samples": {
+    "onboard_A": 64,
+    "cab_review": 64,
+    "cab_cutaway": 32,
+    "exterior_regression": 32,
+    "onboard_B": 16
+  },
+  "source_master_sha256": "8431ae0c654a5fd3f5486fd5ebf503a69e25ef3c4d582b97504973c44939d548",
+  "counting_note": "Master counts evaluated MESH objects; FBX also converts original FONT labels, adding 3528 triangles.",
+  "visual_review": {
+    "WAP7_onboard_A.png": "passed: visible gauge ticks, green display, no instrument housing clipping",
+    "WAP7_onboard_B.png": "passed: mirrored second cab controls and textures",
+    "WAP7_cab_review.png": "passed: both seats, pressure gauges, assistant controls and three pedals",
+    "WAP7_exterior_regression.png": "passed: body silhouette/livery, roof, bogies and six axles visually retained",
+    "WAP7_cab_cutaway.png": "passed: clean furniture and floor cutaway; fixtures intentionally hidden only for render"
+  }
+}

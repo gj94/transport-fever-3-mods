@@ -1,0 +1,34 @@
+{
+  "imported_objects": 3065,
+  "mesh_objects": 2913,
+  "triangles": 266335,
+  "berth_locators": 72,
+  "passenger_locators": 72,
+  "bogie_and_axle_parents": {
+    "BOGIE_1_AXLE_1_ROTATE_Y": "BOGIE_1_PIVOT",
+    "BOGIE_1_AXLE_2_ROTATE_Y": "BOGIE_1_PIVOT",
+    "BOGIE_1_PIVOT": "ICF_ROOT_metres_X_forward",
+    "BOGIE_2_AXLE_1_ROTATE_Y": "BOGIE_2_PIVOT",
+    "BOGIE_2_AXLE_2_ROTATE_Y": "BOGIE_2_PIVOT",
+    "BOGIE_2_PIVOT": "ICF_ROOT_metres_X_forward"
+  },
+  "world_bounds_m": [
+    [
+      -11.148499488830566,
+      11.148499488830566
+    ],
+    [
+      -1.8800015449523926,
+      1.8800015449523926
+    ],
+    [
+      -0.024500016123056412,
+      4.025000095367432
+    ]
+  ],
+  "lights": 0,
+  "cameras": 0,
+  "eye_height_aisle_ray_unobstructed": true,
+  "ceiling_has_downward_facing_surface": true,
+  "floor_has_upward_facing_surface": true
+}

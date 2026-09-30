@@ -1,0 +1,84 @@
+{
+  "fbx_objects": 2631,
+  "fbx_meshes": 2619,
+  "fbx_triangles": 168652,
+  "bounds_min": [
+    -10.281000137329102,
+    -1.591687560081482,
+    -0.02399999275803566
+  ],
+  "bounds_max": [
+    10.281000137329102,
+    1.591687560081482,
+    4.264999866485596
+  ],
+  "six_axles": [
+    "AXLE_A_1_ROLL_Y",
+    "AXLE_A_2_ROLL_Y",
+    "AXLE_A_3_ROLL_Y",
+    "AXLE_B_1_ROLL_Y",
+    "AXLE_B_2_ROLL_Y",
+    "AXLE_B_3_ROLL_Y"
+  ],
+  "two_bogies": [
+    "BOGIE_A_YAW_Z",
+    "BOGIE_B_YAW_Z"
+  ],
+  "axle_world_centres": {
+    "AXLE_A_1_ROLL_Y": [
+      -7.849999904632568,
+      1.278927243220096e-06,
+      0.5460000038146973
+    ],
+    "AXLE_A_2_ROLL_Y": [
+      -6.0,
+      9.775239959708415e-07,
+      0.5460000038146973
+    ],
+    "AXLE_A_3_ROLL_Y": [
+      -4.150000095367432,
+      6.76120748721587e-07,
+      0.5460000038146973
+    ],
+    "AXLE_B_1_ROLL_Y": [
+      4.150000095367432,
+      -6.76120748721587e-07,
+      0.5460000038146973
+    ],
+    "AXLE_B_2_ROLL_Y": [
+      6.0,
+      -9.775239959708415e-07,
+      0.5460000038146973
+    ],
+    "AXLE_B_3_ROLL_Y": [
+      7.849999904632568,
+      -1.278927243220096e-06,
+      0.5460000038146973
+    ]
+  },
+  "two_interiors": [
+    "CAB_A_INTERIOR",
+    "CAB_B_INTERIOR"
+  ],
+  "cameras_exported": 0,
+  "lights_exported": 0,
+  "nonfinite_vertex_count": 0,
+  "texture_images": [
+    {
+      "name": "cab_display.png",
+      "size": [
+        512,
+        256
+      ],
+      "packed": true
+    },
+    {
+      "name": "cab_gauges.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ]
+}
