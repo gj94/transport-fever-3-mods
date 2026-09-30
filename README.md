@@ -1,4 +1,4 @@
-# Indian Rail Prototype Pack v0.3
+# Indian Rail Prototype Pack v0.4
 
 Editable Blender prototypes for an Indian Railways asset-development project:
 
@@ -7,6 +7,22 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 - **Conventional ICF sleeper** coach in blue/cyan
 
 **These are dimensioned visual prototypes, not a working or game-tested Transport Fever 3 mod.** Detailed masters prioritize separated components and reviewable shape; they require optimization and integration before game use.
+
+## Pantograph rig v0.4
+
+[Open the independently articulated WAP-7, poses, animation samples and full control documentation](pantograph_v04).
+
+![Pantograph lowered, raised and independent control review](pantograph_v04/WAP7_pantograph_review.png)
+
+- `PANTO_FRONT_CTRL` (+X end) and `PANTO_REAR_CTRL` (−X end) each have an independent `extension` property from 0 to 1
+- Separate lower arms, upper arms, hinge shafts and contact heads; named LOWER/ELBOW/HEAD_LEVEL pivots keep the heads level through continuous articulation
+- Contact-strip top above rail: **4.254758 m lowered**, **4.989397 m at 0.5**, **5.652074 m at the illustrative raised endpoint**
+- Live-driver Blender master, baked-motion Blender master, static lowered/raised FBXs and a losslessly zipped baked motion-sample FBX included
+- The animated sample is 24 fps; independent front/rear intervals and Blender FBX import-offset handling are documented
+
+This is an adjustable authoring rig, not a fixed catenary-height binding. The README gives a height-to-control formula, pivot names and how to revise the authoring range. TF3 triggers, operating wire-height adjustment and game testing remain with the user.
+
+All 2,661 protected source objects were checked unchanged, including interiors, origin/metre scale, coupling anchors and bogie/axle hierarchy. Fresh static/animated FBX imports and intermediate-pose/collision checks passed within documented tolerances. The mechanism is a simplified game-oriented approximation, not manufacturer-exact hardware.
 
 ## Coupling correction v0.3
 

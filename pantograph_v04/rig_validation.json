@@ -1,0 +1,341 @@
+{
+  "source_file": "WAP7_coupling_v03.blend",
+  "source_sha256": "41f6584e85797ec5785177a3f44916aeb1344bcc51e5eaf2e0a3c872384ca577",
+  "verified_remote_head": "f398592b3908ef205843d1e9b2211cb0189973f4",
+  "removed_moving_objects": [
+    "Contact horn",
+    "Contact horn.001",
+    "Contact horn.002",
+    "Contact horn.003",
+    "Contact shoe",
+    "Contact shoe.001",
+    "Contact shoe.002",
+    "Contact shoe.003",
+    "Pantograph hinge",
+    "Pantograph hinge.001",
+    "Pantograph hinge.002",
+    "Pantograph hinge.003",
+    "Pantograph lower arm",
+    "Pantograph lower arm.001",
+    "Pantograph lower arm.002",
+    "Pantograph lower arm.003",
+    "Pantograph upper arm",
+    "Pantograph upper arm.001",
+    "Pantograph upper arm.002",
+    "Pantograph upper arm.003"
+  ],
+  "rail_z_m": 0.0,
+  "poses": {
+    "0_0": {
+      "FRONT": {
+        "contact_top_min_m": 4.254757881164551,
+        "contact_top_max_m": 4.254757881164551,
+        "head_pivot_height_m": 4.222757816314697,
+        "head_world_euler_deg": [
+          0.0,
+          -1.067216930592305e-07,
+          0.0
+        ],
+        "lower_length_world_m": 1.4000001760648586,
+        "upper_length_world_m": 1.0499998624120483,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 4.254757881164551,
+        "contact_top_max_m": 4.254757881164551,
+        "head_pivot_height_m": 4.222757816314697,
+        "head_world_euler_deg": [
+          0.0,
+          -1.067216930592305e-07,
+          0.0
+        ],
+        "lower_length_world_m": 1.4000001760648586,
+        "upper_length_world_m": 1.0499998624120483,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    },
+    "0.25_0.75": {
+      "FRONT": {
+        "contact_top_min_m": 4.626905918121338,
+        "contact_top_max_m": 4.626905918121338,
+        "head_pivot_height_m": 4.594905853271484,
+        "head_world_euler_deg": [
+          0.0,
+          8.53773544473844e-07,
+          0.0
+        ],
+        "lower_length_world_m": 1.3999998978738237,
+        "upper_length_world_m": 1.0500000403750502,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 5.333791255950928,
+        "contact_top_max_m": 5.333791255950928,
+        "head_pivot_height_m": 5.301791191101074,
+        "head_world_euler_deg": [
+          0.0,
+          3.4150945850063755e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.4000001732792067,
+        "upper_length_world_m": 1.049999939260027,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    },
+    "0.5_0.5": {
+      "FRONT": {
+        "contact_top_min_m": 4.989396572113037,
+        "contact_top_max_m": 4.989396572113037,
+        "head_pivot_height_m": 4.957396507263184,
+        "head_world_euler_deg": [
+          0.0,
+          -1.7075472925031877e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.399999891221519,
+        "upper_length_world_m": 1.0500000953674273,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 4.989396572113037,
+        "contact_top_max_m": 4.989396572113037,
+        "head_pivot_height_m": 4.957396507263184,
+        "head_world_euler_deg": [
+          0.0,
+          -1.7075472925031877e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.399999891221519,
+        "upper_length_world_m": 1.0500000953674273,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    },
+    "0.75_0.25": {
+      "FRONT": {
+        "contact_top_min_m": 5.333791255950928,
+        "contact_top_max_m": 5.333791255950928,
+        "head_pivot_height_m": 5.301791191101074,
+        "head_world_euler_deg": [
+          0.0,
+          3.4150945850063755e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.4000001732792067,
+        "upper_length_world_m": 1.049999939260027,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 4.626905918121338,
+        "contact_top_max_m": 4.626905918121338,
+        "head_pivot_height_m": 4.594905853271484,
+        "head_world_euler_deg": [
+          0.0,
+          8.53773544473844e-07,
+          0.0
+        ],
+        "lower_length_world_m": 1.3999998978738237,
+        "upper_length_world_m": 1.0500000403750502,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    },
+    "1_1": {
+      "FRONT": {
+        "contact_top_min_m": 5.652073860168457,
+        "contact_top_max_m": 5.652073860168457,
+        "head_pivot_height_m": 5.6200737953186035,
+        "head_world_euler_deg": [
+          0.0,
+          1.7075472925031877e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.3999999071870501,
+        "upper_length_world_m": 1.049999996026357,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 5.652073860168457,
+        "contact_top_max_m": 5.652073860168457,
+        "head_pivot_height_m": 5.6200737953186035,
+        "head_world_euler_deg": [
+          0.0,
+          1.7075472925031877e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.3999999071870501,
+        "upper_length_world_m": 1.049999996026357,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    },
+    "1_0": {
+      "FRONT": {
+        "contact_top_min_m": 5.652073860168457,
+        "contact_top_max_m": 5.652073860168457,
+        "head_pivot_height_m": 5.6200737953186035,
+        "head_world_euler_deg": [
+          0.0,
+          1.7075472925031877e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.3999999071870501,
+        "upper_length_world_m": 1.049999996026357,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 4.254757881164551,
+        "contact_top_max_m": 4.254757881164551,
+        "head_pivot_height_m": 4.222757816314697,
+        "head_world_euler_deg": [
+          0.0,
+          -1.067216930592305e-07,
+          0.0
+        ],
+        "lower_length_world_m": 1.4000001760648586,
+        "upper_length_world_m": 1.0499998624120483,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    },
+    "0_1": {
+      "FRONT": {
+        "contact_top_min_m": 4.254757881164551,
+        "contact_top_max_m": 4.254757881164551,
+        "head_pivot_height_m": 4.222757816314697,
+        "head_world_euler_deg": [
+          0.0,
+          -1.067216930592305e-07,
+          0.0
+        ],
+        "lower_length_world_m": 1.4000001760648586,
+        "upper_length_world_m": 1.0499998624120483,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      },
+      "REAR": {
+        "contact_top_min_m": 5.652073860168457,
+        "contact_top_max_m": 5.652073860168457,
+        "head_pivot_height_m": 5.6200737953186035,
+        "head_world_euler_deg": [
+          0.0,
+          1.7075472925031877e-06,
+          0.0
+        ],
+        "lower_length_world_m": 1.3999999071870501,
+        "upper_length_world_m": 1.049999996026357,
+        "elbow_closure_m": 0.0,
+        "head_closure_m": 0.0
+      }
+    }
+  },
+  "preservation": {
+    "protected_objects": 2661,
+    "exact_equality": true,
+    "root_and_coupling_anchors": {
+      "WAP7_ROOT": {
+        "type": "EMPTY",
+        "parent": null,
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null
+      },
+      "COUPLING_FRONT": {
+        "type": "EMPTY",
+        "parent": "WAP7_ROOT",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            10.199999809265137
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null
+      },
+      "COUPLING_REAR": {
+        "type": "EMPTY",
+        "parent": "WAP7_ROOT",
+        "matrix": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            -10.199999809265137
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null
+      }
+    },
+    "unit_system": "METRIC",
+    "unit_scale_length": 1.0
+  }
+}

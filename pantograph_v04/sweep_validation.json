@@ -1,0 +1,9 @@
+{
+  "samples_per_pantograph": 101,
+  "max_head_tilt_deg": 5.122641877509563e-06,
+  "minimum_moving_mesh_z_m": 4.159003257751465,
+  "minimum_roof_panel_clearance_m": 0.28650331497192383,
+  "unintended_source_geometry_surface_intersections": [],
+  "intentional_bearing_base_contacts_count": 404,
+  "method": "World-space BVH triangle surface intersections against preserved nearby roof/equipment; intentional bearing/base contact excluded. Joint self-contact is intentional; this does not claim manufacturing tolerances or actuator simulation."
+}
