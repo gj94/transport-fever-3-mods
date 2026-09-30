@@ -1,0 +1,11 @@
+Indian Rail Prototype Pack v0.1
+
+Contains original editable Blender models and asset-only FBX exports for a white/red WAP-7, red/grey LHB 3A coach, and blue conventional ICF sleeper.
+
+These are first-pass dimensioned visual prototypes for review, NOT a working Transport Fever 3 mod. FBX re-import tests passed; game/Model Editor tests have not been run.
+
+Each folder contains preview images, Blender/FBX source assets, generation scripts, and README documentation with references, measurements and limitations. Some small details and equipment positions remain approximate. No specific real locomotive number or train is represented.
+
+Remaining production work: refine geometry against exact prototype imagery, UV/texture atlases, bilingual markings and weathering, game-optimized meshes/LODs, animations, TF3 metadata/resources and editor/runtime testing. Detailed masters currently exceed typical game mesh targets.
+
+Blender 4.3.2. For CPU rendering, disable Cycles denoising if OpenImageDenoise is unavailable.

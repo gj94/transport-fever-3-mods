@@ -1,0 +1,99 @@
+{
+  "blender": "4.3.2",
+  "objects_asset": 1379,
+  "mesh_objects": 1371,
+  "triangles_base": 217230,
+  "dimensions": {
+    "body_length_m": 21.337,
+    "length_over_buffers_m": 22.297,
+    "width_m": 3.245,
+    "height_rail_to_roof_m": 4.025,
+    "bogie_centres_m": 14.783,
+    "gauge_m": 1.676,
+    "status": "VISUAL PROTOTYPE \u2014 not game-ready",
+    "interior_nominal_berths": 72
+  },
+  "bogie_centres": [
+    [
+      -7.391499996185303,
+      0.0,
+      1.0
+    ],
+    [
+      7.391499996185303,
+      0.0,
+      1.0
+    ]
+  ],
+  "berth_objects": 72,
+  "window_count_per_side": 18,
+  "notes": "Rail top Z0. Wheel tread radius .4575; flanges project below rail top as expected. Original geometry. No third-party photo texture.",
+  "measured_asset_bounds_m": {
+    "min": [
+      -11.148499488830566,
+      -1.880000114440918,
+      -0.024499982595443726
+    ],
+    "max": [
+      11.148499488830566,
+      1.880000114440918,
+      4.025000095367432
+    ]
+  },
+  "axle_world_positions_m": {
+    "BOGIE_1_AXLE_1_ROTATE_Y": [
+      -8.839500427246094,
+      0.0,
+      0.45750001072883606
+    ],
+    "BOGIE_1_AXLE_2_ROTATE_Y": [
+      -5.94350004196167,
+      0.0,
+      0.45750001072883606
+    ],
+    "BOGIE_2_AXLE_1_ROTATE_Y": [
+      5.94350004196167,
+      0.0,
+      0.45750001072883606
+    ],
+    "BOGIE_2_AXLE_2_ROTATE_Y": [
+      8.839500427246094,
+      0.0,
+      0.45750001072883606
+    ]
+  },
+  "buffer_centres_z_m": [
+    1.1050000190734863,
+    1.1050000190734863,
+    1.1050000190734863,
+    1.1050000190734863
+  ],
+  "checks_passed": [
+    "72 berth meshes",
+    "2 bogie pivot empties",
+    "4 axle pivot empties",
+    "4 buffer heads at 1.105 m",
+    "Roof end caps closed",
+    "Model-only FBX export",
+    "1280x720 Cycles 64 samples, denoising disabled"
+  ],
+  "visual_limitations": [
+    "Fine livery wear and exact bilingual lettering not yet modeled",
+    "Roof vent bases simplified",
+    "Window positions/detail geometry approximate; not revision-specific GA"
+  ],
+  "measured_over_buffer_length_m": 22.296998977661133,
+  "measured_total_attachment_width_m": 3.760000228881836,
+  "maximum_Z_m": 4.025000095367432,
+  "fbx_roundtrip_meshes": 1371,
+  "fbx_roundtrip_expected_meshes": 1371,
+  "fbx_roundtrip_pass": true,
+  "fbx_roundtrip_pivots": [
+    "BOGIE_1_AXLE_1_ROTATE_Y",
+    "BOGIE_1_AXLE_2_ROTATE_Y",
+    "BOGIE_1_PIVOT",
+    "BOGIE_2_AXLE_1_ROTATE_Y",
+    "BOGIE_2_AXLE_2_ROTATE_Y",
+    "BOGIE_2_PIVOT"
+  ]
+}

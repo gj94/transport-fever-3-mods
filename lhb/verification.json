@@ -1,0 +1,45 @@
+{
+  "blender": "4.3.2",
+  "asset_objects": 900,
+  "mesh_objects": 714,
+  "curve_objects": 140,
+  "font_objects": 34,
+  "bogie_pivots": {
+    "BOGIE_0_PIVOT_Z": [
+      -7.449999809265137,
+      0.0,
+      0.45750001072883606
+    ],
+    "BOGIE_1_PIVOT_Z": [
+      7.449999809265137,
+      0.0,
+      0.45750001072883606
+    ]
+  },
+  "axle_pivots": {
+    "AXLE_0_0_ROTATE_Y": [
+      -1.2799999713897705,
+      0.0,
+      0.0
+    ],
+    "AXLE_0_1_ROTATE_Y": [
+      1.2799999713897705,
+      0.0,
+      0.0
+    ],
+    "AXLE_1_0_ROTATE_Y": [
+      -1.2799999713897705,
+      0.0,
+      0.0
+    ],
+    "AXLE_1_1_ROTATE_Y": [
+      1.2799999713897705,
+      0.0,
+      0.0
+    ]
+  },
+  "mesh_vertices_before_modifiers": 16340,
+  "main_berths": 54,
+  "side_berths": 18,
+  "status": "Visual prototype; not engine validated"
+}

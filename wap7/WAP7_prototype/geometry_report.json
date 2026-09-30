@@ -1,0 +1,97 @@
+{
+  "objects": 2117,
+  "mesh_objects": 2103,
+  "source_vertices": 42736,
+  "source_polygons": 25582,
+  "axles": [
+    "AXLE_A_1_ROLL_Y",
+    "AXLE_A_2_ROLL_Y",
+    "AXLE_A_3_ROLL_Y",
+    "AXLE_B_1_ROLL_Y",
+    "AXLE_B_2_ROLL_Y",
+    "AXLE_B_3_ROLL_Y"
+  ],
+  "bogies": [
+    "BOGIE_A_YAW_Z",
+    "BOGIE_B_YAW_Z"
+  ],
+  "evaluated_triangles": 117220,
+  "bounds_m": {
+    "min": [
+      -10.281000137329102,
+      -1.5916862487792969,
+      -0.02399998903274536
+    ],
+    "max": [
+      10.281000137329102,
+      1.5916862487792969,
+      4.264999866485596
+    ],
+    "span": [
+      20.562000274658203,
+      3.1833724975585938,
+      4.288999855518341
+    ]
+  },
+  "axle_world_centres": {
+    "AXLE_A_1_ROLL_Y": [
+      -7.849999904632568,
+      0.0,
+      0.5460000038146973
+    ],
+    "AXLE_A_2_ROLL_Y": [
+      -6.0,
+      0.0,
+      0.5460000038146973
+    ],
+    "AXLE_A_3_ROLL_Y": [
+      -4.150000095367432,
+      0.0,
+      0.5460000038146973
+    ],
+    "AXLE_B_1_ROLL_Y": [
+      4.150000095367432,
+      0.0,
+      0.5460000038146973
+    ],
+    "AXLE_B_2_ROLL_Y": [
+      6.0,
+      0.0,
+      0.5460000038146973
+    ],
+    "AXLE_B_3_ROLL_Y": [
+      7.849999904632568,
+      0.0,
+      0.5460000038146973
+    ]
+  },
+  "bogie_world_centres": {
+    "BOGIE_A_YAW_Z": [
+      -6.0,
+      0.0,
+      0.8199999928474426
+    ],
+    "BOGIE_B_YAW_Z": [
+      6.0,
+      0.0,
+      0.8199999928474426
+    ]
+  },
+  "fbx_roundtrip": {
+    "object_count": 2117,
+    "axle_pivots": [
+      "AXLE_A_1_ROLL_Y",
+      "AXLE_A_2_ROLL_Y",
+      "AXLE_A_3_ROLL_Y",
+      "AXLE_B_1_ROLL_Y",
+      "AXLE_B_2_ROLL_Y",
+      "AXLE_B_3_ROLL_Y"
+    ],
+    "bogie_pivots": [
+      "BOGIE_A_YAW_Z",
+      "BOGIE_B_YAW_Z"
+    ],
+    "mesh_count": 2107,
+    "contains_presentation": false
+  }
+}
