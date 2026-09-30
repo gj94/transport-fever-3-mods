@@ -26,7 +26,7 @@ local function makeSpeedParam()
     return {
         key = paramKey,
         name = "Speed limit",
-        tooltip = "Cap the selected track section. Default restores this track type's normal speed. Curves and bridges may impose lower limits.",
+        tooltip = "Cap the selected track section. Entrance boards face approaching trains at its boundaries. Default restores the normal speed and removes custom-speed boards. Curves and bridges may impose lower limits.",
         values = labels,
         numbers = speeds,
         defaultIndex = 1,
@@ -96,14 +96,15 @@ if not construction.__gj94_speedDropdownInstalled then
 
     construction.getActionParams = function(definition, params, ...)
         local variant = getVariant(definition, params)
+        local selected = definition
         if variant then
             -- Do not mutate the menu's selected definition or shared stock data.
-            local selected = {}
+            selected = {}
             for key, value in pairs(definition) do selected[key] = value end
             selected.resName = variant
-            return originalActionParams(selected, params, ...)
         end
-        return originalActionParams(definition, params, ...)
+        local result = originalActionParams(selected, params, ...)
+        return result
     end
     construction.__gj94_speedDropdownInstalled = true
     debugPrint("[Track Speed Restrictions] Speed limit dropdown installed on stock tracks")

@@ -15,9 +15,11 @@ import zipfile
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
+from track_speed_boards import build_speed_boards, validate_speed_boards
 
 ROOT = Path(__file__).resolve().parents[1]
 MOD_ID = "gj94_track_speed_restrictions"
+REVISION = 5
 SPEEDS = (15, 25, 40, 60, 80, 100, 120, 130, 160)
 STYLES = {"simple": "Wooden", "standard": "Standard", "high_speed": "Concrete"}
 TOKEN = re.compile(r'\s+|--[^\n]*|"(?:\\.|[^"\\])*"|-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?|[A-Za-z_]\w*|[{}=(),;]')
@@ -150,6 +152,7 @@ def build(game_root):
                 native[style, electric] = ConstantLua(raw.decode("utf-8-sig")).data()
                 native_hashes[source] = hashlib.sha256(raw).hexdigest()
 
+    build_speed_boards(mod, SPEEDS, lua)
     variants = []
     for style_index, (style, label) in enumerate(STYLES.items()):
         for speed_index, speed in enumerate(SPEEDS):
@@ -162,7 +165,8 @@ def build(game_root):
                 data["description"] = {
                     "name": f"{label} track - {speed} km/h" + (" (electrified)" if electric else ""),
                     "description": f"{speed} km/h track speed cap. Curves, bridges and vehicle limits can reduce speed further. "
-                        "Choose this cap from Speed limit on the stock track option. Electrification changes retain this cap.",
+                        "Choose this cap from Speed limit on the stock track option. Electrification changes retain this cap. "
+                        "Entrance boards face approaching trains at the boundaries of this speed section.",
                     "icon": f"{key}.tga",
                     "previewIcon": original["description"]["previewIcon"],
                 }
@@ -191,11 +195,20 @@ def build(game_root):
         'function data()\nreturn {\n  type = "react-plugin ::ModEntryPointExtension",\n'
         '  data = { filePath = resolve("track_speed_dropdown.script@EntryPoint"), order = -100 },\n}\nend\n',
         encoding="utf-8")
-    metadata = {"name": "Track Speed Restrictions", "summary": "Speed dropdown on the existing track options",
-                "description": "Choose Default or a 15-160 km/h cap from Speed limit on the six stock track choices. Works for building and replacement. Old speed-limited tracks remain compatible without crowding the menu.",
+    boards_dir = mod / "content/boards"
+    (boards_dir / "boundaries.script.lua").write_text(
+        (ROOT / "tools/track_speed_boundaries.script.lua").read_text(encoding="utf-8"), encoding="utf-8")
+    (boards_dir / "boundaries.gs.lua").write_text(
+        'function data()\nreturn {\n'
+        '  updateScript = { fileName = "boundaries.script@update" },\n'
+        '  postUpdateScript = { fileName = "boundaries.script@postUpdate" },\n'
+        '  handleEventScript = { fileName = "boundaries.script@handleEvent" },\n'
+        '}\nend\n', encoding="utf-8")
+    metadata = {"name": "Track Speed Restrictions", "summary": "Track speed dropdown with automatic entrance boards",
+                "description": "Choose Default or a 15-160 km/h cap from Speed limit on the six stock track choices. Entrance boards mark custom-speed section boundaries. The number faces approaching trains; departing trains see a blank back. Boards follow track edits and Default restoration without changing signals or noise barriers. Existing speed-limited tracks remain compatible.",
                 "authors": [{"name": "gj94", "role": "CREATOR"}], "tags": ["Track"],
                 "url": "https://github.com/gj94/transport-fever-3-mods"}
-    (mod / "mod.json").write_text(json.dumps({"modId": MOD_ID, "revision": 3, "severityAdd": "None",
+    (mod / "mod.json").write_text(json.dumps({"modId": MOD_ID, "revision": REVISION, "severityAdd": "None",
                 "severityRemove": "Critical", "visible": True, "cosmetic": False}, indent=2) + "\n")
     (mod / "_metadata/modinfo.json").write_text(json.dumps(metadata, indent=2) + "\n")
     (mod / "README.txt").write_text(
@@ -205,11 +218,17 @@ def build(game_root):
         "Use track replacement/upgrade on an existing section, or lay a new section.\n"
         "For electric trains select the electrified variant; adding/removing wires preserves the cap.\n"
         "Stock availability years still apply. Curves, bridges and train ratings can impose lower limits.\n"
-        "Both travel directions share the limit. Decorative signs do not enforce restrictions.\n"
+        "Both travel directions share the limit. Numbered boards appear at section entrances.\n"
+        "Numbers face outward toward approaching trains. The backs are blank for departing trains.\n"
+        "Contiguous track of the same custom speed is one section, including style/wire changes.\n"
+        "Default track has no custom-speed boards. Track edits automatically refresh the boundaries.\n"
+        "Boards are visual custom entities; they do not change signals, caps or noise barriers.\n"
+        "Tunnel interiors have no boards. Existing custom-speed tracks are detected on loading.\n"
         "Replace every restricted track with stock track before removing this mod from a save.\n"
         "Revision 1 tracks remain registered and keep their saved limits.\n"
-        "Revision 3 corrects the Lua script data() export required at startup.\n"
-        "Revision 1 track operation was user-confirmed; the dropdown still needs a play test.\n")
+        "Revision 4 adds original numbered boards, preserving all previous track resource names and caps.\n"
+        "Revision 5 fixes the runtime track scan by reading the native track graph.\n"
+        "Revision 5 track speeds, dropdown and entrance boards were user-confirmed in game on 30 September 2026.\n")
     report = validate(mod, native, game_root, variants)
     report["stockTemplateSha256"] = native_hashes
     (mod / "_metadata/build_validation.json").write_text(json.dumps(report, indent=2) + "\n")
@@ -266,6 +285,10 @@ def validate(mod, native, game_root, variants):
         expected_pair = resource_name(variant["style"], variant["speedKmh"], not variant["electrified"])
         if data[pair_key] != expected_pair or expected_pair not in expected_resources:
             raise ValueError(f"Electrification changes speed: {path}")
+        if "defaultEdgeDecorations" in data:
+            raise ValueError(f"Unexpected repeating board decorations: {path}")
+        if not (mod / "content/boards" / f"speed_{variant['speedKmh']:03d}.mdl").is_file():
+            raise ValueError(f"Missing speed board model: {path}")
         for ref in re.findall(r'"(::/[^"\n]+)"', path.read_text(encoding="utf-8")):
             if ref[3:] not in base_resources:
                 raise ValueError(f"Unresolved stock resource {ref}: {path}")
@@ -274,11 +297,14 @@ def validate(mod, native, game_root, variants):
             with Image.open(icon_path) as icon:
                 if icon.size != (160 * scale, 90 * scale) or icon.mode != "RGBA":
                     raise ValueError(f"Invalid icon: {icon_path}")
-    return {"result": "PASS: static resource validation", "variants": len(variants),
+    board_report = validate_speed_boards(mod, SPEEDS, lambda text: ConstantLua(text).data())
+    return {"result": "PASS: static resource validation", "variants": len(variants), "boards": board_report,
             "checks": ["constant Lua syntax", "exact speed caps", "stock lane geometry and transport modes",
                        "stock curve rules and costs", "availability years", "paired electrification resources",
-                       "all referenced base assets exist", "regular and high resolution icons"],
-            "runtimePlayTest": "Pending", "variantList": variants}
+                       "all referenced base assets exist", "regular and high resolution icons",
+                       "entrance board models exist for every track cap", "no repeating decorations"],
+            "runtimePlayTest": "Revision 5 entrance boards user-confirmed on 2026-09-30; see TRACK-SPEED-RESTRICTIONS.md for scope",
+            "variantList": variants}
 
 
 if __name__ == "__main__":

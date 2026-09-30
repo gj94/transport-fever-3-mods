@@ -5,6 +5,7 @@ Lua behavior with mocked GUI objects; it cannot substitute for an in-game test.
 """
 from pathlib import Path
 import json
+import hashlib
 import math
 import sys
 import zipfile
@@ -12,7 +13,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parent / "lua-validation-deps"))
 from lupa.lua54 import LuaRuntime
-from build_speed_restrictions import MOD_ID, SPEEDS, STYLES
+from build_speed_restrictions import MOD_ID, SPEEDS, STYLES, REVISION
 
 MOD = ROOT / "game_build" / MOD_ID
 GAME = Path("D:/SteamLibrary/steamapps/common/Transport Fever 3")
@@ -59,6 +60,7 @@ construction = {
             slope = params.slope, bridgeTypeId = params.bridgeType,
             undergroundMode = params.undergroundMode,
             builderAudioRes = definition.builderAudioRes,
+            overrideEdgeDecorations = false,
         } }, forwarded = forwarded }
     end,
 }
@@ -145,8 +147,11 @@ for i in range(1, len(visible) + 1):
                 assert target.startswith(MOD_ID + "::/track/")
                 assert math.isclose(lookup[target].laneConfigs[1].speed * 3.6, speed, abs_tol=1e-10)
                 assert ("ELECTRIC_TRAIN" in list(lookup[target].laneConfigs[1].transportModes.values())) == ("_catenary" in original_name)
+                assert lookup[target].defaultEdgeDecorations is None, "Boards must use boundary script, not repeating decorations"
             else:
                 assert target == original_name, "Default must restore the stock track"
+                assert lookup[target].defaultEdgeDecorations is None, "Default must not inherit numbered boards"
+            assert action.overrideEdgeDecorations is False, "Trackside decorations must be preserved"
             assert definition.resName == original_name, "Menu selection was mutated"
             assert action.slope == 0.01 and action.bridgeTypeId == 7 and action.undergroundMode == 1
             assert result.forwarded[1] == "repository" and result.forwarded[3] == "paramsRef"
@@ -155,14 +160,18 @@ for i in range(1, len(visible) + 1):
 lua.execute("""
 local def = {resName = "::/infrastructure/track/standard/standard.street_template", action = "ACTION_TRACK_BUILDER_UPGRADER", params = {}}
 for _, speed in ipairs({-1, 14, 999}) do
-    local result = construction.getActionParams(def, {mode = 1, gj94_track_speed_kmh = speed})
-    assert(result.constructionActionParams.trackEdgeBuilder.resName == def.resName)
+    for mode = 1, 2 do
+        local result = construction.getActionParams(def, {mode = mode, gj94_track_speed_kmh = speed})
+        local action = result.constructionActionParams[mode == 2 and "trackEdgeModifier" or "trackEdgeBuilder"]
+        assert(action.resName == def.resName and not action.overrideEdgeDecorations)
+    end
 end
 local variant = modOwner .. "::/track/standard_040.street_template"
 local saved = trackResources[variant]
 trackResources[variant] = nil
 assert(construction.getActionParams(def, {mode = 1, gj94_track_speed_kmh = 40}).constructionActionParams.trackEdgeBuilder.resName == def.resName)
 trackResources[variant] = saved
+
 """)
 # Reinitializing the plugin must not wrap the functions again.
 lua.execute("previousActionWrapper = construction.getActionParams")
@@ -185,7 +194,8 @@ registration = lua.globals().data()
 assert registration.type == "react-plugin ::ModEntryPointExtension"
 assert registration.data.filePath == MOD_ID + "::/gui/track_speed_dropdown.script@EntryPoint"
 
-report = {"result": "PASS", "luaRuntime": lua.lua_version, "buildAndReplaceCases": checks,
+report = {"result": "PASS", "revision": REVISION, "luaRuntime": lua.lua_version, "buildAndReplaceCases": checks,
+          "sourceSha256": hashlib.sha256(script.encode("utf-8")).hexdigest(),
           "checks": ["Lua-backed script data() export and EntryPoint resolution",
                      "revision 2 missing-data startup regression reproduced and rejected",
                      "real Lua execution of all track templates and GUI extension",
@@ -194,8 +204,10 @@ report = {"result": "PASS", "luaRuntime": lua.lua_version, "buildAndReplaceCases
                      "all nine caps in build and replacement modes", "electrification preserved",
                      "unmodified selected menu definition", "native action arguments preserved",
                      "invalid and missing-resource fallbacks", "idempotent extension initialization",
+                     "no repeating board decorations on custom or Default tracks",
+                     "trackside decorations are preserved during replacement",
                      "native GUI entry-point registration"],
-          "inGameDropdownTest": "Pending", "revision1InGameTracks": "User confirmed working"}
+          "inGameDropdownTest": "User confirmed working on 2026-09-30", "revision1InGameTracks": "User confirmed working"}
 report_path = ROOT / "game_build/speed_dropdown_validation.json"
 report_path.write_text(json.dumps(report, indent=2) + "\n")
 print(json.dumps(report, indent=2))
