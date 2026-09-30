@@ -1,5 +1,13 @@
 # Vande Bharat 2.0 compact chair-car modelling handoff
 
+## Current TF3 integration — pack v1.0
+
+Native conversion is included in **pack v1.0 (TF3 revision 14)** alongside fourteen ICF/LHB coaches. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. Existing locomotive/trainset geometry, gameplay, rigs and the approved private horn are retained. All vehicle store/construction PNGs use straight side views. The modelling and QA below document these original authoring files. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Original editable white/blue visual models for the team's Transport Fever 3 conversion workflow. **Modelling only.** No game resources, runtime scripts, compatibility claims, or changes to the existing conversion tools are included.
 
 ## Open first
@@ -79,7 +87,7 @@ Reviewed against repository main commit `45f612e6a236e2d9e0742a82dab13d35b1736b1
 - Headlamp/marker lenses and light anchors are separate from shell geometry
 - Every moving pantograph section is under its own persistent empty pivot
 
-The current converter merges meshes by nearest retained empty and material. This hierarchy is intentional. The present team's generic exporter recognizes passenger markers, but does not automatically map VB driver seats, compartment seat indices, doors or lamps into working runtime behavior. Those mappings remain conversion work. Palette material names/diffuse colors and Principled BSDF values agree; transparent glass has Transmission Weight .96. There are no photographic textures or external image dependencies. No UV atlas, weathering atlas or authored LODs are claimed.
+The current converter merges meshes by nearest retained empty and material. This hierarchy is intentional. The original source handoff left native mappings to conversion. The current converter maps VB driver/passenger seats, compartment indices, door tracks and pantograph state; full animated character fit and door triggers await runtime checks. Functional lamp effects remain future work. Palette material names/diffuse colors and Principled BSDF values agree; transparent glass has Transmission Weight .96. There are no photographic textures or external image dependencies. No UV atlas, weathering atlas or authored LODs are claimed.
 
 ## Live and baked pantograph controls
 

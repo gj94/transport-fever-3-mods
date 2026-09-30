@@ -1,11 +1,13 @@
-Indian Rail Prototype Pack v0.1
+Indian Rail Prototype Pack v1.0
 
-Contains original editable Blender models and asset-only FBX exports for a white/red WAP-7, red/grey LHB 3A coach, and blue conventional ICF sleeper.
+Installable pack: dist/Indian-Rail-Prototype-Pack-TF3.zip. Extract gj94_indian_rail_pack into TF3 local/mods and enable Indian Rail Prototype Pack v1.0. See TF3-INSTALL.md for installation, rebuilding and verification, and CHANGELOG.md for release notes.
 
-These are first-pass dimensioned visual prototypes for review, NOT a working Transport Fever 3 mod. FBX re-import tests passed; game/Model Editor tests have not been run.
+Public version is 1.0; TF3 resource revision is 14. The installed revision 13 has identical vehicle content, with new coach play testing pending. Install v1.0 after saving and exiting TF3; synchronize any staging_area copy because it takes priority. Source folder versions describe historical modelling handoffs.
 
-Each folder contains preview images, Blender/FBX source assets, generation scripts, and README documentation with references, measurements and limitations. Some small details and equipment positions remain approximate. No specific real locomotive number or train is represented.
+Includes WAP-7, WAG-9, paired WAG-12B, Vande Bharat 8/16-car sets and fourteen ICF/LHB coaches (1A, 2A, 3A, 2S, CC, SL, GS per family), shown in the Indian Railways purchase section. The new SL and LHB 3A replace the old entries without duplicate vehicles.
 
-Remaining production work: refine geometry against exact prototype imagery, UV/texture atlases, bilingual markings and weathering, game-optimized meshes/LODs, animations, TF3 metadata/resources and editor/runtime testing. Detailed masters currently exceed typical game mesh targets.
+All ICF classes: 1980 / 110 km/h. All LHB classes: 2000 / 200 km/h. Capacities use the user's doubled normalized scale; standard fares and automatic costs/upkeep are retained. See README.md and TF3-INSTALL.md for the class table and pending runtime checks.
 
-Blender 4.3.2. For CPU rendering, disable Cycles denoising if OpenImageDenoise is unavailable.
+Editable Blender/FBX masters and their validation reports remain separate from native game_build output. Sources remain unchanged. Models are visual interpretations; doors/couplers are static and fresh game tests of boarding, passenger fit and curves remain.
+
+Source assets: Blender 4.3.2. Local converter: Blender 5.2. Start Model Editor with tools/open_model_editor.ps1 so the game-root and plugin DLLs are found.

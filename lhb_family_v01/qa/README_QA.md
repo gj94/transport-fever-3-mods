@@ -1,5 +1,13 @@
 # Validation report
 
+## Current TF3 integration — pack v1.0
+
+The reports below document source geometry. Pack **v1.0 (TF3 revision 14)** includes native conversion with passing resource/Lua, LOD, texture, icon and economics checks. Coach seated-root transforms and introduction-year filters also pass. New coach boarding, full passenger anatomy and curve clearance await a game test. See [current installation, integration and remaining checks](../../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Final source and all seven fresh FBX imports passed the automated checks in `all_variants_validation.json`.
 
 |Class|Triangles|Used materials|PAX roots|BERTH empties|
@@ -22,7 +30,7 @@ Torso/head AABB probes cover 0.24×0.32 m horizontally and Z=1.90–2.80 m. All 
 
 Review images are original CPU Cycles renders with no denoising. Cutaways deliberately remove the roof, near wall and upper cushions; geometry remains present in saved masters. Actual interior perspective views keep the complete model. Some low-sample noise remains; renders serve visual construction review rather than photographic quality.
 
-Native TF3 resources, LODs, actual characters/animations and gameplay remain untested here.
+This source report does not test native TF3 resources or gameplay. Subsequent v1.0 resource/LOD/cost checks and representative editor previews are recorded in the integration guide; full animated passenger fit and gameplay await the user's test.
 
 ## Actual cross-family evaluated-solid join
 

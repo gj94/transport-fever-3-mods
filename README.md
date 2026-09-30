@@ -1,30 +1,41 @@
-# Indian Rail Prototype Pack v0.4
+# Indian Rail Prototype Pack v1.0
 
 Editable Blender prototypes for an Indian Railways asset-development project:
 
 - **WAP-7** locomotive in clean white/red
 - **WAG-9** green/yellow freight locomotive
 - **WAG-12B** blue/cyan twin-section freight locomotive
-- **LHB AC 3-tier** coach in red/grey
-- **Conventional ICF sleeper** coach in blue/cyan
+- **Seven LHB classes** in red/grey: 1A, 2A, 3A, 2S, CC, SL and GS
+- **Seven conventional ICF classes** in blue/cyan: 1A, 2A, 3A, 2S, CC, SL and GS
 - **Vande Bharat Express** compact 8-car and 16-car white/blue trainsets
 
-The repository includes dimensioned Blender source prototypes and a playable,
-locally converted TF3 pack. The source masters prioritize separated components;
+The repository includes dimensioned Blender source prototypes and an installable
+TF3 pack. The source masters prioritize separated components;
 the conversion supplies native game resources, materials, LODs and metadata.
 
-A local TF3 conversion is now installed and play-tested, including updated
-interiors, CBC couplings and pantographs. See [installation and play-test notes](TF3-INSTALL.md)
-for the current revision, reproducible build steps, fixes and remaining checks.
-Download the [playable TF3 pack (revision 12)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+A local TF3 conversion is installed. Earlier WAP-7, Vande Bharat and purchase-tab
+updates have user-confirmed play tests; the new coach families await the user's
+play test. **v1.0 uses TF3 resource revision 14** and preserves the stable mod ID.
+The installed revision 13 has the same vehicle content; v1.0 changes only release
+metadata and documentation. Installation is deferred while the game is running.
+See [installation and play-test notes](TF3-INSTALL.md) for reproducible build steps,
+fixes and remaining checks, and [release notes](CHANGELOG.md) for v1.0.
+Download the [TF3 pack v1.0](dist/Indian-Rail-Prototype-Pack-TF3.zip).
 The rail purchase browser opens on an **Indian Railways** tab containing this
 pack's available locomotives, coaches and complete trainsets. The original
 Locomotive, Wagon, Multiple Unit and search tabs remain available. This new
 interface passes checks against the shipped GUI code, and the user confirmed
 its in-game appearance on 30 September 2026.
-The pack balances ICF/LHB capacity to 20/22 passengers per coach at standard
-game scale and uses the normal stock train fare factor. Purchase and upkeep
-retain the game's automatic calculation.
+v1.0 includes all fourteen coach classes. The existing ICF SL and LHB
+3A resource IDs receive the new models, so each class appears once. The agreed
+capacity scale doubles the former normalized balance: ICF SL carries 40 and
+LHB 3A 44 passengers. 1A has the least capacity; 3A and SL both exceed 2A.
+All coaches use the normal stock train fare factor and automatic purchase/upkeep.
+All vehicle store and construction PNGs are straight side views. Native editor
+validation passes for ICF 1A and 2A; all fourteen classes pass resource, seating,
+cost and introduction-year filter checks. Further editor checks were stopped at
+the user's request so they can test the installed build in game.
+See the [class capacity table and validation](TF3-INSTALL.md#icf-and-lhb-coach-families-revision-13).
 Revision 11 adds WAG-9 and the complete paired WAG-12B, plus straight side-view
 construction icons at stock scale for every vehicle. The new engines still need
 their first in-game check. The local customization uses the approved WAP-7 horn
@@ -32,7 +43,7 @@ on all three locomotive classes; the user confirmed WAP-7 playback works. Its pr
 recording and archive are kept outside the tracked release package; see the
 installation notes for rebuilding and horn-key behavior.
 Extract its `gj94_indian_rail_pack` folder into your TF3 `local/mods` folder,
-enable **Indian Rail Prototype Pack**, and use electrified track (1995+ for WAG-9,
+enable **Indian Rail Prototype Pack v1.0**, and use electrified track (1995+ for WAG-9,
 2000+ for WAP-7, 2017+ for WAG-12B and 2019+ for Vande Bharat).
 Speeds and years use the user's chosen gameplay overrides: ICF 110 km/h / 1980,
 LHB 200 / 2000, WAP-7 180 / 2000, WAG-9 120 / 1995, WAG-12B 120 / 2017
@@ -41,10 +52,12 @@ than asserting the exact operating limits/introduction of each modelled variant.
 See also [moddable vehicle features and sounds](TF3-VEHICLE-FEATURES.md).
 
 For selectable speed caps on individual track sections, see the separate
-[Track Speed Restrictions mod](TRACK-SPEED-RESTRICTIONS.md). Revision 3 fixes startup for the
-**Speed limit** dropdown to the existing stock track options and keeps the
-underlying variants compatible with saved track sections.
+[Track Speed Restrictions mod](TRACK-SPEED-RESTRICTIONS.md). Its independent
+revision 5 provides the **Speed limit** dropdown and automatic entrance boards;
+their appearance and section updates are user-confirmed in game.
 The original assets and their validation reports below describe the source prototypes.
+Their v0.1–v0.4 folder names identify authoring handoffs and remain unchanged;
+they are separate from the pack's v1.0 release version.
 
 ## ICF and LHB coach-family modelling handoffs
 
@@ -54,7 +67,7 @@ The selected physical accommodation counts are ICF 18/46/64/108/73/72/108 and LH
 
 Blender masters, FBXs, source scripts, seated-root and separate berth-reference metadata, previews and validation reports are included. Spacing spans are 22.297 m for ICF and 24.000 m for LHB; complete visual bounds are reported separately. Both use the project's 1.105 m CBC alignment convention, with a checked mixed-family straight connection. Passenger markers use the documented stock seated-root offset rather than cushion or upper-berth locations.
 
-These are **modelling handoffs**, not additions to the playable pack yet. The conversion agent must register the variants and handle game capacity, existing gameplay overrides, LODs, door/light behavior and in-game checks. Existing coach sources and game resources remain unchanged.
+All fourteen sources are **converted in v1.0**, with class-specific interiors, transparent glass, four LODs, seated-root metadata, matched coupling spans and side-on store/construction icons. Source masters remain unchanged. All ICF variants retain 110 km/h / 1980 and all LHB variants retain 200 km/h / 2000. Doors and couplers are static; boarding, curves and passenger anatomy remain runtime checks.
 
 ## WAG-9 and WAG-12B
 
@@ -152,7 +165,7 @@ The original exterior prototypes remain below for comparison.
 - WAP-7: both cabs, driving desks, gauges, seats, pedals, window openings and transparent glazing
 - LHB 3A: nine daytime berth bays, folded middle backrests, ladders, racks, partitions, AC fittings, clear aisle and vestibule detail
 - ICF sleeper: variant-specific berth bays, fans, ladders, racks, shutter/window fittings and entry detail
-- Each coach has 72 berth references and 72 seated authoring locators, exported as passenger-seat metadata by our conversion
+- These older coach sources each have 72 berth references and 72 seated locators; v1.0 uses the class-specific family masters instead
 
 ### WAP-7 cab
 ![WAP-7 cab review](interiors_v02/wap7/WAP7_cab_review.png)
@@ -170,7 +183,7 @@ The original exterior prototypes remain below for comparison.
 
 All three FBX exports were re-imported into Blender. Mechanical pivots and exterior envelopes were checked; cab image textures are packed/embedded. Coach placement checks use simplified proxies and do not replace actual passenger-animation testing. See each folder's validation files for the scope and results.
 
-The daytime layout is static: deploying berths and opening doors are not animated. No functional driving cockpit is claimed. Some measurements and hardware remain provisional, and the detailed meshes still need game optimization, LODs, TF3 materials/metadata and editor/runtime testing. Some CPU-rendered interior views retain visible sampling noise. Reference photographs are linked in the notes and are not redistributed.
+The older source layouts are static: deploying berths and opening doors are not animated. The native conversion supplies game resources, LODs, materials and character metadata; complete cab/passenger fit remains a runtime check. Some measurements and hardware remain provisional. Some CPU-rendered interior views retain visible sampling noise. Reference photographs are linked in the notes and are not redistributed.
 
 Rebuild scripts in the v0.2 folders document their baseline input; they are separate from the v0.1 generators below. Back up edits before running either generation.
 
@@ -192,7 +205,7 @@ Rebuild scripts in the v0.2 folders document their baseline input; they are sepa
 
 Each model folder includes an editable `.blend` master, an asset-only `.fbx`, rendered previews, Python generation/validation scripts and documented measurements and limitations. Open the `.blend` file in Blender 4.3.2, the version used to create and validate these assets. Geometry uses metres, X longitudinal, Y lateral and Z up; check target-importer axis and scale handling independently.
 
-FBX exports exclude the presentation track, studio lights and cameras. Blender-to-Blender FBX re-import checks passed during asset creation. Game/Model Editor import and runtime testing have **not** been performed. Validation reports describe that original geometry validation. Repository preparation removes incidental machine-path metadata without altering geometry or preview pixels; current file hashes are in `SHA256SUMS.txt`.
+FBX exports exclude the presentation track, studio lights and cameras. Blender-to-Blender FBX re-import checks passed during asset creation. Source validation reports describe that original geometry validation. Subsequent native resource checks and representative Model Editor previews are recorded in [TF3-INSTALL.md](TF3-INSTALL.md); the new coaches await user play testing. Repository preparation removes incidental machine-path metadata without altering geometry or preview pixels; current file hashes are in `SHA256SUMS.txt`.
 
 ## Rebuild
 
@@ -210,9 +223,9 @@ Each script recreates its scene and writes outputs beside itself. Back up edits 
 
 - Small details and equipment positions remain approximate; no specific numbered vehicle or exact production revision is represented
 - Exact drawing refinement, UV/texture atlases, bilingual markings and weathering remain
-- Mesh consolidation, game polygon budgets, LODs, collision meshes and complete animation rigs remain
-- Game materials, resources, manifests and actual editor/runtime tests remain
-- The ICF screw-coupled and LHB centre-coupled designs do not assert a mechanically compatible mixed rake
+- Native mesh consolidation, four LODs, box colliders, materials, resources and metadata are implemented; close-up efficiency and distant silhouettes can improve
+- Coach door animation, dynamic couplers, working lights and full runtime passenger/curve checks remain
+- The old screw-coupled ICF source remains for reference; the active ICF/LHB families use matching CBC visual datums
 
 These models are for visualization and asset development, not manufacture or safety/clearance engineering. Each model README identifies dimensional sources, photographic references and unverified assumptions. Referenced photographs and third-party manuals are not bundled as assets; geometry and materials are procedural.
 

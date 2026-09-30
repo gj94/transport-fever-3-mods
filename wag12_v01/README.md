@@ -1,5 +1,13 @@
 # WAG12B twin-section modelling handoff v01
 
+## Current TF3 integration — pack v1.0
+
+Native conversion is included in **pack v1.0 (TF3 revision 14)** alongside fourteen ICF/LHB coaches. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. Existing locomotive/trainset geometry, gameplay, rigs and the approved private horn are retained. All vehicle store/construction PNGs use straight side views. The modelling and QA below document these original authoring files. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Original editable Indian Railways WAG12B visual source assets. Modelling only: the existing TF3 conversion agent must register these sources, map animations and metadata, build game materials/LODs and test in the game. No existing railway source, conversion tool, native game resource or release archive is changed by this handoff.
 
 Reviewed against repository main `7de48a11bd95a69e03acb16043629b40a89f35ec` (30 September 2026). Generated and checked with Blender 4.3.2.

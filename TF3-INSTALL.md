@@ -1,6 +1,7 @@
 # TF3 conversion, installation and update workflow
 
-Last documented: 30 September 2026. Source baseline: repository commit
+Last updated: 1 October 2026. Release: **Indian Rail Prototype Pack v1.0**
+(TF3 resource revision **14**). Source baseline: repository commit
 `7b6b23da96b839751c31faae5160f5a49e0424c1`.
 
 Interior update source: `e346a0e68f25af458eb9ef6ab5c69e94718b51db`.
@@ -9,15 +10,23 @@ overwriting our locally modified documentation or conversion tools.
 
 Coupling update source: `f398592b3908ef205843d1e9b2211cb0189973f4`.
 The separate `coupling_v03/` source directory supplies the corrected WAP-7
-and ICF CBC-retrofit masters. LHB still uses its interior-v02 master.
+and ICF CBC-retrofit masters. Revision 13 supersedes both conventional coach
+inputs with the family masters from upstream `51ee9f8`.
 
 Pantograph update source: `6f28461`, directory `pantograph_v04/`.
 WAP-7 now uses this master, which retains the accepted coupling-v03 geometry.
 
 The editable prototypes now have a locally generated TF3 pack containing WAP-7,
-WAG-9, paired WAG-12B, LHB AC 3-tier, ICF Sleeper and Vande Bharat 8/16-car
-trainsets. The Blender masters are unchanged. Current pack revision is **12**;
+WAG-9, paired WAG-12B, seven LHB classes, seven ICF classes and Vande Bharat
+8/16-car trainsets. The Blender masters are unchanged. Public release is **v1.0**;
 Vande Bharat source is upstream commit `644de22`; WAG sources are `6f45a50`.
+
+The v1.0 archives are ready. Their vehicle resources are identical to installed
+revision 13; only `mod.json` and `_metadata/modinfo.json` change in the native
+pack. The current play test uses revision 13. Installation of v1.0 is deferred
+until TF3 exits, and the new coach play-test result is pending. Source folder
+names such as `icf_family_v01` retain their original handoff versions.
+See [v1.0 release notes](CHANGELOG.md).
 
 For Steam installs, the pack folder belongs at:
 
@@ -30,22 +39,29 @@ a later release.
 
 ## Try it
 
-1. Start a new game and enable **Indian Rail Prototype Pack** in mod selection.
-2. Choose year **2000 or later** to make all three vehicles available.
+1. Start a new game and enable **Indian Rail Prototype Pack v1.0** in mod selection.
+2. Choose year **2000 or later** for WAP-7 and all fourteen coach classes.
 3. Build an electrified railway and a connected train depot.
-4. Buy **Indian Railways WAP-7** and add either **LHB AC 3-tier** or **ICF Sleeper** coaches.
+4. Open **Indian Railways**, buy **Indian Railways WAP-7**, and add ICF or LHB coaches from the seven classes.
 5. Assign the train to a passenger route and check departure, curves and loading.
 
-WAP-7 and LHB are available from 2000, and ICF from 1980. ICF has 80
-configured passenger places (20 at standard game scale); LHB has 88 (22 in game).
-These gameplay capacities are normalized above the 72 physical berth locators.
-The two coach families are intended as separate rakes.
+WAP-7 and every LHB class are available from 2000; every ICF class is available
+from 1980. Capacity varies by class, using the agreed doubled normalized scale:
+ICF SL has 160 configured places (40 in game), and LHB 3A has 176 (44 in game).
+Physical seating markers follow each source's layout independently of capacity.
 
 For Vande Bharat, use **2019 or later** and buy **Vande Bharat Express (8 cars)**
 or **Vande Bharat Express (16 cars)** from the electric trainset list.
 
 ## What is established so far
 
+- Revision 13 is installed in both `local/mods` and `local/staging_area`, with
+  the exact 4,942-file private build hash-verified in both places. Source masters
+  remain unchanged. The new coach play test is pending with the user.
+- ICF 1A and 2A were opened from the final installed build in Model Editor 13;
+  both reported **Validation: no errors!**, with source colours and transparent
+  saloon panes visible. The remaining per-coach editor walkthrough was stopped
+  at the user's request. Automated checks cover all fourteen classes.
 - Revision 12's Indian Railways purchase-tab appearance is user-confirmed. The
   23:19 Singapore-time `Modtest2` load on 30 September 2026 used revision 12,
   reported no missing resources and initialized the new purchase section.
@@ -56,9 +72,14 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
   and a complete sound/LOD test have not been individually confirmed.
 - The user confirmed the revision-10 WAP-7 horn works. Revision 11 applies that
   same sound set to the newly converted freight engines; their runtime check is pending.
-- Current local pack version is revision 12. The entries below also preserve
-  the earlier problems and fixes; pending checks recorded during those stages
-  should be read with the latest result above.
+- v1.0 archives use resource revision 14. The installed revision 13 is retained
+  during the user's play test; no vehicle content changes between them.
+
+### Earlier integration history
+
+The entries below record previous problems and fixes. Old capacities and source
+choices are superseded by the current coach-family table at the end of this guide.
+
 - The user confirmed the pack loads, WAP-7 appears in the vehicle manager and
   the model appears on track. Full route operation and passenger loading are
   not yet recorded as verified.
@@ -118,6 +139,10 @@ python tools/check_tf3_pack.py
 if ($LASTEXITCODE -ne 0) { throw 'Pack validation failed' }
 python tools/check_tf3_balance.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
 if ($LASTEXITCODE -ne 0) { throw 'Stock balance comparison failed' }
+python tools/check_coach_families.py
+if ($LASTEXITCODE -ne 0) { throw 'Coach seating and stock-cost check failed' }
+python tools/check_vehicle_browser.py
+if ($LASTEXITCODE -ne 0) { throw 'Indian Railways purchase-section check failed' }
 python tools/check_vb_character_fit.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
 if ($LASTEXITCODE -ne 0) { throw 'Character-height check failed' }
 python tools/check_tf3_freight.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
@@ -134,12 +159,17 @@ Native models have four LODs, consolidated meshes, palette DDS textures,
 vehicle metadata, box colliders and original axle/bogie pivots.
 
 Current inputs are listed in `tools/model_sources.py`: WAP-7 under
-`pantograph_v04/`, ICF under `coupling_v03/`, LHB under `interiors_v02/`, and seven
+`pantograph_v04/`, ICF under `icf_family_v01/`, LHB under `lhb_family_v01/`, and seven
 Vande Bharat masters under `vande_bharat_v01/cars/`, WAG-9 under `wag9_v01/` and
 both WAG-12B sections under `wag12_v01/sections/`. To rebuild only the freight
 engines, append `-- --only wag9,wag12b_a,wag12b_b` to preparation and icon rendering.
 To rebuild only Vande Bharat,
 append `-- --only vb` to the preparation and icon-rendering commands.
+To rebuild all fourteen coaches, append `-- --only coaches` to both commands.
+`tools/coach_families.py` owns class gameplay settings. The stable legacy keys
+`icf_sleeper` and `lhb_3a` map to the new SL and 3A masters. No `icf_sl` duplicate
+is registered. `tools/apply_coach_capacity.py` updates the agreed capacities on
+an existing coach build; full exports apply the same settings directly.
 Geometry comes from the root's complete descendant
 hierarchy, including interiors in separate collections. Paint, glass and textured
 instruments are consolidated separately. Instrument UVs are preserved; small
@@ -155,9 +185,12 @@ instrument meshes are protected from being reduced to empty LODs.
 | `tools/native_tf3.py` | Called by preparation; writes TF3 mesh buffers, hierarchy, materials and gameplay metadata | `.mdl`, `.msh`, `.msh.blob`, `.mtl`, intermediate TGA textures and manifests |
 | `tools/wap7_transformator.script.tl` | Retains stock train behaviour; selects the active pantograph and samples wire height | Copied runtime script, referenced by `wap7.trf.lua` |
 | `tools/compress_textures.py` | Converts TGA to DDS, writes full mip chains and changes material references | DXT1 opaque/instrument textures, DXT5 glass; corrected vertical orientation |
-| `tools/render_tf3_icons.py` | Renders only vehicle geometry; construction icons use side profiles, stock physical scale and wheel baseline | Store and small PNG renders |
+| `tools/render_tf3_icons.py` | Renders only vehicle geometry; every store/construction PNG is a straight side view; construction profiles use stock physical scale and wheel baseline | Store and small PNG renders |
 | `tools/package_tf3_icons.py` | Resizes those renders to the native vehicle UI sizes | Required TGA icon variants |
 | `tools/check_tf3_pack.py` | Checks buffers, indices, finite numbers, references, DDS headers/mips, palette diversity and icon dimensions/alpha | Console validation result |
+| `tools/coach_families.py` / `tools/check_coach_families.py` | Defines all fourteen class settings; checks source passenger transforms, capacity order, dates and the stock Lua cost formula | `game_build/coach_family_validation.json` |
+| `tools/release_metadata.py` | Writes the v1.0 release name and monotonic TF3 revision without changing vehicle resources | `mod.json` and `_metadata/modinfo.json` |
+| `tools/package_tf3_pack.py` | Verifies every ZIP entry and excludes private audio from the public package | Release ZIP and SHA-256 manifest |
 
 The mesh writer was based on the installed TF3 descriptors: attribute and index
 offsets/counts are **bytes**, with float32 attributes and uint32 triangle indices.
@@ -172,19 +205,22 @@ rather than assuming the current distant silhouette is the final visual quality.
 
 1. Save your game, then fully exit TF3. Do not force-close an unsaved game.
 2. Run the complete build sequence above. Stop if any command fails.
-3. Copy the complete `game_build/gj94_indian_rail_pack` folder into `local/mods`.
-   With the current setup, copy it into `local/staging_area` too, because that
-   development copy takes priority. Avoid leaving an older development copy active.
+3. Run `tools/install_tf3_pack.ps1 -LocalRoot '<Steam folder>\userdata\<your Steam user ID>\3493540\local' -BackupLabel v1-release`. It backs
+   up each named pack directory, replaces it with the clean build and verifies
+   every file. It synchronizes `local/mods` and `local/staging_area`, whose copy
+   takes priority, and refuses to run while TF3 is open. For manual installation,
+   replace the named mod folder completely after backing it up so old resources
+   do not remain; keep any staging copy synchronized.
 4. Start TF3 and load the test save. A restart is required to test changed resources;
    a Model Editor reload alone does not refresh the running game.
 5. When distributing a build, ZIP the entire mod folder, including `mod.json`,
    `_metadata` and `content`. Keep the stable mod ID so existing saves resolve it.
 
 The private horn ZIP is `D:\TF3Mods\Indian-Rail-Prototype-Pack-TF3-Private.zip`.
-The tracked revision-11 ZIP includes the freight engines and corrected icons
+The tracked v1.0 ZIP includes all fourteen coaches, freight engines and side-on icons
 with stock audio. `--stock-audio` removes the private audio files and replaces
 their model references inside that archive without altering the local build.
-The revision-11 local build uses seconds 2–4 of the user's `HornSample.mp4`,
+The private local build uses seconds 2–4 of the user's `HornSample.mp4`,
 converted to `D:\TF3Mods\WAP7-Horn-Preview.wav` with short edge fades.
 WAP-7, WAG-9 and both WAG-12B sections share one copy of the sound set/recording.
 The exporter automatically uses that local WAV when present; set
@@ -193,7 +229,8 @@ The exporter automatically uses that local WAV when present; set
 geometry. The recording and private package remain in ignored/local locations.
 The default horn key triggers the complete two-second sound once per press;
 the shipped handler does not accept repeated presses from a held key and does
-not have a release-to-stop callback. In-game playback remains to be checked.
+not have a release-to-stop callback. WAP-7 playback is user-confirmed; playback
+on WAG-9 and WAG-12B remains to be checked.
 Generated `game_build/` files are ignored by Git; the scripts and documentation
 are the reproducible source. Original `.blend` and FBX assets remain unchanged.
 The pre-interior rollback ZIP is
@@ -221,8 +258,10 @@ The pre-pantograph rollback ZIP is
    metadata field has not been verified in this workflow.
 6. Connect door, pantograph and light animations to game state. Geometry with a
    pivot is not sufficient to create an operating animation.
-7. Rebuild, regenerate icons and run the file checks. Load **each** model in the
-   Model Editor and inspect colours, transparency, dimensions and all LODs.
+7. Rebuild, regenerate side-on icons and run the file checks. Inspect representative
+   models in Model Editor for colours, transparency, dimensions and LODs. For
+   revision 13, the user chose to handle the remaining checks in the game after
+   ICF 1A/2A editor validation and complete automated coverage.
 8. Run the play-test checklist below and record results before calling it complete.
 
 Useful assets from the owner: editable masters, separate glass and interiors,
@@ -232,14 +271,16 @@ configuration and resource export remain integration work.
 
 ## Play-test checklist
 
-- Mod list: pack appears, map/save loads, all three vehicles are available in
-  their configured years, and vehicle-manager/store icons render.
+- Mod list: pack appears, map/save loads, all fourteen coaches and the locomotive/
+  trainset choices appear once in Indian Railways from their configured years;
+  vehicle-manager/store icons render as straight side views.
 - Exterior: colours match the source previews at close and medium distances;
   zoom through all LODs; check windows, wheels and coupling spacing.
 - Movement: buy WAP-7 with each coach family separately, leave an electrified
   depot, traverse curves and slopes, reverse and enter a station.
 - Passengers: serve a real passenger route; confirm boarding, capacity and
-  unloading. Later, check seat placement and opening doors on the platform side.
+  unloading. Check seat placement; ICF/LHB doors are static, while Vande Bharat
+  has door animations whose platform-side triggers need testing.
 - Interior: enter both driving directions; check driver, eye height, glass,
   dashboard visibility and clipping. Later, inspect passenger interiors too.
 - Sound: listen at idle, acceleration, cruise, braking, curves, departure and
@@ -259,6 +300,12 @@ plugins folder to the editor process's DLL search path. OpenAL32.dll and the
 other required libraries already ship with the game; no third-party DLL
 downloads are needed. Edit its game path if TF3 is moved.
 
+From the repository root, start it with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\open_model_editor.ps1
+```
+
 ## Validation and remaining polish
 
 WAP-7 loads with proper colours in Model Editor version 13 and reports
@@ -267,10 +314,15 @@ and DDS mip chains are checked by `check_tf3_pack.py`.
 
 The initial play test confirmed registration and appearance on track. A corrected
 build fixes evaluated-material palette mapping and adds vehicle-manager icons.
-This is an initial playable conversion, not a finished release:
-door animations, lights, verified passenger placement, weathering and
+v1.0 contains the current conversion, with pending play-test checks recorded
+above. Coach door animations, lights, verified full passenger fit, weathering and
 more efficient close-up geometry remain. The final distant LOD uses simple
 silhouettes beyond 1 km.
+
+## Integration history
+
+The following dated revisions explain previous fixes. The v1.0 release contains
+the later coach-family balance and the version update recorded at the end.
 
 ## Pantograph v04 integration (30 September 2026)
 
@@ -553,7 +605,8 @@ widths follow visible vehicle length at approximately 16 pixels/metre at @2x,
 with a common wheel baseline; regular and 20-pixel variants derive from those
 profiles. This matches the stock builder's side-view convention and avoids
 forcing unequal-length vehicles into a fixed 300-pixel perspective image.
-Larger store previews retain the stock-style perspective view.
+Revision 13 supersedes the original store previews with straight side views too,
+as requested. Store and construction PNGs are all orthographic side profiles.
 
 Validation passed: native mesh/material/texture/reference/formation/icon checks;
 1,246 Lua resource tables executed, including the horn sound set through the
@@ -658,3 +711,115 @@ and logged `[Indian Railways] Default purchase-browser section installed`.
 The user then reported "looks good", confirming the new tab's in-game appearance.
 Controller navigation, repeated reopening and each availability/depot case have
 automated coverage but have not been individually reported as tested in game.
+
+## ICF and LHB coach families (revision 13)
+
+Incoming upstream `51ee9f8` was pulled with a fast-forward from `b3ad877`.
+It supplies fourteen new coach sources and no new locomotives. All seven classes
+per family are now registered as standalone passenger coaches in the existing
+Indian Railways purchase section. The previous ICF SL and LHB 3A entries are
+replaced in place, preserving their resource IDs and avoiding duplicate choices.
+The native pack contains 25 model resources: fourteen coaches plus the eleven
+existing locomotive/trainset component resources.
+
+The user requested twice the former normalized passenger scale, retaining normal
+fares. First scale physical accommodation by 20/72 (ICF) or 22/72 (LHB), round to
+the nearest whole game passenger, then double. Metadata capacity is four times
+the resulting depot figure, following the installed game's capacity convention.
+
+| Class | ICF game passengers | LHB game passengers |
+|---|---:|---:|
+| 1A | 10 | 14 |
+| 2A | 26 | 32 |
+| 3A | 36 | 44 |
+| 2S | 60 | 62 |
+| CC | 40 | 48 |
+| SL | 40 | 48 |
+| GS | 60 | 62 |
+
+All ICF classes inherit 110 km/h, 1980, 39 t empty weight and comfort 0.5;
+all LHB classes inherit 200 km/h, 2000, 49 t and comfort 0.8. These are consistent
+family gameplay settings, rather than researched per-class tare weights or dates.
+No retirement year is imposed. Payload uses the existing 80 kg per configured
+place rule. Every class has fare factor 0.5, maintenance factor 1 and automatic
+purchase/upkeep (`price=-1`, `runningCosts=-1`). A class name does not configure
+a fare premium. TF3 exposes `priceFactor` separately from comfort and exposes a
+line cargo price factor; the effect of different coach multipliers on one mixed
+line remains untested. No premium fare was added in this revision.
+
+For a WAP-7 and twelve coaches in the composition 1 x 1A, 2 x 2A, 6 x 3A,
+3 x SL, the installed automatic cost formula gives these base values before
+company/difficulty/global modifiers:
+
+| Family | Passengers | Spacing length | Rake speed | Purchase | Annual upkeep |
+|---|---:|---:|---:|---:|---:|
+| ICF mixed rake | 398 | 287.964 m | 110 km/h | 32,054,670 | 5,342,445 |
+| LHB mixed rake | 486 | 308.400 m | 180 km/h | 45,842,262 | 7,640,377 |
+
+Every coach has four native LODs, original axle/bogie pivots, separate transparent
+saloon and toilet panes, original class interiors, source seated-root transforms,
+CBC mating planes and side-on store/construction icons. ICF's legacy slot yaw correction
+is removed: the new source markers already carry their actual facing. BERTH
+empties remain authoring references and never become seated passengers. LHB GS
+includes six boarding entrances, matching its centre-entry layout. Doors and
+couplers remain static. The approved private locomotive horn is retained;
+public packaging continues to use stock audio.
+
+Validation passes for every native mesh/texture/material/icon/formation reference,
+all fourteen class seating counts and exact source marker transforms, four axles
+and LODs per coach, capacity order, automatic Lua purchase/upkeep values, and
+fourteen introduction-year purchase-section cases in addition to the ten existing
+GUI scenarios. The resource execution check loads 2,388 Lua tables and retains
+the existing freight rig and horn checks. Reports are in
+`game_build/coach_family_validation.json`, `game_build/vehicle_browser_validation.json`
+and `game_build/vande_bharat_balance.json`. New coach boarding, curve clearance,
+full passenger anatomy and saved-consist appearance require an in-game check.
+
+Installation backs up the previous copies, replaces the pack's named directory
+and verifies the exact copied file set, so superseded geometry does not remain.
+Model Editor must use the documented launcher with both game-root and plugin
+directories in its DLL search path; starting the executable directly from an
+unprepared environment can fail to resolve its libraries.
+
+Revision-13 public archive: 4,940 individually verified files, 69,067,080 bytes,
+SHA-256 `65adfea6266b2c33c3ce830d3ff13849fdecb5a0a96b6a26b7c57f8df86b32f1`.
+Revision-13 private archive: 4,942 files, 69,243,413 bytes,
+SHA-256 `a448b0e33809448e3b28a930d13872d5bf8276ea5d3ae37b1b01f29f2a63a6ab`.
+The revision-12 rollback copies are `D:/TF3Mods/Indian-Rail-Prototype-Pack-before-coach-family-v12-*-20260930-235658.zip`.
+
+## v1.0 release (revision 14, 1 October 2026)
+
+The public release name is **Indian Rail Prototype Pack v1.0**. TF3 requires an
+integer resource revision, so this release increments it from 13 to **14**;
+`gj94_indian_rail_pack` remains the stable mod ID. `tools/pack_settings.py` owns
+the public version and native revision. `tools/release_metadata.py` writes the
+same metadata for full exports, browser updates and metadata-only release bumps.
+Source handoff folder names remain unchanged.
+
+Compared with installed revision 13, the exact native file set is unchanged:
+only `mod.json` and `_metadata/modinfo.json` differ. All 4,940 other private-build
+files, including vehicle resources, icons and the approved horn, have identical
+hashes. This version update does not require a geometry rebuild or another
+per-coach editor walkthrough.
+
+Both release archives were individually verified after packaging:
+
+| Archive | Files | Bytes | Audio |
+|---|---:|---:|---|
+| [Public v1.0](dist/Indian-Rail-Prototype-Pack-TF3.zip) | 4,940 | 69,067,125 | Stock audio |
+| Local `D:/TF3Mods/Indian-Rail-Prototype-Pack-TF3-Private.zip` | 4,942 | 69,243,458 | Approved private horn |
+
+Public SHA-256: `9648d7fb808cb49e37fd73fb1bad19355804d8398b407d9804999ae9d66df156`.
+Private SHA-256: `332a560d3e9fd3623d4178d04da47e031e91dd907aa60b0caf94447c0b6f6120`.
+The public archive contains neither the private recording nor a reference to it.
+
+The running game retains installed revision 13 for the user's play test.
+After saving and exiting TF3, install the prepared v1.0 build with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\install_tf3_pack.ps1 -LocalRoot 'C:\Program Files (x86)\Steam\userdata\312521856\3493540\local' -BackupLabel v1-release
+```
+
+This backs up and synchronizes both installed copies. It has not been run for
+revision 14 while TF3 is open. Pending coach and freight runtime checks remain
+as recorded above; v1.0 does not claim them as passed.

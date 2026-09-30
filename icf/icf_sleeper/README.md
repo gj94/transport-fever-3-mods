@@ -1,5 +1,13 @@
 # ICF conventional sleeper coach — dimensioned visual prototype
 
+## Current TF3 integration — pack v1.0
+
+This directory preserves an earlier source prototype. Pack **v1.0 (TF3 revision 14)** uses the new ICF/LHB family masters while keeping the existing ICF SL and LHB 3A resource IDs. The native pack contains seven classes per family with doubled normalized capacity, normal fares and established family speeds/years. Original geometric reports below retain their source-specific scope. See [current installation, integration and remaining checks](../../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Original Blender geometry, created with Blender 4.3.2. This is a first detailed visual baseline for review, **not a finished Transport Fever 3 mod**. No real coach serial, train number or operator route has been invented. Asset labels explicitly identify a generic 72-berth sleeper.
 
 ## Files

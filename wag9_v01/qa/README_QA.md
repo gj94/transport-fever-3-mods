@@ -1,5 +1,13 @@
 # WAG-9 validation summary
 
+## Current TF3 integration — pack v1.0
+
+The reports below document source geometry. Pack **v1.0 (TF3 revision 14)** includes native conversion with passing resource/Lua, LOD, texture, icon and economics checks. Coach seated-root transforms and introduction-year filters also pass. New coach boarding, full passenger anatomy and curve clearance await a game test. See [current installation, integration and remaining checks](../../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 The package is a modelling handoff. No native TF3 conversion, install, in-game test or performance claim is included.
 
 ## Passed source and interchange checks

@@ -1,5 +1,13 @@
 # ICF conventional coach family v0.1
 
+## Current TF3 integration — pack v1.0
+
+All seven family masters are included in **pack v1.0 (TF3 revision 14)**. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. ICF game capacities for 1A/2A/3A/2S/CC/SL/GS are 10/26/36/60/40/40/60; all use 1980 / 110 km/h. The stable icf_sleeper ID now uses the new SL master. Each class appears once in Indian Railways. Normal fares and automatic costs are retained. Native resources, four LODs, glass, exact source seated-root transforms, side-on icons and introduction-year filtering pass automated checks. The new coaches await in-game boarding, passenger anatomy and curve checks. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Seven editable, original procedural models for the Indian Railways project. These are full-size conventional ICF-derived source assets, not compact Vande Bharat cars and not TF3-native resources.
 
 ## Variants
@@ -52,7 +60,7 @@ The original conventional ICF fleet commonly used screw coupling with side buffe
 
 `BERTH_nnn_*` references describe sleeping accommodation, including folded middle berths. They remain in the Blender masters and are explicitly excluded from FBX. They are not additional passenger seats.
 
-Physical seats/berths, daytime roots and commercial game capacity are separate fields. This package leaves game capacity unset. The earlier project's ICF72 was balanced to20 passengers; a later converter should choose consistent per-class scaling and verify fares/costs rather than blindly use physical capacity or count all empties.
+Physical seats/berths, daytime roots and commercial game capacity are separate fields. The source manifests leave game capacity unset; `../tools/coach_families.py` supplies the current doubled normalized values listed above. BERTH references are excluded from seated passenger metadata. The native converter and stock Lua cost checks verify the class settings independently of physical accommodation.
 
 ### Glazing and material portability
 
@@ -71,7 +79,7 @@ Every class is checked from its saved master and then a separate, empty-scene FB
 - Fresh-FBX envelope, absence of cameras/lights and BERTH refs, alpha transparency fallback and fewer than64 materials
 - Actual solid two-coach straight joins: every near-end mesh pair is broad-phase checked, positive AABB candidates tested with Blender exact Boolean intersection; only zero-thickness buffer mating contacts remain
 
-Reports are in each `qa/` and aggregated in `qa_summary.json`. These geometric checks do not replace game editor/runtime character-limb fit, boarding, door triggers, curve clearance or coupled-rake testing. No TF3 conversion, LODs, collision proxies, animation rig, texture atlas or new playable ZIP is included. Existing original assets, tools and distribution pack were not modified.
+Reports are in each `qa/` and aggregated in `qa_summary.json`. These geometric checks do not replace game editor/runtime character-limb fit, boarding, door triggers, curve clearance or coupled-rake testing. The source handoff itself contains no native TF3 resources. The separate v1.0 build supplies native resources, four LODs, box colliders, materials, icons and an installable ZIP. Original source masters remain unchanged; coach doors and couplers remain static.
 
 ## Two-coach inspection fixture
 

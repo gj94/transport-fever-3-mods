@@ -5,7 +5,7 @@ import json
 import shutil
 import zipfile
 from pathlib import Path
-from pack_settings import REVISION
+from pack_settings import REVISION,RELEASE_NAME
 from wap7_audio import SOUND_SET_REF,STOCK_SOUND_SET
 
 
@@ -20,6 +20,7 @@ def main():
     source = root / 'game_build/gj94_indian_rail_pack'
     revision = json.loads((source / 'mod.json').read_text())['revision']
     assert revision == REVISION
+    assert json.loads((source/'_metadata/modinfo.json').read_text())['name']==RELEASE_NAME
     has_private_audio = (source / 'content/vehicle/train/wap7/sound/wap7_horn.wav').is_file()
     if has_private_audio and not (args.private or args.stock_audio):
         parser.error('The build contains a private horn; use --private locally or --stock-audio for a public release.')
@@ -57,7 +58,7 @@ def main():
         destination = args.copy_to / target.name
         shutil.copy2(target, destination)
         assert hashlib.sha256(destination.read_bytes()).hexdigest() == digest
-    print(f'Revision {revision}: {len(files)} files packaged and individually verified; {target.stat().st_size:,} bytes')
+    print(f'{RELEASE_NAME}, resource revision {revision}: {len(files)} files packaged and individually verified; {target.stat().st_size:,} bytes')
     print(f'SHA256 {digest}')
 
 

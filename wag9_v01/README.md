@@ -1,5 +1,13 @@
 # WAG-9 · original modelling handoff v01
 
+## Current TF3 integration — pack v1.0
+
+Native conversion is included in **pack v1.0 (TF3 revision 14)** alongside fourteen ICF/LHB coaches. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. Existing locomotive/trainset geometry, gameplay, rigs and the approved private horn are retained. All vehicle store/construction PNGs use straight side views. The modelling and QA below document these original authoring files. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Conventional green/yellow CLW WAG-9, representative **31034**. This is a modelling source package, not a native Transport Fever 3 mod or a dimensionally surveyed replica of one individual locomotive. Made from original geometry. No external train mesh, photographic texture, reference photo, trademark artwork file or downloaded cab asset is embedded.
 
 ## Open first

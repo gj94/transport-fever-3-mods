@@ -1,5 +1,11 @@
 # Visual QA
 
+## Current TF3 integration — pack v1.0
+
+Pack v1.0 uses the corrected WAP-7 geometry and the newer class-specific ICF/LHB family masters. Their CBC datums are preserved in native resources. The fixture below documents the older source pairing; runtime curves and dynamic clearance remain pending. See [current installation and validation](../TF3-INSTALL.md).
+
+## Original source review
+
 Reviewed final three PNG views: paired closeup, top and widened full straight overview. Both complete vehicles remain present; no body/gangway parts hidden to simulate a connection.
 
 - Matching closed heads meet on a narrow stepped seam and interleave across the datum

@@ -1,8 +1,31 @@
 # What can be modded on TF3 locomotives and coaches
 
-Research date: 30 September 2026. This guide separates capabilities verified in
+Research date: 30 September 2026; last updated: 1 October 2026. This guide separates capabilities verified in
 the installed TF3 resources from features already implemented in our pack.
 This guide is updated as subsequent integrations are installed.
+
+Current release is **v1.0**, using TF3 resource revision **14**. Installed
+revision 13 has the same vehicle content and remains active for the user's play
+test; the release metadata update will be installed after TF3 exits.
+The pack has WAP-7, WAG-9, paired WAG-12B, Vande Bharat
+8/16-car formations and fourteen conventional coaches: ICF/LHB 1A, 2A, 3A,
+2S, CC, SL and GS. The former ICF SL and LHB 3A IDs now use their new family
+masters, with one purchase entry per class. All vehicle store and construction
+PNGs are straight side views. The private horn is retained.
+
+ICF game capacities in that class order are 10/26/36/60/40/40/60; LHB capacities
+are 14/32/44/62/48/48/62. These double the previous normalized family scale.
+Every ICF class is available from 1980 at 110 km/h; every LHB class from 2000
+at 200 km/h. Fare factor remains 0.5, maintenance factor 1 and prices/upkeep
+remain automatic. TF3 supports a configurable vehicle fare factor separately
+from comfort; the class label itself supplies no premium. Different multipliers
+within one mixed rake have not been tested and are not enabled here.
+
+All fourteen conversions pass resource, exact seated-root transform, automatic
+cost and Indian Railways introduction-year filter checks. Boarding, passenger
+anatomy, curve clearance and saved-rake appearance await the new in-game test.
+The historical integration entries below describe the original three vehicles;
+their old coach source choices and counts are superseded by the families above.
 
 Subsequent v02 integration: updated interiors and instrument textures are now
 exported; WAP-7/LHB glass is separate and transparent; two locomotive crew
@@ -30,13 +53,13 @@ not been individually reported as tested.
 |---|---|---|
 | Geometry and appearance | Exterior/interior meshes, UVs, materials, glass, liveries, normal maps and LODs | Updated interiors, instrument textures, colour palettes, and separate transparent glass implemented |
 | Liveries and ageing | Native material examples include colour blending, dirt/rust masks and associated textures | Not implemented; requires intentional masks and material setup |
-| Driver and passengers | Crew seats, seated-character animations, group-relative transforms and passenger compartment seat indices | Two driver anchors and 72 passenger anchors per coach; passenger placement still needs a play test |
-| Animation | Door opening/closing, wheels/bogies, pantographs and direction-dependent visible parts | Independent pantographs implemented with wire-height sampling; stock train behaviour retained; custom door animations pending |
+| Driver and passengers | Crew seats, seated-character animations, group-relative transforms and passenger compartment seat indices | Two crew anchors per locomotive section; class-specific coach passenger roots follow source layouts; new coach roots numerically verified, complete bodies need a play test |
+| Animation | Door opening/closing, wheels/bogies, pantographs and direction-dependent visible parts | Independent pantographs implemented with wire-height sampling; Vande Bharat door tracks implemented; ICF/LHB doors and couplers static |
 | Lights | Head/tail lights and light-emitting or illuminated materials; native models have timed and direction-sensitive light setups | No complete lighting setup yet |
 | Sounds | Continuous tracks, event clips, volume/pitch curves, custom update scripts and distance settings | Private approved horn shared by WAP-7/WAG-9/WAG-12B; stock electric layers and wagon sound sets referenced |
 | Performance | Speed, empty/payload weight, engine type, power, tractive effort and friction; native train setup also includes braking | Initial prototype gameplay values; tune against intended gameplay and verified vehicle specs |
-| Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | ICF/LHB configured for 80/88 places (20/22 at standard game scale), retaining 72 physical passenger locators; boarding/unloading and seats need testing |
-| Service and economics | Purchase price/scales, running cost/scales, lifespan, maintenance factors, noise/pollution and availability dates | Basic automatic prices/costs and prototype values |
+| Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | Doubled normalized class capacities listed above; ICF SL 40 and LHB 3A 44 game passengers; physical passenger locators remain independent of commercial capacity; boarding/unloading need testing |
+| Service and economics | Purchase price/scales, running cost/scales, lifespan, maintenance factors, noise/pollution and availability dates | Normal fare factor 0.5, maintenance factor 1, automatic price/upkeep and consistent family years; all fourteen coach costs checked against stock Lua |
 | Vehicle identity and UI | Names/descriptions, filter tags, icons, release/retirement years and availability notifications | Names, dates, tags, rendered icons and a default Indian Railways purchase tab implemented; purchase-tab appearance user-confirmed in game |
 | Physical/visual fit | Colliders, bounds, wheel/axle metadata and bogie behaviour | Box colliders and original axle pivots; curve/coupling tests pending |
 
@@ -140,7 +163,7 @@ locally; accurate missing interior geometry is what the upstream update helps wi
    installed build; updated exterior, interiors, seats and pantographs are integrated.
 2. Verify both cab views and passenger placement under actual service conditions.
 3. Test the shared horn on the new freight engines, then consider a custom traction/rolling sound pass.
-4. Add working doors and direction-dependent lights; pantographs are implemented.
+4. Add working ICF/LHB doors and direction-dependent lights; pantographs and Vande Bharat door tracks are implemented.
 5. Improve close-up mesh efficiency, distant LOD appearance and weathering.
 
 ## Evidence and reproducible sources

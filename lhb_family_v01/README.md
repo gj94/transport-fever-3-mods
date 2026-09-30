@@ -1,6 +1,14 @@
 # LHB coach family v0.1
 
-Seven **new, full-length, original visual source models**, prepared against repository revision `baf66cb5c267125ce2c6e82bf03c0fc6986bf786`. They do not replace the earlier LHB prototype, alter the converter, or constitute native TF3 game files.
+## Current TF3 integration — pack v1.0
+
+All seven family masters are included in **pack v1.0 (TF3 revision 14)**. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. LHB game capacities for 1A/2A/3A/2S/CC/SL/GS are 14/32/44/62/48/48/62; all use 2000 / 200 km/h. The stable lhb_3a ID now uses the new 3A master. Each class appears once in Indian Railways. Normal fares and automatic costs are retained. Native resources, four LODs, glass, exact source seated-root transforms, side-on icons and introduction-year filtering pass automated checks. The new coaches await in-game boarding, passenger anatomy and curve checks. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
+Seven **new, full-length, original visual source models**, prepared against repository revision `baf66cb5c267125ce2c6e82bf03c0fc6986bf786`. The source files remain separate from native TF3 resources. Their subsequent v1.0 integration replaces the old game 3A model under its stable ID; the earlier source prototype is retained for reference.
 
 ![Seven LHB class exteriors](renders/LHB_family_exterior_contact_sheet.jpg)
 
@@ -53,14 +61,14 @@ Metres; X longitudinal/forward, Y lateral, Z up; railhead Z=0. Root is an identi
 
 All `PAX_*` EMPTY markers are seated **character-root** locations, +X-facing with appropriate 0/π yaw, parented to the identity `BODY_PIVOT`. Cushion top Z=1.840 m; marker Z=1.357 m, subtracting the 0.483 m stock-pose hip offset documented in repository revision 11. Lower benches carry multiple lateral roots: 1A two; 2A two; 3A/SL three; GS four. Side benches have two lengthwise-facing roots. **No PAX marker is placed on an upper or middle berth.** `BERTH_*` EMPTY markers record physical sleeping places independently; never feed these to a seated passenger provider. Mesh names that begin BERTH are geometry, so filter by EMPTY type as well as prefix.
 
-The matching physical/daytime totals are deliberate bench layouts, not game-balance settings. Conversion must configure its own payload scaling, cargo compartments, materials, LODs, bounds, animations and game metadata. Preserve the user's existing game-speed/year overrides separately from prototype measurements.
+The matching physical/daytime totals are deliberate bench layouts, not game-balance settings. The native converter configures payload scaling, cargo compartments, materials, four LODs, bounds and metadata, preserving the family speed/year overrides separately from prototype measurements. The current gameplay settings are in `../tools/coach_families.py`; doors and couplers remain static.
 
 ## Glazing
 
-Every pane is a thin closed solid in a true wall/door opening. Source Blender uses Principled Transmission Weight=.96, IOR=1.45, Alpha=1. FBX is exported with Transmission=0 and Alpha=.22 as a portable fallback and freshly imported to verify that value. Final TF3 transparent-material configuration and visual sorting still belong to conversion/runtime QA.
+Every pane is a thin closed solid in a true wall/door opening. Source Blender uses Principled Transmission Weight=.96, IOR=1.45, Alpha=1. FBX is exported with Transmission=0 and Alpha=.22 as a portable fallback and freshly imported to verify that value. Native v1.0 uses separate transparent materials; full in-game transparency sorting remains part of the pending play test.
 
 ## Verification limits
 
 These are detailed visual development models, not exact manufacturer CAD. Body, bogie, axle and coupling dimensions and class capacities are research-backed; furniture thicknesses, precise pitches, window rhythm on chair cars, equipment placement, bay fittings and livery are representative approximations. The old manual's 54-berth 2A summary is not used: its separate wider-bay layout and revised RDSO table support the selected 52-berth type. Likewise non-AC 78-berth SG and 106-seat chair variants are outside this package.
 
-Static torso/head clearance proxies are checked; complete passenger meshes, limbs, different character variants and animation have not been checked in TF3. The 0.483 m root offset is inherited from a documented stock skeleton test, not newly measured against game files here. Couplings do not articulate; roof/doors/berths are static. Roof and upper layers are hidden only in clearly named review cutaways; normal interiors are rendered in the intact model. Labels are generic English reference markings, not a specific vehicle's lettering. Exact bilingual signage, textures/weathering, game optimization, exporter registration and runtime testing remain.
+Static torso/head clearance proxies are checked; complete passenger meshes, limbs, different character variants and animation have not been checked in TF3. The 0.483 m root offset is inherited from a documented stock skeleton test, not newly measured against game files here. Couplings do not articulate; roof/doors/berths are static. Roof and upper layers are hidden only in clearly named review cutaways; normal interiors are rendered in the intact model. Labels are generic English reference markings, not a specific vehicle's lettering. Exact bilingual signage, detailed textures/weathering, further geometry optimization and runtime testing remain. Exporter registration and native LOD/material generation are complete.

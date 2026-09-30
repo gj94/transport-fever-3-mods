@@ -9,7 +9,8 @@ from mathutils import Vector
 from vande_bharat import CAPACITY,WEIGHT,SPEED as VB_SPEED,YEAR as VB_YEAR
 from freight_locomotives import SPECS as FREIGHT_SPECS
 from coach_families import SPECS as COACH_SPECS
-from pack_settings import REVISION,CACHE_VERSION
+from pack_settings import CACHE_VERSION
+from release_metadata import write_release_metadata
 
 def lua(value):
  if isinstance(value,dict): return '{'+','.join(k+'='+lua(v) for k,v in value.items())+'}'
@@ -65,8 +66,7 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  (mod/'_metadata').mkdir(parents=True,exist_ok=True)
  from vehicle_browser import write_vehicle_browser
  write_vehicle_browser(mod)
- (mod/'mod.json').write_text(json.dumps({'modId':'gj94_indian_rail_pack','revision':REVISION,'severityAdd':'None','severityRemove':'Warning','visible':True,'cosmetic':False},indent=2))
- (mod/'_metadata'/'modinfo.json').write_text(json.dumps({'name':'Indian Rail Prototype Pack','summary':'WAP-7, WAG-9, WAG-12B, LHB, ICF and Vande Bharat 8/16-car trainsets','description':'Playable original prototypes with requested gameplay speeds and years. Electric locomotives require electrified track. ICF from 1980, WAG-9 from 1995, WAP-7/LHB from 2000, twin-section WAG-12B from 2017 and Vande Bharat from 2019.','authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],'url':'https://github.com/gj94/transport-fever-3-mods'},indent=2))
+ write_release_metadata(mod)
  texdir=folder/'mat'/'tex';image.filepath_raw=str(texdir/(key+'_albedo_opacity.tga'));image.file_format='TARGA';image.save()
  for name in ('normal','metal_gloss_ao'):
   im=bpy.data.images.new(key+'_'+name,width=128,height=128);pixels=[]

@@ -1,5 +1,13 @@
 # WAP7 pantograph v04 — independently articulated
 
+## Current TF3 integration — pack v1.0
+
+Native conversion is included in **pack v1.0 (TF3 revision 14)** alongside fourteen ICF/LHB coaches. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. Existing locomotive/trainset geometry, gameplay, rigs and the approved private horn are retained. All vehicle store/construction PNGs use straight side views. The modelling and QA below document these original authoring files. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+
+## Original source handoff
+
+The following describes the original authoring files and source-only validation. Native conversion status is recorded above and in the linked installation guide.
+
 Start with **WAP7_pantograph_v04.blend**. It opens with both pantographs folded and live, independently editable drivers. The source is the accepted coupling-v03 WAP7, verified byte-for-byte against GitHub main at `f398592b3908ef205843d1e9b2211cb0189973f4`. SHA-256: `41f6584e85797ec5785177a3f44916aeb1344bcc51e5eaf2e0a3c872384ca577`.
 
 ## Controls and heights
