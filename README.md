@@ -8,7 +8,20 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 
 **These are dimensioned visual prototypes, not a working or game-tested Transport Fever 3 mod.** Detailed masters prioritize separated components and reviewable shape; they require optimization and integration before game use.
 
-## Previews
+## Interior pass v0.2 — previews in progress
+
+The interior refinement is in progress. These are actual Blender renders of the updated models, not in-game screenshots. Final source files and validation notes will follow after review. CPU previews retain some sampling noise.
+
+### WAP-7 driving cab
+![WAP-7 onboard](interiors_v02/wap7/WAP7_onboard_A.png)
+
+### LHB 3A passenger aisle
+![LHB aisle](interiors_v02/lhb/LHB_v02_passenger.png)
+
+### ICF sleeper passenger aisle
+![ICF aisle](interiors_v02/icf/passenger_aisle.png)
+
+## Exterior prototypes v0.1
 
 ### WAP-7
 ![WAP-7 preview](wap7/WAP7_prototype/WAP7_preview.png)
