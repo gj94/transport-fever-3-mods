@@ -1,0 +1,3844 @@
+{
+  "aperture_samples": [
+    {
+      "pane": "GLASS_side_lookout_0_-1",
+      "sample_centre_m": [
+        8.539999961853027,
+        -1.5149999856948853,
+        3.117000102996826
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_door_0_-1",
+      "sample_centre_m": [
+        7.40500020980835,
+        -1.5210000276565552,
+        3.0250000953674316
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_windscreen_0_-1",
+      "sample_centre_m": [
+        9.324124336242676,
+        -0.6850000023841858,
+        3.2049999237060547
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_side_lookout_0_1",
+      "sample_centre_m": [
+        8.539999961853027,
+        1.5029999017715454,
+        3.117000102996826
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_door_0_1",
+      "sample_centre_m": [
+        7.40500020980835,
+        1.5089999437332153,
+        3.0250000953674316
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_windscreen_0_1",
+      "sample_centre_m": [
+        9.324124336242676,
+        0.684999942779541,
+        3.2049999237060547
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_side_lookout_1_-1",
+      "sample_centre_m": [
+        -8.539999961853027,
+        1.514999270439148,
+        3.117000102996826
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_door_1_-1",
+      "sample_centre_m": [
+        -7.40500020980835,
+        1.5209994316101074,
+        3.0250000953674316
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_windscreen_1_-1",
+      "sample_centre_m": [
+        -9.324124336242676,
+        0.6849991679191589,
+        3.2049999237060547
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_side_lookout_1_1",
+      "sample_centre_m": [
+        -8.539999961853027,
+        -1.5030006170272827,
+        3.117000102996826
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_door_1_1",
+      "sample_centre_m": [
+        -7.40500020980835,
+        -1.509000539779663,
+        3.0250000953674316
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    },
+    {
+      "pane": "GLASS_windscreen_1_1",
+      "sample_centre_m": [
+        -9.324124336242676,
+        -0.6850007772445679,
+        3.2049999237060547
+      ],
+      "opaque_blockers": [],
+      "pass": true
+    }
+  ],
+  "scale_checks": [],
+  "failures": [],
+  "cab_forward_sightlines": [
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.800000011920929,
+        3.0999999046325684
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.800000011920929,
+        3.200000047683716
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.800000011920929,
+        3.299999952316284
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.699999988079071,
+        3.0999999046325684
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.699999988079071,
+        3.200000047683716
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.699999988079071,
+        3.299999952316284
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.6000000238418579,
+        3.0999999046325684
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.6000000238418579,
+        3.200000047683716
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 1,
+      "target_world": [
+        10.5,
+        -0.6000000238418579,
+        3.299999952316284
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.800000011920929,
+        3.0999999046325684
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.800000011920929,
+        3.200000047683716
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.800000011920929,
+        3.299999952316284
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.699999988079071,
+        3.0999999046325684
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.699999988079071,
+        3.200000047683716
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.699999988079071,
+        3.299999952316284
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.6000000238418579,
+        3.0999999046325684
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.6000000238418579,
+        3.200000047683716
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    },
+    {
+      "cab": 2,
+      "target_world": [
+        -10.5,
+        0.6000000238418579,
+        3.299999952316284
+      ],
+      "opaque_hits": [],
+      "structural_blockers": [],
+      "pass": true
+    }
+  ],
+  "non_identity_object_scales": 0,
+  "bogie_centres": [
+    [
+      6.0,
+      0.0,
+      0.0
+    ],
+    [
+      -6.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "axle_centres": [
+    {
+      "name": "AXLE_A_1_ROLL_Y",
+      "world_m": [
+        4.150000095367432,
+        0.0,
+        0.5460000038146973
+      ]
+    },
+    {
+      "name": "AXLE_A_2_ROLL_Y",
+      "world_m": [
+        6.0,
+        0.0,
+        0.5460000038146973
+      ]
+    },
+    {
+      "name": "AXLE_A_3_ROLL_Y",
+      "world_m": [
+        7.849999904632568,
+        0.0,
+        0.5460000038146973
+      ]
+    },
+    {
+      "name": "AXLE_B_1_ROLL_Y",
+      "world_m": [
+        -7.849999904632568,
+        0.0,
+        0.5460000038146973
+      ]
+    },
+    {
+      "name": "AXLE_B_2_ROLL_Y",
+      "world_m": [
+        -6.0,
+        0.0,
+        0.5460000038146973
+      ]
+    },
+    {
+      "name": "AXLE_B_3_ROLL_Y",
+      "world_m": [
+        -4.150000095367432,
+        0.0,
+        0.5460000038146973
+      ]
+    }
+  ],
+  "pantograph_101_pose_sweep": [
+    {
+      "extensions": [
+        0.0,
+        1.0
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799997313587624,
+          "upper_length_m": 1.1499999546526882,
+          "head_up": [
+            3.725290298461914e-09,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.255000591278076,
+          "moving_min_z_m": 4.077024936676025,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12802481651306152
+        },
+        "REAR": {
+          "lower_length_m": 1.379999823984884,
+          "upper_length_m": 1.1499999699385288,
+          "head_up": [
+            -2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.9170002937316895,
+          "moving_min_z_m": 4.084971904754639,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1359717845916748
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.01,
+        0.99
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001148544745,
+          "upper_length_m": 1.1499999483763836,
+          "head_up": [
+            -3.725290298461914e-09,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.273496150970459,
+          "moving_min_z_m": 4.077033996582031,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12803387641906738
+        },
+        "REAR": {
+          "lower_length_m": 1.3799997591972168,
+          "upper_length_m": 1.1500000735987788,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.9037089347839355,
+          "moving_min_z_m": 4.084828853607178,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13582873344421387
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.02,
+        0.98
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999005827963,
+          "upper_length_m": 1.1499999260043945,
+          "head_up": [
+            1.1175870895385742e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.291985511779785,
+          "moving_min_z_m": 4.07704496383667,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12804484367370605
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001263272905,
+          "upper_length_m": 1.1499997367029327,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.890323638916016,
+          "moving_min_z_m": 4.084687232971191,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13568711280822754
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.03,
+        0.97
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000775678305,
+          "upper_length_m": 1.149999949692383,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.31046724319458,
+          "moving_min_z_m": 4.077056884765625,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12805676460266113
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001479231743,
+          "upper_length_m": 1.149999944023465,
+          "head_up": [
+            2.9802322387695312e-08,
+            7.105427357601002e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.876845359802246,
+          "moving_min_z_m": 4.08454704284668,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13554692268371582
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.04,
+        0.96
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001199160097,
+          "upper_length_m": 1.149999826595822,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.328940391540527,
+          "moving_min_z_m": 4.077071189880371,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12807106971740723
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998671766605,
+          "upper_length_m": 1.1499999958535922,
+          "head_up": [
+            2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.863274097442627,
+          "moving_min_z_m": 4.084407329559326,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1354072093963623
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.05,
+        0.95
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999508607206,
+          "upper_length_m": 1.149999722125704,
+          "head_up": [
+            7.450580596923828e-09,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.347403526306152,
+          "moving_min_z_m": 4.077086448669434,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12808632850646973
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999319643226,
+          "upper_length_m": 1.1499998921933354,
+          "head_up": [
+            5.960464477539063e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.849611282348633,
+          "moving_min_z_m": 4.084269046783447,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1352689266204834
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.06,
+        0.94
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000068750502,
+          "upper_length_m": 1.149999915678861,
+          "head_up": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.365856170654297,
+          "moving_min_z_m": 4.077103137969971,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12810301780700684
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999751560956,
+          "upper_length_m": 1.1499999181084006,
+          "head_up": [
+            -5.960464477539063e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.835857391357422,
+          "moving_min_z_m": 4.084132194519043,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1351320743560791
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.07,
+        0.9299999999999999
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.379999815886423,
+          "upper_length_m": 1.1499999999028185,
+          "head_up": [
+            7.450580596923828e-09,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.3842973709106445,
+          "moving_min_z_m": 4.077121257781982,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12812113761901855
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999751560958,
+          "upper_length_m": 1.15000009951384,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.822012901306152,
+          "moving_min_z_m": 4.083996295928955,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1349961757659912
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.08,
+        0.92
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002262082467,
+          "upper_length_m": 1.14999986384873,
+          "head_up": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.402725696563721,
+          "moving_min_z_m": 4.077141284942627,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12814116477966309
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998887725484,
+          "upper_length_m": 1.1500000217686552,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.808079242706299,
+          "moving_min_z_m": 4.083860874176025,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13486075401306152
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.09,
+        0.91
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998293838533,
+          "upper_length_m": 1.1500000561870944,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.421141147613525,
+          "moving_min_z_m": 4.077162265777588,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12816214561462402
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000399437529,
+          "upper_length_m": 1.1499997107878637,
+          "head_up": [
+            -8.940696716308594e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.794056415557861,
+          "moving_min_z_m": 4.0837273597717285,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13472723960876465
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.1,
+        0.9
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999690822498,
+          "upper_length_m": 1.1499998735668797,
+          "head_up": [
+            7.450580596923828e-09,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.439541816711426,
+          "moving_min_z_m": 4.077185153961182,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12818503379821777
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000615396377,
+          "upper_length_m": 1.1499997626180014,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.779945373535156,
+          "moving_min_z_m": 4.08359432220459,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13459420204162598
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.11,
+        0.89
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.380000045342721,
+          "upper_length_m": 1.149999884094875,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.457926273345947,
+          "moving_min_z_m": 4.07720947265625,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12820935249328613
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998239848843,
+          "upper_length_m": 1.1500001513439602,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.765747547149658,
+          "moving_min_z_m": 4.083462715148926,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13446259498596191
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.12,
+        0.88
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000952832043,
+          "upper_length_m": 1.1499999853255956,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.476294994354248,
+          "moving_min_z_m": 4.077235221862793,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1282351016998291
+        },
+        "REAR": {
+          "lower_length_m": 1.380000039943753,
+          "upper_length_m": 1.1500001513439604,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -1.4210854715202004e-14,
+            1.0
+          ],
+          "strip_top_m": 5.751462936401367,
+          "moving_min_z_m": 4.083332538604736,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13433241844177246
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.13,
+        0.87
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999522104636,
+          "upper_length_m": 1.150000150534112,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.494645595550537,
+          "moving_min_z_m": 4.0772624015808105,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12826228141784668
+        },
+        "REAR": {
+          "lower_length_m": 1.379999996751982,
+          "upper_length_m": 1.1500000995138402,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.737092018127441,
+          "moving_min_z_m": 4.083203315734863,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13420319557189941
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.14,
+        0.86
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.380000045342721,
+          "upper_length_m": 1.1499997699066118,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.512977600097656,
+          "moving_min_z_m": 4.077291488647461,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12829136848449707
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998887725486,
+          "upper_length_m": 1.1499999181084009,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.7226362228393555,
+          "moving_min_z_m": 4.083075046539307,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13407492637634277
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.15,
+        0.85
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999130679186,
+          "upper_length_m": 1.150000265532183,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.531290531158447,
+          "moving_min_z_m": 4.077321529388428,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12832140922546387
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000831355226,
+          "upper_length_m": 1.1499998662782702,
+          "head_up": [
+            0.0,
+            -7.105427357601002e-15,
+            1.0
+          ],
+          "strip_top_m": 5.708096504211426,
+          "moving_min_z_m": 4.082948684692383,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13394856452941895
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.16,
+        0.84
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998577284567,
+          "upper_length_m": 1.1500001594424136,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.5495829582214355,
+          "moving_min_z_m": 4.077353000640869,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12835288047790527
+        },
+        "REAR": {
+          "lower_length_m": 1.380000104731407,
+          "upper_length_m": 1.149999982896061,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.693472862243652,
+          "moving_min_z_m": 4.082822799682617,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13382267951965332
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.17,
+        0.83
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800003017938325,
+          "upper_length_m": 1.1499997334635468,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.5678534507751465,
+          "moving_min_z_m": 4.077386379241943,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1283862590789795
+        },
+        "REAR": {
+          "lower_length_m": 1.380000255902588,
+          "upper_length_m": 1.1500000606412486,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.678767204284668,
+          "moving_min_z_m": 4.082698345184326,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1336982250213623
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.18,
+        0.8200000000000001
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799996971090303,
+          "upper_length_m": 1.1500001011335288,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.58610200881958,
+          "moving_min_z_m": 4.077421188354492,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12842106819152832
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001047314072,
+          "upper_length_m": 1.1499998533207372,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.6639790534973145,
+          "moving_min_z_m": 4.08257532119751,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1335752010345459
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.19,
+        0.81
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999778555785,
+          "upper_length_m": 1.1500000703593938,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.604327201843262,
+          "moving_min_z_m": 4.077456951141357,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12845683097839355
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999967519823,
+          "upper_length_m": 1.149999892193336,
+          "head_up": [
+            -5.960464477539063e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.649109840393066,
+          "moving_min_z_m": 4.082452774047852,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1334526538848877
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.2,
+        0.8
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998725756295,
+          "upper_length_m": 1.149999989374824,
+          "head_up": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.622527122497559,
+          "moving_min_z_m": 4.0774946212768555,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1284945011138916
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001263272912,
+          "upper_length_m": 1.1499998403632041,
+          "head_up": [
+            2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.634160041809082,
+          "moving_min_z_m": 4.082332134246826,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1333320140838623
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.21,
+        0.79
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999994514645,
+          "upper_length_m": 1.149999911629632,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.640702724456787,
+          "moving_min_z_m": 4.077533721923828,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12853360176086426
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000615396384,
+          "upper_length_m": 1.1500002420466653,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 5.619131088256836,
+          "moving_min_z_m": 4.082212448120117,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13321232795715332
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.22,
+        0.78
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001344257442,
+          "upper_length_m": 1.1499996735349483,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.658851623535156,
+          "moving_min_z_m": 4.077574729919434,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12857460975646973
+        },
+        "REAR": {
+          "lower_length_m": 1.3800003638819927,
+          "upper_length_m": 1.1500000347261867,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.604023456573486,
+          "moving_min_z_m": 4.082093715667725,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13309359550476074
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.23,
+        0.77
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001182288313,
+          "upper_length_m": 1.150000198315002,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.676973342895508,
+          "moving_min_z_m": 4.077616214752197,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1286160945892334
+        },
+        "REAR": {
+          "lower_length_m": 1.3799996512177657,
+          "upper_length_m": 1.1500001513439606,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.588837146759033,
+          "moving_min_z_m": 4.081976890563965,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13297677040100098
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.24,
+        0.76
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999670576355,
+          "upper_length_m": 1.1499998306450512,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.695066452026367,
+          "moving_min_z_m": 4.077660083770752,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12865996360778809
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998455807732,
+          "upper_length_m": 1.1500000995138404,
+          "head_up": [
+            -5.960464477539063e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.573574542999268,
+          "moving_min_z_m": 4.081860542297363,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13286042213439941
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.25,
+        0.75
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998752751155,
+          "upper_length_m": 1.15000010275322,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.713130474090576,
+          "moving_min_z_m": 4.077704906463623,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12870478630065918
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001695190582,
+          "upper_length_m": 1.150000280919251,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 5.5582356452941895,
+          "moving_min_z_m": 4.0817461013793945,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13274598121643066
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.26,
+        0.74
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.379999929264834,
+          "upper_length_m": 1.1499998436025844,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.731164455413818,
+          "moving_min_z_m": 4.077751159667969,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12875103950500488
+        },
+        "REAR": {
+          "lower_length_m": 1.379999823984885,
+          "upper_length_m": 1.1500001513439608,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.542820930480957,
+          "moving_min_z_m": 4.081632137298584,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13263201713562012
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.27,
+        0.73
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999697571212,
+          "upper_length_m": 1.149999892193333,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.749167442321777,
+          "moving_min_z_m": 4.077799320220947,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1287992000579834
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000615396384,
+          "upper_length_m": 1.1499999828960614,
+          "head_up": [
+            -5.960464477539063e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.527331829071045,
+          "moving_min_z_m": 4.081520080566406,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13251996040344238
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.28,
+        0.72
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001128298602,
+          "upper_length_m": 1.1500000800775416,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.76713752746582,
+          "moving_min_z_m": 4.077848434448242,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12884831428527832
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998023889963,
+          "upper_length_m": 1.149999775575536,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.511768341064453,
+          "moving_min_z_m": 4.081408977508545,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13240885734558105
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.29,
+        0.71
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.380000045342721,
+          "upper_length_m": 1.1500000476837149,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.7850751876831055,
+          "moving_min_z_m": 4.07789945602417,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12889933586120605
+        },
+        "REAR": {
+          "lower_length_m": 1.379999888772549,
+          "upper_length_m": 1.150000047683718,
+          "head_up": [
+            -5.960464477539063e-08,
+            -7.105427357601002e-15,
+            1.0
+          ],
+          "strip_top_m": 5.4961323738098145,
+          "moving_min_z_m": 4.081299304962158,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13229918479919434
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.3,
+        0.7
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000183478645,
+          "upper_length_m": 1.1499998986720994,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.802978515625,
+          "moving_min_z_m": 4.077951431274414,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1289513111114502
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999535602103,
+          "upper_length_m": 1.1499999958535931,
+          "head_up": [
+            -5.960464477539063e-08,
+            -7.105427357601002e-15,
+            1.0
+          ],
+          "strip_top_m": 5.480423927307129,
+          "moving_min_z_m": 4.081191062927246,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13219094276428223
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.31,
+        0.69
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001479231714,
+          "upper_length_m": 1.1499997205060122,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.8208465576171875,
+          "moving_min_z_m": 4.078005313873291,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12900519371032715
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000399437535,
+          "upper_length_m": 1.1499998792358035,
+          "head_up": [
+            5.960464477539063e-08,
+            7.105427357601002e-15,
+            1.0
+          ],
+          "strip_top_m": 5.464644432067871,
+          "moving_min_z_m": 4.08108377456665,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13208365440368652
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.32,
+        0.6799999999999999
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002073118496,
+          "upper_length_m": 1.1499998274056678,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.838679313659668,
+          "moving_min_z_m": 4.078060150146484,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1290600299835205
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002127108242,
+          "upper_length_m": 1.149999905150869,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.448794364929199,
+          "moving_min_z_m": 4.080977916717529,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13197779655456543
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.33,
+        0.6699999999999999
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002451046436,
+          "upper_length_m": 1.1500000476837149,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.856474876403809,
+          "moving_min_z_m": 4.0781168937683105,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12911677360534668
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001479231754,
+          "upper_length_m": 1.14999996993853,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.432875156402588,
+          "moving_min_z_m": 4.080873012542725,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13187289237976074
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.34,
+        0.6599999999999999
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002235087614,
+          "upper_length_m": 1.149999762617999,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.874232292175293,
+          "moving_min_z_m": 4.078175067901611,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12917494773864746
+        },
+        "REAR": {
+          "lower_length_m": 1.380000201912883,
+          "upper_length_m": 1.1500000347261872,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.416886806488037,
+          "moving_min_z_m": 4.0807695388793945,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13176941871643066
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.35,
+        0.65
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998671766576,
+          "upper_length_m": 1.1499997917724505,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.891950607299805,
+          "moving_min_z_m": 4.078234672546387,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12923455238342285
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002127108242,
+          "upper_length_m": 1.14999996993853,
+          "head_up": [
+            -8.940696716308594e-08,
+            -3.552713678800501e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.400830268859863,
+          "moving_min_z_m": 4.080667972564697,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1316678524017334
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.36,
+        0.64
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001371252295,
+          "upper_length_m": 1.1500001254288978,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.909629821777344,
+          "moving_min_z_m": 4.078295707702637,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12929558753967285
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000399437538,
+          "upper_length_m": 1.14999996993853,
+          "head_up": [
+            2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.384706497192383,
+          "moving_min_z_m": 4.080566883087158,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13156676292419434
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.37,
+        0.63
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998293838533,
+          "upper_length_m": 1.1499999505022287,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.927267551422119,
+          "moving_min_z_m": 4.078357696533203,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12935757637023926
+        },
+        "REAR": {
+          "lower_length_m": 1.3799997052074933,
+          "upper_length_m": 1.1500000735987799,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -3.552713678800501e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.3685173988342285,
+          "moving_min_z_m": 4.080467224121094,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13146710395812988
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.38,
+        0.62
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.380000277498466,
+          "upper_length_m": 1.149999859799501,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.944864273071289,
+          "moving_min_z_m": 4.078421592712402,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12942147254943848
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000939334658,
+          "upper_length_m": 1.150000112471371,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.352262496948242,
+          "moving_min_z_m": 4.080369472503662,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13136935234069824
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.39,
+        0.61
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002828974365,
+          "upper_length_m": 1.1500001254288978,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.962418556213379,
+          "moving_min_z_m": 4.078486919403076,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1294867992401123
+        },
+        "REAR": {
+          "lower_length_m": 1.3799997268033835,
+          "upper_length_m": 1.1500000735987799,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -3.552713678800501e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.335943222045898,
+          "moving_min_z_m": 4.080272674560547,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.131272554397583
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.4,
+        0.6
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001965139084,
+          "upper_length_m": 1.1499998857145668,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.979928493499756,
+          "moving_min_z_m": 4.078553199768066,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12955307960510254
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998671766618,
+          "upper_length_m": 1.1500000088111249,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.319560527801514,
+          "moving_min_z_m": 4.080177307128906,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13117718696594238
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.41,
+        0.5900000000000001
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002235087614,
+          "upper_length_m": 1.149999658957721,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.99739408493042,
+          "moving_min_z_m": 4.078620910644531,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12962079048156738
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000939334658,
+          "upper_length_m": 1.1500000735987799,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.303114891052246,
+          "moving_min_z_m": 4.08008337020874,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13108325004577637
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.42,
+        0.5800000000000001
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998671766576,
+          "upper_length_m": 1.1499999569809947,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.014814853668213,
+          "moving_min_z_m": 4.078690528869629,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12969040870666504
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998671766618,
+          "upper_length_m": 1.1499996460001891,
+          "head_up": [
+            -8.940696716308594e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.286607265472412,
+          "moving_min_z_m": 4.079990386962891,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13099026679992676
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.43,
+        0.5700000000000001
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001803169961,
+          "upper_length_m": 1.1499997043090937,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.032188415527344,
+          "moving_min_z_m": 4.078761577606201,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1297614574432373
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999211663805,
+          "upper_length_m": 1.1499998533207378,
+          "head_up": [
+            5.960464477539063e-08,
+            3.552713678800501e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.270039081573486,
+          "moving_min_z_m": 4.079898834228516,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13089871406555176
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.44,
+        0.56
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799997861920759,
+          "upper_length_m": 1.1500000800775416,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.049515247344971,
+          "moving_min_z_m": 4.07883358001709,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12983345985412598
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999211663805,
+          "upper_length_m": 1.1499996200851181,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.253410816192627,
+          "moving_min_z_m": 4.079808712005615,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13080859184265137
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.45,
+        0.55
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.379999791591048,
+          "upper_length_m": 1.149999892193333,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.066793918609619,
+          "moving_min_z_m": 4.078907489776611,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12990736961364746
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000291458114,
+          "upper_length_m": 1.1499999569809982,
+          "head_up": [
+            -2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.23672342300415,
+          "moving_min_z_m": 4.0797200202941895,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13071990013122559
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.46,
+        0.54
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999967519787,
+          "upper_length_m": 1.1500001059926026,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.0840229988098145,
+          "moving_min_z_m": 4.078982353210449,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12998223304748535
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000399437542,
+          "upper_length_m": 1.150000041204953,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.219977378845215,
+          "moving_min_z_m": 4.07963228225708,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1306321620941162
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.47,
+        0.53
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001479231714,
+          "upper_length_m": 1.1500001902165462,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.101202487945557,
+          "moving_min_z_m": 4.07905912399292,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13005900382995605
+        },
+        "REAR": {
+          "lower_length_m": 1.379999910368437,
+          "upper_length_m": 1.1499998209269047,
+          "head_up": [
+            8.940696716308594e-08,
+            7.105427357601002e-15,
+            1.0
+          ],
+          "strip_top_m": 5.203174591064453,
+          "moving_min_z_m": 4.0795464515686035,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13054633140563965
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.48,
+        0.52
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001263272876,
+          "upper_length_m": 1.149999911629632,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.118330478668213,
+          "moving_min_z_m": 4.079136848449707,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13013672828674316
+        },
+        "REAR": {
+          "lower_length_m": 1.380000288296411,
+          "upper_length_m": 1.1499999699385302,
+          "head_up": [
+            2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.186315059661865,
+          "moving_min_z_m": 4.079461574554443,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1304614543914795
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.49,
+        0.51
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998131869369,
+          "upper_length_m": 1.1499997885330668,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.135406970977783,
+          "moving_min_z_m": 4.079216003417969,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13021588325500488
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998779746059,
+          "upper_length_m": 1.1499998274056715,
+          "head_up": [
+            2.9802322387695312e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.169400215148926,
+          "moving_min_z_m": 4.079378128051758,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13037800788879395
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.5,
+        0.5
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001695190547,
+          "upper_length_m": 1.15000020965284,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.152430534362793,
+          "moving_min_z_m": 4.079296112060547,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.130295991897583
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001695190591,
+          "upper_length_m": 1.1500002096528439,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.152430534362793,
+          "moving_min_z_m": 4.079296112060547,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.130295991897583
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.51,
+        0.49
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998779746014,
+          "upper_length_m": 1.1499998274056678,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.169400215148926,
+          "moving_min_z_m": 4.079378128051758,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13037800788879395
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998131869415,
+          "upper_length_m": 1.1499997885330706,
+          "head_up": [
+            5.960464477539063e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.135406970977783,
+          "moving_min_z_m": 4.079216003417969,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13021588325500488
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.52,
+        0.48
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002882964069,
+          "upper_length_m": 1.1499999699385266,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.186315059661865,
+          "moving_min_z_m": 4.079461574554443,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1304614543914795
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001263272923,
+          "upper_length_m": 1.1499999116296358,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.118330478668213,
+          "moving_min_z_m": 4.079136848449707,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13013672828674316
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.53,
+        0.47
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999103684326,
+          "upper_length_m": 1.1499998209269011,
+          "head_up": [
+            -8.940696716308594e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.203174591064453,
+          "moving_min_z_m": 4.0795464515686035,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13054633140563965
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001479231758,
+          "upper_length_m": 1.15000019021655,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.101202487945557,
+          "moving_min_z_m": 4.07905912399292,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13005900382995605
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.54,
+        0.45999999999999996
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000399437498,
+          "upper_length_m": 1.1500000412049494,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.219977378845215,
+          "moving_min_z_m": 4.07963228225708,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1306321620941162
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999967519834,
+          "upper_length_m": 1.1500001059926064,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.0840229988098145,
+          "moving_min_z_m": 4.078982353210449,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12998223304748535
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.55,
+        0.44999999999999996
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000291458072,
+          "upper_length_m": 1.1499999569809947,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.23672342300415,
+          "moving_min_z_m": 4.0797200202941895,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13071990013122559
+        },
+        "REAR": {
+          "lower_length_m": 1.3799997915910527,
+          "upper_length_m": 1.149999892193337,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.066793918609619,
+          "moving_min_z_m": 4.078907489776611,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12990736961364746
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.56,
+        0.43999999999999995
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999211663763,
+          "upper_length_m": 1.1499996200851144,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.253410816192627,
+          "moving_min_z_m": 4.079808712005615,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13080859184265137
+        },
+        "REAR": {
+          "lower_length_m": 1.3799997861920803,
+          "upper_length_m": 1.1500000800775456,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.049515247344971,
+          "moving_min_z_m": 4.07883358001709,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12983345985412598
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.57,
+        0.43000000000000005
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999211663763,
+          "upper_length_m": 1.1499998533207343,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.270039081573486,
+          "moving_min_z_m": 4.079898834228516,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13089871406555176
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001803170008,
+          "upper_length_m": 1.1499997043090977,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 5.032188415527344,
+          "moving_min_z_m": 4.078761577606201,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1297614574432373
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.58,
+        0.42000000000000004
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998671766576,
+          "upper_length_m": 1.1499996460001858,
+          "head_up": [
+            8.940696716308594e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.286607265472412,
+          "moving_min_z_m": 4.079990386962891,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13099026679992676
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998671766622,
+          "upper_length_m": 1.1499999569809987,
+          "head_up": [
+            -5.960464477539063e-08,
+            -5.329070518200751e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.014814853668213,
+          "moving_min_z_m": 4.078690528869629,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12969040870666504
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.59,
+        0.41000000000000003
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000939334616,
+          "upper_length_m": 1.1500000735987763,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.303114891052246,
+          "moving_min_z_m": 4.08008337020874,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13108325004577637
+        },
+        "REAR": {
+          "lower_length_m": 1.380000223508766,
+          "upper_length_m": 1.1499996589577248,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.99739408493042,
+          "moving_min_z_m": 4.078620910644531,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12962079048156738
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.6,
+        0.4
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998671766576,
+          "upper_length_m": 1.1500000088111213,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.319560527801514,
+          "moving_min_z_m": 4.080177307128906,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13117718696594238
+        },
+        "REAR": {
+          "lower_length_m": 1.380000196513913,
+          "upper_length_m": 1.1499998857145708,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.979928493499756,
+          "moving_min_z_m": 4.078553199768066,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12955307960510254
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.61,
+        0.39
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799997268033795,
+          "upper_length_m": 1.1500000735987763,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.335943222045898,
+          "moving_min_z_m": 4.080272674560547,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.131272554397583
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002828974411,
+          "upper_length_m": 1.1500001254289018,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -7.105427357601002e-15,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.962418556213379,
+          "moving_min_z_m": 4.078486919403076,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1294867992401123
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.62,
+        0.38
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000939334616,
+          "upper_length_m": 1.1500001124713677,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.352262496948242,
+          "moving_min_z_m": 4.080369472503662,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13136935234069824
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002774984708,
+          "upper_length_m": 1.149999859799505,
+          "head_up": [
+            0.0,
+            -1.7763568394002505e-15,
+            1.0
+          ],
+          "strip_top_m": 4.944864273071289,
+          "moving_min_z_m": 4.078421592712402,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12942147254943848
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.63,
+        0.37
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.379999705207489,
+          "upper_length_m": 1.1500000735987763,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.3685173988342285,
+          "moving_min_z_m": 4.080467224121094,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13146710395812988
+        },
+        "REAR": {
+          "lower_length_m": 1.379999829383858,
+          "upper_length_m": 1.1499999505022327,
+          "head_up": [
+            0.0,
+            -1.7763568394002505e-15,
+            1.0
+          ],
+          "strip_top_m": 4.927267551422119,
+          "moving_min_z_m": 4.078357696533203,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12935757637023926
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.64,
+        0.36
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000399437498,
+          "upper_length_m": 1.1499999699385266,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.384706497192383,
+          "moving_min_z_m": 4.080566883087158,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13156676292419434
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001371252344,
+          "upper_length_m": 1.1500001254289018,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.909629821777344,
+          "moving_min_z_m": 4.078295707702637,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12929558753967285
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.65,
+        0.35
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002127108202,
+          "upper_length_m": 1.1499999699385266,
+          "head_up": [
+            8.940696716308594e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.400830268859863,
+          "moving_min_z_m": 4.080667972564697,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1316678524017334
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998671766625,
+          "upper_length_m": 1.1499997917724545,
+          "head_up": [
+            0.0,
+            -1.7763568394002505e-15,
+            1.0
+          ],
+          "strip_top_m": 4.891950607299805,
+          "moving_min_z_m": 4.078234672546387,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12923455238342285
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.66,
+        0.33999999999999997
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.380000201912879,
+          "upper_length_m": 1.1500000347261838,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.416886806488037,
+          "moving_min_z_m": 4.0807695388793945,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13176941871643066
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002235087663,
+          "upper_length_m": 1.149999762618003,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.874232292175293,
+          "moving_min_z_m": 4.078175067901611,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12917494773864746
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.67,
+        0.32999999999999996
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001479231714,
+          "upper_length_m": 1.1499999699385266,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.432875156402588,
+          "moving_min_z_m": 4.080873012542725,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13187289237976074
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002451046485,
+          "upper_length_m": 1.1500000476837189,
+          "head_up": [
+            2.9802322387695312e-08,
+            7.105427357601002e-15,
+            1.0
+          ],
+          "strip_top_m": 4.856474876403809,
+          "moving_min_z_m": 4.0781168937683105,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12911677360534668
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.68,
+        0.31999999999999995
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002127108202,
+          "upper_length_m": 1.1499999051508658,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.448794364929199,
+          "moving_min_z_m": 4.080977916717529,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13197779655456543
+        },
+        "REAR": {
+          "lower_length_m": 1.3800002073118545,
+          "upper_length_m": 1.149999827405672,
+          "head_up": [
+            2.9802322387695312e-08,
+            3.552713678800501e-15,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.838679313659668,
+          "moving_min_z_m": 4.078060150146484,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1290600299835205
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.69,
+        0.31000000000000005
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000399437498,
+          "upper_length_m": 1.1499998792358004,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.464644432067871,
+          "moving_min_z_m": 4.08108377456665,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13208365440368652
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001479231763,
+          "upper_length_m": 1.1499997205060162,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.8208465576171875,
+          "moving_min_z_m": 4.078005313873291,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12900519371032715
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.7,
+        0.30000000000000004
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999535602063,
+          "upper_length_m": 1.14999999585359,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.480423927307129,
+          "moving_min_z_m": 4.081191062927246,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13219094276428223
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000183478693,
+          "upper_length_m": 1.1499998986721034,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.802978515625,
+          "moving_min_z_m": 4.077951431274414,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1289513111114502
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.71,
+        0.29000000000000004
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998887725453,
+          "upper_length_m": 1.1500000476837149,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.4961323738098145,
+          "moving_min_z_m": 4.081299304962158,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13229918479919434
+        },
+        "REAR": {
+          "lower_length_m": 1.380000045342726,
+          "upper_length_m": 1.1500000476837189,
+          "head_up": [
+            0.0,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.7850751876831055,
+          "moving_min_z_m": 4.07789945602417,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12889933586120605
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.72,
+        0.28
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998023889926,
+          "upper_length_m": 1.149999775575533,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.511768341064453,
+          "moving_min_z_m": 4.081408977508545,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13240885734558105
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001128298653,
+          "upper_length_m": 1.1500000800775458,
+          "head_up": [
+            0.0,
+            -1.7763568394002505e-15,
+            1.0
+          ],
+          "strip_top_m": 4.76713752746582,
+          "moving_min_z_m": 4.077848434448242,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12884831428527832
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.73,
+        0.27
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000615396348,
+          "upper_length_m": 1.1499999828960583,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.527331829071045,
+          "moving_min_z_m": 4.081520080566406,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13251996040344238
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999697571261,
+          "upper_length_m": 1.1499998921933372,
+          "head_up": [
+            -1.4901161193847656e-08,
+            -1.7763568394002505e-15,
+            1.0
+          ],
+          "strip_top_m": 4.749167442321777,
+          "moving_min_z_m": 4.077799320220947,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1287992000579834
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.74,
+        0.26
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998239848812,
+          "upper_length_m": 1.1500001513439577,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.542820930480957,
+          "moving_min_z_m": 4.081632137298584,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13263201713562012
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999292648388,
+          "upper_length_m": 1.1499998436025887,
+          "head_up": [
+            2.9802322387695312e-08,
+            1.7763568394002505e-15,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.731164455413818,
+          "moving_min_z_m": 4.077751159667969,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12875103950500488
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.75,
+        0.25
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001695190547,
+          "upper_length_m": 1.150000280919248,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 5.5582356452941895,
+          "moving_min_z_m": 4.0817461013793945,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13274598121643066
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998752751206,
+          "upper_length_m": 1.150000102753224,
+          "head_up": [
+            -1.4901161193847656e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.713130474090576,
+          "moving_min_z_m": 4.077704906463623,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12870478630065918
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.76,
+        0.24
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998455807696,
+          "upper_length_m": 1.1500000995138373,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.573574542999268,
+          "moving_min_z_m": 4.081860542297363,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13286042213439941
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999670576404,
+          "upper_length_m": 1.1499998306450554,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.695066452026367,
+          "moving_min_z_m": 4.077660083770752,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12865996360778809
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.77,
+        0.22999999999999998
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799996512177621,
+          "upper_length_m": 1.1500001513439577,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.588837146759033,
+          "moving_min_z_m": 4.081976890563965,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13297677040100098
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001182288364,
+          "upper_length_m": 1.1500001983150063,
+          "head_up": [
+            0.0,
+            1.7763568394002505e-15,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.676973342895508,
+          "moving_min_z_m": 4.077616214752197,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1286160945892334
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.78,
+        0.21999999999999997
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.380000363881989,
+          "upper_length_m": 1.1500000347261838,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.604023456573486,
+          "moving_min_z_m": 4.082093715667725,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13309359550476074
+        },
+        "REAR": {
+          "lower_length_m": 1.380000134425749,
+          "upper_length_m": 1.1499996735349525,
+          "head_up": [
+            1.4901161193847656e-08,
+            3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.658851623535156,
+          "moving_min_z_m": 4.077574729919434,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12857460975646973
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.79,
+        0.20999999999999996
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000615396348,
+          "upper_length_m": 1.1500002420466624,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 5.619131088256836,
+          "moving_min_z_m": 4.082212448120117,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13321232795715332
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999994514696,
+          "upper_length_m": 1.1499999116296362,
+          "head_up": [
+            -1.4901161193847656e-08,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.640702724456787,
+          "moving_min_z_m": 4.077533721923828,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12853360176086426
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.8,
+        0.19999999999999996
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001263272876,
+          "upper_length_m": 1.1499998403632012,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.634160041809082,
+          "moving_min_z_m": 4.082332134246826,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1333320140838623
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998725756346,
+          "upper_length_m": 1.1499999893748285,
+          "head_up": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.622527122497559,
+          "moving_min_z_m": 4.0774946212768555,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1284945011138916
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.81,
+        0.18999999999999995
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999967519787,
+          "upper_length_m": 1.149999892193333,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.649109840393066,
+          "moving_min_z_m": 4.082452774047852,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1334526538848877
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999778555836,
+          "upper_length_m": 1.150000070359398,
+          "head_up": [
+            0.0,
+            -3.552713678800501e-15,
+            1.0
+          ],
+          "strip_top_m": 4.604327201843262,
+          "moving_min_z_m": 4.077456951141357,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12845683097839355
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.82,
+        0.18000000000000005
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001047314037,
+          "upper_length_m": 1.1499998533207343,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.6639790534973145,
+          "moving_min_z_m": 4.08257532119751,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1335752010345459
+        },
+        "REAR": {
+          "lower_length_m": 1.3799996971090354,
+          "upper_length_m": 1.150000101133533,
+          "head_up": [
+            1.4901161193847656e-08,
+            1.7763568394002505e-15,
+            1.0
+          ],
+          "strip_top_m": 4.58610200881958,
+          "moving_min_z_m": 4.077421188354492,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12842106819152832
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.83,
+        0.17000000000000004
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800002559025846,
+          "upper_length_m": 1.1500000606412457,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.678767204284668,
+          "moving_min_z_m": 4.082698345184326,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1336982250213623
+        },
+        "REAR": {
+          "lower_length_m": 1.3800003017938376,
+          "upper_length_m": 1.149999733463551,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.5678534507751465,
+          "moving_min_z_m": 4.077386379241943,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1283862590789795
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.84,
+        0.16000000000000003
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001047314037,
+          "upper_length_m": 1.1499999828960583,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.693472862243652,
+          "moving_min_z_m": 4.082822799682617,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13382267951965332
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998577284618,
+          "upper_length_m": 1.150000159442418,
+          "head_up": [
+            1.4901161193847656e-08,
+            8.881784197001252e-16,
+            1.0
+          ],
+          "strip_top_m": 4.5495829582214355,
+          "moving_min_z_m": 4.077353000640869,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12835288047790527
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.85,
+        0.15000000000000002
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000831355195,
+          "upper_length_m": 1.1499998662782673,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.708096504211426,
+          "moving_min_z_m": 4.082948684692383,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13394856452941895
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999130679237,
+          "upper_length_m": 1.1500002655321873,
+          "head_up": [
+            1.4901161193847656e-08,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.531290531158447,
+          "moving_min_z_m": 4.077321529388428,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12832140922546387
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.86,
+        0.14
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998887725453,
+          "upper_length_m": 1.1499999181083982,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.7226362228393555,
+          "moving_min_z_m": 4.083075046539307,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13407492637634277
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000453427261,
+          "upper_length_m": 1.1499997699066162,
+          "head_up": [
+            -2.9802322387695312e-08,
+            -8.881784197001252e-16,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.512977600097656,
+          "moving_min_z_m": 4.077291488647461,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12829136848449707
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.87,
+        0.13
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999967519787,
+          "upper_length_m": 1.1500000995138373,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.737092018127441,
+          "moving_min_z_m": 4.083203315734863,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13420319557189941
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999522104687,
+          "upper_length_m": 1.1500001505341164,
+          "head_up": [
+            1.4901161193847656e-08,
+            8.881784197001252e-16,
+            1.0
+          ],
+          "strip_top_m": 4.494645595550537,
+          "moving_min_z_m": 4.0772624015808105,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12826228141784668
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.88,
+        0.12
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000399437498,
+          "upper_length_m": 1.1500001513439577,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.751462936401367,
+          "moving_min_z_m": 4.083332538604736,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13433241844177246
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000952832094,
+          "upper_length_m": 1.1499999853255998,
+          "head_up": [
+            -1.4901161193847656e-08,
+            -8.881784197001252e-16,
+            1.0
+          ],
+          "strip_top_m": 4.476294994354248,
+          "moving_min_z_m": 4.077235221862793,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1282351016998291
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.89,
+        0.10999999999999999
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998239848812,
+          "upper_length_m": 1.1500001513439577,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.765747547149658,
+          "moving_min_z_m": 4.083462715148926,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13446259498596191
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000453427264,
+          "upper_length_m": 1.1499998840948795,
+          "head_up": [
+            0.0,
+            -8.881784197001252e-16,
+            1.0
+          ],
+          "strip_top_m": 4.457926273345947,
+          "moving_min_z_m": 4.07720947265625,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12820935249328613
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.9,
+        0.09999999999999998
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000615396348,
+          "upper_length_m": 1.149999762617999,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.779945373535156,
+          "moving_min_z_m": 4.08359432220459,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13459420204162598
+        },
+        "REAR": {
+          "lower_length_m": 1.379999969082255,
+          "upper_length_m": 1.1499998735668842,
+          "head_up": [
+            -7.450580596923828e-09,
+            -8.881784197001252e-16,
+            1.0
+          ],
+          "strip_top_m": 4.439541816711426,
+          "moving_min_z_m": 4.077185153961182,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12818503379821777
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.91,
+        0.08999999999999997
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800000399437498,
+          "upper_length_m": 1.1499997107878612,
+          "head_up": [
+            8.940696716308594e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.794056415557861,
+          "moving_min_z_m": 4.0837273597717285,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13472723960876465
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998293838587,
+          "upper_length_m": 1.1500000561870989,
+          "head_up": [
+            -1.4901161193847656e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.421141147613525,
+          "moving_min_z_m": 4.077162265777588,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12816214561462402
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.92,
+        0.07999999999999996
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998887725453,
+          "upper_length_m": 1.1500000217686526,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.808079242706299,
+          "moving_min_z_m": 4.083860874176025,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13486075401306152
+        },
+        "REAR": {
+          "lower_length_m": 1.380000226208252,
+          "upper_length_m": 1.1499998638487343,
+          "head_up": [
+            0.0,
+            8.881784197001252e-16,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.402725696563721,
+          "moving_min_z_m": 4.077141284942627,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12814116477966309
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.93,
+        0.06999999999999995
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999751560927,
+          "upper_length_m": 1.1500000995138373,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.822012901306152,
+          "moving_min_z_m": 4.083996295928955,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1349961757659912
+        },
+        "REAR": {
+          "lower_length_m": 1.3799998158864282,
+          "upper_length_m": 1.1499999999028228,
+          "head_up": [
+            -7.450580596923828e-09,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.3842973709106445,
+          "moving_min_z_m": 4.077121257781982,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12812113761901855
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.94,
+        0.06000000000000005
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999751560927,
+          "upper_length_m": 1.1499999181083982,
+          "head_up": [
+            5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.835857391357422,
+          "moving_min_z_m": 4.084132194519043,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1351320743560791
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000068750555,
+          "upper_length_m": 1.1499999156788652,
+          "head_up": [
+            0.0,
+            8.881784197001252e-16,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.365856170654297,
+          "moving_min_z_m": 4.077103137969971,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12810301780700684
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.95,
+        0.050000000000000044
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799999319643197,
+          "upper_length_m": 1.149999892193333,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.849611282348633,
+          "moving_min_z_m": 4.084269046783447,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1352689266204834
+        },
+        "REAR": {
+          "lower_length_m": 1.379999950860726,
+          "upper_length_m": 1.1499997221257083,
+          "head_up": [
+            -7.450580596923828e-09,
+            -4.440892098500626e-16,
+            1.0
+          ],
+          "strip_top_m": 4.347403526306152,
+          "moving_min_z_m": 4.077086448669434,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12808632850646973
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.96,
+        0.040000000000000036
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998671766576,
+          "upper_length_m": 1.14999999585359,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.863274097442627,
+          "moving_min_z_m": 4.084407329559326,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1354072093963623
+        },
+        "REAR": {
+          "lower_length_m": 1.380000119916015,
+          "upper_length_m": 1.1499998265958262,
+          "head_up": [
+            0.0,
+            0.0,
+            1.0000001192092896
+          ],
+          "strip_top_m": 4.328940391540527,
+          "moving_min_z_m": 4.077071189880371,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12807106971740723
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.97,
+        0.030000000000000027
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001479231714,
+          "upper_length_m": 1.1499999440234627,
+          "head_up": [
+            -2.9802322387695312e-08,
+            0.0,
+            0.9999999403953552
+          ],
+          "strip_top_m": 5.876845359802246,
+          "moving_min_z_m": 4.08454704284668,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13554692268371582
+        },
+        "REAR": {
+          "lower_length_m": 1.3800000775678356,
+          "upper_length_m": 1.1499999496923874,
+          "head_up": [
+            -1.4901161193847656e-08,
+            -4.440892098500626e-16,
+            1.0
+          ],
+          "strip_top_m": 4.31046724319458,
+          "moving_min_z_m": 4.077056884765625,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12805676460266113
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.98,
+        0.020000000000000018
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3800001263272876,
+          "upper_length_m": 1.1499997367029304,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.890323638916016,
+          "moving_min_z_m": 4.084687232971191,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13568711280822754
+        },
+        "REAR": {
+          "lower_length_m": 1.3799999005828014,
+          "upper_length_m": 1.1499999260043987,
+          "head_up": [
+            -1.1175870895385742e-08,
+            -4.440892098500626e-16,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.291985511779785,
+          "moving_min_z_m": 4.07704496383667,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12804484367370605
+        }
+      }
+    },
+    {
+      "extensions": [
+        0.99,
+        0.010000000000000009
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799997591972142,
+          "upper_length_m": 1.1500000735987763,
+          "head_up": [
+            -5.960464477539063e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.9037089347839355,
+          "moving_min_z_m": 4.084828853607178,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.13582873344421387
+        },
+        "REAR": {
+          "lower_length_m": 1.3800001148544796,
+          "upper_length_m": 1.1499999483763879,
+          "head_up": [
+            3.725290298461914e-09,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 4.273496150970459,
+          "moving_min_z_m": 4.077033996582031,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12803387641906738
+        }
+      }
+    },
+    {
+      "extensions": [
+        1.0,
+        0.0
+      ],
+      "pantographs": {
+        "FRONT": {
+          "lower_length_m": 1.3799998239848812,
+          "upper_length_m": 1.1499999699385266,
+          "head_up": [
+            2.9802322387695312e-08,
+            0.0,
+            1.0
+          ],
+          "strip_top_m": 5.9170002937316895,
+          "moving_min_z_m": 4.084971904754639,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.1359717845916748
+        },
+        "REAR": {
+          "lower_length_m": 1.3799997313587677,
+          "upper_length_m": 1.1499999546526924,
+          "head_up": [
+            -3.725290298461914e-09,
+            -2.220446049250313e-16,
+            0.9999999403953552
+          ],
+          "strip_top_m": 4.255000591278076,
+          "moving_min_z_m": 4.077024936676025,
+          "roof_max_z_m": 3.949000120162964,
+          "conservative_roof_vertical_clearance_m": 0.12802481651306152
+        }
+      }
+    }
+  ],
+  "final_mesh_stats": {
+    "mesh_objects": 1779,
+    "triangles": 147932,
+    "asset_materials": 26,
+    "evaluated_bounds_lowered": {
+      "min": [
+        -10.321000099182129,
+        -1.5759763717651367,
+        -0.02799999713897705
+      ],
+      "max": [
+        10.321000099182129,
+        1.5759756565093994,
+        4.256977081298828
+      ]
+    }
+  },
+  "glass_count": 12,
+  "passed": true
+}

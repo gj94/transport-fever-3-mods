@@ -1,0 +1,97 @@
+{
+  "pair_internal_anchor_error_m": 8.392586846447386e-07,
+  "outward_normal_dot": -1.0000000000000153,
+  "outer_coupling_span_m": 38.400000762939456,
+  "gaps_m": {
+    "Rear_end_wall": 1.0599993467330933,
+    "Gangway_bellows": 0.09600061923265457,
+    "Gangway_bridge_half": 0.020000414922833443,
+    "Internal_drawbar_half": -8.742278012618954e-09
+  },
+  "interpretation": {
+    "Rear_end_wall": "minimum gap between fixed rear body wall faces",
+    "Gangway_bellows": "expansion space between authored rubber bellows lips",
+    "Gangway_bridge_half": "gap between metal bridge half tips",
+    "Internal_drawbar_half": "zero denotes touching half-drawbar endpoints at the shared mating plane"
+  },
+  "bogies": 4,
+  "axles": 8,
+  "outer_driving_cabs": 2,
+  "internal_driving_cabs": 0,
+  "glazing": [
+    {
+      "section": "A",
+      "closed_glass_meshes": [
+        {
+          "object": "Cab_door_glass",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        },
+        {
+          "object": "Cab_door_glass.001",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        },
+        {
+          "object": "Sidewindow_glass",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        },
+        {
+          "object": "Windscreen_clear_glass",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        }
+      ],
+      "actual_eye_forward_ray_origin_m": [
+        7.489999771118164,
+        -0.6899999976158142,
+        2.940000057220459
+      ],
+      "actual_eye_forward_ray_opaque_hits": [],
+      "passed": true
+    },
+    {
+      "section": "B",
+      "closed_glass_meshes": [
+        {
+          "object": "Cab_door_glass",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        },
+        {
+          "object": "Cab_door_glass.001",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        },
+        {
+          "object": "Sidewindow_glass",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        },
+        {
+          "object": "Windscreen_clear_glass",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "closed": true
+        }
+      ],
+      "actual_eye_forward_ray_origin_m": [
+        7.489999771118164,
+        -0.6899999976158142,
+        2.940000057220459
+      ],
+      "actual_eye_forward_ray_opaque_hits": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": "straight authored pose only; dynamic coupler yaw/compression and curve/slope collisions are not simulated"
+}

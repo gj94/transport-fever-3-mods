@@ -1,0 +1,150 @@
+{
+  "asset": "WAG9_v01",
+  "status": "modelling handoff complete",
+  "base_commit": "7de48a11bd95a69e03acb16043629b40a89f35ec",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8301,
+      "sha256": "13e3050ef069197441e3561fcfef78584a302d390e91d73f4f582c9d1ec90b0f"
+    },
+    {
+      "path": "WAG9_baked_motion.blend",
+      "bytes": 726739,
+      "sha256": "a5d8934cd94678797726ffd5df82e04ac6b02fee6f583ff37613d72539688e9c"
+    },
+    {
+      "path": "WAG9_lowered.fbx",
+      "bytes": 5974620,
+      "sha256": "2850f6550de76753aafadf30c62b6f9419879bd93a10c7c38202263a818e417a"
+    },
+    {
+      "path": "WAG9_master.blend",
+      "bytes": 722439,
+      "sha256": "6ac37409e056936f902cdf3b934125c19192ef4e1642537ca998274f694ad856"
+    },
+    {
+      "path": "WAG9_motion.fbx.zip",
+      "bytes": 2564928,
+      "sha256": "ab39790777d0fcc113b6b10dcf925076be560055b99c847aa9cca54b104128bf"
+    },
+    {
+      "path": "WAG9_raised.fbx",
+      "bytes": 5971324,
+      "sha256": "84ca340d1ef3a65d8bd48f84c3abd4e334ae597a41b674f3d626b813ed1fe021"
+    },
+    {
+      "path": "build_wag9.py",
+      "bytes": 41616,
+      "sha256": "9f43073966fbfb856e8ea3ae9ab1f0bbf6a8d526eb611002f5f93e94e23d12a7"
+    },
+    {
+      "path": "check_roof_interference.py",
+      "bytes": 1804,
+      "sha256": "67acf97af063cd21b8eb3439dc1a6c0584f157ba5eabbd8978621cdb4b461fdd"
+    },
+    {
+      "path": "dimensions.json",
+      "bytes": 2444,
+      "sha256": "52268c332c5087b706036f4043316a3eb5d9da3825970919d354bf31e686abba"
+    },
+    {
+      "path": "export_fbx.py",
+      "bytes": 2378,
+      "sha256": "1e57c3817c6ce0194a70c8be3d63d81abf01d6848a90119729212617975131de"
+    },
+    {
+      "path": "qa/README_QA.md",
+      "bytes": 2976,
+      "sha256": "89d7a8d4dc3455a295295f815dc90ccca7246f5cff9040bf37b845250a6b9e08"
+    },
+    {
+      "path": "qa/fbx_fresh_import_validation.json",
+      "bytes": 16042,
+      "sha256": "40431e3cafc011379bb624f3fcdfc85706911f13c141168efb51c85028f29393"
+    },
+    {
+      "path": "qa/master_aperture_validation.json",
+      "bytes": 107771,
+      "sha256": "d4b418e812a2b3950fcdd6b72919ac049949d5df170f6606a8df744d20f19bf2"
+    },
+    {
+      "path": "qa/mesh_rig_validation.json",
+      "bytes": 14394,
+      "sha256": "4195747f88867c3c5268bd59363ae89fc23a4165cbac3ecc78c8eeec0d146d06"
+    },
+    {
+      "path": "qa/motion_archive_validation.json",
+      "bytes": 390,
+      "sha256": "a88a88348605d77d86db338bac149454504dd0d88dfafb01dcc769a68d69b78a"
+    },
+    {
+      "path": "qa/roof_interference_validation.json",
+      "bytes": 24408,
+      "sha256": "06c61481472dd31c242995e7525f5a3723f92d534447d8b985286cbb306fa741"
+    },
+    {
+      "path": "references.md",
+      "bytes": 4013,
+      "sha256": "1cb3eca3e74468474d54ec43fb964191cde90fd9b13f2f7c6a01b58ba1108b4f"
+    },
+    {
+      "path": "renders/WAG9_cab_a.png",
+      "bytes": 3333984,
+      "sha256": "1983eb0e4856ae6914b044e2b1b0d63aec1e3cd3231112a9eb59e5dadc1ec040"
+    },
+    {
+      "path": "renders/WAG9_cab_b.png",
+      "bytes": 3250564,
+      "sha256": "688dff229f0165ddceacb60d71ec0b59938d9d4c1c12c6182c428dfa9bdcd4fe"
+    },
+    {
+      "path": "renders/WAG9_exterior.png",
+      "bytes": 2812314,
+      "sha256": "f92caec192565f64569bbdf362bc8161094ba135633226925a25e11ebdc982e9"
+    },
+    {
+      "path": "renders/WAG9_front.png",
+      "bytes": 3250898,
+      "sha256": "32fd3fe46ed5eb7ed871324ef2224a6f9b45385a1ac829ddde46c7d665199e77"
+    },
+    {
+      "path": "renders/WAG9_roof.png",
+      "bytes": 2385516,
+      "sha256": "98f94df74d253502011fb73fa12f243e2cf2bc4f48d9a0162838bc445abcc1e4"
+    },
+    {
+      "path": "renders/WAG9_side.png",
+      "bytes": 2503480,
+      "sha256": "40bbd40a633420830bf82b298051ec2b63534c07b2a99f42b2892678c940c5fe"
+    },
+    {
+      "path": "validate_fbx.py",
+      "bytes": 5031,
+      "sha256": "52b037c72d2ccb4180b28871563a75262ef8a0b03de8321675880ab9140a4434"
+    },
+    {
+      "path": "validate_master.py",
+      "bytes": 5769,
+      "sha256": "531d015b1b62baa2ca789b675cce279aa1a6d3f37a54ef75a3332b2ff2534410"
+    }
+  ],
+  "excluded": [
+    "raw WAG9_motion.fbx (delivered losslessly in ZIP)",
+    "build logs",
+    "Blender backups",
+    "preview/debug images",
+    "reference photographs",
+    "intermediate refinement scripts",
+    "Python bytecode"
+  ],
+  "validation": {
+    "fresh_fbx_imports": 3,
+    "closed_manifold_glass_panes": 12,
+    "cab_forward_sightlines": 18,
+    "paired_pantograph_poses": 101,
+    "roof_equipment_interference_checks": 202,
+    "native_game_validation": false
+  },
+  "motion_member_sha256": "ed24b91e89af6d3c6fa29c0d460686bca602218fe4903a1684505c4c6293d664"
+}

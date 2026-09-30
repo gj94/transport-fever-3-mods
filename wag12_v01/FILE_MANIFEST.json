@@ -1,0 +1,192 @@
+{
+  "package": "WAG12B twin-section modelling handoff v01",
+  "source_repository_commit": "7de48a11bd95a69e03acb16043629b40a89f35ec",
+  "blender_version": "4.3.2",
+  "native_tf3_conversion_included": false,
+  "game_runtime_test_performed": false,
+  "render_views": [
+    "exterior",
+    "pair",
+    "nose",
+    "side",
+    "cab",
+    "driver",
+    "bogie",
+    "coupling",
+    "pantograph",
+    "independent"
+  ],
+  "file_count_excluding_manifest_and_checksums": 34,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 14840,
+      "sha256": "481f7a401bc9b7d23f1fcef80a25d8a9b2290b195ebfa53610ca8b57c32fb054"
+    },
+    {
+      "path": "assemblies/WAG12B_pair.blend",
+      "bytes": 9467660,
+      "sha256": "b382ef3fe43e18cf9fba892d4fba67699388fbe7f74237075ccf5667cf5c9c6b"
+    },
+    {
+      "path": "assemblies/WAG12B_pair_manifest.json",
+      "bytes": 1556,
+      "sha256": "0746b099eb203f095d50ca6fbddc3331d02be685defb6a2bb6f5899a9330e140"
+    },
+    {
+      "path": "build_assembly_and_render.py",
+      "bytes": 6424,
+      "sha256": "94c7f043e96d21173363bc55d4439e55b6d7e3b7a0a99b40e365b748dadf9b65"
+    },
+    {
+      "path": "build_wag12.py",
+      "bytes": 34379,
+      "sha256": "d5d002c2fea107d80b882ebec0897103abccf03f9417c09faaff9e6336766bb5"
+    },
+    {
+      "path": "qa/WAG12B_A_geometry.json",
+      "bytes": 1819,
+      "sha256": "8fbab514bf52e9f9766b650c3c05ca9154ec69d654747f2dc31fdb3121bf4192"
+    },
+    {
+      "path": "qa/WAG12B_B_geometry.json",
+      "bytes": 1819,
+      "sha256": "492f49786502946008e412b3ac06dc6726f6e8714181350e068b76a2d64900bb"
+    },
+    {
+      "path": "qa/assembly_and_glazing.json",
+      "bytes": 2724,
+      "sha256": "8c293c2805319d9aa655054a49bed77211493e1e5ea8a46786adfbb79349e37d"
+    },
+    {
+      "path": "qa/fbx_roundtrip.json",
+      "bytes": 13896,
+      "sha256": "e46ff74e3dc5c4074998a9cda0d6152a6a108dc26d2e4c0fb0c376d8ade2d2e4"
+    },
+    {
+      "path": "qa/rig_and_aperture_checks.json",
+      "bytes": 7458,
+      "sha256": "1ebbcbf4fdb82b6c48a3f2f8f0cb23c7712d48bc37cf2ec4d6c51d595562d25e"
+    },
+    {
+      "path": "renders/bogie.png",
+      "bytes": 2010622,
+      "sha256": "f89e911d9664aa0f6c1418df240726e66b2f22dafc1bd1c9f4188a6dc8d911d3"
+    },
+    {
+      "path": "renders/cab.png",
+      "bytes": 2532077,
+      "sha256": "d4296c3de82bde99ad2af58b5991028bb874668c89e1c3469417efd1a5a234ab"
+    },
+    {
+      "path": "renders/coupling.png",
+      "bytes": 2078128,
+      "sha256": "b83971c165760717069084edb75fbca8ffba6267aa9fd965526c8dd20abf35fa"
+    },
+    {
+      "path": "renders/driver.png",
+      "bytes": 2019085,
+      "sha256": "f638aab019560985dce104a1efd4211b8c88ebae3e435f7eb5d180c0c4281634"
+    },
+    {
+      "path": "renders/exterior.png",
+      "bytes": 1836244,
+      "sha256": "85d6cc3da4b42fd836ede8f371a20cf58edfc7519435015cdc9acbbb9ed00f2c"
+    },
+    {
+      "path": "renders/independent.png",
+      "bytes": 1791548,
+      "sha256": "75a1730e0b4e7b4199e9722884997b0f006573433b60c5a38b5399ab38ee2334"
+    },
+    {
+      "path": "renders/nose.png",
+      "bytes": 2132953,
+      "sha256": "01ad90391b66fd8fa4fa2b88cdd4d73d7882b843da92d46da46a9f36c28e0560"
+    },
+    {
+      "path": "renders/pair.png",
+      "bytes": 1812502,
+      "sha256": "c918c9ad1f2a0e832be0c7b607b34f16935c9ef3e04b169fde173ba28ed93a16"
+    },
+    {
+      "path": "renders/pantograph.png",
+      "bytes": 1624732,
+      "sha256": "7f30ab1a70a6f32c3f91ef5cc6bacd46c468d6cb83bbb481f175486b4ed0ced7"
+    },
+    {
+      "path": "renders/side.png",
+      "bytes": 1201889,
+      "sha256": "02f3e57af99ed0f3e9da8bb47f420882b00d97fe32d26e9b607862dbe0561af0"
+    },
+    {
+      "path": "sections/WAG12B_A.blend",
+      "bytes": 4616932,
+      "sha256": "a25e360fde0291441c9673c8088e1567a06f0d1e6643c2ef86a0e8fec9ab720d"
+    },
+    {
+      "path": "sections/WAG12B_A_baked_motion.blend",
+      "bytes": 4667716,
+      "sha256": "de7bf7c1c65de55e0dda35bb6f166d5d5c455a22d232d46f31a99fe1dbcdc079"
+    },
+    {
+      "path": "sections/WAG12B_A_highreach.fbx",
+      "bytes": 1225980,
+      "sha256": "ea0e2a154181090505a37732fe98222fda6e04e1949d31b392d1f7ea5463e609"
+    },
+    {
+      "path": "sections/WAG12B_A_lowered.fbx",
+      "bytes": 1226076,
+      "sha256": "d35f1a290219716dea2dfb61098a46b08c37e4e9a3a1c508d402c2f1316d254a"
+    },
+    {
+      "path": "sections/WAG12B_A_motion.fbx",
+      "bytes": 3790204,
+      "sha256": "785a5b4b89c66025a4e79042082d1ebe956296d87b3c5a0a09ae0aa0ee467ad1"
+    },
+    {
+      "path": "sections/WAG12B_A_standard_raised.fbx",
+      "bytes": 1225532,
+      "sha256": "e46d72cc59d65263c6db3e5102339f7bf629e876799abfc6f1b3572e24d8d556"
+    },
+    {
+      "path": "sections/WAG12B_B.blend",
+      "bytes": 4637836,
+      "sha256": "554c6f9c8480ae69cba1c562d7d658d114931d266bcc6cf56e18ce551f3c99d7"
+    },
+    {
+      "path": "sections/WAG12B_B_baked_motion.blend",
+      "bytes": 4688620,
+      "sha256": "5d48b2e2d0a327ab6c058054c7f9ee80f4bbf68e78fd1f451cce35f48b5a0d5b"
+    },
+    {
+      "path": "sections/WAG12B_B_highreach.fbx",
+      "bytes": 1231980,
+      "sha256": "4ec6614c2f3aa905bd4a5c25bc4e371943d657f2a607c4582d5451096b98ecc9"
+    },
+    {
+      "path": "sections/WAG12B_B_lowered.fbx",
+      "bytes": 1232076,
+      "sha256": "4bf30d35d6cee3d46c4b7cccad5f676a96a2dae46fd2d8552e9c27b77ff6fa7c"
+    },
+    {
+      "path": "sections/WAG12B_B_motion.fbx",
+      "bytes": 3796204,
+      "sha256": "b746e9e126b08df065dea80d36626a5a648a45a8fce67270dc9aa3169168e09e"
+    },
+    {
+      "path": "sections/WAG12B_B_standard_raised.fbx",
+      "bytes": 1231532,
+      "sha256": "5dd870e859d6d820ad73d08ac843a0b12cb6c1e9c1e3c6d2eae09e10e0f9db9c"
+    },
+    {
+      "path": "validate_assembly.py",
+      "bytes": 3743,
+      "sha256": "8e9cc83e089b02890e216cf51ec013615f5ab18edae75b593a5853fee48bd38b"
+    },
+    {
+      "path": "validate_wag12.py",
+      "bytes": 7356,
+      "sha256": "f07462491f633f81073f2affc3ff1d0774c714bff2cc1dcd9ad0835184ef1ad9"
+    }
+  ]
+}

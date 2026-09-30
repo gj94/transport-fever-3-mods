@@ -32,6 +32,17 @@ For selectable speed caps on individual track sections, see the separate
 underlying variants compatible with saved track sections.
 The original assets and their validation reports below describe the source prototypes.
 
+## WAG-9 and WAG-12B modelling handoff
+
+New editable source models, prepared against revision 6 of this repository's modelling/conversion workflow:
+
+- [WAG-9](wag9_v01/README.md): conventional green/yellow Co-Co locomotive, both furnished cabs, 20.562 m coupling-point span
+- [WAG-12B](wag12_v01/README.md): blue/cyan twin-section Bo-Bo + Bo-Bo locomotive, independently authored sections, 38.400 m outer coupling-point span
+
+Both packages include Blender masters, static and baked-motion FBX exports, independent level-head pantograph controls, named coupling/driver/light markers, source generators, reference provenance, previews and QA reports. The WAG-9 motion FBX is supplied as a verified lossless ZIP; extract it before import. WAG-12B includes standard-wire and illustrative high-reach poses.
+
+These new locomotive folders are **modelling handoffs only** and are not yet registered in the playable pack linked above. The conversion agent must add vehicle definitions and test character fit, lighting, LODs, wire contact, reversals and curves. Source validation and fresh FBX import are not in-game testing.
+
 ## Vande Bharat compact modelling handoff
 
 [Open the Vande Bharat 2.0 white-blue chair-car source assets and conversion handoff](vande_bharat_v01).

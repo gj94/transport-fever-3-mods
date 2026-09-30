@@ -1,0 +1,104 @@
+{
+  "asset": "WAG9_v01",
+  "prototype": "Conventional CLW WAG-9; representative green/yellow 31034",
+  "repository_base": "7de48a11bd95a69e03acb16043629b40a89f35ec",
+  "unit": "metre",
+  "axis_forward": "+X",
+  "axis_up": "+Z",
+  "rail_tread_z": 0,
+  "root": "WAG9_ROOT",
+  "nominal_prototype": {
+    "length_over_buffers_m": 20.562,
+    "width_m": 3.152,
+    "bogie_centre_span_m": 12.0,
+    "adjacent_axle_spacing_m": 1.85,
+    "wheel_diameter_new_m": 1.092,
+    "gauge_m": 1.676
+  },
+  "coupling": {
+    "COUPLING_FRONT": {
+      "position_m": [
+        10.281000137329102,
+        0.0,
+        1.1050000190734863
+      ],
+      "outward_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "parent": "WAG9_ROOT"
+    },
+    "COUPLING_REAR": {
+      "position_m": [
+        -10.281000137329102,
+        0.0,
+        1.1050000190734863
+      ],
+      "outward_normal": [
+        -1.0,
+        -8.742277657347586e-08,
+        0.0
+      ],
+      "parent": "WAG9_ROOT"
+    },
+    "mating_span_m": 20.562000581653574
+  },
+  "evaluated_lowered_mesh_bounds": {
+    "min": [
+      -10.321000099182129,
+      -1.5759763717651367,
+      -0.02799999713897705
+    ],
+    "max": [
+      10.321000099182129,
+      1.5759756565093994,
+      4.256977081298828
+    ]
+  },
+  "counts": {
+    "triangles": 147932,
+    "mesh_objects": 1779,
+    "asset_materials": 26
+  },
+  "pantograph": {
+    "independent_count": 2,
+    "lower_arm_length_m": 1.38,
+    "upper_arm_length_m": 1.15,
+    "lowered_strip_top_m": 4.255,
+    "raised_strip_top_m": 5.917,
+    "control_property": "extension [0,1]",
+    "formula": "4.149+2.53*sin(a0+extension*(a1-a0)); a0=asin(.106/2.53), a1=asin(1.768/2.53)",
+    "baked_frames": [
+      1,
+      161
+    ],
+    "fps": 25
+  },
+  "driver_markers": [
+    {
+      "name": "DRIVER_001",
+      "world_m": [
+        7.690000057220459,
+        -0.7599999904632568,
+        1.819000005722046
+      ],
+      "seat_cushion_top_m": 2.302,
+      "hip_offset_m": 0.483
+    },
+    {
+      "name": "DRIVER_002",
+      "world_m": [
+        -7.690000057220459,
+        0.7599993348121643,
+        1.819000005722046
+      ],
+      "seat_cushion_top_m": 2.302,
+      "hip_offset_m": 0.483
+    }
+  ],
+  "native_conversion_status": "not performed; modelling handoff only",
+  "interchange_glazing": "FBX alpha .25 fallback; Blender transmission .96/alpha1",
+  "motion_archive": "WAG9_motion.fbx.zip",
+  "raw_motion_excluded_from_delivery": true
+}

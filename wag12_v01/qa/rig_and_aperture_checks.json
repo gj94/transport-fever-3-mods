@@ -1,0 +1,351 @@
+{
+  "all_passed": true,
+  "sections": [
+    {
+      "section": "A",
+      "base": {
+        "root": "WAG12B_A_ROOT",
+        "anchors": {
+          "COUPLING_FRONT": {
+            "xyz_m": [
+              9.600000381469727,
+              0.0,
+              1.1050000190734863
+            ],
+            "normal": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "COUPLING_REAR": {
+            "xyz_m": [
+              -9.600000381469727,
+              0.0,
+              1.1050000190734863
+            ],
+            "normal": [
+              -1.0,
+              -8.742277657347586e-08,
+              0.0
+            ]
+          }
+        },
+        "axles_world_m": [
+          [
+            6.399999618530273,
+            0.0,
+            0.625
+          ],
+          [
+            3.799999952316284,
+            0.0,
+            0.625
+          ],
+          [
+            -3.799999952316284,
+            0.0,
+            0.625
+          ],
+          [
+            -6.399999618530273,
+            0.0,
+            0.625
+          ]
+        ],
+        "crew_markers": 2,
+        "mesh_objects": 248,
+        "triangles": 71364,
+        "all_finite": true,
+        "all_asset_objects_under_root": true,
+        "no_presentation_objects": true
+      },
+      "poses_checked": 101,
+      "head_level_pass": true,
+      "rigid_lengths_pass": true,
+      "samples": [
+        {
+          "extension": 0.0,
+          "top_z_m": 4.244999885559082,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.3999999824911353,
+            2.00000011787051
+          ]
+        },
+        {
+          "extension": 0.25,
+          "top_z_m": 5.169620990753174,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.4000001594424196,
+            2.000000014901161
+          ]
+        },
+        {
+          "extension": 0.5,
+          "top_z_m": 6.049328804016113,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.4000002712011184,
+            1.9999999254941927
+          ]
+        },
+        {
+          "extension": 0.75,
+          "top_z_m": 6.844676494598389,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.3999999980131785,
+            1.9999999403953543
+          ]
+        },
+        {
+          "extension": 1.0,
+          "top_z_m": 7.520000457763672,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.4000000973542512,
+            1.9999999701976774
+          ]
+        }
+      ],
+      "roof_collision_pairs": [],
+      "aperture_probes": [
+        {
+          "origin": [
+            8.1,
+            -0.7,
+            2.92
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            8.1,
+            0.7,
+            2.92
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            8.1,
+            -0.5,
+            3.31
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            8.1,
+            0.5,
+            3.31
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            7.8,
+            0,
+            3.1
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            7.8,
+            0,
+            3.1
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "opaque_shell_hits": []
+        }
+      ],
+      "runtime_character_fit": "not tested; markers provisional",
+      "passed": true
+    },
+    {
+      "section": "B",
+      "base": {
+        "root": "WAG12B_B_ROOT",
+        "anchors": {
+          "COUPLING_FRONT": {
+            "xyz_m": [
+              9.600000381469727,
+              0.0,
+              1.1050000190734863
+            ],
+            "normal": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "COUPLING_REAR": {
+            "xyz_m": [
+              -9.600000381469727,
+              0.0,
+              1.1050000190734863
+            ],
+            "normal": [
+              -1.0,
+              -8.742277657347586e-08,
+              0.0
+            ]
+          }
+        },
+        "axles_world_m": [
+          [
+            6.399999618530273,
+            0.0,
+            0.625
+          ],
+          [
+            3.799999952316284,
+            0.0,
+            0.625
+          ],
+          [
+            -3.799999952316284,
+            0.0,
+            0.625
+          ],
+          [
+            -6.399999618530273,
+            0.0,
+            0.625
+          ]
+        ],
+        "crew_markers": 2,
+        "mesh_objects": 248,
+        "triangles": 71652,
+        "all_finite": true,
+        "all_asset_objects_under_root": true,
+        "no_presentation_objects": true
+      },
+      "poses_checked": 101,
+      "head_level_pass": true,
+      "rigid_lengths_pass": true,
+      "samples": [
+        {
+          "extension": 0.0,
+          "top_z_m": 4.244999885559082,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.3999999824911353,
+            2.00000011787051
+          ]
+        },
+        {
+          "extension": 0.25,
+          "top_z_m": 5.169620990753174,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.4000001594424196,
+            2.000000014901161
+          ]
+        },
+        {
+          "extension": 0.5,
+          "top_z_m": 6.049328804016113,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.4000002712011184,
+            1.9999999254941927
+          ]
+        },
+        {
+          "extension": 0.75,
+          "top_z_m": 6.844676494598389,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.3999999980131785,
+            1.9999999403953543
+          ]
+        },
+        {
+          "extension": 1.0,
+          "top_z_m": 7.520000457763672,
+          "top_level_spread_m": 0.0,
+          "rigid_lengths_m": [
+            2.4000000973542512,
+            1.9999999701976774
+          ]
+        }
+      ],
+      "roof_collision_pairs": [],
+      "aperture_probes": [
+        {
+          "origin": [
+            8.1,
+            -0.7,
+            2.92
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            8.1,
+            0.7,
+            2.92
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            8.1,
+            -0.5,
+            3.31
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            8.1,
+            0.5,
+            3.31
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            7.8,
+            0,
+            3.1
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "opaque_shell_hits": []
+        },
+        {
+          "origin": [
+            7.8,
+            0,
+            3.1
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "opaque_shell_hits": []
+        }
+      ],
+      "runtime_character_fit": "not tested; markers provisional",
+      "passed": true
+    }
+  ]
+}

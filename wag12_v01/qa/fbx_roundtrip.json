@@ -1,0 +1,562 @@
+{
+  "blender_version": "4.3.2",
+  "anim_offset": 0,
+  "fresh_import_count": 8,
+  "all_passed": true,
+  "files": [
+    {
+      "root": "WAG12B_A_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            1.1924868204005179e-08,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71364,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_A_highreach.fbx",
+      "sha256": "ea0e2a154181090505a37732fe98222fda6e04e1949d31b392d1f7ea5463e609",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "contact_strip": {
+        "top_z_m": 7.5199995040893555,
+        "top_level_spread_m": 0.0
+      },
+      "passed": true
+    },
+    {
+      "root": "WAG12B_A_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            1.1924868204005179e-08,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71364,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_A_lowered.fbx",
+      "sha256": "d35f1a290219716dea2dfb61098a46b08c37e4e9a3a1c508d402c2f1316d254a",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "contact_strip": {
+        "top_z_m": 4.244999408721924,
+        "top_level_spread_m": 0.0
+      },
+      "passed": true
+    },
+    {
+      "root": "WAG12B_A_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            -2.264936966867026e-07,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71364,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_A_motion.fbx",
+      "sha256": "785a5b4b89c66025a4e79042082d1ebe956296d87b3c5a0a09ae0aa0ee467ad1",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "motion_samples": [
+        {
+          "frame": 1,
+          "top_z_m": 4.244999408721924,
+          "top_level_spread_m": 0.0
+        },
+        {
+          "frame": 41,
+          "top_z_m": 7.519999027252197,
+          "top_level_spread_m": 0.0
+        },
+        {
+          "frame": 81,
+          "top_z_m": 4.244999408721924,
+          "top_level_spread_m": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "root": "WAG12B_A_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            1.1924868204005179e-08,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71364,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_A_standard_raised.fbx",
+      "sha256": "e46d72cc59d65263c6db3e5102339f7bf629e876799abfc6f1b3572e24d8d556",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "contact_strip": {
+        "top_z_m": 5.916999816894531,
+        "top_level_spread_m": 0.0
+      },
+      "passed": true
+    },
+    {
+      "root": "WAG12B_B_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            1.1924868204005179e-08,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71652,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_B_highreach.fbx",
+      "sha256": "4ec6614c2f3aa905bd4a5c25bc4e371943d657f2a607c4582d5451096b98ecc9",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "contact_strip": {
+        "top_z_m": 7.5199995040893555,
+        "top_level_spread_m": 0.0
+      },
+      "passed": true
+    },
+    {
+      "root": "WAG12B_B_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            1.1924868204005179e-08,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71652,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_B_lowered.fbx",
+      "sha256": "4bf30d35d6cee3d46c4b7cccad5f676a96a2dae46fd2d8552e9c27b77ff6fa7c",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "contact_strip": {
+        "top_z_m": 4.244999408721924,
+        "top_level_spread_m": 0.0
+      },
+      "passed": true
+    },
+    {
+      "root": "WAG12B_B_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            -2.264936966867026e-07,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71652,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_B_motion.fbx",
+      "sha256": "b746e9e126b08df065dea80d36626a5a648a45a8fce67270dc9aa3169168e09e",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "motion_samples": [
+        {
+          "frame": 1,
+          "top_z_m": 4.244999408721924,
+          "top_level_spread_m": 0.0
+        },
+        {
+          "frame": 41,
+          "top_z_m": 7.519999027252197,
+          "top_level_spread_m": 0.0
+        },
+        {
+          "frame": 81,
+          "top_z_m": 4.244999408721924,
+          "top_level_spread_m": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "root": "WAG12B_B_ROOT",
+      "anchors": {
+        "COUPLING_FRONT": {
+          "xyz_m": [
+            9.600000381469727,
+            -1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            1.0,
+            -1.6292067073209182e-07,
+            0.0
+          ]
+        },
+        "COUPLING_REAR": {
+          "xyz_m": [
+            -9.600000381469727,
+            1.5640384845028166e-06,
+            1.1050000190734863
+          ],
+          "normal": [
+            -1.0,
+            1.1924868204005179e-08,
+            0.0
+          ]
+        }
+      },
+      "axles_world_m": [
+        [
+          6.399999618530273,
+          -1.0426922472106526e-06,
+          0.625
+        ],
+        [
+          3.799999952316284,
+          -6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -3.799999952316284,
+          6.190985573084617e-07,
+          0.625
+        ],
+        [
+          -6.399999618530273,
+          1.0426922472106526e-06,
+          0.625
+        ]
+      ],
+      "crew_markers": 2,
+      "mesh_objects": 248,
+      "triangles": 71652,
+      "all_finite": true,
+      "all_asset_objects_under_root": true,
+      "no_presentation_objects": true,
+      "file": "WAG12B_B_standard_raised.fbx",
+      "sha256": "5dd870e859d6d820ad73d08ac843a0b12cb6c1e9c1e3c6d2eae09e10e0f9db9c",
+      "fbx_glass_alpha": 0.18000000715255737,
+      "fbx_transmission_portability": "Transmission is not represented by FBX; alpha=.18 fallback verified",
+      "contact_strip": {
+        "top_z_m": 5.916999816894531,
+        "top_level_spread_m": 0.0
+      },
+      "passed": true
+    }
+  ]
+}

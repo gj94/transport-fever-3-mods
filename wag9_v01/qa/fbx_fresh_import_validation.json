@@ -1,0 +1,715 @@
+{
+  "WAG9_lowered.fbx": {
+    "asset_file": "WAG9_lowered.fbx",
+    "root_matrix": [
+      [
+        1.0,
+        1.6292067073209182e-07,
+        0.0,
+        0.0
+      ],
+      [
+        -1.6292067073209182e-07,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "meshes": 1779,
+    "parentless": [
+      "WAG9_ROOT"
+    ],
+    "couplings": {
+      "COUPLING_FRONT": {
+        "pos": [
+          10.281000137329102,
+          -1.674987402111583e-06,
+          1.1050000190734863
+        ],
+        "normal": [
+          1.0,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        "parent": "WAG9_ROOT"
+      },
+      "COUPLING_REAR": {
+        "pos": [
+          -10.281000137329102,
+          1.674987402111583e-06,
+          1.1050000190734863
+        ],
+        "normal": [
+          -1.0,
+          1.1924868204005179e-08,
+          0.0
+        ],
+        "parent": "WAG9_ROOT"
+      }
+    },
+    "rig_frames": [
+      {
+        "frame": 1,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776131,
+            "upper_length_m": 1.1499999745951548
+          },
+          "REAR": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              -1.1175870895385742e-08,
+              2.220446049250313e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.380000681577595,
+            "upper_length_m": 1.1499999745951397
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "coupling_span_m": 20.562000581653844,
+    "bogies": [
+      "BOGIE_A_YAW_Z",
+      "BOGIE_B_YAW_Z"
+    ],
+    "axles": [
+      "AXLE_A_1_ROLL_Y",
+      "AXLE_A_2_ROLL_Y",
+      "AXLE_A_3_ROLL_Y",
+      "AXLE_B_1_ROLL_Y",
+      "AXLE_B_2_ROLL_Y",
+      "AXLE_B_3_ROLL_Y"
+    ],
+    "bounds_m": {
+      "min": [
+        -10.321000099182129,
+        -1.5759769678115845,
+        -0.02799999713897705
+      ],
+      "max": [
+        10.321000099182129,
+        1.575975775718689,
+        4.256977558135986
+      ]
+    },
+    "triangles": 147932,
+    "closed_glazing": [
+      {
+        "name": "GLASS_door_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_1_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_1_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_1_1",
+        "bad_edges": 0
+      }
+    ],
+    "glazing_material": {
+      "alpha": 0.25,
+      "transmission": 0.0,
+      "fbx_alpha_fallback": true
+    },
+    "passed": true
+  },
+  "WAG9_raised.fbx": {
+    "asset_file": "WAG9_raised.fbx",
+    "root_matrix": [
+      [
+        1.0,
+        1.6292067073209182e-07,
+        0.0,
+        0.0
+      ],
+      [
+        -1.6292067073209182e-07,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "meshes": 1779,
+    "parentless": [
+      "WAG9_ROOT"
+    ],
+    "couplings": {
+      "COUPLING_FRONT": {
+        "pos": [
+          10.281000137329102,
+          -1.674987402111583e-06,
+          1.1050000190734863
+        ],
+        "normal": [
+          1.0,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        "parent": "WAG9_ROOT"
+      },
+      "COUPLING_REAR": {
+        "pos": [
+          -10.281000137329102,
+          1.674987402111583e-06,
+          1.1050000190734863
+        ],
+        "normal": [
+          -1.0,
+          1.1924868204005179e-08,
+          0.0
+        ],
+        "parent": "WAG9_ROOT"
+      }
+    },
+    "rig_frames": [
+      {
+        "frame": 1,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              5.066394805908203e-07,
+              -8.526512829121202e-14,
+              1.0
+            ],
+            "lower_length_m": 1.380000169519064,
+            "upper_length_m": 1.150000306834312
+          },
+          "REAR": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              -5.066394805908203e-07,
+              1.199040866595169e-14,
+              1.0
+            ],
+            "lower_length_m": 1.3800001695190547,
+            "upper_length_m": 1.1500003068343043
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "coupling_span_m": 20.562000581653844,
+    "bogies": [
+      "BOGIE_A_YAW_Z",
+      "BOGIE_B_YAW_Z"
+    ],
+    "axles": [
+      "AXLE_A_1_ROLL_Y",
+      "AXLE_A_2_ROLL_Y",
+      "AXLE_A_3_ROLL_Y",
+      "AXLE_B_1_ROLL_Y",
+      "AXLE_B_2_ROLL_Y",
+      "AXLE_B_3_ROLL_Y"
+    ],
+    "bounds_m": {
+      "min": [
+        -10.321000099182129,
+        -1.5759769678115845,
+        -0.02799999713897705
+      ],
+      "max": [
+        10.321000099182129,
+        1.575975775718689,
+        5.918977737426758
+      ]
+    },
+    "triangles": 147932,
+    "closed_glazing": [
+      {
+        "name": "GLASS_door_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_1_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_1_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_1_1",
+        "bad_edges": 0
+      }
+    ],
+    "glazing_material": {
+      "alpha": 0.25,
+      "transmission": 0.0,
+      "fbx_alpha_fallback": true
+    },
+    "passed": true
+  },
+  "WAG9_motion.fbx": {
+    "asset_file": "WAG9_motion.fbx",
+    "root_matrix": [
+      [
+        1.0,
+        1.6292067073209182e-07,
+        0.0,
+        0.0
+      ],
+      [
+        -1.6292067073209182e-07,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "meshes": 1779,
+    "parentless": [
+      "WAG9_ROOT"
+    ],
+    "couplings": {
+      "COUPLING_FRONT": {
+        "pos": [
+          10.281000137329102,
+          -1.674987402111583e-06,
+          1.1050000190734863
+        ],
+        "normal": [
+          1.0,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        "parent": "WAG9_ROOT"
+      },
+      "COUPLING_REAR": {
+        "pos": [
+          -10.281000137329102,
+          1.674987402111583e-06,
+          1.1050000190734863
+        ],
+        "normal": [
+          -1.0,
+          -2.264936966867026e-07,
+          0.0
+        ],
+        "parent": "WAG9_ROOT"
+      }
+    },
+    "rig_frames": [
+      {
+        "frame": 1,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776131,
+            "upper_length_m": 1.1499999745951548
+          },
+          "REAR": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              -1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776302,
+            "upper_length_m": 1.149999974595169
+          }
+        }
+      },
+      {
+        "frame": 21,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 5.152430057525635,
+            "head_up": [
+              -2.682209014892578e-07,
+              4.263256414560601e-14,
+              1.0
+            ],
+            "lower_length_m": 1.38000016951907,
+            "upper_length_m": 1.1500000217686654
+          },
+          "REAR": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              -1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776302,
+            "upper_length_m": 1.149999974595169
+          }
+        }
+      },
+      {
+        "frame": 41,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              5.066394805908203e-07,
+              -8.526512829121202e-14,
+              1.0
+            ],
+            "lower_length_m": 1.380000169519064,
+            "upper_length_m": 1.150000306834312
+          },
+          "REAR": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              -1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776302,
+            "upper_length_m": 1.149999974595169
+          }
+        }
+      },
+      {
+        "frame": 61,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              5.066394805908203e-07,
+              -8.526512829121202e-14,
+              1.0
+            ],
+            "lower_length_m": 1.380000169519064,
+            "upper_length_m": 1.150000306834312
+          },
+          "REAR": {
+            "contact_top_m": 5.152430057525635,
+            "head_up": [
+              2.682209014892578e-07,
+              4.973799150320701e-14,
+              1.0
+            ],
+            "lower_length_m": 1.3800001695190844,
+            "upper_length_m": 1.1500000217686777
+          }
+        }
+      },
+      {
+        "frame": 81,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              5.066394805908203e-07,
+              -8.526512829121202e-14,
+              1.0
+            ],
+            "lower_length_m": 1.380000169519064,
+            "upper_length_m": 1.150000306834312
+          },
+          "REAR": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              -5.066394805908203e-07,
+              -1.1368683772161603e-13,
+              1.0
+            ],
+            "lower_length_m": 1.3800001695190727,
+            "upper_length_m": 1.1500003068343194
+          }
+        }
+      },
+      {
+        "frame": 101,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 5.152430057525635,
+            "head_up": [
+              -2.682209014892578e-07,
+              4.263256414560601e-14,
+              1.0
+            ],
+            "lower_length_m": 1.38000016951907,
+            "upper_length_m": 1.1500000217686654
+          },
+          "REAR": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              -5.066394805908203e-07,
+              -1.1368683772161603e-13,
+              1.0
+            ],
+            "lower_length_m": 1.3800001695190727,
+            "upper_length_m": 1.1500003068343194
+          }
+        }
+      },
+      {
+        "frame": 121,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776131,
+            "upper_length_m": 1.1499999745951548
+          },
+          "REAR": {
+            "contact_top_m": 5.917001247406006,
+            "head_up": [
+              -5.066394805908203e-07,
+              -1.1368683772161603e-13,
+              1.0
+            ],
+            "lower_length_m": 1.3800001695190727,
+            "upper_length_m": 1.1500003068343194
+          }
+        }
+      },
+      {
+        "frame": 141,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776131,
+            "upper_length_m": 1.1499999745951548
+          },
+          "REAR": {
+            "contact_top_m": 5.152430057525635,
+            "head_up": [
+              2.682209014892578e-07,
+              4.973799150320701e-14,
+              1.0
+            ],
+            "lower_length_m": 1.3800001695190844,
+            "upper_length_m": 1.1500000217686777
+          }
+        }
+      },
+      {
+        "frame": 161,
+        "rigs": {
+          "FRONT": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776131,
+            "upper_length_m": 1.1499999745951548
+          },
+          "REAR": {
+            "contact_top_m": 4.255001068115234,
+            "head_up": [
+              -1.1175870895385742e-08,
+              -8.881784197001252e-16,
+              0.9999998807907104
+            ],
+            "lower_length_m": 1.3800006815776302,
+            "upper_length_m": 1.149999974595169
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "coupling_span_m": 20.562000581653844,
+    "bogies": [
+      "BOGIE_A_YAW_Z",
+      "BOGIE_B_YAW_Z"
+    ],
+    "axles": [
+      "AXLE_A_1_ROLL_Y",
+      "AXLE_A_2_ROLL_Y",
+      "AXLE_A_3_ROLL_Y",
+      "AXLE_B_1_ROLL_Y",
+      "AXLE_B_2_ROLL_Y",
+      "AXLE_B_3_ROLL_Y"
+    ],
+    "bounds_m": {
+      "min": [
+        -10.321000099182129,
+        -1.5759774446487427,
+        -0.02799999713897705
+      ],
+      "max": [
+        10.321000099182129,
+        1.575974464416504,
+        4.256977558135986
+      ]
+    },
+    "triangles": 147932,
+    "closed_glazing": [
+      {
+        "name": "GLASS_door_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_0_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_0_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_door_1_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_side_lookout_1_1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_1_-1",
+        "bad_edges": 0
+      },
+      {
+        "name": "GLASS_windscreen_1_1",
+        "bad_edges": 0
+      }
+    ],
+    "glazing_material": {
+      "alpha": 0.25,
+      "transmission": 0.0,
+      "fbx_alpha_fallback": true
+    },
+    "passed": true
+  }
+}
