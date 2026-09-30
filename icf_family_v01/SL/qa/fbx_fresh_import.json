@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "errors": [],
+  "fresh_scene_import": true,
+  "mesh_bounds_m": [
+    [
+      -11.228500366210938,
+      11.228500366210938
+    ],
+    [
+      -1.7480015754699707,
+      1.7480015754699707
+    ],
+    [
+      -0.02249997854232788,
+      4.052999973297119
+    ]
+  ],
+  "mesh_count": 4207,
+  "PAX_count": 72,
+  "BERTH_count": 0,
+  "glass": [
+    {
+      "name": "FROST toilet privacy glass",
+      "alpha": 0.5799999833106995,
+      "transmission": 0.0,
+      "fallback_valid": true
+    },
+    {
+      "name": "GLASS sealed passenger glazing alpha fallback",
+      "alpha": 0.2199999988079071,
+      "transmission": 0.0,
+      "fallback_valid": true
+    }
+  ],
+  "verified_rig_nodes": 94,
+  "unit_scales": true,
+  "axis_forward": "X",
+  "axis_up": "Z",
+  "render_objects_excluded": true,
+  "note": "Blender FBX transmission loss is expected. Nonopaque alpha fallback verified; assign target game transparent glass material during conversion."
+}

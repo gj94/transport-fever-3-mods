@@ -1,0 +1,3741 @@
+{
+  "passed": true,
+  "errors": [],
+  "root_identity_empty": true,
+  "units": "metres X longitudinal Y lateral Z up",
+  "mesh_bounds_m": [
+    [
+      -11.228500366210938,
+      11.228500366210938
+    ],
+    [
+      -1.7480000257492065,
+      1.7480000257492065
+    ],
+    [
+      -0.02249997854232788,
+      4.0285964012146
+    ]
+  ],
+  "materials": 19,
+  "pax_count": 73,
+  "berth_references": 0,
+  "cushion_pelvis_checks": [
+    {
+      "marker": "PAX_SEATED_001",
+      "position": [
+        -7.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_002",
+      "position": [
+        -7.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.001"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_003",
+      "position": [
+        -7.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.002"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_004",
+      "position": [
+        -7.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.003"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_005",
+      "position": [
+        -7.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.004"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_006",
+      "position": [
+        -6.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.005"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_007",
+      "position": [
+        -6.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.006"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_008",
+      "position": [
+        -6.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.007"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_009",
+      "position": [
+        -6.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.008"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_010",
+      "position": [
+        -6.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.009"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_011",
+      "position": [
+        -5.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.010"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_012",
+      "position": [
+        -5.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.011"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_013",
+      "position": [
+        -5.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.012"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_014",
+      "position": [
+        -5.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.013"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_015",
+      "position": [
+        -5.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.014"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_016",
+      "position": [
+        -4.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.015"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_017",
+      "position": [
+        -4.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.016"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_018",
+      "position": [
+        -4.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.017"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_019",
+      "position": [
+        -4.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.018"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_020",
+      "position": [
+        -4.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.019"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_021",
+      "position": [
+        -3.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.020"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_022",
+      "position": [
+        -3.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.021"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_023",
+      "position": [
+        -3.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.022"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_024",
+      "position": [
+        -3.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.023"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_025",
+      "position": [
+        -3.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.024"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_026",
+      "position": [
+        -2.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.025"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_027",
+      "position": [
+        -2.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.026"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_028",
+      "position": [
+        -2.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.027"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_029",
+      "position": [
+        -2.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.028"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_030",
+      "position": [
+        -2.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.029"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_031",
+      "position": [
+        -1.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.030"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_032",
+      "position": [
+        -1.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.031"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_033",
+      "position": [
+        -1.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.032"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_034",
+      "position": [
+        -1.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.033"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_035",
+      "position": [
+        -1.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.034"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_036",
+      "position": [
+        0.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.035"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_037",
+      "position": [
+        0.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.036"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_038",
+      "position": [
+        0.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.037"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_039",
+      "position": [
+        0.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.038"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_040",
+      "position": [
+        0.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.039"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_041",
+      "position": [
+        1.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.040"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_042",
+      "position": [
+        1.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.041"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_043",
+      "position": [
+        1.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.042"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_044",
+      "position": [
+        1.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.043"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_045",
+      "position": [
+        1.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.044"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_046",
+      "position": [
+        2.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.045"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_047",
+      "position": [
+        2.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.046"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_048",
+      "position": [
+        2.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.047"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_049",
+      "position": [
+        2.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.048"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_050",
+      "position": [
+        2.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.049"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_051",
+      "position": [
+        3.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.050"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_052",
+      "position": [
+        3.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.051"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_053",
+      "position": [
+        3.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.052"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_054",
+      "position": [
+        3.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.053"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_055",
+      "position": [
+        3.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.054"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_056",
+      "position": [
+        4.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.055"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_057",
+      "position": [
+        4.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.056"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_058",
+      "position": [
+        4.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.057"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_059",
+      "position": [
+        4.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.058"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_060",
+      "position": [
+        4.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.059"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_061",
+      "position": [
+        5.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.060"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_062",
+      "position": [
+        5.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.061"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_063",
+      "position": [
+        5.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.062"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_064",
+      "position": [
+        5.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.063"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_065",
+      "position": [
+        5.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.064"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_066",
+      "position": [
+        6.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.065"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_067",
+      "position": [
+        6.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.066"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_068",
+      "position": [
+        6.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.067"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_069",
+      "position": [
+        6.0,
+        0.5,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.068"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_070",
+      "position": [
+        6.0,
+        1.0499999523162842,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.069"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_071",
+      "position": [
+        7.0,
+        -1.2699999809265137,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.070"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_072",
+      "position": [
+        7.0,
+        -0.8100000023841858,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.071"
+      ]
+    },
+    {
+      "marker": "PAX_SEATED_073",
+      "position": [
+        7.0,
+        -0.3499999940395355,
+        1.2699999809265137
+      ],
+      "yaw_degrees": 0.0,
+      "cushion_candidates": [
+        "Reclining chair seat.072"
+      ]
+    }
+  ],
+  "aperture_ray_checks": [
+    {
+      "x": -6.614999999999999,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -4.725,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -2.835,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -0.9450000000000003,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 0.9449999999999994,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 2.835,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 4.7250000000000005,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 6.614999999999999,
+      "side": -1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -6.614999999999999,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -4.725,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -2.835,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": -0.9450000000000003,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 0.9449999999999994,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 2.835,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 4.7250000000000005,
+      "side": 1,
+      "opaque_shell_blocked": false
+    },
+    {
+      "x": 6.614999999999999,
+      "side": 1,
+      "opaque_shell_blocked": false
+    }
+  ],
+  "hierarchy": {
+    "ICF_CC_ROOT": {
+      "parent": null,
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BODY": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_A_L": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_A_R": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_B_L": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_B_R": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "END_A": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "END_B": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "INTERIOR": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_001": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_002": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_003": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_004": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_005": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_006": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_007": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_008": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_009": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_010": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_011": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_012": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_013": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_014": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_015": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_016": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_017": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_018": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_019": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_020": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_021": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_022": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_023": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_024": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_025": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_026": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_027": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_028": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_029": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_030": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_031": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_032": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_033": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_034": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_035": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_036": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_037": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_038": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_039": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_040": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_041": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_042": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_043": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_044": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_045": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_046": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_047": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_048": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_049": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_050": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_051": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_052": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_053": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_054": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_055": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_056": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_057": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_058": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_059": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_060": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_061": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_062": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_063": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_064": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_065": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_066": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_067": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_068": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_069": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_070": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0499999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_071": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_072": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.8100000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_SEATED_073": {
+      "parent": "INTERIOR",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "ROOF_ASSEMBLY": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "SHELL_SIDE_L": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "SHELL_SIDE_R": {
+      "parent": "BODY",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_1_PIVOT": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.391499996185303
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_1_AXLE_1_ROTATE_Y": {
+      "parent": "BOGIE_1_PIVOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.839500427246094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45749998092651367
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_1_AXLE_2_ROTATE_Y": {
+      "parent": "BOGIE_1_PIVOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.94350004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45749998092651367
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_2_PIVOT": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.391499996185303
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_2_AXLE_1_ROTATE_Y": {
+      "parent": "BOGIE_2_PIVOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.94350004196167
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45749998092651367
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_2_AXLE_2_ROTATE_Y": {
+      "parent": "BOGIE_2_PIVOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          8.839500427246094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.45749998092651367
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "CBC_FRONT_PIVOT": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.380000114440918
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "CBC_REAR_PIVOT": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          -10.380000114440918
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "COUPLING_FRONT": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          11.148500442504883
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "COUPLING_REAR": {
+      "parent": "ICF_CC_ROOT",
+      "world": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          -11.148500442504883
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1050000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "scope": "Geometric checks plus root+0.483m sitting-pelvis convention. Full stock character limbs and animation fit remain runtime checks."
+}

@@ -1,0 +1,202 @@
+{
+  "variant": "1A",
+  "subtype": "WGFAC",
+  "layout": "3 four-berth cabins and 3 two-berth coupes; 18 daytime seated positions",
+  "physical_capacity": 18,
+  "physical_berths": 18,
+  "daytime_seated_positions": 18,
+  "PAX_marker_count": 18,
+  "BERTH_reference_count": 18,
+  "game_capacity": null,
+  "game_capacity_note": "Physical capacity is not gameplay capacity. Existing project ICF balance was20 for72; preserve converter ownership. Do not treat each marker as an extra commercial capacity.",
+  "root": "ICF_1A_ROOT",
+  "root_type": "EMPTY",
+  "body_parent": "BODY",
+  "interior_parent": "INTERIOR",
+  "passenger_facing_axis": "+X local",
+  "passenger_root_offset_below_cushion_m": 0.483,
+  "passenger_animation": "sitting",
+  "legacy_icf_slot_yaw_correction": "Do not apply; these markers carry actual facing yaw already",
+  "berth_export": "Reference-only; never passenger seats",
+  "dimensions_m": {
+    "body_length": 21.337,
+    "body_width": 3.245,
+    "nominal_roof_crown": 4.025,
+    "floor_top": 1.313,
+    "coupling_point_span": 22.297,
+    "coupling_height": 1.105,
+    "bogie_centres": 14.783,
+    "bogie_wheelbase": 2.896,
+    "wheel_tread_diameter": 0.915,
+    "gauge": 1.676
+  },
+  "evaluated_mesh_bounds_m": [
+    [
+      -11.228500366210938,
+      11.228500366210938
+    ],
+    [
+      -1.7480000257492065,
+      1.7480000257492065
+    ],
+    [
+      -0.02249997854232788,
+      4.0285964012146
+    ]
+  ],
+  "triangles": 109414,
+  "mesh_objects": 3311,
+  "material_count": 19,
+  "windows_per_side": 9,
+  "window_apertures": [
+    {
+      "x": -6.92,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -5.4,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -3.92,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -2.4,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -0.5,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 1.5,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 3.5,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 5.08,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 6.59,
+      "y": -1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -6.92,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -5.4,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -3.92,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -2.4,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": -0.5,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 1.5,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 3.5,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 5.08,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    },
+    {
+      "x": 6.59,
+      "y": 1.596,
+      "z": 2.385,
+      "width": 0.98,
+      "height": 0.75
+    }
+  ],
+  "coupling_front_m": [
+    11.1485,
+    0,
+    1.105
+  ],
+  "coupling_rear_m": [
+    -11.1485,
+    0,
+    1.105
+  ],
+  "source_blender_version": "4.3.2",
+  "repo_baseline": "baf66cb5c267125ce2c6e82bf03c0fc6986bf786",
+  "known_limits": [
+    "Representative dimensions and layout capacities supported by railway sources; exact berth/door/window spacing is procedural interpretation, not a traced production drawing.",
+    "CBC retrofit is project-compatible visual adaptation rather than assertion all historical variants carried CBC.",
+    "Daytime folded middles and parked saloon/cabin doors are static; no working animations.",
+    "Glazing source uses Principled transmission plus FBX alpha fallback; target game shader configuration required.",
+    "Upper BERTH markers are references only; no seated characters on upper/middle bunks.",
+    "GS108 and2S108 intentionally share related3+3 shell; GS uses benches,2S uses individual seat units. Reservation class alone is not a unique prototype body.",
+    "No LODs, collision proxies, UV atlas, bilingual exact stock markings, TF3 resources or runtime validation supplied."
+  ],
+  "cbc_contact_profile": "Exact unbeveled complementary8-point extrusion, verified by actual solid intersection tests",
+  "entrance_projection_note": "Tread depth.24m; handrails set complete width envelope. Body remains3.245m."
+}

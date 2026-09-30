@@ -1,0 +1,115 @@
+{
+  "variant": "SL",
+  "asserted_counts_ok": true,
+  "root_identity": true,
+  "material_limit_64_pass": true,
+  "triangles": 136864,
+  "materials": 18,
+  "pax_count": 72,
+  "berth_count": 72,
+  "windows": 36,
+  "apertures": "Wall skin/lining segmented from same opening list; glass panes physically occupy openings",
+  "rail_tread_z": 0.0,
+  "flange_below_rail_is_expected": true,
+  "anchors": {
+    "front": [
+      11.148500442504883,
+      0.0,
+      1.1050000190734863
+    ],
+    "rear": [
+      -11.148500442504883,
+      0.0,
+      1.1050000190734863
+    ]
+  },
+  "mechanical_hierarchy": {
+    "BOGIE_1_PIVOT": {
+      "parent": "ICF_SL_ROOT",
+      "world_position": [
+        -7.391499996185303,
+        0.0,
+        1.0
+      ]
+    },
+    "BOGIE_1_AXLE_1_ROTATE_Y": {
+      "parent": "BOGIE_1_PIVOT",
+      "world_position": [
+        -8.839500427246094,
+        0.0,
+        0.45749998092651367
+      ]
+    },
+    "BOGIE_1_AXLE_2_ROTATE_Y": {
+      "parent": "BOGIE_1_PIVOT",
+      "world_position": [
+        -5.94350004196167,
+        0.0,
+        0.45749998092651367
+      ]
+    },
+    "BOGIE_2_PIVOT": {
+      "parent": "ICF_SL_ROOT",
+      "world_position": [
+        7.391499996185303,
+        0.0,
+        1.0
+      ]
+    },
+    "BOGIE_2_AXLE_1_ROTATE_Y": {
+      "parent": "BOGIE_2_PIVOT",
+      "world_position": [
+        5.94350004196167,
+        0.0,
+        0.45749998092651367
+      ]
+    },
+    "BOGIE_2_AXLE_2_ROTATE_Y": {
+      "parent": "BOGIE_2_PIVOT",
+      "world_position": [
+        8.839500427246094,
+        0.0,
+        0.45749998092651367
+      ]
+    },
+    "COUPLING_FRONT": {
+      "parent": "ICF_SL_ROOT",
+      "world_position": [
+        11.148500442504883,
+        0.0,
+        1.1050000190734863
+      ]
+    },
+    "CBC_FRONT_PIVOT": {
+      "parent": "ICF_SL_ROOT",
+      "world_position": [
+        10.380000114440918,
+        0.0,
+        1.1050000190734863
+      ]
+    },
+    "COUPLING_REAR": {
+      "parent": "ICF_SL_ROOT",
+      "world_position": [
+        -11.148500442504883,
+        0.0,
+        1.1050000190734863
+      ]
+    },
+    "CBC_REAR_PIVOT": {
+      "parent": "ICF_SL_ROOT",
+      "world_position": [
+        -10.380000114440918,
+        0.0,
+        1.1050000190734863
+      ]
+    }
+  },
+  "marker_root_heights": [
+    1.235
+  ],
+  "passenger_cushion_top": 1.718,
+  "pelvis_offset": 0.483,
+  "actual_stock_skeleton_reference": "Repository tools/check_vb_character_fit.py + TF3-INSTALL.md validates sitting pelvis at root +0.483; per-class full animated body runtime fit still unverified",
+  "preview_render": "CPU Cycles,2threads,no denoiser"
+}

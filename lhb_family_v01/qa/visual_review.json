@@ -1,0 +1,18 @@
+{
+  "reviewed_by": "LHB family modelling worker",
+  "scope": [
+    "All7 exterior images via labelled contact sheet",
+    "All7 layout cutaways via labelled contact sheet",
+    "All7 intact interior perspectives",
+    "Representative FIAT-inspired bogie detail",
+    "Isolated paired CBC contact detail"
+  ],
+  "render_engine": "Blender4.3.2 CPU Cycles",
+  "denoising": false,
+  "notes": [
+    "Geometry remained unchanged during rendering; presentation-only lighting and cutaway visibility affect review images only.",
+    "Daytime sleeping coaches have folded middle-berth backrests; upper cushions intentionally hidden only in layout cutaways.",
+    "Some sampling grain and bright inspection-light reflections remain.",
+    "All details are original visual approximations; no photographed textures, exact manufacturer CAD or TF3 runtime evidence."
+  ]
+}

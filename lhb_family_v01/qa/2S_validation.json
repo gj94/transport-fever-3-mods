@@ -1,0 +1,163 @@
+{
+  "source": {
+    "pass": true,
+    "checks": {
+      "root_identity": true,
+      "PAX_count": true,
+      "BERTH_count": true,
+      "PAX_parent_local_contract": true,
+      "PAX_seated_root_height": true,
+      "PAX_yaw": true,
+      "coupling_FRONT": true,
+      "bogie_FRONT": true,
+      "axle_FRONTA": true,
+      "axle_FRONTB": true,
+      "coupling_REAR": true,
+      "bogie_REAR": true,
+      "axle_REARA": true,
+      "axle_REARB": true,
+      "glass_material": true,
+      "through_window_apertures": true,
+      "paired_CBC_no_volume_overlap": true,
+      "torso_head_proxy_clear": true,
+      "material_budget": true,
+      "all_panes_manifold": true,
+      "mesh_closed_components": true
+    },
+    "mesh_count": 2455,
+    "evaluated_triangles": 133412,
+    "materials": 9,
+    "actual_mesh_bounds_m": {
+      "min": [
+        -12.079999923706055,
+        -1.6299999952316284,
+        -0.020499974489212036
+      ],
+      "max": [
+        12.079999923706055,
+        1.6299999952316284,
+        4.039000034332275
+      ]
+    },
+    "anchors": {
+      "FRONT": {
+        "xyz": [
+          12.0,
+          0.0,
+          1.1050000190734863
+        ],
+        "forward": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "REAR": {
+        "xyz": [
+          -12.0,
+          0.0,
+          1.1050000190734863
+        ],
+        "forward": [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0
+        ]
+      }
+    },
+    "nonmanifold_meshes": [],
+    "opaque_window_occlusions": [],
+    "paired_CBC_positive_plan_overlap": [],
+    "proxy_collisions": [],
+    "PAX_count": 102,
+    "BERTH_count": 0,
+    "scope": "Blender source and fresh FBX import only; no native TF3 conversion or runtime test. Torso/head proxies do not verify limbs, passenger variants, or animations."
+  },
+  "fresh_fbx": {
+    "pass": true,
+    "checks": {
+      "root_identity": true,
+      "PAX_count": true,
+      "BERTH_count": true,
+      "PAX_parent_local_contract": true,
+      "PAX_seated_root_height": true,
+      "PAX_yaw": true,
+      "coupling_FRONT": true,
+      "bogie_FRONT": true,
+      "axle_FRONTA": true,
+      "axle_FRONTB": true,
+      "coupling_REAR": true,
+      "bogie_REAR": true,
+      "axle_REARA": true,
+      "axle_REARB": true,
+      "glass_material": true,
+      "through_window_apertures": true,
+      "paired_CBC_no_volume_overlap": true,
+      "torso_head_proxy_clear": true,
+      "material_budget": true,
+      "all_panes_manifold": true,
+      "mesh_closed_components": true
+    },
+    "mesh_count": 2465,
+    "evaluated_triangles": 137708,
+    "materials": 9,
+    "actual_mesh_bounds_m": {
+      "min": [
+        -12.079999923706055,
+        -1.6300019025802612,
+        -0.020499974489212036
+      ],
+      "max": [
+        12.079999923706055,
+        1.6300019025802612,
+        4.039000034332275
+      ]
+    },
+    "anchors": {
+      "FRONT": {
+        "xyz": [
+          12.0,
+          -1.955047991941683e-06,
+          1.1050000190734863
+        ],
+        "forward": [
+          1.0,
+          -1.6292067073209182e-07,
+          0.0
+        ]
+      },
+      "REAR": {
+        "xyz": [
+          -12.0,
+          1.955047991941683e-06,
+          1.1050000190734863
+        ],
+        "forward": [
+          -1.0,
+          1.1924868204005179e-08,
+          0.0
+        ]
+      }
+    },
+    "nonmanifold_meshes": [
+      "CLASS_MARKING",
+      "CLASS_MARKING.001",
+      "COACH_CODE",
+      "COACH_CODE.001",
+      "RAILWAY_MARKING",
+      "RAILWAY_MARKING.001",
+      "WC_sign",
+      "WC_sign.001",
+      "WC_sign.002",
+      "WC_sign.003"
+    ],
+    "opaque_window_occlusions": [],
+    "paired_CBC_positive_plan_overlap": [],
+    "proxy_collisions": [],
+    "PAX_count": 102,
+    "BERTH_count": 0,
+    "scope": "Blender source and fresh FBX import only; no native TF3 conversion or runtime test. Torso/head proxies do not verify limbs, passenger variants, or animations."
+  },
+  "max_bounds_delta_m": 1.9073486328125e-06,
+  "bounds_match": true
+}

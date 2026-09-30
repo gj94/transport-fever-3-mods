@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "models": [
+    "LHB_3A",
+    "ICF_3A"
+  ],
+  "source_sha256": {
+    "LHB_3A": "23055c62a2445282b29d725a0b22d0c9d76dcdf2c6d453bcc5432e33183b98ae",
+    "ICF_3A": "efe7596358a62372e78d2a39d7b75a3f2154b8b0913e10c27bf5e72c5f29bcef"
+  },
+  "ICF_world_translation_m": [
+    23.148500442504883,
+    0.0,
+    0.0
+  ],
+  "mating_plane_xyz_m": [
+    12.0,
+    0.0,
+    1.1050000190734863
+  ],
+  "anchor_position_error_m": 0.0,
+  "outward_axis_dot_product": -1.0,
+  "near_join_evaluated_mesh_counts": [
+    51,
+    106
+  ],
+  "positive_aabb_candidates_exact_boolean_tested": [
+    {
+      "LHB_mesh": "CBC_head_shared_ICF_profile.001",
+      "ICF_mesh": "CBC_REAR_closed_knuckle_head",
+      "aabb_overlap_m": [
+        0.15999984741210938,
+        0.36000001430511475,
+        0.23000001907348633
+      ],
+      "exact_positive_intersection_m3": 0.0
+    }
+  ],
+  "unexpected_positive_volume_intersections": [],
+  "tolerance_m3": 1e-08,
+  "scope": "Representative full evaluated LHB3A + ICF3A straight join. LHB variants separately verify identical shared CBC outline. No curves, compression, yaw or runtime physics tested."
+}

@@ -1,0 +1,611 @@
+[
+  {
+    "variant": "1A",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 3311,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  },
+  {
+    "variant": "2A",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 3979,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  },
+  {
+    "variant": "3A",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 3575,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  },
+  {
+    "variant": "2S",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 4522,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  },
+  {
+    "variant": "CC",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 4235,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  },
+  {
+    "variant": "SL",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 4207,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  },
+  {
+    "variant": "GS",
+    "passed": true,
+    "test": "Two identical full coaches; second car translated +22.297m along X; actual baked evaluated meshes, not only anchor coordinates",
+    "all_meshes_per_coach": 4378,
+    "near_join_meshes_left": 151,
+    "near_join_meshes_right": 157,
+    "anchor_position_error_m": 0.0,
+    "outward_axis_dot_product": -1.0,
+    "body_end_clearance_m": 0.9600000000000009,
+    "positive_aabb_candidates_exact_boolean_tested": [
+      {
+        "intersection_volume_m3": 0.0,
+        "boolean_result_vertices": 0,
+        "boolean_result_faces": 0,
+        "first_mesh": "CBC_FRONT_closed_knuckle_head",
+        "second_mesh": "CBC_REAR_closed_knuckle_head",
+        "aabb_overlap_m": [
+          0.15999984741210938,
+          0.36000001430511475,
+          0.23000001907348633
+        ]
+      }
+    ],
+    "zero_thickness_mating_contacts": [
+      {
+        "first_mesh": "Retained side buffer face",
+        "second_mesh": "Retained side buffer face.002",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      },
+      {
+        "first_mesh": "Retained side buffer face.001",
+        "second_mesh": "Retained side buffer face.003",
+        "aabb_overlap_m": [
+          0.0,
+          0.41999995708465576,
+          0.42000001668930054
+        ],
+        "interpretation": "Zero-thickness nominal mating surface, not positive solid overlap"
+      }
+    ],
+    "unexpected_positive_volume_intersections": [],
+    "tolerances": {
+      "aabb_positive_m": 1e-07,
+      "positive_volume_failure_m3": 1e-08
+    },
+    "cbc_profile_relative_to_plane_m": [
+      [
+        -0.3,
+        -0.1
+      ],
+      [
+        -0.23,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.18
+      ],
+      [
+        -0.08,
+        -0.045
+      ],
+      [
+        0.08,
+        0.045
+      ],
+      [
+        0.08,
+        0.18
+      ],
+      [
+        -0.15,
+        0.18
+      ],
+      [
+        -0.3,
+        0.1
+      ]
+    ],
+    "scope": "Straight static join only; yaw/compression and coupled curves remain runtime work"
+  }
+]

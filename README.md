@@ -46,6 +46,16 @@ For selectable speed caps on individual track sections, see the separate
 underlying variants compatible with saved track sections.
 The original assets and their validation reports below describe the source prototypes.
 
+## ICF and LHB coach-family modelling handoffs
+
+Fourteen new full-length, class-specific coach sources are available in [ICF family](icf_family_v01/README.md) and [LHB family](lhb_family_v01/README.md). Each includes **1A, 2A, 3A, 2S, CC, SL and GS**, with researched representative layouts, class-specific interiors and matching CBC coupling geometry.
+
+The selected physical accommodation counts are ICF 18/46/64/108/73/72/108 and LHB 24/52/72/102/78/80/100 in the order above. These describe the modelled stock, not configured game capacities. 2S is a service designation; the family documentation explains the selected 2S and GS stock patterns and their possible overlap.
+
+Blender masters, FBXs, source scripts, seated-root and separate berth-reference metadata, previews and validation reports are included. Spacing spans are 22.297 m for ICF and 24.000 m for LHB; complete visual bounds are reported separately. Both use the project's 1.105 m CBC alignment convention, with a checked mixed-family straight connection. Passenger markers use the documented stock seated-root offset rather than cushion or upper-berth locations.
+
+These are **modelling handoffs**, not additions to the playable pack yet. The conversion agent must register the variants and handle game capacity, existing gameplay overrides, LODs, door/light behavior and in-game checks. Existing coach sources and game resources remain unchanged.
+
 ## WAG-9 and WAG-12B
 
 New editable source models, prepared against revision 6 of this repository's modelling/conversion workflow:

@@ -1,0 +1,2810 @@
+[
+  {
+    "name": "PAX_SEATED_001",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -7.25,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_002",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -7.25,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_003",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -7.25,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_004",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -6.261111259460449
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -6.261111259460449,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_005",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -6.261111259460449
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -6.261111259460449,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_006",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -6.261111259460449
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -6.261111259460449,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_007",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.300000190734863
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -7.300000190734863,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_008",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -6.211111068725586
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -6.211111068725586,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_009",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -5.561110973358154
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -5.561110973358154,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_010",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -5.561110973358154
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -5.561110973358154,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_011",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -5.561110973358154
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -5.561110973358154,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_012",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -4.5722222328186035
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -4.5722222328186035,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_013",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -4.5722222328186035
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -4.5722222328186035,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_014",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -4.5722222328186035
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -4.5722222328186035,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_015",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -5.611111164093018
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -5.611111164093018,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_016",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -4.52222204208374
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -4.52222204208374,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_017",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -3.8722221851348877
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -3.8722221851348877,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_018",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -3.8722221851348877
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -3.8722221851348877,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_019",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -3.8722221851348877
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -3.8722221851348877,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_020",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -2.883333444595337
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.883333444595337,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_021",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -2.883333444595337
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.883333444595337,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_022",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -2.883333444595337
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.883333444595337,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_023",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -3.922222137451172
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -3.922222137451172,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_024",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -2.8333332538604736
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.8333332538604736,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_025",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.183333396911621
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.183333396911621,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_026",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.183333396911621
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.183333396911621,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_027",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.183333396911621
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.183333396911621,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_028",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -1.1944444179534912
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -1.1944444179534912,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_029",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -1.1944444179534912
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -1.1944444179534912,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_030",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -1.1944444179534912
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -1.1944444179534912,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_031",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.2333333492279053
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -2.2333333492279053,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_032",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -1.144444465637207
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -1.144444465637207,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_033",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.49444442987442017
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -0.49444442987442017,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_034",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.49444442987442017
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -0.49444442987442017,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_035",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.49444442987442017
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -0.49444442987442017,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_036",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        0.49444442987442017
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      0.49444442987442017,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_037",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        0.49444442987442017
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      0.49444442987442017,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_038",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        0.49444442987442017
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      0.49444442987442017,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_039",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.5444444417953491
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      -0.5444444417953491,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_040",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        0.5444444417953491
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      0.5444444417953491,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_041",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.1944444179534912
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      1.1944444179534912,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_042",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.1944444179534912
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      1.1944444179534912,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_043",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.1944444179534912
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      1.1944444179534912,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_044",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        2.183333396911621
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.183333396911621,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_045",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        2.183333396911621
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.183333396911621,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_046",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        2.183333396911621
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.183333396911621,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_047",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.144444465637207
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      1.144444465637207,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_048",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        2.2333333492279053
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.2333333492279053,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_049",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.883333444595337
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.883333444595337,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_050",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.883333444595337
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.883333444595337,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_051",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.883333444595337
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.883333444595337,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_052",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        3.8722221851348877
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      3.8722221851348877,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_053",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        3.8722221851348877
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      3.8722221851348877,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_054",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        3.8722221851348877
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      3.8722221851348877,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_055",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.8333332538604736
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      2.8333332538604736,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_056",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        3.922222137451172
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      3.922222137451172,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_057",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.5722222328186035
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      4.5722222328186035,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_058",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.5722222328186035
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      4.5722222328186035,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_059",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.5722222328186035
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      4.5722222328186035,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_060",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        5.561110973358154
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      5.561110973358154,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_061",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        5.561110973358154
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      5.561110973358154,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_062",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        5.561110973358154
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      5.561110973358154,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_063",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.52222204208374
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      4.52222204208374,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_064",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        5.611111164093018
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      5.611111164093018,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_065",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.261111259460449
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      6.261111259460449,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_066",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.261111259460449
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      6.261111259460449,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_067",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.261111259460449
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      6.261111259460449,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_068",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        7.25
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -1.25
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      7.25,
+      -1.25,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_069",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        7.25
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        -0.6100000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      7.25,
+      -0.6100000143051147,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_070",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        7.25
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.029999999329447746
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      7.25,
+      0.029999999329447746,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_071",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.211111068725586
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      6.211111068725586,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 0.0,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  },
+  {
+    "name": "PAX_SEATED_072",
+    "parent": "INTERIOR",
+    "animation": "sitting",
+    "local_matrix_rows": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        7.300000190734863
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        1.190000057220459
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2350000143051147
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position_m": [
+      7.300000190734863,
+      1.190000057220459,
+      1.2350000143051147
+    ],
+    "yaw_degrees": 180.00000500895632,
+    "root_to_pelvis_m": 0.483,
+    "commercial_capacity_is_separate": true
+  }
+]
