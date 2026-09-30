@@ -1,0 +1,46 @@
+{
+  "status": "Complete modelling-only handoff; sources frozen",
+  "base_car_count": 7,
+  "fbx_export_count": 11,
+  "all_fbx_fresh_import_pass": true,
+  "all_fbx_roots_and_pivots_pass": true,
+  "independent_panto_poses_per_type": 101,
+  "independent_panto_collisions": 0,
+  "independent_cab_rays": 27,
+  "independent_cab_opaque_shell_hits": 0,
+  "driver_eye_camera_basis": [
+    6.43,
+    -0.73,
+    2.48
+  ],
+  "target_game_tests_run": false,
+  "compact_rake_seats": {
+    "8": 420,
+    "16": 880
+  },
+  "triangle_counts": {
+    "DTC": 68567,
+    "MC": 71980,
+    "MC2": 71992,
+    "TC_CC": 73608,
+    "TC_EC": 58440,
+    "NDTC_EC": 56196,
+    "NDTC_EC2": 56196
+  },
+  "lengths_m": {
+    "8": 155.73753356933594,
+    "16": 310.7375183105469
+  },
+  "remaining_conversion_work": [
+    "native vehicle resources and material mapping",
+    "independent per-car control instantiation",
+    "seat compartment mapping and actual passenger/driver character fit",
+    "door/light triggers",
+    "game LODs/collision metadata",
+    "TF3 Model Editor and runtime validation"
+  ],
+  "all_panes_closed_manifold": true,
+  "thin_pane_thickness_m": 0.006,
+  "final_dtc_blend_sha256": "bb5f4102a0edeb52d7e8fa979e7ce4edb93107315aa34e4993cfb7fbe24cba93",
+  "final_dtc_fbx_sha256": "a281108253a8ecce09aec3e6691c10e8885c01b302d1999df48a03f93dd9616c"
+}

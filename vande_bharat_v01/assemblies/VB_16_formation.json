@@ -1,0 +1,813 @@
+{
+  "formation_cars": 16,
+  "prototype_formation_source": "https://digitalscr.in/bzadiv/circulars/misc_circulars/uploads/Vandebharat_GMsanction.pdf",
+  "source_scope": "16-car ordering is official. 8-car inventory is official; two end-BU order and selected TC_EC placement are supported interpretation. Handed orientations mirror units for this model, not factory drawing certification.",
+  "coupling_pitch_m": 19.375,
+  "total_outer_anchor_span_m": 310.0,
+  "actual_visual_x_min_m": -155.36876487731934,
+  "actual_visual_x_max_m": 155.36876487731934,
+  "passenger_seats_compact_total": 880,
+  "cab_indices": [
+    1,
+    16
+  ],
+  "pantograph_indices": [
+    3,
+    6,
+    11,
+    14
+  ],
+  "cars": [
+    {
+      "index": 1,
+      "type": "DTC",
+      "source_blend": "../cars/VB_DTC.blend",
+      "source_fbx": "../cars/VB_DTC.fbx",
+      "origin_m": [
+        -145.3125,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -155.0,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -135.625,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -155.0,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -135.625,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -155.36876487731934,
+      "visual_x_max_m": -135.625,
+      "compact_passenger_seats": 40,
+      "pantograph": false
+    },
+    {
+      "index": 2,
+      "type": "MC",
+      "source_blend": "../cars/VB_MC.blend",
+      "source_fbx": "../cars/VB_MC.fbx",
+      "origin_m": [
+        -125.9375,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -135.625,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -116.25,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -135.625,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -116.25,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -135.625,
+      "visual_x_max_m": -116.25,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 3,
+      "type": "TC_CC",
+      "source_blend": "../cars/VB_TC_CC.blend",
+      "source_fbx": "../cars/VB_TC_CC.fbx",
+      "origin_m": [
+        -106.5625,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -116.25,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -96.875,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -116.25,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -96.875,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -116.25,
+      "visual_x_max_m": -96.875,
+      "compact_passenger_seats": 60,
+      "pantograph": true
+    },
+    {
+      "index": 4,
+      "type": "MC2",
+      "source_blend": "../cars/VB_MC2.blend",
+      "source_fbx": "../cars/VB_MC2.fbx",
+      "origin_m": [
+        -87.1875,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -96.875,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -77.5,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -96.875,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -77.5,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -96.875,
+      "visual_x_max_m": -77.5,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 5,
+      "type": "MC",
+      "source_blend": "../cars/VB_MC.blend",
+      "source_fbx": "../cars/VB_MC.fbx",
+      "origin_m": [
+        -67.8125,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -77.5,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -58.125,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -77.5,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -58.125,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -77.5,
+      "visual_x_max_m": -58.125,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 6,
+      "type": "TC_CC",
+      "source_blend": "../cars/VB_TC_CC.blend",
+      "source_fbx": "../cars/VB_TC_CC.fbx",
+      "origin_m": [
+        -48.4375,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -58.125,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -38.75,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -58.125,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -38.75,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -58.125,
+      "visual_x_max_m": -38.75,
+      "compact_passenger_seats": 60,
+      "pantograph": true
+    },
+    {
+      "index": 7,
+      "type": "MC2",
+      "source_blend": "../cars/VB_MC2.blend",
+      "source_fbx": "../cars/VB_MC2.fbx",
+      "origin_m": [
+        -29.0625,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -38.75,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        -19.375,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -38.75,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        -19.375,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -38.75,
+      "visual_x_max_m": -19.375,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 8,
+      "type": "NDTC_EC",
+      "source_blend": "../cars/VB_NDTC_EC.blend",
+      "source_fbx": "../cars/VB_NDTC_EC.fbx",
+      "origin_m": [
+        -9.6875,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "facing_sign": -1,
+      "coupling_front_world_m": [
+        -19.375,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        0.0,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        -19.375,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        0.0,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": -19.375,
+      "visual_x_max_m": 0.0,
+      "compact_passenger_seats": 40,
+      "pantograph": false
+    },
+    {
+      "index": 9,
+      "type": "NDTC_EC2",
+      "source_blend": "../cars/VB_NDTC_EC2.blend",
+      "source_fbx": "../cars/VB_NDTC_EC2.fbx",
+      "origin_m": [
+        9.6875,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        19.375,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        0.0,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        0.0,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        19.375,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 0.0,
+      "visual_x_max_m": 19.375,
+      "compact_passenger_seats": 40,
+      "pantograph": false
+    },
+    {
+      "index": 10,
+      "type": "MC2",
+      "source_blend": "../cars/VB_MC2.blend",
+      "source_fbx": "../cars/VB_MC2.fbx",
+      "origin_m": [
+        29.0625,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        38.75,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        19.375,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        19.375,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        38.75,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 19.375,
+      "visual_x_max_m": 38.75,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 11,
+      "type": "TC_CC",
+      "source_blend": "../cars/VB_TC_CC.blend",
+      "source_fbx": "../cars/VB_TC_CC.fbx",
+      "origin_m": [
+        48.4375,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        58.125,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        38.75,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        38.75,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        58.125,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 38.75,
+      "visual_x_max_m": 58.125,
+      "compact_passenger_seats": 60,
+      "pantograph": true
+    },
+    {
+      "index": 12,
+      "type": "MC",
+      "source_blend": "../cars/VB_MC.blend",
+      "source_fbx": "../cars/VB_MC.fbx",
+      "origin_m": [
+        67.8125,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        77.5,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        58.125,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        58.125,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        77.5,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 58.125,
+      "visual_x_max_m": 77.5,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 13,
+      "type": "MC2",
+      "source_blend": "../cars/VB_MC2.blend",
+      "source_fbx": "../cars/VB_MC2.fbx",
+      "origin_m": [
+        87.1875,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        96.875,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        77.5,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        77.5,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        96.875,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 77.5,
+      "visual_x_max_m": 96.875,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 14,
+      "type": "TC_CC",
+      "source_blend": "../cars/VB_TC_CC.blend",
+      "source_fbx": "../cars/VB_TC_CC.fbx",
+      "origin_m": [
+        106.5625,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        116.25,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        96.875,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        96.875,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        116.25,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 96.875,
+      "visual_x_max_m": 116.25,
+      "compact_passenger_seats": 60,
+      "pantograph": true
+    },
+    {
+      "index": 15,
+      "type": "MC",
+      "source_blend": "../cars/VB_MC.blend",
+      "source_fbx": "../cars/VB_MC.fbx",
+      "origin_m": [
+        125.9375,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        135.625,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        116.25,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        116.25,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        135.625,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 116.25,
+      "visual_x_max_m": 135.625,
+      "compact_passenger_seats": 60,
+      "pantograph": false
+    },
+    {
+      "index": 16,
+      "type": "DTC",
+      "source_blend": "../cars/VB_DTC.blend",
+      "source_fbx": "../cars/VB_DTC.fbx",
+      "origin_m": [
+        145.3125,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "facing_sign": 1,
+      "coupling_front_world_m": [
+        155.0,
+        0,
+        1.02
+      ],
+      "coupling_rear_world_m": [
+        135.625,
+        0,
+        1.02
+      ],
+      "left_spacing_datum_world_m": [
+        135.625,
+        0,
+        1.02
+      ],
+      "right_spacing_datum_world_m": [
+        155.0,
+        0,
+        1.02
+      ],
+      "visual_x_min_m": 135.625,
+      "visual_x_max_m": 155.36876487731934,
+      "compact_passenger_seats": 40,
+      "pantograph": false
+    }
+  ],
+  "joins": [
+    {
+      "cars": [
+        1,
+        2
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        2,
+        3
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        3,
+        4
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        4,
+        5
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        5,
+        6
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        6,
+        7
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        7,
+        8
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        8,
+        9
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        9,
+        10
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        10,
+        11
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        11,
+        12
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        12,
+        13
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        13,
+        14
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        14,
+        15
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    },
+    {
+      "cars": [
+        15,
+        16
+      ],
+      "anchor_error_m": 0.0,
+      "main_body_end_clearance_m": 0.7149999999999999,
+      "bellows_lip_clearance_m": 0.02499999999999858,
+      "floor_bridge_gap_m": 0.03500000000000014,
+      "passage_clear_width_m": 1.06,
+      "note": "straight authored pose only; no runtime curve/compression claim"
+    }
+  ],
+  "outer_datum_note": "DTC outward anchor is a stowed rescue-coupler/formation-spacing datum behind the closed nose fairing. Whole trainset coupling is unsupported.",
+  "assembly_scene_note": "Collection instances link reusable source cars. Per-type shared rig control in this review scene; conversion must instantiate each per-car rig independently.",
+  "actual_visible_length_m": 310.7375297546387,
+  "platform_320_margin_m": 9.262470245361328,
+  "evaluated_instance_bounds_m": {
+    "min": [
+      -155.36875915527344,
+      -1.7300007343292236,
+      -0.02800002694129944
+    ],
+    "max": [
+      155.36875915527344,
+      1.7300007343292236,
+      4.14900016784668
+    ]
+  },
+  "evaluated_length_m": 310.7375183105469
+}

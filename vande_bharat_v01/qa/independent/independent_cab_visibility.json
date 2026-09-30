@@ -1,0 +1,621 @@
+{
+  "source": "cars/VB_DTC.blend",
+  "source_sha256": "bb5f4102a0edeb52d7e8fa979e7ce4edb93107315aa34e4993cfb7fbe24cba93",
+  "rays": [
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.5089645385742188,
+          "point": [
+            8.92941665649414,
+            -0.9486706852912903,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.2517900466918945,
+          "point": [
+            8.664685249328613,
+            -0.9255096316337585,
+            2.6762564182281494
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.058051586151123,
+          "point": [
+            8.449071884155273,
+            -0.9066460132598877,
+            2.837376832962036
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "opaque_hits": [
+        {
+          "object": "Front_wipers",
+          "distance": 2.5977561473846436,
+          "point": [
+            9.027755737304688,
+            -0.7300000190734863,
+            2.4800000190734863
+          ]
+        }
+      ],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.536370277404785,
+          "point": [
+            8.96636962890625,
+            -0.7300000190734863,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.274153470993042,
+          "point": [
+            8.695499420166016,
+            -0.7300000190734863,
+            2.6782054901123047
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.076782464981079,
+          "point": [
+            8.475231170654297,
+            -0.7300000190734863,
+            2.8406295776367188
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.5733542442321777,
+          "point": [
+            8.993561744689941,
+            -0.505717396736145,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.304503917694092,
+          "point": [
+            8.716998100280762,
+            -0.5299135446548462,
+            2.6808507442474365
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "left_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        -0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.1023240089416504,
+          "point": [
+            8.49250602722168,
+            -0.5495541095733643,
+            2.845064640045166
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.5733702182769775,
+          "point": [
+            8.99357795715332,
+            0.5057160258293152,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.304556131362915,
+          "point": [
+            8.717050552368164,
+            0.5299090147018433,
+            2.6808552742004395
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.1023547649383545,
+          "point": [
+            8.492536544799805,
+            0.5495514273643494,
+            2.8450701236724854
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "opaque_hits": [
+        {
+          "object": "Front_wipers",
+          "distance": 2.5977563858032227,
+          "point": [
+            9.027755737304688,
+            0.7300000190734863,
+            2.4800000190734863
+          ]
+        }
+      ],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.53637957572937,
+          "point": [
+            8.966379165649414,
+            0.7300000190734863,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.274169445037842,
+          "point": [
+            8.695515632629395,
+            0.7300000190734863,
+            2.6782069206237793
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.0767948627471924,
+          "point": [
+            8.47524356842041,
+            0.7300000190734863,
+            2.8406317234039307
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.5089690685272217,
+          "point": [
+            8.929421424865723,
+            0.9486711025238037,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.2518081665039062,
+          "point": [
+            8.664703369140625,
+            0.9255112409591675,
+            2.676258087158203
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "right_proposed_eye",
+      "origin": [
+        6.429999828338623,
+        0.7300000190734863,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.0580646991729736,
+          "point": [
+            8.449085235595703,
+            0.9066470861434937,
+            2.837379217147827
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.5950231552124023,
+          "point": [
+            9.015148162841797,
+            -0.22617118060588837,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.327697992324829,
+          "point": [
+            8.740015983581543,
+            -0.2021002620458603,
+            2.6828722953796387
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": -5,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.1261708736419678,
+          "point": [
+            8.515901565551758,
+            -0.18249274790287018,
+            2.849205732345581
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.590437412261963,
+          "point": [
+            9.020437240600586,
+            0.0,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.3238511085510254,
+          "point": [
+            8.74500846862793,
+            0.0,
+            2.682537078857422
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.123039960861206,
+          "point": [
+            8.52078628540039,
+            0.0,
+            2.8486621379852295
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 0,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.595024585723877,
+          "point": [
+            9.01515007019043,
+            0.22617129981517792,
+            2.4800000190734863
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 5,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.3276994228363037,
+          "point": [
+            8.740017890930176,
+            0.20210038125514984,
+            2.6828722953796387
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "central_review_eye",
+      "origin": [
+        6.429999828338623,
+        0.0,
+        2.4800000190734863
+      ],
+      "yaw_deg": 5,
+      "pitch_deg": 10,
+      "opaque_hits": [],
+      "glass_hits": [
+        {
+          "object": "Nose_windscreen",
+          "distance": 2.12617564201355,
+          "point": [
+            8.51590633392334,
+            0.1824931651353836,
+            2.8492064476013184
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Opaque forward visibility only; transparent glass excluded from occlusion, reported separately. No TF3 camera/avatar/render-material certification."
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "cars": 8,
+    "linked_sources_found": true,
+    "car_types": [
+      "DTC",
+      "MC",
+      "TC_EC",
+      "MC2",
+      "MC2",
+      "TC_CC",
+      "MC",
+      "DTC"
+    ],
+    "mesh_instances": 1036,
+    "actual_vertex_bounds_m": [
+      [
+        -77.86876678466797,
+        -1.7300007343292236,
+        -0.02800002694129944
+      ],
+      [
+        77.86876678466797,
+        1.7300007343292236,
+        4.14900016784668
+      ]
+    ],
+    "visible_length_m": 155.73753356933594,
+    "total_platform_margin_m": 164.26246643066406,
+    "anchor_span_m": 155.0,
+    "joins": [
+      {
+        "pair": [
+          "CAR_01_DTC",
+          "CAR_02_MC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_02_MC",
+          "CAR_03_TC_EC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_03_TC_EC",
+          "CAR_04_MC2"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_04_MC2",
+          "CAR_05_MC2"
+        ],
+        "position_error_m": 8.469081764375686e-07,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_05_MC2",
+          "CAR_06_TC_CC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_06_TC_CC",
+          "CAR_07_MC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_07_MC",
+          "CAR_08_DTC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      }
+    ]
+  },
+  {
+    "cars": 16,
+    "linked_sources_found": true,
+    "car_types": [
+      "DTC",
+      "MC",
+      "TC_CC",
+      "MC2",
+      "MC",
+      "TC_CC",
+      "MC2",
+      "NDTC_EC",
+      "NDTC_EC2",
+      "MC2",
+      "TC_CC",
+      "MC",
+      "MC2",
+      "TC_CC",
+      "MC",
+      "DTC"
+    ],
+    "mesh_instances": 1994,
+    "actual_vertex_bounds_m": [
+      [
+        -155.36875915527344,
+        -1.7300007343292236,
+        -0.02800002694129944
+      ],
+      [
+        155.36875915527344,
+        1.7300007343292236,
+        4.14900016784668
+      ]
+    ],
+    "visible_length_m": 310.7375183105469,
+    "total_platform_margin_m": 9.262481689453125,
+    "anchor_span_m": 310.0,
+    "joins": [
+      {
+        "pair": [
+          "CAR_01_DTC",
+          "CAR_02_MC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_02_MC",
+          "CAR_03_TC_CC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_03_TC_CC",
+          "CAR_04_MC2"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_04_MC2",
+          "CAR_05_MC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_05_MC",
+          "CAR_06_TC_CC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_06_TC_CC",
+          "CAR_07_MC2"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_07_MC2",
+          "CAR_08_NDTC_EC"
+        ],
+        "position_error_m": 1.6938163528751373e-06,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_08_NDTC_EC",
+          "CAR_09_NDTC_EC2"
+        ],
+        "position_error_m": 8.469081764375686e-07,
+        "outward_normal_dot": -1.0000000000000153
+      },
+      {
+        "pair": [
+          "CAR_09_NDTC_EC2",
+          "CAR_10_MC2"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_10_MC2",
+          "CAR_11_TC_CC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_11_TC_CC",
+          "CAR_12_MC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_12_MC",
+          "CAR_13_MC2"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_13_MC2",
+          "CAR_14_TC_CC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_14_TC_CC",
+          "CAR_15_MC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      },
+      {
+        "pair": [
+          "CAR_15_MC",
+          "CAR_16_DTC"
+        ],
+        "position_error_m": 0.0,
+        "outward_normal_dot": -1.0
+      }
+    ]
+  }
+]

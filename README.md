@@ -19,6 +19,27 @@ enable **Indian Rail Prototype Pack**, and use year 2000 or later with electrifi
 See also [moddable vehicle features and sounds](TF3-VEHICLE-FEATURES.md).
 The original assets and their validation reports below describe the source prototypes.
 
+## Vande Bharat compact modelling handoff
+
+[Open the Vande Bharat 2.0 white-blue chair-car source assets and conversion handoff](vande_bharat_v01).
+
+![Vande Bharat driving trailer](vande_bharat_v01/renders/nose.png)
+
+Seven reusable car types support distinct 8-car and 16-car formations, with no intermediate driving cabs. The bodies/layouts are deliberately shortened for the requested 320 m platform budget while retaining the reference gauge, width, height and wheel diameter. This is a compact visual interpretation, not a 1:1-length replica.
+
+| Formation | Coupling-datum span | Measured visible length | Margin below 320 m |
+|---|---:|---:|---:|
+| 8 cars | 155.000 m | 155.738 m | 164.262 m |
+| 16 cars | 310.000 m | 310.738 m | 9.262 m |
+
+The measured visible envelope includes both noses and all evaluated mesh projections. Internal anchors use 19.375 m pitch. Complete linked rake scenes, exact placements/orientations and length measurements are included in the [formation manifests](vande_bharat_v01/assemblies).
+
+[Same-scale length proof](vande_bharat_v01/renders/formation_length_proof.png) · [Passenger interior](vande_bharat_v01/renders/interior.png) · [Cab view](vande_bharat_v01/renders/cab.png)
+
+The handoff contains seven per-car Blender masters, eleven static/motion FBXs, independent door/bogie/axle/pantograph EMPTY hierarchies, interiors and character-placement guides. Both trailer pantograph rigs have live controls and baked motion samples. All eleven FBXs were freshly re-imported; all 22 inter-car joins align and both rigs passed 101-pose clearance checks. Linked assembly libraries use relative paths: keep the folder tree intact.
+
+**Modelling only:** these assets have not been added to the installed TF3 distribution. Existing conversion scripts, game resources and distribution packages are unchanged. The conversion agent must add VB-specific mappings; the existing WAP7/LHB/ICF settings are not drop-in mappings for these cars. Passenger-character root offsets remain provisional until fitted to the native sitting animation. See the source README for compact seat counts, formation assumptions, outer nose-spacing datums, animation bounds and remaining runtime work.
+
 ## Pantograph rig v0.4
 
 [Open the independently articulated WAP-7, poses, animation samples and full control documentation](pantograph_v04).

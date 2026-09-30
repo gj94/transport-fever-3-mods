@@ -1,0 +1,25 @@
+{
+  "coordinate_system": "Metres, X longitudinal/front, Y lateral, Z up; rail=0",
+  "coupling_z_m": 1.02,
+  "pax_semantics": "Proposed CHARACTER ROOT, not cushion or hip marker. Local transform is consumed directly by current converter.",
+  "pax_cushion_top_z_m": 1.75,
+  "pax_character_root_z_m": 1.267,
+  "assumed_hip_offset_m": 0.483,
+  "hip_offset_provenance": "Previously measured for WAP7 driving_upright. Not independently established for TF3 sitting animation.",
+  "pax_fit_status": "Provisional; converter must fit actual sitting character before use",
+  "driver_semantics": "Proposed CHARACTER ROOTS DRIVER_001 and DRIVER_002, not cushion/hip points; untested VB driver fit",
+  "view_marker": "CAB_EYE_CAMERA_REFERENCE: authoring reference only, never a seat or claimed runtime camera",
+  "door_status": "Separated moving leaf pivots with suggested plug/slide translation properties, no runtime animation",
+  "light_status": "Separated lens meshes/anchors, no runtime triggers",
+  "seat_counts": {
+    "DTC": 40,
+    "MC": 60,
+    "MC2": 60,
+    "TC_CC": 60,
+    "TC_EC": 40,
+    "NDTC_EC": 40,
+    "NDTC_EC2": 40
+  },
+  "animated_pantograph_contact_top_m": 5.917,
+  "animated_bounds_note": "Folded-car bounds do not cover raised pantograph. Converter should account for raised head in culling/extent metadata; no runtime metadata supplied."
+}

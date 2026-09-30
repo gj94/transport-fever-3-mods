@@ -1,0 +1,46 @@
+{
+  "kind": "DTC",
+  "passenger_seats": 40,
+  "driver_seats": 2,
+  "meshes": 155,
+  "triangles": 68567,
+  "objects": 216,
+  "bounds_lowered_m": {
+    "min": [
+      -9.6875,
+      -1.7300000190734863,
+      -0.02800002694129944
+    ],
+    "max": [
+      10.056264877319336,
+      1.7300000190734863,
+      4.14900016784668
+    ]
+  },
+  "coupling_front_m": [
+    9.6875,
+    0,
+    1.02
+  ],
+  "coupling_rear_m": [
+    -9.6875,
+    0,
+    1.02
+  ],
+  "coupling_pitch_m": 19.375,
+  "body_end_planes_m": [
+    -9.33,
+    5.65
+  ],
+  "gangway_mating_extent_m": [
+    -9.6875
+  ],
+  "bogie_centres_m": [
+    -5.85,
+    5.85
+  ],
+  "wheelbase_m": 2.7,
+  "wheelbase_status": "provisional: secondary corroboration; not certified from drawing",
+  "wheel_diameter_m": 0.952,
+  "panto": null
+}

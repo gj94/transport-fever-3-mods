@@ -1,0 +1,47 @@
+{
+  "kind": "MC2",
+  "passenger_seats": 60,
+  "driver_seats": 0,
+  "meshes": 119,
+  "triangles": 71992,
+  "objects": 193,
+  "bounds_lowered_m": {
+    "min": [
+      -9.6875,
+      -1.7300000190734863,
+      -0.02800002694129944
+    ],
+    "max": [
+      9.6875,
+      1.7300000190734863,
+      4.14900016784668
+    ]
+  },
+  "coupling_front_m": [
+    9.6875,
+    0,
+    1.02
+  ],
+  "coupling_rear_m": [
+    -9.6875,
+    0,
+    1.02
+  ],
+  "coupling_pitch_m": 19.375,
+  "body_end_planes_m": [
+    -9.33,
+    9.33
+  ],
+  "gangway_mating_extent_m": [
+    -9.6875,
+    9.6875
+  ],
+  "bogie_centres_m": [
+    -5.85,
+    5.85
+  ],
+  "wheelbase_m": 2.7,
+  "wheelbase_status": "provisional: secondary corroboration; not certified from drawing",
+  "wheel_diameter_m": 0.952,
+  "panto": null
+}
