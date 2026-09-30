@@ -6,7 +6,18 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 - **LHB AC 3-tier** coach in red/grey
 - **Conventional ICF sleeper** coach in blue/cyan
 
-**These are dimensioned visual prototypes, not a working or game-tested Transport Fever 3 mod.** Detailed masters prioritize separated components and reviewable shape; they require optimization and integration before game use.
+The repository includes dimensioned Blender source prototypes and a playable,
+locally converted TF3 pack. The source masters prioritize separated components;
+the conversion supplies native game resources, materials, LODs and metadata.
+
+A local TF3 conversion is now installed and play-tested, including updated
+interiors, CBC couplings and pantographs. See [installation and play-test notes](TF3-INSTALL.md)
+for the current revision, reproducible build steps, fixes and remaining checks.
+Download the [playable TF3 pack (revision 4)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+Extract its `gj94_indian_rail_pack` folder into your TF3 `local/mods` folder,
+enable **Indian Rail Prototype Pack**, and use year 2000 or later with electrified track.
+See also [moddable vehicle features and sounds](TF3-VEHICLE-FEATURES.md).
+The original assets and their validation reports below describe the source prototypes.
 
 ## Pantograph rig v0.4
 
@@ -20,7 +31,10 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 - Live-driver Blender master, baked-motion Blender master, static lowered/raised FBXs and a losslessly zipped baked motion-sample FBX included
 - The animated sample is 24 fps; independent front/rear intervals and Blender FBX import-offset handling are documented
 
-This is an adjustable authoring rig, not a fixed catenary-height binding. The README gives a height-to-control formula, pivot names and how to revise the authoring range. TF3 triggers, operating wire-height adjustment and game testing remain with the user.
+This is an adjustable authoring rig. The source README gives a height-to-control
+formula, pivot names and how to revise the authoring range. Our TF3 conversion
+adds the wire-height binding and extends the illustrative endpoint to 45 degrees;
+see [integration details](TF3-INSTALL.md).
 
 All 2,661 protected source objects were checked unchanged, including interiors, origin/metre scale, coupling anchors and bogie/axle hierarchy. Fresh static/animated FBX imports and intermediate-pose/collision checks passed within documented tolerances. The mechanism is a simplified game-oriented approximation, not manufacturer-exact hardware.
 
@@ -45,12 +59,14 @@ Fresh FBX checks cover both anchor frames and preserved mechanical hierarchy. Th
 
 ## Interior pass v0.2
 
-Updated editable masters and FBX exports are in [`interiors_v02`](interiors_v02). These are Blender asset-development models, **not a working or game-tested TF3 mod**. The original exterior prototypes remain below for comparison.
+Updated editable masters and FBX exports are in [`interiors_v02`](interiors_v02).
+These are source assets; the downloadable converted pack adds TF3 integration.
+The original exterior prototypes remain below for comparison.
 
 - WAP-7: both cabs, driving desks, gauges, seats, pedals, window openings and transparent glazing
 - LHB 3A: nine daytime berth bays, folded middle backrests, ladders, racks, partitions, AC fittings, clear aisle and vestibule detail
 - ICF sleeper: variant-specific berth bays, fans, ladders, racks, shutter/window fittings and entry detail
-- Each coach has 72 berth references and 72 seated authoring locators; these are not yet connected to TF3 passenger metadata
+- Each coach has 72 berth references and 72 seated authoring locators, exported as passenger-seat metadata by our conversion
 
 ### WAP-7 cab
 ![WAP-7 cab review](interiors_v02/wap7/WAP7_cab_review.png)
