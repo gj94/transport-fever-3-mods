@@ -6,6 +6,7 @@ from model_sources import MODELS
 from vande_bharat import CAPACITY,YEAR as VB_YEAR,SPEED as VB_SPEED
 from tf3_resource_paths import resolve_model_ref
 from freight_locomotives import SPECS as FREIGHT_SPECS
+from coach_families import SPECS as COACH_SPECS
 from tf3_icons import construction_sizes
 
 MOD = Path(__file__).resolve().parents[1] / 'game_build' / 'gj94_indian_rail_pack'
@@ -18,14 +19,17 @@ for model in models:
     assert 'priceFactor=0.5' in transport_text, f'{model.stem}: fare factor must match stock trains'
     from check_tf3_balance import model_stats,number,table
     speed_year={'icf_sleeper':(110,1980),'lhb_3a':(200,2000),'wap7':(180,2000)}
+    if model.stem in COACH_SPECS:
+        spec=COACH_SPECS[model.stem]
+        speed_year[model.stem]=(spec['speed'],spec['year'])
     if model.stem in FREIGHT_SPECS:
         spec=FREIGHT_SPECS[model.stem]
         speed_year[model.stem]=(spec['speed'],spec['year'])
     if model.stem.startswith('vb_'):speed_year[model.stem]=(VB_SPEED,VB_YEAR)
     speed,year=speed_year[model.stem]
     assert abs(model_stats(text)['speed_kmh']-speed)<.001 and number(table(text,'availability'),'yearFrom')==year
-    if model.stem in {'icf_sleeper','lhb_3a'}:
-        capacity = 80 if model.stem == 'icf_sleeper' else 88
+    if model.stem in COACH_SPECS:
+        capacity = COACH_SPECS[model.stem]['capacity']
         assert f'capacity={capacity},' in transport_text, f'{model.stem}: incorrect balanced capacity'
         assert f'weightMaxPayload={capacity*80}' in text, f'{model.stem}: payload must follow capacity'
     meshes = set(re.findall(r'mesh="([^"]+)"', text))
@@ -75,12 +79,12 @@ for model in models:
         transport_text=text.split('transportVehicle=',1)[1]
         assert 'filterTags={}' in transport_text, f'{model.stem}: individual car must be hidden from the depot'
     # The conventional coaches retain the source's 72 physical passenger locators.
-    expected=CAPACITY[kind]+(2 if kind=='DTC' else 0) if vb else (2 if model.stem=='wap7' or model.stem in FREIGHT_SPECS else 72)
+    expected=CAPACITY[kind]+(2 if kind=='DTC' else 0) if vb else (COACH_SPECS[model.stem]['physical'] if model.stem in COACH_SPECS else 2)
     assert seat_text.count('animation=')==expected, f'{model.stem}: missing seats'
     node_text=text.split('metadata=',1)[0]
     for group in re.findall(r'group="([^"]+)"',seat_text):
         assert 'name="'+group+'"' in node_text, (model.stem,group)
-    if model.stem in {'wap7','icf_sleeper'} or model.stem in FREIGHT_SPECS or vb:
+    if model.stem=='wap7' or model.stem in COACH_SPECS or model.stem in FREIGHT_SPECS or vb:
         anchor_x={}
         for label in ('front','rear'):
             match=re.search(r'name="coupling_'+label+r'",transf=\{([^}]+)\}',node_text)
@@ -93,6 +97,7 @@ for model in models:
         assert abs(float(extent.group(1).split(',')[0])-anchor_x['rear'])<1e-5
         assert abs(float(extent.group(2).split(',')[0])-anchor_x['front'])<1e-5
         expected_span=19.375 if vb else (20.4 if model.stem=='wap7' else 22.297)
+        if model.stem in COACH_SPECS:expected_span=COACH_SPECS[model.stem]['length']
         if model.stem in FREIGHT_SPECS:expected_span=FREIGHT_SPECS[model.stem]['length']
         assert abs(anchor_x['front']-anchor_x['rear']-expected_span)<1e-5
         print(f'{model.stem}: coupling frames and spacing span {expected_span} m checked')

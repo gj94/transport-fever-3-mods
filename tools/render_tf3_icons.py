@@ -40,9 +40,12 @@ for key,source in selected_models(sys.argv):
     points=[ob.matrix_world @ Vector(corner) for ob in objects if ob.type in {'MESH','FONT','CURVE'} for corner in ob.bound_box]
     xmin,xmax=min(p.x for p in points),max(p.x for p in points)
     width=2*math.ceil(((xmax-xmin)*16+4)/2)
-    for suffix,width,height,location,scale in [('store',414,286,(25,-32,17),29),('icon_small@2x',width,112,((xmin+xmax)/2,-35,3.40),width/16)]:
+    views=[('store',414,286,((xmin+xmax)/2,-35,2.3),29)]
+    if '--store-only' not in sys.argv:
+        views.append(('icon_small@2x',width,112,((xmin+xmax)/2,-35,3.40),width/16))
+    for suffix,width,height,location,scale in views:
         cam.location=location
-        target=Vector((0,0,1.9)) if suffix=='store' else Vector((location[0],0,location[2]))
+        target=Vector((location[0],0,location[2]))
         cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler()
         cam.data.ortho_scale=scale
         scene.render.resolution_x=width;scene.render.resolution_y=height

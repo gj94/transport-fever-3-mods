@@ -40,12 +40,13 @@ def main():
         if name not in cache:cache[name]=lua.execute(scripts[name[3:]])
         return cache[name]
     lua.globals().require=require
+    lua.globals().resolve=lambda name:'gj94_indian_rail_pack::/gui/'+name
     def load(path):
         lua.execute(path.read_text())
         return lua.globals().data()
     # Parse every native table, including meshes/materials and the private sound
     # set through the installed base helpers. No copied game code in the pack.
-    resources=[p for p in mod.rglob('*') if p.is_file() and p.suffix in {'.mdl','.msh','.mtl','.ani','.lua'}]
+    resources=[p for p in mod.rglob('*') if p.is_file() and p.suffix in {'.mdl','.msh','.mtl','.ani','.lua'} and not p.name.endswith('.script.lua')]
     for path in resources:load(path)
     report={'lua_tables_executed':len(resources),'models':{}}
     with zipfile.ZipFile(args.game_root/'base/content/characters.zip') as z:

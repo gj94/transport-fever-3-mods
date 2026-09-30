@@ -160,6 +160,23 @@ def check(name, code):
     checks.append(name)
 
 
+from coach_families import SPECS as COACH_SPECS
+for key, spec in COACH_SPECS.items():
+    lua.execute((MOD / f'content/vehicle/train/{key}/{key}.mdl').read_text())
+    metadata = lua.globals().data()['metadata']
+    assert metadata['transportVehicle']['filterTags'][1] == 'default'
+    lua.globals().familyCoach = lua.globals().element(
+        f'gj94_indian_rail_pack::/vehicle/train/{key}/{key}.mdl', False,
+        metadata['transportVehicle']['compartments'][1]['loadConfigs'][1]['cargoEntry']['capacity'],
+        metadata['availability']['yearFrom'], False)
+    check(f'{key} appears in Indian Railways from its family year', f'''
+railTabs(false)
+params.year={spec['year']-1}; assert(not store.vehicleFilter(familyCoach,params,currentFilter))
+params.year={spec['year']}; assert(store.vehicleFilter(familyCoach,params,currentFilter))
+params.year=2026
+''')
+
+
 check("Default section contains engines, coaches and multiple-unit trainsets", '''
 railTabs(false)
 assert(widget.value==9401 and widget.initialValue==9401 and #widget.tabs==5)

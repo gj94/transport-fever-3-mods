@@ -1,4 +1,7 @@
-MODELS=[('wap7','pantograph_v04/WAP7_pantograph_v04.blend'),('lhb_3a','interiors_v02/lhb/LHB_3A_interior_v02.blend'),('icf_sleeper','coupling_v03/icf/ICF_sleeper_CBC_retrofit_v03.blend')]
+from coach_families import SPECS as COACH_SPECS
+
+MODELS=[('wap7','pantograph_v04/WAP7_pantograph_v04.blend')]
+MODELS += [(key, spec['source']) for key, spec in COACH_SPECS.items()]
 VB_TYPES=('DTC','MC','MC2','TC_CC','TC_EC','NDTC_EC','NDTC_EC2')
 MODELS += [('vb_'+kind.lower(),'vande_bharat_v01/cars/VB_'+kind+'.blend') for kind in VB_TYPES]
 MODELS += [('wag9','wag9_v01/WAG9_master.blend'),
@@ -9,7 +12,7 @@ def selected_models(argv):
  """Optionally rebuild a family or comma-separated model keys."""
  if '--only' not in argv:return MODELS
  keys=argv[argv.index('--only')+1].split(',')
- selected=[(key,path) for key,path in MODELS if key in keys or ('vb' in keys and key.startswith('vb_'))]
+ selected=[(key,path) for key,path in MODELS if key in keys or ('vb' in keys and key.startswith('vb_')) or ('coaches' in keys and key in COACH_SPECS)]
  if not selected:raise ValueError('No matching models: '+','.join(keys))
  return selected
 

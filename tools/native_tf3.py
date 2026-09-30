@@ -8,6 +8,7 @@ from pathlib import Path
 from mathutils import Vector
 from vande_bharat import CAPACITY,WEIGHT,SPEED as VB_SPEED,YEAR as VB_YEAR
 from freight_locomotives import SPECS as FREIGHT_SPECS
+from coach_families import SPECS as COACH_SPECS
 from pack_settings import REVISION,CACHE_VERSION
 
 def lua(value):
@@ -146,7 +147,11 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  names={'wap7':'Indian Railways WAP-7','lhb_3a':'LHB AC 3-tier','icf_sleeper':'ICF Sleeper (CBC retrofit)'}
  # Gameplay capacity is normalized slightly above the 72 physical berth locators.
  # User-selected speeds/years; power, capacity and fare balance are separate.
- specs={'wap7':(20.562,123000,180,2000,0,6),'lhb_3a':(24,49000,200,2000,88,7.45),'icf_sleeper':(22.297,39000,110,1980,80,7.3915)}
+ specs={'wap7':(20.562,123000,180,2000,0,6)}
+ if key in COACH_SPECS:
+  coach=COACH_SPECS[key]
+  names[key]=coach['name']
+  specs[key]=(coach['length'],coach['weight'],coach['speed'],coach['year'],coach['capacity'],coach['bogie_distance'])
  vb=key.startswith('vb_');kind=key[3:].upper() if vb else None
  if vb:
   names[key]='Vande Bharat '+kind
@@ -171,6 +176,9 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  metadata['railVehicle']['config']['fakeBogies'].append(metadata['railVehicle']['config']['fakeBogies'][-1])
  metadata['extent']['bbMin'][0]=rear;metadata['extent']['bbMax'][0]=front
  metadata['seatProvider']['seats']=seats
+ if key in COACH_SPECS:
+  metadata['transportVehicle']['comfortFactor']=COACH_SPECS[key]['comfort']
+  metadata['description']['description']=f"Indian Railways {names[key]}. Normalized capacity: {COACH_SPECS[key]['game_capacity']} passengers at standard game scale."
  if key in FREIGHT_SPECS:
   freight=FREIGHT_SPECS[key]
   metadata['landVehicle']['engines']=[{'power':freight['power'],'tractiveEffort':freight['effort'],'type':'ELECTRIC'}]
@@ -198,6 +206,9 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
   if kind.startswith('TC'):metadata['transformatorConfig']={'skipFromLod':4,'transformator':{'name':'vb.trf'}}
  if capacity:
   metadata['transportVehicle']['entrances']=[{'path':[[x,y*3,.56],[x,0,1.3]]} for x in (-length/2+2,length/2-2) for y in (-1,1)]
+  if key in COACH_SPECS and COACH_SPECS[key]['family']=='lhb':
+   doors=[o for o in newcoll.objects if o.name.startswith('door_') and o.name.endswith('_pivot') and o.type=='EMPTY']
+   metadata['transportVehicle']['entrances']=[{'path':[[o.matrix_world.translation.x,3 if o.matrix_world.translation.y>0 else -3,.56],[o.matrix_world.translation.x,0,1.303]]} for o in doors]
   if vb:
    doors=[o for o in newcoll.objects if o.name.startswith('door_') and o.type=='EMPTY']
    metadata['transportVehicle']['entrances']=[{'path':[[o.matrix_world.translation.x,3 if o.matrix_world.translation.y>0 else -3,.56],[o.matrix_world.translation.x,0,1.23]]} for o in doors]

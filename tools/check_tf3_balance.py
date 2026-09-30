@@ -6,6 +6,7 @@ No base-game meshes or scripts are copied into the distributable mod.
 import argparse,json,math,re,posixpath,zipfile
 from pathlib import Path
 from tf3_resource_paths import resolve_model_ref
+from coach_families import SPECS as COACH_SPECS
 
 def table(text,key):
  match=re.search(r'\b'+key+r'\s*=\s*\{',text)
@@ -124,7 +125,7 @@ def main():
   peers=[s for s in stock if s['speed_kmh']>=159]
   assert min(s['purchase_per_seat'] for s in peers)<=vande[-1]['purchase_per_seat']<=max(s['purchase_per_seat'] for s in peers),'Purchase cost per seat outside stock range'
  conventional={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in ('wap7','icf_sleeper','lhb_3a')}
- assert conventional['icf_sleeper']['capacity']==80 and conventional['lhb_3a']['capacity']==88,'Balanced coach capacities must be 80/88'
+ assert conventional['icf_sleeper']['capacity']==160 and conventional['lhb_3a']['capacity']==176,'Doubled balanced coach capacities must be 160/176'
  assert all(v['ticket_price_factor']==.5 for v in conventional.values()),'Conventional pack vehicles must use the stock ticket-price factor'
  rakes=[platform_rake('WAP-7 + '+label,conventional['wap7'],conventional[key]) for key,label in (('icf_sleeper','ICF Sleeper'),('lhb_3a','LHB 3A'))]
  stock_rakes=[]
@@ -135,8 +136,23 @@ def main():
  assert freight[1]['power_kw']==9000 and freight[1]['tractive_effort_kn']==706 and freight[1]['weight_t']==180
  assert all(s['capacity']==0 and s['ticket_price_factor']==.5 for s in freight_models.values())
  stock_freight=[unit_stats('BR 185 TRAXX',[stock_model(args.game_root,'train','br_185_traxx')])]
+ coaches={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in COACH_SPECS}
+ family_rakes=[]
+ for key,spec in COACH_SPECS.items():
+  stats=coaches[key]
+  assert stats['capacity']==spec['capacity'] and stats['ticket_price_factor']==.5
+  text=(mod/key/(key+'.mdl')).read_text()
+  assert number(table(text,'cost'),'price')==-1 and number(table(text,'maintenance'),'runningCosts')==-1
+  assert number(table(text,'transportVehicle'),'maintenanceFactor')==1
+  family_rakes.append(platform_rake('WAP-7 + '+spec['name'],conventional['wap7'],stats))
+ mixed_rakes=[]
+ for family in ('icf','lhb'):
+  classes=['1a']+['2a']*2+['3a']*6+['sl']*3
+  keys=['icf_sleeper' if family=='icf' and kind=='sl' else family+'_'+kind for kind in classes]
+  mixed_rakes.append(unit_stats('WAP-7 + '+family.upper()+' mixed 1A/2A/3A/SL (1/2/6/3)',[conventional['wap7']]+[coaches[key] for key in keys]))
  report={'basis':'Installed stock MU/model resources and base/model_metadata_util.lua cost formula; before difficulty/global cost scales. capacity is authored metadata; standard_game_capacity applies the stock quarter-capacity scale.','stock':stock,'vande_bharat':vande,'conventional_vehicles':conventional,'conventional_rakes':rakes,'stock_conventional_rakes':stock_rakes,'freight_locomotives':freight,'stock_freight_locomotives':stock_freight}
+ report.update(coach_families=coaches,coach_family_rakes=family_rakes,mixed_class_rakes=mixed_rakes)
  (root/'game_build/vande_bharat_balance.json').write_text(json.dumps(report,indent=2))
- for s in stock+vande+rakes+stock_rakes+freight+stock_freight:print(json.dumps(s))
+ for s in stock+vande+rakes+stock_rakes+freight+stock_freight+family_rakes+mixed_rakes:print(json.dumps(s))
 
 if __name__=='__main__':main()

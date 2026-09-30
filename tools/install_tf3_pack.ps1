@@ -21,6 +21,11 @@ foreach ($taskArea in @('mods','staging_area')) {
         $taskBackup = Join-Path $BackupRoot "Indian-Rail-Prototype-Pack-before-$BackupLabel-$taskArea-$taskStamp.zip"
         Compress-Archive -LiteralPath $taskDestination -DestinationPath $taskBackup -CompressionLevel Optimal
         Write-Output "Backup: $taskBackup"
+        $taskResolved = (Resolve-Path -LiteralPath $taskDestination).Path
+        $taskExpected = [IO.Path]::GetFullPath((Join-Path $taskLocal "$taskArea\gj94_indian_rail_pack"))
+        if ($taskResolved -ne $taskExpected -or -not $taskResolved.StartsWith($taskLocal + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Installed pack outside expected local directory.' }
+        Remove-Item -LiteralPath $taskResolved -Recurse -Force
+        New-Item -ItemType Directory -Path $taskDestination -Force | Out-Null
     } else {
         New-Item -ItemType Directory -Path $taskDestination -Force | Out-Null
     }
@@ -32,5 +37,6 @@ foreach ($taskArea in @('mods','staging_area')) {
             throw "Installed file differs: $taskRelative"
         }
     }
+    if ((Get-ChildItem -LiteralPath $taskSource -File -Recurse).Count -ne (Get-ChildItem -LiteralPath $taskDestination -File -Recurse).Count) { throw 'Installed pack has stale or extra files.' }
     Write-Output "Installed and verified revision $($taskManifest.revision): $taskDestination"
 }

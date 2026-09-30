@@ -60,7 +60,7 @@ for key,source in selected_models(sys.argv):
  def bucket(m):
   if not m:return 'palette'
   p=m.node_tree.nodes.get('Principled BSDF') if m.use_nodes else None
-  if p and p.inputs.get('Transmission Weight') and p.inputs['Transmission Weight'].default_value>.5:return 'glass'
+  if p and ((p.inputs.get('Transmission Weight') and p.inputs['Transmission Weight'].default_value>.1) or (p.inputs.get('Alpha') and p.inputs['Alpha'].default_value<1)):return 'glass'
   if m.use_nodes and any(n.type=='TEX_IMAGE' and n.image for n in m.node_tree.nodes):return clean(m.name)
   return 'palette'
  dep=bpy.context.evaluated_depsgraph_get();groups={}
@@ -101,9 +101,7 @@ for key,source in selected_models(sys.argv):
  seats=[]
  for mark in sorted(markers,key=lambda o:o.name):
   matrix=mark.matrix_local.copy()
-  if key=='icf_sleeper':
-   number=int(mark.name.rsplit('_',1)[1]);slot=(number-1)%8
-   if slot in (3,4,5,7):matrix=matrix@Matrix.Rotation(math.pi,4,'Z')
+  # New family markers already encode facing and the stock pelvis offset.
   seat={'animation':'driving_upright' if mark.name.startswith('DRIVER_') else 'sitting','group':clean(mark.parent.name),'transf':[float(matrix[r][c]) for c in range(4) for r in range(4)]}
   if mark.name.startswith('DRIVER_'):seat.update(crew=True,forward=not (key=='wag9' and mark.parent.name=='CAB_B'))
   seats.append(seat)
