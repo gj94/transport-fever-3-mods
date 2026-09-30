@@ -5,6 +5,7 @@ Editable Blender prototypes for an Indian Railways asset-development project:
 - **WAP-7** locomotive in clean white/red
 - **LHB AC 3-tier** coach in red/grey
 - **Conventional ICF sleeper** coach in blue/cyan
+- **Vande Bharat Express** compact 8-car and 16-car white/blue trainsets
 
 The repository includes dimensioned Blender source prototypes and a playable,
 locally converted TF3 pack. The source masters prioritize separated components;
@@ -13,10 +14,16 @@ the conversion supplies native game resources, materials, LODs and metadata.
 A local TF3 conversion is now installed and play-tested, including updated
 interiors, CBC couplings and pantographs. See [installation and play-test notes](TF3-INSTALL.md)
 for the current revision, reproducible build steps, fixes and remaining checks.
-Download the [playable TF3 pack (revision 4)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+Download the [playable TF3 pack (revision 6)](dist/Indian-Rail-Prototype-Pack-TF3.zip).
 Extract its `gj94_indian_rail_pack` folder into your TF3 `local/mods` folder,
-enable **Indian Rail Prototype Pack**, and use year 2000 or later with electrified track.
+enable **Indian Rail Prototype Pack**, and use electrified track (2000+ for WAP-7,
+2022+ for Vande Bharat).
 See also [moddable vehicle features and sounds](TF3-VEHICLE-FEATURES.md).
+
+For selectable speed caps on individual track sections, see the separate
+[Track Speed Restrictions mod](TRACK-SPEED-RESTRICTIONS.md). Revision 3 fixes startup for the
+**Speed limit** dropdown to the existing stock track options and keeps the
+underlying variants compatible with saved track sections.
 The original assets and their validation reports below describe the source prototypes.
 
 ## Vande Bharat compact modelling handoff
@@ -38,7 +45,16 @@ The measured visible envelope includes both noses and all evaluated mesh project
 
 The handoff contains seven per-car Blender masters, eleven static/motion FBXs, independent door/bogie/axle/pantograph EMPTY hierarchies, interiors and character-placement guides. Both trailer pantograph rigs have live controls and baked motion samples. All eleven FBXs were freshly re-imported; all 22 inter-car joins align and both rigs passed 101-pose clearance checks. Linked assembly libraries use relative paths: keep the folder tree intact.
 
-**Modelling only:** these assets have not been added to the installed TF3 distribution. Existing conversion scripts, game resources and distribution packages are unchanged. The conversion agent must add VB-specific mappings; the existing WAP7/LHB/ICF settings are not drop-in mappings for these cars. Passenger-character root offsets remain provisional until fitted to the native sitting animation. See the source README for compact seat counts, formation assumptions, outer nose-spacing datums, animation bounds and remaining runtime work.
+**Converted in pack revision 5:** buy **Vande Bharat Express (8 cars)** or
+**Vande Bharat Express (16 cars)** from year **2022** on electrified track.
+They have 420 / 880 configured passenger places and 155 / 310 m spacing lengths.
+The stock gameplay scale gives 105 / 220 passengers in the depot menu.
+The seven car types have interiors, transparent glazing, four LODs, passenger and
+cab seats, sliding-door tracks and independent wire-height pantograph tracks.
+Passenger-character fit, boarding, door triggers and wire contact require a fresh
+runtime test. Gameplay capacity and automatic cost per seat were compared with
+the installed stock trains; fares and maintenance use normal settings.
+See [integration and balance figures](TF3-INSTALL.md#vande-bharat-v01-integration-30-september-2026).
 
 ## Pantograph rig v0.4
 

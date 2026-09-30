@@ -15,7 +15,9 @@ Pantograph update source: `6f28461`, directory `pantograph_v04/`.
 WAP-7 now uses this master, which retains the accepted coupling-v03 geometry.
 
 The editable prototypes now have a locally generated TF3 pack containing WAP-7,
-LHB AC 3-tier and ICF Sleeper. The Blender masters are unchanged.
+LHB AC 3-tier, ICF Sleeper and Vande Bharat 8/16-car trainsets. The Blender masters
+are unchanged. Current pack revision is **6**; Vande Bharat source is upstream
+commit `644de22`.
 
 For Steam installs, the pack folder belongs at:
 
@@ -38,6 +40,9 @@ WAP-7 is available from 2000, LHB from 1995, and ICF from 1960. Each coach has
 72 configured passenger places. Gameplay values are initial prototype settings.
 The two coach families are intended as separate rakes.
 
+For Vande Bharat, use **2022 or later** and buy **Vande Bharat Express (8 cars)**
+or **Vande Bharat Express (16 cars)** from the electric trainset list.
+
 ## What is established so far
 
 - Latest play-test result (30 September 2026): after correcting the pantograph
@@ -45,7 +50,7 @@ The two coach families are intended as separate rakes.
   This confirms the corrected update's in-game appearance is acceptable. Exact
   wire contact through curves/slopes, switching after reversal, passenger loading
   and a complete sound/LOD test have not been individually confirmed.
-- Current installed version is pack revision 4. The entries below also preserve
+- Current pack version is revision 6. The entries below also preserve
   the earlier problems and fixes; pending checks recorded during those stages
   should be read with the latest result above.
 - The user confirmed the pack loads, WAP-7 appears in the vehicle manager and
@@ -105,6 +110,12 @@ python tools/package_tf3_icons.py
 if ($LASTEXITCODE -ne 0) { throw 'Icon packaging failed' }
 python tools/check_tf3_pack.py
 if ($LASTEXITCODE -ne 0) { throw 'Pack validation failed' }
+python tools/check_tf3_balance.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
+if ($LASTEXITCODE -ne 0) { throw 'Stock balance comparison failed' }
+python tools/check_vb_character_fit.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
+if ($LASTEXITCODE -ne 0) { throw 'Character-height check failed' }
+python tools/package_tf3_pack.py --copy-to D:\TF3Mods
+if ($LASTEXITCODE -ne 0) { throw 'Pack archive verification failed' }
 ```
 
 The installable folder is `game_build/gj94_indian_rail_pack`. Copy that entire
@@ -113,7 +124,9 @@ Native models have four LODs, consolidated meshes, palette DDS textures,
 vehicle metadata, box colliders and original axle/bogie pivots.
 
 Current inputs are listed in `tools/model_sources.py`: WAP-7 under
-`pantograph_v04/`, ICF under `coupling_v03/`, and LHB under `interiors_v02/`.
+`pantograph_v04/`, ICF under `coupling_v03/`, LHB under `interiors_v02/`, and seven
+Vande Bharat masters under `vande_bharat_v01/cars/`. To rebuild only Vande Bharat,
+append `-- --only vb` to the preparation and icon-rendering commands.
 Geometry comes from the root's complete descendant
 hierarchy, including interiors in separate collections. Paint, glass and textured
 instruments are consolidated separately. Instrument UVs are preserved; small
@@ -283,3 +296,87 @@ For the supported vehicle features and a sound-design plan, see
 Official references: [mod definitions](https://wiki.transportfever3.com/doku.php?id=modding:general:moddefinition),
 [game file locations](https://wiki.transportfever3.com/doku.php?id=gamemanual:installation:gamefilelocations),
 [Model Editor](https://wiki.transportfever3.com/doku.php?id=modding:tools:modeleditor).
+
+## Vande Bharat v01 integration (30 September 2026)
+
+Upstream `644de22` supplies seven unchanged Blender masters. Revision **5**
+converts all seven into native resources and adds the 8/16-car multiple units.
+Cab noses face outward, with 19.375 m coupling pitch, 155/310 m spacing lengths,
+and the source's compact seating layouts. Each car has four LODs, evaluated
+white/blue materials, transparent glazing, seat markers and four animated doors.
+The motor cars each supply 1,200 kW and 90 kN. Availability starts in 2022,
+top speed is 160 km/h, and electrification is required.
+
+Purchase and upkeep use TF3's automatic calculation, with normal maintenance
+and ticket-income factors. `check_tf3_balance.py` reads the installed stock
+models and applies their `base/model_metadata_util.lua` cost formula. These
+figures precede difficulty and global cost multipliers:
+
+| Trainset | Configured seats | Power | Purchase | Annual upkeep | Purchase per configured seat |
+|---|---:|---:|---:|---:|---:|
+| Vande Bharat 8 | 420 | 4,800 kW | 23,936,766 | 3,989,461 | 56,992 |
+| Vande Bharat 16 | 880 | 9,600 kW | 48,372,216 | 8,062,036 | 54,968 |
+| Stock Lastochka | 460 | 2,550 kW | 15,669,510 | 2,611,585 | 34,064 |
+| Stock Twindexx | 440 | 5,000 kW | 25,023,684 | 4,170,614 | 56,872 |
+| Stock ETR 450 | 608 | 4,375 kW | 26,162,706 | 4,360,451 | 43,031 |
+
+Vande Bharat's 2.71/2.84 seats per metre and cost per seat fall within the stock
+express-train range. CC/EC comfort is 0.7/0.8 and ticket `priceFactor` is 0.5,
+matching normal stock income. That field controls fares, not purchase price.
+The full comparison is `game_build/vande_bharat_balance.json`.
+
+TF3's stock gameplay scale divides configured capacity by four: the ordinary
+depot capacities are **105/220** for these Vande Bharat formations, **115** for
+Lastochka and **110** for Twindexx. The stock-scale comparison remains the same;
+our earlier 420/880 figures describe the authored seat layouts and metadata.
+
+Both TC pantographs have 101 rigid-joint samples, with level heads and contact
+strip heights from 4.079122 to 5.917 m above rail. The native transformator
+delegates normal train behaviour to the stock script and maps catenary height
+onto that travel. Animation references persist in all four LOD hierarchies;
+render bounds include the raised rig. Door tracks first plug outward 0.09 m,
+then slide 1 m, with independent left/right and all-door states.
+
+`check_vb_character_fit.py` checks the installed male rail-driver skeleton and
+the full seated/driving pelvis animation against the source's cushion height.
+With character roots at Z=1.267 m, the driver hips are within 6 mm of the
+Z=1.75 m cushion top. Passenger hips stay within 22 mm. This verifies skeleton
+height; full mesh fit, passenger variants and cab clipping require a runtime
+preview. Source marker transforms retain their authored seat positions and
+orientations.
+
+The native resource checks pass for all ten vehicles and both formations.
+Model Editor version 13 loads the driving trailer with blue bands, dark windows
+and transparent glazing, and its validation reports no errors. Its occupied
+passenger preview shows seated characters aligned with the saloon seats.
+The TC_CC native animation preview raises the pantograph with a level head.
+The cab preview shows the seated driver behind the windscreen; driver hip
+height is also checked numerically. Full-body cab clipping, live boarding,
+door triggers, pantograph wire contact and reversal still require an in-game
+test. Headlight lenses have authored colours; functional light effects remain
+future polish.
+
+After TF3 was saved and closed, both installed `mods` and `staging_area` copies
+were updated to the final revision 5 and every copied file was SHA256-verified.
+The preceding revision 4 is preserved in the
+`D:/TF3Mods/Indian-Rail-Prototype-Pack-before-Vande-Bharat-*-20260930-190243.zip`
+backups. `tools/install_tf3_pack.ps1` repeats the guarded install, backs up both
+copies and refuses to proceed while TF3 is running. Always launch Model Editor
+through `tools/open_model_editor.ps1` so the game-root DLLs are found.
+
+## Formation registration correction (revision 6)
+
+The first depot test exposed invalid MU model references in revision 5. TF3's
+resource lookup retained `vande_bharat/../vb_dtc/...` literally and replaced the
+unresolved vehicles with placeholders. Filesystem checks had incorrectly
+normalized those paths and accepted them. Revision 6 references the exact
+`gj94_indian_rail_pack::/vehicle/train/vb_*/vb_*.mdl` identifiers. It also clears
+the individual car `filterTags`, matching stock MU-only cars, while retaining
+`default` on both formations so only the complete trains appear in the depot.
+
+`tf3_resource_paths.py` rejects dot segments instead of normalizing them.
+Both pack and balance checks use this resolver. The regression check rejects
+the old reference even though the file exists through filesystem traversal.
+Both installed copies and the ZIP have been updated and hash-verified.
+The fresh game reload reports no missing resources. The user then confirmed
+revision 6 works well in game, resolving the missing-consist purchase-menu issue.

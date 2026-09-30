@@ -18,6 +18,7 @@ def save_dds(im,path):
  path.write_bytes(bytes(header)+b''.join(level[128:] for level in levels))
  check=Image.open(path);assert check.size==size
 for folder in (MOD/'content'/'vehicle'/'train').iterdir():
+ if not (folder/'mat').is_dir():continue
  for tga in (folder/'mat'/'tex').glob('*.tga'):
   im=Image.open(tga).convert('RGBA')
   if tga.stem.endswith('_normal'):im=Image.new('RGBA',im.size,(128,128,255,255))

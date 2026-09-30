@@ -6,6 +6,7 @@ and uint32 indices. No proprietary base-game geometry is copied.
 import bpy, json, math, struct, copy, re
 from pathlib import Path
 from mathutils import Vector
+from vande_bharat import CAPACITY,WEIGHT
 
 def lua(value):
  if isinstance(value,dict): return '{'+','.join(k+'='+lua(v) for k,v in value.items())+'}'
@@ -59,8 +60,8 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  mod=rootdir/'game_build'/'gj94_indian_rail_pack';folder=mod/'content'/'vehicle'/'train'/key
  for sub in ('msh','mat/tex','icons'): (folder/sub).mkdir(parents=True,exist_ok=True)
  (mod/'_metadata').mkdir(parents=True,exist_ok=True)
- (mod/'mod.json').write_text(json.dumps({'modId':'gj94_indian_rail_pack','revision':4,'severityAdd':'None','severityRemove':'Warning','visible':True,'cosmetic':False},indent=2))
- (mod/'_metadata'/'modinfo.json').write_text(json.dumps({'name':'Indian Rail Prototype Pack','summary':'WAP-7, LHB AC 3-tier and ICF sleeper','description':'Playable conversion of the original procedural prototypes. Requires electrified track for WAP-7.','authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],'url':'https://github.com/gj94/transport-fever-3-mods'},indent=2))
+ (mod/'mod.json').write_text(json.dumps({'modId':'gj94_indian_rail_pack','revision':6,'severityAdd':'None','severityRemove':'Warning','visible':True,'cosmetic':False},indent=2))
+ (mod/'_metadata'/'modinfo.json').write_text(json.dumps({'name':'Indian Rail Prototype Pack','summary':'WAP-7, LHB, ICF and Vande Bharat 8/16-car trainsets','description':'Playable conversion of the original procedural prototypes. Requires electrified track for WAP-7 and Vande Bharat. Vande Bharat available from 2022.','authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],'url':'https://github.com/gj94/transport-fever-3-mods'},indent=2))
  texdir=folder/'mat'/'tex';image.filepath_raw=str(texdir/(key+'_albedo_opacity.tga'));image.file_format='TARGA';image.save()
  for name in ('normal','metal_gloss_ao'):
   im=bpy.data.images.new(key+'_'+name,width=128,height=128);pixels=[]
@@ -97,15 +98,23 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  if pantograph_tracks:
   (folder/'ani').mkdir(exist_ok=True)
   for name,track in pantograph_tracks.items():
-   write_lua(folder/'ani'/(name+'.ani'),{'times':track['times'],'transfs':track['transfs']})
+   states={track['state']:track} if 'state' in track else track
+   for state,values in states.items():
+    filename=name+'.ani' if key=='wap7' else name+'_'+state+'.ani'
+    write_lua(folder/'ani'/filename,{'times':values['times'],'transfs':values['transfs']})
+ if key=='wap7' and pantograph_tracks:
   write_lua(folder/'wap7.trf.lua',{'updateScript':{'fileName':'wap7_transformator.script@wap7.updateFn','params':{}},'updateParticleSystemScript':{'fileName':'::/vehicle/train/shared/transformator_train.script@train.updateParticleSystemFn','params':{}}})
   (folder/'wap7_transformator.script.tl').write_text((rootdir/'tools'/'wap7_transformator.script.tl').read_text(),encoding='utf8')
+ elif key in {'vb_tc_cc','vb_tc_ec'}:
+  write_lua(folder/'vb.trf.lua',{'updateScript':{'fileName':'vb_transformator.script@vb.updateFn','params':{}},'updateParticleSystemScript':{'fileName':'::/vehicle/train/shared/transformator_train.script@train.updateParticleSystemFn','params':{}}})
+  (folder/'vb_transformator.script.tl').write_text((rootdir/'tools/vb_transformator.script.tl').read_text(),encoding='utf8')
  roots=[o for o in newcoll.objects if not o.parent]
  def node(ob,lod):
   data={'name':ob.name,'transf':transform(ob)}
   if ob.name in pantograph_tracks:
    track=pantograph_tracks[ob.name]
-   data['animations']={track['state']:{'params':{'id':'ani/'+ob.name+'.ani'},'type':'FILE_REF'}}
+   states={track['state']:track} if 'state' in track else track
+   data['animations']={state:{'params':{'id':'ani/'+ob.name+('' if key=='wap7' else '_'+state)+'.ani'},'type':'FILE_REF'} for state in states}
   if ob.type=='MESH': data.update(mesh='msh/'+ob.name+f'_lod{lod}.msh',materials=['mat/'+ob['tf3_material']+'.mtl'])
   children=[node(c,lod) for c in ob.children if c in newcoll.objects[:]]
   if children:data['children']=children
@@ -127,7 +136,12 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
   lods.append({'node':{'name':'RootNode','transf':[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],'children':[node(o,lod) for o in roots]},'visibleFrom':[0,100,400,1000][lod],'visibleTo':[100,400,1000,2500][lod]})
   for ob,m in mods:ob.modifiers.remove(m)
  names={'wap7':'Indian Railways WAP-7','lhb_3a':'LHB AC 3-tier','icf_sleeper':'ICF Sleeper (CBC retrofit)'}
- spec={'wap7':(20.562,123000,140,2000,0,6),'lhb_3a':(24,49000,160,1995,72,7.45),'icf_sleeper':(22.297,39000,110,1960,72,7.3915)}[key]
+ specs={'wap7':(20.562,123000,140,2000,0,6),'lhb_3a':(24,49000,160,1995,72,7.45),'icf_sleeper':(22.297,39000,110,1960,72,7.3915)}
+ vb=key.startswith('vb_');kind=key[3:].upper() if vb else None
+ if vb:
+  names[key]='Vande Bharat '+kind
+  specs[key]=(19.375,WEIGHT[kind],160,2022,CAPACITY[kind],5.85)
+ spec=specs[key]
  length,weight,speed,year,capacity,bogiedist=spec
  # Vehicle spacing uses mating planes; rendering bounds include the projecting heads.
  anchors={o.name:float(o.matrix_world.translation.x) for o in newcoll.objects if o.name in {'coupling_front','coupling_rear'}}
@@ -135,17 +149,29 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  length=front-rear
  points=[ob.matrix_world@v.co for ob in merged for v in ob.data.vertices]
  render_bounds={'bbMin':[min(p[a] for p in points) for a in range(3)],'bbMax':[max(p[a] for p in points) for a in range(3)]}
- if pantograph_tracks:render_bounds['bbMax'][2]=max(render_bounds['bbMax'][2],6.0)
+ if key=='wap7' or key in {'vb_tc_cc','vb_tc_ec'}:render_bounds['bbMax'][2]=max(render_bounds['bbMax'][2],6.0)
  axles=[o.name for o in newcoll.objects if o.type=='EMPTY' and 'axle' in o.name]
  compartment={'loadConfigs':[{'cargoEntry':{'capacity':capacity,'cargoTypeSet':{'cargoClassesIncluded':['PASSENGERS'] if capacity else [],'cargoClassesExcluded':[],'cargoTypesIncluded':[],'cargoTypesExcluded':[]},'loadIndicator':'','seats':[]},'toHide':[]}]}
  metadata={'availability':{'yearFrom':year,'yearTo':0},'cost':{'price':-1},'description':{'name':names[key],'description':'Original Indian Railways prototype converted for TF3.'},'emissions':{'noise':{'score':35},'pollution':{'score':5}},'extent':{'bbMin':[-length/2,-1.9,-.03],'bbMax':[length/2,1.9,4.5]},'landVehicle':{'brakeDeceleration':2.5,'engines':[{'power':4500,'tractiveEffort':392,'type':'ELECTRIC'}] if key=='wap7' else [],'friction':.02,'topSpeed':speed/3.6,'weightEmpty':weight,'weightMaxPayload':capacity*80},'maintenance':{'lifespan':10957,'runningCosts':-1},'railVehicle':{'config':{'axles':axles,'fakeBogies':[[],[],[{'group':'RootNode','offset':0,'position':-bogiedist},{'group':'RootNode','offset':0,'position':bogiedist}]]}},'seatProvider':{'crewModels':[],'drivingLicense':'RAIL','seats':[]},'soundConfig':{'soundSet':{'name':'::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if key=='wap7' else 'waggon/shared/sound/waggon_modern.snd')}},'transformatorConfig':{'skipFromLod':2,'transformator':{'name':'::/vehicle/train/shared/default_train.trf'}},'transportVehicle':{'carrier':'RAIL','comfortFactor':.8 if key=='lhb_3a' else .5,'compartments':[compartment],'engineTransportModes':['ELECTRIC_TRAIN'] if key=='wap7' else [],'transportModes':['TRAIN','ELECTRIC_TRAIN'],'filterTags':['default'],'reversible':key=='wap7','loadSpeed':3,'maintenanceFactor':1,'priceFactor':1},'versioning':{'__version':'_v07'}}
  metadata['railVehicle']['config']['fakeBogies'].append(metadata['railVehicle']['config']['fakeBogies'][-1])
  metadata['extent']['bbMin'][0]=rear;metadata['extent']['bbMax'][0]=front
  metadata['seatProvider']['seats']=seats
- if pantograph_tracks:
+ if key=='wap7' and pantograph_tracks:
   metadata['transformatorConfig']={'skipFromLod':4,'transformator':{'name':'wap7.trf'}}
+ if vb:
+  powered=kind.startswith('MC')
+  metadata['landVehicle']['engines']=[{'power':1200,'tractiveEffort':90,'type':'ELECTRIC'}] if powered else []
+  metadata['soundConfig']['soundSet']['name']='::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if powered or kind=='DTC' else 'waggon/shared/sound/waggon_modern.snd')
+  # Stock express comfort, normal ticket income and standard maintenance.
+  # priceFactor is a fare factor, not the purchase-price multiplier.
+  metadata['transportVehicle'].update(engineTransportModes=['ELECTRIC_TRAIN'] if powered else [],multipleUnitOnly=True,filterTags=[],reversible=True,comfortFactor=.8 if 'EC' in kind else .7,loadSpeed=4,priceFactor=.5,maintenanceFactor=1)
+  metadata['extent']['bbMax'][2]=render_bounds['bbMax'][2]
+  if kind.startswith('TC'):metadata['transformatorConfig']={'skipFromLod':4,'transformator':{'name':'vb.trf'}}
  if capacity:
   metadata['transportVehicle']['entrances']=[{'path':[[x,y*3,.56],[x,0,1.3]]} for x in (-length/2+2,length/2-2) for y in (-1,1)]
+  if vb:
+   doors=[o for o in newcoll.objects if o.name.startswith('door_') and o.type=='EMPTY']
+   metadata['transportVehicle']['entrances']=[{'path':[[o.matrix_world.translation.x,3 if o.matrix_world.translation.y>0 else -3,.56],[o.matrix_world.translation.x,0,1.23]]} for o in doors]
  write_lua(folder/(key+'.mdl'),{'boundingInfo':render_bounds,'collider':{'type':'BOX','params':{'halfExtents':[length/2,1.9,2.25]},'transf':[1,0,0,0,0,1,0,0,0,0,1,0,0,0,2.25,1]},'lods':lods,'metadata':metadata,'version':2})
  print('TF3_COUPLING',key,anchors,'spacing span',length,'render bounds',render_bounds)
  print('TF3_NATIVE',key,counts)

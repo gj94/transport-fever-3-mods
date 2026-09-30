@@ -6,8 +6,8 @@ from mathutils import Vector
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from model_sources import MODELS,asset_objects
-for key,source in MODELS:
+from model_sources import selected_models,asset_objects
+for key,source in selected_models(sys.argv):
     bpy.ops.wm.open_mainfile(filepath=str(ROOT/source))
     root,objects=asset_objects(bpy)
     keep=set(objects)
@@ -24,6 +24,13 @@ for key,source in MODELS:
     scene.render.image_settings.color_mode='RGBA'
     scene.render.resolution_percentage=100
     cam=scene.camera
+    if cam is None:
+        cam=bpy.data.objects.new('TF3_ICON_CAMERA',bpy.data.cameras.new('TF3_ICON_CAMERA'))
+        scene.collection.objects.link(cam);scene.camera=cam
+        for location,energy,size in [((4,-8,13),2200,8),((-8,4,10),1600,7),((0,0,15),1500,9)]:
+            light=bpy.data.lights.new('TF3_ICON_LIGHT','AREA');light.energy=energy;light.shape='DISK';light.size=size
+            ob=bpy.data.objects.new('TF3_ICON_LIGHT',light);scene.collection.objects.link(ob);ob.location=location
+            ob.rotation_euler=(Vector((0,0,1.8))-ob.location).to_track_quat('-Z','Y').to_euler()
     cam.data.type='ORTHO'
     out=ROOT/'game_build'/'gj94_indian_rail_pack'/'content'/'vehicle'/'train'/key/'icons'
     out.mkdir(parents=True,exist_ok=True)
