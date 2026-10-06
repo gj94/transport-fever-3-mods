@@ -1,0 +1,579 @@
+{
+  "blender_version": "4.3.2",
+  "master": "WAP7_detail_v02.blend",
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "opened_from_fresh_copy": true,
+  "source_unchanged": true,
+  "external_dependencies": [
+    {
+      "kind": "image",
+      "name": "cab1.png",
+      "path": "textures/cab1.png",
+      "bytes": 3985,
+      "sha256": "c1aa8b1cff5b112017e7f0122d130073d232c9a0f405bc7fdd0c4f370478b1e5"
+    },
+    {
+      "kind": "image",
+      "name": "cab2.png",
+      "path": "textures/cab2.png",
+      "bytes": 4727,
+      "sha256": "b94c1ddd4352002f405220970ba41d343c53c56d54ac3e37e04fb14d77f05aa3"
+    },
+    {
+      "kind": "image",
+      "name": "class.png",
+      "path": "textures/class.png",
+      "bytes": 15629,
+      "sha256": "caaa1446ffbefdcb73e9294907b82b64554bf10b1fc1e93cf550ddfedc594be2"
+    },
+    {
+      "kind": "image",
+      "name": "gauge_afi.png",
+      "path": "textures/cab/gauge_afi.png",
+      "bytes": 26277,
+      "sha256": "5337c1a3191cf77d4789d0cc0a744957dc7f7ea5206ad64362ee4461d97882a8"
+    },
+    {
+      "kind": "image",
+      "name": "gauge_bc.png",
+      "path": "textures/cab/gauge_bc.png",
+      "bytes": 28213,
+      "sha256": "93349944ab47fae5a816837166fa397d139a2cb60f3a6f83d301321d09b9a118"
+    },
+    {
+      "kind": "image",
+      "name": "gauge_bp.png",
+      "path": "textures/cab/gauge_bp.png",
+      "bytes": 26075,
+      "sha256": "db8495ca9cae1f19c8e3c8d3bf22475721ec0ceccace64b5ab90a232cc3cff33"
+    },
+    {
+      "kind": "image",
+      "name": "gauge_mrfp.png",
+      "path": "textures/cab/gauge_mrfp.png",
+      "bytes": 32105,
+      "sha256": "dcb073af262817c362863704fa75021d71864b356e91849250808a60e03f95f7"
+    },
+    {
+      "kind": "image",
+      "name": "gauge_pb.png",
+      "path": "textures/cab/gauge_pb.png",
+      "bytes": 26070,
+      "sha256": "f0a80273c30bcd4c43df439ffe69c68eaea0f682ef4fa8ecd826248936888dec"
+    },
+    {
+      "kind": "image",
+      "name": "hog.png",
+      "path": "textures/hog.png",
+      "bytes": 12093,
+      "sha256": "c529389b3e79f9cf4f5efdfd10ade3e1735ada862637c19884490b328d5369f8"
+    },
+    {
+      "kind": "image",
+      "name": "indian_flag.png",
+      "path": "textures/indian_flag.png",
+      "bytes": 3603,
+      "sha256": "9650be051ee38e7e9ec802f7003bfdef48428682ac167d3eebe1ecac4d0729e9"
+    },
+    {
+      "kind": "image",
+      "name": "lcd_blank.png",
+      "path": "textures/cab/lcd_blank.png",
+      "bytes": 1486,
+      "sha256": "8a8b2dc28054a2cbe482e05cf94a97e51419802c2638be28f00f0b4bb4a4c862"
+    },
+    {
+      "kind": "image",
+      "name": "lift.png",
+      "path": "textures/lift.png",
+      "bytes": 1964,
+      "sha256": "d8fb6b09773544c8cc29929de1c20ffcef4794e69da400d14add8ced03a57d5b"
+    },
+    {
+      "kind": "image",
+      "name": "meter_battery.png",
+      "path": "textures/cab/meter_battery.png",
+      "bytes": 12981,
+      "sha256": "bc4165973bc22b1c9076261ef647086c250b31165e9b3b7034bf0cbb52be09ac"
+    },
+    {
+      "kind": "image",
+      "name": "meter_bogie1.png",
+      "path": "textures/cab/meter_bogie1.png",
+      "bytes": 14746,
+      "sha256": "d52f52c4ba6902e7282bf33b362651ae7f926da6f7ace527995d66b76e1691e6"
+    },
+    {
+      "kind": "image",
+      "name": "meter_bogie2.png",
+      "path": "textures/cab/meter_bogie2.png",
+      "bytes": 15198,
+      "sha256": "5b0a37ce176ddd69a1e8b4045837628430730326aae062b7873d129bb50827f0"
+    },
+    {
+      "kind": "image",
+      "name": "meter_ohe.png",
+      "path": "textures/cab/meter_ohe.png",
+      "bytes": 12108,
+      "sha256": "ed1ef861a8d746665c4bcfde814a31a9ab341a18252182b6e7b3adb97206d975"
+    },
+    {
+      "kind": "image",
+      "name": "number_black.png",
+      "path": "textures/number_black.png",
+      "bytes": 21708,
+      "sha256": "eb4652ec920cd9e92c22b849abf30c61cce1810657121c867371c35cf0d4e030"
+    },
+    {
+      "kind": "image",
+      "name": "number_red.png",
+      "path": "textures/number_red.png",
+      "bytes": 27659,
+      "sha256": "1908b6847bb06009b28a0abaaeb94333685a34577421811b5204898243039e9d"
+    },
+    {
+      "kind": "image",
+      "name": "railway_english.png",
+      "path": "textures/railway_english.png",
+      "bytes": 41800,
+      "sha256": "b3a4b8de2319bf3b602097c5fd520d5c1c9107dd6aca71f6b8653e9b0a01e97a"
+    },
+    {
+      "kind": "image",
+      "name": "railway_hindi.png",
+      "path": "textures/railway_hindi.png",
+      "bytes": 11559,
+      "sha256": "11f161245e0f7732d85fc92158f5039a39d78cc877db09b49d796adc008f92a4"
+    },
+    {
+      "kind": "image",
+      "name": "rpm.png",
+      "path": "textures/rpm.png",
+      "bytes": 4388,
+      "sha256": "1e5184ea0f8073af8b09c32b582dc59e1f0580f3c8698ddfbf1dd52900c5860a"
+    },
+    {
+      "kind": "image",
+      "name": "shed.png",
+      "path": "textures/shed.png",
+      "bytes": 20573,
+      "sha256": "3e0af297d212afbc71a6dc86babb2159d9353e26223f9be2f477de3bd8bbd366"
+    },
+    {
+      "kind": "image",
+      "name": "speedometer.png",
+      "path": "textures/cab/speedometer.png",
+      "bytes": 24832,
+      "sha256": "6ac4c3ad44bb0b060eb1976f27a15aa71fd214e69fda2f16ee4e10e704bd4f05"
+    },
+    {
+      "kind": "image",
+      "name": "sr.png",
+      "path": "textures/sr.png",
+      "bytes": 4225,
+      "sha256": "341e39a4cf93bc314f7ee9039d709ae88a325bac9d42cf93acd50a9f6b9ea5d9"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_grease.png",
+      "path": "textures/surfaces/SURFV02_buffer_grease.png",
+      "bytes": 657065,
+      "sha256": "93dad3f3c66af42876c2887c153b4ff93e8868450b3a274097c2dc078c421047"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_roughness.png",
+      "path": "textures/surfaces/SURFV02_buffer_roughness.png",
+      "bytes": 6182956,
+      "sha256": "c6ef25897b1b3f2ad12b080e5cb44b0dbf518e1b734a6e1ef81013d0042d77c3"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_wear.png",
+      "path": "textures/surfaces/SURFV02_buffer_wear.png",
+      "bytes": 4673556,
+      "sha256": "00ce298dcb8d18770a64aa7d0f77d10cc402a406e6932f66b2c01c97f5b2b913"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_surfaces_SURFV02_roof_foot_runoff.png",
+      "path": "textures/surfaces/SURFV02_roof_foot_runoff.png",
+      "bytes": 26153,
+      "sha256": "a05a97e27624a6f4c0b05a515eef345ac2a0108a4ccb55a40ee6ff14ab2bf766"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_surfaces_SURFV02_windscreen_service_film.png",
+      "path": "textures/surfaces/SURFV02_windscreen_service_film.png",
+      "bytes": 103258,
+      "sha256": "eb6634c8a45e60f7e28b0d1926bf6cdc7e3a8f5717a7cbd33fc7ffb267b0b8b2"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_body_side1_albedo.png",
+      "path": "textures/v02_body_side1_albedo.png",
+      "bytes": 3385534,
+      "sha256": "1efcc76750f31a94d072998c040cf73abb54650434a9af417b8f99c8086dba4e"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_body_side1_grime_mask.png",
+      "path": "textures/v02_body_side1_grime_mask.png",
+      "bytes": 238911,
+      "sha256": "67501d80f40d5f95f29734ed5cee33110df5c02ea410bf777a3204387fe86079"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_body_side1_roughness.png",
+      "path": "textures/v02_body_side1_roughness.png",
+      "bytes": 110848,
+      "sha256": "9bff356e0233b37c423a83af682ee26d50c491e829616853b561bf84e691cd85"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_body_side2_albedo.png",
+      "path": "textures/v02_body_side2_albedo.png",
+      "bytes": 3359500,
+      "sha256": "ec0f3dea6fabefaa090292f20b902856024e1397d7beac43e85f32d9ee4f72b3"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_body_side2_grime_mask.png",
+      "path": "textures/v02_body_side2_grime_mask.png",
+      "bytes": 236751,
+      "sha256": "b2a06f0519d19864f50822bb452e4ca35cbd9f7f43991a99679fae870c04a246"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_body_side2_roughness.png",
+      "path": "textures/v02_body_side2_roughness.png",
+      "bytes": 110299,
+      "sha256": "7ee0a05fc3e521f44d5460f1c4a5338ea3ea650a47b68289c8a5a1151dca08cf"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_nose_albedo.png",
+      "path": "textures/v02_nose_albedo.png",
+      "bytes": 1441937,
+      "sha256": "694ef015b3324b267a68a060c0d6b850aa246f5320337a9105e5e5cbb2e45850"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_nose_grime_mask.png",
+      "path": "textures/v02_nose_grime_mask.png",
+      "bytes": 72593,
+      "sha256": "334867af45733b6949023b144ad3da82c86949c5ff11caddab6c6fba8e90ef32"
+    },
+    {
+      "kind": "image",
+      "name": "SURFV02_MAP_v02_nose_roughness.png",
+      "path": "textures/v02_nose_roughness.png",
+      "bytes": 33912,
+      "sha256": "1120bc959cb709b00f0e0887e0be41d85c41c3210222a95756865dfc99424d45"
+    },
+    {
+      "kind": "image",
+      "name": "technical.png",
+      "path": "textures/technical.png",
+      "bytes": 8866,
+      "sha256": "f66440928134918ce9e8a78fd504d57cac1b0c3df9f51d124251b2e3d492a1d7"
+    },
+    {
+      "kind": "image",
+      "name": "v02_royapuram_crest.png",
+      "path": "textures/v02_royapuram_crest.png",
+      "bytes": 162412,
+      "sha256": "617aae7cab1acdfc16a6149bc7008ca116a8a5c12288e1fd8a8b2820771f0b5d"
+    }
+  ],
+  "images": [
+    {
+      "name": "cab1.png",
+      "packed": false,
+      "width": 322,
+      "height": 101,
+      "relative_path": "//textures/cab1.png"
+    },
+    {
+      "name": "cab2.png",
+      "packed": false,
+      "width": 322,
+      "height": 101,
+      "relative_path": "//textures/cab2.png"
+    },
+    {
+      "name": "class.png",
+      "packed": false,
+      "width": 448,
+      "height": 134,
+      "relative_path": "//textures/class.png"
+    },
+    {
+      "name": "gauge_afi.png",
+      "packed": false,
+      "width": 1024,
+      "height": 1024,
+      "relative_path": "//textures/cab/gauge_afi.png"
+    },
+    {
+      "name": "gauge_bc.png",
+      "packed": false,
+      "width": 1024,
+      "height": 1024,
+      "relative_path": "//textures/cab/gauge_bc.png"
+    },
+    {
+      "name": "gauge_bp.png",
+      "packed": false,
+      "width": 1024,
+      "height": 1024,
+      "relative_path": "//textures/cab/gauge_bp.png"
+    },
+    {
+      "name": "gauge_mrfp.png",
+      "packed": false,
+      "width": 1024,
+      "height": 1024,
+      "relative_path": "//textures/cab/gauge_mrfp.png"
+    },
+    {
+      "name": "gauge_pb.png",
+      "packed": false,
+      "width": 1024,
+      "height": 1024,
+      "relative_path": "//textures/cab/gauge_pb.png"
+    },
+    {
+      "name": "hog.png",
+      "packed": false,
+      "width": 576,
+      "height": 116,
+      "relative_path": "//textures/hog.png"
+    },
+    {
+      "name": "indian_flag.png",
+      "packed": false,
+      "width": 600,
+      "height": 400,
+      "relative_path": "//textures/indian_flag.png"
+    },
+    {
+      "name": "lcd_blank.png",
+      "packed": false,
+      "width": 1024,
+      "height": 256,
+      "relative_path": "//textures/cab/lcd_blank.png"
+    },
+    {
+      "name": "lift.png",
+      "packed": false,
+      "width": 536,
+      "height": 97,
+      "relative_path": "//textures/lift.png"
+    },
+    {
+      "name": "meter_battery.png",
+      "packed": false,
+      "width": 768,
+      "height": 768,
+      "relative_path": "//textures/cab/meter_battery.png"
+    },
+    {
+      "name": "meter_bogie1.png",
+      "packed": false,
+      "width": 512,
+      "height": 1024,
+      "relative_path": "//textures/cab/meter_bogie1.png"
+    },
+    {
+      "name": "meter_bogie2.png",
+      "packed": false,
+      "width": 512,
+      "height": 1024,
+      "relative_path": "//textures/cab/meter_bogie2.png"
+    },
+    {
+      "name": "meter_ohe.png",
+      "packed": false,
+      "width": 512,
+      "height": 1024,
+      "relative_path": "//textures/cab/meter_ohe.png"
+    },
+    {
+      "name": "number_black.png",
+      "packed": false,
+      "width": 487,
+      "height": 161,
+      "relative_path": "//textures/number_black.png"
+    },
+    {
+      "name": "number_red.png",
+      "packed": false,
+      "width": 533,
+      "height": 176,
+      "relative_path": "//textures/number_red.png"
+    },
+    {
+      "name": "railway_english.png",
+      "packed": false,
+      "width": 1216,
+      "height": 161,
+      "relative_path": "//textures/railway_english.png"
+    },
+    {
+      "name": "railway_hindi.png",
+      "packed": false,
+      "width": 836,
+      "height": 190,
+      "relative_path": "//textures/railway_hindi.png"
+    },
+    {
+      "name": "rpm.png",
+      "packed": false,
+      "width": 361,
+      "height": 134,
+      "relative_path": "//textures/rpm.png"
+    },
+    {
+      "name": "shed.png",
+      "packed": false,
+      "width": 605,
+      "height": 116,
+      "relative_path": "//textures/shed.png"
+    },
+    {
+      "name": "speedometer.png",
+      "packed": false,
+      "width": 1024,
+      "height": 1024,
+      "relative_path": "//textures/cab/speedometer.png"
+    },
+    {
+      "name": "sr.png",
+      "packed": false,
+      "width": 225,
+      "height": 139,
+      "relative_path": "//textures/sr.png"
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_grease.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/surfaces/SURFV02_buffer_grease.png"
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_roughness.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/surfaces/SURFV02_buffer_roughness.png"
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_wear.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/surfaces/SURFV02_buffer_wear.png"
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_roof_foot_runoff.png",
+      "packed": false,
+      "width": 4096,
+      "height": 1024,
+      "relative_path": "//textures/surfaces/SURFV02_roof_foot_runoff.png"
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_windscreen_service_film.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/surfaces/SURFV02_windscreen_service_film.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side1_albedo.png",
+      "packed": false,
+      "width": 6144,
+      "height": 1536,
+      "relative_path": "//textures/v02_body_side1_albedo.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side1_grime_mask.png",
+      "packed": false,
+      "width": 6144,
+      "height": 1536,
+      "relative_path": "//textures/v02_body_side1_grime_mask.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side1_roughness.png",
+      "packed": false,
+      "width": 6144,
+      "height": 1536,
+      "relative_path": "//textures/v02_body_side1_roughness.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side2_albedo.png",
+      "packed": false,
+      "width": 6144,
+      "height": 1536,
+      "relative_path": "//textures/v02_body_side2_albedo.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side2_grime_mask.png",
+      "packed": false,
+      "width": 6144,
+      "height": 1536,
+      "relative_path": "//textures/v02_body_side2_grime_mask.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side2_roughness.png",
+      "packed": false,
+      "width": 6144,
+      "height": 1536,
+      "relative_path": "//textures/v02_body_side2_roughness.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_nose_albedo.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/v02_nose_albedo.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_nose_grime_mask.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/v02_nose_grime_mask.png"
+    },
+    {
+      "name": "SURFV02_MAP_v02_nose_roughness.png",
+      "packed": false,
+      "width": 2048,
+      "height": 2048,
+      "relative_path": "//textures/v02_nose_roughness.png"
+    },
+    {
+      "name": "technical.png",
+      "packed": false,
+      "width": 2076,
+      "height": 109,
+      "relative_path": "//textures/technical.png"
+    },
+    {
+      "name": "v02_royapuram_crest.png",
+      "packed": false,
+      "width": 1536,
+      "height": 1536,
+      "relative_path": "//textures/v02_royapuram_crest.png"
+    }
+  ],
+  "objects": 12375,
+  "meshes": 12106,
+  "unit_system": "METRIC",
+  "unit_scale_length": 1.0,
+  "linked_libraries": 0,
+  "problems": [],
+  "pass": true,
+  "scope": "Read-only source portability and dependency loading. No rendering, conversion or TF3 runtime test."
+}

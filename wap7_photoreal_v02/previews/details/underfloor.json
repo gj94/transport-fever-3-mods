@@ -1,0 +1,39 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "render_driver_sha256": "56d6e862b5f85c56942b6b68c4bf57b5523ace55c74f77a5798880935ba35818",
+  "master_bytes_unchanged": true,
+  "view": "underfloor",
+  "samples": 128,
+  "width": 1600,
+  "height": 832,
+  "denoised": false,
+  "adaptive_sampling": true,
+  "minimum_samples": 32,
+  "noise_threshold": 0.02199999988079071,
+  "threads": 8,
+  "seconds": 88.29138970375061,
+  "camera": {
+    "location": [
+      1.2,
+      -6.0,
+      1.28
+    ],
+    "target": [
+      0,
+      -0.4,
+      1.0
+    ],
+    "orthographic_span_m": 6.8
+  },
+  "inspection_fill_watts": 180,
+  "visibility_changes": [],
+  "component_rebuilds": false,
+  "image_sha256": "6227a41f50b13f170ef8e1e07f0f503c0a7ffe3d7f234bba182d4b358fb0ed56",
+  "render_output_image_sha256": "01dbe88557b264cee0c1eaac773d39597a475a3e9d7ccc26044a33ba2d29f5d1",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/details/underfloor.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

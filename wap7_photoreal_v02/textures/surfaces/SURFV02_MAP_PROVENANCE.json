@@ -1,0 +1,30 @@
+{
+  "seed": 3900206,
+  "resolution": [
+    2048,
+    2048
+  ],
+  "nominal_disc_diameter_m": 0.51,
+  "source": "Original numerical construction; no external raster or photograph pixels",
+  "intended_use": "Buffer-face surface coverage and roughness only",
+  "maps": [
+    {
+      "file": "SURFV02_buffer_grease.png",
+      "sha256": "93dad3f3c66af42876c2887c153b4ff93e8868450b3a274097c2dc078c421047",
+      "colourspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "file": "SURFV02_buffer_roughness.png",
+      "sha256": "c6ef25897b1b3f2ad12b080e5cb44b0dbf518e1b734a6e1ef81013d0042d77c3",
+      "colourspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "file": "SURFV02_buffer_wear.png",
+      "sha256": "00ce298dcb8d18770a64aa7d0f77d10cc402a406e6932f66b2c01c97f5b2b913",
+      "colourspace": "Non-Color",
+      "bit_depth": 16
+    }
+  ]
+}

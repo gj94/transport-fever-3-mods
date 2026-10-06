@@ -1,0 +1,868 @@
+{
+  "package": "wap7_photoreal_v02",
+  "date": "2026-10-06",
+  "source_only": true,
+  "native_game_resources_modified": false,
+  "native_game_validation": "not performed",
+  "master": "WAP7_detail_v02.blend",
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "gallery_count": 10,
+  "gallery": [
+    {
+      "path": "previews/outdoor_hero.png",
+      "sha256": "3721cd58e51928ea4dd662eef5600e4eb1b79e3af9ad7e3465aae4ce13df23e3",
+      "decoded_pixels_sha256": "2936cef6f50802eeda292627067e7ac15774c27afe818a043efbf0eaeb8c1238",
+      "width": 1920,
+      "height": 1114,
+      "provenance": "qa/outdoor_hero.json"
+    },
+    {
+      "path": "previews/cab/panel_A.png",
+      "sha256": "5642f625f4c10cabd902612cad3ff67b17d7c12d7a63cfe751e102e2d8bdc950",
+      "decoded_pixels_sha256": "4e06584b16e2f24fcd44e2fe266abcacfd033254fc08612de9468db6b0d02729",
+      "width": 1600,
+      "height": 1000,
+      "provenance": "previews/cab/panel_A.provenance.json"
+    },
+    {
+      "path": "previews/probe_coupler_top.png",
+      "sha256": "36811b6e51b4544e460d72cab4bdd67c40a8c9072e5c7b1f7470a14f45e0c2da",
+      "decoded_pixels_sha256": "4444b4f6618a91ae225113ea065e500bbcede3bf1afacbf351a4ebbb4353cd09",
+      "width": 1600,
+      "height": 1104,
+      "provenance": "qa/probe_coupler_top.json"
+    },
+    {
+      "path": "previews/machinery_gallery/machinery_through_door.png",
+      "sha256": "86b251f72c34604bb1d89c57d81ac2af0c082c24bf48a97ebbcae08110530153",
+      "decoded_pixels_sha256": "f9878593ba594b2101b39a97a486ece7c61e5b0ef9fedde460bb5a7b3b9d3a6b",
+      "width": 1400,
+      "height": 1008,
+      "provenance": "previews/machinery_gallery/machinery_through_door.json"
+    },
+    {
+      "path": "previews/details/wheel.png",
+      "sha256": "c001391ea9aed8868c3ee2af35af0b63d3081996b252163f0376af87833b2ef0",
+      "decoded_pixels_sha256": "f0d655f0956c534bce62757a84697cec343d9e7692b9d5df03da1690e91d3ddd",
+      "width": 1600,
+      "height": 1312,
+      "provenance": "previews/details/wheel.json"
+    },
+    {
+      "path": "previews/probe_pantograph.png",
+      "sha256": "6fdbf58f5d8d6bcdfb307362c15907f2a35554f0fa16cbe28270ef1235657d33",
+      "decoded_pixels_sha256": "a23d4788921d9ea7f047269190deed5691e25b4ce4b7deae50592cb660950896",
+      "width": 1600,
+      "height": 1104,
+      "provenance": "qa/probe_pantograph.json"
+    },
+    {
+      "path": "previews/cab/overview_A.png",
+      "sha256": "cf90a6781ea4829415c75084d6e3d84d246e0ee13104c049243dedbbae70de43",
+      "decoded_pixels_sha256": "0fba6cb976c8be052bdd575b84a89817b72eaede7cbb083de314e5497b6f4781",
+      "width": 1400,
+      "height": 1050,
+      "provenance": "previews/cab/overview_A.provenance.json"
+    },
+    {
+      "path": "previews/details/underfloor.png",
+      "sha256": "6227a41f50b13f170ef8e1e07f0f503c0a7ffe3d7f234bba182d4b358fb0ed56",
+      "decoded_pixels_sha256": "909bd1dbc06def145ee96e4daca433a69237af0c63f0430a0e4075aa7119fd86",
+      "width": 1600,
+      "height": 832,
+      "provenance": "previews/details/underfloor.json"
+    },
+    {
+      "path": "previews/machinery_gallery/machinery_cutaway.png",
+      "sha256": "c67f6d5b000186043d4fb2f7966a51dc4198c1b750eec4a144a69ea731477247",
+      "decoded_pixels_sha256": "dc3d89f309eab8bc51076db47100ec2321c9119bf641af6757cad898cdbea19d",
+      "width": 1600,
+      "height": 867,
+      "provenance": "previews/machinery_gallery/machinery_cutaway.json"
+    },
+    {
+      "path": "previews/probe_side.png",
+      "sha256": "23a4a48ca090b7f4f981d167f2af91f276242d16aa9ee3ece2dc4a14a3d12dfb",
+      "decoded_pixels_sha256": "bb3adb406d50525aa36e37e8cc6eddb347f94859cd549a7507f25bb3687abebd",
+      "width": 2200,
+      "height": 616,
+      "provenance": "qa/probe_side.json"
+    }
+  ],
+  "file_inventory_exclusions": [
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8436,
+      "sha256": "0088ecd43d2425ad4ab1458dbc7a878931b4763d05a4369eeeaa81c0e4ec18b4"
+    },
+    {
+      "path": "REFERENCES.md",
+      "bytes": 2401,
+      "sha256": "ab3ea5ff58b1c366f2c61b16422898bbdaf52c952997d30760e26ceea64f7c88"
+    },
+    {
+      "path": "VISUAL_QA.md",
+      "bytes": 6855,
+      "sha256": "bc80efa862147d1e5a55bd9d5dbcc450737b42a7027d182f92ee3c90abbcb85e"
+    },
+    {
+      "path": "WAP7_detail_v02.blend",
+      "bytes": 10368238,
+      "sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930"
+    },
+    {
+      "path": "components/body_geometry.py",
+      "bytes": 5875,
+      "sha256": "d355cc827369a6498152012b7439bca0563883286af5bca5a5d442773b9fbb39"
+    },
+    {
+      "path": "components/cab_interiors.py",
+      "bytes": 53188,
+      "sha256": "852c47db8d2a24a5df2fc135774b7b9f45e2b514d68a80f3d0d981db570e31e6"
+    },
+    {
+      "path": "components/common.py",
+      "bytes": 7072,
+      "sha256": "61ec45c1e2ab246683b2449818f4c1e8771541daaa5d76541d3a61cda225dd20"
+    },
+    {
+      "path": "components/coupler.py",
+      "bytes": 16842,
+      "sha256": "abf90997d9dd376ce7d03bcd4f5a79f8d60fce6b9a32d1a0a84bf10445ffd573"
+    },
+    {
+      "path": "components/depot.py",
+      "bytes": 6165,
+      "sha256": "e13104e2cb1c9a400b535dac643ad179f0c1afe154150dbf4769008ee1e6a64f"
+    },
+    {
+      "path": "components/exterior.py",
+      "bytes": 25454,
+      "sha256": "24f6ae0ac6375c196bd477d1a25f7ef6cefad53bd128d653440c082fca8b0289"
+    },
+    {
+      "path": "components/machinery_room.py",
+      "bytes": 47385,
+      "sha256": "8f7f63f9da1edc5f0f59c21f769e96012dbe52b8c329b71f48913de65cb6cea7"
+    },
+    {
+      "path": "components/materials.py",
+      "bytes": 422,
+      "sha256": "5fca78261f47f6413bee29347a12fd37318a5f51138e40417f4e122a590a5f6c"
+    },
+    {
+      "path": "components/presentation.py",
+      "bytes": 14708,
+      "sha256": "d88d2751f532f1cd720421e06ab477ed7dc5768bcd29b33196bfcf82897e23ec"
+    },
+    {
+      "path": "components/roof.py",
+      "bytes": 19631,
+      "sha256": "3a70dd31113111fdf2e9bc380ee26ea1d55fc3a6db4f98002ebcbaaec7e3e5ba"
+    },
+    {
+      "path": "components/running_gear.py",
+      "bytes": 59017,
+      "sha256": "7d2a95226d4f0ee56e830b4df8b4650d83d9d6f9385d8870f7d096e1a4fccdbd"
+    },
+    {
+      "path": "components/stage.py",
+      "bytes": 2518,
+      "sha256": "4ad67ed68a36864433f9045432cbbb5f4c5e3647a111ccfe27f49f9ea156bf8e"
+    },
+    {
+      "path": "components/surface_materials.py",
+      "bytes": 25291,
+      "sha256": "8ac6c2e8d7ad51c18c92feaa97b81006cfcd424a0144d024a1872efe9dcbbbf0"
+    },
+    {
+      "path": "components/surface_running_gear.py",
+      "bytes": 4110,
+      "sha256": "2ab4c1faaa085bc8dd8186a30d6b936c05b082718633f17720c78691c6be51a1"
+    },
+    {
+      "path": "delivery_manifest.json",
+      "bytes": 122761,
+      "sha256": "7b146b3cade3d27406b55030a72b9b2753cbdf3a8f366d15600abcc662d04ebc"
+    },
+    {
+      "path": "docs/BUILD_AND_RENDER.md",
+      "bytes": 7179,
+      "sha256": "54fb1043435f3c4a3d5e6e9041680b912257472aa10de7daf92b5efb1e36f3c6"
+    },
+    {
+      "path": "docs/CAB_GALLERY_USAGE.md",
+      "bytes": 3043,
+      "sha256": "5c1096b108e758f4ea12f6697284a176eb914fcf1d331be0a0bb9dfa9d1e7a7e"
+    },
+    {
+      "path": "docs/CAB_IMPLEMENTATION.md",
+      "bytes": 5656,
+      "sha256": "7e2f0713d9cb16dda53859d6d92f057b790e859ebb10cc771834f35cb1bcc7ba"
+    },
+    {
+      "path": "docs/CAB_REFERENCE_NOTES.md",
+      "bytes": 5265,
+      "sha256": "489136b44fd2eb95ede3c43a93cff75a70dc5a381eff7b680afff82a62ff516d"
+    },
+    {
+      "path": "docs/EXTERIOR_REFERENCE_NOTES.md",
+      "bytes": 8003,
+      "sha256": "60f3a0b3c1c3470ba3a57b6c9f5ecdf80586e54c2f47b5e1af104d9d18198ed6"
+    },
+    {
+      "path": "docs/MACHINERY_REFERENCE_NOTES.md",
+      "bytes": 10044,
+      "sha256": "43636e856bdf6f8b1dd19f0045d331315495f50d26ec2e9a34db7f55cfcb0ed1"
+    },
+    {
+      "path": "docs/RUNNING_GEAR_REFERENCE_NOTES.md",
+      "bytes": 11079,
+      "sha256": "dfb74479a8ed5116fdbf662bff7692577c9e059795cc1725a783c9c9f4d96e87"
+    },
+    {
+      "path": "docs/SURFACE_MATERIALS.md",
+      "bytes": 13676,
+      "sha256": "f545c2aafb264521e7c5caf717d805b091bdea7497e39f57a2394223b8a2803b"
+    },
+    {
+      "path": "environment/README.md",
+      "bytes": 1633,
+      "sha256": "04fd9d1a333fa81fb4e89da6c284d408c6aa39c3d1cf4f8a835de87c10a5e4a6"
+    },
+    {
+      "path": "environment/dependency_manifest.json",
+      "bytes": 2123,
+      "sha256": "f915ca7d1b2fe9d89e10c758f79752e20843498bea842299f1b2bbe67220036f"
+    },
+    {
+      "path": "environment/dirt_diff_2k.jpg",
+      "bytes": 3053062,
+      "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8"
+    },
+    {
+      "path": "environment/dirt_disp_2k.exr",
+      "bytes": 1472791,
+      "sha256": "a089dc8964c5f73199ad63d5a63e336f70a8c6f3e629c1dd03b893f16e5066e3"
+    },
+    {
+      "path": "environment/dirt_nor_gl_2k.jpg",
+      "bytes": 4914156,
+      "sha256": "ff629fce04c5d6d581cfcb604ea85df6b726798e60d982fd5484c60cddcccd88"
+    },
+    {
+      "path": "environment/dirt_rough_2k.jpg",
+      "bytes": 964887,
+      "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa"
+    },
+    {
+      "path": "environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+      "bytes": 5451493,
+      "sha256": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198"
+    },
+    {
+      "path": "previews/cab/overview_A.png",
+      "bytes": 2406907,
+      "sha256": "cf90a6781ea4829415c75084d6e3d84d246e0ee13104c049243dedbbae70de43"
+    },
+    {
+      "path": "previews/cab/overview_A.provenance.json",
+      "bytes": 52309,
+      "sha256": "490ce3603593f60650325e9516f0a89d384852501f4b870f6ab7a2234a365890"
+    },
+    {
+      "path": "previews/cab/panel_A.png",
+      "bytes": 2407641,
+      "sha256": "5642f625f4c10cabd902612cad3ff67b17d7c12d7a63cfe751e102e2d8bdc950"
+    },
+    {
+      "path": "previews/cab/panel_A.provenance.json",
+      "bytes": 52288,
+      "sha256": "c0daa36ba8ac9fd9f146e6473aa24ba59dd41900426a957fa20ffe62c0e7d7f9"
+    },
+    {
+      "path": "previews/details/underfloor.json",
+      "bytes": 1108,
+      "sha256": "d4209946a47830beddceed549c4222a6c6ed364bd54b3c3c9cf5b6d0be48857f"
+    },
+    {
+      "path": "previews/details/underfloor.png",
+      "bytes": 1584073,
+      "sha256": "6227a41f50b13f170ef8e1e07f0f503c0a7ffe3d7f234bba182d4b358fb0ed56"
+    },
+    {
+      "path": "previews/details/wheel.json",
+      "bytes": 1106,
+      "sha256": "f955ed5c4510b16ac9bbf4e428a1ff8366a2aaa29bd1878bb824c4ab16152391"
+    },
+    {
+      "path": "previews/details/wheel.png",
+      "bytes": 2956404,
+      "sha256": "c001391ea9aed8868c3ee2af35af0b63d3081996b252163f0376af87833b2ef0"
+    },
+    {
+      "path": "previews/machinery_gallery/machinery_cutaway.json",
+      "bytes": 2434687,
+      "sha256": "0fbc2e39e1774dd4ff4e01eca25adfb09f919a696ed77ab7c507fecd901b0bbf"
+    },
+    {
+      "path": "previews/machinery_gallery/machinery_cutaway.png",
+      "bytes": 1350590,
+      "sha256": "c67f6d5b000186043d4fb2f7966a51dc4198c1b750eec4a144a69ea731477247"
+    },
+    {
+      "path": "previews/machinery_gallery/machinery_through_door.json",
+      "bytes": 15765,
+      "sha256": "01ef9d00af89587a8c38eb6e4a78809e7fe8bd4b955ae400d8a47af3f254fc3a"
+    },
+    {
+      "path": "previews/machinery_gallery/machinery_through_door.png",
+      "bytes": 2215452,
+      "sha256": "86b251f72c34604bb1d89c57d81ac2af0c082c24bf48a97ebbcae08110530153"
+    },
+    {
+      "path": "previews/outdoor_hero.png",
+      "bytes": 2916964,
+      "sha256": "3721cd58e51928ea4dd662eef5600e4eb1b79e3af9ad7e3465aae4ce13df23e3"
+    },
+    {
+      "path": "previews/probe_coupler_top.png",
+      "bytes": 2412522,
+      "sha256": "36811b6e51b4544e460d72cab4bdd67c40a8c9072e5c7b1f7470a14f45e0c2da"
+    },
+    {
+      "path": "previews/probe_pantograph.png",
+      "bytes": 2175035,
+      "sha256": "6fdbf58f5d8d6bcdfb307362c15907f2a35554f0fa16cbe28270ef1235657d33"
+    },
+    {
+      "path": "previews/probe_side.png",
+      "bytes": 1549270,
+      "sha256": "23a4a48ca090b7f4f981d167f2af91f276242d16aa9ee3ece2dc4a14a3d12dfb"
+    },
+    {
+      "path": "qa/bogie_view_framing_validation.json",
+      "bytes": 939,
+      "sha256": "5241f324412a3ac86bc76adb4965d55e8e12fd71611d74a91706dfa3404de7b9"
+    },
+    {
+      "path": "qa/build_report.json",
+      "bytes": 32454,
+      "sha256": "8b194ca0be3cbe9b08bc8f8ce46c8e72a8cfaa944cf9717cb1910d016a08eaab"
+    },
+    {
+      "path": "qa/cab/combined_join_validation.json",
+      "bytes": 11582,
+      "sha256": "3178c1a30aa9d4461737e6fd673384a3730027bbe82a3d97436ab6b5ad7a8566"
+    },
+    {
+      "path": "qa/cab/component_file_manifest.json",
+      "bytes": 3135,
+      "sha256": "8f72515ce79f2064f5a91865a221f2357c60f149cf31ff61ed17c412e79d3ecd"
+    },
+    {
+      "path": "qa/cab/component_validation.json",
+      "bytes": 3941,
+      "sha256": "930e1c2c9788e9af5f08d45f17aa78583636a1942930be3d7c6694c4b8b53615"
+    },
+    {
+      "path": "qa/cab/lanyard_geometry_validation.json",
+      "bytes": 482,
+      "sha256": "3373c5bc79ca489a56f15d4b1877586b43b280bc4f491a228cd437a65c1024c9"
+    },
+    {
+      "path": "qa/cab/overview_sampling_validation.json",
+      "bytes": 712,
+      "sha256": "b82a0bfb32617993934cec0bb50bb7f196b818ae0229247cd5704b615eefdb4f"
+    },
+    {
+      "path": "qa/delivery_material_font_comparison.json",
+      "bytes": 17079,
+      "sha256": "0acaa4c5a1e5bbbdcd2bfc147cc5ee1c87cba2870a8c79e302ed611a3e882e85"
+    },
+    {
+      "path": "qa/entry_ladder_yaw_clearance.json",
+      "bytes": 2379,
+      "sha256": "e482ec47d83aeb72b960735caa8f513f256333900a55c780959a766ed9d4efdc"
+    },
+    {
+      "path": "qa/final_gallery_validation.json",
+      "bytes": 5088,
+      "sha256": "f8e43c00c33a5407b5551c0877575f32d9c15aa508ea2ab61ddaa43c929b099f"
+    },
+    {
+      "path": "qa/machinery/adaptive_sampling_validation.json",
+      "bytes": 288,
+      "sha256": "7e4565d297d12ae2bc05672021061e5bdea3d70ac9d930f2d1f16d0a506e4446"
+    },
+    {
+      "path": "qa/machinery/validation_report.json",
+      "bytes": 4334,
+      "sha256": "6f7968ddc4968599f65673bcef0a4ca824f280b13fb84ee299908e974a414bb5"
+    },
+    {
+      "path": "qa/outdoor_hero.json",
+      "bytes": 1335,
+      "sha256": "cd4ab1d50150bae4dcbb759a2ab40c86497dd4d93f2e6dda4e4a604709a75577"
+    },
+    {
+      "path": "qa/portability_validation.json",
+      "bytes": 16708,
+      "sha256": "89d66fb1ce00ae6233fe3700e87d04a3fac7c1faee660aef149c1a38aeb831a6"
+    },
+    {
+      "path": "qa/preview_metadata_cleanup.json",
+      "bytes": 7747,
+      "sha256": "552eec63985ed9ead24e42cc16faf42e45a5e038db491d407920cd57f44997ea"
+    },
+    {
+      "path": "qa/probe_coupler_top.json",
+      "bytes": 913,
+      "sha256": "3f4af4a6da6d4c9782eacbcbc11c4f5ceaeeaca5da9367a47b5b30adcf608286"
+    },
+    {
+      "path": "qa/probe_pantograph.json",
+      "bytes": 911,
+      "sha256": "b4a33feb0e28edddfec4115bf5d5116c31f4723849dd0d0efe9c4bb970f7059e"
+    },
+    {
+      "path": "qa/probe_side.json",
+      "bytes": 912,
+      "sha256": "2843f767c239ae7588198359593403542115e730ad01c7e453a7949abe03d4d1"
+    },
+    {
+      "path": "qa/publication_source_validation.json",
+      "bytes": 1058,
+      "sha256": "b05bc2281a1aa3828c92109e7195fcf0f97cba6774b15f7217d0a7ee0aaa19c8"
+    },
+    {
+      "path": "qa/reference_audit/FINAL_VALIDATION_SUMMARY.md",
+      "bytes": 4381,
+      "sha256": "08c8bd0bb17a39acf343e15640ff6dcd97f6081f973ee671e536612510ebb367"
+    },
+    {
+      "path": "qa/reference_audit/INDEPENDENT_VALIDATION.md",
+      "bytes": 3180,
+      "sha256": "27c7638b1a37e7482a7345aefd17e4b3ca916428d2fb112e8e20338152c50dfe"
+    },
+    {
+      "path": "qa/reference_audit/final_gallery_review.json",
+      "bytes": 8481,
+      "sha256": "0e6d15c41b9ce23c035dc9b6d9f79ed3c278c0a4361f85130e96488dd262cd00"
+    },
+    {
+      "path": "qa/reference_audit/final_integrated_validation.json",
+      "bytes": 4844178,
+      "sha256": "e22b72a6b50c31bb60e1f231df81d652d4e86e49d76591fd87a3f777f5f3be5e"
+    },
+    {
+      "path": "qa/reference_audit/functional_interface_baseline.json",
+      "bytes": 15305,
+      "sha256": "5a670c8c300e594d77b904f3799080ef2e1b47350713d9e497a9e36ef5dea767"
+    },
+    {
+      "path": "qa/reference_audit/validate_integrated_readonly.py",
+      "bytes": 15148,
+      "sha256": "5fecc3675e65e33b7e319326be7d11e9bc7f17b8763376bae42cf923f08328d5"
+    },
+    {
+      "path": "qa/roof_connection_validation.json",
+      "bytes": 8930,
+      "sha256": "8150aa9ceccbb954d28f707ad0f63872559be0699adb032dcad985f8238a4362"
+    },
+    {
+      "path": "qa/running_gear_validation.json",
+      "bytes": 22452,
+      "sha256": "6f18246b8ac60e07ed452a110713e784badbba190c4305fe49d434d8ce5e4b17"
+    },
+    {
+      "path": "qa/side_view_framing_validation.json",
+      "bytes": 1014,
+      "sha256": "326adf573f0690f748e276c5722f7c34866f6c908b1edc3d9945114b33c92e05"
+    },
+    {
+      "path": "qa/surfaces/bounded_gain_validation.json",
+      "bytes": 1172,
+      "sha256": "65deac7f9e291e6e413a81c985b0db722aa5ed1e9c39b340f9003a038fa00c38"
+    },
+    {
+      "path": "qa/surfaces/environment_colourspace_validation.json",
+      "bytes": 342,
+      "sha256": "a5383a22d830564edf606180c29b3873f3beb4a4d12d23d659bbdf0bd41c6150"
+    },
+    {
+      "path": "qa/surfaces/environment_sun_direction.json",
+      "bytes": 880,
+      "sha256": "99a2989f69832598bf8570f8769c9cc3d6c33c79e64397d3e3637e64255237a3"
+    },
+    {
+      "path": "qa/surfaces/final_closeup_material_reviews.json",
+      "bytes": 8342,
+      "sha256": "1d99e5d06774e6caad31be7eca512b9b45c27a16c8d7c2b026c7d6266730b8a6"
+    },
+    {
+      "path": "qa/surfaces/final_gallery_material_review.json",
+      "bytes": 5877,
+      "sha256": "5b4e324c05d44001bdfa227c5ebaee33fa278550acf8989197c3d2fe489adb1f"
+    },
+    {
+      "path": "qa/surfaces/final_integrated_review.json",
+      "bytes": 3745,
+      "sha256": "0827b5732efb1283ee2a235624902049aa241ac66e4ed1f264fa19aaf6785843"
+    },
+    {
+      "path": "qa/surfaces/gear_surface_validation.json",
+      "bytes": 711,
+      "sha256": "0787414d783a1571c38fd3a2886ecca041fc152fa65221d3e8a90659b83626c3"
+    },
+    {
+      "path": "qa/surfaces/surface_delivery_manifest.json",
+      "bytes": 6160,
+      "sha256": "1d76c91c70a35c4659333895c7b23cdfc09a486ed59417173f59b1ff6abe1e4e"
+    },
+    {
+      "path": "qa/surfaces/surface_validation.json",
+      "bytes": 8760,
+      "sha256": "99777f1d08c28c01ea9590a0f531cea2fa0447295d299f1e017ddd4d7bff0cc1"
+    },
+    {
+      "path": "qa/surfaces/weather_placement_validation.json",
+      "bytes": 2346,
+      "sha256": "c7160fc4262efa8777dc0a2b1c7bc7646d9826097f1a616d3a753ee54a803f66"
+    },
+    {
+      "path": "qa/underfloor_view_framing_validation.json",
+      "bytes": 575,
+      "sha256": "8c5205b5f85f10d8fd7dc359770fd0fe222970cb402f9f1009c6bb27fe5d8e7f"
+    },
+    {
+      "path": "scripts/audit_portability.py",
+      "bytes": 3700,
+      "sha256": "da73181f10c5c0b5949bf7707a611690997e4dd9baefa592a38fead7f9d300f6"
+    },
+    {
+      "path": "scripts/build_master.py",
+      "bytes": 5438,
+      "sha256": "6b4707071340d8bf523a854104c62098573d0e8a5a06e74f313cb452f744a170"
+    },
+    {
+      "path": "scripts/compare_delivery_materials.py",
+      "bytes": 9172,
+      "sha256": "1264f11e2bdced9f75dac60227672a868e9998d39a9c78b433fe5197bc8d6238"
+    },
+    {
+      "path": "scripts/make_cab_instruments.py",
+      "bytes": 4334,
+      "sha256": "3c3532d5978b567b3599fb6a81d98e54850c39fe9624109b0df5be64a8a4dd1c"
+    },
+    {
+      "path": "scripts/make_identity_details.py",
+      "bytes": 3414,
+      "sha256": "e94923073667ec42693142091a8370c90bb2d865ad3f223e1834ef635750c6c8"
+    },
+    {
+      "path": "scripts/make_service_wear_maps.py",
+      "bytes": 10460,
+      "sha256": "81551a26acc797a141762aeb2943734f7fb88b507cc4ef251987d300888786ef"
+    },
+    {
+      "path": "scripts/make_surface_detail_maps.py",
+      "bytes": 3436,
+      "sha256": "0fce291b6d11aa35b2154eed976dbfaf0e9a3348a7f10c3db62b1bb0bfc06a46"
+    },
+    {
+      "path": "scripts/prepare_delivery_master.py",
+      "bytes": 6900,
+      "sha256": "43a3926c83ed7530e848ab50006f80977621339d04d1e491b54b288f448e0cf8"
+    },
+    {
+      "path": "scripts/render_cab_gallery.py",
+      "bytes": 15465,
+      "sha256": "7d2275e6f6e98f88a9423fb200661fe4a8ef3bb74b0d334c37939d650e782103"
+    },
+    {
+      "path": "scripts/render_cab_gallery_uniform.py",
+      "bytes": 15128,
+      "sha256": "1414af9325fc55d81621a15ffd1a4efea722ffd95ca565e2cae064e6295c17e2"
+    },
+    {
+      "path": "scripts/render_detail_gallery.py",
+      "bytes": 3488,
+      "sha256": "56d6e862b5f85c56942b6b68c4bf57b5523ace55c74f77a5798880935ba35818"
+    },
+    {
+      "path": "scripts/render_final_gallery.sh",
+      "bytes": 1845,
+      "sha256": "bc2301dd8263c3763c65f066e461100078c31fb4696b0c7cc18f55215b3aa8aa"
+    },
+    {
+      "path": "scripts/render_machinery_gallery.py",
+      "bytes": 20482,
+      "sha256": "d5552b6bc0bfd50967813e700047c9899672f14c7148ff3f59ff3e2a023d28db"
+    },
+    {
+      "path": "scripts/render_outdoor.py",
+      "bytes": 2464,
+      "sha256": "2e185f9b2271804c84d01a8de65ff82e5e5e3ad8e0df9b5594c04e270c52413e"
+    },
+    {
+      "path": "scripts/render_probe.py",
+      "bytes": 2123,
+      "sha256": "c8f5f5ee79d8450ba64ef2b150d22560e7bd8f028ed647217ab67b133a35f406"
+    },
+    {
+      "path": "scripts/strip_preview_metadata.py",
+      "bytes": 5587,
+      "sha256": "43b255e16d2f0c333f14105b71498fa309975cf74fa5abe6eae009c1bb927018"
+    },
+    {
+      "path": "scripts/validate_cab_join.py",
+      "bytes": 2976,
+      "sha256": "bb74f15d72c2fa22f29d15e7c888fe03e766b66b5eeecf868e3ce75277173edf"
+    },
+    {
+      "path": "scripts/validate_entry_ladders.py",
+      "bytes": 2753,
+      "sha256": "3491b619347a8ef14d711ecd409ebbf9a85ef43e01690edc8ec454a41b382277"
+    },
+    {
+      "path": "scripts/validate_gear_surfaces.py",
+      "bytes": 1827,
+      "sha256": "b7b2f379e5efcb0247070454cfdd6ccdaf496612df72504a08bfe8d5a403dd90"
+    },
+    {
+      "path": "scripts/validate_roof_connections.py",
+      "bytes": 3869,
+      "sha256": "b2b58f2f09cce927ff5c5338a385ff58f8d2fc484b91f14dd76e7edb687d8bfb"
+    },
+    {
+      "path": "scripts/validate_surface_materials.py",
+      "bytes": 6114,
+      "sha256": "bf49227b8428c63691cf200ea0b555b5f7188e02fc416c67be51a43f34e5b492"
+    },
+    {
+      "path": "scripts/verify_gallery.py",
+      "bytes": 4146,
+      "sha256": "dc3c13a1016c6d8e246d69887485c529c16841a957208baa1783d9c74d21baaf"
+    },
+    {
+      "path": "textures/cab/PROVENANCE.json",
+      "bytes": 411,
+      "sha256": "d96cfc53bfde0d21878f1fdfb0678c1c8a92cf19ad1de9e006d78609f7ddfb78"
+    },
+    {
+      "path": "textures/cab/gauge_afi.png",
+      "bytes": 26277,
+      "sha256": "5337c1a3191cf77d4789d0cc0a744957dc7f7ea5206ad64362ee4461d97882a8"
+    },
+    {
+      "path": "textures/cab/gauge_bc.png",
+      "bytes": 28213,
+      "sha256": "93349944ab47fae5a816837166fa397d139a2cb60f3a6f83d301321d09b9a118"
+    },
+    {
+      "path": "textures/cab/gauge_bp.png",
+      "bytes": 26075,
+      "sha256": "db8495ca9cae1f19c8e3c8d3bf22475721ec0ceccace64b5ab90a232cc3cff33"
+    },
+    {
+      "path": "textures/cab/gauge_mrfp.png",
+      "bytes": 32105,
+      "sha256": "dcb073af262817c362863704fa75021d71864b356e91849250808a60e03f95f7"
+    },
+    {
+      "path": "textures/cab/gauge_pb.png",
+      "bytes": 26070,
+      "sha256": "f0a80273c30bcd4c43df439ffe69c68eaea0f682ef4fa8ecd826248936888dec"
+    },
+    {
+      "path": "textures/cab/lcd_blank.png",
+      "bytes": 1486,
+      "sha256": "8a8b2dc28054a2cbe482e05cf94a97e51419802c2638be28f00f0b4bb4a4c862"
+    },
+    {
+      "path": "textures/cab/meter_battery.png",
+      "bytes": 12981,
+      "sha256": "bc4165973bc22b1c9076261ef647086c250b31165e9b3b7034bf0cbb52be09ac"
+    },
+    {
+      "path": "textures/cab/meter_bogie1.png",
+      "bytes": 14746,
+      "sha256": "d52f52c4ba6902e7282bf33b362651ae7f926da6f7ace527995d66b76e1691e6"
+    },
+    {
+      "path": "textures/cab/meter_bogie2.png",
+      "bytes": 15198,
+      "sha256": "5b0a37ce176ddd69a1e8b4045837628430730326aae062b7873d129bb50827f0"
+    },
+    {
+      "path": "textures/cab/meter_ohe.png",
+      "bytes": 12108,
+      "sha256": "ed1ef861a8d746665c4bcfde814a31a9ab341a18252182b6e7b3adb97206d975"
+    },
+    {
+      "path": "textures/cab/speedometer.png",
+      "bytes": 24832,
+      "sha256": "6ac4c3ad44bb0b060eb1976f27a15aa71fd214e69fda2f16ee4e10e704bd4f05"
+    },
+    {
+      "path": "textures/cab1.png",
+      "bytes": 3985,
+      "sha256": "c1aa8b1cff5b112017e7f0122d130073d232c9a0f405bc7fdd0c4f370478b1e5"
+    },
+    {
+      "path": "textures/cab2.png",
+      "bytes": 4727,
+      "sha256": "b94c1ddd4352002f405220970ba41d343c53c56d54ac3e37e04fb14d77f05aa3"
+    },
+    {
+      "path": "textures/class.png",
+      "bytes": 15629,
+      "sha256": "caaa1446ffbefdcb73e9294907b82b64554bf10b1fc1e93cf550ddfedc594be2"
+    },
+    {
+      "path": "textures/hog.png",
+      "bytes": 12093,
+      "sha256": "c529389b3e79f9cf4f5efdfd10ade3e1735ada862637c19884490b328d5369f8"
+    },
+    {
+      "path": "textures/indian_flag.png",
+      "bytes": 3603,
+      "sha256": "9650be051ee38e7e9ec802f7003bfdef48428682ac167d3eebe1ecac4d0729e9"
+    },
+    {
+      "path": "textures/lift.png",
+      "bytes": 1964,
+      "sha256": "d8fb6b09773544c8cc29929de1c20ffcef4794e69da400d14add8ced03a57d5b"
+    },
+    {
+      "path": "textures/number_black.png",
+      "bytes": 21708,
+      "sha256": "eb4652ec920cd9e92c22b849abf30c61cce1810657121c867371c35cf0d4e030"
+    },
+    {
+      "path": "textures/number_red.png",
+      "bytes": 27659,
+      "sha256": "1908b6847bb06009b28a0abaaeb94333685a34577421811b5204898243039e9d"
+    },
+    {
+      "path": "textures/railway_english.png",
+      "bytes": 41800,
+      "sha256": "b3a4b8de2319bf3b602097c5fd520d5c1c9107dd6aca71f6b8653e9b0a01e97a"
+    },
+    {
+      "path": "textures/railway_hindi.png",
+      "bytes": 11559,
+      "sha256": "11f161245e0f7732d85fc92158f5039a39d78cc877db09b49d796adc008f92a4"
+    },
+    {
+      "path": "textures/rpm.png",
+      "bytes": 4388,
+      "sha256": "1e5184ea0f8073af8b09c32b582dc59e1f0580f3c8698ddfbf1dd52900c5860a"
+    },
+    {
+      "path": "textures/shed.png",
+      "bytes": 20573,
+      "sha256": "3e0af297d212afbc71a6dc86babb2159d9353e26223f9be2f477de3bd8bbd366"
+    },
+    {
+      "path": "textures/sr.png",
+      "bytes": 4225,
+      "sha256": "341e39a4cf93bc314f7ee9039d709ae88a325bac9d42cf93acd50a9f6b9ea5d9"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_MAP_PROVENANCE.json",
+      "bytes": 860,
+      "sha256": "d2716d03dd9c2996049d99f8bb9059ea0c8f8d79a45874cc869bfb98d5b0d071"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_SERVICE_WEAR_PROVENANCE.json",
+      "bytes": 5140,
+      "sha256": "b683ade3dc0c825c9264db0e367ada5896bf6d7345bc5f0c2bd205deb321d88a"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_grease.png",
+      "bytes": 657065,
+      "sha256": "93dad3f3c66af42876c2887c153b4ff93e8868450b3a274097c2dc078c421047"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_roughness.png",
+      "bytes": 6182956,
+      "sha256": "c6ef25897b1b3f2ad12b080e5cb44b0dbf518e1b734a6e1ef81013d0042d77c3"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_wear.png",
+      "bytes": 4673556,
+      "sha256": "00ce298dcb8d18770a64aa7d0f77d10cc402a406e6932f66b2c01c97f5b2b913"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_roof_foot_runoff.png",
+      "bytes": 26153,
+      "sha256": "a05a97e27624a6f4c0b05a515eef345ac2a0108a4ccb55a40ee6ff14ab2bf766"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_windscreen_service_film.png",
+      "bytes": 103258,
+      "sha256": "eb6634c8a45e60f7e28b0d1926bf6cdc7e3a8f5717a7cbd33fc7ffb267b0b8b2"
+    },
+    {
+      "path": "textures/technical.png",
+      "bytes": 8866,
+      "sha256": "f66440928134918ce9e8a78fd504d57cac1b0c3df9f51d124251b2e3d492a1d7"
+    },
+    {
+      "path": "textures/v02_body_side1_albedo.png",
+      "bytes": 3385534,
+      "sha256": "1efcc76750f31a94d072998c040cf73abb54650434a9af417b8f99c8086dba4e"
+    },
+    {
+      "path": "textures/v02_body_side1_grime_mask.png",
+      "bytes": 238911,
+      "sha256": "67501d80f40d5f95f29734ed5cee33110df5c02ea410bf777a3204387fe86079"
+    },
+    {
+      "path": "textures/v02_body_side1_roughness.png",
+      "bytes": 110848,
+      "sha256": "9bff356e0233b37c423a83af682ee26d50c491e829616853b561bf84e691cd85"
+    },
+    {
+      "path": "textures/v02_body_side2_albedo.png",
+      "bytes": 3359500,
+      "sha256": "ec0f3dea6fabefaa090292f20b902856024e1397d7beac43e85f32d9ee4f72b3"
+    },
+    {
+      "path": "textures/v02_body_side2_grime_mask.png",
+      "bytes": 236751,
+      "sha256": "b2a06f0519d19864f50822bb452e4ca35cbd9f7f43991a99679fae870c04a246"
+    },
+    {
+      "path": "textures/v02_body_side2_roughness.png",
+      "bytes": 110299,
+      "sha256": "7ee0a05fc3e521f44d5460f1c4a5338ea3ea650a47b68289c8a5a1151dca08cf"
+    },
+    {
+      "path": "textures/v02_nose_albedo.png",
+      "bytes": 1441937,
+      "sha256": "694ef015b3324b267a68a060c0d6b850aa246f5320337a9105e5e5cbb2e45850"
+    },
+    {
+      "path": "textures/v02_nose_grime_mask.png",
+      "bytes": 72593,
+      "sha256": "334867af45733b6949023b144ad3da82c86949c5ff11caddab6c6fba8e90ef32"
+    },
+    {
+      "path": "textures/v02_nose_roughness.png",
+      "bytes": 33912,
+      "sha256": "1120bc959cb709b00f0e0887e0be41d85c41c3210222a95756865dfc99424d45"
+    },
+    {
+      "path": "textures/v02_royapuram_crest.png",
+      "bytes": 162412,
+      "sha256": "617aae7cab1acdfc16a6149bc7008ca116a8a5c12288e1fd8a8b2820771f0b5d"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_file_unchanged": true,
+  "render_source_sha256": {
+    "scripts/render_outdoor.py": "2e185f9b2271804c84d01a8de65ff82e5e5e3ad8e0df9b5594c04e270c52413e",
+    "components/presentation.py": "d88d2751f532f1cd720421e06ab477ed7dc5768bcd29b33196bfcf82897e23ec",
+    "components/depot.py": "e13104e2cb1c9a400b535dac643ad179f0c1afe154150dbf4769008ee1e6a64f"
+  },
+  "image_sha256": "3721cd58e51928ea4dd662eef5600e4eb1b79e3af9ad7e3465aae4ce13df23e3",
+  "seconds": 1265.6518573760986,
+  "samples": 512,
+  "width": 1920,
+  "height": 1114,
+  "denoised": false,
+  "threads": 8,
+  "presentation": {
+    "collection": "ENV02_PHOTOGRAPHIC_RAILWAY",
+    "source": "Original geometry, CC0 Poly Haven pure sky for lighting only",
+    "sky": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "sky_rotation_degrees": 11,
+    "world_strength": 0.95,
+    "render_only": true,
+    "ballast_unique_tiles": 4,
+    "rocks_per_tile": 10300
+  },
+  "render_output_image_sha256": "d3149fef8427e633465bd1d84369781461f8f116db54e95f80083d449365b4b7",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/outdoor_hero.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

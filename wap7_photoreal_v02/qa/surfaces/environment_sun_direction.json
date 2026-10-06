@@ -1,0 +1,26 @@
+{
+  "file": "kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+  "max_radiance": 73216.0,
+  "peak_luminance_pixel": [
+    1218,
+    239
+  ],
+  "peak_uv": [
+    0.594970703125,
+    0.76611328125
+  ],
+  "texture_azimuth_degrees": -34.189453125,
+  "sun_elevation_degrees": 47.900390625,
+  "predicted_world_sun_azimuth": {
+    "115": -149.189453125,
+    "75": -109.189453125,
+    "55": -89.189453125,
+    "35": -69.189453125,
+    "11": -45.189453125,
+    "0": -34.189453125
+  },
+  "mapping_for_balanced_minus45deg_sun": 10.810546875,
+  "assumption": "Cycles equirectangular projection and default point-type Mapping with positive Z rotation; image peak is treated as sun centre",
+  "source_formula": "https://github.com/blender/blender/blob/main/intern/cycles/kernel/camera/projection.h",
+  "scope": "Pure Python read-only HDRI analysis; no Blender process, shader evaluation or render"
+}

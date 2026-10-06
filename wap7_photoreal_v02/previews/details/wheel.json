@@ -1,0 +1,39 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "render_driver_sha256": "56d6e862b5f85c56942b6b68c4bf57b5523ace55c74f77a5798880935ba35818",
+  "master_bytes_unchanged": true,
+  "view": "wheel",
+  "samples": 192,
+  "width": 1600,
+  "height": 1312,
+  "denoised": false,
+  "adaptive_sampling": true,
+  "minimum_samples": 32,
+  "noise_threshold": 0.014999999664723873,
+  "threads": 8,
+  "seconds": 506.80135774612427,
+  "camera": {
+    "location": [
+      9.15,
+      -4.0,
+      1.3
+    ],
+    "target": [
+      7.8,
+      -1.12,
+      0.76
+    ],
+    "orthographic_span_m": 2.16
+  },
+  "inspection_fill_watts": 180,
+  "visibility_changes": [],
+  "component_rebuilds": false,
+  "image_sha256": "c001391ea9aed8868c3ee2af35af0b63d3081996b252163f0376af87833b2ef0",
+  "render_output_image_sha256": "127267d380cb7e86086dc9b559f0c5f7532b4ff39b82f234386f55a2ee0fa9ed",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/details/wheel.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

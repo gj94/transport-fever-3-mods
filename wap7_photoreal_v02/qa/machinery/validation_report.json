@@ -1,0 +1,157 @@
+{
+  "module_sha256": "6338154248b759939dc7a374db720189bd3377c0ecd47ee0fb8f9d0e2bae7277",
+  "canonical_body_width_preparation": 3152,
+  "test_seconds": 22.96028995513916,
+  "source_objects_verified": 4175,
+  "source_data_roots_parenting_unchanged": true,
+  "idempotent_object_names": true,
+  "idempotent_mesh_triangles": true,
+  "object_count": 1228,
+  "mesh_triangles": 298708,
+  "finite_vertices": true,
+  "no_empty_meshes": true,
+  "bounds": [
+    [
+      -7.15500020980835,
+      -1.4739999771118164,
+      1.5219999551773071
+    ],
+    [
+      7.15500020980835,
+      1.4739999771118164,
+      3.7244999408721924
+    ]
+  ],
+  "passage_600x1830_mm_intrusions": [],
+  "measured_centered_clear_width_m": 0.6401293277740479,
+  "measured_overhead_clearance_m": 1.8529498386383056,
+  "measured_lowest_overhead_z": 3.4979498386383057,
+  "spring_pocket_clearance_intrusions": [],
+  "equipment_outside_lead_cavity": [],
+  "envelope_checks": [
+    {
+      "name": "Traction_converter1",
+      "actual_envelope": [
+        2.999999761581421,
+        1.1000000536441803,
+        2.087000012397766
+      ],
+      "target_envelope": [
+        3.0,
+        1.1,
+        2.087
+      ],
+      "max_error_m": 2.384185791015625e-07,
+      "source_precision": "existing equipment"
+    },
+    {
+      "name": "Traction_converter2",
+      "actual_envelope": [
+        2.999999761581421,
+        1.100000023841858,
+        2.087000012397766
+      ],
+      "target_envelope": [
+        3.0,
+        1.1,
+        2.087
+      ],
+      "max_error_m": 2.384185791015625e-07,
+      "source_precision": "existing equipment"
+    },
+    {
+      "name": "Auxiliary_converter1",
+      "actual_envelope": [
+        1.1599998474121094,
+        1.0200000405311584,
+        1.8600000143051147
+      ],
+      "target_envelope": [
+        1.16,
+        1.02,
+        1.86
+      ],
+      "max_error_m": 1.5258789054506394e-07,
+      "source_precision": "existing equipment"
+    },
+    {
+      "name": "Auxiliary_converter2",
+      "actual_envelope": [
+        1.5199997425079346,
+        1.0199999809265137,
+        1.8600000143051147
+      ],
+      "target_envelope": [
+        1.52,
+        1.02,
+        1.86
+      ],
+      "max_error_m": 2.5749206544745107e-07,
+      "source_precision": "existing equipment"
+    },
+    {
+      "name": "Hotel_load_converter1",
+      "actual_envelope": [
+        1.380000114440918,
+        1.0399998128414154,
+        1.6999999284744263
+      ],
+      "target_envelope": [
+        1.38,
+        1.04,
+        1.7
+      ],
+      "max_error_m": 1.871585846302537e-07,
+      "source_precision": "inferred cabinet inside documented available bay"
+    },
+    {
+      "name": "Hotel_load_converter2",
+      "actual_envelope": [
+        1.380000114440918,
+        1.0399998724460602,
+        1.6999999284744263
+      ],
+      "target_envelope": [
+        1.38,
+        1.04,
+        1.7
+      ],
+      "max_error_m": 1.2755393985486307e-07,
+      "source_precision": "inferred cabinet inside documented available bay"
+    },
+    {
+      "name": "Hotel_load_equipmentA1",
+      "actual_envelope": [
+        0.29000043869018555,
+        0.7000000476837158,
+        0.4350001811981201
+      ],
+      "target_envelope": [
+        0.29,
+        0.7,
+        0.435
+      ],
+      "max_error_m": 4.38690185566859e-07,
+      "source_precision": "inferred cabinet inside documented available bay"
+    },
+    {
+      "name": "Hotel_load_equipmentA2",
+      "actual_envelope": [
+        0.28999996185302734,
+        0.699999988079071,
+        0.4350001811981201
+      ],
+      "target_envelope": [
+        0.29,
+        0.7,
+        0.435
+      ],
+      "max_error_m": 1.8119812011940795e-07,
+      "source_precision": "inferred cabinet inside documented available bay"
+    }
+  ],
+  "precision_note": "TC and BUR are existing equipment-envelope constraints; HLC actual cases are inferred smaller boxes inside documented installation-bay limits. Small hardware and installation geometry remain representative.",
+  "passed": true,
+  "validation_execution_module_sha256": "3bc7bf63d35c0146a2247bacfa5541cb4c6f349dcd4f68e29be94cea83503b53",
+  "post_validation_change": "Citation attribution only: AR240L is supported by WAG9-GM2021 section8.2, not by the CR paragraph that discusses WAP5. No geometry, materials, dimensions, algorithms or tests changed."
+}

@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "optional_three_role_contract": true,
+    "no_scene_assignment": true,
+    "only_pure_metal_or_dielectric_endpoints": true,
+    "no_world_position_textures": true,
+    "no_automatic_pointiness_wear": true,
+    "hardware_metric_local_coordinates": true,
+    "paint_wear_requires_authored_attribute": true,
+    "no_large_scale_noise": true,
+    "small_cast_tooth": true
+  },
+  "passed": true,
+  "roles": {
+    "gear_frame": "SURFV02_Gear_frame_painted_and_dusted",
+    "gear_cast": "SURFV02_Gear_cast_housing_painted_and_dusted",
+    "gear_wheelweb": "SURFV02_Gear_wheelweb_oxide_film"
+  },
+  "scope": "Optional shader structure audit; running-gear owner does geometry/context visual review"
+}

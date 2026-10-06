@@ -1,0 +1,190 @@
+{
+  "status": "Final high-sample hero material inspection passed",
+  "passed": true,
+  "reviewed_utc": "2026-10-06T21:19:45Z",
+  "material_version": "2.4.0",
+  "material_source_sha256": "8ac6c2e8d7ad51c18c92feaa97b81006cfcd424a0144d024a1872efe9dcbbbf0",
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "image_path": "previews/outdoor_hero.png",
+  "image_sha256": "3721cd58e51928ea4dd662eef5600e4eb1b79e3af9ad7e3465aae4ce13df23e3",
+  "render_metadata": "qa/outdoor_hero.json",
+  "render_settings": {
+    "samples": 512,
+    "width": 1920,
+    "height": 1114,
+    "denoised": false,
+    "threads": 8
+  },
+  "visual_checks": {
+    "quiet_painted_upper_panels": true,
+    "localized_warm_lower_side_dust": true,
+    "dark_transmissive_glazing": true,
+    "paint_rubber_cast_contact_metal_separation": true,
+    "no_new_material_blocker": true,
+    "target_vermilion_hue_retained": true
+  },
+  "judgement": "High-sample hero preserves the maintained-service finish. Grain and roughness are restrained; no coarse global mottling or new optical artifact is visible.",
+  "checks": {
+    "exact_image_hash_verified": true,
+    "authoring_frozen_files_unchanged": true,
+    "present_delivery_source_and_map_files_match": true
+  },
+  "frozen_file_checks": [
+    {
+      "path": "components/materials.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "components/surface_materials.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "components/surface_running_gear.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "scripts/make_service_wear_maps.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "scripts/make_surface_detail_maps.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "scripts/validate_surface_materials.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "scripts/validate_gear_surfaces.py",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_body_side1_albedo.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_body_side1_grime_mask.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_body_side1_roughness.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_body_side2_albedo.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_body_side2_grime_mask.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_body_side2_roughness.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_nose_albedo.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_nose_grime_mask.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/v02_nose_roughness.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_MAP_PROVENANCE.json",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_SERVICE_WEAR_PROVENANCE.json",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_grease.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_roughness.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_wear.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_roof_foot_runoff.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    },
+    {
+      "path": "textures/surfaces/SURFV02_windscreen_service_film.png",
+      "authoring_match": true,
+      "delivery_exists": true,
+      "delivery_match": true
+    }
+  ],
+  "scope": "Final outdoor hero only. Other final gallery frames are reviewed as they complete.",
+  "delivery_support_file_note": "The release includes vehicle shaders, generators, exact artwork maps and map-provenance records. Historical diagnostic scripts are omitted; the supplied build and gallery drivers are documented separately.",
+  "decoded_pixels": {
+    "mode": "RGB",
+    "size": [
+      1920,
+      1114
+    ],
+    "sha256": "2936cef6f50802eeda292627067e7ac15774c27afe818a043efbf0eaeb8c1238",
+    "purpose": "Allows lossless PNG metadata removal to be checked independently of whole-file hash."
+  },
+  "render_output_image_sha256": "d3149fef8427e633465bd1d84369781461f8f116db54e95f80083d449365b4b7",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/outdoor_hero.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

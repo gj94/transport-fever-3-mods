@@ -1,0 +1,582 @@
+{
+  "source_blend": "integrated_join_input.blend",
+  "tests": [
+    {
+      "cab": 1,
+      "rays": [
+        {
+          "y": -0.25,
+          "z": 1.73,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 3.42,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 1.73,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 3.42,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 1.73,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 3.42,
+          "clear": true,
+          "hit": null,
+          "point": null
+        }
+      ],
+      "all_18_passage_lines_clear": true,
+      "cab_600mm_edge_and_center_rays": [
+        {
+          "y": -0.325,
+          "z": 1.653,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.325,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.325,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.325,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.325,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.325,
+          "z": 3.48,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.025,
+          "z": 1.653,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.025,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.025,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.025,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.025,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.025,
+          "z": 3.48,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.275,
+          "z": 1.653,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.275,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.275,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.275,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.275,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.275,
+          "z": 3.48,
+          "clear": true,
+          "hit": null,
+          "point": null
+        }
+      ],
+      "cab_clearance_ray_band_center_offset_m": -0.025,
+      "cab_clearance_pass": true,
+      "machinery_headroom_rays": [
+        {
+          "y": -0.25,
+          "z": 3.47,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 3.47,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 3.47,
+          "clear": true,
+          "hit": null,
+          "point": null
+        }
+      ],
+      "machinery_headroom_pass": true
+    },
+    {
+      "cab": 2,
+      "rays": [
+        {
+          "y": 0.25,
+          "z": 1.73,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.25,
+          "z": 3.42,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 1.73,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 3.42,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 1.73,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 3.42,
+          "clear": true,
+          "hit": null,
+          "point": null
+        }
+      ],
+      "all_18_passage_lines_clear": true,
+      "cab_600mm_edge_and_center_rays": [
+        {
+          "y": 0.325,
+          "z": 1.653,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.325,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.325,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.325,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.325,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.325,
+          "z": 3.48,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.025,
+          "z": 1.653,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.025,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.025,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.025,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.025,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0.025,
+          "z": 3.48,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.275,
+          "z": 1.653,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.275,
+          "z": 2.05,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.275,
+          "z": 2.4,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.275,
+          "z": 2.75,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.275,
+          "z": 3.1,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.275,
+          "z": 3.48,
+          "clear": true,
+          "hit": null,
+          "point": null
+        }
+      ],
+      "cab_clearance_ray_band_center_offset_m": -0.025,
+      "cab_clearance_pass": true,
+      "machinery_headroom_rays": [
+        {
+          "y": 0.25,
+          "z": 3.47,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": 0,
+          "z": 3.47,
+          "clear": true,
+          "hit": null,
+          "point": null
+        },
+        {
+          "y": -0.25,
+          "z": 3.47,
+          "clear": true,
+          "hit": null,
+          "point": null
+        }
+      ],
+      "machinery_headroom_pass": true
+    }
+  ],
+  "scope": "Read-only test of saved combined geometry; doors temporarily posed in memory only",
+  "pass": true,
+  "input_copy_sha256": "81a59ac31ea6c1eba6732f8f8793889a9c5765b28b6fd70b9756954578337986",
+  "original_master_sha256_at_copy": "81a59ac31ea6c1eba6732f8f8793889a9c5765b28b6fd70b9756954578337986",
+  "immutable_copy_unchanged": true
+}

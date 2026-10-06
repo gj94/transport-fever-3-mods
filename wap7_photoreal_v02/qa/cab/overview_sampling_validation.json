@@ -1,0 +1,14 @@
+{
+  "scope": "Render-only overview sampling refinement; no model/material/light/camera change",
+  "uniform_panel_A_driver_sha256": "1414af9325fc55d81621a15ffd1a4efea722ffd95ca565e2cae064e6295c17e2",
+  "exact_executed_uniform_driver_archive": "scripts/render_cab_gallery_uniform.py",
+  "overview_driver_sha256": "7d2275e6f6e98f88a9423fb200661fe4a8ef3bb74b0d334c37939d650e782103",
+  "overview_settings": {
+    "maximum_samples": 256,
+    "adaptive_sampling": true,
+    "minimum_samples": 32,
+    "noise_threshold": 0.02
+  },
+  "api_validation": "qa/machinery/adaptive_sampling_validation.json",
+  "reason": "Avoid redundant sampling of quiet bright interior panels while retaining higher samples on noisy pixels"
+}

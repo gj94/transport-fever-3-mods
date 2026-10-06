@@ -1,0 +1,172 @@
+{
+  "version": "2.4.0",
+  "status": "Component shader checks complete; final source portability and image settings checked separately",
+  "entrypoint": "components/materials.py:apply(context=None)",
+  "front_glass_assignment": "materials.assign_windscreen_service(pane, M[\"windscreen\"]), preserving the original glass on other faces",
+  "optional_extension": "components/surface_running_gear.py:setup()",
+  "rebuild_maps": [
+    "python scripts/make_service_wear_maps.py",
+    "python scripts/make_surface_detail_maps.py"
+  ],
+  "no_third_party_texture_pixels": true,
+  "checks": {
+    "base_shader_checks_passed": 24,
+    "optional_gear_checks_passed": 9,
+    "construction_placement_checks_passed": 6,
+    "component_test_images_packed": 14
+  },
+  "files": [
+    {
+      "path": "components/materials.py",
+      "bytes": 422,
+      "sha256": "5fca78261f47f6413bee29347a12fd37318a5f51138e40417f4e122a590a5f6c"
+    },
+    {
+      "path": "components/surface_materials.py",
+      "bytes": 25291,
+      "sha256": "8ac6c2e8d7ad51c18c92feaa97b81006cfcd424a0144d024a1872efe9dcbbbf0"
+    },
+    {
+      "path": "components/surface_running_gear.py",
+      "bytes": 4110,
+      "sha256": "2ab4c1faaa085bc8dd8186a30d6b936c05b082718633f17720c78691c6be51a1"
+    },
+    {
+      "path": "scripts/make_service_wear_maps.py",
+      "bytes": 10460,
+      "sha256": "81551a26acc797a141762aeb2943734f7fb88b507cc4ef251987d300888786ef"
+    },
+    {
+      "path": "scripts/make_surface_detail_maps.py",
+      "bytes": 3436,
+      "sha256": "0fce291b6d11aa35b2154eed976dbfaf0e9a3348a7f10c3db62b1bb0bfc06a46"
+    },
+    {
+      "path": "scripts/validate_surface_materials.py",
+      "bytes": 6114,
+      "sha256": "bf49227b8428c63691cf200ea0b555b5f7188e02fc416c67be51a43f34e5b492"
+    },
+    {
+      "path": "scripts/validate_gear_surfaces.py",
+      "bytes": 1827,
+      "sha256": "b7b2f379e5efcb0247070454cfdd6ccdaf496612df72504a08bfe8d5a403dd90"
+    },
+    {
+      "path": "textures/v02_body_side1_albedo.png",
+      "bytes": 3385534,
+      "sha256": "1efcc76750f31a94d072998c040cf73abb54650434a9af417b8f99c8086dba4e"
+    },
+    {
+      "path": "textures/v02_body_side1_grime_mask.png",
+      "bytes": 238911,
+      "sha256": "67501d80f40d5f95f29734ed5cee33110df5c02ea410bf777a3204387fe86079"
+    },
+    {
+      "path": "textures/v02_body_side1_roughness.png",
+      "bytes": 110848,
+      "sha256": "9bff356e0233b37c423a83af682ee26d50c491e829616853b561bf84e691cd85"
+    },
+    {
+      "path": "textures/v02_body_side2_albedo.png",
+      "bytes": 3359500,
+      "sha256": "ec0f3dea6fabefaa090292f20b902856024e1397d7beac43e85f32d9ee4f72b3"
+    },
+    {
+      "path": "textures/v02_body_side2_grime_mask.png",
+      "bytes": 236751,
+      "sha256": "b2a06f0519d19864f50822bb452e4ca35cbd9f7f43991a99679fae870c04a246"
+    },
+    {
+      "path": "textures/v02_body_side2_roughness.png",
+      "bytes": 110299,
+      "sha256": "7ee0a05fc3e521f44d5460f1c4a5338ea3ea650a47b68289c8a5a1151dca08cf"
+    },
+    {
+      "path": "textures/v02_nose_albedo.png",
+      "bytes": 1441937,
+      "sha256": "694ef015b3324b267a68a060c0d6b850aa246f5320337a9105e5e5cbb2e45850"
+    },
+    {
+      "path": "textures/v02_nose_grime_mask.png",
+      "bytes": 72593,
+      "sha256": "334867af45733b6949023b144ad3da82c86949c5ff11caddab6c6fba8e90ef32"
+    },
+    {
+      "path": "textures/v02_nose_roughness.png",
+      "bytes": 33912,
+      "sha256": "1120bc959cb709b00f0e0887e0be41d85c41c3210222a95756865dfc99424d45"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_MAP_PROVENANCE.json",
+      "bytes": 860,
+      "sha256": "d2716d03dd9c2996049d99f8bb9059ea0c8f8d79a45874cc869bfb98d5b0d071"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_SERVICE_WEAR_PROVENANCE.json",
+      "bytes": 5140,
+      "sha256": "b683ade3dc0c825c9264db0e367ada5896bf6d7345bc5f0c2bd205deb321d88a"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_grease.png",
+      "bytes": 657065,
+      "sha256": "93dad3f3c66af42876c2887c153b4ff93e8868450b3a274097c2dc078c421047"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_roughness.png",
+      "bytes": 6182956,
+      "sha256": "c6ef25897b1b3f2ad12b080e5cb44b0dbf518e1b734a6e1ef81013d0042d77c3"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_buffer_wear.png",
+      "bytes": 4673556,
+      "sha256": "00ce298dcb8d18770a64aa7d0f77d10cc402a406e6932f66b2c01c97f5b2b913"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_roof_foot_runoff.png",
+      "bytes": 26153,
+      "sha256": "a05a97e27624a6f4c0b05a515eef345ac2a0108a4ccb55a40ee6ff14ab2bf766"
+    },
+    {
+      "path": "textures/surfaces/SURFV02_windscreen_service_film.png",
+      "bytes": 103258,
+      "sha256": "eb6634c8a45e60f7e28b0d1926bf6cdc7e3a8f5717a7cbd33fc7ffb267b0b8b2"
+    },
+    {
+      "path": "qa/surfaces/environment_colourspace_validation.json",
+      "bytes": 342,
+      "sha256": "a5383a22d830564edf606180c29b3873f3beb4a4d12d23d659bbdf0bd41c6150"
+    },
+    {
+      "path": "qa/surfaces/environment_sun_direction.json",
+      "bytes": 880,
+      "sha256": "99a2989f69832598bf8570f8769c9cc3d6c33c79e64397d3e3637e64255237a3"
+    },
+    {
+      "path": "qa/surfaces/gear_surface_validation.json",
+      "bytes": 711,
+      "sha256": "0787414d783a1571c38fd3a2886ecca041fc152fa65221d3e8a90659b83626c3"
+    },
+    {
+      "path": "qa/surfaces/surface_validation.json",
+      "bytes": 8760,
+      "sha256": "99777f1d08c28c01ea9590a0f531cea2fa0447295d299f1e017ddd4d7bff0cc1"
+    },
+    {
+      "path": "qa/surfaces/weather_placement_validation.json",
+      "bytes": 2346,
+      "sha256": "c7160fc4262efa8777dc0a2b1c7bc7646d9826097f1a616d3a753ee54a803f66"
+    },
+    {
+      "path": "qa/surfaces/bounded_gain_validation.json",
+      "bytes": 1172,
+      "sha256": "65deac7f9e291e6e413a81c985b0db722aa5ed1e9c39b340f9003a038fa00c38"
+    }
+  ],
+  "bounded_gain": {
+    "lower_side_dust": 1.5,
+    "filter_door_grime": 1.25,
+    "fixed_other_maps": 8
+  },
+  "inventory_scope": "Included component source files and artwork. Frozen executed-source hashes remain in the original test/build reports.",
+  "final_hero_material_review": "qa/surfaces/final_gallery_material_review.json"
+}

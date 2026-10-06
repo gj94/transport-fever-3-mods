@@ -1,5 +1,19 @@
 # Indian Rail Prototype Pack v1.0
 
+## WAP-7 detailed source revision v0.2
+
+![WAP-7 39002 detailed source in the rendered trackside setting](wap7_photoreal_v02/previews/outdoor_hero.png)
+
+[Open the editable WAP-7 v0.2 source and close-up gallery](wap7_photoreal_v02/README.md).
+
+This revision rebuilds the visible body fittings, couplers, roof electrical equipment, running gear, both driving cabs and the machinery compartment. It restores the 3.152 m body-skin width and adds separate glazing, seals, wipers, instrument faces, cast and fabricated hardware, pipework, cables and location-specific service wear. The previews are Cycles renders of the supplied master.
+
+The portable Blender source includes exact relative texture dependencies, reproducible authoring/render scripts, reference notes and independent geometry, rig, material and font checks. Fine hardware and unseen equipment remain documented representative interpretations.
+
+This is a **high-detail authoring source**. It has not been converted, optimized or tested as a TF3 runtime vehicle. The existing downloadable pack and earlier source revisions remain unchanged.
+
+[Cab instruments](wap7_photoreal_v02/previews/cab/panel_A.png) · [CBC and front connections](wap7_photoreal_v02/previews/probe_coupler_top.png) · [Machinery corridor](wap7_photoreal_v02/previews/machinery_gallery/machinery_through_door.png) · [Wheel and axlebox](wap7_photoreal_v02/previews/details/wheel.png) · [Pantograph](wap7_photoreal_v02/previews/probe_pantograph.png) · [Side elevation](wap7_photoreal_v02/previews/probe_side.png)
+
 ## WAP-7 visual refinement v0.1
 
 ![Refined WAP-7 in a procedural trackside scene](wap7_photoreal_v01/previews/01_hero_trackside.png)

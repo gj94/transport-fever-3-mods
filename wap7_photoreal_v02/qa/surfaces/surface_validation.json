@@ -1,0 +1,297 @@
+{
+  "version": "2.4.0",
+  "blender": "4.3.2",
+  "scope": "Focused shader library validation, not a final vehicle/render pass",
+  "checks": {
+    "role_contract": true,
+    "datablock_namespace": true,
+    "all_maps_packed": true,
+    "map_dimensions_positive": true,
+    "no_world_position_nodes": true,
+    "body_metric_coords_root_anchored": true,
+    "hardware_coords_object_local": true,
+    "dielectric_paint": true,
+    "dielectric_rubber_dust_rust_grease": true,
+    "windscreen_film_bounded": true,
+    "real_glass_transmission": true,
+    "scalar_maps_noncolor": true,
+    "bounded_micro_bump": true,
+    "windscreen_external_face_only_1": true,
+    "windscreen_named_uv_1": true,
+    "windscreen_external_face_only_-1": true,
+    "windscreen_named_uv_-1": true,
+    "nose_projection_follows_width_context": true,
+    "side_projection_unchanged_by_width_context": true,
+    "protected_linked_mesh_data_unchanged": true,
+    "protected_owner_slots_unchanged": true,
+    "legacy_material_nodes_not_mutated": true,
+    "no_duplicate_surface_images": true,
+    "namespace_count_no_duplicate_suffixes": true
+  },
+  "passed": true,
+  "errors": [],
+  "roles": {
+    "white": {
+      "material": "SURFV02_White_side_1_enamel",
+      "nodes": 17,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.4399999314360329e-05
+    },
+    "white2": {
+      "material": "SURFV02_White_side_2_enamel",
+      "nodes": 17,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.4399999314360329e-05
+    },
+    "nose": {
+      "material": "SURFV02_Cab_nose_enamel",
+      "nodes": 17,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.4399999314360329e-05
+    },
+    "cream": {
+      "material": "SURFV02_Aged_signal_white_hardware",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 5.760000214339233e-06
+    },
+    "red": {
+      "material": "SURFV02_Vermilion_enamel",
+      "nodes": 35,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 6.660000554784213e-06
+    },
+    "roof": {
+      "material": "SURFV02_Graphite_roof_enamel",
+      "nodes": 24,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.0800000156322483e-05
+    },
+    "blackpaint": {
+      "material": "SURFV02_Charcoal_hardware_enamel",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 8.100000444659968e-06
+    },
+    "iron": {
+      "material": "SURFV02_Seasoned_structural_steel",
+      "nodes": 8,
+      "surface_model": "Area mixture: conductive metal + dielectric dry film",
+      "micro_bump_max_m": 2.7000002355314842e-05
+    },
+    "cast": {
+      "material": "SURFV02_Cast_coupler_steel",
+      "nodes": 8,
+      "surface_model": "Area mixture: conductive metal + dielectric dry film",
+      "micro_bump_max_m": 5.760000083371991e-05
+    },
+    "dust": {
+      "material": "SURFV02_Settled_fine_ochre_dust",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 8.100000444659968e-06
+    },
+    "rust": {
+      "material": "SURFV02_Dry_iron_oxide",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.7100001229764916e-05
+    },
+    "steel": {
+      "material": "SURFV02_Weathered_zinc_fastener",
+      "nodes": 8,
+      "surface_model": "Area mixture: conductive metal + dielectric dry film",
+      "micro_bump_max_m": 3.960000188285486e-06
+    },
+    "bright": {
+      "material": "SURFV02_Rubbed_metal_contact",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.8000000260537472e-06
+    },
+    "grease": {
+      "material": "SURFV02_Joint_grease",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 5.400000078161242e-06
+    },
+    "rubber": {
+      "material": "SURFV02_Dry_EPDM_rubber",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 8.640000648926956e-06
+    },
+    "ochre": {
+      "material": "SURFV02_Faded_ochre_pantograph_enamel",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 9.000000130268736e-06
+    },
+    "copper": {
+      "material": "SURFV02_Oxidised_copper_conductor",
+      "nodes": 8,
+      "surface_model": "Area mixture: conductive metal + dielectric dry film",
+      "micro_bump_max_m": 4.680000133223364e-06
+    },
+    "ceramic": {
+      "material": "SURFV02_Brown_glazed_porcelain",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.6200001216738042e-06
+    },
+    "glass": {
+      "material": "SURFV02_Clear_laminated_cab_glass",
+      "nodes": 2,
+      "surface_model": "Clear soda-lime optical response; pane tint intentionally very restrained",
+      "micro_bump_max_m": 0
+    },
+    "windscreen": {
+      "material": "SURFV02_Laminated_windscreen_with_service_film",
+      "nodes": 8,
+      "surface_model": "Clear soda-lime optical response; pane tint intentionally very restrained",
+      "micro_bump_max_m": 0
+    },
+    "lens": {
+      "material": "SURFV02_Moulded_optical_glass",
+      "nodes": 2,
+      "surface_model": "Clear soda-lime optical response; pane tint intentionally very restrained",
+      "micro_bump_max_m": 0
+    },
+    "redlens": {
+      "material": "SURFV02_Ruby_signal_lens",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 1.6200001216738042e-06
+    },
+    "green": {
+      "material": "SURFV02_Green_connector_enamel",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 5.760000214339233e-06
+    },
+    "brass": {
+      "material": "SURFV02_Seasoned_brass_fittings",
+      "nodes": 8,
+      "surface_model": "Area mixture: conductive metal + dielectric dry film",
+      "micro_bump_max_m": 4.86000020131236e-06
+    },
+    "carbon": {
+      "material": "SURFV02_Graphite_collector_carbon",
+      "nodes": 7,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 4.86000020131236e-06
+    },
+    "tread": {
+      "material": "SURFV02_Wheel_tread_polished_steel",
+      "nodes": 15,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 6.399999840790406e-07
+    },
+    "buffer": {
+      "material": "SURFV02_Buffer_face_scuffed_steel",
+      "nodes": 10,
+      "surface_model": "Principled BSDF",
+      "micro_bump_max_m": 0
+    }
+  },
+  "image_assets": [
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_grease.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_roughness.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_buffer_wear.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_roof_foot_runoff.png",
+      "width": 4096,
+      "height": 1024,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_surfaces_SURFV02_windscreen_service_film.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side1_albedo.png",
+      "width": 6144,
+      "height": 1536,
+      "colorspace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side1_grime_mask.png",
+      "width": 6144,
+      "height": 1536,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side1_roughness.png",
+      "width": 6144,
+      "height": 1536,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side2_albedo.png",
+      "width": 6144,
+      "height": 1536,
+      "colorspace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side2_grime_mask.png",
+      "width": 6144,
+      "height": 1536,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_body_side2_roughness.png",
+      "width": 6144,
+      "height": 1536,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_nose_albedo.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_nose_grime_mask.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "SURFV02_MAP_v02_nose_roughness.png",
+      "width": 2048,
+      "height": 2048,
+      "colorspace": "Non-Color",
+      "packed": true
+    }
+  ]
+}

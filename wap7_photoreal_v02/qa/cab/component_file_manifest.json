@@ -1,0 +1,92 @@
+{
+  "component": "Conventional WAP7 cab detail",
+  "source_files": [
+    {
+      "path": "components/cab_interiors.py",
+      "bytes": 53188,
+      "sha256": "852c47db8d2a24a5df2fc135774b7b9f45e2b514d68a80f3d0d981db570e31e6"
+    },
+    {
+      "path": "scripts/make_cab_instruments.py",
+      "bytes": 4334,
+      "sha256": "3c3532d5978b567b3599fb6a81d98e54850c39fe9624109b0df5be64a8a4dd1c"
+    },
+    {
+      "path": "textures/cab/PROVENANCE.json",
+      "bytes": 411,
+      "sha256": "d96cfc53bfde0d21878f1fdfb0678c1c8a92cf19ad1de9e006d78609f7ddfb78"
+    },
+    {
+      "path": "textures/cab/gauge_afi.png",
+      "bytes": 26277,
+      "sha256": "5337c1a3191cf77d4789d0cc0a744957dc7f7ea5206ad64362ee4461d97882a8"
+    },
+    {
+      "path": "textures/cab/gauge_bc.png",
+      "bytes": 28213,
+      "sha256": "93349944ab47fae5a816837166fa397d139a2cb60f3a6f83d301321d09b9a118"
+    },
+    {
+      "path": "textures/cab/gauge_bp.png",
+      "bytes": 26075,
+      "sha256": "db8495ca9cae1f19c8e3c8d3bf22475721ec0ceccace64b5ab90a232cc3cff33"
+    },
+    {
+      "path": "textures/cab/gauge_mrfp.png",
+      "bytes": 32105,
+      "sha256": "dcb073af262817c362863704fa75021d71864b356e91849250808a60e03f95f7"
+    },
+    {
+      "path": "textures/cab/gauge_pb.png",
+      "bytes": 26070,
+      "sha256": "f0a80273c30bcd4c43df439ffe69c68eaea0f682ef4fa8ecd826248936888dec"
+    },
+    {
+      "path": "textures/cab/lcd_blank.png",
+      "bytes": 1486,
+      "sha256": "8a8b2dc28054a2cbe482e05cf94a97e51419802c2638be28f00f0b4bb4a4c862"
+    },
+    {
+      "path": "textures/cab/meter_battery.png",
+      "bytes": 12981,
+      "sha256": "bc4165973bc22b1c9076261ef647086c250b31165e9b3b7034bf0cbb52be09ac"
+    },
+    {
+      "path": "textures/cab/meter_bogie1.png",
+      "bytes": 14746,
+      "sha256": "d52f52c4ba6902e7282bf33b362651ae7f926da6f7ace527995d66b76e1691e6"
+    },
+    {
+      "path": "textures/cab/meter_bogie2.png",
+      "bytes": 15198,
+      "sha256": "5b0a37ce176ddd69a1e8b4045837628430730326aae062b7873d129bb50827f0"
+    },
+    {
+      "path": "textures/cab/meter_ohe.png",
+      "bytes": 12108,
+      "sha256": "ed1ef861a8d746665c4bcfde814a31a9ab341a18252182b6e7b3adb97206d975"
+    },
+    {
+      "path": "textures/cab/speedometer.png",
+      "bytes": 24832,
+      "sha256": "6ac4c3ad44bb0b060eb1976f27a15aa71fd214e69fda2f16ee4e10e704bd4f05"
+    },
+    {
+      "path": "scripts/validate_cab_join.py",
+      "bytes": 2976,
+      "sha256": "bb74f15d72c2fa22f29d15e7c888fe03e766b66b5eeecf868e3ce75277173edf"
+    },
+    {
+      "path": "scripts/render_cab_gallery.py",
+      "bytes": 15465,
+      "sha256": "7d2275e6f6e98f88a9423fb200661fe4a8ef3bb74b0d334c37939d650e782103"
+    },
+    {
+      "path": "scripts/render_cab_gallery_uniform.py",
+      "bytes": 15128,
+      "sha256": "1414af9325fc55d81621a15ffd1a4efea722ffd95ca565e2cae064e6295c17e2"
+    }
+  ],
+  "excluded_working_reference_images": "Reference photographs are linked in the documentation and are not included as model textures.",
+  "inventory_scope": "Included component source files and artwork. Frozen executed-source hashes remain in the original test/build reports."
+}

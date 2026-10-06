@@ -1,0 +1,176 @@
+{
+  "cab_roots": [
+    "CAB_A_INTERIOR",
+    "CAB_B_INTERIOR"
+  ],
+  "added_objects": 3372,
+  "hidden_legacy_interior_objects": 476,
+  "texture_assets": 11,
+  "preserved_cavity": true,
+  "machine_room_modelled": false,
+  "rear_doors": "Physical opening, glass pane, hinge with open_angle_deg default 0",
+  "rear_door_clear_opening_m": [
+    0.694,
+    1.8365
+  ],
+  "static_visual_controls": true,
+  "exact_unit_survey": false,
+  "reference_panel_a": "Photograph visually inspected, readable equipment designators transcribed",
+  "gauge_calibrations": "Representative original artwork; no functional calibration claim",
+  "confidence_dimensions": "Estimated within preserved cavity, not measured manufacturer dimensions",
+  "tested_body_y_scale": 1.0,
+  "protected_unchanged": true,
+  "protected_count": 51,
+  "body_vertices_unchanged": true,
+  "paint_physics": {
+    "Warm grey interior enamel": {
+      "metallic": 0.0,
+      "metric_coordinates": true,
+      "grain_scale_m_inv": 1500.0,
+      "bump_distance_m": 3.9999998989515007e-05,
+      "bump_strength": 0.18000000715255737
+    },
+    "Folded desk light grey satin": {
+      "metallic": 0.0,
+      "metric_coordinates": true,
+      "grain_scale_m_inv": 1500.0,
+      "bump_distance_m": 3.9999998989515007e-05,
+      "bump_strength": 0.18000000715255737
+    },
+    "Charcoal removable instrument panel": {
+      "metallic": 0.0,
+      "metric_coordinates": true,
+      "grain_scale_m_inv": 1500.0,
+      "bump_distance_m": 3.9999998989515007e-05,
+      "bump_strength": 0.18000000715255737
+    }
+  },
+  "new_mesh_objects": 3162,
+  "nonfinite_vertices": 0,
+  "door_tests": [
+    {
+      "cab": 1,
+      "rigid_vertex_distance_preserved": true,
+      "distance_closed": 1.934862025304849,
+      "distance_open": 1.9348619636935875,
+      "vertex_movement": 0.9837586274550322,
+      "driver_angle": 1.5707963705062866,
+      "leaf_parent": "CABV02_1_Rear_door_hinge"
+    },
+    {
+      "cab": 2,
+      "rigid_vertex_distance_preserved": true,
+      "distance_closed": 1.934862025304849,
+      "distance_open": 1.9348619636935867,
+      "vertex_movement": 0.9837585062776483,
+      "driver_angle": -1.570796251296997,
+      "leaf_parent": "CABV02_2_Rear_door_hinge"
+    }
+  ],
+  "mesh_bounds_world": {
+    "min": [
+      -9.464350700378418,
+      -1.4630008935928345,
+      1.5815000534057617
+    ],
+    "max": [
+      9.464350700378418,
+      1.4630000591278076,
+      3.6040000915527344
+    ]
+  },
+  "ceiling_front_max_z": 3.5239999294281006,
+  "ceiling_front_max_abs_y": 1.2899999618530273,
+  "idempotent_object_count": true,
+  "object_count_after_second_apply": 3372,
+  "image_files": [
+    {
+      "name": "gauge_afi.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "gauge_bc.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "gauge_bp.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "gauge_mrfp.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "gauge_pb.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "lcd_blank.png",
+      "packed": true,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "name": "meter_battery.png",
+      "packed": true,
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "name": "meter_bogie1.png",
+      "packed": true,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "meter_bogie2.png",
+      "packed": true,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "meter_ohe.png",
+      "packed": true,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "speedometer.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_changes": [
+    {
+      "path": "components/machinery_room.py",
+      "executed_source_sha256": "6338154248b759939dc7a374db720189bd3377c0ecd47ee0fb8f9d0e2bae7277",
+      "published_source_sha256": "8f7f63f9da1edc5f0f59c21f769e96012dbe52b8c329b71f48913de65cb6cea7",
+      "normalized_ast_identical": true,
+      "change_scope": "Comment text only; executable syntax tree unchanged"
+    },
+    {
+      "path": "qa/reference_audit/validate_integrated_readonly.py",
+      "executed_source_sha256": "a4b999db3608cde0fa18cf6439a8114fa2667317f2476c8c6a8e4adc25d3a5fb",
+      "published_source_sha256": "5fecc3675e65e33b7e319326be7d11e9bc7f17b8763376bae42cf923f08328d5",
+      "normalized_ast_identical": true,
+      "change_scope": "Comment text only; executable syntax tree unchanged"
+    }
+  ],
+  "recorded_build_hashes_preserved": true,
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "scope": "Documentation-only source cleanup; no executable modelling statements, master bytes or render geometry changed"
+}

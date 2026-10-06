@@ -1,0 +1,96 @@
+{
+  "coordinate_system": "Body-fixed metres: X[-9.6,9.6], Z[1.44,3.82]",
+  "sides": {
+    "1": {
+      "clean_midpanel_mean": 2.3524186806505547e-05,
+      "lower_sill_mean": 0.4696823832625835,
+      "gutter_band_mean": 0.0003028862407031778,
+      "filter_edges": [
+        {
+          "feature_center": [
+            4.78,
+            2.91
+          ],
+          "left_edge": 0.03450551532392964,
+          "right_edge": 0.0317962041747208
+        },
+        {
+          "feature_center": [
+            -3.92,
+            3.02
+          ],
+          "left_edge": 0.032761515821281784,
+          "right_edge": 0.04522257501131293
+        },
+        {
+          "feature_center": [
+            -6.2,
+            3.1
+          ],
+          "left_edge": 0.04698896345108787,
+          "right_edge": 0.05556563152839073
+        },
+        {
+          "feature_center": [
+            -6.72,
+            3.1
+          ],
+          "left_edge": 0.03479475243334744,
+          "right_edge": 0.0589007785368344
+        }
+      ],
+      "width": 6144,
+      "height": 1536
+    },
+    "2": {
+      "clean_midpanel_mean": 2.1564827481380148e-05,
+      "lower_sill_mean": 0.4688721068324238,
+      "gutter_band_mean": 0.0003028862407031778,
+      "filter_edges": [
+        {
+          "feature_center": [
+            -4.8,
+            2.94
+          ],
+          "left_edge": 0.037069883303875055,
+          "right_edge": 0.03743394856917757
+        },
+        {
+          "feature_center": [
+            3.85,
+            2.96
+          ],
+          "left_edge": 0.040897736708459524,
+          "right_edge": 0.03332875093456816
+        },
+        {
+          "feature_center": [
+            6.22,
+            3.1
+          ],
+          "left_edge": 0.04316335167160389,
+          "right_edge": 0.07663210607984201
+        },
+        {
+          "feature_center": [
+            6.7,
+            3.1
+          ],
+          "left_edge": 0.07997433985584641,
+          "right_edge": 0.04981090757645983
+        }
+      ],
+      "width": 6144,
+      "height": 1536
+    }
+  },
+  "checks": {
+    "side1_lower_sill_more_dust": true,
+    "side1_filter_edges_localized": true,
+    "side1_no_uniform_heavy_grime": true,
+    "side2_lower_sill_more_dust": true,
+    "side2_filter_edges_localized": true,
+    "side2_no_uniform_heavy_grime": true
+  },
+  "passed": true
+}

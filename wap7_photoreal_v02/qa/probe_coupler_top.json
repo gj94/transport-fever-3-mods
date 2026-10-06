@@ -1,0 +1,25 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_file_unchanged": true,
+  "render_driver_sha256": "c8f5f5ee79d8450ba64ef2b150d22560e7bd8f028ed647217ab67b133a35f406",
+  "image_sha256": "36811b6e51b4544e460d72cab4bdd67c40a8c9072e5c7b1f7470a14f45e0c2da",
+  "view": "COUPLER_TOP",
+  "camera_type": "PERSP",
+  "orthographic_span_m": null,
+  "height": 1104,
+  "seconds": 237.36412000656128,
+  "samples": 256,
+  "width": 1600,
+  "denoised": false,
+  "adaptive_sampling": true,
+  "minimum_samples": 32,
+  "noise_threshold": 0.014999999664723873,
+  "threads": 8,
+  "render_output_image_sha256": "9f9092db390dfb1636a5dd2a70ff04b85ea4d96b3f620b674e1015dec0be7349",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/probe_coupler_top.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "source": "WAP7_detail_v02.blend",
+  "scope": "Gross body/wheel collision check at representative bogie yaw\u00b18deg; mounting and elevation are photo-fit assumptions, not curve certification",
+  "ladders": 96,
+  "poses": {
+    "BOGIE_A_YAW_Z_-8": {
+      "body_triangle_overlaps": 0,
+      "wheel_or_axlebox_triangle_overlaps": 0,
+      "ladder_world_min": [
+        -8.24211311340332,
+        -1.3870347738265991,
+        0.4099999964237213
+      ],
+      "ladder_world_max": [
+        -7.322851657867432,
+        1.888057827949524,
+        1.1699999570846558
+      ]
+    },
+    "BOGIE_A_YAW_Z_0": {
+      "body_triangle_overlaps": 0,
+      "wheel_or_axlebox_triangle_overlaps": 0,
+      "ladder_world_min": [
+        -8.036499977111816,
+        -1.6204999685287476,
+        0.4099999964237213
+      ],
+      "ladder_world_max": [
+        -7.563499927520752,
+        1.6204999685287476,
+        1.1699999570846558
+      ]
+    },
+    "BOGIE_A_YAW_Z_8": {
+      "body_triangle_overlaps": 0,
+      "wheel_or_axlebox_triangle_overlaps": 0,
+      "ladder_world_min": [
+        -8.24211311340332,
+        -1.888057827949524,
+        0.4099999964237213
+      ],
+      "ladder_world_max": [
+        -7.322851657867432,
+        1.3870347738265991,
+        1.1699999570846558
+      ]
+    },
+    "BOGIE_B_YAW_Z_-8": {
+      "body_triangle_overlaps": 0,
+      "wheel_or_axlebox_triangle_overlaps": 0,
+      "ladder_world_min": [
+        7.322851657867432,
+        -1.888057827949524,
+        0.4099999964237213
+      ],
+      "ladder_world_max": [
+        8.24211311340332,
+        1.3870347738265991,
+        1.1699999570846558
+      ]
+    },
+    "BOGIE_B_YAW_Z_0": {
+      "body_triangle_overlaps": 0,
+      "wheel_or_axlebox_triangle_overlaps": 0,
+      "ladder_world_min": [
+        7.563499927520752,
+        -1.6204999685287476,
+        0.4099999964237213
+      ],
+      "ladder_world_max": [
+        8.036499977111816,
+        1.6204999685287476,
+        1.1699999570846558
+      ]
+    },
+    "BOGIE_B_YAW_Z_8": {
+      "body_triangle_overlaps": 0,
+      "wheel_or_axlebox_triangle_overlaps": 0,
+      "ladder_world_min": [
+        7.322851657867432,
+        -1.3870347738265991,
+        0.4099999964237213
+      ],
+      "ladder_world_max": [
+        8.24211311340332,
+        1.888057827949524,
+        1.1699999570846558
+      ]
+    }
+  },
+  "no_gross_intersections": true
+}

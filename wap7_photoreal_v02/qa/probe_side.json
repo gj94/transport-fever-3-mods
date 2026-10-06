@@ -1,0 +1,25 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_file_unchanged": true,
+  "render_driver_sha256": "c8f5f5ee79d8450ba64ef2b150d22560e7bd8f028ed647217ab67b133a35f406",
+  "image_sha256": "23a4a48ca090b7f4f981d167f2af91f276242d16aa9ee3ece2dc4a14a3d12dfb",
+  "view": "SIDE",
+  "camera_type": "ORTHO",
+  "orthographic_span_m": 22.399999618530273,
+  "height": 616,
+  "seconds": 50.006298542022705,
+  "samples": 128,
+  "width": 2200,
+  "denoised": false,
+  "adaptive_sampling": true,
+  "minimum_samples": 32,
+  "noise_threshold": 0.019999999552965164,
+  "threads": 8,
+  "render_output_image_sha256": "83d56afa28be8244b5419e6b02b72a21bb370fc9b1b50612b2bd553ce72fcd40",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/probe_side.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "image_count": 10,
+  "all_pass": true,
+  "checks": [
+    {
+      "view": "Exterior hero",
+      "image": "previews/outdoor_hero.png",
+      "provenance": "qa/outdoor_hero.json",
+      "image_sha256": "3721cd58e51928ea4dd662eef5600e4eb1b79e3af9ad7e3465aae4ce13df23e3",
+      "width": 1920,
+      "height": 1114,
+      "maximum_samples": 512,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_outdoor.py",
+      "passed": true
+    },
+    {
+      "view": "Cab Panel A",
+      "image": "previews/cab/panel_A.png",
+      "provenance": "previews/cab/panel_A.provenance.json",
+      "image_sha256": "5642f625f4c10cabd902612cad3ff67b17d7c12d7a63cfe751e102e2d8bdc950",
+      "width": 1600,
+      "height": 1000,
+      "maximum_samples": 256,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_cab_gallery_uniform.py",
+      "passed": true
+    },
+    {
+      "view": "Coupler and connections",
+      "image": "previews/probe_coupler_top.png",
+      "provenance": "qa/probe_coupler_top.json",
+      "image_sha256": "36811b6e51b4544e460d72cab4bdd67c40a8c9072e5c7b1f7470a14f45e0c2da",
+      "width": 1600,
+      "height": 1104,
+      "maximum_samples": 256,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_probe.py",
+      "passed": true
+    },
+    {
+      "view": "Machinery corridor",
+      "image": "previews/machinery_gallery/machinery_through_door.png",
+      "provenance": "previews/machinery_gallery/machinery_through_door.json",
+      "image_sha256": "86b251f72c34604bb1d89c57d81ac2af0c082c24bf48a97ebbcae08110530153",
+      "width": 1400,
+      "height": 1008,
+      "maximum_samples": 192,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_machinery_gallery.py",
+      "passed": true
+    },
+    {
+      "view": "Wheel and entry detail",
+      "image": "previews/details/wheel.png",
+      "provenance": "previews/details/wheel.json",
+      "image_sha256": "c001391ea9aed8868c3ee2af35af0b63d3081996b252163f0376af87833b2ef0",
+      "width": 1600,
+      "height": 1312,
+      "maximum_samples": 192,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_detail_gallery.py",
+      "passed": true
+    },
+    {
+      "view": "Pantograph",
+      "image": "previews/probe_pantograph.png",
+      "provenance": "qa/probe_pantograph.json",
+      "image_sha256": "6fdbf58f5d8d6bcdfb307362c15907f2a35554f0fa16cbe28270ef1235657d33",
+      "width": 1600,
+      "height": 1104,
+      "maximum_samples": 192,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_probe.py",
+      "passed": true
+    },
+    {
+      "view": "Cab overview",
+      "image": "previews/cab/overview_A.png",
+      "provenance": "previews/cab/overview_A.provenance.json",
+      "image_sha256": "cf90a6781ea4829415c75084d6e3d84d246e0ee13104c049243dedbbae70de43",
+      "width": 1400,
+      "height": 1050,
+      "maximum_samples": 192,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_cab_gallery.py",
+      "passed": true
+    },
+    {
+      "view": "Underfloor equipment",
+      "image": "previews/details/underfloor.png",
+      "provenance": "previews/details/underfloor.json",
+      "image_sha256": "6227a41f50b13f170ef8e1e07f0f503c0a7ffe3d7f234bba182d4b358fb0ed56",
+      "width": 1600,
+      "height": 832,
+      "maximum_samples": 128,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_detail_gallery.py",
+      "passed": true
+    },
+    {
+      "view": "Machinery cutaway",
+      "image": "previews/machinery_gallery/machinery_cutaway.png",
+      "provenance": "previews/machinery_gallery/machinery_cutaway.json",
+      "image_sha256": "c67f6d5b000186043d4fb2f7966a51dc4198c1b750eec4a144a69ea731477247",
+      "width": 1600,
+      "height": 867,
+      "maximum_samples": 192,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_machinery_gallery.py",
+      "passed": true
+    },
+    {
+      "view": "Technical side elevation",
+      "image": "previews/probe_side.png",
+      "provenance": "qa/probe_side.json",
+      "image_sha256": "23a4a48ca090b7f4f981d167f2af91f276242d16aa9ee3ece2dc4a14a3d12dfb",
+      "width": 2200,
+      "height": 616,
+      "maximum_samples": 128,
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "producer": "scripts/render_probe.py",
+      "passed": true
+    }
+  ],
+  "scope": "File, source, producer, dimensions and completed-render consistency only; pixel review is recorded in VISUAL_QA.md"
+}

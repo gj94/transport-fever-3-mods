@@ -1,0 +1,40 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "scope": "Complete positive-X bogie, traction links and three axle assemblies; render-only framing",
+  "objects_checked": 1719,
+  "old_projected_bounds_m": {
+    "horizontal": [
+      -3.490075365643159,
+      3.6011640555413758
+    ],
+    "vertical": [
+      -1.112113794797577,
+      1.1151425210112569
+    ]
+  },
+  "old_horizontal_half_frame_m": 3.15,
+  "new_projected_bounds_m": {
+    "horizontal": [
+      -3.5320014566416753,
+      3.565586725595086
+    ],
+    "vertical": [
+      -1.18696210038051,
+      0.9999336333492851
+    ]
+  },
+  "new_camera_location": [
+    8.5,
+    -7,
+    1.7
+  ],
+  "new_target": [
+    5.8,
+    -0.1,
+    0.99
+  ],
+  "new_orthographic_span_m": 7.8,
+  "new_height_ratio": 0.44,
+  "all_bogie_objects_inside_frame": true,
+  "render_driver_sha256": "56d6e862b5f85c56942b6b68c4bf57b5523ace55c74f77a5798880935ba35818"
+}

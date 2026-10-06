@@ -1,0 +1,118 @@
+{
+  "reviewed_utc": "2026-10-06T22:28:00Z",
+  "scope": "Independent inspection of final rendered pixels; not complete collision or manufacturer certification",
+  "images": [
+    {
+      "image": "previews/outdoor_hero.png",
+      "image_sha256": "3721cd58e51928ea4dd662eef5600e4eb1b79e3af9ad7e3465aae4ce13df23e3",
+      "provenance": "qa/outdoor_hero.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Corrected full silhouette, roof, glazing and entry steps remain coherent. Cleaner service condition than the 2020 reference photograph.",
+      "original_render_sha256": "d3149fef8427e633465bd1d84369781461f8f116db54e95f80083d449365b4b7",
+      "decoded_pixels_sha256": "2936cef6f50802eeda292627067e7ac15774c27afe818a043efbf0eaeb8c1238",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/cab/panel_A.png",
+      "image_sha256": "5642f625f4c10cabd902612cad3ff67b17d7c12d7a63cfe751e102e2d8bdc950",
+      "provenance": "previews/cab/panel_A.provenance.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Readable representative conventional panel; left brake controls and right shared-slot controller grouping remain coherent. No obvious clipping.",
+      "original_render_sha256": "da5da0642e0a664d96c4f4cb774d2ce1a77f5f99ea1f557ec4237c11c9d32d88",
+      "decoded_pixels_sha256": "4e06584b16e2f24fcd44e2fe266abcacfd033254fc08612de9468db6b0d02729",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/probe_coupler_top.png",
+      "image_sha256": "36811b6e51b4544e460d72cab4bdd67c40a8c9072e5c7b1f7470a14f45e0c2da",
+      "provenance": "qa/probe_coupler_top.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Wrapped knuckle, guard-web relief and HOG brackets remain coherent. Exact casting shape and wear state are representative.",
+      "original_render_sha256": "9f9092db390dfb1636a5dd2a70ff04b85ea4d96b3f620b674e1015dec0be7349",
+      "decoded_pixels_sha256": "4444b4f6618a91ae225113ea065e500bbcede3bf1afacbf351a4ebbb4353cd09",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/details/wheel.png",
+      "image_sha256": "c001391ea9aed8868c3ee2af35af0b63d3081996b252163f0376af87833b2ef0",
+      "provenance": "previews/details/wheel.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Dished wheel, actual tread, wing axlebox, spring seats, damper, two chequered lower treads and separate sill recess resolve clearly. No obvious intersection from this angle.",
+      "original_render_sha256": "127267d380cb7e86086dc9b559f0c5f7532b4ff39b82f234386f55a2ee0fa9ed",
+      "decoded_pixels_sha256": "f0d655f0956c534bce62757a84697cec343d9e7692b9d5df03da1690e91d3ddd",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/machinery_gallery/machinery_through_door.png",
+      "image_sha256": "86b251f72c34604bb1d89c57d81ac2af0c082c24bf48a97ebbcae08110530153",
+      "provenance": "previews/machinery_gallery/machinery_through_door.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Visible continuous aisle, raised cabinets, blower/duct hierarchy and overhead cable trays. No obvious blocked passage or clipping from this view.",
+      "original_render_sha256": "725f530c7bfb04c4917afe810a1d0993cb4e4b955dedf5572eb791e7d11c608b",
+      "decoded_pixels_sha256": "f9878593ba594b2101b39a97a486ece7c61e5b0ef9fedde460bb5a7b3b9d3a6b",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/probe_pantograph.png",
+      "image_sha256": "6fdbf58f5d8d6bcdfb307362c15907f2a35554f0fa16cbe28270ef1235657d33",
+      "provenance": "qa/probe_pantograph.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Unsupported long copper tails are absent. Short hinge/head braids now terminate at hardware. Collector, spring cans, base and upper-frame hierarchy remain coherent.",
+      "original_render_sha256": "deeabf1dcb2c1c9d444de4eab87f9e884ee213cc1167897f63661ce3973df35c",
+      "decoded_pixels_sha256": "a23d4788921d9ea7f047269190deed5691e25b4ce4b7deae50592cb660950896",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/cab/overview_A.png",
+      "image_sha256": "cf90a6781ea4829415c75084d6e3d84d246e0ee13104c049243dedbbae70de43",
+      "provenance": "previews/cab/overview_A.provenance.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Photo-supported conventional control grouping remains intact. Fans, blinds, pedals and heater are readable; no obvious new clash from this view.",
+      "original_render_sha256": "330cf8d1a31f822dee1ecb475a7735ab3902989e079911caf8ec514ccb413c39",
+      "decoded_pixels_sha256": "0fba6cb976c8be052bdd575b84a89817b72eaede7cbb083de314e5497b6f4781",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/details/underfloor.png",
+      "image_sha256": "6227a41f50b13f170ef8e1e07f0f503c0a7ffe3d7f234bba182d4b358fb0ed56",
+      "provenance": "previews/details/underfloor.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Correct underfloor component families are visible: longitudinal compressor and motor, battery case and central transformer. No duplicated horizontal main-reservoir placeholders or obvious new intersection from this view.",
+      "original_render_sha256": "01dbe88557b264cee0c1eaac773d39597a475a3e9d7ccc26044a33ba2d29f5d1",
+      "decoded_pixels_sha256": "909bd1dbc06def145ee96e4daca433a69237af0c63f0430a0e4075aa7119fd86",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/machinery_gallery/machinery_cutaway.png",
+      "image_sha256": "c67f6d5b000186043d4fb2f7966a51dc4198c1b750eec4a144a69ea731477247",
+      "provenance": "previews/machinery_gallery/machinery_cutaway.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Plan-led two-row arrangement and upright reservoirs are visible. This presentation explicitly hides the exterior shell and overhead equipment; cabinet construction and unmeasured mounting details remain representative.",
+      "original_render_sha256": "4164d0891749544ffa95146f1be6623837e310c014c7aa3d6995e2a7e08d7e11",
+      "decoded_pixels_sha256": "dc3d89f309eab8bc51076db47100ec2321c9119bf641af6757cad898cdbea19d",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    },
+    {
+      "image": "previews/probe_side.png",
+      "image_sha256": "23a4a48ca090b7f4f981d167f2af91f276242d16aa9ee3ece2dc4a14a3d12dfb",
+      "provenance": "qa/probe_side.json",
+      "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+      "pixel_review": "acceptable_with_documented_scope",
+      "observations": "Complete orthographic side profile includes both coupler ends and both folded pantographs without framing loss. Six-wheel silhouette, body/roof transitions, entry hierarchy and separated underfloor equipment remain coherent; no obvious new intersection from this view.",
+      "original_render_sha256": "83d56afa28be8244b5419e6b02b72a21bb370fc9b1b50612b2bd553ce72fcd40",
+      "decoded_pixels_sha256": "bb3adb406d50525aa36e37e8cc6eddb347f94859cd549a7507f25bb3687abebd",
+      "metadata_cleanup": "qa/preview_metadata_cleanup.json"
+    }
+  ],
+  "review_complete": true,
+  "final_master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930"
+}

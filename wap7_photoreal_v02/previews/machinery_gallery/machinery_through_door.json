@@ -1,0 +1,699 @@
+{
+  "status": "rendered",
+  "started_utc": "2026-10-06T21:46:48.200309+00:00",
+  "master_path": "WAP7_detail_v02.blend",
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_bytes": 10368238,
+  "script_sha256": "d5552b6bc0bfd50967813e700047c9899672f14c7148ff3f59ff3e2a023d28db",
+  "view": "through_door",
+  "samples": 192,
+  "width": 1400,
+  "threads": 8,
+  "stage_only": false,
+  "geometry_reapplied": false,
+  "mesh_data_edited": false,
+  "master_saved": false,
+  "image_path": "previews/machinery_gallery/machinery_through_door.png",
+  "visibility_changes": [
+    {
+      "object": "V02_CAM_BOGIE",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_CAB",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_COUPLER",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_COUPLER_TOP",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_FRONT",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_HERO",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_PANTOGRAPH",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_ROOF",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_SIDE",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_CAM_WINDOW",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_STAGE broad sky fill",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Replace existing lights with the approved neutral machinery lighting"
+    },
+    {
+      "object": "V02_STAGE frontal fill",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Replace existing lights with the approved neutral machinery lighting"
+    },
+    {
+      "object": "V02_STAGE ground",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_STAGE inspection rail",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_STAGE inspection rail.001",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Remove unrelated presentation from this neutral machinery view"
+    },
+    {
+      "object": "V02_STAGE neutral key",
+      "before_hide_render": false,
+      "after_hide_render": true,
+      "reason": "Replace existing lights with the approved neutral machinery lighting"
+    }
+  ],
+  "door_pose_changes": [
+    {
+      "object": "CABV02_1_Rear_door_hinge",
+      "property": "open_angle_deg",
+      "before": 0.0,
+      "after": 84.0,
+      "before_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.348999977111816
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.3479999899864197
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.4749999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after_world_matrix": [
+        [
+          0.10452841967344284,
+          -0.9945219159126282,
+          0.0,
+          7.348999977111816
+        ],
+        [
+          0.9945219159126282,
+          0.10452841967344284,
+          0.0,
+          0.3479999899864197
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.4749999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "reason": "Presentation-only view through the existing hinged door"
+    }
+  ],
+  "presentation_geometry_changes": [],
+  "asset_root_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "machinery_geometry_objects": 1228,
+  "source_object_count": 12375,
+  "image_dependencies": [
+    {
+      "image": "cab1.png",
+      "path": "textures/cab1.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "cab2.png",
+      "path": "textures/cab2.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "class.png",
+      "path": "textures/class.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "gauge_afi.png",
+      "path": "textures/cab/gauge_afi.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "gauge_bc.png",
+      "path": "textures/cab/gauge_bc.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "gauge_bp.png",
+      "path": "textures/cab/gauge_bp.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "gauge_mrfp.png",
+      "path": "textures/cab/gauge_mrfp.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "gauge_pb.png",
+      "path": "textures/cab/gauge_pb.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "hog.png",
+      "path": "textures/hog.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "indian_flag.png",
+      "path": "textures/indian_flag.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "lcd_blank.png",
+      "path": "textures/cab/lcd_blank.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "lift.png",
+      "path": "textures/lift.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "meter_battery.png",
+      "path": "textures/cab/meter_battery.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "meter_bogie1.png",
+      "path": "textures/cab/meter_bogie1.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "meter_bogie2.png",
+      "path": "textures/cab/meter_bogie2.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "meter_ohe.png",
+      "path": "textures/cab/meter_ohe.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "number_black.png",
+      "path": "textures/number_black.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "number_red.png",
+      "path": "textures/number_red.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "railway_english.png",
+      "path": "textures/railway_english.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "railway_hindi.png",
+      "path": "textures/railway_hindi.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "rpm.png",
+      "path": "textures/rpm.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "shed.png",
+      "path": "textures/shed.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "speedometer.png",
+      "path": "textures/cab/speedometer.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "sr.png",
+      "path": "textures/sr.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_surfaces_SURFV02_buffer_grease.png",
+      "path": "textures/surfaces/SURFV02_buffer_grease.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_surfaces_SURFV02_buffer_roughness.png",
+      "path": "textures/surfaces/SURFV02_buffer_roughness.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_surfaces_SURFV02_buffer_wear.png",
+      "path": "textures/surfaces/SURFV02_buffer_wear.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_surfaces_SURFV02_roof_foot_runoff.png",
+      "path": "textures/surfaces/SURFV02_roof_foot_runoff.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_surfaces_SURFV02_windscreen_service_film.png",
+      "path": "textures/surfaces/SURFV02_windscreen_service_film.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_body_side1_albedo.png",
+      "path": "textures/v02_body_side1_albedo.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_body_side1_grime_mask.png",
+      "path": "textures/v02_body_side1_grime_mask.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_body_side1_roughness.png",
+      "path": "textures/v02_body_side1_roughness.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_body_side2_albedo.png",
+      "path": "textures/v02_body_side2_albedo.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_body_side2_grime_mask.png",
+      "path": "textures/v02_body_side2_grime_mask.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_body_side2_roughness.png",
+      "path": "textures/v02_body_side2_roughness.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_nose_albedo.png",
+      "path": "textures/v02_nose_albedo.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_nose_grime_mask.png",
+      "path": "textures/v02_nose_grime_mask.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "SURFV02_MAP_v02_nose_roughness.png",
+      "path": "textures/v02_nose_roughness.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "technical.png",
+      "path": "textures/technical.png",
+      "packed": false,
+      "readable": true
+    },
+    {
+      "image": "v02_royapuram_crest.png",
+      "path": "textures/v02_royapuram_crest.png",
+      "packed": false,
+      "readable": true
+    }
+  ],
+  "font_dependencies": [],
+  "replaced_world": "V02_STAGE neutral world",
+  "replaced_camera": "V02_CAM_CAB",
+  "world": {
+    "type": "constant neutral",
+    "linear_rgb": [
+      0.61,
+      0.64,
+      0.67
+    ],
+    "strength": 0.35,
+    "external_environment_images": false
+  },
+  "lights": [
+    {
+      "object": "MACHGALLERY_practical_0",
+      "asset_position": [
+        -6.0,
+        0,
+        3.498
+      ],
+      "asset_target": [
+        -6.0,
+        0,
+        1.7
+      ],
+      "power_w": 24,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.95,
+        1.0,
+        0.95
+      ]
+    },
+    {
+      "object": "MACHGALLERY_practical_1",
+      "asset_position": [
+        -3.6,
+        0,
+        3.498
+      ],
+      "asset_target": [
+        -3.6,
+        0,
+        1.7
+      ],
+      "power_w": 24,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.95,
+        1.0,
+        0.95
+      ]
+    },
+    {
+      "object": "MACHGALLERY_practical_2",
+      "asset_position": [
+        -1.2,
+        0,
+        3.498
+      ],
+      "asset_target": [
+        -1.2,
+        0,
+        1.7
+      ],
+      "power_w": 24,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.95,
+        1.0,
+        0.95
+      ]
+    },
+    {
+      "object": "MACHGALLERY_practical_3",
+      "asset_position": [
+        1.2,
+        0,
+        3.498
+      ],
+      "asset_target": [
+        1.2,
+        0,
+        1.7
+      ],
+      "power_w": 24,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.95,
+        1.0,
+        0.95
+      ]
+    },
+    {
+      "object": "MACHGALLERY_practical_4",
+      "asset_position": [
+        3.6,
+        0,
+        3.498
+      ],
+      "asset_target": [
+        3.6,
+        0,
+        1.7
+      ],
+      "power_w": 24,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.95,
+        1.0,
+        0.95
+      ]
+    },
+    {
+      "object": "MACHGALLERY_practical_5",
+      "asset_position": [
+        6.0,
+        0,
+        3.498
+      ],
+      "asset_target": [
+        6.0,
+        0,
+        1.7
+      ],
+      "power_w": 24,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.95,
+        1.0,
+        0.95
+      ]
+    },
+    {
+      "object": "MACHGALLERY_door_soft_fill",
+      "asset_position": [
+        7.0,
+        0,
+        2.8
+      ],
+      "asset_target": [
+        3.8,
+        0,
+        2.3
+      ],
+      "power_w": 38,
+      "size_m": [
+        0.62,
+        0.12
+      ],
+      "linear_rgb": [
+        0.91,
+        0.95,
+        1.0
+      ]
+    }
+  ],
+  "camera": {
+    "camera": [
+      7.64,
+      -0.02,
+      2.95
+    ],
+    "target": [
+      -3.2,
+      0.0,
+      2.66
+    ],
+    "lens_mm": 21.0,
+    "height_ratio": 0.72,
+    "object": "MACHGALLERY_through_door",
+    "world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "clip_start_m": 0.012
+  },
+  "height": 1008,
+  "blender_version": "4.3.2",
+  "render_settings": {
+    "engine": "Cycles CPU",
+    "maximum_samples_per_pixel": 192,
+    "adaptive_sampling": true,
+    "adaptive_min_samples": 32,
+    "noise_threshold": 0.02,
+    "denoising": false,
+    "max_bounces": 7,
+    "transmission_bounces": 6,
+    "indirect_clamp": 4.0,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0
+  },
+  "staged_visible_geometry_count": 12333,
+  "visibility_change_count": 16,
+  "render_seconds": 295.5173417570004,
+  "image_sha256": "86b251f72c34604bb1d89c57d81ac2af0c082c24bf48a97ebbcae08110530153",
+  "image_bytes": 2215452,
+  "original_objects_restored_in_memory": true,
+  "unrestored_original_objects": [],
+  "master_sha256_after": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_file_unchanged": true,
+  "finished_utc": "2026-10-06T21:52:34.710815+00:00",
+  "render_output_image_sha256": "725f530c7bfb04c4917afe810a1d0993cb4e4b955dedf5572eb791e7d11c608b",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/machinery_gallery/machinery_through_door.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  },
+  "render_output_image_bytes": 2215988
+}

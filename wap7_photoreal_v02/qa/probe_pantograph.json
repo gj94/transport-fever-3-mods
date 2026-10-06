@@ -1,0 +1,25 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_file_unchanged": true,
+  "render_driver_sha256": "c8f5f5ee79d8450ba64ef2b150d22560e7bd8f028ed647217ab67b133a35f406",
+  "image_sha256": "6fdbf58f5d8d6bcdfb307362c15907f2a35554f0fa16cbe28270ef1235657d33",
+  "view": "PANTOGRAPH",
+  "camera_type": "PERSP",
+  "orthographic_span_m": null,
+  "height": 1104,
+  "seconds": 128.82815027236938,
+  "samples": 192,
+  "width": 1600,
+  "denoised": false,
+  "adaptive_sampling": true,
+  "minimum_samples": 32,
+  "noise_threshold": 0.014999999664723873,
+  "threads": 8,
+  "render_output_image_sha256": "deeabf1dcb2c1c9d444de4eab87f9e884ee213cc1167897f63661ce3973df35c",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/probe_pantograph.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

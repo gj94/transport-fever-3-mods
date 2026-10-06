@@ -1,0 +1,136 @@
+{
+  "status": "GO: material source and maps frozen",
+  "passed": true,
+  "reviewed_utc": "2026-10-06T20:50:00Z",
+  "material_version": "2.4.0",
+  "material_source_sha256": "8ac6c2e8d7ad51c18c92feaa97b81006cfcd424a0144d024a1872efe9dcbbbf0",
+  "master_sha256": "52809f59ee697d8f4e943f2ccb057507714e9a5cad5574b6e0b8077be24c3b19",
+  "proof_image": "qa/surfaces/04_integrated_service_wear_freeze.png",
+  "proof_image_sha256": "b92189dfb7bfba12cac7127f45f9da399d490a4eedd8282278c2af71f90b217d",
+  "render_settings": {
+    "samples": 64,
+    "width": 1280,
+    "height": 742,
+    "denoised": false,
+    "threads": 6
+  },
+  "visual_checks": {
+    "white_and_vermilion_hue_coherent": true,
+    "broad_upper_panels_quiet": true,
+    "warm_lower_side_dust_visible": true,
+    "feature_directed_runoff_not_global_noise": true,
+    "buffer_contact_variation_preserved": true,
+    "glazing_dark_and_transmissive_not_milky": true,
+    "paint_cast_rubber_contact_metal_separated": true
+  },
+  "judgement": "Restrained maintained-service finish. More legible warm dust on lower paint, selective grime at fittings, subdued broken buffer contact film. No clear material blocker; further strength changes are not recommended.",
+  "limitations": [
+    "64-sample Cycles proof is not denoised and retains sampling noise.",
+    "Final high-sample gallery remains a separate inspection; this approval covers the source-matched freeze probe.",
+    "Shader constants and deposited wear are representative artistic reconstruction, not laboratory measurements of locomotive 39002."
+  ],
+  "roi_comparison": {
+    "baseline": "qa/service_wear_comparison/pre_wear_stage5.png",
+    "baseline_sha256": "5c901d499cd7fcd935dea3edef6dbe25f7264d6736c784831c07b724a9f83b93",
+    "method": "8-bit display RGB regions on unchanged train camera pose. The final shed was moved rearward; these diagnostic body-region differences are not an exactly isolated mask-only render comparison. The earlier v2.4 pre/post pair used an identical stage.",
+    "regions": [
+      {
+        "region": "lower_side",
+        "xyxy": [
+          460,
+          423,
+          610,
+          449
+        ],
+        "baseline_median_rgb": [
+          201.0,
+          201.0,
+          197.0
+        ],
+        "frozen_median_rgb": [
+          195.0,
+          192.0,
+          187.0
+        ],
+        "mean_delta_rgb": [
+          -5.2377,
+          -7.5579,
+          -9.4426
+        ]
+      },
+      {
+        "region": "quiet_upper_panel",
+        "xyxy": [
+          490,
+          235,
+          600,
+          265
+        ],
+        "baseline_median_rgb": [
+          198.0,
+          199.0,
+          196.0
+        ],
+        "frozen_median_rgb": [
+          199.0,
+          199.0,
+          196.0
+        ],
+        "mean_delta_rgb": [
+          0.0924,
+          0.1236,
+          0.2064
+        ]
+      },
+      {
+        "region": "door_latch",
+        "xyxy": [
+          782,
+          340,
+          805,
+          364
+        ],
+        "baseline_median_rgb": [
+          203.0,
+          203.0,
+          201.0
+        ],
+        "frozen_median_rgb": [
+          203.0,
+          203.0,
+          200.0
+        ],
+        "mean_delta_rgb": [
+          -0.7011,
+          -0.7337,
+          -0.7446
+        ]
+      },
+      {
+        "region": "buffer",
+        "xyxy": [
+          1200,
+          490,
+          1250,
+          535
+        ],
+        "baseline_median_rgb": [
+          101.0,
+          98.0,
+          92.0
+        ],
+        "frozen_median_rgb": [
+          90.0,
+          89.0,
+          86.0
+        ],
+        "mean_delta_rgb": [
+          -8.5827,
+          -8.1933,
+          -7.1013
+        ]
+      }
+    ]
+  },
+  "frozen_source_and_map_hashes_unchanged": true
+}

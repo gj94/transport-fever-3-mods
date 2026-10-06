@@ -1,0 +1,1431 @@
+{
+  "body_geometry": {
+    "old_body_scale": [
+      1.0,
+      0.9227166175842285,
+      1.0
+    ],
+    "new_body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "main_shell_width_m": 3.152,
+    "side_hardware": "Physically seated/offset; accessory envelope reported separately",
+    "preserved_panto_ctrl_worlds": true,
+    "reference": "ACTM VolIII WAP7 GA SKEL4490 PDF24,3152 overall width of body",
+    "source_conflict": "Generic handbook tables list3100; selected representative WAP7-specific GA, not certified as-built39002 crosssection"
+  },
+  "exterior": {
+    "collection": "V02_EXTERIOR_DETAILS",
+    "objects": 1380,
+    "source": "RPM WAP-7 39002 photograph, photo-led representative fine hardware"
+  },
+  "coupler": {
+    "objects": 398,
+    "collection": "V02_COUPLER_AND_BUFFER_DETAILS",
+    "length_extrema_m": [
+      -10.281,
+      10.281
+    ],
+    "anchor_preservation": true,
+    "note": "Manufacturer/photo-led H-type morphology, representative small hardware; no mating CAD certification"
+  },
+  "roof": {
+    "collection": "V02_ROOF_AND_PANTOGRAPH_DETAILS",
+    "objects": 923,
+    "panto_transform_preservation": true,
+    "horn_foot_and_strap_seating": [
+      "V02_EXT_horn mounting strap",
+      "V02_EXT_horn mounting strap.001",
+      "V02_EXT_horn mounting strap.002",
+      "V02_EXT_horn mounting strap.003",
+      "V02_EXT_horn support foot",
+      "V02_EXT_horn support foot.001",
+      "V02_EXT_horn support foot.002",
+      "V02_EXT_horn support foot.003"
+    ],
+    "description": "AM92 form visual mechanisms with preserved representative level-head authoring rig; nominal folded height within4.255m"
+  },
+  "running_gear": {
+    "prefix": "V02_RG_",
+    "created_objects": 4394,
+    "hidden_legacy_objects": 1913,
+    "protected_controls_unchanged": true,
+    "bogie_wheelbase_m": 3.7,
+    "adjacent_axle_spacing_m": 1.85,
+    "wheel_rolling_diameter_m": 1.092,
+    "bogie_width_m": 2.48,
+    "primary_spring_lateral_spacing_m": 2.24,
+    "frame_over_headstocks_m": 6.209,
+    "primary_suspension": "24 outer coils plus 8 nested middle-axle inner coils; eight end-axle dampers and four middle safety links",
+    "brake_system": "8 conventional pneumatic cylinders total, 24 curved tread blocks; no TBU/PBU installed",
+    "underfloor_system": "Two W-type underslung compressor assemblies and two battery boxes; no external main reservoirs",
+    "sources": "references/running_gear_evidence.md"
+  },
+  "cab_interiors": {
+    "cab_roots": [
+      "CAB_A_INTERIOR",
+      "CAB_B_INTERIOR"
+    ],
+    "added_objects": 3372,
+    "hidden_legacy_interior_objects": 476,
+    "texture_assets": 11,
+    "preserved_cavity": true,
+    "machine_room_modelled": false,
+    "rear_doors": "Physical opening, glass pane, hinge with open_angle_deg default 0",
+    "rear_door_clear_opening_m": [
+      0.694,
+      1.8365
+    ],
+    "static_visual_controls": true,
+    "exact_unit_survey": false,
+    "reference_panel_a": "Photograph visually inspected, readable equipment designators transcribed",
+    "gauge_calibrations": "Representative original artwork; no functional calibration claim",
+    "confidence_dimensions": "Estimated within preserved cavity, not measured manufacturer dimensions"
+  },
+  "machinery_room": {
+    "added_objects": 1228,
+    "equipment_groups": 25,
+    "equipment_layout": [
+      {
+        "name": "AR_auxiliary_reservoir",
+        "kind": "vertical_air_reservoir",
+        "center": [
+          -6.69,
+          0.93,
+          2.5
+        ],
+        "dimensions": [
+          0.46,
+          0.46,
+          1.6
+        ],
+        "capacity_identity_litres": 240,
+        "source": "CR/ZRTI manual: vertical reservoirs and450L MR; WAG9-GM2021 section8.2: WAP7/WAG9 AR240L; SKEL-5051 locations",
+        "geometry_note": "Vessel dimensions and cradle inferred from capacity and available bay, not manufacturer drawing"
+      },
+      {
+        "name": "MR1_main_reservoir",
+        "kind": "vertical_air_reservoir",
+        "center": [
+          -6.12,
+          0.93,
+          2.83
+        ],
+        "dimensions": [
+          0.6,
+          0.6,
+          1.67
+        ],
+        "capacity_identity_litres": 450,
+        "source": "CR/ZRTI manual: vertical reservoirs and450L MR; WAG9-GM2021 section8.2: WAP7/WAG9 AR240L; SKEL-5051 locations",
+        "geometry_note": "Vessel dimensions and cradle inferred from capacity and available bay, not manufacturer drawing"
+      },
+      {
+        "name": "Traction_motor_blower1",
+        "kind": "traction_motor_blower",
+        "center": [
+          -4.9,
+          0.825,
+          2.58
+        ],
+        "dimensions": [
+          0.87,
+          0.81,
+          1.93
+        ],
+        "source": "Inspected machinery corridor blower / CLW transition duct specification",
+        "fine_hardware": "inferred representative"
+      },
+      {
+        "name": "Pneumatic_panel",
+        "kind": "pneumatic_panel",
+        "center": [
+          -3.94,
+          1.025,
+          2.46
+        ],
+        "dimensions": [
+          0.76,
+          0.3,
+          1.526
+        ],
+        "source": "SKEL-5051 location; panel piping nonfunctional representative"
+      },
+      {
+        "name": "Auxiliary_compressor_visual",
+        "kind": "auxiliary_compressor",
+        "center": [
+          -3.94,
+          0.715,
+          1.94
+        ],
+        "dimensions": [
+          0.5,
+          0.43,
+          0.48
+        ],
+        "source": "Plan location; compact compressor motor/casing representative"
+      },
+      {
+        "name": "Oil_cooling_unit1",
+        "kind": "oil_cooling_unit",
+        "center": [
+          -2.77,
+          0.825,
+          2.63
+        ],
+        "dimensions": [
+          1.1,
+          0.82,
+          1.9
+        ],
+        "source": "SKEL-5051 / CLW OCU duct description; radiator details representative"
+      },
+      {
+        "name": "Converter_oil_pump1",
+        "kind": "oil_pump",
+        "center": [
+          -1.9,
+          0.825,
+          1.94
+        ],
+        "dimensions": [
+          0.5,
+          0.43,
+          0.48
+        ],
+        "source": "SKEL-5051 pump location; motor construction inferred"
+      },
+      {
+        "name": "Traction_converter1",
+        "kind": "converter",
+        "center": [
+          -0.05,
+          0.8999999999999999,
+          2.5885
+        ],
+        "dimensions": [
+          3.0,
+          1.1,
+          2.087
+        ],
+        "front_y": 0.34999999999999987,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Machine_room_blower1",
+        "kind": "machine_room_blower",
+        "center": [
+          2.2,
+          0.825,
+          2.58
+        ],
+        "dimensions": [
+          0.88,
+          0.8,
+          1.93
+        ],
+        "source": "Inspected machinery corridor blower / CLW transition duct specification",
+        "fine_hardware": "inferred representative"
+      },
+      {
+        "name": "Auxiliary_converter1",
+        "kind": "auxiliary_converter",
+        "center": [
+          3.37,
+          0.94,
+          2.58
+        ],
+        "dimensions": [
+          1.16,
+          1.02,
+          1.86
+        ],
+        "front_y": 0.42999999999999994,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Control_and_traction_cubicle1",
+        "kind": "hb",
+        "center": [
+          4.42,
+          0.825,
+          2.56
+        ],
+        "dimensions": [
+          0.73,
+          0.81,
+          1.78
+        ],
+        "front_y": 0.41999999999999993,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Hotel_load_converter1",
+        "kind": "hotel_load_converter",
+        "center": [
+          5.66,
+          0.9299999999999999,
+          2.795
+        ],
+        "dimensions": [
+          1.38,
+          1.04,
+          1.7
+        ],
+        "front_y": 0.4099999999999999,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Hotel_load_equipmentA1",
+        "kind": "hotel_load_companion",
+        "center": [
+          6.6,
+          1.1,
+          2.6374999999999997
+        ],
+        "dimensions": [
+          0.29,
+          0.7,
+          0.435
+        ],
+        "front_y": 0.75,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Hotel_load_converter2",
+        "kind": "hotel_load_converter",
+        "center": [
+          -5.73,
+          -0.9299999999999999,
+          2.795
+        ],
+        "dimensions": [
+          1.38,
+          1.04,
+          1.7
+        ],
+        "front_y": -0.4099999999999999,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Hotel_load_equipmentA2",
+        "kind": "hotel_load_companion",
+        "center": [
+          -6.67,
+          -1.1,
+          2.6374999999999997
+        ],
+        "dimensions": [
+          0.29,
+          0.7,
+          0.435
+        ],
+        "front_y": -0.75,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Control_and_traction_cubicle2",
+        "kind": "hb",
+        "center": [
+          -4.6,
+          -0.825,
+          2.56
+        ],
+        "dimensions": [
+          0.72,
+          0.81,
+          1.78
+        ],
+        "front_y": -0.41999999999999993,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Auxiliary_converter2",
+        "kind": "auxiliary_converter",
+        "center": [
+          -3.45,
+          -0.94,
+          2.58
+        ],
+        "dimensions": [
+          1.52,
+          1.02,
+          1.86
+        ],
+        "front_y": -0.42999999999999994,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Machine_room_blower2",
+        "kind": "machine_room_blower",
+        "center": [
+          -2.1,
+          -0.825,
+          2.58
+        ],
+        "dimensions": [
+          0.88,
+          0.8,
+          1.93
+        ],
+        "source": "Inspected machinery corridor blower / CLW transition duct specification",
+        "fine_hardware": "inferred representative"
+      },
+      {
+        "name": "Traction_converter2",
+        "kind": "converter",
+        "center": [
+          0.05,
+          -0.8999999999999999,
+          2.5885
+        ],
+        "dimensions": [
+          3.0,
+          1.1,
+          2.087
+        ],
+        "front_y": -0.34999999999999987,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Converter_oil_pump2",
+        "kind": "oil_pump",
+        "center": [
+          1.91,
+          -0.825,
+          1.94
+        ],
+        "dimensions": [
+          0.5,
+          0.43,
+          0.48
+        ],
+        "source": "SKEL-5051 pump location; motor construction inferred"
+      },
+      {
+        "name": "Oil_cooling_unit2",
+        "kind": "oil_cooling_unit",
+        "center": [
+          2.78,
+          -0.825,
+          2.63
+        ],
+        "dimensions": [
+          1.1,
+          0.82,
+          1.9
+        ],
+        "source": "SKEL-5051 / CLW OCU duct description; radiator details representative"
+      },
+      {
+        "name": "Filter_block2",
+        "kind": "filter_block",
+        "center": [
+          3.78,
+          -0.825,
+          2.28
+        ],
+        "dimensions": [
+          0.66,
+          0.78,
+          1.22
+        ],
+        "front_y": -0.43499999999999994,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      },
+      {
+        "name": "Traction_motor_blower2",
+        "kind": "traction_motor_blower",
+        "center": [
+          4.68,
+          -0.825,
+          2.58
+        ],
+        "dimensions": [
+          0.87,
+          0.81,
+          1.93
+        ],
+        "source": "Inspected machinery corridor blower / CLW transition duct specification",
+        "fine_hardware": "inferred representative"
+      },
+      {
+        "name": "MR2_main_reservoir",
+        "kind": "vertical_air_reservoir",
+        "center": [
+          6.05,
+          -0.93,
+          2.83
+        ],
+        "dimensions": [
+          0.6,
+          0.6,
+          1.67
+        ],
+        "capacity_identity_litres": 450,
+        "source": "CR/ZRTI manual: vertical reservoirs and450L MR; WAG9-GM2021 section8.2: WAP7/WAG9 AR240L; SKEL-5051 locations",
+        "geometry_note": "Vessel dimensions and cradle inferred from capacity and available bay, not manufacturer drawing"
+      },
+      {
+        "name": "PB_plan_cubicle",
+        "kind": "plan_cubicle",
+        "center": [
+          6.72,
+          -0.825,
+          2.3
+        ],
+        "dimensions": [
+          0.43,
+          0.76,
+          1.26
+        ],
+        "front_y": -0.44499999999999995,
+        "source": "SKEL-5051 Alt2 placement / corridor photo cabinet class",
+        "fine_hardware": "inferred representative visual detail"
+      }
+    ],
+    "world_bounds_target": {
+      "x": [
+        -7.155,
+        7.155
+      ],
+      "y": [
+        -1.474,
+        1.474
+      ],
+      "z": [
+        1.545,
+        3.73
+      ]
+    },
+    "walking_clear_half_width": 0.32,
+    "cabinet_envelope_clear_width": 0.6999999999999997,
+    "headroom_benchmark_m": 1.83,
+    "floor_height": 1.64,
+    "roof_liner_height": 3.713,
+    "sourced_envelopes": [
+      {
+        "name": "Traction_converter1",
+        "external_envelope_m": [
+          3.0,
+          1.1,
+          2.087
+        ],
+        "min_world": [
+          -1.5499999523162842,
+          0.3499999940395355,
+          1.5449999570846558
+        ],
+        "max_world": [
+          1.4500000476837158,
+          1.4500000476837158,
+          3.631999969482422
+        ],
+        "documented_envelope": true,
+        "envelope_type": "existing equipment",
+        "geometry_fit_scale": [
+          0.9852216243743896,
+          1.1984018087387085,
+          1.025049090385437
+        ],
+        "source": "RDSO 2017 WAP7 upgrade p43"
+      },
+      {
+        "name": "Traction_converter2",
+        "external_envelope_m": [
+          3.0,
+          1.1,
+          2.087
+        ],
+        "min_world": [
+          -1.4500000476837158,
+          -1.4500000476837158,
+          1.5449999570846558
+        ],
+        "max_world": [
+          1.5499999523162842,
+          -0.3500000238418579,
+          3.631999969482422
+        ],
+        "documented_envelope": true,
+        "envelope_type": "existing equipment",
+        "geometry_fit_scale": [
+          0.9852216243743896,
+          1.1984018087387085,
+          1.025049090385437
+        ],
+        "source": "RDSO 2017 WAP7 upgrade p43"
+      },
+      {
+        "name": "Auxiliary_converter1",
+        "external_envelope_m": [
+          1.16,
+          1.02,
+          1.86
+        ],
+        "min_world": [
+          2.7899999618530273,
+          0.4300000071525574,
+          1.649999976158142
+        ],
+        "max_world": [
+          3.9499998092651367,
+          1.4500000476837158,
+          3.509999990463257
+        ],
+        "documented_envelope": true,
+        "envelope_type": "existing equipment",
+        "geometry_fit_scale": [
+          0.9626554250717163,
+          1.1112452745437622,
+          0.9657320380210876
+        ],
+        "source": "RDSO auxiliary converter specification 0071 Rev6, existing BUR envelope"
+      },
+      {
+        "name": "Auxiliary_converter2",
+        "external_envelope_m": [
+          1.52,
+          1.02,
+          1.86
+        ],
+        "min_world": [
+          -4.210000038146973,
+          -1.4500000476837158,
+          1.649999976158142
+        ],
+        "max_world": [
+          -2.690000057220459,
+          -0.43000006675720215,
+          3.509999990463257
+        ],
+        "documented_envelope": true,
+        "envelope_type": "existing equipment",
+        "geometry_fit_scale": [
+          0.9712459444999695,
+          1.1112452745437622,
+          0.9657320380210876
+        ],
+        "source": "RDSO auxiliary converter specification 0071 Rev6, existing BUR envelope"
+      },
+      {
+        "name": "Hotel_load_converter1",
+        "external_envelope_m": [
+          1.38,
+          1.04,
+          1.7
+        ],
+        "min_world": [
+          4.96999979019165,
+          0.4099999964237213,
+          1.9450000524520874
+        ],
+        "max_world": [
+          6.349999904632568,
+          1.4499999284744263,
+          3.6449999809265137
+        ],
+        "documented_envelope": false,
+        "envelope_type": "inferred cabinet inside documented available bay",
+        "geometry_fit_scale": [
+          0.9550172090530396,
+          1.1555554866790771,
+          0.97926265001297
+        ],
+        "source": "CLW/ES/3/IGBT/0490 Alt.B, Oct2013, section8.18 available space, not measured cabinet",
+        "available_bay_m": [
+          1.4,
+          1.075,
+          1.75
+        ],
+        "actual_case_dimensions_inferred": true
+      },
+      {
+        "name": "Hotel_load_converter2",
+        "external_envelope_m": [
+          1.38,
+          1.04,
+          1.7
+        ],
+        "min_world": [
+          -6.420000076293945,
+          -1.4500000476837158,
+          1.9450000524520874
+        ],
+        "max_world": [
+          -5.039999961853027,
+          -0.4100000858306885,
+          3.6449999809265137
+        ],
+        "documented_envelope": false,
+        "envelope_type": "inferred cabinet inside documented available bay",
+        "geometry_fit_scale": [
+          0.9550175070762634,
+          1.1555554866790771,
+          0.97926265001297
+        ],
+        "source": "CLW/ES/3/IGBT/0490 Alt.B, Oct2013, section8.18 available space, not measured cabinet",
+        "available_bay_m": [
+          1.4,
+          1.075,
+          1.75
+        ],
+        "actual_case_dimensions_inferred": true
+      },
+      {
+        "name": "Hotel_load_equipmentA1",
+        "external_envelope_m": [
+          0.29,
+          0.7,
+          0.435
+        ],
+        "min_world": [
+          6.454999923706055,
+          0.75,
+          2.4200000762939453
+        ],
+        "max_world": [
+          6.744999885559082,
+          1.4500000476837158,
+          2.8550000190734863
+        ],
+        "documented_envelope": false,
+        "envelope_type": "inferred cabinet inside documented available bay",
+        "geometry_fit_scale": [
+          0.7552086710929871,
+          0.7777777910232544,
+          0.2505760192871094
+        ],
+        "source": "CLW/ES/3/IGBT/0490 Alt.B, Oct2013, section8.18 available space, not measured cabinet",
+        "available_bay_m": [
+          0.3,
+          1.075,
+          1.75
+        ],
+        "actual_case_dimensions_inferred": true
+      },
+      {
+        "name": "Hotel_load_equipmentA2",
+        "external_envelope_m": [
+          0.29,
+          0.7,
+          0.435
+        ],
+        "min_world": [
+          -6.815000057220459,
+          -1.4500000476837158,
+          2.4200000762939453
+        ],
+        "max_world": [
+          -6.525000095367432,
+          -0.7500000596046448,
+          2.8550000190734863
+        ],
+        "documented_envelope": false,
+        "envelope_type": "inferred cabinet inside documented available bay",
+        "geometry_fit_scale": [
+          0.7552086710929871,
+          0.7777777910232544,
+          0.2505760192871094
+        ],
+        "source": "CLW/ES/3/IGBT/0490 Alt.B, Oct2013, section8.18 available space, not measured cabinet",
+        "available_bay_m": [
+          0.3,
+          1.075,
+          1.75
+        ],
+        "actual_case_dimensions_inferred": true
+      }
+    ],
+    "spring_pocket_reliefs": [],
+    "raised_hlc_mounts": [
+      {
+        "equipment": "Hotel_load_converter1",
+        "cabinet_base_z": 1.945,
+        "lowest_bridge_z": 1.934,
+        "legs_y": [
+          0.43499999999999994,
+          1.375
+        ],
+        "spring_pocket_top_z": 1.915,
+        "geometry_claim": "Inferred raised installation frame inside available HLC bay; original cabinet envelope is intact"
+      },
+      {
+        "equipment": "Hotel_load_converter2",
+        "cabinet_base_z": 1.945,
+        "lowest_bridge_z": 1.934,
+        "legs_y": [
+          -0.43499999999999994,
+          -1.375
+        ],
+        "spring_pocket_top_z": 1.915,
+        "geometry_claim": "Inferred raised installation frame inside available HLC bay; original cabinet envelope is intact"
+      }
+    ],
+    "cavity_half_width": 1.46,
+    "static_visual_model": true,
+    "source_plan": "SKEL-5051 Alt2 WAP7 with hotel load converter, inspected full plan; NTS",
+    "kavach_overlay_modelled": false,
+    "exact_unit_survey": false,
+    "source_images_embedded": false,
+    "new_shell_cuts": false,
+    "manufacturing_envelope_note": "TC and BUR existing external envelopes retained; HLC main and companion cases fit documented CLW2013 installation-bay maxima. Vendor faces and raised pocket-bridging installation frames remain representative; no HLC cabinet cutouts are used.",
+    "lighting_suggestion": "Six low-power rectangular sources under fluorescent diffusers at x +/-1.2,+/-3.6,+/-6.0; z3.498; confined to presentation."
+  },
+  "stage": {
+    "mode": "neutral inspection",
+    "collection": "V02_PRESENTATION_ONLY"
+  },
+  "component_source_sha256": {
+    "body_geometry.py": "d355cc827369a6498152012b7439bca0563883286af5bca5a5d442773b9fbb39",
+    "cab_interiors.py": "852c47db8d2a24a5df2fc135774b7b9f45e2b514d68a80f3d0d981db570e31e6",
+    "common.py": "61ec45c1e2ab246683b2449818f4c1e8771541daaa5d76541d3a61cda225dd20",
+    "coupler.py": "abf90997d9dd376ce7d03bcd4f5a79f8d60fce6b9a32d1a0a84bf10445ffd573",
+    "exterior.py": "24f6ae0ac6375c196bd477d1a25f7ef6cefad53bd128d653440c082fca8b0289",
+    "machinery_room.py": "6338154248b759939dc7a374db720189bd3377c0ecd47ee0fb8f9d0e2bae7277",
+    "materials.py": "5fca78261f47f6413bee29347a12fd37318a5f51138e40417f4e122a590a5f6c",
+    "roof.py": "3a70dd31113111fdf2e9bc380ee26ea1d55fc3a6db4f98002ebcbaaec7e3e5ba",
+    "running_gear.py": "7d2a95226d4f0ee56e830b4df8b4650d83d9d6f9385d8870f7d096e1a4fccdbd",
+    "stage.py": "4ad67ed68a36864433f9045432cbbb5f4c5e3647a111ccfe27f49f9ea156bf8e",
+    "surface_materials.py": "8ac6c2e8d7ad51c18c92feaa97b81006cfcd424a0144d024a1872efe9dcbbbf0",
+    "surface_running_gear.py": "2ab4c1faaa085bc8dd8186a30d6b936c05b082718633f17720c78691c6be51a1"
+  },
+  "baseline": "WAP7_photoreal_v01.blend",
+  "baseline_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+  "objects": 15882,
+  "protected_transforms": {
+    "AXLE_A_1_ROLL_Y": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -7.849999904632568
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5460000038146973
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AXLE_A_2_ROLL_Y": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5460000038146973
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AXLE_A_3_ROLL_Y": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -4.150000095367432
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5460000038146973
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AXLE_B_1_ROLL_Y": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.150000095367432
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5460000038146973
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AXLE_B_2_ROLL_Y": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5460000038146973
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AXLE_B_3_ROLL_Y": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        7.849999904632568
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5460000038146973
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "BODY": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9227166175842285,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "BOGIE_A_YAW_Z": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.8199999928474426
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "BOGIE_B_YAW_Z": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.8199999928474426
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "CBC_FRONT_PIVOT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        9.5
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.1050000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "CBC_REAR_PIVOT": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -9.5
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.1050000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "COUPLING_FRONT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        10.199999809265137
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.1050000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "COUPLING_REAR": [
+      [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        -10.199999809265137
+      ],
+      [
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.1050000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_FRONT_CTRL": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        4.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        4.179999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_FRONT_ELBOW_PIVOT": [
+      [
+        0.9998477697372437,
+        0.0,
+        0.017452405765652657,
+        5.649786949157715
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.017452405765652657,
+        0.0,
+        0.9998477697372437,
+        4.204432964324951
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_FRONT_HEAD_LEVEL_PIVOT": [
+      [
+        1.0000001192092896,
+        0.0,
+        -1.862645149230957e-09,
+        4.599946975708008
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.862645149230957e-09,
+        0.0,
+        1.0000001192092896,
+        4.222757816314697
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_FRONT_LOWER_PIVOT": [
+      [
+        0.9998477101325989,
+        0.0,
+        -0.017452405765652657,
+        4.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.017452405765652657,
+        0.0,
+        0.9998477101325989,
+        4.179999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_REAR_CTRL": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -5.75
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        4.179999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_REAR_ELBOW_PIVOT": [
+      [
+        0.9998477697372437,
+        0.0,
+        0.017452405765652657,
+        -4.350213050842285
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.017452405765652657,
+        0.0,
+        0.9998477697372437,
+        4.204432964324951
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_REAR_HEAD_LEVEL_PIVOT": [
+      [
+        1.0000001192092896,
+        0.0,
+        -1.862645149230957e-09,
+        -5.400053024291992
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.862645149230957e-09,
+        0.0,
+        1.0000001192092896,
+        4.222757816314697
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "PANTO_REAR_LOWER_PIVOT": [
+      [
+        0.9998477101325989,
+        0.0,
+        -0.017452405765652657,
+        -5.75
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.017452405765652657,
+        0.0,
+        0.9998477101325989,
+        4.179999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "WAP7_ROOT": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "packed_images": [
+    "body_enamel_albedo.png",
+    "body_enamel_roughness.png",
+    "cab1.png",
+    "cab2.png",
+    "cab_display.png",
+    "cab_gauges.png",
+    "class.png",
+    "gauge_afi.png",
+    "gauge_bc.png",
+    "gauge_bp.png",
+    "gauge_mrfp.png",
+    "gauge_pb.png",
+    "hog.png",
+    "indian_flag.png",
+    "lcd_blank.png",
+    "lift.png",
+    "meter_battery.png",
+    "meter_bogie1.png",
+    "meter_bogie2.png",
+    "meter_ohe.png",
+    "number_black.png",
+    "number_red.png",
+    "railway_english.png",
+    "railway_hindi.png",
+    "rpm.png",
+    "shed.png",
+    "shed_emblem.png",
+    "speedometer.png",
+    "sr.png",
+    "SURFV02_MAP_surfaces_SURFV02_buffer_grease.png",
+    "SURFV02_MAP_surfaces_SURFV02_buffer_roughness.png",
+    "SURFV02_MAP_surfaces_SURFV02_buffer_wear.png",
+    "SURFV02_MAP_surfaces_SURFV02_roof_foot_runoff.png",
+    "SURFV02_MAP_surfaces_SURFV02_windscreen_service_film.png",
+    "SURFV02_MAP_v02_body_side1_albedo.png",
+    "SURFV02_MAP_v02_body_side1_grime_mask.png",
+    "SURFV02_MAP_v02_body_side1_roughness.png",
+    "SURFV02_MAP_v02_body_side2_albedo.png",
+    "SURFV02_MAP_v02_body_side2_grime_mask.png",
+    "SURFV02_MAP_v02_body_side2_roughness.png",
+    "SURFV02_MAP_v02_nose_albedo.png",
+    "SURFV02_MAP_v02_nose_grime_mask.png",
+    "SURFV02_MAP_v02_nose_roughness.png",
+    "technical.png",
+    "v02_royapuram_crest.png"
+  ]
+}

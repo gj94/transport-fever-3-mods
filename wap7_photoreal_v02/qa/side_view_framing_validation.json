@@ -1,0 +1,46 @@
+{
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "purpose": "Uncropped orthographic technical-side proof; render-only camera override, no saved asset change",
+  "camera_type": "ORTHO",
+  "camera_location": [
+    0,
+    -31,
+    2.3
+  ],
+  "target": [
+    0,
+    0,
+    2.3
+  ],
+  "orthographic_span_m": 22.4,
+  "resolution": [
+    2200,
+    616
+  ],
+  "frame_m": {
+    "x_min": -11.2,
+    "x_max": 11.2,
+    "z_min": -0.8360000000000003,
+    "z_max": 5.436
+  },
+  "asset_folded_bounds_m": {
+    "min": [
+      -10.281000137329102,
+      -1.6588635444641113,
+      -0.028999999165534973
+    ],
+    "max": [
+      10.281000137329102,
+      1.6588635444641113,
+      4.254757881164551
+    ],
+    "extent": [
+      20.562000274658203,
+      3.3177270889282227,
+      4.283757880330086
+    ],
+    "height_above_rail": 4.254757881164551
+  },
+  "all_visible_asset_inside_frame": true,
+  "render_driver_sha256": "c8f5f5ee79d8450ba64ef2b150d22560e7bd8f028ed647217ab67b133a35f406"
+}

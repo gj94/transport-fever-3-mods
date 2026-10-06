@@ -1,0 +1,2687 @@
+{
+  "status": "rendered",
+  "master_path": "WAP7_detail_v02.blend",
+  "master_sha256": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "blender_version": "4.3.2",
+  "script_sha256": "7d2275e6f6e98f88a9423fb200661fe4a8ef3bb74b0d334c37939d650e782103",
+  "output_png": "previews/cab/overview_A.png",
+  "stage_only": false,
+  "pipeline": "Open exact integrated master; stage presentation only; no cab rebuild and no blend save",
+  "source_readiness": {
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "paint_recipes": {
+      "Warm grey interior enamel": "dielectric_metric_v1",
+      "Folded desk light grey satin": "dielectric_metric_v1",
+      "Charcoal removable instrument panel": "dielectric_metric_v1"
+    },
+    "warnings": [],
+    "lanyard_base_vertices": 520
+  },
+  "source_geometry_before": {
+    "sha256": "a45174c57ded0c389498d56f589427aa79c728a32aa9caa46c020ccdbe58296c",
+    "source_geometry_objects": 12362,
+    "unique_meshes": 12106,
+    "base_vertices": 993481
+  },
+  "vehicle_pose_before": {
+    "frame": 1,
+    "unit_system": "METRIC",
+    "scale_length": 1.0,
+    "roots_and_controls": {
+      "AXLE_A_1_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -7.849999904632568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_A_2_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_A_3_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.150000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_1_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.150000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_2_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_3_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.849999904632568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BODY": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BOGIE_A_YAW_Z": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8199999928474426
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BOGIE_B_YAW_Z": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8199999928474426
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CAB_A_INTERIOR": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CAB_B_INTERIOR": {
+        "world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            0.0
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CABV02_1_Rear_door_hinge": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.348999977111816
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.3479999899864197
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.4749999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "CAB_A_INTERIOR",
+        "open_angle_deg": 0.0,
+        "extension": null
+      },
+      "CABV02_2_Rear_door_hinge": {
+        "world": [
+          [
+            -1.0,
+            1.5099580252808664e-07,
+            0.0,
+            -7.348999977111816
+          ],
+          [
+            -1.5099580252808664e-07,
+            -1.0,
+            0.0,
+            -0.3480006456375122
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.4749999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "CAB_B_INTERIOR",
+        "open_angle_deg": 0.0,
+        "extension": null
+      },
+      "COUPLING_FRONT": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            10.199999809265137
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "COUPLING_REAR": {
+        "world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            -10.199999809265137
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_CTRL": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": 0.0
+      },
+      "PANTO_FRONT_ELBOW_PIVOT": {
+        "world": [
+          [
+            0.9998477697372437,
+            0.0,
+            0.017452405765652657,
+            5.649786949157715
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.017452405765652657,
+            0.0,
+            0.9998477697372437,
+            4.204432964324951
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_LOWER_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_HEAD_LEVEL_PIVOT": {
+        "world": [
+          [
+            1.0000001192092896,
+            0.0,
+            -1.862645149230957e-09,
+            4.599946975708008
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.862645149230957e-09,
+            0.0,
+            1.0000001192092896,
+            4.222757816314697
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_ELBOW_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_LOWER_PIVOT": {
+        "world": [
+          [
+            0.9998477101325989,
+            0.0,
+            -0.017452405765652657,
+            4.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.017452405765652657,
+            0.0,
+            0.9998477101325989,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_CTRL",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_CTRL": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -5.75
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": 0.0
+      },
+      "PANTO_REAR_ELBOW_PIVOT": {
+        "world": [
+          [
+            0.9998477697372437,
+            0.0,
+            0.017452405765652657,
+            -4.350213050842285
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.017452405765652657,
+            0.0,
+            0.9998477697372437,
+            4.204432964324951
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_LOWER_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_HEAD_LEVEL_PIVOT": {
+        "world": [
+          [
+            1.0000001192092896,
+            0.0,
+            -1.862645149230957e-09,
+            -5.400053024291992
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.862645149230957e-09,
+            0.0,
+            1.0000001192092896,
+            4.222757816314697
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_ELBOW_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_LOWER_PIVOT": {
+        "world": [
+          [
+            0.9998477101325989,
+            0.0,
+            -0.017452405765652657,
+            -5.75
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.017452405765652657,
+            0.0,
+            0.9998477101325989,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_CTRL",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "WAP7_ROOT": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "open_angle_deg": null,
+        "extension": null
+      }
+    }
+  },
+  "presentation": {
+    "collection": "CABFINAL_PROOF_STAGE_25aa1f26",
+    "source_lights_muted_in_memory": [
+      {
+        "name": "V02_STAGE broad sky fill",
+        "previous_hide_render": false
+      },
+      {
+        "name": "V02_STAGE frontal fill",
+        "previous_hide_render": false
+      },
+      {
+        "name": "V02_STAGE neutral key",
+        "previous_hide_render": false
+      }
+    ],
+    "lights": [
+      {
+        "name": "CABFINAL_1_front_daylight",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 180.0,
+        "size_m": 3.2,
+        "color_linear": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "world_location": [
+          10.600000381469727,
+          -0.800000011920929,
+          5.199999809265137
+        ],
+        "world_target": [
+          8.300000190734863,
+          0.0,
+          2.799999952316284
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_1_ceiling_practical",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 32.0,
+        "size_m": 1.25,
+        "color_linear": [
+          1.0,
+          0.97,
+          0.91
+        ],
+        "world_location": [
+          8.100000381469727,
+          0.0,
+          3.5299999713897705
+        ],
+        "world_target": [
+          8.399999618530273,
+          0.0,
+          2.200000047683716
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_1_soft_bounce_fill",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 50.0,
+        "size_m": 1.4,
+        "color_linear": [
+          0.97,
+          0.99,
+          1.0
+        ],
+        "world_location": [
+          7.409999847412109,
+          0.0,
+          3.119999885559082
+        ],
+        "world_target": [
+          8.859999656677246,
+          0.0,
+          2.6500000953674316
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_1_footwell_inspection_fill",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 12.0,
+        "size_m": 0.55,
+        "color_linear": [
+          0.97,
+          0.99,
+          1.0
+        ],
+        "world_location": [
+          8.100000381469727,
+          0.20000000298023224,
+          1.9299999475479126
+        ],
+        "world_target": [
+          8.729999542236328,
+          0.7799999713897705,
+          1.8300000429153442
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_1_seat_inspection_fill",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 14.0,
+        "size_m": 0.5,
+        "color_linear": [
+          0.97,
+          0.99,
+          1.0
+        ],
+        "world_location": [
+          8.239999771118164,
+          -0.18000000715255737,
+          2.119999885559082
+        ],
+        "world_target": [
+          7.980000019073486,
+          0.7799999713897705,
+          1.9299999475479126
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_1_side_daylight",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 160.0,
+        "size_m": 2.3,
+        "color_linear": [
+          0.87,
+          0.93,
+          1.0
+        ],
+        "world_location": [
+          8.550000190734863,
+          -3.299999952316284,
+          4.599999904632568
+        ],
+        "world_target": [
+          8.5,
+          0.0,
+          2.700000047683716
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_2_front_daylight",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 180.0,
+        "size_m": 3.2,
+        "color_linear": [
+          0.96,
+          0.98,
+          1.0
+        ],
+        "world_location": [
+          -10.600000381469727,
+          0.7999990582466125,
+          5.199999809265137
+        ],
+        "world_target": [
+          -8.300000190734863,
+          -7.256090839291574e-07,
+          2.799999952316284
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_2_ceiling_practical",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 32.0,
+        "size_m": 1.25,
+        "color_linear": [
+          1.0,
+          0.97,
+          0.91
+        ],
+        "world_location": [
+          -8.100000381469727,
+          -7.081245030349237e-07,
+          3.5299999713897705
+        ],
+        "world_target": [
+          -8.399999618530273,
+          -7.343513175328553e-07,
+          2.200000047683716
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_2_soft_bounce_fill",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 50.0,
+        "size_m": 1.4,
+        "color_linear": [
+          0.97,
+          0.99,
+          1.0
+        ],
+        "world_location": [
+          -7.409999847412109,
+          -6.47802778530604e-07,
+          3.119999885559082
+        ],
+        "world_target": [
+          -8.859999656677246,
+          -7.745657626401226e-07,
+          2.6500000953674316
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_2_footwell_inspection_fill",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 12.0,
+        "size_m": 0.55,
+        "color_linear": [
+          0.97,
+          0.99,
+          1.0
+        ],
+        "world_location": [
+          -8.100000381469727,
+          -0.20000071823596954,
+          1.9299999475479126
+        ],
+        "world_target": [
+          -8.729999542236328,
+          -0.7800007462501526,
+          1.8300000429153442
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_2_seat_inspection_fill",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 14.0,
+        "size_m": 0.5,
+        "color_linear": [
+          0.97,
+          0.99,
+          1.0
+        ],
+        "world_location": [
+          -8.239999771118164,
+          0.17999929189682007,
+          2.119999885559082
+        ],
+        "world_target": [
+          -7.980000019073486,
+          -0.7800006866455078,
+          1.9299999475479126
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      },
+      {
+        "name": "CABFINAL_2_side_daylight",
+        "type": "AREA",
+        "shape": "DISK",
+        "energy_watts": 160.0,
+        "size_m": 2.3,
+        "color_linear": [
+          0.87,
+          0.93,
+          1.0
+        ],
+        "world_location": [
+          -8.550000190734863,
+          3.299999237060547,
+          4.599999904632568
+        ],
+        "world_target": [
+          -8.5,
+          -7.430936079799721e-07,
+          2.700000047683716
+        ],
+        "visible_camera": false,
+        "visible_transmission": false
+      }
+    ],
+    "world": {
+      "color_linear": [
+        0.65,
+        0.71,
+        0.77,
+        1.0
+      ],
+      "strength": 0.6
+    },
+    "camera": {
+      "object": "CABFINAL_overview_A",
+      "view": "overview_A",
+      "cab": 1,
+      "world_location": [
+        7.46999979019165,
+        0.0,
+        3.130000114440918
+      ],
+      "world_target": [
+        8.960000038146973,
+        0.0,
+        2.680000066757202
+      ],
+      "world_matrix": [
+        [
+          -4.371138828673793e-08,
+          0.28911536931991577,
+          -0.9572942852973938,
+          7.46999979019165
+        ],
+        [
+          -1.0,
+          -2.931333042965889e-08,
+          3.680838389641394e-08,
+          0.0
+        ],
+        [
+          -1.7419612419189434e-08,
+          0.9572942852973938,
+          0.28911536931991577,
+          3.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 17.5,
+      "sensor_width_mm": 36.0,
+      "clip_start_m": 0.019999999552965164,
+      "clip_end_m": 500.0
+    },
+    "render": {
+      "engine": "Cycles CPU",
+      "maximum_samples": 192,
+      "denoising": false,
+      "threads": 8,
+      "adaptive_sampling": true,
+      "adaptive_min_samples": 32,
+      "adaptive_threshold": 0.019999999552965164,
+      "width": 1400,
+      "height": 1050,
+      "view_transform": "AgX",
+      "look": "AgX - Medium High Contrast",
+      "exposure": 0.0,
+      "film_transparent": false,
+      "compositing": false,
+      "sequencer": false
+    }
+  },
+  "source_geometry_after_staging": {
+    "sha256": "a45174c57ded0c389498d56f589427aa79c728a32aa9caa46c020ccdbe58296c",
+    "source_geometry_objects": 12362,
+    "unique_meshes": 12106,
+    "base_vertices": 993481
+  },
+  "vehicle_pose_after_staging": {
+    "frame": 1,
+    "unit_system": "METRIC",
+    "scale_length": 1.0,
+    "roots_and_controls": {
+      "AXLE_A_1_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -7.849999904632568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_A_2_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_A_3_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.150000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_1_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.150000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_2_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_3_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.849999904632568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BODY": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BOGIE_A_YAW_Z": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8199999928474426
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BOGIE_B_YAW_Z": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8199999928474426
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CAB_A_INTERIOR": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CAB_B_INTERIOR": {
+        "world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            0.0
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CABV02_1_Rear_door_hinge": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.348999977111816
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.3479999899864197
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.4749999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "CAB_A_INTERIOR",
+        "open_angle_deg": 0.0,
+        "extension": null
+      },
+      "CABV02_2_Rear_door_hinge": {
+        "world": [
+          [
+            -1.0,
+            1.5099580252808664e-07,
+            0.0,
+            -7.348999977111816
+          ],
+          [
+            -1.5099580252808664e-07,
+            -1.0,
+            0.0,
+            -0.3480006456375122
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.4749999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "CAB_B_INTERIOR",
+        "open_angle_deg": 0.0,
+        "extension": null
+      },
+      "COUPLING_FRONT": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            10.199999809265137
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "COUPLING_REAR": {
+        "world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            -10.199999809265137
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_CTRL": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": 0.0
+      },
+      "PANTO_FRONT_ELBOW_PIVOT": {
+        "world": [
+          [
+            0.9998477697372437,
+            0.0,
+            0.017452405765652657,
+            5.649786949157715
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.017452405765652657,
+            0.0,
+            0.9998477697372437,
+            4.204432964324951
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_LOWER_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_HEAD_LEVEL_PIVOT": {
+        "world": [
+          [
+            1.0000001192092896,
+            0.0,
+            -1.862645149230957e-09,
+            4.599946975708008
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.862645149230957e-09,
+            0.0,
+            1.0000001192092896,
+            4.222757816314697
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_ELBOW_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_LOWER_PIVOT": {
+        "world": [
+          [
+            0.9998477101325989,
+            0.0,
+            -0.017452405765652657,
+            4.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.017452405765652657,
+            0.0,
+            0.9998477101325989,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_CTRL",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_CTRL": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -5.75
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": 0.0
+      },
+      "PANTO_REAR_ELBOW_PIVOT": {
+        "world": [
+          [
+            0.9998477697372437,
+            0.0,
+            0.017452405765652657,
+            -4.350213050842285
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.017452405765652657,
+            0.0,
+            0.9998477697372437,
+            4.204432964324951
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_LOWER_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_HEAD_LEVEL_PIVOT": {
+        "world": [
+          [
+            1.0000001192092896,
+            0.0,
+            -1.862645149230957e-09,
+            -5.400053024291992
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.862645149230957e-09,
+            0.0,
+            1.0000001192092896,
+            4.222757816314697
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_ELBOW_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_LOWER_PIVOT": {
+        "world": [
+          [
+            0.9998477101325989,
+            0.0,
+            -0.017452405765652657,
+            -5.75
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.017452405765652657,
+            0.0,
+            0.9998477101325989,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_CTRL",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "WAP7_ROOT": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "open_angle_deg": null,
+        "extension": null
+      }
+    }
+  },
+  "source_geometry_unchanged": true,
+  "render_seconds": 462.5280122889999,
+  "source_geometry_after_render": {
+    "sha256": "a45174c57ded0c389498d56f589427aa79c728a32aa9caa46c020ccdbe58296c",
+    "source_geometry_objects": 12362,
+    "unique_meshes": 12106,
+    "base_vertices": 993481
+  },
+  "vehicle_pose_after_render": {
+    "frame": 1,
+    "unit_system": "METRIC",
+    "scale_length": 1.0,
+    "roots_and_controls": {
+      "AXLE_A_1_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -7.849999904632568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_A_2_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_A_3_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.150000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_A_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_1_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.150000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_2_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "AXLE_B_3_ROLL_Y": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.849999904632568
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5460000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BOGIE_B_YAW_Z",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BODY": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BOGIE_A_YAW_Z": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8199999928474426
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "BOGIE_B_YAW_Z": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8199999928474426
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CAB_A_INTERIOR": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CAB_B_INTERIOR": {
+        "world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            0.0
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "CABV02_1_Rear_door_hinge": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            7.348999977111816
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.3479999899864197
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.4749999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "CAB_A_INTERIOR",
+        "open_angle_deg": 0.0,
+        "extension": null
+      },
+      "CABV02_2_Rear_door_hinge": {
+        "world": [
+          [
+            -1.0,
+            1.5099580252808664e-07,
+            0.0,
+            -7.348999977111816
+          ],
+          [
+            -1.5099580252808664e-07,
+            -1.0,
+            0.0,
+            -0.3480006456375122
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.4749999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "CAB_B_INTERIOR",
+        "open_angle_deg": 0.0,
+        "extension": null
+      },
+      "COUPLING_FRONT": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            10.199999809265137
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "COUPLING_REAR": {
+        "world": [
+          [
+            -1.0,
+            8.742277657347586e-08,
+            0.0,
+            -10.199999809265137
+          ],
+          [
+            -8.742277657347586e-08,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.1050000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "WAP7_ROOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_CTRL": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": 0.0
+      },
+      "PANTO_FRONT_ELBOW_PIVOT": {
+        "world": [
+          [
+            0.9998477697372437,
+            0.0,
+            0.017452405765652657,
+            5.649786949157715
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.017452405765652657,
+            0.0,
+            0.9998477697372437,
+            4.204432964324951
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_LOWER_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_HEAD_LEVEL_PIVOT": {
+        "world": [
+          [
+            1.0000001192092896,
+            0.0,
+            -1.862645149230957e-09,
+            4.599946975708008
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.862645149230957e-09,
+            0.0,
+            1.0000001192092896,
+            4.222757816314697
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_ELBOW_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_FRONT_LOWER_PIVOT": {
+        "world": [
+          [
+            0.9998477101325989,
+            0.0,
+            -0.017452405765652657,
+            4.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.017452405765652657,
+            0.0,
+            0.9998477101325989,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_FRONT_CTRL",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_CTRL": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -5.75
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "BODY",
+        "open_angle_deg": null,
+        "extension": 0.0
+      },
+      "PANTO_REAR_ELBOW_PIVOT": {
+        "world": [
+          [
+            0.9998477697372437,
+            0.0,
+            0.017452405765652657,
+            -4.350213050842285
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.017452405765652657,
+            0.0,
+            0.9998477697372437,
+            4.204432964324951
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_LOWER_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_HEAD_LEVEL_PIVOT": {
+        "world": [
+          [
+            1.0000001192092896,
+            0.0,
+            -1.862645149230957e-09,
+            -5.400053024291992
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.862645149230957e-09,
+            0.0,
+            1.0000001192092896,
+            4.222757816314697
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_ELBOW_PIVOT",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "PANTO_REAR_LOWER_PIVOT": {
+        "world": [
+          [
+            0.9998477101325989,
+            0.0,
+            -0.017452405765652657,
+            -5.75
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.017452405765652657,
+            0.0,
+            0.9998477101325989,
+            4.179999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": "PANTO_REAR_CTRL",
+        "open_angle_deg": null,
+        "extension": null
+      },
+      "WAP7_ROOT": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "open_angle_deg": null,
+        "extension": null
+      }
+    }
+  },
+  "png_sha256": "cf90a6781ea4829415c75084d6e3d84d246e0ee13104c049243dedbbae70de43",
+  "png_bytes": 2406907,
+  "master_sha256_after": "25aa1f264f7dbab9f25e9e2fe27ff2f2e9d6b8ab513133d374717fcff0e24930",
+  "master_file_unchanged": true,
+  "render_output_image_sha256": "330cf8d1a31f822dee1ecb475a7735ab3902989e079911caf8ec514ccb413c39",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/cab/overview_A.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  },
+  "render_output_png_bytes": 2407438
+}
