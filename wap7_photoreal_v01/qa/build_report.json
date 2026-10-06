@@ -1,0 +1,42 @@
+{
+  "source": "WAP7_pantograph_v04.blend",
+  "source_sha256": "98ba27a619312ff5ec807f2d2be5b3cc8c88111f03530661bec3b6efebaa53d5",
+  "objects": 7045,
+  "new_geometry_objects": 4716,
+  "collections": [
+    "CAB_INTERIORS_V02",
+    "Collection",
+    "COUPLING_V03",
+    "PHOTOREAL_REFINEMENT",
+    "PRESENTATION_ONLY",
+    "WAP7_ASSET"
+  ],
+  "packed_images": [
+    "body_enamel_albedo.png",
+    "body_enamel_roughness.png",
+    "cab1.png",
+    "cab2.png",
+    "cab_display.png",
+    "cab_gauges.png",
+    "class.png",
+    "hog.png",
+    "indian_flag.png",
+    "lift.png",
+    "number_black.png",
+    "number_red.png",
+    "railway_english.png",
+    "railway_hindi.png",
+    "rpm.png",
+    "shed.png",
+    "shed_emblem.png",
+    "sr.png",
+    "technical.png"
+  ],
+  "rig_controls": [
+    "PANTO_FRONT_CTRL",
+    "PANTO_REAR_CTRL"
+  ],
+  "units": "metres",
+  "render_engine": "Cycles CPU",
+  "notes": "Source-only refinement; presentation-only collection excluded from asset envelope."
+}

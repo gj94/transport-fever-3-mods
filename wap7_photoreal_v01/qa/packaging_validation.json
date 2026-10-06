@@ -1,0 +1,33 @@
+{
+  "source_render_master_sha256": "173b98b241127088eabd36ca5d2776a1f5f3eb0a442bea9897c0390cbb04dd37",
+  "packaged_master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+  "vehicle_content_identical": true,
+  "vehicle_geometry_sha256": "29b42242f65b0b53be12100152dadaab404772c02982278ff7fa1ec03da147a7",
+  "vehicle_material_graph_sha256": "24e8c06120ec0b22e2ac42fff1a34ab1d88d468e30f37e16c6864bafc4223a35",
+  "packed_images_sha256": {
+    "body_enamel_albedo.png": "8047280ab473e6097608734b1629bead73ed114559c32147bcec96a26168f82a",
+    "body_enamel_roughness.png": "e7bfdffece5e1d358fb8760b27c6fff5e078dd6b0192f650177a4d824b748c16",
+    "cab1.png": "c1aa8b1cff5b112017e7f0122d130073d232c9a0f405bc7fdd0c4f370478b1e5",
+    "cab2.png": "b94c1ddd4352002f405220970ba41d343c53c56d54ac3e37e04fb14d77f05aa3",
+    "cab_display.png": "f57bb157c462705ff6fb47d475ee68f3f5d957a065b6cd4ec06317ae29fd3c99",
+    "cab_gauges.png": "948a61a820ad10bd9beee6645777f6da5ae0a55d071375ec284390885aea7c3b",
+    "class.png": "caaa1446ffbefdcb73e9294907b82b64554bf10b1fc1e93cf550ddfedc594be2",
+    "hog.png": "c529389b3e79f9cf4f5efdfd10ade3e1735ada862637c19884490b328d5369f8",
+    "indian_flag.png": "9650be051ee38e7e9ec802f7003bfdef48428682ac167d3eebe1ecac4d0729e9",
+    "lift.png": "d8fb6b09773544c8cc29929de1c20ffcef4794e69da400d14add8ced03a57d5b",
+    "number_black.png": "eb4652ec920cd9e92c22b849abf30c61cce1810657121c867371c35cf0d4e030",
+    "number_red.png": "1908b6847bb06009b28a0abaaeb94333685a34577421811b5204898243039e9d",
+    "railway_english.png": "b3a4b8de2319bf3b602097c5fd520d5c1c9107dd6aca71f6b8653e9b0a01e97a",
+    "railway_hindi.png": "11f161245e0f7732d85fc92158f5039a39d78cc877db09b49d796adc008f92a4",
+    "rpm.png": "1e5184ea0f8073af8b09c32b582dc59e1f0580f3c8698ddfbf1dd52900c5860a",
+    "shed.png": "3e0af297d212afbc71a6dc86babb2159d9353e26223f9be2f477de3bd8bbd366",
+    "shed_emblem.png": "1b6fc1a62a19a84cdffc94b34647f057be2a6582333043f45e2851d66c94b5ad",
+    "sr.png": "341e39a4cf93bc314f7ee9039d709ae88a325bac9d42cf93acd50a9f6b9ea5d9",
+    "technical.png": "f66440928134918ce9e8a78fd504d57cac1b0c3df9f51d124251b2e3d492a1d7"
+  },
+  "vehicle_objects": 4175,
+  "removed_presentation_objects": 2870,
+  "packaged_bytes": 4643716,
+  "packed_texture_paths_relative": true,
+  "presentation_reproduction": "render_previews.py executes restore_stage.py and deterministic build_stage.py; no linked external libraries"
+}

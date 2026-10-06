@@ -1,0 +1,38 @@
+{
+  "cab": {
+    "seconds": 253.33,
+    "samples": 256,
+    "width": 1600,
+    "height": 1000,
+    "camera": "CAM_CAB",
+    "engine": "Cycles CPU",
+    "threads": 9,
+    "denoising": false,
+    "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+    "stage_rebuilt": true
+  },
+  "bogie": {
+    "seconds": 336.08,
+    "samples": 256,
+    "width": 1600,
+    "height": 1000,
+    "camera": "CAM_BOGIE",
+    "engine": "Cycles CPU",
+    "threads": 9,
+    "denoising": false,
+    "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+    "stage_rebuilt": true
+  },
+  "roof": {
+    "seconds": 265.09,
+    "samples": 256,
+    "width": 1600,
+    "height": 1000,
+    "camera": "CAM_ROOF",
+    "engine": "Cycles CPU",
+    "threads": 9,
+    "denoising": false,
+    "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+    "stage_rebuilt": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "baseline": "WAP7_pantograph_v04.blend",
+  "candidate": "WAP7_photoreal_v01.blend",
+  "protected_count": 500,
+  "cab_count": 478,
+  "settings_errors": [],
+  "missing": [],
+  "changed": [],
+  "interior_geometry_changes_for_review": [],
+  "new_protected_objects": [],
+  "image_errors": [],
+  "tolerance": 1e-06,
+  "scope": "All baseline EMPTY object rig/marker transforms and drivers, BODY/root transforms, cab transforms, metre scale and animation rate. Interior geometry changes are reported for intentional-edit review; materials may change.",
+  "candidate_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+  "baseline_sha256": "98ba27a619312ff5ec807f2d2be5b3cc8c88111f03530661bec3b6efebaa53d5",
+  "baseline_main_commit": "4c4f0be85edbf4468bca22f2d1285fec72343bd5"
+}

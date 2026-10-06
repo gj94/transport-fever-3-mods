@@ -1,5 +1,19 @@
 # Indian Rail Prototype Pack v1.0
 
+## WAP-7 visual refinement v0.1
+
+![Refined WAP-7 in a procedural trackside scene](wap7_photoreal_v01/previews/01_hero_trackside.png)
+
+[Open the editable WAP-7 refinement and full preview gallery](wap7_photoreal_v01/README.md).
+
+The white/red locomotive receives a reshaped exterior, recessed cab glazing, finer grilles and roof/underframe detail, bilingual markings, textured paint and restrained weathering. The trackside setting and lighting are procedural; the previews are rendered from the supplied Blender master.
+
+The existing metre-scale origin, coupling anchors, bogie/axle hierarchy, independently controlled pantographs and both cab interiors are preserved. Independent source checks cover all 500 protected objects, including 478 cab-interior objects.
+
+This is a **source-only visual handoff**. It has not been converted into the downloadable TF3 pack or installed in game; the existing native release remains unchanged. The folder includes the editable master, authoring scripts, original texture assets, previews and validation notes.
+
+[Side elevation](wap7_photoreal_v01/previews/02_side_elevation.png) · [Cab detail](wap7_photoreal_v01/previews/03_cab_detail.png) · [Bogie detail](wap7_photoreal_v01/previews/04_bogie_detail.png) · [Roof detail](wap7_photoreal_v01/previews/05_roof_detail.png) · [Front portrait](wap7_photoreal_v01/previews/06_front_portrait.png)
+
 Editable Blender prototypes for an Indian Railways asset-development project:
 
 - **WAP-7** locomotive in clean white/red

@@ -1,0 +1,270 @@
+{
+  "blender": "4.3.2",
+  "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+  "source_sha256": "98ba27a619312ff5ec807f2d2be5b3cc8c88111f03530661bec3b6efebaa53d5",
+  "protected_objects_checked": 500,
+  "interior_objects_preserved": 478,
+  "missing_protected": [],
+  "changed_protected": [],
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "coupling_anchors_m": {
+    "COUPLING_FRONT": [
+      10.199999809265137,
+      0.0,
+      1.1050000190734863
+    ],
+    "COUPLING_REAR": [
+      -10.199999809265137,
+      0.0,
+      1.1050000190734863
+    ]
+  },
+  "asset_visible_evaluated_bounds_m": {
+    "min": [
+      -10.279999732971191,
+      -1.5916862487792969,
+      -0.02399998903274536
+    ],
+    "max": [
+      10.279999732971191,
+      1.5916862487792969,
+      4.256961345672607
+    ],
+    "extent": [
+      20.559999465942383,
+      3.1833724975585938,
+      4.280961334705353
+    ]
+  },
+  "asset_evaluated_triangles": 407204,
+  "asset_visible_mesh_objects": 4147,
+  "nonfinite_geometry_objects": [],
+  "images": [
+    {
+      "name": "body_enamel_albedo.png",
+      "packed": true,
+      "path": "//textures/body_enamel_albedo.png"
+    },
+    {
+      "name": "body_enamel_roughness.png",
+      "packed": true,
+      "path": "//textures/body_enamel_roughness.png"
+    },
+    {
+      "name": "cab1.png",
+      "packed": true,
+      "path": "//textures/cab1.png"
+    },
+    {
+      "name": "cab2.png",
+      "packed": true,
+      "path": "//textures/cab2.png"
+    },
+    {
+      "name": "cab_display.png",
+      "packed": true,
+      "path": "//textures/cab_display.png"
+    },
+    {
+      "name": "cab_gauges.png",
+      "packed": true,
+      "path": "//textures/cab_gauges.png"
+    },
+    {
+      "name": "class.png",
+      "packed": true,
+      "path": "//textures/class.png"
+    },
+    {
+      "name": "hog.png",
+      "packed": true,
+      "path": "//textures/hog.png"
+    },
+    {
+      "name": "indian_flag.png",
+      "packed": true,
+      "path": "//textures/indian_flag.png"
+    },
+    {
+      "name": "lift.png",
+      "packed": true,
+      "path": "//textures/lift.png"
+    },
+    {
+      "name": "number_black.png",
+      "packed": true,
+      "path": "//textures/number_black.png"
+    },
+    {
+      "name": "number_red.png",
+      "packed": true,
+      "path": "//textures/number_red.png"
+    },
+    {
+      "name": "railway_english.png",
+      "packed": true,
+      "path": "//textures/railway_english.png"
+    },
+    {
+      "name": "railway_hindi.png",
+      "packed": true,
+      "path": "//textures/railway_hindi.png"
+    },
+    {
+      "name": "rpm.png",
+      "packed": true,
+      "path": "//textures/rpm.png"
+    },
+    {
+      "name": "shed.png",
+      "packed": true,
+      "path": "//textures/shed.png"
+    },
+    {
+      "name": "shed_emblem.png",
+      "packed": true,
+      "path": "//textures/shed_emblem.png"
+    },
+    {
+      "name": "sr.png",
+      "packed": true,
+      "path": "//textures/sr.png"
+    },
+    {
+      "name": "technical.png",
+      "packed": true,
+      "path": "//textures/technical.png"
+    }
+  ],
+  "pantograph_pose_samples": {
+    "FRONT": [
+      {
+        "extension": 0.0,
+        "contact_top_z_m": 4.254757881164551,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.1,
+        "contact_top_z_m": 4.404224872589111,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.2,
+        "contact_top_z_m": 4.552974224090576,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.3,
+        "contact_top_z_m": 4.700451374053955,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.4,
+        "contact_top_z_m": 4.84610652923584,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.5,
+        "contact_top_z_m": 4.989396572113037,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.6,
+        "contact_top_z_m": 5.129786014556885,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.7,
+        "contact_top_z_m": 5.266751766204834,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.8,
+        "contact_top_z_m": 5.399783134460449,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.9,
+        "contact_top_z_m": 5.528384208679199,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 1.0,
+        "contact_top_z_m": 5.652073860168457,
+        "head_level_error_degrees": 0.0
+      }
+    ],
+    "REAR": [
+      {
+        "extension": 0.0,
+        "contact_top_z_m": 4.254757881164551,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.1,
+        "contact_top_z_m": 4.404224872589111,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.2,
+        "contact_top_z_m": 4.552974224090576,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.3,
+        "contact_top_z_m": 4.700451374053955,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.4,
+        "contact_top_z_m": 4.84610652923584,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.5,
+        "contact_top_z_m": 4.989396572113037,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.6,
+        "contact_top_z_m": 5.129786014556885,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.7,
+        "contact_top_z_m": 5.266751766204834,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.8,
+        "contact_top_z_m": 5.399783134460449,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 0.9,
+        "contact_top_z_m": 5.528384208679199,
+        "head_level_error_degrees": 0.0
+      },
+      {
+        "extension": 1.0,
+        "contact_top_z_m": 5.652073860168457,
+        "head_level_error_degrees": 0.0
+      }
+    ]
+  },
+  "hero_contact_proof": {
+    "contact_wire_m": 5.53,
+    "actual_strip_top_m": 5.529999732971191,
+    "error_m": -2.6702880884243996e-07
+  },
+  "scope_limits": [
+    "No TF3 conversion or runtime test",
+    "No finite-element/manufacturer geometry validation",
+    "No swept collision certification for added cosmetic hardware",
+    "Hidden-side fitting placement remains representative"
+  ],
+  "pass": true
+}

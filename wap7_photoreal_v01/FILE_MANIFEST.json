@@ -1,0 +1,323 @@
+{
+  "package": "wap7_photoreal_v01",
+  "date": "2026-10-06",
+  "master": "WAP7_photoreal_v01.blend",
+  "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+  "master_packed_images": 19,
+  "master_compressed": true,
+  "source_only": true,
+  "native_game_resources_modified": false,
+  "preview_count": 6,
+  "preview_runs": [
+    {
+      "seconds": 584.67,
+      "samples": 512,
+      "width": 1920,
+      "height": 1080,
+      "camera": "CAM_HERO",
+      "engine": "Cycles CPU",
+      "threads": 9,
+      "denoising": false,
+      "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+      "stage_rebuilt": true,
+      "file": "previews/01_hero_trackside.png"
+    },
+    {
+      "seconds": 98.07,
+      "samples": 256,
+      "width": 2200,
+      "height": 660,
+      "camera": "CAM_SIDE",
+      "engine": "Cycles CPU",
+      "threads": 9,
+      "denoising": false,
+      "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+      "stage_rebuilt": true,
+      "file": "previews/02_side_elevation.png"
+    },
+    {
+      "seconds": 253.33,
+      "samples": 256,
+      "width": 1600,
+      "height": 1000,
+      "camera": "CAM_CAB",
+      "engine": "Cycles CPU",
+      "threads": 9,
+      "denoising": false,
+      "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+      "stage_rebuilt": true,
+      "file": "previews/03_cab_detail.png"
+    },
+    {
+      "seconds": 336.08,
+      "samples": 256,
+      "width": 1600,
+      "height": 1000,
+      "camera": "CAM_BOGIE",
+      "engine": "Cycles CPU",
+      "threads": 9,
+      "denoising": false,
+      "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+      "stage_rebuilt": true,
+      "file": "previews/04_bogie_detail.png"
+    },
+    {
+      "seconds": 265.09,
+      "samples": 256,
+      "width": 1600,
+      "height": 1000,
+      "camera": "CAM_ROOF",
+      "engine": "Cycles CPU",
+      "threads": 9,
+      "denoising": false,
+      "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+      "stage_rebuilt": true,
+      "file": "previews/05_roof_detail.png"
+    },
+    {
+      "seconds": 260.78,
+      "samples": 256,
+      "width": 1280,
+      "height": 1472,
+      "camera": "CAM_FRONT",
+      "engine": "Cycles CPU",
+      "threads": 9,
+      "denoising": false,
+      "master_sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b",
+      "stage_rebuilt": true,
+      "file": "previews/06_front_portrait.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7940,
+      "sha256": "db22b19b18d2e45d822ee76384f0b1d66cec6ecee92d7e37557ec459eb36d13c"
+    },
+    {
+      "path": "REFERENCES.md",
+      "bytes": 4543,
+      "sha256": "f3c3b9d93acaac2d377294a9049b0e357cf31168b54f8c365f73980e06b7a05b"
+    },
+    {
+      "path": "VISUAL_QA.md",
+      "bytes": 3377,
+      "sha256": "bc9e7d0e2ea4e699f105e56be9b414ebf39b8304455b9b4be972f49e7fb492ee"
+    },
+    {
+      "path": "WAP7_photoreal_v01.blend",
+      "bytes": 4643716,
+      "sha256": "7d6bd12ed30ff6f9837bbbb246fe1b12c700eec89f6edc3697280840664ff86b"
+    },
+    {
+      "path": "previews/01_hero_trackside.png",
+      "bytes": 2596737,
+      "sha256": "aa2f198db32bdace4eb1bfefd258d839eec15744f16c5454ec55a110b985d4c8"
+    },
+    {
+      "path": "previews/02_side_elevation.png",
+      "bytes": 1332041,
+      "sha256": "ac27cbb4b062eb72c3dcd78e0bb711b152a79facbb8b223fcc99501b8158b5e4"
+    },
+    {
+      "path": "previews/03_cab_detail.png",
+      "bytes": 1923399,
+      "sha256": "663c368c9a24819dfb999590a7228a524578f9ddbe822a20702d0bad9fe10489"
+    },
+    {
+      "path": "previews/04_bogie_detail.png",
+      "bytes": 1984761,
+      "sha256": "a030c01b9a917c98d0658c290d06e2dda5904150a0c0285df49684650b2442cc"
+    },
+    {
+      "path": "previews/05_roof_detail.png",
+      "bytes": 2105110,
+      "sha256": "7729dfeba6ab50600078c8559880fade3f899eb8bbedbcfb9f8cc32f25a09b0b"
+    },
+    {
+      "path": "previews/06_front_portrait.png",
+      "bytes": 2317642,
+      "sha256": "832630b37296bed591c82cbfda2d0e95068313ed1b81189e9e8a66ff80d2d616"
+    },
+    {
+      "path": "qa/build_report.json",
+      "bytes": 983,
+      "sha256": "8be25de210ac1c7ce4217801e1226accdf9fd24ee5e036651826e7d431968c23"
+    },
+    {
+      "path": "qa/geometry_and_rig_validation.json",
+      "bytes": 6431,
+      "sha256": "daed1152053a9ea2a0ae503d235e2dd6c2f7e60c52fec918cf03317ad8829ae3"
+    },
+    {
+      "path": "qa/independent_source_qa.json",
+      "bytes": 817,
+      "sha256": "7f9afa4af733afff07c175692bf514f3d131e4d0abf045a9978af5e328f0fe37"
+    },
+    {
+      "path": "qa/packaging_validation.json",
+      "bytes": 2437,
+      "sha256": "99fceb0b3b21087e61dc4dd0f1efeb022e0ca84d15e3421fc38668b3b258d22e"
+    },
+    {
+      "path": "qa/preview_pixel_validation.json",
+      "bytes": 1885,
+      "sha256": "5b8a08a33adc97f9561b71858ac2debd890768dd2ee9d0c607f3bc023aec497f"
+    },
+    {
+      "path": "qa/render_cab_bogie_roof.json",
+      "bytes": 932,
+      "sha256": "94f3b550b72cffad1c24c13763b78f9fff8ad86224a744153f120a346496887d"
+    },
+    {
+      "path": "qa/render_front.json",
+      "bytes": 314,
+      "sha256": "7a4138023fa183027a0b219d972fd5acfa8e58b02df681e3ce74e137ae940842"
+    },
+    {
+      "path": "qa/render_hero.json",
+      "bytes": 312,
+      "sha256": "ae5f4a7476e216d6037c09f64d375f97424dd26496877caf055b6119a2245247"
+    },
+    {
+      "path": "qa/render_side.json",
+      "bytes": 310,
+      "sha256": "40165047720c25f35c1fade87d5e5e1fe04f4c35c297f1cf7922d937b6f21d72"
+    },
+    {
+      "path": "scripts/build_refinement.py",
+      "bytes": 34378,
+      "sha256": "00dbb8d9acc51279958866cdfbfb4a78dc2f9893a13cc226ce7b6728651e04f1"
+    },
+    {
+      "path": "scripts/build_stage.py",
+      "bytes": 11948,
+      "sha256": "1643f24a70224e9dfff71ca989afd0daba51707f61f8081d47ac7c8e01ddb82a"
+    },
+    {
+      "path": "scripts/finish_package.py",
+      "bytes": 3669,
+      "sha256": "0974af4f8075e93b04d5378157be37a63640f15ba646dedf45e59aaf95cefe59"
+    },
+    {
+      "path": "scripts/make_textures.py",
+      "bytes": 4132,
+      "sha256": "dac3dc2570564a5efd93d14f920e0fc18e78be14757e0d82ce91b5d9b6b6fd62"
+    },
+    {
+      "path": "scripts/package_master.py",
+      "bytes": 3909,
+      "sha256": "8673423b9d1409436a9fb20c95ded1512efbc6c43ec0c7ac3cdb66b8fff74341"
+    },
+    {
+      "path": "scripts/render_previews.py",
+      "bytes": 3743,
+      "sha256": "de3e03031a06dc85d56d982ffcae1c530d00b5c23d27f3f790be0abde6db631f"
+    },
+    {
+      "path": "scripts/restore_stage.py",
+      "bytes": 1541,
+      "sha256": "dc5d047c3e719acf5122cac5e4eaffc2337eeed9e155aa87131ba176cbd4107e"
+    },
+    {
+      "path": "scripts/validate_refinement.py",
+      "bytes": 5178,
+      "sha256": "a4a0f04140ffb250800edb994cba73cd52bbd17f55377bf4466855aa03a1a14a"
+    },
+    {
+      "path": "textures/body_enamel_albedo.png",
+      "bytes": 2787067,
+      "sha256": "8047280ab473e6097608734b1629bead73ed114559c32147bcec96a26168f82a"
+    },
+    {
+      "path": "textures/body_enamel_roughness.png",
+      "bytes": 454063,
+      "sha256": "e7bfdffece5e1d358fb8760b27c6fff5e078dd6b0192f650177a4d824b748c16"
+    },
+    {
+      "path": "textures/cab1.png",
+      "bytes": 3985,
+      "sha256": "c1aa8b1cff5b112017e7f0122d130073d232c9a0f405bc7fdd0c4f370478b1e5"
+    },
+    {
+      "path": "textures/cab2.png",
+      "bytes": 4727,
+      "sha256": "b94c1ddd4352002f405220970ba41d343c53c56d54ac3e37e04fb14d77f05aa3"
+    },
+    {
+      "path": "textures/cab_display.png",
+      "bytes": 1643,
+      "sha256": "f57bb157c462705ff6fb47d475ee68f3f5d957a065b6cd4ec06317ae29fd3c99"
+    },
+    {
+      "path": "textures/cab_gauges.png",
+      "bytes": 20157,
+      "sha256": "948a61a820ad10bd9beee6645777f6da5ae0a55d071375ec284390885aea7c3b"
+    },
+    {
+      "path": "textures/class.png",
+      "bytes": 15629,
+      "sha256": "caaa1446ffbefdcb73e9294907b82b64554bf10b1fc1e93cf550ddfedc594be2"
+    },
+    {
+      "path": "textures/hog.png",
+      "bytes": 12093,
+      "sha256": "c529389b3e79f9cf4f5efdfd10ade3e1735ada862637c19884490b328d5369f8"
+    },
+    {
+      "path": "textures/indian_flag.png",
+      "bytes": 3603,
+      "sha256": "9650be051ee38e7e9ec802f7003bfdef48428682ac167d3eebe1ecac4d0729e9"
+    },
+    {
+      "path": "textures/lift.png",
+      "bytes": 1964,
+      "sha256": "d8fb6b09773544c8cc29929de1c20ffcef4794e69da400d14add8ced03a57d5b"
+    },
+    {
+      "path": "textures/number_black.png",
+      "bytes": 21708,
+      "sha256": "eb4652ec920cd9e92c22b849abf30c61cce1810657121c867371c35cf0d4e030"
+    },
+    {
+      "path": "textures/number_red.png",
+      "bytes": 27659,
+      "sha256": "1908b6847bb06009b28a0abaaeb94333685a34577421811b5204898243039e9d"
+    },
+    {
+      "path": "textures/railway_english.png",
+      "bytes": 41800,
+      "sha256": "b3a4b8de2319bf3b602097c5fd520d5c1c9107dd6aca71f6b8653e9b0a01e97a"
+    },
+    {
+      "path": "textures/railway_hindi.png",
+      "bytes": 11559,
+      "sha256": "11f161245e0f7732d85fc92158f5039a39d78cc877db09b49d796adc008f92a4"
+    },
+    {
+      "path": "textures/rpm.png",
+      "bytes": 4388,
+      "sha256": "1e5184ea0f8073af8b09c32b582dc59e1f0580f3c8698ddfbf1dd52900c5860a"
+    },
+    {
+      "path": "textures/shed.png",
+      "bytes": 20573,
+      "sha256": "3e0af297d212afbc71a6dc86babb2159d9353e26223f9be2f477de3bd8bbd366"
+    },
+    {
+      "path": "textures/shed_emblem.png",
+      "bytes": 24360,
+      "sha256": "1b6fc1a62a19a84cdffc94b34647f057be2a6582333043f45e2851d66c94b5ad"
+    },
+    {
+      "path": "textures/sr.png",
+      "bytes": 4225,
+      "sha256": "341e39a4cf93bc314f7ee9039d709ae88a325bac9d42cf93acd50a9f6b9ea5d9"
+    },
+    {
+      "path": "textures/technical.png",
+      "bytes": 8866,
+      "sha256": "f66440928134918ce9e8a78fd504d57cac1b0c3df9f51d124251b2e3d492a1d7"
+    }
+  ]
+}
