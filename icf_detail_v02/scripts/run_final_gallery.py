@@ -1,6 +1,6 @@
 """Resumable high-sample gallery from frozen, pixel-reviewed source masters.
-One Blender process, four CPU threads, 512 max samples, 2% adaptive threshold,
-64 minimum samples, no denoiser. Every output retains a source/image hash sidecar.
+One Blender process, four CPU threads, 512 uniform samples in resumable
+eight independent 64-sample linear EXR batches, no denoiser. Existing adaptive finals remain valid. Every output retains a source/image hash sidecar.
 """
 from pathlib import Path
 import os,subprocess,json,hashlib,datetime
@@ -21,7 +21,9 @@ for v,view in jobs:
  env=dict(os.environ,ICF_RENDER_SUFFIX='final',ICF_RENDER_THREADS='4',ICF_RENDER_SAMPLES='512',ICF_INTERIOR_SAMPLES='512',ICF_ADAPTIVE_THRESHOLD='0.02',ICF_ADAPTIVE_MIN_SAMPLES='64',ICF_RENDER_WIDTH='1600',ICF_RENDER_HEIGHT='900' if view=='hero' else '1040')
  state={'variant':v,'view':view,'status':'rendering','source_sha256':sha,'time_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()};(p/'qa/final_render_progress.json').write_text(json.dumps(state,indent=2))
  with (p/'qa'/f'render_{v}_{view}_final.log').open('w') as f:
-  result=subprocess.run(['blender','-b',str(master),'-t','4','--python-exit-code','1','--python',str(p/'scripts'/('render_toilet_detail.py' if view=='toilet' else 'render_detail.py')),'--',view],env=env,stdout=f,stderr=subprocess.STDOUT)
+  command=['blender','-b',str(master),'-t','4','--python-exit-code','1','--python']
+  command+=([str(p/'scripts/render_toilet_detail.py'),'--',view] if view=='toilet' else [str(p/'scripts'/('run_checkpoint_renderer.py' if (v,view)==('1A','cabin_diagonal') else 'run_checkpoint_renderer_externaldeps.py')),'--',str(p/'scripts/render_detail.py'),view])
+  result=subprocess.run(command,env=env,stdout=f,stderr=subprocess.STDOUT)
  if result.returncode or not sidecar.exists():raise RuntimeError(f'Render failed: {v} {view}')
  r=json.loads(sidecar.read_text());assert r['source_blend_sha256']==sha and r['samples']==512 and r['adaptive_min_samples']==64
  state['status']='complete';(p/'qa/final_render_progress.json').write_text(json.dumps(state,indent=2));print('FINAL_READY',v,view,str(sidecar),flush=True)

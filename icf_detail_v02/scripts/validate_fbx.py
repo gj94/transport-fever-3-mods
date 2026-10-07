@@ -27,7 +27,10 @@ for v in variants:
  scratch=Path('/tmp')/('icf-fbx-portable-'+v);scratch.mkdir(exist_ok=True);fbx=folder/f'ICF_{v}.fbx';dest=scratch/fbx.name
  # Invalidate absolute exporter paths in a disposable equal-length binary copy.
  # Relative .fbm paths remain untouched, so success requires relocated textures.
- payload=fbx.read_bytes();prefix=str(P).encode();invalid=(b'/unavailable_icf_source'+b'_'*len(prefix))[:len(prefix)];count=payload.count(prefix);dest.write_bytes(payload.replace(prefix,invalid))
+ payload=fbx.read_bytes();count=0
+ for prefix in [str(P).encode(),b'/workspace/shared/icf-detail/icf_detail_v02']:
+  invalid=(b'/unavailable_icf_source'+b'_'*len(prefix))[:len(prefix)];count+=payload.count(prefix);payload=payload.replace(prefix,invalid)
+ dest.write_bytes(payload)
  fbmdir=folder/f'ICF_{v}.fbm'
  if fbmdir.exists():shutil.copytree(fbmdir,scratch/fbmdir.name,dirs_exist_ok=True)
  bpy.ops.wm.read_factory_settings(use_empty=True);bpy.ops.import_scene.fbx(filepath=str(dest));bpy.context.view_layer.update();obs=list(bpy.data.objects);errors=[]

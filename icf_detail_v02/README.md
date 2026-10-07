@@ -20,12 +20,16 @@ Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/
 
 Renders are actual Blender geometry, not image-generated illustrations. Cutaway hides the roof and one bodyside for inspection only. Studio lights and camera are excluded from FBX. Passenger and berth markers are authoring references, not claims of runtime validation.
 
-## Remaining work
+## Verified source state and remaining work
 
-- Complete seven-class generation, material/mesh/hierarchy checks and full visual review
-- Inspect eye-level interior, window/door, bogie and coupling details against appropriate references
-- Improve source fidelity where references support a correction; record remaining assumptions
-- Export/reimport and class count checks, final source manifests/checksums, final actual-model previews
-- No claim of absolute perfection or exact numbered-coach reconstruction
+All seven classes have completed source generation, geometry, support/contact, aperture, seated-root and relocated FBX texture/hierarchy/bounds checks. The current r12 sources and exports are frozen in `qa/final_geometry_lock.json`; recovery revalidation confirms unchanged hashes. These checks do not establish native game compatibility, animated character fit or dynamic mechanical clearances.
+
+Remaining work is the complete 24-view high-sample actual-model gallery, final pixel review and finished-gallery provenance audit. The truthful completion count is in GALLERY.md. Do not interpret prior review images as completed high-sample finals.
+
+## Portable render dependencies
+
+Source Blender meshes and packed class-label textures are self-contained for inspection. The outdoor gallery renderer additionally expects these repository-root siblings: `vande_bharat_detail_v02/components/environment_depot.py`, `vande_bharat_detail_v02/components/common.py`, and four textures in `wap7_photoreal_v02/environment/`: `kloofendal_48d_partly_cloudy_puresky_2k.hdr`, `dirt_diff_2k.jpg`, `dirt_rough_2k.jpg`, `dirt_disp_2k.exr`. Keep this folder structure when relocating or packaging render sources. Each outdoor sidecar records exact dependency SHA-256 values; resumed outdoor EXR batches bind those same hashes in their checkpoint fingerprint. These generic depot/ground presentation assets are excluded from vehicle FBX.
+
+Current stock is conventional screw-coupled ICF with side buffers. The earlier family reference ledger also discusses a CBC adaptation; that historical coupling note does not apply to this v02 selection.
 
 Primary references and existing capacity/layout rationale are in the unchanged `../icf_family_v01/references.md`. New running-gear references are embedded in `scripts/icf_running_gear.py`. Illustrative markings do not identify an exact photographed coach.
