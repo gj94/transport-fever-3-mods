@@ -1,0 +1,232 @@
+{
+  "source_checks": [
+    {
+      "variant": "1A",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    },
+    {
+      "variant": "2A",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    },
+    {
+      "variant": "3A",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    },
+    {
+      "variant": "2S",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    },
+    {
+      "variant": "CC",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    },
+    {
+      "variant": "SL",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    },
+    {
+      "variant": "GS",
+      "locked_blend": true,
+      "locked_fbx": true,
+      "current_producer_hashes": true
+    }
+  ],
+  "views": [
+    {
+      "variant": "1A",
+      "view": "hero",
+      "exists": true,
+      "checks": {
+        "current_source": true,
+        "current_renderer": true,
+        "image_hash": true,
+        "512_samples": true,
+        "adaptive_2_percent": true,
+        "minimum_64": true,
+        "no_denoising": true,
+        "four_threads": true,
+        "width_1600": true,
+        "presentation_hashes_current": true,
+        "external_dependencies_current": true
+      },
+      "passed": true
+    },
+    {
+      "variant": "1A",
+      "view": "cabin_diagonal",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "1A",
+      "view": "cabin_cutaway",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "1A",
+      "view": "markings",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "2A",
+      "view": "hero",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "2A",
+      "view": "bay",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "2A",
+      "view": "side_berth",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "3A",
+      "view": "hero",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "3A",
+      "view": "bay",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "3A",
+      "view": "side_berth",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "2S",
+      "view": "hero",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "2S",
+      "view": "aisle",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "CC",
+      "view": "hero",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "CC",
+      "view": "aisle",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "CC",
+      "view": "headrest",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "CC",
+      "view": "toilet",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "SL",
+      "view": "hero",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "SL",
+      "view": "bay",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "SL",
+      "view": "side_berth",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "SL",
+      "view": "bogie",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "SL",
+      "view": "entrance",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "GS",
+      "view": "hero",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "GS",
+      "view": "aisle",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    },
+    {
+      "variant": "GS",
+      "view": "coupling",
+      "exists": false,
+      "checks": {},
+      "passed": false
+    }
+  ],
+  "expected_views": 24,
+  "complete_views": 1,
+  "all_sources_unchanged": true,
+  "passed": false
+}
