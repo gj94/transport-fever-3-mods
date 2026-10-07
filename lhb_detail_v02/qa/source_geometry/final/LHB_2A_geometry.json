@@ -1,0 +1,5857 @@
+{
+  "variant": "2A",
+  "generated_utc": "2026-10-07T18:02:18.367444+00:00",
+  "blender_version": "4.3.2",
+  "source_file": "/workspace/shared/lhb-detail/lhb_detail_v02/models/LHB_2A.blend",
+  "checks": [
+    {
+      "name": "manifest_declared_contract",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "manifest_build_hashes_match_source",
+      "status": "pass"
+    },
+    {
+      "name": "marker_build_hashes_match_source",
+      "status": "pass"
+    },
+    {
+      "name": "marker_manifest_matches_actual_source",
+      "status": "pass",
+      "details": {
+        "count": 0,
+        "examples": [],
+        "truncated": false
+      }
+    },
+    {
+      "name": "fbx_file_present_and_nonempty",
+      "status": "pass",
+      "details": {
+        "bytes": 23855676
+      }
+    },
+    {
+      "name": "input_files_unchanged_during_verification",
+      "status": "pass"
+    }
+  ],
+  "source": {
+    "variant": "2A",
+    "stage": "source",
+    "checks": [
+      {
+        "name": "asset_root_present",
+        "status": "pass"
+      },
+      {
+        "name": "embedded_build_hashes_match_current_modules",
+        "status": "pass",
+        "details": {
+          "embedded": {
+            "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+            "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+            "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07"
+          },
+          "current": {
+            "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+            "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07",
+            "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64"
+          }
+        }
+      },
+      {
+        "name": "finite_transforms",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "root_identity",
+        "status": "pass",
+        "details": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "body_parent_and_identity",
+        "status": "pass"
+      },
+      {
+        "name": "all_geometry_owned_by_asset_root",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "presentation_excluded_from_asset_hierarchy",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "scene_units_metres",
+        "status": "pass",
+        "details": {
+          "unit_system": "METRIC",
+          "scale_length": 1.0
+        }
+      },
+      {
+        "name": "root_capacity_metadata",
+        "status": "pass"
+      },
+      {
+        "name": "native_runtime_claims_false",
+        "status": "pass"
+      },
+      {
+        "name": "whole_asset_reasonable_envelope",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "dimension_body_length_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 23.54,
+          "actual_m": 23.540000915527344,
+          "object": "UNDERFRAME_main"
+        }
+      },
+      {
+        "name": "dimension_body_width_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 3.24,
+          "actual_m": 3.240000009536743,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_roof_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 4.039,
+          "actual_m": 4.039000034332275,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_floor_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 1.303,
+          "actual_m": 1.3029999732971191,
+          "object": "INTERIOR_floor"
+        }
+      },
+      {
+        "name": "two_bogies_four_axles_eight_wheels_eight_discs",
+        "status": "pass",
+        "details": {
+          "bogies": 2,
+          "axles": 4,
+          "wheels": 8,
+          "brake_discs": 8
+        }
+      },
+      {
+        "name": "dimension_bogie_centres",
+        "status": "pass",
+        "details": 14.899999618530273
+      },
+      {
+        "name": "running_gear_geometry_and_parenting",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "coupling_anchor_contract",
+        "status": "pass",
+        "details": {
+          "span_m": 24.0,
+          "anchors": {
+            "COUPLING_FRONT": [
+              12.0,
+              0.0,
+              1.10500002
+            ],
+            "COUPLING_REAR": [
+              -12.0,
+              0.0,
+              1.10500002
+            ]
+          }
+        }
+      },
+      {
+        "name": "PAX_count",
+        "status": "pass",
+        "details": {
+          "expected": 52,
+          "actual": 52
+        }
+      },
+      {
+        "name": "BERTH_count",
+        "status": "pass",
+        "details": {
+          "expected": 52,
+          "actual": 52
+        }
+      },
+      {
+        "name": "marker_root_metadata_consistent",
+        "status": "pass"
+      },
+      {
+        "name": "PAX_seated_pose_and_single_lower_cushion_support",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_unique_positions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_torso_clear_of_fixed_partitions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "furniture_legs_meet_floor_and_lower_seat_structure",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_references_match_lower_upper_or_stowed_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_class_type_distribution",
+        "status": "pass",
+        "details": {
+          "expected": {
+            "LOWER": 17,
+            "UPPER": 17,
+            "SIDE_LOWER": 9,
+            "SIDE_UPPER": 9
+          },
+          "actual": {
+            "LOWER": 17,
+            "UPPER": 17,
+            "SIDE_LOWER": 9,
+            "SIDE_UPPER": 9
+          }
+        }
+      },
+      {
+        "name": "lavatory_and_basin_actual_placement",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "lavatory_count",
+        "status": "pass",
+        "details": {
+          "expected": 4,
+          "actual": 4
+        }
+      },
+      {
+        "name": "rounded_window_centres_are_actual_through_apertures",
+        "status": "pass",
+        "details": {
+          "apertures_checked": 22,
+          "blocked": []
+        }
+      },
+      {
+        "name": "separate_glazing_geometry_exists",
+        "status": "pass",
+        "details": {
+          "objects": 26
+        }
+      },
+      {
+        "name": "source_glass_transmission",
+        "status": "pass",
+        "details": {
+          "alpha": 1.0,
+          "transmission": 0.9599999785423279
+        }
+      },
+      {
+        "name": "no_negative_scale",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "editable_text_tessellation_clean",
+        "status": "warning",
+        "details": {
+          "count": 24,
+          "examples": [
+            {
+              "object": "BATTERY_BOX_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 732,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 6.009657374434479e-08
+            },
+            {
+              "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 1021,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "EOG_TRANSFORMER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 840,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 5.248317498170694e-08
+            },
+            {
+              "object": "AC_AUXILIARY_CONVERTER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 1564,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.1321193606193206e-07
+            },
+            {
+              "object": "CLASS_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 5,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.272247857607133e-05
+            },
+            {
+              "object": "RAILWAY_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "DESTINATION_BOARD_text.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "CLASS_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 5,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.272247857607133e-05
+            },
+            {
+              "object": "RAILWAY_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "DESTINATION_BOARD_text.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "CAPACITY_marking",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CAPACITY_marking.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CAPACITY_marking.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CAPACITY_marking.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "ELECTRICAL_panel_label",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "ELECTRICAL_panel_label.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "SALOON_class_plaque",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.008503218959409e-06
+            },
+            {
+              "object": "SALOON_class_plaque.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.008503218959409e-06
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "name": "evaluated_fabricated_meshes_closed_manifold",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_no_degenerate_or_nonfinite_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_consistent_winding",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "no_external_image_or_linked_library_dependencies",
+        "status": "pass",
+        "details": {
+          "image_paths": [],
+          "libraries": []
+        }
+      }
+    ],
+    "assumptions_and_limits": [
+      "Source geometry is representative authoring geometry, not manufacturer CAD or dimensional certification.",
+      "Physical passenger/berth markers are not gameplay capacity or native TF3 runtime validation.",
+      "PAX support uses actual cushion footprints and hip datum; full posed-character collisions, reach, comfort and egress are unverified.",
+      "Topology is checked per evaluated component. Solid intersections, self-intersections, normals across separate parts and render appearance are not fully verified.",
+      "Nominal .915 m tread diameter is checked at the actual nominal tread ring; flange envelope is intentionally larger.",
+      "4.039 m crown is the roof skin; seams and non-AC ventilation hoods may protrude above it. Wheel flanges extend below railhead; CBC/handrails extend beyond the nominal body envelope.",
+      "Editable-font cap seams use coincident vertices; text closure is checked after a disposable 0.1 micrometre weld.",
+      "Procedural source materials are not expected to round-trip through FBX; exported alpha fallback is checked instead."
+    ],
+    "embedded_source_module_sha256": {
+      "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+      "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+      "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64",
+      "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+      "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07"
+    },
+    "statistics": {
+      "scene_objects": 7674,
+      "asset_objects": 7665,
+      "asset_mesh_objects": 7431,
+      "asset_font_objects": 62,
+      "asset_empty_objects": 172,
+      "materials": 33
+    },
+    "bounds": {
+      "min_m": [
+        -12.07999992,
+        -1.67999995,
+        -0.02699995
+      ],
+      "max_m": [
+        12.07999992,
+        1.67999995,
+        4.04700041
+      ],
+      "size_m": [
+        24.15999985,
+        3.3599999,
+        4.07400036
+      ]
+    },
+    "envelope_extremes": {
+      "X": {
+        "min": "CBC_REAR_HEAD_MATING_PROFILE",
+        "max": "CBC_FRONT_HEAD_MATING_PROFILE"
+      },
+      "Y": {
+        "min": "ENTRY_handrail",
+        "max": "ENTRY_handrail.004"
+      },
+      "Z": {
+        "min": "WHEEL_FRONT_A_bright_flange_and_tread",
+        "max": "ROOF_longitudinal_seam.003"
+      }
+    },
+    "wheel_measurements": [
+      {
+        "object": "WHEEL_FRONT_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      }
+    ],
+    "brake_disc_measurements": [
+      {
+        "object": "BRAKE_DISC_FRONT_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      }
+    ],
+    "measured_dimensions": {
+      "body_length_m": 23.540000915527344,
+      "body_width_m": 3.240000009536743,
+      "roof_height_m": 4.039000034332275,
+      "floor_height_m": 1.3029999732971191,
+      "bogie_centres_m": 14.899999618530273,
+      "coupling_span_m": 24.0
+    },
+    "PAX_supports": [
+      {
+        "marker": "PAX_01_A_1",
+        "world_m": [
+          -8.17500019,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "marker": "PAX_01_A_2",
+        "world_m": [
+          -8.17500019,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "marker": "PAX_01_B_1",
+        "world_m": [
+          -7.0250001,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "marker": "PAX_01_B_2",
+        "world_m": [
+          -7.0250001,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "marker": "PAX_01_SIDE_-1",
+        "world_m": [
+          -8.18000031,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_0"
+        ]
+      },
+      {
+        "marker": "PAX_01_SIDE_1",
+        "world_m": [
+          -7.01999998,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_0"
+        ]
+      },
+      {
+        "marker": "PAX_02_A_1",
+        "world_m": [
+          -6.2750001,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "marker": "PAX_02_A_2",
+        "world_m": [
+          -6.2750001,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "marker": "PAX_02_B_1",
+        "world_m": [
+          -5.125,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "marker": "PAX_02_B_2",
+        "world_m": [
+          -5.125,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "marker": "PAX_02_SIDE_-1",
+        "world_m": [
+          -6.28000021,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_1"
+        ]
+      },
+      {
+        "marker": "PAX_02_SIDE_1",
+        "world_m": [
+          -5.11999989,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_1"
+        ]
+      },
+      {
+        "marker": "PAX_03_A_1",
+        "world_m": [
+          -4.375,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "marker": "PAX_03_A_2",
+        "world_m": [
+          -4.375,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "marker": "PAX_03_B_1",
+        "world_m": [
+          -3.2249999,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "marker": "PAX_03_B_2",
+        "world_m": [
+          -3.2249999,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "marker": "PAX_03_SIDE_-1",
+        "world_m": [
+          -4.38000011,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_2"
+        ]
+      },
+      {
+        "marker": "PAX_03_SIDE_1",
+        "world_m": [
+          -3.22000003,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_2"
+        ]
+      },
+      {
+        "marker": "PAX_04_A_1",
+        "world_m": [
+          -2.4749999,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "marker": "PAX_04_A_2",
+        "world_m": [
+          -2.4749999,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "marker": "PAX_04_B_1",
+        "world_m": [
+          -1.32500005,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "marker": "PAX_04_B_2",
+        "world_m": [
+          -1.32500005,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "marker": "PAX_04_SIDE_-1",
+        "world_m": [
+          -2.48000002,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_3"
+        ]
+      },
+      {
+        "marker": "PAX_04_SIDE_1",
+        "world_m": [
+          -1.32000005,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_3"
+        ]
+      },
+      {
+        "marker": "PAX_05_A_1",
+        "world_m": [
+          -0.57499999,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "marker": "PAX_05_A_2",
+        "world_m": [
+          -0.57499999,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "marker": "PAX_05_B_1",
+        "world_m": [
+          0.57499999,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "marker": "PAX_05_B_2",
+        "world_m": [
+          0.57499999,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "marker": "PAX_05_SIDE_-1",
+        "world_m": [
+          -0.57999998,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_4"
+        ]
+      },
+      {
+        "marker": "PAX_05_SIDE_1",
+        "world_m": [
+          0.57999998,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_4"
+        ]
+      },
+      {
+        "marker": "PAX_06_A_1",
+        "world_m": [
+          1.32500005,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "marker": "PAX_06_A_2",
+        "world_m": [
+          1.32500005,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "marker": "PAX_06_B_1",
+        "world_m": [
+          2.4749999,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "marker": "PAX_06_B_2",
+        "world_m": [
+          2.4749999,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "marker": "PAX_06_SIDE_-1",
+        "world_m": [
+          1.32000005,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_5"
+        ]
+      },
+      {
+        "marker": "PAX_06_SIDE_1",
+        "world_m": [
+          2.48000002,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_5"
+        ]
+      },
+      {
+        "marker": "PAX_07_A_1",
+        "world_m": [
+          3.2249999,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "marker": "PAX_07_A_2",
+        "world_m": [
+          3.2249999,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "marker": "PAX_07_B_1",
+        "world_m": [
+          4.375,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "marker": "PAX_07_B_2",
+        "world_m": [
+          4.375,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "marker": "PAX_07_SIDE_-1",
+        "world_m": [
+          3.22000003,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_6"
+        ]
+      },
+      {
+        "marker": "PAX_07_SIDE_1",
+        "world_m": [
+          4.38000011,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_6"
+        ]
+      },
+      {
+        "marker": "PAX_08_A_1",
+        "world_m": [
+          5.125,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "marker": "PAX_08_A_2",
+        "world_m": [
+          5.125,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "marker": "PAX_08_B_1",
+        "world_m": [
+          6.2750001,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "marker": "PAX_08_B_2",
+        "world_m": [
+          6.2750001,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "marker": "PAX_08_SIDE_-1",
+        "world_m": [
+          5.11999989,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_7"
+        ]
+      },
+      {
+        "marker": "PAX_08_SIDE_1",
+        "world_m": [
+          6.28000021,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_7"
+        ]
+      },
+      {
+        "marker": "PAX_09_A_1",
+        "world_m": [
+          7.35500002,
+          -0.99000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_09_A"
+        ]
+      },
+      {
+        "marker": "PAX_09_A_2",
+        "world_m": [
+          7.35500002,
+          0.02,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_09_A"
+        ]
+      },
+      {
+        "marker": "PAX_09_SIDE_-1",
+        "world_m": [
+          7.3499999,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_8"
+        ]
+      },
+      {
+        "marker": "PAX_09_SIDE_1",
+        "world_m": [
+          8.51000023,
+          1.24000001,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "SIDE_LOWER_8"
+        ]
+      }
+    ],
+    "furniture_floor_supports": [
+      {
+        "object": "LOWER_support",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.001",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.002",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.003",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.004",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.005",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.006",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.007",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.008",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.009",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.010",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.011",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.012",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.013",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.014",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.015",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.016",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.017",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.018",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.019",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.020",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.021",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.022",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.023",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.024",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.025",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.026",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.027",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.028",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.029",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.030",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.031",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.032",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_09_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.033",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_09_A"
+        ]
+      }
+    ],
+    "BERTH_type_counts": {
+      "LOWER": 17,
+      "UPPER": 17,
+      "SIDE_LOWER": 9,
+      "SIDE_UPPER": 9
+    },
+    "BERTH_supports": [
+      {
+        "marker": "BERTH_01_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_01_A"
+        ],
+        "world_m": [
+          -8.23999977,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_01_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_01_A"
+        ],
+        "world_m": [
+          -8.23999977,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_01_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_01_B"
+        ],
+        "world_m": [
+          -6.96000004,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_01_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_01_B"
+        ],
+        "world_m": [
+          -6.96000004,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_01_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_0"
+        ],
+        "world_m": [
+          -7.5999999,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_01_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_0"
+        ],
+        "world_m": [
+          -7.5999999,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_02_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_02_A"
+        ],
+        "world_m": [
+          -6.34000015,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_02_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_02_A"
+        ],
+        "world_m": [
+          -6.34000015,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_02_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_02_B"
+        ],
+        "world_m": [
+          -5.05999994,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_02_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_02_B"
+        ],
+        "world_m": [
+          -5.05999994,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_02_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_1"
+        ],
+        "world_m": [
+          -5.69999981,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_02_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_1"
+        ],
+        "world_m": [
+          -5.69999981,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_03_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_03_A"
+        ],
+        "world_m": [
+          -4.44000006,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_03_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_03_A"
+        ],
+        "world_m": [
+          -4.44000006,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_03_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_03_B"
+        ],
+        "world_m": [
+          -3.16000009,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_03_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_03_B"
+        ],
+        "world_m": [
+          -3.16000009,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_03_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_2"
+        ],
+        "world_m": [
+          -3.79999995,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_03_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_2"
+        ],
+        "world_m": [
+          -3.79999995,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_04_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_04_A"
+        ],
+        "world_m": [
+          -2.53999996,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_04_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_04_A"
+        ],
+        "world_m": [
+          -2.53999996,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_04_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_04_B"
+        ],
+        "world_m": [
+          -1.25999999,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_04_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_04_B"
+        ],
+        "world_m": [
+          -1.25999999,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_04_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_3"
+        ],
+        "world_m": [
+          -1.89999998,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_04_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_3"
+        ],
+        "world_m": [
+          -1.89999998,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_05_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_05_A"
+        ],
+        "world_m": [
+          -0.63999999,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_05_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_05_A"
+        ],
+        "world_m": [
+          -0.63999999,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_05_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_05_B"
+        ],
+        "world_m": [
+          0.63999999,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_05_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_05_B"
+        ],
+        "world_m": [
+          0.63999999,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_05_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_4"
+        ],
+        "world_m": [
+          0.0,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_05_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_4"
+        ],
+        "world_m": [
+          0.0,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_06_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_06_A"
+        ],
+        "world_m": [
+          1.25999999,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_06_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_06_A"
+        ],
+        "world_m": [
+          1.25999999,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_06_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_06_B"
+        ],
+        "world_m": [
+          2.53999996,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_06_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_06_B"
+        ],
+        "world_m": [
+          2.53999996,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_06_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_5"
+        ],
+        "world_m": [
+          1.89999998,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_06_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_5"
+        ],
+        "world_m": [
+          1.89999998,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_07_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_07_A"
+        ],
+        "world_m": [
+          3.16000009,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_07_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_07_A"
+        ],
+        "world_m": [
+          3.16000009,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_07_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_07_B"
+        ],
+        "world_m": [
+          4.44000006,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_07_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_07_B"
+        ],
+        "world_m": [
+          4.44000006,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_07_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_6"
+        ],
+        "world_m": [
+          3.79999995,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_07_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_6"
+        ],
+        "world_m": [
+          3.79999995,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_08_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_08_A"
+        ],
+        "world_m": [
+          5.05999994,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_08_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_08_A"
+        ],
+        "world_m": [
+          5.05999994,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_08_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_08_B"
+        ],
+        "world_m": [
+          6.34000015,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_08_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_08_B"
+        ],
+        "world_m": [
+          6.34000015,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_08_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_7"
+        ],
+        "world_m": [
+          5.69999981,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_08_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_7"
+        ],
+        "world_m": [
+          5.69999981,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_09_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_09_A"
+        ],
+        "world_m": [
+          7.28999996,
+          -0.56,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_09_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_09_A"
+        ],
+        "world_m": [
+          7.28999996,
+          -0.56,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_09_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_8"
+        ],
+        "world_m": [
+          7.92999983,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_09_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_8"
+        ],
+        "world_m": [
+          7.92999983,
+          1.24000001,
+          3.1400001
+        ]
+      }
+    ],
+    "fixture_measurements": [
+      {
+        "object": "VESTIBULE_washbasin",
+        "bounds_m": [
+          [
+            -10.52000046,
+            0.51300001,
+            1.89999998
+          ],
+          [
+            -10.10000038,
+            0.80700004,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          -10.31000042,
+          0.66000003,
+          1.97999996
+        ]
+      },
+      {
+        "object": "WC_pedestal",
+        "bounds_m": [
+          [
+            -11.4289999,
+            -1.25089991,
+            1.36000001
+          ],
+          [
+            -10.83100033,
+            -0.86909997,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          -1.05999994,
+          1.56999999
+        ]
+      },
+      {
+        "object": "WC_squat_bowl",
+        "bounds_m": [
+          [
+            -11.42249966,
+            0.93909997,
+            1.27499998
+          ],
+          [
+            -10.83750057,
+            1.18089998,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          1.05999997,
+          1.34549999
+        ]
+      },
+      {
+        "object": "VESTIBULE_washbasin.001",
+        "bounds_m": [
+          [
+            10.10000038,
+            0.51300001,
+            1.89999998
+          ],
+          [
+            10.52000046,
+            0.80700004,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          10.31000042,
+          0.66000003,
+          1.97999996
+        ]
+      },
+      {
+        "object": "WC_squat_bowl.001",
+        "bounds_m": [
+          [
+            10.83750057,
+            -1.18089998,
+            1.27499998
+          ],
+          [
+            11.42249966,
+            -0.93909997,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          -1.05999997,
+          1.34549999
+        ]
+      },
+      {
+        "object": "WC_pedestal.001",
+        "bounds_m": [
+          [
+            10.83100033,
+            0.86909997,
+            1.36000001
+          ],
+          [
+            11.4289999,
+            1.25089991,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          1.05999994,
+          1.56999999
+        ]
+      }
+    ],
+    "non_unit_scale_objects": [
+      "VESTIBULE_washbasin",
+      "WC_pedestal",
+      "WC_squat_bowl",
+      "VESTIBULE_washbasin.001",
+      "WC_squat_bowl.001",
+      "WC_pedestal.001"
+    ],
+    "topology": {
+      "evaluated_totals": {
+        "vertices": 388934,
+        "edges": 734686,
+        "polygons": 361389,
+        "triangles": 746608,
+        "closed_fabricated_components_checked": 7431,
+        "text_objects_checked": 62,
+        "text_seam_edges_before_weld": 25276
+      },
+      "issues": [
+        {
+          "object": "BATTERY_BOX_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 732,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 6.009657374434479e-08
+        },
+        {
+          "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 1021,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "EOG_TRANSFORMER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 840,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 5.248317498170694e-08
+        },
+        {
+          "object": "AC_AUXILIARY_CONVERTER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 1564,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.1321193606193206e-07
+        },
+        {
+          "object": "CLASS_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 5,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.272247857607133e-05
+        },
+        {
+          "object": "RAILWAY_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "DESTINATION_BOARD_text.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "CLASS_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 5,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.272247857607133e-05
+        },
+        {
+          "object": "RAILWAY_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "DESTINATION_BOARD_text.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "CAPACITY_marking",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CAPACITY_marking.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CAPACITY_marking.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CAPACITY_marking.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "ELECTRICAL_panel_label",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "ELECTRICAL_panel_label.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "SALOON_class_plaque",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.008503218959409e-06
+        },
+        {
+          "object": "SALOON_class_plaque.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.008503218959409e-06
+        }
+      ],
+      "intentional_source_sheets_closed_by_solidify": [
+        "WINDOW_pleated_curtain",
+        "WINDOW_pleated_curtain.001",
+        "WINDOW_pleated_curtain.002",
+        "WINDOW_pleated_curtain.003",
+        "WINDOW_pleated_curtain.004",
+        "WINDOW_pleated_curtain.005",
+        "WINDOW_pleated_curtain.006",
+        "WINDOW_pleated_curtain.007",
+        "WINDOW_pleated_curtain.008",
+        "WINDOW_pleated_curtain.009",
+        "WINDOW_pleated_curtain.010",
+        "WINDOW_pleated_curtain.011",
+        "WINDOW_pleated_curtain.012",
+        "WINDOW_pleated_curtain.013",
+        "WINDOW_pleated_curtain.014",
+        "WINDOW_pleated_curtain.015",
+        "WINDOW_pleated_curtain.016",
+        "WINDOW_pleated_curtain.017",
+        "WINDOW_pleated_curtain.018",
+        "WINDOW_pleated_curtain.019",
+        "WINDOW_pleated_curtain.020",
+        "WINDOW_pleated_curtain.021",
+        "WINDOW_pleated_curtain.022",
+        "WINDOW_pleated_curtain.023",
+        "WINDOW_pleated_curtain.024",
+        "WINDOW_pleated_curtain.025",
+        "WINDOW_pleated_curtain.026",
+        "WINDOW_pleated_curtain.027",
+        "WINDOW_pleated_curtain.028",
+        "WINDOW_pleated_curtain.029",
+        "WINDOW_pleated_curtain.030",
+        "WINDOW_pleated_curtain.031",
+        "WINDOW_pleated_curtain.032",
+        "WINDOW_pleated_curtain.033",
+        "WINDOW_pleated_curtain.034",
+        "WINDOW_pleated_curtain.035",
+        "BAY_privacy_curtain",
+        "BAY_privacy_curtain.001",
+        "BAY_privacy_curtain.002",
+        "BAY_privacy_curtain.003",
+        "BAY_privacy_curtain.004",
+        "BAY_privacy_curtain.005",
+        "BAY_privacy_curtain.006",
+        "BAY_privacy_curtain.007",
+        "BAY_privacy_curtain.008"
+      ]
+    },
+    "elapsed_seconds": 1.53,
+    "status": "pass_with_warnings"
+  },
+  "sha256": {
+    "blend": "f9e542faa086643f45d7efc1d981327125463bb9778ec33825c18941319402ff",
+    "manifest": "89f138a924e26d442a0a5f8864c94cb6a96ac78ac1c9e837ecb22306c1e2b6ee",
+    "markers": "7180b01ef367e3e5d6e2bfbf00bc7b980ec7ae8bba71b8fa545c157e18977fba",
+    "fbx": "1a7f0073813e4673d972ec1b36fdaf4b665d13ebf915985580b0aa05a9ab200a"
+  },
+  "manifest": {
+    "source_module_sha256": {
+      "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+      "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07",
+      "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+      "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+      "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64"
+    },
+    "variant": "2A",
+    "prototype_code": "LWACCW",
+    "physical_capacity": 52,
+    "capacity_type": "berths",
+    "daytime_seats": 52,
+    "PAX_roots": 52,
+    "BERTH_references": 52,
+    "layout": "8 full six-berth bays + four-berth end bay",
+    "game_capacity": null,
+    "root": "LHB_2A_ROOT_metres",
+    "body_length_m": 23.54,
+    "coupling_span_m": 24.0,
+    "body_width_m": 3.24,
+    "roof_height_m": 4.039,
+    "bogie_centres_m": 14.9,
+    "bogie_wheelbase_m": 2.56,
+    "wheel_tread_diameter_m": 0.915,
+    "floor_height_m": 1.303,
+    "seat_cushion_top_z_m": 1.84,
+    "seat_character_root_z_m": 1.3570000000000002,
+    "glass_source_transmission": 0.96,
+    "glass_fbx_alpha": 0.22,
+    "native_TF3_conversion": false,
+    "runtime_tested": false
+  },
+  "fbx": {
+    "variant": "2A",
+    "stage": "fbx",
+    "checks": [
+      {
+        "name": "asset_root_present",
+        "status": "pass"
+      },
+      {
+        "name": "embedded_build_hashes_match_current_modules",
+        "status": "pass",
+        "details": {
+          "embedded": {
+            "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+            "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+            "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07"
+          },
+          "current": {
+            "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+            "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07",
+            "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64"
+          }
+        }
+      },
+      {
+        "name": "finite_transforms",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "root_identity",
+        "status": "pass",
+        "details": [
+          [
+            1.0,
+            1.6e-07,
+            0.0,
+            0.0
+          ],
+          [
+            -1.6e-07,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "body_parent_and_identity",
+        "status": "pass"
+      },
+      {
+        "name": "all_geometry_owned_by_asset_root",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "presentation_excluded_from_asset_hierarchy",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "scene_units_metres",
+        "status": "pass",
+        "details": {
+          "unit_system": "METRIC",
+          "scale_length": 1.0
+        }
+      },
+      {
+        "name": "root_capacity_metadata",
+        "status": "pass"
+      },
+      {
+        "name": "native_runtime_claims_false",
+        "status": "pass"
+      },
+      {
+        "name": "whole_asset_reasonable_envelope",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "dimension_body_length_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 23.54,
+          "actual_m": 23.540000915527344,
+          "object": "UNDERFRAME_main"
+        }
+      },
+      {
+        "name": "dimension_body_width_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 3.24,
+          "actual_m": 3.240003824234009,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_roof_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 4.039,
+          "actual_m": 4.039000034332275,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_floor_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 1.303,
+          "actual_m": 1.3029999732971191,
+          "object": "INTERIOR_floor"
+        }
+      },
+      {
+        "name": "two_bogies_four_axles_eight_wheels_eight_discs",
+        "status": "pass",
+        "details": {
+          "bogies": 2,
+          "axles": 4,
+          "wheels": 8,
+          "brake_discs": 8
+        }
+      },
+      {
+        "name": "dimension_bogie_centres",
+        "status": "pass",
+        "details": 14.899999618530273
+      },
+      {
+        "name": "running_gear_geometry_and_parenting",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "coupling_anchor_contract",
+        "status": "pass",
+        "details": {
+          "span_m": 24.0,
+          "anchors": {
+            "COUPLING_FRONT": [
+              12.0,
+              -1.96e-06,
+              1.10500002
+            ],
+            "COUPLING_REAR": [
+              -12.0,
+              1.96e-06,
+              1.10500002
+            ]
+          }
+        }
+      },
+      {
+        "name": "PAX_count",
+        "status": "pass",
+        "details": {
+          "expected": 52,
+          "actual": 52
+        }
+      },
+      {
+        "name": "BERTH_count",
+        "status": "pass",
+        "details": {
+          "expected": 52,
+          "actual": 52
+        }
+      },
+      {
+        "name": "marker_root_metadata_consistent",
+        "status": "pass"
+      },
+      {
+        "name": "PAX_seated_pose_and_single_lower_cushion_support",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_unique_positions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_torso_clear_of_fixed_partitions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "furniture_legs_meet_floor_and_lower_seat_structure",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_references_match_lower_upper_or_stowed_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_class_type_distribution",
+        "status": "pass",
+        "details": {
+          "expected": {
+            "LOWER": 17,
+            "UPPER": 17,
+            "SIDE_LOWER": 9,
+            "SIDE_UPPER": 9
+          },
+          "actual": {
+            "LOWER": 17,
+            "UPPER": 17,
+            "SIDE_LOWER": 9,
+            "SIDE_UPPER": 9
+          }
+        }
+      },
+      {
+        "name": "lavatory_and_basin_actual_placement",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "lavatory_count",
+        "status": "pass",
+        "details": {
+          "expected": 4,
+          "actual": 4
+        }
+      },
+      {
+        "name": "rounded_window_centres_are_actual_through_apertures",
+        "status": "pass",
+        "details": {
+          "apertures_checked": 22,
+          "blocked": []
+        }
+      },
+      {
+        "name": "separate_glazing_geometry_exists",
+        "status": "pass",
+        "details": {
+          "objects": 26
+        }
+      },
+      {
+        "name": "fbx_glass_alpha_fallback",
+        "status": "pass",
+        "details": {
+          "alpha": 0.2199999988079071,
+          "transmission": 0.0
+        }
+      },
+      {
+        "name": "no_negative_scale",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "editable_text_tessellation_clean",
+        "status": "warning",
+        "details": {
+          "count": 24,
+          "examples": [
+            {
+              "object": "CAPACITY_marking",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CAPACITY_marking.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CAPACITY_marking.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CAPACITY_marking.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 403,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.7288890181708107e-06
+            },
+            {
+              "object": "CLASS_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 5,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.272247857607133e-05
+            },
+            {
+              "object": "CLASS_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 5,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 3.272247857607133e-05
+            },
+            {
+              "object": "DESTINATION_BOARD_text",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "ELECTRICAL_panel_label",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "ELECTRICAL_panel_label.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "RAILWAY_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "RAILWAY_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SAFETY_stencil.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SAFETY_stencil.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SAFETY_stencil.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SALOON_class_plaque",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.008503218959409e-06
+            },
+            {
+              "object": "SALOON_class_plaque.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 318,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.008503218959409e-06
+            },
+            {
+              "object": "AC_AUXILIARY_CONVERTER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 1564,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.1321193606193206e-07
+            },
+            {
+              "object": "BATTERY_BOX_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 732,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 6.009657374434479e-08
+            },
+            {
+              "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 1021,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "EOG_TRANSFORMER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 840,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 5.248317498170694e-08
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "name": "evaluated_fabricated_meshes_closed_manifold",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_no_degenerate_or_nonfinite_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_consistent_winding",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "no_external_image_or_linked_library_dependencies",
+        "status": "pass",
+        "details": {
+          "image_paths": [],
+          "libraries": []
+        }
+      },
+      {
+        "name": "fbx_preserves_asset_names_and_membership",
+        "status": "pass",
+        "details": {
+          "missing": [],
+          "unexpected": []
+        }
+      },
+      {
+        "name": "fbx_preserves_geometry_bounds_and_hierarchy",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fbx_excludes_all_presentation_objects",
+        "status": "pass"
+      }
+    ],
+    "assumptions_and_limits": [
+      "Source geometry is representative authoring geometry, not manufacturer CAD or dimensional certification.",
+      "Physical passenger/berth markers are not gameplay capacity or native TF3 runtime validation.",
+      "PAX support uses actual cushion footprints and hip datum; full posed-character collisions, reach, comfort and egress are unverified.",
+      "Topology is checked per evaluated component. Solid intersections, self-intersections, normals across separate parts and render appearance are not fully verified.",
+      "Nominal .915 m tread diameter is checked at the actual nominal tread ring; flange envelope is intentionally larger.",
+      "4.039 m crown is the roof skin; seams and non-AC ventilation hoods may protrude above it. Wheel flanges extend below railhead; CBC/handrails extend beyond the nominal body envelope.",
+      "Editable-font cap seams use coincident vertices; text closure is checked after a disposable 0.1 micrometre weld.",
+      "Procedural source materials are not expected to round-trip through FBX; exported alpha fallback is checked instead."
+    ],
+    "embedded_source_module_sha256": {
+      "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+      "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+      "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64",
+      "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+      "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07"
+    },
+    "statistics": {
+      "scene_objects": 7665,
+      "asset_objects": 7665,
+      "asset_mesh_objects": 7493,
+      "asset_font_objects": 0,
+      "asset_empty_objects": 172,
+      "materials": 33
+    },
+    "bounds": {
+      "min_m": [
+        -12.07999992,
+        -1.68000174,
+        -0.02699995
+      ],
+      "max_m": [
+        12.07999992,
+        1.68000174,
+        4.04700041
+      ],
+      "size_m": [
+        24.15999985,
+        3.36000347,
+        4.07400036
+      ]
+    },
+    "envelope_extremes": {
+      "X": {
+        "min": "CBC_REAR_HEAD_MATING_PROFILE",
+        "max": "CBC_FRONT_HEAD_MATING_PROFILE"
+      },
+      "Y": {
+        "min": "ENTRY_handrail.003",
+        "max": "ENTRY_handrail.004"
+      },
+      "Z": {
+        "min": "WHEEL_FRONT_A_bright_flange_and_tread",
+        "max": "ROOF_longitudinal_seam.003"
+      }
+    },
+    "wheel_measurements": [
+      {
+        "object": "WHEEL_FRONT_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      }
+    ],
+    "brake_disc_measurements": [
+      {
+        "object": "BRAKE_DISC_FRONT_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      }
+    ],
+    "measured_dimensions": {
+      "body_length_m": 23.540000915527344,
+      "body_width_m": 3.240003824234009,
+      "roof_height_m": 4.039000034332275,
+      "floor_height_m": 1.3029999732971191,
+      "bogie_centres_m": 14.899999618530273,
+      "coupling_span_m": 24.0
+    },
+    "PAX_supports": [
+      {
+        "marker": "PAX_01_A_1",
+        "world_m": [
+          -8.17500019,
+          -0.9899987,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "marker": "PAX_01_A_2",
+        "world_m": [
+          -8.17500019,
+          0.02000133,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "marker": "PAX_01_B_1",
+        "world_m": [
+          -7.0250001,
+          -0.98999888,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "marker": "PAX_01_B_2",
+        "world_m": [
+          -7.0250001,
+          0.02000114,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "marker": "PAX_01_SIDE_-1",
+        "world_m": [
+          -8.18000031,
+          1.24000132,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_0"
+        ]
+      },
+      {
+        "marker": "PAX_01_SIDE_1",
+        "world_m": [
+          -7.01999998,
+          1.2400012,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_0"
+        ]
+      },
+      {
+        "marker": "PAX_02_A_1",
+        "world_m": [
+          -6.2750001,
+          -0.989999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "marker": "PAX_02_A_2",
+        "world_m": [
+          -6.2750001,
+          0.02000102,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "marker": "PAX_02_B_1",
+        "world_m": [
+          -5.125,
+          -0.98999918,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "marker": "PAX_02_B_2",
+        "world_m": [
+          -5.125,
+          0.02000083,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "marker": "PAX_02_SIDE_-1",
+        "world_m": [
+          -6.28000021,
+          1.24000108,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_1"
+        ]
+      },
+      {
+        "marker": "PAX_02_SIDE_1",
+        "world_m": [
+          -5.11999989,
+          1.24000084,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_1"
+        ]
+      },
+      {
+        "marker": "PAX_03_A_1",
+        "world_m": [
+          -4.375,
+          -0.98999929,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "marker": "PAX_03_A_2",
+        "world_m": [
+          -4.375,
+          0.02000071,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "marker": "PAX_03_B_1",
+        "world_m": [
+          -3.22500014,
+          -0.98999947,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "marker": "PAX_03_B_2",
+        "world_m": [
+          -3.2249999,
+          0.02000052,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "marker": "PAX_03_SIDE_-1",
+        "world_m": [
+          -4.38000011,
+          1.24000072,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_2"
+        ]
+      },
+      {
+        "marker": "PAX_03_SIDE_1",
+        "world_m": [
+          -3.21999979,
+          1.24000049,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_2"
+        ]
+      },
+      {
+        "marker": "PAX_04_A_1",
+        "world_m": [
+          -2.47500014,
+          -0.98999959,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "marker": "PAX_04_A_2",
+        "world_m": [
+          -2.4749999,
+          0.0200004,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "marker": "PAX_04_B_1",
+        "world_m": [
+          -1.32500017,
+          -0.98999977,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "marker": "PAX_04_B_2",
+        "world_m": [
+          -1.32500005,
+          0.02000022,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "marker": "PAX_04_SIDE_-1",
+        "world_m": [
+          -2.47999978,
+          1.24000037,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_3"
+        ]
+      },
+      {
+        "marker": "PAX_04_SIDE_1",
+        "world_m": [
+          -1.31999981,
+          1.24000025,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_3"
+        ]
+      },
+      {
+        "marker": "PAX_05_A_1",
+        "world_m": [
+          -0.57500017,
+          -0.98999989,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "marker": "PAX_05_A_2",
+        "world_m": [
+          -0.57499999,
+          0.02000009,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "marker": "PAX_05_B_1",
+        "world_m": [
+          0.57499981,
+          -0.99000013,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "marker": "PAX_05_B_2",
+        "world_m": [
+          0.57499999,
+          0.01999991,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "marker": "PAX_05_SIDE_-1",
+        "world_m": [
+          -0.5799998,
+          1.24000013,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_4"
+        ]
+      },
+      {
+        "marker": "PAX_05_SIDE_1",
+        "world_m": [
+          0.58000016,
+          1.23999989,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_4"
+        ]
+      },
+      {
+        "marker": "PAX_06_A_1",
+        "world_m": [
+          1.32499993,
+          -0.99000025,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "marker": "PAX_06_A_2",
+        "world_m": [
+          1.32500005,
+          0.01999978,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "marker": "PAX_06_B_1",
+        "world_m": [
+          2.47499967,
+          -0.99000043,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "marker": "PAX_06_B_2",
+        "world_m": [
+          2.4749999,
+          0.0199996,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "marker": "PAX_06_SIDE_-1",
+        "world_m": [
+          1.32000029,
+          1.23999977,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_5"
+        ]
+      },
+      {
+        "marker": "PAX_06_SIDE_1",
+        "world_m": [
+          2.48000026,
+          1.23999965,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_5"
+        ]
+      },
+      {
+        "marker": "PAX_07_A_1",
+        "world_m": [
+          3.22499967,
+          -0.99000055,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "marker": "PAX_07_A_2",
+        "world_m": [
+          3.2249999,
+          0.01999947,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "marker": "PAX_07_B_1",
+        "world_m": [
+          4.375,
+          -0.99000072,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "marker": "PAX_07_B_2",
+        "world_m": [
+          4.375,
+          0.01999929,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "marker": "PAX_07_SIDE_-1",
+        "world_m": [
+          3.22000027,
+          1.23999953,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_6"
+        ]
+      },
+      {
+        "marker": "PAX_07_SIDE_1",
+        "world_m": [
+          4.38000011,
+          1.23999929,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_6"
+        ]
+      },
+      {
+        "marker": "PAX_08_A_1",
+        "world_m": [
+          5.125,
+          -0.99000084,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "marker": "PAX_08_A_2",
+        "world_m": [
+          5.125,
+          0.01999917,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "marker": "PAX_08_B_1",
+        "world_m": [
+          6.2750001,
+          -0.99000102,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "marker": "PAX_08_B_2",
+        "world_m": [
+          6.2750001,
+          0.01999898,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "marker": "PAX_08_SIDE_-1",
+        "world_m": [
+          5.11999989,
+          1.23999918,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_7"
+        ]
+      },
+      {
+        "marker": "PAX_08_SIDE_1",
+        "world_m": [
+          6.28000021,
+          1.23999894,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_7"
+        ]
+      },
+      {
+        "marker": "PAX_09_A_1",
+        "world_m": [
+          7.35500002,
+          -0.9900012,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_09_A"
+        ]
+      },
+      {
+        "marker": "PAX_09_A_2",
+        "world_m": [
+          7.35500002,
+          0.0199988,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "MAIN_LOWER_09_A"
+        ]
+      },
+      {
+        "marker": "PAX_09_SIDE_-1",
+        "world_m": [
+          7.3499999,
+          1.23999882,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "SIDE_LOWER_8"
+        ]
+      },
+      {
+        "marker": "PAX_09_SIDE_1",
+        "world_m": [
+          8.51000023,
+          1.23999858,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "SIDE_LOWER_8"
+        ]
+      }
+    ],
+    "furniture_floor_supports": [
+      {
+        "object": "LOWER_support",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.001",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.002",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.003",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_01_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.004",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.005",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.006",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.007",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_02_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.008",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.009",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.010",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.011",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_03_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.012",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.013",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.014",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.015",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_04_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.016",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.017",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.018",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.019",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_05_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.020",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.021",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.022",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.023",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_06_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.024",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.025",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.026",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.027",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_07_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.028",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.029",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.030",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.031",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_08_B"
+        ]
+      },
+      {
+        "object": "LOWER_support.032",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_09_A"
+        ]
+      },
+      {
+        "object": "LOWER_support.033",
+        "floor_gap_m": 0.01199994,
+        "supported_cushions": [
+          "MAIN_LOWER_09_A"
+        ]
+      }
+    ],
+    "BERTH_type_counts": {
+      "LOWER": 17,
+      "UPPER": 17,
+      "SIDE_LOWER": 9,
+      "SIDE_UPPER": 9
+    },
+    "BERTH_supports": [
+      {
+        "marker": "BERTH_01_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_01_A"
+        ],
+        "world_m": [
+          -8.23999977,
+          -0.55999863,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_01_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_01_A"
+        ],
+        "world_m": [
+          -8.23999977,
+          -0.55999863,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_01_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_01_B"
+        ],
+        "world_m": [
+          -6.96000004,
+          -0.55999887,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_01_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_01_B"
+        ],
+        "world_m": [
+          -6.96000004,
+          -0.55999887,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_01_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_0"
+        ],
+        "world_m": [
+          -7.5999999,
+          1.2400012,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_01_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_0"
+        ],
+        "world_m": [
+          -7.5999999,
+          1.2400012,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_02_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_02_A"
+        ],
+        "world_m": [
+          -6.34000015,
+          -0.55999899,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_02_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_02_A"
+        ],
+        "world_m": [
+          -6.34000015,
+          -0.55999899,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_02_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_02_B"
+        ],
+        "world_m": [
+          -5.05999994,
+          -0.55999917,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_02_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_02_B"
+        ],
+        "world_m": [
+          -5.05999994,
+          -0.55999917,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_02_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_1"
+        ],
+        "world_m": [
+          -5.69999981,
+          1.24000096,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_02_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_1"
+        ],
+        "world_m": [
+          -5.69999981,
+          1.24000096,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_03_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_03_A"
+        ],
+        "world_m": [
+          -4.44000006,
+          -0.55999929,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_03_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_03_A"
+        ],
+        "world_m": [
+          -4.44000006,
+          -0.55999929,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_03_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_03_B"
+        ],
+        "world_m": [
+          -3.16000009,
+          -0.55999947,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_03_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_03_B"
+        ],
+        "world_m": [
+          -3.16000009,
+          -0.55999947,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_03_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_2"
+        ],
+        "world_m": [
+          -3.79999971,
+          1.24000061,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_03_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_2"
+        ],
+        "world_m": [
+          -3.79999971,
+          1.24000061,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_04_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_04_A"
+        ],
+        "world_m": [
+          -2.53999996,
+          -0.55999959,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_04_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_04_A"
+        ],
+        "world_m": [
+          -2.53999996,
+          -0.55999959,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_04_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_04_B"
+        ],
+        "world_m": [
+          -1.26000011,
+          -0.55999982,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_04_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_04_B"
+        ],
+        "world_m": [
+          -1.26000011,
+          -0.55999982,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_04_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_3"
+        ],
+        "world_m": [
+          -1.89999974,
+          1.24000037,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_04_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_3"
+        ],
+        "world_m": [
+          -1.89999974,
+          1.24000037,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_05_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_05_A"
+        ],
+        "world_m": [
+          -0.6400001,
+          -0.55999988,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_05_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_05_A"
+        ],
+        "world_m": [
+          -0.6400001,
+          -0.55999988,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_05_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_05_B"
+        ],
+        "world_m": [
+          0.63999987,
+          -0.56000012,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_05_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_05_B"
+        ],
+        "world_m": [
+          0.63999987,
+          -0.56000012,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_05_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_4"
+        ],
+        "world_m": [
+          2e-07,
+          1.24000001,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_05_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_4"
+        ],
+        "world_m": [
+          2e-07,
+          1.24000001,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_06_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_06_A"
+        ],
+        "world_m": [
+          1.25999987,
+          -0.56000018,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_06_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_06_A"
+        ],
+        "world_m": [
+          1.25999987,
+          -0.56000018,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_06_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_06_B"
+        ],
+        "world_m": [
+          2.53999996,
+          -0.56000042,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_06_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_06_B"
+        ],
+        "world_m": [
+          2.53999996,
+          -0.56000042,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_06_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_5"
+        ],
+        "world_m": [
+          1.90000021,
+          1.23999965,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_06_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_5"
+        ],
+        "world_m": [
+          1.90000021,
+          1.23999965,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_07_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_07_A"
+        ],
+        "world_m": [
+          3.16000009,
+          -0.56000054,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_07_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_07_A"
+        ],
+        "world_m": [
+          3.16000009,
+          -0.56000054,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_07_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_07_B"
+        ],
+        "world_m": [
+          4.44000006,
+          -0.56000072,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_07_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_07_B"
+        ],
+        "world_m": [
+          4.44000006,
+          -0.56000072,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_07_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_6"
+        ],
+        "world_m": [
+          3.80000019,
+          1.23999941,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_07_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_6"
+        ],
+        "world_m": [
+          3.80000019,
+          1.23999941,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_08_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_08_A"
+        ],
+        "world_m": [
+          5.05999994,
+          -0.56000084,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_08_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_08_A"
+        ],
+        "world_m": [
+          5.05999994,
+          -0.56000084,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_08_B_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_08_B"
+        ],
+        "world_m": [
+          6.34000015,
+          -0.56000102,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_08_B_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_08_B"
+        ],
+        "world_m": [
+          6.34000015,
+          -0.56000102,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_08_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_7"
+        ],
+        "world_m": [
+          5.69999981,
+          1.23999906,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_08_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_7"
+        ],
+        "world_m": [
+          5.69999981,
+          1.23999906,
+          3.1400001
+        ]
+      },
+      {
+        "marker": "BERTH_09_A_LOWER",
+        "type": "LOWER",
+        "geometry": [
+          "MAIN_LOWER_09_A"
+        ],
+        "world_m": [
+          7.28999996,
+          -0.56000119,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_09_A_UPPER",
+        "type": "UPPER",
+        "geometry": [
+          "MAIN_UPPER_09_A"
+        ],
+        "world_m": [
+          7.28999996,
+          -0.56000119,
+          3.1099999
+        ]
+      },
+      {
+        "marker": "BERTH_09_SIDE_LOWER",
+        "type": "SIDE_LOWER",
+        "geometry": [
+          "SIDE_LOWER_8"
+        ],
+        "world_m": [
+          7.92999983,
+          1.2399987,
+          1.84000003
+        ]
+      },
+      {
+        "marker": "BERTH_09_SIDE_UPPER",
+        "type": "SIDE_UPPER",
+        "geometry": [
+          "SIDE_UPPER_8"
+        ],
+        "world_m": [
+          7.92999983,
+          1.2399987,
+          3.1400001
+        ]
+      }
+    ],
+    "fixture_measurements": [
+      {
+        "object": "VESTIBULE_washbasin",
+        "bounds_m": [
+          [
+            -10.52000046,
+            0.51300168,
+            1.89999998
+          ],
+          [
+            -10.10000038,
+            0.80700171,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          -10.31000042,
+          0.6600017,
+          1.97999996
+        ]
+      },
+      {
+        "object": "VESTIBULE_washbasin.001",
+        "bounds_m": [
+          [
+            10.10000038,
+            0.51299834,
+            1.89999998
+          ],
+          [
+            10.52000046,
+            0.80699837,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          10.31000042,
+          0.65999836,
+          1.97999996
+        ]
+      },
+      {
+        "object": "WC_pedestal",
+        "bounds_m": [
+          [
+            -11.4289999,
+            -1.25089824,
+            1.36000001
+          ],
+          [
+            -10.83100033,
+            -0.86909813,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          -1.05999818,
+          1.56999999
+        ]
+      },
+      {
+        "object": "WC_pedestal.001",
+        "bounds_m": [
+          [
+            10.83100033,
+            0.86909813,
+            1.36000001
+          ],
+          [
+            11.4289999,
+            1.25089824,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          1.05999818,
+          1.56999999
+        ]
+      },
+      {
+        "object": "WC_squat_bowl",
+        "bounds_m": [
+          [
+            -11.42249966,
+            0.9391017,
+            1.27499998
+          ],
+          [
+            -10.83750057,
+            1.18090177,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          1.06000173,
+          1.34549999
+        ]
+      },
+      {
+        "object": "WC_squat_bowl.001",
+        "bounds_m": [
+          [
+            10.83750057,
+            -1.18090177,
+            1.27499998
+          ],
+          [
+            11.42249966,
+            -0.9391017,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          -1.06000173,
+          1.34549999
+        ]
+      }
+    ],
+    "non_unit_scale_objects": [
+      "VESTIBULE_washbasin",
+      "VESTIBULE_washbasin.001",
+      "WC_pedestal",
+      "WC_pedestal.001",
+      "WC_squat_bowl",
+      "WC_squat_bowl.001"
+    ],
+    "topology": {
+      "evaluated_totals": {
+        "vertices": 388934,
+        "edges": 734686,
+        "polygons": 361389,
+        "triangles": 746608,
+        "closed_fabricated_components_checked": 7431,
+        "text_objects_checked": 62,
+        "text_seam_edges_before_weld": 25276
+      },
+      "issues": [
+        {
+          "object": "CAPACITY_marking",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CAPACITY_marking.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CAPACITY_marking.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CAPACITY_marking.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 403,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.7288890181708107e-06
+        },
+        {
+          "object": "CLASS_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 5,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.272247857607133e-05
+        },
+        {
+          "object": "CLASS_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 5,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 3.272247857607133e-05
+        },
+        {
+          "object": "DESTINATION_BOARD_text",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "ELECTRICAL_panel_label",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "ELECTRICAL_panel_label.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "RAILWAY_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "RAILWAY_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SAFETY_stencil.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SAFETY_stencil.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SAFETY_stencil.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SALOON_class_plaque",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.008503218959409e-06
+        },
+        {
+          "object": "SALOON_class_plaque.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 318,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.008503218959409e-06
+        },
+        {
+          "object": "AC_AUXILIARY_CONVERTER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 1564,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.1321193606193206e-07
+        },
+        {
+          "object": "BATTERY_BOX_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 732,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 6.009657374434479e-08
+        },
+        {
+          "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 1021,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "EOG_TRANSFORMER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 840,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 5.248317498170694e-08
+        }
+      ],
+      "intentional_source_sheets_closed_by_solidify": []
+    },
+    "source_comparison": {
+      "missing": [],
+      "unexpected": [],
+      "changed": []
+    },
+    "elapsed_seconds": 1.62,
+    "status": "pass_with_warnings"
+  },
+  "status": "pass_with_warnings"
+}

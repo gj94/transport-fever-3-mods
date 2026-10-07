@@ -2,11 +2,12 @@
 Usage: blender -b -t 2 --python build_lhb_detail.py [-- 1A 2A ...]
 No photographs, external meshes or textures are used in generated assets.
 """
-import bpy, math, os, sys, json, bmesh
+import bpy, math, os, sys, json, bmesh, hashlib
 from mathutils import Vector
 from pathlib import Path
 P=Path(__file__).resolve().parent
 sys.path.insert(0,str(P))
+SOURCE_HASHES={name:hashlib.sha256((P/name).read_bytes()).hexdigest() for name in ['build_lhb_detail.py','lhb_shell.py','lhb_finish_detail.py','lhb_running_gear.py','lhb_identity_detail.py']}
 from lhb_running_gear import build_running_gear
 
 CFG={
@@ -33,14 +34,16 @@ def mesh(n,v,f,m,parent=None,coll=None):
 def box(n,loc,dim,m,bev=0,parent=None,coll=None,yaw=0):
  x,y,z=[q/2 for q in dim];o=mesh(n,[(-x,-y,-z),(-x,-y,z),(-x,y,-z),(-x,y,z),(x,-y,-z),(x,-y,z),(x,y,-z),(x,y,z)],[(0,4,6,2),(1,3,7,5),(0,1,5,4),(2,6,7,3),(0,2,3,1),(4,5,7,6)],m,parent,coll);o.location=loc;o.rotation_euler.z=yaw
  if bev:
-  md=o.modifiers.new('Fabricated edge radius','BEVEL');md.width=bev;md.segments=3;md.harden_normals=True
+  md=o.modifiers.new('Fabricated edge radius','BEVEL');md.width=min(bev,.45*min(dim));md.segments=3;md.harden_normals=True
   wn=o.modifiers.new('Weighted corner normals','WEIGHTED_NORMAL');wn.keep_sharp=True
  return o
 
 def rod(n,a,b,r,m=None,N=10,parent=None,coll=None):
  a=Vector(a);b=Vector(b);d=(b-a).normalized();u=d.cross(Vector((0,0,1)))
  if u.length<.01:u=d.cross(Vector((0,1,0)))
- u.normalize();v=d.cross(u);vs=[tuple(c+r*(u*math.cos(i*math.tau/N)+v*math.sin(i*math.tau/N))) for c in [a,b] for i in range(N)];return mesh(n,vs,[tuple(range(N-1,-1,-1)),tuple(range(N,2*N))]+[(i,(i+1)%N,(i+1)%N+N,i+N) for i in range(N)],m or steel,parent,coll)
+ u.normalize();v=d.cross(u);vs=[tuple(c+r*(u*math.cos(i*math.tau/N)+v*math.sin(i*math.tau/N))) for c in [a,b] for i in range(N)];ob=mesh(n,vs,[tuple(range(N-1,-1,-1)),tuple(range(N,2*N))]+[(i,(i+1)%N,(i+1)%N+N,i+N) for i in range(N)],m or steel,parent,coll)
+ for poly in ob.data.polygons[2:]:poly.use_smooth=True
+ return ob
 
 def text(n,t,loc,size=.13,rot=(math.pi/2,0,0),m=None,coll=None):
  d=bpy.data.curves.new(n,'FONT');d.body=t;d.size=size;d.align_x='CENTER';d.extrude=.0004;d.resolution_u=2;o=bpy.data.objects.new(n,d);(coll or C).objects.link(o);o.parent=body;o.location=loc;o.rotation_euler=rot;d.materials.append(m or white);return o
@@ -78,10 +81,11 @@ def common(k,c):
  def collection(n):q=bpy.data.collections.new(n);C.children.link(q);return q
  inter=collection('INTERIOR_'+k);roof=collection('ROOF_REMOVABLE');glasscoll=collection('GLASS_TRANSMISSIVE');marks=collection('PASSENGER_AND_BERTH_MARKERS')
  root=empty('LHB_'+k+'_ROOT_metres');body=empty('BODY_PIVOT',parent=root)
+ root['source_module_sha256']=json.dumps(SOURCE_HASHES,sort_keys=True)
  root['lavatory_count']=3 if k=='1A' else 4;root['family']='LHB';root['variant']=k;root['prototype_code']=c['code'];root['physical_capacity']=c['capacity'];root['game_capacity']='Unassigned; physical capacity is not game payload';root['provenance']='Original procedural geometry; representative equipment positions; not manufacturer CAD'
  pax=[];berths=[]
- paint=material('Class_livery',c['color'],.12);grey=material('Lower_body_light_grey',(.48,.52,.55),.3);steel=material('Satin_stainless',(.36,.43,.46),.78,.28);rubber=material('Rubber_and_equipment',(.016,.022,.025),.05,.72);ivory=material('Warm_FRP_liners',(.70,.71,.65));blue=material('Upholstery_'+k, (.29,.025,.032) if k=='1A' else ((.04,.16,.24) if k=='CC' else (.045,.14,.28)),0,.63);white=material('Signs_and_diffusers',(.83,.88,.87));floor=material('Non_slip_floor',(.115,.16,.19),0,.85);wood=material('Pale_table_laminate',(.56,.43,.24));edge=material('Upholstery_piping',(.015,.047,.073))
- glass=material('GLASS_source_transmission_FBX_alpha',(.53,.69,.71),0,.10);p=glass.node_tree.nodes.get('Principled BSDF');p.inputs['Transmission Weight'].default_value=.96;p.inputs['IOR'].default_value=1.45;glass['export_note']='FBX material uses Alpha 0.22 fallback; source master uses Transmission .96 Alpha1'
+ paint=material('Class_livery',c['color'],.08,.30);grey=material('Lower_body_light_grey',(.48,.52,.55),.08,.35);steel=material('Satin_stainless',(.36,.43,.46),.78,.28);rubber=material('Rubber_and_equipment',(.016,.022,.025),.05,.72);ivory=material('Warm_FRP_liners',(.70,.71,.65));blue=material('Upholstery_'+k, (.29,.025,.032) if k=='1A' else ((.04,.16,.24) if k=='CC' else (.045,.14,.28)),0,.63);white=material('Signs_and_diffusers',(.83,.88,.87));floor=material('Non_slip_floor',(.115,.16,.19),0,.85);wood=material('Pale_table_laminate',(.56,.43,.24));edge=material('Upholstery_piping',(.015,.047,.073))
+ glass=material('GLASS_source_transmission_FBX_alpha',(.86,.94,.95),0,.075);p=glass.node_tree.nodes.get('Principled BSDF');p.inputs['Transmission Weight'].default_value=.96;p.inputs['IOR'].default_value=1.45;glass['export_note']='FBX material uses Alpha 0.22 fallback; source master uses Transmission .96 Alpha1'
  box('UNDERFRAME_main',(0,0,1.155),(23.54,2.96,.26),rubber,.025)
  box('INTERIOR_floor',(0,0,FLOOR-.025),(23.40,3.10,.05),floor,coll=inter)
  for y in [-1.53,1.53]:box('UNDERFRAME_edge',(0,y,1.22),(23.54,.10,.21),grey,.025)
@@ -236,9 +240,9 @@ def finish(k,c):
  for o in [root]+list(root.children_recursive):o.select_set(True)
  bpy.context.view_layer.objects.active=root
  bpy.ops.export_scene.fbx(filepath=str(path)+'.fbx',use_selection=True,object_types={'EMPTY','MESH','OTHER'},apply_unit_scale=True,apply_scale_options='FBX_SCALE_NONE',axis_forward='X',axis_up='Z',bake_anim=False,use_mesh_modifiers=True,add_leaf_bones=False,use_custom_props=True,path_mode='AUTO')
- payload={'variant':k,'prototype_code':c['code'],'physical_capacity':c['capacity'],'capacity_type':'berths' if berths else 'seats','daytime_seats':len(pax),'PAX_roots':len(pax),'BERTH_references':len(berths),'layout':c['layout'],'game_capacity':None,'root':'LHB_'+k+'_ROOT_metres','body_length_m':23.54,'coupling_span_m':24.0,'body_width_m':3.24,'roof_height_m':4.039,'bogie_centres_m':14.9,'bogie_wheelbase_m':2.56,'wheel_tread_diameter_m':.915,'floor_height_m':FLOOR,'seat_cushion_top_z_m':TOP,'seat_character_root_z_m':TOP-HIP,'glass_source_transmission':.96,'glass_fbx_alpha':.22,'native_TF3_conversion':False,'runtime_tested':False}
+ payload={'source_module_sha256':SOURCE_HASHES,'variant':k,'prototype_code':c['code'],'physical_capacity':c['capacity'],'capacity_type':'berths' if berths else 'seats','daytime_seats':len(pax),'PAX_roots':len(pax),'BERTH_references':len(berths),'layout':c['layout'],'game_capacity':None,'root':'LHB_'+k+'_ROOT_metres','body_length_m':23.54,'coupling_span_m':24.0,'body_width_m':3.24,'roof_height_m':4.039,'bogie_centres_m':14.9,'bogie_wheelbase_m':2.56,'wheel_tread_diameter_m':.915,'floor_height_m':FLOOR,'seat_cushion_top_z_m':TOP,'seat_character_root_z_m':TOP-HIP,'glass_source_transmission':.96,'glass_fbx_alpha':.22,'native_TF3_conversion':False,'runtime_tested':False}
  (P/'models'/('LHB_'+k+'_manifest.json')).write_text(json.dumps(payload,indent=2))
- markers_payload={'variant':k,'PAX_character_roots':[{'name':o.name,'parent':o.parent.name,'position_parent_m':list(o.location),'yaw_radians':o.rotation_euler.z,'cushion_top_z_m':TOP,'pose':'sitting'} for o in sorted(pax,key=lambda o:o.name)],'BERTH_sleeping_references':[{'name':o.name,'position_parent_m':list(o.location),'berth_type':o['berth_type'],'use_as_seated_passenger':False} for o in sorted(berths,key=lambda o:o.name)]}
+ markers_payload={'source_module_sha256':SOURCE_HASHES,'variant':k,'PAX_character_roots':[{'name':o.name,'parent':o.parent.name,'position_parent_m':list(o.location),'yaw_radians':o.rotation_euler.z,'cushion_top_z_m':TOP,'pose':'sitting'} for o in sorted(pax,key=lambda o:o.name)],'BERTH_sleeping_references':[{'name':o.name,'position_parent_m':list(o.location),'berth_type':o['berth_type'],'use_as_seated_passenger':False} for o in sorted(berths,key=lambda o:o.name)]}
  (P/'models'/('LHB_'+k+'_markers.json')).write_text(json.dumps(markers_payload,indent=2))
  print('FINISHED',k,len(pax),len(berths),flush=True)
 
@@ -251,4 +255,6 @@ for k in args:
  else:general(c)
  import lhb_finish_detail
  lhb_finish_detail.refine(globals(),k,c)
+ import lhb_identity_detail
+ lhb_identity_detail.apply(globals(),k,c)
  finish(k,c)

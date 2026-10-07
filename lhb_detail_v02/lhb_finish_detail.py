@@ -23,6 +23,8 @@ def refine(g,k,c):
   bump=nt.nodes.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.2;bump.inputs['Distance'].default_value=strength;nt.links.new(tex.outputs['Fac'],bump.inputs['Height']);nt.links.new(bump.outputs['Normal'],p.inputs['Normal'])
   ramp=nt.nodes.new('ShaderNodeValToRGB');r=p.inputs['Roughness'].default_value;ramp.color_ramp.elements[0].color=(max(.01,r-rough_variation),)*3+(1,);ramp.color_ramp.elements[1].color=(min(1,r+rough_variation),)*3+(1,);nt.links.new(tex.outputs['Fac'],ramp.inputs[0]);nt.links.new(ramp.outputs[0],p.inputs['Roughness'])
  for mat,scale,strength in [(paint,100,.00018),(grey,140,.00014),(steel,210,.00012),(ivory,150,.0001),(blue,330,.00065),(darkblue,330,.00055),(linen,580,.00045),(floor,95,.0008),(wood,65,.0001)]:noise_surface(mat,scale,strength)
+ paint.node_tree.nodes.get('Principled BSDF').inputs['Coat Weight'].default_value=.22
+ paint.node_tree.nodes.get('Principled BSDF').inputs['Coat Roughness'].default_value=.24
  # Soft fabric weave uses crossed procedural waves rather than photographic maps.
  for mat in [blue,linen,darkblue]:
   p=mat.node_tree.nodes.get('Principled BSDF');p.inputs['Sheen Weight'].default_value=.22;p.inputs['Sheen Roughness'].default_value=.70
@@ -37,10 +39,10 @@ def refine(g,k,c):
  def tube(name,pts,r,mat=steel):
   for a,b in zip(pts,pts[1:]):rod(name,a,b,r,mat,10,coll=inter)
  def lathe(name,loc,profile,mat,segments=40):
-  vs=[(loc[0]+rad*math.cos(j*math.tau/segments),loc[1]+rad*math.sin(j*math.tau/segments),loc[2]+z) for rad,z in profile for j in range(segments)]
+  vs=[(rad*math.cos(j*math.tau/segments),rad*math.sin(j*math.tau/segments),z) for rad,z in profile for j in range(segments)]
   fs=[(i*segments+j,i*segments+(j+1)%segments,(i+1)*segments+(j+1)%segments,(i+1)*segments+j) for i in range(len(profile)-1) for j in range(segments)]
   fs += [tuple(range(segments-1,-1,-1)),tuple(range((len(profile)-1)*segments,len(profile)*segments))]
-  ob=mesh(name,vs,fs,mat,coll=inter)
+  ob=mesh(name,vs,fs,mat,coll=inter);ob.location=loc
   for p in ob.data.polygons:p.use_smooth=True
   return ob
  def screw(name,loc,axis='Y',r=.005):
@@ -95,14 +97,15 @@ def refine(g,k,c):
    if not ob.name.startswith(('MAIN_LOWER','FIRST_LOWER')):continue
    x,y,z=ob.location;face=1 if x<0 else -1
    # The corresponding bay wall supports the plate; not placed in passenger aisle.
-   wallx=x+(-.30 if 'MAIN_' in ob.name else -.365)
+   side=-1 if ob.name.endswith('_A') else 1
+   wallx=x+side*(.30 if 'MAIN_' in ob.name else .365)
    box('BERTH_hinge_mount',(wallx,y,2.18),(.045,1.74,.042),steel,.005,coll=inter)
    for yy in [y-.62,y+.62]:
     rod('BERTH_hinge_barrel',(wallx,yy-.045,2.20),(wallx,yy+.045,2.20),.022,steel,16,coll=inter)
     for zz in [2.04,2.34]:box('BERTH_hinge_fixing',(wallx,yy,zz),(.012,.073,.051),steel,.004,coll=inter)
    if k in ['2A','3A','SL']:
     for yy in [y-.77,y+.77]:
-     rod('UPPER_berth_support_stay',(x,yy,3.19),(wallx,yy,3.49),.014,steel,12,coll=inter)
+     rod('UPPER_berth_support_stay',(x,yy,3.11 if k=='2A' else 3.21),(wallx,yy,3.49),.014,steel,12,coll=inter)
    box('PASSENGER_socket_panel',(x,-1.487,2.20),(.16,.018,.115),ivory,.015,coll=inter)
    for dx,dz in [(-.021,0),(.021,0),(0,.031)]:rod('SOCKET_pin_aperture',(x+dx,-1.498,2.20+dz),(x+dx,-1.502,2.20+dz),.006,rubber,10,coll=inter)
    box('SOCKET_switch',(x+.052,-1.504,2.21),(.019,.012,.032),white,.004,coll=inter)
@@ -163,7 +166,7 @@ def refine(g,k,c):
   # Detailed replacement extinguishers with valve, pressure gauge and black hose.
   ex=e*9.28;ey=-.72
   for ob in list(inter.objects):
-   if ob.name.startswith('FIRE_EXTINGUISHER') and abs(ob.location.x-ex)<.1:bpy.data.objects.remove(ob,do_unlink=True)
+   if ob.name.startswith('FIRE_EXTINGUISHER') and ob.type=='MESH' and abs(sum((ob.matrix_world@v.co).x for v in ob.data.vertices)/len(ob.data.vertices)-ex)<.1:bpy.data.objects.remove(ob,do_unlink=True)
   lathe('FIRE_EXTINGUISHER_cylinder',(ex,ey,1.72),[(.04,0),(.073,.035),(.074,.40),(.045,.47),(.024,.48)],red,32)
   box('FIRE_EXTINGUISHER_label',(ex,ey-.073,1.94),(.083,.005,.13),white,.006,coll=inter)
   text('FIRE_EXTINGUISHER_label_print','FIRE',(ex,ey-.079,1.955),.025,m=red,coll=inter)

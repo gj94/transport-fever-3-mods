@@ -1,0 +1,1213 @@
+{
+  "source_module_sha256": {
+    "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+    "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07",
+    "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+    "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+    "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64"
+  },
+  "variant": "GS",
+  "PAX_character_roots": [
+    {
+      "name": "PAX_-1_0_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.7450000047683716,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.7450000047683716,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.7450000047683716,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.7450000047683716,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -0.7549999952316284,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -0.7549999952316284,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -0.7549999952316284,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -0.7549999952316284,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.6799999475479126,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_0_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -0.8199999928474426,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.424999952316284,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.424999952316284,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.424999952316284,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.424999952316284,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.434999942779541,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.434999942779541,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.434999942779541,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.434999942779541,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.359999895095825,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_1_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.5,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.105000019073486,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.105000019073486,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.105000019073486,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.105000019073486,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -4.114999771118164,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -4.114999771118164,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -4.114999771118164,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -4.114999771118164,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.039999961853027,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_2_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -4.179999828338623,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.784999847412109,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.784999847412109,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.784999847412109,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.784999847412109,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.795000076293945,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.795000076293945,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.795000076293945,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.795000076293945,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.71999979019165,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_3_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.860000133514404,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -8.46500015258789,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -8.46500015258789,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -8.46500015258789,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -8.46500015258789,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.474999904632568,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.474999904632568,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.474999904632568,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.474999904632568,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -8.399999618530273,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_-1_4_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.539999961853027,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.7549999952316284,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.7549999952316284,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.7549999952316284,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.7549999952316284,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        1.7450000047683716,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        1.7450000047683716,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        1.7450000047683716,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        1.7450000047683716,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.8199999928474426,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_0_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        1.6799999475479126,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.434999942779541,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.434999942779541,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.434999942779541,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.434999942779541,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.424999952316284,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.424999952316284,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.424999952316284,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.424999952316284,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.5,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_1_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.359999895095825,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.114999771118164,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.114999771118164,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.114999771118164,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.114999771118164,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.105000019073486,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.105000019073486,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.105000019073486,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.105000019073486,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.179999828338623,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_2_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.039999961853027,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.795000076293945,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.795000076293945,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.795000076293945,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.795000076293945,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.784999847412109,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.784999847412109,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.784999847412109,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.784999847412109,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        5.860000133514404,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_3_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.71999979019165,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_-1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.474999904632568,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_-1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.474999904632568,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_-1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.474999904632568,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_-1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.474999904632568,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_1_0",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        8.46500015258789,
+        -1.2599999904632568,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_1_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        8.46500015258789,
+        -0.7799999713897705,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_1_2",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        8.46500015258789,
+        -0.30000001192092896,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_1_3",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        8.46500015258789,
+        0.18000000715255737,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_SIDE_-1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.539999961853027,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_1_4_SIDE_1",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        8.399999618530273,
+        1.2400000095367432,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    }
+  ],
+  "BERTH_sleeping_references": []
+}

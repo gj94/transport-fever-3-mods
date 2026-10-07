@@ -1,0 +1,542 @@
+{
+  "source_module_sha256": {
+    "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+    "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07",
+    "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+    "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+    "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64"
+  },
+  "variant": "1A",
+  "PAX_character_roots": [
+    {
+      "name": "PAX_A_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.980000019073486,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_A_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -7.980000019073486,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_A_B-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.440000057220459,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_A_B-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -6.440000057220459,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_B_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.480000019073486,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_B_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -5.480000019073486,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_C_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.75,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_C_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -3.75,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_C_B-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.2100000381469727,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_C_B-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -2.2100000381469727,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_D_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.25,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_D_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        -1.25,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_E_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.47999998927116394,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_E_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        0.47999998927116394,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_F_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.2100000381469727,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_F_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        2.2100000381469727,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_F_B-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.75,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_F_B-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        3.75,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_G_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.710000038146973,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_G_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        4.710000038146973,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_H_A-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.440000057220459,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_H_A-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        6.440000057220459,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 0.0,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_H_B-0.04",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.980000019073486,
+        -0.03999999910593033,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    },
+    {
+      "name": "PAX_H_B-0.96",
+      "parent": "BODY_PIVOT",
+      "position_parent_m": [
+        7.980000019073486,
+        -0.9599999785423279,
+        1.3569999933242798
+      ],
+      "yaw_radians": 3.1415927410125732,
+      "cushion_top_z_m": 1.84,
+      "pose": "sitting"
+    }
+  ],
+  "BERTH_sleeping_references": [
+    {
+      "name": "BERTH_A_A_LOWER",
+      "position_parent_m": [
+        -8.0600004196167,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_A_A_UPPER",
+      "position_parent_m": [
+        -8.0600004196167,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_A_B_LOWER",
+      "position_parent_m": [
+        -6.360000133514404,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_A_B_UPPER",
+      "position_parent_m": [
+        -6.360000133514404,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_B_A_LOWER",
+      "position_parent_m": [
+        -5.559999942779541,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_B_A_UPPER",
+      "position_parent_m": [
+        -5.559999942779541,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_C_A_LOWER",
+      "position_parent_m": [
+        -3.8299999237060547,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_C_A_UPPER",
+      "position_parent_m": [
+        -3.8299999237060547,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_C_B_LOWER",
+      "position_parent_m": [
+        -2.130000114440918,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_C_B_UPPER",
+      "position_parent_m": [
+        -2.130000114440918,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_D_A_LOWER",
+      "position_parent_m": [
+        -1.3300000429153442,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_D_A_UPPER",
+      "position_parent_m": [
+        -1.3300000429153442,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_E_A_LOWER",
+      "position_parent_m": [
+        0.4000000059604645,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_E_A_UPPER",
+      "position_parent_m": [
+        0.4000000059604645,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_F_A_LOWER",
+      "position_parent_m": [
+        2.130000114440918,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_F_A_UPPER",
+      "position_parent_m": [
+        2.130000114440918,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_F_B_LOWER",
+      "position_parent_m": [
+        3.8299999237060547,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_F_B_UPPER",
+      "position_parent_m": [
+        3.8299999237060547,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_G_A_LOWER",
+      "position_parent_m": [
+        4.630000114440918,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_G_A_UPPER",
+      "position_parent_m": [
+        4.630000114440918,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_H_A_LOWER",
+      "position_parent_m": [
+        6.360000133514404,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_H_A_UPPER",
+      "position_parent_m": [
+        6.360000133514404,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_H_B_LOWER",
+      "position_parent_m": [
+        8.0600004196167,
+        -0.49000000953674316,
+        1.840000033378601
+      ],
+      "berth_type": "LOWER",
+      "use_as_seated_passenger": false
+    },
+    {
+      "name": "BERTH_H_B_UPPER",
+      "position_parent_m": [
+        8.0600004196167,
+        -0.49000000953674316,
+        3.0799999237060547
+      ],
+      "berth_type": "UPPER",
+      "use_as_seated_passenger": false
+    }
+  ]
+}

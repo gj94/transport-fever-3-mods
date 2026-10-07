@@ -110,7 +110,7 @@ class GearBuilder:
         v=[(loc[0]+x*a,loc[1]+y*b,loc[2]+z*c) for x,y,z in
            [(-1,-1,-1),(-1,-1,1),(-1,1,-1),(-1,1,1),(1,-1,-1),(1,-1,1),(1,1,-1),(1,1,1)]]
         f=[(0,4,6,2),(1,3,7,5),(0,1,5,4),(2,6,7,3),(0,2,3,1),(4,5,7,6)]
-        return self.mesh(name,v,f,material,parent,bevel)
+        return self.mesh(name,v,f,material,parent,min(bevel,.45*min(size)))
 
     def extrusion(self,name,outline,depth,axis,center,material,parent,bevel=0):
         # Outline coordinates are XY for Z extrusion, XZ for Y extrusion.

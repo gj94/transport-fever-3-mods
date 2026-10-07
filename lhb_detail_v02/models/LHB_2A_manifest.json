@@ -1,0 +1,33 @@
+{
+  "source_module_sha256": {
+    "build_lhb_detail.py": "64001e05681a4d5ada3eb180d7f145a9ff19c7cd0dcd6f3662b4c7224c2f3341",
+    "lhb_shell.py": "86c447e246fcb2f855ed8fd6fe37d638fb88f1e3254962c3ec7164aeab835e07",
+    "lhb_finish_detail.py": "3336496a4fc2d8ed97fb7bbc1626e7b881e37fe69126e86c122c2f29a5de6ffa",
+    "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+    "lhb_identity_detail.py": "19c5e4b078be294e141deba82e0e9af1c3e8112ebd70bf7e1def57b21e3a0f64"
+  },
+  "variant": "2A",
+  "prototype_code": "LWACCW",
+  "physical_capacity": 52,
+  "capacity_type": "berths",
+  "daytime_seats": 52,
+  "PAX_roots": 52,
+  "BERTH_references": 52,
+  "layout": "8 full six-berth bays + four-berth end bay",
+  "game_capacity": null,
+  "root": "LHB_2A_ROOT_metres",
+  "body_length_m": 23.54,
+  "coupling_span_m": 24.0,
+  "body_width_m": 3.24,
+  "roof_height_m": 4.039,
+  "bogie_centres_m": 14.9,
+  "bogie_wheelbase_m": 2.56,
+  "wheel_tread_diameter_m": 0.915,
+  "floor_height_m": 1.303,
+  "seat_cushion_top_z_m": 1.84,
+  "seat_character_root_z_m": 1.3570000000000002,
+  "glass_source_transmission": 0.96,
+  "glass_fbx_alpha": 0.22,
+  "native_TF3_conversion": false,
+  "runtime_tested": false
+}

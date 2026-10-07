@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "verifier_sha256": "bf0e0a6a9c859b0b54f544139abeecc8db9fecd729de42ecf72be34febe001ef",
+  "source_3A_sha256": "4671630c16c26886a5df4411e331d999fd5f4e6bb7c19d056ff6b950f360e557",
+  "tests": [
+    {
+      "test": "unmodified dimensions, fixture positions and passenger placement",
+      "passed": true
+    },
+    {
+      "test": "detect upper-height seated passenger root",
+      "passed": true
+    },
+    {
+      "test": "detect fixture escaped beyond body",
+      "passed": true
+    },
+    {
+      "test": "detect wheelbase geometry error despite correct properties",
+      "passed": true
+    },
+    {
+      "test": "detect missing passenger despite correct root metadata",
+      "passed": true
+    }
+  ]
+}

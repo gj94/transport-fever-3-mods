@@ -1,6 +1,6 @@
 # LHB detailed coach family v0.2 — work in progress
 
-This isolated revision is being developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. The first checkpoint contains a working 3A source, portable FBX and explicit passenger/berth manifests. Other classes, visual reviews, topology checks and further refinements are in progress. Do not treat this checkpoint as a final release or runtime-ready asset.
+This isolated revision is being developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. All seven class sources and FBX exports have been built. Geometry, hierarchy, capacity and furnishing-placement checks are in progress; visual proofs are being reviewed and refined. The first published checkpoint remains explicitly WIP. Do not treat this checkpoint as a final release or runtime-ready asset.
 
 ## Prototype and coordinate contract
 
@@ -13,7 +13,7 @@ Metres; X longitudinal, Y lateral, Z up; railhead Z=0. Body 23.540 m ×3.240 m, 
 ## Initial changes
 
 - Original rounded through-window wall apertures and separately closed glazing
-- Smooth curved roof, rain gutters, HVAC fan blades/grilles, door seals/hinges/steps
+- Smooth curved roof with recessed HVAC-end wells and raised end structure, rain gutters, HVAC fan blades/grilles, door seals/hinges/steps
 - FIAT running gear rebuilt around two 640 mm brake discs per axle, nested coils, profiled frame, calipers, control arms and pipework
 - Detailed equipment enclosures, reservoirs, CBC castings and service hoses
 - Upholstery piping, stitched panels, folded upper-berth linen, pleated curtains, berth hinges, reading lights, sockets and hollow wire bottle holders
@@ -21,7 +21,7 @@ Metres; X longitudinal, Y lateral, Z up; railhead Z=0. Body 23.540 m ×3.240 m, 
 
 ## Rebuild
 
-With Blender 4.3.2, run `blender -b -t 2 --python build_lhb_detail.py -- 3A` from this directory. Omit the class argument to rebuild all classes. The builder writes its own models; preserve hand edits before rerunning. `render_lhb_detail.py` creates actual CPU Cycles views. No generated-image previews or external photo textures are used.
+With Blender 4.3.2, run `blender -b -t 2 --python build_lhb_detail.py -- 3A` from this directory. Omit the class argument to rebuild all classes. The builder writes its own models; preserve hand edits before rerunning. `render_lhb_detail.py` creates actual CPU Cycles views. No generated-image previews or vehicle photographs are used. Outdoor review lighting and terrain use the already credited Poly Haven CC0 sky and Dirt material under `../wap7_photoreal_v02/environment`; these are render-only dependencies, not exported vehicle assets.
 
 ## Sources and current limits
 
@@ -30,3 +30,7 @@ Reference basis: the railway-authored CAMTECH Maintenance Manual of LHB Coaches,
 Selected dimensions and capacities also follow the official [NWR 2025 technical data](https://nwr.indianrailways.gov.in/uploads/files/1742970525725-9%20-%20Working%20Time%20Table.pdf) and [RDSO revised introduction](https://rdso.indianrailways.gov.in/uploads/files/Revised_LHB_Manual_Vol_II_Chapter_I_Introduction_Draft.pdf), with the same explicitly selected 1.303 m floor datum as v0.1. See the preserved earlier [reference ledger](../lhb_family_v01/references.md) for source conflicts and prototype-selection boundaries.
 
 The current geometry has not yet passed complete source/FBX/render QA. Fine furnishing and equipment fittings are representative approximations. Couplers are static visual models; no claim is made for operational articulation, certification, or compatibility with unrelated new locomotive couplers. Materials use editable procedural shaders; a game exporter must bake or adapt them.
+
+## Review provenance
+
+Each new source stores SHA-256 values for its five build modules. Every rendered view records the source/image SHA-256, camera, samples, resolution and any temporarily hidden review geometry. The renderer refuses to mark provenance complete if the source changes during rendering. Formation-position boards (H1/A1/B1/D1/C1/S1/GS) and NR regional lettering are representative editable livery details, not a claim to reproduce a real numbered coach or verified train formation.

@@ -27,7 +27,8 @@ def build(g,k,c):
    j=(i+1)%N
    fs += [(i,j,j+N,i+N),(i+2*N,i+3*N,j+3*N,j+2*N),(i,i+2*N,j+2*N,j),(i+N,j+N,j+3*N,i+3*N)]
   ob=mesh(name,vs,fs,mat,parent=parent,coll=coll)
-  for p in ob.data.polygons:p.use_smooth=True
+  for i,p in enumerate(ob.data.polygons):p.use_smooth=(i%4>=2)
+  md=ob.modifiers.new('Soft manufactured gasket edge','BEVEL');md.width=.0012;md.segments=2
   return ob
  def pierced(name,x,y,z,outerw,outerh,w,h,t,r,mat,coll=None):
   inner=rounded(w,h,r);N=len(inner);outer=[(outerw/2,outerh/2),(-outerw/2,outerh/2),(-outerw/2,-outerh/2),(outerw/2,-outerh/2)];points=inner+outer;M=len(points)
@@ -58,11 +59,12 @@ def build(g,k,c):
   edges=[-11.77]+[q for x in sorted(doors) for q in [x-.52,x+.52]]+[11.77]
   for j in range(0,len(edges)-1,2):
    lo,hi=edges[j:j+2];length=hi-lo;x=(lo+hi)/2
-   box('BODYSIDE_sill',(x,s*1.578,1.705),(length,.084,.75),grey,.006)
-   box('BODYSIDE_header',(x,s*1.578,3.2475),(length,.084,.665),paint,.005)
+   box('BODYSIDE_sill',(x,s*1.578,1.705),(length,.084,.75),grey)
+   box('BODYSIDE_header',(x,s*1.578,3.2475),(length,.084,.665),paint)
    box('INTERIOR_sill_liner',(x,s*1.528,1.715),(length,.018,.72),ivory,coll=inter)
+   box('INTERIOR_header_liner',(x,s*1.528,3.2475),(length,.018,.665),ivory,coll=inter)
    # Thin red stripe defines the painted belt just beneath the window sill.
-   box('LIVERY_belt_pinstripe',(x,s*1.622,2.032),(length,.003,.024),paint)
+   box('LIVERY_belt_pinstripe',(x,s*1.62010,2.032),(length,.00015,.024),paint)
    section=[(wx,w,False) for wx,w in wins if lo<wx<hi]
    for wx in [-11.21,11.21]:
     if lo<wx<hi:section.append((wx,.57,True))
@@ -71,10 +73,11 @@ def build(g,k,c):
    for idx,(wx,w,wc) in enumerate(section):
     left=max(lo,wx-w/2-.07);right=min(hi,wx+w/2+.07)
     if left>cursor:
-     box('BODYSIDE_window_pier',((cursor+left)/2,s*1.578,2.495),(left-cursor,.084,.84),paint,.004)
+     box('BODYSIDE_window_pier',((cursor+left)/2,s*1.578,2.495),(left-cursor,.084,.84),paint)
      box('INTERIOR_window_pier',((cursor+left)/2,s*1.528,2.495),(left-cursor,.02,.84),ivory,coll=inter)
     center=(left+right)/2;ow=right-left
     pierced('BODYSIDE_rounded_aperture',wx,s*1.578,2.495,ow,.84,w,.73,.084,.10,paint)
+    pierced('INTERIOR_rounded_aperture_liner',wx,s*1.528,2.495,ow,.84,w,.73,.018,.10,ivory,inter)
     ring('WINDOW_recessed_EPDM_seal',wx,s*1.614,2.495,w+.008,.738,.022,.102,.029,rubber)
     ring('WINDOW_inner_trim',wx,s*1.522,2.495,w+.042,.772,.02,.118,.021,ivory,inter)
     if c['ac'] or wc:
@@ -92,19 +95,22 @@ def build(g,k,c):
      for dx in [-w/2+.018,w/2-.018]:box('WINDOW_slide_channel',(wx+dx,s*1.49,2.495),(.019,.022,.72),steel,.004,coll=inter)
     cursor=right
    if hi>cursor:
-    box('BODYSIDE_window_pier',((cursor+hi)/2,s*1.578,2.495),(hi-cursor,.084,.84),paint,.004)
+    box('BODYSIDE_window_pier',((cursor+hi)/2,s*1.578,2.495),(hi-cursor,.084,.84),paint)
     box('INTERIOR_window_pier',((cursor+hi)/2,s*1.528,2.495),(hi-cursor,.02,.84),ivory,coll=inter)
   # Door leaves have genuine glazing, separately nested hardware and hinges.
   for di,x in enumerate(doors):
    dp=empty('DOOR_'+('L' if s>0 else 'R')+'_'+str(di+1)+'_PIVOT',(x-.48,s*1.59,1.34),body)
-   box('DOOR_bottom_leaf',(.48,0,.43),(.96,.055,.86),paint,.016,parent=dp)
-   box('DOOR_top_leaf',(.48,0,1.99),(.96,.055,.17),paint,.013,parent=dp)
+   box('DOOR_bottom_leaf',(.48,0,.43),(.96,.055,.86),paint,.001,parent=dp)
+   box('DOOR_top_leaf',(.48,0,1.99),(.96,.055,.17),paint,.001,parent=dp)
    o=pierced('DOOR_leaf_glazed_portal',.48,0,1.432,.96,1.144,.34,.94,.055,.10,paint);o.parent=dp
    ring('DOOR_EPDM_glazing',.48,0,1.432,.36,.96,.067,.108,.025,rubber,parent=dp)
    slab('GLASS_DOOR',.48,s*.008,1.432,.31,.91,.008,.084,glass,glasscoll,dp)
    for xx in [.025,.935]:box('DOOR_edge_rebate',(xx,s*.031,1.035),(.024,.012,2.055),grey,.003,parent=dp)
-   rod('DOOR_handle',(.82,-s*.059,.70),(.82,-s*.059,1.01),.013,steel,parent=dp)
-   for zz in [.70,1.01]:rod('DOOR_handle_mount',(.82,-s*.059,zz),(.82,0,zz),.012,steel,parent=dp)
+   for hside in [-1,1]:
+    rod('DOOR_handle',(.82,hside*.061,.70),(.82,hside*.061,1.01),.013,steel,20,parent=dp)
+    for zz in [.70,1.01]:rod('DOOR_handle_mount',(.82,hside*.061,zz),(.82,hside*.027,zz),.012,steel,16,parent=dp)
+    rod('DOOR_lock_barrel',(.82,hside*.028,.61),(.82,hside*.039,.61),.024,steel,24,parent=dp)
+    box('DOOR_key_slot',(.82,hside*.041,.61),(.004,.003,.024),rubber,parent=dp)
    for zz in [.30,1.05,1.81]:
     rod('DOOR_hinge_pin',(.006,s*.031,zz-.045),(.006,s*.031,zz+.045),.016,steel,parent=dp)
     box('DOOR_hinge_leaf',(.031,s*.028,zz),(.062,.011,.053),steel,.003,parent=dp)
@@ -131,7 +137,7 @@ def build(g,k,c):
  # Smooth elliptical arch follows 4.039 m reference crown, no faceted nine-edge roof.
  profile=[(1.62*math.cos(math.pi*i/40),3.545+.494*math.sin(math.pi*i/40)) for i in range(41)]
  ringp=profile+[(y,z-.05) for y,z in reversed(profile)];N=len(ringp)
- sections=[(-11.77,0),(-11.43,.265),(-8.50,.265),(-8,0),(8,0),(8.50,.265),(11.43,.265),(11.77,0)] if c['ac'] else [(-11.77,0),(11.77,0)]
+ sections=[(-11.77,0),(-11.69,.045),(-11.57,.145),(-11.43,.265),(-8.50,.265),(-8.31,.21),(-8.13,.08),(-8,0),(8,0),(8.13,.08),(8.31,.21),(8.50,.265),(11.43,.265),(11.57,.145),(11.69,.045),(11.77,0)] if c['ac'] else [(-11.77,0),(11.77,0)]
  vs=[(x,y,z-drop*max(0,1-abs(y)/1.62)) for x,drop in sections for y,z in ringp]
  fs=[tuple(range(N-1,-1,-1)),tuple(range((len(sections)-1)*N,len(sections)*N))]
  for j in range(len(sections)-1):fs.extend([(j*N+i,j*N+(i+1)%N,(j+1)*N+(i+1)%N,(j+1)*N+i) for i in range(N)])
@@ -146,7 +152,8 @@ def build(g,k,c):
  box('CEILING_main',(0,0,3.615),(19.1,3.04,.036),ivory,coll=roof)
  for e in [-1,1]:
   # Endcap above vestibule, closed curved skin.
-  cap=[(-1.62,3.535)]+list(reversed(profile))+[(1.62,3.535)];nn=len(cap)
+  end_profile=profile
+  cap=[(-1.62,3.535)]+list(reversed(end_profile))+[(1.62,3.535)];nn=len(cap)
   vs=[(e*x,y,z) for x in [11.689,11.769] for y,z in cap]
   fs=[tuple(range(nn-1,-1,-1)),tuple(range(nn,2*nn))]+[(i,(i+1)%nn,(i+1)%nn+nn,i+nn) for i in range(nn)]
   mesh('ROOF_endcap',vs,fs,grey,coll=roof)
