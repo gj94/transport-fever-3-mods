@@ -2,7 +2,55 @@
 
 Editable, reference-informed **192 m eight-car and 384 m sixteen-car** white/blue chair-car rakes, using the nominal 24.000 m over-coupler car dimension. These are high-detail Blender authoring sources. The earlier compact v01 sources and the existing TF3 runtime pack remain separate and unchanged.
 
-> Source checkpoint: the full-size source rebuild has been validated and is being backed up after an execution-environment interruption. The final rendered gallery is pending regeneration; this branch is not the finished main-page release.
+> Work-in-progress checkpoint: all seven native full-size car sources, both linked assemblies and source QA are backed up. The selected working gallery below was regenerated from those exact sources. Final visual polish and release review are pending; EC upholstery shading remains under review. This branch is not the finished main-page release.
+
+## Working gallery
+
+These are CPU Cycles renders of the published Blender geometry. They are review previews, with visible sample grain and further visual polish pending. The [render reports](qa/) record each source and image hash; [metadata cleanup](qa/preview_metadata_cleanup.json) preserves the rendered pixels.
+
+### Eight-car working presentation, nominal 192 m coupling span
+
+![Eight-car working presentation, nominal 192 m coupling span](previews/rake8.png)
+
+### Sixteen-car working presentation, nominal 384 m coupling span
+
+![Sixteen-car working presentation, nominal 384 m coupling span](previews/rake16.png)
+
+### Full-size formation comparison, actual linked source geometry
+
+![Full-size formation comparison, actual linked source geometry](previews/formation_length_proof.png)
+
+### Drawing-led driving-trailer proportions
+
+![Drawing-led driving-trailer proportions](previews/side.png)
+
+### Bolsterless running-gear detail
+
+![Bolsterless running-gear detail](previews/bogie.png)
+
+### Roof equipment and live-line layout
+
+![Roof equipment and live-line layout](previews/roof.png)
+
+### Raised pantograph mechanism
+
+![Raised pantograph mechanism](previews/pantograph.png)
+
+### Contact head and flexible service details
+
+![Contact head and flexible service details](previews/panhead.png)
+
+### Roof vacuum circuit breaker
+
+![Roof vacuum circuit breaker](previews/vcb.png)
+
+### Chair-car saloon working render
+
+![Chair-car saloon working render](previews/cc.png)
+
+### Executive-class saloon WIP: upholstery shading is under review
+
+![Executive-class saloon WIP: upholstery shading is under review](previews/ec_front.png)
 
 ## Open first
 

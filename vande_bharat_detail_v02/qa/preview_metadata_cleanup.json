@@ -1,0 +1,192 @@
+{
+  "method": "Remove PNG text and EXIF chunks; retain exact original compressed IDAT chunks",
+  "images": [
+    {
+      "path": "previews/bogie.png",
+      "raw_render_sha256": "fb58a01baf735d4197d58905bca3f0f553bbcf34684cf5cf368a866b33eab8c4",
+      "published_image_sha256": "d57c735101f3b5c5ba4905565013850724e9052f00a3efab4ba352a83afa5ddc",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "77576e8bc44852e72c664bce481156bdf7239ae5246569d1b7e6c6c919a8ac39",
+      "published_idat_sha256": "77576e8bc44852e72c664bce481156bdf7239ae5246569d1b7e6c6c919a8ac39",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1400,
+      "height": 875,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "d56eac1d3332e9321435439cab6b60ab3e7284f6ea23857d50f98652b50975da"
+    },
+    {
+      "path": "previews/cc.png",
+      "raw_render_sha256": "1e6e56ae4075415a110f04e85fb109114e321d186c000ad59bf985a861067e8c",
+      "published_image_sha256": "43a30ef66d9317e5cdb645b7dffeea8d19c70acf5377ee92117b00312c072754",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "ac7732877495e54dfb6a6ade62932b27af94bddb8763681cd151d1ae8c5aac34",
+      "published_idat_sha256": "ac7732877495e54dfb6a6ade62932b27af94bddb8763681cd151d1ae8c5aac34",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1400,
+      "height": 875,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "45cce976ff1299e0ab4cde19b42431774a8c216e43b04ace2deb9e9c5c73b44b"
+    },
+    {
+      "path": "previews/ec_front.png",
+      "raw_render_sha256": "f2848feb1253b4135e9b0a2254aea75df5b9a2309b8b9954446b9395d91f5d1f",
+      "published_image_sha256": "16b45bf100bdeba34fc4519311d6c272d94102fa27d86918d97c8f256de42499",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "daf9a17b7f03ea7376258250c34b8d099223a3d985b748557d7f2c97c525793f",
+      "published_idat_sha256": "daf9a17b7f03ea7376258250c34b8d099223a3d985b748557d7f2c97c525793f",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1400,
+      "height": 875,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "62813d4b27b74c09167618e1d6aef928132a4a2246092fd6a7e21e7c06d80496"
+    },
+    {
+      "path": "previews/formation_length_proof.png",
+      "raw_render_sha256": "a911748aa0201532f361ea081e81a11af320a4055209abd3406099e14aca3871",
+      "published_image_sha256": "e1cba47b0d83c41898db7db9e0ad0193c993c8b79f2aba8bfa9872cee200a92c",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "0c5c9cb0ff42e227b85aac5c13bc5651530733e1b2ae232530aec4e67e4e54fa",
+      "published_idat_sha256": "0c5c9cb0ff42e227b85aac5c13bc5651530733e1b2ae232530aec4e67e4e54fa",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 3000,
+      "height": 580,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "b44c37734faaba731059651ca314b208e41b1becf084c80c08061df877122075"
+    },
+    {
+      "path": "previews/panhead.png",
+      "raw_render_sha256": "c430081eaf45b4bf674a2afd99029cbbc73c92efcdeb7e43dcaab6a3240bf37a",
+      "published_image_sha256": "d99feb232146c892aa5a5fad2e1338b3af8e96a6c849412d0a06dabd73720d9b",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "cba002a65270040b804757b6ffea5808628c2f436edd97b074a50ee17dc614d1",
+      "published_idat_sha256": "cba002a65270040b804757b6ffea5808628c2f436edd97b074a50ee17dc614d1",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1200,
+      "height": 750,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "e92e3f07234a44e4fb52cb81eec32a1e2fdff04ce15f61c89de9e41f250cd64e"
+    },
+    {
+      "path": "previews/pantograph.png",
+      "raw_render_sha256": "f044171b5d10c2610c177f066f816c6d28473417d38f07e50bbb996cb3349484",
+      "published_image_sha256": "d150551f88f3949b2c9196d48f9f3a5b3ae59fe381337e85e40ca5a15ac2f42f",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "9ae71f4540c55a043bc1e23fec714afd5ce36e9fc8d93f614c2b83b831665513",
+      "published_idat_sha256": "9ae71f4540c55a043bc1e23fec714afd5ce36e9fc8d93f614c2b83b831665513",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1400,
+      "height": 875,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "9e3e27021e798e2396fa49d4079ea24788ff295c7d520c703b2b7859536fc4a6"
+    },
+    {
+      "path": "previews/rake16.png",
+      "raw_render_sha256": "ffb3af3ce6ea5d77763979b8b5232b2c91bcad02a94872a4a9acddcd34a3341b",
+      "published_image_sha256": "806c524cc181f6f6eaec8543d9672794ac23fdf033b8d466ae4b3130f404ea4f",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "26d15ce4efce93f20a13643be50caa881fcaff26bc0206fe134905298ec48c9a",
+      "published_idat_sha256": "26d15ce4efce93f20a13643be50caa881fcaff26bc0206fe134905298ec48c9a",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1800,
+      "height": 1008,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "34d80b28fb4592962d1fe79569377e5a64c5b0488fac664fdb6e3b063ab77eb1"
+    },
+    {
+      "path": "previews/rake8.png",
+      "raw_render_sha256": "20207f5312819ab98c88f9b7982270f8ff0e5a74c50469d399d3080da72a30a3",
+      "published_image_sha256": "13811e9d4979b7f773e7d119c7f20be894fde37922e17ed8c84a315e4a1ea565",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "6092a22b8dea0c03811f3af609bc624700722db15a3d0b8b9aefd5cc93fa6a6e",
+      "published_idat_sha256": "6092a22b8dea0c03811f3af609bc624700722db15a3d0b8b9aefd5cc93fa6a6e",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1800,
+      "height": 1008,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "9d0fd8daa3ddc55fd53ee258ac83db94038d67b5d2842b43d7ffcdd8dc524809"
+    },
+    {
+      "path": "previews/roof.png",
+      "raw_render_sha256": "1523bcaf31f2eabcdf71b3b29bb31653755cb8d4c58dd7df66103378a957aa01",
+      "published_image_sha256": "b8e9fa6c2a8c93e85c7c6997ed62f9233fbaaeb7ea9a77cdc12efed15706e0f7",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "541ff9264a611ef8b61185fa47b75ae013cab23cb0c49e68e1a55ebc91197f2e",
+      "published_idat_sha256": "541ff9264a611ef8b61185fa47b75ae013cab23cb0c49e68e1a55ebc91197f2e",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1400,
+      "height": 875,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "2125f5b5fd6d8fec1a079efdb58275e8041141ea56eaa648cb2681a7ee2f5d76"
+    },
+    {
+      "path": "previews/side.png",
+      "raw_render_sha256": "4a9daec369eaab68782fc7add022ed9f72eb45e1e47cee56bc151158fad5f685",
+      "published_image_sha256": "e92228191f0a5d18b63db002a96277c226c504721cb9d3a4706b1ef19dbee2e9",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "96299a7826468fc52045cb88efec74bf9f090e74836974898611b6e0ffda2904",
+      "published_idat_sha256": "96299a7826468fc52045cb88efec74bf9f090e74836974898611b6e0ffda2904",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1600,
+      "height": 432,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "72a5a8ee3f470b6460905669852b943abb278d7abafd09959bfdfe31460e2dc6"
+    },
+    {
+      "path": "previews/vcb.png",
+      "raw_render_sha256": "29aef58e9135061128571127ad75f2917f81dcba32a903d50466610f8b8ab614",
+      "published_image_sha256": "f418e6f192200f85bc02b566d3f4b546f1763c75f19a1b5ed3f7829fe8b5fdd8",
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ],
+      "original_idat_sha256": "489175ca7652c5b89b72db462d8f3388f5fd073e207a18d7f89c928e766908b2",
+      "published_idat_sha256": "489175ca7652c5b89b72db462d8f3388f5fd073e207a18d7f89c928e766908b2",
+      "idat_bytes_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "width": 1200,
+      "height": 750,
+      "mode": "RGB",
+      "decoded_pixels_sha256": "fa01975970551521b7ce66469c42e18ce47b37614d5c27693d9563ecfe508345"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "view": "bogie",
+  "source": "cars/VB_MC.blend",
+  "source_sha256": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 192,
+  "resolution": [
+    1400,
+    875
+  ],
+  "camera": {
+    "position": [
+      10.2,
+      -5.7,
+      1.9
+    ],
+    "target": [
+      7.45,
+      0,
+      0.7
+    ],
+    "lens": 57
+  },
+  "image_sha256": "d57c735101f3b5c5ba4905565013850724e9052f00a3efab4ba352a83afa5ddc",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "fb58a01baf735d4197d58905bca3f0f553bbcf34684cf5cf368a866b33eab8c4",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/bogie.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

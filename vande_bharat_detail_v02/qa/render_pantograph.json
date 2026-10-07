@@ -1,0 +1,35 @@
+{
+  "view": "pantograph",
+  "source": "cars/VB_TC_EC.blend",
+  "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 128,
+  "resolution": [
+    1400,
+    875
+  ],
+  "camera": {
+    "position": [
+      12.5,
+      -7.3,
+      6.5
+    ],
+    "target": [
+      9.0,
+      0,
+      4.8
+    ],
+    "lens": 42
+  },
+  "image_sha256": "d150551f88f3949b2c9196d48f9f3a5b3ae59fe381337e85e40ca5a15ac2f42f",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "f044171b5d10c2610c177f066f816c6d28473417d38f07e50bbb996cb3349484",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/pantograph.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

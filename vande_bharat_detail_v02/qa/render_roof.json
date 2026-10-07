@@ -1,0 +1,35 @@
+{
+  "view": "roof",
+  "source": "cars/VB_TC_EC.blend",
+  "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 128,
+  "resolution": [
+    1400,
+    875
+  ],
+  "camera": {
+    "position": [
+      8,
+      -6,
+      8.0
+    ],
+    "target": [
+      7.0,
+      0,
+      4.1
+    ],
+    "lens": 48
+  },
+  "image_sha256": "b8e9fa6c2a8c93e85c7c6997ed62f9233fbaaeb7ea9a77cdc12efed15706e0f7",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "1523bcaf31f2eabcdf71b3b29bb31653755cb8d4c58dd7df66103378a957aa01",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/roof.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

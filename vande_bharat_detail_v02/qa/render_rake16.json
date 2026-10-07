@@ -1,0 +1,48 @@
+{
+  "view": "rake16",
+  "source": "assemblies/VB_16_car.blend",
+  "source_sha256": "c17096be6a05e33d99538eb71abb2d14aa403e714c1a6e38aba967d4458b272b",
+  "library_source_sha256": {
+    "cars/VB_DTC.blend": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+    "cars/VB_MC.blend": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+    "cars/VB_MC2.blend": "db62fc7a97c001afd705c5895031fbfe20b7ab3d6084668fce2c0adf6fb3d992",
+    "cars/VB_NDTC_EC.blend": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+    "cars/VB_NDTC_EC2.blend": "d2b1ff90a70381b52344012afd4576a9f08699f7a8bf146cc1f9d3fbeb98c01c",
+    "cars/VB_TC_CC.blend": "4d66f26c14fca7a836ade8bde9816546d0bf4f79fa45e19532a14939f1270a8b"
+  },
+  "render_script_sha256": "99a4ac51d273f5cf38e1a8f3fbfb8c4c5f85063944bdaf99b30543f671b33dc2",
+  "samples": 192,
+  "image_sha256": "806c524cc181f6f6eaec8543d9672794ac23fdf033b8d466ae4b3130f404ea4f",
+  "camera": {
+    "location": [
+      204.97799999999998,
+      -12,
+      2.35
+    ],
+    "target": [
+      179.97799999999998,
+      0,
+      2.2
+    ],
+    "lens": 50
+  },
+  "presentation": {
+    "collection": "ENV02_PHOTOGRAPHIC_RAILWAY",
+    "source": "Original geometry, CC0 Poly Haven pure sky for lighting only",
+    "sky": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "sky_rotation_degrees": 11,
+    "world_strength": 0.95,
+    "render_only": true,
+    "ballast_unique_tiles": 4,
+    "rocks_per_tile": 10300
+  },
+  "presentation_offset_m": 186,
+  "location_claim": "Generic rail depot, not a depicted real station. Actual linked source cars.",
+  "render_output_image_sha256": "ffb3af3ce6ea5d77763979b8b5232b2c91bcad02a94872a4a9acddcd34a3341b",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/rake16.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

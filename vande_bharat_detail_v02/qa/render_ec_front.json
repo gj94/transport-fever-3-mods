@@ -1,0 +1,35 @@
+{
+  "view": "ec_front",
+  "source": "cars/VB_TC_EC.blend",
+  "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 256,
+  "resolution": [
+    1400,
+    875
+  ],
+  "camera": {
+    "position": [
+      -0.2,
+      0,
+      2.76
+    ],
+    "target": [
+      -5.1,
+      0,
+      2.42
+    ],
+    "lens": 22
+  },
+  "image_sha256": "16b45bf100bdeba34fc4519311d6c272d94102fa27d86918d97c8f256de42499",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "f2848feb1253b4135e9b0a2254aea75df5b9a2309b8b9954446b9395d91f5d1f",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/ec_front.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

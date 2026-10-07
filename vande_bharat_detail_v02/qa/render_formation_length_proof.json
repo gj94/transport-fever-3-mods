@@ -1,0 +1,30 @@
+{
+  "library_source_sha256": {
+    "cars/VB_DTC.blend": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+    "cars/VB_MC.blend": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+    "cars/VB_TC_EC.blend": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+    "cars/VB_MC2.blend": "db62fc7a97c001afd705c5895031fbfe20b7ab3d6084668fce2c0adf6fb3d992",
+    "cars/VB_TC_CC.blend": "4d66f26c14fca7a836ade8bde9816546d0bf4f79fa45e19532a14939f1270a8b",
+    "cars/VB_NDTC_EC.blend": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+    "cars/VB_NDTC_EC2.blend": "d2b1ff90a70381b52344012afd4576a9f08699f7a8bf146cc1f9d3fbeb98c01c"
+  },
+  "image_sha256": "e1cba47b0d83c41898db7db9e0ad0193c993c8b79f2aba8bfa9872cee200a92c",
+  "source_formation_reports": {
+    "8": "7ad7b50dcdee6790385de6ec72783f18c1534d046d50b7daa23720c9cfbdc34c",
+    "16": "1d2479a2870b9551c092790b16eb32aac3e440bab00a39b5f2da7233138141f9"
+  },
+  "renderer": "Cycles",
+  "samples": 48,
+  "resolution": [
+    3000,
+    580
+  ],
+  "rake_geometry": "Actual linked seven-car source family; not symbolic boxes",
+  "render_output_image_sha256": "a911748aa0201532f361ea081e81a11af320a4055209abd3406099e14aca3871",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/formation_length_proof.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}
