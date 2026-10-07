@@ -4,7 +4,7 @@ Separate, original authoring-source revision for seven conventional self-generat
 
 ## Current checkpoint
 
-All seven r03 class masters and FBX files have now been generated. Actual Blender exterior/cutaway and eye-level 1A and 3A proofs have been inspected. Subsequent source refinements (micron cleanup, selected open-surface normals, contoured chairs and first-class fittings/materials) are staged in the generator and are not yet in these r03 files. Each manifest records the generator hashes used for its model. This is an active recovery checkpoint, not a final release.
+All seven r06 class masters and FBX files have been generated, with geometry/normal, aperture, nominal seated-root and relocated-FBX checks. The generator now stages r07 refinements, including fully attached upper-berth hangers, thin sheet/reveal construction, sharper mirror reflection and small interior-facing-label corrections. Those staged changes are not yet in the r06 files. Each manifest records its build pass and producer hashes. Actual Blender proof images are work in progress; their filenames/sidecars identify the pass where available. This is a recovery checkpoint, not the final release.
 
 Selected stock uses conventional screw couplings and side buffers. It is intentionally not a CBC clone of the existing native fleet. Coupling to the WAP7, linked rake articulation, character fit and all native game behavior are **unvalidated**. No TF3 conversion is included.
 
@@ -16,7 +16,7 @@ Capacities: 1A 18; 2A 46; 3A 64; 2S 108; CC 73; SL 72; GS selected 108-seat subt
 
 ## Rebuild
 
-Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/build.py -- all`. A class code builds only that variant. No external assets or Python dependencies are required. Preview renderer: `blender -b icf_detail_v02/SL/ICF_SL_master.blend -t 2 --python icf_detail_v02/scripts/render_detail.py -- exterior cutaway aisle bogie entrance`.
+Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/build.py -- all`. A class code builds only that variant. The bundled original text-only marking PNGs are packed into each master; Blender builds need no downloads or additional Python libraries. Optional `scripts/make_marking_textures.py` regeneration uses Pillow with Raqm and Noto Sans Devanagari. Preview renderer: `blender -b icf_detail_v02/SL/ICF_SL_master.blend -t 2 --python icf_detail_v02/scripts/render_detail.py -- exterior cutaway aisle bogie entrance`.
 
 Renders are actual Blender geometry, not image-generated illustrations. Cutaway hides the roof and one bodyside for inspection only. Studio lights and camera are excluded from FBX. Passenger and berth markers are authoring references, not claims of runtime validation.
 

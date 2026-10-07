@@ -8,72 +8,15 @@
     "bogie_pivot_span": true,
     "bounds_reasonable": true,
     "no_inward_closed_meshes": true,
-    "no_zero_area_faces": false,
+    "no_zero_area_faces": true,
     "no_studio_in_asset": true
   },
-  "passed": false,
-  "meshes": 4938,
-  "closed_meshes": 4861,
-  "open_surface_meshes": 77,
+  "passed": true,
+  "meshes": 5367,
+  "closed_meshes": 5278,
+  "open_surface_meshes": 89,
   "inward_meshes": [],
-  "degenerate_faces": [
-    {
-      "name": "Entry lettering",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering.001",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad",
-      "faces": 3
-    },
-    {
-      "name": "Grabrail mounting pad.001",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad.006",
-      "faces": 1
-    },
-    {
-      "name": "Technical maintenance stencil",
-      "faces": 2
-    },
-    {
-      "name": "Technical maintenance stencil.001",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering.002",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering.003",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad.008",
-      "faces": 3
-    },
-    {
-      "name": "Grabrail mounting pad.009",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad.014",
-      "faces": 1
-    },
-    {
-      "name": "Technical maintenance stencil.002",
-      "faces": 2
-    },
-    {
-      "name": "Technical maintenance stencil.003",
-      "faces": 2
-    }
-  ],
+  "degenerate_faces": [],
   "bounds_m": [
     [
       -11.148500442504883,

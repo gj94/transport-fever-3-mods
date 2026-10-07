@@ -5,7 +5,7 @@ from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 folder=Path(bpy.data.filepath).parent;m=json.loads((folder/'manifest.json').read_text());vertices=[];faces=[]
 for o in bpy.data.objects:
- if o.type!='MESH' or not o.name.startswith(('Pressed bodyside skin','Lined bodyside aperture panel','Pressed window aperture corner infill')):continue
+ if o.type!='MESH' or not o.name.startswith(('Pressed bodyside skin','Lined bodyside aperture panel','Pressed window aperture corner infill','Window pressed reveal return','Entrance aperture steel return')):continue
  n=len(vertices);vertices.extend(o.matrix_world@v.co for v in o.data.vertices);faces.extend(tuple(n+i for i in p.vertices) for p in o.data.polygons)
 tree=BVHTree.FromPolygons(vertices,faces,all_triangles=False)
 results=[]

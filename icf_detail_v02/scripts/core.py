@@ -49,7 +49,7 @@ def empty(n,loc,parent=None,yaw=0):
  o=bpy.data.objects.new(n,None);C.objects.link(o);o.parent=parent;o.location=loc;o.rotation_euler.z=yaw;o.empty_display_type='ARROWS';o.empty_display_size=.13;bpy.context.view_layer.update();return o
 
 def text(n,s,pos,size,m,sign=-1,parent=None):
- cu=bpy.data.curves.new(n,'FONT');cu.body=s;cu.size=size;cu.align_x='CENTER';cu.resolution_u=2;cu.extrude=.0002;o=bpy.data.objects.new(n,cu);C.objects.link(o);o.location=pos;o.rotation_euler=(math.pi/2,0,0 if sign==-1 else math.pi);cu.materials.append(m);o.parent=parent or BODY;o.matrix_parent_inverse=o.parent.matrix_world.inverted();return o
+ cu=bpy.data.curves.new(n,'FONT');cu.body=s;cu.size=size;cu.align_x='CENTER';cu.resolution_u=10;cu.extrude=.0002;o=bpy.data.objects.new(n,cu);C.objects.link(o);o.location=pos;o.rotation_euler=(math.pi/2,0,0 if sign==-1 else math.pi);cu.materials.append(m);o.parent=parent or BODY;o.matrix_parent_inverse=o.parent.matrix_world.inverted();return o
 
 def loop(n,x,y,z,w,h,m,parent=None):
  # Chamfered rectangular gasket ring. Nonzero aperture, no opaque pane behind it.
@@ -318,7 +318,9 @@ def sleeping_layout(tiers,bays,last_without_side=False):
    if tiers==3:berth((xx,-.61,2.36),'MIDDLE_FOLDED')
    berth((xx,-.61,3.06),'UPPER')
    for yy in [-1.35,.16]:
-    rod(pref+'_upper_support',(cx+side*(pitch/2-.62),yy,2.95),(cx+side*(pitch/2-.62),yy,3.50),.011,STEEL,INTERIOR)
+    hx=cx+side*(pitch/2-.62);ceiling=3.356+.587*math.sqrt(max(0,1-(yy/1.556)**2))
+    rod(pref+'_upper_support',(hx,yy,2.95),(hx,yy,ceiling-.012),.011,STEEL,INTERIOR)
+    box(pref+'_upper_hanger_ceiling_plate',(hx,yy,ceiling-.012),(.080,.065,.025),STEEL,INTERIOR,.004)
    for yy in [-1.37,.15]:rod(pref+'_luggage_rack_rail',(xx-.27,yy,FLOORZ+.14),(xx+.27,yy,FLOORZ+.14),.010,STEEL,INTERIOR)
    for dx in [-.25,-.125,0,.125,.25]:rod(pref+'_underseat_rack',(xx+dx,-1.38,FLOORZ+.14),(xx+dx,.15,FLOORZ+.14),.007,STEEL,INTERIOR,N=6)
    lx=cx+side*(pitch/2-.33)
@@ -341,18 +343,24 @@ def sleeping_layout(tiers,bays,last_without_side=False):
   box(pref+'_window_table',(cx,-1.28,1.95),(.36,.39,.035),TRIM,INTERIOR,.015)
   rod(pref+'_table_brace',(cx,-1.48,1.68),(cx,-1.14,1.92),.012,STEEL,INTERIOR)
   if V=='2A':
-   rod(pref+'_privacy_curtain_track',(cx-pitch/2,.38,3.31),(cx+pitch/2,.38,3.31),.012,STEEL,INTERIOR)
    # Curtains gathered to sides leave a visible, usable entry.
    for curtain_y in [.37,.85]:
     if curtain_y==.85 and last_without_side and b==bays-1:continue
     rod(pref+'_curtain_upper_track',(cx-pitch/2,curtain_y,3.31),(cx+pitch/2,curtain_y,3.31),.012,STEEL,INTERIOR)
     for xx in [cx-pitch/2+.09,cx+pitch/2-.09]:
-     vv=[];NX=20;NZ=8
+     vv=[];NX=24;NZ=20
      for iz in range(NZ+1):
+      t=iz/NZ;pinch=math.exp(-((t-.43)/.16)**2);width=.21-.10*pinch
       for ix in range(NX+1):
-       u=ix/NX;vv.append((xx+(u-.5)*.16,curtain_y+.025*math.cos(u*math.pi*8),1.50+iz*1.76/NZ+.012*math.sin(u*math.pi*4)*(1-iz/NZ)))
-     mesh(pref+'_gathered_privacy_curtain',vv,[(iz*(NX+1)+ix,iz*(NX+1)+ix+1,(iz+1)*(NX+1)+ix+1,(iz+1)*(NX+1)+ix) for iz in range(NZ) for ix in range(NX)],CURTAIN,INTERIOR)
-     box(pref+'_curtain_tie',(xx,curtain_y-.035,2.10),(.163,.017,.030),TRIM,INTERIOR,.004)
+       u=ix/NX;vv.append((xx+(u-.5)*width,curtain_y+(.029-.011*pinch)*math.cos(u*math.pi*8+.3*math.sin(t*math.pi)),FLOORZ+.055+t*(3.26-FLOORZ-.055)+.012*math.sin(u*math.pi*4)*(1-t)**5))
+     cloth=mesh(pref+'_gathered_privacy_curtain',vv,[(iz*(NX+1)+ix,iz*(NX+1)+ix+1,(iz+1)*(NX+1)+ix+1,(iz+1)*(NX+1)+ix) for iz in range(NZ) for ix in range(NX)],CURTAIN,INTERIOR)
+     for poly in cloth.data.polygons:poly.use_smooth=True
+     path(pref+'_curtain_lower_hem',vv[:NX+1],.0018,CURTAIN,INTERIOR,6)
+     box(pref+'_curtain_tie',(xx,curtain_y-.035,2.10),(.112,.013,.029),CURTAIN,INTERIOR,.004)
+     for k in range(5):
+      xp=xx+(k/4-.5)*.19;pp=[(xp,curtain_y+.013*math.cos(a*math.pi/8),3.294+.013*math.sin(a*math.pi/8)) for a in range(17)]
+      path(pref+'_curtain_hanging_ring',pp,.0023,STEEL,INTERIOR,6)
+      rod(pref+'_curtain_small_hook',(xp,curtain_y,3.282),(xp,curtain_y+.025,3.26),.0024,STEEL,INTERIOR,N=6)
 
   fan(cx,-.61,3.43)  # conventional coaches retain supplementary circulating fans
   text(pref+'_number_plate',str(b+1),(cx+.4,.348,3.18),.085,DARK,1,INTERIOR)
@@ -369,8 +377,8 @@ def first_class():
   for xa,xb in [(start,doorx-dw/2),(doorx+dw/2,end)]:box(prefix+'_corridor_wall',((xa+xb)/2,.57,2.37),(xb-xa,.045,2.10),CREAM,INTERIOR)
   box(prefix+'_door_header',(doorx,.57,3.31),(.74,.055,.20),TRIM,INTERIOR)
   # Parked sliding door leaves doorway open and interior review possible.
-  box(prefix+'_sliding_door_parked',(doorx+.76,.605,2.36),(.70,.034,1.94),TRIM,INTERIOR,.01)
-  rod(prefix+'_door_pull',(doorx+.52,.631,2.02),(doorx+.52,.631,2.30),.012,STEEL,INTERIOR)
+  box(prefix+'_sliding_door_parked',(doorx-.76,.605,2.36),(.70,.034,1.94),TRIM,INTERIOR,.01)
+  rod(prefix+'_door_pull',(doorx-.52,.631,2.02),(doorx-.52,.631,2.30),.012,STEEL,INTERIOR)
   text(prefix+'_nameplate',prefix.replace('_',' '),(doorx,.643,3.15),.078,DARK,1,INTERIOR)
   xvals=[start+.41,end-.41] if num==4 else [start+.42]
   for j,xx in enumerate(xvals):
@@ -380,18 +388,37 @@ def first_class():
    for yy in [-1.05,.05]:pax((xx,yy,seat_top-.483),face)
    berth((xx,-.49,seat_top),'LOWER');berth((xx,-.49,3.01),'UPPER')
    box(prefix+'_lower_berth_base',(xx,-.49,seat_top-.245),(.72,1.83,.26),DARK,INTERIOR,.018)
-   for yy in [-1.35,.34]:rod(prefix+'_upper_hanger',(xx+(.28 if face==0 else -.28),yy,2.92),(xx+(.28 if face==0 else -.28),yy,3.51),.012,STEEL,INTERIOR)
+   for yy in [-1.35,.34]:
+    hx=xx+(.28 if face==0 else -.28);ceiling=3.356+.587*math.sqrt(max(0,1-(yy/1.556)**2))
+    rod(prefix+'_upper_hanger',(hx,yy,2.92),(hx,yy,ceiling-.012),.012,STEEL,INTERIOR)
+    box(prefix+'_upper_hanger_ceiling_plate',(hx,yy,ceiling-.012),(.085,.065,.025),STEEL,INTERIOR,.004)
    rod(prefix+'_upper_safety_rail',(xx-.28,.435,3.06),(xx+.28,.435,3.06),.013,STEEL,INTERIOR)
    for dx in [-.12,.12]:rod(prefix+'_ladder_upright',(xx+dx,.465,FLOORZ+.02),(xx+dx,.465,3.02),.014,STEEL,INTERIOR)
    for zz in [1.62,1.94,2.26,2.58,2.90]:rod(prefix+'_ladder_step',(xx-.12,.465,zz),(xx+.12,.465,zz),.012,STEEL,INTERIOR)
   tablex=cx if num==4 else end-.50
   box(prefix+'_folding_table',(tablex,-1.22,1.99),(.53,.52,.033),TRIM,INTERIOR,.018)
   rod(prefix+'_table_bracket',(tablex,-1.48,1.66),(tablex,-1.01,1.96),.015,STEEL,INTERIOR)
-  box(prefix+'_mirror',(tablex,-1.521,2.89),(.53,.01,.41),MIRROR,INTERIOR)
-  box(prefix+'_controls',(tablex,-1.51,2.22),(.28,.035,.15),TRIM,INTERIOR)
-  for xx in [-.075,0,.075]:box(prefix+'_switch',(tablex+xx,-1.483,2.22),(.04,.017,.046),DARK,INTERIOR)
+  if num==4:
+   box(prefix+'_mirror_frame',(tablex,-1.522,2.965),(.47,.018,.40),STEEL,INTERIOR,.012)
+   box(prefix+'_mirror',(tablex,-1.508,2.965),(.425,.006,.358),MIRROR,INTERIOR,.005)
+   box(prefix+'_vertical_control_column',(tablex,-1.508,2.30),(.18,.025,.77),TRIM,INTERIOR,.008)
+   for zz in [2.09,2.20,2.31,2.42,2.53]:
+    box(prefix+'_individual_switch_plate',(tablex,-1.489,zz),(.128,.014,.085),CREAM,INTERIOR,.004)
+    box(prefix+'_rocker_switch',(tablex+.027,-1.479,zz),(.038,.010,.049),DARK,INTERIOR,.004)
+   box(prefix+'_socket_faceplate',(tablex,-1.487,2.625),(.128,.018,.13),CREAM,INTERIOR,.007)
+   for dx,dz,rr in [(-.029,-.015,.0065),(.029,-.015,.0065),(0,.033,.0085)]:rod(prefix+'_three_pin_socket_recess',(tablex+dx,-1.479,2.625+dz),(tablex+dx,-1.475,2.625+dz),rr,DARK,INTERIOR,N=16)
+   text(prefix+'_voltage_label','230 V AC',(tablex,-1.473,2.70),.034,DARK,1,INTERIOR)
+  else:
+   box(prefix+'_coupe_partition_mirror_frame',(end-.034,-.76,2.79),(.018,.47,.52),STEEL,INTERIOR,.012)
+   box(prefix+'_coupe_partition_mirror',(end-.048,-.76,2.79),(.006,.427,.476),MIRROR,INTERIOR,.006)
+   box(prefix+'_coupe_controls',(end-.05,-.76,2.29),(.025,.18,.32),TRIM,INTERIOR,.006)
+   for zz in [2.21,2.30,2.39]:box(prefix+'_coupe_switch',(end-.068,-.76,zz),(.010,.085,.055),DARK,INTERIOR,.004)
+  box(prefix+'_sliding_door_guide_rail',(doorx-.38,.615,3.395),(1.51,.075,.06),TRIM,INTERIOR,.009)
+  box(prefix+'_door_lock_plate',(doorx-.52,.632,2.055),(.075,.015,.24),STEEL,INTERIOR,.006)
+  rod(prefix+'_door_privacy_latch',(doorx-.52,.643,2.005),(doorx-.52,.663,2.005),.022,STEEL,INTERIOR,N=20)
   box(prefix+'_reading_light',(tablex,-1.40,3.19),(.30,.16,.075),LAMP,INTERIOR,.01)
-  for yy in [-1.0,-.5,0]:rod(prefix+'_luggage_rack',(end-.24,yy,2.48),(end-.24,yy+.35,2.48),.01,STEEL,INTERIOR)
+  for xx in xvals:
+   for y0 in [-1.31,.25]:rod(prefix+'_underberth_luggage_retainer',(xx-.30,y0,FLOORZ+.14),(xx+.30,y0,FLOORZ+.14),.011,STEEL,INTERIOR)
   fan(cx,-.46,3.45)
   start=end
  box('Cabin_F_end_partition',(7.5,-.46,2.37),(.05,2.08,2.10),CREAM,INTERIOR)
@@ -467,6 +494,13 @@ def build(v,render=False):
   bm=bmesh.new();bm.from_mesh(ob.data)
   bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=1e-6)
   bmesh.ops.dissolve_degenerate(bm,edges=list(bm.edges),dist=1e-6)
+  # Font tessellation can leave collinear zero-area slivers despite welded edges.
+  tiny=[face for face in bm.faces if face.calc_area()<1e-12]
+  if tiny:bmesh.ops.delete(bm,geom=tiny,context='FACES_ONLY')
+  wire=[edge for edge in bm.edges if not edge.link_faces]
+  if wire:bmesh.ops.delete(bm,geom=wire,context='EDGES')
+  loose=[vert for vert in bm.verts if not vert.link_edges]
+  if loose:bmesh.ops.delete(bm,geom=loose,context='VERTS')
   if bm.edges and all(e.is_manifold for e in bm.edges):bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces))
   bm.to_mesh(ob.data);bm.free();ob.data.update()
 
@@ -484,7 +518,12 @@ def build(v,render=False):
  for o in asset:
   if not o.name.startswith('BERTH_'):o.hide_set(False);o.select_set(True)
  bpy.context.view_layer.objects.active=ROOT
+ # Blender keeps physical dielectric alpha=1. FBX receives its documented
+ # transparency fallback only during export, then authoring values are restored.
+ glass_alpha=GLASS.node_tree.nodes.get('Principled BSDF').inputs['Alpha'].default_value
+ GLASS.node_tree.nodes.get('Principled BSDF').inputs['Alpha'].default_value=GLASS.get('fbx_fallback_alpha',.24)
  bpy.ops.export_scene.fbx(filepath=str(folder/f'ICF_{v}.fbx'),use_selection=True,object_types={'MESH','EMPTY'},axis_forward='X',axis_up='Z',apply_unit_scale=True,use_mesh_modifiers=True,add_leaf_bones=False,bake_anim=False,use_custom_props=True,path_mode='COPY',embed_textures=False)
+ GLASS.node_tree.nodes.get('Principled BSDF').inputs['Alpha'].default_value=glass_alpha
  print('BUILT_VARIANT',v,json.dumps({'triangles':triangles,'materials':manifest['material_count'],'pax':NPAX,'berths':NBERTH}),flush=True)
  if render:render_views(folder)
  return manifest

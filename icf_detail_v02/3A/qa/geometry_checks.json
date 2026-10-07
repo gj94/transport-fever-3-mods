@@ -7,129 +7,16 @@
     "buffer_anchor_span": true,
     "bogie_pivot_span": true,
     "bounds_reasonable": true,
-    "no_inward_closed_meshes": false,
-    "no_zero_area_faces": false,
+    "no_inward_closed_meshes": true,
+    "no_zero_area_faces": true,
     "no_studio_in_asset": true
   },
-  "passed": false,
-  "meshes": 5790,
-  "closed_meshes": 5751,
-  "open_surface_meshes": 39,
-  "inward_meshes": [
-    "Bottle holder wall mounting plate.013",
-    "Bottle holder wall mounting plate.014",
-    "Bottle holder wall mounting plate.015"
-  ],
-  "degenerate_faces": [
-    {
-      "name": "Bay_04_number_plate",
-      "faces": 1
-    },
-    {
-      "name": "Berth range stencil.002",
-      "faces": 1
-    },
-    {
-      "name": "Berth range stencil.004",
-      "faces": 2
-    },
-    {
-      "name": "Berth range stencil.005",
-      "faces": 2
-    },
-    {
-      "name": "Berth range stencil.006",
-      "faces": 1
-    },
-    {
-      "name": "Berth range stencil.007",
-      "faces": 2
-    },
-    {
-      "name": "Coach number illustrative",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering.001",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad",
-      "faces": 3
-    },
-    {
-      "name": "Grabrail mounting pad.001",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad.006",
-      "faces": 1
-    },
-    {
-      "name": "Technical maintenance stencil",
-      "faces": 3
-    },
-    {
-      "name": "Technical maintenance stencil.001",
-      "faces": 3
-    },
-    {
-      "name": "Berth range stencil.010",
-      "faces": 1
-    },
-    {
-      "name": "Berth range stencil.012",
-      "faces": 2
-    },
-    {
-      "name": "Berth range stencil.013",
-      "faces": 2
-    },
-    {
-      "name": "Berth range stencil.014",
-      "faces": 1
-    },
-    {
-      "name": "Berth range stencil.015",
-      "faces": 2
-    },
-    {
-      "name": "Coach number illustrative.001",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering.002",
-      "faces": 2
-    },
-    {
-      "name": "Entry lettering.003",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad.008",
-      "faces": 3
-    },
-    {
-      "name": "Grabrail mounting pad.009",
-      "faces": 2
-    },
-    {
-      "name": "Grabrail mounting pad.014",
-      "faces": 1
-    },
-    {
-      "name": "Technical maintenance stencil.002",
-      "faces": 3
-    },
-    {
-      "name": "Technical maintenance stencil.003",
-      "faces": 3
-    }
-  ],
+  "passed": true,
+  "meshes": 5866,
+  "closed_meshes": 5802,
+  "open_surface_meshes": 64,
+  "inward_meshes": [],
+  "degenerate_faces": [],
   "bounds_m": [
     [
       -11.148500442504883,

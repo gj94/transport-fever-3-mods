@@ -44,9 +44,9 @@
       4.086999893188477
     ]
   ],
-  "triangles": 741328,
-  "mesh_objects": 6783,
-  "material_count": 29,
+  "triangles": 1012448,
+  "mesh_objects": 6975,
+  "material_count": 31,
   "windows_per_side": 18,
   "window_apertures": [
     {
@@ -361,19 +361,28 @@
     "Markings and small fitting positions are illustrative; no numbered coach is claimed as an exact replica.",
     "Screw coupling is shown hanging and uncoupled. Rake linkage and locomotive transition-coupler compatibility are unvalidated."
   ],
+  "build_pass": "r06",
   "build_source_sha256": {
-    "icf_shell.py": "921a1773639ca866f5827e697d1082276e40e362196d987398423e9fdbcd0407",
-    "build.py": "be3e95403747a69161c2035cad511bd227d2d1ae66ad9cc76a29f055dc75904d",
-    "validate_detail.py": "e58dec12a712d450c216c392800c6207192925be9dce44f87fe6980d8a62fa46",
-    "icf_running_gear.py": "64470e779aca3013d2389b2d44323213c7608bad0472ba1241b4aaaa13945599",
-    "render_detail.py": "a324e97e2b39378b3332a7b3b9e717ef2d8baad8e38c79cfbebd3a1152f0af73",
-    "icf_service_interior.py": "71bc6f2310e0247280a4fafd01719e5959c86a92678c877420598e13dc9835d2",
-    "detail_fittings.py": "d439d20cc23bc57bdaa0ef5c6c726ff90d1ad766bca7a091d188f41974e7fee1",
-    "core.py": "fd362f25b0a89e314ba6be5ae7141e615cb012cb22be509fa5272e66d2f6bf92",
+    "build.py": "0db1a3cb60dbf8ff0d6836c4229ccf26c3d99a1fc525c9cd5fdab4c1be84c91a",
+    "core.py": "751e43ec3b6656e36fde23062e827fff873bd6c0dd0968ca410f0ab03553820f",
+    "detail_fittings.py": "870f7cac5f6fc30a10c24dab800c10c445e690080a0e1a1d4a688e92aa90e8fc",
+    "icf_shell.py": "ae8e9929660c406cf95c7957459ba4fc10a6b1fce6f7cb10639969e54e3f1f71",
     "icf_coupling.py": "3d5324c904e86279129198b13b1a5e74d2a7b18b9c4a8749bdb53cd0f047ea0c",
-    "qa_icf_running_gear.py": "845e38faad2879b01fbb6e235347eb94862510e021c6b736dd50108e8fa9c585"
+    "icf_running_gear.py": "64470e779aca3013d2389b2d44323213c7608bad0472ba1241b4aaaa13945599",
+    "icf_service_interior.py": "71bc6f2310e0247280a4fafd01719e5959c86a92678c877420598e13dc9835d2",
+    "icf_upholstery.py": "319c9f1324b0490ffdc6a0bd7a490b1b6f816c5acbe110bc5d7e44c2398da9d7",
+    "icf_markings.py": "a1a89b6dc66498b7a622df55f9f639628ea546e2820dbd6623bd950b1344c091"
   },
-  "build_time_utc": "2026-10-07T18:00:14.082728+00:00",
+  "texture_source_sha256": {
+    "class_hi_CC.png": "871ca40e3e0f384a8397dc987efb9a128ed994538aa74ed270f27de3b9803ab4",
+    "class_hi_2S.png": "f54c7ffc673247a7472727026c2a54aae950fc3439dc292761afb1e228a5e9f4",
+    "class_hi_3A.png": "bfa1afa49c4b1de6273d3d436238e24bd1f0d5b98175952c3efd8eb7894be8ee",
+    "class_hi_1A.png": "23fc5b0fb8bedc57f90f56b5ec726c2ec2821c0c9956106791c471137ee8f829",
+    "class_hi_GS.png": "f54c7ffc673247a7472727026c2a54aae950fc3439dc292761afb1e228a5e9f4",
+    "class_hi_SL.png": "6d2a9b682a500d45335942cdcc5c1002da7e75c4ac0f3a541a080cebac614bbd",
+    "class_hi_2A.png": "d03a7f20e677f8c2fbf08f3e17a76c9e687babffe42d8e835cc1edfd3ef1c963"
+  },
+  "build_time_utc": "2026-10-07T18:38:20.184635+00:00",
   "revision": "icf_detail_v02",
   "hardware": "Conventional screw coupling and side buffers; static uncoupled configuration",
   "detail_scope": [

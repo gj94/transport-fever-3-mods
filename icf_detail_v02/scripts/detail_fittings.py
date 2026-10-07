@@ -32,8 +32,11 @@ def circle(g,name,center,radius,material,parent=None,plane='XY',tube_radius=.004
 
 def fan(g,x,y,z):
  parent=g.INTERIOR
- g.rod('Fan ceiling stem',(x,y,z+.25),(x,y,z+.085),.018,g.TRIM,parent,N=20)
- g.rod('Fan pressed ceiling flange',(x,y,z+.237),(x,y,z+.255),.065,g.TRIM,parent,N=32)
+ # Mount against the actual arched lining, rather than leaving an air gap.
+ ceiling=3.356+.587*math.sqrt(max(0,1-(y/1.556)**2))
+ z=ceiling-.27
+ g.rod('Fan ceiling stem',(x,y,ceiling-.016),(x,y,z+.085),.018,g.TRIM,parent,N=20)
+ g.rod('Fan pressed ceiling flange',(x,y,ceiling-.017),(x,y,ceiling+.003),.065,g.TRIM,parent,N=32)
  g.rod('Fan round motor housing',(x,y,z-.007),(x,y,z+.112),.060,g.TRIM,parent,N=32)
  for dz,r in [(-.056,.063),(-.048,.112),(-.029,.166),(0,.205),(.052,.205),(.072,.16)]:circle(g,'Fan concentric safety grille',(x,y,z+dz),r,g.TRIM,parent,tube_radius=.0025)
  for j in range(24):
@@ -48,10 +51,26 @@ def fan(g,x,y,z):
   a=j*math.pi/2;g.box('Fan grille locking clip',(x+.205*math.cos(a),y+.205*math.sin(a),z+.026),(.019,.019,.014),g.DARK,parent,.004)
 
 def upholstery(g,name,center,size):
- o=g.box(name,center,size,g.UPHOL,g.INTERIOR,.027)
- for m in o.modifiers:
-  if m.type=='BEVEL':m.segments=4
- o.modifiers.new('Upholstery weighted corner normals','WEIGHTED_NORMAL')
+ if size[2]<.20:
+  x,y,z=center;dx,dy,dz=[v/2 for v in size];rr=min(.044,dx*.20,dy*.20);rim=[]
+  for cx,cy,ang in [(dx-rr,dy-rr,0),(-dx+rr,dy-rr,90),(-dx+rr,-dy+rr,180),(dx-rr,-dy+rr,270)]:
+   for j in range(9):
+    a=math.radians(ang+j*90/8);rim.append((cx+rr*math.cos(a),cy+rr*math.sin(a)))
+  N=len(rim);vs=[]
+  # Gently stuffed crown and rounded perimeter, with a low central compression.
+  rings=[(1,z-dz+.020),(1,z+dz-.022),(.985,z+dz-.004),(.94,z+dz+.003),(.73,z+dz+.006),(.38,z+dz+.004)]
+  for scale,zz in rings:vs.extend((x+px*scale,y+py*scale,zz) for px,py in rim)
+  vs.extend([(x,y,z-dz),(x,y,z+dz+.002)])
+  fs=[(k*N+j,k*N+(j+1)%N,(k+1)*N+(j+1)%N,(k+1)*N+j) for k in range(len(rings)-1) for j in range(N)]
+  fs.extend((len(rings)*N,j,(j+1)%N) for j in range(N));fs.extend((len(rings)*N+1,(len(rings)-1)*N+(j+1)%N,(len(rings)-1)*N+j) for j in range(N))
+  o=g.mesh(name,vs,fs,g.UPHOL,g.INTERIOR)
+  for p in o.data.polygons:p.use_smooth=True
+  o['cushion_unloaded_crown_m']=.006;o['seated_reference']='Nominal cushion plane; allows soft cover compression'
+ else:
+  o=g.box(name,center,size,g.UPHOL,g.INTERIOR,.027)
+  for m in o.modifiers:
+   if m.type=='BEVEL':m.segments=4
+  o.modifiers.new('Upholstery weighted corner normals','WEIGHTED_NORMAL')
  o['component']='seat_cushion';g.CUSHIONS.append(o)
  x,y,z=center;dx,dy,dz=[v/2 for v in size]
  # A restrained tailored welt on horizontal cushions and around upright backs.
@@ -62,7 +81,12 @@ def upholstery(g,name,center,size):
     t=math.radians(a+k*15);points.append((x+cx+rr*math.cos(t),y+cy+rr*math.sin(t),z+dz-.016))
   points.append(points[0]);tube(g,name+'_stitched_edge_welt',points,.0027,g.SEAM,g.INTERIOR,6)
   if size[1]>1.1:
-   for xx in [-.16,.16]:g.rod(name+'_subtle_cover_stitch',(x+xx,y-dy+.04,z+dz+.0005),(x+xx,y+dy-.04,z+dz+.0005),.0008,g.SEAM,g.INTERIOR,N=6)
+   for xx in [-.16,.16]:
+    pts=[]
+    for j in range(17):
+     yy=-dy+.04+j*(2*dy-.08)/16;rise=.006*(1-(yy/dy)**4)*(1-(xx/dx)**4)
+     pts.append((x+xx,y+yy,z+dz+rise+.001))
+    g.path(name+'_subtle_cover_stitch',pts,.0008,g.SEAM,g.INTERIOR,6)
  return o
 
 def bottle_holder(g,x,y,z,parent=None):
@@ -110,7 +134,8 @@ def finish(g):
  if V=='1A':
   for x in [-6,-3,-.5,1.5,3.5,6]:
    # Private compartment fittings: robe hooks, mirror frame, timber grain accent, reading controls.
-   bottle_holder(g,x,-1.40,1.68)
+   tx=x+.5 if x in [-.5,1.5,3.5] else x
+   for dx in [-.37,.37]:bottle_holder(g,tx+dx,-1.425,1.86)
    for dx in [-.16,.16]:g.path('First AC polished coat hook',[(x+dx,-1.52,2.81),(x+dx,-1.46,2.81),(x+dx,-1.44,2.86)],.008,g.BRASS,g.INTERIOR,12)
    g.box('First AC compartment call plate',(x,.544,2.09),(.085,.018,.11),g.TRIM,g.INTERIOR,.008)
    g.rod('Compartment call pushbutton',(x,.524,2.09),(x,.532,2.09),.018,g.RED,g.INTERIOR,N=20)

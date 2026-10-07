@@ -73,7 +73,7 @@ def build(g,ac):
    g.box('Washbasin mirror',(end*9.632,yy,2.62),(.012,.50,.58),g.MIRROR,g.INTERIOR,.008)
    for zz in [2.32,2.92]:g.box('Washbasin mirror horizontal trim',(end*9.620,yy,zz),(.020,.525,.025),g.STEEL,g.INTERIOR,.005)
   for yy in [-1.34,1.34]:g.rod('Vestibule interior grab pole',(end*8.60,yy,floor+.12),(end*8.60,yy,3.18),.021,g.STEEL,g.INTERIOR)
-  g.text('Interior emergency instructions','EMERGENCY',(end*8.48,-1.468,2.48),.065,g.RED,-1,g.INTERIOR)
+  g.text('Interior emergency instructions','EMERGENCY',(end*8.48,-1.468,2.48),.065,g.RED,1,g.INTERIOR)
   g.box('Electrical distribution cupboard',(end*8.50,1.28,2.34),(.40,.45,1.91),g.CREAM,g.INTERIOR,.01)
   for z in [1.65,2.1,2.55,3.0]:
    g.box('Distribution cupboard access panel',(end*8.50,1.04,z),(.34,.018,.35),g.TRIM,g.INTERIOR,.004)

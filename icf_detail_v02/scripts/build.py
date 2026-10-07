@@ -9,7 +9,10 @@ HERE=Path(__file__).resolve().parent
 sys.path.insert(0,str(HERE))
 import core as g
 import icf_shell,icf_coupling,detail_fittings,icf_running_gear,icf_service_interior,icf_upholstery
-SOURCE_HASHES={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in HERE.glob('*.py')}
+MODEL_SOURCES=['build.py','core.py','detail_fittings.py','icf_shell.py','icf_coupling.py','icf_running_gear.py','icf_service_interior.py','icf_upholstery.py','icf_markings.py']
+SOURCE_HASHES={n:hashlib.sha256((HERE/n).read_bytes()).hexdigest() for n in MODEL_SOURCES}
+TEXTURE_HASHES={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (HERE.parent/'textures').glob('*.png')}
+BUILD_PASS='r07'
 OLD_MATERIAL=g.material
 OLD_ROD=g.rod
 OLD_BOX=g.box
@@ -20,19 +23,23 @@ def material(n,c,metal=0,rough=.45,alpha=1,transmission=0,emit=0):
  if n=='Aluminium silver roof':n='Painted steel roof softly weathered';c=(.57,.59,.56);metal=.08;rough=.69
  if n=='Underframe graphite':c=(.049,.055,.057);metal=.33;rough=.53
  if n=='Warm ivory laminate':c=(.68,.70,.61);rough=.47
- if n=='GLASS sealed passenger glazing alpha fallback':c=(.67,.78,.79);alpha=.24;transmission=.95;rough=.105
+ if n=='GLASS sealed passenger glazing alpha fallback':c=(.48,.60,.62);alpha=1;transmission=.95;rough=.08
+ if n=='Brushed mirror panel':c=(.90,.92,.93);metal=1;rough=.025
  if n=='Blue passenger upholstery':c=(.026,.109,.242);rough=.52
  if n=='Muted teal privacy curtain' and g.V=='1A':c=(.30,.205,.105);rough=.83
  if n=='Speckled nonslip lino' and g.V=='1A':c=(.17,.13,.11);rough=.73
- return OLD_MATERIAL(n,c,metal,rough,alpha,transmission,emit)
+ m=OLD_MATERIAL(n,c,metal,rough,alpha,transmission,emit)
+ if n=='GLASS sealed passenger glazing alpha fallback':m['fbx_fallback_alpha']=.24
+ return m
 g.material=material
 
 def rod(name,a,b,r,mat,parent=None,N=12,coll=None):
+ if parent is getattr(g,'INTERIOR',None) and mat is getattr(g,'STEEL',None):mat=getattr(g,'SATIN',mat)
  o=OLD_ROD(name,a,b,r,mat,parent,max(N,8),coll)
  for p in o.data.polygons[:-2]:p.use_smooth=True
  return o
 g.rod=rod
-g.path=lambda name,pts,r,m,parent=None,N=12:detail_fittings.tube(g,name,pts,r,m,parent,N)
+g.path=lambda name,pts,r,m,parent=None,N=12:detail_fittings.tube(g,name,pts,r,getattr(g,'SATIN',m) if parent is getattr(g,'INTERIOR',None) and m is getattr(g,'STEEL',None) else m,parent,N)
 g.cushion=lambda n,c,s:detail_fittings.upholstery(g,n,c,s)
 g.fan=lambda x,y,z:detail_fittings.fan(g,x,y,z)
 
@@ -49,6 +56,23 @@ def material_nodes():
   bump=nt.nodes.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.13;bump.inputs['Distance'].default_value=.00012 if m==g.UPHOL else .00028;nt.links.new(fine.outputs['Fac'],bump.inputs['Height']);nt.links.new(bump.outputs['Normal'],p.inputs['Normal'])
   rough=nt.nodes.new('ShaderNodeMapRange');rough.inputs['From Min'].default_value=0;rough.inputs['From Max'].default_value=1;rough.inputs['To Min'].default_value=max(.08,p.inputs['Roughness'].default_value-.06);rough.inputs['To Max'].default_value=min(.9,p.inputs['Roughness'].default_value+.08);nt.links.new(noise.outputs['Fac'],rough.inputs['Value']);nt.links.new(rough.outputs['Result'],p.inputs['Roughness'])
 
+def service_weathering():
+ # Restrained weather has a physical location: lower-panel road film and roof
+ # runoff. It is not uniform random distress or copied photographic grunge.
+ for mat in [g.BLUE,g.CYAN,g.ROOF]:
+  nt=mat.node_tree;p=nt.nodes.get('Principled BSDF');original=p.inputs['Base Color'].links[0].from_socket
+  geo=nt.nodes.new('ShaderNodeNewGeometry');sep=nt.nodes.new('ShaderNodeSeparateXYZ');nt.links.new(geo.outputs['Position'],sep.inputs[0])
+  zmask=nt.nodes.new('ShaderNodeMapRange');zmask.clamp=True;nt.links.new(sep.outputs['Z'],zmask.inputs['Value'])
+  if mat==g.ROOF:
+   zmask.inputs['From Min'].default_value=3.39;zmask.inputs['From Max'].default_value=4.025;zmask.inputs['To Min'].default_value=.14;zmask.inputs['To Max'].default_value=.025;scale=(6,.45,.15);dirt=(.29,.28,.25,1)
+  else:
+   zmask.inputs['From Min'].default_value=1.28;zmask.inputs['From Max'].default_value=1.90;zmask.inputs['To Min'].default_value=.14;zmask.inputs['To Max'].default_value=0;scale=(3,.4,.22);dirt=(.105,.082,.054,1)
+  stretch=nt.nodes.new('ShaderNodeVectorMath');stretch.operation='MULTIPLY';stretch.inputs[1].default_value=scale;nt.links.new(geo.outputs['Position'],stretch.inputs[0])
+  noise=nt.nodes.new('ShaderNodeTexNoise');noise.inputs['Scale'].default_value=1;noise.inputs['Detail'].default_value=3;nt.links.new(stretch.outputs[0],noise.inputs['Vector'])
+  mult=nt.nodes.new('ShaderNodeMath');mult.operation='MULTIPLY';nt.links.new(zmask.outputs['Result'],mult.inputs[0]);nt.links.new(noise.outputs['Fac'],mult.inputs[1])
+  mix=nt.nodes.new('ShaderNodeMixRGB');nt.links.new(mult.outputs[0],mix.inputs[0]);nt.links.new(original,mix.inputs[1]);mix.inputs[2].default_value=dirt;nt.links.new(mix.outputs[0],p.inputs['Base Color'])
+  mat['finish_note']='Maintained stock: faint lower-body road film / roof runoff; original procedural material'
+
 def first_class_materials():
  if g.V!='1A':return
  nt=g.UPHOL.node_tree;p=nt.nodes.get('Principled BSDF');geo=nt.nodes.new('ShaderNodeNewGeometry');bands=[]
@@ -63,10 +87,12 @@ def first_class_materials():
  nt=g.FLOOR.node_tree;p=nt.nodes.get('Principled BSDF');tex=nt.nodes.new('ShaderNodeTexChecker');geo=nt.nodes.new('ShaderNodeNewGeometry');tex.inputs['Scale'].default_value=10;tex.inputs['Color1'].default_value=(.15,.105,.083,1);tex.inputs['Color2'].default_value=(.19,.15,.12,1);nt.links.new(geo.outputs['Position'],tex.inputs['Vector']);nt.links.new(tex.outputs['Color'],p.inputs['Base Color'])
 
 def shell(cfg):
+ g.ROOT['build_pass']=BUILD_PASS
  g.BRASS=g.material('Valve brass',(.31,.18,.065),.78,.35)
  g.RUST=g.material('Restrained oxide fastener',(.12,.057,.028),.42,.77)
+ g.SATIN=g.material('Service satin interior stainless',(.30,.34,.35),.52,.46)
  g.SEAM=g.material('Upholstery tailored seam',(.105,.16,.22) if g.V!='1A' else (.19,.063,.065),0,.69)
- material_nodes();first_class_materials()
+ material_nodes();service_weathering();first_class_materials()
  return icf_shell.build(g,cfg)
 g.shell=shell
 
@@ -83,11 +109,13 @@ g.coupling=lambda:icf_coupling.build(g)
 g.toilets_and_ends=lambda ac:icf_service_interior.build(g,ac)
 
 def refined_box(name,c,size,mat,parent=None,bevel=0,coll=None):
+ if parent is getattr(g,'INTERIOR',None) and mat is getattr(g,'STEEL',None):mat=getattr(g,'SATIN',mat)
  if name in ['Chair upholstered back','Low-back seat shell']:
   row=min(range(18),key=lambda r:abs(c[0]-(-7.14+r*.84-(.25 if r%2==0 else -.25)))) if name=='Low-back seat shell' else 0
   return icf_upholstery.back(g,name,c,size,mat,parent or g.BODY,name=='Chair upholstered back',1 if row%2==0 else -1)
+ if name=='Chair headrest cover':return icf_upholstery.headrest_cloth(g,name,c,size,mat,parent or g.BODY)
  if name=='Chair rear moulded shell':
-  c=(c[0]-.035,c[1],c[2]);return icf_upholstery.back(g,name,c,size,mat,parent or g.BODY,True)
+  c=(c[0]-.035,c[1],c[2]);return icf_upholstery.back(g,name,c,size,g.DARK,parent or g.BODY,True)
  return OLD_BOX(name,c,size,mat,parent,bevel,coll)
 g.box=refined_box
 
@@ -103,7 +131,7 @@ if __name__=='__main__':
  manifests=[]
  for v in variants:
   d=g.build(v,False)
-  d['build_source_sha256']=SOURCE_HASHES;d['build_time_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();d['revision']='icf_detail_v02';d['hardware']='Conventional screw coupling and side buffers; static uncoupled configuration'
+  d['build_pass']=BUILD_PASS;d['build_source_sha256']=SOURCE_HASHES;d['texture_source_sha256']=TEXTURE_HASHES;d['build_time_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();d['revision']='icf_detail_v02';d['hardware']='Conventional screw coupling and side buffers; static uncoupled configuration'
   d['detail_scope']=['True full-height door apertures','Radiused glazing and separate rubber/aluminium frames','Non-AC raised louvred shutters and security bars','Detailed all-coil ICF bogies with tread brakes and axle driven alternators','Fabricated screw coupling and dished buffers','Class-specific physical interior and tailored cushions','Wire fan cages, berth hardware, sanitary fittings and service equipment']
   d['known_limits']=[x for x in d['known_limits'] if 'No LODs' not in x]+['Source geometry is detailed authoring quality, not a new native game build. LOD/UV bake/animation/runtime conversion remains separate.','Markings and small fitting positions are illustrative; no numbered coach is claimed as an exact replica.','Screw coupling is shown hanging and uncoupled. Rake linkage and locomotive transition-coupler compatibility are unvalidated.']
   (g.OUT/v/'manifest.json').write_text(json.dumps(d,indent=2));manifests.append(d)

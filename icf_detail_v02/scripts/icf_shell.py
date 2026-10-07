@@ -3,6 +3,7 @@ Prototype visual interpretation, not a manufacturing/clearance model.
 """
 import math
 import bpy
+import icf_markings
 from mathutils import Matrix
 
 def rounded(x,y,z,w,h,r,N=8):
@@ -36,7 +37,7 @@ def build(g,cfg):
  for x in [-10+i*.8 for i in range(26)]:g.box('Body floor transverse bearer',(x,0,1.145),(.062,2.91,.14),g.DARK)
  n=cfg['windows'];pitch=15.12/n;wins=[-7.56+pitch*(i+.5) for i in range(n)]
  ww=min(1.22,pitch*.74) if ac else .65;wh=.64 if V in ['3A','CC'] else .75
- if V=='1A':wins=[-6.92,-5.40,-3.92,-2.40,-.50,1.50,3.50,5.08,6.59];ww=.98
+ if V=='1A':wins=[-6.75,-5.25,-3.75,-2.25,-.50,1.50,3.50,5.25,6.75];ww=.98
  g.WINDOW_APERTURES=[]
  # Smooth mild tumblehome under the window sill, maximum bodyside width 3245 mm.
  def yy(z):return 1.6225 if z>=1.98 else 1.5525+.07*max(0,min(1,(z-floor)/(1.98-floor)))
@@ -54,10 +55,10 @@ def build(g,cfg):
     m=g.CYAN if 1.98<z<2.80 else g.BLUE
     vs=[(xa,s*yy(za),za),(xb,s*yy(za),za),(xb,s*yy(zb),zb),(xa,s*yy(zb),zb)]
     ob=g.mesh('Pressed bodyside skin',vs,[(0,1,2,3)] if s<0 else [(3,2,1,0)],m,side)
-    mod=ob.modifiers.new('Steel skin thickness','SOLIDIFY');mod.thickness=.032
+    mod=ob.modifiers.new('Steel skin thickness','SOLIDIFY');mod.thickness=.002
     # Independent matching lining, no hidden full-length wall over window/door apertures.
     vs=[(xx,s*(yy(zz)-.052),zz) for xx,_,zz in vs]
-    ob=g.mesh('Lined bodyside aperture panel',vs,[(0,1,2,3)] if s>0 else [(3,2,1,0)],g.CREAM,side);mod=ob.modifiers.new('Lining thickness','SOLIDIFY');mod.thickness=.012
+    ob=g.mesh('Lined bodyside aperture panel',vs,[(0,1,2,3)] if s>0 else [(3,2,1,0)],g.CREAM,side);mod=ob.modifiers.new('Lining thickness','SOLIDIFY');mod.thickness=.004
   # Continuous drip rail and lower joint; tiny actual fabricated details, not heavy ribs.
   g.path('Bodyside roof rain gutter',[(-10.45,s*1.633,3.388),(10.45,s*1.633,3.388)],.011,g.ROOF,side,10)
   g.path('Floor skin rolled seam',[(-10.5,s*1.57,floor+.025),(10.5,s*1.57,floor+.025)],.005,g.BLUE,side,8)
@@ -67,8 +68,13 @@ def build(g,cfg):
    # Corner infill connects the squared skin grid to the radiused window, with no backing pane.
    outer=rounded(x,s*1.624,2.385,ww,wh,.0001);inner=rounded(x,s*1.625,2.385,ww,wh,.10);N=len(outer)
    g.mesh('Pressed window aperture corner infill',outer+inner,[(j,(j+1)%N,(j+1)%N+N,j+N) if s<0 else (j+N,(j+1)%N+N,(j+1)%N,j) for j in range(N)],g.CYAN,side)
-   surround(g,'Continuous EPDM glazing gasket',x,s*1.638,2.385,ww+.024,wh+.024,.115,.026,g.RUBBER,side,.019)
-   surround(g,'Anodised window frame extrusion',x,s*1.651,2.385,ww-.018,wh-.018,.094,.018,window_metal,side,.018)
+   # Thin outer steel and inner lining are joined by an actual aperture return,
+   # rather than pretending the entire wall depth is solid steel.
+   va=rounded(x,s*1.6205,2.385,ww,wh,.10);vb=rounded(x,s*1.5705,2.385,ww,wh,.10);NN=len(va)
+   ff=[(j,(j+1)%NN,(j+1)%NN+NN,j+NN) for j in range(NN)]
+   g.mesh('Window pressed reveal return',va+vb,ff if s<0 else [tuple(reversed(q)) for q in ff],g.TRIM,side)
+   surround(g,'Continuous EPDM glazing gasket',x,s*1.638,2.385,ww+.024,wh+.024,.115,.026 if ac else .018,g.RUBBER,side,.019)
+   surround(g,'Anodised window frame extrusion',x,s*1.651,2.385,ww-.018,wh-.018,.094,.018 if ac else .010,window_metal,side,.018)
    if ac:
     pane=panel(g,'Sealed tinted passenger pane',x,s*1.610,2.385,ww-.057,wh-.057,.080,.008,g.GLASS,side)
     pane['window_index']=i;pane['side']=s
@@ -79,14 +85,14 @@ def build(g,cfg):
     pane=panel(g,'Raised glass exposed lower strip',x,s*1.590,top-.028,ww-.060,.062,.012,.008,g.GLASS,side)
     pane['window_index']=i;pane['side']=s
     g.box('Raised glass lower rail',(x,s*1.592,top-.062),(ww-.05,.02,.018),window_metal,side,.004)
-   g.box('Interior rounded window sill',(x,s*1.50,2.006),(ww+.035,.13,.032),g.TRIM,side,.01)
+   g.box('Interior rounded window sill',(x,s*1.50,2.385-wh/2-.004),(ww+.035,.13,.032),g.TRIM,side,.01)
    if not ac:
     for j in range(5):g.rod('Window satin steel security bar',(x-ww/2+.012,s*1.662,2.103+j*.14),(x+ww/2-.012,s*1.662,2.103+j*.14),.0065,window_metal,side,N=12)
     # Twin louvred shutters slide into the upper pocket. Deterministic mixed
     # positions follow inspected ICF photographs, without a fake full backing pane.
     visible_h=[.08,.08,.32,.08,.08,.64,.08,.22,.08][i%9]
     ztop=2.385+wh/2-.03;zbottom=ztop-visible_h
-    for dx in [-ww/2+.022,0,ww/2-.022]:
+    for dx in [-ww/2+.022,ww/2-.022]:
      g.box('Sliding shutter guide channel',(x+dx,s*1.573,2.385),(.022,.025,wh-.036),window_metal,side,.003)
     for dx in [-ww/4,ww/4]:
      wid=ww/2-.044
@@ -102,23 +108,36 @@ def build(g,cfg):
      g.box('Shutter lift recessed grip',(x+dx,s*1.616,zbottom+.014),(.095,.013,.019),window_metal,side,.005)
     g.box('Window lower lock thumb tab',(x,s*1.651,2.055),(.055,.019,.020),window_metal,side,.004)
    elif V in ['1A','2A','CC']:
-    # Wavy mesh curtains; no rectangular bars posing as cloth.
+    # Soft cloth narrows at the tie and opens toward the lower hem. The fold
+    # phase changes with height instead of forming a rigid extruded accordion.
+    g.rod('Window curtain upper rail',(x-ww/2,s*1.475,2.797),(x+ww/2,s*1.475,2.797),.007,window_metal,side,N=12)
     for sign in [-1,1]:
-     cx=x+sign*(ww/2-.06);v=[];NX=16;NZ=5
+     cx=x+sign*(ww/2-.062);v=[];NX=24;NZ=20
      for iz in range(NZ+1):
-      z=2.045+iz*.70/NZ
+      t=iz/NZ;pinch=math.exp(-((t-.36)/.16)**2);width=.17-.09*pinch
       for j in range(NX+1):
-       xx=cx+(j/NX-.5)*.12;v.append((xx,s*(1.491+.018*math.cos(j*math.pi/2)),z))
+       u=j/NX;xx=cx+(u-.5)*width
+       fold=(.022-.010*pinch)*math.cos(u*math.pi*8+.32*math.sin(t*math.pi))
+       zz=2.026+t*.728+.010*math.sin(u*math.pi*2+sign)*((1-t)**5)
+       v.append((xx,s*(1.491+fold),zz))
      f=[(iz*(NX+1)+j,iz*(NX+1)+j+1,(iz+1)*(NX+1)+j+1,(iz+1)*(NX+1)+j) for iz in range(NZ) for j in range(NX)]
-     g.mesh('Gathered window curtain folds',v,f if s>0 else [tuple(reversed(q)) for q in f],g.CURTAIN,side)
-     g.box('Window curtain fabric tie',(cx,s*1.471,2.30),(.122,.014,.03),g.TRIM,side,.004)
+     ob=g.mesh('Gathered window curtain soft drape',v,f if s>0 else [tuple(reversed(q)) for q in f],g.CURTAIN,side)
+     for poly in ob.data.polygons:poly.use_smooth=True
+     g.path('Curtain stitched lower hem',v[:NX+1],.0017,g.CURTAIN,side,6)
+     g.box('Window curtain fabric tieback',(cx,s*1.468,2.29),(.085,.012,.024),g.CURTAIN,side,.005)
+     for j in range(5):
+      xx=cx+(j/4-.5)*.15;pts=[(xx,s*(1.475+.013*math.cos(k*math.pi/8)),2.777+.013*math.sin(k*math.pi/8)) for k in range(17)]
+      g.path('Curtain suspension ring',pts,.0022,window_metal,side,6)
    if i in [1,len(wins)-2]:
-    text(g,'Emergency window stencil','EMERGENCY WINDOW',(x,s*1.643,1.891),.040,g.RED,s,side)
+    text(g,'Emergency window stencil','EMERGENCY WINDOW',(x,s*1.617,1.891),.040,g.RED,s,side)
     for dx in [-ww/2-.02,ww/2+.02]:g.box('Emergency red release indicator',(x+dx,s*1.66,2.16),(.018,.018,.10),g.RED,side,.004)
    if V in ['SL','3A','2A']:
     bay=i//2 if V in ['SL','2A'] else i
-    if i%2==0 or V=='3A':text(g,'Berth range stencil',f'{bay*(8 if V!="2A" else 6)+1}-{min(cfg["capacity"],(bay+1)*(8 if V!="2A" else 6))}',(x,s*1.639,2.835),.044,g.WHITE,s,side)
+    if i%2==0 or V=='3A':text(g,'Berth range stencil',f'{bay*(8 if V!="2A" else 6)+1}-{min(cfg["capacity"],(bay+1)*(8 if V!="2A" else 6))}',(x,s*1.626,2.835),.044,g.WHITE,s,side)
   for x in [-9.12,9.12]:
+   vv=[(x+dx,s*(yy(zz)-inset),zz) for inset in [0,.052] for dx,zz in [(-.455,floor),(.455,floor),(.455,3.255),(-.455,3.255)]]
+   ff=[(j,(j+1)%4,(j+1)%4+4,j+4) for j in [1,2,3]]
+   g.mesh('Entrance aperture steel return',vv,ff if s<0 else [tuple(reversed(q)) for q in ff],g.BLUE,side)
    door=g.empty('DOOR_'+('A' if x<0 else 'B')+('_R' if s>0 else '_L')+'_PIVOT',(x-.398,s*1.57,floor+.035),g.BODY)
    g.box('Door peripheral reveal',(x,s*1.582,(floor+3.255)/2),(.845,.027,3.255-floor-.025),g.RUBBER,door,.02)
    # Remove the backing reveal and replace by an open rectangular ring.
@@ -127,7 +146,9 @@ def build(g,cfg):
    surround(g,'Entrance door weatherseal',x,s*1.594,z,.872,h,.030,.025,g.RUBBER,side)
    for z0,hh in [((floor+2.025)/2,2.025-floor-.045),(3.000,.465)]:
     panel(g,'Entrance pressed steel door panel',x,s*1.580,z0,.790,hh,.022,.041,g.BLUE,door)
-   for dx in [-.349,.349]:g.box('Entrance glazed opening side rail',(x+dx,s*1.58,2.401),(.092,.041,.752),g.BLUE,door,.008)
+   for dx in [-.349,.349]:g.box('Entrance glazed opening side rail',(x+dx,s*1.58,2.401),(.092,.041,.752),g.CYAN,door,.008)
+   g.box('Door window band lower paint strip',(x,s*1.602,2.004),(.786,.0015,.046),g.CYAN,door)
+   g.box('Door window band upper paint strip',(x,s*1.602,2.784),(.786,.0015,.031),g.CYAN,door)
    surround(g,'Entrance window gasket',x,s*1.610,2.401,.622,.758,.06,.028,g.RUBBER,door)
    panel(g,'Entrance clear door glazing',x,s*1.589,2.401,.564,.700,.033,.008,g.GLASS,door)
    if not ac:
@@ -155,9 +176,10 @@ def build(g,cfg):
    panel(g,'Obscure toilet glass',x,s*1.617,2.53,.409,.649,.052,.008,g.FROST,side)
    for zz in [2.33,2.48,2.63,2.78]:g.rod('Toilet window external bar',(x-.19,s*1.669,zz),(x+.19,s*1.669,zz),.007,g.STEEL,side,N=10)
   # Service era markings are illustrative, not a forged numbered photograph reconstruction.
-  text(g,'English class legend',cfg['label'].replace('  ',' '),(2.7*s,s*1.642,3.035),.13,g.CYAN,s,side)
-  text(g,'Coach number illustrative',{'1A':'991801','2A':'984602','3A':'016403','CC':'047304','2S':'031805','SL':'027206','GS':'041807'}[V],(-6.1*s,s*1.642,3.047),.17,g.CYAN,s,side)
-  text(g,'Zone initials','IR',(-7.49*s,s*1.642,3.04),.16,g.CYAN,s,side)
+  text(g,'English class legend',icf_markings.ENGLISH[V],(2.7*s,s*1.626,2.985),.115,g.CYAN,s,side)
+  icf_markings.hindi(g,s,side,2.7*s)
+  text(g,'Coach number illustrative',{'1A':'991801','2A':'984602','3A':'016403','CC':'047304','2S':'031805','SL':'027206','GS':'041807'}[V],(-6.1*s,s*1.626,3.047),.17,g.CYAN,s,side)
+  text(g,'Zone initials','IR',(-7.49*s,s*1.626,3.04),.16,g.CYAN,s,side)
   # Raised routeboard with top and bottom rolled clip retainers.
   g.box('Yellow destination board',(0,s*1.649,3.137),(1.92,.022,.218),g.YELLOW,side,.007)
   text(g,'Route destination legend','INDIAN RAILWAYS',(0,s*1.666,3.100),.073,g.DARK,s,side)
@@ -186,12 +208,12 @@ def build(g,cfg):
  fs=[(ix*(N+1)+j,ix*(N+1)+j+1,(ix+1)*(N+1)+j+1,(ix+1)*(N+1)+j) for ix in range(len(xs)-1) for j in range(N)]
  ob=g.mesh('Curved steel roof continuous skin',vs,fs,g.ROOF,roof)
  for p in ob.data.polygons:p.use_smooth=True
- mod=ob.modifiers.new('Pressed steel roof thickness','SOLIDIFY');mod.thickness=.024
+ mod=ob.modifiers.new('Pressed steel roof thickness','SOLIDIFY');mod.thickness=.0016
  vs=[(x,1.556*math.cos(j*math.pi/N),3.356+.587*math.sin(j*math.pi/N)) for x in [-10.52,10.52] for j in range(N+1)]
  ob=g.mesh('Arched interior ceiling laminate',vs,[(N+j+1,N+j+2,j+1,j) for j in range(N)],g.CREAM,roof)
  for p in ob.data.polygons:p.use_smooth=True
  for x in [-9.6,-7.2,-4.8,-2.4,0,2.4,4.8,7.2,9.6]:
-  g.path('Roof sheet flush weld',[(x,1.6235*math.cos(j*math.pi/32),3.393+.635*math.sin(j*math.pi/32)) for j in range(33)],.0028,g.ROOF,roof,6)
+  g.path('Roof sheet flush weld',[(x,1.6235*math.cos(j*math.pi/32),3.3906+.635*math.sin(j*math.pi/32)) for j in range(33)],.0015,g.ROOF,roof,6)
  if ac:
   g.box('Conventional underslung AC internal trunk',(0,0,3.72),(15.95,.65,.18),g.CREAM,roof,.025)
   for x in [-7.2+i*1.8 for i in range(9)]:
