@@ -1,5 +1,17 @@
 # Indian Rail Prototype Pack v1.0
 
+## Vande Bharat 2.0 full-size detailed source v0.2
+
+![Full-size Vande Bharat chair-car rake rendered beside the track](vande_bharat_detail_v02/previews/rake8.png)
+
+[Open the editable 8-car and 16-car sources and detailed gallery](vande_bharat_detail_v02/README.md).
+
+This white/blue VB2 revision uses **24 m car pitch and 192 / 384 m nominal coupling spans**. The separately measured closed-fairing envelopes are **191.560 / 383.560 m**. Drawing-informed nose/body geometry, running gear, roof electrics, CC/EC passenger interiors, service rooms and the driving cab are included, with **530 / 1,128 physical passenger seats**. Eight-car ordering and finer hardware interpretations are documented.
+
+The gallery is rendered in Blender Cycles from seven reusable car files and linked assemblies. Editable metre-scale sources include procedural materials, rebuild scripts, primary references and geometry/control/clearance checks. **This is a high-detail authoring handoff**; TF3 conversion and runtime testing remain separate. The earlier compact sources and downloadable game pack are unchanged.
+
+[Complete formations and length proof](vande_bharat_detail_v02/previews/formation_length_proof.png) · [Chair-car interior](vande_bharat_detail_v02/previews/cc.png) · [Executive seats](vande_bharat_detail_v02/previews/ec_front.png) · [Driving cab](vande_bharat_detail_v02/previews/cab.png) · [Running gear](vande_bharat_detail_v02/previews/bogie.png) · [Pantograph](vande_bharat_detail_v02/previews/pantograph.png)
+
 ## WAP-7 detailed source revision v0.2
 
 ![WAP-7 39002 detailed source in the rendered trackside setting](wap7_photoreal_v02/previews/outdoor_hero.png)

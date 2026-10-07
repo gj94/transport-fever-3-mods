@@ -1,0 +1,35 @@
+{
+  "view": "nose",
+  "source": "cars/VB_DTC.blend",
+  "source_sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 128,
+  "resolution": [
+    1200,
+    750
+  ],
+  "camera": {
+    "position": [
+      17,
+      -10,
+      5.1
+    ],
+    "target": [
+      9.52,
+      0,
+      2.1
+    ],
+    "lens": 55
+  },
+  "image_sha256": "bb6379d787cf0e7208c28f961f0239095364139bc4d81d64c7101db9c4882609",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "41526dd6ffa6d67db44e4ae61b97ed69973df243b7228ea0ac9c06524b1e8087",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/nose.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

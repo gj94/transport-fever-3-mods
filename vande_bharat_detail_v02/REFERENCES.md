@@ -4,7 +4,7 @@ Target: the white/blue **Vande Bharat 2.0 chair-car family**, using prototype 24
 
 ## Primary layout and dimensional source
 
-[CAMTECH, September2022, VBE Trainset V2 System Documentation, official IRIMEE host](https://rskr.irimee.in/forum/wp-content/uploads/2023/07/Vande%20Bharat%20Trainset_Maintenance_Manual_Volume_II_System_Documentation.pdf)
+[CAMTECH, September 2022, VBE Trainset V2 System Documentation, official IRIMEE host](https://rskr.irimee.in/forum/wp-content/uploads/2023/07/Vande%20Bharat%20Trainset_Maintenance_Manual_Volume_II_System_Documentation.pdf)
 
 One-based PDF pages:
 -28: DTC layout TS/DTC-9-0-001, code889, including the16-car formation
@@ -38,11 +38,11 @@ Roof equipment centers are less precise, approximately±100–200mm: ordinary ca
 
 The16-car order is shown in the primary system layout. Its total is1,128=2×44+12×78+2×52. The [South Central Railway operating certificate](https://digitalscr.in/bzadiv/circulars/misc_circulars/uploads/Vandebharat_GMsanction.pdf) also supports the formation.
 
-The [North Western Railway5July2023 circular, hosted scan](https://st.indiarailinfo.com/kjfdsuiemjvcya24/0/6/9/2/5769692/0/commhq1764176322411285603.pdf) supports the8-car inventory. The detailed numbered order/handing of the supplied8-car derivative remains a selected interpretation. Its530-seat total is2×44+5×78+52; TC_EC combines that supported role with the52-seat EC layout.
+The [North Western Railway5July 2023 circular, hosted scan](https://st.indiarailinfo.com/kjfdsuiemjvcya24/0/6/9/2/5769692/0/commhq1764176322411285603.pdf) supports the8-car inventory. The detailed numbered order/handing of the supplied8-car derivative remains a selected interpretation. Its530-seat total is2×44+5×78+52; TC_EC combines that supported role with the52-seat EC layout.
 
 ## Air suspension
 
-[RDSO January2024 specification, §2.3](https://rdso.indianrailways.gov.in/uploads/Reasoned%20Document%20on%20Final%20STR%20RDSO2020CG-01%2016_01_2024__EMU_DEMU%20US.pdf): two secondary air springs per bogie/four per coach. Detailed suspension hardware beyond the visible drawing forms is representative, not a certified exact subtype.
+[RDSO January 2024 specification, §2.3](https://rdso.indianrailways.gov.in/uploads/Reasoned%20Document%20on%20Final%20STR%20RDSO2020CG-01%2016_01_2024__EMU_DEMU%20US.pdf): two secondary air springs per bogie/four per coach. Detailed suspension hardware beyond the visible drawing forms is representative, not a certified exact subtype.
 
 ## Pantograph and roof electrics
 
@@ -52,7 +52,7 @@ The [North Western Railway5July2023 circular, hosted scan](https://st.indiaraili
 
 The TC system drawing labels4.260m folded pantograph height. OEM585mm resting height is relative to its mounting reference and must not be treated as a rail height. The model's1.5/1.2m rigid linkage and5.917m raised target remain authored approximations; its component detail and folded envelope do not establish complete OEM kinematics.
 
-[CAMTECH V2 propulsion chapter](https://rdso.indianrailways.gov.in/uploads/Trainset%28V2%29_Maintenance_Manual_Volume_II_Chapter_5_Maintenance_Propulsion_System.pdf) identifies the Schneider22CB roof circuit-breaker family.
+[CAMTECH V2 propulsion chapter](https://rdso.indianrailways.gov.in/uploads/Trainset%28V2%29_Maintenance_Manual_Volume_II_Chapter_5_Maintenance_Propulsion_System.pdf) identifies the Schneider 22CB roof circuit-breaker family.
 
 ## Cab instruments
 
@@ -60,7 +60,7 @@ The TC system drawing labels4.260m folded pantograph height. OEM585mm resting he
 
 ## Visually inspected photographs
 
-- [Official PIB30September2022 launch photograph](https://static.pib.gov.in/WriteReadData/Gallery/PhotoGallery/2022/Sep/H20220930118326.JPG): white/blue nose, continuous black mask, upper twin LED capsule, lower teardrop pods, white ribbon borders and separate lower skirt seam
+- [Official PIB30September 2022 launch photograph](https://static.pib.gov.in/WriteReadData/Gallery/PhotoGallery/2022/Sep/H20220930118326.JPG): white/blue nose, continuous black mask, upper twin LED capsule, lower teardrop pods, white ribbon borders and separate lower skirt seam
 - [Sameer2905, VB2 chair-car interior](https://commons.wikimedia.org/wiki/File:Vande_Bharat_Chair_Car_interior_layout.jpg): royal-blue speckled cloth, pale-gray molded shells/trays, grab loops, black nets, aqua rack shelves and lighting
 - [Sameer2905, VB2 executive interior](https://commons.wikimedia.org/wiki/File:Vande_Bharat_Executive_Chair_Car_interior_layout.jpg): charcoal multicolor jacquard, winged headrests, light-blue covers and wider2+2 seating
 - [Sameer2905,27December2023 cab](https://commons.wikimedia.org/wiki/File:Cabin_of_Vande_Bharat_Express.jpg): blue-gray desk, dark tiles, ivory lining, black chairs and roller shade; exact rake identity not established
@@ -69,7 +69,7 @@ The current BFG website also shows later sleeper work; those galleries were not 
 
 ## Render-only environment
 
-Full-rake presentation adapts the repository's WAP7v02 original railway/depot geometry. Its separately supplied [Poly Haven Kloofendal pure sky](https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky) and soil maps retain their existing CC0 attribution and files in `../wap7_photoreal_v02/environment/`. The environment is never model texture evidence and is not a location reconstruction.
+Full-rake presentation adapts the repository's WAP7 v02 original railway/depot geometry. Its separately supplied [Poly Haven Kloofendal pure sky](https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky) and soil maps retain their existing CC0 attribution and files in `../wap7_photoreal_v02/environment/`. The environment is never model texture evidence and is not a location reconstruction.
 
 ### Schneider 22CB installation detail
 

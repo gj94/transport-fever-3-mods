@@ -1,0 +1,269 @@
+{
+  "TC_EC": {
+    "source_before_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+    "source_after_sha256": "9d7fb01cb88935e820ee19d813d07dcb6e8d2959386fce7f9b731ad6b83dfc4a",
+    "passenger_mesh_instances": 52,
+    "protected_controls_unchanged": true,
+    "all_seat_envelopes_max_error_m": 0.0,
+    "minimum_adjacent_seat_gap_m": 0.010999977588653564,
+    "refinement": {
+      "cloth_islands": 4,
+      "hardware_before_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_after_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_identical": true,
+      "islands": [
+        {
+          "old_vertices": 120,
+          "new_vertices": 1730,
+          "old_polygons": 98,
+          "new_polygons": 1728,
+          "minimum": [
+            -0.23000000417232513,
+            -0.27000001072883606,
+            1.6160000562667847
+          ],
+          "maximum": [
+            0.2540000081062317,
+            0.27000001072883606,
+            1.75
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.0060672396793961525
+        },
+        {
+          "old_vertices": 192,
+          "new_vertices": 2882,
+          "old_polygons": 170,
+          "new_polygons": 2880,
+          "minimum": [
+            -0.3400000035762787,
+            -0.2808000147342682,
+            1.7200000286102295
+          ],
+          "maximum": [
+            -0.07450000196695328,
+            0.2808000147342682,
+            2.680000066757202
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.016330242156982422
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            -0.2718000113964081,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            -0.1817999929189682,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            0.1817999929189682,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            0.2718000113964081,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        }
+      ],
+      "geometry_scope": "Only EC cushion/back/wing cloth surfaces. Each original axis-aligned envelope restored; no marker/object transform or hardware changes."
+    }
+  },
+  "NDTC_EC": {
+    "source_before_sha256": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+    "source_after_sha256": "54ab2f62f14a720bc76288bfcf454e077969b72c530301f206ec06b93ce2c09c",
+    "passenger_mesh_instances": 52,
+    "protected_controls_unchanged": true,
+    "all_seat_envelopes_max_error_m": 0.0,
+    "minimum_adjacent_seat_gap_m": 0.010999977588653564,
+    "refinement": {
+      "cloth_islands": 4,
+      "hardware_before_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_after_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_identical": true,
+      "islands": [
+        {
+          "old_vertices": 120,
+          "new_vertices": 1730,
+          "old_polygons": 98,
+          "new_polygons": 1728,
+          "minimum": [
+            -0.23000000417232513,
+            -0.27000001072883606,
+            1.6160000562667847
+          ],
+          "maximum": [
+            0.2540000081062317,
+            0.27000001072883606,
+            1.75
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.0060672396793961525
+        },
+        {
+          "old_vertices": 192,
+          "new_vertices": 2882,
+          "old_polygons": 170,
+          "new_polygons": 2880,
+          "minimum": [
+            -0.3400000035762787,
+            -0.2808000147342682,
+            1.7200000286102295
+          ],
+          "maximum": [
+            -0.07450000196695328,
+            0.2808000147342682,
+            2.680000066757202
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.016330242156982422
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            -0.2718000113964081,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            -0.1817999929189682,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            0.1817999929189682,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            0.2718000113964081,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        }
+      ],
+      "geometry_scope": "Only EC cushion/back/wing cloth surfaces. Each original axis-aligned envelope restored; no marker/object transform or hardware changes."
+    }
+  },
+  "NDTC_EC2": {
+    "source_before_sha256": "d2b1ff90a70381b52344012afd4576a9f08699f7a8bf146cc1f9d3fbeb98c01c",
+    "source_after_sha256": "e38778888869c9c6787f16e3a4d2ef2b19cebaa1ec776c252d5f6ca0bad21edd",
+    "passenger_mesh_instances": 52,
+    "protected_controls_unchanged": true,
+    "all_seat_envelopes_max_error_m": 0.0,
+    "minimum_adjacent_seat_gap_m": 0.010999977588653564,
+    "refinement": {
+      "cloth_islands": 4,
+      "hardware_before_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_after_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_identical": true,
+      "islands": [
+        {
+          "old_vertices": 120,
+          "new_vertices": 1730,
+          "old_polygons": 98,
+          "new_polygons": 1728,
+          "minimum": [
+            -0.23000000417232513,
+            -0.27000001072883606,
+            1.6160000562667847
+          ],
+          "maximum": [
+            0.2540000081062317,
+            0.27000001072883606,
+            1.75
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.0060672396793961525
+        },
+        {
+          "old_vertices": 192,
+          "new_vertices": 2882,
+          "old_polygons": 170,
+          "new_polygons": 2880,
+          "minimum": [
+            -0.3400000035762787,
+            -0.2808000147342682,
+            1.7200000286102295
+          ],
+          "maximum": [
+            -0.07450000196695328,
+            0.2808000147342682,
+            2.680000066757202
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.016330242156982422
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            -0.2718000113964081,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            -0.1817999929189682,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            0.1817999929189682,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            0.2718000113964081,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        }
+      ],
+      "geometry_scope": "Only EC cushion/back/wing cloth surfaces. Each original axis-aligned envelope restored; no marker/object transform or hardware changes."
+    }
+  }
+}

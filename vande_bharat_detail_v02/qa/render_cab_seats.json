@@ -1,0 +1,35 @@
+{
+  "view": "cab_seats",
+  "source": "cars/VB_DTC.blend",
+  "source_sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 96,
+  "resolution": [
+    1000,
+    625
+  ],
+  "camera": {
+    "position": [
+      10.49,
+      -1.02,
+      2.82
+    ],
+    "target": [
+      9.32,
+      0.18,
+      1.97
+    ],
+    "lens": 22
+  },
+  "image_sha256": "037a7d98a1c9a11a9686da76f52489f01e7204c56e671bf4a9798f9cfef68cfa",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "e338f1bbf0a02a4e88df466006ef4200311e2b4f1dfac74327589c8da30fe802",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/cab_seats.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

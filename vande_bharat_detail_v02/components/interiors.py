@@ -6,6 +6,7 @@ CC/EC detailed seat meshes are linked at the shared prototype-layout PAX anchors
 """
 import bpy
 import math
+import json
 from math import sin, cos, pi, tau
 from mathutils import Vector, Matrix
 from common import mesh, remove_prefix
@@ -752,6 +753,9 @@ def linked_passenger_seats(ctx,m,anchors,ec):
     proto=mesh(PREFIX+'seat_001',verts,faces,materials_list,None,ctx['collection'])
     for poly,sm,mi in zip(proto.data.polygons,smooth,indices):
         poly.use_smooth=sm;poly.material_index=mi
+    if ec:
+        from ec_upholstery_refine import apply_to_mesh
+        proto.data['ec_fabric_refinement_report']=json.dumps(apply_to_mesh(proto.data))
     data=proto.data;data.name=PREFIX+('EC' if ec else 'CC')+'_fixed_size_seat_mesh'
     data['width_cushion_m']=.54 if ec else .435
     data['cushion_top_local_z_m']=1.750
@@ -833,6 +837,7 @@ def apply(ctx):
         'minimum_adjacent_armrest_gap_m':min(lateral_gaps),
         'armrest_clear_aisle_m':.530 if not ec else .541,
         'unique_detailed_seat_meshes':len({o.data.as_pointer() for o in actual}),
+        'ec_fabric_refinement':json.loads(actual[0].data.get('ec_fabric_refinement_report','null')) if ec else None,
         'seat_layout':'2+2' if ec else '3+2 with reference end exceptions',
         'toilet_count':len(layout['toilet_rooms']),'toilet_end':'+X' if layout['toilet_end']>0 else '-X',
         'accessible_toilet':dtc,'wheelchair_space_empty':dtc,

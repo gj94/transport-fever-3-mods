@@ -1321,8 +1321,8 @@
         }
       ],
       "new_mesh_objects": 235,
-      "mesh_vertices_instanced": 780442,
-      "mesh_triangles_instanced": 1359104,
+      "mesh_vertices_instanced": 1112410,
+      "mesh_triangles_instanced": 2023040,
       "baseline_visual_replacements": [
         "Curved_ceiling_inner"
       ],
@@ -1400,6 +1400,87 @@
           "lens_mm": 18
         },
         "toilet_cutaway": "Hide VB02_INT_service_removable_closed_door and cabin_roof, view from centre passage"
+      },
+      "ec_fabric_refinement": {
+        "cloth_islands": 4,
+        "hardware_before_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+        "hardware_after_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+        "hardware_identical": true,
+        "islands": [
+          {
+            "old_vertices": 120,
+            "new_vertices": 1730,
+            "old_polygons": 98,
+            "new_polygons": 1728,
+            "minimum": [
+              -0.23000000417232513,
+              -0.27000001072883606,
+              1.6160000562667847
+            ],
+            "maximum": [
+              0.2540000081062317,
+              0.27000001072883606,
+              1.75
+            ],
+            "envelope_error_m": 0.0,
+            "maximum_new_vertex_distance_from_old_surface_m": 0.0060672396793961525
+          },
+          {
+            "old_vertices": 192,
+            "new_vertices": 2882,
+            "old_polygons": 170,
+            "new_polygons": 2880,
+            "minimum": [
+              -0.3400000035762787,
+              -0.2808000147342682,
+              1.7200000286102295
+            ],
+            "maximum": [
+              -0.07450000196695328,
+              0.2808000147342682,
+              2.680000066757202
+            ],
+            "envelope_error_m": 0.0,
+            "maximum_new_vertex_distance_from_old_surface_m": 0.016330242156982422
+          },
+          {
+            "old_vertices": 80,
+            "new_vertices": 1122,
+            "old_polygons": 62,
+            "new_polygons": 1120,
+            "minimum": [
+              -0.30799999833106995,
+              -0.2718000113964081,
+              2.3575000762939453
+            ],
+            "maximum": [
+              -0.12800000607967377,
+              -0.1817999929189682,
+              2.6624999046325684
+            ],
+            "envelope_error_m": 0.0,
+            "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+          },
+          {
+            "old_vertices": 80,
+            "new_vertices": 1122,
+            "old_polygons": 62,
+            "new_polygons": 1120,
+            "minimum": [
+              -0.30799999833106995,
+              0.1817999929189682,
+              2.3575000762939453
+            ],
+            "maximum": [
+              -0.12800000607967377,
+              0.2718000113964081,
+              2.6624999046325684
+            ],
+            "envelope_error_m": 0.0,
+            "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+          }
+        ],
+        "geometry_scope": "Only EC cushion/back/wing cloth surfaces. Each original axis-aligned envelope restored; no marker/object transform or hardware changes."
       }
     },
     "cab": {
@@ -3350,13 +3431,103 @@
     "prototype_dimensions.py": "de21e66c2f3446637d82ecd152ab1b7ee2d7e50738a5e749034c3c44d5bca6a6",
     "environment_depot.py": "3ce4be78ea757ab389f530e28d0b59c8f75273d0c5102dd36f7179995f98b4cd",
     "panto_micro.py": "1142224841a45e48b8b4fe48cdf764780e0b3073e99fbc83b170ac835dff0136",
-    "interiors.py": "d5a6d5f23c156c187976596622cdeda1c04ffe684b62de83dbe9c8d145c11c90",
+    "interiors.py": "34ff5ff8c6534b7394b3b9e53251dbd2093d880011f3e0c849585789bd270ae5",
     "railway_presentation.py": "b1138ad1d3163cb39f3a8d560a0be48ec1029f3731428148f5759e90b94351c2",
     "endcap_detail.py": "471ddc6d901a5638e59b38ecc13eb2774c865ef01ff24a8c5c9c92b99991acea",
     "cab.py": "64c04118dda988e44f2edd8fd524fab46e2b3f1d7ae3f488cf30f45bad16b0d6",
     "exterior.py": "8d134f3a8c740275bb9000ce0ff9d19df9660fe13f111208d02dd996cb37b171",
     "materials.py": "f07d2adbbd784a806b4730976cc3a2a148e572b31b3a29a1a188ede82d116dbd",
     "vcb_detail.py": "6bde88eea37987c436bb500dd5691d06c3a381b970e2d929bfa92e6bd72d0cc5",
-    "roof_equipment.py": "c52acdabd63ed4bf172a61adc85c3bda293984abb1cd94771c7cd3e4d561e57a"
+    "roof_equipment.py": "c52acdabd63ed4bf172a61adc85c3bda293984abb1cd94771c7cd3e4d561e57a",
+    "ec_upholstery_refine.py": "b4d85503409b1d1e9e296d7522a2d4bf07ea2c249c1f5875b8f89cbb26d095bd"
+  },
+  "post_build_ec_refinement": {
+    "source_before_sha256": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+    "source_after_sha256": "54ab2f62f14a720bc76288bfcf454e077969b72c530301f206ec06b93ce2c09c",
+    "passenger_mesh_instances": 52,
+    "protected_controls_unchanged": true,
+    "all_seat_envelopes_max_error_m": 0.0,
+    "minimum_adjacent_seat_gap_m": 0.010999977588653564,
+    "refinement": {
+      "cloth_islands": 4,
+      "hardware_before_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_after_sha256": "6a6ecffd91c658efe18a9ef601dfaeaa49b1b477964a1a9dbfb0ea65706b72a4",
+      "hardware_identical": true,
+      "islands": [
+        {
+          "old_vertices": 120,
+          "new_vertices": 1730,
+          "old_polygons": 98,
+          "new_polygons": 1728,
+          "minimum": [
+            -0.23000000417232513,
+            -0.27000001072883606,
+            1.6160000562667847
+          ],
+          "maximum": [
+            0.2540000081062317,
+            0.27000001072883606,
+            1.75
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.0060672396793961525
+        },
+        {
+          "old_vertices": 192,
+          "new_vertices": 2882,
+          "old_polygons": 170,
+          "new_polygons": 2880,
+          "minimum": [
+            -0.3400000035762787,
+            -0.2808000147342682,
+            1.7200000286102295
+          ],
+          "maximum": [
+            -0.07450000196695328,
+            0.2808000147342682,
+            2.680000066757202
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.016330242156982422
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            -0.2718000113964081,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            -0.1817999929189682,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        },
+        {
+          "old_vertices": 80,
+          "new_vertices": 1122,
+          "old_polygons": 62,
+          "new_polygons": 1120,
+          "minimum": [
+            -0.30799999833106995,
+            0.1817999929189682,
+            2.3575000762939453
+          ],
+          "maximum": [
+            -0.12800000607967377,
+            0.2718000113964081,
+            2.6624999046325684
+          ],
+          "envelope_error_m": 0.0,
+          "maximum_new_vertex_distance_from_old_surface_m": 0.006632968783378601
+        }
+      ],
+      "geometry_scope": "Only EC cushion/back/wing cloth surfaces. Each original axis-aligned envelope restored; no marker/object transform or hardware changes."
+    }
   }
 }

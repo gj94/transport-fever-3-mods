@@ -2,19 +2,17 @@
 
 Editable, reference-informed **192 m eight-car and 384 m sixteen-car** white/blue chair-car rakes, using the nominal 24.000 m over-coupler car dimension. These are high-detail Blender authoring sources. The earlier compact v01 sources and the existing TF3 runtime pack remain separate and unchanged.
 
-> Work-in-progress checkpoint: all seven native full-size car sources, both linked assemblies and source QA are backed up. The selected working gallery below was regenerated from those exact sources. Final visual polish and release review are pending; EC upholstery shading remains under review. This branch is not the finished main-page release.
+## Rendered gallery
 
-## Working gallery
+These are CPU Cycles renders of the supplied Blender geometry. Visible sample grain remains; these are renders, not photographs. The [render reports](qa/) record each source and image hash; [metadata cleanup](qa/preview_metadata_cleanup.json) preserves the rendered pixels.
 
-These are CPU Cycles renders of the published Blender geometry. They are review previews, with visible sample grain and further visual polish pending. The [render reports](qa/) record each source and image hash; [metadata cleanup](qa/preview_metadata_cleanup.json) preserves the rendered pixels.
+### Eight-car trackside presentation, nominal 192 m coupling span
 
-### Eight-car working presentation, nominal 192 m coupling span
+![Eight-car trackside presentation, nominal 192 m coupling span](previews/rake8.png)
 
-![Eight-car working presentation, nominal 192 m coupling span](previews/rake8.png)
+### Sixteen-car trackside presentation, nominal 384 m coupling span
 
-### Sixteen-car working presentation, nominal 384 m coupling span
-
-![Sixteen-car working presentation, nominal 384 m coupling span](previews/rake16.png)
+![Sixteen-car trackside presentation, nominal 384 m coupling span](previews/rake16.png)
 
 ### Full-size formation comparison, actual linked source geometry
 
@@ -44,13 +42,21 @@ These are CPU Cycles renders of the published Blender geometry. They are review 
 
 ![Roof vacuum circuit breaker](previews/vcb.png)
 
-### Chair-car saloon working render
+### Chair-car saloon
 
-![Chair-car saloon working render](previews/cc.png)
+![Chair-car saloon](previews/cc.png)
 
-### Executive-class saloon WIP: upholstery shading is under review
+### Executive-class saloon with refined upholstery
 
-![Executive-class saloon WIP: upholstery shading is under review](previews/ec_front.png)
+![Executive-class saloon with refined upholstery](previews/ec_front.png)
+
+### Cab, service rooms and exterior close-ups
+
+![Driving cab overview](previews/cab.png)
+
+[Cab instruments](previews/cab_controls.png) · [Driver seats and rear fittings](previews/cab_seats.png) · [Pantry appliance inspection](previews/pantry.png) · [Standard washroom inspection cutaway](previews/toilet.png) · [Nose detail](previews/nose.png)
+
+Pantry and washroom frames are grainy service-room inspection views, not precision installation references. The washroom uses a temporary door/ceiling cutaway, recorded in its render report. Appliances, fixtures and service-room fittings are representative interpretations. Trackside hero views may crop the distant tail; the separate formation proof shows every car.
 
 ## Open first
 
@@ -138,11 +144,13 @@ blender -b -t 4 --python vande_bharat_detail_v02/scripts/build_assemblies.py
 blender -b -t 6 --python vande_bharat_detail_v02/scripts/render_rakes.py -- rake8 256 1800
 ```
 
+After rendering, run `strip_preview_metadata.py`, `validate_release.py` and `write_manifest.py` using Python3 with Pillow. `FILE_MANIFEST.json` and `SHA256SUMS` cover the distributed files; `qa/frozen_source_hashes.json` records the exact seven-car/two-assembly source set. Render one full rake/formation scene at a time on memory-limited machines.
+
 The builder recreates the v02 outputs; preserve manual edits first. Shared full-size dimensions and layouts live in `prototype_dimensions.py` and `interior_layout.py`. The original v01 script supplies reusable primitive-construction helpers without modifying its files. See [component API](docs/COMPONENT_API.md).
 
 All previews are real CPU Cycles renders of the supplied sources. Render scripts create temporary scenery/cameras and verify their inputs remain unchanged. They never save those presentation changes into the cars. The full-rake scenery extends the WAP7 v02's original railway geometry and separately credited CC0 sky/soil files from `../wap7_photoreal_v02/environment/`. It depicts a generic depot, not a named real location. No vehicle photo, generated train picture or projected reference image is used. This Blender build lacks OpenImageDenoise; real sample grain remains.
 
-See [validation scope and recovery checkpoint](docs/VALIDATION.md) for exact saved-source checks and runtime exclusions.
+See [validation scope and provenance](docs/VALIDATION.md) for exact saved-source checks and runtime exclusions.
 
 ## Reference precision and remaining limits
 

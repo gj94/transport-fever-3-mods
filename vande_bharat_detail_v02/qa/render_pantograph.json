@@ -1,8 +1,8 @@
 {
   "view": "pantograph",
   "source": "cars/VB_TC_EC.blend",
-  "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
-  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "source_sha256": "9d7fb01cb88935e820ee19d813d07dcb6e8d2959386fce7f9b731ad6b83dfc4a",
+  "render_script_sha256": "09c066c4847eb526ca6a0b6033b7cb097657a7b377d5d2c5621b76c5359a30c2",
   "samples": 128,
   "resolution": [
     1400,
@@ -21,11 +21,11 @@
     ],
     "lens": 42
   },
-  "image_sha256": "d150551f88f3949b2c9196d48f9f3a5b3ae59fe381337e85e40ca5a15ac2f42f",
+  "image_sha256": "11f01b8a1d98e4fcf9342554100cd67c9f0091ba9152e4f1d75c9662cc9cad74",
   "presentation_saved_into_source": false,
   "transient_cutaway_hidden_objects": [],
   "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
-  "render_output_image_sha256": "f044171b5d10c2610c177f066f816c6d28473417d38f07e50bbb996cb3349484",
+  "render_output_image_sha256": "50d2c572dc088a0129c4cec52bd9fe016fddae51e94c831311593d21db46ef02",
   "publication_metadata_cleanup": {
     "report": "qa/preview_metadata_cleanup.json",
     "path": "previews/pantograph.png",

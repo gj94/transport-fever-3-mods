@@ -1,0 +1,44 @@
+{
+  "view": "toilet",
+  "source": "cars/VB_MC.blend",
+  "source_sha256": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 128,
+  "resolution": [
+    1200,
+    750
+  ],
+  "camera": {
+    "position": [
+      -9.265,
+      0.14,
+      2.6
+    ],
+    "target": [
+      -9.45,
+      1.16,
+      1.98
+    ],
+    "lens": 18
+  },
+  "image_sha256": "760e19afb2bf35febefa7090b08de213f5690eed35bf8f28fc2f3081eb4279cd",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [
+    "VB02_INT_service_cabin_roof",
+    "VB02_INT_service_door_kickplate",
+    "VB02_INT_service_door_lever",
+    "VB02_INT_service_door_lock_escutcheon",
+    "VB02_INT_service_removable_closed_door",
+    "VB02_INT_service_WC_letters",
+    "VB02_INT_service_WC_plaque",
+    "VB02_INT_service_WC_type"
+  ],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "cd6e78b60c073093d08b0ed68a7fcba94cc40c858ca7e1e494e80d71ee523bf0",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/toilet.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

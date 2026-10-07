@@ -1,0 +1,50 @@
+{
+  "final_saved_seat": {
+    "mesh_sha256": "df40857ec6066bc7efc61b496bbada0fa0be43a95833850a9f3a55aed98b8002",
+    "vertices": 16304,
+    "polygons": 13604,
+    "materials": [
+      "VB02_INT_Charcoal_jacquard_EC",
+      "VB02_INT_Graphite_piping",
+      "VB02_INT_Graphite_sewing_thread",
+      "VB02_INT_Warm_grey_moulded_seat_shell",
+      "VB02_INT_Ivory_laminate",
+      "VB02_INT_Anodized_satin_aluminium",
+      "VB02_INT_Polished_stainless",
+      "VB02_INT_Panel_recess_grey",
+      "VB02_INT_Dark_pocket_net",
+      "VB02_INT_Graphite_elastomer",
+      "VB02_INT_Powder_blue_headrest_linen"
+    ],
+    "chairs": 52,
+    "bounds_property": 0.54
+  },
+  "fresh_current_builder_seat": {
+    "mesh_sha256": "df40857ec6066bc7efc61b496bbada0fa0be43a95833850a9f3a55aed98b8002",
+    "vertices": 16304,
+    "polygons": 13604,
+    "materials": [
+      "VB02_INT_Charcoal_jacquard_EC",
+      "VB02_INT_Graphite_piping",
+      "VB02_INT_Graphite_sewing_thread",
+      "VB02_INT_Warm_grey_moulded_seat_shell",
+      "VB02_INT_Ivory_laminate",
+      "VB02_INT_Anodized_satin_aluminium",
+      "VB02_INT_Polished_stainless",
+      "VB02_INT_Panel_recess_grey",
+      "VB02_INT_Dark_pocket_net",
+      "VB02_INT_Graphite_elastomer",
+      "VB02_INT_Powder_blue_headrest_linen"
+    ],
+    "chairs": 52,
+    "bounds_property": 0.54
+  },
+  "geometry_and_material_slots_identical": true,
+  "scope": "TC_EC current generator rebuild against separately patched final chair mesh. Whole .blend bytes differ because this is an independent build.",
+  "final_source_sha256": "9d7fb01cb88935e820ee19d813d07dcb6e8d2959386fce7f9b731ad6b83dfc4a",
+  "fresh_build_sha256": "0ec88db967106c31a5dc3406de2ad9cd495c29826fe4698d83c4622006ad0886",
+  "component_sha256": {
+    "interiors.py": "34ff5ff8c6534b7394b3b9e53251dbd2093d880011f3e0c849585789bd270ae5",
+    "ec_upholstery_refine.py": "b4d85503409b1d1e9e296d7522a2d4bf07ea2c249c1f5875b8f89cbb26d095bd"
+  }
+}

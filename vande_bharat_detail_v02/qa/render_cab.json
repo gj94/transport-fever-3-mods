@@ -1,0 +1,35 @@
+{
+  "view": "cab",
+  "source": "cars/VB_DTC.blend",
+  "source_sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+  "render_script_sha256": "b111ab9a4098a9c3e7aac0c749f55650cca4f43decbe2e491ace4702e09127af",
+  "samples": 192,
+  "resolution": [
+    1400,
+    875
+  ],
+  "camera": {
+    "position": [
+      7.82,
+      0,
+      2.89
+    ],
+    "target": [
+      10.61,
+      0,
+      2.03
+    ],
+    "lens": 19
+  },
+  "image_sha256": "5f967f23424641ee9b42e17d023e1a5762c5f8c5f42b858799fe99da63d18c96",
+  "presentation_saved_into_source": false,
+  "transient_cutaway_hidden_objects": [],
+  "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
+  "render_output_image_sha256": "8ac9da161f690e09f30b0f820120ba58d1fd0a3395338b30bbbe017337526cda",
+  "publication_metadata_cleanup": {
+    "report": "qa/preview_metadata_cleanup.json",
+    "path": "previews/cab.png",
+    "idat_bytes_unchanged": true,
+    "decoded_pixels_unchanged": true
+  }
+}

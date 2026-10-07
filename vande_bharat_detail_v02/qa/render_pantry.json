@@ -1,34 +1,34 @@
 {
-  "view": "ec_front",
-  "source": "cars/VB_TC_EC.blend",
-  "source_sha256": "9d7fb01cb88935e820ee19d813d07dcb6e8d2959386fce7f9b731ad6b83dfc4a",
+  "view": "pantry",
+  "source": "cars/VB_MC.blend",
+  "source_sha256": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
   "render_script_sha256": "09c066c4847eb526ca6a0b6033b7cb097657a7b377d5d2c5621b76c5359a30c2",
-  "samples": 256,
+  "samples": 128,
   "resolution": [
-    1400,
-    875
+    1200,
+    750
   ],
   "camera": {
     "position": [
-      -0.2,
-      0,
-      2.76
+      8.55,
+      -0.24,
+      2.62
     ],
     "target": [
-      -5.1,
-      0,
-      2.42
+      8.55,
+      1.08,
+      2.25
     ],
-    "lens": 22
+    "lens": 20
   },
-  "image_sha256": "c36c75d50ab9fbbec58a8cac8efc04f5b795bd653ed389958cf8d9e36ba8a7ea",
+  "image_sha256": "75cd8ecfd9e7ca39185b3cc7c35b9e3104dda772a56c354599e640a0949b4d09",
   "presentation_saved_into_source": false,
   "transient_cutaway_hidden_objects": [],
   "geometry_source": "Actual Blender source geometry; no composited vehicle artwork",
-  "render_output_image_sha256": "2be13f60ffd07b46efcf20b23534c56802c361ba32376fa7ba271a262c21f158",
+  "render_output_image_sha256": "19d8067e7452e319e1bc21c6b2a5e8ce59f43f1736db6181468221b3d824d71c",
   "publication_metadata_cleanup": {
     "report": "qa/preview_metadata_cleanup.json",
-    "path": "previews/ec_front.png",
+    "path": "previews/pantry.png",
     "idat_bytes_unchanged": true,
     "decoded_pixels_unchanged": true
   }
