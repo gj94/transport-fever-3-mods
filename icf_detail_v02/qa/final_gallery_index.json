@@ -1,5 +1,5 @@
 {
-  "completed_views": 2,
+  "completed_views": 4,
   "expected_views": 24,
   "images": [
     {
@@ -17,6 +17,22 @@
       "metadata": "1A/renders/cabin_diagonal_final.json",
       "source_blend_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
       "image_sha256": "f0f4db9f69d4bae3edc3b3d02557bc0876d96a1ee77f79e9f4b54bf93f9a669b"
+    },
+    {
+      "variant": "2A",
+      "view": "hero",
+      "image": "2A/renders/hero_final.png",
+      "metadata": "2A/renders/hero_final.json",
+      "source_blend_sha256": "f8769d5b8af7d25b3f688a8eeded031394271f6ed47abadcc0f25b753127a073",
+      "image_sha256": "3f2906115e9c8aae8ff6cafcd44f831a34e1cffb6e239110845e8d5e56bdbade"
+    },
+    {
+      "variant": "2A",
+      "view": "bay",
+      "image": "2A/renders/bay_final.png",
+      "metadata": "2A/renders/bay_final.json",
+      "source_blend_sha256": "f8769d5b8af7d25b3f688a8eeded031394271f6ed47abadcc0f25b753127a073",
+      "image_sha256": "d0a9472799c20029203f1c7f6765b3c783149055f2677de95e1876aa15d5a6b2"
     }
   ]
 }

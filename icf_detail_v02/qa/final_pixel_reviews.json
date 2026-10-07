@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "1A",
+    "view": "hero",
+    "source_blend_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
+    "image_sha256": "5faa5e4e028760c57cccad9d8a7804e3fb8063debd8c8960f2f52386c60a6a3e",
+    "reviewed_utc": "2026-10-07T23:01:04.469983+00:00",
+    "review": "Whole coach and coupling fit within frame; class-specific windows and underfloor detail visible.",
+    "definite_geometry_defect_identified": false
+  },
+  {
+    "variant": "1A",
+    "view": "cabin_diagonal",
+    "source_blend_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
+    "image_sha256": "f0f4db9f69d4bae3edc3b3d02557bc0876d96a1ee77f79e9f4b54bf93f9a669b",
+    "reviewed_utc": "2026-10-07T23:01:04.470073+00:00",
+    "review": "Curtain folds, quilt seams, berth framing, panel, table and mirror remain intact and legible; fine Monte Carlo grain remains.",
+    "definite_geometry_defect_identified": false
+  },
+  {
+    "variant": "2A",
+    "view": "hero",
+    "source_blend_sha256": "f8769d5b8af7d25b3f688a8eeded031394271f6ed47abadcc0f25b753127a073",
+    "image_sha256": "3f2906115e9c8aae8ff6cafcd44f831a34e1cffb6e239110845e8d5e56bdbade",
+    "reviewed_utc": "2026-10-07T23:01:04.470174+00:00",
+    "review": "Square-window 2A arrangement is distinct from first AC; full body/buffers framed, underfloor gear and entrance detail visible; fine grain remains.",
+    "definite_geometry_defect_identified": false
+  },
+  {
+    "variant": "2A",
+    "view": "bay",
+    "source_blend_sha256": "f8769d5b8af7d25b3f688a8eeded031394271f6ed47abadcc0f25b753127a073",
+    "image_sha256": "d0a9472799c20029203f1c7f6765b3c783149055f2677de95e1876aa15d5a6b2",
+    "reviewed_utc": "2026-10-07T23:28:55.588746+00:00",
+    "review": "Two-tier berth arrangement, upper safety rails, ladders, lower support bases, curtains, reading lights, table and bottle holders read clearly. Fine Monte Carlo grain remains, especially in shadow; no denoising used.",
+    "definite_geometry_defect_identified": false
+  }
+]
