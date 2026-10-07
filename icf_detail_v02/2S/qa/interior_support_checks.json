@@ -1,0 +1,14 @@
+{
+  "variant": "2S",
+  "build_pass": "r10",
+  "source_sha256": "86a0a113d6a917620aa66b5286cb01bdd58dcd04c7eab89f3cc810b3eeb28bb6",
+  "checks": {
+    "paired_rear_backrests_separated": true
+  },
+  "details": {
+    "minimum_paired_back_gap_m": 0.010999977588653564,
+    "facing_cushion_front_gap_m": 0.47
+  },
+  "passed": true,
+  "scope": "Static focused source support contacts and paired-seat clearances; no dynamic or human fit certification"
+}

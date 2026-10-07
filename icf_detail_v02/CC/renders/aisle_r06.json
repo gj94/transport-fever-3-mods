@@ -1,0 +1,27 @@
+{
+  "variant": "CC",
+  "view": "aisle",
+  "source_build_pass": "r06",
+  "source_blend_sha256": "de67a3f07876472e1938ced928362491fa432404719eac39ebaf74b1ec0713ba",
+  "renderer_script_sha256": "8e9726c04457d5129d95aa8c42379965161f01b7325a5f2368df93c4266d0678",
+  "samples": 96,
+  "resolution": [
+    1000,
+    650
+  ],
+  "engine": "Blender Cycles CPU, no denoising",
+  "camera_position_m": [
+    7.650000095367432,
+    0.05999999865889549,
+    2.6600000858306885
+  ],
+  "camera_lens_mm": 23.0,
+  "orthographic_scale_m": null,
+  "hidden_mesh_count": 0,
+  "cutaway": false,
+  "cutaway_scope": null,
+  "preview_track_gauge_m": 1.676,
+  "duration_seconds": 275.55,
+  "rendered_utc": "2026-10-07T18:49:27.830809+00:00",
+  "image_sha256": "a48e07a070980208abf53dcf82d534b63768127fd591f919b55df072ee04d608"
+}

@@ -1,0 +1,7 @@
+DETAIL_GEOMETRY_QA {"variant": "SL", "checks": {"finite_geometry": true, "pax_count": true, "berth_count": true, "buffer_anchor_span": true, "bogie_pivot_span": true, "bounds_reasonable": true, "no_inward_closed_meshes": true, "no_zero_area_faces": true, "no_studio_in_asset": true}, "passed": true, "meshes": 7510, "closed_meshes": 7381, "open_surface_meshes": 129, "inward_meshes": [], "degenerate_faces": [], "bounds_m": [[-11.148500442504883, 11.148500442504883], [-1.75, 1.75], [-0.02800000086426735, 4.086999893188477]], "seated_roots": 72, "berth_markers": 72, "open_surface_note": "Window surrounds, cloth, thin sheet surfaces and mirrored fittings can be intentionally open; an open surface alone is not a failure.", "checked_blend": "ICF_SL_master.blend"}
+{"variant": "SL", "rays": 114, "structural_apertures_clear": true, "failed": [], "scope": "Structural skin and lining only; actual glazing/door leaves deliberately excluded"}
+{"variant": "SL", "build_pass": "r10", "source_sha256": "f166c0bc82a9497778eb35bbf6026107eee09e59610a7c57d005573d898710df", "checks": {"side_berth_pans_present": true, "side_pans_reach_corner_posts": true, "side_lower_legs_reach_floor": true}, "details": {"side_pan_count": 18, "side_lower_leg_count": 18}, "passed": true, "scope": "Static focused source support contacts and paired-seat clearances; no dynamic or human fit certification"}
+Blender 4.3.2
+Read blend: "/workspace/shared/icf-detail/icf_detail_v02/SL/ICF_SL_master.blend"
+
+Blender quit

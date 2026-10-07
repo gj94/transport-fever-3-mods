@@ -331,7 +331,14 @@ def sleeping_layout(tiers,bays,last_without_side=False):
   box('Shared compartment partition',(cx+pitch/2,-.61,2.39),(.035,1.85,2.10),CREAM,INTERIOR)
   if not(last_without_side and b==bays-1):
    for tier,z in [('LOWER',seat_top-.06),('UPPER',3.00)]:
-    cushion(pref+'_side_'+tier,(cx,1.19,z),(pitch-.10,.58,.12 if tier=='LOWER' else .10));berth((cx,1.19,z+.07),'SIDE_'+tier)
+    thickness=.12 if tier=='LOWER' else .10
+    cushion(pref+'_side_'+tier,(cx,1.19,z),(pitch-.10,.58,thickness));berth((cx,1.19,z+.07),'SIDE_'+tier)
+    pan_z=z-thickness/2+.008
+    box(pref+'_side_'+tier+'_support_pan',(cx,1.195,pan_z),(pitch-.04,.65,.030),DARK,INTERIOR,.006)
+    for bx in [cx-pitch/2+.12,cx+pitch/2-.12]:
+     box(pref+'_side_'+tier+'_wall_bracket',(bx,1.543 if tier=='UPPER' else 1.506,pan_z-.075),(.07,.074 if tier=='UPPER' else .04,.20),STEEL,INTERIOR,.004)
+     rod(pref+'_side_'+tier+'_diagonal_brace',(bx,1.575 if tier=='UPPER' else 1.512,pan_z-.155),(bx,1.20,pan_z-.015),.012,STEEL,INTERIOR)
+     if tier=='LOWER':rod(pref+'_side_lower_floor_leg',(bx,.91,FLOORZ+.012),(bx,.91,pan_z),.021,STEEL,INTERIOR)
    for xx,ya in [(cx-pitch/2+.30,0),(cx+pitch/2-.30,math.pi)]:pax((xx,1.19,seat_top-.483),ya)
    # Two side seat backs at ends; middle seam identifies folding side lower bench.
    for xx in [cx-pitch/2+.04,cx+pitch/2-.04]:
@@ -394,6 +401,8 @@ def first_class():
    for yy in [-1.05,.05]:pax((xx,yy,seat_top-.483),face)
    berth((xx,-.49,seat_top),'LOWER');berth((xx,-.49,3.01),'UPPER')
    box(prefix+'_lower_berth_base',(xx,-.49,seat_top-.245),(.72,1.83,.26),DARK,INTERIOR,.018)
+   for dx in [-.27,.27]:
+    for yy in [-1.24,.25]:box(prefix+'_lower_base_foot',(xx+dx,yy,FLOORZ+.045),(.07,.08,.07),DARK,INTERIOR,.005)
    for yy in [-1.35,.34]:
     hx=xx+(.28 if face==0 else -.28);ceiling=3.356+.587*math.sqrt(max(0,1-(yy/1.556)**2))
     rod(prefix+'_upper_hanger',(hx,yy,2.92),(hx,yy,ceiling-.012),.012,STEEL,INTERIOR)
@@ -430,12 +439,16 @@ def first_class():
  box('Cabin_F_end_partition',(7.5,-.46,2.37),(.05,2.08,2.10),CREAM,INTERIOR)
  overhead_lights(7)
 
+def sitting_row_x(row):
+ # Pair facing rows with 470 mm cushion-front gap; paired backs remain separated.
+ return -7.14+row*.84+(-.08 if row%2==0 else .08)
+
 def chairs():
  top=FLOORZ+.44
  if V=='CC':
   rows=15;pitch=1.0;xs=[-7.0+i*pitch for i in range(rows)];ys=[-1.27,-.81,-.35,.50,1.05];width=.41
  else:
-  rows=18;pitch=.84;xs=[-7.14+i*pitch for i in range(rows)];ys=[-1.28,-.84,-.40,.40,.84,1.28];width=.405
+  rows=18;pitch=.84;xs=[sitting_row_x(i) for i in range(rows)];ys=[-1.28,-.84,-.40,.40,.84,1.28];width=.405
  for row,x in enumerate(xs):
   facing=1 if V=='CC' or row%2==0 else -1
   seats=ys if not(V=='CC' and row==14) else ys[:3]

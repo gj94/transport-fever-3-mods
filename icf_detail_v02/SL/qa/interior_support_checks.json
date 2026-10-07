@@ -1,0 +1,16 @@
+{
+  "variant": "SL",
+  "build_pass": "r10",
+  "source_sha256": "f166c0bc82a9497778eb35bbf6026107eee09e59610a7c57d005573d898710df",
+  "checks": {
+    "side_berth_pans_present": true,
+    "side_pans_reach_corner_posts": true,
+    "side_lower_legs_reach_floor": true
+  },
+  "details": {
+    "side_pan_count": 18,
+    "side_lower_leg_count": 18
+  },
+  "passed": true,
+  "scope": "Static focused source support contacts and paired-seat clearances; no dynamic or human fit certification"
+}

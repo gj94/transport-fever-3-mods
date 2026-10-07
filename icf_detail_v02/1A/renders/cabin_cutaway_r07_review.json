@@ -1,0 +1,27 @@
+{
+  "variant": "1A",
+  "view": "cabin_cutaway",
+  "source_build_pass": "r07",
+  "source_blend_sha256": "7a8ba5205c27fbf9acafe93bba961f7fe96b1b65de8a7d123ed36e11472abf34",
+  "renderer_script_sha256": "1247f2b8ddc9ed647fbf7f432bf4538ab946da6f570a8f6f5593ba33d2df4909",
+  "samples": 64,
+  "resolution": [
+    1000,
+    650
+  ],
+  "engine": "Blender Cycles CPU, no denoising",
+  "camera_position_m": [
+    -6.0,
+    1.4700000286102295,
+    2.680000066757202
+  ],
+  "camera_lens_mm": 17.0,
+  "orthographic_scale_m": null,
+  "hidden_mesh_count": 10,
+  "cutaway": true,
+  "cutaway_scope": "First-AC cabin A corridor partition, parked leaf and attached call controls only",
+  "preview_track_gauge_m": 1.676,
+  "duration_seconds": 175.41,
+  "rendered_utc": "2026-10-07T19:04:33.379496+00:00",
+  "image_sha256": "98435a81f35d7eeb386f824a3a78ad38545fca30c0177501d1d58abe50e17d25"
+}

@@ -142,7 +142,7 @@ def finish(g):
  if V in ['CC','2S','GS']:
   rows=15 if V=='CC' else 18;pitch=1 if V=='CC' else .84;start=-7 if V=='CC' else -7.14
   for row in range(rows):
-   x=start+row*pitch;face=1 if V=='CC' or row%2==0 else -1
+   x=start+row*pitch if V=='CC' else g.sitting_row_x(row);face=1 if V=='CC' or row%2==0 else -1
    ys=[-1.27,-.81,-.35,.50,1.05] if V=='CC' else [-1.28,-.84,-.40,.40,.84,1.28]
    if V=='CC' and row==14:ys=ys[:3]
    for i,y in enumerate(ys):
@@ -164,7 +164,7 @@ def finish(g):
   # Standing passengers need connected handholds. This is a bench-coach fitting,
   # deliberately absent from the selected individual-seat 2S branch.
   for row in range(0,18,2):
-   x=-7.14+row*.84-.29
+   x=g.sitting_row_x(row)-.29
    for side in [-1,1]:
     y=side*.24
     g.rod('General coach aisle grab stanchion',(x,y,floor+.04),(x,y,3.28),.017,g.STEEL,g.INTERIOR,N=16)
@@ -172,7 +172,7 @@ def finish(g):
     g.rod('General stanchion luggage rack tie',(x,y,3.01),(x,side*.96,3.01),.014,g.STEEL,g.INTERIOR,N=14)
    g.rod('General cross aisle grab rail',(x,-.24,3.28),(x,.24,3.28),.017,g.STEEL,g.INTERIOR,N=16)
   for row in range(18):
-   x=-7.14+row*.84;face=1 if row%2==0 else -1
+   x=g.sitting_row_x(row);face=1 if row%2==0 else -1
    for side in [-1,1]:g.rod('General bench upper edge protector',(x-face*.25,side*.20,floor+1.025),(x-face*.25,side*1.49,floor+1.025),.012,g.STEEL,g.INTERIOR,N=14)
  for end in [-1,1]:
   # Practical vestibule finish and extinguisher, with cage, handle and hose.

@@ -12,7 +12,7 @@ import icf_shell,icf_coupling,detail_fittings,icf_running_gear,icf_service_inter
 MODEL_SOURCES=['build.py','core.py','detail_fittings.py','icf_shell.py','icf_coupling.py','icf_running_gear.py','icf_service_interior.py','icf_upholstery.py','icf_markings.py']
 SOURCE_HASHES={n:hashlib.sha256((HERE/n).read_bytes()).hexdigest() for n in MODEL_SOURCES}
 TEXTURE_HASHES={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (HERE.parent/'textures').glob('*.png')}
-BUILD_PASS='r08'
+BUILD_PASS='r10'
 OLD_MATERIAL=g.material
 OLD_ROD=g.rod
 OLD_BOX=g.box
@@ -111,7 +111,7 @@ g.toilets_and_ends=lambda ac:icf_service_interior.build(g,ac)
 def refined_box(name,c,size,mat,parent=None,bevel=0,coll=None):
  if parent is getattr(g,'INTERIOR',None) and mat is getattr(g,'STEEL',None):mat=getattr(g,'SATIN',mat)
  if name in ['Chair upholstered back','Low-back seat shell']:
-  row=min(range(18),key=lambda r:abs(c[0]-(-7.14+r*.84-(.25 if r%2==0 else -.25)))) if name=='Low-back seat shell' else 0
+  row=min(range(18),key=lambda r:abs(c[0]-(g.sitting_row_x(r)-(.25 if r%2==0 else -.25)))) if name=='Low-back seat shell' else 0
   return icf_upholstery.back(g,name,c,size,mat,parent or g.BODY,name=='Chair upholstered back',1 if row%2==0 else -1)
  if name=='Chair headrest cover':return icf_upholstery.headrest_cloth(g,name,c,size,mat,parent or g.BODY)
  if name=='Chair rear moulded shell':

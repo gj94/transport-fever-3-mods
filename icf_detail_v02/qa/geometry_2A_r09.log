@@ -1,0 +1,6 @@
+DETAIL_GEOMETRY_QA {"variant": "2A", "checks": {"finite_geometry": true, "pax_count": true, "berth_count": true, "buffer_anchor_span": true, "bogie_pivot_span": true, "bounds_reasonable": true, "no_inward_closed_meshes": true, "no_zero_area_faces": true, "no_studio_in_asset": true}, "passed": true, "meshes": 7157, "closed_meshes": 6953, "open_surface_meshes": 204, "inward_meshes": [], "degenerate_faces": [], "bounds_m": [[-11.148500442504883, 11.148500442504883], [-1.75, 1.75], [-0.02800000086426735, 4.0268988609313965]], "seated_roots": 46, "berth_markers": 46, "open_surface_note": "Window surrounds, cloth, thin sheet surfaces and mirrored fittings can be intentionally open; an open surface alone is not a failure.", "checked_blend": "ICF_2A_master.blend"}
+{"variant": "2A", "rays": 104, "structural_apertures_clear": true, "failed": [], "scope": "Structural skin and lining only; actual glazing/door leaves deliberately excluded"}
+Blender 4.3.2
+Read blend: "/workspace/shared/icf-detail/icf_detail_v02/2A/ICF_2A_master.blend"
+
+Blender quit

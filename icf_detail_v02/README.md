@@ -4,7 +4,7 @@ Separate, original authoring-source revision for seven conventional self-generat
 
 ## Current checkpoint
 
-All seven r06 class masters and FBX files have been generated, with geometry/normal, aperture, nominal seated-root and relocated-FBX checks. The generator now stages r07 refinements, including fully attached upper-berth hangers, thin sheet/reveal construction, sharper mirror reflection and small interior-facing-label corrections. Those staged changes are not yet in the r06 files. Each manifest records its build pass and producer hashes. Actual Blender proof images are work in progress; their filenames/sidecars identify the pass where available. This is a recovery checkpoint, not the final release.
+All seven r10 class masters and FBX files have been generated. r10 closes the side-berth support-pan/bracket gaps, first-class lower-base floor contacts, and paired 2S/GS facing-seat spacing. Focused source checks pass for every class. Fresh relocated-FBX verification passed for all seven classes, including packed marking textures, relocated texture loads, hierarchy, marker count and source/imported bounds. Current-source actual Blender review images and high-sample final proofs remain pending. Older images are retained only as clearly named history. This is a recovery checkpoint, not the final release.
 
 Selected stock uses conventional screw couplings and side buffers. It is intentionally not a CBC clone of the existing native fleet. Coupling to the WAP7, linked rake articulation, character fit and all native game behavior are **unvalidated**. No TF3 conversion is included.
 
