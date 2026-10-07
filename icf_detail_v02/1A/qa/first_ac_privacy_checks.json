@@ -1,0 +1,14 @@
+{
+  "variant": "1A",
+  "build_pass": "r11-1A",
+  "source_sha256": "b34a933c0fe2eeb4f3b27d032f0371b4076b0ddcc8092e5e7ac0a08ada40c081",
+  "checks": {
+    "seven_bulkheads_present": true,
+    "six_corridor_top_panels_present": true,
+    "partition_and_ceiling_contacts": true,
+    "capacity_preserved": true,
+    "berth_count_preserved": true
+  },
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,31 @@
+{
+  "variant": "1A",
+  "view": "exterior",
+  "source_build_pass": "r10",
+  "source_blend_sha256": "bfeab13529b85bbe5195aa3a16d7b5f1661644661bab28cd4e23f60aeeb40a89",
+  "renderer_script_sha256": "1e304faadb1e2f3351665a374627fbf3202c804bc87a34d6c5084d9ef90acb0a",
+  "samples": 24,
+  "adaptive_sampling": true,
+  "adaptive_threshold": 0.019999999552965164,
+  "adaptive_min_samples": 64,
+  "render_threads": 4,
+  "resolution": [
+    1000,
+    650
+  ],
+  "engine": "Blender Cycles CPU, no denoising",
+  "camera_position_m": [
+    22.0,
+    -24.0,
+    12.0
+  ],
+  "camera_lens_mm": null,
+  "orthographic_scale_m": 26.700000762939453,
+  "hidden_mesh_count": 0,
+  "cutaway": false,
+  "cutaway_scope": null,
+  "preview_track_gauge_m": 1.676,
+  "duration_seconds": 12.68,
+  "rendered_utc": "2026-10-07T20:27:55.652069+00:00",
+  "image_sha256": "0635bea883ea2a6147b55bc6f96c0e45ca1de5e49d39be0e1ce824aab0f357b6"
+}

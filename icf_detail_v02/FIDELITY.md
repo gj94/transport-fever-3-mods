@@ -24,6 +24,8 @@ SCR Knowledge Bank supports the selected 3.245 m body width, all-coil ICF constr
 
 Those detailed layouts and spacing are original authoring interpretations consistent with class topology and selected capacity, not traced approved arrangement drawings. Toilet allocation is a representative mix of two Indian-style and two Western-style pans. Small sanitary/service equipment placement and exact seat numbering remain illustrative.
 
+The isolated r11-1A refinement closes the private compartment bulkheads and corridor tops to the inner roof arch. Other classes retain open-bay or open-saloon arrangements. Capacity, openings and original room lengths are unchanged; full-height first-class privacy is distinct from a transverse open berth partition.
+
 ## Actual photographs inspected
 
 Pixels were inspected locally during the October 7 refinement pass; photographs are reference only and are not included in the source package or applied as textures.
@@ -36,6 +38,10 @@ Pixels were inspected locally during the October 7 refinement pass; photographs 
 - ICF 3A 071426: broad horizontal sealed windows and substantial underfloor SG/AC equipment. https://st2.indiarailinfo.com/kjfdsuiemjvcya0/0/8/2/0/1111820/0/img20140524111136.jpg
 - Conventional blue bench compartment and general-coach aisle: facing padded benches, connected standing handholds and overhead metal racks. These support fitting vocabulary, not the selected exact 108-seat spacing. https://st2.indiarailinfo.com/kjfdsuiemjvcya2/0/5/9/2/5360592/0/img202205281849502231601.jpg and https://st.indiarailinfo.com/kjfdsuiemjvcya24/0/5/9/9/3683599/0/capture85212.jpg
 - Overhead non-AC roof photograph: low broad rectangular extractors with corner clips; supports visual form only, not exact dimensions. https://cdn.zeebiz.com/hindi/sites/default/files/styles/zeebiz_850x478/public/2022/10/07/104904-train.jpg
+
+### Air-conditioning branch and roof form
+
+The AC variants intentionally depict an older underslung-equipment branch, so their smooth arched roofs do not acquire LHB-style roof package units. The Government of India Ozone Cell's historical railway account explicitly documents underslung AC units and their retrofits under RDSO coordination: https://ozonecell.nic.in/NCCOPP/Railways.html (historical page, last updated 2010, inspected 2026-10-07). This supports the existence of the selected branch, not an assertion that every ICF AC coach had this roof arrangement. Later conventional RMPU branches exist and are outside this coherent representative selection. Small roof seams remain modeled; underfloor equipment is included. Exact numbered-coach replication is not claimed.
 
 ## Mechanical detail
 

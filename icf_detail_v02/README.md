@@ -4,7 +4,7 @@ Separate, original authoring-source revision for seven conventional self-generat
 
 ## Current checkpoint
 
-All seven r10 class masters and FBX files have been generated. r10 closes the side-berth support-pan/bracket gaps, first-class lower-base floor contacts, and paired 2S/GS facing-seat spacing. Focused source checks pass for every class. Fresh relocated-FBX verification passed for all seven classes, including packed marking textures, relocated texture loads, hierarchy, marker count and source/imported bounds. Current-source actual Blender review images and high-sample final proofs remain pending. Older images are retained only as clearly named history. This is a recovery checkpoint, not the final release.
+The six shared-class masters are r10; 1A is an isolated r11-1A revision closing all private cabin/coupe bulkheads and corridor tops to the arched ceiling. All seven pass source geometry, aperture, interior-support, seated-root and relocated-FBX texture/hierarchy/bounds checks. The current sources have actual Blender overview/interior review images. 1A privacy closure also passes focused geometric checks and revised pixel review. Final 512-sample gallery production remains pending; low-sample review images are not final previews. The earlier r10 first-class images remain clearly named history and do not show the r11 privacy correction.
 
 Selected stock uses conventional screw couplings and side buffers. It is intentionally not a CBC clone of the existing native fleet. Coupling to the WAP7, linked rake articulation, character fit and all native game behavior are **unvalidated**. No TF3 conversion is included.
 
@@ -16,7 +16,7 @@ Capacities: 1A 18; 2A 46; 3A 64; 2S 108; CC 73; SL 72; GS selected 108-seat subt
 
 ## Rebuild
 
-Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/build.py -- all`. A class code builds only that variant. The bundled original text-only marking PNGs are packed into each master; Blender builds need no downloads or additional Python libraries. Optional `scripts/make_marking_textures.py` regeneration uses Pillow with Raqm and Noto Sans Devanagari. Preview renderer: `blender -b icf_detail_v02/SL/ICF_SL_master.blend -t 2 --python icf_detail_v02/scripts/render_detail.py -- exterior cutaway aisle bogie entrance`.
+Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/build.py -- all`. A class code builds only that variant. After a base rebuild, run `blender -b -t 4 --python icf_detail_v02/scripts/build_1a_r11.py` for the current first-class privacy revision; this wrapper leaves the other six source versions unchanged. The bundled original text-only marking PNGs are packed into each master; Blender builds need no downloads or additional Python libraries. Optional `scripts/make_marking_textures.py` regeneration uses Pillow with Raqm and Noto Sans Devanagari. Preview renderer: `blender -b icf_detail_v02/SL/ICF_SL_master.blend -t 2 --python icf_detail_v02/scripts/render_detail.py -- exterior cutaway aisle bogie entrance`.
 
 Renders are actual Blender geometry, not image-generated illustrations. Cutaway hides the roof and one bodyside for inspection only. Studio lights and camera are excluded from FBX. Passenger and berth markers are authoring references, not claims of runtime validation.
 

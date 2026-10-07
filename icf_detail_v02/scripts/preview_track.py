@@ -1,7 +1,7 @@
 """Plain original 1,676 mm gauge inspection track; studio-only, never asset export."""
-import bpy
+import bpy,math
 
-def build(scene):
+def build(scene,length=32):
  coll=bpy.data.collections.get('STUDIO_render_only') or scene.collection
  def mat(n,c,metal,rough):
   m=bpy.data.materials.new(n);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=rough;return m
@@ -12,11 +12,12 @@ def build(scene):
  if ground:ground.location.z=-.30
  # Head inner edges y=±0.838 establish broad gauge. Rail running surface is z=0.
  for y in [-.871,.871]:
-  box('STUDIO rail head',(0,y,-.021),(32,.066,.042),steel)
-  box('STUDIO rail web',(0,y,-.094),(32,.015,.104),web)
-  box('STUDIO rail base',(0,y,-.158),(32,.14,.028),web)
- for i in range(49):
-  x=-15.6+i*.65;box('STUDIO sleeper',(x,0,-.256),(.235,2.75,.168),concrete)
+  box('STUDIO rail head',(0,y,-.021),(length,.066,.042),steel)
+  box('STUDIO rail web',(0,y,-.094),(length,.015,.104),web)
+  box('STUDIO rail base',(0,y,-.158),(length,.14,.028),web)
+ count=2*int(length/.65/2)+1
+ for i in range(count):
+  x=(i-(count-1)/2)*.65;box('STUDIO sleeper',(x,0,-.256),(.235,2.75,.168),concrete)
   for y in [-.871,.871]:
    box('STUDIO rail pad',(x,y,-.176),(.25,.20,.010),clip)
    for dy in [-.102,.102]:box('STUDIO fastening clip',(x,y+dy,-.158),(.065,.042,.047),clip)

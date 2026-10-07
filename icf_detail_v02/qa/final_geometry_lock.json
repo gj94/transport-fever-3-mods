@@ -1,0 +1,83 @@
+{
+  "status": "Geometry locked after source QA and actual-pixel review; final high-sample gallery pending",
+  "source_blend_sha256": {
+    "1A": "b34a933c0fe2eeb4f3b27d032f0371b4076b0ddcc8092e5e7ac0a08ada40c081",
+    "2A": "1f193b8f5791ec5fa27639b0652c3385654eb1e6c191ea46da5d2056c6d01eaf",
+    "3A": "da369c6777b39eeca2134176808202c9fd1c33c7a393c6aad18eeb73c15c46f7",
+    "2S": "86a0a113d6a917620aa66b5286cb01bdd58dcd04c7eab89f3cc810b3eeb28bb6",
+    "CC": "3cbb0a419b12cb87b957944c5ea22ff762bc08068564bd92ac01df74d65a94e9",
+    "SL": "f166c0bc82a9497778eb35bbf6026107eee09e59610a7c57d005573d898710df",
+    "GS": "b379cd663964e8863f2a5b746e8930a97f414b1fc04f30d0e4fb727183f55423"
+  },
+  "fbx_sha256": {
+    "1A": "47aa6957d4983c62ecc3746b65ab1d6df9420528d12b1cd7215532eba40d24f3",
+    "2A": "f50bae5e5f546b32275031470a0243f0e1e98413043721a58dc602f6dec63ee1",
+    "3A": "dea4b948dd9af321de11013c5886a3c0003af896bca00c35c17bb39083b53ca2",
+    "2S": "065a6dd63e827fca9a21cb5c702ff28402881ace4a6d63f5f4f4de557bc74e7a",
+    "CC": "54c7925deb979d992e8dfcf32bd76a743416673f74d963c13f2b029618d4953b",
+    "SL": "18334825f3ffe1a4c18c5538cdce18fc94b74c130f38374e676e4ce5ebab6f27",
+    "GS": "bbb618c832c460cfaab73153dadd5223737a0a8f1a0f575270f870eb00b340b0"
+  },
+  "build_pass": {
+    "1A": "r11-1A",
+    "2A": "r10",
+    "3A": "r10",
+    "2S": "r10",
+    "CC": "r10",
+    "SL": "r10",
+    "GS": "r10"
+  },
+  "qa": {
+    "1A": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true,
+      "privacy_closure": true
+    },
+    "2A": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true
+    },
+    "3A": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true
+    },
+    "2S": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true
+    },
+    "CC": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true
+    },
+    "SL": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true
+    },
+    "GS": {
+      "source_geometry": true,
+      "apertures": true,
+      "supports": true,
+      "fbx_roundtrip": true
+    }
+  },
+  "render_policy": {
+    "samples": 512,
+    "adaptive_threshold": 0.02,
+    "minimum_samples": 64,
+    "cpu_threads": 4,
+    "denoising": false
+  },
+  "runtime_validation": false
+}

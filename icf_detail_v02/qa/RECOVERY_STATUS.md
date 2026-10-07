@@ -1,7 +1,7 @@
-# Active ICF authoring status
+# Active ICF status
 
-2026-10-07 20:27 UTC: All seven r10 masters built. Source geometry, apertures, focused interior support contact, seated roots and relocated FBX QA all pass. Immutable r10 geometry milestone under /workspace/shared/icf-checkpoints/r10; current-hash review gallery is next, followed by parent-approved 512-sample CPU proofs. No main publication.
+2026-10-07 20:49 UTC: Geometry locked in qa/final_geometry_lock.json: six r10 classes and isolated 1A r11-1A. All source/export/support/aperture tests pass. Revised 1A privacy panels reach the ceiling, current diagonal and cutaway reviewed. Parent approved geometry, requested tighter depot-backed hero composition. Renderer now has that presentation change, but fresh hero review is pending.
 
-Prior r08 backup commit 8b37eeabda7860e6f9567ead661a51f4b81f9c7b. r10 fixes side-berth pans/brackets/lower feet, 1A lower-base floor supports, and 2S/GS facing cushion gaps. 2S rear-shell gap 11 mm; GS 115 mm; cushion front gap 470 mm. These are visual interpretations, not safety or human-fit certification.
+Session 14802 runs targeted review extensions, currently CC headrest. Complete run_review_extensions.py, then render 1A hero with suffix r11_hero_review using the current renderer; obtain parent pixel approval. Start run_final_gallery.py only afterward. Final settings 512 max samples / 2% adaptive / minimum 64 / no denoising / four threads. Primary exterior+interior coverage first, details second. Save/freeze final image manifest afterward.
 
-Continue until at least 2026-10-08 01:00 UTC. One Blender process per family, maximum four CPU threads; no OIDN. Final render settings 512 samples, adaptive 2%, minimum 64. Root must see review images before final queue. Preserve existing native fleet/main and never claim WAP7 coupling or runtime validation.
+Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main publication authorized. Continue real work until at least 2026-10-08 01:00 UTC. Keep all existing native fleet and WAP7 compatibility/runtime claims unchanged.
