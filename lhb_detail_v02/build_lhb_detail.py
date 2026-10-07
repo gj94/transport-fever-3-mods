@@ -7,7 +7,7 @@ from mathutils import Vector
 from pathlib import Path
 P=Path(__file__).resolve().parent
 sys.path.insert(0,str(P))
-SOURCE_HASHES={name:hashlib.sha256((P/name).read_bytes()).hexdigest() for name in ['build_lhb_detail.py','lhb_shell.py','lhb_finish_detail.py','lhb_running_gear.py','lhb_identity_detail.py']}
+SOURCE_HASHES={name:hashlib.sha256((P/name).read_bytes()).hexdigest() for name in ['build_lhb_detail.py','lhb_shell.py','lhb_finish_detail.py','lhb_running_gear.py','lhb_identity_detail.py','lhb_hvac_detail.py','lhb_soft_finish.py','lhb_chair_detail.py']}
 from lhb_running_gear import build_running_gear
 
 CFG={
@@ -17,7 +17,7 @@ CFG={
 '2S':dict(code='LWSCZ1',capacity=102,ac=False,label='SECOND SITTING',layout='17 rows of 3+3 upright chairs',color=(.055,.19,.39)),
 'CC':dict(code='LWSCZAC',capacity=78,ac=True,label='AC CHAIR CAR',layout='15 rows of 2+3 reclining chairs + 3-seat end row',color=(.04,.17,.35)),
 'SL':dict(code='LWSCN1',capacity=80,ac=False,label='SLEEPER',layout='10 eight-berth bays; middle berths folded for daytime',color=(.58,.025,.045)),
-'GS':dict(code='LS1',capacity=100,ac=False,label='GENERAL SECOND CLASS',layout='10 ten-seat bays, 4+4 transverse and 2 longitudinal; centre entry',color=(.58,.025,.045)),
+'GS':dict(code='LS1',capacity=100,ac=False,label='GENERAL SECOND CLASS',layout='two mirrored five-bay saloons, each bay 4+4 transverse and 2 side seats; centre entry',color=(.58,.025,.045)),
 }
 FLOOR=1.303; TOP=1.840; HIP=.483
 
@@ -74,6 +74,17 @@ def rack(x,y,w):
    xx=x-w/2+j*w/max(1,int(w/.13)-1);rod('LUGGAGE_RACK_crossbar',(xx,y-.20,z),(xx,y+.20,z),.008,steel,6,coll=inter)
 
 
+def transverse_rack(x,y,mirror=1):
+ # Main GS luggage racks run across the coach, above each four-person bench.
+ width=1.92;depth=.54;z=2.96
+ for xx in [x-depth/2,x,x+depth/2]:rod('GS_TRANSVERSE_RACK_rail',(xx,y-width/2,z),(xx,y+width/2,z),.012,steel,12,coll=inter)
+ for j in range(15):
+  yy=y-width/2+j*width/14;rod('GS_TRANSVERSE_RACK_crossbar',(x-depth/2,yy,z),(x+depth/2,yy,z),.008,steel,10,coll=inter)
+ for xx in [x-depth/2,x+depth/2]:
+  rod('GS_TRANSVERSE_RACK_front_support',(xx,mirror*.42,z),(xx,mirror*.42,3.49),.012,steel,12,coll=inter)
+  rod('GS_TRANSVERSE_RACK_wall_brace',(xx,-mirror*1.485,2.75),(xx,-mirror*1.38,z),.013,steel,12,coll=inter)
+
+
 def common(k,c):
  global root,body,C,inter,roof,glasscoll,marks,pax,berths,steel,ivory,blue,rubber,white,floor,paint,grey,glass,wood,edge
  bpy.ops.wm.read_factory_settings(use_empty=True);sc=bpy.context.scene;sc.unit_settings.system='METRIC';sc.unit_settings.scale_length=1
@@ -96,13 +107,21 @@ def common(k,c):
  lhb_shell.build(globals(),k,c)
  # Lighting/fan/AC distinction, spaced along passenger area.
  for x in [-7.5,-5.6,-3.7,-1.8,.1,2.0,3.9,5.8,7.7]:
-  box('LIGHT_diffuser',(x,.63 if k in ['1A','2A','3A','SL','GS'] else 0,3.578),(.7,.18,.025),white,.012,coll=inter)
+  box('LIGHT_diffuser',(x,(.63*(1 if x<0 else -1) if k=='GS' else .63) if k in ['1A','2A','3A','SL','GS'] else 0,3.578),(.7,.18,.025),white,.012,coll=inter)
   if c['ac']:
    for y in [-1.05,1.05]:
     box('AC_ceiling_vent',(x,y,3.58),(.6,.18,.025),rubber,.006,coll=inter)
     for j in range(6):box('AC_vent_slats',(x-.25+j*.10,y,3.565),(.015,.175,.01),ivory,coll=inter)
-  else:
+  elif k=='2S':
    for y in [-.55,.78]:fan(x,y)
+ if k=='SL':
+  for j in range(10):
+   for y in [-1.08,-.42,.24]:fan(-8.1+j*1.80,y)
+ elif k=='GS':
+  for half in [-1,1]:
+   for j in range(5):
+    for y in [-1.08,-.42,.24]:fan(half*(1.34+j*1.67),-half*y)
+ root['ceiling_fan_count']=30 if k in ['SL','GS'] else (18 if k=='2S' else 0)
  for e in [-1,1]:
   box('VESTIBULE_cabinet',(e*9.15,-1.13,2.25),(.55,.68,1.88),ivory,.018,coll=inter)
   rod('FIRE_EXTINGUISHER',(e*9.28,-.72,1.75),(e*9.28,-.72,2.28),.074,paint,12,coll=inter)
@@ -202,21 +221,21 @@ def general(c):
  # Legacy LS1 drawing: ten 10-seat bays with central pair of doors.
  for s in [-1,1]:
   for i in range(5):
-   x=s*(1.25+i*1.68)
+   x=s*(1.34+i*1.67);mirror=-s
    for e in [-1,1]:
     xx=x+e*.54;n=f'{s}_{i}_{e}'
-    box('GS_main_bench_'+n,(xx,-.54,TOP-.06),(.53,1.92,.12),blue,.027,coll=inter)
-    box('GS_bench_back_'+n,(xx+e*.23,-.54,2.10),(.09,1.92,.55),blue,.02,coll=inter)
-    for j,y in enumerate([-1.26,-.78,-.30,.18]):seatmark(n+'_'+str(j),xx-e*.045,y,0 if e<0 else math.pi)
-    for y in [-1.27,.18]:box('GS_bench_leg',(xx,y,1.52),(.05,.05,.43),steel,.01,coll=inter)
-    rack(xx,-.55,.58)
-   box('GS_side_bench',(x,1.24,TOP-.06),(1.46,.56,.12),blue,.03,coll=inter)
+    box('GS_main_bench_'+n,(xx,-.54*mirror,TOP-.06),(.53,1.92,.12),blue,.027,coll=inter)
+    box('GS_bench_back_'+n,(xx+e*.23,-.54*mirror,2.10),(.09,1.92,.55),blue,.02,coll=inter)
+    for j,y in enumerate([-1.26,-.78,-.30,.18]):seatmark(n+'_'+str(j),xx-e*.045,y*mirror,0 if e<0 else math.pi)
+    for y in [-1.27,.18]:box('GS_bench_leg',(xx,y*mirror,1.52),(.05,.05,.43),steel,.01,coll=inter)
+    transverse_rack(xx,-.54*mirror,mirror)
+   box('GS_side_bench',(x,1.24*mirror,TOP-.06),(1.46,.56,.12),blue,.03,coll=inter)
    for e in [-1,1]:
-    box('GS_side_back',(x+e*.68,1.24,2.10),(.09,.56,.55),blue,.02,coll=inter)
-    seatmark(f'{s}_{i}_SIDE_{e}',x+e*.43,1.24,0 if e<0 else math.pi)
-   rack(x,1.20,1.5)
+    box('GS_side_back',(x+e*.68,1.24*mirror,2.10),(.09,.56,.55),blue,.02,coll=inter)
+    seatmark(f'{s}_{i}_SIDE_{e}',x+e*.43,1.24*mirror,0 if e<0 else math.pi)
+   rack(x,1.20*mirror,1.5)
    # Luggage racks, not sleeping berths, have no BERTH markers.
-   for yy in [.48,.96]:rod('GS_vertical_grab',(x+.79,yy,FLOOR),(x+.79,yy,3.38),.015,steel,coll=inter)
+   for yy in [.48,.96]:rod('GS_vertical_grab',(x+.79,yy*mirror,FLOOR),(x+.79,yy*mirror,3.38),.015,steel,coll=inter)
 
 
 def finish(k,c):
@@ -249,12 +268,18 @@ def finish(k,c):
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else list(CFG)
 for d in ['models','previews','qa','docs']:(P/d).mkdir(exist_ok=True)
 for k in args:
+ TOP=1.840
  c=CFG[k];common(k,c)
  if k in ['1A','2A','3A','SL']:sleeping(k,c)
  elif k in ['2S','CC']:chair(k,c)
  else:general(c)
+ import lhb_chair_detail
+ lhb_chair_detail.refine_core(globals(),k,c)
  import lhb_finish_detail
  lhb_finish_detail.refine(globals(),k,c)
+ lhb_chair_detail.refine_finish(globals(),k,c)
+ import lhb_soft_finish
+ lhb_soft_finish.apply(globals(),k,c)
  import lhb_identity_detail
  lhb_identity_detail.apply(globals(),k,c)
  finish(k,c)

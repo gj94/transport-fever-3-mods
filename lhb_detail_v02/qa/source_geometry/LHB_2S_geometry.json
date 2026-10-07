@@ -1,0 +1,6884 @@
+{
+  "variant": "2S",
+  "generated_utc": "2026-10-07T19:51:03.093913+00:00",
+  "blender_version": "4.3.2",
+  "source_file": "/workspace/shared/lhb-detail/lhb_detail_v02/models/LHB_2S.blend",
+  "checks": [
+    {
+      "name": "manifest_declared_contract",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "name": "manifest_build_hashes_match_source",
+      "status": "pass"
+    },
+    {
+      "name": "marker_build_hashes_match_source",
+      "status": "pass"
+    },
+    {
+      "name": "marker_manifest_matches_actual_source",
+      "status": "pass",
+      "details": {
+        "count": 0,
+        "examples": [],
+        "truncated": false
+      }
+    },
+    {
+      "name": "fbx_file_present_and_nonempty",
+      "status": "pass",
+      "details": {
+        "bytes": 24293292
+      }
+    },
+    {
+      "name": "input_files_unchanged_during_verification",
+      "status": "pass"
+    }
+  ],
+  "source": {
+    "variant": "2S",
+    "stage": "source",
+    "checks": [
+      {
+        "name": "asset_root_present",
+        "status": "pass"
+      },
+      {
+        "name": "embedded_build_hashes_match_current_modules",
+        "status": "pass",
+        "details": {
+          "embedded": {
+            "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+            "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6",
+            "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+            "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+            "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+          },
+          "current": {
+            "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+            "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+            "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+            "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+            "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
+          }
+        }
+      },
+      {
+        "name": "finite_transforms",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "root_identity",
+        "status": "pass",
+        "details": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "body_parent_and_identity",
+        "status": "pass"
+      },
+      {
+        "name": "all_geometry_owned_by_asset_root",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "presentation_excluded_from_asset_hierarchy",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "scene_units_metres",
+        "status": "pass",
+        "details": {
+          "unit_system": "METRIC",
+          "scale_length": 1.0
+        }
+      },
+      {
+        "name": "root_capacity_metadata",
+        "status": "pass"
+      },
+      {
+        "name": "native_runtime_claims_false",
+        "status": "pass"
+      },
+      {
+        "name": "whole_asset_reasonable_envelope",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "dimension_body_length_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 23.54,
+          "actual_m": 23.540000915527344,
+          "object": "UNDERFRAME_main"
+        }
+      },
+      {
+        "name": "dimension_body_width_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 3.24,
+          "actual_m": 3.240000009536743,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_roof_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 4.039,
+          "actual_m": 4.039000034332275,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_floor_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 1.303,
+          "actual_m": 1.3029999732971191,
+          "object": "INTERIOR_floor"
+        }
+      },
+      {
+        "name": "two_bogies_four_axles_eight_wheels_eight_discs",
+        "status": "pass",
+        "details": {
+          "bogies": 2,
+          "axles": 4,
+          "wheels": 8,
+          "brake_discs": 8
+        }
+      },
+      {
+        "name": "dimension_bogie_centres",
+        "status": "pass",
+        "details": 14.899999618530273
+      },
+      {
+        "name": "running_gear_geometry_and_parenting",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "coupling_anchor_contract",
+        "status": "pass",
+        "details": {
+          "span_m": 24.0,
+          "anchors": {
+            "COUPLING_FRONT": [
+              12.0,
+              0.0,
+              1.10500002
+            ],
+            "COUPLING_REAR": [
+              -12.0,
+              0.0,
+              1.10500002
+            ]
+          }
+        }
+      },
+      {
+        "name": "door_portal_headers_bridge_to_roof",
+        "status": "pass",
+        "details": {
+          "doors": 4,
+          "errors": [],
+          "headers": [
+            {
+              "door": "DOOR_R_1_PIVOT",
+              "header": "DOOR_portal_header",
+              "bounds_m": [
+                [
+                  -10.59000015,
+                  -1.62,
+                  3.41499996
+                ],
+                [
+                  -9.54999924,
+                  -1.53599989,
+                  3.57999992
+                ]
+              ]
+            },
+            {
+              "door": "DOOR_R_2_PIVOT",
+              "header": "DOOR_portal_header.001",
+              "bounds_m": [
+                [
+                  9.54999924,
+                  -1.62,
+                  3.41499996
+                ],
+                [
+                  10.59000015,
+                  -1.53599989,
+                  3.57999992
+                ]
+              ]
+            },
+            {
+              "door": "DOOR_L_1_PIVOT",
+              "header": "DOOR_portal_header.002",
+              "bounds_m": [
+                [
+                  -10.59000015,
+                  1.53599989,
+                  3.41499996
+                ],
+                [
+                  -9.54999924,
+                  1.62,
+                  3.57999992
+                ]
+              ]
+            },
+            {
+              "door": "DOOR_L_2_PIVOT",
+              "header": "DOOR_portal_header.003",
+              "bounds_m": [
+                [
+                  9.54999924,
+                  1.53599989,
+                  3.41499996
+                ],
+                [
+                  10.59000015,
+                  1.62,
+                  3.57999992
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "HVAC_blind_wells_and_fans_recessed",
+        "status": "pass",
+        "details": {
+          "packages": 0,
+          "errors": [],
+          "ray_samples": []
+        }
+      },
+      {
+        "name": "RMPU_intakes_covers_and_paired_junction_boxes",
+        "status": "pass",
+        "details": {
+          "errors": [],
+          "unit_measurements": []
+        }
+      },
+      {
+        "name": "RMPU_roof_platform_flat_to_1_27m_halfwidth",
+        "status": "pass",
+        "details": {
+          "errors": [],
+          "sample_measurements": []
+        }
+      },
+      {
+        "name": "RMPU_well_floors_clear_roof_platform",
+        "status": "pass",
+        "details": {
+          "errors": [],
+          "clearance_measurements": []
+        }
+      },
+      {
+        "name": "RMPU_roof_and_ceiling_vertically_separate",
+        "status": "pass",
+        "details": {
+          "ceiling_top_z_m": 3.632999897003174,
+          "flat_roof_bottom_z_m": 3.655,
+          "well_floor_z_m": 3.8075,
+          "ceiling_to_roof_gap_m": 0.022000102996825976
+        }
+      },
+      {
+        "name": "temporary_boolean_cutters_removed",
+        "status": "pass"
+      },
+      {
+        "name": "end_livery_wedges_match_world_space_plane",
+        "status": "pass",
+        "details": {
+          "objects": [
+            "BODYSIDE_header",
+            "BODYSIDE_window_pier",
+            "BODYSIDE_rounded_aperture",
+            "BODYSIDE_window_pier.001",
+            "BODYSIDE_header.002",
+            "BODYSIDE_window_pier.018",
+            "BODYSIDE_rounded_aperture.016",
+            "BODYSIDE_window_pier.019",
+            "BODYSIDE_header.003",
+            "BODYSIDE_window_pier.020",
+            "BODYSIDE_rounded_aperture.017",
+            "BODYSIDE_window_pier.021",
+            "BODYSIDE_header.005",
+            "BODYSIDE_window_pier.038",
+            "BODYSIDE_rounded_aperture.033",
+            "BODYSIDE_window_pier.039"
+          ],
+          "faces_checked": 584,
+          "errors": []
+        }
+      },
+      {
+        "name": "PAX_count",
+        "status": "pass",
+        "details": {
+          "expected": 102,
+          "actual": 102
+        }
+      },
+      {
+        "name": "BERTH_count",
+        "status": "pass",
+        "details": {
+          "expected": 0,
+          "actual": 0
+        }
+      },
+      {
+        "name": "marker_root_metadata_consistent",
+        "status": "pass"
+      },
+      {
+        "name": "PAX_seated_pose_and_single_lower_cushion_support",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_unique_positions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_torso_clear_of_fixed_partitions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "ceiling_fan_count_and_class_positions",
+        "status": "pass",
+        "details": {
+          "expected_count": 18,
+          "actual_count": 18,
+          "metadata_count": 18,
+          "missing_positions": [],
+          "unexpected_objects": [],
+          "actual_positions_m": {
+            "FAN_motor": [
+              -7.5,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.001": [
+              -7.5,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.002": [
+              -5.5999999,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.003": [
+              -5.5999999,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.004": [
+              -3.70000005,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.005": [
+              -3.70000005,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.006": [
+              -1.79999995,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.007": [
+              -1.79999995,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.008": [
+              0.10000001,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.009": [
+              0.10000001,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.010": [
+              2.0,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.011": [
+              2.0,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.012": [
+              3.9000001,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.013": [
+              3.9000001,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.014": [
+              5.80000019,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.015": [
+              5.80000019,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.016": [
+              7.69999981,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.017": [
+              7.69999981,
+              0.77999997,
+              3.35500002
+            ]
+          }
+        }
+      },
+      {
+        "name": "furniture_legs_meet_floor_and_lower_seat_structure",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_references_match_lower_upper_or_stowed_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_class_type_distribution",
+        "status": "pass",
+        "details": {
+          "expected": {},
+          "actual": {}
+        }
+      },
+      {
+        "name": "lavatory_and_basin_actual_placement",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "lavatory_count",
+        "status": "pass",
+        "details": {
+          "expected": 4,
+          "actual": 4
+        }
+      },
+      {
+        "name": "rounded_window_centres_are_actual_through_apertures",
+        "status": "pass",
+        "details": {
+          "apertures_checked": 34,
+          "blocked": []
+        }
+      },
+      {
+        "name": "separate_glazing_geometry_exists",
+        "status": "pass",
+        "details": {
+          "objects": 38
+        }
+      },
+      {
+        "name": "WC_glazing_keeps_distinct_privacy_material",
+        "status": "pass",
+        "details": {
+          "count": 4,
+          "errors": []
+        }
+      },
+      {
+        "name": "source_glass_transmission",
+        "status": "pass",
+        "details": {
+          "alpha": 1.0,
+          "transmission": 0.9599999785423279
+        }
+      },
+      {
+        "name": "no_negative_scale",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "editable_text_tessellation_clean",
+        "status": "warning",
+        "details": {
+          "count": 18,
+          "examples": [
+            {
+              "object": "BATTERY_BOX_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 732,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 6.009657374434479e-08
+            },
+            {
+              "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 1021,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "CLASS_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.5122249733766896e-05
+            },
+            {
+              "object": "RAILWAY_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "DESTINATION_BOARD_text.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "CLASS_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.5122249733766896e-05
+            },
+            {
+              "object": "RAILWAY_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "DESTINATION_BOARD_text.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "ELECTRICAL_panel_label",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "ELECTRICAL_panel_label.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "SALOON_class_plaque",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 5.527474834535093e-06
+            },
+            {
+              "object": "SALOON_class_plaque.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 5.527474834535093e-06
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "name": "evaluated_fabricated_meshes_closed_manifold",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_no_degenerate_or_nonfinite_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_consistent_winding",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "no_external_image_or_linked_library_dependencies",
+        "status": "pass",
+        "details": {
+          "image_paths": [],
+          "libraries": []
+        }
+      }
+    ],
+    "assumptions_and_limits": [
+      "Source geometry is representative authoring geometry, not manufacturer CAD or dimensional certification.",
+      "Physical passenger/berth markers are not gameplay capacity or native TF3 runtime validation.",
+      "PAX support uses actual cushion footprints and hip datum; full posed-character collisions, reach, comfort and egress are unverified.",
+      "Topology is checked per evaluated component. Solid intersections, self-intersections, normals across separate parts and render appearance are not fully verified.",
+      "Nominal .915 m tread diameter is checked at the actual nominal tread ring; flange envelope is intentionally larger.",
+      "4.039 m crown is the roof skin; seams and non-AC ventilation hoods may protrude above it. Wheel flanges extend below railhead; CBC/handrails extend beyond the nominal body envelope.",
+      "Editable-font cap seams use coincident vertices; text closure is checked after a disposable 0.1 micrometre weld.",
+      "Procedural source materials are not expected to round-trip through FBX; exported alpha fallback is checked instead."
+    ],
+    "embedded_source_module_sha256": {
+      "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+      "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6",
+      "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+      "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+      "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+      "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+      "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+    },
+    "statistics": {
+      "scene_objects": 5405,
+      "asset_objects": 5396,
+      "asset_mesh_objects": 5175,
+      "asset_font_objects": 52,
+      "asset_empty_objects": 169,
+      "materials": 34
+    },
+    "bounds": {
+      "min_m": [
+        -12.07999992,
+        -1.67999995,
+        -0.02699995
+      ],
+      "max_m": [
+        12.07999992,
+        1.67999995,
+        4.11899996
+      ],
+      "size_m": [
+        24.15999985,
+        3.3599999,
+        4.14599991
+      ]
+    },
+    "envelope_extremes": {
+      "X": {
+        "min": "CBC_REAR_HEAD_MATING_PROFILE",
+        "max": "CBC_FRONT_HEAD_MATING_PROFILE"
+      },
+      "Y": {
+        "min": "ENTRY_handrail",
+        "max": "ENTRY_handrail.004"
+      },
+      "Z": {
+        "min": "WHEEL_FRONT_A_bright_flange_and_tread",
+        "max": "VENTURI_roof_vent_hood"
+      }
+    },
+    "wheel_measurements": [
+      {
+        "object": "WHEEL_FRONT_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150009155273438,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.9150004606572053,
+        "flange_diameter_m": 0.9680004119873047,
+        "back_face_abs_y_m": 0.800000011920929
+      }
+    ],
+    "brake_disc_measurements": [
+      {
+        "object": "BRAKE_DISC_FRONT_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400008275751266,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400003433227539,
+        "width_m": 0.11000001430511475
+      }
+    ],
+    "measured_dimensions": {
+      "body_length_m": 23.540000915527344,
+      "body_width_m": 3.240000009536743,
+      "roof_height_m": 4.039000034332275,
+      "floor_height_m": 1.3029999732971191,
+      "bogie_centres_m": 14.899999618530273,
+      "coupling_span_m": 24.0
+    },
+    "PAX_supports": [
+      {
+        "marker": "PAX_01_1",
+        "world_m": [
+          -8.28499985,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_1"
+        ]
+      },
+      {
+        "marker": "PAX_01_2",
+        "world_m": [
+          -8.28499985,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_2"
+        ]
+      },
+      {
+        "marker": "PAX_01_3",
+        "world_m": [
+          -8.28499985,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_3"
+        ]
+      },
+      {
+        "marker": "PAX_01_4",
+        "world_m": [
+          -8.28499985,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_4"
+        ]
+      },
+      {
+        "marker": "PAX_01_5",
+        "world_m": [
+          -8.28499985,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_5"
+        ]
+      },
+      {
+        "marker": "PAX_01_6",
+        "world_m": [
+          -8.28499985,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_6"
+        ]
+      },
+      {
+        "marker": "PAX_02_1",
+        "world_m": [
+          -7.24499989,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_1"
+        ]
+      },
+      {
+        "marker": "PAX_02_2",
+        "world_m": [
+          -7.24499989,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_2"
+        ]
+      },
+      {
+        "marker": "PAX_02_3",
+        "world_m": [
+          -7.24499989,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_3"
+        ]
+      },
+      {
+        "marker": "PAX_02_4",
+        "world_m": [
+          -7.24499989,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_4"
+        ]
+      },
+      {
+        "marker": "PAX_02_5",
+        "world_m": [
+          -7.24499989,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_5"
+        ]
+      },
+      {
+        "marker": "PAX_02_6",
+        "world_m": [
+          -7.24499989,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_6"
+        ]
+      },
+      {
+        "marker": "PAX_03_1",
+        "world_m": [
+          -6.20499992,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_1"
+        ]
+      },
+      {
+        "marker": "PAX_03_2",
+        "world_m": [
+          -6.20499992,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_2"
+        ]
+      },
+      {
+        "marker": "PAX_03_3",
+        "world_m": [
+          -6.20499992,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_3"
+        ]
+      },
+      {
+        "marker": "PAX_03_4",
+        "world_m": [
+          -6.20499992,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_4"
+        ]
+      },
+      {
+        "marker": "PAX_03_5",
+        "world_m": [
+          -6.20499992,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_5"
+        ]
+      },
+      {
+        "marker": "PAX_03_6",
+        "world_m": [
+          -6.20499992,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_6"
+        ]
+      },
+      {
+        "marker": "PAX_04_1",
+        "world_m": [
+          -5.16499996,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_1"
+        ]
+      },
+      {
+        "marker": "PAX_04_2",
+        "world_m": [
+          -5.16499996,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_2"
+        ]
+      },
+      {
+        "marker": "PAX_04_3",
+        "world_m": [
+          -5.16499996,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_3"
+        ]
+      },
+      {
+        "marker": "PAX_04_4",
+        "world_m": [
+          -5.16499996,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_4"
+        ]
+      },
+      {
+        "marker": "PAX_04_5",
+        "world_m": [
+          -5.16499996,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_5"
+        ]
+      },
+      {
+        "marker": "PAX_04_6",
+        "world_m": [
+          -5.16499996,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_6"
+        ]
+      },
+      {
+        "marker": "PAX_05_1",
+        "world_m": [
+          -4.125,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_1"
+        ]
+      },
+      {
+        "marker": "PAX_05_2",
+        "world_m": [
+          -4.125,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_2"
+        ]
+      },
+      {
+        "marker": "PAX_05_3",
+        "world_m": [
+          -4.125,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_3"
+        ]
+      },
+      {
+        "marker": "PAX_05_4",
+        "world_m": [
+          -4.125,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_4"
+        ]
+      },
+      {
+        "marker": "PAX_05_5",
+        "world_m": [
+          -4.125,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_5"
+        ]
+      },
+      {
+        "marker": "PAX_05_6",
+        "world_m": [
+          -4.125,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_6"
+        ]
+      },
+      {
+        "marker": "PAX_06_1",
+        "world_m": [
+          -3.08500004,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_1"
+        ]
+      },
+      {
+        "marker": "PAX_06_2",
+        "world_m": [
+          -3.08500004,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_2"
+        ]
+      },
+      {
+        "marker": "PAX_06_3",
+        "world_m": [
+          -3.08500004,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_3"
+        ]
+      },
+      {
+        "marker": "PAX_06_4",
+        "world_m": [
+          -3.08500004,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_4"
+        ]
+      },
+      {
+        "marker": "PAX_06_5",
+        "world_m": [
+          -3.08500004,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_5"
+        ]
+      },
+      {
+        "marker": "PAX_06_6",
+        "world_m": [
+          -3.08500004,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_6"
+        ]
+      },
+      {
+        "marker": "PAX_07_1",
+        "world_m": [
+          -2.04500008,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_1"
+        ]
+      },
+      {
+        "marker": "PAX_07_2",
+        "world_m": [
+          -2.04500008,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_2"
+        ]
+      },
+      {
+        "marker": "PAX_07_3",
+        "world_m": [
+          -2.04500008,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_3"
+        ]
+      },
+      {
+        "marker": "PAX_07_4",
+        "world_m": [
+          -2.04500008,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_4"
+        ]
+      },
+      {
+        "marker": "PAX_07_5",
+        "world_m": [
+          -2.04500008,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_5"
+        ]
+      },
+      {
+        "marker": "PAX_07_6",
+        "world_m": [
+          -2.04500008,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_6"
+        ]
+      },
+      {
+        "marker": "PAX_08_1",
+        "world_m": [
+          -1.005,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_1"
+        ]
+      },
+      {
+        "marker": "PAX_08_2",
+        "world_m": [
+          -1.005,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_2"
+        ]
+      },
+      {
+        "marker": "PAX_08_3",
+        "world_m": [
+          -1.005,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_3"
+        ]
+      },
+      {
+        "marker": "PAX_08_4",
+        "world_m": [
+          -1.005,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_4"
+        ]
+      },
+      {
+        "marker": "PAX_08_5",
+        "world_m": [
+          -1.005,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_5"
+        ]
+      },
+      {
+        "marker": "PAX_08_6",
+        "world_m": [
+          -1.005,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_6"
+        ]
+      },
+      {
+        "marker": "PAX_09_1",
+        "world_m": [
+          -0.035,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_09_1"
+        ]
+      },
+      {
+        "marker": "PAX_09_2",
+        "world_m": [
+          -0.035,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_09_2"
+        ]
+      },
+      {
+        "marker": "PAX_09_3",
+        "world_m": [
+          -0.035,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_09_3"
+        ]
+      },
+      {
+        "marker": "PAX_09_4",
+        "world_m": [
+          -0.035,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_09_4"
+        ]
+      },
+      {
+        "marker": "PAX_09_5",
+        "world_m": [
+          -0.035,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_09_5"
+        ]
+      },
+      {
+        "marker": "PAX_09_6",
+        "world_m": [
+          -0.035,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_09_6"
+        ]
+      },
+      {
+        "marker": "PAX_10_1",
+        "world_m": [
+          1.005,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_10_1"
+        ]
+      },
+      {
+        "marker": "PAX_10_2",
+        "world_m": [
+          1.005,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_10_2"
+        ]
+      },
+      {
+        "marker": "PAX_10_3",
+        "world_m": [
+          1.005,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_10_3"
+        ]
+      },
+      {
+        "marker": "PAX_10_4",
+        "world_m": [
+          1.005,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_10_4"
+        ]
+      },
+      {
+        "marker": "PAX_10_5",
+        "world_m": [
+          1.005,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_10_5"
+        ]
+      },
+      {
+        "marker": "PAX_10_6",
+        "world_m": [
+          1.005,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_10_6"
+        ]
+      },
+      {
+        "marker": "PAX_11_1",
+        "world_m": [
+          2.04500008,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_11_1"
+        ]
+      },
+      {
+        "marker": "PAX_11_2",
+        "world_m": [
+          2.04500008,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_11_2"
+        ]
+      },
+      {
+        "marker": "PAX_11_3",
+        "world_m": [
+          2.04500008,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_11_3"
+        ]
+      },
+      {
+        "marker": "PAX_11_4",
+        "world_m": [
+          2.04500008,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_11_4"
+        ]
+      },
+      {
+        "marker": "PAX_11_5",
+        "world_m": [
+          2.04500008,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_11_5"
+        ]
+      },
+      {
+        "marker": "PAX_11_6",
+        "world_m": [
+          2.04500008,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_11_6"
+        ]
+      },
+      {
+        "marker": "PAX_12_1",
+        "world_m": [
+          3.08500004,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_12_1"
+        ]
+      },
+      {
+        "marker": "PAX_12_2",
+        "world_m": [
+          3.08500004,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_12_2"
+        ]
+      },
+      {
+        "marker": "PAX_12_3",
+        "world_m": [
+          3.08500004,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_12_3"
+        ]
+      },
+      {
+        "marker": "PAX_12_4",
+        "world_m": [
+          3.08500004,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_12_4"
+        ]
+      },
+      {
+        "marker": "PAX_12_5",
+        "world_m": [
+          3.08500004,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_12_5"
+        ]
+      },
+      {
+        "marker": "PAX_12_6",
+        "world_m": [
+          3.08500004,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_12_6"
+        ]
+      },
+      {
+        "marker": "PAX_13_1",
+        "world_m": [
+          4.125,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_13_1"
+        ]
+      },
+      {
+        "marker": "PAX_13_2",
+        "world_m": [
+          4.125,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_13_2"
+        ]
+      },
+      {
+        "marker": "PAX_13_3",
+        "world_m": [
+          4.125,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_13_3"
+        ]
+      },
+      {
+        "marker": "PAX_13_4",
+        "world_m": [
+          4.125,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_13_4"
+        ]
+      },
+      {
+        "marker": "PAX_13_5",
+        "world_m": [
+          4.125,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_13_5"
+        ]
+      },
+      {
+        "marker": "PAX_13_6",
+        "world_m": [
+          4.125,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_13_6"
+        ]
+      },
+      {
+        "marker": "PAX_14_1",
+        "world_m": [
+          5.16499996,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_14_1"
+        ]
+      },
+      {
+        "marker": "PAX_14_2",
+        "world_m": [
+          5.16499996,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_14_2"
+        ]
+      },
+      {
+        "marker": "PAX_14_3",
+        "world_m": [
+          5.16499996,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_14_3"
+        ]
+      },
+      {
+        "marker": "PAX_14_4",
+        "world_m": [
+          5.16499996,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_14_4"
+        ]
+      },
+      {
+        "marker": "PAX_14_5",
+        "world_m": [
+          5.16499996,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_14_5"
+        ]
+      },
+      {
+        "marker": "PAX_14_6",
+        "world_m": [
+          5.16499996,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_14_6"
+        ]
+      },
+      {
+        "marker": "PAX_15_1",
+        "world_m": [
+          6.20499992,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_15_1"
+        ]
+      },
+      {
+        "marker": "PAX_15_2",
+        "world_m": [
+          6.20499992,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_15_2"
+        ]
+      },
+      {
+        "marker": "PAX_15_3",
+        "world_m": [
+          6.20499992,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_15_3"
+        ]
+      },
+      {
+        "marker": "PAX_15_4",
+        "world_m": [
+          6.20499992,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_15_4"
+        ]
+      },
+      {
+        "marker": "PAX_15_5",
+        "world_m": [
+          6.20499992,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_15_5"
+        ]
+      },
+      {
+        "marker": "PAX_15_6",
+        "world_m": [
+          6.20499992,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_15_6"
+        ]
+      },
+      {
+        "marker": "PAX_16_1",
+        "world_m": [
+          7.24499989,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_16_1"
+        ]
+      },
+      {
+        "marker": "PAX_16_2",
+        "world_m": [
+          7.24499989,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_16_2"
+        ]
+      },
+      {
+        "marker": "PAX_16_3",
+        "world_m": [
+          7.24499989,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_16_3"
+        ]
+      },
+      {
+        "marker": "PAX_16_4",
+        "world_m": [
+          7.24499989,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_16_4"
+        ]
+      },
+      {
+        "marker": "PAX_16_5",
+        "world_m": [
+          7.24499989,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_16_5"
+        ]
+      },
+      {
+        "marker": "PAX_16_6",
+        "world_m": [
+          7.24499989,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_16_6"
+        ]
+      },
+      {
+        "marker": "PAX_17_1",
+        "world_m": [
+          8.28499985,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_17_1"
+        ]
+      },
+      {
+        "marker": "PAX_17_2",
+        "world_m": [
+          8.28499985,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_17_2"
+        ]
+      },
+      {
+        "marker": "PAX_17_3",
+        "world_m": [
+          8.28499985,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_17_3"
+        ]
+      },
+      {
+        "marker": "PAX_17_4",
+        "world_m": [
+          8.28499985,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_17_4"
+        ]
+      },
+      {
+        "marker": "PAX_17_5",
+        "world_m": [
+          8.28499985,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_17_5"
+        ]
+      },
+      {
+        "marker": "PAX_17_6",
+        "world_m": [
+          8.28499985,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": 3.14159274,
+        "cushion_supports": [
+          "CHAIR_cushion_17_6"
+        ]
+      }
+    ],
+    "furniture_floor_supports": [
+      {
+        "object": "CHAIR_pedestal_01_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_6"
+        ]
+      }
+    ],
+    "BERTH_type_counts": {},
+    "BERTH_supports": [],
+    "fixture_measurements": [
+      {
+        "object": "VESTIBULE_washbasin",
+        "bounds_m": [
+          [
+            -11.15999985,
+            0.21300001,
+            1.89999998
+          ],
+          [
+            -10.73999977,
+            0.50700003,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          -10.94999981,
+          0.36000002,
+          1.97999996
+        ]
+      },
+      {
+        "object": "WC_pedestal",
+        "bounds_m": [
+          [
+            -11.4289999,
+            -1.25089991,
+            1.36000001
+          ],
+          [
+            -10.83100033,
+            -0.86909997,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          -1.05999994,
+          1.56999999
+        ]
+      },
+      {
+        "object": "WC_squat_bowl",
+        "bounds_m": [
+          [
+            -11.42249966,
+            0.93909997,
+            1.27499998
+          ],
+          [
+            -10.83750057,
+            1.18089998,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          1.05999997,
+          1.34549999
+        ]
+      },
+      {
+        "object": "VESTIBULE_washbasin.001",
+        "bounds_m": [
+          [
+            10.73999977,
+            0.21300001,
+            1.89999998
+          ],
+          [
+            11.15999985,
+            0.50700003,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          10.94999981,
+          0.36000002,
+          1.97999996
+        ]
+      },
+      {
+        "object": "WC_squat_bowl.001",
+        "bounds_m": [
+          [
+            10.83750057,
+            -1.18089998,
+            1.27499998
+          ],
+          [
+            11.42249966,
+            -0.93909997,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          -1.05999997,
+          1.34549999
+        ]
+      },
+      {
+        "object": "WC_pedestal.001",
+        "bounds_m": [
+          [
+            10.83100033,
+            0.86909997,
+            1.36000001
+          ],
+          [
+            11.4289999,
+            1.25089991,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          1.05999994,
+          1.56999999
+        ]
+      }
+    ],
+    "non_unit_scale_objects": [
+      "VESTIBULE_washbasin",
+      "WC_pedestal",
+      "WC_squat_bowl",
+      "VESTIBULE_washbasin.001",
+      "WC_squat_bowl.001",
+      "WC_pedestal.001"
+    ],
+    "topology": {
+      "evaluated_totals": {
+        "vertices": 547854,
+        "edges": 1059705,
+        "polygons": 522288,
+        "triangles": 1074848,
+        "closed_fabricated_components_checked": 5175,
+        "text_objects_checked": 52,
+        "text_seam_edges_before_weld": 23288
+      },
+      "issues": [
+        {
+          "object": "BATTERY_BOX_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 732,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 6.009657374434479e-08
+        },
+        {
+          "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 1021,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "CLASS_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.5122249733766896e-05
+        },
+        {
+          "object": "RAILWAY_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "DESTINATION_BOARD_text.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "CLASS_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.5122249733766896e-05
+        },
+        {
+          "object": "RAILWAY_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "DESTINATION_BOARD_text.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "ELECTRICAL_panel_label",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "ELECTRICAL_panel_label.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "SALOON_class_plaque",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 5.527474834535093e-06
+        },
+        {
+          "object": "SALOON_class_plaque.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 5.527474834535093e-06
+        }
+      ],
+      "intentional_source_sheets_closed_by_solidify": []
+    },
+    "elapsed_seconds": 1.84,
+    "status": "pass_with_warnings"
+  },
+  "sha256": {
+    "blend": "1a6f16abfc6361bfe37218f971e611f4a52f72dc2f61d0ed949dcd1e90c452f6",
+    "manifest": "61693f0b1ff7dcf424fd09e8a6f801cd92bcda95595b101ee33fff0d2b78cee1",
+    "markers": "eea1a1bb96ec9ec9d64ca84b0233b5ee063cdba2a0aca8f6d88dc8c9e1ebb975",
+    "fbx": "0eefab7a4f9ac09a16e5d97fcef641000e66c0533378e99bdeb7e28def611508"
+  },
+  "manifest": {
+    "source_module_sha256": {
+      "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+      "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+      "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+      "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+      "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+      "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+      "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
+    },
+    "variant": "2S",
+    "prototype_code": "LWSCZ1",
+    "physical_capacity": 102,
+    "capacity_type": "seats",
+    "daytime_seats": 102,
+    "PAX_roots": 102,
+    "BERTH_references": 0,
+    "layout": "17 rows of 3+3 upright chairs",
+    "game_capacity": null,
+    "root": "LHB_2S_ROOT_metres",
+    "body_length_m": 23.54,
+    "coupling_span_m": 24.0,
+    "body_width_m": 3.24,
+    "roof_height_m": 4.039,
+    "bogie_centres_m": 14.9,
+    "bogie_wheelbase_m": 2.56,
+    "wheel_tread_diameter_m": 0.915,
+    "floor_height_m": 1.303,
+    "seat_cushion_top_z_m": 1.84,
+    "seat_character_root_z_m": 1.3570000000000002,
+    "glass_source_transmission": 0.96,
+    "glass_fbx_alpha": 0.22,
+    "native_TF3_conversion": false,
+    "runtime_tested": false
+  },
+  "fbx": {
+    "variant": "2S",
+    "stage": "fbx",
+    "checks": [
+      {
+        "name": "asset_root_present",
+        "status": "pass"
+      },
+      {
+        "name": "embedded_build_hashes_match_current_modules",
+        "status": "pass",
+        "details": {
+          "embedded": {
+            "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+            "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6",
+            "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+            "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+            "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+          },
+          "current": {
+            "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+            "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+            "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+            "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+            "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+            "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+            "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
+          }
+        }
+      },
+      {
+        "name": "finite_transforms",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "root_identity",
+        "status": "pass",
+        "details": [
+          [
+            1.0,
+            1.6e-07,
+            0.0,
+            0.0
+          ],
+          [
+            -1.6e-07,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "body_parent_and_identity",
+        "status": "pass"
+      },
+      {
+        "name": "all_geometry_owned_by_asset_root",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "presentation_excluded_from_asset_hierarchy",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "scene_units_metres",
+        "status": "pass",
+        "details": {
+          "unit_system": "METRIC",
+          "scale_length": 1.0
+        }
+      },
+      {
+        "name": "root_capacity_metadata",
+        "status": "pass"
+      },
+      {
+        "name": "native_runtime_claims_false",
+        "status": "pass"
+      },
+      {
+        "name": "whole_asset_reasonable_envelope",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "dimension_body_length_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 23.54,
+          "actual_m": 23.540000915527344,
+          "object": "UNDERFRAME_main"
+        }
+      },
+      {
+        "name": "dimension_body_width_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 3.24,
+          "actual_m": 3.240003824234009,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_roof_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 4.039,
+          "actual_m": 4.039000034332275,
+          "object": "ROOF_arch"
+        }
+      },
+      {
+        "name": "dimension_floor_height_m",
+        "status": "pass",
+        "details": {
+          "expected_m": 1.303,
+          "actual_m": 1.3029999732971191,
+          "object": "INTERIOR_floor"
+        }
+      },
+      {
+        "name": "two_bogies_four_axles_eight_wheels_eight_discs",
+        "status": "pass",
+        "details": {
+          "bogies": 2,
+          "axles": 4,
+          "wheels": 8,
+          "brake_discs": 8
+        }
+      },
+      {
+        "name": "dimension_bogie_centres",
+        "status": "pass",
+        "details": 14.899999618530273
+      },
+      {
+        "name": "running_gear_geometry_and_parenting",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "coupling_anchor_contract",
+        "status": "pass",
+        "details": {
+          "span_m": 24.0,
+          "anchors": {
+            "COUPLING_FRONT": [
+              12.0,
+              -1.96e-06,
+              1.10500002
+            ],
+            "COUPLING_REAR": [
+              -12.0,
+              1.96e-06,
+              1.10500002
+            ]
+          }
+        }
+      },
+      {
+        "name": "door_portal_headers_bridge_to_roof",
+        "status": "pass",
+        "details": {
+          "doors": 4,
+          "errors": [],
+          "headers": [
+            {
+              "door": "DOOR_L_1_PIVOT",
+              "header": "DOOR_portal_header.002",
+              "bounds_m": [
+                [
+                  -10.59000015,
+                  1.53600156,
+                  3.41499996
+                ],
+                [
+                  -9.54999924,
+                  1.62000167,
+                  3.57999992
+                ]
+              ]
+            },
+            {
+              "door": "DOOR_L_2_PIVOT",
+              "header": "DOOR_portal_header.003",
+              "bounds_m": [
+                [
+                  9.54999924,
+                  1.53599823,
+                  3.41499996
+                ],
+                [
+                  10.59000015,
+                  1.61999834,
+                  3.57999992
+                ]
+              ]
+            },
+            {
+              "door": "DOOR_R_1_PIVOT",
+              "header": "DOOR_portal_header",
+              "bounds_m": [
+                [
+                  -10.59000015,
+                  -1.61999834,
+                  3.41499996
+                ],
+                [
+                  -9.54999924,
+                  -1.53599823,
+                  3.57999992
+                ]
+              ]
+            },
+            {
+              "door": "DOOR_R_2_PIVOT",
+              "header": "DOOR_portal_header.001",
+              "bounds_m": [
+                [
+                  9.54999924,
+                  -1.62000167,
+                  3.41499996
+                ],
+                [
+                  10.59000015,
+                  -1.53600156,
+                  3.57999992
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "HVAC_blind_wells_and_fans_recessed",
+        "status": "pass",
+        "details": {
+          "packages": 0,
+          "errors": [],
+          "ray_samples": []
+        }
+      },
+      {
+        "name": "RMPU_intakes_covers_and_paired_junction_boxes",
+        "status": "pass",
+        "details": {
+          "errors": [],
+          "unit_measurements": []
+        }
+      },
+      {
+        "name": "RMPU_roof_platform_flat_to_1_27m_halfwidth",
+        "status": "pass",
+        "details": {
+          "errors": [],
+          "sample_measurements": []
+        }
+      },
+      {
+        "name": "RMPU_well_floors_clear_roof_platform",
+        "status": "pass",
+        "details": {
+          "errors": [],
+          "clearance_measurements": []
+        }
+      },
+      {
+        "name": "RMPU_roof_and_ceiling_vertically_separate",
+        "status": "pass",
+        "details": {
+          "ceiling_top_z_m": 3.632999897003174,
+          "flat_roof_bottom_z_m": 3.655,
+          "well_floor_z_m": 3.8075,
+          "ceiling_to_roof_gap_m": 0.022000102996825976
+        }
+      },
+      {
+        "name": "temporary_boolean_cutters_removed",
+        "status": "pass"
+      },
+      {
+        "name": "end_livery_wedges_match_world_space_plane",
+        "status": "pass",
+        "details": {
+          "objects": [
+            "BODYSIDE_header",
+            "BODYSIDE_header.002",
+            "BODYSIDE_header.003",
+            "BODYSIDE_header.005",
+            "BODYSIDE_rounded_aperture",
+            "BODYSIDE_rounded_aperture.016",
+            "BODYSIDE_rounded_aperture.017",
+            "BODYSIDE_rounded_aperture.033",
+            "BODYSIDE_window_pier",
+            "BODYSIDE_window_pier.001",
+            "BODYSIDE_window_pier.018",
+            "BODYSIDE_window_pier.019",
+            "BODYSIDE_window_pier.020",
+            "BODYSIDE_window_pier.021",
+            "BODYSIDE_window_pier.038",
+            "BODYSIDE_window_pier.039"
+          ],
+          "faces_checked": 584,
+          "errors": []
+        }
+      },
+      {
+        "name": "PAX_count",
+        "status": "pass",
+        "details": {
+          "expected": 102,
+          "actual": 102
+        }
+      },
+      {
+        "name": "BERTH_count",
+        "status": "pass",
+        "details": {
+          "expected": 0,
+          "actual": 0
+        }
+      },
+      {
+        "name": "marker_root_metadata_consistent",
+        "status": "pass"
+      },
+      {
+        "name": "PAX_seated_pose_and_single_lower_cushion_support",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_unique_positions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "PAX_torso_clear_of_fixed_partitions",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "ceiling_fan_count_and_class_positions",
+        "status": "pass",
+        "details": {
+          "expected_count": 18,
+          "actual_count": 18,
+          "metadata_count": 18,
+          "missing_positions": [],
+          "unexpected_objects": [],
+          "actual_positions_m": {
+            "FAN_motor": [
+              -7.5,
+              -0.5499988,
+              3.35500002
+            ],
+            "FAN_motor.001": [
+              -7.5,
+              0.78000119,
+              3.35500002
+            ],
+            "FAN_motor.002": [
+              -5.5999999,
+              -0.5499991,
+              3.35500002
+            ],
+            "FAN_motor.003": [
+              -5.5999999,
+              0.7800009,
+              3.35500002
+            ],
+            "FAN_motor.004": [
+              -3.70000005,
+              -0.5499994,
+              3.35500002
+            ],
+            "FAN_motor.005": [
+              -3.69999993,
+              0.78000057,
+              3.35500002
+            ],
+            "FAN_motor.006": [
+              -1.80000007,
+              -0.54999971,
+              3.35500002
+            ],
+            "FAN_motor.007": [
+              -1.79999983,
+              0.78000027,
+              3.35500002
+            ],
+            "FAN_motor.008": [
+              0.09999992,
+              -0.55000001,
+              3.35500002
+            ],
+            "FAN_motor.009": [
+              0.10000013,
+              0.77999997,
+              3.35500002
+            ],
+            "FAN_motor.010": [
+              1.99999994,
+              -0.55000035,
+              3.35500002
+            ],
+            "FAN_motor.011": [
+              2.00000018,
+              0.77999964,
+              3.35500002
+            ],
+            "FAN_motor.012": [
+              3.9000001,
+              -0.55000065,
+              3.35500002
+            ],
+            "FAN_motor.013": [
+              3.90000021,
+              0.77999935,
+              3.35500002
+            ],
+            "FAN_motor.014": [
+              5.80000019,
+              -0.55000095,
+              3.35500002
+            ],
+            "FAN_motor.015": [
+              5.80000019,
+              0.77999902,
+              3.35500002
+            ],
+            "FAN_motor.016": [
+              7.69999981,
+              -0.55000126,
+              3.35500002
+            ],
+            "FAN_motor.017": [
+              7.69999981,
+              0.77999872,
+              3.35500002
+            ]
+          }
+        }
+      },
+      {
+        "name": "furniture_legs_meet_floor_and_lower_seat_structure",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_references_match_lower_upper_or_stowed_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "BERTH_class_type_distribution",
+        "status": "pass",
+        "details": {
+          "expected": {},
+          "actual": {}
+        }
+      },
+      {
+        "name": "lavatory_and_basin_actual_placement",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "lavatory_count",
+        "status": "pass",
+        "details": {
+          "expected": 4,
+          "actual": 4
+        }
+      },
+      {
+        "name": "rounded_window_centres_are_actual_through_apertures",
+        "status": "pass",
+        "details": {
+          "apertures_checked": 34,
+          "blocked": []
+        }
+      },
+      {
+        "name": "separate_glazing_geometry_exists",
+        "status": "pass",
+        "details": {
+          "objects": 38
+        }
+      },
+      {
+        "name": "WC_glazing_keeps_distinct_privacy_material",
+        "status": "pass",
+        "details": {
+          "count": 4,
+          "errors": []
+        }
+      },
+      {
+        "name": "fbx_glass_alpha_fallback",
+        "status": "pass",
+        "details": {
+          "alpha": 0.2199999988079071,
+          "transmission": 0.0
+        }
+      },
+      {
+        "name": "no_negative_scale",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "editable_text_tessellation_clean",
+        "status": "warning",
+        "details": {
+          "count": 18,
+          "examples": [
+            {
+              "object": "CLASS_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.5122249733766896e-05
+            },
+            {
+              "object": "CLASS_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 4,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 4.5122249733766896e-05
+            },
+            {
+              "object": "DESTINATION_BOARD_text",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "DESTINATION_BOARD_text.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "ELECTRICAL_panel_label",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "ELECTRICAL_panel_label.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 1,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 544,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 9.88852880642164e-07
+            },
+            {
+              "object": "RAILWAY_MARKING",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "RAILWAY_MARKING.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 423,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            },
+            {
+              "object": "SAFETY_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SAFETY_stencil.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SAFETY_stencil.002",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SAFETY_stencil.003",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 2,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 236,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 1.7635323007424055e-06
+            },
+            {
+              "object": "SALOON_class_plaque",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 5.527474834535093e-06
+            },
+            {
+              "object": "SALOON_class_plaque.001",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 466,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 5.527474834535093e-06
+            },
+            {
+              "object": "BATTERY_BOX_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 0,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 3,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 732,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": 6.009657374434479e-08
+            },
+            {
+              "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+              "category": "editable_text_tessellation",
+              "boundary_edges": 0,
+              "nonmanifold_edges": 1,
+              "wire_edges": 0,
+              "zero_length_edges": 0,
+              "zero_area_faces": 0,
+              "nonfinite_vertices": 0,
+              "inconsistent_winding_edges": 0,
+              "faces": 1021,
+              "isolated_vertices": 0,
+              "signed_volume_m3_local": null
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "name": "evaluated_fabricated_meshes_closed_manifold",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_no_degenerate_or_nonfinite_geometry",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fabricated_mesh_consistent_winding",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "no_external_image_or_linked_library_dependencies",
+        "status": "pass",
+        "details": {
+          "image_paths": [],
+          "libraries": []
+        }
+      },
+      {
+        "name": "fbx_preserves_asset_names_and_membership",
+        "status": "pass",
+        "details": {
+          "missing": [],
+          "unexpected": []
+        }
+      },
+      {
+        "name": "fbx_preserves_geometry_bounds_and_hierarchy",
+        "status": "pass",
+        "details": {
+          "count": 0,
+          "examples": [],
+          "truncated": false
+        }
+      },
+      {
+        "name": "fbx_excludes_all_presentation_objects",
+        "status": "pass"
+      }
+    ],
+    "assumptions_and_limits": [
+      "Source geometry is representative authoring geometry, not manufacturer CAD or dimensional certification.",
+      "Physical passenger/berth markers are not gameplay capacity or native TF3 runtime validation.",
+      "PAX support uses actual cushion footprints and hip datum; full posed-character collisions, reach, comfort and egress are unverified.",
+      "Topology is checked per evaluated component. Solid intersections, self-intersections, normals across separate parts and render appearance are not fully verified.",
+      "Nominal .915 m tread diameter is checked at the actual nominal tread ring; flange envelope is intentionally larger.",
+      "4.039 m crown is the roof skin; seams and non-AC ventilation hoods may protrude above it. Wheel flanges extend below railhead; CBC/handrails extend beyond the nominal body envelope.",
+      "Editable-font cap seams use coincident vertices; text closure is checked after a disposable 0.1 micrometre weld.",
+      "Procedural source materials are not expected to round-trip through FBX; exported alpha fallback is checked instead."
+    ],
+    "embedded_source_module_sha256": {
+      "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+      "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6",
+      "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+      "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+      "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+      "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+      "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+    },
+    "statistics": {
+      "scene_objects": 5396,
+      "asset_objects": 5396,
+      "asset_mesh_objects": 5227,
+      "asset_font_objects": 0,
+      "asset_empty_objects": 169,
+      "materials": 33
+    },
+    "bounds": {
+      "min_m": [
+        -12.07999992,
+        -1.68000174,
+        -0.02699995
+      ],
+      "max_m": [
+        12.07999992,
+        1.68000174,
+        4.11899996
+      ],
+      "size_m": [
+        24.15999985,
+        3.36000347,
+        4.14599991
+      ]
+    },
+    "envelope_extremes": {
+      "X": {
+        "min": "CBC_REAR_HEAD_MATING_PROFILE",
+        "max": "CBC_FRONT_HEAD_MATING_PROFILE"
+      },
+      "Y": {
+        "min": "ENTRY_handrail.003",
+        "max": "ENTRY_handrail.004"
+      },
+      "Z": {
+        "min": "WHEEL_FRONT_A_bright_flange_and_tread",
+        "max": "VENTURI_roof_vent_hood"
+      }
+    },
+    "wheel_measurements": [
+      {
+        "object": "WHEEL_FRONT_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_FRONT_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_A_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000883913358,
+        "flange_diameter_m": 0.9680007807863936,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_L_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      },
+      {
+        "object": "WHEEL_REAR_B_R_profiled_monobloc",
+        "nominal_tread_diameter_m": 0.915000310458243,
+        "flange_diameter_m": 0.968000352182279,
+        "back_face_abs_y_m": 0.800000011920929
+      }
+    ],
+    "brake_disc_measurements": [
+      {
+        "object": "BRAKE_DISC_FRONT_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_FRONT_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_A_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400009704759557,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_1_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      },
+      {
+        "object": "BRAKE_DISC_REAR_B_2_ROTATING",
+        "cheeks": 2,
+        "diameter_m": 0.6400004625320435,
+        "width_m": 0.11000001430511475
+      }
+    ],
+    "measured_dimensions": {
+      "body_length_m": 23.540000915527344,
+      "body_width_m": 3.240003824234009,
+      "roof_height_m": 4.039000034332275,
+      "floor_height_m": 1.3029999732971191,
+      "bogie_centres_m": 14.899999618530273,
+      "coupling_span_m": 24.0
+    },
+    "PAX_supports": [
+      {
+        "marker": "PAX_01_1",
+        "world_m": [
+          -8.28499985,
+          -1.27999866,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_1"
+        ]
+      },
+      {
+        "marker": "PAX_01_2",
+        "world_m": [
+          -8.28499985,
+          -0.84999865,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_2"
+        ]
+      },
+      {
+        "marker": "PAX_01_3",
+        "world_m": [
+          -8.28499985,
+          -0.41999865,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_3"
+        ]
+      },
+      {
+        "marker": "PAX_01_4",
+        "world_m": [
+          -8.28499985,
+          0.42000133,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_4"
+        ]
+      },
+      {
+        "marker": "PAX_01_5",
+        "world_m": [
+          -8.28499985,
+          0.85000139,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_5"
+        ]
+      },
+      {
+        "marker": "PAX_01_6",
+        "world_m": [
+          -8.28499985,
+          1.28000128,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_01_6"
+        ]
+      },
+      {
+        "marker": "PAX_02_1",
+        "world_m": [
+          -7.24499989,
+          -1.27999878,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_1"
+        ]
+      },
+      {
+        "marker": "PAX_02_2",
+        "world_m": [
+          -7.24499989,
+          -0.84999883,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_2"
+        ]
+      },
+      {
+        "marker": "PAX_02_3",
+        "world_m": [
+          -7.24499989,
+          -0.41999879,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_3"
+        ]
+      },
+      {
+        "marker": "PAX_02_4",
+        "world_m": [
+          -7.24499989,
+          0.42000118,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_4"
+        ]
+      },
+      {
+        "marker": "PAX_02_5",
+        "world_m": [
+          -7.24499989,
+          0.85000122,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_5"
+        ]
+      },
+      {
+        "marker": "PAX_02_6",
+        "world_m": [
+          -7.24499989,
+          1.28000116,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_02_6"
+        ]
+      },
+      {
+        "marker": "PAX_03_1",
+        "world_m": [
+          -6.20499992,
+          -1.27999902,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_1"
+        ]
+      },
+      {
+        "marker": "PAX_03_2",
+        "world_m": [
+          -6.20499992,
+          -0.84999901,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_2"
+        ]
+      },
+      {
+        "marker": "PAX_03_3",
+        "world_m": [
+          -6.20499992,
+          -0.41999897,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_3"
+        ]
+      },
+      {
+        "marker": "PAX_03_4",
+        "world_m": [
+          -6.20499992,
+          0.420001,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_4"
+        ]
+      },
+      {
+        "marker": "PAX_03_5",
+        "world_m": [
+          -6.20499992,
+          0.85000104,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_5"
+        ]
+      },
+      {
+        "marker": "PAX_03_6",
+        "world_m": [
+          -6.20499992,
+          1.28000093,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_03_6"
+        ]
+      },
+      {
+        "marker": "PAX_04_1",
+        "world_m": [
+          -5.16499996,
+          -1.27999914,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_1"
+        ]
+      },
+      {
+        "marker": "PAX_04_2",
+        "world_m": [
+          -5.16499996,
+          -0.84999919,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_2"
+        ]
+      },
+      {
+        "marker": "PAX_04_3",
+        "world_m": [
+          -5.16499996,
+          -0.41999915,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_3"
+        ]
+      },
+      {
+        "marker": "PAX_04_4",
+        "world_m": [
+          -5.16499996,
+          0.42000082,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_4"
+        ]
+      },
+      {
+        "marker": "PAX_04_5",
+        "world_m": [
+          -5.16499996,
+          0.85000086,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_5"
+        ]
+      },
+      {
+        "marker": "PAX_04_6",
+        "world_m": [
+          -5.16499996,
+          1.28000081,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_04_6"
+        ]
+      },
+      {
+        "marker": "PAX_05_1",
+        "world_m": [
+          -4.125,
+          -1.27999926,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_1"
+        ]
+      },
+      {
+        "marker": "PAX_05_2",
+        "world_m": [
+          -4.125,
+          -0.84999937,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_2"
+        ]
+      },
+      {
+        "marker": "PAX_05_3",
+        "world_m": [
+          -4.125,
+          -0.4199993,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_3"
+        ]
+      },
+      {
+        "marker": "PAX_05_4",
+        "world_m": [
+          -4.125,
+          0.42000067,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_4"
+        ]
+      },
+      {
+        "marker": "PAX_05_5",
+        "world_m": [
+          -4.125,
+          0.85000068,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_5"
+        ]
+      },
+      {
+        "marker": "PAX_05_6",
+        "world_m": [
+          -4.125,
+          1.28000069,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_05_6"
+        ]
+      },
+      {
+        "marker": "PAX_06_1",
+        "world_m": [
+          -3.08500028,
+          -1.27999949,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_1"
+        ]
+      },
+      {
+        "marker": "PAX_06_2",
+        "world_m": [
+          -3.08500028,
+          -0.84999955,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_2"
+        ]
+      },
+      {
+        "marker": "PAX_06_3",
+        "world_m": [
+          -3.08500004,
+          -0.41999948,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_3"
+        ]
+      },
+      {
+        "marker": "PAX_06_4",
+        "world_m": [
+          -3.08500004,
+          0.42000049,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_4"
+        ]
+      },
+      {
+        "marker": "PAX_06_5",
+        "world_m": [
+          -3.0849998,
+          0.8500005,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_5"
+        ]
+      },
+      {
+        "marker": "PAX_06_6",
+        "world_m": [
+          -3.0849998,
+          1.28000045,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_06_6"
+        ]
+      },
+      {
+        "marker": "PAX_07_1",
+        "world_m": [
+          -2.04500031,
+          -1.27999961,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_1"
+        ]
+      },
+      {
+        "marker": "PAX_07_2",
+        "world_m": [
+          -2.04500031,
+          -0.84999967,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_2"
+        ]
+      },
+      {
+        "marker": "PAX_07_3",
+        "world_m": [
+          -2.04500008,
+          -0.41999966,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_3"
+        ]
+      },
+      {
+        "marker": "PAX_07_4",
+        "world_m": [
+          -2.04500008,
+          0.42000031,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_4"
+        ]
+      },
+      {
+        "marker": "PAX_07_5",
+        "world_m": [
+          -2.04499984,
+          0.85000038,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_5"
+        ]
+      },
+      {
+        "marker": "PAX_07_6",
+        "world_m": [
+          -2.04499984,
+          1.28000033,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_07_6"
+        ]
+      },
+      {
+        "marker": "PAX_08_1",
+        "world_m": [
+          -1.00500023,
+          -1.27999985,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_1"
+        ]
+      },
+      {
+        "marker": "PAX_08_2",
+        "world_m": [
+          -1.00500011,
+          -0.84999985,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_2"
+        ]
+      },
+      {
+        "marker": "PAX_08_3",
+        "world_m": [
+          -1.00500011,
+          -0.41999984,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_3"
+        ]
+      },
+      {
+        "marker": "PAX_08_4",
+        "world_m": [
+          -1.00499988,
+          0.42000014,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_4"
+        ]
+      },
+      {
+        "marker": "PAX_08_5",
+        "world_m": [
+          -1.00499988,
+          0.8500002,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_5"
+        ]
+      },
+      {
+        "marker": "PAX_08_6",
+        "world_m": [
+          -1.00499976,
+          1.28000009,
+          1.35699999
+        ],
+        "yaw_radians": 0.0,
+        "cushion_supports": [
+          "CHAIR_cushion_08_6"
+        ]
+      },
+      {
+        "marker": "PAX_09_1",
+        "world_m": [
+          -0.03500021,
+          -1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_09_1"
+        ]
+      },
+      {
+        "marker": "PAX_09_2",
+        "world_m": [
+          -0.03500014,
+          -0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_09_2"
+        ]
+      },
+      {
+        "marker": "PAX_09_3",
+        "world_m": [
+          -0.03500007,
+          -0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_09_3"
+        ]
+      },
+      {
+        "marker": "PAX_09_4",
+        "world_m": [
+          -0.03499993,
+          0.41999999,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_09_4"
+        ]
+      },
+      {
+        "marker": "PAX_09_5",
+        "world_m": [
+          -0.03499986,
+          0.85000002,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_09_5"
+        ]
+      },
+      {
+        "marker": "PAX_09_6",
+        "world_m": [
+          -0.03499979,
+          1.27999997,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_09_6"
+        ]
+      },
+      {
+        "marker": "PAX_10_1",
+        "world_m": [
+          1.00499976,
+          -1.28000009,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_10_1"
+        ]
+      },
+      {
+        "marker": "PAX_10_2",
+        "world_m": [
+          1.00499988,
+          -0.8500002,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_10_2"
+        ]
+      },
+      {
+        "marker": "PAX_10_3",
+        "world_m": [
+          1.00499988,
+          -0.42000014,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_10_3"
+        ]
+      },
+      {
+        "marker": "PAX_10_4",
+        "world_m": [
+          1.00500011,
+          0.41999984,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_10_4"
+        ]
+      },
+      {
+        "marker": "PAX_10_5",
+        "world_m": [
+          1.00500011,
+          0.84999985,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_10_5"
+        ]
+      },
+      {
+        "marker": "PAX_10_6",
+        "world_m": [
+          1.00500023,
+          1.27999985,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_10_6"
+        ]
+      },
+      {
+        "marker": "PAX_11_1",
+        "world_m": [
+          2.04499984,
+          -1.28000033,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_11_1"
+        ]
+      },
+      {
+        "marker": "PAX_11_2",
+        "world_m": [
+          2.04499984,
+          -0.85000038,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_11_2"
+        ]
+      },
+      {
+        "marker": "PAX_11_3",
+        "world_m": [
+          2.04500008,
+          -0.42000031,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_11_3"
+        ]
+      },
+      {
+        "marker": "PAX_11_4",
+        "world_m": [
+          2.04500008,
+          0.41999966,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_11_4"
+        ]
+      },
+      {
+        "marker": "PAX_11_5",
+        "world_m": [
+          2.04500031,
+          0.84999967,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_11_5"
+        ]
+      },
+      {
+        "marker": "PAX_11_6",
+        "world_m": [
+          2.04500031,
+          1.27999961,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_11_6"
+        ]
+      },
+      {
+        "marker": "PAX_12_1",
+        "world_m": [
+          3.0849998,
+          -1.28000045,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_12_1"
+        ]
+      },
+      {
+        "marker": "PAX_12_2",
+        "world_m": [
+          3.0849998,
+          -0.8500005,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_12_2"
+        ]
+      },
+      {
+        "marker": "PAX_12_3",
+        "world_m": [
+          3.08500004,
+          -0.42000049,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_12_3"
+        ]
+      },
+      {
+        "marker": "PAX_12_4",
+        "world_m": [
+          3.08500004,
+          0.41999948,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_12_4"
+        ]
+      },
+      {
+        "marker": "PAX_12_5",
+        "world_m": [
+          3.08500028,
+          0.84999955,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_12_5"
+        ]
+      },
+      {
+        "marker": "PAX_12_6",
+        "world_m": [
+          3.08500028,
+          1.27999949,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_12_6"
+        ]
+      },
+      {
+        "marker": "PAX_13_1",
+        "world_m": [
+          4.125,
+          -1.28000069,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_13_1"
+        ]
+      },
+      {
+        "marker": "PAX_13_2",
+        "world_m": [
+          4.125,
+          -0.85000068,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_13_2"
+        ]
+      },
+      {
+        "marker": "PAX_13_3",
+        "world_m": [
+          4.125,
+          -0.42000067,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_13_3"
+        ]
+      },
+      {
+        "marker": "PAX_13_4",
+        "world_m": [
+          4.125,
+          0.4199993,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_13_4"
+        ]
+      },
+      {
+        "marker": "PAX_13_5",
+        "world_m": [
+          4.125,
+          0.84999937,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_13_5"
+        ]
+      },
+      {
+        "marker": "PAX_13_6",
+        "world_m": [
+          4.125,
+          1.27999926,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_13_6"
+        ]
+      },
+      {
+        "marker": "PAX_14_1",
+        "world_m": [
+          5.16499996,
+          -1.28000081,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_14_1"
+        ]
+      },
+      {
+        "marker": "PAX_14_2",
+        "world_m": [
+          5.16499996,
+          -0.85000086,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_14_2"
+        ]
+      },
+      {
+        "marker": "PAX_14_3",
+        "world_m": [
+          5.16499996,
+          -0.42000082,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_14_3"
+        ]
+      },
+      {
+        "marker": "PAX_14_4",
+        "world_m": [
+          5.16499996,
+          0.41999915,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_14_4"
+        ]
+      },
+      {
+        "marker": "PAX_14_5",
+        "world_m": [
+          5.16499996,
+          0.84999919,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_14_5"
+        ]
+      },
+      {
+        "marker": "PAX_14_6",
+        "world_m": [
+          5.16499996,
+          1.27999914,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_14_6"
+        ]
+      },
+      {
+        "marker": "PAX_15_1",
+        "world_m": [
+          6.20499992,
+          -1.28000093,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_15_1"
+        ]
+      },
+      {
+        "marker": "PAX_15_2",
+        "world_m": [
+          6.20499992,
+          -0.85000104,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_15_2"
+        ]
+      },
+      {
+        "marker": "PAX_15_3",
+        "world_m": [
+          6.20499992,
+          -0.420001,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_15_3"
+        ]
+      },
+      {
+        "marker": "PAX_15_4",
+        "world_m": [
+          6.20499992,
+          0.41999897,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_15_4"
+        ]
+      },
+      {
+        "marker": "PAX_15_5",
+        "world_m": [
+          6.20499992,
+          0.84999901,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_15_5"
+        ]
+      },
+      {
+        "marker": "PAX_15_6",
+        "world_m": [
+          6.20499992,
+          1.27999902,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_15_6"
+        ]
+      },
+      {
+        "marker": "PAX_16_1",
+        "world_m": [
+          7.24499989,
+          -1.28000116,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_16_1"
+        ]
+      },
+      {
+        "marker": "PAX_16_2",
+        "world_m": [
+          7.24499989,
+          -0.85000122,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_16_2"
+        ]
+      },
+      {
+        "marker": "PAX_16_3",
+        "world_m": [
+          7.24499989,
+          -0.42000118,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_16_3"
+        ]
+      },
+      {
+        "marker": "PAX_16_4",
+        "world_m": [
+          7.24499989,
+          0.41999879,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_16_4"
+        ]
+      },
+      {
+        "marker": "PAX_16_5",
+        "world_m": [
+          7.24499989,
+          0.84999883,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_16_5"
+        ]
+      },
+      {
+        "marker": "PAX_16_6",
+        "world_m": [
+          7.24499989,
+          1.27999878,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_16_6"
+        ]
+      },
+      {
+        "marker": "PAX_17_1",
+        "world_m": [
+          8.28499985,
+          -1.28000128,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_17_1"
+        ]
+      },
+      {
+        "marker": "PAX_17_2",
+        "world_m": [
+          8.28499985,
+          -0.85000139,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_17_2"
+        ]
+      },
+      {
+        "marker": "PAX_17_3",
+        "world_m": [
+          8.28499985,
+          -0.42000133,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_17_3"
+        ]
+      },
+      {
+        "marker": "PAX_17_4",
+        "world_m": [
+          8.28499985,
+          0.41999865,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_17_4"
+        ]
+      },
+      {
+        "marker": "PAX_17_5",
+        "world_m": [
+          8.28499985,
+          0.84999865,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_17_5"
+        ]
+      },
+      {
+        "marker": "PAX_17_6",
+        "world_m": [
+          8.28499985,
+          1.27999866,
+          1.35699999
+        ],
+        "yaw_radians": -3.1415925,
+        "cushion_supports": [
+          "CHAIR_cushion_17_6"
+        ]
+      }
+    ],
+    "furniture_floor_supports": [
+      {
+        "object": "CHAIR_pedestal_01_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_01_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_01_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_02_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_02_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_03_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_03_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_04_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_04_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_05_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_05_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_06_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_06_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_07_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_07_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_08_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_08_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_09_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_09_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_10_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_10_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_11_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_11_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_12_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_12_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_13_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_13_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_14_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_14_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_15_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_15_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_16_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_16_6"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_1",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_1"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_2",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_2"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_3",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_3"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_4",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_4"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_5",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_5"
+        ]
+      },
+      {
+        "object": "CHAIR_pedestal_17_6",
+        "floor_gap_m": 0.00199995,
+        "supported_cushions": [
+          "CHAIR_cushion_17_6"
+        ]
+      }
+    ],
+    "BERTH_type_counts": {},
+    "BERTH_supports": [],
+    "fixture_measurements": [
+      {
+        "object": "VESTIBULE_washbasin",
+        "bounds_m": [
+          [
+            -11.15999985,
+            0.21300177,
+            1.89999998
+          ],
+          [
+            -10.73999977,
+            0.50700182,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          -10.94999981,
+          0.36000179,
+          1.97999996
+        ]
+      },
+      {
+        "object": "VESTIBULE_washbasin.001",
+        "bounds_m": [
+          [
+            10.73999977,
+            0.2129982,
+            1.89999998
+          ],
+          [
+            11.15999985,
+            0.50699824,
+            2.05999994
+          ]
+        ],
+        "center_m": [
+          10.94999981,
+          0.35999822,
+          1.97999996
+        ]
+      },
+      {
+        "object": "WC_pedestal",
+        "bounds_m": [
+          [
+            -11.4289999,
+            -1.25089824,
+            1.36000001
+          ],
+          [
+            -10.83100033,
+            -0.86909813,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          -1.05999818,
+          1.56999999
+        ]
+      },
+      {
+        "object": "WC_pedestal.001",
+        "bounds_m": [
+          [
+            10.83100033,
+            0.86909813,
+            1.36000001
+          ],
+          [
+            11.4289999,
+            1.25089824,
+            1.77999997
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          1.05999818,
+          1.56999999
+        ]
+      },
+      {
+        "object": "WC_squat_bowl",
+        "bounds_m": [
+          [
+            -11.42249966,
+            0.9391017,
+            1.27499998
+          ],
+          [
+            -10.83750057,
+            1.18090177,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          -11.13000011,
+          1.06000173,
+          1.34549999
+        ]
+      },
+      {
+        "object": "WC_squat_bowl.001",
+        "bounds_m": [
+          [
+            10.83750057,
+            -1.18090177,
+            1.27499998
+          ],
+          [
+            11.42249966,
+            -0.9391017,
+            1.41600001
+          ]
+        ],
+        "center_m": [
+          11.13000011,
+          -1.06000173,
+          1.34549999
+        ]
+      }
+    ],
+    "non_unit_scale_objects": [
+      "VESTIBULE_washbasin",
+      "VESTIBULE_washbasin.001",
+      "WC_pedestal",
+      "WC_pedestal.001",
+      "WC_squat_bowl",
+      "WC_squat_bowl.001"
+    ],
+    "topology": {
+      "evaluated_totals": {
+        "vertices": 547854,
+        "edges": 1059705,
+        "polygons": 522288,
+        "triangles": 1074848,
+        "closed_fabricated_components_checked": 5175,
+        "text_objects_checked": 52,
+        "text_seam_edges_before_weld": 23288
+      },
+      "issues": [
+        {
+          "object": "CLASS_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.5122249733766896e-05
+        },
+        {
+          "object": "CLASS_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 4,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 4.5122249733766896e-05
+        },
+        {
+          "object": "DESTINATION_BOARD_text",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "DESTINATION_BOARD_text.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "ELECTRICAL_panel_label",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "ELECTRICAL_panel_label.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 1,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 544,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 9.88852880642164e-07
+        },
+        {
+          "object": "RAILWAY_MARKING",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "RAILWAY_MARKING.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 423,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        },
+        {
+          "object": "SAFETY_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SAFETY_stencil.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SAFETY_stencil.002",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SAFETY_stencil.003",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 2,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 236,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 1.7635323007424055e-06
+        },
+        {
+          "object": "SALOON_class_plaque",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 5.527474834535093e-06
+        },
+        {
+          "object": "SALOON_class_plaque.001",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 466,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 5.527474834535093e-06
+        },
+        {
+          "object": "BATTERY_BOX_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 3,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 732,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": 6.009657374434479e-08
+        },
+        {
+          "object": "BRAKE_CONTROL_CONTAINER_service_stencil",
+          "category": "editable_text_tessellation",
+          "boundary_edges": 0,
+          "nonmanifold_edges": 1,
+          "wire_edges": 0,
+          "zero_length_edges": 0,
+          "zero_area_faces": 0,
+          "nonfinite_vertices": 0,
+          "inconsistent_winding_edges": 0,
+          "faces": 1021,
+          "isolated_vertices": 0,
+          "signed_volume_m3_local": null
+        }
+      ],
+      "intentional_source_sheets_closed_by_solidify": []
+    },
+    "source_comparison": {
+      "missing": [],
+      "unexpected": [],
+      "changed": []
+    },
+    "elapsed_seconds": 1.8,
+    "status": "pass_with_warnings"
+  },
+  "status": "pass_with_warnings"
+}

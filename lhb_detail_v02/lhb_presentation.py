@@ -24,14 +24,16 @@ def refine_ground(studio,ground_object,asset_root):
  stone_materials=[newmat('PRESENTATION natural ballast '+str(i),c) for i,c in enumerate([(.13,.125,.11),(.22,.21,.18),(.30,.28,.235),(.10,.11,.105),(.36,.34,.29)])]
  # Angular original stone meshes, scattered deterministically over the ballast bed.
  vertices=[];faces=[];mi=[]
- outline=[(-.65,-.45,-.55),(.45,-.65,-.42),(.75,.32,-.46),(-.4,.7,-.5),(-.7,-.4,.35),(.43,-.53,.65),(.64,.34,.4),(-.33,.68,.55)]
- topology=[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]
+ phi=(1+math.sqrt(5))/2;norm=math.sqrt(1+phi*phi)*1.65
+ outline=[tuple(v/norm for v in q) for q in [(-1,phi,0),(1,phi,0),(-1,-phi,0),(1,-phi,0),(0,-1,phi),(0,1,phi),(0,-1,-phi),(0,1,-phi),(phi,0,-1),(phi,0,1),(-phi,0,-1),(-phi,0,1)]]
+ topology=[(0,11,5),(0,5,1),(0,1,7),(0,7,10),(0,10,11),(1,5,9),(5,11,4),(11,10,2),(10,7,6),(7,1,8),(3,9,4),(3,4,2),(3,2,6),(3,6,8),(3,8,9),(4,9,5),(2,4,11),(6,2,10),(8,6,7),(9,8,1)]
  for i in range(13500):
   x=rng.uniform(-20,20);y=rng.uniform(-1.82,1.82);z=-.193+rng.uniform(-.01,.014)
   # Sleepers and rail pads remain visible; stones do not cover their upper faces.
   if abs((x+.31)%.62-.31)<.145 and abs(y)<1.38:continue
   a=rng.random()*math.tau;cs,sn=math.cos(a),math.sin(a);sx=rng.uniform(.025,.078);sy=rng.uniform(.023,.070);sz=rng.uniform(.026,.066);base=len(vertices)
-  for xx,yy,zz in outline:vertices.append((x+xx*sx*cs-yy*sy*sn,y+xx*sx*sn+yy*sy*cs,z+zz*sz))
+  for xx,yy,zz in outline:
+   jitter=rng.uniform(.72,1.24);vertices.append((x+(xx*sx*cs-yy*sy*sn)*jitter,y+(xx*sx*sn+yy*sy*cs)*jitter,z+zz*sz*jitter))
   color=rng.randrange(len(stone_materials))
   for f in topology:faces.append(tuple(base+j for j in f));mi.append(color)
  mesh=bpy.data.meshes.new('PRESENTATION angular stone scatter');mesh.from_pydata(vertices,[],faces);mesh.update();o=bpy.data.objects.new(mesh.name,mesh);studio.objects.link(o)

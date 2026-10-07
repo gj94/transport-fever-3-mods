@@ -174,13 +174,13 @@ def refine(g,k,c):
   rod('FIRE_EXTINGUISHER_valve',(ex,ey,2.19),(ex,ey,2.237),.014,brass,12,coll=inter)
   tube('FIRE_EXTINGUISHER_hose',[(ex+.02,ey,2.22),(ex+.10,ey,2.16),(ex+.102,ey,1.89)],.009,rubber)
   # Vestibule wall washbasin with genuine bowl and drain, folding tap and mirror.
-  bx=e*10.31;by=.66
+  bx=e*10.95;by=.36
   ob=lathe('VESTIBULE_washbasin',(bx,by,2.03),[(.025,-.13),(.16,-.075),(.21,0),(.208,.028),(.183,.03),(.161,-.04),(.028,-.108)],ceramic,48);ob.scale.y=.70
   rod('WASHBASIN_drain',(bx,by,1.928),(bx,by,1.934),.023,steel,20,coll=inter)
   tube('WASHBASIN_tap',[(bx,by+.15,2.057),(bx,by+.15,2.24),(bx,by+.07,2.24),(bx,by+.07,2.20)],.011)
   tube('WASHBASIN_trap',[(bx,by,1.926),(bx,by,1.83),(bx+.085,by,1.80),(bx+.085,by,1.90),(bx+.16,by,1.90)],.023)
-  box('WASHBASIN_mirror_frame',(e*10.525,.90,2.68),(.023,.50,.65),steel,.014,coll=inter)
-  box('WASHBASIN_mirror',(e*10.509,.90,2.68),(.008,.45,.60),mirror,.008,coll=inter)
+  box('WASHBASIN_mirror_frame',(e*10.95,.520,2.68),(.50,.023,.65),steel,.014,coll=inter)
+  box('WASHBASIN_mirror',(e*10.95,.505,2.68),(.45,.008,.60),mirror,.008,coll=inter)
   for s in [-1,1]:
    tx=e*11.13;ty=s*1.06;linen_room=k=='1A' and e<0 and s<0
    box('SERVICE_floor_pan',(tx,ty,1.343),(1.01,.89,.035),grey,.024,coll=inter)

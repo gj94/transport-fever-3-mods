@@ -16,18 +16,19 @@ def apply(g,k,c):
  for ob in list(bpy.data.objects):
   if ob.type!='MESH' or not ob.name.startswith(('BODYSIDE_header','BODYSIDE_rounded_aperture','BODYSIDE_window_pier')):continue
   if not ob.data.vertices:continue
-  xs=[v.co.x for v in ob.data.vertices]
+  world=ob.matrix_world.copy();inverse=world.inverted()
+  xs=[(world@v.co).x for v in ob.data.vertices]
   if min(xs)>10.58:sign=1
   elif max(xs)<-10.58:sign=-1
   else:continue
   slope=(3.46-2.08)/(11.77-10.60)
   bm=bmesh.new();bm.from_mesh(ob.data)
-  bmesh.ops.bisect_plane(bm,geom=list(bm.verts)+list(bm.edges)+list(bm.faces),dist=.000001,plane_co=(sign*10.60,0,2.08),plane_no=(-sign*slope,0,1),clear_inner=False,clear_outer=False)
+  bmesh.ops.bisect_plane(bm,geom=list(bm.verts)+list(bm.edges)+list(bm.faces),dist=.000001,plane_co=inverse@Vector((sign*10.60,0,2.08)),plane_no=world.to_3x3().transposed()@Vector((-sign*slope,0,1)),clear_inner=False,clear_outer=False)
   bmesh.ops.recalc_face_normals(bm,faces=bm.faces);bm.to_mesh(ob.data);bm.free()
   if grey.name not in ob.data.materials:ob.data.materials.append(grey)
   idx=list(ob.data.materials).index(grey)
   for p in ob.data.polygons:
-   center=sum((ob.data.vertices[i].co for i in p.vertices),Vector())/len(p.vertices)
+   center=world@(sum((ob.data.vertices[i].co for i in p.vertices),Vector())/len(p.vertices))
    if center.z < 2.08+slope*(abs(center.x)-10.60)+.00001:p.material_index=idx
  for ob in bpy.data.objects:
   if ob.type=='FONT' and ob.name.startswith('CLASS_MARKING'):ob.data.size=.18;ob.location.z=3.25

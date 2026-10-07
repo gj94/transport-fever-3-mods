@@ -8,6 +8,9 @@ def build(g,k,c):
  box,mesh,rod,text,empty=[g[n] for n in ['box','mesh','rod','text','empty']]
  paint,grey,steel,rubber,ivory,white,blue,glass,wood=[g[n] for n in ['paint','grey','steel','rubber','ivory','white','blue','glass','wood']]
  root,body,inter,roof,glasscoll=[g[n] for n in ['root','body','inter','roof','glasscoll']]
+ wcglass=g['material']('WC_privacy_frosted_glass',(.72,.78,.77),0,.40)
+ wp=wcglass.node_tree.nodes.get('Principled BSDF');wp.inputs['Transmission Weight'].default_value=.75;wp.inputs['IOR'].default_value=1.45
+ wcglass['export_note']='Frosted privacy glass; diffuse opaque fallback in FBX, not clear passenger glazing'
  def rounded(w,h,r,n=8):
   p=[]
   for cx,cz,start in [(w/2-r,h/2-r,0),(-w/2+r,h/2-r,90),(-w/2+r,-h/2+r,180),(w/2-r,-h/2+r,270)]:
@@ -40,7 +43,11 @@ def build(g,k,c):
   vs=[(x+xx,y+dy,z+zz) for dy in [-t/2,t/2] for xx,zz in points];fs=base+[tuple(v+M for v in reversed(f)) for f in base]
   for i in range(N):j=(i+1)%N;fs.append((i,j,j+M,i+M))
   for i in range(4):a=N+i;b=N+(i+1)%4;fs.append((a,a+M,b+M,b))
-  return mesh(name,vs,fs,mat,coll=coll)
+  ob=mesh(name,vs,fs,mat,coll=coll)
+  if name.startswith(('BODYSIDE_rounded_aperture','DOOR_leaf_glazed_portal')):
+   ob.data.materials.append(ivory)
+   for face in list(ob.data.polygons)[2*len(base):2*len(base)+N]:face.material_index=1
+  return ob
  # Measured selected drawing families. Exact window pitches remain an interpretation.
  if k=='1A':
   lens=[2.50,1.73,2.50,1.73,1.73,2.50,1.73,2.50];cur=-sum(lens)/2;cab=[]
@@ -51,6 +58,7 @@ def build(g,k,c):
  elif k=='SL':rhythms={s:[(-8.1+j*1.8+q*.38,.55) for j in range(10) for q in [-1,1]] for s in [-1,1]}
  elif k=='GS':rhythms={s:sorted([(e*(1.25+j*1.68)+q*.35,.53) for e in [-1,1] for j in range(5) for q in [-1,1]]) for s in [-1,1]}
  else:rhythms={s:[(-8.12+j*1.16,.78 if k=='2S' else 1.06) for j in range(15)] for s in [-1,1]}
+ root['sealed_window_outer_glass_mm']=8.4 if c['ac'] else 0;root['sealed_window_inner_glass_mm']=4.0 if c['ac'] else 0;root['sealed_window_air_gap_mm']=6.0 if c['ac'] else 0
  root['window_openings_by_side']=str({str(s):len(v) for s,v in rhythms.items()})
  doors=[-10.07,10.07]+([0] if k=='GS' else [])
  for s in [-1,1]:
@@ -81,7 +89,9 @@ def build(g,k,c):
     ring('WINDOW_recessed_EPDM_seal',wx,s*1.614,2.495,w+.008,.738,.022,.102,.029,rubber)
     ring('WINDOW_inner_trim',wx,s*1.522,2.495,w+.042,.772,.02,.118,.021,ivory,inter)
     if c['ac'] or wc:
-     slab('GLASS_WC_frosted' if wc else 'GLASS_WINDOW',wx,s*1.602,2.495,w-.038,.692,.008,.078,glass,glasscoll)
+     slab('GLASS_WC_frosted' if wc else 'GLASS_WINDOW',wx,s*1.602,2.495,w-.038,.692,.008 if wc else .0084,.078,wcglass if wc else glass,glasscoll)
+     if not wc:
+      slab('GLASS_WINDOW_inner_tempered',wx,s*1.5898,2.495,w-.038,.692,.004,.078,glass,glasscoll)
      if not wc:
       box('WINDOW_sill_table_edge',(wx,s*1.475,2.104),(w+.09,.09,.032),ivory,.012,coll=inter)
       rod('CURTAIN_rail',(wx-w/2,s*1.462,2.916),(wx+w/2,s*1.462,2.916),.008,steel,coll=inter)
@@ -99,12 +109,20 @@ def build(g,k,c):
     box('INTERIOR_window_pier',((cursor+hi)/2,s*1.528,2.495),(hi-cursor,.02,.84),ivory,coll=inter)
   # Door leaves have genuine glazing, separately nested hardware and hinges.
   for di,x in enumerate(doors):
+   box('DOOR_portal_header',(x,s*1.578,3.4975),(1.04,.084,.165),paint)
+   box('INTERIOR_door_portal_header',(x,s*1.528,3.4975),(1.04,.018,.165),ivory,coll=inter)
+   for jamb in [-1,1]:box('DOOR_portal_jamb',(x+jamb*.50,s*1.578,2.3725),(.04,.084,2.085),paint)
    dp=empty('DOOR_'+('L' if s>0 else 'R')+'_'+str(di+1)+'_PIVOT',(x-.48,s*1.59,1.34),body)
    box('DOOR_bottom_leaf',(.48,0,.43),(.96,.055,.86),paint,.001,parent=dp)
    box('DOOR_top_leaf',(.48,0,1.99),(.96,.055,.17),paint,.001,parent=dp)
    o=pierced('DOOR_leaf_glazed_portal',.48,0,1.432,.96,1.144,.34,.94,.055,.10,paint);o.parent=dp
    ring('DOOR_EPDM_glazing',.48,0,1.432,.36,.96,.067,.108,.025,rubber,parent=dp)
    slab('GLASS_DOOR',.48,s*.008,1.432,.31,.91,.008,.084,glass,glasscoll,dp)
+   for child in list(dp.children):
+    if child.type=='MESH' and child.name.startswith(('DOOR_bottom_leaf','DOOR_top_leaf','DOOR_leaf_glazed_portal')):
+     child.data.materials.append(ivory);inneridx=len(child.data.materials)-1
+     for face in child.data.polygons:
+      if face.normal.y*s<-.5:face.material_index=inneridx
    for xx in [.025,.935]:box('DOOR_edge_rebate',(xx,s*.031,1.035),(.024,.012,2.055),grey,.003,parent=dp)
    for hside in [-1,1]:
     rod('DOOR_handle',(.82,hside*.061,.70),(.82,hside*.061,1.01),.013,steel,20,parent=dp)
@@ -136,9 +154,15 @@ def build(g,k,c):
    for dx,mat in [(-.046,white),(.046,paint)]:slab('EMERGENCY_indicator',e*8.9+dx,s*1.657,3.03,.052,.047,.013,.01,mat)
  # Smooth elliptical arch follows 4.039 m reference crown, no faceted nine-edge roof.
  profile=[(1.62*math.cos(math.pi*i/40),3.545+.494*math.sin(math.pi*i/40)) for i in range(41)]
+ profile+= [(y,3.545+.494*math.sqrt(1-(y/1.62)**2)) for y in [-1.27,1.27]]
+ profile.sort(key=lambda q:q[0],reverse=True)
  ringp=profile+[(y,z-.05) for y,z in reversed(profile)];N=len(ringp)
  sections=[(-11.77,0),(-11.69,.045),(-11.57,.145),(-11.43,.265),(-8.50,.265),(-8.31,.21),(-8.13,.08),(-8,0),(8,0),(8.13,.08),(8.31,.21),(8.50,.265),(11.43,.265),(11.57,.145),(11.69,.045),(11.77,0)] if c['ac'] else [(-11.77,0),(11.77,0)]
- vs=[(x,y,z-drop*max(0,1-abs(y)/1.62)) for x,drop in sections for y,z in ringp]
+ def deck_height(y,z,drop):
+  ay=abs(y);arch=3.545+.494*math.sqrt(max(0,1-(y/1.62)**2))
+  deck=3.705 if ay<=1.27 else 3.545+(1.62-ay)/.35*.160
+  return z-(drop/.265)*(arch-deck)
+ vs=[(x,y,deck_height(y,z,drop)) for x,drop in sections for y,z in ringp]
  fs=[tuple(range(N-1,-1,-1)),tuple(range((len(sections)-1)*N,len(sections)*N))]
  for j in range(len(sections)-1):fs.extend([(j*N+i,j*N+(i+1)%N,(j+1)*N+(i+1)%N,(j+1)*N+i) for i in range(N)])
  ob=mesh('ROOF_arch',vs,fs,grey,coll=roof)
@@ -158,19 +182,8 @@ def build(g,k,c):
   fs=[tuple(range(nn-1,-1,-1)),tuple(range(nn,2*nn))]+[(i,(i+1)%nn,(i+1)%nn+nn,i+nn) for i in range(nn)]
   mesh('ROOF_endcap',vs,fs,grey,coll=roof)
   if c['ac']:
-   box('AC_ROOF_end_package',(e*9.82,0,3.79),(2.55,2.44,.235),grey,.085,coll=roof)
-   for xx in [e*9.30,e*10.17]:
-    rod('AC_condenser_well',(xx,0,3.886),(xx,0,3.905),.394,rubber,64,coll=roof)
-    rod('AC_condenser_motor',(xx,0,3.902),(xx,0,3.934),.075,steel,24,coll=roof)
-    for j in range(6):
-     a=j*math.tau/6;box('AC_fan_blade',(xx+.17*math.cos(a),.17*math.sin(a),3.917),(.32,.078,.012),steel,.018,coll=roof,yaw=a+.30)
-    for rad in [.08,.16,.24,.32,.39]:
-     for j in range(40):
-      a=j*math.tau/40;b=(j+1)*math.tau/40;rod('AC_condenser_grille_ring',(xx+rad*math.cos(a),rad*math.sin(a),3.942),(xx+rad*math.cos(b),rad*math.sin(b),3.942),.004,steel,6,coll=roof)
-    for j in range(12):
-     a=j*math.tau/12;rod('AC_condenser_guard_spoke',(xx+.07*math.cos(a),.07*math.sin(a),3.943),(xx+.39*math.cos(a),.39*math.sin(a),3.943),.004,steel,6,coll=roof)
-   for s in [-1,1]:
-    for j in range(22):box('AC_side_intake_louvre',(e*9.82-1.15+j*.11,s*1.207,3.782),(.065,.021,.139),rubber,.008,coll=roof)
+   import lhb_hvac_detail
+   lhb_hvac_detail.build(g,e)
   else:
    for xx in [e*2.3,e*5.7,e*9.3]:
     box('VENTURI_roof_vent_base',(xx,0,4.025),(.49,.30,.05),grey,.055,coll=roof)

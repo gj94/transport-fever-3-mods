@@ -108,7 +108,7 @@ def measure_scene(k,stage,reference=None,full_topology=True):
     meshobjs=[o for o in visual if o.type=='MESH']
     bbs={o.name:bbox(o,deps) for o in visual}
     r['embedded_source_module_sha256']=json.loads(root.get('source_module_sha256','{}'))
-    current_hashes={name:digest(BASE/name) for name in ['build_lhb_detail.py','lhb_shell.py','lhb_finish_detail.py','lhb_running_gear.py','lhb_identity_detail.py'] if (BASE/name).exists()}
+    current_hashes={name:digest(BASE/name) for name in ['build_lhb_detail.py','lhb_shell.py','lhb_finish_detail.py','lhb_running_gear.py','lhb_identity_detail.py','lhb_hvac_detail.py','lhb_soft_finish.py','lhb_chair_detail.py'] if (BASE/name).exists()}
     check(r,'embedded_build_hashes_match_current_modules',r['embedded_source_module_sha256']==current_hashes,{'embedded':r['embedded_source_module_sha256'],'current':current_hashes})
     r['statistics']={'scene_objects':len(objs),'asset_objects':len(asset),'asset_mesh_objects':len(meshobjs),'asset_font_objects':sum(o.type=='FONT' for o in asset),'asset_empty_objects':sum(o.type=='EMPTY' for o in asset),'materials':len(bpy.data.materials)}
     r['bounds']=joined_bounds(list(bbs.values()))
@@ -175,6 +175,83 @@ def measure_scene(k,stage,reference=None,full_topology=True):
     measurements['coupling_span_m']=abs(couplers[0].matrix_world.translation.x-couplers[1].matrix_world.translation.x) if len(couplers)==2 else None
     check(r,'coupling_anchor_contract',len(couplers)==2 and near(measurements['coupling_span_m'],24) and all(o.parent==root and near(o.matrix_world.translation.z,1.105) and near(o.matrix_world.translation.y,0) and angular_distance(o.rotation_euler.z,0 if o.name.endswith('FRONT') else math.pi)<TOL for o in couplers),{'span_m':measurements['coupling_span_m'],'anchors':{o.name:vec(o.matrix_world.translation) for o in couplers}})
     r['measured_dimensions']=measurements
+    # Revision-specific design placement checks. These are measured authoring
+    # contracts, not claims that the chosen fine layout is manufacturer CAD.
+    door_pivots=[o for o in asset if re.fullmatch(r'DOOR_[LR]_[123]_PIVOT',o.name)]
+    header_errors=[];header_rows=[]
+    for dp in door_pivots:
+        x=dp.matrix_world.translation.x+.48;y=dp.matrix_world.translation.y
+        candidates=[o for o in visual if o.name.startswith('DOOR_portal_header') and abs(center(bbs[o.name])[0]-x)<.001 and center(bbs[o.name])[1]*y>0]
+        if len(candidates)!=1:header_errors.append(dp.name+' header count');continue
+        b=bbs[candidates[0].name]
+        header_rows.append({'door':dp.name,'header':candidates[0].name,'bounds_m':[vec(v) for v in b]})
+        if not near(b[0][0],x-.52) or not near(b[1][0],x+.52) or not near(b[0][2],3.415) or not near(b[1][2],3.580):header_errors.append(dp.name+' bridging bounds')
+    check(r,'door_portal_headers_bridge_to_roof',len(door_pivots)==(6 if k=='GS' else 4) and not header_errors,{'doors':len(door_pivots),'errors':header_errors,'headers':header_rows})
+    packages=[o for o in meshobjs if o.name.startswith('AC_ROOF_end_package')]
+    hvac_errors=[];hvac_rows=[];component_errors=[];component_rows=[];platform_errors=[];platform_rows=[];clearance_errors=[];clearances=[]
+    arch=bpy.data.objects.get('ROOF_arch');arch_inv=arch.matrix_world.inverted() if arch else None;arch_eval=arch.evaluated_get(deps) if arch else None
+    def ray_down(obj,x,y):
+        inv=obj.matrix_world.inverted();hit,loc,normal,_=obj.evaluated_get(deps).ray_cast(inv@Vector((x,y,4.20)),(inv.to_3x3()@Vector((0,0,-1))).normalized(),distance=1.0)
+        return (obj.matrix_world@loc).z if hit else None
+    for package in packages:
+        pb=bbs[package.name];sgn=1 if center(pb)[0]>0 else -1
+        if not near(pb[1][2],3.950):hvac_errors.append(package.name+' cover top')
+        if not near(package.get('fan_bank_y_m',999),-.50*sgn) or not near(package.get('condenser_well_floor_z_m',999),3.8075) or not near(package.get('cover_top_z_m',999),3.950) or package.get('maintenance_cover_count')!=6:component_errors.append(package.name+' design metadata')
+        wells=[('fan',sgn*x,-.50*sgn) for x in [9.30,10.17]]+[('intake',sgn*(9.08+j*.43),.62*sgn) for j in range(4)]
+        for kind,x,y in wells:
+            offsets=[(0,0),(.20,0),(0,.20)] if kind=='fan' else [(0,0),(.12,0),(0,.24)]
+            for dx,dy in offsets:
+                z=ray_down(package,x+dx,y+dy);roof_z=ray_down(arch,x+dx,y+dy) if arch else None
+                hvac_rows.append({'package':package.name,'well_type':kind,'sample_xy_m':[x+dx,y+dy],'first_cover_hit_z_m':z,'depth_m':pb[1][2]-z if z is not None else None})
+                if z is None or not near(z,3.8075,.0002) or not near(pb[1][2]-z,.1425,.0002):hvac_errors.append(package.name+' '+kind+' well floor/depth')
+                clearance=z-roof_z if z is not None and roof_z is not None else None
+                clearances.append({'package':package.name,'well_type':kind,'sample_xy_m':[x+dx,y+dy],'roof_top_z_m':roof_z,'well_floor_z_m':z,'clearance_m':clearance})
+                if clearance is None or clearance<.1023:clearance_errors.append(package.name+' roof intersects or approaches well floor')
+        blades=[o for o in visual if o.name.startswith('AC_fan_blade') and bbs[o.name][0][0]>pb[0][0] and bbs[o.name][1][0]<pb[1][0]]
+        fan_counts={x:0 for x in [sgn*9.30,sgn*10.17]}
+        for o in blades:
+            bc=center(bbs[o.name]);fx=min(fan_counts,key=lambda x:abs(x-bc[0]));fan_counts[fx]+=1
+            if bbs[o.name][1][2]>3.945 or bbs[o.name][0][2]<3.82 or math.hypot(bc[0]-fx,bc[1]+sgn*.50)>.375:hvac_errors.append(o.name+' fan recess/bank placement')
+        if len(blades)!=12 or sorted(fan_counts.values())!=[6,6]:hvac_errors.append(package.name+' blade count')
+        def nearby(prefix):return [o for o in visual if o.name.startswith(prefix) and pb[0][0]-.02<=center(bbs[o.name])[0]<=pb[1][0]+.02]
+        frames=nearby('RMPU_intake_frame');wires=nearby('RMPU_intake_mesh_wire');fins=nearby('RMPU_condenser_fin');boxes=nearby('RMPU_electrical_junction_box');shadows=nearby('RMPU_condenser_intake_shadow');seams=nearby('RMPU_maintenance_cover_joint')
+        if len(frames)!=16 or len(wires)!=160 or len(fins)!=64 or len(boxes)!=2 or len(shadows)!=4 or len(seams)!=3:component_errors.append(package.name+' intake/junction/cover component counts')
+        for j in range(4):
+            xx=sgn*(9.08+j*.43);yy=sgn*.62
+            cellframes=[o for o in frames if abs(center(bbs[o.name])[0]-xx)<=.1971 and abs(center(bbs[o.name])[1]-yy)<=.3441]
+            cellfins=[o for o in fins if abs(center(bbs[o.name])[0]-xx)<=.18 and abs(center(bbs[o.name])[1]-yy)<TOL]
+            if len(cellframes)!=4 or len(cellfins)!=16:component_errors.append(package.name+' intake '+str(j)+' frames/fins')
+            if any(bbs[o.name][0][2]<3.8075 or bbs[o.name][1][2]>=3.950 for o in cellfins):component_errors.append(package.name+' fin recess')
+        if len(boxes)==2 and any(not near(abs(center(bbs[o.name])[1]),1.285) or not near(center(bbs[o.name])[0],sgn*10.86) for o in boxes):component_errors.append(package.name+' junction box placement')
+        component_rows.append({'package':package.name,'fan_blades':len(blades),'blade_counts_per_well':fan_counts,'intake_frames':len(frames),'mesh_wires':len(wires),'fins':len(fins),'junction_boxes':len(boxes),'intake_shadow_floors':len(shadows),'cover_seams':len(seams),'maintenance_cover_metadata':package.get('maintenance_cover_count')})
+        for x in [sgn*8.56,sgn*9.82,sgn*11.08]:
+            for y in [-1.270,-1.250,-1.20,0,1.20,1.250,1.270]:
+                z=ray_down(arch,x,y) if arch else None
+                platform_rows.append({'sample_xy_m':[x,y],'roof_top_z_m':z})
+                if z is None or not near(z,3.705,.0002):platform_errors.append({'sample_xy_m':[x,y],'expected_z_m':3.705,'actual_z_m':z})
+    check(r,'HVAC_blind_wells_and_fans_recessed',len(packages)==(2 if k in {'1A','2A','3A','CC'} else 0) and not hvac_errors,{'packages':len(packages),'errors':hvac_errors,'ray_samples':hvac_rows})
+    check(r,'RMPU_intakes_covers_and_paired_junction_boxes',not component_errors,{'errors':component_errors,'unit_measurements':component_rows})
+    check(r,'RMPU_roof_platform_flat_to_1_27m_halfwidth',not platform_errors,{'errors':platform_errors,'sample_measurements':platform_rows})
+    check(r,'RMPU_well_floors_clear_roof_platform',not clearance_errors,{'errors':clearance_errors,'clearance_measurements':clearances})
+    ceiling=bbs.get('CEILING_main');ceiling_top=ceiling[1][2] if ceiling else None
+    check(r,'RMPU_roof_and_ceiling_vertically_separate',not packages or ceiling_top is not None and ceiling_top<3.655 and ceiling_top<3.8075,{'ceiling_top_z_m':ceiling_top,'flat_roof_bottom_z_m':3.655,'well_floor_z_m':3.8075,'ceiling_to_roof_gap_m':3.655-ceiling_top if ceiling_top is not None else None})
+    check(r,'temporary_boolean_cutters_removed',not any(o.name.startswith('TEMP_') for o in objs))
+    slope=(3.46-2.08)/(11.77-10.60);livery_errors=[];livery_faces=0;livery_objects=[]
+    for o in meshobjs:
+        if not o.name.startswith(('BODYSIDE_header','BODYSIDE_rounded_aperture','BODYSIDE_window_pier')):continue
+        b=bbs[o.name]
+        if not (b[0][0]>10.58 or b[1][0]<-10.58):continue
+        livery_objects.append(o.name)
+        for face in o.data.polygons:
+            pts=[o.matrix_world@o.data.vertices[i].co for i in face.vertices]
+            deltas=[p.z-2.08-slope*(abs(p.x)-10.60) for p in pts]
+            centre_delta=sum(deltas)/len(deltas)
+            mat=o.data.materials[face.material_index] if face.material_index<len(o.data.materials) else None
+            expected='Lower_body_light_grey' if centre_delta<.00001 else 'Class_livery'
+            if min(deltas)<-.00001 and max(deltas)>.00001:livery_errors.append(o.name+' face crosses uncut wedge line')
+            if not mat or not (mat.name.startswith(expected) or mat.name.startswith('Warm_FRP_liners') and abs(face.normal.y)<.05):livery_errors.append(o.name+' wrong material side')
+            livery_faces+=1
+    check(r,'end_livery_wedges_match_world_space_plane',len(livery_objects)>0 and not livery_errors,{'objects':livery_objects,'faces_checked':livery_faces,'errors':livery_errors[:30]})
     pax=sorted([o for o in asset if o.name.startswith('PAX_')],key=lambda x:x.name)
     berths=sorted([o for o in asset if o.name.startswith('BERTH_') and o.type=='EMPTY'],key=lambda x:x.name)
     check(r,'PAX_count',len(pax)==CAPACITY[k],{'expected':CAPACITY[k],'actual':len(pax)})
@@ -186,7 +263,7 @@ def measure_scene(k,stage,reference=None,full_topology=True):
     for p in pax:
         pos=p.matrix_world.translation;cushion=float(p.get('cushion_top_z_m',1.84));hip=float(p.get('posed_hip_offset_m',.483))
         duplicate[tuple(round(v,5) for v in pos)].append(p.name)
-        if p.type!='EMPTY' or p.parent!=body or p.get('pose')!='sitting' or not near(pos.z,cushion-hip) or not near(pos.z,1.357) or angular_distance(p.rotation_euler.z,0)>TOL and angular_distance(p.rotation_euler.z,math.pi)>TOL:paxbad.append(p.name+' transform/pose')
+        if p.type!='EMPTY' or p.parent!=body or p.get('pose')!='sitting' or not near(pos.z,cushion-hip) or not near(pos.z,1.270 if k=='CC' else 1.357) or angular_distance(p.rotation_euler.z,0)>TOL and angular_distance(p.rotation_euler.z,math.pi)>TOL:paxbad.append(p.name+' transform/pose')
         if abs(pos.x)>9.15 or abs(pos.y)>1.52:paxbad.append(p.name+' saloon bounds')
         candidates=[]
         for s in supports:
@@ -205,6 +282,83 @@ def measure_scene(k,stage,reference=None,full_topology=True):
     check(r,'PAX_unique_positions',not duplicate,issue_names(duplicate))
     check(r,'PAX_torso_clear_of_fixed_partitions',not blockages,issue_names(blockages))
     r['PAX_supports']=support_rows
+    # Compare independent design-contract coordinates against evaluated geometry.
+    # Matching is tolerance-based rather than lexicographic to tolerate FBX noise.
+    def match_points(actual,expected,tolerance=TOL):
+        unused=list(range(len(actual)));missing=[];pairs=[]
+        for point in expected:
+            if not unused:missing.append(vec(point));continue
+            best=min(unused,key=lambda j:sum((actual[j][i]-point[i])**2 for i in range(len(point))))
+            delta=max(abs(actual[best][i]-point[i]) for i in range(len(point)))
+            if delta<=tolerance:unused.remove(best);pairs.append((best,point))
+            else:missing.append(vec(point))
+        return missing,unused,pairs
+    fan_motors=[o for o in visual if re.fullmatch(r'FAN_motor(?:\.\d+)?',o.name)]
+    if k=='SL':fan_expected=[(-8.1+j*1.8,y,3.355) for j in range(10) for y in [-1.08,-.42,.24]]
+    elif k=='GS':fan_expected=[(half*(1.34+j*1.67),-half*y,3.355) for half in [-1,1] for j in range(5) for y in [-1.08,-.42,.24]]
+    elif k=='2S':fan_expected=[(x,y,3.355) for x in [-7.5,-5.6,-3.7,-1.8,.1,2.0,3.9,5.8,7.7] for y in [-.55,.78]]
+    else:fan_expected=[]
+    fan_actual=[center(bbs[o.name]) for o in fan_motors];missing,extra,_=match_points(fan_actual,fan_expected)
+    check(r,'ceiling_fan_count_and_class_positions',len(fan_motors)==len(fan_expected) and root.get('ceiling_fan_count')==len(fan_expected) and not missing and not extra,{'expected_count':len(fan_expected),'actual_count':len(fan_motors),'metadata_count':root.get('ceiling_fan_count'),'missing_positions':missing,'unexpected_objects':[fan_motors[i].name for i in extra],'actual_positions_m':{o.name:vec(fan_actual[i]) for i,o in enumerate(fan_motors)}})
+    if k=='1A':
+        steps=[o for o in visual if o.name.startswith('FIRST_upper_access_step')]
+        stiles=[o for o in visual if o.name.startswith('FIRST_access_ladder_stile')]
+        ladder_errors=[];ladder_rows=[]
+        for step in steps:
+            sb=bbs[step.name];sc=center(sb);touching=[]
+            for stile in stiles:
+                rb=bbs[stile.name]
+                # The straight round stiles lean only in X. Interpolate the
+                # centreline from their bounds at the tread's middle height.
+                if not rb[0][2]<sc[2]<rb[1][2]:continue
+                pts=[stile.matrix_world@v.co for v in stile.data.vertices]
+                low=sorted(pts,key=lambda p:p.z)[:len(pts)//2]
+                high=sorted(pts,key=lambda p:p.z)[len(pts)//2:]
+                a=sum(low,Vector())/len(low);b=sum(high,Vector())/len(high)
+                q=a+(b-a)*((sc[2]-a.z)/(b.z-a.z))
+                if sb[0][0]-.005<=q.x<=sb[1][0]+.005 and sb[0][1]-.005<=q.y<=sb[1][1]+.005:touching.append(stile.name)
+            if len(touching)!=2:ladder_errors.append(step.name)
+            ladder_rows.append({'step':step.name,'attached_stiles':touching})
+        check(r,'FIRST_ladder_treads_join_both_stiles',len(steps)==48 and len(stiles)==24 and not ladder_errors,{'step_count':len(steps),'stile_count':len(stiles),'errors':ladder_errors,'joints':ladder_rows})
+        partitions=[o for o in visual if o.name.startswith(('CABIN_partition_','CABIN_end_partition'))]
+        fittings=[o for o in visual if o.name.startswith(('CABIN_coat_hook_base','CABIN_magazine_frame'))]
+        fixture_errors=[]
+        for fitting in fittings:
+            fb=bbs[fitting.name]
+            contacts=[p.name for p in partitions if all(fb[0][a]<=bbs[p.name][1][a]+TOL and fb[1][a]>=bbs[p.name][0][a]-TOL for a in range(3))]
+            if not contacts:fixture_errors.append(fitting.name)
+        check(r,'FIRST_hooks_and_net_frames_attach_to_partitions',len(fittings)==108 and not fixture_errors,{'fitting_count':len(fittings),'errors':fixture_errors})
+
+    if k=='GS':
+        exp_pax=[];exp_benches=[];exp_side=[]
+        for half in [-1,1]:
+            for j in range(5):
+                cx=half*(1.34+j*1.67);mirror=-half;exp_side.append((cx,1.24*mirror,1.776))
+                for end in [-1,1]:
+                    xx=cx+end*.54;exp_benches.append((xx,-.54*mirror,1.776))
+                    for yy in [-1.26,-.78,-.30,.18]:exp_pax.append(((xx-end*.045,yy*mirror,1.357),0 if end<0 else math.pi))
+                    exp_pax.append(((cx+end*.43,1.24*mirror,1.357),0 if end<0 else math.pi))
+        missing,extra,pairs=match_points([list(o.matrix_world.translation) for o in pax],[p for p,yaw in exp_pax])
+        bad_yaw=[]
+        for index,point in pairs:
+            expected_yaw=next(yaw for p,yaw in exp_pax if p==point)
+            if angular_distance(pax[index].rotation_euler.z,expected_yaw)>TOL:bad_yaw.append(pax[index].name)
+        benchobjs=[o for o in visual if o.name.startswith('GS_main_bench')];sideobjs=[o for o in visual if o.name.startswith('GS_side_bench')]
+        bm,be,_=match_points([center(bbs[o.name]) for o in benchobjs],exp_benches)
+        sm,se,_=match_points([center(bbs[o.name]) for o in sideobjs],exp_side)
+        check(r,'GS_mirrored_furniture_and_PAX_banks',len(pax)==100 and len(benchobjs)==20 and len(sideobjs)==10 and not any([missing,extra,bad_yaw,bm,be,sm,se]),{'missing_PAX_positions':missing,'extra_PAX':[pax[i].name for i in extra],'wrong_X_facing_yaw':bad_yaw,'missing_main_benches':bm,'extra_main_benches':[benchobjs[i].name for i in be],'missing_side_benches':sm,'extra_side_benches':[sideobjs[i].name for i in se],'bank_contract':'Negative-X main bank at negative Y; positive-X main bank at positive Y; side bank mirrored; yaw unchanged by bank reflection'})
+        rails=[o for o in visual if re.fullmatch(r'GS_TRANSVERSE_RACK_rail(?:\.\d+)?',o.name)]
+        crosses=[o for o in visual if re.fullmatch(r'GS_TRANSVERSE_RACK_crossbar(?:\.\d+)?',o.name)]
+        rackerrors=[];rackrows=[];claimed=set()
+        for bx,by,bz in exp_benches:
+            matches=[o for o in rails if abs(center(bbs[o.name])[0]-bx)<=.27005 and abs(center(bbs[o.name])[1]-by)<TOL and abs(center(bbs[o.name])[2]-2.96)<TOL]
+            cmatches=[o for o in crosses if abs(center(bbs[o.name])[0]-bx)<TOL and abs(center(bbs[o.name])[1]-by)<=.96005 and abs(center(bbs[o.name])[2]-2.96)<TOL]
+            spans=[bbs[o.name][1][1]-bbs[o.name][0][1] for o in matches]
+            xms,xes,_=match_points([[center(bbs[o.name])[0]] for o in matches],[[bx-.27],[bx],[bx+.27]])
+            if len(matches)!=3 or len(cmatches)!=15 or xms or xes or any(not near(span,1.92) for span in spans):rackerrors.append({'bench_center_m':[bx,by,bz],'rails':len(matches),'crossbars':len(cmatches),'Y_spans_m':spans})
+            claimed.update(o.name for o in matches)
+            rackrows.append({'bench_center_m':[bx,by,bz],'rails':[o.name for o in matches],'rail_Y_spans_m':spans,'crossbars':len(cmatches)})
+        check(r,'GS_twenty_transverse_luggage_racks',len(rails)==60 and len(crosses)==300 and len(claimed)==60 and not rackerrors,{'assemblies':len(rackrows),'rails':len(rails),'crossbars':len(crosses),'errors':rackerrors,'assembly_measurements':rackrows})
     supports_bad=[];floor_supports=[]
     for o in visual:
         if not o.name.startswith(('LOWER_support','FIRST_berth_support','CHAIR_pedestal','GS_bench_leg')):continue
@@ -233,12 +387,26 @@ def measure_scene(k,stage,reference=None,full_topology=True):
     for o in visual:
         if not o.name.startswith(('WC_pedestal','WC_squat_bowl','VESTIBULE_washbasin')):continue
         b=bbs[o.name];ce=center(b);wc=o.name.startswith('WC_')
-        expectedx=11.13 if wc else 10.31;expectedy=1.06 if wc else .66
+        expectedx=11.13 if wc else 10.95;expectedy=1.06 if wc else .36
         fixturemeasure.append({'object':o.name,'bounds_m':[vec(x) for x in b],'center_m':vec(ce)})
-        if abs(abs(ce[0])-expectedx)>.002 or abs(abs(ce[1])-expectedy)>.002 or abs(b[0][0])>11.70 or abs(b[1][0])>11.70:fixturebad.append(o.name)
+        if abs(abs(ce[0])-expectedx)>.002 or abs((abs(ce[1]) if wc else ce[1])-expectedy)>.002 or abs(b[0][0])>11.70 or abs(b[1][0])>11.70:fixturebad.append(o.name)
     check(r,'lavatory_and_basin_actual_placement',not fixturebad,issue_names(fixturebad));r['fixture_measurements']=fixturemeasure
     wcactual=sum(o.name.startswith(('WC_pedestal','WC_squat_bowl')) for o in visual)
     check(r,'lavatory_count',wcactual==(3 if k=='1A' else 4),{'expected':3 if k=='1A' else 4,'actual':wcactual})
+    if k in {'1A','2A','3A','CC'}:
+        outer=[o for o in meshobjs if o.name.startswith('GLASS_WINDOW') and not o.name.startswith('GLASS_WINDOW_inner_tempered')]
+        inner=[o for o in meshobjs if o.name.startswith('GLASS_WINDOW_inner_tempered')]
+        pane_errors=[];pane_pairs=[]
+        for o in outer:
+            a=bbs[o.name];ac=center(a)
+            found=[q for q in inner if near(center(bbs[q.name])[0],ac[0]) and near(center(bbs[q.name])[2],ac[2]) and center(bbs[q.name])[1]*ac[1]>0]
+            if len(found)!=1:pane_errors.append(o.name+' has '+str(len(found))+' inner panes');continue
+            q=found[0];b=bbs[q.name];bc=center(b)
+            ot=a[1][1]-a[0][1];it=b[1][1]-b[0][1];gap=abs(ac[1]-bc[1])-(ot+it)/2
+            if not near(ot,.0084) or not near(it,.004) or not near(gap,.006):pane_errors.append(o.name+' wrong unit construction')
+            pane_pairs.append({'outer':o.name,'inner':q.name,'outer_m':ot,'inner_m':it,'air_gap_m':gap})
+        check(r,'sealed_window_8p4mm_outer_4mm_inner_6mm_gap',len(outer)==len(inner)>0 and not pane_errors,{'units':len(pane_pairs),'errors':pane_errors[:20]})
+        r['sealed_window_pairs']=pane_pairs
     # Rays cast against actual rounded wall mesh must pass through the central aperture.
     apertures=[o for o in meshobjs if o.name.startswith('BODYSIDE_rounded_aperture')];aperturebad=[]
     for o in apertures:
@@ -248,6 +416,14 @@ def measure_scene(k,stage,reference=None,full_topology=True):
     check(r,'rounded_window_centres_are_actual_through_apertures',bool(apertures) and not aperturebad,{'apertures_checked':len(apertures),'blocked':aperturebad})
     glass=[o for o in visual if o.name.startswith('GLASS_')];glassmat=bpy.data.materials.get('GLASS_source_transmission_FBX_alpha')
     check(r,'separate_glazing_geometry_exists',bool(glass),{'objects':len(glass)})
+    wc_glazing=[o for o in visual if o.name.startswith('GLASS_WC_frosted')]
+    privacy_errors=[]
+    for o in wc_glazing:
+        mat=o.data.materials[0] if o.data.materials else None
+        bs=mat.node_tree.nodes.get('Principled BSDF') if mat and mat.use_nodes else None
+        if not mat or not mat.name.startswith('WC_privacy_frosted_glass') or not bs or not near(bs.inputs['Alpha'].default_value,1) or bs.inputs['Roughness'].default_value<.35:privacy_errors.append(o.name)
+        if stage=='source' and bs and not near(bs.inputs['Transmission Weight'].default_value,.75):privacy_errors.append(o.name+' transmission')
+    check(r,'WC_glazing_keeps_distinct_privacy_material',len(wc_glazing)==4 and not privacy_errors,{'count':len(wc_glazing),'errors':privacy_errors})
     if glassmat and glassmat.use_nodes:
         bs=glassmat.node_tree.nodes.get('Principled BSDF')
         alpha=bs.inputs['Alpha'].default_value if bs else None;trans=bs.inputs['Transmission Weight'].default_value if bs else None
