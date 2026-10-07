@@ -338,8 +338,14 @@ def sleeping_layout(tiers,bays,last_without_side=False):
     box(pref+'_side_seat_back',(xx,1.19,2.05),(.065,.58,.51),UPHOL,INTERIOR,.017);rod(pref+'_side_berth_support',(xx,.885,FLOORZ+.08),(xx,.885,3.20),.017,STEEL,INTERIOR)
    box(pref+'_side_cushion_seam',(cx,1.19,seat_top+.001),(.007,.56,.006),DARK,INTERIOR)
   else:
-   box('2A linen storage locker',(cx,1.18,2.27),(pitch-.14,.62,1.86),CREAM,INTERIOR,.02)
-   for xx in [cx-.39,cx+.39]:box('Linen locker panel',(xx,.856,2.26),(.69,.025,1.68),TRIM,INTERIOR,.01)
+   # Low and overhead linen storage leave the real side windows unobstructed.
+   # Exact end-service arrangement is representative, not a traced coach drawing.
+   box('2A low linen storage locker',(cx,1.18,FLOORZ+.32),(pitch-.14,.62,.63),CREAM,INTERIOR,.02)
+   box('2A overhead linen locker',(cx,1.18,3.14),(pitch-.14,.62,.35),CREAM,INTERIOR,.02)
+   for xx in [cx-.39,cx+.39]:
+    box('Linen lower locker panel',(xx,.856,FLOORZ+.32),(.69,.025,.54),TRIM,INTERIOR,.01)
+    box('Linen upper locker panel',(xx,.856,3.14),(.69,.025,.29),TRIM,INTERIOR,.008)
+   text('Linen storage stencil','LINEN',(cx,.838,FLOORZ+.36),.06,DARK,-1,INTERIOR)
   box(pref+'_window_table',(cx,-1.28,1.95),(.36,.39,.035),TRIM,INTERIOR,.015)
   rod(pref+'_table_brace',(cx,-1.48,1.68),(cx,-1.14,1.92),.012,STEEL,INTERIOR)
   if V=='2A':

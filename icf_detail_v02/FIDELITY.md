@@ -34,6 +34,7 @@ Pixels were inspected locally during the October 7 refinement pass; photographs 
 - Second-sitting interior: individual 3+3 seats, dense fans, barred/shuttered windows and luggage racks. https://irctcnews.in/wp-content/uploads/2018/02/main-qimg-f7df36780e80440c1401f7914893141e-c.jpg
 - Older square-window ICF 2A 900514: closely spaced dark square glazing. https://st2.indiarailinfo.com/kjfdsuiemjvcya0/0/1/2/7/998127/15695669/20140214123845.jpg
 - ICF 3A 071426: broad horizontal sealed windows and substantial underfloor SG/AC equipment. https://st2.indiarailinfo.com/kjfdsuiemjvcya0/0/8/2/0/1111820/0/img20140524111136.jpg
+- Conventional blue bench compartment and general-coach aisle: facing padded benches, connected standing handholds and overhead metal racks. These support fitting vocabulary, not the selected exact 108-seat spacing. https://st2.indiarailinfo.com/kjfdsuiemjvcya2/0/5/9/2/5360592/0/img202205281849502231601.jpg and https://st.indiarailinfo.com/kjfdsuiemjvcya24/0/5/9/9/3683599/0/capture85212.jpg
 - Overhead non-AC roof photograph: low broad rectangular extractors with corner clips; supports visual form only, not exact dimensions. https://cdn.zeebiz.com/hindi/sites/default/files/styles/zeebiz_850x478/public/2022/10/07/104904-train.jpg
 
 ## Mechanical detail

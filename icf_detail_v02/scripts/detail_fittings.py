@@ -160,6 +160,20 @@ def finish(g):
    if row%2==0:
     for s in [-1,1]:
      g.box('Second seating rack seat-number tab',(x,s*.956,3.055),(.17,.018,.085),g.TRIM,g.INTERIOR,.005)
+ if V=='GS':
+  # Standing passengers need connected handholds. This is a bench-coach fitting,
+  # deliberately absent from the selected individual-seat 2S branch.
+  for row in range(0,18,2):
+   x=-7.14+row*.84-.29
+   for side in [-1,1]:
+    y=side*.24
+    g.rod('General coach aisle grab stanchion',(x,y,floor+.04),(x,y,3.28),.017,g.STEEL,g.INTERIOR,N=16)
+    g.box('General stanchion floor foot',(x,y,floor+.025),(.09,.09,.025),g.STEEL,g.INTERIOR,.009)
+    g.rod('General stanchion luggage rack tie',(x,y,3.01),(x,side*.96,3.01),.014,g.STEEL,g.INTERIOR,N=14)
+   g.rod('General cross aisle grab rail',(x,-.24,3.28),(x,.24,3.28),.017,g.STEEL,g.INTERIOR,N=16)
+  for row in range(18):
+   x=-7.14+row*.84;face=1 if row%2==0 else -1
+   for side in [-1,1]:g.rod('General bench upper edge protector',(x-face*.25,side*.20,floor+1.025),(x-face*.25,side*1.49,floor+1.025),.012,g.STEEL,g.INTERIOR,N=14)
  for end in [-1,1]:
   # Practical vestibule finish and extinguisher, with cage, handle and hose.
   x=end*8.51;y=-1.445

@@ -12,7 +12,7 @@ import icf_shell,icf_coupling,detail_fittings,icf_running_gear,icf_service_inter
 MODEL_SOURCES=['build.py','core.py','detail_fittings.py','icf_shell.py','icf_coupling.py','icf_running_gear.py','icf_service_interior.py','icf_upholstery.py','icf_markings.py']
 SOURCE_HASHES={n:hashlib.sha256((HERE/n).read_bytes()).hexdigest() for n in MODEL_SOURCES}
 TEXTURE_HASHES={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (HERE.parent/'textures').glob('*.png')}
-BUILD_PASS='r07'
+BUILD_PASS='r08'
 OLD_MATERIAL=g.material
 OLD_ROD=g.rod
 OLD_BOX=g.box
