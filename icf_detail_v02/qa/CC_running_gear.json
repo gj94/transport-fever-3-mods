@@ -1,0 +1,68 @@
+{
+  "component": "Conventional ICF all-coil running gear",
+  "version": "v02.3",
+  "ac": true,
+  "refs": [
+    {
+      "title": "Indian Railways ICF Maintenance Manual, Chapter 3: Bogies",
+      "url": "https://scr.indianrailways.gov.in/uploads/files/1341833527005-Bogies.PDF",
+      "used": "Sections 301-315, Figure 3.1: 2896 wheelbase, 915 new wheels, 3950 x 2364 bogie envelope, primary dashpots, all-coil suspension, BSS hangers, diagonal anchor links, oil-bath side bearers and tread brake layout"
+    },
+    {
+      "title": "Indian Railways ICF Maintenance Manual, Chapter 7: Train Lighting",
+      "url": "https://scr.indianrailways.gov.in/uploads/files/1341896144130-Train%20Light.PDF",
+      "used": "Bogie/transom-mounted brushless alternator and matched four V-belt non-AC drive"
+    },
+    {
+      "title": "Indian Railways ICF Maintenance Manual, Chapter 8: Air Conditioning",
+      "url": "https://scr.indianrailways.gov.in/uploads/files/1341832085307-Air%20Conditioning.PDF",
+      "used": "Self-generating AC equipment with six V-belts on each side of each alternator shaft"
+    },
+    {
+      "title": "RDSO V-belt specification RDSO/PE/SPEC/AC/0059-2011 Rev.1",
+      "url": "https://rdso.indianrailways.gov.in/works/uploads/File/New%20spec_v-belt_%20revesion1.pdf",
+      "used": "Appendix A: 572.6 mm axle and 200 mm alternator pitch diameters; 136.5 mm four-groove non-AC pulley width; double-ended six-belt AC topology. Local groove/belt cross-sections remain visual interpretations."
+    },
+    {
+      "title": "CAMTECH Procedure for IOH of Broad Gauge BVZI",
+      "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/eff_res/camtech/mechanical/YearWise/Procedure%20for%20IOH%20of%20Broad%20gauge%20BVZI.pdf",
+      "used": "ICF bogie components: oil-bath side bearers, silent-block anchor links, BSS hangers, equalising stays, brake heads and safety wire ropes"
+    }
+  ],
+  "nominaldims": {
+    "bogie_pivot_spacing_m": 14.783,
+    "bogie_wheelbase_m": 2.896,
+    "wheel_diameter_new_m": 0.915,
+    "wheel_back_to_back_m": 1.6,
+    "bogie_frame_length_m": 3.95,
+    "bogie_nominal_width_m": 2.364,
+    "side_bearer_spacing_m": 1.6,
+    "primary_guide_pitch_m": 0.57,
+    "primary_spring_wire_diameter_m": 0.0335,
+    "bolster_spring_wire_diameter_m": 0.042
+  },
+  "bogie_names": [
+    "BOGIE_1_PIVOT",
+    "BOGIE_2_PIVOT"
+  ],
+  "axle_names": [
+    "BOGIE_1_AXLE_1_ROTATE_Y",
+    "BOGIE_1_AXLE_2_ROTATE_Y",
+    "BOGIE_2_AXLE_1_ROTATE_Y",
+    "BOGIE_2_AXLE_2_ROTATE_Y"
+  ],
+  "equipment_root": "ICF_UNDERFRAME_EQUIPMENT",
+  "created_objects": 2154,
+  "primary_springs": 16,
+  "secondary_springs": 8,
+  "brake_blocks": 16,
+  "wheelsets": 4,
+  "alternators": 2,
+  "alternator_belts": 24,
+  "scope_notes": [
+    "Major design, suspension topology and nominal leading dimensions are referenced; local castings, fasteners, equipment arrangement and small pipe routes are visual interpretations.",
+    "Monobloc wheel profile preserves nominal tread diameter and broad-gauge back-to-back. It is a visual section, not a manufacturing tread gauge.",
+    "Self-generating equipment subtype is used; Traditional underslung split-AC units carry two 18kW alternators, each with two six-belt drives; non-AC carries one four-belt 4.5kW alternator.",
+    "All-coil suspension and bogie-mounted tread brakes; no FIAT disc brakes or air springs."
+  ]
+}

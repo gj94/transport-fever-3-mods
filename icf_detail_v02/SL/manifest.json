@@ -32,21 +32,21 @@
   },
   "evaluated_mesh_bounds_m": [
     [
-      -18.40940284729004,
-      18.15340232849121
+      -11.148500442504883,
+      11.148500442504883
     ],
     [
-      -3.205199956893921,
-      3.205199956893921
+      -1.75,
+      1.75
     ],
     [
       -0.02800000086426735,
-      4.078999996185303
+      4.086999893188477
     ]
   ],
-  "triangles": 759022,
-  "mesh_objects": 6877,
-  "material_count": 28,
+  "triangles": 770792,
+  "mesh_objects": 7278,
+  "material_count": 29,
   "windows_per_side": 18,
   "window_apertures": [
     {
@@ -361,6 +361,19 @@
     "Markings and small fitting positions are illustrative; no numbered coach is claimed as an exact replica.",
     "Screw coupling is shown hanging and uncoupled. Rake linkage and locomotive transition-coupler compatibility are unvalidated."
   ],
+  "build_source_sha256": {
+    "icf_shell.py": "921a1773639ca866f5827e697d1082276e40e362196d987398423e9fdbcd0407",
+    "build.py": "be3e95403747a69161c2035cad511bd227d2d1ae66ad9cc76a29f055dc75904d",
+    "validate_detail.py": "e58dec12a712d450c216c392800c6207192925be9dce44f87fe6980d8a62fa46",
+    "icf_running_gear.py": "64470e779aca3013d2389b2d44323213c7608bad0472ba1241b4aaaa13945599",
+    "render_detail.py": "a324e97e2b39378b3332a7b3b9e717ef2d8baad8e38c79cfbebd3a1152f0af73",
+    "icf_service_interior.py": "71bc6f2310e0247280a4fafd01719e5959c86a92678c877420598e13dc9835d2",
+    "detail_fittings.py": "d439d20cc23bc57bdaa0ef5c6c726ff90d1ad766bca7a091d188f41974e7fee1",
+    "core.py": "fd362f25b0a89e314ba6be5ae7141e615cb012cb22be509fa5272e66d2f6bf92",
+    "icf_coupling.py": "3d5324c904e86279129198b13b1a5e74d2a7b18b9c4a8749bdb53cd0f047ea0c",
+    "qa_icf_running_gear.py": "845e38faad2879b01fbb6e235347eb94862510e021c6b736dd50108e8fa9c585"
+  },
+  "build_time_utc": "2026-10-07T18:04:58.889646+00:00",
   "revision": "icf_detail_v02",
   "hardware": "Conventional screw coupling and side buffers; static uncoupled configuration",
   "detail_scope": [

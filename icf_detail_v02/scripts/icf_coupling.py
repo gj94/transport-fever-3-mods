@@ -1,5 +1,6 @@
 """Conventional screw couplings with side buffers. Illustrative static uncoupled pose."""
 import math
+import bmesh
 
 def build(g):
  for s in [-1,1]:
@@ -15,9 +16,19 @@ def build(g):
    g.rod('Buffer spring case',(s*10.65,y,1.105),(s*10.941,y,1.105),.143,g.DARK,group,N=48)
    g.rod('Buffer sliding ram',(s*10.85,y,1.105),(s*11.104,y,1.105),.089,g.STEEL,group,N=40)
    g.rod('Buffer dust collar',(s*10.911,y,1.105),(s*10.956,y,1.105),.155,g.DARK,group,N=48)
-   g.rod('Buffer face forged dish',(s*11.0945,y,1.105),(s*11.1485,y,1.105),.213,g.DARK,group,N=64)
-   # A gently dished machined centre is flush with, never beyond, the contact plane.
-   g.rod('Buffer face contact wear',(s*11.1460,y,1.105),(s*11.1484,y,1.105),.159,g.STEEL,group,N=64)
+   # Shallow crowned forged disc: the centre touches the nominal buffer plane,
+   # the outer rim falls back 11 mm. Separate radial rings carry real curvature.
+   N=64;profile=[(11.0945,.213),(11.130,.213),(11.137,.205),(11.143,.16),(11.147,.10),(11.1484,.030)]
+   vs=[(s*xx,y+rr*math.cos(j*2*math.pi/N),1.105+rr*math.sin(j*2*math.pi/N)) for xx,rr in profile for j in range(N)]
+   vs.extend([(s*11.0945,y,1.105),(s*11.1485,y,1.105)])
+   fs=[(k*N+j,k*N+(j+1)%N,(k+1)*N+(j+1)%N,(k+1)*N+j) for k in range(len(profile)-1) for j in range(N)]
+   fs.extend((len(profile)*N,(j+1)%N,j) for j in range(N));fs.extend((len(profile)*N+1,(len(profile)-1)*N+j,(len(profile)-1)*N+(j+1)%N) for j in range(N))
+   ob=g.mesh('Buffer head shallow crowned forged disc',vs,fs,g.DARK,group)
+   ob.data.materials.append(g.STEEL)
+   bm=bmesh.new();bm.from_mesh(ob.data);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(ob.data);bm.free()
+   for p in ob.data.polygons:
+    p.use_smooth=True
+    if 3*N<=p.index<5*N or p.index>=6*N:p.material_index=1
    for dy in [-.141,.141]:
     for dz in [-.15,.15]:
      g.rod('Buffer mounting hex nut',(s*10.672,y+dy,1.105+dz),(s*10.696,y+dy,1.105+dz),.021,g.STEEL,group,N=6)

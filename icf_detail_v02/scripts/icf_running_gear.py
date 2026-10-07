@@ -17,6 +17,7 @@ REFERENCES = [
     {"title": "Indian Railways ICF Maintenance Manual, Chapter 3: Bogies", "url": "https://scr.indianrailways.gov.in/uploads/files/1341833527005-Bogies.PDF", "used": "Sections 301-315, Figure 3.1: 2896 wheelbase, 915 new wheels, 3950 x 2364 bogie envelope, primary dashpots, all-coil suspension, BSS hangers, diagonal anchor links, oil-bath side bearers and tread brake layout"},
     {"title": "Indian Railways ICF Maintenance Manual, Chapter 7: Train Lighting", "url": "https://scr.indianrailways.gov.in/uploads/files/1341896144130-Train%20Light.PDF", "used": "Bogie/transom-mounted brushless alternator and matched four V-belt non-AC drive"},
     {"title": "Indian Railways ICF Maintenance Manual, Chapter 8: Air Conditioning", "url": "https://scr.indianrailways.gov.in/uploads/files/1341832085307-Air%20Conditioning.PDF", "used": "Self-generating AC equipment with six V-belts on each side of each alternator shaft"},
+    {"title": "RDSO V-belt specification RDSO/PE/SPEC/AC/0059-2011 Rev.1", "url": "https://rdso.indianrailways.gov.in/works/uploads/File/New%20spec_v-belt_%20revesion1.pdf", "used": "Appendix A: 572.6 mm axle and 200 mm alternator pitch diameters; 136.5 mm four-groove non-AC pulley width; double-ended six-belt AC topology. Local groove/belt cross-sections remain visual interpretations."},
     {"title": "CAMTECH Procedure for IOH of Broad Gauge BVZI", "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/eff_res/camtech/mechanical/YearWise/Procedure%20for%20IOH%20of%20Broad%20gauge%20BVZI.pdf", "used": "ICF bogie components: oil-bath side bearers, silent-block anchor links, BSS hangers, equalising stays, brake heads and safety wire ropes"},
 ]
 NOMINAL_DIMENSIONS = dict(bogie_pivot_spacing_m=14.783, bogie_wheelbase_m=2.896,
@@ -215,7 +216,7 @@ class _Gear:
             self.cyl('Telescopic axle guide piston sleeve',(x,y,.778),.047,.182,'steel','Z',bg,28)
             self.ring('Dashpot sealing lip',(x,y,.711),.065,.007,'rubber','Z',bg)
             self.cyl('Primary upper spring seat',(x,y,.872),.129,.026,'frame','Z',bg,32)
-            self.spring('Primary 33.5mm helical spring',(x,y,.610),.099,.233,.01675,6.15,bg)
+            self.spring('Primary 33.5mm helical spring',(x,y,.60275),.099,.23950,.01675,6.15,bg)
             self.bolt('Dashpot oil filling vent screw',(x,y,1.060),'Z',.013,'brass',bg)
             # Narrow U retention strap is separate from the load-bearing coil.
             self.tube('Dashpot safety U bolt',[(x-.090,y+s*.074,.557),(x-.090,y+s*.074,.51),(x+.090,y+s*.074,.51),(x+.090,y+s*.074,.557)],.008,'steel',bg)
@@ -223,8 +224,9 @@ class _Gear:
             self.prism_xz('Axlebox wing strengthening rib',[(ax+dx,.49),(ax+dx,.59),(ax+dx+( -.13 if dx<0 else .13),.538)],y+s*.10,.016,'cast',bg)
 
     def brake_block(self,ax,s,front,bg):
-        # A curved composition block follows the wheel tread with a 5 mm gap.
-        a0=0 if front>0 else pi;count=14;ys=[s*.843,s*.925]
+        # Curve stays clear of the flange-root transition as well as the tread.
+        # The nominal radial gap is 5 mm near the inner working edge.
+        a0=0 if front>0 else pi;count=14;ys=[s*.853,s*.925]
         vv=[]
         for y in ys:
             for r in [.463,.511]:
@@ -284,9 +286,9 @@ class _Gear:
             self.box('Lower spring beam end tray',(bx,y,.495),(1.18,.338,.085),'frame',bg)
             for dx in [-.26,.26]:
                 x=bx+dx
-                self.cyl('Bolster spring bottom rubber pad',(x,y,.549),.161,.018,'rubber','Z',bg,32)
+                self.cyl('Bolster spring bottom rubber pad',(x,y,.5465),.161,.018,'rubber','Z',bg,32)
                 self.cyl('Bolster spring top seating flange',(x,y,.850),.161,.022,'frame','Z',bg,32)
-                self.spring('Secondary 42mm bolster coil',(x,y,.582),.133,.238,.021,5.35,bg)
+                self.spring('Secondary 42mm bolster coil',(x,y,.5765),.133,.2415,.021,5.35,bg)
             # Double plates of each BSS hanger are open between the pin bosses.
             for dx in [-self.hanger_half,self.hanger_half]:
                 tx=bx+dx;lx=bx+dx*.928
@@ -369,7 +371,9 @@ class _Gear:
             q=y-width/2+i*pitch
             profile.extend([(q+.002,r+.005),(q+pitch*.40,r-.009),(q+pitch*.60,r-.009),(q+pitch-.002,r+.005)])
         profile += [(y+width/2,r+.005),(y+width/2,.046)]
-        return self.lathe_y(n,x,z,profile,'cast',parent,48)
+        ob=self.lathe_y(n,x,z,profile,'cast',parent,48)
+        ob['pitch_diameter_m']=2*r;ob['groove_count']=grooves;ob['face_width_m']=width
+        return ob
 
     def belt(self,n,a,b,ra,rb,y,parent):
         # Open-belt external tangents, not a crude rectangle or crossed drive.
@@ -383,11 +387,23 @@ class _Gear:
         for i in range(17):
             t=dn+(2*alpha)*i/16
             pts.append((bx+rb*cos(t),y,bz+rb*sin(t)))
-        return self.tube(n,pts,.0065,'rubber',parent,6,True)
+        # Swept trapezoidal V section: broad outer face, narrower inner face.
+        # One closed watertight belt, with true external tangent spans.
+        verts=[];faces=[];count=len(pts)
+        for i,p in enumerate(pts):
+            p=Vector(p);t=(Vector(pts[(i+1)%count])-Vector(pts[(i-1)%count])).normalized()
+            radial=Vector((t.z,0,-t.x))
+            for width,dr in [(-.011,.007),(.011,.007),(.0065,-.007),(-.0065,-.007)]:
+                verts.append(tuple(p+Vector((0,width,0))+radial*dr))
+        for i in range(count):
+            for j in range(4):faces.append((i*4+j,i*4+(j+1)%4,((i+1)%count)*4+(j+1)%4,((i+1)%count)*4+j))
+        ob=self.mesh(n,verts,faces,'rubber',parent)
+        ob['belt_section']='visual trapezoidal V section';ob['belt_width_m']=.022
+        return ob
 
     def alternator(self,bx,bg,ar,ac):
         # Transom mount, rotating axis Y, axle pulley on inner half of wheelset.
-        ax=bx-1.448;x=bx-.47;z=.510;y=-.34
+        ax=bx-1.448;x=bx-(.610 if ac else .580);z=.510;y=-.20 if ac else -.34
         radius=.183 if ac else .147;length=.46 if ac else .36
         self.cyl(('18kW split-AC' if ac else '4.5kW')+' self-generating alternator barrel',(x,y,z),radius,length,'frame','Y',bg,48)
         for dy in [-length/2,length/2]:
@@ -398,20 +414,25 @@ class _Gear:
             self.rod('Alternator longitudinal cooling fin',(x+radius*cos(a),y-length*.40,z+radius*sin(a)),(x+radius*cos(a),y+length*.40,z+radius*sin(a)),.008,'cast',bg,5)
         self.box('Alternator field terminal box',(x,y,z+radius+.048),(.18,.18,.093),'frame',bg,.011)
         self.tube('Alternator flexible cable',[(x+.08,y,z+radius+.09),(x+.20,y,.90),(bx+.10,-.35,1.055)],.014,'rubber',bg)
-        self.box('Alternator suspension crossbar',(x,y,.921),(.14,.73,.080),'frame',bg)
+        mount_x=bx-self.transom_half
+        self.box('Alternator suspension crossbar',(mount_x,y,.921),(.14,.73,.080),'frame',bg)
         for dy in [-.16,.16]:
-            self.flatlink('Alternator suspension arm',(x,y+dy,.870),(x-.06,y+dy,.635),.065,.037,'cast',bg)
-            self.pin('Alternator suspension pin',(x,y+dy,.85),.088,'Y',.016,bg)
-        ng=6 if ac else 4;w=ng*.019
+            self.flatlink('Alternator suspension arm',(mount_x,y+dy,.870),(x,y+dy,z+radius*.80),.065,.037,'cast',bg)
+            self.pin('Alternator suspension pin',(mount_x,y+dy,.85),.088,'Y',.016,bg)
+        ng=6 if ac else 4;w=.200 if ac else .1365
+        rotor=self.empty('ALTERNATOR_%d_ROTOR_Y'% (1 if bx<0 else 2),(x,y,z),bg)
+        rotor['rotation_axis']='+Y local';rotor['drive_ratio']=.2863/.100
+        rotor['driven_by_axle']=ar.name
         pulley_sides=[-1,1] if ac else [1]
         for ps in pulley_sides:
             py=y+ps*(length/2+w/2+.025)
             self.pulley('Split axle V-belt drive pulley',ax,py,.4575,.2863,w,ng,ar)
-            self.pulley('Alternator V-belt driven pulley',x,py,z,.100,w,ng,bg)
+            self.pulley('Alternator V-belt driven pulley',x,py,z,.100,w,ng,rotor)
             for i in range(ng):self.belt('Matched alternator V belt %02d'%(i+1),(ax,.4575),(x,z),.287,.1015,py-w/2+(i+.5)*w/ng,bg)
             for a in [i*pi/3 for i in range(6)]:self.bolt('Split axle pulley fixing',(ax+.15*cos(a),py+ps*(w/2+.01),.4575+.15*sin(a)),'Y',.012,'steel',ar)
         self.rod('Alternator spring tension screw',(x+.05,y-.14,.70),(x+.47,y-.14,.76),.012,'steel',bg)
         self.box('Alternator tension rod clevis',(x+.46,y-.14,.761),(.13,.075,.06),'frame',bg)
+        self.box('Alternator tension bracket vertical support',(x+.46,y-.14,.868),(.13,.050,.189),'frame',bg)
         # Two hanging safety chains with visibly alternating link planes.
         for dy in [-.21,.21]:
             for i in range(10):
@@ -456,8 +477,19 @@ class _Gear:
         # Dished pressure vessel ends with actual taper surfaces.
         if axis=='X':
             profile=[(-length/2-.056,0),(-length/2-.052,r*.45),(-length/2-.033,r*.78),(-length/2,r),(length/2,r),(length/2+.033,r*.78),(length/2+.052,r*.45),(length/2+.056,0)]
-            verts=[(x+u,y+rr*cos(j*2*pi/40),z+rr*sin(j*2*pi/40)) for u,rr in profile for j in range(40)]
-            faces=[(k*40+j,k*40+(j+1)%40,(k+1)*40+(j+1)%40,(k+1)*40+j) for k in range(len(profile)-1) for j in range(40)]
+            verts=[];rings=[];faces=[];segments=40
+            for u,rr in profile:
+                if rr==0:
+                    rings.append([len(verts)]);verts.append((x+u,y,z))
+                else:
+                    rings.append(list(range(len(verts),len(verts)+segments)))
+                    verts.extend((x+u,y+rr*cos(j*2*pi/segments),z+rr*sin(j*2*pi/segments)) for j in range(segments))
+            for ring,nxt in zip(rings,rings[1:]):
+                for j in range(segments):
+                    if len(ring)==1:face=(ring[0],nxt[j],nxt[(j+1)%segments])
+                    elif len(nxt)==1:face=(ring[j],nxt[0],ring[(j+1)%segments])
+                    else:face=(ring[j],nxt[j],nxt[(j+1)%segments],ring[(j+1)%segments])
+                    faces.append(face)
             self.mesh(n,verts,faces,'frame',self.body,True)
             for dx in [-length*.31,length*.31]:
                 self.ring(n+' retaining strap',(x+dx,y,z),r+.007,.013,'steel','X',self.body,32)
@@ -528,7 +560,7 @@ def build(api, ac=False):
     for i,bx in enumerate([-7.3915,7.3915],1):
         bg,ars=g.bogie(bx,i);bogies.append(bg.name);axles.extend(a.name for a in ars)
     eq=g.undergear();bpy.context.view_layer.update()
-    return {"component":"Conventional ICF all-coil running gear", "version":"v02.2", "ac":bool(ac),
+    return {"component":"Conventional ICF all-coil running gear", "version":"v02.3", "ac":bool(ac),
         "refs":REFERENCES, "nominaldims":NOMINAL_DIMENSIONS,
         "bogie_names":bogies,"axle_names":axles,"equipment_root":eq.name,
         "created_objects":len(g.created),"primary_springs":16,"secondary_springs":8,

@@ -1,0 +1,59 @@
+"""Contoured cushions and original upholstery details for later refinement pass."""
+import math
+
+def back(g,name,c,size,mat,parent,high=True,face=1):
+ """Closed quiltless chair back; sloped ergonomic face, rounded shoulders."""
+ x,y,z=c;thick,width,height=size;NY=16;NZ=24;vs=[]
+ for rear in [False,True]:
+  for iz in range(NZ+1):
+   v=iz/NZ
+   # Rounded shoulders/corners retain a broad head-support area.
+   shoulder=1-.18*max(0,(v-.83)/.17)**2-.10*max(0,(.09-v)/.09)**2
+   for iy in range(NY+1):
+    u=iy/NY*2-1
+    yy=y+u*width/2*shoulder
+    zz=z+(v-.5)*height
+    recline=-.105*(v-.5) if high else -.048*(v-.5)
+    contour=.025*(1-u*u)+.018*math.sin(math.pi*v) if not rear else -.008*(1-u*u)
+    xx=x+face*(recline+(-thick/2 if rear else thick/2)+contour)
+    vs.append((xx,yy,zz))
+ K=(NY+1)*(NZ+1);fs=[]
+ for rear in [0,1]:
+  for iz in range(NZ):
+   for iy in range(NY):
+    q=rear*K+iz*(NY+1)+iy;f=(q,q+1,q+NY+2,q+NY+1);fs.append(tuple(reversed(f)) if rear else f)
+ for iz in range(NZ):
+  for iy in [0,NY]:
+   a=iz*(NY+1)+iy;b=(iz+1)*(NY+1)+iy;fs.append((a,b,b+K,a+K))
+ for iz in [0,NZ]:
+  for iy in range(NY):
+   a=iz*(NY+1)+iy;fs.append((a,a+K,a+K+1,a+1))
+ ob=g.mesh(name+' shaped upholstery',vs,fs,mat,parent)
+ for p in ob.data.polygons:p.use_smooth=True
+ if mat!=g.UPHOL:return ob
+ # Surface seams run down the contoured face; small enough to read only close up.
+ for u in [-.62,.62]:
+  pts=[]
+  for j in range(25):
+   v=.09+j*.80/24;shoulder=1-.18*max(0,(v-.83)/.17)**2
+   yy=y+u*width/2*shoulder;zz=z+(v-.5)*height
+   xx=x+face*(-(.105 if high else .048)*(v-.5)+thick/2+.025*(1-u*u)+.018*math.sin(math.pi*v)+.001)
+   pts.append((xx,yy,zz))
+  g.path('Chair upholstered face tailored seam',pts,.0013,g.SEAM,parent,6)
+ ob['component']='contoured_chair_back';return ob
+
+def first_class_details(g):
+ start=-7.5;spec=[('A',3,4),('B',3,4),('C',2,2),('D',2,2),('E',2,2),('F',3,4)];floor=g.FLOORZ
+ for label,length,n in spec:
+  end=start+length;xs=[start+.41,end-.41] if n==4 else [start+.42]
+  for j,x in enumerate(xs):
+   face=1 if j==0 else -1
+   for y in [-1.385,.405]:
+    # Upholstered hinged armrests, as seen in conventional first-AC cabins.
+    g.box('First AC upholstered arm pad',(x+face*.025,y,floor+.67),(.56,.075,.069),g.UPHOL,g.INTERIOR,.026)
+    g.rod('First AC armrest pivot',(x-face*.26,y-.049,floor+.655),(x-face*.26,y+.049,floor+.655),.021,g.BRASS,g.INTERIOR,N=24)
+    g.box('First AC armrest support',(x-face*.20,y,floor+.56),(.044,.045,.19),g.TRIM,g.INTERIOR,.01)
+   # Three rails above the aisle edge create a proper upper-berth guard.
+   for dz in [.05,.23]:g.rod('First AC upper guard rail',(x-.29,.435,3.01+dz),(x+.29,.435,3.01+dz),.014,g.BRASS,g.INTERIOR,N=16)
+   for dx in [-.29,0,.29]:g.rod('First AC upper guard upright',(x+dx,.435,3.05),(x+dx,.435,3.24),.012,g.BRASS,g.INTERIOR,N=16)
+  start=end

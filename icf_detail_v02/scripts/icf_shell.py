@@ -29,6 +29,7 @@ def text(g,name,string,loc,size,mat,side,parent):
 
 def build(g,cfg):
  floor=g.FLOORZ;ac=cfg['ac'];V=g.V
+ window_metal=g.material('Window dull satin aluminium',(.34,.37,.37),.42,.48)
  g.box('Floor steel undertray',(0,0,floor-.079),(21.337,3.08,.115),g.DARK)
  g.box('Interior floor seamless vinyl',(0,0,floor+.008),(21.13,3.10,.016),g.FLOOR,g.INTERIOR)
  for y in [-1.43,1.43]:g.box('Welded solebar channel',(0,y,1.125),(21.12,.15,.24),g.DARK,bevel=.01)
@@ -56,7 +57,7 @@ def build(g,cfg):
     mod=ob.modifiers.new('Steel skin thickness','SOLIDIFY');mod.thickness=.032
     # Independent matching lining, no hidden full-length wall over window/door apertures.
     vs=[(xx,s*(yy(zz)-.052),zz) for xx,_,zz in vs]
-    ob=g.mesh('Lined bodyside aperture panel',vs,[(0,1,2,3)],g.CREAM,side);mod=ob.modifiers.new('Lining thickness','SOLIDIFY');mod.thickness=.012
+    ob=g.mesh('Lined bodyside aperture panel',vs,[(0,1,2,3)] if s>0 else [(3,2,1,0)],g.CREAM,side);mod=ob.modifiers.new('Lining thickness','SOLIDIFY');mod.thickness=.012
   # Continuous drip rail and lower joint; tiny actual fabricated details, not heavy ribs.
   g.path('Bodyside roof rain gutter',[(-10.45,s*1.633,3.388),(10.45,s*1.633,3.388)],.011,g.ROOF,side,10)
   g.path('Floor skin rolled seam',[(-10.5,s*1.57,floor+.025),(10.5,s*1.57,floor+.025)],.005,g.BLUE,side,8)
@@ -65,22 +66,41 @@ def build(g,cfg):
    surround(g,'Rounded body aperture corner',x,s*1.624,2.385,ww,wh,.005,.001,g.CYAN,side)
    # Corner infill connects the squared skin grid to the radiused window, with no backing pane.
    outer=rounded(x,s*1.624,2.385,ww,wh,.0001);inner=rounded(x,s*1.625,2.385,ww,wh,.10);N=len(outer)
-   g.mesh('Pressed window aperture corner infill',outer+inner,[(j,(j+1)%N,(j+1)%N+N,j+N) for j in range(N)],g.CYAN,side)
+   g.mesh('Pressed window aperture corner infill',outer+inner,[(j,(j+1)%N,(j+1)%N+N,j+N) if s<0 else (j+N,(j+1)%N+N,(j+1)%N,j) for j in range(N)],g.CYAN,side)
    surround(g,'Continuous EPDM glazing gasket',x,s*1.638,2.385,ww+.024,wh+.024,.115,.026,g.RUBBER,side,.019)
-   surround(g,'Anodised window frame extrusion',x,s*1.651,2.385,ww-.018,wh-.018,.094,.018,g.STEEL,side,.018)
-   pane=panel(g,'Sealed tinted passenger pane' if ac else 'Clear raised sliding window pane',x,s*1.610,2.385,ww-.057,wh-.057,.080,.008,g.GLASS,side)
-   pane['window_index']=i;pane['side']=s
+   surround(g,'Anodised window frame extrusion',x,s*1.651,2.385,ww-.018,wh-.018,.094,.018,window_metal,side,.018)
+   if ac:
+    pane=panel(g,'Sealed tinted passenger pane',x,s*1.610,2.385,ww-.057,wh-.057,.080,.008,g.GLASS,side)
+    pane['window_index']=i;pane['side']=s
+   else:
+    # Sliding glass is physically parked above the opening; only the lower rail
+    # and a narrow exposed pane remain. It does not seal an allegedly open window.
+    top=2.385+wh/2-.035
+    pane=panel(g,'Raised glass exposed lower strip',x,s*1.590,top-.028,ww-.060,.062,.012,.008,g.GLASS,side)
+    pane['window_index']=i;pane['side']=s
+    g.box('Raised glass lower rail',(x,s*1.592,top-.062),(ww-.05,.02,.018),window_metal,side,.004)
    g.box('Interior rounded window sill',(x,s*1.50,2.006),(ww+.035,.13,.032),g.TRIM,side,.01)
    if not ac:
-    for j in range(5):g.rod('Window stainless security bar',(x-ww/2+.012,s*1.674,2.103+j*.14),(x+ww/2-.012,s*1.674,2.103+j*.14),.009,g.STEEL,side,N=12)
-    # Shutters are rolled metal louvres, parked above glazing, not opaque inserts over the aperture.
-    for dx in [-ww/2+.026,ww/2-.026]:
-     g.box('Sliding shutter guide channel',(x+dx,s*1.577,2.415),(.028,.026,.89),g.STEEL,side,.004)
-    g.box('Raised twin shutter head',(x,s*1.578,2.878),(ww-.05,.038,.18),g.CYAN,side,.012)
+    for j in range(5):g.rod('Window satin steel security bar',(x-ww/2+.012,s*1.662,2.103+j*.14),(x+ww/2-.012,s*1.662,2.103+j*.14),.0065,window_metal,side,N=12)
+    # Twin louvred shutters slide into the upper pocket. Deterministic mixed
+    # positions follow inspected ICF photographs, without a fake full backing pane.
+    visible_h=[.08,.08,.32,.08,.08,.64,.08,.22,.08][i%9]
+    ztop=2.385+wh/2-.03;zbottom=ztop-visible_h
+    for dx in [-ww/2+.022,0,ww/2-.022]:
+     g.box('Sliding shutter guide channel',(x+dx,s*1.573,2.385),(.022,.025,wh-.036),window_metal,side,.003)
     for dx in [-ww/4,ww/4]:
-     for j in range(4):g.box('Shutter visible folded louvre',(x+dx,s*1.602,2.821+j*.033),(ww/2-.039,.015,.019),g.CYAN,side,.004)
-     g.box('Shutter lift recessed grip',(x+dx,s*1.611,2.797),(.12,.018,.018),g.STEEL,side,.004)
-    g.box('Window lower lock thumb tab',(x,s*1.664,2.055),(.066,.022,.021),g.STEEL,side,.004)
+     wid=ww/2-.044
+     for edge in [-wid/2,wid/2]:g.box('Louvred shutter side stile',(x+dx+edge,s*1.600,(ztop+zbottom)/2),(.017,.020,visible_h),g.CYAN,side,.004)
+     for zz in [zbottom+.009,ztop-.009]:g.box('Louvred shutter end rail',(x+dx,s*1.602,zz),(wid,.022,.018),g.CYAN,side,.004)
+     steps=max(1,int((visible_h-.03)/.058))
+     for j in range(steps):
+      zz=zbottom+.030+j*.058
+      # Sloping folded blade with a small rolled lower edge.
+      vv=[(x+dx+vx,s*vy,zz+vz) for vx,vy,vz in [(-wid/2,1.587,.043),(wid/2,1.587,.043),(wid/2,1.610,0),(-wid/2,1.610,0)]]
+      ob=g.mesh('Shutter pressed sloping louvre blade',vv,[(0,1,2,3)],g.CYAN,side)
+      mod=ob.modifiers.new('Thin formed louvre sheet','SOLIDIFY');mod.thickness=.0015
+     g.box('Shutter lift recessed grip',(x+dx,s*1.616,zbottom+.014),(.095,.013,.019),window_metal,side,.005)
+    g.box('Window lower lock thumb tab',(x,s*1.651,2.055),(.055,.019,.020),window_metal,side,.004)
    elif V in ['1A','2A','CC']:
     # Wavy mesh curtains; no rectangular bars posing as cloth.
     for sign in [-1,1]:
@@ -90,7 +110,7 @@ def build(g,cfg):
       for j in range(NX+1):
        xx=cx+(j/NX-.5)*.12;v.append((xx,s*(1.491+.018*math.cos(j*math.pi/2)),z))
      f=[(iz*(NX+1)+j,iz*(NX+1)+j+1,(iz+1)*(NX+1)+j+1,(iz+1)*(NX+1)+j) for iz in range(NZ) for j in range(NX)]
-     g.mesh('Gathered window curtain folds',v,f,g.CURTAIN,side)
+     g.mesh('Gathered window curtain folds',v,f if s>0 else [tuple(reversed(q)) for q in f],g.CURTAIN,side)
      g.box('Window curtain fabric tie',(cx,s*1.471,2.30),(.122,.014,.03),g.TRIM,side,.004)
    if i in [1,len(wins)-2]:
     text(g,'Emergency window stencil','EMERGENCY WINDOW',(x,s*1.643,1.891),.040,g.RED,s,side)
@@ -168,7 +188,7 @@ def build(g,cfg):
  for p in ob.data.polygons:p.use_smooth=True
  mod=ob.modifiers.new('Pressed steel roof thickness','SOLIDIFY');mod.thickness=.024
  vs=[(x,1.556*math.cos(j*math.pi/N),3.356+.587*math.sin(j*math.pi/N)) for x in [-10.52,10.52] for j in range(N+1)]
- ob=g.mesh('Arched interior ceiling laminate',vs,[(j,j+1,N+j+2,N+j+1) for j in range(N)],g.CREAM,roof)
+ ob=g.mesh('Arched interior ceiling laminate',vs,[(N+j+1,N+j+2,j+1,j) for j in range(N)],g.CREAM,roof)
  for p in ob.data.polygons:p.use_smooth=True
  for x in [-9.6,-7.2,-4.8,-2.4,0,2.4,4.8,7.2,9.6]:
   g.path('Roof sheet flush weld',[(x,1.6235*math.cos(j*math.pi/32),3.393+.635*math.sin(j*math.pi/32)) for j in range(33)],.0028,g.ROOF,roof,6)
@@ -180,11 +200,15 @@ def build(g,cfg):
     for dx in [-.165+j*.047 for j in range(8)]:g.box('AC diffuser directional vane',(x+dx,s*.346,3.688),(.017,.028,.086),g.TRIM,roof,.003)
  else:
   for x in [-7.12+i*1.78 for i in range(9)]:
-   g.box('Torpedo vent mounting flange',(x,0,4.013),(.49,.32,.032),g.ROOF,roof,.012)
+   g.box('Low roof extractor mounting flange',(x,0,4.013),(.54,.45,.018),g.ROOF,roof,.012)
    # Low cowl with sloped ends, central rain cap and actual dark intake slot.
-   v=[(x+dx,y,z) for dx,y,z in [(-.22,-.125,4.024),(.22,-.125,4.024),(.16,-.125,4.079),(-.16,-.125,4.079),(-.22,.125,4.024),(.22,.125,4.024),(.16,.125,4.079),(-.16,.125,4.079)]]
+   v=[(x+dx,y,z) for dx,y,z in [(-.25,-.20,4.031),(.25,-.20,4.031),(.21,-.20,4.087),(-.21,-.20,4.087),(-.25,.20,4.031),(.25,.20,4.031),(.21,.20,4.087),(-.21,.20,4.087)]]
    g.mesh('Pressed roof ventilator rain cowl',v,[(0,1,2,3),(4,7,6,5),(3,2,6,7),(0,4,5,1)],g.ROOF,roof)
-   for s in [-1,1]:g.box('Ventilator airway mouth',(x,s*.126,4.048),(.30,.008,.025),g.DARK,roof)
+   for dx in [-.23,.23]:
+    for sy in [-.18,.18]:
+     g.box('Roof vent folded retaining clip',(x+dx,sy,4.045),(.033,.063,.058),g.ROOF,roof,.003)
+     g.rod('Roof vent mounting screw',(x+dx,sy,4.073),(x+dx,sy,4.079),.010,g.STEEL,roof,N=8)
+   for s in [-1,1]:g.box('Ventilator airway mouth',(x,s*.201,4.050),(.37,.008,.030),g.DARK,roof)
  ends(g)
  return wins
 
@@ -194,7 +218,7 @@ def ends(g):
   for yy in [-1.08,1.08]:g.box('Formed end wall',(s*10.647,yy,2.32),(.042,.87,2.10),g.BLUE,end,.02)
   g.box('End wall door header',(s*10.647,0,3.323),(.042,3.04,.17),g.BLUE,end)
   vs=[(s*10.647,1.52*math.cos(j*math.pi/48),3.39+.597*math.sin(j*math.pi/48)) for j in range(49)]
-  g.mesh('Domed end cap skin',vs,[tuple(range(49))],g.BLUE,end)
+  g.mesh('Domed end cap skin',vs,[tuple(range(49)) if s>0 else tuple(reversed(range(49)))],g.BLUE,end)
   for yy in [-1.49,1.49]:g.box('Yellow end visibility stripe',(s*10.674,yy,2.31),(.009,.045,1.92),g.YELLOW,end)
   for j in range(9):
    xx=s*(10.680+j*.030)

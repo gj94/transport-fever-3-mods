@@ -1,7 +1,7 @@
 """Original ICF family: Blender 4.3.2. Run blender -b -t 2 --python build_icf_family.py -- [all|1A|2A|3A|2S|CC|SL|GS] [--render].
 No external assets/dependencies. Prototype layout interpretation, not manufacturing drawings.
 """
-import bpy, math, json, sys, hashlib
+import bpy, bmesh, math, json, sys, hashlib
 from pathlib import Path
 from mathutils import Vector, Matrix
 OUT=Path(__file__).resolve().parents[1]
@@ -32,7 +32,8 @@ def mesh(n,v,f,m,parent=None,coll=None,bevel=0):
 
 def box(n,c,s,m,parent=None,bevel=0,coll=None):
  x,y,z=c;a,b,d=[v/2 for v in s];v=[(x+i*a,y+j*b,z+k*d) for i,j,k in [(-1,-1,-1),(-1,-1,1),(-1,1,-1),(-1,1,1),(1,-1,-1),(1,-1,1),(1,1,-1),(1,1,1)]];f=[(0,4,6,2),(1,3,7,5),(0,1,5,4),(2,6,7,3),(0,2,3,1),(4,5,7,6)]
- return mesh(n,v,f,m,parent or BODY,coll,bevel)
+ # Consistent outward winding for all six manufactured box faces.
+ return mesh(n,v,[tuple(reversed(face)) for face in f],m,parent or BODY,coll,bevel)
 
 def rod(n,a,b,r,m,parent=None,N=10,coll=None):
  a=Vector(a);b=Vector(b);d=(b-a).normalized();u=d.cross(Vector((0,0,1)))
@@ -48,7 +49,7 @@ def empty(n,loc,parent=None,yaw=0):
  o=bpy.data.objects.new(n,None);C.objects.link(o);o.parent=parent;o.location=loc;o.rotation_euler.z=yaw;o.empty_display_type='ARROWS';o.empty_display_size=.13;bpy.context.view_layer.update();return o
 
 def text(n,s,pos,size,m,sign=-1,parent=None):
- cu=bpy.data.curves.new(n,'FONT');cu.body=s;cu.size=size;cu.align_x='CENTER';cu.resolution_u=2;cu.extrude=.0002;o=bpy.data.objects.new(n,cu);C.objects.link(o);o.location=pos;o.rotation_euler=(math.pi/2,0,0 if sign==-1 else math.pi);cu.materials.append(m);o.parent=parent or BODY;return o
+ cu=bpy.data.curves.new(n,'FONT');cu.body=s;cu.size=size;cu.align_x='CENTER';cu.resolution_u=2;cu.extrude=.0002;o=bpy.data.objects.new(n,cu);C.objects.link(o);o.location=pos;o.rotation_euler=(math.pi/2,0,0 if sign==-1 else math.pi);cu.materials.append(m);o.parent=parent or BODY;o.matrix_parent_inverse=o.parent.matrix_world.inverted();return o
 
 def loop(n,x,y,z,w,h,m,parent=None):
  # Chamfered rectangular gasket ring. Nonzero aperture, no opaque pane behind it.
@@ -342,7 +343,17 @@ def sleeping_layout(tiers,bays,last_without_side=False):
   if V=='2A':
    rod(pref+'_privacy_curtain_track',(cx-pitch/2,.38,3.31),(cx+pitch/2,.38,3.31),.012,STEEL,INTERIOR)
    # Curtains gathered to sides leave a visible, usable entry.
-   for xx in [cx-pitch/2+.07,cx+pitch/2-.07]:box(pref+'_gathered_bay_curtain',(xx,.37,2.37),(.13,.04,1.77),CURTAIN,INTERIOR,.015)
+   for curtain_y in [.37,.85]:
+    if curtain_y==.85 and last_without_side and b==bays-1:continue
+    rod(pref+'_curtain_upper_track',(cx-pitch/2,curtain_y,3.31),(cx+pitch/2,curtain_y,3.31),.012,STEEL,INTERIOR)
+    for xx in [cx-pitch/2+.09,cx+pitch/2-.09]:
+     vv=[];NX=20;NZ=8
+     for iz in range(NZ+1):
+      for ix in range(NX+1):
+       u=ix/NX;vv.append((xx+(u-.5)*.16,curtain_y+.025*math.cos(u*math.pi*8),1.50+iz*1.76/NZ+.012*math.sin(u*math.pi*4)*(1-iz/NZ)))
+     mesh(pref+'_gathered_privacy_curtain',vv,[(iz*(NX+1)+ix,iz*(NX+1)+ix+1,(iz+1)*(NX+1)+ix+1,(iz+1)*(NX+1)+ix) for iz in range(NZ) for ix in range(NX)],CURTAIN,INTERIOR)
+     box(pref+'_curtain_tie',(xx,curtain_y-.035,2.10),(.163,.017,.030),TRIM,INTERIOR,.004)
+
   fan(cx,-.61,3.43)  # conventional coaches retain supplementary circulating fans
   text(pref+'_number_plate',str(b+1),(cx+.4,.348,3.18),.085,DARK,1,INTERIOR)
  overhead_lights()
@@ -449,6 +460,16 @@ def build(v,render=False):
  for o in C.objects:
   if o.type in {'MESH','CURVE','FONT'}:o.select_set(True)
  bpy.context.view_layer.objects.active=next(o for o in C.objects if o.type=='MESH');bpy.ops.object.convert(target='MESH');bpy.context.view_layer.update()
+ # Export surfaces have consistent closed-volume winding and welded micro-edges.
+ # Very thin bevel intersections can generate coincident corners after evaluation.
+ for ob in C.objects:
+  if ob.type!='MESH':continue
+  bm=bmesh.new();bm.from_mesh(ob.data)
+  bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=1e-6)
+  bmesh.ops.dissolve_degenerate(bm,edges=list(bm.edges),dist=1e-6)
+  if bm.edges and all(e.is_manifold for e in bm.edges):bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces))
+  bm.to_mesh(ob.data);bm.free();ob.data.update()
+
  asset=list(C.objects);meshes=[o for o in asset if o.type=='MESH'];vertices=[o.matrix_world@v.co for o in meshes for v in o.data.vertices];bounds=[[min(v[i] for v in vertices),max(v[i] for v in vertices)] for i in range(3)]
  triangles=sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in meshes)
  folder=OUT/v;folder.mkdir(exist_ok=True);(folder/'qa').mkdir(exist_ok=True);(folder/'renders').mkdir(exist_ok=True)

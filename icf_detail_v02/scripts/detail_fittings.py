@@ -5,8 +5,10 @@ from mathutils import Vector
 
 def tube(g,name,points,radius,material,parent=None,N=12):
  pts=[Vector(p) for p in points];vs=[];frames=[]
+ closed=len(pts)>2 and (pts[0]-pts[-1]).length<1e-7
+ if closed:pts.pop()
  for j,p in enumerate(pts):
-  tangent=(pts[min(j+1,len(pts)-1)]-pts[max(0,j-1)]).normalized()
+  tangent=((pts[(j+1)%len(pts)]-pts[(j-1)%len(pts)]) if closed else (pts[min(j+1,len(pts)-1)]-pts[max(0,j-1)])).normalized()
   normal=tangent.cross(Vector((0,0,1)))
   if normal.length<.05:normal=tangent.cross(Vector((0,1,0)))
   normal.normalize();binormal=tangent.cross(normal).normalized()
@@ -14,10 +16,10 @@ def tube(g,name,points,radius,material,parent=None,N=12):
   frames.append(normal)
   for k in range(N):
    a=k*2*math.pi/N;vs.append(tuple(p+radius*(normal*math.cos(a)+binormal*math.sin(a))))
- fs=[(j*N+k,j*N+(k+1)%N,(j+1)*N+(k+1)%N,(j+1)*N+k) for j in range(len(pts)-1) for k in range(N)]
- fs.extend([tuple(reversed(range(N))),tuple(range((len(pts)-1)*N,len(pts)*N))])
+ fs=[(j*N+k,j*N+(k+1)%N,((j+1)%len(pts))*N+(k+1)%N,((j+1)%len(pts))*N+k) for j in range(len(pts) if closed else len(pts)-1) for k in range(N)]
+ if not closed:fs.extend([tuple(reversed(range(N))),tuple(range((len(pts)-1)*N,len(pts)*N))])
  ob=g.mesh(name,vs,fs,material,parent or g.BODY)
- for p in ob.data.polygons[:-2]:p.use_smooth=True
+ for p in (ob.data.polygons if closed else ob.data.polygons[:-2]):p.use_smooth=True
  return ob
 
 def circle(g,name,center,radius,material,parent=None,plane='XY',tube_radius=.004,N=48):
@@ -30,13 +32,13 @@ def circle(g,name,center,radius,material,parent=None,plane='XY',tube_radius=.004
 
 def fan(g,x,y,z):
  parent=g.INTERIOR
- g.rod('Fan ceiling stem',(x,y,z+.25),(x,y,z+.085),.018,g.STEEL,parent,N=20)
+ g.rod('Fan ceiling stem',(x,y,z+.25),(x,y,z+.085),.018,g.TRIM,parent,N=20)
  g.rod('Fan pressed ceiling flange',(x,y,z+.237),(x,y,z+.255),.065,g.TRIM,parent,N=32)
  g.rod('Fan round motor housing',(x,y,z-.007),(x,y,z+.112),.060,g.TRIM,parent,N=32)
- for dz,r in [(-.056,.063),(-.048,.112),(-.029,.166),(0,.205),(.052,.205),(.072,.16)]:circle(g,'Fan concentric safety grille',(x,y,z+dz),r,g.STEEL,parent,tube_radius=.0025)
+ for dz,r in [(-.056,.063),(-.048,.112),(-.029,.166),(0,.205),(.052,.205),(.072,.16)]:circle(g,'Fan concentric safety grille',(x,y,z+dz),r,g.TRIM,parent,tube_radius=.0025)
  for j in range(24):
   a=j*2*math.pi/24
-  tube(g,'Fan radial cage wire',[(x+.040*math.cos(a),y+.040*math.sin(a),z-.057),(x+.112*math.cos(a),y+.112*math.sin(a),z-.048),(x+.183*math.cos(a),y+.183*math.sin(a),z-.019),(x+.205*math.cos(a),y+.205*math.sin(a),z+.026),(x+.19*math.cos(a),y+.19*math.sin(a),z+.068),(x+.085*math.cos(a),y+.085*math.sin(a),z+.094)],.0025,g.STEEL,parent,6)
+  tube(g,'Fan radial cage wire',[(x+.040*math.cos(a),y+.040*math.sin(a),z-.057),(x+.112*math.cos(a),y+.112*math.sin(a),z-.048),(x+.183*math.cos(a),y+.183*math.sin(a),z-.019),(x+.205*math.cos(a),y+.205*math.sin(a),z+.026),(x+.19*math.cos(a),y+.19*math.sin(a),z+.068),(x+.085*math.cos(a),y+.085*math.sin(a),z+.094)],.0025,g.TRIM,parent,6)
  for j in range(3):
   a=j*2*math.pi/3;xy=[(.032,-.02),(.085,-.054),(.181,-.040),(.190,.018),(.121,.059),(.059,.040)]
   vs=[(x+u*math.cos(a)-v*math.sin(a),y+u*math.sin(a)+v*math.cos(a),z+.020+.045*v) for u,v in xy]
@@ -68,7 +70,10 @@ def bottle_holder(g,x,y,z,parent=None):
  for dz in [0,.17]:circle(g,'Bottle holder rolled hoop',(x,y,z+dz),.059,g.STEEL,parent,tube_radius=.0035,N=24)
  for a in [0,math.pi/2,math.pi,3*math.pi/2]:g.rod('Bottle holder wire upright',(x+.059*math.cos(a),y+.059*math.sin(a),z),(x+.059*math.cos(a),y+.059*math.sin(a),z+.17),.0035,g.STEEL,parent,N=8)
  for dx in [-.035,.035]:g.rod('Bottle basket bottom wire',(x+dx,y-.045,z),(x+dx,y+.045,z),.0035,g.STEEL,parent,N=8)
- g.box('Bottle holder wall mounting plate',(x,y-.07,z+.1),(.12,.015,.18),g.TRIM,parent,.012)
+ g.box('Bottle holder wall mounting plate',(x,-1.545,z+.1),(.12,.015,.18),g.TRIM,parent,.008)
+ for dx in [-.035,.035]:
+  g.rod('Bottle basket wall standoff',(x+dx,-1.538,z+.085),(x+dx,y-.05,z+.085),.006,g.STEEL,parent,N=10)
+  g.rod('Bottle holder fixing screw',(x+dx,-1.534,z+.145),(x+dx,-1.528,z+.145),.006,g.STEEL,parent,N=10)
 
 def finish(g):
  V=g.V;floor=g.FLOORZ
@@ -132,7 +137,8 @@ def finish(g):
      g.box('Second seating rack seat-number tab',(x,s*.956,3.055),(.17,.018,.085),g.TRIM,g.INTERIOR,.005)
  for end in [-1,1]:
   # Practical vestibule finish and extinguisher, with cage, handle and hose.
-  x=end*8.51;y=-1.27
+  x=end*8.51;y=-1.445
+  g.box('Extinguisher steel mounting backplate',(x,-1.545,1.87),(.19,.018,.53),g.DARK,g.INTERIOR,.012)
   g.rod('Vestibule fire extinguisher steel bottle',(x,y,1.64),(x,y,2.04),.079,g.RED,g.INTERIOR,N=32)
   g.rod('Extinguisher valve neck',(x,y,2.04),(x,y,2.112),.025,g.BRASS,g.INTERIOR,N=16)
   g.box('Extinguisher squeeze handle',(x,y,2.123),(.12,.036,.024),g.DARK,g.INTERIOR,.006)
@@ -140,16 +146,3 @@ def finish(g):
   for z in [1.71,1.94]:circle(g,'Extinguisher mounting strap',(x,y,z),.083,g.DARK,g.INTERIOR,tube_radius=.006)
   g.box('Extinguisher instruction label',(x,y-.080,1.855),(.082,.009,.17),g.WHITE,g.INTERIOR,.007)
   for z in [1.81,1.83,1.85,1.87,1.89]:g.box('Extinguisher fine print line',(x,y-.086,z),(.06,.001,.005),g.DARK,g.INTERIOR)
-  for sy in [-1,1]:
-   # Toilet fittings are improved as actual shallow bowl meshes, not dark rectangles.
-   xx=end*10.23;yy=sy*1.01;z=floor+.50
-   rings=[(.22,.21,z),(.18,.17,z+.012),(.13,.12,z-.055),(.065,.055,z-.125)];vs=[];N=48
-   for rx,ry,zz in rings:
-    for j in range(N):a=j*2*math.pi/N;vs.append((xx+rx*math.cos(a),yy+ry*math.sin(a),zz))
-   ob=g.mesh('Ceramic toilet bowl curved hollow rim',vs,[(k*N+j,k*N+(j+1)%N,(k+1)*N+(j+1)%N,(k+1)*N+j) for k in range(len(rings)-1) for j in range(N)],g.WHITE,g.INTERIOR)
-   for p in ob.data.polygons:p.use_smooth=True
-   circle(g,'Toilet stainless tissue holder axle',(end*9.725,yy,2.04),.045,g.STEEL,g.INTERIOR,plane='YZ',tube_radius=.006)
-   g.rod('Toilet tissue roll',(end*9.74,yy-.07,2.04),(end*9.74,yy+.07,2.04),.055,g.WHITE,g.INTERIOR,N=24)
-   g.path('Toilet wash spray flexible hose',[(end*10.45,yy-.27,1.85),(end*10.35,yy-.27,1.60),(end*10.30,yy-.27,1.45),(end*10.20,yy-.27,1.51)],.009,g.STEEL,g.INTERIOR,12)
-   g.box('Toilet stainless floor drain',(end*9.82,yy,floor+.057),(.18,.18,.008),g.STEEL,g.INTERIOR,.006)
-   for dx in [-.06,-.03,0,.03,.06]:g.box('Toilet drain perforation',(end*9.82+dx,yy,floor+.062),(.008,.13,.002),g.DARK,g.INTERIOR,.002)

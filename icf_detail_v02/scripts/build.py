@@ -2,15 +2,17 @@
 Blender -b -t 3 --python scripts/build.py -- SL|1A|2A|3A|CC|2S|GS|all
 """
 from pathlib import Path
-import sys,json,math,types
+import sys,json,math,types,hashlib,datetime
 import bpy
 from mathutils import Vector
 HERE=Path(__file__).resolve().parent
 sys.path.insert(0,str(HERE))
 import core as g
-import icf_shell,icf_coupling,detail_fittings,icf_running_gear
+import icf_shell,icf_coupling,detail_fittings,icf_running_gear,icf_service_interior,icf_upholstery
+SOURCE_HASHES={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in HERE.glob('*.py')}
 OLD_MATERIAL=g.material
 OLD_ROD=g.rod
+OLD_BOX=g.box
 
 def material(n,c,metal=0,rough=.45,alpha=1,transmission=0,emit=0):
  if n=='ICF blue enamel':c=(.017,.087,.245);metal=.15;rough=.36
@@ -20,6 +22,8 @@ def material(n,c,metal=0,rough=.45,alpha=1,transmission=0,emit=0):
  if n=='Warm ivory laminate':c=(.68,.70,.61);rough=.47
  if n=='GLASS sealed passenger glazing alpha fallback':c=(.67,.78,.79);alpha=.24;transmission=.95;rough=.105
  if n=='Blue passenger upholstery':c=(.026,.109,.242);rough=.52
+ if n=='Muted teal privacy curtain' and g.V=='1A':c=(.30,.205,.105);rough=.83
+ if n=='Speckled nonslip lino' and g.V=='1A':c=(.17,.13,.11);rough=.73
  return OLD_MATERIAL(n,c,metal,rough,alpha,transmission,emit)
 g.material=material
 
@@ -34,22 +38,35 @@ g.fan=lambda x,y,z:detail_fittings.fan(g,x,y,z)
 
 def material_nodes():
  # Material variation uses vehicle-space position. Shared across split shell panels.
- for m in [g.BLUE,g.CYAN,g.ROOF,g.DARK]:
+ for m in [g.BLUE,g.CYAN,g.ROOF,g.DARK,g.UPHOL]:
   nt=m.node_tree;p=nt.nodes.get('Principled BSDF');base=list(p.inputs['Base Color'].default_value)
   geo=nt.nodes.new('ShaderNodeNewGeometry');noise=nt.nodes.new('ShaderNodeTexNoise');noise.inputs['Scale'].default_value=1.65;noise.inputs['Detail'].default_value=3
   nt.links.new(geo.outputs['Position'],noise.inputs['Vector'])
   ramp=nt.nodes.new('ShaderNodeValToRGB');ramp.color_ramp.elements[0].position=.12;ramp.color_ramp.elements[1].position=.87
   ramp.color_ramp.elements[0].color=tuple(v*.80 for v in base[:3])+(1,);ramp.color_ramp.elements[1].color=tuple(min(1,v*1.08) for v in base[:3])+(1,)
   nt.links.new(noise.outputs['Fac'],ramp.inputs[0]);nt.links.new(ramp.outputs['Color'],p.inputs['Base Color'])
-  fine=nt.nodes.new('ShaderNodeTexNoise');fine.inputs['Scale'].default_value=145;fine.inputs['Detail'].default_value=2;nt.links.new(geo.outputs['Position'],fine.inputs['Vector'])
-  bump=nt.nodes.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.13;bump.inputs['Distance'].default_value=.00028;nt.links.new(fine.outputs['Fac'],bump.inputs['Height']);nt.links.new(bump.outputs['Normal'],p.inputs['Normal'])
+  fine=nt.nodes.new('ShaderNodeTexNoise');fine.inputs['Scale'].default_value=540 if m==g.UPHOL else 145;fine.inputs['Detail'].default_value=2;nt.links.new(geo.outputs['Position'],fine.inputs['Vector'])
+  bump=nt.nodes.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.13;bump.inputs['Distance'].default_value=.00012 if m==g.UPHOL else .00028;nt.links.new(fine.outputs['Fac'],bump.inputs['Height']);nt.links.new(bump.outputs['Normal'],p.inputs['Normal'])
   rough=nt.nodes.new('ShaderNodeMapRange');rough.inputs['From Min'].default_value=0;rough.inputs['From Max'].default_value=1;rough.inputs['To Min'].default_value=max(.08,p.inputs['Roughness'].default_value-.06);rough.inputs['To Max'].default_value=min(.9,p.inputs['Roughness'].default_value+.08);nt.links.new(noise.outputs['Fac'],rough.inputs['Value']);nt.links.new(rough.outputs['Result'],p.inputs['Roughness'])
+
+def first_class_materials():
+ if g.V!='1A':return
+ nt=g.UPHOL.node_tree;p=nt.nodes.get('Principled BSDF');geo=nt.nodes.new('ShaderNodeNewGeometry');bands=[]
+ for vec in [(1,1,1),(1,-1,1)]:
+  dot=nt.nodes.new('ShaderNodeVectorMath');dot.operation='DOT_PRODUCT';dot.inputs[1].default_value=vec;nt.links.new(geo.outputs['Position'],dot.inputs[0])
+  mult=nt.nodes.new('ShaderNodeMath');mult.operation='MULTIPLY';mult.inputs[1].default_value=35;nt.links.new(dot.outputs['Value'],mult.inputs[0])
+  ping=nt.nodes.new('ShaderNodeMath');ping.operation='PINGPONG';ping.inputs[1].default_value=1;nt.links.new(mult.outputs[0],ping.inputs[0])
+  less=nt.nodes.new('ShaderNodeMath');less.operation='LESS_THAN';less.inputs[1].default_value=.055;nt.links.new(ping.outputs[0],less.inputs[0]);bands.append(less)
+ add=nt.nodes.new('ShaderNodeMath');add.operation='MAXIMUM';nt.links.new(bands[0].outputs[0],add.inputs[0]);nt.links.new(bands[1].outputs[0],add.inputs[1])
+ mix=nt.nodes.new('ShaderNodeMixRGB');mix.blend_type='MIX';mix.inputs[1].default_value=(.245,.040,.045,1);mix.inputs[2].default_value=(.285,.080,.063,1);nt.links.new(add.outputs[0],mix.inputs[0]);nt.links.new(mix.outputs[0],p.inputs['Base Color'])
+ # Subdued small vinyl squares are an original material, not a photo texture.
+ nt=g.FLOOR.node_tree;p=nt.nodes.get('Principled BSDF');tex=nt.nodes.new('ShaderNodeTexChecker');geo=nt.nodes.new('ShaderNodeNewGeometry');tex.inputs['Scale'].default_value=10;tex.inputs['Color1'].default_value=(.15,.105,.083,1);tex.inputs['Color2'].default_value=(.19,.15,.12,1);nt.links.new(geo.outputs['Position'],tex.inputs['Vector']);nt.links.new(tex.outputs['Color'],p.inputs['Base Color'])
 
 def shell(cfg):
  g.BRASS=g.material('Valve brass',(.31,.18,.065),.78,.35)
  g.RUST=g.material('Restrained oxide fastener',(.12,.057,.028),.42,.77)
  g.SEAM=g.material('Upholstery tailored seam',(.105,.16,.22) if g.V!='1A' else (.19,.063,.065),0,.69)
- material_nodes()
+ material_nodes();first_class_materials()
  return icf_shell.build(g,cfg)
 g.shell=shell
 
@@ -63,7 +80,22 @@ def gear():
 g.underframe=lambda ac:None
 g.bogies=gear
 g.coupling=lambda:icf_coupling.build(g)
-g.DETAIL_HOOK=lambda:detail_fittings.finish(g)
+g.toilets_and_ends=lambda ac:icf_service_interior.build(g,ac)
+
+def refined_box(name,c,size,mat,parent=None,bevel=0,coll=None):
+ if name in ['Chair upholstered back','Low-back seat shell']:
+  row=min(range(18),key=lambda r:abs(c[0]-(-7.14+r*.84-(.25 if r%2==0 else -.25)))) if name=='Low-back seat shell' else 0
+  return icf_upholstery.back(g,name,c,size,mat,parent or g.BODY,name=='Chair upholstered back',1 if row%2==0 else -1)
+ if name=='Chair rear moulded shell':
+  c=(c[0]-.035,c[1],c[2]);return icf_upholstery.back(g,name,c,size,mat,parent or g.BODY,True)
+ return OLD_BOX(name,c,size,mat,parent,bevel,coll)
+g.box=refined_box
+
+def finish():
+ detail_fittings.finish(g)
+ if g.V=='1A':icf_upholstery.first_class_details(g)
+
+g.DETAIL_HOOK=finish
 
 if __name__=='__main__':
  args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else ['SL']
@@ -71,7 +103,7 @@ if __name__=='__main__':
  manifests=[]
  for v in variants:
   d=g.build(v,False)
-  d['revision']='icf_detail_v02';d['hardware']='Conventional screw coupling and side buffers; static uncoupled configuration'
+  d['build_source_sha256']=SOURCE_HASHES;d['build_time_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();d['revision']='icf_detail_v02';d['hardware']='Conventional screw coupling and side buffers; static uncoupled configuration'
   d['detail_scope']=['True full-height door apertures','Radiused glazing and separate rubber/aluminium frames','Non-AC raised louvred shutters and security bars','Detailed all-coil ICF bogies with tread brakes and axle driven alternators','Fabricated screw coupling and dished buffers','Class-specific physical interior and tailored cushions','Wire fan cages, berth hardware, sanitary fittings and service equipment']
   d['known_limits']=[x for x in d['known_limits'] if 'No LODs' not in x]+['Source geometry is detailed authoring quality, not a new native game build. LOD/UV bake/animation/runtime conversion remains separate.','Markings and small fitting positions are illustrative; no numbered coach is claimed as an exact replica.','Screw coupling is shown hanging and uncoupled. Rake linkage and locomotive transition-coupler compatibility are unvalidated.']
   (g.OUT/v/'manifest.json').write_text(json.dumps(d,indent=2));manifests.append(d)

@@ -1,6 +1,6 @@
 {
   "component": "Conventional ICF all-coil running gear",
-  "version": "v02.1",
+  "version": "v02.3",
   "ac": false,
   "refs": [
     {
@@ -16,7 +16,12 @@
     {
       "title": "Indian Railways ICF Maintenance Manual, Chapter 8: Air Conditioning",
       "url": "https://scr.indianrailways.gov.in/uploads/files/1341832085307-Air%20Conditioning.PDF",
-      "used": "Self-generating AC equipment and six V-belts per alternator on both bogies"
+      "used": "Self-generating AC equipment with six V-belts on each side of each alternator shaft"
+    },
+    {
+      "title": "RDSO V-belt specification RDSO/PE/SPEC/AC/0059-2011 Rev.1",
+      "url": "https://rdso.indianrailways.gov.in/works/uploads/File/New%20spec_v-belt_%20revesion1.pdf",
+      "used": "Appendix A: 572.6 mm axle and 200 mm alternator pitch diameters; 136.5 mm four-groove non-AC pulley width; double-ended six-belt AC topology. Local groove/belt cross-sections remain visual interpretations."
     },
     {
       "title": "CAMTECH Procedure for IOH of Broad Gauge BVZI",
@@ -47,16 +52,17 @@
     "BOGIE_2_AXLE_2_ROTATE_Y"
   ],
   "equipment_root": "ICF_UNDERFRAME_EQUIPMENT",
-  "created_objects": 1886,
+  "created_objects": 1888,
   "primary_springs": 16,
   "secondary_springs": 8,
   "brake_blocks": 16,
   "wheelsets": 4,
   "alternators": 1,
+  "alternator_belts": 4,
   "scope_notes": [
     "Major design, suspension topology and nominal leading dimensions are referenced; local castings, fasteners, equipment arrangement and small pipe routes are visual interpretations.",
     "Monobloc wheel profile preserves nominal tread diameter and broad-gauge back-to-back. It is a visual section, not a manufacturing tread gauge.",
-    "Self-generating equipment subtype is used; AC units carry two six-belt alternators and non-AC one four-belt alternator.",
+    "Self-generating equipment subtype is used; Traditional underslung split-AC units carry two 18kW alternators, each with two six-belt drives; non-AC carries one four-belt 4.5kW alternator.",
     "All-coil suspension and bogie-mounted tread brakes; no FIAT disc brakes or air springs."
   ]
 }
