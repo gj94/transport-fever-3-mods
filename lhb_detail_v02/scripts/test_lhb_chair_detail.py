@@ -1,12 +1,12 @@
 """Isolated CC furniture checks. Runs a disposable build; never edits live models.
-Usage: LHB_CC_TEST_DIR=/workspace/shared/lhb-cc-test blender -b -t 2 --python scripts/test_lhb_chair_detail.py
+Usage: LHB_CC_TEST_DIR=../lhb-cc-test blender -b -t 2 --python scripts/test_lhb_chair_detail.py
 The target directory must contain copies of current .py build modules.
 """
-import os,sys,json,math,hashlib
+import os,sys,json,math,hashlib,tempfile
 from pathlib import Path
 import bpy,bmesh
 from mathutils import Vector
-P=Path(os.environ.get('LHB_CC_TEST_DIR','/workspace/shared/lhb-cc-test'))
+P=Path(os.environ.get('LHB_CC_TEST_DIR',str(Path(tempfile.gettempdir())/'lhb-cc-test')))
 sys.path.insert(0,str(P))
 src=(P/'build_lhb_detail.py').read_text()
 g={'__file__':str(P/'build_lhb_detail.py'),'__name__':'lhb_chair_test_build'}

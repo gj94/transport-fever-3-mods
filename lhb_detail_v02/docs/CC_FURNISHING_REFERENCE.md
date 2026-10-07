@@ -31,13 +31,13 @@ The new glass shelves reuse the builder's transmitting glass material, so its ex
 
 ## Verification
 
-`../scripts/test_lhb_chair_detail.py` runs only against module copies in a disposable `LHB_CC_TEST_DIR` (default `/workspace/shared/lhb-cc-test`). It builds a CC scene, verifies names/positions/counts, the actual cushion/armrest/pedestal geometry, all three blind states, all 78 per-seat fittings, exact non-CC no-op behavior, re-entry behavior and both base/evaluated manifold positive-volume meshes for all affected components. A successful run saves only the isolated test model/export and JSON report.
+`../scripts/test_lhb_chair_detail.py` runs only against module copies in a disposable `LHB_CC_TEST_DIR` (default `lhb-cc-test` under the system temporary directory). It builds a CC scene, verifies names/positions/counts, the actual cushion/armrest/pedestal geometry, all three blind states, all 78 per-seat fittings, exact non-CC no-op behavior, re-entry behavior and both base/evaluated manifold positive-volume meshes for all affected components. A successful run saves only the isolated test model/export and JSON report.
 
 The general verifier's PAX transform check must expect Z 1.270 for CC and 1.357 for the other classes. Native TF3 conversion, animated recline/blinds and full-character runtime clearance remain untested and outside this source refinement.
 
 ## Focused test result
 
-The isolated Blender 4.3.2 build passed all 13 checks. All 2,730 affected base meshes and evaluated meshes were closed/manifold with positive volume; no component topology errors were reported. The 78 seat-root contracts, measured 450 mm cushion height and 420 mm clear armrest width passed. The isolated .blend, FBX and marker/manifest JSON files were successfully written. Module SHA-256: `8a69425b2d06eac0c963a2ea69b3b6a9b06ad6acd8ad3de06e6b138cd88782cf`. Test results are in `/workspace/shared/lhb-cc-test/qa/cc_furnishing_checks.json`; these are focused furniture tests, not the complete family or runtime certification.
+The current isolated Blender 4.3.2 build passed all 15 checks, including the thin textile and bounded chair-shoulder refinement. All affected base meshes and evaluated meshes were closed/manifold with positive volume; no component topology errors were reported. The 78 seat-root contracts, measured 450 mm cushion height and 420 mm clear armrest width passed. Module SHA-256: `29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6`. Current results are in `../qa/cc_furnishing_checks.json`; these are focused furniture tests, not the complete family or runtime certification.
 
 ## Textile refinement review
 
