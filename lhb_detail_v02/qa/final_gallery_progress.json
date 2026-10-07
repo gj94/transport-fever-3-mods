@@ -3,7 +3,7 @@
   "renderer": "Blender CPU Cycles",
   "samples": 512,
   "minimum_samples": 64,
-  "adaptive_threshold": 0.02,
+  "sampling_workflow": "uniform512 independent-seed linear EXR checkpoints; earlier completed adaptive views retained",
   "denoising": false,
   "cpu_threads": 4,
   "locked_source_sha256": {
@@ -15,12 +15,13 @@
     "2S": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
     "GS": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab"
   },
-  "completed": [],
-  "pending": [
+  "completed": [
     {
       "variant": "1A",
       "view": "interior"
-    },
+    }
+  ],
+  "pending": [
     {
       "variant": "1A",
       "view": "exterior"
@@ -100,6 +101,6 @@
   ],
   "active": {
     "variant": "1A",
-    "view": "interior"
+    "view": "exterior"
   }
 }

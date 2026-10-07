@@ -15,7 +15,7 @@ def complete(k,v):
  r=json.loads(p.read_text());im=P/r['image']
  return (r['source_sha256']==sha(P/'models'/f'LHB_{k}.blend') and im.exists() and r['image_sha256']==sha(im) and r['samples']==SAMPLES and r['resolution'][0]>=RESOLUTION and r.get('adaptive_min_samples',0)>=64 and not r.get('denoising',True) and r.get('actual_geometry_render'))
 locked={k:sha(P/'models'/f'LHB_{k}.blend') for k,_ in QUEUE}
-progress={'status':'running','renderer':'Blender CPU Cycles','samples':SAMPLES,'minimum_samples':64,'adaptive_threshold':.02,'denoising':False,'cpu_threads':4,'locked_source_sha256':locked,'completed':[],'pending':[]}
+progress={'status':'running','renderer':'Blender CPU Cycles','samples':SAMPLES,'minimum_samples':64,'sampling_workflow':'uniform512 independent-seed linear EXR checkpoints; earlier completed adaptive views retained','denoising':False,'cpu_threads':4,'locked_source_sha256':locked,'completed':[],'pending':[]}
 def save():
  progress['completed']=[{'variant':k,'view':v} for k,v in QUEUE if complete(k,v)]
  progress['pending']=[{'variant':k,'view':v} for k,v in QUEUE if not complete(k,v)]
@@ -27,7 +27,7 @@ try:
   progress['active']={'variant':k,'view':v};save();print('START_FINAL',k,v,flush=True)
   env=dict(os.environ,LHB_SAMPLES=str(SAMPLES),LHB_RESOLUTION=str(RESOLUTION),LHB_MIN_SAMPLES='64',LHB_THREADS='4',PYTHONUNBUFFERED='1')
   log=P/'qa'/f'final_{k}_{v}.log'
-  with log.open('w') as f:subprocess.run(['blender','-b','-t','4','--python',str(P/'render_lhb_detail.py'),'--',k,v],env=env,stdout=f,stderr=subprocess.STDOUT,check=True)
+  with log.open('w') as f:subprocess.run(['blender','-b','-t','4','--python',str(P/'scripts/run_checkpoint_renderer.py'),'--',str(P/'render_lhb_detail.py'),k,v],env=env,stdout=f,stderr=subprocess.STDOUT,check=True)
   assert complete(k,v),f'Output provenance/configuration invalid: {k}/{v}'
   print('FINISHED_FINAL',k,v,flush=True);save()
  progress['status']='complete';progress.pop('active',None);save()

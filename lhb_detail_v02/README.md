@@ -56,3 +56,9 @@ The corrected CC antimacassar is a closed 1.2 mm draped textile with a sewn hem,
 ## Post-lock 1A typography correction
 
 The first high-sample interior review revealed a reversed LIGHT / SOCKET legend beneath the cabin mirrors. `scripts/fix_1a_legend_orientation.py` changes only the eight relevant editable FONT rotations toward the interior (+Y). Run this script after rebuilding 1A. The eight original build modules remain unchanged; the patch script hash is stored separately in the 1A root and manifest. The patch records identical non-text evaluated-geometry fingerprints before and after, and verifies all six other class source files retain their hashes. Fresh source/FBX QA and final source-matched renders are required after this correction. See `qa/1A_legend_orientation_patch.json`.
+
+## Restart-safe final rendering
+
+After repeated execution interruptions, the remaining final queue uses eight independently seeded 64-sample CPU Cycles passes. Each pass is saved as a 32-bit scene-linear RGBA EXR and hash-verified before reuse. The equal-weight scene-linear average receives the AgX display transform exactly once when the final PNG is saved. Adaptive sampling and denoising are disabled for this workflow; the result contains 512 uniform samples per pixel. Earlier completed adaptive renders remain valid and are explicitly distinguished by their per-view provenance. This changes rendering persistence only; source geometry, cameras and lighting are unchanged.
+
+The portable implementation is `scripts/checkpoint_render.py`, invoked through `scripts/run_checkpoint_renderer.py`. Each final render JSON includes `sampling_workflow` when this method is used. Intermediate EXRs remain local recovery data and are not presented as finished gallery frames.
