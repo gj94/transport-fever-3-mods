@@ -189,7 +189,7 @@ def build(g,cfg):
   g.box('Coach position plate',(-1.54*s,s*1.65,2.971),(.25,.022,.27),g.YELLOW,side,.008)
   text(g,'Coach position character',{'SL':'S1','3A':'B1','2A':'A1','1A':'H1','CC':'C1','2S':'D1','GS':'GS'}[V],(-1.54*s,s*1.669,2.91),.086,g.DARK,s,side)
   for xx in [-8.16,8.16]:
-   text(g,'Technical maintenance stencil',f'{cfg["code"].split()[0]}  {cfg["capacity"]}  TARE', (xx,s*1.59,1.518),.039,g.WHITE,s,side)
+   text(g,'Technical maintenance stencil',f'{cfg["code"].split()[0]}  {cfg["capacity"]}  {"BERTHS" if cfg["berths"] else "SEATS"}', (xx,s*1.59,1.518),.039,g.WHITE,s,side)
   text(g,'Pneumatic release stencil','RELEASE',(0,s*1.585,1.40),.039,g.WHITE,s,side)
   # Rounded ICF body/end corner: quarter cylindrical bend, not LHB tapered end.
   for end in [-1,1]:

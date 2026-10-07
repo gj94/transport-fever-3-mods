@@ -3,7 +3,7 @@
   "asserted_counts_ok": true,
   "root_identity": true,
   "material_limit_64_pass": true,
-  "triangles": 767065,
+  "triangles": 770137,
   "materials": 31,
   "pax_count": 64,
   "berth_count": 64,
@@ -111,5 +111,6 @@
   "passenger_cushion_top": 1.753,
   "pelvis_offset": 0.483,
   "actual_stock_skeleton_reference": "Repository tools/check_vb_character_fit.py + TF3-INSTALL.md validates sitting pelvis at root +0.483; per-class full animated body runtime fit still unverified",
-  "preview_render": "CPU Cycles,2threads,no denoiser"
+  "preview_render": "CPU Cycles,2threads,no denoiser",
+  "post_stencil_revalidation": "capacity_stencil_patch.json"
 }

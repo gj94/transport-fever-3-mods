@@ -43,6 +43,8 @@ Pixels were inspected locally during the October 7 refinement pass; photographs 
 
 The AC variants intentionally depict an older underslung-equipment branch, so their smooth arched roofs do not acquire LHB-style roof package units. The Government of India Ozone Cell's historical railway account explicitly documents underslung AC units and their retrofits under RDSO coordination: https://ozonecell.nic.in/NCCOPP/Railways.html (historical page, last updated 2010, inspected 2026-10-07). This supports the existence of the selected branch, not an assertion that every ICF AC coach had this roof arrangement. Later conventional RMPU branches exist and are outside this coherent representative selection. Small roof seams remain modeled; underfloor equipment is included. Exact numbered-coach replication is not claimed.
 
+The r12 pass replaces the former incomplete TARE stencil with the actual selected capacity and BERTHS/SEATS wording. No coach tare mass is invented. Exact non-stencil mesh, transform, hierarchy and material-assignment fingerprints are unchanged from the already reviewed source revision.
+
 ## Mechanical detail
 
 The all-coil bogie uses actual wheel profiles, primary coil/dashpot assemblies, secondary spring seats, BSS hangers, side bearers, tread brake blocks/rigging, four-belt non-AC or paired six-belt AC alternator drives and fixed axleboxes. Detailed railway manual links, dimensions and test scope are in `scripts/icf_running_gear.py` and `qa/GEAR_AUDIT.md`.

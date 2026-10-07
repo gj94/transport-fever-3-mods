@@ -1,7 +1,7 @@
 {
   "variant": "SL",
-  "build_pass": "r10",
-  "source_sha256": "f166c0bc82a9497778eb35bbf6026107eee09e59610a7c57d005573d898710df",
+  "build_pass": "r12-stencil",
+  "source_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
   "checks": {
     "side_berth_pans_present": true,
     "side_pans_reach_corner_posts": true,

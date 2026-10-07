@@ -1,7 +1,7 @@
 """Transient original trackside ground geometry with credited CC0 ground shaders.
 This is presentation only and must never be exported with the vehicle.
 """
-import bpy,math,random,sys
+import bpy,math,random,sys,hashlib
 from pathlib import Path
 
 def refine_ground(studio,ground_object,asset_root):
@@ -72,6 +72,8 @@ def build_outdoor(scene,asset_root):
   m=mat(name,color);pp=m.node_tree.nodes.get('Principled BSDF');pp.inputs['Roughness'].default_value=rough;pp.inputs['Metallic'].default_value=metal;return m
  report['depot']=environment_depot.apply(studio,depot_mat)
  report['depot_dependency']='../vande_bharat_detail_v02/components/environment_depot.py and common.py; original generic background, not a named location'
+ deps=[depot_path/'environment_depot.py',depot_path/'common.py']+[Path(asset_root).parent/'wap7_photoreal_v02/environment'/n for n in ['kloofendal_48d_partly_cloudy_puresky_2k.hdr','dirt_diff_2k.jpg','dirt_rough_2k.jpg','dirt_disp_2k.exr']]
+ report['external_dependency_sha256']={str(f.relative_to(Path(asset_root).parent)):hashlib.sha256(f.read_bytes()).hexdigest() for f in deps}
  for o in studio.objects:
   if o.type=='LIGHT':o.data.energy=0
  env=Path(asset_root).parent/'wap7_photoreal_v02/environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr'

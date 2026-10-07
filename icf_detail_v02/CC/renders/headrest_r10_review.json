@@ -1,0 +1,37 @@
+{
+  "variant": "CC",
+  "view": "headrest",
+  "presentation_environment": null,
+  "source_build_pass": "r10",
+  "source_blend_sha256": "3cbb0a419b12cb87b957944c5ea22ff762bc08068564bd92ac01df74d65a94e9",
+  "renderer_script_sha256": "0bd90be1a73886521dd96af4cba8a55bb959f9b30c1cfe3f0f5e2960d53ef686",
+  "presentation_source_sha256": {
+    "render_detail.py": "0bd90be1a73886521dd96af4cba8a55bb959f9b30c1cfe3f0f5e2960d53ef686",
+    "preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b",
+    "icf_presentation.py": "34eeceeaf09f13dca0f36ad8d5b2b387fd600b39c90cc6c9c2c18cd74cec1881"
+  },
+  "samples": 64,
+  "adaptive_sampling": true,
+  "adaptive_threshold": 0.019999999552965164,
+  "adaptive_min_samples": 64,
+  "render_threads": 4,
+  "resolution": [
+    1000,
+    650
+  ],
+  "engine": "Blender Cycles CPU, no denoising",
+  "camera_position_m": [
+    6.949999809265137,
+    -0.44999998807907104,
+    2.619999885559082
+  ],
+  "camera_lens_mm": 40.0,
+  "orthographic_scale_m": null,
+  "hidden_mesh_count": 0,
+  "cutaway": false,
+  "cutaway_scope": null,
+  "preview_track_gauge_m": 1.676,
+  "duration_seconds": 93.11,
+  "rendered_utc": "2026-10-07T20:49:00.538546+00:00",
+  "image_sha256": "711d88f1edead038757d03e9aa6033011a7f2696339fe1b78aa5223f92b897de"
+}
