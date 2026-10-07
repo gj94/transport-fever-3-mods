@@ -1,6 +1,6 @@
 {
   "variant": "1A",
-  "generated_utc": "2026-10-07T20:58:50.723407+00:00",
+  "generated_utc": "2026-10-07T21:37:56.532464+00:00",
   "blender_version": "4.3.2",
   "source_file": "/workspace/shared/lhb-detail/lhb_detail_v02/models/LHB_1A.blend",
   "checks": [
@@ -30,7 +30,7 @@
       "name": "fbx_file_present_and_nonempty",
       "status": "pass",
       "details": {
-        "bytes": 24094556
+        "bytes": 24094844
       }
     },
     {
@@ -2471,7 +2471,7 @@
       "asset_mesh_objects": 6424,
       "asset_font_objects": 76,
       "asset_empty_objects": 116,
-      "materials": 55
+      "materials": 54
     },
     "bounds": {
       "min_m": [
@@ -4074,14 +4074,14 @@
         "WINDOW_soft_gathered_curtain.035"
       ]
     },
-    "elapsed_seconds": 1.66,
+    "elapsed_seconds": 2.23,
     "status": "pass_with_warnings"
   },
   "sha256": {
-    "blend": "426cd1e1b1a3549a098c0ff5e8d4f6093943b36fb27905b09e5206362a842e94",
-    "manifest": "efdc25226f06bc26ff976449c2f2f56a747132dcb79119c00c5091fa5a0ae25f",
-    "markers": "36afa25d2e5f2efe814dbac3276bbb5b73c51f0424ed6a2c826d29b769c966ed",
-    "fbx": "f5b60f1bd2af36d24a31fb3c69e5cf3b561e2bd2f5ca18ef5483d27977176783"
+    "blend": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+    "manifest": "d7ec72e7d5cef83b2743c8b6f8b143fd92839c718f1f7c207298c62b26bb6fa4",
+    "markers": "59eed60168a2e9973435742a9cd94425b0d140e17fef512551b0ce6f81d51e23",
+    "fbx": "f92fd4ada70e8e5875fa89eb886bd81e692bfcd0a99d8f0a8b204e6176026f44"
   },
   "manifest": {
     "source_module_sha256": {
@@ -4117,7 +4117,12 @@
     "glass_source_transmission": 0.96,
     "glass_fbx_alpha": 0.22,
     "native_TF3_conversion": false,
-    "runtime_tested": false
+    "runtime_tested": false,
+    "post_build_patch": {
+      "script": "scripts/fix_1a_legend_orientation.py",
+      "sha256": "d0d99764e8dbbc49a43652505b71bd4ebd1ceaf3a4c2ef17e8cb5ab4ce646259",
+      "purpose": "Orient eight cabin legends toward the interior (+Y); no non-text changes"
+    }
   },
   "fbx": {
     "variant": "1A",
@@ -8144,7 +8149,7 @@
       "unexpected": [],
       "changed": []
     },
-    "elapsed_seconds": 1.67,
+    "elapsed_seconds": 1.68,
     "status": "pass_with_warnings"
   },
   "status": "pass_with_warnings"

@@ -541,5 +541,10 @@
       "berth_type": "UPPER",
       "use_as_seated_passenger": false
     }
-  ]
+  ],
+  "post_build_patch": {
+    "script": "scripts/fix_1a_legend_orientation.py",
+    "sha256": "d0d99764e8dbbc49a43652505b71bd4ebd1ceaf3a4c2ef17e8cb5ab4ce646259",
+    "purpose": "Orient eight cabin legends toward the interior (+Y); no non-text changes"
+  }
 }

@@ -32,5 +32,10 @@
   "glass_source_transmission": 0.96,
   "glass_fbx_alpha": 0.22,
   "native_TF3_conversion": false,
-  "runtime_tested": false
+  "runtime_tested": false,
+  "post_build_patch": {
+    "script": "scripts/fix_1a_legend_orientation.py",
+    "sha256": "d0d99764e8dbbc49a43652505b71bd4ebd1ceaf3a4c2ef17e8cb5ab4ce646259",
+    "purpose": "Orient eight cabin legends toward the interior (+Y); no non-text changes"
+  }
 }
