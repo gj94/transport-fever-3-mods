@@ -1,7 +1,5 @@
 # Vande Bharat 2.0 full-size detailed source v0.2
 
-> Immediate source-preservation checkpoint: editable generator code, references and documentation are backed up. The seven compiled car .blend files and their complete linked assemblies are still being uploaded. Rebuild with the scripts below until that upload is complete. Final gallery pending.
-
 Editable, reference-informed **192 m eight-car and 384 m sixteen-car** white/blue chair-car rakes, using the nominal 24.000 m over-coupler car dimension. These are high-detail Blender authoring sources. The earlier compact v01 sources and the existing TF3 runtime pack remain separate and unchanged.
 
 > Source checkpoint: the full-size source rebuild has been validated and is being backed up after an execution-environment interruption. The final rendered gallery is pending regeneration; this branch is not the finished main-page release.
@@ -82,6 +80,7 @@ Linked assemblies share per-type authored controls. A converter must instantiate
 Blender 4.3.2 is tested. From the repository root:
 
 ```sh
+mkdir -p vande_bharat_detail_v02/{cars,assemblies,qa,previews}
 blender -b -t 4 --python vande_bharat_detail_v02/scripts/build_master.py
 blender -b -t 4 --python vande_bharat_detail_v02/scripts/validate_sources.py
 blender -b -t 4 --python vande_bharat_detail_v02/scripts/validate_pantograph_clearance.py

@@ -1,0 +1,82 @@
+{
+  "fresh_directory_test": true,
+  "files": [
+    {
+      "file": "cars/VB_DTC.blend",
+      "sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 2203
+    },
+    {
+      "file": "cars/VB_MC.blend",
+      "sha256": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 1936
+    },
+    {
+      "file": "cars/VB_MC2.blend",
+      "sha256": "db62fc7a97c001afd705c5895031fbfe20b7ab3d6084668fce2c0adf6fb3d992",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 1937
+    },
+    {
+      "file": "cars/VB_NDTC_EC.blend",
+      "sha256": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 1888
+    },
+    {
+      "file": "cars/VB_NDTC_EC2.blend",
+      "sha256": "d2b1ff90a70381b52344012afd4576a9f08699f7a8bf146cc1f9d3fbeb98c01c",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 1888
+    },
+    {
+      "file": "cars/VB_TC_CC.blend",
+      "sha256": "4d66f26c14fca7a836ade8bde9816546d0bf4f79fa45e19532a14939f1270a8b",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 2717
+    },
+    {
+      "file": "cars/VB_TC_EC.blend",
+      "sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+      "libraries": [],
+      "missing_dependencies": [],
+      "objects": 2660
+    },
+    {
+      "file": "assemblies/VB_16_car.blend",
+      "sha256": "c17096be6a05e33d99538eb71abb2d14aa403e714c1a6e38aba967d4458b272b",
+      "libraries": [
+        "//../cars/VB_DTC.blend",
+        "//../cars/VB_MC.blend",
+        "//../cars/VB_MC2.blend",
+        "//../cars/VB_NDTC_EC.blend",
+        "//../cars/VB_NDTC_EC2.blend",
+        "//../cars/VB_TC_CC.blend"
+      ],
+      "missing_dependencies": [],
+      "objects": 12585
+    },
+    {
+      "file": "assemblies/VB_8_car.blend",
+      "sha256": "131715300305bd003fb994fe6c0bdc0f0e433affa457655ec135777ddfc2a053",
+      "libraries": [
+        "//../cars/VB_DTC.blend",
+        "//../cars/VB_MC.blend",
+        "//../cars/VB_MC2.blend",
+        "//../cars/VB_TC_CC.blend",
+        "//../cars/VB_TC_EC.blend"
+      ],
+      "missing_dependencies": [],
+      "objects": 11461
+    }
+  ],
+  "scope": "Only model source folder copied; image-free procedural materials. Rendering environment is separately referenced by render scripts."
+}

@@ -1,0 +1,18 @@
+{
+  "TC_CC": {
+    "source_sha256": "4d66f26c14fca7a836ade8bde9816546d0bf4f79fa45e19532a14939f1270a8b",
+    "poses": 101,
+    "moving_meshes": 510,
+    "stationary_meshes": 202,
+    "surface_intersections": [],
+    "scope": "Moving arm/head triangle surfaces versus roof shell/HVAC/VCB/bus. Joint-to-joint designed contacts and pneumatic mechanism are excluded. No runtime collision certification."
+  },
+  "TC_EC": {
+    "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+    "poses": 101,
+    "moving_meshes": 510,
+    "stationary_meshes": 202,
+    "surface_intersections": [],
+    "scope": "Moving arm/head triangle surfaces versus roof shell/HVAC/VCB/bus. Joint-to-joint designed contacts and pneumatic mechanism are excluded. No runtime collision certification."
+  }
+}

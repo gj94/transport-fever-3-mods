@@ -1,0 +1,100 @@
+{
+  "source_sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+  "source_car": "cars/VB_DTC.blend",
+  "updated_interior_in_memory": false,
+  "saved_over_source": false,
+  "occupied_height_band_z_m": [
+    1.35,
+    2.67
+  ],
+  "turning_circle_center_xy": [
+    -10.619999885559082,
+    0.699999988079071
+  ],
+  "turning_circle_diameter_m": 1.5,
+  "minimum_obstacle_clearance_m": 0.034147155010888164,
+  "clearance_hits": [],
+  "nearest_obstacles": [
+    {
+      "object": "VB02_INT_entry_inner_grab_rail.002",
+      "minimum_horizontal_distance_to_center_m": 0.7841471550108882,
+      "margin_to_1_5m_circle_m": 0.034147155010888164
+    },
+    {
+      "object": "VB02_INT_entry_inner_glass_trim.002",
+      "minimum_horizontal_distance_to_center_m": 0.8115000073003387,
+      "margin_to_1_5m_circle_m": 0.061500007300338666
+    },
+    {
+      "object": "VB02_INT_service_accessible_curved_wall",
+      "minimum_horizontal_distance_to_center_m": 0.813029391878882,
+      "margin_to_1_5m_circle_m": 0.06302939187888201
+    },
+    {
+      "object": "VB02_INT_entry_inner_caution_print.002",
+      "minimum_horizontal_distance_to_center_m": 0.8141860747081084,
+      "margin_to_1_5m_circle_m": 0.06418607470810844
+    },
+    {
+      "object": "VB02_INT_entry_inner_caution_label.002",
+      "minimum_horizontal_distance_to_center_m": 0.8155249381630147,
+      "margin_to_1_5m_circle_m": 0.06552493816301475
+    },
+    {
+      "object": "VB02_INT_entry_inner_door_lower_panel.002",
+      "minimum_horizontal_distance_to_center_m": 0.8255000708503162,
+      "margin_to_1_5m_circle_m": 0.07550007085031618
+    },
+    {
+      "object": "VB02_INT_entry_inner_door_stile.002",
+      "minimum_horizontal_distance_to_center_m": 0.8318702358386,
+      "margin_to_1_5m_circle_m": 0.08187023583859998
+    },
+    {
+      "object": "VB02_EXT_continuous_passenger_door_leaf.002",
+      "minimum_horizontal_distance_to_center_m": 0.8425000433539767,
+      "margin_to_1_5m_circle_m": 0.09250004335397666
+    },
+    {
+      "object": "VB02_INT_entry_release_cover",
+      "minimum_horizontal_distance_to_center_m": 0.8552086055738145,
+      "margin_to_1_5m_circle_m": 0.1052086055738145
+    },
+    {
+      "object": "VB02_INT_entry_emergency_release_box",
+      "minimum_horizontal_distance_to_center_m": 0.8584355941906837,
+      "margin_to_1_5m_circle_m": 0.10843559419068372
+    },
+    {
+      "object": "VB02_INT_entry_release_pull",
+      "minimum_horizontal_distance_to_center_m": 0.8599638482052566,
+      "margin_to_1_5m_circle_m": 0.10996384820525662
+    },
+    {
+      "object": "VB02_INT_entry_button_text",
+      "minimum_horizontal_distance_to_center_m": 0.8652744757528217,
+      "margin_to_1_5m_circle_m": 0.11527447575282168
+    },
+    {
+      "object": "VB02_INT_entry_green_open_button",
+      "minimum_horizontal_distance_to_center_m": 0.8693933098192937,
+      "margin_to_1_5m_circle_m": 0.11939330981929375
+    },
+    {
+      "object": "VB02_INT_entry_open_button_bezel",
+      "minimum_horizontal_distance_to_center_m": 0.8722295839933117,
+      "margin_to_1_5m_circle_m": 0.12222958399331174
+    },
+    {
+      "object": "VB02_INT_entry_door_control_plate",
+      "minimum_horizontal_distance_to_center_m": 0.8837712997421864,
+      "margin_to_1_5m_circle_m": 0.13377129974218638
+    }
+  ],
+  "door_clear_opening_between_jambs_m": 1.1300001000000002,
+  "door_state": "Static closed leaf; opening measurement applies with the leaf removed/slid out of the doorway",
+  "wc_maximum_lateral_projection_m": 0.3599255681037903,
+  "actual_sidewall_inner_y_m": 1.5240000486373901,
+  "corridor_clear_including_WC_handle_m": 1.1640744805335999,
+  "certification": "Visual-layout geometric check only; no accessibility certification"
+}

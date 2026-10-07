@@ -1,0 +1,116 @@
+{
+  "DTC": {
+    "source_sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+    "end_caps": 1,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  },
+  "MC": {
+    "source_sha256": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+    "end_caps": 2,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      },
+      {
+        "end": 1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  },
+  "MC2": {
+    "source_sha256": "db62fc7a97c001afd705c5895031fbfe20b7ab3d6084668fce2c0adf6fb3d992",
+    "end_caps": 2,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      },
+      {
+        "end": 1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  },
+  "TC_CC": {
+    "source_sha256": "4d66f26c14fca7a836ade8bde9816546d0bf4f79fa45e19532a14939f1270a8b",
+    "end_caps": 2,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      },
+      {
+        "end": 1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  },
+  "TC_EC": {
+    "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+    "end_caps": 2,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      },
+      {
+        "end": 1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  },
+  "NDTC_EC": {
+    "source_sha256": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+    "end_caps": 2,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      },
+      {
+        "end": 1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  },
+  "NDTC_EC2": {
+    "source_sha256": "d2b1ff90a70381b52344012afd4576a9f08699f7a8bf146cc1f9d3fbeb98c01c",
+    "end_caps": 2,
+    "checks": [
+      {
+        "end": -1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      },
+      {
+        "end": 1,
+        "upper_crown_ray_closed": true,
+        "gangway_passage_ray_clear": true
+      }
+    ],
+    "scope": "Upper end-cap geometry rays, not a complete vehicle watertightness or evacuation certification"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "component_sha256": {
+    "interiors.py": "d5a6d5f23c156c187976596622cdeda1c04ffe684b62de83dbe9c8d145c11c90",
+    "interior_layout.py": "debce65ba3a710fe418534764444176196cbfa86c69fac998bd16fa8368f7a5b"
+  },
+  "checks": [
+    {
+      "kind": "DTC",
+      "passenger_seats": 44,
+      "actual_seat_mesh_instances": 44,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.5299999378621578,
+      "minimum_adjacent_armrest_gap_m": 0.004999935626983643,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.22299988746643074,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.3189997673034668,
+      "toilet_count": 1,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          7.300000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    },
+    {
+      "kind": "MC",
+      "passenger_seats": 78,
+      "actual_seat_mesh_instances": 78,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.529999939724803,
+      "minimum_adjacent_armrest_gap_m": 0.004999935626983643,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.029999504089355256,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.27299976348876953,
+      "toilet_count": 2,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          11.550000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    },
+    {
+      "kind": "MC2",
+      "passenger_seats": 78,
+      "actual_seat_mesh_instances": 78,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.529999939724803,
+      "minimum_adjacent_armrest_gap_m": 0.004999935626983643,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.029999504089355256,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.27299976348876953,
+      "toilet_count": 2,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          11.550000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    },
+    {
+      "kind": "TC_CC",
+      "passenger_seats": 78,
+      "actual_seat_mesh_instances": 78,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.529999939724803,
+      "minimum_adjacent_armrest_gap_m": 0.004999935626983643,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.029999504089355256,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.27299976348876953,
+      "toilet_count": 2,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          11.550000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    },
+    {
+      "kind": "TC_EC",
+      "passenger_seats": 52,
+      "actual_seat_mesh_instances": 52,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.5410000085830688,
+      "minimum_adjacent_armrest_gap_m": 0.010999977588653564,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.2880003547668455,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.5089998245239258,
+      "toilet_count": 2,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          11.550000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    },
+    {
+      "kind": "NDTC_EC",
+      "passenger_seats": 52,
+      "actual_seat_mesh_instances": 52,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.5410000085830688,
+      "minimum_adjacent_armrest_gap_m": 0.010999977588653564,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.2880003547668455,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.5089998245239258,
+      "toilet_count": 2,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          11.550000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    },
+    {
+      "kind": "NDTC_EC2",
+      "passenger_seats": 52,
+      "actual_seat_mesh_instances": 52,
+      "unique_detailed_seat_meshes": 1,
+      "actual_vertex_derived_aisle_m": 0.5409999489784241,
+      "minimum_adjacent_armrest_gap_m": 0.010999977588653564,
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.2880003547668455,
+      "minimum_between_rows_mesh_AABB_gap_m": 0.5089998245239258,
+      "toilet_count": 2,
+      "component_bounds": {
+        "min": [
+          -11.550000190734863,
+          -1.5575000047683716,
+          1.3079999685287476
+        ],
+        "max": [
+          11.550000190734863,
+          1.5575000047683716,
+          3.674999952316284
+        ]
+      }
+    }
+  ],
+  "scope": "Final exact-source Blender component tests across all seven classes; actual seat counts and vertex-derived aisle/row/end clearances; DTC/EC2 stable reapply."
+}

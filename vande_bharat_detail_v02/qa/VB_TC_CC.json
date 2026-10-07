@@ -1,0 +1,4982 @@
+{
+  "kind": "TC_CC",
+  "prior_compact_reference_sha256": "af743bad1344d2484d6e5fa456db6e3b189856ad12e5d642b6be07bd0083ee6d",
+  "primitive_helpers_sha256": "da8375f133c70b70465fa76f5c7259ab6065ca10eea6d527817438f83c060433",
+  "build_script_sha256": "735727de5501b82b07ce781c24f1883c84a810f5be1d6953f6d1d7dbd765fd63",
+  "prototype_layout": {
+    "kind": "TC_CC",
+    "saloon_bounds": [
+      -8.135,
+      7.435
+    ],
+    "partition_centers": [
+      -8.2175,
+      7.5175
+    ],
+    "lining_bounds": [
+      -11.55,
+      11.55
+    ],
+    "toilet_end": -1,
+    "toilet_rooms": [
+      {
+        "x": -9.265,
+        "side": -1,
+        "length": 1.89,
+        "width": 1.005,
+        "accessible": false
+      },
+      {
+        "x": -9.265,
+        "side": 1,
+        "length": 1.89,
+        "width": 1.005,
+        "accessible": false
+      }
+    ],
+    "galley": {
+      "x": 8.8655,
+      "side": 1,
+      "length": 2.531,
+      "width": 1.005
+    },
+    "electrical": {
+      "x": 8.4,
+      "side": -1,
+      "length": 1.6,
+      "width": 1.005
+    },
+    "seat_poses": [
+      {
+        "x": -7.687999999999999,
+        "y": 0.759,
+        "facing": 1,
+        "row": 1,
+        "bank": "pair"
+      },
+      {
+        "x": -7.687999999999999,
+        "y": 1.258,
+        "facing": 1,
+        "row": 1,
+        "bank": "pair"
+      },
+      {
+        "x": -7.687999999999999,
+        "y": -1.263,
+        "facing": 1,
+        "row": 1,
+        "bank": "triple"
+      },
+      {
+        "x": -7.687999999999999,
+        "y": -0.764,
+        "facing": 1,
+        "row": 1,
+        "bank": "triple"
+      },
+      {
+        "x": -6.744,
+        "y": 0.759,
+        "facing": 1,
+        "row": 2,
+        "bank": "pair"
+      },
+      {
+        "x": -6.744,
+        "y": 1.258,
+        "facing": 1,
+        "row": 2,
+        "bank": "pair"
+      },
+      {
+        "x": -6.744,
+        "y": -1.263,
+        "facing": 1,
+        "row": 2,
+        "bank": "triple"
+      },
+      {
+        "x": -6.744,
+        "y": -0.764,
+        "facing": 1,
+        "row": 2,
+        "bank": "triple"
+      },
+      {
+        "x": -6.744,
+        "y": -0.265,
+        "facing": 1,
+        "row": 2,
+        "bank": "triple"
+      },
+      {
+        "x": -5.799999999999999,
+        "y": 0.759,
+        "facing": 1,
+        "row": 3,
+        "bank": "pair"
+      },
+      {
+        "x": -5.799999999999999,
+        "y": 1.258,
+        "facing": 1,
+        "row": 3,
+        "bank": "pair"
+      },
+      {
+        "x": -5.799999999999999,
+        "y": -1.263,
+        "facing": 1,
+        "row": 3,
+        "bank": "triple"
+      },
+      {
+        "x": -5.799999999999999,
+        "y": -0.764,
+        "facing": 1,
+        "row": 3,
+        "bank": "triple"
+      },
+      {
+        "x": -5.799999999999999,
+        "y": -0.265,
+        "facing": 1,
+        "row": 3,
+        "bank": "triple"
+      },
+      {
+        "x": -4.856,
+        "y": 0.759,
+        "facing": 1,
+        "row": 4,
+        "bank": "pair"
+      },
+      {
+        "x": -4.856,
+        "y": 1.258,
+        "facing": 1,
+        "row": 4,
+        "bank": "pair"
+      },
+      {
+        "x": -4.856,
+        "y": -1.263,
+        "facing": 1,
+        "row": 4,
+        "bank": "triple"
+      },
+      {
+        "x": -4.856,
+        "y": -0.764,
+        "facing": 1,
+        "row": 4,
+        "bank": "triple"
+      },
+      {
+        "x": -4.856,
+        "y": -0.265,
+        "facing": 1,
+        "row": 4,
+        "bank": "triple"
+      },
+      {
+        "x": -3.912,
+        "y": 0.759,
+        "facing": 1,
+        "row": 5,
+        "bank": "pair"
+      },
+      {
+        "x": -3.912,
+        "y": 1.258,
+        "facing": 1,
+        "row": 5,
+        "bank": "pair"
+      },
+      {
+        "x": -3.912,
+        "y": -1.263,
+        "facing": 1,
+        "row": 5,
+        "bank": "triple"
+      },
+      {
+        "x": -3.912,
+        "y": -0.764,
+        "facing": 1,
+        "row": 5,
+        "bank": "triple"
+      },
+      {
+        "x": -3.912,
+        "y": -0.265,
+        "facing": 1,
+        "row": 5,
+        "bank": "triple"
+      },
+      {
+        "x": -2.968,
+        "y": 0.759,
+        "facing": 1,
+        "row": 6,
+        "bank": "pair"
+      },
+      {
+        "x": -2.968,
+        "y": 1.258,
+        "facing": 1,
+        "row": 6,
+        "bank": "pair"
+      },
+      {
+        "x": -2.968,
+        "y": -1.263,
+        "facing": 1,
+        "row": 6,
+        "bank": "triple"
+      },
+      {
+        "x": -2.968,
+        "y": -0.764,
+        "facing": 1,
+        "row": 6,
+        "bank": "triple"
+      },
+      {
+        "x": -2.968,
+        "y": -0.265,
+        "facing": 1,
+        "row": 6,
+        "bank": "triple"
+      },
+      {
+        "x": -2.024,
+        "y": 0.759,
+        "facing": 1,
+        "row": 7,
+        "bank": "pair"
+      },
+      {
+        "x": -2.024,
+        "y": 1.258,
+        "facing": 1,
+        "row": 7,
+        "bank": "pair"
+      },
+      {
+        "x": -2.024,
+        "y": -1.263,
+        "facing": 1,
+        "row": 7,
+        "bank": "triple"
+      },
+      {
+        "x": -2.024,
+        "y": -0.764,
+        "facing": 1,
+        "row": 7,
+        "bank": "triple"
+      },
+      {
+        "x": -2.024,
+        "y": -0.265,
+        "facing": 1,
+        "row": 7,
+        "bank": "triple"
+      },
+      {
+        "x": -1.08,
+        "y": 0.759,
+        "facing": 1,
+        "row": 8,
+        "bank": "pair"
+      },
+      {
+        "x": -1.08,
+        "y": 1.258,
+        "facing": 1,
+        "row": 8,
+        "bank": "pair"
+      },
+      {
+        "x": -1.08,
+        "y": -1.263,
+        "facing": 1,
+        "row": 8,
+        "bank": "triple"
+      },
+      {
+        "x": -1.08,
+        "y": -0.764,
+        "facing": 1,
+        "row": 8,
+        "bank": "triple"
+      },
+      {
+        "x": -1.08,
+        "y": -0.265,
+        "facing": 1,
+        "row": 8,
+        "bank": "triple"
+      },
+      {
+        "x": 0.38,
+        "y": 0.759,
+        "facing": -1,
+        "row": 9,
+        "bank": "pair"
+      },
+      {
+        "x": 0.38,
+        "y": 1.258,
+        "facing": -1,
+        "row": 9,
+        "bank": "pair"
+      },
+      {
+        "x": 0.38,
+        "y": -1.263,
+        "facing": -1,
+        "row": 9,
+        "bank": "triple"
+      },
+      {
+        "x": 0.38,
+        "y": -0.764,
+        "facing": -1,
+        "row": 9,
+        "bank": "triple"
+      },
+      {
+        "x": 0.38,
+        "y": -0.265,
+        "facing": -1,
+        "row": 9,
+        "bank": "triple"
+      },
+      {
+        "x": 1.3239999999999998,
+        "y": 0.759,
+        "facing": -1,
+        "row": 10,
+        "bank": "pair"
+      },
+      {
+        "x": 1.3239999999999998,
+        "y": 1.258,
+        "facing": -1,
+        "row": 10,
+        "bank": "pair"
+      },
+      {
+        "x": 1.3239999999999998,
+        "y": -1.263,
+        "facing": -1,
+        "row": 10,
+        "bank": "triple"
+      },
+      {
+        "x": 1.3239999999999998,
+        "y": -0.764,
+        "facing": -1,
+        "row": 10,
+        "bank": "triple"
+      },
+      {
+        "x": 1.3239999999999998,
+        "y": -0.265,
+        "facing": -1,
+        "row": 10,
+        "bank": "triple"
+      },
+      {
+        "x": 2.268,
+        "y": 0.759,
+        "facing": -1,
+        "row": 11,
+        "bank": "pair"
+      },
+      {
+        "x": 2.268,
+        "y": 1.258,
+        "facing": -1,
+        "row": 11,
+        "bank": "pair"
+      },
+      {
+        "x": 2.268,
+        "y": -1.263,
+        "facing": -1,
+        "row": 11,
+        "bank": "triple"
+      },
+      {
+        "x": 2.268,
+        "y": -0.764,
+        "facing": -1,
+        "row": 11,
+        "bank": "triple"
+      },
+      {
+        "x": 2.268,
+        "y": -0.265,
+        "facing": -1,
+        "row": 11,
+        "bank": "triple"
+      },
+      {
+        "x": 3.2119999999999997,
+        "y": 0.759,
+        "facing": -1,
+        "row": 12,
+        "bank": "pair"
+      },
+      {
+        "x": 3.2119999999999997,
+        "y": 1.258,
+        "facing": -1,
+        "row": 12,
+        "bank": "pair"
+      },
+      {
+        "x": 3.2119999999999997,
+        "y": -1.263,
+        "facing": -1,
+        "row": 12,
+        "bank": "triple"
+      },
+      {
+        "x": 3.2119999999999997,
+        "y": -0.764,
+        "facing": -1,
+        "row": 12,
+        "bank": "triple"
+      },
+      {
+        "x": 3.2119999999999997,
+        "y": -0.265,
+        "facing": -1,
+        "row": 12,
+        "bank": "triple"
+      },
+      {
+        "x": 4.156,
+        "y": 0.759,
+        "facing": -1,
+        "row": 13,
+        "bank": "pair"
+      },
+      {
+        "x": 4.156,
+        "y": 1.258,
+        "facing": -1,
+        "row": 13,
+        "bank": "pair"
+      },
+      {
+        "x": 4.156,
+        "y": -1.263,
+        "facing": -1,
+        "row": 13,
+        "bank": "triple"
+      },
+      {
+        "x": 4.156,
+        "y": -0.764,
+        "facing": -1,
+        "row": 13,
+        "bank": "triple"
+      },
+      {
+        "x": 4.156,
+        "y": -0.265,
+        "facing": -1,
+        "row": 13,
+        "bank": "triple"
+      },
+      {
+        "x": 5.1,
+        "y": 0.759,
+        "facing": -1,
+        "row": 14,
+        "bank": "pair"
+      },
+      {
+        "x": 5.1,
+        "y": 1.258,
+        "facing": -1,
+        "row": 14,
+        "bank": "pair"
+      },
+      {
+        "x": 5.1,
+        "y": -1.263,
+        "facing": -1,
+        "row": 14,
+        "bank": "triple"
+      },
+      {
+        "x": 5.1,
+        "y": -0.764,
+        "facing": -1,
+        "row": 14,
+        "bank": "triple"
+      },
+      {
+        "x": 5.1,
+        "y": -0.265,
+        "facing": -1,
+        "row": 14,
+        "bank": "triple"
+      },
+      {
+        "x": 6.044,
+        "y": 0.759,
+        "facing": -1,
+        "row": 15,
+        "bank": "pair"
+      },
+      {
+        "x": 6.044,
+        "y": 1.258,
+        "facing": -1,
+        "row": 15,
+        "bank": "pair"
+      },
+      {
+        "x": 6.044,
+        "y": -1.263,
+        "facing": -1,
+        "row": 15,
+        "bank": "triple"
+      },
+      {
+        "x": 6.044,
+        "y": -0.764,
+        "facing": -1,
+        "row": 15,
+        "bank": "triple"
+      },
+      {
+        "x": 6.044,
+        "y": -0.265,
+        "facing": -1,
+        "row": 15,
+        "bank": "triple"
+      },
+      {
+        "x": 6.9879999999999995,
+        "y": 0.759,
+        "facing": -1,
+        "row": 16,
+        "bank": "pair"
+      },
+      {
+        "x": 6.9879999999999995,
+        "y": 1.258,
+        "facing": -1,
+        "row": 16,
+        "bank": "pair"
+      },
+      {
+        "x": 6.9879999999999995,
+        "y": -1.263,
+        "facing": -1,
+        "row": 16,
+        "bank": "triple"
+      },
+      {
+        "x": 6.9879999999999995,
+        "y": -0.764,
+        "facing": -1,
+        "row": 16,
+        "bank": "triple"
+      }
+    ],
+    "windows": [
+      {
+        "x": -7.209999999999999,
+        "width": 1.5,
+        "height": 0.88,
+        "center_z": 2.525,
+        "emergency": false,
+        "role": "saloon"
+      },
+      {
+        "x": -5.25,
+        "width": 1.5,
+        "height": 0.88,
+        "center_z": 2.525,
+        "emergency": false,
+        "role": "saloon"
+      },
+      {
+        "x": -3.29,
+        "width": 1.58,
+        "height": 0.9,
+        "center_z": 2.535,
+        "emergency": true,
+        "role": "saloon"
+      },
+      {
+        "x": -1.33,
+        "width": 1.5,
+        "height": 0.88,
+        "center_z": 2.525,
+        "emergency": false,
+        "role": "saloon"
+      },
+      {
+        "x": 0.63,
+        "width": 1.5,
+        "height": 0.88,
+        "center_z": 2.525,
+        "emergency": false,
+        "role": "saloon"
+      },
+      {
+        "x": 2.59,
+        "width": 1.58,
+        "height": 0.9,
+        "center_z": 2.535,
+        "emergency": true,
+        "role": "saloon"
+      },
+      {
+        "x": 4.550000000000001,
+        "width": 1.5,
+        "height": 0.88,
+        "center_z": 2.525,
+        "emergency": false,
+        "role": "saloon"
+      },
+      {
+        "x": 6.51,
+        "width": 1.5,
+        "height": 0.88,
+        "center_z": 2.525,
+        "emergency": false,
+        "role": "saloon"
+      }
+    ],
+    "floor_z": 1.32,
+    "cushion_top_z": 1.75,
+    "anchor_z": 1.267,
+    "cab_bulkhead": null,
+    "expected_seats": 78,
+    "wheelchair_bay": null,
+    "basis": "CAMTECH September 2022, system documentation, drawings pp28\u201333; furniture reference points are inferred",
+    "pitch": 24.0,
+    "body_min": -11.55,
+    "body_max": 11.55,
+    "bogie_centres": 14.9,
+    "wheelbase": 2.7,
+    "gauge": 1.676,
+    "width": 3.24,
+    "nose_dx": 1.7237685089111334,
+    "nose_tip_x": 11.778,
+    "cab_partition_x": 7.3,
+    "cab_shell_rear_x": 7.373768508911134,
+    "driver_x": 9.35,
+    "cab_door_x": 8.25,
+    "passenger_door_x": [
+      -10.73,
+      10.73
+    ],
+    "windshield": {
+      "lower_center_x": 11.523768508911134,
+      "lower_z": 2.3,
+      "upper_center_x": 10.373768508911134,
+      "upper_z": 3.22
+    },
+    "dimension_source": "CAMTECH VB2 2022 system documentation pp28\u201333, primary drawing callouts",
+    "estimated_placement_precision_m": [
+      0.05,
+      0.1
+    ],
+    "hvac_centres": [
+      -10.0,
+      5.8
+    ],
+    "panto_base_x": 9.5,
+    "panto_rotation_z": 3.141592653589793,
+    "underframe": {
+      "converter_centres": [
+        -3.8,
+        3.8
+      ],
+      "transformer_x": 3.6,
+      "auxiliary_x": -3.7,
+      "battery_x": 0.5,
+      "compressor_x": -4.8,
+      "reservoir_x": -3.4,
+      "water_x": 2.6
+    }
+  },
+  "components": {
+    "exterior": {
+      "kind": "TC_CC",
+      "pitch_m": 24.0,
+      "nose_profile": "Photo-informed smooth loft uses23.328m nose-to-rear body envelope; not dimension-certified",
+      "window_seals": "Rounded exterior masks retain open base apertures",
+      "reference": "PIB VB2 launch photograph 2022-09-30; all meshes original",
+      "lamp_preview_state": "White front optics illuminated; red tail lenses unlit. Runtime directional light switching not supplied",
+      "objects": 476
+    },
+    "endcap_detail": {
+      "ends_closed": 2,
+      "gangway_clear_width_m": 1.1,
+      "central_cap_bottom_z_m": 3.38,
+      "scope": "Curved roof crown and end-wall shell closure; no full opaque plate across passenger opening"
+    },
+    "running_gear": {
+      "secondary_air_springs_per_bogie": 2,
+      "bogies_per_car": 2,
+      "motor_equipment": false,
+      "axle_and_bogie_parenting": "retained inherited controls; rotating wheels/discs under axle, bearings and calipers under bogie",
+      "wheel_tread_radius_m": 0.476,
+      "flange_radius_m": 0.504,
+      "scope": "Photo/manual-informed representative components; subtype-specific factory drawings not fully traced",
+      "objects": 875
+    },
+    "roof_equipment": {
+      "HVAC_units": 2,
+      "pantograph": true,
+      "head_width_m": 1.8,
+      "strip_width_m": 0.035,
+      "strip_center_spacing_m": 0.39,
+      "head_contact_top_offset_m": 0.032,
+      "source": "Schunk WBL22.03 OEM manual on IRIMEE official server; matching VB2 parts procurement",
+      "scope": "OEM-informed head geometry; inherited regular-height 1.5/1.2m authoring kinematics preserved"
+    },
+    "vcb_detail": {
+      "applied": true,
+      "source": "VB-specific CAMTECH photo and Schneider22CB OEM outline/earthing drawing June2022",
+      "tower_above_mount_plate_m": 0.507,
+      "mount_plate_rail_z_m": 3.752,
+      "under_roof_box": true,
+      "six_M12_base_fixings": true,
+      "live_path": "Panto output to top incoming cap; middle outgoing terminal to separate roof bushing",
+      "earth_blades": "Representative open position, never shown bridging live terminals",
+      "scope": "Source-led tower/form/connection identity; small hardware and roof saddle are representative, not electrical-operating certification"
+    },
+    "panto_micro": {
+      "pantograph_microhardware": true,
+      "objects": 619,
+      "mesh_objects": 597,
+      "live_copper_shunts": [
+        "VB02_PMICRO_copper_bypass_base_L",
+        "VB02_PMICRO_copper_bypass_elbow_L",
+        "VB02_PMICRO_copper_bypass_head_L",
+        "VB02_PMICRO_copper_bypass_base_R",
+        "VB02_PMICRO_copper_bypass_elbow_R",
+        "VB02_PMICRO_copper_bypass_head_R",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1",
+        "VB02_PMICRO_copper_bypass_rocker_1_1"
+      ],
+      "hook_deformed_meshes": [
+        "VB02_PMICRO_copper_bypass_base_L",
+        "VB02_PMICRO_copper_bypass_base_L_braid",
+        "VB02_PMICRO_copper_bypass_base_L_braid.001",
+        "VB02_PMICRO_copper_bypass_base_L_braid.002",
+        "VB02_PMICRO_copper_bypass_base_L_braid.003",
+        "VB02_PMICRO_copper_bypass_base_L_braid.004",
+        "VB02_PMICRO_copper_bypass_base_L_braid.005",
+        "VB02_PMICRO_copper_bypass_base_L_braid.006",
+        "VB02_PMICRO_copper_bypass_base_L_braid.007",
+        "VB02_PMICRO_copper_bypass_elbow_L",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.001",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.002",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.003",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.004",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.005",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.006",
+        "VB02_PMICRO_copper_bypass_elbow_L_braid.007",
+        "VB02_PMICRO_copper_bypass_head_L",
+        "VB02_PMICRO_copper_bypass_head_L_braid",
+        "VB02_PMICRO_copper_bypass_head_L_braid.001",
+        "VB02_PMICRO_copper_bypass_head_L_braid.002",
+        "VB02_PMICRO_copper_bypass_head_L_braid.003",
+        "VB02_PMICRO_copper_bypass_head_L_braid.004",
+        "VB02_PMICRO_copper_bypass_head_L_braid.005",
+        "VB02_PMICRO_copper_bypass_head_L_braid.006",
+        "VB02_PMICRO_copper_bypass_head_L_braid.007",
+        "VB02_PMICRO_copper_bypass_base_R",
+        "VB02_PMICRO_copper_bypass_base_R_braid",
+        "VB02_PMICRO_copper_bypass_base_R_braid.001",
+        "VB02_PMICRO_copper_bypass_base_R_braid.002",
+        "VB02_PMICRO_copper_bypass_base_R_braid.003",
+        "VB02_PMICRO_copper_bypass_base_R_braid.004",
+        "VB02_PMICRO_copper_bypass_base_R_braid.005",
+        "VB02_PMICRO_copper_bypass_base_R_braid.006",
+        "VB02_PMICRO_copper_bypass_base_R_braid.007",
+        "VB02_PMICRO_copper_bypass_elbow_R",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.001",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.002",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.003",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.004",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.005",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.006",
+        "VB02_PMICRO_copper_bypass_elbow_R_braid.007",
+        "VB02_PMICRO_copper_bypass_head_R",
+        "VB02_PMICRO_copper_bypass_head_R_braid",
+        "VB02_PMICRO_copper_bypass_head_R_braid.001",
+        "VB02_PMICRO_copper_bypass_head_R_braid.002",
+        "VB02_PMICRO_copper_bypass_head_R_braid.003",
+        "VB02_PMICRO_copper_bypass_head_R_braid.004",
+        "VB02_PMICRO_copper_bypass_head_R_braid.005",
+        "VB02_PMICRO_copper_bypass_head_R_braid.006",
+        "VB02_PMICRO_copper_bypass_head_R_braid.007",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.001",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.002",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.003",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.004",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.005",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.006",
+        "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.007",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.001",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.002",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.003",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.004",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.005",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.006",
+        "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.007",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.001",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.002",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.003",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.004",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.005",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.006",
+        "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.007",
+        "VB02_PMICRO_copper_bypass_rocker_1_1",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.001",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.002",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.003",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.004",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.005",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.006",
+        "VB02_PMICRO_copper_bypass_rocker_1_1_braid.007",
+        "VB02_PMICRO_monitoring_head_flex"
+      ],
+      "head_contact_plane_local_m": 0.032,
+      "nominal_head_width_m": 1.8,
+      "strip_center_spacing_m": 0.39,
+      "cameras": {
+        "head_macro": {
+          "location": [
+            10.265214920043945,
+            -1.8200000524520874,
+            6.714999675750732
+          ],
+          "target": [
+            9.2852144241333,
+            -1.8777186028273718e-08,
+            5.836999893188477
+          ],
+          "lens_mm": 48,
+          "extension": 1
+        },
+        "head_underside": {
+          "location": [
+            10.265214920043945,
+            -1.4500000476837158,
+            5.604999542236328
+          ],
+          "target": [
+            9.2852144241333,
+            -1.8777186028273718e-08,
+            5.8329997062683105
+          ],
+          "lens_mm": 48,
+          "extension": 1
+        },
+        "base_macro": {
+          "location": [
+            10.40000057220459,
+            -1.4799998998641968,
+            5.069999694824219
+          ],
+          "target": [
+            9.350000381469727,
+            -1.311341701892843e-08,
+            4.059999942779541
+          ],
+          "lens_mm": 55,
+          "extension": 1
+        }
+      },
+      "source": "https://rskr.irimee.in/forum/wp-content/uploads/2023/07/Operational%20Manual%20Pantograph%20_Train%2018.pdf",
+      "source_pages": [
+        20,
+        34,
+        125
+      ],
+      "scope": "OEM-informed small hardware; visual Hook deformation retains endpoints, not a cable dynamics/manufacturing model"
+    },
+    "interiors": {
+      "component": "passenger_interiors",
+      "kind": "TC_CC",
+      "passenger_seats": 78,
+      "actual_seat_mesh_instances": 78,
+      "minimum_adjacent_armrest_gap_m": 0.004999935626983643,
+      "armrest_clear_aisle_m": 0.53,
+      "unique_detailed_seat_meshes": 1,
+      "seat_layout": "3+2 with reference end exceptions",
+      "toilet_count": 2,
+      "toilet_end": "-X",
+      "accessible_toilet": false,
+      "wheelchair_space_empty": false,
+      "DTC_accessible_layout": null,
+      "unchanged_PAX_transforms": true,
+      "floor_z_m": 1.32,
+      "cushion_top_z_m": 1.75,
+      "saloon_clear_bounds_m": [
+        -8.135,
+        7.435
+      ],
+      "minimum_actual_seat_mesh_to_saloon_end_m": 0.029999504089355256,
+      "seat_mesh_bounds": [
+        {
+          "object": "VB02_INT_seat_001",
+          "anchor": "PAX_001",
+          "min": [
+            -8.105000495910645,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -7.434000015258789,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_002",
+          "anchor": "PAX_002",
+          "min": [
+            -8.105000495910645,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -7.434000015258789,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_003",
+          "anchor": "PAX_003",
+          "min": [
+            -8.105000495910645,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -7.434000015258789,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_004",
+          "anchor": "PAX_004",
+          "min": [
+            -8.105000495910645,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -7.434000015258789,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_005",
+          "anchor": "PAX_005",
+          "min": [
+            -7.160999774932861,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -6.489999771118164,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_006",
+          "anchor": "PAX_006",
+          "min": [
+            -7.160999774932861,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -6.489999771118164,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_007",
+          "anchor": "PAX_007",
+          "min": [
+            -7.160999774932861,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -6.489999771118164,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_008",
+          "anchor": "PAX_008",
+          "min": [
+            -7.160999774932861,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -6.489999771118164,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_009",
+          "anchor": "PAX_009",
+          "min": [
+            -7.160999774932861,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -6.489999771118164,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_010",
+          "anchor": "PAX_010",
+          "min": [
+            -6.2170000076293945,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -5.546000003814697,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_011",
+          "anchor": "PAX_011",
+          "min": [
+            -6.2170000076293945,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -5.546000003814697,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_012",
+          "anchor": "PAX_012",
+          "min": [
+            -6.2170000076293945,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -5.546000003814697,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_013",
+          "anchor": "PAX_013",
+          "min": [
+            -6.2170000076293945,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -5.546000003814697,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_014",
+          "anchor": "PAX_014",
+          "min": [
+            -6.2170000076293945,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -5.546000003814697,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_015",
+          "anchor": "PAX_015",
+          "min": [
+            -5.2729997634887695,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -4.601999759674072,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_016",
+          "anchor": "PAX_016",
+          "min": [
+            -5.2729997634887695,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -4.601999759674072,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_017",
+          "anchor": "PAX_017",
+          "min": [
+            -5.2729997634887695,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -4.601999759674072,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_018",
+          "anchor": "PAX_018",
+          "min": [
+            -5.2729997634887695,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -4.601999759674072,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_019",
+          "anchor": "PAX_019",
+          "min": [
+            -5.2729997634887695,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -4.601999759674072,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_020",
+          "anchor": "PAX_020",
+          "min": [
+            -4.328999996185303,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -3.6579999923706055,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_021",
+          "anchor": "PAX_021",
+          "min": [
+            -4.328999996185303,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -3.6579999923706055,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_022",
+          "anchor": "PAX_022",
+          "min": [
+            -4.328999996185303,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -3.6579999923706055,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_023",
+          "anchor": "PAX_023",
+          "min": [
+            -4.328999996185303,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -3.6579999923706055,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_024",
+          "anchor": "PAX_024",
+          "min": [
+            -4.328999996185303,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -3.6579999923706055,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_025",
+          "anchor": "PAX_025",
+          "min": [
+            -3.384999990463257,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -2.7139999866485596,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_026",
+          "anchor": "PAX_026",
+          "min": [
+            -3.384999990463257,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -2.7139999866485596,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_027",
+          "anchor": "PAX_027",
+          "min": [
+            -3.384999990463257,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -2.7139999866485596,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_028",
+          "anchor": "PAX_028",
+          "min": [
+            -3.384999990463257,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -2.7139999866485596,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_029",
+          "anchor": "PAX_029",
+          "min": [
+            -3.384999990463257,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -2.7139999866485596,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_030",
+          "anchor": "PAX_030",
+          "min": [
+            -2.440999984741211,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -1.7699999809265137,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_031",
+          "anchor": "PAX_031",
+          "min": [
+            -2.440999984741211,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -1.7699999809265137,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_032",
+          "anchor": "PAX_032",
+          "min": [
+            -2.440999984741211,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -1.7699999809265137,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_033",
+          "anchor": "PAX_033",
+          "min": [
+            -2.440999984741211,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -1.7699999809265137,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_034",
+          "anchor": "PAX_034",
+          "min": [
+            -2.440999984741211,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -1.7699999809265137,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_035",
+          "anchor": "PAX_035",
+          "min": [
+            -1.496999979019165,
+            0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            -0.8260000348091125,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_036",
+          "anchor": "PAX_036",
+          "min": [
+            -1.496999979019165,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -0.8260000348091125,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_037",
+          "anchor": "PAX_037",
+          "min": [
+            -1.496999979019165,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            -0.8260000348091125,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_038",
+          "anchor": "PAX_038",
+          "min": [
+            -1.496999979019165,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            -0.8260000348091125,
+            -0.5170000195503235,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_039",
+          "anchor": "PAX_039",
+          "min": [
+            -1.496999979019165,
+            -0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            -0.8260000348091125,
+            -0.01799999177455902,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_040",
+          "anchor": "PAX_040",
+          "min": [
+            0.12599998712539673,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            0.796999990940094,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_041",
+          "anchor": "PAX_041",
+          "min": [
+            0.12599998712539673,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            0.796999990940094,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_042",
+          "anchor": "PAX_042",
+          "min": [
+            0.12599998712539673,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            0.796999990940094,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_043",
+          "anchor": "PAX_043",
+          "min": [
+            0.12599998712539673,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            0.796999990940094,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_044",
+          "anchor": "PAX_044",
+          "min": [
+            0.12599998712539673,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            0.796999990940094,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_045",
+          "anchor": "PAX_045",
+          "min": [
+            1.0699999332427979,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            1.7410000562667847,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_046",
+          "anchor": "PAX_046",
+          "min": [
+            1.0699999332427979,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            1.7410000562667847,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_047",
+          "anchor": "PAX_047",
+          "min": [
+            1.0699999332427979,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            1.7410000562667847,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_048",
+          "anchor": "PAX_048",
+          "min": [
+            1.0699999332427979,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            1.7410000562667847,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_049",
+          "anchor": "PAX_049",
+          "min": [
+            1.0699999332427979,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            1.7410000562667847,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_050",
+          "anchor": "PAX_050",
+          "min": [
+            2.0139999389648438,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            2.684999942779541,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_051",
+          "anchor": "PAX_051",
+          "min": [
+            2.0139999389648438,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            2.684999942779541,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_052",
+          "anchor": "PAX_052",
+          "min": [
+            2.0139999389648438,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            2.684999942779541,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_053",
+          "anchor": "PAX_053",
+          "min": [
+            2.0139999389648438,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            2.684999942779541,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_054",
+          "anchor": "PAX_054",
+          "min": [
+            2.0139999389648438,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            2.684999942779541,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_055",
+          "anchor": "PAX_055",
+          "min": [
+            2.9579999446868896,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            3.628999948501587,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_056",
+          "anchor": "PAX_056",
+          "min": [
+            2.9579999446868896,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            3.628999948501587,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_057",
+          "anchor": "PAX_057",
+          "min": [
+            2.9579999446868896,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            3.628999948501587,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_058",
+          "anchor": "PAX_058",
+          "min": [
+            2.9579999446868896,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            3.628999948501587,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_059",
+          "anchor": "PAX_059",
+          "min": [
+            2.9579999446868896,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            3.628999948501587,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_060",
+          "anchor": "PAX_060",
+          "min": [
+            3.9020001888275146,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            4.572999954223633,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_061",
+          "anchor": "PAX_061",
+          "min": [
+            3.9020001888275146,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            4.572999954223633,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_062",
+          "anchor": "PAX_062",
+          "min": [
+            3.9020001888275146,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            4.572999954223633,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_063",
+          "anchor": "PAX_063",
+          "min": [
+            3.9020001888275146,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            4.572999954223633,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_064",
+          "anchor": "PAX_064",
+          "min": [
+            3.9020001888275146,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            4.572999954223633,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_065",
+          "anchor": "PAX_065",
+          "min": [
+            4.845999717712402,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            5.5169997215271,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_066",
+          "anchor": "PAX_066",
+          "min": [
+            4.845999717712402,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            5.5169997215271,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_067",
+          "anchor": "PAX_067",
+          "min": [
+            4.845999717712402,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            5.5169997215271,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_068",
+          "anchor": "PAX_068",
+          "min": [
+            4.845999717712402,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            5.5169997215271,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_069",
+          "anchor": "PAX_069",
+          "min": [
+            4.845999717712402,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            5.5169997215271,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_070",
+          "anchor": "PAX_070",
+          "min": [
+            5.789999961853027,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            6.460999965667725,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_071",
+          "anchor": "PAX_071",
+          "min": [
+            5.789999961853027,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            6.460999965667725,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_072",
+          "anchor": "PAX_072",
+          "min": [
+            5.789999961853027,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            6.460999965667725,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_073",
+          "anchor": "PAX_073",
+          "min": [
+            5.789999961853027,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            6.460999965667725,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_074",
+          "anchor": "PAX_074",
+          "min": [
+            5.789999961853027,
+            -0.5120000243186951,
+            1.3250000476837158
+          ],
+          "max": [
+            6.460999965667725,
+            -0.017999975010752678,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_075",
+          "anchor": "PAX_075",
+          "min": [
+            6.733999729156494,
+            0.5119999647140503,
+            1.3250000476837158
+          ],
+          "max": [
+            7.404999732971191,
+            1.00600004196167,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_076",
+          "anchor": "PAX_076",
+          "min": [
+            6.733999729156494,
+            1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            7.404999732971191,
+            1.5049999952316284,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_077",
+          "anchor": "PAX_077",
+          "min": [
+            6.733999729156494,
+            -1.5099999904632568,
+            1.3250000476837158
+          ],
+          "max": [
+            7.404999732971191,
+            -1.0160000324249268,
+            2.660890579223633
+          ]
+        },
+        {
+          "object": "VB02_INT_seat_078",
+          "anchor": "PAX_078",
+          "min": [
+            6.733999729156494,
+            -1.0110000371932983,
+            1.3250000476837158
+          ],
+          "max": [
+            7.404999732971191,
+            -0.5169999599456787,
+            2.660890579223633
+          ]
+        }
+      ],
+      "new_mesh_objects": 266,
+      "mesh_vertices_instanced": 956470,
+      "mesh_triangles_instanced": 1654428,
+      "baseline_visual_replacements": [
+        "Curved_ceiling_inner"
+      ],
+      "provenance": "CAMTECH September 2022 system layouts pp28\u201333, with original procedural fitting detail and textile shaders",
+      "limitations": [
+        "DTC cubicle outline, seat reference datums and small fittings are drawing-derived visual interpretations, not production or accessibility certification",
+        "Jacquard, weave and shelf etching are original approximations, not copied photographs",
+        "Passenger trays, recline, rotary seats and service doors are static geometry; each chair follows its own PAX anchor",
+        "TC_EC reuses the 52-seat EC layout as the disclosed eight-car derivative interpretation"
+      ],
+      "camera_suggestions": {
+        "CC_aisle": {
+          "location": [
+            -7.9,
+            0.18,
+            2.73
+          ],
+          "target": [
+            6.8,
+            0.18,
+            2.41
+          ],
+          "lens_mm": 20
+        },
+        "EC_aisle": {
+          "location": [
+            -7.7,
+            0,
+            2.75
+          ],
+          "target": [
+            6.8,
+            0,
+            2.44
+          ],
+          "lens_mm": 20
+        },
+        "seat_detail": {
+          "location": [
+            -1.8,
+            0.28,
+            2.62
+          ],
+          "target": [
+            -2.1,
+            -0.74,
+            2.22
+          ],
+          "lens_mm": 45
+        },
+        "mini_pantry": {
+          "location": [
+            10.6,
+            0.0,
+            2.64
+          ],
+          "target": [
+            8.8,
+            1.0,
+            2.3
+          ],
+          "lens_mm": 24
+        },
+        "toilet_detail": {
+          "location": [
+            -9.265,
+            0.14,
+            2.6
+          ],
+          "target": [
+            -9.45,
+            1.16,
+            1.98
+          ],
+          "lens_mm": 18
+        },
+        "toilet_cutaway": "Hide VB02_INT_service_removable_closed_door and cabin_roof, view from centre passage"
+      }
+    },
+    "cab": {
+      "component": "cab",
+      "applied": false,
+      "reason": "Driving cab belongs to DTC only"
+    }
+  },
+  "bounds_lowered_m": {
+    "min": [
+      -12.0,
+      -1.6929999589920044,
+      -0.02800002694129944
+    ],
+    "max": [
+      12.0,
+      1.6929999589920044,
+      4.259999752044678
+    ]
+  },
+  "passenger_seats": 78,
+  "driver_seats": 0,
+  "objects": 2717,
+  "mesh_objects": 2570,
+  "protected_transform_count": 97,
+  "protected_controls_unchanged": true,
+  "protected_transforms": {
+    "AXLE_A_1_ROLL_Y": {
+      "parent": "BOGIE_A_YAW_Z",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.099999904632568
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.47599998116493225
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "AXLE_A_2_ROLL_Y": {
+      "parent": "BOGIE_A_YAW_Z",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          8.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.47599998116493225
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "AXLE_B_1_ROLL_Y": {
+      "parent": "BOGIE_B_YAW_Z",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.47599998116493225
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "AXLE_B_2_ROLL_Y": {
+      "parent": "BOGIE_B_YAW_Z",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.099999904632568
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.47599998116493225
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BODY": {
+      "parent": "VB_TC_CC_ROOT",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_A_YAW_Z": {
+      "parent": "VB_TC_CC_ROOT",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          7.449999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7099999785423279
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "BOGIE_B_YAW_Z": {
+      "parent": "VB_TC_CC_ROOT",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.449999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7099999785423279
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "COUPLING_FRONT": {
+      "parent": "VB_TC_CC_ROOT",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          12.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9399999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "COUPLING_REAR": {
+      "parent": "VB_TC_CC_ROOT",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          -12.0
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9399999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_L_1_SLIDE": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.729999542236328
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.5800000429153442
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.3200000524520874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_L_2_SLIDE": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.729999542236328
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.5800000429153442
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.3200000524520874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_R_1_SLIDE": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.729999542236328
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.5800000429153442
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.3200000524520874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "DOOR_R_2_SLIDE": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.729999542236328
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.5800000429153442
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.3200000524520874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PANTO_BASE": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          9.5
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PANTO_CTRL": {
+      "parent": "PANTO_BASE",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          9.5
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PANTO_ELBOW_PIVOT": {
+      "parent": "PANTO_LOWER_PIVOT",
+      "matrix": [
+        [
+          -0.9964281916618347,
+          8.742277657347586e-08,
+          -0.08444445580244064,
+          8.00535774230957
+        ],
+        [
+          -8.711052146281872e-08,
+          -1.0,
+          -7.382368938380068e-09,
+          -1.3066578219422809e-07
+        ],
+        [
+          -0.08444445580244064,
+          0.0,
+          0.9964281916618347,
+          4.12666654586792
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PANTO_HEAD_LEVEL_PIVOT": {
+      "parent": "PANTO_ELBOW_PIVOT",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          -1.4901161193847656e-08,
+          9.201071739196777
+        ],
+        [
+          -8.742278367890322e-08,
+          -1.0,
+          -1.3322676295501878e-15,
+          -2.613315075450373e-08
+        ],
+        [
+          -1.4901161193847656e-08,
+          0.0,
+          1.0,
+          4.227999687194824
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PANTO_LOWER_PIVOT": {
+      "parent": "PANTO_CTRL",
+      "matrix": [
+        [
+          -0.9964281916618347,
+          8.742277657347586e-08,
+          0.08444444090127945,
+          9.5
+        ],
+        [
+          -8.711052146281872e-08,
+          -1.0,
+          7.382367606112439e-09,
+          0.0
+        ],
+        [
+          0.08444444090127945,
+          0.0,
+          0.9964281916618347,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_001": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.688000202178955
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_002": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.688000202178955
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_003": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.688000202178955
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_004": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.688000202178955
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_005": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.74399995803833
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_006": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.74399995803833
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_007": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.74399995803833
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_008": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.74399995803833
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_009": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.74399995803833
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_010": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_011": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_012": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_013": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_014": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.800000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_015": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.855999946594238
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_016": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.855999946594238
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_017": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.855999946594238
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_018": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.855999946594238
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_019": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.855999946594238
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_020": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9119999408721924
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_021": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9119999408721924
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_022": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9119999408721924
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_023": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9119999408721924
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_024": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9119999408721924
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_025": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.9679999351501465
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_026": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.9679999351501465
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_027": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.9679999351501465
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_028": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.9679999351501465
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_029": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.9679999351501465
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_030": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0239999294281006
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_031": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0239999294281006
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_032": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0239999294281006
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_033": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0239999294281006
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_034": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0239999294281006
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_035": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0800000429153442
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_036": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0800000429153442
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_037": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0800000429153442
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_038": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0800000429153442
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_039": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0800000429153442
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_040": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.3799999952316284
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_041": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.3799999952316284
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_042": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.3799999952316284
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_043": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.3799999952316284
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_044": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          0.3799999952316284
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_045": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          1.3240000009536743
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_046": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          1.3240000009536743
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_047": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          1.3240000009536743
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_048": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          1.3240000009536743
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_049": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          1.3240000009536743
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_050": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          2.2679998874664307
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_051": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          2.2679998874664307
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_052": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          2.2679998874664307
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_053": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          2.2679998874664307
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_054": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          2.2679998874664307
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_055": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          3.2119998931884766
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_056": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          3.2119998931884766
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_057": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          3.2119998931884766
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_058": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          3.2119998931884766
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_059": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          3.2119998931884766
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_060": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          4.156000137329102
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_061": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          4.156000137329102
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_062": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          4.156000137329102
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_063": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          4.156000137329102
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_064": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          4.156000137329102
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_065": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          5.099999904632568
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_066": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          5.099999904632568
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_067": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          5.099999904632568
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_068": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          5.099999904632568
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_069": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          5.099999904632568
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_070": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.044000148773193
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_071": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.044000148773193
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_072": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.044000148773193
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_073": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.044000148773193
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_074": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.044000148773193
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.26499998569488525
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_075": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.98799991607666
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          0.7590000033378601
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_076": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.98799991607666
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          1.2580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_077": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.98799991607666
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -1.2630000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PAX_078": {
+      "parent": "BODY",
+      "matrix": [
+        [
+          -1.0,
+          8.742277657347586e-08,
+          0.0,
+          6.98799991607666
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -0.7639999985694885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2669999599456787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "VB_TC_CC_ROOT": {
+      "parent": null,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "component_sha256": {
+    "prototype_base.py": "75c86f37fd045cb5d9e3bf9293c0f417fc15f4615cd15af82c6cc526d3640ee3",
+    "common.py": "61ec45c1e2ab246683b2449818f4c1e8771541daaa5d76541d3a61cda225dd20",
+    "interior_layout.py": "2b696a911966e8dbcaa14d09be40e4b7c2f9b5cb33d1b1af414617a6dcb2d00d",
+    "running_gear.py": "fe30c1d60b6274f16d08ea5ce93e76e6667209bc8aaa8d8405e207c1c3a11746",
+    "prototype_dimensions.py": "de21e66c2f3446637d82ecd152ab1b7ee2d7e50738a5e749034c3c44d5bca6a6",
+    "environment_depot.py": "3ce4be78ea757ab389f530e28d0b59c8f75273d0c5102dd36f7179995f98b4cd",
+    "panto_micro.py": "1142224841a45e48b8b4fe48cdf764780e0b3073e99fbc83b170ac835dff0136",
+    "interiors.py": "d5a6d5f23c156c187976596622cdeda1c04ffe684b62de83dbe9c8d145c11c90",
+    "railway_presentation.py": "b1138ad1d3163cb39f3a8d560a0be48ec1029f3731428148f5759e90b94351c2",
+    "endcap_detail.py": "471ddc6d901a5638e59b38ecc13eb2774c865ef01ff24a8c5c9c92b99991acea",
+    "cab.py": "64c04118dda988e44f2edd8fd524fab46e2b3f1d7ae3f488cf30f45bad16b0d6",
+    "exterior.py": "8d134f3a8c740275bb9000ce0ff9d19df9660fe13f111208d02dd996cb37b171",
+    "materials.py": "f07d2adbbd784a806b4730976cc3a2a148e572b31b3a29a1a188ede82d116dbd",
+    "vcb_detail.py": "6bde88eea37987c436bb500dd5691d06c3a381b970e2d929bfa92e6bd72d0cc5",
+    "roof_equipment.py": "c52acdabd63ed4bf172a61adc85c3bda293984abb1cd94771c7cd3e4d561e57a"
+  }
+}

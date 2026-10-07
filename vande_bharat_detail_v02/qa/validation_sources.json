@@ -1,0 +1,1389 @@
+{
+  "DTC": {
+    "kind": "DTC",
+    "source_sha256": "88b246772e7ac1dc88c5a8fcf407c2fd0e4bc92ed35cc4187868876e292d65e6",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 44,
+    "armrest_clear_aisle_m": 0.53,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_cab_side_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_cab_side_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_laminated_windscreen",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  },
+  "MC": {
+    "kind": "MC",
+    "source_sha256": "d57c622a4ead092801d947c3c4e83ac5d7e15da64d6fbe6fe013764da14235aa",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 78,
+    "armrest_clear_aisle_m": 0.53,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  },
+  "MC2": {
+    "kind": "MC2",
+    "source_sha256": "db62fc7a97c001afd705c5895031fbfe20b7ab3d6084668fce2c0adf6fb3d992",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 78,
+    "armrest_clear_aisle_m": 0.53,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  },
+  "TC_CC": {
+    "kind": "TC_CC",
+    "source_sha256": "4d66f26c14fca7a836ade8bde9816546d0bf4f79fa45e19532a14939f1270a8b",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true,
+      "contact_top_folded_prototype_envelope": true,
+      "contact_top_raised_authoring_target": true,
+      "head_level_101_poses": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 78,
+    "armrest_clear_aisle_m": 0.53,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [
+      {
+        "extension": 0.0,
+        "contact_top_z": 4.259999752044678,
+        "head_level_error": 1.4901161193847716e-08
+      },
+      {
+        "extension": 0.01,
+        "contact_top_z": 4.278511047363281,
+        "head_level_error": 7.450580596923881e-09
+      },
+      {
+        "extension": 0.02,
+        "contact_top_z": 4.297010898590088,
+        "head_level_error": 1.4901161193847683e-08
+      },
+      {
+        "extension": 0.03,
+        "contact_top_z": 4.315497875213623,
+        "head_level_error": 7.450580596924305e-09
+      },
+      {
+        "extension": 0.04,
+        "contact_top_z": 4.33397102355957,
+        "head_level_error": 1.1944189326376765e-07
+      },
+      {
+        "extension": 0.05,
+        "contact_top_z": 4.35243034362793,
+        "head_level_error": 1.4901161193847656e-08
+      },
+      {
+        "extension": 0.06,
+        "contact_top_z": 4.370874404907227,
+        "head_level_error": 2.980232238769543e-08
+      },
+      {
+        "extension": 0.07,
+        "contact_top_z": 4.3893022537231445,
+        "head_level_error": 1.4901161193847656e-08
+      },
+      {
+        "extension": 0.08,
+        "contact_top_z": 4.407713413238525,
+        "head_level_error": 6.664001874625062e-08
+      },
+      {
+        "extension": 0.09,
+        "contact_top_z": 4.4261064529418945,
+        "head_level_error": 1.4901161193847683e-08
+      },
+      {
+        "extension": 0.1,
+        "contact_top_z": 4.444480895996094,
+        "head_level_error": 1.2013700229374393e-07
+      },
+      {
+        "extension": 0.11,
+        "contact_top_z": 4.462836265563965,
+        "head_level_error": 2.980232238769543e-08
+      },
+      {
+        "extension": 0.12,
+        "contact_top_z": 4.481171131134033,
+        "head_level_error": 6.143906154658885e-08
+      },
+      {
+        "extension": 0.13,
+        "contact_top_z": 4.499484539031982,
+        "head_level_error": 1.4901161193847762e-08
+      },
+      {
+        "extension": 0.14,
+        "contact_top_z": 4.517775535583496,
+        "head_level_error": 1.4901161193847762e-08
+      },
+      {
+        "extension": 0.15,
+        "contact_top_z": 4.536043643951416,
+        "head_level_error": 4.4703483581543286e-08
+      },
+      {
+        "extension": 0.16,
+        "contact_top_z": 4.554288387298584,
+        "head_level_error": 1.490116119384808e-08
+      },
+      {
+        "extension": 0.17,
+        "contact_top_z": 4.572507858276367,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.18,
+        "contact_top_z": 4.590701580047607,
+        "head_level_error": 1.1920928955078125e-07
+      },
+      {
+        "extension": 0.19,
+        "contact_top_z": 4.6088690757751465,
+        "head_level_error": 7.450580596923836e-08
+      },
+      {
+        "extension": 0.2,
+        "contact_top_z": 4.627009391784668,
+        "head_level_error": 1.2013700229374395e-07
+      },
+      {
+        "extension": 0.21,
+        "contact_top_z": 4.645121097564697,
+        "head_level_error": 5.960464477539065e-08
+      },
+      {
+        "extension": 0.22,
+        "contact_top_z": 4.663204193115234,
+        "head_level_error": 1.4901161193847656e-08
+      },
+      {
+        "extension": 0.23,
+        "contact_top_z": 4.6812567710876465,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.24,
+        "contact_top_z": 4.69927978515625,
+        "head_level_error": 1.1920928955078125e-07
+      },
+      {
+        "extension": 0.25,
+        "contact_top_z": 4.717270374298096,
+        "head_level_error": 6.143906154658895e-08
+      },
+      {
+        "extension": 0.26,
+        "contact_top_z": 4.735228061676025,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.27,
+        "contact_top_z": 4.753153324127197,
+        "head_level_error": 2.9802322387695365e-08
+      },
+      {
+        "extension": 0.28,
+        "contact_top_z": 4.7710442543029785,
+        "head_level_error": 6.664001874625056e-08
+      },
+      {
+        "extension": 0.29,
+        "contact_top_z": 4.788899898529053,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.3,
+        "contact_top_z": 4.806719779968262,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.31,
+        "contact_top_z": 4.824502944946289,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.32,
+        "contact_top_z": 4.842248439788818,
+        "head_level_error": 5.960464477539065e-08
+      },
+      {
+        "extension": 0.33,
+        "contact_top_z": 4.859955787658691,
+        "head_level_error": 1.7763568394002505e-15
+      },
+      {
+        "extension": 0.34,
+        "contact_top_z": 4.877624034881592,
+        "head_level_error": 6.664001874625059e-08
+      },
+      {
+        "extension": 0.35,
+        "contact_top_z": 4.895251750946045,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.36,
+        "contact_top_z": 4.912839412689209,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.37,
+        "contact_top_z": 4.930384635925293,
+        "head_level_error": 2.9802322387695365e-08
+      },
+      {
+        "extension": 0.38,
+        "contact_top_z": 4.947887420654297,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.39,
+        "contact_top_z": 4.965346813201904,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.4,
+        "contact_top_z": 4.982761859893799,
+        "head_level_error": 5.960464477539105e-08
+      },
+      {
+        "extension": 0.41,
+        "contact_top_z": 5.000132083892822,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.42,
+        "contact_top_z": 5.017456531524658,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.43,
+        "contact_top_z": 5.03473424911499,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.44,
+        "contact_top_z": 5.051963806152344,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.45,
+        "contact_top_z": 5.069145679473877,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.46,
+        "contact_top_z": 5.086278915405273,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.47,
+        "contact_top_z": 5.103361129760742,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.48,
+        "contact_top_z": 5.1203932762146,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.49,
+        "contact_top_z": 5.137373924255371,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.5,
+        "contact_top_z": 5.154301643371582,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.51,
+        "contact_top_z": 5.171176910400391,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.52,
+        "contact_top_z": 5.187997817993164,
+        "head_level_error": 1.2287812309317775e-07
+      },
+      {
+        "extension": 0.53,
+        "contact_top_z": 5.204763889312744,
+        "head_level_error": 8.429369702178807e-08
+      },
+      {
+        "extension": 0.54,
+        "contact_top_z": 5.221474647521973,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.55,
+        "contact_top_z": 5.238129138946533,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.56,
+        "contact_top_z": 5.254725933074951,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.57,
+        "contact_top_z": 5.271265029907227,
+        "head_level_error": 8.429369702178807e-08
+      },
+      {
+        "extension": 0.58,
+        "contact_top_z": 5.287745952606201,
+        "head_level_error": 1.192092895507813e-07
+      },
+      {
+        "extension": 0.59,
+        "contact_top_z": 5.3041672706604,
+        "head_level_error": 1.2287812309317775e-07
+      },
+      {
+        "extension": 0.6,
+        "contact_top_z": 5.32052755355835,
+        "head_level_error": 8.9406967163086e-08
+      },
+      {
+        "extension": 0.61,
+        "contact_top_z": 5.336827278137207,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.62,
+        "contact_top_z": 5.353065013885498,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.63,
+        "contact_top_z": 5.369240760803223,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.64,
+        "contact_top_z": 5.385352611541748,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.65,
+        "contact_top_z": 5.401400566101074,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.66,
+        "contact_top_z": 5.417383670806885,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.67,
+        "contact_top_z": 5.433300971984863,
+        "head_level_error": 1.3328003749250113e-07
+      },
+      {
+        "extension": 0.68,
+        "contact_top_z": 5.44915246963501,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.69,
+        "contact_top_z": 5.464935779571533,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.7,
+        "contact_top_z": 5.48065185546875,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.71,
+        "contact_top_z": 5.4962992668151855,
+        "head_level_error": 5.960464477539105e-08
+      },
+      {
+        "extension": 0.72,
+        "contact_top_z": 5.511877536773682,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.73,
+        "contact_top_z": 5.527385234832764,
+        "head_level_error": 8.429369702178814e-08
+      },
+      {
+        "extension": 0.74,
+        "contact_top_z": 5.54282283782959,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.75,
+        "contact_top_z": 5.558187961578369,
+        "head_level_error": 8.9406967163086e-08
+      },
+      {
+        "extension": 0.76,
+        "contact_top_z": 5.57348108291626,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.77,
+        "contact_top_z": 5.588701248168945,
+        "head_level_error": 6.664001874625093e-08
+      },
+      {
+        "extension": 0.78,
+        "contact_top_z": 5.603847503662109,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.79,
+        "contact_top_z": 5.618919849395752,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.8,
+        "contact_top_z": 5.63391637802124,
+        "head_level_error": 1.1920928955078125e-07
+      },
+      {
+        "extension": 0.81,
+        "contact_top_z": 5.648837566375732,
+        "head_level_error": 5.960464477539158e-08
+      },
+      {
+        "extension": 0.82,
+        "contact_top_z": 5.663681983947754,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.83,
+        "contact_top_z": 5.6784491539001465,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.84,
+        "contact_top_z": 5.693138122558594,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.85,
+        "contact_top_z": 5.7077484130859375,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.86,
+        "contact_top_z": 5.7222795486450195,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.87,
+        "contact_top_z": 5.736730575561523,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.88,
+        "contact_top_z": 5.751100540161133,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.89,
+        "contact_top_z": 5.765389442443848,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.9,
+        "contact_top_z": 5.779595851898193,
+        "head_level_error": 2.980232238769616e-08
+      },
+      {
+        "extension": 0.91,
+        "contact_top_z": 5.79371976852417,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.92,
+        "contact_top_z": 5.807759761810303,
+        "head_level_error": 8.429369702178807e-08
+      },
+      {
+        "extension": 0.93,
+        "contact_top_z": 5.821716785430908,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.94,
+        "contact_top_z": 5.835587978363037,
+        "head_level_error": 6.664001874625141e-08
+      },
+      {
+        "extension": 0.95,
+        "contact_top_z": 5.849373817443848,
+        "head_level_error": 6.664001874625056e-08
+      },
+      {
+        "extension": 0.96,
+        "contact_top_z": 5.86307430267334,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.97,
+        "contact_top_z": 5.876687049865723,
+        "head_level_error": 5.960464477539105e-08
+      },
+      {
+        "extension": 0.98,
+        "contact_top_z": 5.8902130126953125,
+        "head_level_error": 5.960464477539158e-08
+      },
+      {
+        "extension": 0.99,
+        "contact_top_z": 5.903651237487793,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 1.0,
+        "contact_top_z": 5.916999816894531,
+        "head_level_error": 0.0
+      }
+    ],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  },
+  "TC_EC": {
+    "kind": "TC_EC",
+    "source_sha256": "fb9cab2aa11a1219df252e7aac313307cc740413348e9c5759245255b28dfeaa",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true,
+      "contact_top_folded_prototype_envelope": true,
+      "contact_top_raised_authoring_target": true,
+      "head_level_101_poses": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 52,
+    "armrest_clear_aisle_m": 0.541,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [
+      {
+        "extension": 0.0,
+        "contact_top_z": 4.259999752044678,
+        "head_level_error": 1.4901161193847716e-08
+      },
+      {
+        "extension": 0.01,
+        "contact_top_z": 4.278511047363281,
+        "head_level_error": 7.450580596923881e-09
+      },
+      {
+        "extension": 0.02,
+        "contact_top_z": 4.297010898590088,
+        "head_level_error": 1.4901161193847683e-08
+      },
+      {
+        "extension": 0.03,
+        "contact_top_z": 4.315497875213623,
+        "head_level_error": 7.450580596924305e-09
+      },
+      {
+        "extension": 0.04,
+        "contact_top_z": 4.33397102355957,
+        "head_level_error": 1.1944189326376765e-07
+      },
+      {
+        "extension": 0.05,
+        "contact_top_z": 4.35243034362793,
+        "head_level_error": 1.4901161193847656e-08
+      },
+      {
+        "extension": 0.06,
+        "contact_top_z": 4.370874404907227,
+        "head_level_error": 2.980232238769543e-08
+      },
+      {
+        "extension": 0.07,
+        "contact_top_z": 4.3893022537231445,
+        "head_level_error": 1.4901161193847656e-08
+      },
+      {
+        "extension": 0.08,
+        "contact_top_z": 4.407713413238525,
+        "head_level_error": 6.664001874625062e-08
+      },
+      {
+        "extension": 0.09,
+        "contact_top_z": 4.4261064529418945,
+        "head_level_error": 1.4901161193847683e-08
+      },
+      {
+        "extension": 0.1,
+        "contact_top_z": 4.444480895996094,
+        "head_level_error": 1.2013700229374393e-07
+      },
+      {
+        "extension": 0.11,
+        "contact_top_z": 4.462836265563965,
+        "head_level_error": 2.980232238769543e-08
+      },
+      {
+        "extension": 0.12,
+        "contact_top_z": 4.481171131134033,
+        "head_level_error": 6.143906154658885e-08
+      },
+      {
+        "extension": 0.13,
+        "contact_top_z": 4.499484539031982,
+        "head_level_error": 1.4901161193847762e-08
+      },
+      {
+        "extension": 0.14,
+        "contact_top_z": 4.517775535583496,
+        "head_level_error": 1.4901161193847762e-08
+      },
+      {
+        "extension": 0.15,
+        "contact_top_z": 4.536043643951416,
+        "head_level_error": 4.4703483581543286e-08
+      },
+      {
+        "extension": 0.16,
+        "contact_top_z": 4.554288387298584,
+        "head_level_error": 1.490116119384808e-08
+      },
+      {
+        "extension": 0.17,
+        "contact_top_z": 4.572507858276367,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.18,
+        "contact_top_z": 4.590701580047607,
+        "head_level_error": 1.1920928955078125e-07
+      },
+      {
+        "extension": 0.19,
+        "contact_top_z": 4.6088690757751465,
+        "head_level_error": 7.450580596923836e-08
+      },
+      {
+        "extension": 0.2,
+        "contact_top_z": 4.627009391784668,
+        "head_level_error": 1.2013700229374395e-07
+      },
+      {
+        "extension": 0.21,
+        "contact_top_z": 4.645121097564697,
+        "head_level_error": 5.960464477539065e-08
+      },
+      {
+        "extension": 0.22,
+        "contact_top_z": 4.663204193115234,
+        "head_level_error": 1.4901161193847656e-08
+      },
+      {
+        "extension": 0.23,
+        "contact_top_z": 4.6812567710876465,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.24,
+        "contact_top_z": 4.69927978515625,
+        "head_level_error": 1.1920928955078125e-07
+      },
+      {
+        "extension": 0.25,
+        "contact_top_z": 4.717270374298096,
+        "head_level_error": 6.143906154658895e-08
+      },
+      {
+        "extension": 0.26,
+        "contact_top_z": 4.735228061676025,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.27,
+        "contact_top_z": 4.753153324127197,
+        "head_level_error": 2.9802322387695365e-08
+      },
+      {
+        "extension": 0.28,
+        "contact_top_z": 4.7710442543029785,
+        "head_level_error": 6.664001874625056e-08
+      },
+      {
+        "extension": 0.29,
+        "contact_top_z": 4.788899898529053,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.3,
+        "contact_top_z": 4.806719779968262,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.31,
+        "contact_top_z": 4.824502944946289,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.32,
+        "contact_top_z": 4.842248439788818,
+        "head_level_error": 5.960464477539065e-08
+      },
+      {
+        "extension": 0.33,
+        "contact_top_z": 4.859955787658691,
+        "head_level_error": 1.7763568394002505e-15
+      },
+      {
+        "extension": 0.34,
+        "contact_top_z": 4.877624034881592,
+        "head_level_error": 6.664001874625059e-08
+      },
+      {
+        "extension": 0.35,
+        "contact_top_z": 4.895251750946045,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.36,
+        "contact_top_z": 4.912839412689209,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.37,
+        "contact_top_z": 4.930384635925293,
+        "head_level_error": 2.9802322387695365e-08
+      },
+      {
+        "extension": 0.38,
+        "contact_top_z": 4.947887420654297,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.39,
+        "contact_top_z": 4.965346813201904,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.4,
+        "contact_top_z": 4.982761859893799,
+        "head_level_error": 5.960464477539105e-08
+      },
+      {
+        "extension": 0.41,
+        "contact_top_z": 5.000132083892822,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.42,
+        "contact_top_z": 5.017456531524658,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.43,
+        "contact_top_z": 5.03473424911499,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.44,
+        "contact_top_z": 5.051963806152344,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.45,
+        "contact_top_z": 5.069145679473877,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.46,
+        "contact_top_z": 5.086278915405273,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.47,
+        "contact_top_z": 5.103361129760742,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.48,
+        "contact_top_z": 5.1203932762146,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.49,
+        "contact_top_z": 5.137373924255371,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.5,
+        "contact_top_z": 5.154301643371582,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.51,
+        "contact_top_z": 5.171176910400391,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.52,
+        "contact_top_z": 5.187997817993164,
+        "head_level_error": 1.2287812309317775e-07
+      },
+      {
+        "extension": 0.53,
+        "contact_top_z": 5.204763889312744,
+        "head_level_error": 8.429369702178807e-08
+      },
+      {
+        "extension": 0.54,
+        "contact_top_z": 5.221474647521973,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.55,
+        "contact_top_z": 5.238129138946533,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.56,
+        "contact_top_z": 5.254725933074951,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.57,
+        "contact_top_z": 5.271265029907227,
+        "head_level_error": 8.429369702178807e-08
+      },
+      {
+        "extension": 0.58,
+        "contact_top_z": 5.287745952606201,
+        "head_level_error": 1.192092895507813e-07
+      },
+      {
+        "extension": 0.59,
+        "contact_top_z": 5.3041672706604,
+        "head_level_error": 1.2287812309317775e-07
+      },
+      {
+        "extension": 0.6,
+        "contact_top_z": 5.32052755355835,
+        "head_level_error": 8.9406967163086e-08
+      },
+      {
+        "extension": 0.61,
+        "contact_top_z": 5.336827278137207,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.62,
+        "contact_top_z": 5.353065013885498,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.63,
+        "contact_top_z": 5.369240760803223,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.64,
+        "contact_top_z": 5.385352611541748,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.65,
+        "contact_top_z": 5.401400566101074,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.66,
+        "contact_top_z": 5.417383670806885,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.67,
+        "contact_top_z": 5.433300971984863,
+        "head_level_error": 1.3328003749250113e-07
+      },
+      {
+        "extension": 0.68,
+        "contact_top_z": 5.44915246963501,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.69,
+        "contact_top_z": 5.464935779571533,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.7,
+        "contact_top_z": 5.48065185546875,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.71,
+        "contact_top_z": 5.4962992668151855,
+        "head_level_error": 5.960464477539105e-08
+      },
+      {
+        "extension": 0.72,
+        "contact_top_z": 5.511877536773682,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.73,
+        "contact_top_z": 5.527385234832764,
+        "head_level_error": 8.429369702178814e-08
+      },
+      {
+        "extension": 0.74,
+        "contact_top_z": 5.54282283782959,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.75,
+        "contact_top_z": 5.558187961578369,
+        "head_level_error": 8.9406967163086e-08
+      },
+      {
+        "extension": 0.76,
+        "contact_top_z": 5.57348108291626,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.77,
+        "contact_top_z": 5.588701248168945,
+        "head_level_error": 6.664001874625093e-08
+      },
+      {
+        "extension": 0.78,
+        "contact_top_z": 5.603847503662109,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 0.79,
+        "contact_top_z": 5.618919849395752,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.8,
+        "contact_top_z": 5.63391637802124,
+        "head_level_error": 1.1920928955078125e-07
+      },
+      {
+        "extension": 0.81,
+        "contact_top_z": 5.648837566375732,
+        "head_level_error": 5.960464477539158e-08
+      },
+      {
+        "extension": 0.82,
+        "contact_top_z": 5.663681983947754,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.83,
+        "contact_top_z": 5.6784491539001465,
+        "head_level_error": 1.228781230931777e-07
+      },
+      {
+        "extension": 0.84,
+        "contact_top_z": 5.693138122558594,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.85,
+        "contact_top_z": 5.7077484130859375,
+        "head_level_error": 2.9802322387695312e-08
+      },
+      {
+        "extension": 0.86,
+        "contact_top_z": 5.7222795486450195,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.87,
+        "contact_top_z": 5.736730575561523,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.88,
+        "contact_top_z": 5.751100540161133,
+        "head_level_error": 0.0
+      },
+      {
+        "extension": 0.89,
+        "contact_top_z": 5.765389442443848,
+        "head_level_error": 3.552713678800501e-15
+      },
+      {
+        "extension": 0.9,
+        "contact_top_z": 5.779595851898193,
+        "head_level_error": 2.980232238769616e-08
+      },
+      {
+        "extension": 0.91,
+        "contact_top_z": 5.79371976852417,
+        "head_level_error": 5.960464477539073e-08
+      },
+      {
+        "extension": 0.92,
+        "contact_top_z": 5.807759761810303,
+        "head_level_error": 8.429369702178807e-08
+      },
+      {
+        "extension": 0.93,
+        "contact_top_z": 5.821716785430908,
+        "head_level_error": 8.940696716308594e-08
+      },
+      {
+        "extension": 0.94,
+        "contact_top_z": 5.835587978363037,
+        "head_level_error": 6.664001874625141e-08
+      },
+      {
+        "extension": 0.95,
+        "contact_top_z": 5.849373817443848,
+        "head_level_error": 6.664001874625056e-08
+      },
+      {
+        "extension": 0.96,
+        "contact_top_z": 5.86307430267334,
+        "head_level_error": 5.960464477539063e-08
+      },
+      {
+        "extension": 0.97,
+        "contact_top_z": 5.876687049865723,
+        "head_level_error": 5.960464477539105e-08
+      },
+      {
+        "extension": 0.98,
+        "contact_top_z": 5.8902130126953125,
+        "head_level_error": 5.960464477539158e-08
+      },
+      {
+        "extension": 0.99,
+        "contact_top_z": 5.903651237487793,
+        "head_level_error": 2.9802322387695524e-08
+      },
+      {
+        "extension": 1.0,
+        "contact_top_z": 5.916999816894531,
+        "head_level_error": 0.0
+      }
+    ],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  },
+  "NDTC_EC": {
+    "kind": "NDTC_EC",
+    "source_sha256": "363f71e1a8f42d70374293fb2d220050850149563a5a99786d931f4a179c82f5",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 52,
+    "armrest_clear_aisle_m": 0.541,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  },
+  "NDTC_EC2": {
+    "kind": "NDTC_EC2",
+    "source_sha256": "d2b1ff90a70381b52344012afd4576a9f08699f7a8bf146cc1f9d3fbeb98c01c",
+    "checks": {
+      "metric_scale": true,
+      "identity_root": true,
+      "coupling_FRONT_datum": true,
+      "coupling_REAR_datum": true,
+      "bogie_A_position": true,
+      "axle_A_1_wheelbase_and_parent": true,
+      "axle_A_2_wheelbase_and_parent": true,
+      "bogie_B_position": true,
+      "axle_B_1_wheelbase_and_parent": true,
+      "axle_B_2_wheelbase_and_parent": true,
+      "asset_ancestry": true,
+      "finite_vertices": true,
+      "external_images_resolve": true,
+      "emergency_window_dimensions": true,
+      "saloon_sill_callout": true,
+      "prototype_passenger_marker_count": true,
+      "actual_detailed_chair_mesh_count": true,
+      "actual_chairs_follow_separate_markers": true,
+      "seat_anchor_layout": true,
+      "two_secondary_bellows_each_bogie": true,
+      "new_glazing_closed": true
+    },
+    "failures": [],
+    "actual_seat_meshes": 52,
+    "armrest_clear_aisle_m": 0.541,
+    "cab_glazing": [
+      {
+        "name": "VB02_EXT_door_laminated_glass",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.001",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.002",
+        "nonmanifold_edges": 0
+      },
+      {
+        "name": "VB02_EXT_door_laminated_glass.003",
+        "nonmanifold_edges": 0
+      }
+    ],
+    "pantograph_poses": [],
+    "dimension_contract": "24m pitch;14.9m bogie centers;2.7m bogie wheelbase;true-length source. Marker changes relative to compactv01 are intentional.",
+    "scope": "Authoring source QA; no accessibility certification, runtime character fit, TF3 conversion or full train dynamics asserted"
+  }
+}

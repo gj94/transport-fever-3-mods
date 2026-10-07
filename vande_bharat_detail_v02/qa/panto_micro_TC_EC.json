@@ -1,0 +1,881 @@
+{
+  "pantograph_microhardware": true,
+  "objects": 619,
+  "mesh_objects": 597,
+  "live_copper_shunts": [
+    "VB02_PMICRO_copper_bypass_base_L",
+    "VB02_PMICRO_copper_bypass_elbow_L",
+    "VB02_PMICRO_copper_bypass_head_L",
+    "VB02_PMICRO_copper_bypass_base_R",
+    "VB02_PMICRO_copper_bypass_elbow_R",
+    "VB02_PMICRO_copper_bypass_head_R",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1",
+    "VB02_PMICRO_copper_bypass_rocker_1_1"
+  ],
+  "hook_deformed_meshes": [
+    "VB02_PMICRO_copper_bypass_base_L",
+    "VB02_PMICRO_copper_bypass_base_L_braid",
+    "VB02_PMICRO_copper_bypass_base_L_braid.001",
+    "VB02_PMICRO_copper_bypass_base_L_braid.002",
+    "VB02_PMICRO_copper_bypass_base_L_braid.003",
+    "VB02_PMICRO_copper_bypass_base_L_braid.004",
+    "VB02_PMICRO_copper_bypass_base_L_braid.005",
+    "VB02_PMICRO_copper_bypass_base_L_braid.006",
+    "VB02_PMICRO_copper_bypass_base_L_braid.007",
+    "VB02_PMICRO_copper_bypass_elbow_L",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.001",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.002",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.003",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.004",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.005",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.006",
+    "VB02_PMICRO_copper_bypass_elbow_L_braid.007",
+    "VB02_PMICRO_copper_bypass_head_L",
+    "VB02_PMICRO_copper_bypass_head_L_braid",
+    "VB02_PMICRO_copper_bypass_head_L_braid.001",
+    "VB02_PMICRO_copper_bypass_head_L_braid.002",
+    "VB02_PMICRO_copper_bypass_head_L_braid.003",
+    "VB02_PMICRO_copper_bypass_head_L_braid.004",
+    "VB02_PMICRO_copper_bypass_head_L_braid.005",
+    "VB02_PMICRO_copper_bypass_head_L_braid.006",
+    "VB02_PMICRO_copper_bypass_head_L_braid.007",
+    "VB02_PMICRO_copper_bypass_base_R",
+    "VB02_PMICRO_copper_bypass_base_R_braid",
+    "VB02_PMICRO_copper_bypass_base_R_braid.001",
+    "VB02_PMICRO_copper_bypass_base_R_braid.002",
+    "VB02_PMICRO_copper_bypass_base_R_braid.003",
+    "VB02_PMICRO_copper_bypass_base_R_braid.004",
+    "VB02_PMICRO_copper_bypass_base_R_braid.005",
+    "VB02_PMICRO_copper_bypass_base_R_braid.006",
+    "VB02_PMICRO_copper_bypass_base_R_braid.007",
+    "VB02_PMICRO_copper_bypass_elbow_R",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.001",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.002",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.003",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.004",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.005",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.006",
+    "VB02_PMICRO_copper_bypass_elbow_R_braid.007",
+    "VB02_PMICRO_copper_bypass_head_R",
+    "VB02_PMICRO_copper_bypass_head_R_braid",
+    "VB02_PMICRO_copper_bypass_head_R_braid.001",
+    "VB02_PMICRO_copper_bypass_head_R_braid.002",
+    "VB02_PMICRO_copper_bypass_head_R_braid.003",
+    "VB02_PMICRO_copper_bypass_head_R_braid.004",
+    "VB02_PMICRO_copper_bypass_head_R_braid.005",
+    "VB02_PMICRO_copper_bypass_head_R_braid.006",
+    "VB02_PMICRO_copper_bypass_head_R_braid.007",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.001",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.002",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.003",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.004",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.005",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.006",
+    "VB02_PMICRO_copper_bypass_rocker_-1_-1_braid.007",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.001",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.002",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.003",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.004",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.005",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.006",
+    "VB02_PMICRO_copper_bypass_rocker_-1_1_braid.007",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.001",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.002",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.003",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.004",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.005",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.006",
+    "VB02_PMICRO_copper_bypass_rocker_1_-1_braid.007",
+    "VB02_PMICRO_copper_bypass_rocker_1_1",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.001",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.002",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.003",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.004",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.005",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.006",
+    "VB02_PMICRO_copper_bypass_rocker_1_1_braid.007",
+    "VB02_PMICRO_monitoring_head_flex"
+  ],
+  "head_contact_plane_local_m": 0.032,
+  "nominal_head_width_m": 1.8,
+  "strip_center_spacing_m": 0.39,
+  "cameras": {
+    "head_macro": {
+      "location": [
+        10.265214920043945,
+        -1.8200000524520874,
+        6.714999675750732
+      ],
+      "target": [
+        9.2852144241333,
+        -1.8777186028273718e-08,
+        5.836999893188477
+      ],
+      "lens_mm": 48,
+      "extension": 1
+    },
+    "head_underside": {
+      "location": [
+        10.265214920043945,
+        -1.4500000476837158,
+        5.604999542236328
+      ],
+      "target": [
+        9.2852144241333,
+        -1.8777186028273718e-08,
+        5.8329997062683105
+      ],
+      "lens_mm": 48,
+      "extension": 1
+    },
+    "base_macro": {
+      "location": [
+        10.40000057220459,
+        -1.4799998998641968,
+        5.069999694824219
+      ],
+      "target": [
+        9.350000381469727,
+        -1.311341701892843e-08,
+        4.059999942779541
+      ],
+      "lens_mm": 55,
+      "extension": 1
+    }
+  },
+  "source": "https://rskr.irimee.in/forum/wp-content/uploads/2023/07/Operational%20Manual%20Pantograph%20_Train%2018.pdf",
+  "source_pages": [
+    20,
+    34,
+    125
+  ],
+  "scope": "OEM-informed small hardware; visual Hook deformation retains endpoints, not a cable dynamics/manufacturing model",
+  "QA": {
+    "kind": "TC_EC",
+    "poses": 101,
+    "errors": [],
+    "min_hardware_z_m": 3.951829671859741,
+    "protected_controls_unchanged": true,
+    "protected_control_count": 75,
+    "poses_data": [
+      {
+        "extension": 0.0,
+        "carbon_z": 4.259999687194824,
+        "new_hardware_max_z": 4.258920669555664,
+        "head_hardware_local_max_z": 0.01325986348092556,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.01,
+        "carbon_z": 4.278510982513428,
+        "new_hardware_max_z": 4.276927947998047,
+        "head_hardware_local_max_z": 0.013259931467473507,
+        "hook_endpoint_max_error_m": 2.1376805115257856e-06
+      },
+      {
+        "extension": 0.02,
+        "carbon_z": 4.297010833740234,
+        "new_hardware_max_z": 4.294923305511475,
+        "head_hardware_local_max_z": 0.01325986348092556,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.03,
+        "carbon_z": 4.31549781036377,
+        "new_hardware_max_z": 4.31290340423584,
+        "head_hardware_local_max_z": 0.01326006930321455,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.04,
+        "carbon_z": 4.333970958709717,
+        "new_hardware_max_z": 4.330869197845459,
+        "head_hardware_local_max_z": 0.013259931467473507,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.05,
+        "carbon_z": 4.352430278778076,
+        "new_hardware_max_z": 4.348818302154541,
+        "head_hardware_local_max_z": 0.013260137289762497,
+        "hook_endpoint_max_error_m": 2.86102294921875e-06
+      },
+      {
+        "extension": 0.06,
+        "carbon_z": 4.370874340057373,
+        "new_hardware_max_z": 4.3667521476745605,
+        "head_hardware_local_max_z": 0.013260203413665295,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.07,
+        "carbon_z": 4.389302188873291,
+        "new_hardware_max_z": 4.384668350219727,
+        "head_hardware_local_max_z": 0.01325986348092556,
+        "hook_endpoint_max_error_m": 1.9716888555315843e-06
+      },
+      {
+        "extension": 0.08,
+        "carbon_z": 4.407713348388672,
+        "new_hardware_max_z": 4.402565956115723,
+        "head_hardware_local_max_z": 0.013260274194180965,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.09,
+        "carbon_z": 4.426106388092041,
+        "new_hardware_max_z": 4.420444965362549,
+        "head_hardware_local_max_z": 0.01325986348092556,
+        "hook_endpoint_max_error_m": 1.98230254334657e-06
+      },
+      {
+        "extension": 0.1,
+        "carbon_z": 4.44448083114624,
+        "new_hardware_max_z": 4.438305854797363,
+        "head_hardware_local_max_z": 0.013260137289762497,
+        "hook_endpoint_max_error_m": 1.966275835419498e-06
+      },
+      {
+        "extension": 0.11,
+        "carbon_z": 4.462836200714111,
+        "new_hardware_max_z": 4.456145286560059,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 2.8611781654374575e-06
+      },
+      {
+        "extension": 0.12,
+        "carbon_z": 4.48117106628418,
+        "new_hardware_max_z": 4.473963260650635,
+        "head_hardware_local_max_z": 0.013260340318083763,
+        "hook_endpoint_max_error_m": 2.9006403034191064e-06
+      },
+      {
+        "extension": 0.13,
+        "carbon_z": 4.499484474182129,
+        "new_hardware_max_z": 4.491845607757568,
+        "head_hardware_local_max_z": 0.013260137289762497,
+        "hook_endpoint_max_error_m": 2.1376805115257856e-06
+      },
+      {
+        "extension": 0.14,
+        "carbon_z": 4.517775470733643,
+        "new_hardware_max_z": 4.510136604309082,
+        "head_hardware_local_max_z": 0.01325986348092556,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.15,
+        "carbon_z": 4.5360435791015625,
+        "new_hardware_max_z": 4.528404712677002,
+        "head_hardware_local_max_z": 0.013260065577924252,
+        "hook_endpoint_max_error_m": 1.966275835419498e-06
+      },
+      {
+        "extension": 0.16,
+        "carbon_z": 4.5542883224487305,
+        "new_hardware_max_z": 4.54664945602417,
+        "head_hardware_local_max_z": 0.01325986348092556,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.17,
+        "carbon_z": 4.572507793426514,
+        "new_hardware_max_z": 4.564868927001953,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.18,
+        "carbon_z": 4.590701515197754,
+        "new_hardware_max_z": 4.583062648773193,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.19,
+        "carbon_z": 4.608869010925293,
+        "new_hardware_max_z": 4.601230144500732,
+        "head_hardware_local_max_z": 0.013260542415082455,
+        "hook_endpoint_max_error_m": 1.9716888555315843e-06
+      },
+      {
+        "extension": 0.2,
+        "carbon_z": 4.6270093269348145,
+        "new_hardware_max_z": 4.619370460510254,
+        "head_hardware_local_max_z": 0.013260137289762497,
+        "hook_endpoint_max_error_m": 1.9716888555315843e-06
+      },
+      {
+        "extension": 0.21,
+        "carbon_z": 4.645121032714844,
+        "new_hardware_max_z": 4.637482166290283,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 2.8611781654374575e-06
+      },
+      {
+        "extension": 0.22,
+        "carbon_z": 4.663204128265381,
+        "new_hardware_max_z": 4.65556526184082,
+        "head_hardware_local_max_z": 0.013260137289762497,
+        "hook_endpoint_max_error_m": 2.9006403034191064e-06
+      },
+      {
+        "extension": 0.23,
+        "carbon_z": 4.681256706237793,
+        "new_hardware_max_z": 4.673617839813232,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 2.1399644697923947e-06
+      },
+      {
+        "extension": 0.24,
+        "carbon_z": 4.6992797203063965,
+        "new_hardware_max_z": 4.691640853881836,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.8611781654374575e-06
+      },
+      {
+        "extension": 0.25,
+        "carbon_z": 4.717270309448242,
+        "new_hardware_max_z": 4.709631443023682,
+        "head_hardware_local_max_z": 0.0132606141269207,
+        "hook_endpoint_max_error_m": 2.9006403034191064e-06
+      },
+      {
+        "extension": 0.26,
+        "carbon_z": 4.735227996826172,
+        "new_hardware_max_z": 4.727589130401611,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.27,
+        "carbon_z": 4.753153259277344,
+        "new_hardware_max_z": 4.745514392852783,
+        "head_hardware_local_max_z": 0.01326020248234272,
+        "hook_endpoint_max_error_m": 2.8611781654374575e-06
+      },
+      {
+        "extension": 0.28,
+        "carbon_z": 4.771044189453125,
+        "new_hardware_max_z": 4.7634053230285645,
+        "head_hardware_local_max_z": 0.01326027512550354,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.29,
+        "carbon_z": 4.788899833679199,
+        "new_hardware_max_z": 4.781260967254639,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9885095736518236e-06
+      },
+      {
+        "extension": 0.3,
+        "carbon_z": 4.806719715118408,
+        "new_hardware_max_z": 4.799080848693848,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9716888555315843e-06
+      },
+      {
+        "extension": 0.31,
+        "carbon_z": 4.824502880096436,
+        "new_hardware_max_z": 4.816864013671875,
+        "head_hardware_local_max_z": 0.01326020248234272,
+        "hook_endpoint_max_error_m": 1.974164862832927e-06
+      },
+      {
+        "extension": 0.32,
+        "carbon_z": 4.842248374938965,
+        "new_hardware_max_z": 4.834609508514404,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.33,
+        "carbon_z": 4.859955722808838,
+        "new_hardware_max_z": 4.852316856384277,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.34,
+        "carbon_z": 4.877623970031738,
+        "new_hardware_max_z": 4.869985103607178,
+        "head_hardware_local_max_z": 0.01326027512550354,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.35,
+        "carbon_z": 4.895251686096191,
+        "new_hardware_max_z": 4.887612819671631,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 1.9716888555315843e-06
+      },
+      {
+        "extension": 0.36,
+        "carbon_z": 4.9128393478393555,
+        "new_hardware_max_z": 4.905200481414795,
+        "head_hardware_local_max_z": 0.01326020248234272,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.37,
+        "carbon_z": 4.9303845710754395,
+        "new_hardware_max_z": 4.922745704650879,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.38,
+        "carbon_z": 4.947887355804443,
+        "new_hardware_max_z": 4.940248489379883,
+        "head_hardware_local_max_z": 0.013260073028504848,
+        "hook_endpoint_max_error_m": 1.9716888555315843e-06
+      },
+      {
+        "extension": 0.39,
+        "carbon_z": 4.965346748352051,
+        "new_hardware_max_z": 4.95770788192749,
+        "head_hardware_local_max_z": 0.013259927742183208,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.4,
+        "carbon_z": 4.982761795043945,
+        "new_hardware_max_z": 4.975122928619385,
+        "head_hardware_local_max_z": 0.013259927742183208,
+        "hook_endpoint_max_error_m": 2.147473957860252e-06
+      },
+      {
+        "extension": 0.41,
+        "carbon_z": 5.000132019042969,
+        "new_hardware_max_z": 4.992493152618408,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.42,
+        "carbon_z": 5.017456466674805,
+        "new_hardware_max_z": 5.009817600250244,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.43,
+        "carbon_z": 5.034734184265137,
+        "new_hardware_max_z": 5.027095317840576,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.44,
+        "carbon_z": 5.05196374130249,
+        "new_hardware_max_z": 5.04432487487793,
+        "head_hardware_local_max_z": 0.013259798288345337,
+        "hook_endpoint_max_error_m": 2.864900831869902e-06
+      },
+      {
+        "extension": 0.45,
+        "carbon_z": 5.0691456146240235,
+        "new_hardware_max_z": 5.061506748199463,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.46,
+        "carbon_z": 5.08627885055542,
+        "new_hardware_max_z": 5.078639984130859,
+        "head_hardware_local_max_z": 0.013260073028504848,
+        "hook_endpoint_max_error_m": 2.132480599880018e-06
+      },
+      {
+        "extension": 0.47,
+        "carbon_z": 5.103361064910889,
+        "new_hardware_max_z": 5.095722198486328,
+        "head_hardware_local_max_z": 0.013259927742183208,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.48,
+        "carbon_z": 5.120393211364746,
+        "new_hardware_max_z": 5.1127543449401855,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.49,
+        "carbon_z": 5.137373859405518,
+        "new_hardware_max_z": 5.129734992980957,
+        "head_hardware_local_max_z": 0.013260073028504848,
+        "hook_endpoint_max_error_m": 1.9804534585280597e-06
+      },
+      {
+        "extension": 0.5,
+        "carbon_z": 5.1543015785217285,
+        "new_hardware_max_z": 5.146662712097168,
+        "head_hardware_local_max_z": 0.013260679319500923,
+        "hook_endpoint_max_error_m": 2.132480599880018e-06
+      },
+      {
+        "extension": 0.51,
+        "carbon_z": 5.171176845550537,
+        "new_hardware_max_z": 5.163537979125977,
+        "head_hardware_local_max_z": 0.013260073959827423,
+        "hook_endpoint_max_error_m": 2.132480599880018e-06
+      },
+      {
+        "extension": 0.52,
+        "carbon_z": 5.187997753143311,
+        "new_hardware_max_z": 5.18035888671875,
+        "head_hardware_local_max_z": 0.013260679319500923,
+        "hook_endpoint_max_error_m": 2.132480599880018e-06
+      },
+      {
+        "extension": 0.53,
+        "carbon_z": 5.204763824462891,
+        "new_hardware_max_z": 5.19712495803833,
+        "head_hardware_local_max_z": 0.013260550796985626,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.54,
+        "carbon_z": 5.221474582672119,
+        "new_hardware_max_z": 5.213835716247559,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.55,
+        "carbon_z": 5.23812907409668,
+        "new_hardware_max_z": 5.230490207672119,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.132480599880018e-06
+      },
+      {
+        "extension": 0.56,
+        "carbon_z": 5.254725868225098,
+        "new_hardware_max_z": 5.247087001800537,
+        "head_hardware_local_max_z": 0.01326020248234272,
+        "hook_endpoint_max_error_m": 2.900487198971853e-06
+      },
+      {
+        "extension": 0.57,
+        "carbon_z": 5.271264965057373,
+        "new_hardware_max_z": 5.2636260986328125,
+        "head_hardware_local_max_z": 0.013260403648018837,
+        "hook_endpoint_max_error_m": 2.132480599880018e-06
+      },
+      {
+        "extension": 0.58,
+        "carbon_z": 5.287745887756348,
+        "new_hardware_max_z": 5.280107021331787,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 1.966049969490843e-06
+      },
+      {
+        "extension": 0.59,
+        "carbon_z": 5.304167205810547,
+        "new_hardware_max_z": 5.296528339385986,
+        "head_hardware_local_max_z": 0.013260678388178349,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.6,
+        "carbon_z": 5.320527488708496,
+        "new_hardware_max_z": 5.3128886222839355,
+        "head_hardware_local_max_z": 0.013259872794151306,
+        "hook_endpoint_max_error_m": 2.1358100017510553e-06
+      },
+      {
+        "extension": 0.61,
+        "carbon_z": 5.3368272132873535,
+        "new_hardware_max_z": 5.329188346862793,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.974164862832927e-06
+      },
+      {
+        "extension": 0.62,
+        "carbon_z": 5.353064949035645,
+        "new_hardware_max_z": 5.345426082611084,
+        "head_hardware_local_max_z": 0.013259799219667912,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.63,
+        "carbon_z": 5.369240695953369,
+        "new_hardware_max_z": 5.361601829528809,
+        "head_hardware_local_max_z": 0.013260201551020145,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.64,
+        "carbon_z": 5.385352546691895,
+        "new_hardware_max_z": 5.377713680267334,
+        "head_hardware_local_max_z": 0.013260073959827423,
+        "hook_endpoint_max_error_m": 3.017107990030616e-06
+      },
+      {
+        "extension": 0.65,
+        "carbon_z": 5.401400501251221,
+        "new_hardware_max_z": 5.39376163482666,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 1.977087055518864e-06
+      },
+      {
+        "extension": 0.66,
+        "carbon_z": 5.417383605957031,
+        "new_hardware_max_z": 5.409744739532471,
+        "head_hardware_local_max_z": 0.01325992587953806,
+        "hook_endpoint_max_error_m": 1.918723416664585e-06
+      },
+      {
+        "extension": 0.67,
+        "carbon_z": 5.43330090713501,
+        "new_hardware_max_z": 5.425662040710449,
+        "head_hardware_local_max_z": 0.013259598053991795,
+        "hook_endpoint_max_error_m": 2.1333134374825097e-06
+      },
+      {
+        "extension": 0.68,
+        "carbon_z": 5.449152404785156,
+        "new_hardware_max_z": 5.441513538360596,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.1333134374825097e-06
+      },
+      {
+        "extension": 0.69,
+        "carbon_z": 5.46493571472168,
+        "new_hardware_max_z": 5.457296848297119,
+        "head_hardware_local_max_z": 0.013260127045214176,
+        "hook_endpoint_max_error_m": 2.1457672119140625e-06
+      },
+      {
+        "extension": 0.7,
+        "carbon_z": 5.4806517906188965,
+        "new_hardware_max_z": 5.473012924194336,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.9010995682806866e-06
+      },
+      {
+        "extension": 0.71,
+        "carbon_z": 5.496299201965332,
+        "new_hardware_max_z": 5.4886603355407715,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 2.1333134374825097e-06
+      },
+      {
+        "extension": 0.72,
+        "carbon_z": 5.511877471923828,
+        "new_hardware_max_z": 5.504238605499268,
+        "head_hardware_local_max_z": 0.013260201551020145,
+        "hook_endpoint_max_error_m": 2.1333134374825097e-06
+      },
+      {
+        "extension": 0.73,
+        "carbon_z": 5.52738516998291,
+        "new_hardware_max_z": 5.51974630355835,
+        "head_hardware_local_max_z": 0.0132605517283082,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.74,
+        "carbon_z": 5.542822772979736,
+        "new_hardware_max_z": 5.535183906555176,
+        "head_hardware_local_max_z": 0.013260127045214176,
+        "hook_endpoint_max_error_m": 1.9804534585280597e-06
+      },
+      {
+        "extension": 0.75,
+        "carbon_z": 5.558187896728516,
+        "new_hardware_max_z": 5.550549030303955,
+        "head_hardware_local_max_z": 0.013260127045214176,
+        "hook_endpoint_max_error_m": 1.974164862832927e-06
+      },
+      {
+        "extension": 0.76,
+        "carbon_z": 5.573481018066406,
+        "new_hardware_max_z": 5.565842151641846,
+        "head_hardware_local_max_z": 0.013260201551020145,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.77,
+        "carbon_z": 5.588701183319092,
+        "new_hardware_max_z": 5.581062316894531,
+        "head_hardware_local_max_z": 0.013260678388178349,
+        "hook_endpoint_max_error_m": 1.9680818296788998e-06
+      },
+      {
+        "extension": 0.78,
+        "carbon_z": 5.603847438812256,
+        "new_hardware_max_z": 5.596208572387695,
+        "head_hardware_local_max_z": 0.013260201551020145,
+        "hook_endpoint_max_error_m": 1.9804534585280597e-06
+      },
+      {
+        "extension": 0.79,
+        "carbon_z": 5.6189197845458985,
+        "new_hardware_max_z": 5.611280918121338,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.9018648481927767e-06
+      },
+      {
+        "extension": 0.8,
+        "carbon_z": 5.633916313171387,
+        "new_hardware_max_z": 5.626277446746826,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 1.9680818296788998e-06
+      },
+      {
+        "extension": 0.81,
+        "carbon_z": 5.648837501525879,
+        "new_hardware_max_z": 5.641198635101318,
+        "head_hardware_local_max_z": 0.013260075822472572,
+        "hook_endpoint_max_error_m": 3.017107990030616e-06
+      },
+      {
+        "extension": 0.82,
+        "carbon_z": 5.6636819190979,
+        "new_hardware_max_z": 5.65604305267334,
+        "head_hardware_local_max_z": 0.013259799219667912,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.83,
+        "carbon_z": 5.678449089050293,
+        "new_hardware_max_z": 5.670810222625732,
+        "head_hardware_local_max_z": 0.013259322382509708,
+        "hook_endpoint_max_error_m": 2.385861582711391e-06
+      },
+      {
+        "extension": 0.84,
+        "carbon_z": 5.69313805770874,
+        "new_hardware_max_z": 5.68549919128418,
+        "head_hardware_local_max_z": 0.013259874656796455,
+        "hook_endpoint_max_error_m": 3.017107990030616e-06
+      },
+      {
+        "extension": 0.85,
+        "carbon_z": 5.707748348236084,
+        "new_hardware_max_z": 5.700109481811523,
+        "head_hardware_local_max_z": 0.013260201551020145,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.86,
+        "carbon_z": 5.722279483795166,
+        "new_hardware_max_z": 5.7146406173706055,
+        "head_hardware_local_max_z": 0.013259924948215485,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.87,
+        "carbon_z": 5.73673051071167,
+        "new_hardware_max_z": 5.729091644287109,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.88,
+        "carbon_z": 5.751100475311279,
+        "new_hardware_max_z": 5.743461608886719,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9804534585280597e-06
+      },
+      {
+        "extension": 0.89,
+        "carbon_z": 5.765389377593994,
+        "new_hardware_max_z": 5.757750511169434,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.9,
+        "carbon_z": 5.77959578704834,
+        "new_hardware_max_z": 5.771956920623779,
+        "head_hardware_local_max_z": 0.013259800150990486,
+        "hook_endpoint_max_error_m": 2.1399644697923947e-06
+      },
+      {
+        "extension": 0.91,
+        "carbon_z": 5.793719703674316,
+        "new_hardware_max_z": 5.786080837249756,
+        "head_hardware_local_max_z": 0.013260075822472572,
+        "hook_endpoint_max_error_m": 1.924097112391952e-06
+      },
+      {
+        "extension": 0.92,
+        "carbon_z": 5.807759696960449,
+        "new_hardware_max_z": 5.800120830535889,
+        "head_hardware_local_max_z": 0.013260400854051113,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.93,
+        "carbon_z": 5.821716720581055,
+        "new_hardware_max_z": 5.814077854156494,
+        "head_hardware_local_max_z": 0.013260125182569027,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.94,
+        "carbon_z": 5.835587913513184,
+        "new_hardware_max_z": 5.827949047088623,
+        "head_hardware_local_max_z": 0.01326027698814869,
+        "hook_endpoint_max_error_m": 2.1399644697923947e-06
+      },
+      {
+        "extension": 0.95,
+        "carbon_z": 5.849373752593994,
+        "new_hardware_max_z": 5.841734886169434,
+        "head_hardware_local_max_z": 0.01326027698814869,
+        "hook_endpoint_max_error_m": 1.9157121992097135e-06
+      },
+      {
+        "extension": 0.96,
+        "carbon_z": 5.863074237823486,
+        "new_hardware_max_z": 5.855435371398926,
+        "head_hardware_local_max_z": 0.013260477222502232,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 0.97,
+        "carbon_z": 5.876686985015869,
+        "new_hardware_max_z": 5.869048118591309,
+        "head_hardware_local_max_z": 0.01325992401689291,
+        "hook_endpoint_max_error_m": 1.9804534585280597e-06
+      },
+      {
+        "extension": 0.98,
+        "carbon_z": 5.890212947845459,
+        "new_hardware_max_z": 5.882574081420898,
+        "head_hardware_local_max_z": 0.013260076753795147,
+        "hook_endpoint_max_error_m": 2.385861582711391e-06
+      },
+      {
+        "extension": 0.99,
+        "carbon_z": 5.9036511726379395,
+        "new_hardware_max_z": 5.896012306213379,
+        "head_hardware_local_max_z": 0.013259800150990486,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      },
+      {
+        "extension": 1.0,
+        "carbon_z": 5.916999752044678,
+        "new_hardware_max_z": 5.909360885620117,
+        "head_hardware_local_max_z": 0.013260000385344028,
+        "hook_endpoint_max_error_m": 2.134354027485118e-06
+      }
+    ]
+  }
+}
