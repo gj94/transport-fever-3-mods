@@ -1,11 +1,11 @@
 {
   "variant": "CC",
-  "view": "interior",
+  "view": "exterior",
   "source": "models/LHB_CC.blend",
   "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
   "render_script_sha256": "90bf8ed517ce3edbf2cc2c7a27876f7886a8fa11bb859251382e7d45e08e4e18",
-  "image": "previews/LHB_CC_interior.png",
-  "image_sha256": "06de52c5c7a32c3d323a1c62209d39358dc0c5743b91c2f0109b92b3bf539be1",
+  "image": "previews/LHB_CC_exterior.png",
+  "image_sha256": "11854b7d0de483eebafc50f4237ee7782790fa3220306cff84f053f586e24d62",
   "renderer": "Blender CPU Cycles",
   "samples": 512,
   "adaptive_threshold": 0.019999999552965164,
@@ -16,14 +16,14 @@
     1400,
     840
   ],
-  "seconds": 1739.77432179451,
+  "seconds": 630.3379728794098,
   "camera_xyz": [
-    -8.75,
-    -0.23000000417232513,
-    2.630000114440918
+    20.0,
+    -30.0,
+    8.5
   ],
-  "camera_lens_mm": 22.0,
-  "camera_type": "PERSP",
+  "camera_lens_mm": 48.0,
+  "camera_type": "ORTHO",
   "hidden_for_review": [],
   "presentation_environment": {
     "ground_material": "Poly Haven Dirt, CC0",
@@ -41,78 +41,78 @@
     "batches": [
       {
         "file": "batch_00.exr",
-        "sha256": "f0d725f6b1d297a8b5dc7ed5a8162b0d5ffbbd496d093a4f335fafa6bce1e0e0",
+        "sha256": "ab5bb3d5dbde7a50c45551c20fce771ad84be0129ad648a6fdc1ec73072b705e",
         "seed": 104746,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 214.73534474300322,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 82.38108868100244,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_01.exr",
-        "sha256": "390ec869dc73da633d803b8dc82b0bbd7cca22dd943a00eb8a4c14a5a42db49f",
+        "sha256": "52242b12e40f8090d8df04fe9ee2e8b27dd99e62a73392f2472cf4c1a6f10396",
         "seed": 209475,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 210.37099331799982,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 79.36212341300052,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_02.exr",
-        "sha256": "15e8d1ad1b2c7e7f9f999e5b6313747c46ee794f694eb1529d183399a98871f3",
+        "sha256": "9272bd1c98521ee1361ff7218846c9d3831eeff5433409519d4041a60e90bc80",
         "seed": 314204,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 211.51182635100122,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 78.33135363199835,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_03.exr",
-        "sha256": "e222102781bf94e8447887ff8188a914a5388cf8957872ff6d00af654bcc7306",
+        "sha256": "61d9bf2f4dd6a9e99f2259c3e5683ff8fd9add5f806a52a801a273c5c72d486e",
         "seed": 418933,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 221.61023836599998,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 80.54685960200004,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_04.exr",
-        "sha256": "9d8ed8baeba27a1234f5dee3c9ee0e8db895e2c35285b2db0a39507162fd6888",
+        "sha256": "a0bf1fc9fec9191173658c8127dd4bee6bcf655ba72955781d946f9a9ced51df",
         "seed": 523662,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 220.68398800700015,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 78.9469572449998,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_05.exr",
-        "sha256": "8358280a547434cde25ea0970e127763fa67462034494610bfa394293216974b",
+        "sha256": "8fe27b101cfb205431b2732226ec87c8de29d02a1c4b24e88e66fcc2c12117bb",
         "seed": 628391,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 218.15627195900015,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 76.36992136900153,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_06.exr",
-        "sha256": "4d307c8abf3c6652b1f21f48dd7b49798d81ba0110091c6f76d914f4ed46ab77",
+        "sha256": "6963d6c80b05a4e981de0dbffd3030b8ed21c9de64e711bd32b927dbaa2b9537",
         "seed": 733120,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 219.86590450199947,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 75.77762870799779,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       },
       {
         "file": "batch_07.exr",
-        "sha256": "aec20f2c2235f9e279697aa0bed0be9ab6b2269f67ffc389b5d776660072e47c",
+        "sha256": "70595e5504a062ef1368b9b9ce1f4e524b5870a38fefd5053907f2fde6403750",
         "seed": 837849,
         "samples": 64,
-        "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
-        "seconds": 221.8383284190022,
+        "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
+        "seconds": 77.62652508899919,
         "format": "OPEN_EXR RGBA float32 scene-linear"
       }
     ],
-    "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538",
+    "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de",
     "spec": {
       "identity": {
         "renderer_path": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/render_lhb_detail.py",
@@ -195,7 +195,7 @@
           1.0
         ]
       ],
-      "camera_lens": 22.0,
+      "camera_lens": 48.0,
       "view_transform": "AgX",
       "look": "None",
       "exposure": 0.0,
@@ -204,8 +204,8 @@
       "denoising": false,
       "adaptive_sampling": false
     },
-    "combined_linear_sha256": "12323f98ccb7df3d0776038e679483fef0919e93e7cc3abbd5d34d3ebf822989",
-    "image_sha256": "06de52c5c7a32c3d323a1c62209d39358dc0c5743b91c2f0109b92b3bf539be1",
-    "duration_seconds": 1739.7154389280004
+    "combined_linear_sha256": "8f1f164224e9341d3e320bed25c7433e6eafdafefac7884ad7b1e563b3e2771e",
+    "image_sha256": "11854b7d0de483eebafc50f4237ee7782790fa3220306cff84f053f586e24d62",
+    "duration_seconds": 630.2571897939997
   }
 }

@@ -24,3 +24,21 @@ Visual review remains open. The next pass will extend the grey end paint wedge a
 ## Recovered reference and attachment pass, 7 October 2026, 19:50 UTC
 
 Integrated the CAMTECH-informed RMPU, CC furniture and soft cabin work across all seven sources/exports. A fixture audit caught floating 1A step/stile and wall fittings, plus unmounted CC bottle cages; corrected their actual geometry rather than concealing gaps in the camera. Added 1A attachment measurements and corresponding fault injections. GS's deeper crowned cushion retains its 1.840 m top; corrected the independent centre datum to 1.776 m for its 128 mm thickness. All eight current module hashes agree across all seven manifests. Current source and FBX checks pass with the existing explicitly reported font-tessellation warnings. New close proofs and final-resolution rendering remain active work.
+
+## Current-source final 1A interior, 7 October 2026 22:43 UTC
+
+Completed and inspected actual 1400×840 CPU Cycles pixels, using eight independently seeded uniform64-sample scene-linear EXRs (512 total), no denoising, one final AgX display transform. The patched LIGHT / SOCKET legend is now correctly facing into the cabin. Burgundy cushions/piping, curtain gathering/ties, wall nets, reading lamps and bottle holders remain visible with no newly observed attachment or collision defect in this view. Fine no-denoise grain remains; this single camera does not establish complete geometric or runtime correctness. Source hash12dfa0eb remains unchanged. Source/image/sampling/dependency identities are in qa/render_1A_interior.json. Completed duration1368.4seconds.
+
+Recovery renderer identity now includes relocated helper files and actually loaded external texture content. The initial old-filter cache was preserved and excluded from final delivery. Evidence JSON is frozen byte-exact rather than rewriting execution paths inside its hashed fingerprint specification. The optional depot dependency-root check was corrected at a completed-frame boundary; previous helper bytes remain available under scripts/render_provenance for historical evidence.
+
+## Current-source final 1A exterior, 7 October 2026 22:54 UTC
+
+Actual 1400×840 uniform512 exterior completed in596.6seconds and visually inspected. Smooth roof/end transitions, HVAC recesses and fan assemblies, grey paint wedges, eight cabin-side window rhythm, underfloor boxes, bogies and rail contact are visible without a newly observed silhouette or attachment defect. Exterior is appreciably cleaner than interior at equal sample count. Original source remains locked. CC interior starts next; final gallery2/20 completed.
+
+## Current-source final CC interior, 7 October 2026 23:23 UTC
+
+Actual 1400×840 uniform512 interior completed in1739.8seconds and visually inspected by worker and parent. The3+2 chair layout, thin draped headrest linen/hem, refined shoulder profile, seat-back nets and mounted cages, roller blinds, shelves and reading lights are coherent. No new visible collision/attachment issue in this camera. Grain persists in ceiling/shadows without denoising. Root accepted the genuine gallery view without source edits. CC exterior is next, followed by immutable two-pair checkpoint.
+
+## Current-source final CC exterior, 7 October 2026 23:34 UTC
+
+Actual 1400×840 uniform512 exterior completed in630.3seconds and visually inspected. Continuous chair-car window rhythm and seating visible through glazing distinguish CC from cabin coaches; the blue/grey livery, crown, HVAC, door hardware and underframe remain coherent with the locked source. No newly observed silhouette or attachment defect. Four final gallery views are complete (1A and CC interior/exterior). 3A interior starts next.
