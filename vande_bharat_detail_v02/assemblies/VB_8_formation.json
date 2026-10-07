@@ -1,0 +1,212 @@
+{
+  "formation_cars": 8,
+  "coupling_pitch_m": 24.0,
+  "outer_anchor_span_m": 192.0,
+  "evaluated_bounds_m": {
+    "min": [
+      -95.78007507324219,
+      -1.6930009126663208,
+      -0.02800002694129944
+    ],
+    "max": [
+      95.78007507324219,
+      1.6930009126663208,
+      4.259999752044678
+    ]
+  },
+  "visible_length_m": 191.56015014648438,
+  "nominal_prototype_span_m": 192.0,
+  "passenger_seats_prototype_total": 530,
+  "cars": [
+    {
+      "index": 1,
+      "type": "DTC",
+      "source_blend": "../cars/VB_DTC.blend",
+      "origin_m": [
+        -84.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "left_spacing_datum_m": -96.0,
+      "right_spacing_datum_m": -72.0,
+      "visible_x_min_m": -95.78007793426514,
+      "visible_x_max_m": -72.0,
+      "passenger_seats_prototype": 44,
+      "has_pantograph": false
+    },
+    {
+      "index": 2,
+      "type": "MC",
+      "source_blend": "../cars/VB_MC.blend",
+      "origin_m": [
+        -60.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "left_spacing_datum_m": -72.0,
+      "right_spacing_datum_m": -48.0,
+      "visible_x_min_m": -72.0,
+      "visible_x_max_m": -48.0,
+      "passenger_seats_prototype": 78,
+      "has_pantograph": false
+    },
+    {
+      "index": 3,
+      "type": "TC_EC",
+      "source_blend": "../cars/VB_TC_EC.blend",
+      "origin_m": [
+        -36.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "left_spacing_datum_m": -48.0,
+      "right_spacing_datum_m": -24.0,
+      "visible_x_min_m": -48.0,
+      "visible_x_max_m": -24.0,
+      "passenger_seats_prototype": 52,
+      "has_pantograph": true
+    },
+    {
+      "index": 4,
+      "type": "MC2",
+      "source_blend": "../cars/VB_MC2.blend",
+      "origin_m": [
+        -12.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 180,
+      "left_spacing_datum_m": -24.0,
+      "right_spacing_datum_m": 0.0,
+      "visible_x_min_m": -24.0,
+      "visible_x_max_m": 0.0,
+      "passenger_seats_prototype": 78,
+      "has_pantograph": false
+    },
+    {
+      "index": 5,
+      "type": "MC2",
+      "source_blend": "../cars/VB_MC2.blend",
+      "origin_m": [
+        12.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "left_spacing_datum_m": 0.0,
+      "right_spacing_datum_m": 24.0,
+      "visible_x_min_m": 0.0,
+      "visible_x_max_m": 24.0,
+      "passenger_seats_prototype": 78,
+      "has_pantograph": false
+    },
+    {
+      "index": 6,
+      "type": "TC_CC",
+      "source_blend": "../cars/VB_TC_CC.blend",
+      "origin_m": [
+        36.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "left_spacing_datum_m": 24.0,
+      "right_spacing_datum_m": 48.0,
+      "visible_x_min_m": 24.0,
+      "visible_x_max_m": 48.0,
+      "passenger_seats_prototype": 78,
+      "has_pantograph": true
+    },
+    {
+      "index": 7,
+      "type": "MC",
+      "source_blend": "../cars/VB_MC.blend",
+      "origin_m": [
+        60.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "left_spacing_datum_m": 48.0,
+      "right_spacing_datum_m": 72.0,
+      "visible_x_min_m": 48.0,
+      "visible_x_max_m": 72.0,
+      "passenger_seats_prototype": 78,
+      "has_pantograph": false
+    },
+    {
+      "index": 8,
+      "type": "DTC",
+      "source_blend": "../cars/VB_DTC.blend",
+      "origin_m": [
+        84.0,
+        0,
+        0
+      ],
+      "rotation_z_deg": 0,
+      "left_spacing_datum_m": 72.0,
+      "right_spacing_datum_m": 96.0,
+      "visible_x_min_m": 72.0,
+      "visible_x_max_m": 95.78007793426514,
+      "passenger_seats_prototype": 44,
+      "has_pantograph": false
+    }
+  ],
+  "joins": [
+    {
+      "cars": [
+        1,
+        2
+      ],
+      "anchor_error_m": 0.0
+    },
+    {
+      "cars": [
+        2,
+        3
+      ],
+      "anchor_error_m": 0.0
+    },
+    {
+      "cars": [
+        3,
+        4
+      ],
+      "anchor_error_m": 0.0
+    },
+    {
+      "cars": [
+        4,
+        5
+      ],
+      "anchor_error_m": 0.0
+    },
+    {
+      "cars": [
+        5,
+        6
+      ],
+      "anchor_error_m": 0.0
+    },
+    {
+      "cars": [
+        6,
+        7
+      ],
+      "anchor_error_m": 0.0
+    },
+    {
+      "cars": [
+        7,
+        8
+      ],
+      "anchor_error_m": 0.0
+    }
+  ],
+  "status": "Full-size VB2 authoring assembly using24m nominal coupling pitch; exact fine equipment remains representative; TF3 runtime conversion not included",
+  "linked_control_scope": "Each type is linked once; repeated type instances share authored controls. Converter must make controls independent per car.",
+  "formation_note": "16-car order based on official system layout; 8-car inventory confirmed, TC_EC placement/handing remains selected interpretation."
+}
