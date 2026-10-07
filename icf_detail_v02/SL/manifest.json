@@ -1,0 +1,375 @@
+{
+  "variant": "SL",
+  "subtype": "WGSCN",
+  "layout": "9 bays of 8 berths; daytime folded middle berths",
+  "physical_capacity": 72,
+  "physical_berths": 72,
+  "daytime_seated_positions": 72,
+  "PAX_marker_count": 72,
+  "BERTH_reference_count": 72,
+  "game_capacity": null,
+  "game_capacity_note": "Physical capacity is not gameplay capacity. Existing project ICF balance was20 for72; preserve converter ownership. Do not treat each marker as an extra commercial capacity.",
+  "root": "ICF_SL_ROOT",
+  "root_type": "EMPTY",
+  "body_parent": "BODY",
+  "interior_parent": "INTERIOR",
+  "passenger_facing_axis": "+X local",
+  "passenger_root_offset_below_cushion_m": 0.483,
+  "passenger_animation": "sitting",
+  "legacy_icf_slot_yaw_correction": "Do not apply; these markers carry actual facing yaw already",
+  "berth_export": "Reference-only; never passenger seats",
+  "dimensions_m": {
+    "body_length": 21.337,
+    "body_width": 3.245,
+    "nominal_roof_crown": 4.025,
+    "floor_top": 1.278,
+    "coupling_point_span": 22.297,
+    "coupling_height": 1.105,
+    "bogie_centres": 14.783,
+    "bogie_wheelbase": 2.896,
+    "wheel_tread_diameter": 0.915,
+    "gauge": 1.676
+  },
+  "evaluated_mesh_bounds_m": [
+    [
+      -18.40940284729004,
+      18.15340232849121
+    ],
+    [
+      -3.205199956893921,
+      3.205199956893921
+    ],
+    [
+      -0.02800000086426735,
+      4.078999996185303
+    ]
+  ],
+  "triangles": 759022,
+  "mesh_objects": 6877,
+  "material_count": 28,
+  "windows_per_side": 18,
+  "window_apertures": [
+    {
+      "x": -7.14,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -6.3,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -5.459999999999999,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -4.619999999999999,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -3.78,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -2.9399999999999995,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -2.0999999999999996,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -1.2599999999999998,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -0.41999999999999993,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 0.41999999999999993,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 1.2600000000000007,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 2.1000000000000005,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 2.9400000000000004,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 3.7800000000000002,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 4.62,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 5.46,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 6.3,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 7.14,
+      "y": -1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -7.14,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -6.3,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -5.459999999999999,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -4.619999999999999,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -3.78,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -2.9399999999999995,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -2.0999999999999996,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -1.2599999999999998,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": -0.41999999999999993,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 0.41999999999999993,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 1.2600000000000007,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 2.1000000000000005,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 2.9400000000000004,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 3.7800000000000002,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 4.62,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 5.46,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 6.3,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    },
+    {
+      "x": 7.14,
+      "y": 1.6225,
+      "z": 2.385,
+      "width": 0.65,
+      "height": 0.75,
+      "rounded_radius": 0.1
+    }
+  ],
+  "coupling_front_m": [
+    11.1485,
+    0,
+    1.105
+  ],
+  "coupling_rear_m": [
+    -11.1485,
+    0,
+    1.105
+  ],
+  "source_blender_version": "4.3.2",
+  "repo_baseline": "91bcc2899eeedccb7497374227d1c81562279640",
+  "known_limits": [
+    "Representative dimensions and layout capacities supported by railway sources; exact berth/door/window spacing is procedural interpretation, not a traced production drawing.",
+    "Default hardware is a conventional screw coupling with side buffers. Buffer contact span is not a CBC mating certification.",
+    "Daytime folded middles and parked saloon/cabin doors are static; no working animations.",
+    "Glazing source uses Principled transmission plus FBX alpha fallback; target game shader configuration required.",
+    "Upper BERTH markers are references only; no seated characters on upper/middle bunks.",
+    "GS108 and2S108 intentionally share related3+3 shell; GS uses benches,2S uses individual seat units. Reservation class alone is not a unique prototype body.",
+    "Source geometry is detailed authoring quality, not a new native game build. LOD/UV bake/animation/runtime conversion remains separate.",
+    "Markings and small fitting positions are illustrative; no numbered coach is claimed as an exact replica.",
+    "Screw coupling is shown hanging and uncoupled. Rake linkage and locomotive transition-coupler compatibility are unvalidated."
+  ],
+  "revision": "icf_detail_v02",
+  "hardware": "Conventional screw coupling and side buffers; static uncoupled configuration",
+  "detail_scope": [
+    "True full-height door apertures",
+    "Radiused glazing and separate rubber/aluminium frames",
+    "Non-AC raised louvred shutters and security bars",
+    "Detailed all-coil ICF bogies with tread brakes and axle driven alternators",
+    "Fabricated screw coupling and dished buffers",
+    "Class-specific physical interior and tailored cushions",
+    "Wire fan cages, berth hardware, sanitary fittings and service equipment"
+  ]
+}

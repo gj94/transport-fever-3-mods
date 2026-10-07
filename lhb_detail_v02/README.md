@@ -1,0 +1,32 @@
+# LHB detailed coach family v0.2 — work in progress
+
+This isolated revision is being developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. The first checkpoint contains a working 3A source, portable FBX and explicit passenger/berth manifests. Other classes, visual reviews, topology checks and further refinements are in progress. Do not treat this checkpoint as a final release or runtime-ready asset.
+
+## Prototype and coordinate contract
+
+Selected conventional LHB types: 1A 24 berths, 2A 52 berths, 3A 72 berths, 2S 102 seats, CC 78 seats, SL 80 berths and legacy centre-entry GS 100 seats. The physical capacities are separate from gameplay payload.
+
+Metres; X longitudinal, Y lateral, Z up; railhead Z=0. Body 23.540 m ×3.240 m, crown 4.039 m, floor 1.303 m, bogie centres 14.900 m, wheelbase 2.560 m, new wheel diameter .915 m. CBC mating anchors at X ±12.000 m and Z1.105 m. Authoring geometry, furniture dimensions and equipment placement remain reference-informed interpretations, not manufacturer CAD.
+
+`PAX_*` EMPTY objects are seated character roots, parented to the body, with explicit yaw. `BERTH_*` EMPTY objects are sleeping references only. No seated passenger roots are on upper/middle beds. Native TF3 conversion and runtime validation are outside this source revision.
+
+## Initial changes
+
+- Original rounded through-window wall apertures and separately closed glazing
+- Smooth curved roof, rain gutters, HVAC fan blades/grilles, door seals/hinges/steps
+- FIAT running gear rebuilt around two 640 mm brake discs per axle, nested coils, profiled frame, calipers, control arms and pipework
+- Detailed equipment enclosures, reservoirs, CBC castings and service hoses
+- Upholstery piping, stitched panels, folded upper-berth linen, pleated curtains, berth hinges, reading lights, sockets and hollow wire bottle holders
+- Detailed end-service fittings, washbasins, lavatory fixtures and electrical control cubicles
+
+## Rebuild
+
+With Blender 4.3.2, run `blender -b -t 2 --python build_lhb_detail.py -- 3A` from this directory. Omit the class argument to rebuild all classes. The builder writes its own models; preserve hand edits before rerunning. `render_lhb_detail.py` creates actual CPU Cycles views. No generated-image previews or external photo textures are used.
+
+## Sources and current limits
+
+Reference basis: the railway-authored CAMTECH Maintenance Manual of LHB Coaches, chapter 1 class drawing plates and photographs, and the FIAT bogie maintenance chapter. The official source is [SECR's manual](https://secr.indianrailways.gov.in/uploads/files/1622203445123-MMLHB.pdf); when its download failed, the identical titled railway document was read from its [public distribution mirror](https://d2wuvg8krwnvon.cloudfront.net/media/user_space/cf19354d093c/ebook/ebook_1639504169_9471.pdf). Only links are redistributed. Drawing pixels were inspected, including distinct 1A cabin/corridor window rhythms and paired narrow SL windows.
+
+Selected dimensions and capacities also follow the official [NWR 2025 technical data](https://nwr.indianrailways.gov.in/uploads/files/1742970525725-9%20-%20Working%20Time%20Table.pdf) and [RDSO revised introduction](https://rdso.indianrailways.gov.in/uploads/files/Revised_LHB_Manual_Vol_II_Chapter_I_Introduction_Draft.pdf), with the same explicitly selected 1.303 m floor datum as v0.1. See the preserved earlier [reference ledger](../lhb_family_v01/references.md) for source conflicts and prototype-selection boundaries.
+
+The current geometry has not yet passed complete source/FBX/render QA. Fine furnishing and equipment fittings are representative approximations. Couplers are static visual models; no claim is made for operational articulation, certification, or compatibility with unrelated new locomotive couplers. Materials use editable procedural shaders; a game exporter must bake or adapt them.
