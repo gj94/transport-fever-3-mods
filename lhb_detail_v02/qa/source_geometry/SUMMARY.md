@@ -45,7 +45,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 16, "examples": [{"object": "DESTINATION_BOARD_text", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 423, "isolated_vertices": 0, "signed_volume_m3_local": null}, {"object": "DESTINATION_BOARD_text.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 423, "isolated_vertices": 0, "signed_volume_m3_local": null}, {"object": "DESTINATION_BOARD_text.002", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.04700041], "size_m": [24.15999985, 3.3599999, 4.07400036]}
-- Source mesh totals: {"vertices": 666252, "edges": 1247198, "polygons": 604501, "triangles": 1285408, "closed_fabricated_components_checked": 7272, "text_objects_checked": 55, "text_seam_edges_before_weld": 25956}
+- Source mesh totals: {"vertices": 1054380, "edges": 2023142, "polygons": 992317, "triangles": 2061664, "closed_fabricated_components_checked": 7350, "text_objects_checked": 55, "text_seam_edges_before_weld": 25956}
 
 ## SL — PASS_WITH_WARNINGS
 

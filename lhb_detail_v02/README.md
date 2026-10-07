@@ -46,3 +46,9 @@ The CC variant now uses the manual’s 450 mm cushion height above the floor (wo
 - Source module hashes, material conversion and PAX/BERTH contracts are measured independently. Fault-injection tests verify that wrong roots, dimensions, fixtures, fan/rack orientation and disconnected 1A attachments are detected
 
 Fine hardware remains representative original modelling; neither reference fidelity nor source geometry QA constitutes railway certification, production CAD or in-game validation.
+
+## Geometry lock and final gallery
+
+The corrected CC antimacassar is a closed 1.2 mm draped textile with a sewn hem, replacing the earlier thick pad proxy. Its 25-ring chair-shoulder refinement preserves maximum dimensions and passenger datums. The corrected 64-sample close and interior proofs were visually reviewed before geometry lock. Fifteen isolated CC furnishing and topology checks pass. The full-family rebuild and independent source/FBX checks are repeated against this locked revision before final rendering.
+
+`scripts/render_final_gallery.py` runs a resumable actual CPU Cycles gallery at 512 maximum samples, 2% adaptive threshold, minimum 64 samples and four CPU threads, with no denoising. It verifies source and image hashes for each completed view and records completed/pending views in `qa/final_gallery_progress.json`. A 512-sample limit is not a claim that every pixel used 512 samples. The intended first set is all seven current-source interiors and exteriors, followed by selected chair, cabin, HVAC, running-gear and service-area details. Only records matching the current source and image hashes describe current renders. Gallery progress remains separate from geometry, FBX portability and native-game validation.

@@ -38,3 +38,7 @@ The general verifier's PAX transform check must expect Z 1.270 for CC and 1.357 
 ## Focused test result
 
 The isolated Blender 4.3.2 build passed all 13 checks. All 2,730 affected base meshes and evaluated meshes were closed/manifold with positive volume; no component topology errors were reported. The 78 seat-root contracts, measured 450 mm cushion height and 420 mm clear armrest width passed. The isolated .blend, FBX and marker/manifest JSON files were successfully written. Module SHA-256: `8a69425b2d06eac0c963a2ea69b3b6a9b06ad6acd8ad3de06e6b138cd88782cf`. Test results are in `/workspace/shared/lhb-cc-test/qa/cc_furnishing_checks.json`; these are focused furniture tests, not the complete family or runtime certification.
+
+## Textile refinement review
+
+The white antimacassar is modelled as a closed 1.2 mm woven-cotton sheet draped over the reclined chair crown, with shallow gravity-led wrinkles and a sewn perimeter hem. It replaces the former thick head pad proxy. Thickness and stitch dimensions are representative modelling choices, not manufacturer dimensions. The blue chair shoulders use a bounded 25-ring profile while preserving their prior maximum dimensions and the 450 mm cushion datum. All component checks and actual-Cycles visual review must be repeated against the rebuilt source before release.

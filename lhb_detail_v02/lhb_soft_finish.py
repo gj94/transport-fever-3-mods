@@ -32,6 +32,18 @@ def apply(g,k,c):
   if axis=='Z':ob.location.z+=(olddepth-depth)/2
   w,h=dims[plane[0]],dims[plane[1]];radius=min(.055 if k=='1A' else .042,w*.13,h*.13)
   steps=[(-.50,.034),(-.39,.012),(-.12,0),(.19,0),(.36,.006),(.46,.019),(.50,.037)]
+  # CC shoulders receive bounded cubic profile refinement: preserve each
+  # control ring and all maximum dimensions while removing seven-ring faceting.
+  if k=='CC' and ob.name.startswith('CHAIR_back'):
+   refined=[]
+   for i in range(len(steps)-1):
+    p0=steps[max(0,i-1)];p1=steps[i];p2=steps[i+1];p3=steps[min(len(steps)-1,i+2)]
+    for j in range(4):
+     u=j/4; t=p1[0]+u*(p2[0]-p1[0])
+     m1=(p2[1]-p0[1])/(p2[0]-p0[0]);m2=(p3[1]-p1[1])/(p3[0]-p1[0]);dt=p2[0]-p1[0]
+     v=(2*u**3-3*u*u+1)*p1[1]+(u**3-2*u*u+u)*dt*m1+(-2*u**3+3*u*u)*p2[1]+(u**3-u*u)*dt*m2
+     refined.append((t,max(min(p1[1],p2[1]),min(max(p1[1],p2[1]),v))))
+   steps=refined+[steps[-1]]
   vs=[];ring_count=0
   for t,inset in steps:
    inset=min(inset,w*.14,h*.14);points=outline(w-2*inset,h-2*inset,max(.014,radius-inset*.48));ring_count=len(points)
@@ -51,10 +63,10 @@ def apply(g,k,c):
   if old.users==0:bpy.data.meshes.remove(old)
   ob['surface_detail']='Closed contour-ring cushion with rolled shoulder; original geometry'
   return w,h,depth
- def closed_cord(name,points,r,mat,normal=(0,0,1)):
+ def closed_cord(name,points,r,mat,normal=(0,0,1),normals=None):
   vs=[];N=8;count=len(points)
   for i,p in enumerate(points):
-   p=Vector(p);t=(Vector(points[(i+1)%count])-Vector(points[i-1])).normalized();u=Vector(normal).normalized();v=t.cross(u).normalized()
+   p=Vector(p);t=(Vector(points[(i+1)%count])-Vector(points[i-1])).normalized();u=Vector(normals[i] if normals is not None else normal).normalized();v=t.cross(u).normalized()
    for j in range(N):vs.append(tuple(p+r*(u*math.cos(j*math.tau/N)+v*math.sin(j*math.tau/N))))
   fs=[(i*N+j,i*N+(j+1)%N,((i+1)%count)*N+(j+1)%N,((i+1)%count)*N+j) for i in range(count) for j in range(N)]
   ob=mesh(name,vs,fs,mat,coll=inter)
@@ -74,6 +86,40 @@ def apply(g,k,c):
    for face in [-1,1]:
     points=[tuple(ob.matrix_world@Vector((face*depth*.40,y,z))) for y,z in outline(w-.025,h-.025,min(.045,w*.12,h*.12),12)]
     closed_cord('UPHOLSTERY_back_seam_soft',points,.0015,trim,normal)
+ # The chair-car antimacassar is woven cloth draped over the crown, never
+ # a second foam headrest. Closed 1.2 mm textile and a sewn perimeter hem.
+ if k=='CC':
+  cotton=bpy.data.materials.get('Cotton_linen') or white
+  for head in [o for o in list(inter.objects) if o.name.startswith('HEADREST_')]:
+   sid=head.name[len('HEADREST_'):];bpy.data.objects.remove(head,do_unlink=True)
+   back=bpy.data.objects['CHAIR_back_'+sid];bpy.context.view_layer.update()
+   path=[]
+   for j in range(13):path.append((-.060,.158+(.285-.158)*j/12))
+   for j in range(1,25):
+    a=math.pi-j*math.pi/24;path.append((.060*math.cos(a),.285+.043*math.sin(a)))
+   for j in range(1,16):path.append((.060,.285-(.285-.125)*j/15))
+   nx=28;ny=len(path);vs=[];mid=[]
+   for layer in (-1,1):
+    for row,(xx,zz) in enumerate(path):
+     prev=Vector(path[max(0,row-1)]);nxt=Vector(path[min(ny-1,row+1)])
+     tangent=(nxt-prev).normalized();normal=Vector((-tangent.y,tangent.x))
+     for col in range(nx+1):
+      u=col/nx;hang=max(0,(.285-zz)/.16);wrinkle=(.0012+.0013*math.sin(u*math.tau*3+.4))*hang
+      px=xx+normal.x*(wrinkle+layer*.0006);pz=zz+normal.y*(wrinkle+layer*.0006)
+      pz+=.003*math.sin(u*math.tau*2+.2)*hang**3
+      vs.append((px,(u-.5)*.302,pz))
+   stride=nx+1;N=ny*stride;fs=[]
+   for row in range(ny-1):
+    for col in range(nx):
+     a=row*stride+col;fs += [(a,a+1,a+1+stride,a+stride),(N+a+stride,N+a+1+stride,N+a+1,N+a)]
+   boundary=list(range(stride))+[r*stride+nx for r in range(1,ny)]+list(range(N-2,N-stride-1,-1))+[r*stride for r in range(ny-2,0,-1)]
+   for a,b in zip(boundary,boundary[1:]+boundary[:1]):fs.append((a,N+a,N+b,b))
+   ob=mesh('HEADREST_'+sid,vs,fs,cotton,coll=inter);ob.matrix_local=back.matrix_local.copy()
+   for poly in ob.data.polygons:poly.use_smooth=True
+   ob['textile_thickness_m']=.0012;ob['construction']='Thin draped cotton antimacassar with sewn perimeter hem; original mesh'
+   hem=[tuple(back.matrix_local@Vector(tuple((vs[i][j]+vs[N+i][j])/2 for j in range(3)))) for i in boundary]
+   normals=[back.matrix_local.to_3x3()@(Vector(vs[N+i])-Vector(vs[i])).normalized() for i in boundary]
+   closed_cord('CC_ANTIMACASSAR_sewn_hem_'+sid,hem,.0009,cotton,normals=normals)
  # Replace accordion-like rectangular curtain strips with gravity-shaped folds,
  # a gathered waist, uneven soft hem and a small cloth tieback.
  if k in ['1A','2A','3A']:

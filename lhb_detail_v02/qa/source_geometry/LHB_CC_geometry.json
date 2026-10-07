@@ -1,6 +1,6 @@
 {
   "variant": "CC",
-  "generated_utc": "2026-10-07T19:51:16.225574+00:00",
+  "generated_utc": "2026-10-07T20:59:43.930567+00:00",
   "blender_version": "4.3.2",
   "source_file": "/workspace/shared/lhb-detail/lhb_detail_v02/models/LHB_CC.blend",
   "checks": [
@@ -30,7 +30,7 @@
       "name": "fbx_file_present_and_nonempty",
       "status": "pass",
       "details": {
-        "bytes": 31379116
+        "bytes": 41771804
       }
     },
     {
@@ -58,7 +58,7 @@
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
           },
           "current": {
             "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
@@ -67,7 +67,7 @@
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
             "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
           }
         }
@@ -1906,12 +1906,12 @@
       "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
       "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
       "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+      "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
     },
     "statistics": {
-      "scene_objects": 7482,
-      "asset_objects": 7473,
-      "asset_mesh_objects": 7272,
+      "scene_objects": 7560,
+      "asset_objects": 7551,
+      "asset_mesh_objects": 7350,
       "asset_font_objects": 55,
       "asset_empty_objects": 146,
       "materials": 55
@@ -3887,11 +3887,11 @@
     ],
     "topology": {
       "evaluated_totals": {
-        "vertices": 666252,
-        "edges": 1247198,
-        "polygons": 604501,
-        "triangles": 1285408,
-        "closed_fabricated_components_checked": 7272,
+        "vertices": 1054380,
+        "edges": 2023142,
+        "polygons": 992317,
+        "triangles": 2061664,
+        "closed_fabricated_components_checked": 7350,
         "text_objects_checked": 55,
         "text_seam_edges_before_weld": 25956
       },
@@ -4123,14 +4123,14 @@
       ],
       "intentional_source_sheets_closed_by_solidify": []
     },
-    "elapsed_seconds": 2.26,
+    "elapsed_seconds": 3.29,
     "status": "pass_with_warnings"
   },
   "sha256": {
-    "blend": "dd458cf11a966b9d0db62dd62dd1c1e909352e6d3f1bd36fd84d176a05230e8d",
-    "manifest": "65e8e4e4a557d42e92b95e36037230a9d8ced2d2030df68a27abfe3475c4c91b",
-    "markers": "5683d8757091a27079b6c595e67a5de0f84b7744b1a8246e0b665aeecdcbb20e",
-    "fbx": "b732b3311120a7952b76c3d92ed5f1ddeeab1fa9cdf3c6c2283c1e97c66b6a89"
+    "blend": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+    "manifest": "8d59250f7c164bd7713f30a3229d3a24834bc6204af14fead15a9cbd4d4aeca1",
+    "markers": "ffd75a7110628aef43008a934a2a19fa365c21f07795314a2e67295bdaf2c8a6",
+    "fbx": "aead7cceafe2c7130f2f489c2b13e9ed2c29973c9338ec3dcc551a8b7978d259"
   },
   "manifest": {
     "source_module_sha256": {
@@ -4140,7 +4140,7 @@
       "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
       "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
       "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
-      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+      "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
       "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
     },
     "variant": "CC",
@@ -4188,7 +4188,7 @@
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
           },
           "current": {
             "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
@@ -4197,7 +4197,7 @@
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
             "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
           }
         }
@@ -6057,12 +6057,12 @@
       "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
       "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
       "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+      "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
     },
     "statistics": {
-      "scene_objects": 7473,
-      "asset_objects": 7473,
-      "asset_mesh_objects": 7327,
+      "scene_objects": 7551,
+      "asset_objects": 7551,
+      "asset_mesh_objects": 7405,
       "asset_font_objects": 0,
       "asset_empty_objects": 146,
       "materials": 53
@@ -8038,11 +8038,11 @@
     ],
     "topology": {
       "evaluated_totals": {
-        "vertices": 666252,
-        "edges": 1247198,
-        "polygons": 604501,
-        "triangles": 1285408,
-        "closed_fabricated_components_checked": 7272,
+        "vertices": 1054380,
+        "edges": 2023142,
+        "polygons": 992317,
+        "triangles": 2061664,
+        "closed_fabricated_components_checked": 7350,
         "text_objects_checked": 55,
         "text_seam_edges_before_weld": 25956
       },
@@ -8279,7 +8279,7 @@
       "unexpected": [],
       "changed": []
     },
-    "elapsed_seconds": 2.69,
+    "elapsed_seconds": 3.42,
     "status": "pass_with_warnings"
   },
   "status": "pass_with_warnings"

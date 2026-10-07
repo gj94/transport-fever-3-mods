@@ -14,7 +14,9 @@ exec(compile(src.split('\nargs=sys.argv')[0],str(P/'build_lhb_detail.py'),'exec'
 for name in ('models','qa','previews','docs'):(P/name).mkdir(exist_ok=True)
 import lhb_chair_detail as cc
 k='CC';c=g['CFG'][k]
+print('CC_TEST_BUILD_START',flush=True)
 g['common'](k,c);g['chair'](k,c)
+print('CC_TEST_CORE_COMPLETE',flush=True)
 bpy.context.view_layer.update()
 before={o.name:(tuple(o.location),o.parent.name if o.parent else None) for o in g['pax']}
 cc.refine_core(g,k,c)
@@ -26,6 +28,7 @@ lhb_soft_finish.apply(g,k,c)
 import lhb_identity_detail
 lhb_identity_detail.apply(g,k,c)
 bpy.context.view_layer.update()
+print('CC_TEST_FINISH_COMPLETE',flush=True)
 checks=[]
 def check(name,passed,details=None):
     checks.append({'name':name,'passed':bool(passed),'details':details})
@@ -47,6 +50,7 @@ check('pedestals still grounded',all(abs(bounds(o)[2][0]-g['FLOOR'])<1e-6 for o 
 check('old curtains and rod racks absent',not obs(('CURTAIN_','WINDOW_pleated_curtain','LUGGAGE_RACK_')))
 check('32 actual thick glass rack panels',len(obs('CC_RACK_tempered_glass'))==32 and all(abs(bounds(o)[2][1]-bounds(o)[2][0]-.008)<1e-6 for o in obs('CC_RACK_tempered_glass')))
 check('78 reading lamps, magazine nets, bottle holders, footrests',all(len(obs(prefix))==78 for prefix in ('CC_RACK_reading_lamp_lens_','CC_MAGAZINE_net_','CC_TABLE_bottle_holder_','CC_FOOTREST_tread_')))
+check('78 thin draped antimacassars and sewn hems',len(obs('HEADREST_'))==78 and len(obs('CC_ANTIMACASSAR_sewn_hem_'))==78 and all(abs(o.get('textile_thickness_m',0)-.0012)<1e-8 for o in obs('HEADREST_')))
 check('156 bottle-cage connecting brackets',len(obs('CC_BOTTLE_mount_bracket_'))==156)
 check('all three roller blind states represented',set(o['manual_state'] for o in obs('CC_BLIND_roller_housing'))=={'full_open','half_open','full_closed'} and len(obs('CC_BLIND_roller_housing'))==30)
 # Validate both original meshes and modifier results of every affected component.

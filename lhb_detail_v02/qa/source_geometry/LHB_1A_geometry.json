@@ -1,6 +1,6 @@
 {
   "variant": "1A",
-  "generated_utc": "2026-10-07T19:50:19.229910+00:00",
+  "generated_utc": "2026-10-07T20:58:50.723407+00:00",
   "blender_version": "4.3.2",
   "source_file": "/workspace/shared/lhb-detail/lhb_detail_v02/models/LHB_1A.blend",
   "checks": [
@@ -58,7 +58,7 @@
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
           },
           "current": {
             "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
@@ -67,7 +67,7 @@
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
             "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
           }
         }
@@ -2463,7 +2463,7 @@
       "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
       "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
       "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+      "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
     },
     "statistics": {
       "scene_objects": 6625,
@@ -4074,14 +4074,14 @@
         "WINDOW_soft_gathered_curtain.035"
       ]
     },
-    "elapsed_seconds": 1.8,
+    "elapsed_seconds": 1.66,
     "status": "pass_with_warnings"
   },
   "sha256": {
-    "blend": "d22fff24790c27b47d78e3fae9b00f766a69f4358e0e9a10f7bab685a9c5a24c",
-    "manifest": "52cbe92c814ad07d458c3892587c1d3be4d153b60fa5086433ccb69ce05aedc3",
-    "markers": "c1c3af908555fa4bf01b8c5e9b31cd36524ab2fbfa78c4466faf2aaf695d872e",
-    "fbx": "67d1f67d1420ad9dc238c630044bb648d6c6de6ed61a17317e458fa6433820b1"
+    "blend": "426cd1e1b1a3549a098c0ff5e8d4f6093943b36fb27905b09e5206362a842e94",
+    "manifest": "efdc25226f06bc26ff976449c2f2f56a747132dcb79119c00c5091fa5a0ae25f",
+    "markers": "36afa25d2e5f2efe814dbac3276bbb5b73c51f0424ed6a2c826d29b769c966ed",
+    "fbx": "f5b60f1bd2af36d24a31fb3c69e5cf3b561e2bd2f5ca18ef5483d27977176783"
   },
   "manifest": {
     "source_module_sha256": {
@@ -4091,7 +4091,7 @@
       "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
       "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
       "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
-      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+      "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
       "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
     },
     "variant": "1A",
@@ -4139,7 +4139,7 @@
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
           },
           "current": {
             "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
@@ -4148,7 +4148,7 @@
             "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
             "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
             "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
-            "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1",
+            "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
             "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
           }
         }
@@ -6565,7 +6565,7 @@
       "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
       "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
       "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
-      "lhb_soft_finish.py": "985143cdceec073e1daa90c93b68fc2c81bf6d4ac1cbf3f68fc8e02741143de1"
+      "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
     },
     "statistics": {
       "scene_objects": 6616,
@@ -8144,7 +8144,7 @@
       "unexpected": [],
       "changed": []
     },
-    "elapsed_seconds": 1.9,
+    "elapsed_seconds": 1.67,
     "status": "pass_with_warnings"
   },
   "status": "pass_with_warnings"
