@@ -1,0 +1,62 @@
+{
+  "station": "NYY",
+  "reviewed_utc": "2026-10-08T21:45:35Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "1ed6ae575b58eae11548c945234dbd782d8839f1d702c49a2283fdc57cdce027",
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "inheritance_basis": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "0bf8314c9aeb63d191db2b5c32684a7819bde51944f3060cd0d49a28f1de9cc1",
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "7816b80725c645dc3135e4749e0f2b99af8735b99a4004c91b2256f777e9722a",
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "07da5ac521fcc630dd3b07316f8ad959f7539e4f189fd290e7b8e36d3e0b6e0f",
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "inheritance_basis": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "ed665fd893ad3f9ba61fb1200f626879788d0d93bcb60d5494346300378c97a9",
+      "source_scene_sha256": "19bfd683436668d33f4b27aa16831e19b9c71bb751e324c2a45a5ac7ed17ba20",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "inheritance_basis": "Changed stair AABB entirely outside recorded camera frustum; no other geometry or material edits"
+    }
+  },
+  "prior_review_reports": [
+    "NYY_19bfd683_visual_review.json",
+    "NYY_2ab1b315_partial_visual_review.json"
+  ],
+  "observations": [
+    "Targeted02 pale-fascia readable-name pass preserved.",
+    "New01/03/04 give useful full site/rail and coherent furnished counter views; no new material camera obstruction or duplicated assembly.",
+    "Remote05 exact original accepted hash is retained with current-scene unchanged-subject lineage."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

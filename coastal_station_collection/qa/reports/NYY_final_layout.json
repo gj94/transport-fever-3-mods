@@ -1,0 +1,31 @@
+{
+  "station": "NYY",
+  "layout_sha256": "274c5cd96f44cf9489b2ab7676613db35e3fc89e9480dae1ad2072cb4a6d7138",
+  "platform_mesh_sha256": "76f64f34d4d0b522eff509069fc0da6083c3ba3d9ace5a1cd9cfa675aa7e96d0",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 2740.434243137313,
+      "railcenter_min_m": 1.7999998960679267,
+      "intrusion_inside_1_8m_m2": 4.856844642838849e-06
+    },
+    {
+      "id": "RECONSTRUCTED_PLATFORM_2",
+      "valid": true,
+      "area_m2": 3120.275279638951,
+      "railcenter_min_m": 1.9999995939640105,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 8.269550519833436,
+  "reported_faces": "2",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "385040651",
+    "642058766",
+    "642058767"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

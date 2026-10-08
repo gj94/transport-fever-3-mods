@@ -1,0 +1,82 @@
+{
+  "station": "NYY",
+  "views": {
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "file_sha256": "1ed6ae575b58eae11548c945234dbd782d8839f1d702c49a2283fdc57cdce027",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 13.67,
+      "camera_override": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "file_sha256": "0bf8314c9aeb63d191db2b5c32684a7819bde51944f3060cd0d49a28f1de9cc1",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 22.99,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "file_sha256": "7816b80725c645dc3135e4749e0f2b99af8735b99a4004c91b2256f777e9722a",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 20.83,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -249.9661102294922,
+          10.294567108154297,
+          3.4000000953674316
+        ],
+        "target": [
+          -49.96611416937287,
+          10.655812944588428,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "file_sha256": "07da5ac521fcc630dd3b07316f8ad959f7539e4f189fd290e7b8e36d3e0b6e0f",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 27.27,
+      "camera_override": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "19bfd683436668d33f4b27aa16831e19b9c71bb751e324c2a45a5ac7ed17ba20",
+      "file_sha256": "ed665fd893ad3f9ba61fb1200f626879788d0d93bcb60d5494346300378c97a9",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 16.49,
+      "camera_override": null,
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "inheritance_basis": "Changed stair AABB entirely outside recorded camera frustum; no other geometry or material edits"
+    }
+  },
+  "current_source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2"
+}
