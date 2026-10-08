@@ -1,0 +1,211 @@
+{
+  "station_code": "KUMM",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 1,
+  "platform_bodies_modeled": 1,
+  "road_cross_section_count": 3,
+  "source_route_segments": 4,
+  "mapped_turnout_nodes": 6,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 6877,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        -19.4909,
+        -435.6239
+      ],
+      "motor_xy": [
+        -22.5409,
+        -435.6239
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500350341864717
+    },
+    {
+      "node_xy": [
+        -19.112,
+        -382.5233
+      ],
+      "motor_xy": [
+        -22.162,
+        -382.5233
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499619860551377
+    },
+    {
+      "node_xy": [
+        -12.5299,
+        583.2407
+      ],
+      "motor_xy": [
+        -15.579899999999999,
+        583.2407
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050008950999473
+    },
+    {
+      "node_xy": [
+        -5.2671,
+        649.4791
+      ],
+      "motor_xy": [
+        -8.3171,
+        649.4791
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050001964299936
+    },
+    {
+      "node_xy": [
+        -14.2806,
+        -135.7567
+      ],
+      "motor_xy": [
+        -16.6306,
+        -135.7567
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 1.6508073775157577
+    },
+    {
+      "node_xy": [
+        -13.6653,
+        -324.0387
+      ],
+      "motor_xy": [
+        -10.615300000000001,
+        -324.0387
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499699380348524
+    }
+  ],
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 88,
+  "mesh_objects": 70,
+  "mesh_vertices": 578624,
+  "mesh_faces": 409555,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "b049a7afa75b4f35bca1631b88cd8e34d6a6eda616a4e4040f06b0f910ebed84",
+  "source_plan_sha256": "228833792e06fcc2b45fe636532f1fd6377037e0fcb734b18a0a67bac3a18030",
+  "blend_file": "KUMM_coastal_station_v02.blend",
+  "blend_sha256": "8489168b583adf58e5438bf620432014cc8c7b84a5a23c8110e6ca3634581a90",
+  "blend_bytes": 12233012,
+  "building_dimensions_m": {
+    "width": 10,
+    "length": 16,
+    "position_xy": [
+      3.161098631706367,
+      0
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": -7.227961036322667,
+      "y": 0.0,
+      "bounds": [
+        -12.080430460410698,
+        -200.0,
+        -2.6389013682936326,
+        200.0
+      ],
+      "width": 8.00002785502632,
+      "ref": "1"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        300.0,
+        -240.0,
+        240.0
+      ],
+      "rotation": [
+        1.0124162435531616,
+        -5.7420294297116925e-08,
+        0.8960553407669067
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        37.16109848022461,
+        -25.0,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        2.1099630487242393e-08,
+        0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        -6.97796106338501,
+        -66.0,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711634159088135,
+        -5.749909437469114e-10,
+        0.05325840786099434
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        7.261098861694336,
+        -7.0,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5424739122390747,
+        -1.9304765785932432e-08,
+        0.3500448763370514
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        7.732900142669678,
+        621.4791259765625,
+        18.0
+      ],
+      "rotation": [
+        0.6513779759407043,
+        8.551139529799912e-08,
+        1.3439977169036865
+      ]
+    }
+  ],
+  "peak_rss_kb": 445380
+}
