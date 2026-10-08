@@ -1,0 +1,78 @@
+{
+  "station": "VELI",
+  "views": {
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "file_sha256": "4c01998b6161bb9598ab9df6c6149e96186770f31bc03298767e0c9223a98a8c",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 15.39,
+      "camera_override": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "file_sha256": "96b856541737fd170d20a6d3ed4fdfd8bb9bc2fc28228b55af0c0aac32cb8a93",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 22.3,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "file_sha256": "68fc29e74252d924d4aa0a0c2e90496164a87c5da922d178b79a018be36bf531",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 22.11,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -249.36529541015625,
+          3.9012796878814697,
+          3.4000000953674316
+        ],
+        "target": [
+          -49.36529480731019,
+          4.505323160522906,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "file_sha256": "60bfb8006910f314f71ad44473dd60d25b2b546125c410418c6872d645c7062e",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 24.32,
+      "camera_override": null
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "file_sha256": "263cae170921505601f3bbed81be85e28c700e947202f58b80b26b0d88ff72b7",
+      "camera": "05_TRACK_AND_PLATFORM_DETAIL",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 23.17,
+      "camera_override": null
+    }
+  }
+}
