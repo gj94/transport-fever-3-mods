@@ -1,0 +1,102 @@
+{
+  "station_code": "STKT",
+  "status": "Frozen candidate; automatic source/render/export hash gates passed. Independent scene/gallery acceptance is tracked by the parent auditor.",
+  "blend_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/stkt/STKT_coastal_station_v01.blend",
+      "bytes": 12699081,
+      "sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/BUILD_QA.json",
+      "bytes": 1831,
+      "sha256": "5a84bd09e193a75ba3ac014e6a845c5399bd12026b6b0444998b26b6aaf41c74"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/EXPORT_QA.json",
+      "bytes": 1319,
+      "sha256": "cb2a4268727916f31e8f17a8abfbaee0fef76f722d445d8fa5e024917ce3c386"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/RENDER_PROVENANCE.json",
+      "bytes": 3040,
+      "sha256": "c54eaa80d5b6fe844c0c59156dc684aed14ef20c1c35fceaf577d594add08a60"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 7776,
+      "sha256": "6c1c72ac3fd30fe5d2cb5e5c7e93119f2e16e0cfb63654024fc26b90875afb31"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/export/STKT_coastal_station_v01.glb.zip",
+      "bytes": 7471606,
+      "sha256": "74cd9d6dc9d0d976aa399a4ee52655e498cad3bca424ce86987fec9c5ff32d1e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/renders/01_full_mapped_layout.png",
+      "bytes": 1038235,
+      "sha256": "e2fc3ed47fccc72a56df569b14e360d9620693461d2657891721742aacb7b74b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/renders/02_station_and_platforms.png",
+      "bytes": 1094840,
+      "sha256": "0c003ad5b7edd183ade37ae0f8c4aeb22e02fa4e9eaf63af4d85fda66595566e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/renders/03_platform_track_details.png",
+      "bytes": 1189212,
+      "sha256": "c17bc5b08b5e4bc28ec4a2feb1d36b2bfe8cc9ee5e727f5be9a37499765e2abb"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/renders/04_facade_and_approach.png",
+      "bytes": 1210071,
+      "sha256": "fad625e0d25468faf4009d0f5a7071a75bb9cac310db2dcd6b235dffdfcdcdea"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/renders/05_ticket_interior.png",
+      "bytes": 1342776,
+      "sha256": "14e86886ea2bd941af66885f5a20e3723b2eb4a2be6e0922538df9ac8c0d6c11"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/mapped_geometry.json",
+      "bytes": 41685,
+      "sha256": "d1b7a503afd2a3843bd046bc67d28ac53982b7022937138d5e2b7782e3c3fd56"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/adopted_geometry.json",
+      "bytes": 168567,
+      "sha256": "fd6897806c275b1a499d5ff5d67f1e4719a285728273314a047a8ee6334a3108"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/station_nameboard.png",
+      "bytes": 32250,
+      "sha256": "7a2d4ac2cce5fdbadb3c8d8dcdd8efec0e69ad826286997b10291b3bf3c56ce9"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/nameboard_text.json",
+      "bytes": 417,
+      "sha256": "2aa3b0f92c5cd107fa1a258790c70b198e73579c89437a7829421ce4f1018396"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/visual_evidence.json",
+      "bytes": 1109,
+      "sha256": "b232d16ff9a56123bd1e218faacdaca5e680139efb7782836f4b429b3fd5558e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/build_station_used.py",
+      "bytes": 58389,
+      "sha256": "99f452767bb486f227785ac3c9aa7f6fe1e59f1cd336dc573c2e0afa66f9e1be"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/stkt/source/reference_spec.json",
+      "bytes": 627,
+      "sha256": "5dc8d365b724e42719f43709077519804c3e42a4b43d92cf9095574c525f5bd3"
+    }
+  ],
+  "included_render_count": 5,
+  "no_source_photos": true,
+  "licensing": "OSM-derived source geometry retained with ODbL attribution; generated label pixels only, no Google/provider imagery",
+  "provenance": "Per-view source hashes and retained-view reasons are explicit; export hash matches the authoritative packed Blend; exact builder or repair snapshot retained where captured",
+  "freeze_rule": "Do not mutate any allowlisted bytes after handoff. Revisions need a new directory."
+}
