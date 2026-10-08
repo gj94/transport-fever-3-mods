@@ -1,0 +1,24 @@
+{
+  "filename": "TVCN_station_v01.blend",
+  "size": 40088189,
+  "sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+  "git_blob_sha": "7a913405e2cd954b77517fb9b26fcb368ed433a9",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "6091ed596a063eb820eddd8c6bde26cdf88e2c2009e84892fe5981dcdbcac453"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "29a926b09b23a80c2c750ee8484d128f00f394e8a1db5049a9e1c66090fc461a"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 6533757,
+      "sha256": "0efacc3609e5f43ab0a9d0157633a15f7b4cfa00cd2a8a4fd0a527aa78dba3c4"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub transport; parts are not individually openable."
+}
