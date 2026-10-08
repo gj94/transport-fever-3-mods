@@ -1,0 +1,667 @@
+{
+  "station": "TMPY",
+  "blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+  "method": "Independent verification composed from exact base checks on unchanged components and exact final-source probes for changed geometry. Source hash is carried per probe; this does not claim every inherited check was rerun.",
+  "evidence_reports": [
+    "TMPY_final_scene_inspection.json",
+    "TMPY_repair_delta_inspection.json",
+    "TMPY_final_layout.json"
+  ],
+  "circulation_rays": {
+    "floor_threshold_3.2697293254061424": {
+      "from": [
+        3.2697293758392334,
+        2.7813661098480225,
+        1.7000000476837158
+      ],
+      "to": [
+        3.2697293758392334,
+        2.7813661098480225,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Tumboli photographed architecture / stone",
+      "hit_location": [
+        3.2697293758392334,
+        2.7813661098480225,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "verified_on_source_blend_sha256": "af927933860ad470471eabe4185e880f2d1f7100578f6a7ff623ad2027cf9253",
+      "inherited_unchanged_component": true
+    },
+    "floor_threshold_3.069729325406142": {
+      "from": [
+        3.0697293281555176,
+        2.7813661098480225,
+        1.7000000476837158
+      ],
+      "to": [
+        3.0697293281555176,
+        2.7813661098480225,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Tumboli photographed architecture / stone",
+      "hit_location": [
+        3.0697293281555176,
+        2.7813661098480225,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "verified_on_source_blend_sha256": "af927933860ad470471eabe4185e880f2d1f7100578f6a7ff623ad2027cf9253",
+      "inherited_unchanged_component": true
+    },
+    "floor_threshold_-4.0304041588578645": {
+      "from": [
+        -4.030404090881348,
+        2.7813661098480225,
+        1.7000000476837158
+      ],
+      "to": [
+        -4.030404090881348,
+        2.7813661098480225,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Tumboli photographed architecture / stone",
+      "hit_location": [
+        -4.030404090881348,
+        2.7813661098480225,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "verified_on_source_blend_sha256": "af927933860ad470471eabe4185e880f2d1f7100578f6a7ff623ad2027cf9253",
+      "inherited_unchanged_component": true
+    },
+    "floor_threshold_-4.230404158857866": {
+      "from": [
+        -4.230404376983643,
+        2.7813661098480225,
+        1.7000000476837158
+      ],
+      "to": [
+        -4.230404376983643,
+        2.7813661098480225,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Tumboli photographed architecture / stone",
+      "hit_location": [
+        -4.230404376983643,
+        2.7813661098480225,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "verified_on_source_blend_sha256": "af927933860ad470471eabe4185e880f2d1f7100578f6a7ff623ad2027cf9253",
+      "inherited_unchanged_component": true
+    },
+    "ramp_0.3_-0.2": {
+      "from": [
+        4.169729232788086,
+        22.881366729736328,
+        0.30000001192092896
+      ],
+      "to": [
+        4.169729232788086,
+        5.481366157531738,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.3_-0.2": {
+      "from": [
+        4.169729232788086,
+        5.481366157531738,
+        1.75
+      ],
+      "to": [
+        4.169729232788086,
+        2.7813661098480225,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.3_0": {
+      "from": [
+        4.369729518890381,
+        22.881366729736328,
+        0.30000001192092896
+      ],
+      "to": [
+        4.369729518890381,
+        5.481366157531738,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.3_0": {
+      "from": [
+        4.369729518890381,
+        5.481366157531738,
+        1.75
+      ],
+      "to": [
+        4.369729518890381,
+        2.7813661098480225,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.3_0.2": {
+      "from": [
+        4.569729328155518,
+        22.881366729736328,
+        0.30000001192092896
+      ],
+      "to": [
+        4.569729328155518,
+        5.481366157531738,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.3_0.2": {
+      "from": [
+        4.569729328155518,
+        5.481366157531738,
+        1.75
+      ],
+      "to": [
+        4.569729328155518,
+        2.7813661098480225,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "central_entry_0.3": {
+      "from": [
+        4.469729423522949,
+        2.7813661098480225,
+        1.7999999523162842
+      ],
+      "to": [
+        -4.630403995513916,
+        2.7813661098480225,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.5_-0.2": {
+      "from": [
+        4.169729232788086,
+        22.881366729736328,
+        0.5
+      ],
+      "to": [
+        4.169729232788086,
+        5.481366157531738,
+        1.9500000476837158
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.5_-0.2": {
+      "from": [
+        4.169729232788086,
+        5.481366157531738,
+        1.9500000476837158
+      ],
+      "to": [
+        4.169729232788086,
+        2.7813661098480225,
+        1.9500000476837158
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.5_0": {
+      "from": [
+        4.369729518890381,
+        22.881366729736328,
+        0.5
+      ],
+      "to": [
+        4.369729518890381,
+        5.481366157531738,
+        1.9500000476837158
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.5_0": {
+      "from": [
+        4.369729518890381,
+        5.481366157531738,
+        1.9500000476837158
+      ],
+      "to": [
+        4.369729518890381,
+        2.7813661098480225,
+        1.9500000476837158
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.5_0.2": {
+      "from": [
+        4.569729328155518,
+        22.881366729736328,
+        0.5
+      ],
+      "to": [
+        4.569729328155518,
+        5.481366157531738,
+        1.9500000476837158
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.5_0.2": {
+      "from": [
+        4.569729328155518,
+        5.481366157531738,
+        1.9500000476837158
+      ],
+      "to": [
+        4.569729328155518,
+        2.7813661098480225,
+        1.9500000476837158
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "central_entry_0.5": {
+      "from": [
+        4.469729423522949,
+        2.7813661098480225,
+        2.0
+      ],
+      "to": [
+        -4.630403995513916,
+        2.7813661098480225,
+        2.0
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.9_-0.2": {
+      "from": [
+        4.169729232788086,
+        22.881366729736328,
+        0.8999999761581421
+      ],
+      "to": [
+        4.169729232788086,
+        5.481366157531738,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.9_-0.2": {
+      "from": [
+        4.169729232788086,
+        5.481366157531738,
+        2.3499999046325684
+      ],
+      "to": [
+        4.169729232788086,
+        2.7813661098480225,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.9_0": {
+      "from": [
+        4.369729518890381,
+        22.881366729736328,
+        0.8999999761581421
+      ],
+      "to": [
+        4.369729518890381,
+        5.481366157531738,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.9_0": {
+      "from": [
+        4.369729518890381,
+        5.481366157531738,
+        2.3499999046325684
+      ],
+      "to": [
+        4.369729518890381,
+        2.7813661098480225,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_0.9_0.2": {
+      "from": [
+        4.569729328155518,
+        22.881366729736328,
+        0.8999999761581421
+      ],
+      "to": [
+        4.569729328155518,
+        5.481366157531738,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_0.9_0.2": {
+      "from": [
+        4.569729328155518,
+        5.481366157531738,
+        2.3499999046325684
+      ],
+      "to": [
+        4.569729328155518,
+        2.7813661098480225,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "central_entry_0.9": {
+      "from": [
+        4.469729423522949,
+        2.7813661098480225,
+        2.4000000953674316
+      ],
+      "to": [
+        -4.630403995513916,
+        2.7813661098480225,
+        2.4000000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_1.7_-0.2": {
+      "from": [
+        4.169729232788086,
+        22.881366729736328,
+        1.7000000476837158
+      ],
+      "to": [
+        4.169729232788086,
+        5.481366157531738,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_1.7_-0.2": {
+      "from": [
+        4.169729232788086,
+        5.481366157531738,
+        3.1500000953674316
+      ],
+      "to": [
+        4.169729232788086,
+        2.7813661098480225,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_1.7_0": {
+      "from": [
+        4.369729518890381,
+        22.881366729736328,
+        1.7000000476837158
+      ],
+      "to": [
+        4.369729518890381,
+        5.481366157531738,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_1.7_0": {
+      "from": [
+        4.369729518890381,
+        5.481366157531738,
+        3.1500000953674316
+      ],
+      "to": [
+        4.369729518890381,
+        2.7813661098480225,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "ramp_1.7_0.2": {
+      "from": [
+        4.569729328155518,
+        22.881366729736328,
+        1.7000000476837158
+      ],
+      "to": [
+        4.569729328155518,
+        5.481366157531738,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "landing_1.7_0.2": {
+      "from": [
+        4.569729328155518,
+        5.481366157531738,
+        3.1500000953674316
+      ],
+      "to": [
+        4.569729328155518,
+        2.7813661098480225,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "central_entry_1.7": {
+      "from": [
+        4.469729423522949,
+        2.7813661098480225,
+        3.200000047683716
+      ],
+      "to": [
+        -4.630403995513916,
+        2.7813661098480225,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null,
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "floor_ramp_2.7": {
+      "from": [
+        4.369729518890381,
+        5.481366157531738,
+        1.7000000476837158
+      ],
+      "to": [
+        4.369729518890381,
+        5.481366157531738,
+        0.949999988079071
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        4.369729518890381,
+        5.481366157531738,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304548263549805,
+        0.9965457916259766
+      ],
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "floor_ramp_11.399999999999999": {
+      "from": [
+        4.369729518890381,
+        14.181365966796875,
+        0.9750000238418579
+      ],
+      "to": [
+        4.369729518890381,
+        14.181365966796875,
+        0.22499999403953552
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        4.369729518890381,
+        14.181365966796875,
+        0.7250000834465027
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304548263549805,
+        0.9965457916259766
+      ],
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    },
+    "floor_ramp_20.099999999999998": {
+      "from": [
+        4.369729518890381,
+        22.881366729736328,
+        0.25
+      ],
+      "to": [
+        4.369729518890381,
+        22.881366729736328,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        4.369729518890381,
+        22.881366729736328,
+        0.0
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304548263549805,
+        0.9965457916259766
+      ],
+      "verified_on_source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561"
+    }
+  }
+}

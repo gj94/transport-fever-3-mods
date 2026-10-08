@@ -1,0 +1,258 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/NYY_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 880,
+  "object_types": {
+    "MESH": 832,
+    "FONT": 37,
+    "LIGHT": 6,
+    "CAMERA": 5
+  },
+  "unique_meshes": 832,
+  "unique_vertices": 394271,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -61.9304313659668,
+      -0.550000011920929
+    ],
+    [
+      895.0,
+      172.9833984375,
+      19.57236671447754
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "NYY",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676",
+    "stair_transition_version": "2",
+    "stair_repair_input_sha256": "19bfd683436668d33f4b27aa16831e19b9c71bb751e324c2a45a5ac7ed17ba20"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_PHYSICAL_POINTWORK"
+  ],
+  "circulation_rays": {
+    "central_public_entry": {
+      "from": [
+        0.0,
+        -10.733694076538086,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        4.266306400299072,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda": {
+      "from": [
+        -11.899999618530273,
+        -10.733694076538086,
+        2.3499999046325684
+      ],
+      "to": [
+        -11.899999618530273,
+        -8.533693313598633,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry": {
+      "from": [
+        -11.899999618530273,
+        -8.533693313598633,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        -8.533693313598633,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_bodypath": {
+      "from": [
+        -11.899999618530273,
+        -22.033693313598633,
+        0.7599999904632568
+      ],
+      "to": [
+        -11.899999618530273,
+        -10.433693885803223,
+        1.8899999856948853
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_low_clearance": {
+      "from": [
+        -11.899999618530273,
+        -22.033693313598633,
+        0.05000000074505806
+      ],
+      "to": [
+        -11.899999618530273,
+        -10.433693885803223,
+        1.190000057220459
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_low": {
+      "from": [
+        22.0,
+        0.2163063883781433,
+        1.3049999475479126
+      ],
+      "to": [
+        22.0,
+        3.82690167427063,
+        1.2640000581741333
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_waist": {
+      "from": [
+        22.0,
+        0.2163063883781433,
+        1.9049999713897705
+      ],
+      "to": [
+        22.0,
+        3.82690167427063,
+        1.8639999628067017
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_head": {
+      "from": [
+        22.0,
+        0.2163063883781433,
+        2.6050000190734863
+      ],
+      "to": [
+        22.0,
+        3.82690167427063,
+        2.563999891281128
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_1_upper_mouth": {
+      "from": [
+        -67.0,
+        6.691689491271973,
+        9.050000190734863
+      ],
+      "to": [
+        -70.0,
+        6.691689491271973,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_1_toe": {
+      "from": [
+        -54.125,
+        6.691689491271973,
+        2.450000047683716
+      ],
+      "to": [
+        -55.525001525878906,
+        6.691689491271973,
+        2.450000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_2_upper_mouth": {
+      "from": [
+        -67.0,
+        21.394960403442383,
+        9.050000190734863
+      ],
+      "to": [
+        -70.0,
+        21.394960403442383,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_2_toe": {
+      "from": [
+        -54.125,
+        21.394960403442383,
+        2.450000047683716
+      ],
+      "to": [
+        -55.525001525878906,
+        21.394960403442383,
+        2.450000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2"
+}

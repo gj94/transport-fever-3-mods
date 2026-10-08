@@ -1,0 +1,294 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/HAD/HAD_coastal_station_v03.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 127,
+  "object_types": {
+    "MESH": 85,
+    "CURVE": 26,
+    "FONT": 8,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 85,
+  "unique_vertices": 968619,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.351614952087402
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f11dd5fd520>",
+    "station_code": "HAD",
+    "station_name": "Haripad",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform": {
+      "from": [
+        -12.949999809265137,
+        -0.012981315143406391,
+        2.8499999046325684
+      ],
+      "to": [
+        6.050000190734863,
+        -0.012981315143406391,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6": {
+      "from": [
+        8.052783012390137,
+        48.537017822265625,
+        3.049999952316284
+      ],
+      "to": [
+        8.052783012390137,
+        63.73701858520508,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body1_offset-0.6": {
+      "from": [
+        8.052783012390137,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        8.052783012390137,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0": {
+      "from": [
+        8.652783393859863,
+        48.537017822265625,
+        3.049999952316284
+      ],
+      "to": [
+        8.652783393859863,
+        63.73701858520508,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body1_offset0": {
+      "from": [
+        8.652783393859863,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        8.652783393859863,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0.6": {
+      "from": [
+        9.252782821655273,
+        48.537017822265625,
+        3.049999952316284
+      ],
+      "to": [
+        9.252782821655273,
+        63.73701858520508,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body1_offset0.6": {
+      "from": [
+        9.252782821655273,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        9.252782821655273,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6": {
+      "from": [
+        36.63913345336914,
+        48.537017822265625,
+        3.049999952316284
+      ],
+      "to": [
+        36.63913345336914,
+        63.73701858520508,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body2_offset-0.6": {
+      "from": [
+        36.63913345336914,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        36.63913345336914,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0": {
+      "from": [
+        37.239131927490234,
+        48.537017822265625,
+        3.049999952316284
+      ],
+      "to": [
+        37.239131927490234,
+        63.73701858520508,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body2_offset0": {
+      "from": [
+        37.239131927490234,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        37.239131927490234,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0.6": {
+      "from": [
+        37.839134216308594,
+        48.537017822265625,
+        3.049999952316284
+      ],
+      "to": [
+        37.839134216308594,
+        63.73701858520508,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body2_offset0.6": {
+      "from": [
+        37.839134216308594,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        37.839134216308594,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8"
+}

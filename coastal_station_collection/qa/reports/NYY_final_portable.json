@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/nyy/exchange/NYY_portable_GLTF.zip!NYY_station_v01.glb",
+    "bytes": 34597832,
+    "errors": [],
+    "warnings": [],
+    "sha256": "ce5c0f8abf809418b194e67d7ed67ee5e1ec53290f3e7bdd88662633e5568846",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 34597832
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 560364
+      },
+      {
+        "type": 5130562,
+        "bytes": 34037440
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 869,
+    "mesh_count": 869,
+    "primitive_count": 869,
+    "vertex_reference_count": 1170470,
+    "accessor_count": 1908,
+    "validated_accessor_count": 1908,
+    "material_count": 24,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "753ec18b765f86ad42a77e8ad343b034d8d2447341afe11aefff6e07fc362129",
+    "container_bytes": 4906988
+  }
+]

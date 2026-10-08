@@ -16,6 +16,10 @@ For all split files in this collection, run `python reassemble_all.py` from the 
 
 Large whole-model attachments may exceed the chat attachment limit. The verified GitHub files and exact-byte parts are the durable delivery route. Preview images alone are not the model source.
 
+## Inspect furnished rooms
+
+In the middle station scenes, the Blender Outliner groups removable building roofs under `06_LIFT_OFF_ROOFS` and reconstructed room furnishings under `07_FURNISHED_INTERIORS_RECONSTRUCTED`. Hide the roof collection to inspect the rooms while leaving the furnishings visible. The saved `05_TICKET_INTERIOR` camera provides an interior viewpoint. These collection/camera names apply where present in the middle models; other stations can use their own scene organization. Hidden interiors remain reconstructions, as documented per station.
+
 ## Earlier ERS, TVC and NCJ models
 
 See [the rich-v02 opening instructions](../south_indian_stations_v02/README.md) and [its tested all-model reassembly script](../south_indian_stations_v02/reassemble_all_models.py). Those source files and images remain unchanged.

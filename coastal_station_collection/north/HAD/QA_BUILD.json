@@ -1,0 +1,404 @@
+{
+  "station_code": "HAD",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 2,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 4,
+  "source_route_segments": 13,
+  "mapped_turnout_nodes": 15,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 11724,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        21.4449,
+        799.5444
+      ],
+      "motor_xy": [
+        18.3949,
+        799.5444
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050018343364293
+    },
+    {
+      "node_xy": [
+        19.078,
+        -630.0241
+      ],
+      "motor_xy": [
+        16.028,
+        -630.0241
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.04995273211728
+    },
+    {
+      "node_xy": [
+        20.4941,
+        -428.5275
+      ],
+      "motor_xy": [
+        17.4441,
+        -428.5275
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500006996581632
+    },
+    {
+      "node_xy": [
+        20.4929,
+        -380.6737
+      ],
+      "motor_xy": [
+        17.442899999999998,
+        -380.6737
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.730255588411339
+    },
+    {
+      "node_xy": [
+        21.071,
+        650.4393
+      ],
+      "motor_xy": [
+        24.121000000000002,
+        650.4393
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050046159067275
+    },
+    {
+      "node_xy": [
+        26.0224,
+        736.0056
+      ],
+      "motor_xy": [
+        29.072400000000002,
+        736.0056
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500376576802886
+    },
+    {
+      "node_xy": [
+        15.6658,
+        563.8704
+      ],
+      "motor_xy": [
+        12.6158,
+        563.8704
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499560706919446
+    },
+    {
+      "node_xy": [
+        15.6341,
+        547.4844
+      ],
+      "motor_xy": [
+        12.5841,
+        547.4844
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499881854582966
+    },
+    {
+      "node_xy": [
+        15.2722,
+        -266.6714
+      ],
+      "motor_xy": [
+        17.6222,
+        -266.6714
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.3499729646357412
+    },
+    {
+      "node_xy": [
+        30.2478,
+        -292.5287
+      ],
+      "motor_xy": [
+        33.2978,
+        -292.5287
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500063878488426
+    },
+    {
+      "node_xy": [
+        31.7818,
+        503.4169
+      ],
+      "motor_xy": [
+        34.8318,
+        503.4169
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500323364656374
+    },
+    {
+      "node_xy": [
+        27.6767,
+        603.4663
+      ],
+      "motor_xy": [
+        24.6267,
+        603.4663
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500303723558275
+    },
+    {
+      "node_xy": [
+        25.7717,
+        -387.4805
+      ],
+      "motor_xy": [
+        28.8217,
+        -387.4805
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499906311727685
+    },
+    {
+      "node_xy": [
+        25.5074,
+        -520.9872
+      ],
+      "motor_xy": [
+        28.5574,
+        -520.9872
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049953291178582
+    },
+    {
+      "node_xy": [
+        25.4857,
+        -535.3484
+      ],
+      "motor_xy": [
+        28.535700000000002,
+        -535.3484
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049976539904744
+    }
+  ],
+  "bridge_deck_underside_m": 8.4,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 63.73701868528518,
+  "stair_landing_method": "Last tread ends at deck leading edge and top equals slab top8.70m; no treads run underneath solid deck.",
+  "pointwork_proof_crossing": {
+    "ways": [
+      "520216267",
+      "640907596"
+    ],
+    "sides": [
+      -1,
+      -1
+    ],
+    "xy": [
+      22.354254237590467,
+      774.8422617925708
+    ],
+    "nearest_junction_distance_m": 24.71887046667706
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 127,
+  "mesh_objects": 85,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9",
+  "source_plan_sha256": "c366005c932d3ce73d85dcfe46a477a036de5796ca0f508c7dd3507fbadb50e8",
+  "blend_file": "HAD_coastal_station_v03.blend",
+  "blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8",
+  "blend_bytes": 19929089,
+  "building_dimensions_m": {
+    "width": 13,
+    "length": 80.89912980912572,
+    "position_xy": [
+      -2.450000000000001,
+      -0.012981314714817671
+    ],
+    "height": 5.5
+  },
+  "platform_parameters": [
+    {
+      "x": 8.647503414214526,
+      "y": 0.0,
+      "bounds": [
+        4.34028620828673,
+        -270.0,
+        13.80208662505709,
+        270.0
+      ],
+      "width": 8.000041705652595,
+      "ref": "1"
+    },
+    {
+      "x": 36.92815461152975,
+      "y": 0.0,
+      "bounds": [
+        32.13249705855648,
+        -270.0,
+        41.754803104831666,
+        270.0
+      ],
+      "width": 8.000091593562018,
+      "ref": "2"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -324.0,
+        240.0
+      ],
+      "rotation": [
+        1.072936773300171,
+        -4.2897610796899244e-08,
+        -0.7469554543495178
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -37.95000076293945,
+        -25.012981414794922,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        -2.1099630487242393e-08,
+        -0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        10.447503089904785,
+        -66.01297760009766,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        -1.060605159253214e-09,
+        -0.03821668028831482
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -8.050000190734863,
+        -7.012981414794922,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5436581373214722,
+        4.565472622175548e-08,
+        -0.45086875557899475
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        26.8542537689209,
+        767.84228515625,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 618072,
+  "bufferstop_patch": {
+    "source_blend_sha256": "ba4a01e330cf74d735b45bead332126b682b510e74c6e030931560c54ba02aa5",
+    "source_blend_file": "HAD_coastal_station_v01.blend",
+    "changed_objects": [
+      {
+        "object": "01 | Mapped railway infrastructure / railweb",
+        "vertices_moved": 16
+      },
+      {
+        "object": "01 | Mapped railway infrastructure / red",
+        "vertices_moved": 8
+      },
+      {
+        "object": "01 | Mapped railway infrastructure / white",
+        "vertices_moved": 8
+      }
+    ],
+    "translation_xy": [
+      0.011106704043723641,
+      0.4998766259041176
+    ],
+    "retreat_m": 0.5,
+    "all_other_geometry_unchanged": true,
+    "script_sha256": "a80a810f6327f1f3c6d08a951e215663b4d42b1f1d8e1ce182be0f036cfb6364"
+  },
+  "facade_refinement": {
+    "source_blend_sha256": "527eebbf1f6e769bca40ec40a6da2620e591f46c1c7f91a1489dc609f266f6c2",
+    "source_blend_file": "HAD_coastal_station_v02.blend",
+    "details": "Raised central cream ventilator band with small dark openings, red stepped corbels and a tile cap; actual frontage source basis.",
+    "changed_existing_objects": [],
+    "added_collection": "04A | HAD source-identifying facade refinement",
+    "all_other_geometry_unchanged": true,
+    "script_sha256": "af436d2d10fb1320a962a4162042e7893ccf602b8df56a1355d888739a96c4e7"
+  },
+  "initial_build_inventory": {
+    "object_count": 127,
+    "mesh_objects": 85,
+    "mesh_vertices": 968619,
+    "mesh_faces": 682102
+  },
+  "unique_mesh_vertices_final": 968619,
+  "geometry_bounds_m": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.351614952087402
+    ]
+  ],
+  "packed_resources_final": true,
+  "no_stock_name_candidates_final": true,
+  "final_inventory_source": "QA_SCENE.json, exact read-only inspected scene hash"
+}

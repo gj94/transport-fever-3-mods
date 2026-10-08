@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    {
+      "ref": "1",
+      "actual_head_overlap_m2": 1.0291154900281106e-07,
+      "head_overlap_after_20um_trim_m2": 0.0,
+      "nominal_center_min_m": 0.6576253165593275
+    },
+    {
+      "ref": "2",
+      "actual_head_overlap_m2": 0.0,
+      "head_overlap_after_20um_trim_m2": 0.0,
+      "nominal_center_min_m": 2.1999991512868884
+    }
+  ],
+  "interpretation": "The short centerline distance is at a terminal-end source cutout, not a running-rail side clearance. Actual serialized rail-head and platform top meshes have no meaningful overlap;20micrometre trim accounts for coordinate rounding. Bufferstop was separately retreated0.5m from the platform boundary."
+}

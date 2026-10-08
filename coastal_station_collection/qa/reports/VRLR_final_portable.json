@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/vrlr/exchange/VRLR_portable_GLTF.zip!VRLR_station_v01.glb",
+    "bytes": 38642012,
+    "errors": [],
+    "warnings": [],
+    "sha256": "e3f6f1154e12262a9a27537e46c9cbdb76d39ce1a79357a0b805fadcf3ba20db",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 38642012
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 573204
+      },
+      {
+        "type": 5130562,
+        "bytes": 38068780
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 880,
+    "mesh_count": 880,
+    "primitive_count": 880,
+    "vertex_reference_count": 1299921,
+    "accessor_count": 1961,
+    "validated_accessor_count": 1961,
+    "material_count": 19,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "392d7ee8c3dba7fe3b79ec5b9dddcd70cf7b7ec6e6facee0dc3443d043b3076b",
+    "container_bytes": 5609810
+  }
+]

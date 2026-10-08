@@ -1,0 +1,30 @@
+{
+  "station": "VRLR",
+  "layout_sha256": "8d8fe696615ff4cc4235e95104cd9d5911afc130fcfa5b0d9756a67a4c8aff6d",
+  "platform_mesh_sha256": "935a918cf2b5bd4a89071d8ee18502bb44d2c42cbac5f013ff8f47441f1f326f",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 3080.104871999855,
+      "railcenter_min_m": 1.999999702979707,
+      "intrusion_inside_1_8m_m2": 0.0
+    },
+    {
+      "id": "RECONSTRUCTED_PLATFORM_2",
+      "valid": true,
+      "area_m2": 3079.8948854611835,
+      "railcenter_min_m": 2.000000148973531,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 7.79993890763381,
+  "reported_faces": "1",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "256080322",
+    "1180712994"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

@@ -1,0 +1,62 @@
+{
+  "station": "HAD",
+  "blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8",
+  "plan_sha256": "c366005c932d3ce73d85dcfe46a477a036de5796ca0f508c7dd3507fbadb50e8",
+  "platform_railcenter_min_m": [
+    0.6576221128889722,
+    2.1999999419879974
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 10.667826092244843,
+  "enclosed_building_platform_overlap_m2": 0.0,
+  "motor_slab_platform_overlap_m2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "motor_slab_railcenter_min_m": [
+    2.500018343364292,
+    2.4974021850694528,
+    2.4950193755999677,
+    2.176793412802405,
+    2.4912829623970114,
+    2.477645208319823,
+    2.4668920165853745,
+    2.441294902868751,
+    1.7660659587473098,
+    2.4837712221443504,
+    2.4936010717422636,
+    2.497000424784383,
+    2.464256542602867,
+    2.4985702863387615,
+    2.498914838394159
+  ],
+  "flights": [
+    {
+      "name": "bridge_head_body1_offset0",
+      "outside_platform_m2": 0.0
+    },
+    {
+      "name": "bridge_head_body2_offset0",
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": 2,
+  "modelled_bodies": 2,
+  "gauge_m": 1.676
+}

@@ -1,0 +1,56 @@
+{
+  "file": "renders/05_Mapped_turnout_detail.png",
+  "camera": "05_Mapped_turnout_detail",
+  "source_blend_sha256": "ba4a01e330cf74d735b45bead332126b682b510e74c6e030931560c54ba02aa5",
+  "image_sha256": "a5c49c5c4e87dad360822f243079eb27c25669d5823612cd01da31559a308566",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 37.19,
+  "samples": 48,
+  "denoising": false,
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision contains the explicitly recorded facade refinement: Raised central cream ventilator band with small dark openings, red stepped corbels and a tile cap; actual frontage source basis. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+    "original_image_sha256": "a5c49c5c4e87dad360822f243079eb27c25669d5823612cd01da31559a308566",
+    "related_patch_chain": {
+      "bufferstop_patch": {
+        "source_blend_sha256": "ba4a01e330cf74d735b45bead332126b682b510e74c6e030931560c54ba02aa5",
+        "source_blend_file": "HAD_coastal_station_v01.blend",
+        "changed_objects": [
+          {
+            "object": "01 | Mapped railway infrastructure / railweb",
+            "vertices_moved": 16
+          },
+          {
+            "object": "01 | Mapped railway infrastructure / red",
+            "vertices_moved": 8
+          },
+          {
+            "object": "01 | Mapped railway infrastructure / white",
+            "vertices_moved": 8
+          }
+        ],
+        "translation_xy": [
+          0.011106704043723641,
+          0.4998766259041176
+        ],
+        "retreat_m": 0.5,
+        "all_other_geometry_unchanged": true,
+        "script_sha256": "a80a810f6327f1f3c6d08a951e215663b4d42b1f1d8e1ce182be0f036cfb6364"
+      },
+      "facade_refinement": {
+        "source_blend_sha256": "527eebbf1f6e769bca40ec40a6da2620e591f46c1c7f91a1489dc609f266f6c2",
+        "source_blend_file": "HAD_coastal_station_v02.blend",
+        "details": "Raised central cream ventilator band with small dark openings, red stepped corbels and a tile cap; actual frontage source basis.",
+        "changed_existing_objects": [],
+        "added_collection": "04A | HAD source-identifying facade refinement",
+        "all_other_geometry_unchanged": true,
+        "script_sha256": "af436d2d10fb1320a962a4162042e7893ccf602b8df56a1355d888739a96c4e7"
+      }
+    }
+  }
+}
