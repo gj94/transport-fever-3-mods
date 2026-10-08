@@ -1,0 +1,24 @@
+{
+  "filename": "NCJ_full_station_v02.blend",
+  "size": 46075450,
+  "sha256": "995f4ae7ed695eed0dc15c3fb09a281c7620806f73ce037d2473de05bcb5b762",
+  "git_blob_sha": "4bf11e4f8b4fa6c1a2315f990d86162320b8079a",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "8f090de395c12767020a568e3c56d7f9d1291a0e3f2141fb843cb1429c50bc6e"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "aed22d6501bc0e085215c38c612e52ca5b387e8dab29c49bebe469aedd81d9f0"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 12521018,
+      "sha256": "eb0f4d57d3b77926d60672acd8e84ffe966581d38f60a8e713b28e9ca40c9e8c"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
+}

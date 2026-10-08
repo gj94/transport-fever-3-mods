@@ -11,7 +11,7 @@ cube=lambda n,p,s,m,bev=0:oldcube(n,p,s,m,0)
 for n in ['10_HALL_INTERIOR_RECONSTRUCTED','11_WAITING_AND_OFFICES_RECONSTRUCTED','12_TOILETS_AND_SERVICE_RECONSTRUCTED','13_UPPER_FLOOR_RECONSTRUCTED','20_PLATFORMS_MAP_DERIVED','21_PLATFORM_FURNITURE','22_FOOTBRIDGE_RECONSTRUCTED','30_RAILS_OSM_1676mm','31_TURNOUT_COMPONENTS_RECONSTRUCTED','32_SLEEPERS_FASTENERS','33_BALLAST_DRAINAGE','34_OHE_SIGNALS_RECONSTRUCTED','35_DEPOT_PITS_AND_GOODS','40_SURROUNDINGS','90_REVIEW_CAMERAS']:
  cols[n]=collection(n)
 for o in list(bpy.data.objects):
- if o.name.split('.')[0] in ['Rear wall','Lower wing building','Annex block','Ground slab']:bpy.data.objects.remove(o,do_unlink=True)
+ if o.name.split('.')[0] in ['Rear wall','Lower wing building','Annex block','Ground slab','Annex ground doorway']:bpy.data.objects.remove(o,do_unlink=True)
 # Fully resolved physically modelled station palette.
 tile=mat('Speckled warm terrazzo',(.58,.55,.44),noise=.19);tile2=mat('Darker replacement terrazzo',(.44,.45,.39),noise=.25);grout=mat('Grouted joints',(.20,.21,.19));cream=mat('Interior washable cream',(.79,.75,.60),noise=.08);skirt=mat('Maroon enamel skirting',(.29,.07,.045),.4);ceramic=mat('Glazed sanitary ceramic',(.87,.89,.85),.23);steel=mat('Polished stainless fixtures',(.51,.55,.54),.25,.85);wood=mat('Worn hardwood slats',(.24,.12,.055),noise=.32);bluepaint=mat('Railway blue painted steel',(.025,.17,.33),.52,.25,noise=.16);warning=mat('Safety yellow',(.92,.64,.025),.61);trackrust=mat('Rusty rail sides',(.22,.095,.045),.53,.68,noise=.28);railhead=mat('Polished running rail',(.34,.39,.41),.28,.9);ballast=mat('Angular granite ballast',(.26,.28,.27),noise=.5);sleepermat=mat('Prestressed concrete sleeper',(.46,.46,.41),noise=.25);moss=mat('Drain algae',(.15,.19,.07),noise=.4);water=mat('Water basin',(.08,.22,.24),.15,.5)
 def emissive(n,col,power):
@@ -89,7 +89,7 @@ for side in [-1,1]:
    for dx in [-.65,.65]:beam('Queue rail post',(xx+dx,yy,.72),(xx+dx,yy,1.6),.027,steel)
   for dx in [-.65,.65]:beam('Queue rail',(xx+dx,2.6,1.6),(xx+dx,5.4,1.6),.028,steel)
 for x in [-9,0,9]:
- fan(x,4.5,3.55);cube('Ceiling tube fitting',(x,2.6,3.92),(1.3,.25,.12),ivory);cube('Fluorescent tube diffuser',(x,2.6,3.85),(1.2,.16,.025),lampmat);area('Hall ceiling light',(x,4.4,3.92),180,4)
+ fan(x,4.5,3.55);cube('Ceiling tube fitting',(x,2.6,3.92),(1.3,.25,.12),ivory);cube('Fluorescent tube diffuser',(x,2.6,3.85),(1.2,.16,.025),lampmat);area('Hall ceiling light',(x,4.4,3.92),420,4)
 plaque('Wayfinding','PLATFORMS 1 / 1A / 2 / 3   →',(0,9.7,3.12),6,.55)
 # Timetable case and clock with hands.
 cube('Timetable glass case',(-5.9,6.2,2.2),(.14,2.2,1.3),wood)
@@ -103,7 +103,7 @@ group('11_WAITING_AND_OFFICES_RECONSTRUCTED')
 room_shell('WAITING HALL',-35.8,-18.2,-.7,9.1,doorx=-25)
 for x in [-32,-28,-23]:
  for y in [2,5.5]:bench(x,y)
-for x in [-32,-25]:fan(x,4.5,3.45);area('Waiting ceiling light',(x,4.5,3.8),140,4)
+for x in [-32,-25]:fan(x,4.5,3.45);area('Waiting ceiling light',(x,4.5,3.8),360,4)
 for y in [2,5.5,7.8]:
  cube('Luggage rack shelf',(-35.4,y,2.1),(.65,2,.08),steel)
  for yy in [y-.8,y+.8]:beam('Luggage rack support',(-35.6,yy,.8),(-35.6,yy,2.8),.025,steel)
@@ -136,7 +136,7 @@ for x in [-75,-72,-64,-61]:
  cube('Mirror',(x,4.84,2.07),(.66,.02,.8),glass);polycurve('Waste pipe',[(x,4.5,1.3),(x,4.5,.83),(x,4.83,.83)],.033,ivory)
 for x in range(-76,-59):
  for y in range(2,12):boxb('Bathroom square ceramic tile',(x,y,.705),(.98,.98,.035),ceramic if (x+y)%2 else tile2)
-for x in [-74,-62]:area('Washroom light',(x,6,3.8),160,4)
+for x in [-74,-62]:area('Washroom light',(x,6,3.8),360,4)
 # Utility/service room east of station, electrical cabinets and pump pipes.
 room_shell('ELECTRICAL / STAFF',22,34,1,10,doorx=27)
 for x in [24,27,30,32]:
@@ -161,6 +161,47 @@ beam('Stair handrail',(14.25,.8,1.6),(14.25,7.4,5.25),.029,steel)
 for o in list(bpy.data.objects):
  if o.name.startswith('Interior mezzanine floor'):bpy.data.objects.remove(o,do_unlink=True)
 for p,s in [((-1.8,5.3,4.2),(31.6,9.1,.24)),((15.3,9,4.2),(4.5,1.7,.24))]:cube('Upper floor around real stairwell',p,s,grey)
+# Rich service fixtures, individually grouted waiting room floor and legible notices.
+group('11_WAITING_AND_OFFICES_RECONSTRUCTED')
+for x in range(-35,-18):
+ for y in range(0,9):boxb('Waiting room jointed terrazzo',(x+.5,y+.5,.72),(.985,.985,.025),tile if (x+y)%5 else tile2)
+for x,y in [(-34,8.9),(-21,8.9),(-52,12.1),(-43,12.1)]:
+ cube('Passenger information frame',(x,y,2.2),(2.1,.10,1.15),wood);cube('Notice paper backing',(x,y-.061,2.2),(1.97,.02,1.02),ivory)
+ for j,body in enumerate(['SOUTHERN RAILWAY','PASSENGER INFORMATION','Keep your luggage with you','Use the foot overbridge','No smoking on station premises']):text('Passenger information text',body,(x,y-.08,2.58-j*.17),.09 if j else .12,black,width=1.85)
+for x,y in [(-34,1),(-20,7.8),(-54,4.5),(-41,4.5),(-76,2),(-60,2)]:
+ cube('Surface electrical switch plate',(x,y,1.65),(.15,.04,.23),ceramic)
+ for j in range(3):cube('Switch rocker',(x-.04+j*.04,y-.027,1.69),(.027,.01,.045),ivory)
+ polycurve('Surface conduit',[(x,y,1.78),(x,y,3.65),(x+1,y,3.65)],.012,grey)
+for x in [-32,-25]:
+ cube('Waiting fluorescent fitting',(x,4.5,3.90),(1.45,.22,.10),ivory);cube('Waiting fluorescent diffuser',(x,4.5,3.84),(1.35,.15,.025),lampmat)
+for x in [-33,-20]:
+ cyl('Waiting room waste bin',(x,7.8,1.05),.23,.64,bluepaint);cyl('Waiting fire extinguisher',(x,8.83,1.65),.12,.68,red)
+plaque('Waiting exit','EXIT  →',(-25,-.86,3.30),1.7,.32)
+# Upper wing and annex are enclosed occupied volumes, not floating facade windows.
+group('13_UPPER_FLOOR_RECONSTRUCTED')
+for x0,x1,y0,y1,z,h,title in [(-35.8,-18.2,-.7,9.1,4.2,3.12,'STAFF LOUNGE'),(-56.3,-39,3.1,12.3,4.22,2.55,'ADMINISTRATION')]:
+ room_shell(title,x0,x1,y0,y1,z=z,height=h)
+ cube('Upper wing roof',((x0+x1)/2,(y0+y1)/2,z+h+.08),(x1-x0+.3,y1-y0+.3,.16),grey)
+ for x in [x0+2,x1-2]:
+  cube('Upper staff table',(x,(y0+y1)/2,z+.77),(2,1,.12),wood);cube('Upper office cabinet',(x,y1-.4,z+1.0),(1.1,.55,1.95),grey)
+ area('Upper wing light',((x0+x1)/2,(y0+y1)/2,z+h-.12),180,5)
+# Open upper circulation portals and a small link walkway between inherited wings.
+def open_side_portal(name,x,ya,yb,z0,z1,door_y):
+ for o in list(bpy.data.objects):
+  if o.name.startswith(name) and abs(o.location.x-x)<.04:bpy.data.objects.remove(o,do_unlink=True)
+ for lo,hi in [(ya,door_y-.75),(door_y+.75,yb)]:
+  if hi>lo:cube('Upper passage side masonry',(x,(lo+hi)/2,(z0+z1)/2),(.22,hi-lo,z1-z0),cream)
+ cube('Upper passage door lintel',(x,door_y,(z0+2.35+z1)/2),(.22,1.5,z1-z0-2.35),cream)
+open_side_portal('STAFF LOUNGE sidewall',-18.2,-.7,9.1,4.2,7.32,2)
+open_side_portal('STAFF LOUNGE sidewall',-35.8,-.7,9.1,4.2,7.32,6)
+open_side_portal('ADMINISTRATION sidewall',-39,3.1,12.3,4.22,6.77,6)
+for o in list(bpy.data.objects):
+ if o.name.startswith('End wall') and o.location.x<0:bpy.data.objects.remove(o,do_unlink=True)
+cube('Main sidewall below upper portal',(-17.9,5,2.37),(.42,10,3.74),peach)
+for ya,yb in [(0,1.25),(2.75,10)]:cube('Main sidewall upper portal jamb',(-17.9,(ya+yb)/2,6.8),(.42,yb-ya,4.85),peach)
+cube('Main sidewall upper portal lintel',(-17.9,2,7.95),(.42,1.5,2.6),peach)
+cube('Upper annex link walk',(-37.4,6,4.16),(3.4,1.8,.16),grey)
+for yy in [5.1,6.9]:beam('Upper link handrail',(-39.1,yy,5.25),(-35.7,yy,5.25),.025,metal)
 print('NCJ_MAP_RAILWAY',flush=True)
 raw=json.loads((ROOT/'references/local_geometry.json').read_text())
 # Coordinate transform preserves source metre dimensions and site orientation.
@@ -312,6 +353,17 @@ for w in paths:
  for a,b in zip(pts,pts[1:]):
   d=b-a;p=(a+b)/2;boxb('Granite ballast formation',(p.x,p.y,.08),(d.length+0.1,3.35,.24),ballast,math.atan2(d.y,d.x))
  group('32_SLEEPERS_FASTENERS')
+# Individual angular ballast stones at close-view scale, seeded along the full network.
+group('33_BALLAST_DRAINAGE')
+rockv=[];rockf=[]
+for w in paths:
+ for a,b in zip(w['pts'],w['pts'][1:]):
+  L=(b-a).length;t=(b-a).normalized();n=Vector((-t.y,t.x,0))
+  for j in range(max(1,int(L*.6))):
+   p=a.lerp(b,random.random())+n*random.choice([-1,1])*random.uniform(1.15,1.65);r=random.uniform(.025,.075);k=len(rockv)
+   rockv.extend([(p.x-r,p.y-r,.20),(p.x+r,p.y-r,.205),(p.x+r,p.y+r,.21),(p.x-r,p.y+r,.205),(p.x+r*.3,p.y-r*.2,.20+r)])
+   rockf.extend([(k,k+1,k+4),(k+1,k+2,k+4),(k+2,k+3,k+4),(k+3,k,k+4)])
+mesh('Individual angular granite aggregate',rockv,rockf,ballast)
 # Turnout anatomy at crossings: guard rails, switch motors, linkage rods, extended bearers.
 group('31_TURNOUT_COMPONENTS_RECONSTRUCTED')
 for k,p in enumerate(frogpoints):
@@ -546,13 +598,20 @@ for i in range(65):
   # Low-poly leaf clusters retain volumetric silhouette.
   v=[(end.x+math.cos(k*math.pi/4)*2,end.y+math.sin(k*math.pi/4)*2,end.z) for k in range(8)]+[(end.x,end.y,end.z+1.6),(end.x,end.y,end.z-1.4)]
   mesh('Tree foliage crown',v,[(k,(k+1)%8,8) for k in range(8)]+[((k+1)%8,k,9) for k in range(8)],leaf)
+# Fine world-metre-scale material texture, independent of the enormous batched mesh bounds.
+for m,scale,strength in [(ballast,32,.55),(sleepermat,10,.20),(sand,6,.23),(tile,18,.11),(tile2,16,.15),(grey,8,.25)]:
+ nt=m.node_tree;tex=next((n for n in nt.nodes if n.bl_idname=='ShaderNodeTexNoise'),None)
+ if tex:
+  tc=nt.nodes.new('ShaderNodeTexCoord');nt.links.new(tc.outputs['Object'],tex.inputs['Vector']);tex.inputs['Scale'].default_value=scale
+  for n in nt.nodes:
+   if n.bl_idname=='ShaderNodeBump':n.inputs['Strength'].default_value=strength
 # Scene-level metadata and purpose-built review cameras.
 flush();group('90_REVIEW_CAMERAS')
 def camera(n,p,target,lens=42,ortho=None):
  d=bpy.data.cameras.new(n);o=bpy.data.objects.new(n,d);active.objects.link(o);o.location=p;o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();d.lens=lens;d.clip_end=8000
  if ortho:d.type='ORTHO';d.ortho_scale=ortho
  return o
-cams=[camera('01_FACADE_AND_STATION',(-65,-92,24),(-8,3,5),43),camera('02_TICKET_HALL',(0,.85,2.25),(9,7,2.1),20),camera('03_WAITING_HALL',(-20,0.1,2.1),(-30,6,1.6),23),camera('04_TOILETS',(-68,2.2,2.5),(-71,9.5,1.55),21),camera('05_PLATFORM_DETAIL',(25,25,3.8),(-75,32,3.1),37),camera('06_FOOTBRIDGE',(fx+34,58,15),(fx,25,6),44),camera('07_YARD_POINTS',(280,114,26),(210,66,1.2),44),camera('08_DEPOT_PITS',(-50,157,32),(-265,80,1),43),camera('09_FULL_YARD_AERIAL',(-250,-430,1150),(-50,125,0),42,2250),camera('10_FULL_YARD_TOP',(-70,100,1550),(-70,100,0),42,2350),camera('11_BAY_1A',(-200,-32,8),(-420,8,1.5),40),camera('12_UPPER_OFFICES',(15,1.9,5.8),(-4,6,5.5),23),camera('13_RAIL_FASTENINGS',(227,59,2.1),(216,58,.40),39),camera('14_SERVICE_WORKSHOP',(-289,120,2),(-323,130,1.5),24)]
+cams=[camera('01_FACADE_AND_STATION',(-65,-92,24),(-8,3,5),43),camera('02_TICKET_HALL',(0,.85,2.25),(9,7,2.1),20),camera('03_WAITING_HALL',(-20,0.1,2.1),(-30,6,1.6),23),camera('04_TOILETS',(-68,2.2,2.5),(-71,9.5,1.55),21),camera('05_PLATFORM_DETAIL',(64,18.8,2.9),(-90,16.4,2.8),37),camera('06_FOOTBRIDGE',(fx+34,58,15),(fx,25,6),44),camera('07_YARD_POINTS',(280,114,26),(210,66,1.2),44),camera('08_DEPOT_PITS',(-50,157,32),(-265,80,1),43),camera('09_FULL_YARD_AERIAL',(-250,-330,960),(-50,100,0),42,1900),camera('10_FULL_YARD_TOP',(-70,100,1550),(-70,100,0),42,2350),camera('11_BAY_1A',(-200,-32,8),(-420,8,1.5),40),camera('12_UPPER_OFFICES',(15,1.9,5.8),(-4,6,5.5),23),camera('13_RAIL_FASTENINGS',(227,59,2.1),(216,58,.40),39),camera('14_SERVICE_WORKSHOP',(-289,120,2),(-323,130,1.5),24)]
 d=bpy.data.lights.new('Coastal late-morning sun','SUN');o=bpy.data.objects.new('Coastal late-morning sun',d);active.objects.link(o);o.rotation_euler=(.5,-.4,-.5);d.energy=2.8;d.angle=.12
 world=bpy.data.worlds.new('Coastal bright sky');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.52,.67,.83,1);world.node_tree.nodes['Background'].inputs[1].default_value=.7
 scene=bpy.context.scene;scene.world=world;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1;scene.render.engine='CYCLES';scene.cycles.samples=28;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4;scene.render.resolution_x=1400;scene.render.resolution_y=900;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.exposure=.4;scene.camera=cams[0]

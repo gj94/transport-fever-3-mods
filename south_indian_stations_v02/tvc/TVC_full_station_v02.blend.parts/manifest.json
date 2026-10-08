@@ -1,0 +1,24 @@
+{
+  "filename": "TVC_full_station_v02.blend",
+  "size": 44571197,
+  "sha256": "7239085ed014e43de9c8397780fac454653116dd9ed73febba87a4e4055d68e0",
+  "git_blob_sha": "246db30cca7a54351167937fab4c395e8a16202d",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "2db536a1afd9ee9641927aa3e250928bba9edb6e5e39dc45af62e77cd12353fe"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "3772901a2fda7e9e3758af16d662f22b7963b5e6b7fb4fdd0de7961365fec804"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 11016765,
+      "sha256": "d9f0152953bf3b270e8818723065d6dde4c5ad05a253399d22b7c8ef741b4bf4"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
+}
