@@ -34,13 +34,13 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "7.71",
       "build_status": "backed_up",
-      "qa_status": "scene/export technical checks and previews 01\u201304 passed; final pointwork proof pending",
-      "backup_commit": "34233cc44e35b4eabec15bf2b7f584863c448092",
+      "qa_status": "passed independent station review",
+      "backup_commit": "4faf92c407b2e82b47ce4e1cd84d89946de58412",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/KUMM",
+      "station_path": "coastal_station_collection/north/revision_02/KUMM",
       "preview_paths": [
-        "coastal_station_collection/north/KUMM/renders/02_Entrance_architecture.png",
-        "coastal_station_collection/north/KUMM/renders/04_Reconstructed_interior.png"
+        "coastal_station_collection/north/revision_02/KUMM/renders/02_Entrance_architecture.png",
+        "coastal_station_collection/north/revision_02/KUMM/renders/04_Reconstructed_interior.png"
       ],
       "station_code": "KUMM"
     },
@@ -309,12 +309,15 @@
       "name": "Munroturuttu",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "126.11",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "technical export checks and five previews passed; final circulation-ray check pending",
+      "backup_commit": "a3b600448147c871794a3d7e5c36a4522f4dbcd6",
       "main_commit": null,
-      "station_path": "coastal_station_collection/middle/MQO",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/middle/mqo",
+      "preview_paths": [
+        "coastal_station_collection/middle/mqo/renders/04_facade_and_approach.png",
+        "coastal_station_collection/middle/mqo/renders/05_ticket_interior.png"
+      ],
       "station_code": "MQO"
     },
     {

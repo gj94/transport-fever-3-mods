@@ -8,7 +8,7 @@ Route order and station-centre distances follow the source register. Unresolved 
 |---|---|---|---|
 | 01 | [ERS · Ernakulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ers) | 0.00 km | Previously published rich-v02 model |
 | 02 | [TNU · Tirunettur](#station-tnu) | Unresolved chainage | Pending; closed halt, historical treatment only |
-| 03 | [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM) | 7.71 km | Backup checkpoint; final review pending |
+| 03 | [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/4faf92c407b2e82b47ce4e1cd84d89946de58412/coastal_station_collection/north/revision_02/KUMM) | 7.71 km | Independently reviewed model |
 | 04 | [AROR · Aroor](#station-aror) | 12.81 km | Pending |
 | 05 | [EZP · Ezhupunna](#station-ezp) | 18.23 km | Pending |
 | 06 | [TUVR · Turavur](#station-tuvr) | 23.30 km | Pending |
@@ -29,7 +29,7 @@ Route order and station-centre distances follow the source register. Unresolved 
 | 21 | [OCR · Ochira](#station-ocr) | 106.24 km | Pending |
 | 22 | [KPY · Karunagapalli](#station-kpy) | 113.93 km | Pending |
 | 23 | [STKT · Sasthankotta](#station-stkt) | 121.59 km | Pending |
-| 24 | [MQO · Munroturuttu](#station-mqo) | 126.11 km | Pending |
+| 24 | [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/a3b600448147c871794a3d7e5c36a4522f4dbcd6/coastal_station_collection/middle/mqo) | 126.11 km | Backup checkpoint; final review pending |
 | 25 | [PRND · Perinad](#station-prnd) | 131.99 km | Pending |
 | 26 | [QLN · Kollam Junction](#station-qln) | 141.18 km | Pending |
 | 27 | [IRP · Iravipuram](#station-irp) | 145.60 km | Pending |
@@ -83,13 +83,13 @@ Tirunettur was officially closed from 10 July 2017. Any historical reconstructio
 
 ## Station KUMM
 ### 03. Kumbalam (KUMM)
-Backup checkpoint; final review pending. 7.71 km.
+Independently reviewed model. 7.71 km.
 
-[![KUMM: Kumbalam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM/renders/02_Entrance_architecture.png)
+[![KUMM: Kumbalam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/4faf92c407b2e82b47ce4e1cd84d89946de58412/coastal_station_collection/north/revision_02/KUMM/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/4faf92c407b2e82b47ce4e1cd84d89946de58412/coastal_station_collection/north/revision_02/KUMM/renders/02_Entrance_architecture.png)
 
-[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM)
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/4faf92c407b2e82b47ce4e1cd84d89946de58412/coastal_station_collection/north/revision_02/KUMM)
 
-Build: backed up. QA: scene/export technical checks and previews 01–04 passed; final pointwork proof pending.
+Build: backed up. QA: passed independent station review.
 
 ## Station AROR
 ### 04. Aroor (AROR)
@@ -213,9 +213,13 @@ Build: pending. QA: pending.
 
 ## Station MQO
 ### 24. Munroturuttu (MQO)
-Pending. 126.11 km.
+Backup checkpoint; final review pending. 126.11 km.
 
-Build: pending. QA: pending.
+[![MQO: Munroturuttu actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/a3b600448147c871794a3d7e5c36a4522f4dbcd6/coastal_station_collection/middle/mqo/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/a3b600448147c871794a3d7e5c36a4522f4dbcd6/coastal_station_collection/middle/mqo/renders/04_facade_and_approach.png)
+
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/a3b600448147c871794a3d7e5c36a4522f4dbcd6/coastal_station_collection/middle/mqo)
+
+Build: backed up. QA: technical export checks and five previews passed; final circulation-ray check pending.
 
 ## Station PRND
 ### 25. Perinad (PRND)
