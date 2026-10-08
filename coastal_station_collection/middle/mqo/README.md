@@ -1,6 +1,6 @@
 # MQO station model
 
-Correction in progress: exact published geometry has an approximately 0.702 m final step from both footbridge stair approaches onto the deck. The earlier independent acceptance has been superseded by a targeted follow-up. The original source/export bytes remain available as a documented checkpoint; a corrected replacement is pending. [Full notice](REVIEW_NOTICE.md).
+Historical checkpoint: this initial model is superseded by the [corrected MQO revision](../revision_02/mqo/README.md). The stair-to-deck issue is resolved in that reviewed replacement. See the [correction history](REVIEW_NOTICE.md) and [current model gallery](../revision_02/mqo/GALLERY.md).
 
 [Model images](GALLERY.md) · [Sources and limitations](SOURCES_AND_UNCERTAINTIES.md)
 
