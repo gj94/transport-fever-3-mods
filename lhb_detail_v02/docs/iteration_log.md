@@ -74,3 +74,11 @@ Actual1400×840 uniform512 completed1379.3seconds and inspected.3+3 upright chai
 ## Current-source final 2S exterior, 8 October 2026 02:08 UTC
 
 Actual1400×840 uniform512 exterior completed620.0seconds and reviewed. Blue/grey second-sitting livery, barred window rhythm, non-AC roof vents, door hardware and underframe are visually coherent; no newly observed silhouette issue. Twelve core finals completed;GS pair is the remaining core type before7planned detail views.
+
+## Current-source final GS interior, 8 October 2026 02:30 UTC
+
+Actual 1400×840 uniform 512-sample frame completed in 1323.1 seconds and was inspected. Transverse bench banks, overhead racks and supports, barred windows and ceiling fans are visible and coherent. No newly observed attachment defect. The selected legacy centre-entry GS prototype remains explicit. Thirteen of 21 finals are complete; GS exterior is the last core frame before seven planned details.
+
+## All seven core class pairs, 8 October 2026 02:40 UTC
+
+GS exterior completed at 1400×840 uniform 512 samples in 606.4 seconds. Centre-entry arrangement, paired barred windows and non-AC roof are clearly distinguished; source remains the selected legacy GS type. All fourteen class interior/exterior frames are now complete and source-matched. Seven detail views remain, starting with the approved 3A bay camera. The gallery is not yet complete and native game conversion is still outside scope.

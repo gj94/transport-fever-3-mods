@@ -1,4 +1,4 @@
-# LHB detailed coach family v0.2 — work in progress
+# LHB detailed coach family v0.2 — source assets and review gallery
 
 This isolated revision is being developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. All seven class sources and FBX exports have been rebuilt from matching current modules. Geometry, hierarchy, capacity and furnishing-placement checks pass for all seven classes, with separately reported editable-font tessellation warnings. Visual proofs are being reviewed and refined. The first published checkpoint remains explicitly WIP. Do not treat this checkpoint as a final release or runtime-ready asset.
 
@@ -62,3 +62,9 @@ The first high-sample interior review revealed a reversed LIGHT / SOCKET legend 
 After repeated execution interruptions, the remaining final queue uses eight independently seeded 64-sample CPU Cycles passes. Each pass is saved as a 32-bit scene-linear RGBA EXR and hash-verified before reuse. The equal-weight scene-linear average receives the AgX display transform exactly once when the final PNG is saved. Adaptive sampling and denoising are disabled for this workflow; the result contains 512 uniform samples per pixel. Earlier completed adaptive renders remain valid and are explicitly distinguished by their per-view provenance. This changes rendering persistence only; source geometry, cameras and lighting are unchanged.
 
 The portable implementation is `scripts/checkpoint_render.py`, invoked through `scripts/run_checkpoint_renderer.py`. Each final render JSON includes `sampling_workflow` when this method is used. Intermediate EXRs remain local recovery data and are not presented as finished gallery frames.
+
+## Delivery navigation
+
+See [GALLERY.md](GALLERY.md) for the current source-matched 21-view gallery and [DELIVERY_STATUS.json](DELIVERY_STATUS.json) for measured completion. These indexes are regenerated from actual source/image hashes before checkpointing; they do not treat stale or low-sample images as final. The approved set is fourteen class interiors/exteriors plus seven detail views, including the added 3A bay camera.
+
+Native editable sources are the seven `.blend` masters in `models/`; paired `.fbx` files are portable exchange exports. This folder structure is not a native Transport Fever 3 mod and does not assert runtime readiness. See the explicit limitations above. Historical renderer helper bytes needed to explain earlier fingerprints are preserved under `scripts/render_provenance/`.

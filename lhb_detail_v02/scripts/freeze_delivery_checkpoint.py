@@ -3,13 +3,14 @@ Usage: python scripts/freeze_delivery_checkpoint.py /absolute/new/checkpoint-dir
 Evidence JSON remains byte-exact, including historical execution paths. The manifest retains local transport paths.
 """
 from pathlib import Path
-import hashlib,json,sys
+import hashlib,json,sys,subprocess
 P=Path(__file__).resolve().parent.parent
+subprocess.run([sys.executable,str(P/'scripts/build_gallery_index.py')],check=True)
 D=Path(sys.argv[1]).resolve();assert not D.exists(),D
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-paths=list(P.glob('*.py'))+[P/'README.md']+list((P/'docs').glob('*.md'))
+paths=list(P.glob('*.py'))+[P/'README.md',P/'GALLERY.md',P/'DELIVERY_STATUS.json']+list((P/'docs').glob('*.md'))
 paths += list((P/'scripts/render_provenance').glob('*.py'))
-paths += [P/'scripts'/n for n in ['verify_lhb_detail.py','test_verify_lhb_detail.py','test_lhb_chair_detail.py','render_final_gallery.py','fix_1a_legend_orientation.py','freeze_delivery_checkpoint.py','checkpoint_render.py','run_checkpoint_renderer.py','render_dependency_identity.py']]
+paths += [P/'scripts'/n for n in ['verify_lhb_detail.py','test_verify_lhb_detail.py','test_lhb_chair_detail.py','render_final_gallery.py','fix_1a_legend_orientation.py','freeze_delivery_checkpoint.py','checkpoint_render.py','run_checkpoint_renderer.py','render_dependency_identity.py','build_gallery_index.py']]
 for k in ['1A','2A','3A','2S','CC','SL','GS']:
  paths += [P/'models'/f'LHB_{k}{suffix}' for suffix in ['.blend','.fbx','_manifest.json','_markers.json']]
  report=P/'qa/source_geometry'/f'LHB_{k}_geometry.json';r=json.loads(report.read_text())
