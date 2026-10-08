@@ -1,0 +1,21 @@
+{
+  "code": "TZH",
+  "blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+  "source_plan_sha256": "372a9be86f58edf0757fe3d333f6c2769059d4ea5652ebd747965feddf0e7fa4",
+  "platform_checks": [
+    {
+      "ref": "",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.0500000000000007
+    },
+    {
+      "ref": "",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.049999999999998
+    }
+  ],
+  "switch_motor_checks": [],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}
