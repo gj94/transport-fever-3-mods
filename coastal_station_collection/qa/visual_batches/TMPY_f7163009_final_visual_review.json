@@ -1,0 +1,58 @@
+{
+  "station": "TMPY",
+  "reviewed_utc": "2026-10-08T22:03:30Z",
+  "status": "4_view_visual_source_pass",
+  "source_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "defc398eb153b8f762c0ead80091aafb12692220ab38f5024dce7b926896ee3c",
+      "source_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "current_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "preserved_prior_hash_bound_pass"
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "0c33725eb3f05fb16f47d3db445a868db31939b47f90784a3d3318349cfdc60c",
+      "source_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "current_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "preserved_prior_hash_bound_pass"
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "994b38f6d5e167334596a25d383271d5c1209602079c4d47053f8a524db4f8bd",
+      "source_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "current_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "preserved_prior_hash_bound_pass"
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "9b0ef6b343a8af28016c08fbe23d3350da372281caffb5a8ee920bc7a4ed6e10",
+      "source_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "current_scene_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "new_reduced_pixels_inspected"
+    }
+  },
+  "prior_review_reports": [
+    "TMPY_f7163009_partial_visual_review.json"
+  ],
+  "observations": [
+    "New04 inspected at reduced size: counter enclosure, ticket opening, office chair and waiting seats are legible and coherent at modest halt scale.",
+    "No material visible obstruction or duplicated fixture assembly found.",
+    "Previously accepted01\u201303 source/visual passes retained exactly; interiors remain explicitly reconstructed rather than photographed/surveyed."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Retained subjects preserve original image/source hashes; no claim of pixel-identical rerender.",
+    "Technical auditor owns geometry/export and final acceptance."
+  ]
+}

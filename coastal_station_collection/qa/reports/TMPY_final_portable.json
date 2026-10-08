@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/TMPY/exports/TMPY_coastal_station_v02.glb",
+    "bytes": 26373848,
+    "errors": [],
+    "warnings": [],
+    "sha256": "375221bedecb4b5f055fd3f2db8365f0a257d877a7316147dceb25b0b29a5304",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 26373848
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 51820
+      },
+      {
+        "type": 5130562,
+        "bytes": 26322000
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 66,
+    "mesh_count": 66,
+    "primitive_count": 66,
+    "vertex_reference_count": 881528,
+    "accessor_count": 190,
+    "validated_accessor_count": 190,
+    "material_count": 26,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

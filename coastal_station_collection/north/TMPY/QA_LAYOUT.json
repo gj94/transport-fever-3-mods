@@ -1,0 +1,16 @@
+{
+  "code": "TMPY",
+  "blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+  "source_plan_sha256": "dcea489086359d2bfaa4a7b2cd5d43688ce09e22e44cb4c303a2c0515524848d",
+  "platform_checks": [
+    {
+      "ref": "1",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.1999999999999984
+    }
+  ],
+  "switch_motor_checks": [],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}

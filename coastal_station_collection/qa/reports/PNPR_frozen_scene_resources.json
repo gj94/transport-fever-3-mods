@@ -1,0 +1,245 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/PNPR/PNPR_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 79,
+  "object_types": {
+    "MESH": 68,
+    "CURVE": 2,
+    "FONT": 2,
+    "CAMERA": 4,
+    "LIGHT": 3
+  },
+  "unique_meshes": 68,
+  "unique_vertices": 318552,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.224719047546387
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f739ecba520>",
+    "station_code": "PNPR",
+    "station_name": "Punnapra",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior"
+  ],
+  "circulation_rays": {
+    "portico_bypass_approach_lower_-0.3": {
+      "from": [
+        7.887779712677002,
+        3.6026690006256104,
+        1.7999999523162842
+      ],
+      "to": [
+        4.587779521942139,
+        3.6026690006256104,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0": {
+      "from": [
+        7.887779712677002,
+        3.9026691913604736,
+        1.7999999523162842
+      ],
+      "to": [
+        4.587779521942139,
+        3.9026691913604736,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0.3": {
+      "from": [
+        7.887779712677002,
+        4.202669143676758,
+        1.7999999523162842
+      ],
+      "to": [
+        4.587779521942139,
+        4.202669143676758,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_bend_lower": {
+      "from": [
+        4.587779521942139,
+        3.9026691913604736,
+        1.7999999523162842
+      ],
+      "to": [
+        4.587779521942139,
+        2.9026691913604736,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_hall_platform_lower": {
+      "from": [
+        4.587779521942139,
+        2.9026691913604736,
+        1.7999999523162842
+      ],
+      "to": [
+        -6.37504243850708,
+        2.9026691913604736,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_head_-0.3": {
+      "from": [
+        7.887779712677002,
+        3.6026690006256104,
+        2.8499999046325684
+      ],
+      "to": [
+        4.587779521942139,
+        3.6026690006256104,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_head_0": {
+      "from": [
+        7.887779712677002,
+        3.9026691913604736,
+        2.8499999046325684
+      ],
+      "to": [
+        4.587779521942139,
+        3.9026691913604736,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_head_0.3": {
+      "from": [
+        7.887779712677002,
+        4.202669143676758,
+        2.8499999046325684
+      ],
+      "to": [
+        4.587779521942139,
+        4.202669143676758,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_bend_head": {
+      "from": [
+        4.587779521942139,
+        3.9026691913604736,
+        2.8499999046325684
+      ],
+      "to": [
+        4.587779521942139,
+        2.9026691913604736,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_hall_platform_head": {
+      "from": [
+        4.587779521942139,
+        2.9026691913604736,
+        2.8499999046325684
+      ],
+      "to": [
+        -6.37504243850708,
+        2.9026691913604736,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "ad4677ebf936fd27ae3552954ed887c05e76659707e8af275e9a19320800576b"
+}
