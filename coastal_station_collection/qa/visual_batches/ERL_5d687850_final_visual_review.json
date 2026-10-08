@@ -1,0 +1,71 @@
+{
+  "station": "ERL",
+  "reviewed_utc": "2026-10-08T21:39:10Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "c62182b2dbaff51fedf79843920162a6f84851a2543281f16bb0189427020a0f",
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "d80164d9aaf4198b1eda7b991c2201b38239656632a95ad86580f6f957c13cf1",
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "cb8fa0ebf3c1ce992cbdb547da334683a649b52c862e426cbb760886b604afec",
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "2e0daa3f8b7cbd83e9cbf81760cab9907831217451ed07156604c7556983d80f",
+      "source_scene_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "c485ba012fc080f2c5fb8c0ab802eb5d570d51885f5d17d66ba9145c654462e5",
+      "source_scene_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    }
+  },
+  "prior_review_reports": [],
+  "observations": [
+    "Actual entrance and platform-block source pixels inspected. Two-level pale platform block, strong teal parapet strip, repeating yellow bracket rhythm and long independent lower platform canopy are recognizable; photographed-date palette remains an approximation.",
+    "All five images give useful whole-site, architecture, platform, coherent ticket-counter interior and turnout-detail coverage. No duplicated counter assembly or material camera obstruction detected.",
+    "Retained04/05 actual pixels newly reviewed; their original6478f435 source hashes and declared subject equivalence remain truthful after localized5d687850 circulation repair."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ],
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/ERL_entrance_2017-11.png",
+      "sha256": "c22893d8ea0dd8621f40a005c69b49554ed7e2bcc59c9702915540296a0bcbbe",
+      "reduced_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/ERL_platform_block_2020-01.png",
+      "sha256": "084d8dffe1abcc41463784547917c201e41d2bd307de53f6d4529651f8211db6",
+      "reduced_pixels_inspected": true
+    }
+  ]
+}

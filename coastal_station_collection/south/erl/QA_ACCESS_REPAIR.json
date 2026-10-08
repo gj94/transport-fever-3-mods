@@ -1,0 +1,203 @@
+{
+  "station": "ERL",
+  "input_source_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+  "output_source_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+  "scope": "Short reconstructed continuous access link. PASA additionally closes the two pitched-roof end seams; DAVM removes unsupported generic red threshold skirting and receives the already-requested wider interior proof camera.",
+  "foot_probes": [
+    {
+      "x": 19.0,
+      "y": 0.9967364765942432,
+      "floor_z": 1.0049999952316284,
+      "object": "Toilet annex floor"
+    },
+    {
+      "x": 19.0,
+      "y": 1.3668001548700452,
+      "floor_z": 1.0009000301361084,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 1.7368638331458475,
+      "floor_z": 0.9968000054359436,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 2.1069275114216492,
+      "floor_z": 0.9926999807357788,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 2.4769911896974515,
+      "floor_z": 0.9886000156402588,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 2.8470548679732532,
+      "floor_z": 0.984499990940094,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 3.217118546249055,
+      "floor_z": 0.9803999662399292,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 3.5871822245248577,
+      "floor_z": 0.9762999415397644,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 3.9572459028006595,
+      "floor_z": 0.9721999764442444,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 4.327309581076462,
+      "floor_z": 0.9680999517440796,
+      "object": "ERL reconstructed approach link"
+    },
+    {
+      "x": 19.0,
+      "y": 4.697373259352264,
+      "floor_z": 0.9735000133514404,
+      "object": "Platform transverse paving joint"
+    }
+  ],
+  "source_layout_clearance": {
+    "minimum_adopted_rail_centerline_distance_m": 7.884048081915877,
+    "nearest_rail_way": "642058773",
+    "required_model_clearance_m": 1.8,
+    "platform_contact": "Endpoint is0.30m inside a source platform cross-section, not extrapolated from the main-building origin"
+  },
+  "internal_stair_checks": [
+    {
+      "step": 1,
+      "actual_floor_z": 1.1982293128967285,
+      "expected_floor_z": 1.1982291666666667
+    },
+    {
+      "step": 2,
+      "actual_floor_z": 1.3439586162567139,
+      "expected_floor_z": 1.3439583333333334
+    },
+    {
+      "step": 3,
+      "actual_floor_z": 1.489687204360962,
+      "expected_floor_z": 1.4896875
+    },
+    {
+      "step": 4,
+      "actual_floor_z": 1.6354167461395264,
+      "expected_floor_z": 1.6354166666666665
+    },
+    {
+      "step": 5,
+      "actual_floor_z": 1.7811460494995117,
+      "expected_floor_z": 1.7811458333333334
+    },
+    {
+      "step": 6,
+      "actual_floor_z": 1.926875114440918,
+      "expected_floor_z": 1.926875
+    },
+    {
+      "step": 7,
+      "actual_floor_z": 2.072604179382324,
+      "expected_floor_z": 2.0726041666666664
+    },
+    {
+      "step": 8,
+      "actual_floor_z": 2.2183332443237305,
+      "expected_floor_z": 2.2183333333333333
+    },
+    {
+      "step": 9,
+      "actual_floor_z": 2.3640623092651367,
+      "expected_floor_z": 2.3640625
+    },
+    {
+      "step": 10,
+      "actual_floor_z": 2.509791612625122,
+      "expected_floor_z": 2.5097916666666666
+    },
+    {
+      "step": 11,
+      "actual_floor_z": 2.6555206775665283,
+      "expected_floor_z": 2.655520833333333
+    },
+    {
+      "step": 12,
+      "actual_floor_z": 2.8012502193450928,
+      "expected_floor_z": 2.8012499999999996
+    },
+    {
+      "step": 13,
+      "actual_floor_z": 2.94697904586792,
+      "expected_floor_z": 2.9469791666666665
+    },
+    {
+      "step": 14,
+      "actual_floor_z": 3.092708110809326,
+      "expected_floor_z": 3.0927083333333334
+    },
+    {
+      "step": 15,
+      "actual_floor_z": 3.2384376525878906,
+      "expected_floor_z": 3.2384375
+    },
+    {
+      "step": 16,
+      "actual_floor_z": 3.3841664791107178,
+      "expected_floor_z": 3.3841666666666663
+    },
+    {
+      "step": 17,
+      "actual_floor_z": 3.529895782470703,
+      "expected_floor_z": 3.529895833333333
+    },
+    {
+      "step": 18,
+      "actual_floor_z": 3.6756253242492676,
+      "expected_floor_z": 3.675625
+    },
+    {
+      "step": 19,
+      "actual_floor_z": 3.8213541507720947,
+      "expected_floor_z": 3.8213541666666666
+    },
+    {
+      "step": 20,
+      "actual_floor_z": 3.96708345413208,
+      "expected_floor_z": 3.967083333333333
+    },
+    {
+      "step": 21,
+      "actual_floor_z": 4.112812519073486,
+      "expected_floor_z": 4.1128124999999995
+    },
+    {
+      "step": 22,
+      "actual_floor_z": 4.258541584014893,
+      "expected_floor_z": 4.258541666666667
+    },
+    {
+      "step": 23,
+      "actual_floor_z": 4.404271125793457,
+      "expected_floor_z": 4.404270833333333
+    },
+    {
+      "step": 24,
+      "actual_floor_z": 4.550000190734863,
+      "expected_floor_z": 4.55
+    }
+  ],
+  "status": "Eleven actual floor support rays passed"
+}

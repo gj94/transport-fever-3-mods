@@ -1,0 +1,82 @@
+{
+  "station": "PASA",
+  "input_source_sha256": "77ea148c002e7a915c830abb5b9394c1ce8a6eaa0b35a593cd1fb6f4bbc5654d",
+  "output_source_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+  "scope": "Short reconstructed continuous access link. PASA additionally closes the two pitched-roof end seams; DAVM removes unsupported generic red threshold skirting and receives the already-requested wider interior proof camera.",
+  "foot_probes": [
+    {
+      "x": 26.0,
+      "y": 4.698678750656905,
+      "floor_z": 1.0049999952316284,
+      "object": "Toilet annex floor"
+    },
+    {
+      "x": 26.0,
+      "y": 5.160338893372106,
+      "floor_z": 1.0009000301361084,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 5.621999036087309,
+      "floor_z": 0.9968000054359436,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 6.0836591788025105,
+      "floor_z": 0.9926999807357788,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 6.545319321517713,
+      "floor_z": 0.9886000156402588,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 7.006979464232915,
+      "floor_z": 0.984499990940094,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 7.468639606948116,
+      "floor_z": 0.9803999662399292,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 7.930299749663318,
+      "floor_z": 0.9763000011444092,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 8.391959892378521,
+      "floor_z": 0.9721999764442444,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 8.853620035093723,
+      "floor_z": 0.9681000113487244,
+      "object": "PASA reconstructed approach link"
+    },
+    {
+      "x": 26.0,
+      "y": 9.315280177808924,
+      "floor_z": 0.9735000133514404,
+      "object": "Platform transverse paving joint"
+    }
+  ],
+  "source_layout_clearance": {
+    "minimum_adopted_rail_centerline_distance_m": 7.662984527443538,
+    "nearest_rail_way": "31546483",
+    "required_model_clearance_m": 1.8,
+    "platform_contact": "Endpoint is0.30m inside a source platform cross-section, not extrapolated from the main-building origin"
+  },
+  "internal_stair_checks": [],
+  "status": "Eleven actual floor support rays passed"
+}

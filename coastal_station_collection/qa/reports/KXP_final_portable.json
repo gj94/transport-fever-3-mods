@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/kxp/exchange/KXP_portable_GLTF.zip!KXP_station_v01.glb",
+    "bytes": 39522276,
+    "errors": [],
+    "warnings": [],
+    "sha256": "6aff2a5f85de8cc8ca4b38c019bd622087df5a4c5ddbd4217152bd1e37cb8641",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 39522276
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 549012
+      },
+      {
+        "type": 5130562,
+        "bytes": 38973236
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 853,
+    "mesh_count": 853,
+    "primitive_count": 853,
+    "vertex_reference_count": 1332732,
+    "accessor_count": 1870,
+    "validated_accessor_count": 1870,
+    "material_count": 25,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "c0a6b214054cc0368f069eb9683eb20bedaf493e8ceef72c80adbd68d9bc1d01",
+    "container_bytes": 5429551
+  }
+]

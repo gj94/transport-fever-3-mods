@@ -1,0 +1,253 @@
+{
+  "station_code": "KXP",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "south/revision_02/kxp",
+  "manifest_sha256": "319ad9b76722f70f641d7f1f361b3c09ed6c3146421dbc3e958c7b13dbe67672",
+  "blend_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+  "export_sha256": "6aff2a5f85de8cc8ca4b38c019bd622087df5a4c5ddbd4217152bd1e37cb8641",
+  "export_zip_sha256": "c0a6b214054cc0368f069eb9683eb20bedaf493e8ceef72c80adbd68d9bc1d01",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/KXP_station_v01.blend",
+      "bytes": 8594305,
+      "sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/README.md",
+      "bytes": 5681,
+      "sha256": "e283540ccf77dbe8dc1778f7b6571ba602151ee087a912fe20cd16fe0304d5b8"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/SOURCES.json",
+      "bytes": 12190,
+      "sha256": "d946e8fd27085b3fa546d19310cbe6fbbaa6a4267abafb96f58e84fca0bd2ae7"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/QA_BUILD.json",
+      "bytes": 7881,
+      "sha256": "e208f7340b464fa4d2970a7265fe8d8d5ce3803a1752be9f5fc791ff89c1c160"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "067d95e4b6a814ecd001a1dc7d16a3f4bf9a1731c318a5ad839c1ef9d5e7eead"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/RENDER_PROVENANCE.json",
+      "bytes": 3956,
+      "sha256": "312242d3cde6b472cc60d7bd00002fe116cf8238b538c2876dc36dad2b8d30e5"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/exchange/KXP_portable_GLTF.zip",
+      "bytes": 5429551,
+      "sha256": "c0a6b214054cc0368f069eb9683eb20bedaf493e8ceef72c80adbd68d9bc1d01"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/exchange/MANIFEST.json",
+      "bytes": 654,
+      "sha256": "460773b99b31024e119602f2f959d3f7a1f77ce36a1aeb7f728797d582dc2dfa"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1443357,
+      "sha256": "30641516e055c5a1c8e121dc825dd46d0487d87d6ebd824071ad96eae3b263eb"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1962114,
+      "sha256": "37cc234a22bc5010f6fc791c202e028161123674a0c17e7fe48fe1b05cebd559"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1733819,
+      "sha256": "ae1a195ae50e707fcc5c3ed675996e9873802021457d584430d51d7784d041da"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1474682,
+      "sha256": "185b37c107217ed050c0c3358e13f2231c322f19c9f8dacb2358022ff86567c3"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1916064,
+      "sha256": "01a227f45f960ae3b07f804da95879388629848df8d629f5d62a31c618a779d6"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/QA_SCENE.json",
+      "bytes": 5779,
+      "sha256": "b5f4822b97eecc44c9b735b493b6a5915acf1c41ab9b4e420a208acbaf76bfce"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/QA_CIRCULATION_RAYS.json",
+      "bytes": 2037,
+      "sha256": "8bce36b99ad515ab0f3adfd9524773ae25d28537fe21d840e8968df5de7eac44"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/VISUAL_QA.md",
+      "bytes": 839,
+      "sha256": "81f2498d22807bae9f3c8aaa46be21ed764a0913d2a8c81b4fae8b25c8364979"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/QA_STAIR_REPAIR.json",
+      "bytes": 9755,
+      "sha256": "41e941a5752ce18d88c15023523e53bfb7fea3b6e19354aae4d45727494bb804"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/QA_ACCESS_REPAIR.json",
+      "bytes": 2467,
+      "sha256": "0f4ff5362e7b0da6bf5c49d07394bcda34b6826f030c6c4dd5c775c7b482b4f6"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/REPAIR_LINEAGE.json",
+      "bytes": 576,
+      "sha256": "92edbd74757dc32f24ba3265a22a2a8c5605e7298508d9393aa572dfbdc3cc0c"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/REPAIR_HISTORY.json",
+      "bytes": 619,
+      "sha256": "6d1abcf2c67fb0da8722e8e6bb0b82fc209c80c60207d4d08f949f9ffec8e22a"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/platform_mesh.json",
+      "bytes": 1443,
+      "sha256": "b25270327406f259f5847ad07fe79c5cde120ef8ef43e6064d5a4cb1e051e169"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/build_config.json",
+      "bytes": 370,
+      "sha256": "85b83c9e85782a6af2c514919652be82681452e35e1a0d7f81e70072fa710c36"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/layout.json",
+      "bytes": 11397,
+      "sha256": "289923278b9dd1188379cfe7babf2406f15e8d323102c31ca59186d79fd351f7"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/name_ml.svg",
+      "bytes": 233,
+      "sha256": "e79851a0b0a8e5a34ff74d8b874d98387d914f59c7e146d6203ce0a36d0c3c94"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/name_ml_outlined.svg",
+      "bytes": 8190,
+      "sha256": "e0f0f953a588d3633a5f9e439d402dae58b4487a1ed5394fe04fa9a8ec7a2847"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/rail_mesh.json",
+      "bytes": 20063,
+      "sha256": "30acd23d254bc1905636b3d8412e30e3d4cba838d03d6e8c413a0352b06cef70"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/native_names.json",
+      "bytes": 82,
+      "sha256": "e7eb54e0c907424aa0f8c85b601cce5d5a55862de041e4572e4fac7592b34a30"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/architectural_variants.py",
+      "bytes": 59913,
+      "sha256": "f580967d1bd10b6298bc81a1c8ee907e7794c6dd81b51367e1041af9ddaf1fe3"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/build_station.py",
+      "bytes": 46452,
+      "sha256": "e89056107d2f55d8e8f6a425eb2564617b8abe93ba430e705275b481eeca6ff5"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/scene_review_inputs.py",
+      "bytes": 2138,
+      "sha256": "de09e1687b3fdd3aef6cea4ddbc2004e7c3db9533ea0c6fa6c8e420475819a22"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/source/recipe/render_station.py",
+      "bytes": 5641,
+      "sha256": "6e47b1638945597c6a88f9a98609746cc8fd7f8b9d3d7dc9fd1ea1705bc1ca2e"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1443357,
+      "sha256": "30641516e055c5a1c8e121dc825dd46d0487d87d6ebd824071ad96eae3b263eb"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1962114,
+      "sha256": "37cc234a22bc5010f6fc791c202e028161123674a0c17e7fe48fe1b05cebd559"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1733819,
+      "sha256": "ae1a195ae50e707fcc5c3ed675996e9873802021457d584430d51d7784d041da"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1474682,
+      "sha256": "185b37c107217ed050c0c3358e13f2231c322f19c9f8dacb2358022ff86567c3"
+    },
+    {
+      "path": "coastal_stations_overnight/south/revision_02/kxp/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1916064,
+      "sha256": "01a227f45f960ae3b07f804da95879388629848df8d629f5d62a31c618a779d6"
+    }
+  ],
+  "checks": {
+    "manifest": "All 38 frozen files independently match their declared hashes and byte counts.",
+    "visual": "All five native views pass independent source/pixel review. Retained frames preserve exact original source hashes and explicit unchanged-subject reasons.",
+    "resources": "Exact final packed Blender scene independently has metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Lossless ZIP-contained GLB passes independent finite-value, index/accessor/buffer-bound and embedded-resource validation; exact final scene/export provenance matches.",
+    "layout": "Reported platform faces:2; modelled physical bodies:2. Full declared adopted rail routes, original source and correction evidence are retained; actual platform top triangles and building envelopes stay clear of running rails.",
+    "source": "Original2017 frontage/2023 footbridge source comparison retained; revised views independently checked. The bridge landing rise and detached sanitary approach are both corrected.",
+    "circulation": "Final exact-source checks pass 15 low/waist/head paths, including lateral body-width samples, and 11 floor-support probes. Reconstructed sanitary approaches are continuously supported and rail-clear.",
+    "stairs": "Previously accepted corrected bridge geometry is unchanged by the sanitary-link addition. Exact0250e671 source probes verify0.167762m equal rises and supported toes; final5297c53f link/resource checks pass."
+  },
+  "evidence_reports": [
+    "KXP_repaired_final_scene_inspection.json",
+    "KXP_repaired_final_inputs.json",
+    "KXP_final_portable.json",
+    "../visual_batches/KXP_5297c53f_final_visual_review.json",
+    "KXP_v02_scene_inspection.json",
+    "KXP_earlier_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and service assignments remain disclosed reconstructions.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Portable materials use base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

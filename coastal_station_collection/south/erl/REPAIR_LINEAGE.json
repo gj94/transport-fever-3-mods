@@ -1,0 +1,26 @@
+{
+  "station": "ERL",
+  "input_source_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+  "output_source_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+  "changed_bounds": [
+    [
+      9.59000015258789,
+      -5.153263568878174,
+      -0.20000000298023224
+    ],
+    [
+      19.799999237060547,
+      4.697373390197754,
+      4.550000190734863
+    ]
+  ],
+  "retained_views": [
+    "04_FURNISHED_INTERIOR.png",
+    "05_PHYSICAL_POINTWORK.png"
+  ],
+  "rerender_prefixes": [
+    "01",
+    "02",
+    "03"
+  ]
+}

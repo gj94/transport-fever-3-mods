@@ -1,0 +1,32 @@
+{
+  "station": "PASA",
+  "layout_sha256": "1f055f293c5a3376cc6cc2c21a8e026ee6d7c4b3f44b89fd0df2deb377bf6aa1",
+  "platform_mesh_sha256": "52b3f26048479d3267d7f9ea1dafb93600edf6d09f3fab4306586376e5cf78a4",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 3197.6980036596615,
+      "railcenter_min_m": 1.9999995393054837,
+      "intrusion_inside_1_8m_m2": 0.0
+    },
+    {
+      "id": "RECONSTRUCTED_PLATFORM_2",
+      "valid": true,
+      "area_m2": 3114.542746784111,
+      "railcenter_min_m": 1.9999995916212012,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 8.3,
+  "reported_faces": "2",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "31546483",
+    "642058768",
+    "642058769",
+    "642058770"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

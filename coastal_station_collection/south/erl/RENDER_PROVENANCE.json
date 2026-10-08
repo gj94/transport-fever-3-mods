@@ -1,0 +1,114 @@
+{
+  "station": "ERL",
+  "views": {
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "file_sha256": "c62182b2dbaff51fedf79843920162a6f84851a2543281f16bb0189427020a0f",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 22.01,
+      "camera_override": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "file_sha256": "d80164d9aaf4198b1eda7b991c2201b38239656632a95ad86580f6f957c13cf1",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 36.6,
+      "camera_override": {
+        "reason": "Unobstructed oblique view of photographed platform facade, rather than unreferenced rear wall",
+        "location": [
+          -23.799999237060547,
+          24.046735763549805,
+          10.0
+        ],
+        "target": [
+          0,
+          -0.9532635234057567,
+          2.5
+        ],
+        "lens_mm": 42
+      }
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "file_sha256": "cb8fa0ebf3c1ce992cbdb547da334683a649b52c862e426cbb760886b604afec",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 28.27,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -273.7394104003906,
+          9.878740310668945,
+          3.4000000953674316
+        ],
+        "target": [
+          -73.73942014569485,
+          11.254797685148485,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+      "file_sha256": "2e0daa3f8b7cbd83e9cbf81760cab9907831217451ed07156604c7556983d80f",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 46.32,
+      "camera_override": null,
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+          "to_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+          "previous_basis": null,
+          "basis": "Only added approach link is outside recorded camera frustum"
+        }
+      ],
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+      "file_sha256": "c485ba012fc080f2c5fb8c0ab802eb5d570d51885f5d17d66ba9145c654462e5",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 17.22,
+      "camera_override": null,
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "6478f435948265d6a4971bb85dd022ba4fee0e7ecd3ceb0450fee4832a50391b",
+          "to_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+          "previous_basis": null,
+          "basis": "Only added approach link is outside recorded camera frustum"
+        }
+      ],
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    }
+  },
+  "current_source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32"
+}

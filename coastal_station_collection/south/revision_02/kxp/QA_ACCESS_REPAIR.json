@@ -1,0 +1,82 @@
+{
+  "station": "KXP",
+  "input_source_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+  "output_source_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+  "scope": "Short reconstructed continuous access link. PASA additionally closes the two pitched-roof end seams; DAVM removes unsupported generic red threshold skirting and receives the already-requested wider interior proof camera.",
+  "foot_probes": [
+    {
+      "x": 15.5,
+      "y": -0.26681170321351444,
+      "floor_z": 1.0049999952316284,
+      "object": "Toilet annex floor"
+    },
+    {
+      "x": 15.5,
+      "y": -0.5318117032135142,
+      "floor_z": 1.0009000301361084,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -0.796811703213514,
+      "floor_z": 0.9968000054359436,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -1.0618117032135137,
+      "floor_z": 0.9926999807357788,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -1.3268117032135136,
+      "floor_z": 0.9886000156402588,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -1.5918117032135133,
+      "floor_z": 0.984499990940094,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -1.856811703213513,
+      "floor_z": 0.980400025844574,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -2.1218117032135124,
+      "floor_z": 0.9763000011444092,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -2.386811703213513,
+      "floor_z": 0.9721999764442444,
+      "object": "KXP reconstructed approach link"
+    },
+    {
+      "x": 15.5,
+      "y": -2.6518117032135127,
+      "floor_z": 1.0043139457702637,
+      "object": "Yellow platform safety edge"
+    },
+    {
+      "x": 15.5,
+      "y": -2.9168117032135124,
+      "floor_z": 0.9639999866485596,
+      "object": "KXP reconstructed approach link"
+    }
+  ],
+  "source_layout_clearance": {
+    "minimum_adopted_rail_centerline_distance_m": 7.2,
+    "nearest_rail_way": "90772767",
+    "required_model_clearance_m": 1.8,
+    "platform_contact": "Endpoint is0.30m inside a source platform cross-section, not extrapolated from the main-building origin"
+  },
+  "internal_stair_checks": [],
+  "status": "Eleven actual floor support rays passed"
+}

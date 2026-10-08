@@ -1,0 +1,28 @@
+[
+  {
+    "station": "KXP",
+    "input_source_sha256": "7dfd6ba3408db78ace4e306915c7477ff7a6d993424306749713fd34d31e15ad",
+    "output_source_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+    "changed_bounds": [
+      [
+        -68.13066864013672,
+        -22.27448081970215,
+        0.7639999985694885
+      ],
+      [
+        -55.125,
+        -4.241811752319336,
+        9.109999656677246
+      ]
+    ],
+    "retained_views": [
+      "02_STATION_ARCHITECTURE.png",
+      "05_TRACK_AND_PLATFORM_DETAIL.png"
+    ],
+    "rerender_prefixes": [
+      "01",
+      "03",
+      "04"
+    ]
+  }
+]
