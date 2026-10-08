@@ -464,9 +464,23 @@
     {
       "variant": "SL",
       "view": "entrance",
-      "exists": false,
-      "checks": {},
-      "passed": false
+      "exists": true,
+      "checks": {
+        "current_source": true,
+        "current_renderer": true,
+        "image_hash": true,
+        "512_samples": true,
+        "minimum_64": true,
+        "no_denoising": true,
+        "four_threads": true,
+        "width_1600": true,
+        "presentation_hashes_current": true,
+        "uniform_sampling_no_adaptive": true,
+        "checkpoint_renderer_current": true,
+        "uniform_512_checkpoint_provenance": true,
+        "external_dependencies_current": true
+      },
+      "passed": true
     },
     {
       "variant": "GS",
@@ -513,13 +527,27 @@
     {
       "variant": "GS",
       "view": "coupling",
-      "exists": false,
-      "checks": {},
-      "passed": false
+      "exists": true,
+      "checks": {
+        "current_source": true,
+        "current_renderer": true,
+        "image_hash": true,
+        "512_samples": true,
+        "minimum_64": true,
+        "no_denoising": true,
+        "four_threads": true,
+        "width_1600": true,
+        "presentation_hashes_current": true,
+        "uniform_sampling_no_adaptive": true,
+        "checkpoint_renderer_current": true,
+        "uniform_512_checkpoint_provenance": true,
+        "external_dependencies_current": true
+      },
+      "passed": true
     }
   ],
   "expected_views": 24,
-  "complete_views": 22,
+  "complete_views": 24,
   "all_sources_unchanged": true,
-  "passed": false
+  "passed": true
 }

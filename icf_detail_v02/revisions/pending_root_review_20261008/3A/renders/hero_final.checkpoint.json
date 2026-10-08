@@ -1,0 +1,146 @@
+{
+  "workflow": "independent_seed_linear_exr_average_v1",
+  "total_uniform_samples": 512,
+  "adaptive_sampling": false,
+  "batches": [
+    {
+      "file": "batch_00.exr",
+      "sha256": "745fbbc7477f9d3138fc42d2ac8785ec67363435078670a17e8ba0038d3b6b0f",
+      "seed": 104746,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 111.63441679800235,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_01.exr",
+      "sha256": "10d04d588a2297849150c902c4f8a1fb15d20413b7f89e78cbc0cb4efb9015b4",
+      "seed": 209475,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 109.42323294200105,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_02.exr",
+      "sha256": "3933c2c59ac58d88ddb9a4f3dc6ea78f7334e17a9979ee9d932e103659586a07",
+      "seed": 314204,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 108.52263523099828,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_03.exr",
+      "sha256": "8a8c41801ec2889a181cb84d01a159d119ae32c1341e99aedfbe47ef328ab7de",
+      "seed": 418933,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 111.21133635399747,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_04.exr",
+      "sha256": "8d31066adaf5173a3d3f486000ba9966b89f4d63a9b679f8a7de7516e2fc4da5",
+      "seed": 523662,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 111.14500769999722,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_05.exr",
+      "sha256": "7f461c7f987ad495970114825002d0e21834ad3c73a9b3ae7cb21ed30267b870",
+      "seed": 628391,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 113.8800431080017,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_06.exr",
+      "sha256": "c936a3d3b7a443549fd5488b549eef8a7869ea0e44610d7684fdef1e82528d7b",
+      "seed": 733120,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 111.59760216299765,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_07.exr",
+      "sha256": "b7feec16839af1c3a171f6ed783f2b9deecab05812ce38aa0d77f1fedca71ad1",
+      "seed": 837849,
+      "samples": 64,
+      "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+      "seconds": 114.44380544500018,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    }
+  ],
+  "fingerprint": "a77cc822eaf39c55c37db72b82e7fe25e71405d1ee70893b165a2ee1ab69adba",
+  "spec": {
+    "identity": {
+      "renderer_path": "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/render_detail.py",
+      "renderer_sha256": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+      "source_sha256": "ade75fe27c9655654426d9ff70288d705b9710bc9069e9ce083f165dbb10c571",
+      "presentation_modules": {
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/run_checkpoint_renderer_externaldeps.py": "0890e3afb911b8e150f3dc3b7edfc013c3741501e1cc2e987e9f62ae04f627c8",
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/checkpoint_render.py": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b",
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/icf_presentation.py": "e1aa62fe1eaffd5d1b2e5da2ba2ad7bd6e6327c9ece39a2ce57de733a9a4bf54"
+      },
+      "external_presentation_dependencies": {
+        "vande_bharat_detail_v02/components/environment_depot.py": "3ce4be78ea757ab389f530e28d0b59c8f75273d0c5102dd36f7179995f98b4cd",
+        "vande_bharat_detail_v02/components/common.py": "61ec45c1e2ab246683b2449818f4c1e8771541daaa5d76541d3a61cda225dd20",
+        "wap7_photoreal_v02/environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198",
+        "wap7_photoreal_v02/environment/dirt_diff_2k.jpg": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+        "wap7_photoreal_v02/environment/dirt_rough_2k.jpg": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+        "wap7_photoreal_v02/environment/dirt_disp_2k.exr": "a089dc8964c5f73199ad63d5a63e336f70a8c6f3e629c1dd03b893f16e5066e3"
+      }
+    },
+    "wrapper_sha256": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+    "batches": 8,
+    "samples_per_batch": 64,
+    "resolution": [
+      1600,
+      900,
+      100
+    ],
+    "camera_matrix": [
+      [
+        0.6925317645072937,
+        -0.24128955602645874,
+        0.6798375844955444,
+        25.0
+      ],
+      [
+        0.7213873863220215,
+        0.2316378653049469,
+        -0.6526439785957336,
+        -24.0
+      ],
+      [
+        3.643966550725963e-08,
+        0.9424028992652893,
+        0.33447980880737305,
+        14.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_lens": 60.0,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "method": "equal-weight mean of independent-seed uniform-sample scene-linear RGBA float32 EXRs; one final display transform",
+    "denoising": false,
+    "adaptive_sampling": false
+  },
+  "combined_linear_sha256": "211c0ea36278a75bc6385db9434fb9671df2957f73ed8bb02121141b63fcc2ce",
+  "image_sha256": "83c41b8ee6c58191b108e5da5e0b2ee2c8fc26d6689942a2ba08f432b41650a9",
+  "duration_seconds": 893.0415363249995
+}

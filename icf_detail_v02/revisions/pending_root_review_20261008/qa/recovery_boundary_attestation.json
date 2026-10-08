@@ -1,0 +1,22 @@
+{
+  "time_started_utc": "2026-10-07T22:20:43.433112+00:00",
+  "active_fingerprint": "ccfe2698bc598590acbafdbe863112f77f59865d0cd3f6ae5961470130b68e18",
+  "dependency_sha256": {
+    "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/run_checkpoint_renderer.py": "82f15070dbbdb7fb2f8917373f29712d73b6b95e9a3375ffdc466d0470b03cd7",
+    "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/checkpoint_render.py": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+    "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b",
+    "/workspace/scratch/652ca471b64e/icf_detail_v02/1A/ICF_1A_master.blend": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
+    "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/render_detail.py": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472"
+  },
+  "before_all_match": true,
+  "after_all_match": true,
+  "switch_complete": false,
+  "switch_plan": "No in-place switch. Queue explicitly chooses original wrapper for current 1A cabin; successor wrapper for all new frames.",
+  "durable_batches_before_queue_restart": 2,
+  "all_original_dependencies_unchanged_after_restart": true,
+  "completed_utc": "2026-10-07T22:46:55.752349+00:00",
+  "image_sha256": "f0f4db9f69d4bae3edc3b3d02557bc0876d96a1ee77f79e9f4b54bf93f9a669b",
+  "frame_complete": true,
+  "final_samples": 512,
+  "pixel_review": "Cabin framing intact; upper berth, quilt seams, mirror reflection, window curtains, service panel, table and bottle holders are legible. Residual fine Monte Carlo grain remains; no denoising used. No geometry defect identified."
+}

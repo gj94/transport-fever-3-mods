@@ -48,3 +48,7 @@ Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main pu
 2026-10-08 07:24 UTC: SL side_berth completed and pixel/provenance reviewed, gallery21/24. Queue session45177 renders bogie. Parent review currently pending for CC/SL; publisher preserved CC20/24 under pending_root_review revision paths at e3b93f6c7d7a530e2306ea3c635c8e0b5673ddba. No main promotion.
 
 2026-10-08 07:45 UTC: SL bogie completed and pixel/provenance reviewed; gallery22/24. Session45177 renders entrance, followed by GS coupling. SL side_berth+bogie snapshot prepared for pending-root-review preservation. Sources/renderers unchanged.
+
+2026-10-08 07:56 UTC: SL entrance completed and pixel/provenance reviewed; gallery23/24. Session45177 renders final GS coupling. 22/24 snapshot remotely verified under pending-review revision at74d1cb8e156e9768eecee78957e1471ee513fef3. Final portable integrity and full manifest after last frame.
+
+2026-10-08 08:13 UTC: All24 final frames complete; queue45177 exited zero. Pixel ledger covers all24, gallery audit passes24/24, portable source/dependency check passes. Fresh all7 source geometry/support/aperture/privacy validation and relocated FBX checks exit zero. Root approval confirmed through18/24; later six frames technically checked but pending root delivery review. Main remains held. Complete intended-delivery snapshot prepared separately from transient EXR caches.

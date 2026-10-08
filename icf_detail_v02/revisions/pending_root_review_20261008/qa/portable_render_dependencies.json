@@ -1,0 +1,40 @@
+{
+  "path_base": "repository root (parent of icf_detail_v02)",
+  "source_family": "r12-stencil",
+  "dependencies": [
+    {
+      "path": "vande_bharat_detail_v02/components/environment_depot.py",
+      "sha256": "3ce4be78ea757ab389f530e28d0b59c8f75273d0c5102dd36f7179995f98b4cd",
+      "purpose": "Outdoor presentation only; excluded from FBX"
+    },
+    {
+      "path": "vande_bharat_detail_v02/components/common.py",
+      "sha256": "61ec45c1e2ab246683b2449818f4c1e8771541daaa5d76541d3a61cda225dd20",
+      "purpose": "Outdoor presentation only; excluded from FBX"
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+      "sha256": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198",
+      "purpose": "Outdoor presentation only; excluded from FBX"
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_diff_2k.jpg",
+      "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+      "purpose": "Outdoor presentation only; excluded from FBX"
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_rough_2k.jpg",
+      "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+      "purpose": "Outdoor presentation only; excluded from FBX"
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_disp_2k.exr",
+      "sha256": "a089dc8964c5f73199ad63d5a63e336f70a8c6f3e629c1dd03b893f16e5066e3",
+      "purpose": "Outdoor presentation only; excluded from FBX"
+    }
+  ],
+  "required_reference_ledger": "icf_family_v01/references.md",
+  "geometry_source_ledger": "icf_detail_v02/qa/final_geometry_lock.json",
+  "note": "Preserve relative sibling directories. Vehicle Blender meshes and packed class labels can be inspected independently.",
+  "reference_ledger_sha256": "fc4dddbcd8eb8c0d8f44bc35c0d8991e4cdb5f44eb672bb7cb93616356784e1a"
+}

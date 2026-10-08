@@ -1,0 +1,204 @@
+{
+  "variant": "1A",
+  "source_passed": true,
+  "source_errors": [],
+  "seated_marker_fit": [
+    {
+      "name": "PAX_SEATED_001",
+      "cushion_candidates": [
+        "Cabin_A_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_002",
+      "cushion_candidates": [
+        "Cabin_A_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_003",
+      "cushion_candidates": [
+        "Cabin_A_lower_berth.001"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_004",
+      "cushion_candidates": [
+        "Cabin_A_lower_berth.001"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_005",
+      "cushion_candidates": [
+        "Cabin_B_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_006",
+      "cushion_candidates": [
+        "Cabin_B_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_007",
+      "cushion_candidates": [
+        "Cabin_B_lower_berth.001"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_008",
+      "cushion_candidates": [
+        "Cabin_B_lower_berth.001"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_009",
+      "cushion_candidates": [
+        "Coupe_C_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_010",
+      "cushion_candidates": [
+        "Coupe_C_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_011",
+      "cushion_candidates": [
+        "Coupe_D_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_012",
+      "cushion_candidates": [
+        "Coupe_D_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_013",
+      "cushion_candidates": [
+        "Coupe_E_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_014",
+      "cushion_candidates": [
+        "Coupe_E_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_015",
+      "cushion_candidates": [
+        "Cabin_F_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_016",
+      "cushion_candidates": [
+        "Cabin_F_lower_berth"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_017",
+      "cushion_candidates": [
+        "Cabin_F_lower_berth.001"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    },
+    {
+      "name": "PAX_SEATED_018",
+      "cushion_candidates": [
+        "Cabin_F_lower_berth.001"
+      ],
+      "nominal_root_z_m": 1.2699999809265137
+    }
+  ],
+  "nominal_pelvis_offset_m": 0.483,
+  "soft_cushion_compression_allowance_m": 0.012,
+  "source_images": [
+    {
+      "name": "class_hi_1A.png",
+      "packed": true
+    }
+  ],
+  "fbx_passed": true,
+  "fbx_errors": [],
+  "fresh_import": true,
+  "absolute_path_references_invalidated": 5,
+  "relocated_images": [
+    {
+      "name": "class_hi_1A.png",
+      "path": "/tmp/icf-fbx-portable-1A/ICF_1A.fbm/class_hi_1A.png",
+      "relocated_and_loaded": true
+    },
+    {
+      "name": "class_hi_1A.png.001",
+      "path": "/tmp/icf-fbx-portable-1A/ICF_1A.fbm/class_hi_1A.png",
+      "relocated_and_loaded": true
+    },
+    {
+      "name": "class_hi_1A.png.002",
+      "path": "/tmp/icf-fbx-portable-1A/ICF_1A.fbm/class_hi_1A.png",
+      "relocated_and_loaded": true
+    }
+  ],
+  "source_bounds_m": [
+    [
+      -11.148500442504883,
+      11.148500442504883
+    ],
+    [
+      -1.75,
+      1.75
+    ],
+    [
+      -0.02800000086426735,
+      4.0268988609313965
+    ]
+  ],
+  "fbx_bounds_m": [
+    [
+      -11.148500442504883,
+      11.148500442504883
+    ],
+    [
+      -1.7500015497207642,
+      1.7500015497207642
+    ],
+    [
+      -0.02800000086426735,
+      4.0268988609313965
+    ]
+  ],
+  "checked_hierarchy_nodes": 43,
+  "PAX_count": 18,
+  "BERTH_export_count": 0,
+  "glass_fallback": [
+    {
+      "name": "FROST toilet privacy glass",
+      "alpha": 0.5799999833106995
+    },
+    {
+      "name": "GLASS sealed passenger glazing alpha fallback",
+      "alpha": 0.23999999463558197
+    }
+  ],
+  "note": "Authoring-space seated-root fit only; full animated anatomy, game boarding and native materials remain unvalidated."
+}

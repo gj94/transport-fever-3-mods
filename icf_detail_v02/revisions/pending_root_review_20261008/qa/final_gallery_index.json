@@ -1,5 +1,5 @@
 {
-  "completed_views": 22,
+  "completed_views": 24,
   "expected_views": 24,
   "images": [
     {
@@ -163,6 +163,14 @@
       "image_sha256": "881e113bfad26a63f7b2bbf856c4689425d04f82d81988cf695bd21afc1faadc"
     },
     {
+      "variant": "SL",
+      "view": "entrance",
+      "image": "SL/renders/entrance_final.png",
+      "metadata": "SL/renders/entrance_final.json",
+      "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+      "image_sha256": "1b3495c2c0b7a782055275a9851db5c49f1633f575148ec8d0e405296afe4e6a"
+    },
+    {
       "variant": "GS",
       "view": "hero",
       "image": "GS/renders/hero_final.png",
@@ -177,6 +185,14 @@
       "metadata": "GS/renders/aisle_final.json",
       "source_blend_sha256": "d14ef4d920a4da37a5ba21080784814678ecef52e40a8464b7c9c77aa0d9d715",
       "image_sha256": "9f1b2a989016fc269f471a24af926c1ef568cb19001a65ba88245d1ac2dd5813"
+    },
+    {
+      "variant": "GS",
+      "view": "coupling",
+      "image": "GS/renders/coupling_final.png",
+      "metadata": "GS/renders/coupling_final.json",
+      "source_blend_sha256": "d14ef4d920a4da37a5ba21080784814678ecef52e40a8464b7c9c77aa0d9d715",
+      "image_sha256": "9abf3205e1b71355c5da1a4291fbdbca414ee2e5e577dafc3cd7028cbba8d4de"
     }
   ]
 }

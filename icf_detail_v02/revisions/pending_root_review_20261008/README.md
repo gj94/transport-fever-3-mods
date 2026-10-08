@@ -35,11 +35,11 @@ Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/
 
 Renders are actual Blender geometry, not image-generated illustrations. Cutaway hides the roof and one bodyside for inspection only. Studio lights and camera are excluded from FBX. Passenger and berth markers are authoring references, not claims of runtime validation.
 
-## Verified source state and remaining work
+## Verified source and gallery state
 
 All seven classes have completed source generation, geometry, support/contact, aperture, seated-root and relocated FBX texture/hierarchy/bounds checks. The current r12 sources and exports are frozen in `qa/final_geometry_lock.json`; recovery revalidation confirms unchanged hashes. These checks do not establish native game compatibility, animated character fit or dynamic mechanical clearances.
 
-Remaining work is the complete 24-view high-sample actual-model gallery, final pixel review and finished-gallery provenance audit. The truthful completion count is in GALLERY.md. Do not interpret prior review images as completed high-sample finals.
+All 24 high-sample actual-model gallery images are complete and have a per-image pixel review plus passing current-source provenance audit. The gallery and pixel ledger document their scope and remaining fidelity limitations. Final delivery review is separate from these technical checks; native game compatibility, exact as-built replication and dynamic clearance remain unvalidated.
 
 ## Portable render dependencies
 
