@@ -6,12 +6,14 @@ An editable, metre-scale Blender reconstruction of the distinctive peach-and-ivo
 - `NCJ_2010_station.blend`: portable master, editable meshes, fonts packed, procedural materials, four cameras.
 - `exports/NCJ_2010_station.glb`: portable mesh/material interchange. Blender procedural weathering has no exact glTF equivalent; the export retains base PBR material values.
 - `scripts/build_ncj.py`: deterministic reproducible geometry/material/export builder, Blender 4.3+.
-- `renders/`: four real Blender Cycles views (40 samples, denoised, four CPU threads).
+- `renders/`: four real Blender Cycles views (64 samples, undenoised, four CPU threads).
+- `scripts/toggle_context.py`: optional platform/track/vegetation visibility controls for the Blender Text Editor.
+- `assets/`: editable Tamil/Hindi sign SVGs and properly shaped outline versions; regenerate with `scripts/shape_signs.sh` using Inkscape.
 - `dimensions.csv`: chosen dimensions with confidence and provenance.
 - `QA.json`: automated scene checks. `VISUAL_QA.md` records pixel inspection.
 - `references/`: source photographs and source credits. The reference photos are not pasted onto the model.
 
-Run from any directory: `blender -b -t 4 --python scripts/build_ncj.py -- --render`. The script resolves paths relative to itself. Noto Sans Tamil, Noto Sans Devanagari and DejaVu fonts are used; install the matching system fonts before rebuilding on a different computer. The supplied master packs its fonts.
+Run from any directory: `blender -b -t 4 --python scripts/build_ncj.py -- --render`. The script resolves paths relative to itself. Noto Sans Tamil, Noto Sans Devanagari and DejaVu fonts are used; install the matching system fonts before rebuilding on a different computer. The supplied master packs its fonts. Tamil/Hindi rooftop names use properly shaped Inkscape outlines from supplied editable SVG sources, imported as raised meshes; rebuild also requires the supplied assets folder.
 
 ## Architectural reading
 The January main photograph shows a tall two-storey portico with twelve visible slender rectangular columns and eleven principal advertising bays, stepped bracket capitals, a salmon entablature, a broad white cornice, and a rounded roof-front silhouette. Separate rooftop boards carry English in red, Tamil and Hindi in blue. A bare flagpole rises behind them. The lower left wing uses smaller columns and similar stepped capitals at two levels, with barred windows and a red-oxide veranda floor.
@@ -31,7 +33,7 @@ The advertising panel rhythm is a major identifying feature. The geometry reprod
 - `08_SET_DRESSING`: original props, palms and lamps.
 - `09_LIGHTS_CAMERAS`: presentation setup, safe to exclude from downstream exports.
 
-The X axis follows the frontage/illustrative track; negative Y is the street. Z is up. Forecourt grade is Z≈0. Rail top is Z=0.571 m and platform top is Z=0.87 m in the contextual scene; their relative offset is a visualization choice, **not a verified NCJ platform height**. Move/rebuild these modules for operational simulation.
+The X axis follows the frontage/illustrative track; negative Y is the street. Z is up. Forecourt grade is Z≈0. Rail top is Z=0.571 m and platform top is Z=1.331 m in the contextual scene; their 0.760 m relative offset is a conventional high-platform visualization choice, **not a verified NCJ platform height**. Move/rebuild these modules for operational simulation; the unobserved rear access transition to the building floor is not modelled.
 
 ## Limits and licences
 Read `SOURCES_AND_LICENCES.md`. All building dimensions are proportional estimates or composition choices, with no surveyed measurements. The photos span January to October 2010 and show changing advertisements; the asset's unbranded panels make this mixed seasonal evidence explicit. Unseen right/rear walls are simplified. No current electrification/FOB/yard renewal is imported into this historical scene. Terrain and palms are scenic placement rather than topographic reconstruction.

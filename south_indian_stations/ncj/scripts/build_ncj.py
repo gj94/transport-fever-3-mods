@@ -47,6 +47,22 @@ font=bpy.data.fonts.load('/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.t
 def text(n,body,loc,size,m,width=None,rot=(math.pi/2,0,0),fontpath=None):
  d=bpy.data.curves.new(n,'FONT');d.body=body;d.size=size;d.align_x='CENTER';d.align_y='CENTER';d.extrude=.009;d.bevel_depth=.002;d.font=bpy.data.fonts.load(fontpath) if fontpath else font;o=bpy.data.objects.new(n,d);active.objects.link(o);o.location=loc;o.rotation_euler=rot;d.materials.append(m);bpy.context.view_layer.update()
  if width and o.dimensions.x>width:o.scale.x*=width/o.dimensions.x
+ if n=='Rooftop station lettering':
+  o.scale.x*=width/o.dimensions.x;o.scale.y*=.70/o.dimensions.z
+ return o
+def outlined_sign(n,file,loc,width,m):
+ before=set(bpy.data.objects)
+ bpy.ops.import_curve.svg(filepath=str(ROOT/'assets'/file))
+ obs=list(set(bpy.data.objects)-before)
+ bpy.ops.object.select_all(action='DESELECT')
+ for o in obs:o.select_set(True)
+ bpy.context.view_layer.objects.active=obs[0]
+ bpy.ops.object.convert(target='MESH');bpy.ops.object.join();o=bpy.context.object
+ coords=[o.matrix_world@v.co for v in o.data.vertices];lo=Vector((min(v.x for v in coords),min(v.y for v in coords),0));hi=Vector((max(v.x for v in coords),max(v.y for v in coords),0));center=(lo+hi)/2
+ scale=min(width/(hi.x-lo.x),.71/(hi.y-lo.y))
+ for vert,p in zip(o.data.vertices,coords):vert.co=(p-center)*scale
+ o.matrix_world.identity();o.location=loc;o.rotation_euler=(math.pi/2,0,0);o.data.materials.clear();assign(o,n,m)
+ sol=o.modifiers.new('Raised shaped letters','SOLIDIFY');sol.thickness=.018
  return o
 def corbel(x,y,z,scale=1):
  for k,(w,dep,h) in enumerate([(.48,.65,.25),(.68,.95,.25),(.92,1.24,.25)]):cube('Stepped corbel tier', (x,y,z+k*.25*scale),(w*scale,dep*scale,h*scale),ivory,.015)
@@ -111,12 +127,16 @@ for i in range(11):
  # Geometric jewellery-inspired rings, entirely newly drawn.
  for k in range(3):
   bpy.ops.mesh.primitive_torus_add(major_radius=.43-k*.065,minor_radius=.018,major_segments=36,minor_segments=8,location=(x,-4.53-k*.005,5.43),rotation=(math.pi/2,0,0));assign(bpy.context.object,'Original decorative ring',gold)
+# Small irregular paint losses, based on worn entablature/soffit in 2010 references.
+for i in range(95):
+ x=random.uniform(-18.2,18.2);z=random.uniform(9.08,9.51);w=random.uniform(.05,.3);h=random.uniform(.015,.05)
+ mesh('Fascia worn paint patch',[(x-w,-5.565,z),(x-w*.4,-5.567,z+h),(x+w*.7,-5.567,z+h*.45),(x+w,-5.566,z-h*.3),(x,-5.565,z-h)],[(0,1,2,3,4)],ivory if i%3 else grey)
 # Rooftop nameboards supported on paired small piers.
 group('04_SIGNAGE')
 for x,w,body,m,fp in [(-11.6,12.2,'NAGERCOIL JUNCTION',red,None),(1.55,10.7,'நாகர்கோவில் சந்திப்பு',blue,'/usr/share/fonts/truetype/noto/NotoSansTamil-Regular.ttf'),(12.15,8.7,'नागरकोविल जंक्शन',blue,'/usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf')]:
  for dx in [-w*.35,w*.35]:cube('Rooftop board support',(x+dx,-2.65,10.42),(.15,.2,.7),ivory)
  cube('Rooftop nameboard',(x,-2.65,11.01),(w,.18,.91),ivory,.025)
- text('Rooftop station lettering',body,(x,-2.756,11.02),.72,m,width=w-.28,fontpath=fp)
+ outlined_sign('Shaped '+body,'tamil_outlined.svg' if 'Tamil' in fp else 'hindi_outlined.svg',(x,-2.772,11.02),w-.28,m) if fp else text('Rooftop station lettering',body,(x,-2.756,11.02),1.05,m,width=w-.28)
 beam('Photographed bare flagpole',(0,-2.2,9.5),(0,-2.2,15.2),.035,metal)
 # Left lower two-storey veranda, clearly evidenced by side photograph.
 group('02_LEFT_VERANDA_2010_PHOTO')
@@ -146,6 +166,8 @@ cube('Annex porch canopy',(-47,2.05,3.87),(18.2,3.2,.23),ivory)
 cube('Link covered walkway fascia',(-63.5,6.9,3.6),(14,.5,.6),pink)
 cube('Link canopy',(-63.5,8,3.94),(14,3.3,.16),ivory)
 for x in [-70,-67,-64,-61,-58]:cube('Link slender post',(x,6.9,2.1),(.2,.2,3.4),ivory)
+cube('Wing-annex low connection',(-37.2,5.2,1.45),(2.9,4.5,1.8),peach)
+mesh('Wing-annex inferred lean-to roof',[(-38.7,2.8,2.7),(-35.7,2.8,2.7),(-35.7,7.7,3.8),(-38.7,7.7,3.8)],[(0,1,2,3)],roof)
 # Forecourt pavement, ramps and striped curb.
 group('05_FORECOURT')
 cube('Asphalt forecourt',(-12,-19,-.08),(124,37,.2),asphalt,.08)
@@ -193,6 +215,8 @@ for x in [-24,0,24]:
  for j in range(5):cube('Bench seat slat',(x,14.75+j*.11,1.42),(2.35,.085,.075),rust)
  for j in range(4):cube('Bench back slat',(x,15.32,1.7+j*.11),(2.35,.075,.085),rust)
 for x in [-30,-14,14,30]:cube('Canopy fluorescent luminaire',(x,14.6,4.85),(1.1,.18,.11),ivory)
+# Raise demonstration platform to 760 mm above the illustrative rail top.
+for o in list(cols['06_PLATFORM_CONTEXT_NOT_SURVEYED'].objects):o.location.z+=.461
 # Broad gauge illustrative straight track segment, no invented turnouts/yard.
 group('07_TRACK_CONTEXT')
 cube('Ballast bed',(0,21.6,.13),(91,4.15,.27),sand)
@@ -246,10 +270,10 @@ def camera(n,loc,target,lens=48,ortho=None):
  bpy.ops.object.camera_add(location=loc);o=assign(bpy.context.object,n,None);o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.lens=lens
  if ortho:o.data.type='ORTHO';o.data.ortho_scale=ortho
  return o
-cams=[camera('01_HERO_FORECOURT',(48,-77,29),(-9,-1,3.2),46),camera('02_FRONT_ELEVATION',(-9,-100,12),(-9,-1,5.7),48,102),camera('03_ENTRANCE_DETAIL',(24,-33,13),(2,-3,5.5),50),camera('04_PLATFORM_CONTEXT',(48,40,14),(-3,13,3.4),47)]
-bpy.ops.object.light_add(type='SUN',location=(0,-15,35));sun=assign(bpy.context.object,'Sun warm late morning',None);sun.rotation_euler=(math.radians(27),math.radians(-20),math.radians(-32));sun.data.energy=2.5;sun.data.angle=.15
-world=bpy.data.worlds.new('Soft coastal sky');bpy.context.scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.5,.67,.83,1);world.node_tree.nodes['Background'].inputs[1].default_value=.45
-scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1;scene.render.engine='CYCLES';scene.cycles.samples=40;scene.cycles.use_denoising=True;scene.render.threads_mode='FIXED';scene.render.threads=4;scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=100;scene.view_settings.view_transform='AgX';scene.camera=cams[0];scene.render.image_settings.file_format='PNG';scene.render.film_transparent=False
+cams=[camera('01_HERO_FORECOURT',(-31,-52,13),(0,-1,5),44),camera('02_FRONT_ELEVATION',(-20,-110,8),(-20,-1,5.7),48,116),camera('03_ENTRANCE_DETAIL',(24,-33,13),(2,-3,5.5),50),camera('04_PLATFORM_CONTEXT',(48,40,14),(-3,13,3.4),47)]
+bpy.ops.object.light_add(type='SUN',location=(0,-15,35));sun=assign(bpy.context.object,'Sun warm late morning',None);sun.rotation_euler=(math.radians(27),math.radians(-20),math.radians(-32));sun.data.energy=3.3;sun.data.angle=.15
+world=bpy.data.worlds.new('Soft coastal sky');bpy.context.scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.5,.67,.83,1);world.node_tree.nodes['Background'].inputs[1].default_value=.65
+scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1;scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4;scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=100;scene.view_settings.view_transform='AgX';scene.view_settings.exposure=.45;scene.camera=cams[0];scene.render.image_settings.file_format='PNG';scene.render.film_transparent=False
 scene['asset_title']='Nagercoil Junction NCJ | 2010 photo-informed reconstruction';scene['scale']='1 Blender unit = 1 metre. Dimensions are inferred, not as-built.';scene['historical_basis']='Kkdrua 9 Jan 2010 + Danymaddy 17 Oct 2010, CC BY-SA 3.0';scene['yard_warning']='Rear wall, platform and track are modular context; neither cited photograph shows the rail side. No exact yard claimed.'
 for f in bpy.data.fonts:
  if f.filepath and f.filepath!='<builtin>':f.pack()
