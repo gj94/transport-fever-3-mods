@@ -1,0 +1,529 @@
+{
+  "station_code": "KYJ",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 5,
+  "platform_bodies_modeled": 3,
+  "road_cross_section_count": 6,
+  "source_route_segments": 29,
+  "mapped_turnout_nodes": 27,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 18735,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        35.5248,
+        746.9463
+      ],
+      "motor_xy": [
+        38.574799999999996,
+        746.9463
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050020613706451
+    },
+    {
+      "node_xy": [
+        42.6809,
+        -114.496
+      ],
+      "motor_xy": [
+        45.7309,
+        -114.496
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500226587032913
+    },
+    {
+      "node_xy": [
+        34.8203,
+        -201.385
+      ],
+      "motor_xy": [
+        31.770300000000002,
+        -201.385
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500271404061685
+    },
+    {
+      "node_xy": [
+        35.9169,
+        -176.3145
+      ],
+      "motor_xy": [
+        38.966899999999995,
+        -176.3145
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500336775046435
+    },
+    {
+      "node_xy": [
+        29.8607,
+        823.2286
+      ],
+      "motor_xy": [
+        32.9107,
+        823.2286
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.53236918327719
+    },
+    {
+      "node_xy": [
+        29.8615,
+        832.1697
+      ],
+      "motor_xy": [
+        32.9115,
+        832.1697
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.485973613139535
+    },
+    {
+      "node_xy": [
+        30.2234,
+        1039.2588
+      ],
+      "motor_xy": [
+        33.2734,
+        1039.2588
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500108706439946
+    },
+    {
+      "node_xy": [
+        -7.5317,
+        1218.924
+      ],
+      "motor_xy": [
+        -4.4817,
+        1218.924
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499665121726434
+    },
+    {
+      "node_xy": [
+        19.6607,
+        990.7606
+      ],
+      "motor_xy": [
+        22.7107,
+        990.7606
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.736195822232382
+    },
+    {
+      "node_xy": [
+        19.723,
+        981.9022
+      ],
+      "motor_xy": [
+        22.773,
+        981.9022
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.793357132668916
+    },
+    {
+      "node_xy": [
+        19.6832,
+        726.92
+      ],
+      "motor_xy": [
+        22.0332,
+        726.92
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.3499585062494504
+    },
+    {
+      "node_xy": [
+        25.4834,
+        815.2632
+      ],
+      "motor_xy": [
+        23.133399999999998,
+        815.2632
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.3499553761586505
+    },
+    {
+      "node_xy": [
+        26.2007,
+        896.85
+      ],
+      "motor_xy": [
+        23.1507,
+        896.85
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.849513018721776
+    },
+    {
+      "node_xy": [
+        26.1548,
+        907.7185
+      ],
+      "motor_xy": [
+        23.1048,
+        907.7185
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.877502837085121
+    },
+    {
+      "node_xy": [
+        26.0521,
+        945.8865
+      ],
+      "motor_xy": [
+        28.4021,
+        945.8865
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 1.6082849816800717
+    },
+    {
+      "node_xy": [
+        14.7926,
+        1076.5869
+      ],
+      "motor_xy": [
+        11.7426,
+        1076.5869
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049988614288708
+    },
+    {
+      "node_xy": [
+        -41.9584,
+        1290.564
+      ],
+      "motor_xy": [
+        -45.008399999999995,
+        1290.564
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050024189739233
+    },
+    {
+      "node_xy": [
+        35.7815,
+        756.8716
+      ],
+      "motor_xy": [
+        38.8315,
+        756.8716
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500400988442067
+    },
+    {
+      "node_xy": [
+        19.8997,
+        693.1223
+      ],
+      "motor_xy": [
+        22.2497,
+        693.1223
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.3500372528581046
+    },
+    {
+      "node_xy": [
+        15.5246,
+        614.7103
+      ],
+      "motor_xy": [
+        12.474599999999999,
+        614.7103
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050032989824114
+    },
+    {
+      "node_xy": [
+        23.9548,
+        -332.3362
+      ],
+      "motor_xy": [
+        27.0048,
+        -332.3362
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499704830666836
+    },
+    {
+      "node_xy": [
+        19.0926,
+        -282.8995
+      ],
+      "motor_xy": [
+        21.442600000000002,
+        -282.8995
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.350005897508183
+    },
+    {
+      "node_xy": [
+        23.9314,
+        -382.9304
+      ],
+      "motor_xy": [
+        26.9814,
+        -382.9304
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050034556940517
+    },
+    {
+      "node_xy": [
+        23.6544,
+        -394.2861
+      ],
+      "motor_xy": [
+        26.7044,
+        -394.2861
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050023708856628
+    },
+    {
+      "node_xy": [
+        18.5383,
+        -486.2772
+      ],
+      "motor_xy": [
+        15.488299999999999,
+        -486.2772
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499651872799056
+    },
+    {
+      "node_xy": [
+        18.8634,
+        -269.0396
+      ],
+      "motor_xy": [
+        21.9134,
+        -269.0396
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.672382776597008
+    },
+    {
+      "node_xy": [
+        15.7555,
+        -189.1661
+      ],
+      "motor_xy": [
+        12.7055,
+        -189.1661
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499585650089003
+    }
+  ],
+  "bridge_flights": [
+    {
+      "x": 27.451542325882134,
+      "end_y": 29.30285159540322,
+      "start_y": 14.10285159540322,
+      "deck_top_m": 8.7,
+      "platform_ref": "2;3"
+    },
+    {
+      "x": 11.534488713991628,
+      "end_y": 34.29767464910872,
+      "start_y": 19.097674649108722,
+      "deck_top_m": 8.7,
+      "platform_ref": "1 (OSM incorrectly repeats2;3; IRI-led face numbering inferred)"
+    },
+    {
+      "x": 46.67126949969159,
+      "end_y": 29.748712379531156,
+      "start_y": 14.548712379531157,
+      "deck_top_m": 8.7,
+      "platform_ref": "4;5"
+    }
+  ],
+  "bridge_deck_top_m": 8.7,
+  "bridge_deck_underside_m": 8.4,
+  "bridge_source_way": "1103711043",
+  "stair_landing_method": "Three source-aligned dogleg-bridge flights meet exact deck leading boundary; all final tread tops8.70m.",
+  "pointwork_proof_crossing": {
+    "ways": [
+      "620173334",
+      "640935823"
+    ],
+    "sides": [
+      -1,
+      -1
+    ],
+    "xy": [
+      -24.324911498982786,
+      1251.865787975707
+    ],
+    "nearest_junction_distance_m": 36.97530726695863
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 156,
+  "mesh_objects": 80,
+  "mesh_vertices": 1497096,
+  "mesh_faces": 1050078,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "e3e275e414b4b5affad7eebcf92b8c4c326596c08db6441e9ea3b06fe0053bd9",
+  "source_plan_sha256": "dcf49a2929a0f03129fc205b35e64b89168be23b00e395647ff6006d2230a17d",
+  "blend_file": "KYJ_coastal_station_v02.blend",
+  "blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+  "blend_bytes": 31189337,
+  "building_dimensions_m": {
+    "width": 16,
+    "length": 100,
+    "position_xy": [
+      -3,
+      100
+    ],
+    "height": 5.5
+  },
+  "platform_parameters": [
+    {
+      "x": 27.451542325882134,
+      "y": 173.55373815949795,
+      "bounds": [
+        22.309154892351756,
+        -121.53710519093234,
+        32.71521159673682,
+        468.64458150992823
+      ],
+      "width": 10.033185851767037,
+      "ref": "2;3"
+    },
+    {
+      "x": 11.534488713991628,
+      "y": 176.52486212652698,
+      "bounds": [
+        8.533046819840848,
+        -120.73043589768083,
+        13.705458565008898,
+        473.7801601507348
+      ],
+      "width": 4.2891546658496615,
+      "ref": "1 (OSM incorrectly repeats2;3; IRI-led face numbering inferred)"
+    },
+    {
+      "x": 46.67126949969159,
+      "y": 258.12888513112813,
+      "bounds": [
+        35.903991902227894,
+        -63.274884267507375,
+        51.51327863177556,
+        579.5326545297636
+      ],
+      "width": 9.42633834967527,
+      "ref": "4;5"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -191.6440887451172,
+        240.0
+      ],
+      "rotation": [
+        1.1359331607818604,
+        3.148662486296416e-08,
+        -0.6195274591445923
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -40.0,
+        75.0,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        -2.1099630487242393e-08,
+        -0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        12.77906608581543,
+        34.0,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711638927459717,
+        6.633515958753833e-09,
+        -0.04229404777288437
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -10.100000381469727,
+        93.0,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5449773073196411,
+        -8.434369647147832e-09,
+        -0.5427505373954773
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        -19.82491111755371,
+        1244.8658447265625,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 842824
+}

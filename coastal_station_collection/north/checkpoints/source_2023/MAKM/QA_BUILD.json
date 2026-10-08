@@ -1,0 +1,263 @@
+{
+  "station_code": "MAKM",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 2,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 3,
+  "source_route_segments": 6,
+  "mapped_turnout_nodes": 8,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 7061,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        -23.5717,
+        -630.01
+      ],
+      "motor_xy": [
+        -26.6217,
+        -630.01
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050030468191693
+    },
+    {
+      "node_xy": [
+        -23.1182,
+        -566.3107
+      ],
+      "motor_xy": [
+        -26.168200000000002,
+        -566.3107
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050005881342475
+    },
+    {
+      "node_xy": [
+        -22.0295,
+        321.51
+      ],
+      "motor_xy": [
+        -18.979499999999998,
+        321.51
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050018477833202
+    },
+    {
+      "node_xy": [
+        -21.4814,
+        393.5864
+      ],
+      "motor_xy": [
+        -18.4314,
+        393.5864
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500167595954686
+    },
+    {
+      "node_xy": [
+        -17.3773,
+        -569.8544
+      ],
+      "motor_xy": [
+        -14.327300000000001,
+        -569.8544
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500430241663317
+    },
+    {
+      "node_xy": [
+        -17.7247,
+        -365.5916
+      ],
+      "motor_xy": [
+        -14.674699999999998,
+        -365.5916
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499762246871427
+    },
+    {
+      "node_xy": [
+        -17.4977,
+        221.5009
+      ],
+      "motor_xy": [
+        -14.447699999999998,
+        221.5009
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499551992007525
+    },
+    {
+      "node_xy": [
+        -27.2842,
+        -490.4579
+      ],
+      "motor_xy": [
+        -30.3342,
+        -490.4579
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049977614756642
+    }
+  ],
+  "pointwork_proof_crossing": {
+    "ways": [
+      "97246730",
+      "640865722"
+    ],
+    "sides": [
+      -1,
+      1
+    ],
+    "xy": [
+      -22.574370943795394,
+      -611.8507280363439
+    ],
+    "nearest_junction_distance_m": 18.186638598058117
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 94,
+  "mesh_objects": 72,
+  "mesh_vertices": 613088,
+  "mesh_faces": 433857,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "710e5c45f8bb56806cd775c22d5eb4477d9f526526d9e376d654fc8eaaca5e0a",
+  "source_plan_sha256": "7317b8e48e96734a0a7e64fb7e1a909d6c1bb0f5a9dab05c8d757492edd2a9b9",
+  "blend_file": "MAKM_coastal_station_v01.blend",
+  "blend_sha256": "b0ac556ccc3ae211ff9ed89ff4fb0b9d12ae96ce51e4e7baf6036ec001792513",
+  "blend_bytes": 12769988,
+  "building_dimensions_m": {
+    "width": 7.328604289602492,
+    "length": 31.410770305827192,
+    "position_xy": [
+      -9.41789483152797,
+      -2.183718150657712
+    ],
+    "height": 5.5
+  },
+  "platform_parameters": [
+    {
+      "x": -15.235750027510822,
+      "y": -25.60424598487465,
+      "bounds": [
+        -17.08511436143593,
+        -226.1056299093743,
+        -11.572128057300969,
+        174.897137939625
+      ],
+      "width": 3.5484102153864043,
+      "ref": "1"
+    },
+    {
+      "x": -34.74904026576038,
+      "y": 0.0,
+      "bounds": [
+        -39.06001598351969,
+        -220.0,
+        -29.030938176343607,
+        220.0
+      ],
+      "width": 8.000012120688297,
+      "ref": "2"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        300.0,
+        -270.7161865234375,
+        240.0
+      ],
+      "rotation": [
+        1.0326287746429443,
+        -7.35874721158325e-08,
+        0.8423011898994446
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        23.24640655517578,
+        -27.183717727661133,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        2.1099630487242393e-08,
+        0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        -16.109954833984375,
+        -68.1837158203125,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        3.4243077262630095e-09,
+        0.04501219838857651
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -6.653592586517334,
+        -9.183717727661133,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5416100025177002,
+        1.1330049787261487e-08,
+        0.2534983158111572
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        -18.074371337890625,
+        -618.8507080078125,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 462928,
+  "unverified_platform_connection": "Second body is hypothetical IRI-led reconstruction. No present-day pedestrian connection verified; no invented footbridge across narrow3.06m mapped side body."
+}

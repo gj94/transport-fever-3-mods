@@ -1,0 +1,289 @@
+{
+  "station_code": "SRTL",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 3,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 4,
+  "source_route_segments": 8,
+  "mapped_turnout_nodes": 9,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 7472,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        -16.517,
+        565.5254
+      ],
+      "motor_xy": [
+        -13.466999999999999,
+        565.5254
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499897013860426
+    },
+    {
+      "node_xy": [
+        -20.5033,
+        620.2551
+      ],
+      "motor_xy": [
+        -17.4533,
+        620.2551
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05001847880839
+    },
+    {
+      "node_xy": [
+        -18.6528,
+        -352.9695
+      ],
+      "motor_xy": [
+        -15.602799999999998,
+        -352.9695
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500009930789567
+    },
+    {
+      "node_xy": [
+        -18.7049,
+        -286.6285
+      ],
+      "motor_xy": [
+        -21.7549,
+        -286.6285
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049978471379724
+    },
+    {
+      "node_xy": [
+        -14.5955,
+        -241.6501
+      ],
+      "motor_xy": [
+        -16.9455,
+        -241.6501
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.3257511214570386
+    },
+    {
+      "node_xy": [
+        -21.9787,
+        531.5371
+      ],
+      "motor_xy": [
+        -25.0287,
+        531.5371
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499782829332673
+    },
+    {
+      "node_xy": [
+        -32.3411,
+        150.6596
+      ],
+      "motor_xy": [
+        -35.391099999999994,
+        150.6596
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049978436694275
+    },
+    {
+      "node_xy": [
+        -23.0723,
+        -233.7823
+      ],
+      "motor_xy": [
+        -26.1223,
+        -233.7823
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050040655567006
+    },
+    {
+      "node_xy": [
+        -42.2275,
+        50.4319
+      ],
+      "motor_xy": [
+        -39.1775,
+        50.4319
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050047064612677
+    }
+  ],
+  "bridge_deck_underside_m": 8.4,
+  "pointwork_proof_crossing": {
+    "ways": [
+      "53021635",
+      "640865720"
+    ],
+    "sides": [
+      1,
+      1
+    ],
+    "xy": [
+      -19.720636429444003,
+      615.1180202814929
+    ],
+    "nearest_junction_distance_m": 5.196359331202165
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 107,
+  "mesh_objects": 75,
+  "mesh_vertices": 649852,
+  "mesh_faces": 460040,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "1afc7fdaa0d1aec5cc7bc2e1bd6a729b975b2ab4d3e0afc00253c4a8f3eafd0f",
+  "source_plan_sha256": "e9d097703f9823d7255d6cf192c8a1dd6b262ba0fea2b7b83d2eb178c43469e3",
+  "blend_file": "SRTL_coastal_station_v02.blend",
+  "blend_sha256": "1b0607787cedaddd8b7c50400b957e333a78c6d988f7482a0f75f5ba96ed77e4",
+  "blend_bytes": 13426665,
+  "building_dimensions_m": {
+    "width": 10,
+    "length": 81.76682597249687,
+    "position_xy": [
+      0.5500000000000007,
+      -6.791831427881455
+    ],
+    "height": 5.5
+  },
+  "platform_parameters": [
+    {
+      "x": -9.051935489900274,
+      "y": 0.0,
+      "bounds": [
+        -13.05678040180892,
+        -275.0,
+        -1.0272046282399443,
+        275.0
+      ],
+      "width": 8.000005067464546,
+      "ref": "1"
+    },
+    {
+      "x": -26.632472002508184,
+      "y": 27.574635712843715,
+      "bounds": [
+        -30.49,
+        -219.85072857431257,
+        -22.7,
+        275.0
+      ],
+      "width": 7.715055994983629,
+      "ref": "2;3"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        300.0,
+        -330.0,
+        240.0
+      ],
+      "rotation": [
+        1.0771058797836304,
+        2.6195548841201344e-08,
+        0.7378152012825012
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        34.54999923706055,
+        -31.791831970214844,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        2.1099630487242393e-08,
+        0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        -10.851935386657715,
+        -72.79183197021484,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        -2.5454993668461157e-10,
+        0.03821667283773422
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        4.650000095367432,
+        -13.791831016540527,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5424741506576538,
+        2.80589649293006e-08,
+        0.3500448763370514
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        -15.220636367797852,
+        608.1180419921875,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 476416,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 56.958168572118545,
+  "stair_landing_method": "Last tread ends at deck leading edge; tread top and deck top both8.70m. No treads run below deck.",
+  "bridge_patch": {
+    "original_blend_file": "SRTL_coastal_station_v01.blend",
+    "original_blend_sha256": "3547d69a0c8981e1ce4f2b453598fe93328dcb294e84388e1e73c640bbfd4dc1",
+    "script_sha256": "c8cba1aa433ebf8ffdeec7880be4d64e785f1dfda7cb4c521b02f6ac82ad878a",
+    "changed_collections": [
+      "07 | Pedestrian footbridge reconstructed geometry",
+      "05 | Furnished reconstructed interiors: flush floor color tiles only"
+    ],
+    "flushed_tile_vertices": 2176,
+    "other_scene_geometry_unchanged": true
+  }
+}

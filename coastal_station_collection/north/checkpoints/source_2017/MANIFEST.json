@@ -1,0 +1,322 @@
+{
+  "cohort": [
+    "AMPA",
+    "SRTL",
+    "HAD",
+    "ALLP"
+  ],
+  "status": "Immutable recovery checkpoint of saved editable scenes. AMPA/ALLP frontage patches present; SRTL/HAD final source-specific facade additions still pending. Final galleries, exports and independent release gate pending. Not a final release.",
+  "licensing": "Original geometry/art; OSM-derived plans under ODbL attribution. No source photography included.",
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/AMPA_coastal_station_v02.blend",
+      "sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "bytes": 18329294
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/QA_BUILD.json",
+      "sha256": "c1fe0da273353b291d52dc40ed56ec9fb223a5072979091b45e4c834e132ea1c",
+      "bytes": 8572
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/BUILD_SOURCE.py",
+      "sha256": "8d847b3e999f61ce128f761513909fd18b0b23bdff286ba9d71c3c9df6084a77",
+      "bytes": 49640
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/RENDER_SOURCE.py",
+      "sha256": "a073f32bf48350ddb063aabb38aab53b129f1dd3ec533dae1db64aa7836c017c",
+      "bytes": 1690
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "bytes": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/FACADE_PATCH_SOURCE.py",
+      "sha256": "f3430454eab7e8a9b766abf96cd02e257af20ac439824293f202f2f3576595cf",
+      "bytes": 6862
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/references/pointwork.json",
+      "sha256": "7a1b0dc8c18c69501c35fb0942e086711bcdf224cd4ca2e77fbd416acd2a2373",
+      "bytes": 3461
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/references/rail_meshes.json",
+      "sha256": "e324111928819946a5e50f8a7a05817314b1bc1f218296f8fc701d97f3e17efa",
+      "bytes": 203324
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/references/plan.json",
+      "sha256": "a2ae02321f685f2c21e4f31d5e10aef360d2a09ff3d3bbbd0260cebe0ac924fa",
+      "bytes": 95502
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/references/FULL_TRACK_PLAN.png",
+      "sha256": "3a4f5b772ca497107d014ad7c881494c3c060f3ca561e2c7017c9c27591f865f",
+      "bytes": 69903
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/references/station_record.json",
+      "sha256": "c24ac84341522dcac6624d6b79625fe590e3746bdd8485b48cc24218fa405e3c",
+      "bytes": 7254
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/references/plan.png",
+      "sha256": "6a4998bbda5de1bbc6e5c20c4dbe6b9f2a50d205b0127c27dfd685ac5571a6ae",
+      "bytes": 31738
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/textures/notice.png",
+      "sha256": "3ebee56e37c788e5a37daeba25dd07d881a261371d5b3470023d477f6e477529",
+      "bytes": 37758
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/textures/board.png",
+      "sha256": "836495ca79c6475722c98b73a476dc4c4433567a08457754089e5cb98c4394a9",
+      "bytes": 53758
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/AMPA/textures/fascia.png",
+      "sha256": "485213ce0b71d1feefe083e9dee9a43e37b93d29302c8acae8ac7c6f026dc1f8",
+      "bytes": 38519
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/SRTL_coastal_station_v02.blend",
+      "sha256": "1b0607787cedaddd8b7c50400b957e333a78c6d988f7482a0f75f5ba96ed77e4",
+      "bytes": 13426665
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/QA_BUILD.json",
+      "sha256": "82500681072645917fcd09381a2596b1566ed3a7abca8cc0e0f58de5594aa4a7",
+      "bytes": 7068
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/BUILD_SOURCE.py",
+      "sha256": "1afc7fdaa0d1aec5cc7bc2e1bd6a729b975b2ab4d3e0afc00253c4a8f3eafd0f",
+      "bytes": 49383
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/RENDER_SOURCE.py",
+      "sha256": "a073f32bf48350ddb063aabb38aab53b129f1dd3ec533dae1db64aa7836c017c",
+      "bytes": 1690
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/BRIDGE_PATCH_SOURCE.py",
+      "sha256": "c8cba1aa433ebf8ffdeec7880be4d64e785f1dfda7cb4c521b02f6ac82ad878a",
+      "bytes": 4734
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "bytes": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/references/pointwork.json",
+      "sha256": "4e0aebc370498f6b8ec2743553cc6944c7ec562872ded1733db623bb51d2c9e0",
+      "bytes": 2940
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/references/rail_meshes.json",
+      "sha256": "6692db244ab1f53f37fa2fb0406c0a5549af87185e59121b8b8a19ce7db9d4ee",
+      "bytes": 144811
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/references/plan.json",
+      "sha256": "e9d097703f9823d7255d6cf192c8a1dd6b262ba0fea2b7b83d2eb178c43469e3",
+      "bytes": 65430
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/references/FULL_TRACK_PLAN.png",
+      "sha256": "f5e18437c56d95f25276b6a87f9ed28ae729ec351aa0f9840c8ed439d11f07cc",
+      "bytes": 66715
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/references/station_record.json",
+      "sha256": "a6d261b036b08e98aa9ccbcc0f3ff6987749e7630653b7ee8ce3272fcf148cc9",
+      "bytes": 6869
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/references/plan.png",
+      "sha256": "096ff9ffda261b2cda6e3b69e9cc67983953c2fdb6c182291a8513b1dec6ac44",
+      "bytes": 30825
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/textures/notice.png",
+      "sha256": "7adb5f084937e2e28615a92cedc55afd6df3141321fcbdf38a5d12127f9acbab",
+      "bytes": 36786
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/textures/board.png",
+      "sha256": "3ac8e8a68e9572ac89e7f72a0c426585938559a32430313e5a3160de3cf1597f",
+      "bytes": 42989
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/SRTL/textures/fascia.png",
+      "sha256": "c14d1590877c4cc9fdb63ec7d73c68c007aee9e95fbf5f03b14ad34e9059b561",
+      "bytes": 31683
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/HAD_coastal_station_v02.blend",
+      "sha256": "527eebbf1f6e769bca40ec40a6da2620e591f46c1c7f91a1489dc609f266f6c2",
+      "bytes": 19913674
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/QA_BUILD.json",
+      "sha256": "1553af91110f7b217f3102d5a2185a9a3a9344f3c7248614f5bb26d8cfd8aa57",
+      "bytes": 8913
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/BUILD_SOURCE.py",
+      "sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9",
+      "bytes": 51704
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/RENDER_SOURCE.py",
+      "sha256": "a073f32bf48350ddb063aabb38aab53b129f1dd3ec533dae1db64aa7836c017c",
+      "bytes": 1690
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "bytes": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/BUFFER_PATCH_SOURCE.py",
+      "sha256": "a80a810f6327f1f3c6d08a951e215663b4d42b1f1d8e1ce182be0f036cfb6364",
+      "bytes": 1457
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/pointwork.json",
+      "sha256": "066472fa4a1d3564bcd7039acfbba6bfe70f24c54740ab750d8f26e9de330b98",
+      "bytes": 4241
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/rail_meshes.json",
+      "sha256": "cb8f387f0e63f0cf636053ad0f9f6a7567f3be9e8eb1af83dd9848cf1cb3487e",
+      "bytes": 157205
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/bufferstop_correction.json",
+      "sha256": "e947b44c9325bc93b46622a8b63bcea77ac8a771ff2151e89d9b43321e8c83d8",
+      "bytes": 450
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/plan.json",
+      "sha256": "c366005c932d3ce73d85dcfe46a477a036de5796ca0f508c7dd3507fbadb50e8",
+      "bytes": 76035
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/FULL_TRACK_PLAN.png",
+      "sha256": "11517493747b19623114e3acd391f595d07da63ee46b58977c1a09289f109935",
+      "bytes": 64979
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/station_record.json",
+      "sha256": "fd3755a8ac0e1afb3b69f9ad6cec18ad21a388c6f95ee3ab2fe87587db38d068",
+      "bytes": 7051
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/references/plan.png",
+      "sha256": "0e80a322f5b28f0209570207d4fdd27c61ea1fda0915319643c5b7f4aa0ac44d",
+      "bytes": 31608
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/textures/notice.png",
+      "sha256": "49a54dc93443883cd40fb54bbc59117fd74145aa4ef391939367edd7c1b4e1aa",
+      "bytes": 36542
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/textures/board.png",
+      "sha256": "25f701b6219ccfa4f5d114cfcff1799313a8738c3755909d18ff3cb6f0267346",
+      "bytes": 45641
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/HAD/textures/fascia.png",
+      "sha256": "87b6279df47e5fe476f6b8f7bf51a59a8f6244c2dc4b197108b0136f126999d7",
+      "bytes": 34504
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/ALLP_coastal_station_v02.blend",
+      "sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "bytes": 19939437
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/QA_BUILD.json",
+      "sha256": "cb9f527b28d97a225542fb0322319d5c3efc18738062d343a3856ed63be91146",
+      "bytes": 7748
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/BUILD_SOURCE.py",
+      "sha256": "c272b9c945a4d89dfe44460a9e2fe7b6ff859c4852fe81d49f769de24a03f5f3",
+      "bytes": 55455
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/RENDER_SOURCE.py",
+      "sha256": "a073f32bf48350ddb063aabb38aab53b129f1dd3ec533dae1db64aa7836c017c",
+      "bytes": 1690
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "bytes": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/FACADE_PATCH_SOURCE.py",
+      "sha256": "b1f87bd5e1f4f510d6831392a8a97f6015ceb367ff23a84f4b8db4a9cd7a312e",
+      "bytes": 3574
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/pointwork.json",
+      "sha256": "290866d16e2e72b29e37eddbaca62d38906b1348e3766af3cefa04e52181d0e4",
+      "bytes": 4501
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/rail_meshes.json",
+      "sha256": "5b272a0693137532d3f5aa6c1919cd33338c66bdaba2b74e82b1c9856f3af8f8",
+      "bytes": 163144
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/plan.json",
+      "sha256": "f5ef498b95a2f6a4ba95713f717569f8262a3df808a54b469c9fc927ec142806",
+      "bytes": 149143
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/FULL_TRACK_PLAN.png",
+      "sha256": "98a339fd6fffdbe3a0dbf7207cf74d291325c44f0e6a4aca1c33639099dde1dc",
+      "bytes": 67153
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/station_record.json",
+      "sha256": "540dcb74c5d61a1d83aa6c8ec06a00a2c6caf9267999ccc9d6e070a91b08d078",
+      "bytes": 8119
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/plan.png",
+      "sha256": "5b4fd8ac1b312b11886350bdf6b4de2ffc8dffbde63ebb12021623c5ecc91aff",
+      "bytes": 34463
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/references/architecture_google_evidence.json",
+      "sha256": "6b2fed30dcb1b0b3af42dde7bd17aed08fe3a1e515f873fc29244d6ff980a1e7",
+      "bytes": 7567
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/textures/notice.png",
+      "sha256": "ff33978d1300903c0e29ba41207d7d1fd2e849c6b440f33dcd9d01d432d2b784",
+      "bytes": 36211
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/textures/board.png",
+      "sha256": "be30a234df18512b81965fac164757784d4287d971a3cca9031c19b8f5ce357d",
+      "bytes": 46968
+    },
+    {
+      "path": "coastal_stations_overnight/north/checkpoints/source_2017/ALLP/textures/fascia.png",
+      "sha256": "79300de6ef7c9e4672da5f0d411a60b968673bc2b09273823a4b02d8c5e1fe4c",
+      "bytes": 33929
+    }
+  ]
+}

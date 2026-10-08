@@ -1,0 +1,340 @@
+{
+  "station_code": "AMPA",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 3,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 4,
+  "source_route_segments": 10,
+  "mapped_turnout_nodes": 12,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 10635,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        161.3622,
+        773.0613
+      ],
+      "motor_xy": [
+        158.3122,
+        773.0613
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050034174961695
+    },
+    {
+      "node_xy": [
+        21.7954,
+        -465.2584
+      ],
+      "motor_xy": [
+        18.7454,
+        -465.2584
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500053647456262
+    },
+    {
+      "node_xy": [
+        21.9953,
+        -432.862
+      ],
+      "motor_xy": [
+        25.0453,
+        -432.862
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500186014505637
+    },
+    {
+      "node_xy": [
+        105.0712,
+        540.2466
+      ],
+      "motor_xy": [
+        102.02120000000001,
+        540.2466
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500219783613858
+    },
+    {
+      "node_xy": [
+        133.703,
+        651.2618
+      ],
+      "motor_xy": [
+        136.75300000000001,
+        651.2618
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500224883669205
+    },
+    {
+      "node_xy": [
+        149.2147,
+        712.1009
+      ],
+      "motor_xy": [
+        152.2647,
+        712.1009
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049948866022021
+    },
+    {
+      "node_xy": [
+        116.1062,
+        600.1654
+      ],
+      "motor_xy": [
+        113.0562,
+        600.1654
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049956668988088
+    },
+    {
+      "node_xy": [
+        13.0894,
+        -433.3079
+      ],
+      "motor_xy": [
+        10.0394,
+        -433.3079
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050008508037063
+    },
+    {
+      "node_xy": [
+        8.1147,
+        -336.6924
+      ],
+      "motor_xy": [
+        5.064699999999999,
+        -336.6924
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499773034843285
+    },
+    {
+      "node_xy": [
+        55.7487,
+        401.5491
+      ],
+      "motor_xy": [
+        52.6987,
+        401.5491
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499960159257427
+    },
+    {
+      "node_xy": [
+        95.929,
+        530.7607
+      ],
+      "motor_xy": [
+        92.879,
+        530.7607
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05003477922655
+    },
+    {
+      "node_xy": [
+        10.8689,
+        -556.5308
+      ],
+      "motor_xy": [
+        13.9189,
+        -556.5308
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050027025755192
+    }
+  ],
+  "bridge_deck_underside_m": 8.4,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 51.450738700031884,
+  "stair_landing_method": "Last tread ends at deck leading edge and top equals slab top8.70m; no treads run underneath solid deck.",
+  "pointwork_proof_crossing": {
+    "ways": [
+      "640907588",
+      "1034298611"
+    ],
+    "sides": [
+      1,
+      1
+    ],
+    "xy": [
+      154.79326645249296,
+      744.5374575620641
+    ],
+    "nearest_junction_distance_m": 29.270471048067435
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 115,
+  "mesh_objects": 79,
+  "mesh_vertices": 874146,
+  "mesh_faces": 616361,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "8d847b3e999f61ce128f761513909fd18b0b23bdff286ba9d71c3c9df6084a77",
+  "source_plan_sha256": "a2ae02321f685f2c21e4f31d5e10aef360d2a09ff3d3bbbd0260cebe0ac924fa",
+  "blend_file": "AMPA_coastal_station_v02.blend",
+  "blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+  "blend_bytes": 18329294,
+  "building_dimensions_m": {
+    "width": 15.673685305406462,
+    "length": 70.63761964434327,
+    "position_xy": [
+      -6.984294619298929,
+      -12.299261299968114
+    ],
+    "height": 5.5
+  },
+  "platform_parameters": [
+    {
+      "x": 23.58684466471008,
+      "y": 14.053767770095845,
+      "bounds": [
+        15.971132039930488,
+        -263.6754168856606,
+        46.94890231456706,
+        291.7829524258523
+      ],
+      "width": 10.253008539802014,
+      "ref": "1"
+    },
+    {
+      "x": 4.474174440502893,
+      "y": 16.94467892419894,
+      "bounds": [
+        0.45699639561960703,
+        -262.1520582096235,
+        29.322269638688134,
+        296.04141605802135
+      ],
+      "width": 7.3965428521820495,
+      "ref": "2"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -319.6470947265625,
+        240.0
+      ],
+      "rotation": [
+        1.081127643585205,
+        4.475021597727391e-08,
+        -0.7291060090065002
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -43.821136474609375,
+        -37.29926300048828,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        -2.1099630487242393e-08,
+        -0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        6.274174213409424,
+        -78.29926300048828,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        1.572608043787227e-09,
+        -0.03821668028831482
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -13.921136856079102,
+        -19.29926109313965,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.544830083847046,
+        -6.724796719481674e-09,
+        -0.5332015156745911
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        159.29327392578125,
+        737.5374755859375,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 570660,
+  "facade_refinement": {
+    "source_blend_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+    "source_blend_file": "AMPA_coastal_station_v01.blend",
+    "details": "Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source.",
+    "changed_existing_objects": [
+      {
+        "object": "04 | Ambalappuzha photographed architecture / red",
+        "removed_old_clerestory_vertices": 120
+      },
+      {
+        "object": "04 | Ambalappuzha photographed architecture / cream",
+        "removed_old_clerestory_vertices": 8
+      },
+      {
+        "object": "04 | Ambalappuzha photographed architecture / wood",
+        "removed_old_clerestory_vertices": 48
+      },
+      {
+        "object": "04 | Ambalappuzha photographed architecture / dark",
+        "removed_old_clerestory_vertices": 48
+      }
+    ],
+    "added_collection": "04A | AMPA source-identifying facade refinement",
+    "all_other_geometry_unchanged": true,
+    "script_sha256": "f3430454eab7e8a9b766abf96cd02e257af20ac439824293f202f2f3576595cf"
+  }
+}
