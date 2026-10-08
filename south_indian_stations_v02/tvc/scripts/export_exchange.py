@@ -16,6 +16,8 @@ track=bpy.data.collections.get('10_TRACK_NETWORK_MAPPED_PROFILES');routes=sorted
 for i in range(0,len(routes),5):
  ids=routes[i:i+5];objs={o for o in track.objects if o.get('route_id','') in ids};items.append(('tracks_%02d'%(i//5+1),objs))
 manifest=[]
+source_sha=hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest()
+prior={v['file']:v for v in json.loads((O/'MANIFEST.json').read_text())} if (O/'MANIFEST.json').exists() else {}
 converted={}
 dg=bpy.context.evaluated_depsgraph_get()
 for old in [o for o in S.objects if o.type in ('FONT','CURVE')]:
@@ -26,11 +28,14 @@ for name,objs in items:
  if not objs:continue
  objs={converted.get(o,o) for o in objs}
  path=O/(name+'.glb')
+ old=prior.get(path.name)
+ if old and old.get('source_blend_sha256')==source_sha and path.exists() and hashlib.sha256(path.read_bytes()).hexdigest()==old['sha256']:
+  manifest.append(old);print('VERIFIED_EXISTING_EXPORT',name,flush=True);continue
  for o in S.objects:o.select_set(False)
  for o in objs:o.select_set(True)
  bpy.context.view_layer.objects.active=next(iter(objs))
  print('EXPORT',name,len(objs),flush=True)
  bpy.ops.export_scene.gltf(filepath=str(path),export_format='GLB',use_selection=True,export_apply=True,export_cameras=False,export_lights=False,export_animations=False,export_yup=True,export_extras=True)
- manifest.append({'file':path.name,'objects':len(objs),'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()});(O/'MANIFEST.json').write_text(json.dumps(manifest,indent=2));gc.collect()
+ manifest.append({'file':path.name,'source_blend_sha256':source_sha,'objects':len(objs),'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()});(O/'MANIFEST.json').write_text(json.dumps(manifest,indent=2));gc.collect()
 (O/'README.txt').write_text('TVC v02 modular glTF exchange. Import all GLBs together at identity transforms; coordinates are metres in one shared station-local frame, exported glTF Y-up. No trains. Source .blend is authoritative. Procedural material noise/bump may not transfer; base colours and geometry do. Globe map data attribution: © OpenStreetMap contributors, ODbL1.0 https://www.openstreetmap.org/copyright . No new licence for authored geometry. See parent README.md for evidence limits.')
 print('EXPORT_COMPLETE',len(manifest),flush=True)

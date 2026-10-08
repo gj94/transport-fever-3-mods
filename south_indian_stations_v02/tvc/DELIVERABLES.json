@@ -1,0 +1,32 @@
+{
+  "station": "TVC / Thiruvananthapuram Central",
+  "version": "v02",
+  "status": "Complete geometry, reviewed gallery, validated modular GLB exchange",
+  "authoritative_blend": "TVC_full_station_v02.blend",
+  "source_blend_sha256": "e724b331bf99cfdc7cbd06ec7349e6314d4f551c25f80da530817437cb849261",
+  "units": "metres",
+  "mesh_control_vertices": 3727944,
+  "objects": 6709,
+  "mapped_railway_ways": 46,
+  "summed_route_length_m": 16562.104160411214,
+  "platform_bodies": 3,
+  "platform_faces": 5,
+  "rolling_stock": false,
+  "exchange_parts": 24,
+  "exchange_triangles": 6322961,
+  "exchange_manifest": "exchange/MANIFEST.json",
+  "exchange_validation": [
+    "EXCHANGE_QA.json",
+    "EXCHANGE_REIMPORT_QA.json"
+  ],
+  "coverage_plan": "TVC_track_coverage_plan.pdf",
+  "review_contact_sheet": "TVC_v02_review_contact_sheet.png",
+  "gallery_guide": "GALLERY.md",
+  "provenance_note": "Per-frame JSON records exact source hash. Accepted component views may predate unrelated refinements. Camera-local interior render exclusions never remove geometry from the saved blend.",
+  "evidence_note": "2022 photo-derived heritage plus mixed-date mapped rail XY. Unknown room plans, dimensions and operational hardware positions are reconstructed. Not an as-built survey.",
+  "native_download_packages": [
+    "packages/TVC_v02_editable_source.zip",
+    "packages/TVC_v02_review_gallery.zip",
+    "packages/TVC_v02_exchange_glb.zip"
+  ]
+}

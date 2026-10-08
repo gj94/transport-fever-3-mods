@@ -15,7 +15,7 @@ Everything is in metres and in one shared local coordinate frame. Positive X poi
 - 90: review cameras and lighting.
 
 ## Camera route
-01 overall campus;02 heritage/forecourt;03 entrance hall;04 booking hall;05 waiting lounge;06 washroom;07 office;08 longitudinal platform context;09 island;10 turnout overview;11 service fan;12 full-yard top;13 footbridge;14 back-of-counter equipment;15 frog close-up;16 roof-off furnished building;17 service-facing amenities cluster.
+01 overall campus;02 heritage/forecourt;03 entrance hall;04 booking hall;05 waiting lounge;06 washroom;07 office;08 longitudinal platform context;09 island;10 turnout overview;11 service fan;12 full-yard top;13 footbridge;14 back-of-counter equipment;15 frog close-up;16 roof-off furnished building;17 service-facing amenities cluster;18 washbasin/vanity detail.
 
 The booking-room preview is retained from an earlier saved checkpoint with its exact blend SHA256 in the image sidecar. Later changes to distant pointwork/ballast do not invalidate that component preview. Each newly rendered image records its actual source hash and any deliberate presentation exclusions. A camera-local Eevee test, if delivered, is explicitly distinguished from the complete-scene Cycles views.
 

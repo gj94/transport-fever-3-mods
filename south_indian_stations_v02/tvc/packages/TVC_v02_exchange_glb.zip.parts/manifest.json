@@ -1,0 +1,29 @@
+{
+  "filename": "TVC_v02_exchange_glb.zip",
+  "size": 64184317,
+  "sha256": "deb58064df36b80ac3a92ff7dfedffeac148b6c62c44d911abf6974217cdb2d9",
+  "git_blob_sha": "b73418f43f7771e231b6d821c1454e167dfc87ab",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "c685a65b2cb2ff987d826538ef9671e87eb94b5aacf716a29363a27dc0b7f64c"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "ea9b52e674f5c6cc98adfe46d42d2b9dc528ebfae1e12cc8fe421d687ffbeade"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 16777216,
+      "sha256": "5292c9d99d227add3acae32d1ba70dcfac8f83a82834b541000f9dbb47988191"
+    },
+    {
+      "filename": "part004.bin",
+      "size": 13852669,
+      "sha256": "de8c37a9c94c486d5eb4fc52148fb480e860e6dcad1cc70ca4b95397b592eeff"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
+}

@@ -23,4 +23,4 @@ Railway XY is mixed-date OSM-derived, not a 2022 as-built. Heritage detail is ph
 ## Gallery provenance
 All pictures are actual Blender renders or the separately labelled map/mesh diagrams. Per-image JSON records source blend hashes, renderer and any presentation-only exclusions. Some accepted component previews predate unrelated final changes; their original hashes are retained rather than rewritten. Camera-local Eevee interior views hide listed distant yard/urban collections for efficient review; the saved blend retains the complete station. Full campus/exterior views use the complete scene in Cycles. Denoising was disabled; Cycles images can retain visible grain.
 
-Exchange validation and the final delivery manifest are generated after the export step.
+All 24 modular GLBs passed header, accessor-bound and embedded-resource checks, and all reimported successfully in Blender. The assembled bounding dimensions are 1660 × 446.79 × 22.81 m. No external image or buffer URIs remain. Total exchange triangles: 6,322,961. Per-file hashes are in `exchange/MANIFEST.json`; detailed reports are `EXCHANGE_QA.json` and `EXCHANGE_REIMPORT_QA.json`.
