@@ -1,7 +1,9 @@
 {
-  "status_snapshot_utc": "2026-10-08T20:23:44.541198+00:00",
+  "status_snapshot_utc": "2026-10-08T21:12:03.143124+00:00",
   "scope": "55 active station/halts plus closed historical TNU",
   "new_active_target": 52,
+  "reviewed_active_entries": 15,
+  "reviewed_closed_historical_entries": 1,
   "stations": [
     {
       "sequence": 1,
@@ -22,11 +24,14 @@
       "operational_status": "CLOSED from2017-07-10",
       "coastal_route_km": "",
       "build_status": "backed_up",
-      "qa_status": "final independent station review pending",
-      "backup_commit": "747829ddee9cffcf515509c8567e6a2e3c3c082d",
+      "qa_status": "passed independent station review",
+      "backup_commit": "611fb2f0471f25758620a3161c0aed19354838e1",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/checkpoints/source_1955/TNU",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/north/revision_03/TNU",
+      "preview_paths": [
+        "coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png",
+        "coastal_station_collection/north/revision_03/TNU/renders/M1_Mapped_corridor_record.png"
+      ],
       "station_code": "TNU"
     },
     {
@@ -105,11 +110,11 @@
       "name": "Cherthala",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "33.31",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "final independent station gate pending",
+      "backup_commit": "f39a5f9ea3ab2480d355e55379f1c47d98fb658a",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/SRTL",
+      "station_path": "coastal_station_collection/north/checkpoints/source_2017/SRTL",
       "preview_paths": [],
       "station_code": "SRTL"
     },
@@ -118,11 +123,11 @@
       "name": "Tiruvizha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "39.13",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "final independent station gate pending",
+      "backup_commit": "f39a5f9ea3ab2480d355e55379f1c47d98fb658a",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/TRVZ",
+      "station_path": "coastal_station_collection/north/checkpoints/source_2023/TRVZ",
       "preview_paths": [],
       "station_code": "TRVZ"
     },
@@ -131,11 +136,11 @@
       "name": "Mararikulam",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "44.23",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "final independent station gate pending",
+      "backup_commit": "f39a5f9ea3ab2480d355e55379f1c47d98fb658a",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/MAKM",
+      "station_path": "coastal_station_collection/north/checkpoints/source_2023/MAKM",
       "preview_paths": [],
       "station_code": "MAKM"
     },
@@ -170,12 +175,15 @@
       "name": "Alappuzha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "57.00",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "611fb2f0471f25758620a3161c0aed19354838e1",
       "main_commit": null,
       "station_path": "coastal_station_collection/north/ALLP",
-      "preview_paths": [],
+      "preview_paths": [
+        "coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png",
+        "coastal_station_collection/north/ALLP/renders/04_Reconstructed_interior.png"
+      ],
       "station_code": "ALLP"
     },
     {
@@ -196,12 +204,15 @@
       "name": "Ambalappuzha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "69.16",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "a6bb656274036bab4caf6df061b013c4bed27dca",
       "main_commit": null,
       "station_path": "coastal_station_collection/north/AMPA",
-      "preview_paths": [],
+      "preview_paths": [
+        "coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png",
+        "coastal_station_collection/north/AMPA/renders/04_Reconstructed_interior.png"
+      ],
       "station_code": "AMPA"
     },
     {
@@ -235,11 +246,11 @@
       "name": "Haripad",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "87.30",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "final independent station gate pending",
+      "backup_commit": "f39a5f9ea3ab2480d355e55379f1c47d98fb658a",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/HAD",
+      "station_path": "coastal_station_collection/north/checkpoints/source_2017/HAD",
       "preview_paths": [],
       "station_code": "HAD"
     },
@@ -261,11 +272,11 @@
       "name": "Kayamkulam Junction",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "100.34",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "final independent station gate pending",
+      "backup_commit": "f39a5f9ea3ab2480d355e55379f1c47d98fb658a",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/KYJ",
+      "station_path": "coastal_station_collection/north/checkpoints/source_2023/KYJ",
       "preview_paths": [],
       "station_code": "KYJ"
     },
@@ -300,10 +311,10 @@
       "name": "Sasthankotta",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "121.59",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "2fe6580932c9cc0c68d393550daeb5413e8d7ac3",
-      "main_commit": null,
+      "main_commit": "be3fa14b3722977028c9cf3b5611b44224865018",
       "station_path": "coastal_station_collection/middle/stkt",
       "preview_paths": [
         "coastal_station_collection/middle/stkt/renders/04_facade_and_approach.png",
@@ -359,11 +370,14 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "145.60",
       "build_status": "backed_up",
-      "qa_status": "final independent circulation gate pending",
-      "backup_commit": "52238a9ee487f763ea61fbc99caca370316fe2b5",
+      "qa_status": "passed independent station review",
+      "backup_commit": "84f21801ebaa38b0ba9aa356c9884d86a3bbf553",
       "main_commit": null,
       "station_path": "coastal_station_collection/middle/irp",
-      "preview_paths": [],
+      "preview_paths": [
+        "coastal_station_collection/middle/irp/renders/04_facade_and_approach.png",
+        "coastal_station_collection/middle/irp/renders/05_ticket_interior.png"
+      ],
       "station_code": "IRP"
     },
     {
@@ -530,10 +544,10 @@
       "name": "Veli",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "196.48",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "2fe6580932c9cc0c68d393550daeb5413e8d7ac3",
-      "main_commit": null,
+      "main_commit": "be3fa14b3722977028c9cf3b5611b44224865018",
       "station_path": "coastal_station_collection/south/veli",
       "preview_paths": [
         "coastal_station_collection/south/veli/renders/02_STATION_ARCHITECTURE.png",
@@ -624,12 +638,15 @@
       "name": "Amaravila",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "225.68",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "5f93c245c6fc94ec3fa633d2a028c3818855daba",
       "main_commit": null,
-      "station_path": "coastal_station_collection/south/AMVA",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/south/amva",
+      "preview_paths": [
+        "coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png",
+        "coastal_station_collection/south/amva/renders/04_FURNISHED_INTERIOR.png"
+      ],
       "station_code": "AMVA"
     },
     {
@@ -663,12 +680,15 @@
       "name": "Kulitturai West",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "240.41",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "5f93c245c6fc94ec3fa633d2a028c3818855daba",
       "main_commit": null,
-      "station_path": "coastal_station_collection/south/KZTW",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/south/kztw",
+      "preview_paths": [
+        "coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png",
+        "coastal_station_collection/south/kztw/renders/04_FURNISHED_INTERIOR.png"
+      ],
       "station_code": "KZTW"
     },
     {
@@ -689,12 +709,15 @@
       "name": "Palliyadi",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "249.79",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "5f93c245c6fc94ec3fa633d2a028c3818855daba",
       "main_commit": null,
-      "station_path": "coastal_station_collection/south/PYD",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/south/pyd",
+      "preview_paths": [
+        "coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png",
+        "coastal_station_collection/south/pyd/renders/04_FURNISHED_INTERIOR.png"
+      ],
       "station_code": "PYD"
     },
     {

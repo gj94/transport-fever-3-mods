@@ -1,6 +1,8 @@
 # Open and verify station models
 
-Each completed station has an editable Blender source and a portable lossless export, with a file manifest and source/render provenance. Consult that station's README for its exact files, software requirements and limitations.
+Each completed station has an editable Blender source and a portable export, with a file manifest and source/render provenance. Consult that station's README for its exact files, software requirements and limitations.
+
+The packed `.blend` is authoritative for the complete procedural Blender materials. GLB retains exported geometry and any embedded original sign textures. Procedural surface noise and other unsupported Blender-node effects use the exporter's PBR material approximation; the northern exports contain original sign images, without baked procedural texture maps. Lossless `.glb.gz` and `.glb.zip` packaging reproduces the verified GLB bytes exactly. This is a transport-byte guarantee; the packed Blender source retains the complete procedural shading.
 
 ## Files stored as transport parts
 
