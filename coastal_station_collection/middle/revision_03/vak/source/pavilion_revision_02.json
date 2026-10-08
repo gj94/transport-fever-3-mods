@@ -1,0 +1,61 @@
+{
+  "base_blend_sha256": "2e21f937d21776b41e913393ebb948cc37ac2d3a29215aff7fa63cc94992e5d1",
+  "repaired_blend_sha256": "9bdbda1968e9105290c4520a693c5d2d737571064dd76de6628552098e501d56",
+  "repair_script_sha256": "cc9977be859b2e4a814fe0144ad901676ed91886bb02b3013fbc6e06a856844e",
+  "removed_objects": [
+    "Wayfinding VARKALA SIVAGIRI.001",
+    "Varkala raised central ochre pavilion",
+    "Varkala pavilion upturned roof segment",
+    "Varkala decorative roof finial",
+    "Enamel wayfinding panel.002"
+  ],
+  "created_objects": [
+    "Varkala pavilion broad lower cornice",
+    "Varkala pavilion stepped upper plinth",
+    "Varkala square cream upper chamber",
+    "Varkala ochre chamber corner pilaster",
+    "Varkala ochre chamber corner pilaster",
+    "Varkala ochre chamber corner pilaster",
+    "Varkala ochre chamber corner pilaster",
+    "Varkala upper chamber cornice",
+    "Varkala yellow ochre upturned square hip cap",
+    "Varkala central cap finial"
+  ],
+  "camera03_before": {
+    "location": [
+      87.75,
+      -5.536870002746582,
+      3.2179999351501465
+    ],
+    "rotation": [
+      1.5607974529266357,
+      4.3377745839734416e-08,
+      1.5584893226623535
+    ],
+    "lens": 30.0
+  },
+  "camera03_after": {
+    "location": [
+      -30.0,
+      -6.900000095367432,
+      3.2179999351501465
+    ],
+    "rotation": [
+      1.562449336051941,
+      1.1778959674302314e-07,
+      1.5445524454116821
+    ],
+    "lens": 32.0
+  },
+  "observed_source": "Google Maps Oct2019 platform facade screenshot VAK_platform_facade_2019-10.png. Cream square upper chamber, broad stepped ochre cap with uplifted eaves/corners and small finial. Rear dimensions reconstructed.",
+  "unchanged": "Track, platforms, wings, rooms, furnishings, footbridge and all cameras except03.",
+  "retained_views": [
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "02_station_and_platforms.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png"
+  ]
+}

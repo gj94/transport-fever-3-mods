@@ -1,0 +1,83 @@
+{
+  "station": "PRND",
+  "blend_file": "PRND_coastal_station_v01.blend",
+  "blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "2d9a3201ec5bbf43549be14c51099f97e80d8cb184994bc0c4cf9d9fbd781ce3",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "4c58b2f03bae7222a595e6d97f52a29dfe3a9888d6f34a8e0a1c579cf3286cd4",
+      "render_seconds": 22.95319366455078,
+      "retained_from_immutable_base": true,
+      "retention_reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+      "camera_location": [
+        37.940494537353516,
+        5.791299819946289,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "1253481e9937d4c4208b50fd03415690df5435f07a11f8351f2934a98de33627",
+      "render_seconds": 33.62017798423767
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+      "camera_location": [
+        -26.0,
+        -42.0,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4120712280273438,
+        6.156076892693818e-08,
+        -0.4750107526779175
+      ],
+      "sha256": "82c95d9935b4d4b838349e3b2aad589eed1b8d4c2e4e0e0bd36bb5841705b4e8",
+      "render_seconds": 32.448829650878906
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+      "camera_location": [
+        -19.613332748413086,
+        -2.5999999046325684,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.2534797191619873,
+        -3.8506396293769285e-08,
+        -1.267614722251892
+      ],
+      "sha256": "822e0c1c0316e252abd47abe422969899aac72460388d82a46e4bd37df750e87",
+      "render_seconds": 34.698243856430054
+    }
+  ]
+}

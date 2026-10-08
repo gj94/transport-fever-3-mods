@@ -1,0 +1,81 @@
+{
+  "station": "KVU",
+  "blend_file": "KVU_coastal_station_v01.blend",
+  "blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "b0020ae616a0cea8d5f3c6047cbd323c7cef50eace6297157c7e33f0240abb17",
+      "render_seconds": 21.39428162574768
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "camera_location": [
+        46.54999923706055,
+        -11.476612091064453,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "2cb744bec87d02af2031e1e23a10521ec2652174e51578ff761f83b9d907b1c7",
+      "render_seconds": 31.53401017189026
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "camera_location": [
+        -17.200000762939453,
+        39.29999923706055,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4120711088180542,
+        2.85569097258076e-08,
+        -2.666581869125366
+      ],
+      "sha256": "7eebd89aa30c9d91fe1386b05f6a135514f89f1cb2c3da44b9dffac68ac88223",
+      "render_seconds": 23.687763690948486
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "camera_location": [
+        -17.736665725708008,
+        -3.299999952316284,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.3564590215682983,
+        1.4047010665763082e-07,
+        -1.3715894222259521
+      ],
+      "sha256": "a2d9d6488f91216a20be49f3cb12dfeac74e8d4399bae7c411fd3e2a57241f40",
+      "render_seconds": 29.005311965942383
+    }
+  ]
+}

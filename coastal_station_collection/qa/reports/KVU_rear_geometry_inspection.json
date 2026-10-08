@@ -1,0 +1,539 @@
+{
+  "asset": "coastal_stations_overnight/middle/kvu/export/KVU_coastal_station_v01.glb.zip",
+  "export_sha256": "ebefb991afc2a927a1fa77054722ff8a2c926ba08423be95a1419c114688bcd9",
+  "container_sha256": "abd764c017552738e9ec3f450fcbcc65196b099e4d67dac1cdb40254e41c9cae",
+  "default_scene": "Scene",
+  "scene_count": 1,
+  "objects": 204,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "rear_0.25_-0.2": {
+      "from": [
+        -19.05,
+        -12.549999999999999,
+        1.268
+      ],
+      "to": [
+        20.65,
+        -12.549999999999999,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.25_0": {
+      "from": [
+        -19.05,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        20.65,
+        -12.35,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.25_0.2": {
+      "from": [
+        -19.05,
+        -12.15,
+        1.268
+      ],
+      "to": [
+        20.65,
+        -12.15,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.5_-0.2": {
+      "from": [
+        -19.05,
+        -12.549999999999999,
+        1.518
+      ],
+      "to": [
+        20.65,
+        -12.549999999999999,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.5_0": {
+      "from": [
+        -19.05,
+        -12.35,
+        1.518
+      ],
+      "to": [
+        20.65,
+        -12.35,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.5_0.2": {
+      "from": [
+        -19.05,
+        -12.15,
+        1.518
+      ],
+      "to": [
+        20.65,
+        -12.15,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.9_-0.2": {
+      "from": [
+        -19.05,
+        -12.549999999999999,
+        1.9180000000000001
+      ],
+      "to": [
+        20.65,
+        -12.549999999999999,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.9_0": {
+      "from": [
+        -19.05,
+        -12.35,
+        1.9180000000000001
+      ],
+      "to": [
+        20.65,
+        -12.35,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_0.9_0.2": {
+      "from": [
+        -19.05,
+        -12.15,
+        1.9180000000000001
+      ],
+      "to": [
+        20.65,
+        -12.15,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_1.3_-0.2": {
+      "from": [
+        -19.05,
+        -12.549999999999999,
+        2.318
+      ],
+      "to": [
+        20.65,
+        -12.549999999999999,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_1.3_0": {
+      "from": [
+        -19.05,
+        -12.35,
+        2.318
+      ],
+      "to": [
+        20.65,
+        -12.35,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_1.3_0.2": {
+      "from": [
+        -19.05,
+        -12.15,
+        2.318
+      ],
+      "to": [
+        20.65,
+        -12.15,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_1.7_-0.2": {
+      "from": [
+        -19.05,
+        -12.549999999999999,
+        2.718
+      ],
+      "to": [
+        20.65,
+        -12.549999999999999,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_1.7_0": {
+      "from": [
+        -19.05,
+        -12.35,
+        2.718
+      ],
+      "to": [
+        20.65,
+        -12.35,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "rear_1.7_0.2": {
+      "from": [
+        -19.05,
+        -12.15,
+        2.718
+      ],
+      "to": [
+        20.65,
+        -12.15,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_rear_0": {
+      "from": [
+        -19.05,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        -19.05,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        -19.05,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_1": {
+      "from": [
+        -15.440909090909091,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        -15.440909090909091,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        -15.440909090909091,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_2": {
+      "from": [
+        -11.831818181818182,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        -11.831818181818182,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        -11.831818181818182,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_3": {
+      "from": [
+        -8.222727272727273,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        -8.222727272727273,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        -8.222727272727273,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_4": {
+      "from": [
+        -4.613636363636363,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        -4.613636363636363,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        -4.613636363636363,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_5": {
+      "from": [
+        -1.004545454545454,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        -1.004545454545454,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        -1.004545454545454,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_6": {
+      "from": [
+        2.6045454545454554,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        2.6045454545454554,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        2.6045454545454554,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_7": {
+      "from": [
+        6.213636363636365,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        6.213636363636365,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        6.213636363636365,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_8": {
+      "from": [
+        9.822727272727274,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        9.822727272727274,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        9.822727272727274,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_9": {
+      "from": [
+        13.431818181818183,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        13.431818181818183,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        13.431818181818183,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_10": {
+      "from": [
+        17.040909090909093,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        17.040909090909093,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        17.040909090909093,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_rear_11": {
+      "from": [
+        20.650000000000002,
+        -12.35,
+        1.268
+      ],
+      "to": [
+        20.650000000000002,
+        -12.35,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Station veranda",
+      "hit_location": [
+        20.650000000000002,
+        -12.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,3392 @@
+{
+  "station": {
+    "sequence": "25",
+    "station_code": "PRND",
+    "station_name": "Perinad",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "146.31",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "131.99",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "",
+    "mapped_platform_bodies": "2",
+    "mapped_numbered_platform_positions": "",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "4",
+    "mapped_connected_loops": "2",
+    "mapped_nonloop_sidings": "0",
+    "mapped_total_tracks_all_types": "4",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Four parallel connected roads at station. Two platform outlines mapped; opposite-side/island face usage cannot be established from tags and alignment alone. Crossover excluded from siding count.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2017-12-14T07:40:10Z / 2025-11-22T05:13:26Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.6113410,8.9389160,76.6293410,8.9569160",
+    "mapped_rail_way_ids": "331666080;519646416;519646419;546758556;546758557;661604991;827739545",
+    "mapped_platform_way_ids": "546758561;546758562",
+    "mapped_excluded_nonoperational_way_ids": "",
+    "mapped_source_record": "middle_observations.json#PRND",
+    "map_latitude": "8.9486074",
+    "map_longitude": "76.6206762",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "2",
+    "wikipedia_reported_tracks": "4",
+    "wikipedia_platforms_numeric": "2",
+    "wikipedia_tracks_numeric": "4",
+    "wikipedia_platform_field_raw": "2",
+    "wikipedia_tracks_field_raw": "4",
+    "wikipedia_article_url": "https://en.wikipedia.org/wiki/Perinad_railway_station",
+    "wikipedia_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1370811459",
+    "wikipedia_revision_id": "1370811459",
+    "wikipedia_revision_timestamp": "2026-08-23T05:31:04Z",
+    "wikipedia_accessed_date": "2026-10-08",
+    "wikipedia_platform_inline_citation_present": "False",
+    "wikipedia_tracks_inline_citation_present": "False",
+    "wikipedia_conflict_notes": "No specific conflict identified in this pass. Infobox count is reported, not independently verified as a current engineering inventory.",
+    "wikipedia_lookup_status": "FOUND",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "",
+    "wikipedia_count_source_class": "Wikipedia article infobox, reported secondary figure",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "2",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 2",
+    "iri_source_url": "https://indiarailinfo.com/station/map/perinad-prnd/6537",
+    "iri_profile_updated_raw": "Jul 29 2020 (22:04)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure.",
+    "reported_platform_count": "2",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "2I",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/perinad-prnd/6537",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "6537",
+    "iri_heading_station_code": "PRND",
+    "iri_heading_raw": "PRND/Perinad (2 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "AGREES",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "2020",
+    "iri_source_reference": "turn210search1",
+    "iri_search_index_crawl_age_raw": "4 months ago",
+    "iri_slug_identity_status": "Heading and numeric ID agree; no contradictory named slug selected",
+    "iri_source_evidence_file": "sources/iri_middle_batch2_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "2020-07-29T22:04",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "2",
+    "comparison_wikipedia_platform_source": "https://en.wikipedia.org/w/index.php?oldid=1370811459",
+    "comparison_wikipedia_revision_timestamp": "2026-08-23T05:31:04Z",
+    "comparison_wikipedia_platform_agreement": "AGREES",
+    "iri_explicit_platform_field_update_raw": "NOT_RECOVERED",
+    "iri_timeline_evidence_url": "NOT_REVIEWED_SEPARATELY",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "No numeric Wikipedia platform discrepancy found in the existing register.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "origin_lonlat": [
+    76.6206762,
+    8.9486074
+  ],
+  "along_unit_east_north": [
+    -0.49820491832255454,
+    0.8670593170938288
+  ],
+  "ways": [
+    {
+      "id": "331666080",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "2509350693",
+        "334669966",
+        "6041695566",
+        "334669963",
+        "2509350685",
+        "334669961",
+        "5283461305",
+        "6041695568",
+        "334669960",
+        "5283461304",
+        "5319743098",
+        "334669958",
+        "334669956",
+        "6041695564",
+        "334669954",
+        "334669953",
+        "6041695563",
+        "334669951",
+        "7568866876",
+        "334669949",
+        "5319743101",
+        "334669946",
+        "6041695562",
+        "5319743103",
+        "334669945",
+        "334669943",
+        "6041695560",
+        "334669942",
+        "6041695557",
+        "334669940",
+        "334669939",
+        "334669937",
+        "6041061601",
+        "5288322176",
+        "334669936",
+        "12143856144",
+        "6041061600",
+        "334669934",
+        "6041061599",
+        "334669933",
+        "334669931",
+        "6041061597",
+        "3661697677",
+        "2509348909"
+      ],
+      "xy": [
+        [
+          -419.433,
+          21.8486
+        ],
+        [
+          -312.5635,
+          21.9145
+        ],
+        [
+          -15.1843,
+          22.016
+        ],
+        [
+          341.0222,
+          22.2291
+        ],
+        [
+          415.0344,
+          18.5362
+        ],
+        [
+          481.0427,
+          11.7059
+        ],
+        [
+          541.9845,
+          -1.4841
+        ],
+        [
+          575.2929,
+          -9.8553
+        ],
+        [
+          637.2152,
+          -27.4388
+        ],
+        [
+          774.6787,
+          -70.3424
+        ],
+        [
+          829.6882,
+          -87.5557
+        ],
+        [
+          875.4425,
+          -105.0568
+        ],
+        [
+          956.9622,
+          -144.6175
+        ],
+        [
+          993.2247,
+          -165.2761
+        ],
+        [
+          1031.4386,
+          -190.4929
+        ],
+        [
+          1309.3311,
+          -381.8992
+        ],
+        [
+          1357.0578,
+          -410.2231
+        ],
+        [
+          1404.902,
+          -436.3316
+        ],
+        [
+          1429.8077,
+          -447.0149
+        ],
+        [
+          1470.8572,
+          -464.6155
+        ],
+        [
+          1538.474,
+          -483.036
+        ],
+        [
+          1608.6956,
+          -493.0354
+        ],
+        [
+          1648.9913,
+          -493.8043
+        ],
+        [
+          1684.8729,
+          -492.3793
+        ],
+        [
+          1717.7158,
+          -488.4221
+        ],
+        [
+          1793.8641,
+          -476.8677
+        ],
+        [
+          1844.6378,
+          -460.4735
+        ],
+        [
+          1894.0084,
+          -441.561
+        ],
+        [
+          1939.6133,
+          -420.0408
+        ],
+        [
+          1991.5666,
+          -388.4332
+        ],
+        [
+          2074.0613,
+          -320.7654
+        ],
+        [
+          2253.255,
+          -171.5238
+        ],
+        [
+          2294.8021,
+          -137.8051
+        ],
+        [
+          2337.3791,
+          -107.9248
+        ],
+        [
+          2398.858,
+          -73.9274
+        ],
+        [
+          2420.9916,
+          -64.8566
+        ],
+        [
+          2441.7626,
+          -56.3472
+        ],
+        [
+          2484.1302,
+          -42.5168
+        ],
+        [
+          2539.448,
+          -29.9004
+        ],
+        [
+          2597.3623,
+          -21.211
+        ],
+        [
+          2677.8447,
+          -21.2404
+        ],
+        [
+          2726.8062,
+          -26.8364
+        ],
+        [
+          2775.0816,
+          -33.6488
+        ],
+        [
+          2826.991,
+          -44.7054
+        ]
+      ],
+      "timestamp": "2024-08-29T09:21:58Z"
+    },
+    {
+      "id": "519646416",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "name": "Kayamkulam - Kollam Railway line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5283461308",
+        "5320175046",
+        "5320175047",
+        "5320175048",
+        "6041695570",
+        "5320175049",
+        "6041695572",
+        "5320175050",
+        "5320175051",
+        "6041695573",
+        "5320175052",
+        "5320175053",
+        "5320175054",
+        "5320175055",
+        "5320175056",
+        "5320175057",
+        "5320175058",
+        "5320175059",
+        "5320175060",
+        "7595968163",
+        "5320175079",
+        "5320175080",
+        "5320175081",
+        "5320175082",
+        "5320175083",
+        "5320175084",
+        "334671674",
+        "1764149770",
+        "334671676",
+        "3387672853",
+        "334671677",
+        "3387672850",
+        "3387672848",
+        "5066611374",
+        "5974684329",
+        "3661697675",
+        "5974684328",
+        "334671681",
+        "5974684330",
+        "13257159785",
+        "334671683",
+        "3661697673",
+        "334671686"
+      ],
+      "xy": [
+        [
+          -327.9321,
+          16.9085
+        ],
+        [
+          -649.3003,
+          17.1092
+        ],
+        [
+          -726.0084,
+          17.6967
+        ],
+        [
+          -790.2125,
+          23.2873
+        ],
+        [
+          -829.871,
+          31.6674
+        ],
+        [
+          -868.6394,
+          42.1106
+        ],
+        [
+          -905.3697,
+          55.1621
+        ],
+        [
+          -941.5973,
+          69.0662
+        ],
+        [
+          -1001.1866,
+          100.9214
+        ],
+        [
+          -1082.3026,
+          147.9105
+        ],
+        [
+          -1162.552,
+          198.3965
+        ],
+        [
+          -1626.8301,
+          481.5399
+        ],
+        [
+          -2037.0987,
+          732.5465
+        ],
+        [
+          -2127.345,
+          785.0735
+        ],
+        [
+          -2199.7275,
+          824.2922
+        ],
+        [
+          -2231.9696,
+          838.0496
+        ],
+        [
+          -2324.5583,
+          870.5017
+        ],
+        [
+          -2418.23,
+          895.7509
+        ],
+        [
+          -2656.8778,
+          961.7777
+        ],
+        [
+          -3286.7032,
+          1129.082
+        ],
+        [
+          -3408.6427,
+          1163.7885
+        ],
+        [
+          -3486.338,
+          1186.6556
+        ],
+        [
+          -3541.5621,
+          1204.7913
+        ],
+        [
+          -3629.5062,
+          1249.5273
+        ],
+        [
+          -3682.0395,
+          1280.0549
+        ],
+        [
+          -3749.2153,
+          1327.1509
+        ],
+        [
+          -3941.0402,
+          1484.2971
+        ],
+        [
+          -4158.5989,
+          1665.6784
+        ],
+        [
+          -4375.8847,
+          1858.7736
+        ],
+        [
+          -4431.6289,
+          1905.1858
+        ],
+        [
+          -4470.3065,
+          1949.7054
+        ],
+        [
+          -4496.1278,
+          1984.1113
+        ],
+        [
+          -4515.9535,
+          2015.0087
+        ],
+        [
+          -4539.9388,
+          2061.8157
+        ],
+        [
+          -4551.8665,
+          2074.9979
+        ],
+        [
+          -4565.1381,
+          2099.1363
+        ],
+        [
+          -4576.8806,
+          2123.8799
+        ],
+        [
+          -4589.5113,
+          2155.323
+        ],
+        [
+          -4614.9685,
+          2217.4212
+        ],
+        [
+          -4626.8957,
+          2246.9381
+        ],
+        [
+          -4638.4443,
+          2275.5273
+        ],
+        [
+          -4697.0483,
+          2417.2432
+        ],
+        [
+          -4778.4991,
+          2609.5127
+        ]
+      ],
+      "timestamp": "2025-11-22T05:13:26Z"
+    },
+    {
+      "id": "519646419",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "name": "Kollam - Kayamkulam Railway line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "3387672839",
+        "3661697674",
+        "1166511376",
+        "3387672846",
+        "5066611375",
+        "3387672847",
+        "3387672849",
+        "3387672851",
+        "3387672852",
+        "3387672854",
+        "3387672856",
+        "3387672857",
+        "3387672860",
+        "3387672863",
+        "334670853",
+        "334670852",
+        "5319754773",
+        "334670851",
+        "334670850",
+        "7595968164",
+        "334670848",
+        "334670847",
+        "334670845",
+        "334670842",
+        "334670841",
+        "334670839",
+        "334670837",
+        "334670836",
+        "334670835",
+        "334670834",
+        "6041695571",
+        "334670832",
+        "6041695569",
+        "334669970",
+        "1764149797",
+        "334669967",
+        "2509350693"
+      ],
+      "xy": [
+        [
+          -4767.628,
+          2615.0483
+        ],
+        [
+          -4687.5695,
+          2420.1545
+        ],
+        [
+          -4581.96,
+          2160.2423
+        ],
+        [
+          -4558.2073,
+          2106.3272
+        ],
+        [
+          -4536.6051,
+          2071.8852
+        ],
+        [
+          -4512.3919,
+          2026.1901
+        ],
+        [
+          -4493.2222,
+          1996.5193
+        ],
+        [
+          -4466.527,
+          1961.2436
+        ],
+        [
+          -4433.4896,
+          1920.6496
+        ],
+        [
+          -4410.196,
+          1895.3183
+        ],
+        [
+          -4354.7095,
+          1847.6085
+        ],
+        [
+          -4155.7467,
+          1670.4188
+        ],
+        [
+          -3937.7844,
+          1488.9579
+        ],
+        [
+          -3747.1942,
+          1332.724
+        ],
+        [
+          -3678.106,
+          1284.5545
+        ],
+        [
+          -3627.7275,
+          1255.5948
+        ],
+        [
+          -3542.4894,
+          1211.2214
+        ],
+        [
+          -3484.5294,
+          1193.3781
+        ],
+        [
+          -3406.9034,
+          1169.2064
+        ],
+        [
+          -3283.2799,
+          1134.8386
+        ],
+        [
+          -2654.9511,
+          968.1026
+        ],
+        [
+          -2461.1649,
+          919.3429
+        ],
+        [
+          -2320.9734,
+          882.6843
+        ],
+        [
+          -2220.7777,
+          849.2602
+        ],
+        [
+          -2194.8672,
+          838.1136
+        ],
+        [
+          -2106.6043,
+          792.1672
+        ],
+        [
+          -2028.6926,
+          743.6457
+        ],
+        [
+          -1629.0429,
+          500.681
+        ],
+        [
+          -993.3693,
+          113.2974
+        ],
+        [
+          -935.5435,
+          82.8867
+        ],
+        [
+          -900.3931,
+          67.3314
+        ],
+        [
+          -863.2247,
+          52.316
+        ],
+        [
+          -827.0359,
+          42.277
+        ],
+        [
+          -790.7145,
+          34.4574
+        ],
+        [
+          -724.0154,
+          24.4274
+        ],
+        [
+          -648.181,
+          23.2132
+        ],
+        [
+          -419.433,
+          21.8486
+        ]
+      ],
+      "timestamp": "2025-11-22T05:13:26Z"
+    },
+    {
+      "id": "546758556",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "railway": "rail",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5283461307",
+        "5283461273",
+        "5283461272",
+        "5283461271",
+        "5283461270",
+        "5283461269",
+        "5283461268",
+        "5283461267",
+        "5283461295"
+      ],
+      "xy": [
+        [
+          -264.7267,
+          16.7744
+        ],
+        [
+          -231.4456,
+          12.5788
+        ],
+        [
+          -211.981,
+          12.1113
+        ],
+        [
+          341.6794,
+          12.1113
+        ],
+        [
+          413.2365,
+          10.5139
+        ],
+        [
+          479.2289,
+          1.6002
+        ],
+        [
+          539.114,
+          -9.8539
+        ],
+        [
+          574.2907,
+          -18.8167
+        ],
+        [
+          635.4816,
+          -31.5284
+        ]
+      ],
+      "timestamp": "2017-12-14T07:40:10Z"
+    },
+    {
+      "id": "546758557",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "railway": "rail",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "334669960",
+        "5283461280",
+        "5283461279",
+        "5283461278",
+        "5283461277",
+        "5283461276",
+        "5283461275",
+        "5283461274",
+        "334669966"
+      ],
+      "xy": [
+        [
+          637.2152,
+          -27.4388
+        ],
+        [
+          577.5766,
+          -6.0818
+        ],
+        [
+          542.4871,
+          3.6806
+        ],
+        [
+          482.961,
+          15.7148
+        ],
+        [
+          415.1514,
+          23.2757
+        ],
+        [
+          340.1708,
+          26.7133
+        ],
+        [
+          -220.2662,
+          27.5886
+        ],
+        [
+          -238.998,
+          26.9629
+        ],
+        [
+          -312.5635,
+          21.9145
+        ]
+      ],
+      "timestamp": "2017-12-14T07:40:10Z"
+    },
+    {
+      "id": "546758561",
+      "tags": {
+        "railway": "platform"
+      },
+      "nodes": [
+        "8465469019",
+        "5283461309"
+      ],
+      "xy": [
+        [
+          -169.4512,
+          9.0188
+        ],
+        [
+          101.6113,
+          8.4773
+        ]
+      ],
+      "timestamp": "2021-02-28T09:26:16Z"
+    },
+    {
+      "id": "546758562",
+      "tags": {
+        "railway": "platform"
+      },
+      "nodes": [
+        "5283461312",
+        "8465469020"
+      ],
+      "xy": [
+        [
+          103.2971,
+          31.8337
+        ],
+        [
+          -13.9084,
+          32.9508
+        ]
+      ],
+      "timestamp": "2021-02-28T09:26:16Z"
+    },
+    {
+      "id": "661604991",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5283461286",
+        "5283461287",
+        "5319743102",
+        "5283461288",
+        "7568866875",
+        "5283461289",
+        "5283461290",
+        "5283461291",
+        "6041695565",
+        "5283461292",
+        "5283461293",
+        "5319743097",
+        "5283461294",
+        "5283461295",
+        "6041695567",
+        "5283461296",
+        "5283461297",
+        "5283461298",
+        "5283461306",
+        "5283461307",
+        "5283461308"
+      ],
+      "xy": [
+        [
+          1677.7389,
+          -513.4423
+        ],
+        [
+          1609.5759,
+          -511.7026
+        ],
+        [
+          1542.66,
+          -503.3236
+        ],
+        [
+          1466.0362,
+          -481.0721
+        ],
+        [
+          1422.289,
+          -461.7313
+        ],
+        [
+          1395.2432,
+          -449.7674
+        ],
+        [
+          1304.0742,
+          -395.6957
+        ],
+        [
+          1023.1729,
+          -200.1635
+        ],
+        [
+          986.5545,
+          -175.9015
+        ],
+        [
+          948.9595,
+          -153.3613
+        ],
+        [
+          869.9222,
+          -113.5021
+        ],
+        [
+          823.8228,
+          -95.194
+        ],
+        [
+          772.2336,
+          -77.8153
+        ],
+        [
+          635.4816,
+          -31.5284
+        ],
+        [
+          575.3316,
+          -14.6589
+        ],
+        [
+          540.114,
+          -6.2813
+        ],
+        [
+          479.5131,
+          5.6475
+        ],
+        [
+          414.2131,
+          14.5819
+        ],
+        [
+          340.5499,
+          17.0723
+        ],
+        [
+          -264.7267,
+          16.7744
+        ],
+        [
+          -327.9321,
+          16.9085
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "827739545",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "railway": "rail",
+        "service": "crossover",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "2509350693",
+        "5283461308"
+      ],
+      "xy": [
+        [
+          -419.433,
+          21.8486
+        ],
+        [
+          -327.9321,
+          16.9085
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "800088114",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -421.7486,
+          123.5739
+        ],
+        [
+          -428.7105,
+          129.4893
+        ],
+        [
+          -436.3078,
+          124.2666
+        ],
+        [
+          -428.2418,
+          116.9433
+        ],
+        [
+          -421.7486,
+          123.5739
+        ]
+      ],
+      "center": [
+        -427.35146000000003,
+        123.5694
+      ],
+      "bbox": [
+        -436.3078,
+        -421.7486,
+        116.9433,
+        129.4893
+      ]
+    },
+    {
+      "id": "800373848",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          387.1581,
+          115.3033
+        ],
+        [
+          380.3555,
+          120.3789
+        ],
+        [
+          372.5159,
+          112.835
+        ],
+        [
+          379.278,
+          106.9964
+        ],
+        [
+          387.1581,
+          115.3033
+        ]
+      ],
+      "center": [
+        381.29312,
+        114.16338
+      ],
+      "bbox": [
+        372.5159,
+        387.1581,
+        106.9964,
+        120.3789
+      ]
+    },
+    {
+      "id": "800373851",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          232.3463,
+          131.5226
+        ],
+        [
+          222.7488,
+          140.5376
+        ],
+        [
+          216.1217,
+          133.0707
+        ],
+        [
+          224.4316,
+          125.1887
+        ],
+        [
+          232.3463,
+          131.5226
+        ]
+      ],
+      "center": [
+        225.59894,
+        132.36844000000002
+      ],
+      "bbox": [
+        216.1217,
+        232.3463,
+        125.1887,
+        140.5376
+      ]
+    },
+    {
+      "id": "800373852",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -478.3215,
+          126.0227
+        ],
+        [
+          -484.1607,
+          132.1046
+        ],
+        [
+          -491.3821,
+          124.9665
+        ],
+        [
+          -486.5409,
+          119.8512
+        ],
+        [
+          -478.3215,
+          126.0227
+        ]
+      ],
+      "center": [
+        -483.74534000000006,
+        125.79354000000001
+      ],
+      "bbox": [
+        -491.3821,
+        -478.3215,
+        119.8512,
+        132.1046
+      ]
+    },
+    {
+      "id": "1066085789",
+      "tags": {
+        "building": "yes",
+        "healthcare": "alternative",
+        "healthcare:speciality": "general",
+        "name": "Government Ayurveda Dispensary Panayam",
+        "operator:en": "Indian Systems Of Medicine",
+        "operator:type": "government",
+        "panchayath": "Panayam",
+        "phone": "+91-4742113800",
+        "ref": "020302320266"
+      },
+      "xy": [
+        [
+          286.6202,
+          -111.5751
+        ],
+        [
+          264.2591,
+          -111.9925
+        ],
+        [
+          264.2551,
+          -138.5221
+        ],
+        [
+          285.8124,
+          -138.6321
+        ],
+        [
+          286.6202,
+          -111.5751
+        ]
+      ],
+      "center": [
+        277.51340000000005,
+        -122.45938000000001
+      ],
+      "bbox": [
+        264.2551,
+        286.6202,
+        -138.6321,
+        -111.5751
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "546758559",
+      "tags": {
+        "highway": "tertiary",
+        "name": "Kollam Perumon Road",
+        "oneway": "no"
+      },
+      "xy": [
+        [
+          981.0546,
+          -185.6521
+        ],
+        [
+          974.625,
+          -190.9877
+        ],
+        [
+          967.421,
+          -191.3253
+        ],
+        [
+          951.939,
+          -183.368
+        ],
+        [
+          925.1342,
+          -163.3878
+        ],
+        [
+          915.1704,
+          -155.2784
+        ],
+        [
+          888.476,
+          -133.4972
+        ],
+        [
+          873.9493,
+          -125.0616
+        ],
+        [
+          864.9874,
+          -121.5989
+        ],
+        [
+          854.4185,
+          -119.8382
+        ],
+        [
+          834.5542,
+          -122.9711
+        ],
+        [
+          813.8184,
+          -130.3467
+        ]
+      ]
+    },
+    {
+      "id": "799268504",
+      "tags": {
+        "name": "Puthenveetil Kayalvaram Kulam",
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -403.0949,
+          -124.1807
+        ],
+        [
+          -426.4587,
+          -142.8556
+        ],
+        [
+          -436.6348,
+          -134.1549
+        ],
+        [
+          -415.8366,
+          -112.2811
+        ],
+        [
+          -403.0949,
+          -124.1807
+        ]
+      ]
+    },
+    {
+      "id": "800088111",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          342.0484,
+          -116.5748
+        ],
+        [
+          341.3052,
+          -93.9153
+        ],
+        [
+          347.1887,
+          -66.9846
+        ],
+        [
+          355.1987,
+          -47.0337
+        ],
+        [
+          370.7162,
+          -21.3013
+        ]
+      ]
+    },
+    {
+      "id": "810386672",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          295.3026,
+          -4.8309
+        ],
+        [
+          293.8174,
+          -64.4605
+        ],
+        [
+          293.1338,
+          -92.0834
+        ],
+        [
+          294.1266,
+          -106.3763
+        ],
+        [
+          297.721,
+          -123.9397
+        ],
+        [
+          305.3615,
+          -144.9186
+        ]
+      ]
+    },
+    {
+      "id": "810396893",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -1115.5226,
+          61.6066
+        ],
+        [
+          -1071.137,
+          39.9584
+        ],
+        [
+          -1052.1893,
+          29.8322
+        ],
+        [
+          -1046.2663,
+          26.6445
+        ]
+      ]
+    },
+    {
+      "id": "810396894",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -1001.7975,
+          94.6521
+        ],
+        [
+          -1046.2663,
+          26.6445
+        ],
+        [
+          -1062.8846,
+          3.1299
+        ],
+        [
+          -1072.8411,
+          -11.1368
+        ]
+      ]
+    },
+    {
+      "id": "810396895",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -895.7625,
+          -123.1829
+        ],
+        [
+          -900.6775,
+          -120.5871
+        ],
+        [
+          -902.7227,
+          -117.89
+        ],
+        [
+          -905.5522,
+          -111.5082
+        ],
+        [
+          -922.6421,
+          -61.4596
+        ],
+        [
+          -938.2988,
+          -18.9942
+        ],
+        [
+          -942.8381,
+          -2.1815
+        ],
+        [
+          -943.6515,
+          11.9322
+        ],
+        [
+          -941.8423,
+          25.0464
+        ],
+        [
+          -936.1335,
+          41.0817
+        ]
+      ]
+    },
+    {
+      "id": "810396896",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -823.4393,
+          -40.8182
+        ],
+        [
+          -888.0201,
+          -99.2735
+        ],
+        [
+          -898.0179,
+          -108.3166
+        ]
+      ]
+    },
+    {
+      "id": "810396897",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -888.0201,
+          -99.2735
+        ],
+        [
+          -842.2456,
+          -133.1847
+        ],
+        [
+          -815.7893,
+          -153.0788
+        ],
+        [
+          -804.8432,
+          -159.0766
+        ],
+        [
+          -787.7107,
+          -166.5745
+        ],
+        [
+          -778.6583,
+          -170.3935
+        ],
+        [
+          -768.1949,
+          -176.114
+        ],
+        [
+          -734.0626,
+          -201.3065
+        ]
+      ]
+    },
+    {
+      "id": "810396899",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -612.9133,
+          10.4314
+        ],
+        [
+          -649.367,
+          -38.4653
+        ],
+        [
+          -666.2777,
+          -58.9584
+        ],
+        [
+          -680.0165,
+          -73.842
+        ],
+        [
+          -695.0162,
+          -90.6517
+        ],
+        [
+          -726.013,
+          -127.7946
+        ]
+      ]
+    },
+    {
+      "id": "810396900",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -737.8135,
+          -117.6533
+        ],
+        [
+          -787.7107,
+          -166.5745
+        ]
+      ]
+    },
+    {
+      "id": "810396901",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -680.0165,
+          -73.842
+        ],
+        [
+          -697.3495,
+          -59.431
+        ],
+        [
+          -714.0741,
+          -43.1121
+        ],
+        [
+          -717.6179,
+          -37.2585
+        ],
+        [
+          -718.8533,
+          -30.9176
+        ],
+        [
+          -717.5866,
+          -24.3783
+        ],
+        [
+          -713.4753,
+          -12.866
+        ]
+      ]
+    },
+    {
+      "id": "810396902",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -657.4553,
+          -184.2834
+        ],
+        [
+          -629.5785,
+          -147.8335
+        ],
+        [
+          -610.1898,
+          -124.1225
+        ],
+        [
+          -594.3788,
+          -107.9565
+        ],
+        [
+          -577.9973,
+          -93.8811
+        ],
+        [
+          -544.0177,
+          -66.1377
+        ]
+      ]
+    },
+    {
+      "id": "810396906",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -399.9213,
+          -4.7466
+        ],
+        [
+          -434.6045,
+          -32.4408
+        ],
+        [
+          -487.455,
+          -72.157
+        ],
+        [
+          -522.7434,
+          -99.0723
+        ]
+      ]
+    },
+    {
+      "id": "810396908",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -591.3513,
+          10.1285
+        ],
+        [
+          -593.5798,
+          -5.5476
+        ],
+        [
+          -594.4952,
+          -19.2514
+        ],
+        [
+          -590.6058,
+          -28.4362
+        ],
+        [
+          -584.735,
+          -33.0778
+        ],
+        [
+          -569.2168,
+          -40.7262
+        ],
+        [
+          -557.9546,
+          -47.5144
+        ],
+        [
+          -552.1475,
+          -53.451
+        ],
+        [
+          -544.0177,
+          -66.1377
+        ],
+        [
+          -522.7434,
+          -99.0723
+        ],
+        [
+          -505.3192,
+          -139.6236
+        ],
+        [
+          -499.2977,
+          -150.1477
+        ],
+        [
+          -489.7175,
+          -160.3323
+        ],
+        [
+          -477.7721,
+          -165.8643
+        ],
+        [
+          -418.2579,
+          -187.5049
+        ],
+        [
+          -403.7015,
+          -197.1625
+        ],
+        [
+          -392.9578,
+          -208.3834
+        ],
+        [
+          -349.3259,
+          -257.6649
+        ],
+        [
+          -310.4894,
+          -296.7464
+        ],
+        [
+          -266.3056,
+          -341.7158
+        ],
+        [
+          -238.4941,
+          -364.1895
+        ],
+        [
+          -213.2234,
+          -379.2425
+        ]
+      ]
+    },
+    {
+      "id": "810396910",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -45.2496,
+          -52.34
+        ],
+        [
+          -55.7524,
+          -72.317
+        ],
+        [
+          -61.4098,
+          -79.0347
+        ],
+        [
+          -66.8754,
+          -82.6033
+        ],
+        [
+          -74.0712,
+          -89.5405
+        ],
+        [
+          -83.3454,
+          -100.7877
+        ],
+        [
+          -88.9979,
+          -107.3181
+        ],
+        [
+          -106.3463,
+          -127.344
+        ],
+        [
+          -113.3281,
+          -133.9983
+        ],
+        [
+          -120.5552,
+          -140.5878
+        ],
+        [
+          -127.5195,
+          -145.6922
+        ],
+        [
+          -131.6205,
+          -148.9415
+        ],
+        [
+          -162.4087,
+          -171.6447
+        ],
+        [
+          -187.0127,
+          -188.4782
+        ],
+        [
+          -213.6356,
+          -209.25
+        ]
+      ]
+    },
+    {
+      "id": "810396913",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          136.8607,
+          -38.7017
+        ],
+        [
+          110.5871,
+          -38.5325
+        ],
+        [
+          101.3321,
+          -39.8476
+        ],
+        [
+          86.7084,
+          -42.9987
+        ],
+        [
+          79.2099,
+          -45.7036
+        ],
+        [
+          68.6145,
+          -49.5079
+        ],
+        [
+          57.9046,
+          -51.3441
+        ],
+        [
+          54.271,
+          -51.9703
+        ],
+        [
+          27.5288,
+          -53.5103
+        ],
+        [
+          1.8737,
+          -53.4935
+        ],
+        [
+          -45.2496,
+          -52.34
+        ],
+        [
+          -129.183,
+          -53.7139
+        ],
+        [
+          -135.6829,
+          -53.8092
+        ],
+        [
+          -188.4653,
+          -54.997
+        ],
+        [
+          -210.8527,
+          -54.8793
+        ],
+        [
+          -282.2181,
+          -53.4175
+        ],
+        [
+          -307.7021,
+          -54.4882
+        ],
+        [
+          -323.6215,
+          -55.1573
+        ]
+      ]
+    },
+    {
+      "id": "810396914",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -210.8527,
+          -54.8793
+        ],
+        [
+          -248.8018,
+          -85.1739
+        ]
+      ]
+    },
+    {
+      "id": "810396915",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -164.7825,
+          -17.7353
+        ],
+        [
+          -163.1053,
+          -24.0891
+        ],
+        [
+          -161.2733,
+          -27.8051
+        ],
+        [
+          -155.8971,
+          -33.7097
+        ],
+        [
+          -148.2676,
+          -41.4798
+        ],
+        [
+          -135.6829,
+          -53.8092
+        ]
+      ]
+    },
+    {
+      "id": "810396917",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -229.4843,
+          -5.3018
+        ],
+        [
+          -238.9946,
+          -16.7811
+        ],
+        [
+          -252.5848,
+          -34.0203
+        ],
+        [
+          -258.2216,
+          -38.3783
+        ],
+        [
+          -264.1922,
+          -40.1221
+        ],
+        [
+          -289.401,
+          -42.0993
+        ],
+        [
+          -295.5563,
+          -44.7008
+        ],
+        [
+          -302.387,
+          -48.8801
+        ],
+        [
+          -307.7021,
+          -54.4882
+        ]
+      ]
+    },
+    {
+      "id": "810396918",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          57.9046,
+          -51.3441
+        ],
+        [
+          70.5921,
+          -76.2756
+        ],
+        [
+          81.4851,
+          -95.7498
+        ],
+        [
+          96.72,
+          -118.1247
+        ],
+        [
+          108.5478,
+          -132.4416
+        ],
+        [
+          122.6267,
+          -146.8852
+        ],
+        [
+          132.6243,
+          -157.6393
+        ],
+        [
+          158.3171,
+          -185.275
+        ]
+      ]
+    },
+    {
+      "id": "810396919",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          79.2099,
+          -45.7036
+        ],
+        [
+          103.9703,
+          -85.9552
+        ]
+      ]
+    },
+    {
+      "id": "810396920",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -129.183,
+          -53.7139
+        ],
+        [
+          -123.4788,
+          -63.561
+        ],
+        [
+          -114.2565,
+          -77.4969
+        ],
+        [
+          -105.9619,
+          -88.1983
+        ],
+        [
+          -88.9979,
+          -107.3181
+        ]
+      ]
+    },
+    {
+      "id": "810407041",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          494.0775,
+          -107.0476
+        ],
+        [
+          541.7466,
+          -69.1989
+        ],
+        [
+          554.7106,
+          -58.1441
+        ],
+        [
+          563.1114,
+          -49.4896
+        ],
+        [
+          569.6801,
+          -38.9961
+        ],
+        [
+          573.3419,
+          -27.7074
+        ]
+      ]
+    },
+    {
+      "id": "810407042",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          594.6731,
+          -154.4112
+        ],
+        [
+          601.5455,
+          -140.9089
+        ],
+        [
+          615.5455,
+          -113.125
+        ]
+      ]
+    },
+    {
+      "id": "810407043",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          680.1107,
+          -107.4962
+        ],
+        [
+          667.0121,
+          -130.4713
+        ],
+        [
+          664.9044,
+          -136.5527
+        ],
+        [
+          665.0559,
+          -141.7635
+        ],
+        [
+          667.6634,
+          -146.61
+        ]
+      ]
+    },
+    {
+      "id": "810407045",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          854.4185,
+          -119.8382
+        ],
+        [
+          825.5919,
+          -157.6954
+        ]
+      ]
+    },
+    {
+      "id": "810474137",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          859.0924,
+          237.0893
+        ],
+        [
+          828.0129,
+          176.8103
+        ],
+        [
+          826.9986,
+          174.8439
+        ],
+        [
+          812.7132,
+          149.5576
+        ],
+        [
+          791.0982,
+          113.2131
+        ],
+        [
+          783.133,
+          101.5182
+        ],
+        [
+          764.2297,
+          73.7362
+        ],
+        [
+          745.8246,
+          46.4416
+        ]
+      ]
+    },
+    {
+      "id": "810474138",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          807.3999,
+          -6.5805
+        ],
+        [
+          745.8246,
+          46.4416
+        ],
+        [
+          737.8381,
+          51.9817
+        ],
+        [
+          659.5173,
+          106.2932
+        ]
+      ]
+    },
+    {
+      "id": "810474139",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          737.8381,
+          51.9817
+        ],
+        [
+          695.3923,
+          -18.6721
+        ]
+      ]
+    },
+    {
+      "id": "810474140",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          1026.4733,
+          -138.4697
+        ],
+        [
+          1019.7882,
+          -127.4248
+        ],
+        [
+          1013.2568,
+          -124.7373
+        ],
+        [
+          1007.1334,
+          -125.049
+        ],
+        [
+          1000.8993,
+          -128.4803
+        ],
+        [
+          992.7965,
+          -134.9851
+        ],
+        [
+          987.1272,
+          -137.1431
+        ],
+        [
+          980.3498,
+          -136.9394
+        ],
+        [
+          974.709,
+          -135.1821
+        ],
+        [
+          945.2398,
+          -118.744
+        ],
+        [
+          908.2312,
+          -100.4342
+        ],
+        [
+          905.723,
+          -99.4369
+        ],
+        [
+          877.756,
+          -88.3389
+        ],
+        [
+          832.8956,
+          -73.3934
+        ],
+        [
+          806.036,
+          -64.8593
+        ],
+        [
+          758.2087,
+          -51.6587
+        ],
+        [
+          745.56,
+          -47.1049
+        ],
+        [
+          737.5944,
+          -43.0479
+        ],
+        [
+          695.3923,
+          -18.6721
+        ],
+        [
+          642.0623,
+          12.2118
+        ]
+      ]
+    },
+    {
+      "id": "810474141",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          783.133,
+          101.5182
+        ],
+        [
+          806.821,
+          84.4703
+        ],
+        [
+          828.713,
+          68.7207
+        ],
+        [
+          847.6104,
+          53.6138
+        ],
+        [
+          862.4472,
+          41.7405
+        ],
+        [
+          940.2065,
+          -16.8775
+        ],
+        [
+          956.5133,
+          -29.1642
+        ],
+        [
+          1089.4411,
+          -125.0745
+        ]
+      ]
+    },
+    {
+      "id": "810474142",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          938.6514,
+          161.7617
+        ],
+        [
+          918.54,
+          160.2545
+        ],
+        [
+          866.7402,
+          149.7386
+        ],
+        [
+          856.8424,
+          146.0534
+        ],
+        [
+          851.2959,
+          142.3664
+        ],
+        [
+          842.8099,
+          135.5745
+        ],
+        [
+          834.0788,
+          125.9429
+        ],
+        [
+          820.716,
+          105.7703
+        ],
+        [
+          806.821,
+          84.4703
+        ]
+      ]
+    },
+    {
+      "id": "810474146",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          307.995,
+          276.4291
+        ],
+        [
+          374.7141,
+          208.8977
+        ],
+        [
+          387.3433,
+          196.3778
+        ],
+        [
+          397.1647,
+          188.0204
+        ],
+        [
+          413.154,
+          177.9073
+        ],
+        [
+          446.8175,
+          160.0991
+        ],
+        [
+          516.7293,
+          123.619
+        ],
+        [
+          529.817,
+          114.8687
+        ],
+        [
+          534.8992,
+          110.6422
+        ],
+        [
+          554.9575,
+          93.9805
+        ],
+        [
+          587.919,
+          68.5603
+        ],
+        [
+          617.1348,
+          48.3742
+        ]
+      ]
+    },
+    {
+      "id": "810474148",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          250.3733,
+          176.1686
+        ],
+        [
+          276.7292,
+          145.3744
+        ],
+        [
+          306.5247,
+          115.2039
+        ],
+        [
+          340.8081,
+          82.0741
+        ],
+        [
+          381.6898,
+          40.2956
+        ]
+      ]
+    },
+    {
+      "id": "810474149",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          135.8107,
+          42.0552
+        ],
+        [
+          154.5976,
+          39.8718
+        ],
+        [
+          207.3656,
+          41.2581
+        ],
+        [
+          288.7521,
+          40.3668
+        ]
+      ]
+    },
+    {
+      "id": "810474150",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          207.3656,
+          41.2581
+        ],
+        [
+          212.8491,
+          50.9801
+        ],
+        [
+          223.71,
+          67.5807
+        ],
+        [
+          237.545,
+          87.7484
+        ]
+      ]
+    },
+    {
+      "id": "810474151",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          413.154,
+          177.9073
+        ],
+        [
+          384.0618,
+          136.2584
+        ],
+        [
+          368.4171,
+          115.4438
+        ],
+        [
+          340.8081,
+          82.0741
+        ]
+      ]
+    },
+    {
+      "id": "810474152",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          534.8992,
+          110.6422
+        ],
+        [
+          472.687,
+          32.5124
+        ]
+      ]
+    },
+    {
+      "id": "810474153",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          669.8525,
+          119.5433
+        ],
+        [
+          603.8388,
+          163.7014
+        ],
+        [
+          588.2504,
+          173.6856
+        ],
+        [
+          582.7596,
+          175.4582
+        ],
+        [
+          579.0636,
+          174.5
+        ],
+        [
+          575.2913,
+          170.8843
+        ],
+        [
+          553.1981,
+          138.4671
+        ],
+        [
+          534.8992,
+          110.6422
+        ]
+      ]
+    },
+    {
+      "id": "810647190",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          63.4909,
+          197.3718
+        ],
+        [
+          16.0827,
+          170.6353
+        ],
+        [
+          9.3665,
+          166.8341
+        ],
+        [
+          -36.2449,
+          138.5325
+        ],
+        [
+          -53.141,
+          127.6952
+        ],
+        [
+          -57.3068,
+          125.9417
+        ],
+        [
+          -61.0216,
+          126.6938
+        ],
+        [
+          -63.929,
+          129.5438
+        ],
+        [
+          -83.0316,
+          171.6429
+        ]
+      ]
+    },
+    {
+      "id": "810647191",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          16.0827,
+          170.6353
+        ],
+        [
+          57.901,
+          95.5851
+        ]
+      ]
+    },
+    {
+      "id": "810650142",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -403.692,
+          139.1346
+        ],
+        [
+          -369.3471,
+          99.5648
+        ]
+      ]
+    },
+    {
+      "id": "810650143",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -333.8659,
+          139.686
+        ],
+        [
+          -369.3471,
+          99.5648
+        ],
+        [
+          -392.0647,
+          70.7531
+        ],
+        [
+          -405.272,
+          52.4823
+        ],
+        [
+          -417.7488,
+          34.3877
+        ]
+      ]
+    },
+    {
+      "id": "810650144",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -441.7925,
+          1.0114
+        ],
+        [
+          -440.0705,
+          13.7951
+        ]
+      ]
+    },
+    {
+      "id": "810650145",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -332.6496,
+          213.1926
+        ],
+        [
+          -305.4403,
+          176.7336
+        ],
+        [
+          -282.2298,
+          144.4874
+        ],
+        [
+          -278.9744,
+          140.3214
+        ],
+        [
+          -275.6398,
+          138.6843
+        ],
+        [
+          -272.2957,
+          139.0076
+        ],
+        [
+          -241.425,
+          160.3571
+        ]
+      ]
+    },
+    {
+      "id": "810650151",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -758.6567,
+          218.8182
+        ],
+        [
+          -695.4664,
+          173.746
+        ],
+        [
+          -689.8604,
+          169.7385
+        ],
+        [
+          -631.2481,
+          127.3347
+        ],
+        [
+          -568.7652,
+          84.584
+        ]
+      ]
+    },
+    {
+      "id": "810650153",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -631.2481,
+          127.3347
+        ],
+        [
+          -616.0447,
+          153.6155
+        ],
+        [
+          -613.942,
+          157.6325
+        ],
+        [
+          -613.8699,
+          161.2436
+        ],
+        [
+          -616.0656,
+          163.634
+        ],
+        [
+          -653.8057,
+          191.1277
+        ]
+      ]
+    },
+    {
+      "id": "810650154",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -695.4664,
+          173.746
+        ],
+        [
+          -731.6599,
+          118.219
+        ],
+        [
+          -735.0242,
+          114.4196
+        ],
+        [
+          -738.0686,
+          113.2772
+        ],
+        [
+          -743.3223,
+          113.9877
+        ],
+        [
+          -794.4664,
+          130.7556
+        ],
+        [
+          -848.2089,
+          147.7609
+        ],
+        [
+          -887.6487,
+          159.9849
+        ],
+        [
+          -901.1891,
+          163.4785
+        ],
+        [
+          -923.7343,
+          166.7179
+        ]
+      ]
+    },
+    {
+      "id": "810650155",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -902.8181,
+          78.0591
+        ],
+        [
+          -869.1866,
+          67.9042
+        ],
+        [
+          -826.3938,
+          55.7955
+        ],
+        [
+          -798.5481,
+          48.9777
+        ],
+        [
+          -775.9001,
+          44.9563
+        ],
+        [
+          -735.3859,
+          39.1156
+        ],
+        [
+          -707.7522,
+          36.0849
+        ],
+        [
+          -669.2192,
+          34.1475
+        ],
+        [
+          -624.623,
+          34.763
+        ],
+        [
+          -577.4403,
+          34.4504
+        ],
+        [
+          -514.1185,
+          37.3567
+        ],
+        [
+          -507.0786,
+          38.2578
+        ],
+        [
+          -501.216,
+          40.2159
+        ],
+        [
+          -494.8551,
+          44.069
+        ],
+        [
+          -489.1719,
+          49.491
+        ],
+        [
+          -486.1138,
+          54.4557
+        ],
+        [
+          -481.0827,
+          64.9322
+        ]
+      ]
+    },
+    {
+      "id": "810662864",
+      "tags": {
+        "highway": "residential",
+        "layer": "-1",
+        "source": "digitalglobe",
+        "tunnel": "yes"
+      },
+      "xy": [
+        [
+          -440.0705,
+          13.7951
+        ],
+        [
+          -437.9171,
+          30.2119
+        ]
+      ]
+    },
+    {
+      "id": "810662865",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -437.9171,
+          30.2119
+        ],
+        [
+          -437.1415,
+          32.8354
+        ],
+        [
+          -434.9593,
+          34.5999
+        ],
+        [
+          -431.8395,
+          34.9127
+        ],
+        [
+          -417.7488,
+          34.3877
+        ],
+        [
+          -398.2865,
+          34.7206
+        ],
+        [
+          -381.6244,
+          34.6713
+        ],
+        [
+          -362.1251,
+          35.0463
+        ],
+        [
+          -343.9883,
+          34.8598
+        ],
+        [
+          -326.8011,
+          35.5234
+        ],
+        [
+          -319.9589,
+          35.7898
+        ],
+        [
+          -306.4131,
+          37.5565
+        ],
+        [
+          -254.9465,
+          46.1966
+        ]
+      ]
+    },
+    {
+      "id": "810703710",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          133.9556,
+          -28.1167
+        ],
+        [
+          141.9685,
+          -31.3764
+        ],
+        [
+          147.9142,
+          -33.8543
+        ],
+        [
+          163.6042,
+          -39.0141
+        ],
+        [
+          193.7142,
+          -47.6783
+        ],
+        [
+          213.2542,
+          -51.7909
+        ],
+        [
+          255.3346,
+          -59.4192
+        ],
+        [
+          293.8174,
+          -64.4605
+        ]
+      ]
+    },
+    {
+      "id": "810720950",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -114.2565,
+          -77.4969
+        ],
+        [
+          -145.5409,
+          -108.0572
+        ],
+        [
+          -149.8211,
+          -113.0931
+        ],
+        [
+          -150.9404,
+          -117.7894
+        ],
+        [
+          -148.9503,
+          -121.9006
+        ],
+        [
+          -127.5195,
+          -145.6922
+        ]
+      ]
+    },
+    {
+      "id": "956663988",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          938.0855,
+          156.6207
+        ],
+        [
+          922.1023,
+          139.5517
+        ],
+        [
+          895.3999,
+          121.9708
+        ],
+        [
+          880.9571,
+          104.4098
+        ],
+        [
+          865.453,
+          79.3038
+        ],
+        [
+          851.2019,
+          59.7303
+        ],
+        [
+          847.6104,
+          53.6138
+        ]
+      ]
+    },
+    {
+      "id": "956664092",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          940.2065,
+          -16.8775
+        ],
+        [
+          913.2374,
+          -42.5868
+        ],
+        [
+          897.34,
+          -57.9423
+        ],
+        [
+          911.9651,
+          -75.5913
+        ],
+        [
+          915.2303,
+          -79.3825
+        ],
+        [
+          905.723,
+          -99.4369
+        ]
+      ]
+    },
+    {
+      "id": "1080518507",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -147.0735,
+          65.1917
+        ],
+        [
+          -156.7443,
+          40.2723
+        ],
+        [
+          -254.9465,
+          46.1966
+        ],
+        [
+          -276.7169,
+          57.577
+        ],
+        [
+          -311.4661,
+          64.8484
+        ],
+        [
+          -324.5364,
+          60.513
+        ],
+        [
+          -326.8011,
+          35.5234
+        ]
+      ]
+    }
+  ],
+  "center_rail_ys": [
+    12.11,
+    16.9,
+    22.03,
+    27.24
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-08"
+}

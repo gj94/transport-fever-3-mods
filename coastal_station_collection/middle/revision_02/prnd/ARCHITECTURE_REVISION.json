@@ -1,0 +1,123 @@
+{
+  "base_blend_sha256": "2d9a3201ec5bbf43549be14c51099f97e80d8cb184994bc0c4cf9d9fbd781ce3",
+  "repaired_blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+  "repair_script_sha256": "f46ed6830801a4af93865df4ffedf0edcdc55bfe688803103c9a8b3926d5d8d6",
+  "changes": [
+    {
+      "object": "Station noticeboard timber frame.001",
+      "room": 0,
+      "vertices_moved": 8,
+      "dx_m": -3.0457142857142827
+    },
+    {
+      "object": "Noticeboard felt.001",
+      "room": 0,
+      "vertices_moved": 8,
+      "dx_m": -3.0457142857142827
+    },
+    {
+      "object": "Notice sheet.001",
+      "room": 0,
+      "vertices_moved": 32,
+      "dx_m": -3.0457142857142827
+    },
+    {
+      "object": "Notice printed line.001",
+      "room": 0,
+      "vertices_moved": 160,
+      "dx_m": -3.0457142857142827
+    },
+    {
+      "object": "Station noticeboard timber frame.001",
+      "room": 1,
+      "vertices_moved": 8,
+      "dx_m": 0.5695238095238082
+    },
+    {
+      "object": "Noticeboard felt.001",
+      "room": 1,
+      "vertices_moved": 8,
+      "dx_m": 0.5695238095238082
+    },
+    {
+      "object": "Notice sheet.001",
+      "room": 1,
+      "vertices_moved": 32,
+      "dx_m": 0.5695238095238082
+    },
+    {
+      "object": "Notice printed line.001",
+      "room": 1,
+      "vertices_moved": 160,
+      "dx_m": 0.5695238095238082
+    },
+    {
+      "object": "Passenger information television",
+      "room": 1,
+      "vertices_moved": 8,
+      "dx_m": 5.150476190476191
+    },
+    {
+      "object": "Television screen",
+      "room": 1,
+      "vertices_moved": 8,
+      "dx_m": 5.150476190476191
+    },
+    {
+      "object": "Station noticeboard timber frame.001",
+      "room": 2,
+      "vertices_moved": 8,
+      "dx_m": -1.8076190476190463
+    },
+    {
+      "object": "Noticeboard felt.001",
+      "room": 2,
+      "vertices_moved": 8,
+      "dx_m": -1.8076190476190463
+    },
+    {
+      "object": "Notice sheet.001",
+      "room": 2,
+      "vertices_moved": 32,
+      "dx_m": -1.8076190476190463
+    },
+    {
+      "object": "Notice printed line.001",
+      "room": 2,
+      "vertices_moved": 160,
+      "dx_m": -1.8076190476190463
+    }
+  ],
+  "fixture_shifts": [
+    {
+      "room_index": 0,
+      "notice_from_x": -14.240000000000002,
+      "notice_to_x": -17.285714285714285,
+      "television_from_x": null,
+      "television_to_x": null
+    },
+    {
+      "room_index": 1,
+      "notice_from_x": -10.426666666666666,
+      "notice_to_x": -9.857142857142858,
+      "television_from_x": -11.293333333333333,
+      "television_to_x": -6.142857142857142
+    },
+    {
+      "room_index": 2,
+      "notice_from_x": 3.093333333333331,
+      "notice_to_x": 1.2857142857142847,
+      "television_from_x": null,
+      "television_to_x": null
+    }
+  ],
+  "unchanged": "All rail/platform/building/furniture other than noticeboard/television placement; all cameras and illumination unchanged.",
+  "retained_views": [
+    "01_full_mapped_layout.png"
+  ],
+  "rerender_views": [
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "PERINAD",
+  "kind": "small",
+  "building": [
+    -8,
+    -3,
+    26,
+    8
+  ],
+  "facade": "creamblue",
+  "roof": "sheet",
+  "side": -1,
+  "platform_length": 430,
+  "canopy_length": 60,
+  "canopy_style": "mono",
+  "footbridge": true,
+  "notes": "Two mapped platform edge lines do not define full platform lengths/bodies. Reconstructed side bodies follow outer track alignments; topology remains the mapped four-road station. April2026 Google photograph guides the off-white/blue-plinth block, maroon timber doors, grey corrugated canopy, central waiting-hall entry and wooden slab benches; older red-tile assumption removed.",
+  "platform_finish": "concrete",
+  "ticket_counters": 1,
+  "roof_rise": 0.55
+}

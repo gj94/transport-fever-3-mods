@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/revision_02/prnd/export/PRND_coastal_station_v01.glb.zip!PRND_coastal_station_v01.glb",
+    "bytes": 62327940,
+    "errors": [],
+    "warnings": [],
+    "sha256": "75944a6bc3373e3e8d6082ef9c4530d6182676488729e1f3557851a0116de649",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 62327940
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 136756
+      },
+      {
+        "type": 5130562,
+        "bytes": 62191156
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 193,
+    "mesh_count": 193,
+    "primitive_count": 193,
+    "vertex_reference_count": 2097686,
+    "accessor_count": 496,
+    "validated_accessor_count": 496,
+    "material_count": 27,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "c0e1c4909d421d4c3c424d65279f8206b614e1d5592b3508c0c408326dd71230",
+    "container_bytes": 7890886
+  }
+]

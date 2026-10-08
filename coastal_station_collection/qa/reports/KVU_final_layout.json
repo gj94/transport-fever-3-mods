@@ -1,0 +1,30 @@
+{
+  "station": "KVU",
+  "adopted_sha256": "75911ee9b323f24597575827e24e318ffef94511afd9c5a91c0040a20fc77773",
+  "platform_railcenter_min_m": [
+    1.9199996513097324,
+    1.9199995606658664
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 3.343584515213735,
+  "building_platform_overlap_m2": 188.30370081201073,
+  "ramp_railcenter_min_m": 21.01607432877121,
+  "flights": [
+    {
+      "platform": 0,
+      "y": -10.013766902164331,
+      "outside_platform_m2": 0.0
+    },
+    {
+      "platform": 1,
+      "y": -26.604220297279355,
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": "3",
+  "modelled_bodies": 2,
+  "route_segments": 8
+}

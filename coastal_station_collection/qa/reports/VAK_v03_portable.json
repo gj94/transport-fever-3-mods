@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/revision_03/vak/export/VAK_coastal_station_v01.glb.zip!VAK_coastal_station_v01.glb",
+    "bytes": 65523040,
+    "errors": [],
+    "warnings": [],
+    "sha256": "0a9b223eb547ee0bcd1f4ab36a64331adc4336e08d6b524fa736fd03d8f8a170",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 65523040
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 153564
+      },
+      {
+        "type": 5130562,
+        "bytes": 65369448
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 214,
+    "mesh_count": 214,
+    "primitive_count": 214,
+    "vertex_reference_count": 2213545,
+    "accessor_count": 558,
+    "validated_accessor_count": 558,
+    "material_count": 27,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "626880c7d9604ac51b9f7c5bd1fb4bb0a798ded09ead73486d29a52f96bb0b2d",
+    "container_bytes": 8598727
+  }
+]

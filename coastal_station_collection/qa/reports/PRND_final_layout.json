@@ -1,0 +1,30 @@
+{
+  "station": "PRND",
+  "adopted_sha256": "147032111fc9d8ed1024430775f0e6a139d03f3f423a8ac4980b0f523a72e419",
+  "platform_railcenter_min_m": [
+    1.9199997676644627,
+    1.9200001825545838
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 11.111299999999998,
+  "building_platform_overlap_m2": 0.0,
+  "ramp_railcenter_min_m": 20.111299999999996,
+  "flights": [
+    {
+      "platform": 0,
+      "y": 7.1913,
+      "outside_platform_m2": 0.0
+    },
+    {
+      "platform": 1,
+      "y": 32.03964535644274,
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": "2",
+  "modelled_bodies": 2,
+  "route_segments": 7
+}
