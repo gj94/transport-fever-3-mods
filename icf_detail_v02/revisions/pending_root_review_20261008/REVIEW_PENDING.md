@@ -1,0 +1,1 @@
+Recovery snapshot pending root visual acceptance. This is an immutable preservation copy, not a final release approval. Main is unchanged. The original documents and audit records are preserved as evidence; technical audit success does not establish artistic acceptance.

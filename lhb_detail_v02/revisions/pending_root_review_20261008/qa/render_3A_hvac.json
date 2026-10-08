@@ -1,0 +1,211 @@
+{
+  "variant": "3A",
+  "view": "hvac",
+  "source": "models/LHB_3A.blend",
+  "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+  "render_script_sha256": "90bf8ed517ce3edbf2cc2c7a27876f7886a8fa11bb859251382e7d45e08e4e18",
+  "image": "previews/LHB_3A_hvac.png",
+  "image_sha256": "bb9e213ec0a5714aa152539ce9c1e19a5f34d6974413dc5dd60232075e929568",
+  "renderer": "Blender CPU Cycles",
+  "samples": 512,
+  "adaptive_threshold": 0.019999999552965164,
+  "adaptive_min_samples": 64,
+  "denoising": false,
+  "cpu_threads": 4,
+  "resolution": [
+    1400,
+    840
+  ],
+  "seconds": 394.32696628570557,
+  "camera_xyz": [
+    12.0,
+    -4.800000190734863,
+    6.699999809265137
+  ],
+  "camera_lens_mm": 54.0,
+  "camera_type": "PERSP",
+  "hidden_for_review": [],
+  "presentation_environment": {
+    "ground_material": "Poly Haven Dirt, CC0",
+    "sky": "Poly Haven Kloofendal 48d Partly Cloudy Pure Sky, CC0",
+    "track_and_vegetation": "Original deterministic mesh geometry",
+    "location_claim": null
+  },
+  "environment_dependency": "../wap7_photoreal_v02/environment (Poly Haven CC0; existing repository assets)",
+  "actual_geometry_render": true,
+  "image_generation_used": false,
+  "sampling_workflow": {
+    "workflow": "independent_seed_linear_exr_average_v1",
+    "total_uniform_samples": 512,
+    "adaptive_sampling": false,
+    "batches": [
+      {
+        "file": "batch_00.exr",
+        "sha256": "e7ec42bc4bfbb4d70930dee19ea1e3031b36ed13be04692f853e9435d7f22af2",
+        "seed": 104746,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 81.47240939900075,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_01.exr",
+        "sha256": "7c4fb001678109b5bdc613bf29884d2d56b85b0e8c89b92c9eb6237e6ac3750a",
+        "seed": 209475,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 81.73564047800028,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_02.exr",
+        "sha256": "5426a0c9f5aa3e6e76bc70f32ce203317da395c86eec123cceb4670aeb578ce3",
+        "seed": 314204,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 85.10816088499996,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_03.exr",
+        "sha256": "a68f5ddde9cb080ba790ca7d20cb34fed44ede6b954767827bd256a6f4e96e4b",
+        "seed": 418933,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 82.31252170899825,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_04.exr",
+        "sha256": "e9129203e0c71f2a4618501b41ee22d6ca384bff81e1e5edcd1628dd6db6c4bc",
+        "seed": 523662,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 79.74445915700198,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_05.exr",
+        "sha256": "a99df7bccd75ca903eba3ad536889c020a5d96e51f2f79256d647a0af4ed279e",
+        "seed": 628391,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 76.57583099500334,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_06.exr",
+        "sha256": "5143f6bbf13ad1e66e8e5bd8ece159beba31a24d02509880f0d69654dafe2bec",
+        "seed": 733120,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 77.19511042999511,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_07.exr",
+        "sha256": "8b97045e16ee71746b450f74028362a322a6203b5d61490b39fb4e69edb4fcb6",
+        "seed": 837849,
+        "samples": 64,
+        "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+        "seconds": 77.50844369500555,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      }
+    ],
+    "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655",
+    "spec": {
+      "identity": {
+        "renderer_path": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/render_lhb_detail.py",
+        "renderer_sha256": "90bf8ed517ce3edbf2cc2c7a27876f7886a8fa11bb859251382e7d45e08e4e18",
+        "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+        "presentation_modules": {
+          "run_checkpoint_renderer.py": {
+            "sha256": "5c98aa13f4d53435c8c8889393c7ada3f4389bd79e2ed44bdfb4169f4ed2f63e",
+            "resolved_path": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/scripts/run_checkpoint_renderer.py"
+          },
+          "checkpoint_render.py": {
+            "sha256": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+            "resolved_path": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/scripts/checkpoint_render.py"
+          },
+          "render_dependency_identity.py": {
+            "sha256": "db09f5b6418b18d9d7fbbdc7fdc140e4446f4c5847d47074ea4e972db81e315f",
+            "resolved_path": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/scripts/render_dependency_identity.py"
+          },
+          "lhb_presentation.py": {
+            "sha256": "90cf899d955fb93fe82681f513813aa8e2f9b394dc11143a508f7991f9e11316",
+            "resolved_path": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/lhb_presentation.py"
+          }
+        },
+        "loaded_image_dependencies": {
+          "dirt_diff_2k.jpg": {
+            "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+            "bytes": 3053062,
+            "resolved_path": "/workspace/shared/lhb-detail/wap7_photoreal_v02/environment/dirt_diff_2k.jpg"
+          },
+          "dirt_disp_2k.exr": {
+            "sha256": "a089dc8964c5f73199ad63d5a63e336f70a8c6f3e629c1dd03b893f16e5066e3",
+            "bytes": 1472791,
+            "resolved_path": "/workspace/shared/lhb-detail/wap7_photoreal_v02/environment/dirt_disp_2k.exr"
+          },
+          "dirt_rough_2k.jpg": {
+            "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+            "bytes": 964887,
+            "resolved_path": "/workspace/shared/lhb-detail/wap7_photoreal_v02/environment/dirt_rough_2k.jpg"
+          },
+          "kloofendal_48d_partly_cloudy_puresky_2k.hdr": {
+            "sha256": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198",
+            "bytes": 5451493,
+            "resolved_path": "/workspace/shared/lhb-detail/wap7_photoreal_v02/environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr"
+          }
+        },
+        "identity_helper_sha256": "db09f5b6418b18d9d7fbbdc7fdc140e4446f4c5847d47074ea4e972db81e315f",
+        "wrapper_script_sha256": "5c98aa13f4d53435c8c8889393c7ada3f4389bd79e2ed44bdfb4169f4ed2f63e"
+      },
+      "wrapper_sha256": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+      "batches": 8,
+      "samples_per_batch": 64,
+      "resolution": [
+        1400,
+        840,
+        100
+      ],
+      "camera_matrix": [
+        [
+          0.823212742805481,
+          -0.17061860859394073,
+          0.541488766670227,
+          20.0
+        ],
+        [
+          0.5677329897880554,
+          0.24739699065685272,
+          -0.7851585745811462,
+          -29.0
+        ],
+        [
+          -2.8532568308037298e-08,
+          0.953773558139801,
+          0.3005261719226837,
+          13.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_lens": 54.0,
+      "view_transform": "AgX",
+      "look": "None",
+      "exposure": 0.0,
+      "gamma": 1.0,
+      "method": "equal-weight mean of independent-seed uniform-sample scene-linear RGBA float32 EXRs; one final display transform",
+      "denoising": false,
+      "adaptive_sampling": false
+    },
+    "combined_linear_sha256": "bdb5787c6e9466469398e2fb7deda08267796ee8936cd97b27f68e2e118b99f1",
+    "image_sha256": "bb9e213ec0a5714aa152539ce9c1e19a5f34d6974413dc5dd60232075e929568",
+    "duration_seconds": 394.24781282899494
+  }
+}

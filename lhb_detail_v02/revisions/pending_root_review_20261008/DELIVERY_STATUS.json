@@ -1,0 +1,410 @@
+{
+  "gallery_status": "complete",
+  "completed": 21,
+  "planned": 21,
+  "native_authoring": "Blender .blend, metre-scale class-specific source masters",
+  "portable_exchange": "FBX with documented shader/alpha fallback",
+  "native_game_runtime": "Not converted or validated in Transport Fever 3",
+  "source_geometry": "All seven existing source and FBX checks pass with disclosed editable-font tessellation warnings; verify source report hashes before claiming later edits.",
+  "views": [
+    {
+      "variant": "1A",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "938692053b0e2ee2fd8d51c95b3df0493dfe742c573f1dbb8f89990a92bccdb8",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_1A.blend",
+      "image": "previews/LHB_1A_interior.png",
+      "record": "qa/render_1A_interior.json",
+      "image_sha256": "e07d78403822a1313ace1eb747414c5e28ab014773e68f17c50c2937fabf964c",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "1A",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "938692053b0e2ee2fd8d51c95b3df0493dfe742c573f1dbb8f89990a92bccdb8",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_1A.blend",
+      "image": "previews/LHB_1A_exterior.png",
+      "record": "qa/render_1A_exterior.json",
+      "image_sha256": "eb95b1357275bd19ffe9181d58408b31048a217996128e78dc362330ce67de1f",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "CC",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "870058e20544b4424f5fd42f41b7f07e5acf75a17a0cd57f03aad6bb358b4389",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_CC.blend",
+      "image": "previews/LHB_CC_interior.png",
+      "record": "qa/render_CC_interior.json",
+      "image_sha256": "06de52c5c7a32c3d323a1c62209d39358dc0c5743b91c2f0109b92b3bf539be1",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "CC",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "870058e20544b4424f5fd42f41b7f07e5acf75a17a0cd57f03aad6bb358b4389",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_CC.blend",
+      "image": "previews/LHB_CC_exterior.png",
+      "record": "qa/render_CC_exterior.json",
+      "image_sha256": "11854b7d0de483eebafc50f4237ee7782790fa3220306cff84f053f586e24d62",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "image": "previews/LHB_3A_interior.png",
+      "record": "qa/render_3A_interior.json",
+      "image_sha256": "7301f5853d83b0c9d2b64fad46cb8202461f1beb284ca6bbecd151d5d2f4dd0c",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "image": "previews/LHB_3A_exterior.png",
+      "record": "qa/render_3A_exterior.json",
+      "image_sha256": "f879b1fb039c45a5472564c96fd3afdf2ea34659a30dcb2ad6e88952d5ac19ed",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "2A",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "bbe1a1a72a737bbf414e29961853b9eb88ce8fcf7802f442a80b3206f287ee80",
+      "source_sha256": "691214f8ac28b7dc835310016be69deeac7922c167d0b369f1abc70884f08ae4",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2A.blend",
+      "image": "previews/LHB_2A_interior.png",
+      "record": "qa/render_2A_interior.json",
+      "image_sha256": "abedd79f1f8d38a89e257f50cb943314417e1d658d7c447896bb686e04771a74",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "2A",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "bbe1a1a72a737bbf414e29961853b9eb88ce8fcf7802f442a80b3206f287ee80",
+      "source_sha256": "691214f8ac28b7dc835310016be69deeac7922c167d0b369f1abc70884f08ae4",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2A.blend",
+      "image": "previews/LHB_2A_exterior.png",
+      "record": "qa/render_2A_exterior.json",
+      "image_sha256": "ddc839197d54e9b38ddf1e013e5dd824d92f0e856a2b5698359de63ecb8aabbf",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "SL",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "3076005a5a075b3fd61872b6daf7066e36f754b0a961c25d07025b854888f67d",
+      "source_sha256": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_SL.blend",
+      "image": "previews/LHB_SL_interior.png",
+      "record": "qa/render_SL_interior.json",
+      "image_sha256": "523ea514e0b0a89deecabebc81396a61ecbb3fabb14db53e537b75afa14917a9",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "SL",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "3076005a5a075b3fd61872b6daf7066e36f754b0a961c25d07025b854888f67d",
+      "source_sha256": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_SL.blend",
+      "image": "previews/LHB_SL_exterior.png",
+      "record": "qa/render_SL_exterior.json",
+      "image_sha256": "102e1a7054e93629ddc01463cadc5310cacfbad0715811de4ccec3899bce5ccc",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "2S",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "baa5790f56b86525081eef18d3d640b4c0f57a0f4cf6223186fef083e9e6d7fb",
+      "source_sha256": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2S.blend",
+      "image": "previews/LHB_2S_interior.png",
+      "record": "qa/render_2S_interior.json",
+      "image_sha256": "7518c369b826d28a83999b8d70ddc74164d91082a8abfb73ade34c1e69c95a56",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "2S",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "baa5790f56b86525081eef18d3d640b4c0f57a0f4cf6223186fef083e9e6d7fb",
+      "source_sha256": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2S.blend",
+      "image": "previews/LHB_2S_exterior.png",
+      "record": "qa/render_2S_exterior.json",
+      "image_sha256": "24a95f910b9484b6f6db359576518125f16e77200b9b0148fb95a02a1b9ee625",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "GS",
+      "view": "interior",
+      "status": "complete",
+      "current_master_sha256": "758bf9f9f1a9e18cb5bd72e946bdd6f1d14d25c03e59160cc96ba601f4d2b90f",
+      "source_sha256": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_GS.blend",
+      "image": "previews/LHB_GS_interior.png",
+      "record": "qa/render_GS_interior.json",
+      "image_sha256": "7782fc6237ff277f9576f8ee7f2572da0a50f1a7efd9e3d855e0d361d7a8ee8b",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "GS",
+      "view": "exterior",
+      "status": "complete",
+      "current_master_sha256": "758bf9f9f1a9e18cb5bd72e946bdd6f1d14d25c03e59160cc96ba601f4d2b90f",
+      "source_sha256": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_GS.blend",
+      "image": "previews/LHB_GS_exterior.png",
+      "record": "qa/render_GS_exterior.json",
+      "image_sha256": "cce2c6b54ed1b58bbdc2789d62b4977d82c643e6be073a32414a9a859cf5f718",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "bay",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "image": "previews/LHB_3A_bay.png",
+      "record": "qa/render_3A_bay.json",
+      "image_sha256": "c1751a46cbb74ada9a1a1f78f33f786776c00059e5071fd7074fdc85d1d93c73",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "CC",
+      "view": "chair_detail",
+      "status": "complete",
+      "current_master_sha256": "870058e20544b4424f5fd42f41b7f07e5acf75a17a0cd57f03aad6bb358b4389",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_CC.blend",
+      "image": "previews/LHB_CC_chair_detail.png",
+      "record": "qa/render_CC_chair_detail.json",
+      "image_sha256": "b22a52c66082c06bbf294f83baa028996553f8f553646d38850e46969a221d08",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "1A",
+      "view": "cabin_entry",
+      "status": "complete",
+      "current_master_sha256": "938692053b0e2ee2fd8d51c95b3df0493dfe742c573f1dbb8f89990a92bccdb8",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_1A.blend",
+      "image": "previews/LHB_1A_cabin_entry.png",
+      "record": "qa/render_1A_cabin_entry.json",
+      "image_sha256": "15928c117f55ec90c48cb057ef0d4439707b10abc04f41adec766935a7f62230",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "hvac",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "image": "previews/LHB_3A_hvac.png",
+      "record": "qa/render_3A_hvac.json",
+      "image_sha256": "bb9e213ec0a5714aa152539ce9c1e19a5f34d6974413dc5dd60232075e929568",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "bogie",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "image": "previews/LHB_3A_bogie.png",
+      "record": "qa/render_3A_bogie.json",
+      "image_sha256": "0254a66d1707a01fa69baec7b9c1e4fea16bcf8cb2291f5a6759159069056e94",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "door",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "image": "previews/LHB_3A_door.png",
+      "record": "qa/render_3A_door.json",
+      "image_sha256": "b3cf62eecf5851757c4fe9a2939bd812c04f4c5c59ffc73b31b5c725e25d8cb6",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    },
+    {
+      "variant": "3A",
+      "view": "toilet",
+      "status": "complete",
+      "current_master_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "source_revision": "current_corrected_source",
+      "source_path": "models/LHB_3A.blend",
+      "image": "previews/LHB_3A_toilet.png",
+      "record": "qa/render_3A_toilet.json",
+      "image_sha256": "04a0dd63a01121849db11adea41442efc5dbd3d6048efdc32603cce422ce981c",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
+    }
+  ]
+}

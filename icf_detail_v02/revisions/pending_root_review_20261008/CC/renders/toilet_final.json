@@ -1,0 +1,57 @@
+{
+  "variant": "CC",
+  "view": "toilet",
+  "presentation_environment": null,
+  "source_build_pass": "r12-stencil",
+  "source_blend_sha256": "40812066ecc01ec1814cfa08ec3028f6465b501098feeb0f4140874d4b1ec02d",
+  "renderer_script_sha256": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+  "presentation_source_sha256": {
+    "render_detail.py": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+    "preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b",
+    "icf_presentation.py": "e1aa62fe1eaffd5d1b2e5da2ba2ad7bd6e6327c9ece39a2ce57de733a9a4bf54"
+  },
+  "samples": 512,
+  "adaptive_sampling": true,
+  "adaptive_threshold": 0.019999999552965164,
+  "adaptive_min_samples": 64,
+  "render_threads": 4,
+  "resolution": [
+    1600,
+    1040
+  ],
+  "denoising": false,
+  "engine": "Blender Cycles CPU, no denoising",
+  "camera_position_m": [
+    9.75,
+    -0.20000000298023224,
+    3.5
+  ],
+  "camera_lens_mm": 28.0,
+  "orthographic_scale_m": null,
+  "hidden_mesh_count": 24,
+  "cutaway": true,
+  "cutaway_scope": "Lavatory door leaves, headers and attached pulls, latch plates, occupancy indicators and labels only",
+  "preview_track_gauge_m": 1.676,
+  "duration_seconds": 1480.89,
+  "rendered_utc": "2026-10-08T06:53:42.646332+00:00",
+  "image_sha256": "5d05ad5cc8e564737f2f5452377386dcf8062783475e06b8af817ae61cc18394",
+  "cutaway_wrapper_sha256": "dc5971625e3c7266f6f3ff9057182c63950103f3aaa0495a96f935122d2c9b66",
+  "additional_cutaway_mesh_names": [
+    "Lavatory inside pull",
+    "Lavatory inside pull.001",
+    "Lavatory inside pull.002",
+    "Lavatory inside pull.003",
+    "Lavatory occupied indicator",
+    "Lavatory occupied indicator.001",
+    "Lavatory occupied indicator.002",
+    "Lavatory occupied indicator.003",
+    "Lavatory rotary latch plate",
+    "Lavatory rotary latch plate.001",
+    "Lavatory rotary latch plate.002",
+    "Lavatory rotary latch plate.003",
+    "Lavatory style label",
+    "Lavatory style label.001",
+    "Lavatory style label.002",
+    "Lavatory style label.003"
+  ]
+}

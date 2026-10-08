@@ -1,0 +1,485 @@
+{
+  "status": "pass",
+  "native_game_runtime": "Not converted or validated in Transport Fever 3",
+  "sources": [
+    {
+      "variant": "1A",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "938692053b0e2ee2fd8d51c95b3df0493dfe742c573f1dbb8f89990a92bccdb8",
+        "manifest": "0ccbcc20176bf2b3c4d754be63b4500bc3af36bd68077c3180fb2c14b67c6af7",
+        "markers": "34dc89e6b3bf4b89027d83f8e24c3a9232cf9977eb53b80968b709cf9d085c44",
+        "fbx": "0f7fc697b23a45acd6bab5a0f1b9559f82e3ff97dc4eef63ed100a266f47fcd1"
+      }
+    },
+    {
+      "variant": "2A",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "bbe1a1a72a737bbf414e29961853b9eb88ce8fcf7802f442a80b3206f287ee80",
+        "manifest": "f04fbd94de227f6b21864d0e767ed29fcfac4633ae7e8354215e51a51649937f",
+        "markers": "fa9022bc5d14630ff64f5640d5bd268d7ef24ff4c22ded1d7e0f5c920175cd49",
+        "fbx": "df260030b2a05265f40361ac9fe4648b405295005ec922915ca271e2ad619f30"
+      }
+    },
+    {
+      "variant": "3A",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+        "manifest": "18982d29116f052c6248b1c657eee8f9d363cfeb26f0a701203f70c3863e8b0c",
+        "markers": "a458db8c875d5250d3a1abbe1f0b7618abe9e81962ca1fa4d270d9dd467971ff",
+        "fbx": "ec7a98733be8344ba4824ff1bec5b785606626befd5e147f20bfa0536498ce9c"
+      }
+    },
+    {
+      "variant": "2S",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "baa5790f56b86525081eef18d3d640b4c0f57a0f4cf6223186fef083e9e6d7fb",
+        "manifest": "78218b37d76f32c16182f26a05f0f781df5d3c277f796557613e1279f8cd4ff6",
+        "markers": "1388d57dd59fae7559432866ced9662fbdbe9fbcf6bc901371d2adc049d92e0d",
+        "fbx": "8b52064469c7a9418971500997f15c396e0492ffab3ce73ff9bda29a0486ff02"
+      }
+    },
+    {
+      "variant": "CC",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "870058e20544b4424f5fd42f41b7f07e5acf75a17a0cd57f03aad6bb358b4389",
+        "manifest": "5689c526100c81adf65f9c9b59a01ea6411753ba66a77234e6426eca85cbc2d8",
+        "markers": "cd5d070f4f0c16bce587478cd7eba536e8a62fc3cb0272aabe2a31375c244839",
+        "fbx": "12bd13ac935bad068388d47b7c43cbf9f393658ba50a816530605826f54e6c81"
+      }
+    },
+    {
+      "variant": "SL",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "3076005a5a075b3fd61872b6daf7066e36f754b0a961c25d07025b854888f67d",
+        "manifest": "81fc1242c2542d119b841fa30a458ae815b7e89b454d466cad66111be5a03fa5",
+        "markers": "8b11ef3a1f5e6f18f820f89955603534875644e55f9534f568c8506fc957317f",
+        "fbx": "07291210078f2bc6bd12fb7798e549105ff075b62fe50e54c95dac624dce38c2"
+      }
+    },
+    {
+      "variant": "GS",
+      "status": "pass_with_warnings",
+      "sha256": {
+        "blend": "758bf9f9f1a9e18cb5bd72e946bdd6f1d14d25c03e59160cc96ba601f4d2b90f",
+        "manifest": "fe157766d49f0354272d2acb0e3bff10d41a99bbe7d66ec62e9b0feb67e713d7",
+        "markers": "de79232f33c78f7d3d8657e486738459b9f7adf2fcca815250463dfed9fe8320",
+        "fbx": "41f923e7bec58227dc15424d5163c84f9a458bd4bf567675e2f8b60035896a82"
+      }
+    }
+  ],
+  "views": [
+    {
+      "camera_xyz_verified": [
+        -7.179999828338623,
+        0.25,
+        2.549999952316284
+      ],
+      "camera_lens_mm": 17.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_1A.blend",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "variant": "1A",
+      "view": "interior",
+      "record_sha256": "f48c50a87cee3c178760084a5887bcbf616d23abb404cb433c1694629e79185f",
+      "image_sha256": "e07d78403822a1313ace1eb747414c5e28ab014773e68f17c50c2937fabf964c",
+      "cached_batches_verified": 8,
+      "fingerprint": "968ff44652a4d9a0d0edeed1e056928ae154bc73555bf1c1c43e5a424187d67b"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_1A.blend",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "variant": "1A",
+      "view": "exterior",
+      "record_sha256": "7dbf35dcfe14ccb743de31e9e072ef5c3f000ae3cc32bbb959b58bf3e55effc6",
+      "image_sha256": "eb95b1357275bd19ffe9181d58408b31048a217996128e78dc362330ce67de1f",
+      "cached_batches_verified": 8,
+      "fingerprint": "ff129d70d34b48650c917fb2bb91a46165312a83751d29d04e949e055c51a0fe"
+    },
+    {
+      "camera_xyz_verified": [
+        -8.75,
+        -0.23000000417232513,
+        2.630000114440918
+      ],
+      "camera_lens_mm": 22.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_CC.blend",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "variant": "CC",
+      "view": "interior",
+      "record_sha256": "d059dad58b6e17a04dc86fde1aa953c75d8d9bae1dfa1c5b19a17425a6b2a611",
+      "image_sha256": "06de52c5c7a32c3d323a1c62209d39358dc0c5743b91c2f0109b92b3bf539be1",
+      "cached_batches_verified": 8,
+      "fingerprint": "17cc105c49330a0522bb3c2ab160fed7e4361ee848595fcdf308a3575038d538"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_CC.blend",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "variant": "CC",
+      "view": "exterior",
+      "record_sha256": "f2329a3c905b5a309f356a85db92895c70fd54bb0e4f9de5edf16837877ced41",
+      "image_sha256": "11854b7d0de483eebafc50f4237ee7782790fa3220306cff84f053f586e24d62",
+      "cached_batches_verified": 8,
+      "fingerprint": "1ac00bbcd711d3f595e3a60b51251c74f0d0fd42ab51c2a8221beb42a2dcc6de"
+    },
+    {
+      "camera_xyz_verified": [
+        -7.940000057220459,
+        0.699999988079071,
+        2.640000104904175
+      ],
+      "camera_lens_mm": 22.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "variant": "3A",
+      "view": "interior",
+      "record_sha256": "c213c424ad085978f44771aef51ae9531b8d505a6c6d1bceb3711d02357a7335",
+      "image_sha256": "7301f5853d83b0c9d2b64fad46cb8202461f1beb284ca6bbecd151d5d2f4dd0c",
+      "cached_batches_verified": 8,
+      "fingerprint": "0e2b31eb2ba21d3083f0c816c458ff3dbb2cd4e791510130b80db33d024948e0"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "variant": "3A",
+      "view": "exterior",
+      "record_sha256": "afd359965ba35a75c6084943e091841925716b6feaf1300c7290543175a2f994",
+      "image_sha256": "f879b1fb039c45a5472564c96fd3afdf2ea34659a30dcb2ad6e88952d5ac19ed",
+      "cached_batches_verified": 8,
+      "fingerprint": "50333e73f13eb1160b712d7d13be52bc9a251e1836f910fd5a1de1a3919448f9"
+    },
+    {
+      "camera_xyz_verified": [
+        -7.940000057220459,
+        0.699999988079071,
+        2.640000104904175
+      ],
+      "camera_lens_mm": 22.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2A.blend",
+      "source_sha256": "691214f8ac28b7dc835310016be69deeac7922c167d0b369f1abc70884f08ae4",
+      "variant": "2A",
+      "view": "interior",
+      "record_sha256": "05a72600d53491c627211ef3fc1ad841b5dfe3d4dc507523f409cd7e1d610a0d",
+      "image_sha256": "abedd79f1f8d38a89e257f50cb943314417e1d658d7c447896bb686e04771a74",
+      "cached_batches_verified": 8,
+      "fingerprint": "12e456e88c52b07d8852e10c882bd887b474bf8f33145e7cfade24390de42a07"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2A.blend",
+      "source_sha256": "691214f8ac28b7dc835310016be69deeac7922c167d0b369f1abc70884f08ae4",
+      "variant": "2A",
+      "view": "exterior",
+      "record_sha256": "74cbeaf6c211472dc46feb949e957dde744ee90326ac782a855953a213be9795",
+      "image_sha256": "ddc839197d54e9b38ddf1e013e5dd824d92f0e856a2b5698359de63ecb8aabbf",
+      "cached_batches_verified": 8,
+      "fingerprint": "4f5a0f259d39f12db9c42a5113ee13be05fab5013e2f9042dc14363d53a01270"
+    },
+    {
+      "camera_xyz_verified": [
+        -7.940000057220459,
+        0.699999988079071,
+        2.640000104904175
+      ],
+      "camera_lens_mm": 22.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_SL.blend",
+      "source_sha256": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
+      "variant": "SL",
+      "view": "interior",
+      "record_sha256": "9ee527dc9a04d4e8261cf8276cc7076ca802e5d1d752779fa77b4cff6817d553",
+      "image_sha256": "523ea514e0b0a89deecabebc81396a61ecbb3fabb14db53e537b75afa14917a9",
+      "cached_batches_verified": 8,
+      "fingerprint": "f2569e33797f92a93a916e264fe5cc7e8d0e1e2a982aa3b20cc3128812861f05"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_SL.blend",
+      "source_sha256": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
+      "variant": "SL",
+      "view": "exterior",
+      "record_sha256": "0e55f6f94d984d3b4cb4c44390def4d54b71d76964d6ca1e8691ee5e9d63fc50",
+      "image_sha256": "102e1a7054e93629ddc01463cadc5310cacfbad0715811de4ccec3899bce5ccc",
+      "cached_batches_verified": 8,
+      "fingerprint": "1d514fb65a5967f9a35c01268f5b9c369e79ca3e1f711b4e9ee5a92802add098"
+    },
+    {
+      "camera_xyz_verified": [
+        -8.75,
+        0.0,
+        2.630000114440918
+      ],
+      "camera_lens_mm": 22.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2S.blend",
+      "source_sha256": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
+      "variant": "2S",
+      "view": "interior",
+      "record_sha256": "597eb4a4965f42d0b8b6b7483be7982d44a27e40df7dc559ae5087f9fd160a74",
+      "image_sha256": "7518c369b826d28a83999b8d70ddc74164d91082a8abfb73ade34c1e69c95a56",
+      "cached_batches_verified": 8,
+      "fingerprint": "80d7941fdd84951cf9a19d3270477e331616dbe16b45f55b6ce292c0df31500b"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_2S.blend",
+      "source_sha256": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
+      "variant": "2S",
+      "view": "exterior",
+      "record_sha256": "b8e84c789472f187e026bb2470a21c65789e43bde2fd5884c9e89d859ee9ff0a",
+      "image_sha256": "24a95f910b9484b6f6db359576518125f16e77200b9b0148fb95a02a1b9ee625",
+      "cached_batches_verified": 8,
+      "fingerprint": "2b8832100fc0099feac689122b03a392b3bf409aa5df65b1b5ad0b693e9ec9c0"
+    },
+    {
+      "camera_xyz_verified": [
+        -7.940000057220459,
+        0.699999988079071,
+        2.640000104904175
+      ],
+      "camera_lens_mm": 22.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_GS.blend",
+      "source_sha256": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab",
+      "variant": "GS",
+      "view": "interior",
+      "record_sha256": "b890941abe6d17cdea29e2c050dd62848daac25a154b60bfbf32bc6a55d7c78c",
+      "image_sha256": "7782fc6237ff277f9576f8ee7f2572da0a50f1a7efd9e3d855e0d361d7a8ee8b",
+      "cached_batches_verified": 8,
+      "fingerprint": "a04014569bf0ea3414291e9594172cf72e6e47fe69925149fe4394a975212280"
+    },
+    {
+      "camera_xyz_verified": [
+        20.0,
+        -30.0,
+        8.5
+      ],
+      "camera_lens_mm": 48.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_GS.blend",
+      "source_sha256": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab",
+      "variant": "GS",
+      "view": "exterior",
+      "record_sha256": "ff6f313d9ebf3afcd3ae3a17945c5b77c8309f3077452aa066e63d7a3d0856e7",
+      "image_sha256": "cce2c6b54ed1b58bbdc2789d62b4977d82c643e6be073a32414a9a859cf5f718",
+      "cached_batches_verified": 8,
+      "fingerprint": "159c4a43161a0bf20ed20b77e25c4d9ae8b25c529aa6ce7f4a5392dab253c9d4"
+    },
+    {
+      "camera_xyz_verified": [
+        -0.15000000596046448,
+        1.4500000476837158,
+        2.569999933242798
+      ],
+      "camera_lens_mm": 19.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "variant": "3A",
+      "view": "bay",
+      "record_sha256": "190e5b0707ab9184804b0598132b5a93c41a5628c288fe2f25c9a6e00974a3b1",
+      "image_sha256": "c1751a46cbb74ada9a1a1f78f33f786776c00059e5071fd7074fdc85d1d93c73",
+      "cached_batches_verified": 8,
+      "fingerprint": "6f980c410a78972cb2320a59e115337eade1279843ad7334770c8cce45eb3b64"
+    },
+    {
+      "camera_xyz_verified": [
+        -8.720000267028809,
+        -0.05000000074505806,
+        2.3499999046325684
+      ],
+      "camera_lens_mm": 25.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_CC.blend",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "variant": "CC",
+      "view": "chair_detail",
+      "record_sha256": "92162ad3df0fe3e64408f6f59c1598b70e906abc2b8bbfb9b638fe222b56d220",
+      "image_sha256": "b22a52c66082c06bbf294f83baa028996553f8f553646d38850e46969a221d08",
+      "cached_batches_verified": 8,
+      "fingerprint": "2d3590cef5ddcafb96e067d25208f5c36826f70d16ecbe6240d4bbcdd5d73394"
+    },
+    {
+      "camera_xyz_verified": [
+        -7.150000095367432,
+        -1.2999999523162842,
+        2.5899999141693115
+      ],
+      "camera_lens_mm": 19.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_1A.blend",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "variant": "1A",
+      "view": "cabin_entry",
+      "record_sha256": "e00f653d7b2628cfb4a8bf7dafa913b1529c7d9ffa64019e6cb13fdbd875cf56",
+      "image_sha256": "15928c117f55ec90c48cb057ef0d4439707b10abc04f41adec766935a7f62230",
+      "cached_batches_verified": 8,
+      "fingerprint": "d759132adac1b01dc0c606c58cc11c4937db2cd2732590fa85f6d010c647e3e7"
+    },
+    {
+      "camera_xyz_verified": [
+        12.0,
+        -4.800000190734863,
+        6.699999809265137
+      ],
+      "camera_lens_mm": 54.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "variant": "3A",
+      "view": "hvac",
+      "record_sha256": "f4df70cd70c3a386b4446c78317fe6bd096232b20ef1a857c91c29a1dfaedb57",
+      "image_sha256": "bb9e213ec0a5714aa152539ce9c1e19a5f34d6974413dc5dd60232075e929568",
+      "cached_batches_verified": 8,
+      "fingerprint": "8ed490f4061bbf254011d620214c5b78b178e94247704e245c7880f9c2044655"
+    },
+    {
+      "camera_xyz_verified": [
+        10.699999809265137,
+        -5.5,
+        1.7000000476837158
+      ],
+      "camera_lens_mm": 46.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "variant": "3A",
+      "view": "bogie",
+      "record_sha256": "13ac0f0de7fc6d2e6f7e825a2d0382568138eb7e248006a1697736b83aac3ed4",
+      "image_sha256": "0254a66d1707a01fa69baec7b9c1e4fea16bcf8cb2291f5a6759159069056e94",
+      "cached_batches_verified": 8,
+      "fingerprint": "13e5c974c90285d706aa07ee69ae091a06c4c606ce6672f907adf382a5ee0a3d"
+    },
+    {
+      "camera_xyz_verified": [
+        14.0,
+        -7.0,
+        3.299999952316284
+      ],
+      "camera_lens_mm": 45.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "accepted_pre_repair_source",
+      "source_path": "revisions/pre_wc_repair_20261008/models/LHB_3A.blend",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "variant": "3A",
+      "view": "door",
+      "record_sha256": "26d6ed07929cd48631fb38f3b07cd485c9ba1eda62bc775ccbf74afb20cfdbcb",
+      "image_sha256": "b3cf62eecf5851757c4fe9a2939bd812c04f4c5c59ffc73b31b5c725e25d8cb6",
+      "cached_batches_verified": 8,
+      "fingerprint": "cb8db1825ba30f31eda39a9eeb4e0cee4b43be1a56b36e269ece3a2a900d3b94"
+    },
+    {
+      "camera_xyz_verified": [
+        10.0,
+        0.7300000190734863,
+        2.759999990463257
+      ],
+      "camera_lens_mm": 18.0,
+      "checkpoint_matrix_scope": "historical pre-evaluation metadata, not verified evaluated transform",
+      "source_revision": "current_corrected_source",
+      "source_path": "models/LHB_3A.blend",
+      "source_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+      "variant": "3A",
+      "view": "toilet",
+      "record_sha256": "3bb7c6e990cda6d4d9cd6c06e6aba0991288f10a41eff21b31327562bb0cfd0f",
+      "image_sha256": "04a0dd63a01121849db11adea41442efc5dbd3d6048efdc32603cce422ce981c",
+      "cached_batches_verified": 8,
+      "fingerprint": "ef9ce4f40d5bf09ead9062b2c8a68087cec1db5297618349569cae88f1a31e3a"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_diff_2k.jpg",
+      "sha256": "126d3e4886cc94b494ba609ddc323a77ff0362a1b156c3750d5d2a0a0ead02b8",
+      "size": 3053062
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_disp_2k.exr",
+      "sha256": "a089dc8964c5f73199ad63d5a63e336f70a8c6f3e629c1dd03b893f16e5066e3",
+      "size": 1472791
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_rough_2k.jpg",
+      "sha256": "a17048230e1a86fc874b381360f6a821df1f6b0174ca7f85a59596c4290080fa",
+      "size": 964887
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+      "sha256": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198",
+      "size": 5451493
+    }
+  ],
+  "limitations": [
+    "Editable-font tessellation warnings remain in source/FBX reports.",
+    "Close-range CC tray and armrest bevels show faceting. Twenty accepted views retain exact pre-WC-repair sources; only the corrected toilet view depicts latest masters.",
+    "Undenoised interior renders retain grain.",
+    "Checkpoint spec.camera_matrix retains a pre-evaluation saved transform and is not a verified evaluated camera matrix; per-view camera_xyz/lens are checked against the renderer configuration and reviewed pixels."
+  ],
+  "complete_views": 21
+}
