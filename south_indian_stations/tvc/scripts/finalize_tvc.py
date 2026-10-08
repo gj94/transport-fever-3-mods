@@ -32,10 +32,13 @@ for o in sc.objects:
  if o.name.startswith(('Rail foot','Rail web','Rail head')):o.location.y=13.8 + (.872 if o.location.y>13.8 else -.872)
 # Pack fonts too; source is portable.
 bpy.ops.file.pack_all()
-bpy.data.objects['CAM_Hero'].data.lens=43
+bpy.data.objects['CAM_Hero'].data.lens=39
 sc.camera=bpy.data.objects['CAM_Hero'];sc.render.resolution_percentage=75;sc.cycles.samples=64;sc.cycles.use_denoising=False;sc.render.threads=4
+for c in bpy.data.collections:
+ if c.name.startswith(('01_','02_','03_','04_')):c.asset_mark();c['dimension_basis']='photo-inferred / game-adjusted; no station-specific survey dimensions'
+bpy.data.collections['04_MODULAR_PLATFORM_CANOPY_DEMONSTRATOR'].instance_offset=(0,19,0)
 bpy.ops.wm.save_as_mainfile(filepath=str(R/'TVC_heritage_2022_v1.blend'))
 qa={'objects':len(sc.objects),'meshes':sum(o.type=='MESH' for o in sc.objects),'vertices':sum(len(o.data.vertices) for o in sc.objects if o.type=='MESH'),'scale_length':sc.unit_settings.scale_length,'packed_images':[i.name for i in bpy.data.images if i.packed_file],'missing_external_images':[i.filepath for i in bpy.data.images if i.source=='FILE' and not i.packed_file and not Path(bpy.path.abspath(i.filepath)).exists()],'central_upper_front_bays':3,'station_specific_measured_dimensions':0,'rail_inner_gauge_m':1.676,'render_engine':sc.render.engine,'render_samples':sc.cycles.samples,'render_threads':sc.render.threads}
 (R/'qa_geometry.json').write_text(json.dumps(qa,indent=2))
 for cam,name in [('CAM_Hero','hero'),('CAM_Elevation','elevation'),('CAM_Heritage_detail','heritage_detail'),('CAM_Canopy_detail','canopy_detail')]:
- sc.camera=bpy.data.objects[cam];sc.render.filepath=str(R/'renders'/f'{name}.png');bpy.ops.render.render(write_still=True)
+ sc.camera=bpy.data.objects[cam];sc.render.resolution_percentage=100 if name in ['hero','elevation'] else 75;sc.render.resolution_y=650 if name=='elevation' else 1000;sc.render.filepath=str(R/'renders'/f'{name}.png');bpy.ops.render.render(write_still=True)

@@ -1,0 +1,119 @@
+{
+  "status": "final-reviewed",
+  "era": "2022-11-14",
+  "dimension_basis": "photo-inferred / game-adjusted; not surveyed",
+  "licensing": "Existing repository default unchanged. Third-party notices are scoped to photos/fonts.",
+  "files": [
+    {
+      "path": "TVC_heritage_2022_v1.blend",
+      "bytes": 38471408,
+      "sha256": "c1ad0415e61ddec33a55588a70a78e52916ad8fbfffd7173a77f5c4872870ff4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7546,
+      "sha256": "15d9258c7237b22edbdb89a94faedd1ca91d45ab3a022444aab81f5ddb4c37b0"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 3478,
+      "sha256": "2b7af6741466d9020671a1d2653a3f41c91aeb3da7d6aae8366597570f44c8b2"
+    },
+    {
+      "path": "qa_geometry.json",
+      "bytes": 870,
+      "sha256": "b71de1cb2e4bc2dcacd301061756fabfc04f57eff2e8293512d49b17560974ee"
+    },
+    {
+      "path": "scripts/build_tvc.py",
+      "bytes": 18496,
+      "sha256": "811633b6521a215655c29efc1c1b1a78baf7f4a567d36efa63fe405c319cf24c"
+    },
+    {
+      "path": "scripts/add_return_detail.py",
+      "bytes": 1555,
+      "sha256": "d827af148f5d030d908c3c364a570041e100660cade92e83866e59122a0b1762"
+    },
+    {
+      "path": "scripts/finalize_tvc.py",
+      "bytes": 4212,
+      "sha256": "2371ba5019e44fe029f3a91fc0d04936004a76b9863984f8b9b97be20c1ef871"
+    },
+    {
+      "path": "scripts/make_sign.py",
+      "bytes": 741,
+      "sha256": "38a1c7182b965be15293c2909e0333f0717333d8dced3cf2359d7962c27693c0"
+    },
+    {
+      "path": "scripts/audit_asset.py",
+      "bytes": 1432,
+      "sha256": "9a1af5dc8d107c143a6df5998e9e24e43d1e2973e85f84c45f407ced0d805a92"
+    },
+    {
+      "path": "textures/TVC_trilingual_board.png",
+      "bytes": 75231,
+      "sha256": "5aa973cc1e0bc53a53f965f0c43ef14afd780e240ec658512b1ef406f10e5a3e"
+    },
+    {
+      "path": "licenses/DejaVu-font-notice.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "licenses/Noto-font-notice.txt",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "renders/hero.png",
+      "bytes": 2243707,
+      "sha256": "603a9fe45d3d57e70674b7e6f44b468ca7ec21827f49157d666b9408eb34549b",
+      "size": [
+        1600,
+        1000
+      ],
+      "mean_luminance": 134.444
+    },
+    {
+      "path": "renders/elevation.png",
+      "bytes": 1384851,
+      "sha256": "e94509804eae51f136df4ce1612b205712339e9a9233dbf20b008879135b5897",
+      "size": [
+        1600,
+        650
+      ],
+      "mean_luminance": 134.736
+    },
+    {
+      "path": "renders/heritage_detail.png",
+      "bytes": 1571883,
+      "sha256": "89c6c7fc81ec56bc3c89076d6523bba978133030fb6f9a72973ad362c55fae13",
+      "size": [
+        1200,
+        750
+      ],
+      "mean_luminance": 122.668
+    },
+    {
+      "path": "renders/canopy_detail.png",
+      "bytes": 1397294,
+      "sha256": "a42fba777ad220e0f75b88df1c5909b4719332ece31e7d6e723cf65d66f049c0",
+      "size": [
+        1200,
+        750
+      ],
+      "mean_luminance": 119.766
+    }
+  ],
+  "excluded": [
+    "references/",
+    "*.blend1",
+    "TVC_heritage_2022.blend",
+    "*.log",
+    "scripts/__pycache__/",
+    "scripts/build_fast_checkpoint.py",
+    "scripts/refine_proportions.py",
+    "scripts/reframe_review.py",
+    "scripts/render_canopy.py"
+  ]
+}

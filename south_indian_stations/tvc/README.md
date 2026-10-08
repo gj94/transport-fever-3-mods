@@ -5,6 +5,7 @@ Editable architectural asset in metres, reconstructing the distinctive heritage 
 ## Deliverables
 - `TVC_heritage_2022_v1.blend`: separately organized heritage pavilion, gallery/end-pavilion kit, contextual forecourt, independent platform/canopy demonstration, cameras and lighting.
 - `scripts/build_tvc.py`: deterministic, reusable Blender construction script. Run `/usr/bin/blender -b -t 4 --python scripts/build_tvc.py -- --render` from any directory.
+- `scripts/audit_asset.py`: reopen audit, resource/gauge checks and Asset Browser collection tags.
 - `scripts/add_return_detail.py`: three-bay central return refinement from the wider reference.
 - `scripts/finalize_tvc.py`: packed trilingual graphic, nominal inner rail gauge correction, QA and render pass. Automatically called by `build_tvc.py -- --render`.
 - `scripts/make_sign.py`: original trilingual platform sign texture, Pillow with RAQM text shaping. Run before building.
@@ -28,7 +29,7 @@ No station-specific dimensions are source-measured.
 | Main pavilion depth | 8 m | Game-adjusted; rear unverified |
 | Central upper openings | 3; centres −4.35 / 0 / +4.35 m | Count observed; positions photo-inferred |
 | Upper opening spring | 10.85 m | Photo-inferred |
-| Outer / central arch radius | 0.83 / 1.18 m | Photo-inferred |
+| Outer / central arch radius | 0.74 / 1.18 m | Photo-inferred |
 | Central entrance radius | 1.65 m | Photo-inferred |
 | Gallery study width | 13.4 m each | Game-adjusted |
 | Secondary pavilion | 6.5 m wide × 11.4 m high | Photo-inferred |
@@ -55,3 +56,8 @@ Suitable as an editable visual heritage/railway scene asset. Not engineering, su
 
 ## Typography
 The original platform graphic uses Noto Sans Malayalam, Noto Sans Devanagari and DejaVu Sans. Generated lettering is not copied from a photograph. Relevant font redistribution notices are preserved under `licenses/`; the packed Blender rooftop type uses DejaVu Sans Condensed.
+
+## Final visual review
+The reviewed version narrows the two outer central-pavilion upper openings to 0.74 m radius while preserving the 1.18 m centre, matching the photographed wider central bay. Front pilaster spacing is unchanged. Four collection assets can be appended independently; the canopy collection has its asset placement offset at its study-module centre. No furnished station interior, ticket-office plan or passenger concourse is included. Dark backing planes represent unlit openings. Stone coursing and reveal-edge cutting remain visual approximations.
+
+The CC notices above apply only to the reference photographs, and the font notices only to their respective fonts. No new open-source or Creative Commons licence is granted here for generated geometry, scripts or renders; the repository's existing licensing default is unchanged.

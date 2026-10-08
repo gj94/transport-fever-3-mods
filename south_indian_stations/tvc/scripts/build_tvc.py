@@ -130,7 +130,7 @@ def cornice(cx,w,y,depth,h):
 def pavilion(cx,w,h,main=False):
  openings=[]
  xs=[cx-4.35,cx,cx+4.35] if main else [cx]
- for x in xs:openings.append((x,6.05 if main else 5.2,10.85 if main else 8.3,1.18 if x==cx and main else .83))
+ for x in xs:openings.append((x,6.05 if main else 5.2,10.85 if main else 8.3,1.18 if x==cx and main else (.74 if main else .83)))
  openings.append((cx,.15,2.55,1.65 if main else 1.25))
  facade('Central pavilion' if main else 'Secondary pavilion',cx,w,h,0,openings)
  cube('Pavilion rear',(cx,7.7,h/2),(w,.55,h),stone[2])
@@ -269,11 +269,12 @@ def cam(name,loc,target,lens=48,ortho=None):
 hero=cam('CAM_Hero',(37,-58,23),(0,2,6.6),48)
 elev=cam('CAM_Elevation',(0,-70,8),(0,0,8),48,62)
 detail=cam('CAM_Heritage_detail',(12,-24,12),(0,0,8.5),53)
-canopy=cam('CAM_Canopy_detail',(24,7,7),(4,19,3.1),44)
+canopy=cam('CAM_Canopy_detail',(32,10,8),(2,19,3.1),40)
 scene.camera=hero;scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
 scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=75
 scene.view_settings.view_transform='AgX';scene.render.image_settings.file_format='PNG'
 scene['README']='Photo-reconstructed November 2022 TVC heritage module. Metres, no surveyed dimensions. Read README.md. Canopy is detached study, not exact yard.'
+scene['flank_proportion_review_applied']=True
 scene['reference_era']='2022-11-14';scene['source_measured_station_dimensions']=False
 # Packed files only procedural materials; fonts packed by Blender.
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'TVC_heritage_2022.blend'))
