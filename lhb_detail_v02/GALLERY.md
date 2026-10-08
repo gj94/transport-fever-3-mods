@@ -1,6 +1,6 @@
 # LHB source review gallery
 
-**16 of 21 planned source-matched final-resolution frames complete.**
+**18 of 21 planned source-matched final-resolution frames complete.**
 
 Every linked image is an actual Blender CPU Cycles render of its named source. No image generation or photographic compositing. Uniform checkpointed views average eight independent 64-sample scene-linear EXRs, then apply AgX once. No denoising; some interior grain remains visible.
 
@@ -49,8 +49,8 @@ Sleeper corridor frames primarily show layout. The 3A bay view below provides cl
 
 - [3A bay](previews/LHB_3A_bay.png) · [provenance](qa/render_3A_bay.json)
 - [CC chair detail](previews/LHB_CC_chair_detail.png) · [provenance](qa/render_CC_chair_detail.json)
-- 1A cabin entry: pending
-- 3A hvac: pending
+- [1A cabin entry](previews/LHB_1A_cabin_entry.png) · [provenance](qa/render_1A_cabin_entry.json)
+- [3A hvac](previews/LHB_3A_hvac.png) · [provenance](qa/render_3A_hvac.json)
 - 3A bogie: pending
 - 3A door: pending
 - 3A toilet: pending

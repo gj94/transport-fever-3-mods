@@ -1,6 +1,6 @@
 {
   "gallery_status": "in_progress",
-  "completed": 16,
+  "completed": 18,
   "planned": 21,
   "native_authoring": "Blender .blend, metre-scale class-specific source masters",
   "portable_exchange": "FBX with documented shader/alpha fallback",
@@ -266,14 +266,34 @@
     {
       "variant": "1A",
       "view": "cabin_entry",
-      "status": "pending",
-      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8"
+      "status": "complete",
+      "source_sha256": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+      "image": "previews/LHB_1A_cabin_entry.png",
+      "record": "qa/render_1A_cabin_entry.json",
+      "image_sha256": "15928c117f55ec90c48cb057ef0d4439707b10abc04f41adec766935a7f62230",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
     },
     {
       "variant": "3A",
       "view": "hvac",
-      "status": "pending",
-      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7"
+      "status": "complete",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "image": "previews/LHB_3A_hvac.png",
+      "record": "qa/render_3A_hvac.json",
+      "image_sha256": "bb9e213ec0a5714aa152539ce9c1e19a5f34d6974413dc5dd60232075e929568",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
     },
     {
       "variant": "3A",

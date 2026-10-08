@@ -90,3 +90,7 @@ Completed actual 1400×840 uniform 512-sample bay view in 1408.7 seconds and ins
 ## CC chair close-up final, 8 October 2026 03:29 UTC
 
 Actual 1400×840 uniform 512-sample close-up completed in 1625.1 seconds. Thin draped linen, upholstery piping, tray backs, nets, bracket-mounted bottle cages and footrests are legible. No newly visible attachment defect. Some bevel faceting is visible at this close range; the geometry remains the previously approved locked source. Sixteen of 21 frames complete, with 1A cabin-entry detail running next.
+
+## 1A cabin-entry final, 8 October 2026 04:30 UTC
+
+Actual 1400×840 uniform 512-sample cabin-entry image completed after recovery, reusing two valid 64-sample batches and spending 1049.5 seconds on the resumed run. Sliding doorway, burgundy upholstery, upper-berth access steps/stiles and mounted hooks are clearly visible without a newly observed attachment defect. Seventeen of 21 finals complete; HVAC detail follows. The stored resumed duration does not include earlier saved-batch time.

@@ -79,9 +79,7 @@
     {
       "variant": "CC",
       "view": "chair_detail"
-    }
-  ],
-  "pending": [
+    },
     {
       "variant": "1A",
       "view": "cabin_entry"
@@ -89,7 +87,9 @@
     {
       "variant": "3A",
       "view": "hvac"
-    },
+    }
+  ],
+  "pending": [
     {
       "variant": "3A",
       "view": "bogie"
@@ -104,7 +104,7 @@
     }
   ],
   "active": {
-    "variant": "1A",
-    "view": "cabin_entry"
+    "variant": "3A",
+    "view": "bogie"
   }
 }

@@ -68,3 +68,7 @@ The portable implementation is `scripts/checkpoint_render.py`, invoked through `
 See [GALLERY.md](GALLERY.md) for the current source-matched 21-view gallery and [DELIVERY_STATUS.json](DELIVERY_STATUS.json) for measured completion. These indexes are regenerated from actual source/image hashes before checkpointing; they do not treat stale or low-sample images as final. The approved set is fourteen class interiors/exteriors plus seven detail views, including the added 3A bay camera.
 
 Native editable sources are the seven `.blend` masters in `models/`; paired `.fbx` files are portable exchange exports. This folder structure is not a native Transport Fever 3 mod and does not assert runtime readiness. See the explicit limitations above. Historical renderer helper bytes needed to explain earlier fingerprints are preserved under `scripts/render_provenance/`.
+
+## Visible fidelity caveats
+
+The models are detailed reference-informed authoring assets, not a claim of photorealistic perfection. At close range, some CC tray and armrest bevels reveal polygon faceting. Interior frames retain visible path-tracing grain because denoising is disabled. Sleeper corridor views mostly document layout; the 3A bay detail shows berth faces more clearly. Fine fixtures, coupler castings and equipment placement are representative interpretations, and editable-font tessellation warnings remain disclosed in QA. These limits do not change the measured source/FBX checks or imply native game readiness.
