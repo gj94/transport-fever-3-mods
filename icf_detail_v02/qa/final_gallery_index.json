@@ -1,5 +1,5 @@
 {
-  "completed_views": 14,
+  "completed_views": 16,
   "expected_views": 24,
   "images": [
     {
@@ -17,6 +17,22 @@
       "metadata": "1A/renders/cabin_diagonal_final.json",
       "source_blend_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
       "image_sha256": "f0f4db9f69d4bae3edc3b3d02557bc0876d96a1ee77f79e9f4b54bf93f9a669b"
+    },
+    {
+      "variant": "1A",
+      "view": "cabin_cutaway",
+      "image": "1A/renders/cabin_cutaway_final.png",
+      "metadata": "1A/renders/cabin_cutaway_final.json",
+      "source_blend_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
+      "image_sha256": "bcef32143fbec092946f9b2f123d1743e6cb595f6fe3819525e6fcd0f6144436"
+    },
+    {
+      "variant": "1A",
+      "view": "markings",
+      "image": "1A/renders/markings_final.png",
+      "metadata": "1A/renders/markings_final.json",
+      "source_blend_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
+      "image_sha256": "a3403ff685a8823271f76a8c8b0aad663443e0d3f9c124119052be174c758bcd"
     },
     {
       "variant": "2A",

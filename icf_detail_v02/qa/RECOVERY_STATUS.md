@@ -29,3 +29,10 @@ Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main pu
 2026-10-08 02:43 UTC: SL hero/bay completed and pixel/provenance reviewed, 12/24 final images current-source verified. Session94510 moved into GS hero. New README/gallery portable instructions and dependency inventory/checks ready for checkpoint. No source/render changes.
 
 2026-10-08 03:27 UTC: All seven exterior/interior pairs are completed, pixel-reviewed and current-source verified (14/24). Session94510 continues into 1A cabin_cutaway, followed by remaining detail views. Locked sources unchanged, no native/runtime claims.
+
+2026-10-08 04:12 UTC: Environment replacement killed session94510. Fourteen final images still verified; 1A cabin_cutaway retains three durable hash-verified EXR batches. Resuming unchanged queue for remaining five batches and remaining details. No source or renderer edits.
+
+2026-10-08 04:47 UTC: Environment reset killed prior queue. No Blender/queue process remained. Resumed unchanged run_final_gallery.py in session45177; 1A markings retains one durable EXR batch and resumes remaining seven. Current audit confirms15/24 current-source verified frames, including parent-reviewed1A cabin_cutaway. Portable source/dependency check passes (qa/portable_package_recovery_0447.json). All source and renderer hashes unchanged. Complete remaining nine details before final gallery closure.
+
+
+2026-10-08 05:03 UTC: 1A markings completed and pixel/provenance reviewed. Gallery16/24, sources unchanged; queue session45177 continues 2A side_berth. 1A cabin_cutaway plus markings immutable pair prepared for backup.
