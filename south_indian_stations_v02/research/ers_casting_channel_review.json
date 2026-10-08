@@ -1,0 +1,169 @@
+{
+  "note": "Offline diagnostic of new proposed casting envelope clipped only by two event channels; additional routechannels intersecting remaining solid would be blocked. Approximate close-to-source offsets.",
+  "events_checked": 110,
+  "events_with_other_channel_interference": 9,
+  "hits": [
+    {
+      "event_index": 75,
+      "xy": [
+        -415.1710205078125,
+        24.521942138671875
+      ],
+      "pair": [
+        "1311408253",
+        "827738559"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "640552565",
+          "side": -1,
+          "blocked_channel_area_m2": 0.023553
+        }
+      ]
+    },
+    {
+      "event_index": 80,
+      "xy": [
+        539.171142578125,
+        22.772659301757812
+      ],
+      "pair": [
+        "1311408253",
+        "514137867"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "743768356",
+          "side": -1,
+          "blocked_channel_area_m2": 0.146873
+        }
+      ]
+    },
+    {
+      "event_index": 81,
+      "xy": [
+        -415.214111328125,
+        26.257497787475586
+      ],
+      "pair": [
+        "1311408253",
+        "640552565"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "827738559",
+          "side": -1,
+          "blocked_channel_area_m2": 0.01433
+        }
+      ]
+    },
+    {
+      "event_index": 89,
+      "xy": [
+        -375.595458984375,
+        35.269649505615234
+      ],
+      "pair": [
+        "1312327364",
+        "827738560"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "1453149441",
+          "side": 1,
+          "blocked_channel_area_m2": 0.060201
+        }
+      ]
+    },
+    {
+      "event_index": 101,
+      "xy": [
+        627.6644897460938,
+        31.30594825744629
+      ],
+      "pair": [
+        "1453149441",
+        "1453149440"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "1453154556",
+          "side": -1,
+          "blocked_channel_area_m2": 0.000144
+        }
+      ]
+    },
+    {
+      "event_index": 102,
+      "xy": [
+        -374.405517578125,
+        35.28964614868164
+      ],
+      "pair": [
+        "1453149441",
+        "827738560"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "1312327364",
+          "side": 1,
+          "blocked_channel_area_m2": 0.031683
+        }
+      ]
+    },
+    {
+      "event_index": 103,
+      "xy": [
+        627.6940307617188,
+        26.683950424194336
+      ],
+      "pair": [
+        "1453149442",
+        "514137867"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "1311408254",
+          "side": -1,
+          "blocked_channel_area_m2": 0.033895
+        }
+      ]
+    },
+    {
+      "event_index": 108,
+      "xy": [
+        563.9664306640625,
+        38.185546875
+      ],
+      "pair": [
+        "1453154556",
+        "49015817"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "285881585",
+          "side": 1,
+          "blocked_channel_area_m2": 0.017608
+        }
+      ]
+    },
+    {
+      "event_index": 109,
+      "xy": [
+        627.6880493164062,
+        33.0418701171875
+      ],
+      "pair": [
+        "1453154556",
+        "1453149440"
+      ],
+      "third_channel_interference": [
+        {
+          "route": "1453149441",
+          "side": -1,
+          "blocked_channel_area_m2": 0.042816
+        }
+      ]
+    }
+  ]
+}

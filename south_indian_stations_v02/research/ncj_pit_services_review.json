@@ -1,0 +1,1329 @@
+{
+  "note": "Analytic original mapped path/chord source review, before final physical switch patches. Walkways atz.30\u2013.50 andrisers.35\u20131.0 require all-route avoidance; exact centreline overlaps flagged.",
+  "walkway_overlaps": [
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "rail_centreline_intersections": [
+        "514385386"
+      ]
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "rail_centreline_intersections": [
+        "514385387"
+      ]
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "rail_centreline_intersections": [
+        "514385387"
+      ]
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "rail_centreline_intersections": [
+        "514385388"
+      ]
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "rail_centreline_intersections": [
+        "514385388"
+      ]
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "rail_centreline_intersections": [
+        "514385390"
+      ]
+    }
+  ],
+  "riser_gross_conflicts": [
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        126.313,
+        80.681
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.048
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        114.313,
+        80.691
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.181
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -257.687,
+        80.996
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 1.096
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -269.687,
+        81.006
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.948
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -281.687,
+        81.016
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.828
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -293.687,
+        81.026
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.733
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -305.687,
+        81.036
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.638
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -317.687,
+        81.046
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.543
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -329.687,
+        81.055
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.448
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -341.687,
+        81.065
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.353
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -353.687,
+        81.075
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.258
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -365.687,
+        81.085
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.163
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -377.687,
+        81.095
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.068
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -389.687,
+        81.105
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.027
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": -1,
+      "riser_xy": [
+        -401.686,
+        81.115
+      ],
+      "nearest_route": "514385386",
+      "distance_m": 0.122
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -5.69,
+        77.189
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.095
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -17.69,
+        77.199
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.963
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -29.69,
+        77.209
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.831
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -41.69,
+        77.219
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.698
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -53.69,
+        77.229
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.566
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -65.69,
+        77.239
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.434
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -77.69,
+        77.248
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.301
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -89.69,
+        77.258
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.169
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -101.69,
+        77.268
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.037
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -113.69,
+        77.278
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.096
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -125.69,
+        77.288
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.228
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -137.69,
+        77.298
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.361
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -149.69,
+        77.308
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.493
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -161.69,
+        77.317
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.625
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -173.69,
+        77.327
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.758
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -185.69,
+        77.337
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.89
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -197.69,
+        77.347
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.022
+    },
+    {
+      "pit_source_route": "514385386",
+      "side": 1,
+      "riser_xy": [
+        -209.69,
+        77.357
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.155
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        208.023,
+        77.359
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.15
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        28.023,
+        77.525
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.104
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        16.023,
+        77.536
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.97
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        4.023,
+        77.547
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.837
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -7.977,
+        77.558
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.703
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -19.977,
+        77.569
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.569
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -31.977,
+        77.581
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.436
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -43.977,
+        77.592
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.302
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -55.977,
+        77.603
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.169
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -67.977,
+        77.614
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.035
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -79.977,
+        77.625
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.099
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -91.977,
+        77.636
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.232
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -103.977,
+        77.647
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.366
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -115.977,
+        77.658
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.499
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -127.977,
+        77.669
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.633
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -139.977,
+        77.68
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.767
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -151.977,
+        77.691
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 0.9
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -163.977,
+        77.703
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.034
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": -1,
+      "riser_xy": [
+        -175.977,
+        77.714
+      ],
+      "nearest_route": "514385387",
+      "distance_m": 1.167
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        172.02,
+        73.792
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 1.126
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        160.02,
+        73.803
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.975
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        148.02,
+        73.814
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.824
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        136.02,
+        73.825
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.673
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        124.02,
+        73.836
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.523
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        112.02,
+        73.847
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.372
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        100.02,
+        73.859
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.221
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        88.02,
+        73.87
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.07
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        76.02,
+        73.881
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.081
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        64.02,
+        73.892
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.232
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        52.02,
+        73.903
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.382
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        40.02,
+        73.914
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.533
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        28.02,
+        73.925
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.684
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        16.02,
+        73.936
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.835
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        4.02,
+        73.947
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.986
+    },
+    {
+      "pit_source_route": "514385387",
+      "side": 1,
+      "riser_xy": [
+        -7.98,
+        73.958
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 1.136
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        7.176,
+        71.89
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 1.108
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -4.824,
+        71.854
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 1.005
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -16.824,
+        71.818
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.901
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -28.824,
+        71.782
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.797
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -40.824,
+        71.746
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.694
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -52.824,
+        71.71
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.59
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -64.824,
+        71.674
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.486
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -76.823,
+        71.638
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.383
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -88.823,
+        71.601
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.279
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -100.823,
+        71.565
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.175
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -112.823,
+        71.529
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.072
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -124.823,
+        71.493
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.032
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -136.823,
+        71.457
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.136
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -148.823,
+        71.421
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.239
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -160.823,
+        71.385
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.343
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -172.823,
+        71.349
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.447
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -184.823,
+        71.313
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.55
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -196.823,
+        71.277
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.654
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -208.823,
+        71.241
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.757
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -220.823,
+        71.205
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.861
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -232.823,
+        71.169
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 0.965
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -244.823,
+        71.133
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 1.068
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": -1,
+      "riser_xy": [
+        -256.823,
+        71.096
+      ],
+      "nearest_route": "514385388",
+      "distance_m": 1.172
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        163.186,
+        68.759
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.899
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        151.186,
+        68.723
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.787
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        139.186,
+        68.687
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.675
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        127.186,
+        68.651
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.563
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        115.186,
+        68.615
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.451
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        103.187,
+        68.579
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.339
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        91.187,
+        68.543
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.227
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        79.187,
+        68.506
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.115
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        67.187,
+        68.47
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.003
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        55.187,
+        68.434
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.109
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        43.187,
+        68.398
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.221
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        31.187,
+        68.362
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.333
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        19.187,
+        68.326
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.444
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        7.187,
+        68.29
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.556
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        -4.813,
+        68.254
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.668
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        -16.813,
+        68.218
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.78
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        -28.813,
+        68.182
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 0.892
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        -40.813,
+        68.146
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 1.004
+    },
+    {
+      "pit_source_route": "514385388",
+      "side": 1,
+      "riser_xy": [
+        -52.813,
+        68.11
+      ],
+      "nearest_route": "514385390",
+      "distance_m": 1.116
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -95.533,
+        103.346
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.193
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -107.532,
+        103.2
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.14
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -119.531,
+        103.053
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.087
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -131.53,
+        102.907
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.035
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -143.529,
+        102.761
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.982
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -155.528,
+        102.614
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.929
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -167.528,
+        102.468
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.876
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -179.527,
+        102.322
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.897
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -191.526,
+        102.175
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.927
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -203.525,
+        102.029
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.957
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -215.524,
+        101.883
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 0.987
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -227.523,
+        101.736
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.018
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -239.522,
+        101.59
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.048
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -251.521,
+        101.444
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.078
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -263.52,
+        101.298
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.108
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -275.52,
+        101.151
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.138
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -287.519,
+        101.005
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.169
+    },
+    {
+      "pit_source_route": "1302623383",
+      "side": 1,
+      "riser_xy": [
+        -299.518,
+        100.859
+      ],
+      "nearest_route": "1302623383",
+      "distance_m": 1.199
+    }
+  ]
+}

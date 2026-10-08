@@ -1,0 +1,68 @@
+{
+  "file": "/workspace/scratch/652ca471b64e/south_indian_stations_v02/tvc/TVC_full_station_v02.blend",
+  "objects": 6596,
+  "platform_bodies": [
+    "Mapped platform 4|5",
+    "Mapped platform 2;3",
+    "Mapped platform 1"
+  ],
+  "stock_name_candidates": [
+    "Sign CARRIAGE & WAGON  /  MAINTENANCE",
+    "Sign CARRIAGE & WAGON  /  MAINTENANCE.001",
+    "Sign CARRIAGE & WAGON  /  MAINTENANCE.002"
+  ],
+  "legacy_doorway_proxies": [],
+  "ray_checks": {
+    "heritage_entry": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "heritage_to_platform": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "fob_1_p1": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "fob_1_p23": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "fob_1_p45": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "fob_2_p1": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "fob_2_p23": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "fob_2_p45": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    }
+  },
+  "scene_metadata": {
+    "README": "Photo-reconstructed November 2022 TVC heritage module. Metres, no surveyed dimensions. Read README.md. Canopy is detached study, not exact yard.",
+    "reference_era": "2022-11-14",
+    "source_measured_station_dimensions": "False",
+    "flank_proportion_review_applied": "True",
+    "asset_status": "TVC full-scale visual reconstruction, 2022 heritage plus mixed-date OSM railway footprint; not surveyed as-built",
+    "no_rolling_stock": "True",
+    "gauge_inner_head_metres": "1.676",
+    "mapping_attribution": "\u00a9 OpenStreetMap contributors, ODbL",
+    "interior_status": "Functional furnished reconstructions; exact floorplan unverified"
+  }
+}

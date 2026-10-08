@@ -1,0 +1,567 @@
+{
+  "tvc": {
+    "note": "Analytic source-geometry risk sweep. Exact centreline crossings definite plan overlap; additional near routes within rail-envelope0.9m+utilityhalfwidth. Utilities wholly below railfoot may be under-track ducts but must be explicitly designed/lowered, not assumed acceptable. TVC legacyfixedtroughs pendingworkerfix.",
+    "hits": [
+      {
+        "name": "legacy cable trough y72",
+        "z_top_m": 0.175,
+        "centreline_crossings": [
+          {
+            "route": "641650016",
+            "xy": [
+              259.448,
+              72.0
+            ]
+          },
+          {
+            "route": "641650016",
+            "xy": [
+              231.575,
+              72.0
+            ]
+          },
+          {
+            "route": "641650017",
+            "xy": [
+              311.227,
+              72.0
+            ]
+          },
+          {
+            "route": "641650017",
+            "xy": [
+              -209.865,
+              72.0
+            ]
+          },
+          {
+            "route": "641863868",
+            "xy": [
+              329.843,
+              72.0
+            ]
+          },
+          {
+            "route": "641863868",
+            "xy": [
+              -239.3,
+              72.0
+            ]
+          },
+          {
+            "route": "641863869",
+            "xy": [
+              349.662,
+              72.0
+            ]
+          },
+          {
+            "route": "641863869",
+            "xy": [
+              -261.925,
+              72.0
+            ]
+          },
+          {
+            "route": "641863871",
+            "xy": [
+              364.521,
+              72.0
+            ]
+          },
+          {
+            "route": "641863872",
+            "xy": [
+              351.486,
+              72.0
+            ]
+          },
+          {
+            "route": "641863873",
+            "xy": [
+              382.224,
+              72.0
+            ]
+          },
+          {
+            "route": "641863874",
+            "xy": [
+              393.018,
+              72.0
+            ]
+          },
+          {
+            "route": "641863876",
+            "xy": [
+              -268.679,
+              72.0
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "legacy cable trough y121",
+        "z_top_m": 0.175,
+        "centreline_crossings": [
+          {
+            "route": "641863875",
+            "xy": [
+              256.985,
+              121.0
+            ]
+          },
+          {
+            "route": "641863876",
+            "xy": [
+              200.504,
+              121.0
+            ]
+          },
+          {
+            "route": "641863877",
+            "xy": [
+              -99.846,
+              121.0
+            ]
+          },
+          {
+            "route": "641863878",
+            "xy": [
+              -107.769,
+              121.0
+            ]
+          },
+          {
+            "route": "641863883",
+            "xy": [
+              -122.236,
+              121.0
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      }
+    ]
+  },
+  "ncj": {
+    "note": "Analytic source-geometry risk sweep. Exact centreline crossings definite plan overlap; additional near routes within rail-envelope0.9m+utilityhalfwidth. Utilities wholly below railfoot may be under-track ducts but must be explicitly designed/lowered, not assumed acceptable. TVC legacyfixedtroughs pendingworkerfix.",
+    "hits": [
+      {
+        "name": "cable trough y7",
+        "z_top_m": 0.22,
+        "centreline_crossings": [
+          {
+            "route": "383031401",
+            "xy": [
+              -284.994,
+              7.0
+            ]
+          },
+          {
+            "route": "642058778",
+            "xy": [
+              314.056,
+              7.0
+            ]
+          }
+        ],
+        "additional_close_routes": [
+          "642058781"
+        ]
+      },
+      {
+        "name": "cable trough y24.7",
+        "z_top_m": 0.22,
+        "centreline_crossings": [
+          {
+            "route": "383031403",
+            "xy": [
+              55.735,
+              24.7
+            ]
+          },
+          {
+            "route": "383031403",
+            "xy": [
+              -456.82,
+              24.7
+            ]
+          },
+          {
+            "route": "514385391",
+            "xy": [
+              -438.064,
+              24.7
+            ]
+          },
+          {
+            "route": "642058778",
+            "xy": [
+              409.958,
+              24.7
+            ]
+          },
+          {
+            "route": "642058779",
+            "xy": [
+              222.174,
+              24.7
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "cable trough y45.5",
+        "z_top_m": 0.22,
+        "centreline_crossings": [
+          {
+            "route": "96236046",
+            "xy": [
+              -546.57,
+              45.5
+            ]
+          },
+          {
+            "route": "383031403",
+            "xy": [
+              367.971,
+              45.5
+            ]
+          },
+          {
+            "route": "642058783",
+            "xy": [
+              354.027,
+              45.5
+            ]
+          },
+          {
+            "route": "992276369",
+            "xy": [
+              -131.856,
+              45.5
+            ]
+          },
+          {
+            "route": "1434793650",
+            "xy": [
+              182.236,
+              45.5
+            ]
+          }
+        ],
+        "additional_close_routes": [
+          "992276368"
+        ]
+      },
+      {
+        "name": "drain wall y8.6",
+        "z_top_m": 0.24,
+        "centreline_crossings": [
+          {
+            "route": "383031401",
+            "xy": [
+              -411.652,
+              8.6
+            ]
+          },
+          {
+            "route": "642058778",
+            "xy": [
+              323.793,
+              8.6
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "drain wall y9.4",
+        "z_top_m": 0.24,
+        "centreline_crossings": [
+          {
+            "route": "383031401",
+            "xy": [
+              -474.981,
+              9.4
+            ]
+          },
+          {
+            "route": "642058778",
+            "xy": [
+              328.256,
+              9.4
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      }
+    ]
+  },
+  "ers": {
+    "note": "Analytic source-geometry risk sweep. Exact centreline crossings definite plan overlap; additional near routes within rail-envelope0.9m+utilityhalfwidth. Utilities wholly below railfoot may be under-track ducts but must be explicitly designed/lowered, not assumed acceptable. TVC legacyfixedtroughs pendingworkerfix.",
+    "hits": [
+      {
+        "name": "cable trough y11",
+        "z_top_m": 0.27,
+        "centreline_crossings": [
+          {
+            "route": "640552559",
+            "xy": [
+              -188.825,
+              11.0
+            ]
+          },
+          {
+            "route": "640552563",
+            "xy": [
+              -194.23,
+              11.0
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "cable trough y106",
+        "z_top_m": 0.27,
+        "centreline_crossings": [
+          {
+            "route": "285881579",
+            "xy": [
+              556.23,
+              106.0
+            ]
+          },
+          {
+            "route": "640552579",
+            "xy": [
+              607.89,
+              106.0
+            ]
+          },
+          {
+            "route": "640552581",
+            "xy": [
+              519.373,
+              106.0
+            ]
+          },
+          {
+            "route": "640552583",
+            "xy": [
+              457.976,
+              106.0
+            ]
+          },
+          {
+            "route": "640552588",
+            "xy": [
+              399.633,
+              106.0
+            ]
+          },
+          {
+            "route": "640552592",
+            "xy": [
+              351.007,
+              106.0
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "service water pipe y11",
+        "z_top_m": 0.655,
+        "centreline_crossings": [
+          {
+            "route": "640552559",
+            "xy": [
+              -188.825,
+              11.0
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "service water pipe y106",
+        "z_top_m": 0.655,
+        "centreline_crossings": [
+          {
+            "route": "640552588",
+            "xy": [
+              399.633,
+              106.0
+            ]
+          },
+          {
+            "route": "640552592",
+            "xy": [
+              351.007,
+              106.0
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "drain wall y3.45",
+        "z_top_m": 0.29,
+        "centreline_crossings": [
+          {
+            "route": "640552559",
+            "xy": [
+              -139.148,
+              3.45
+            ]
+          },
+          {
+            "route": "640552563",
+            "xy": [
+              -172.163,
+              3.45
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "drain wall y4.55",
+        "z_top_m": 0.29,
+        "centreline_crossings": [
+          {
+            "route": "640552559",
+            "xy": [
+              -151.679,
+              4.55
+            ]
+          },
+          {
+            "route": "640552563",
+            "xy": [
+              -174.749,
+              4.55
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "drain wall y114.45",
+        "z_top_m": 0.29,
+        "centreline_crossings": [
+          {
+            "route": "285881579",
+            "xy": [
+              583.325,
+              114.45
+            ]
+          },
+          {
+            "route": "640552579",
+            "xy": [
+              626.119,
+              114.45
+            ]
+          },
+          {
+            "route": "640552581",
+            "xy": [
+              574.725,
+              114.45
+            ]
+          },
+          {
+            "route": "640552583",
+            "xy": [
+              527.81,
+              114.45
+            ]
+          },
+          {
+            "route": "640552588",
+            "xy": [
+              464.958,
+              114.45
+            ]
+          },
+          {
+            "route": "640552590",
+            "xy": [
+              368.039,
+              114.45
+            ]
+          },
+          {
+            "route": "640552592",
+            "xy": [
+              366.447,
+              114.45
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      },
+      {
+        "name": "drain wall y115.55",
+        "z_top_m": 0.29,
+        "centreline_crossings": [
+          {
+            "route": "285881579",
+            "xy": [
+              586.786,
+              115.55
+            ]
+          },
+          {
+            "route": "640552579",
+            "xy": [
+              628.523,
+              115.55
+            ]
+          },
+          {
+            "route": "640552581",
+            "xy": [
+              580.151,
+              115.55
+            ]
+          },
+          {
+            "route": "640552583",
+            "xy": [
+              536.576,
+              115.55
+            ]
+          },
+          {
+            "route": "640552588",
+            "xy": [
+              474.015,
+              115.55
+            ]
+          },
+          {
+            "route": "640552590",
+            "xy": [
+              370.877,
+              115.55
+            ]
+          },
+          {
+            "route": "640552592",
+            "xy": [
+              368.077,
+              115.55
+            ]
+          }
+        ],
+        "additional_close_routes": []
+      }
+    ]
+  }
+}

@@ -54,7 +54,7 @@ Accepted earlier interior proof. The exact historical source binary hash was not
 
 ## ERS · platform concourse
 
-Accepted interim platform view. Source-scene SHA256 is in its review sidecar; final packed-scene validation/export remain pending.
+Reviewed current corrected platform view, including stocked kiosk serving frontage, canopy structure and passenger amenities. Exact corrected scene lineage is recorded. Final package/export still pending.
 
 [![ERS · platform concourse](ers_platform_concourse.png)](ers_platform_concourse.png)
 
@@ -72,6 +72,6 @@ Labelled schematic coverage plan, not a final Blender yard render. Current-map g
 
 ## Revisions and rights
 
-[TVC booking source hash](tvc_booking_hall_provenance.json) · [NCJ render revisions](ncj_render_provenance.json) · [NCJ pointwork source lineage](ncj_proof_source_lineage.json) · [ERS ticket hall](ers_ticket_hall_review.json) · [ERS platform](ers_platform_concourse_review.json) · [ERS turnout](ers_turnout_frog_review.json) · [Corrected ERS proof lineage](ers_turnout_frog_proof.json).
+[TVC booking source hash](tvc_booking_hall_provenance.json) · [NCJ render revisions](ncj_render_provenance.json) · [NCJ pointwork source lineage](ncj_proof_source_lineage.json) · [ERS ticket hall](ers_ticket_hall_review.json) · [ERS platform](ers_platform_concourse_review.json) · [Corrected platform lineage](ers_platform_concourse_proof.json) · [ERS turnout](ers_turnout_frog_review.json) · [Corrected ERS proof lineage](ers_turnout_frog_proof.json).
 
 Yard plans use OpenStreetMap-derived data: © OpenStreetMap contributors, [copyright and ODbL information](https://www.openstreetmap.org/copyright). No new licence is granted for generated assets. Source notices remain applicable.

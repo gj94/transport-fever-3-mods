@@ -1,0 +1,12 @@
+{
+  "input": "ers/geometry/rail_solids.json",
+  "method": "Reconstruct actual JSON top-surface triangles; intersect combined running-head+blade solid against every generated45mm route flangechannel.2micrometre interior trim tolerates6decimalrounding.",
+  "head_area_m2": 1652.9148303186435,
+  "blade_area_m2": 39.050544264630375,
+  "head_blade_overlap_m2": 2.215417673660854e-10,
+  "all_channel_overlap_m2_raw": 0.0027302867439657195,
+  "all_channel_interior_overlap_m2": 0.0,
+  "pass": true,
+  "normal_flangeway_target_m": 0.045,
+  "limitation": "Verifies generated head/blade mesh only. Final scene must remove oldrail/casting overlays; checkrails and turnout assembly separately reviewed."
+}

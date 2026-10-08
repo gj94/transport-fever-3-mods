@@ -1,0 +1,39 @@
+{
+  "source": "ncj/scripts/repair_ncj_pits.py proposed unexecuted plan",
+  "facilities": [
+    {
+      "road": "514385386",
+      "pit_length_m": 413.9999860192864,
+      "walkway_sections": 276,
+      "risers": 70
+    },
+    {
+      "road": "514385387",
+      "pit_length_m": 300.00000000000017,
+      "walkway_sections": 200,
+      "risers": 50
+    },
+    {
+      "road": "514385388",
+      "pit_length_m": 407.9999999999996,
+      "walkway_sections": 272,
+      "risers": 68
+    },
+    {
+      "road": "1302623382",
+      "pit_length_m": 278.9999999999998,
+      "walkway_sections": 186,
+      "risers": 46
+    },
+    {
+      "road": "1302623383",
+      "pit_length_m": 311.9999968125747,
+      "walkway_sections": 208,
+      "risers": 52
+    }
+  ],
+  "minimum_entire_walkway_footprint_to_rail_centre_m": 1.5055344040634955,
+  "minimum_hose_path_to_rail_centre_m": 1.4998624389214021,
+  "gross_interference_pass": true,
+  "note": "Independent analytic all-map geometry check including full3mwalkway footprint andhorizontal hose extent; no engineeringcertification. Source plan only until scene applied."
+}

@@ -1,0 +1,64 @@
+{
+  "file": "/workspace/scratch/652ca471b64e/south_indian_stations_v02/ers/ERS_full_station_v02.blend",
+  "objects": 23074,
+  "platform_bodies": [
+    "Platform 4,5 red retaining body",
+    "Platforms 2/3 red retaining body",
+    "Platform 1 red retaining body",
+    "Platform No. 6 red retaining body"
+  ],
+  "boundary_post_y": [
+    -21.0,
+    160.0
+  ],
+  "workshop_centre": [
+    [
+      520.0,
+      168.0,
+      0.20000000298023224
+    ]
+  ],
+  "rays": {
+    "bridge_-60_19": {
+      "clear": true,
+      "hit_object": null
+    },
+    "bridge_-60_48": {
+      "clear": false,
+      "hit_object": "Bridge lattice upright.033"
+    },
+    "bridge_-60_68": {
+      "clear": false,
+      "hit_object": "Bridge lattice upright.038"
+    },
+    "bridge_-60_98": {
+      "clear": true,
+      "hit_object": null
+    },
+    "bridge_100_19": {
+      "clear": true,
+      "hit_object": null
+    },
+    "bridge_100_48": {
+      "clear": false,
+      "hit_object": "Bridge lattice upright.081"
+    },
+    "bridge_100_68": {
+      "clear": false,
+      "hit_object": "Bridge lattice upright.086"
+    },
+    "bridge_100_98": {
+      "clear": true,
+      "hit_object": null
+    },
+    "west_hall_to_p1": {
+      "clear": true,
+      "hit_object": null
+    },
+    "east_p6_threshold": {
+      "clear": false,
+      "hit_object": "East passenger notice frame"
+    }
+  },
+  "stock_name_candidates": []
+}

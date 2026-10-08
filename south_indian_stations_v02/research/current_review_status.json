@@ -1,0 +1,71 @@
+{
+  "review_date": "2026-10-08",
+  "scope": "Independent visual-reconstruction evidence, topology, circulation and physical-detail review. Not an engineering survey or operational certification.",
+  "NCJ": {
+    "status": "accepted_visual_reconstruction",
+    "platforms": "Side platform 1 and island 2/3, with terminal bay 1A; two principal mapped platform bodies.",
+    "pointwork_proofs": [
+      "ncj/renders/17_PHYSICAL_TURNOUT_6045464001.png",
+      "ncj/renders/18_FROG_DETAIL_6045464001.png",
+      "ncj/renders/19_SWITCH_TOE_6045464001.png"
+    ],
+    "pointwork_scope": "20 simple reconstructed switch envelopes and 14 explicitly approximate compound/short junction treatments.",
+    "circulation": "Independent earlier scene rays passed office doorways and both bridge entrances; final worker validation reports six clear circulation rays.",
+    "service_clearance": "Revised pit walkways independently checked as complete footprints: minimum 1.5055m to mapped rail centrelines; hose paths minimum 1.4999m. Final OHE report minimum leg-centre clearance 3.4064m.",
+    "rolling_stock": "No model rolling stock identified; label-name matches excluded.",
+    "remaining_known_blockers": [],
+    "limitations": "Mixed-date references; room plans, pit assignments, detailed switches and some route connections reconstructed. Final exports must match the accepted scene.",
+    "proof_sha256": {
+      "ncj/renders/17_PHYSICAL_TURNOUT_6045464001.png": "3dbdd0d828648370e1aa4d8b0416039e15b85ea6a2d78d657c7eccf979db9c9f",
+      "ncj/renders/18_FROG_DETAIL_6045464001.png": "6e3543aaf2292f980b43ba3b510af5f29e24629e9d4f7b8b202a065abbfa4866",
+      "ncj/renders/19_SWITCH_TOE_6045464001.png": "9e3dcf1abb9d82283531aea5826959dfa22ab9f15ef5620172c5d349ed83ed1d"
+    }
+  },
+  "TVC": {
+    "status": "accepted_visual_reconstruction_pending_final_bake_sync",
+    "accepted": [
+      "Three platform bodies for five faces",
+      "Eight independent circulation rays clear",
+      "No rolling stock identified",
+      "Actual head/blade mesh has no intrusion into all-route flange channels",
+      "Representative unioned frog visually coherent",
+      "Corrected15_Frog_closeup and10_Turnout_detail actual renders: unobstructed channels, rail-clear troughs, shared bearer grid and corrected foreground formation"
+    ],
+    "pending": [
+      "Final bake/export synchronization after harmless scatter and all-route prop clearance tidy; pointwork unchanged"
+    ],
+    "pointwork_proofs": [
+      "tvc/renders/15_Frog_closeup.png",
+      "tvc/renders/10_Turnout_detail.png"
+    ],
+    "proof_sha256": {
+      "tvc/renders/15_Frog_closeup.png": "ff67f58aac7297b3f1c643c104436a3a24d28505df290d212a2816e6fbf53ea9",
+      "tvc/renders/10_Turnout_detail.png": "20e7fb2234aae8947ea670ae1e2dc52bb5c8b83e14d6c1241529d8d182c1c53b"
+    }
+  },
+  "ERS": {
+    "status": "accepted_visual_reconstruction",
+    "accepted": [
+      "Four platform bodies for six faces",
+      "Corrected door/bridge connections and workshop/fence clearances",
+      "No rolling stock identified",
+      "Actual unioned head/blade mesh has no intrusion into all-route flange channels",
+      "New representative running-head proof visibly coherent",
+      "Corrected services independently clear of gross rail interference",
+      "Corrected13_Turnout_frog_detail actual render: continuous unioned ballast bed, no black formation voids, coherent supporting rail and flange channels"
+    ],
+    "pending": [
+      "Publication/export synchronization with accepted frozen scene; no additional audit rendering requested"
+    ],
+    "pointwork_proofs": [
+      "ers/renders/13_Turnout_frog_detail.png"
+    ],
+    "proof_sha256": {
+      "ers/renders/13_Turnout_frog_detail.png": "617b0c1143129b5a200820dd0e48d14ad0e2bd85ea76332b025f64337fab3fa2"
+    },
+    "proof_record_source_blend_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e",
+    "independently_checked_blend_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e",
+    "blend_matches_proof_record": true
+  },
+  "review_completed_utc": "2026-10-08T15:32:00Z"
+}

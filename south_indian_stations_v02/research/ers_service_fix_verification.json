@@ -1,0 +1,91 @@
+{
+  "source_method": "ERS2m sampled exposed/buried mains after correction; actual fullsegment min distance checked independently",
+  "minimum_aboveground_centreline_clearance_m": 2.239889441183336,
+  "elements": [
+    {
+      "type": "exposed main",
+      "endpoints": [
+        [
+          -176,
+          11
+        ],
+        [
+          388,
+          11
+        ]
+      ],
+      "min_centreline_clearance_m": 2.239889441183336
+    },
+    {
+      "type": "vertical depth transition",
+      "xy": [
+        -176,
+        11
+      ],
+      "min_centreline_clearance_m": 2.7687568483844056
+    },
+    {
+      "type": "vertical depth transition",
+      "xy": [
+        388,
+        11
+      ],
+      "min_centreline_clearance_m": 2.239889441183336
+    },
+    {
+      "type": "exposed main",
+      "endpoints": [
+        [
+          -190,
+          106
+        ],
+        [
+          346,
+          106
+        ]
+      ],
+      "min_centreline_clearance_m": 2.3330584019901512
+    },
+    {
+      "type": "exposed main",
+      "endpoints": [
+        [
+          358,
+          106
+        ],
+        [
+          384,
+          106
+        ]
+      ],
+      "min_centreline_clearance_m": 2.497510676194969
+    },
+    {
+      "type": "vertical depth transition",
+      "xy": [
+        346,
+        106
+      ],
+      "min_centreline_clearance_m": 2.3330584019901512
+    },
+    {
+      "type": "vertical depth transition",
+      "xy": [
+        358,
+        106
+      ],
+      "min_centreline_clearance_m": 3.258617314038656
+    },
+    {
+      "type": "vertical depth transition",
+      "xy": [
+        384,
+        106
+      ],
+      "min_centreline_clearance_m": 2.497510676194969
+    }
+  ],
+  "belowtrack_duct_top_m": -0.004,
+  "belowtrack_drainwall_top_m": -0.05,
+  "assessment": "No gross rail intersection in corrected source placements; finalscene/renders pending."
+}
