@@ -19,14 +19,15 @@ The platform arrangement is **side platform 1, terminal/bay 1A, and island faces
 
 ## Files and reproducibility
 - `NCJ_full_station_v02.blend`: editable, packed fonts; source scope in scene/collection metadata
-- `exports/NCJ_full_station_v02.glb`: portable mesh export (rendered procedural textures simplify to base materials)
+- `exports/NCJ_full_station_v02_GLTF.zip`: compressed portable GLB export; unzip to obtain NCJ_full_station_v02.glb (procedural textures simplify to base materials)
 - `scripts/build_ncj_full.py`: deterministic build; uses `scripts/facade_heritage.py`, `assets/`, and `references/local_geometry.json`
 - `scripts/render_ncj_full.py`: actual Blender render cameras
 - `scripts/export_ncj_full.py`: GLB export
-- `QA_BUILD.json`, `SOURCES_AND_UNCERTAINTIES.md`: actual inventory and evidence ledger
+- `QA_BUILD.json`, `QA_VALIDATION.json`, `SOURCES_AND_UNCERTAINTIES.md`: actual inventory and evidence ledger
 
 Run:
     blender -b -t 4 --python scripts/build_ncj_full.py
+    blender -b -t 4 --python scripts/add_review_labels.py
     blender -b -t 4 --python scripts/render_ncj_full.py
     blender -b -t 4 --python scripts/export_ncj_full.py
 
@@ -34,3 +35,5 @@ Camera navigation: use the named review cameras, or Blender walk navigation (Shi
 
 ## Limits
 No measured NCJ interior plan, authenticated contemporary yard drawing, exact signal numbering or verified current utility equipment positions were available. OSM is an open community map, not railway engineering authority. Supplemental pointwork is visual geometry, not simulation-ready interlocking or certified turnout design. Source photographs are not textures and are not redistributed in the publication package. No new licence is granted for generated assets; existing repository status is retained. OSM geometry retains ODbL attribution; see the source ledger.
+
+The top-down review view includes a separate review-only label collection, disabled in the default editable scene and excluded from the physical GLB export. Interior circulation was also checked by actual scene ray casts, including both stair-to-footbridge openings and office entrance gaps.
