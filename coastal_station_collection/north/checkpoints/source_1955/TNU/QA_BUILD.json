@@ -1,0 +1,96 @@
+{
+  "station_code": "TNU",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 1,
+  "platform_bodies_modeled": 0,
+  "road_cross_section_count": 1,
+  "source_route_segments": 2,
+  "mapped_turnout_nodes": 0,
+  "furnished_interiors": "Historical2016 building only: modest reconstructed waiting and booking furniture. Current corridor scene has no invented operating station.",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": "Closed 2017-07-10",
+  "sleeper_count": 3348,
+  "switch_hardware": [],
+  "historical_site_note": "The scene shows OSM mapped corridor near legacy station marker, not a verified remnant location. No ticket hall, operational platform, or fabricated active station is supplied.",
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 41,
+  "mesh_objects": 31,
+  "mesh_vertices": 289846,
+  "mesh_faces": 205894,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9",
+  "source_plan_sha256": "5345f35cd0aa509490d5689752d6b71d5af6805be949ed3401386f2c1815d448",
+  "blend_file": "TNU_coastal_station_v02.blend",
+  "blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "blend_bytes": 6269811,
+  "building_dimensions_m": {
+    "width": 0,
+    "length": 0,
+    "position_xy": [
+      0,
+      0
+    ],
+    "height": null
+  },
+  "platform_parameters": [],
+  "cameras": [
+    {
+      "name": "H1_Historical_2016_facade",
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED"
+    },
+    {
+      "name": "H2_Historical_interior",
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED"
+    },
+    {
+      "name": "H3_Historical_building_overview",
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED"
+    },
+    {
+      "name": "M1_Mapped_corridor_record",
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED"
+    },
+    {
+      "name": "M2_Closed_site_context",
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED"
+    }
+  ],
+  "peak_rss_kb": 328776,
+  "historical_scene_included": true,
+  "historical_scene_name": "HISTORIC_2016_BUILDING__UNPLACED",
+  "mapped_scene_name": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+  "historical_geometry_georeferenced": false,
+  "historical_building_dimensions_m": [
+    15.5,
+    6.8,
+    4.78
+  ],
+  "historical_facade_basis": "Actual August2016 capture; current survival and precise remnant location unresolved.",
+  "build_history_script_sha256": "1324142a7365cd126565f0c117a16a70a4f4fa39c92b24240c09bf90fb81ab72",
+  "all_scene_names": [
+    "HISTORIC_2016_BUILDING__UNPLACED",
+    "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED"
+  ]
+}

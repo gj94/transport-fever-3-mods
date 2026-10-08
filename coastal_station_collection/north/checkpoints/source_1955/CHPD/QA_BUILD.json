@@ -1,0 +1,314 @@
+{
+  "station_code": "CHPD",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 3,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 4,
+  "source_route_segments": 10,
+  "mapped_turnout_nodes": 12,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 11519,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        30.5731,
+        -605.9031
+      ],
+      "motor_xy": [
+        27.5231,
+        -605.9031
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05003576869618
+    },
+    {
+      "node_xy": [
+        31.7685,
+        -398.8318
+      ],
+      "motor_xy": [
+        28.7185,
+        -398.8318
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049996472820304
+    },
+    {
+      "node_xy": [
+        31.5318,
+        -359.388
+      ],
+      "motor_xy": [
+        28.4818,
+        -359.388
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500050154137526
+    },
+    {
+      "node_xy": [
+        34.7809,
+        830.6018
+      ],
+      "motor_xy": [
+        31.730900000000002,
+        830.6018
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049989957746572
+    },
+    {
+      "node_xy": [
+        34.2446,
+        1060.8617
+      ],
+      "motor_xy": [
+        31.194599999999998,
+        1060.8617
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500118558434615
+    },
+    {
+      "node_xy": [
+        40.1084,
+        950.7206
+      ],
+      "motor_xy": [
+        43.1584,
+        950.7206
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500084216955017
+    },
+    {
+      "node_xy": [
+        40.159,
+        926.4249
+      ],
+      "motor_xy": [
+        43.208999999999996,
+        926.4249
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.049959844310443
+    },
+    {
+      "node_xy": [
+        28.5508,
+        -318.1873
+      ],
+      "motor_xy": [
+        25.500799999999998,
+        -318.1873
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050014692883991
+    },
+    {
+      "node_xy": [
+        23.2721,
+        609.4288
+      ],
+      "motor_xy": [
+        26.3221,
+        609.4288
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500440825963757
+    },
+    {
+      "node_xy": [
+        14.6447,
+        -201.2486
+      ],
+      "motor_xy": [
+        17.6947,
+        -201.2486
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500366576578717
+    },
+    {
+      "node_xy": [
+        36.3183,
+        -492.5984
+      ],
+      "motor_xy": [
+        39.3683,
+        -492.5984
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499850194693607
+    },
+    {
+      "node_xy": [
+        36.105,
+        -509.7089
+      ],
+      "motor_xy": [
+        39.154999999999994,
+        -509.7089
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050009551359267
+    }
+  ],
+  "bridge_deck_underside_m": 8.4,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 63.75,
+  "stair_landing_method": "Last tread ends at deck leading edge and top equals slab top8.70m; no treads run underneath solid deck.",
+  "pointwork_proof_crossing": {
+    "ways": [
+      "520216267",
+      "640907606"
+    ],
+    "sides": [
+      -1,
+      -1
+    ],
+    "xy": [
+      35.57661126278545,
+      1019.51535669585
+    ],
+    "nearest_junction_distance_m": 41.367793736538744
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 104,
+  "mesh_objects": 74,
+  "mesh_vertices": 936826,
+  "mesh_faces": 659929,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "c272b9c945a4d89dfe44460a9e2fe7b6ff859c4852fe81d49f769de24a03f5f3",
+  "source_plan_sha256": "7aac41d8dc72e54c25c45dc96ebf59747528699a65363052d63d3fe62d08907e",
+  "blend_file": "CHPD_coastal_station_v01.blend",
+  "blend_sha256": "42be27b6aeb918b6b5111a97377cd1da311ab82f7d956007d45417523c4cc614",
+  "blend_bytes": 19671380,
+  "building_dimensions_m": {
+    "width": 10,
+    "length": 16,
+    "position_xy": [
+      -2.185578344055089,
+      0
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": 9.117179576902583,
+      "y": 0.0,
+      "bounds": [
+        3.614421655944911,
+        -250.0,
+        14.10491653911854,
+        250.0
+      ],
+      "width": 8.00000005782426,
+      "ref": "1"
+    },
+    {
+      "x": 27.12,
+      "y": 0.0,
+      "bounds": [
+        24.0,
+        -250.0,
+        30.240000000000002,
+        250.0
+      ],
+      "width": 6.240000000000002,
+      "ref": "2;3"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -300.0,
+        240.0
+      ],
+      "rotation": [
+        1.05599045753479,
+        4.4765251061562594e-08,
+        -0.7853983044624329
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -29.185577392578125,
+        -18.0,
+        9.300000190734863
+      ],
+      "rotation": [
+        1.3762799501419067,
+        1.0226538904589688e-07,
+        -0.8850667476654053
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        10.917179107666016,
+        -66.0,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        -1.060605159253214e-09,
+        -0.03821668028831482
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -6.28557825088501,
+        -7.0,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5424739122390747,
+        -3.2127942972692836e-08,
+        -0.350044846534729
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        40.07661056518555,
+        1012.515380859375,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 603232
+}

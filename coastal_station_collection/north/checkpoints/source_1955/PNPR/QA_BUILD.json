@@ -1,0 +1,125 @@
+{
+  "station_code": "PNPR",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 1,
+  "platform_bodies_modeled": 1,
+  "road_cross_section_count": 1,
+  "source_route_segments": 1,
+  "mapped_turnout_nodes": 0,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 3540,
+  "switch_hardware": [],
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 79,
+  "mesh_objects": 68,
+  "mesh_vertices": 318552,
+  "mesh_faces": 226382,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "931fb5472ff0ffa56e46d86e3461a6e884782ecbdb596e648be7da4d1a047f76",
+  "source_plan_sha256": "43fbfeffc1cc19929acdd942f557e5c93b1fb8eca098be96016746c952059e1c",
+  "blend_file": "PNPR_coastal_station_v01.blend",
+  "blend_sha256": "ad4677ebf936fd27ae3552954ed887c05e76659707e8af275e9a19320800576b",
+  "blend_bytes": 6627218,
+  "building_dimensions_m": {
+    "width": 7.262822101573143,
+    "length": 13.238977310609663,
+    "position_xy": [
+      -0.7436313947864663,
+      2.9026690735767553
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": -12.37068094998843,
+      "y": 0.0,
+      "bounds": [
+        -16.37083755989238,
+        -150.0,
+        -7.72596495669514,
+        150.0
+      ],
+      "width": 8.000000000018666,
+      "ref": "1"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        300.0,
+        -180.0,
+        240.0
+      ],
+      "rotation": [
+        0.9695321917533875,
+        -8.407667451137968e-08,
+        1.0303770303726196
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        24.887779235839844,
+        -15.097331047058105,
+        9.300000190734863
+      ],
+      "rotation": [
+        1.3762799501419067,
+        -1.0226538904589688e-07,
+        0.8850667476654053
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        -14.17068099975586,
+        -63.09733200073242,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        1.060605159253214e-09,
+        0.03821668028831482
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        1.9877796173095703,
+        -2.7168195247650146,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5347801446914673,
+        3.679195259564949e-08,
+        0.3114132285118103
+      ]
+    }
+  ],
+  "peak_rss_kb": 341136
+}

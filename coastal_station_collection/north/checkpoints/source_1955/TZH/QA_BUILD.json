@@ -1,0 +1,141 @@
+{
+  "station_code": "TZH",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 2,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 2,
+  "source_route_segments": 6,
+  "mapped_turnout_nodes": 0,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 6444,
+  "switch_hardware": [],
+  "bridge_deck_underside_m": 8.4,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 47.24391441142682,
+  "stair_landing_method": "Last tread ends at deck leading edge and top equals slab top8.70m; no treads run underneath solid deck.",
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 101,
+  "mesh_objects": 80,
+  "mesh_vertices": 565196,
+  "mesh_faces": 399674,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "c272b9c945a4d89dfe44460a9e2fe7b6ff859c4852fe81d49f769de24a03f5f3",
+  "source_plan_sha256": "372a9be86f58edf0757fe3d333f6c2769059d4ea5652ebd747965feddf0e7fa4",
+  "blend_file": "TZH_coastal_station_v01.blend",
+  "blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+  "blend_bytes": 11595510,
+  "building_dimensions_m": {
+    "width": 7,
+    "length": 15.0,
+    "position_xy": [
+      -3.2249526554686527,
+      -16.50608558857318
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": -9.23223536962977,
+      "y": -65.81887445491112,
+      "bounds": [
+        -12.42322089115984,
+        -267.05421558265374,
+        -5.731795996243633,
+        135.4164666728315
+      ],
+      "width": 5.403863275764076,
+      "ref": "1"
+    },
+    {
+      "x": -25.384673938364827,
+      "y": -62.68308676591833,
+      "bounds": [
+        -28.511054796821135,
+        -271.23966834820317,
+        -22.52852336249251,
+        145.8734948163665
+      ],
+      "width": 5.6539861809159575,
+      "ref": "2"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        300.0,
+        -312.95098876953125,
+        240.0
+      ],
+      "rotation": [
+        1.019923210144043,
+        -4.81875161995049e-09,
+        0.8755313754081726
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        22.275047302246094,
+        -34.50608444213867,
+        9.300000190734863
+      ],
+      "rotation": [
+        1.3762799501419067,
+        -2.6451715484654414e-08,
+        0.8850667476654053
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        -11.032235145568848,
+        -82.50608825683594,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        -2.5454993668461157e-10,
+        0.03821667283773422
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -0.6249526739120483,
+        -23.006086349487305,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5396599769592285,
+        -1.89835027697427e-08,
+        0.25690650939941406
+      ]
+    }
+  ],
+  "peak_rss_kb": 439616
+}
