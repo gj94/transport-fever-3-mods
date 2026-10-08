@@ -1,0 +1,86 @@
+{
+  "snapshot_utc": "2026-10-08T15:23:00Z",
+  "status": "Selected reviewed WIP previews; not final station completion",
+  "images": [
+    {
+      "title": "TVC \u00b7 reconstructed booking hall",
+      "source_path": "south_indian_stations_v02/tvc/renders/04_Booking_hall.png",
+      "gallery_file": "tvc_booking_hall.png",
+      "sha256": "eda55ccfac8e45d8b58704696960f7b5b1752de72a69be022e56fc1eb9d2006b",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted interior preview;192-sample Cycles render without denoising, so some grain remains. The source scene predates later yard/ballast corrections; the booking room is unchanged."
+    },
+    {
+      "title": "TVC \u00b7 full mapped yard coverage",
+      "source_path": "south_indian_stations_v02/tvc/renders/00_Labelled_yard_coverage.png",
+      "gallery_file": "tvc_labelled_yard.png",
+      "sha256": "3164e9607276b2e9d3c4d764b49936c3cdfc5898d1c93c296ce0ccef91e75198",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Schematic coverage plan, not a Blender beauty render.46 mapped route segments are not46 distinct tracks. Review labels are not railway operational numbers."
+    },
+    {
+      "title": "NCJ \u00b7 reconstructed ticket hall",
+      "source_path": "south_indian_stations_v02/ncj/renders/02_TICKET_HALL.png",
+      "gallery_file": "ncj_ticket_hall.png",
+      "sha256": "a34733a2c6ac3777320f6576d1f890e4ceb7f7c67014e3b86c90586f33408a43",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Detailed unchanged ticket-hall interior. Distant platform/OHE background predates the final engineering corrections; this is an earlier interior proof."
+    },
+    {
+      "title": "NCJ \u00b7 physical turnout",
+      "source_path": "south_indian_stations_v02/ncj/renders/17_PHYSICAL_TURNOUT_6045464001.png",
+      "gallery_file": "ncj_physical_turnout.png",
+      "sha256": "3dbdd0d828648370e1aa4d8b0416039e15b85ea6a2d78d657c7eccf979db9c9f",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted physical-pointwork proof from the globally corrected scene; generic reconstruction, not operational engineering certification."
+    },
+    {
+      "title": "NCJ \u00b7 frog detail",
+      "source_path": "south_indian_stations_v02/ncj/renders/18_FROG_DETAIL_6045464001.png",
+      "gallery_file": "ncj_frog_detail.png",
+      "sha256": "6e3543aaf2292f980b43ba3b510af5f29e24629e9d4f7b8b202a065abbfa4866",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted close-up of physical crossing and flangeway geometry."
+    },
+    {
+      "title": "NCJ \u00b7 switch toe",
+      "source_path": "south_indian_stations_v02/ncj/renders/19_SWITCH_TOE_6045464001.png",
+      "gallery_file": "ncj_switch_toe.png",
+      "sha256": "9e3dcf1abb9d82283531aea5826959dfa22ab9f15ef5620172c5d349ed83ed1d",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted close-up of the switch geometry. Final broader station gallery/export still being completed."
+    },
+    {
+      "title": "ERS \u00b7 reconstructed ticket hall",
+      "source_path": "south_indian_stations_v02/ers/renders/02_Ticket_hall.png",
+      "gallery_file": "ers_ticket_hall.png",
+      "sha256": "3a092c09d6193649ecf319ff37dc1a3b9686f731a4ab57538818e4f603991223",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted earlier interior proof. The exact historical source binary hash was not captured; current yard corrections are not represented by this image."
+    },
+    {
+      "title": "ERS \u00b7 platform concourse",
+      "source_path": "south_indian_stations_v02/ers/renders/04_Platform_concourse.png",
+      "gallery_file": "ers_platform_concourse.png",
+      "sha256": "0c19ac66fd6b78b2bba7b7aa844694ba6c8d3932cc5279503ca6b59e20b10535",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted interim platform view. Source-scene SHA256 is in its review sidecar; final packed-scene validation/export remain pending."
+    },
+    {
+      "title": "ERS \u00b7 physical turnout and frog",
+      "source_path": "south_indian_stations_v02/ers/renders/13_Turnout_frog_detail.png",
+      "gallery_file": "ers_turnout_frog.png",
+      "sha256": "a5eb9c7e7732687fa0d6e2fdcb648f2104ffaa19fcafe5d8091a1a2c5a760bc4",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Accepted rail-head/flangeway geometry. Ballast coplanarity/inward-strip-normal artifacts remain visible in this interim image; corrected source is awaiting bake. This is not a finished visual."
+    },
+    {
+      "title": "ERS \u00b7 full mapped yard coverage",
+      "source_path": "south_indian_stations_v02/ers/renders/12_Labelled_coverage_plan.png",
+      "gallery_file": "ers_labelled_yard.png",
+      "sha256": "13a22eb856ddfb469c58634e581c468b27fe3e859aafa6ede5e40895233cb7a8",
+      "status": "work in progress / accepted scope-specific preview",
+      "caveat": "Labelled schematic coverage plan, not a final Blender yard render. Current-map geometry is distinct from the2017 architectural reference date."
+    }
+  ]
+}

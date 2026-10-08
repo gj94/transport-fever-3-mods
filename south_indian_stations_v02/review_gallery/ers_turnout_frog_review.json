@@ -1,0 +1,15 @@
+{
+  "image": "13_Turnout_frog_detail.png",
+  "image_sha256": "a5eb9c7e7732687fa0d6e2fdcb648f2104ffaa19fcafe5d8091a1a2c5a760bc4",
+  "status": "Accepted interim review image; not final deliverable validation",
+  "samples": 64,
+  "render_engine": "Cycles CPU",
+  "threads": 4,
+  "denoising": false,
+  "source_blend_sha256": "0b171fa56dc6f91caf12a983c0f8bc4d2b901c46bcbbfb67aaf008d3f8027690",
+  "source_blend_file": "ERS_full_station_v02.blend",
+  "caveats": [
+    "Global rail-head/flange geometry accepted as generic reconstruction. Ballast coplanarity/inward-strip-normal artifacts remain in this interim image; correction source is ready but not baked into this proof.",
+    "Final packed-scene validation and export pending."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "current_scene_sha256": "0bb4204c403cbc65498498bc585935709e53f13de517eec5786e148fa34d875c",
+  "current_geometry": "Globally corrected simple/compound pointwork, OHE, buried services and excavated path-following pits",
+  "views": {
+    "02_TICKET_HALL.png": {
+      "status": "Earlier render of unchanged ticket-hall interior; distant platform/OHE background predates final engineering corrections",
+      "samples": 128,
+      "file_sha256": "a34733a2c6ac3777320f6576d1f890e4ceb7f7c67014e3b86c90586f33408a43"
+    },
+    "03_WAITING_HALL.png": {
+      "status": "Early low-sample study; not a final corrected-scene preview",
+      "samples": 12,
+      "file_sha256": "7ec99ec9de10539d7c1ae0252a6f4f7d49a89891dedc9299f828640de94debfe"
+    },
+    "04_TOILETS.png": {
+      "status": "Early low-sample study; not a final corrected-scene preview",
+      "samples": 12,
+      "file_sha256": "ae160634137ae5f9e90f725ed0336b3002cccc3116b209aeb3e10c066116913d"
+    },
+    "05_PLATFORM_DETAIL.png": {
+      "status": "Early low-sample study; not a final corrected-scene preview",
+      "samples": 12,
+      "file_sha256": "58497fd2cc48e30d79bf2f1493d7c6e045b6e975a760c9ac4d2e5077fe2d7dac"
+    },
+    "07_YARD_POINTS.png": {
+      "status": "Early low-sample study; not a final corrected-scene preview",
+      "samples": 12,
+      "file_sha256": "f6f7a26941df240d5b0da47c79467b8aaa2d4f5cadb8411d85673f0e8de64aee"
+    },
+    "09_FULL_YARD_AERIAL.png": {
+      "status": "Early low-sample study; not a final corrected-scene preview",
+      "samples": 12,
+      "file_sha256": "0cf8e1c88f564ba983400504a3bf99dd51685affda2d9d401b45c5e07095df4a"
+    },
+    "17_PHYSICAL_TURNOUT_6045464001.png": {
+      "status": "Current corrected scene, accepted physical pointwork proof",
+      "samples": 48,
+      "file_sha256": "3dbdd0d828648370e1aa4d8b0416039e15b85ea6a2d78d657c7eccf979db9c9f"
+    },
+    "18_FROG_DETAIL_6045464001.png": {
+      "status": "Current corrected scene, accepted physical pointwork proof",
+      "samples": 48,
+      "file_sha256": "6e3543aaf2292f980b43ba3b510af5f29e24629e9d4f7b8b202a065abbfa4866"
+    },
+    "19_SWITCH_TOE_6045464001.png": {
+      "status": "Current corrected scene, accepted physical pointwork proof",
+      "samples": 48,
+      "file_sha256": "9e3dcf1abb9d82283531aea5826959dfa22ab9f15ef5620172c5d349ed83ed1d"
+    }
+  }
+}
