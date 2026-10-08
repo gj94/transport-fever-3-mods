@@ -1,0 +1,48 @@
+{
+  "station_code": "PRND",
+  "blend": "PRND_coastal_station_v01.blend",
+  "generated_at_unix": 1791493208.300835,
+  "builder_sha256": "b33f6409f8b021b46346a16e05590bfef73a7b15bb94342e2caf1b2b7692c7aa",
+  "source_adopted_sha256": "147032111fc9d8ed1024430775f0e6a139d03f3f423a8ac4980b0f523a72e419",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 7,
+  "track_route_total_length_m": 6360.704803989622,
+  "mapped_switch_nodes": 6,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 181,
+  "total_objects": 206,
+  "vertices": 699948,
+  "polygons": 515330,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.0,
+      "clearance_m": 1.9199999999999993
+    },
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000007317811992,
+      "clearance_m": 1.9199999999999982
+    }
+  ],
+  "corrections": [],
+  "notes": "Two mapped platform edge lines do not define full platform lengths/bodies. Reconstructed side bodies follow outer track alignments; topology remains the mapped four-road station. April2026 Google photograph guides the off-white/blue-plinth block, maroon timber doors, grey corrugated canopy, central waiting-hall entry and wooden slab benches; older red-tile assumption removed."
+}

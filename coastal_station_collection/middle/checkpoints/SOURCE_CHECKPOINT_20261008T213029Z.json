@@ -1,0 +1,206 @@
+{
+  "status": "Frozen WIP recovery checkpoint; not final publication acceptance",
+  "created_utc": "20261008T213029Z",
+  "stations": [
+    {
+      "code": "PRND",
+      "blend_sha256": "2d9a3201ec5bbf43549be14c51099f97e80d8cb184994bc0c4cf9d9fbd781ce3",
+      "status": "Editable recovery source only; final gallery, portable export and independent station gate pending. PRND has a localized fixture revision pending; its current base remains immutable.",
+      "units": "metres",
+      "gauge_m": 1.676,
+      "packed_resources": true,
+      "no_rolling_stock": true
+    },
+    {
+      "code": "KFI",
+      "blend_sha256": "bf51dc2fc200fe084f5d6f11e64fc5b9b65b70406fed7a5eae83d9a5e73b1844",
+      "status": "Editable recovery source only; final gallery/export/independent station gate pending.",
+      "units": "metres",
+      "gauge_m": 1.676,
+      "packed_resources": true,
+      "no_rolling_stock": true
+    },
+    {
+      "code": "EVA",
+      "blend_sha256": "643a922c2a250c1c4a32e04fed6fd1efb92a9092e7cc80b9f3b795c6e8e3669c",
+      "status": "Editable recovery source only; final gallery/export/independent station gate pending.",
+      "units": "metres",
+      "gauge_m": 1.676,
+      "packed_resources": true,
+      "no_rolling_stock": true
+    },
+    {
+      "code": "CRY",
+      "blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "status": "Editable recovery source only; final gallery/export/independent station gate pending.",
+      "units": "metres",
+      "gauge_m": 1.676,
+      "packed_resources": true,
+      "no_rolling_stock": true
+    }
+  ],
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/prnd/PRND_coastal_station_v01.blend",
+      "bytes": 13431126,
+      "sha256": "2d9a3201ec5bbf43549be14c51099f97e80d8cb184994bc0c4cf9d9fbd781ce3"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/BUILD_QA.json",
+      "bytes": 1891,
+      "sha256": "70177fb5ebbf2e3fc269b86dc8ed677207742b1da63578ccc9494ba0b173d566"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/source/mapped_geometry.json",
+      "bytes": 59695,
+      "sha256": "5a00481ba94d959acd0cd9032675cc74d8588237106eda8f105e240a5d4a966b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/source/adopted_geometry.json",
+      "bytes": 162439,
+      "sha256": "147032111fc9d8ed1024430775f0e6a139d03f3f423a8ac4980b0f523a72e419"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/source/build_station_used.py",
+      "bytes": 59559,
+      "sha256": "b33f6409f8b021b46346a16e05590bfef73a7b15bb94342e2caf1b2b7692c7aa"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/source/reference_spec.json",
+      "bytes": 719,
+      "sha256": "0956d1e21bc624b2ecbbdcaa236c885e865c7619d9c811f0ba41ef07943a2406"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/source/station_nameboard.png",
+      "bytes": 22780,
+      "sha256": "b1360e488590a627dae750200944066a7b306b322f7d7036c202304911eb4742"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/prnd/source/nameboard_text.json",
+      "bytes": 400,
+      "sha256": "791da415fd6726ffd0ad8739c5d9ea388f8ca9002ade6fb33da50f7fc9f90feb"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/KFI_coastal_station_v01.blend",
+      "bytes": 7901897,
+      "sha256": "bf51dc2fc200fe084f5d6f11e64fc5b9b65b70406fed7a5eae83d9a5e73b1844"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/BUILD_QA.json",
+      "bytes": 2208,
+      "sha256": "da412dd7fb9af51fa24b2dd6c6f1b0e7a21cd7efd506afa568506131f45bf29d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/source/mapped_geometry.json",
+      "bytes": 126061,
+      "sha256": "b9053172d0c87dcb4ccaac1bbf80b0ce78bf0ce3783e64acbe64086af0db8b27"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/source/adopted_geometry.json",
+      "bytes": 91162,
+      "sha256": "362fb1d8ba1e31efccec23fcc0007995cca471c39c52d406dc5651d28e434586"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/source/build_station_used.py",
+      "bytes": 60694,
+      "sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/source/reference_spec.json",
+      "bytes": 675,
+      "sha256": "cdfc83e9de35c58cdea68eb168bac0e547838019a0812b601b4d8b82a0b78e7d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/source/station_nameboard.png",
+      "bytes": 19245,
+      "sha256": "e9858fafbcbeb94b089ace8a928740e9c1fb62df704642f815abca2bfb80ab92"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kfi/source/nameboard_text.json",
+      "bytes": 395,
+      "sha256": "9e61233799c9f9cdf5a600da359880e5bc2fc2a5af80fef281832c65fe0df05a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/EVA_coastal_station_v01.blend",
+      "bytes": 9971741,
+      "sha256": "643a922c2a250c1c4a32e04fed6fd1efb92a9092e7cc80b9f3b795c6e8e3669c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/BUILD_QA.json",
+      "bytes": 1805,
+      "sha256": "546aaa4d55d659a43006e3b9e467d61cb042dadfd7bb74ec87c633d2e2c5f393"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/source/mapped_geometry.json",
+      "bytes": 71191,
+      "sha256": "6b09bf4be4d78728de8956696779894d1f2cbe8b29b6294e916306409256a7d6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/source/adopted_geometry.json",
+      "bytes": 83254,
+      "sha256": "c14ee1962ce3006b902dfa86fc494cc68f7a1f40c99c165de28ad9bfc1cc580f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/source/build_station_used.py",
+      "bytes": 60330,
+      "sha256": "cd36c911cbdfd5da17a98795f036d8205ebf7845dbc3f3b4136c2cb989af313c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/source/reference_spec.json",
+      "bytes": 576,
+      "sha256": "b7ae20581be7ad59c6214f2def56f7485439c33db55479d8f1c693c9fce9259c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/source/station_nameboard.png",
+      "bytes": 16875,
+      "sha256": "0aa58cb0a16f431c7778fb9cf96ace67126a2b19203f94784b550418df0b0144"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/eva/source/nameboard_text.json",
+      "bytes": 386,
+      "sha256": "038b1f73078abcc5768233dacd68a2f835dae4cf304c12a291bf7546c4d3b1a1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/CRY_coastal_station_v01.blend",
+      "bytes": 9947449,
+      "sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/BUILD_QA.json",
+      "bytes": 1835,
+      "sha256": "cab475d750b88af356e097dfa2a3e9dbdee38828e013b2b07b499c4e9a68383d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/source/mapped_geometry.json",
+      "bytes": 49902,
+      "sha256": "f4afb3bc46f3b84cf5f125d0a42fbc0dcac707a2dd1362eccb7a34f99a5f7bb5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/source/adopted_geometry.json",
+      "bytes": 90164,
+      "sha256": "c13dd2282f00fbe55c9803043594238c17bc3c47d1e0d9d683766f5d97a56238"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/source/build_station_used.py",
+      "bytes": 60694,
+      "sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/source/reference_spec.json",
+      "bytes": 619,
+      "sha256": "0544d90697219ea179b87daa6542943eb47340f15542da87e76076283bee5b1d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/source/station_nameboard.png",
+      "bytes": 29743,
+      "sha256": "dc348d7b025b5434fbaff74323b298e2cd448f1c7b9242ec99ffd071ebdc127c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/cry/source/nameboard_text.json",
+      "bytes": 411,
+      "sha256": "1a6d4b6a30d6a899bbc6ecc93cf7b1c401ce48e6741ea620eacaa03eac4593d7"
+    }
+  ],
+  "freeze_rule": "All allowlisted bytes immutable. Source corrections use new revision directories. Galleries, exports and reports are not frozen by this source-only handoff.",
+  "licensing": "OSM-derived geometry with ODbL attribution; generated sign pixels only. All Google/provider photographs and screenshots excluded."
+}

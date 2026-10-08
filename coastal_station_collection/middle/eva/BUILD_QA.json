@@ -1,0 +1,48 @@
+{
+  "station_code": "EVA",
+  "blend": "EVA_coastal_station_v01.blend",
+  "generated_at_unix": 1791494115.1802685,
+  "builder_sha256": "cd36c911cbdfd5da17a98795f036d8205ebf7845dbc3f3b4136c2cb989af313c",
+  "source_adopted_sha256": "c14ee1962ce3006b902dfa86fc494cc68f7a1f40c99c165de28ad9bfc1cc580f",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 6,
+  "track_route_total_length_m": 4332.044788614256,
+  "mapped_switch_nodes": 0,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 176,
+  "total_objects": 201,
+  "vertices": 510820,
+  "polygons": 373509,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000200102908192,
+      "clearance_m": 1.9199999999999993
+    },
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 5.999999999999999,
+      "clearance_m": 1.9199999999999993
+    }
+  ],
+  "corrections": [],
+  "notes": "Two-track halt with compact booking/waiting facility; exact building dimensions reconstructed. Undated platform photograph shows a long mint/blue station block with high vents, geometric blue grilles, red-tile pitched roof and broad blue-braced canopy; proportions reconstructed."
+}

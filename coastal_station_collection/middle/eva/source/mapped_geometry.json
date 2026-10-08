@@ -1,0 +1,4052 @@
+{
+  "station": {
+    "sequence": "31",
+    "station_code": "EVA",
+    "station_name": "Edavai",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "175.20",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "160.88",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "",
+    "mapped_platform_bodies": "",
+    "mapped_numbered_platform_positions": "",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "2",
+    "mapped_connected_loops": "0",
+    "mapped_nonloop_sidings": "0",
+    "mapped_total_tracks_all_types": "2",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Two main roads mapped; platform geometry absent. No loops or separate sidings mapped.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2018-08-17T09:17:14Z / 2022-06-16T10:53:58Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.6884770,8.7538830,76.7064770,8.7718830",
+    "mapped_rail_way_ids": "236119109;608428993;617584064;617584065;617584066;617584067",
+    "mapped_platform_way_ids": "",
+    "mapped_excluded_nonoperational_way_ids": "",
+    "mapped_source_record": "middle_observations.json#EVA",
+    "map_latitude": "8.7633333",
+    "map_longitude": "76.6974939",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "",
+    "wikipedia_reported_tracks": "",
+    "wikipedia_platforms_numeric": "",
+    "wikipedia_tracks_numeric": "",
+    "wikipedia_platform_field_raw": "",
+    "wikipedia_tracks_field_raw": "",
+    "wikipedia_article_url": "",
+    "wikipedia_revision_url": "",
+    "wikipedia_revision_id": "",
+    "wikipedia_revision_timestamp": "",
+    "wikipedia_accessed_date": "",
+    "wikipedia_platform_inline_citation_present": "",
+    "wikipedia_tracks_inline_citation_present": "",
+    "wikipedia_conflict_notes": "Standalone English station article not found under tested title; alternate titles or other-language coverage may exist.",
+    "wikipedia_lookup_status": "Tested English title missing; aliases/languages may exist",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "",
+    "wikipedia_count_source_class": "",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "2",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 2",
+    "iri_source_url": "https://indiarailinfo.com/station/map/kadakavur-kvu/3524",
+    "iri_profile_updated_raw": "Jul 31 2023 (01:29)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure.",
+    "reported_platform_count": "2",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "2I",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/kadakavur-kvu/3524",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "3524",
+    "iri_heading_station_code": "EVA",
+    "iri_heading_raw": "EVA/Edavai (2 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "NO_WIKIPEDIA_FIGURE",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "2023",
+    "iri_source_reference": "turn212search3",
+    "iri_search_index_crawl_age_raw": "6 months ago",
+    "iri_slug_identity_status": "URL slug names Kadakavur/KVU, but heading and numeric profile ID explicitly identify EVA",
+    "iri_source_evidence_file": "sources/iri_middle_batch3_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "2023-07-31T01:29",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "NOT_STATED",
+    "comparison_wikipedia_platform_source": "NOT_FOUND",
+    "comparison_wikipedia_revision_timestamp": "NOT_FOUND",
+    "comparison_wikipedia_platform_agreement": "NO_NUMERIC_WIKIPEDIA_PLATFORM_FIGURE",
+    "iri_explicit_platform_field_update_raw": "NOT_RECOVERED",
+    "iri_timeline_evidence_url": "NOT_REVIEWED_SEPARATELY",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "Existing Wikipedia register has no numeric platform count to compare.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "origin_lonlat": [
+    76.6974939,
+    8.7633333
+  ],
+  "along_unit_east_north": [
+    -0.7520368621446322,
+    0.6591210495619568
+  ],
+  "ways": [
+    {
+      "id": "236119109",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5066611335",
+        "334641676",
+        "6041709145",
+        "334641427",
+        "334641425",
+        "6041709147",
+        "334641424",
+        "334641423",
+        "334641422",
+        "334641421",
+        "334641420",
+        "6041709149",
+        "334641419",
+        "334641418",
+        "6041709151",
+        "334641417",
+        "6041709153",
+        "334641416",
+        "6041709154",
+        "334641415",
+        "334641414",
+        "7543284070",
+        "334641413",
+        "334641412",
+        "6041709156",
+        "334641411",
+        "334641410",
+        "6041709158",
+        "334641409",
+        "6041709160",
+        "334641408",
+        "6041709162",
+        "2486248612",
+        "6041709164",
+        "334641320",
+        "334641319",
+        "334641318",
+        "7544946979",
+        "334641317",
+        "334641316",
+        "334641315",
+        "334641314",
+        "331172538",
+        "6041709168",
+        "334641313",
+        "6041709170",
+        "334641312",
+        "334641271"
+      ],
+      "xy": [
+        [
+          3006.762,
+          -268.3077
+        ],
+        [
+          2882.1962,
+          -184.3702
+        ],
+        [
+          2689.5375,
+          -51.5513
+        ],
+        [
+          2627.4549,
+          -11.0796
+        ],
+        [
+          2525.4378,
+          59.9665
+        ],
+        [
+          2496.2444,
+          78.2692
+        ],
+        [
+          2463.8832,
+          96.4305
+        ],
+        [
+          2404.3298,
+          124.3016
+        ],
+        [
+          2371.6672,
+          134.4274
+        ],
+        [
+          2334.3481,
+          143.5066
+        ],
+        [
+          2291.3127,
+          148.3749
+        ],
+        [
+          2255.6451,
+          150.6121
+        ],
+        [
+          2221.0582,
+          147.8607
+        ],
+        [
+          2171.4991,
+          140.676
+        ],
+        [
+          2138.3908,
+          132.3817
+        ],
+        [
+          2105.8365,
+          121.953
+        ],
+        [
+          2076.9582,
+          111.2527
+        ],
+        [
+          2053.4042,
+          98.617
+        ],
+        [
+          2025.1871,
+          81.5539
+        ],
+        [
+          1994.2794,
+          60.8003
+        ],
+        [
+          1947.8465,
+          19.7194
+        ],
+        [
+          1943.0401,
+          15.3885
+        ],
+        [
+          1912.0109,
+          -12.6211
+        ],
+        [
+          1863.4321,
+          -58.114
+        ],
+        [
+          1832.8908,
+          -83.6089
+        ],
+        [
+          1797.7685,
+          -109.1516
+        ],
+        [
+          1757.5162,
+          -135.4012
+        ],
+        [
+          1719.3517,
+          -156.6383
+        ],
+        [
+          1672.8904,
+          -175.57
+        ],
+        [
+          1633.9694,
+          -187.1973
+        ],
+        [
+          1592.9953,
+          -197.6339
+        ],
+        [
+          1547.1803,
+          -205.0009
+        ],
+        [
+          1500.1509,
+          -209.48
+        ],
+        [
+          1451.3938,
+          -209.4339
+        ],
+        [
+          1403.1112,
+          -204.8717
+        ],
+        [
+          1312.34,
+          -191.1575
+        ],
+        [
+          835.1847,
+          -114.6313
+        ],
+        [
+          657.0319,
+          -86.4969
+        ],
+        [
+          598.8538,
+          -76.3528
+        ],
+        [
+          430.1809,
+          -51.9739
+        ],
+        [
+          314.171,
+          -32.448
+        ],
+        [
+          148.9294,
+          -10.1982
+        ],
+        [
+          122.7409,
+          -9.2451
+        ],
+        [
+          67.3506,
+          -4.118
+        ],
+        [
+          11.3471,
+          -2.8146
+        ],
+        [
+          -74.95,
+          -3.5194
+        ],
+        [
+          -160.0336,
+          -7.1278
+        ],
+        [
+          -308.8752,
+          -16.1254
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "608428993",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5764349129",
+        "5764349128",
+        "6041709169",
+        "6041709166",
+        "6041709167",
+        "5764349126",
+        "5764349125",
+        "5764349124",
+        "5764349123",
+        "5764349122",
+        "5764349121",
+        "5764349120",
+        "5764349119",
+        "6041709165",
+        "5764349118",
+        "6041709163",
+        "5764349117",
+        "6041709161",
+        "5764349116",
+        "6041709159",
+        "5764349115",
+        "5764349114",
+        "6041709157",
+        "5764349113",
+        "5764349112",
+        "5764349111",
+        "5764349110",
+        "6041709155",
+        "5764349109",
+        "6041709152",
+        "5764349108",
+        "6041709150",
+        "5764349107",
+        "5764349106",
+        "6041709148",
+        "5764349105",
+        "5764349104",
+        "5764349103",
+        "5764349102",
+        "5764349101",
+        "6041709146",
+        "5764349100",
+        "5764349099",
+        "5764349098",
+        "9822389618",
+        "9822389233",
+        "9822389234",
+        "5764349097",
+        "334641677"
+      ],
+      "xy": [
+        [
+          -313.5469,
+          -9.7102
+        ],
+        [
+          -160.864,
+          -2.5415
+        ],
+        [
+          -74.3117,
+          2.0285
+        ],
+        [
+          12.2959,
+          2.0285
+        ],
+        [
+          69.9722,
+          1.0366
+        ],
+        [
+          133.4357,
+          -2.8026
+        ],
+        [
+          152.5155,
+          -4.1243
+        ],
+        [
+          313.0296,
+          -25.2034
+        ],
+        [
+          430.7212,
+          -44.6617
+        ],
+        [
+          602.5871,
+          -70.8309
+        ],
+        [
+          834.2503,
+          -108.6411
+        ],
+        [
+          1311.1465,
+          -183.7366
+        ],
+        [
+          1399.5086,
+          -199.1921
+        ],
+        [
+          1450.6878,
+          -202.1186
+        ],
+        [
+          1498.1512,
+          -202.6916
+        ],
+        [
+          1545.4175,
+          -198.3157
+        ],
+        [
+          1591.0319,
+          -192.0719
+        ],
+        [
+          1632.5701,
+          -181.3777
+        ],
+        [
+          1670.6179,
+          -170.4565
+        ],
+        [
+          1717.5611,
+          -150.9397
+        ],
+        [
+          1756.1736,
+          -129.8132
+        ],
+        [
+          1796.1649,
+          -102.9487
+        ],
+        [
+          1829.416,
+          -78.5426
+        ],
+        [
+          1859.8273,
+          -54.3015
+        ],
+        [
+          1906.7065,
+          -9.3064
+        ],
+        [
+          1944.6188,
+          24.8543
+        ],
+        [
+          1989.4939,
+          64.925
+        ],
+        [
+          2023.1862,
+          88.8445
+        ],
+        [
+          2052.1901,
+          105.6943
+        ],
+        [
+          2075.8902,
+          117.6291
+        ],
+        [
+          2103.3565,
+          127.9207
+        ],
+        [
+          2137.4068,
+          139.113
+        ],
+        [
+          2173.0008,
+          147.025
+        ],
+        [
+          2219.525,
+          154.5843
+        ],
+        [
+          2255.1006,
+          157.7433
+        ],
+        [
+          2292.7812,
+          155.4794
+        ],
+        [
+          2335.8437,
+          149.3617
+        ],
+        [
+          2373.6071,
+          140.894
+        ],
+        [
+          2409.1153,
+          129.5912
+        ],
+        [
+          2466.4743,
+          103.0386
+        ],
+        [
+          2499.9847,
+          81.9471
+        ],
+        [
+          2531.725,
+          60.6216
+        ],
+        [
+          2628.7759,
+          -3.69
+        ],
+        [
+          2691.2561,
+          -49.6897
+        ],
+        [
+          2710.9957,
+          -63.2817
+        ],
+        [
+          2827.9754,
+          -139.5986
+        ],
+        [
+          2836.3936,
+          -145.6314
+        ],
+        [
+          2883.2324,
+          -177.8075
+        ],
+        [
+          3010.4688,
+          -265.059
+        ]
+      ],
+      "timestamp": "2022-06-16T10:53:58Z"
+    },
+    {
+      "id": "617584064",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "334641271",
+        "5837938373"
+      ],
+      "xy": [
+        [
+          -308.8752,
+          -16.1254
+        ],
+        [
+          -327.5276,
+          -16.827
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "617584065",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5837938373",
+        "334641270",
+        "334641269",
+        "334641268",
+        "334641267",
+        "6041709171",
+        "334641266",
+        "334641265",
+        "334641264",
+        "334641263",
+        "334641216",
+        "334641215",
+        "6041709174",
+        "334641214",
+        "6041709175",
+        "334641213",
+        "334641212",
+        "334641211",
+        "334641210",
+        "334641209",
+        "334641208",
+        "6041709177",
+        "334641198",
+        "334641197",
+        "3930673382",
+        "9114960355",
+        "334641195",
+        "334641194",
+        "9114950160",
+        "334641193",
+        "334641192",
+        "334641065"
+      ],
+      "xy": [
+        [
+          -327.5276,
+          -16.827
+        ],
+        [
+          -382.7348,
+          -21.7236
+        ],
+        [
+          -461.9959,
+          -26.1498
+        ],
+        [
+          -640.3542,
+          -38.0587
+        ],
+        [
+          -760.417,
+          -45.3396
+        ],
+        [
+          -817.2127,
+          -45.2189
+        ],
+        [
+          -877.9843,
+          -41.3297
+        ],
+        [
+          -980.7988,
+          -24.9079
+        ],
+        [
+          -1079.6907,
+          -2.813
+        ],
+        [
+          -1189.8148,
+          12.7681
+        ],
+        [
+          -1341.7783,
+          26.3613
+        ],
+        [
+          -1537.2654,
+          24.6484
+        ],
+        [
+          -1653.6325,
+          14.4193
+        ],
+        [
+          -1771.202,
+          -0.8308
+        ],
+        [
+          -1835.7393,
+          -12.158
+        ],
+        [
+          -1908.918,
+          -23.791
+        ],
+        [
+          -2032.0726,
+          -43.2849
+        ],
+        [
+          -2230.6707,
+          -75.9674
+        ],
+        [
+          -2300.828,
+          -84.5378
+        ],
+        [
+          -2341.1566,
+          -89.5682
+        ],
+        [
+          -2415.3801,
+          -97.7058
+        ],
+        [
+          -2477.5276,
+          -101.8612
+        ],
+        [
+          -2530.2963,
+          -105.0499
+        ],
+        [
+          -2624.1234,
+          -104.2574
+        ],
+        [
+          -2678.9073,
+          -102.0922
+        ],
+        [
+          -2706.0995,
+          -100.2277
+        ],
+        [
+          -2743.035,
+          -97.6955
+        ],
+        [
+          -2809.976,
+          -92.7596
+        ],
+        [
+          -2904.9848,
+          -87.0967
+        ],
+        [
+          -2915.7173,
+          -86.4523
+        ],
+        [
+          -3017.1748,
+          -77.471
+        ],
+        [
+          -3275.7187,
+          -60.4522
+        ]
+      ],
+      "timestamp": "2021-09-22T18:07:38Z"
+    },
+    {
+      "id": "617584066",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5837938372",
+        "5764349129"
+      ],
+      "xy": [
+        [
+          -331.1608,
+          -10.6118
+        ],
+        [
+          -313.5469,
+          -9.7102
+        ]
+      ],
+      "timestamp": "2018-08-17T09:17:14Z"
+    },
+    {
+      "id": "617584067",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5764349254",
+        "5764349253",
+        "5764349152",
+        "5764349151",
+        "5764349150",
+        "5764349149",
+        "5764349148",
+        "5764349147",
+        "6041709178",
+        "5764349146",
+        "5764349145",
+        "5764349144",
+        "5764349143",
+        "5764349142",
+        "5764349141",
+        "6041709176",
+        "5764349140",
+        "6041709173",
+        "5764349139",
+        "5764349138",
+        "5764349137",
+        "5764349136",
+        "5764349135",
+        "5764349134",
+        "6041709172",
+        "5764349133",
+        "5764349132",
+        "5764349131",
+        "5764349130",
+        "5837938372"
+      ],
+      "xy": [
+        [
+          -3276.256,
+          -55.0318
+        ],
+        [
+          -3016.9129,
+          -72.5786
+        ],
+        [
+          -2914.7104,
+          -79.856
+        ],
+        [
+          -2808.8827,
+          -86.1617
+        ],
+        [
+          -2743.0455,
+          -91.7245
+        ],
+        [
+          -2679.1724,
+          -95.5303
+        ],
+        [
+          -2624.6948,
+          -98.0971
+        ],
+        [
+          -2535.2075,
+          -98.4449
+        ],
+        [
+          -2477.4352,
+          -95.8741
+        ],
+        [
+          -2415.187,
+          -92.0004
+        ],
+        [
+          -2342.559,
+          -84.8468
+        ],
+        [
+          -2300.9798,
+          -79.2235
+        ],
+        [
+          -2232.2868,
+          -70.2342
+        ],
+        [
+          -2032.516,
+          -37.6045
+        ],
+        [
+          -1907.8688,
+          -17.1429
+        ],
+        [
+          -1835.0635,
+          -5.9852
+        ],
+        [
+          -1774.0683,
+          4.7096
+        ],
+        [
+          -1652.9148,
+          19.4594
+        ],
+        [
+          -1537.5886,
+          31.8108
+        ],
+        [
+          -1343.8315,
+          32.1258
+        ],
+        [
+          -1186.5575,
+          18.8499
+        ],
+        [
+          -1078.1301,
+          3.7357
+        ],
+        [
+          -978.1823,
+          -19.3137
+        ],
+        [
+          -877.2581,
+          -33.6621
+        ],
+        [
+          -817.4916,
+          -38.6246
+        ],
+        [
+          -759.6081,
+          -39.953
+        ],
+        [
+          -640.1499,
+          -32.1658
+        ],
+        [
+          -463.336,
+          -21.5661
+        ],
+        [
+          -382.6435,
+          -16.67
+        ],
+        [
+          -331.1608,
+          -10.6118
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:44Z"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "797616603",
+      "tags": {
+        "addr:city": "Edava",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695311",
+        "addr:street": "Varkala - Edava - Kappil Bridge Approach Road",
+        "building": "yes",
+        "check_date": "2026-08-27",
+        "email": "edavagp@gmail.com",
+        "government": "panchayath_office",
+        "name": "Grama Panchayat Office, Edava",
+        "office": "government",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "+91-470-2600083",
+        "wheelchair": "no"
+      },
+      "xy": [
+        [
+          165.5062,
+          35.3861
+        ],
+        [
+          164.9888,
+          16.9476
+        ],
+        [
+          146.2295,
+          17.4697
+        ],
+        [
+          146.5782,
+          29.8245
+        ],
+        [
+          138.7519,
+          30.0408
+        ],
+        [
+          138.9552,
+          37.3537
+        ],
+        [
+          147.5326,
+          37.1149
+        ],
+        [
+          147.3352,
+          30.0291
+        ],
+        [
+          149.9259,
+          29.9609
+        ],
+        [
+          150.0888,
+          35.8175
+        ],
+        [
+          165.5062,
+          35.3861
+        ]
+      ],
+      "center": [
+        151.03622727272727,
+        30.48462727272727
+      ],
+      "bbox": [
+        138.7519,
+        165.5062,
+        16.9476,
+        37.3537
+      ]
+    },
+    {
+      "id": "797616604",
+      "tags": {
+        "addr:city": "Edava",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695311",
+        "addr:street": "Varkala - Edava - Kappil Bridge Approach Road",
+        "air_conditioning": "no",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2026-08-27",
+        "internet_access": "no",
+        "name": "Station Juma Masjid",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "religion": "muslim",
+        "wheelchair": "no"
+      },
+      "xy": [
+        [
+          149.5915,
+          -55.1207
+        ],
+        [
+          150.3178,
+          -57.6519
+        ],
+        [
+          152.7753,
+          -56.9338
+        ],
+        [
+          155.406,
+          -66.0112
+        ],
+        [
+          152.5985,
+          -66.814
+        ],
+        [
+          155.8758,
+          -78.1816
+        ],
+        [
+          137.4569,
+          -83.4894
+        ],
+        [
+          133.542,
+          -69.9422
+        ],
+        [
+          132.5213,
+          -70.2299
+        ],
+        [
+          129.809,
+          -66.5677
+        ],
+        [
+          128.0802,
+          -60.6224
+        ],
+        [
+          139.1293,
+          -57.4219
+        ],
+        [
+          138.4022,
+          -54.9063
+        ],
+        [
+          143.0526,
+          -53.5689
+        ],
+        [
+          143.9755,
+          -56.7418
+        ],
+        [
+          149.5915,
+          -55.1207
+        ]
+      ],
+      "center": [
+        143.2578375,
+        -63.08277500000001
+      ],
+      "bbox": [
+        128.0802,
+        155.8758,
+        -83.4894,
+        -53.5689
+      ]
+    },
+    {
+      "id": "797616615",
+      "tags": {
+        "addr:city": "Edava",
+        "addr:district": "Thiruvananthapuram",
+        "addr:housenumber": "Near Kseb Office",
+        "addr:postcode": "695311",
+        "addr:street": "Varkala - Edava - Kappil Bridge Approach Road",
+        "amenity": "conference_centre",
+        "building": "yes",
+        "internet_access": "no",
+        "mobile": "8943813414",
+        "name": "Appus Regency Hall",
+        "wheelchair": "no"
+      },
+      "xy": [
+        [
+          -250.333,
+          -140.8916
+        ],
+        [
+          -262.803,
+          -118.1008
+        ],
+        [
+          -276.0224,
+          -125.335
+        ],
+        [
+          -263.5369,
+          -148.1269
+        ],
+        [
+          -250.333,
+          -140.8916
+        ]
+      ],
+      "center": [
+        -260.60566000000006,
+        -134.66918
+      ],
+      "bbox": [
+        -276.0224,
+        -250.333,
+        -148.1269,
+        -118.1008
+      ]
+    },
+    {
+      "id": "797827873",
+      "tags": {
+        "abandoned": "yes",
+        "building": "hospital"
+      },
+      "xy": [
+        [
+          401.9038,
+          148.0773
+        ],
+        [
+          378.166,
+          129.7592
+        ],
+        [
+          376.5374,
+          131.8844
+        ],
+        [
+          364.0756,
+          122.2501
+        ],
+        [
+          358.6992,
+          129.2023
+        ],
+        [
+          380.4819,
+          146.0289
+        ],
+        [
+          378.0528,
+          149.1844
+        ],
+        [
+          375.5723,
+          152.3984
+        ],
+        [
+          380.4386,
+          156.1602
+        ],
+        [
+          382.5486,
+          153.4356
+        ],
+        [
+          385.4142,
+          149.7153
+        ],
+        [
+          393.5107,
+          155.9677
+        ],
+        [
+          397.2179,
+          158.832
+        ],
+        [
+          398.6234,
+          159.9158
+        ],
+        [
+          404.4353,
+          152.3832
+        ],
+        [
+          400.7612,
+          149.5479
+        ],
+        [
+          401.9038,
+          148.0773
+        ]
+      ],
+      "center": [
+        385.78486470588234,
+        146.6364705882353
+      ],
+      "bbox": [
+        358.6992,
+        404.4353,
+        122.2501,
+        159.9158
+      ]
+    },
+    {
+      "id": "797827879",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          498.1347,
+          134.2931
+        ],
+        [
+          484.3259,
+          150.8332
+        ],
+        [
+          475.0917,
+          143.1247
+        ],
+        [
+          488.9162,
+          126.5836
+        ],
+        [
+          498.1347,
+          134.2931
+        ]
+      ],
+      "center": [
+        488.92064,
+        137.82554
+      ],
+      "bbox": [
+        475.0917,
+        498.1347,
+        126.5836,
+        150.8332
+      ]
+    },
+    {
+      "id": "797827881",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          475.5747,
+          62.0013
+        ],
+        [
+          471.3773,
+          58.5446
+        ],
+        [
+          475.784,
+          53.1996
+        ],
+        [
+          472.4608,
+          50.4647
+        ],
+        [
+          471.474,
+          51.6573
+        ],
+        [
+          467.1773,
+          48.1136
+        ],
+        [
+          463.5163,
+          52.5577
+        ],
+        [
+          461.8506,
+          51.1866
+        ],
+        [
+          457.919,
+          55.9562
+        ],
+        [
+          459.6013,
+          57.3418
+        ],
+        [
+          457.1306,
+          60.3277
+        ],
+        [
+          468.9323,
+          70.0643
+        ],
+        [
+          475.5747,
+          62.0013
+        ]
+      ],
+      "center": [
+        467.5671461538462,
+        56.41666923076924
+      ],
+      "bbox": [
+        457.1306,
+        475.784,
+        48.1136,
+        70.0643
+      ]
+    },
+    {
+      "id": "797827883",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          437.1437,
+          46.1259
+        ],
+        [
+          420.658,
+          34.4895
+        ],
+        [
+          415.8169,
+          41.3484
+        ],
+        [
+          432.3027,
+          52.9848
+        ],
+        [
+          437.1437,
+          46.1259
+        ]
+      ],
+      "center": [
+        428.613,
+        44.2149
+      ],
+      "bbox": [
+        415.8169,
+        437.1437,
+        34.4895,
+        52.9848
+      ]
+    },
+    {
+      "id": "797827885",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          421.0335,
+          58.7986
+        ],
+        [
+          408.0349,
+          50.411
+        ],
+        [
+          398.6751,
+          64.9294
+        ],
+        [
+          414.226,
+          74.9618
+        ],
+        [
+          417.2594,
+          70.2489
+        ],
+        [
+          414.7227,
+          68.6029
+        ],
+        [
+          421.0335,
+          58.7986
+        ]
+      ],
+      "center": [
+        413.5693,
+        63.8216
+      ],
+      "bbox": [
+        398.6751,
+        421.0335,
+        50.411,
+        74.9618
+      ]
+    },
+    {
+      "id": "797827886",
+      "tags": {
+        "building": "apartments"
+      },
+      "xy": [
+        [
+          372.4811,
+          107.6354
+        ],
+        [
+          364.1733,
+          101.257
+        ],
+        [
+          357.0611,
+          110.5069
+        ],
+        [
+          365.3772,
+          116.8925
+        ],
+        [
+          372.4811,
+          107.6354
+        ]
+      ],
+      "center": [
+        366.31476000000004,
+        108.78544000000002
+      ],
+      "bbox": [
+        357.0611,
+        372.4811,
+        101.257,
+        116.8925
+      ]
+    },
+    {
+      "id": "797827887",
+      "tags": {
+        "building": "yes",
+        "shop": "yes"
+      },
+      "xy": [
+        [
+          351.3243,
+          86.4726
+        ],
+        [
+          342.5138,
+          79.8164
+        ],
+        [
+          337.1312,
+          86.9259
+        ],
+        [
+          336.7368,
+          86.6247
+        ],
+        [
+          332.2336,
+          92.5807
+        ],
+        [
+          342.5056,
+          100.3402
+        ],
+        [
+          347.924,
+          93.1732
+        ],
+        [
+          346.8651,
+          92.3783
+        ],
+        [
+          351.3243,
+          86.4726
+        ]
+      ],
+      "center": [
+        343.17318888888883,
+        89.42051111111111
+      ],
+      "bbox": [
+        332.2336,
+        351.3243,
+        79.8164,
+        100.3402
+      ]
+    },
+    {
+      "id": "797827888",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          315.8144,
+          99.4465
+        ],
+        [
+          304.7606,
+          93.0297
+        ],
+        [
+          295.7867,
+          108.4933
+        ],
+        [
+          306.8322,
+          114.9028
+        ],
+        [
+          315.8144,
+          99.4465
+        ]
+      ],
+      "center": [
+        307.80165999999997,
+        103.06376
+      ],
+      "bbox": [
+        295.7867,
+        315.8144,
+        93.0297,
+        114.9028
+      ]
+    },
+    {
+      "id": "797827889",
+      "tags": {
+        "building": "apartments"
+      },
+      "xy": [
+        [
+          214.6881,
+          9.734
+        ],
+        [
+          218.4294,
+          30.8204
+        ],
+        [
+          211.3712,
+          32.0799
+        ],
+        [
+          207.6216,
+          10.9862
+        ],
+        [
+          214.6881,
+          9.734
+        ]
+      ],
+      "center": [
+        213.35967999999997,
+        18.670899999999996
+      ],
+      "bbox": [
+        207.6216,
+        218.4294,
+        9.734,
+        32.0799
+      ]
+    },
+    {
+      "id": "847164183",
+      "tags": {
+        "building": "school",
+        "building:levels": "0",
+        "roof:levels": "0"
+      },
+      "xy": [
+        [
+          -449.6945,
+          -73.7196
+        ],
+        [
+          -472.956,
+          -86.0545
+        ],
+        [
+          -477.1814,
+          -78.0787
+        ],
+        [
+          -453.9199,
+          -65.7437
+        ],
+        [
+          -449.6945,
+          -73.7196
+        ]
+      ],
+      "center": [
+        -460.68926,
+        -75.46322
+      ],
+      "bbox": [
+        -477.1814,
+        -449.6945,
+        -86.0545,
+        -65.7437
+      ]
+    },
+    {
+      "id": "1001097988",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -41.8941,
+          -77.1731
+        ],
+        [
+          -49.1486,
+          -78.9278
+        ],
+        [
+          -45.5494,
+          -93.8174
+        ],
+        [
+          -39.9732,
+          -92.468
+        ],
+        [
+          -42.2398,
+          -83.0715
+        ],
+        [
+          -40.5615,
+          -82.6663
+        ],
+        [
+          -41.8941,
+          -77.1731
+        ]
+      ],
+      "center": [
+        -43.03724285714286,
+        -83.61388571428573
+      ],
+      "bbox": [
+        -49.1486,
+        -39.9732,
+        -93.8174,
+        -77.1731
+      ]
+    },
+    {
+      "id": "1429730239",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -54.0519,
+          -67.0905
+        ],
+        [
+          -57.0945,
+          -63.185
+        ],
+        [
+          -61.3636,
+          -66.6601
+        ],
+        [
+          -58.3804,
+          -70.381
+        ],
+        [
+          -55.7574,
+          -69.5179
+        ],
+        [
+          -54.0519,
+          -67.0905
+        ]
+      ],
+      "center": [
+        -56.78328333333334,
+        -67.32083333333334
+      ],
+      "bbox": [
+        -61.3636,
+        -54.0519,
+        -70.381,
+        -63.185
+      ]
+    },
+    {
+      "id": "1429939445",
+      "tags": {
+        "air_conditioning": "no",
+        "amenity": "cafe",
+        "building": "yes",
+        "diet:gluten_free": "no",
+        "diet:halal": "yes",
+        "diet:kosher": "no",
+        "diet:vegetarian": "no",
+        "indoor_seating": "yes",
+        "name": "Izcafe",
+        "opening_hours": "Mo-Su 012:00-23:30",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "smoking": "outside",
+        "wheelchair": "no"
+      },
+      "xy": [
+        [
+          409.7636,
+          82.1231
+        ],
+        [
+          403.7798,
+          77.7667
+        ],
+        [
+          397.4421,
+          86.4668
+        ],
+        [
+          404.6309,
+          91.7016
+        ],
+        [
+          407.9272,
+          87.1895
+        ],
+        [
+          406.7222,
+          86.311
+        ],
+        [
+          409.7636,
+          82.1231
+        ]
+      ],
+      "center": [
+        405.71848571428575,
+        84.81168571428573
+      ],
+      "bbox": [
+        397.4421,
+        409.7636,
+        77.7667,
+        91.7016
+      ]
+    },
+    {
+      "id": "1429939446",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          402.5367,
+          78.868
+        ],
+        [
+          395.6651,
+          73.9556
+        ],
+        [
+          386.2349,
+          87.1688
+        ],
+        [
+          393.1065,
+          92.0813
+        ],
+        [
+          402.5367,
+          78.868
+        ]
+      ],
+      "center": [
+        396.01598,
+        82.18834000000001
+      ],
+      "bbox": [
+        386.2349,
+        402.5367,
+        73.9556,
+        92.0813
+      ]
+    },
+    {
+      "id": "1429939447",
+      "tags": {
+        "building": "office",
+        "name": "Chirag Tower"
+      },
+      "xy": [
+        [
+          325.0036,
+          36.3153
+        ],
+        [
+          317.6448,
+          30.9907
+        ],
+        [
+          334.262,
+          8.075
+        ],
+        [
+          337.8679,
+          10.6876
+        ],
+        [
+          341.7565,
+          5.3328
+        ],
+        [
+          345.5012,
+          8.0375
+        ],
+        [
+          325.0036,
+          36.3153
+        ]
+      ],
+      "center": [
+        332.4342285714286,
+        19.39345714285714
+      ],
+      "bbox": [
+        317.6448,
+        345.5012,
+        5.3328,
+        36.3153
+      ]
+    },
+    {
+      "id": "1431661737",
+      "tags": {
+        "building": "school",
+        "building:levels": "0",
+        "roof:levels": "0",
+        "roof:shape": "gabled"
+      },
+      "xy": [
+        [
+          -429.0617,
+          -100.2655
+        ],
+        [
+          -436.4115,
+          -104.916
+        ],
+        [
+          -416.6685,
+          -136.1053
+        ],
+        [
+          -409.3271,
+          -131.4619
+        ],
+        [
+          -429.0617,
+          -100.2655
+        ]
+      ],
+      "center": [
+        -424.10609999999997,
+        -114.60283999999999
+      ],
+      "bbox": [
+        -436.4115,
+        -409.3271,
+        -136.1053,
+        -100.2655
+      ]
+    },
+    {
+      "id": "1431661738",
+      "tags": {
+        "building": "school"
+      },
+      "xy": [
+        [
+          -440.8626,
+          -144.7724
+        ],
+        [
+          -453.0278,
+          -150.5053
+        ],
+        [
+          -466.4993,
+          -121.9313
+        ],
+        [
+          -454.3341,
+          -116.1984
+        ],
+        [
+          -440.8626,
+          -144.7724
+        ]
+      ],
+      "center": [
+        -451.11728000000005,
+        -135.63595999999998
+      ],
+      "bbox": [
+        -466.4993,
+        -440.8626,
+        -150.5053,
+        -116.1984
+      ]
+    },
+    {
+      "id": "1433522228",
+      "tags": {
+        "addr:city": "Edava",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695311",
+        "addr:street": "Varkala - Edava - Kappil Bridge Approach Road",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "separate",
+        "brand": "Indian Overseas Bank",
+        "brand:wikidata": "Q2003611",
+        "building": "yes",
+        "contact:email": "iob0550@iob.in",
+        "drive_through": "no",
+        "name": "Indian Overseas Bank",
+        "opening_hours": "Mo-Sa 10:00-15:30",
+        "phone": "+918925950550",
+        "wheelchair": "limited"
+      },
+      "xy": [
+        [
+          399.7497,
+          67.2922
+        ],
+        [
+          387.897,
+          58.6654
+        ],
+        [
+          375.6644,
+          75.4768
+        ],
+        [
+          387.5171,
+          84.1035
+        ],
+        [
+          399.7497,
+          67.2922
+        ]
+      ],
+      "center": [
+        390.11558,
+        70.56602
+      ],
+      "bbox": [
+        375.6644,
+        399.7497,
+        58.6654,
+        84.1035
+      ]
+    },
+    {
+      "id": "1433522230",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          277.1004,
+          40.9288
+        ],
+        [
+          266.337,
+          64.5935
+        ],
+        [
+          248.2526,
+          56.3668
+        ],
+        [
+          259.016,
+          32.7021
+        ],
+        [
+          277.1004,
+          40.9288
+        ]
+      ],
+      "center": [
+        265.56128,
+        47.104
+      ],
+      "bbox": [
+        248.2526,
+        277.1004,
+        32.7021,
+        64.5935
+      ]
+    },
+    {
+      "id": "1433525091",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -439.634,
+          121.9494
+        ],
+        [
+          -451.4665,
+          136.9355
+        ],
+        [
+          -467.2819,
+          124.4508
+        ],
+        [
+          -455.4577,
+          109.4574
+        ],
+        [
+          -439.634,
+          121.9494
+        ]
+      ],
+      "center": [
+        -450.69482,
+        122.94850000000001
+      ],
+      "bbox": [
+        -467.2819,
+        -439.634,
+        109.4574,
+        136.9355
+      ]
+    },
+    {
+      "id": "1433525093",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -468.0622,
+          -72.1586
+        ],
+        [
+          -471.3225,
+          -62.73
+        ],
+        [
+          -482.378,
+          -66.5578
+        ],
+        [
+          -479.125,
+          -75.9779
+        ],
+        [
+          -468.0622,
+          -72.1586
+        ]
+      ],
+      "center": [
+        -473.78998,
+        -69.91658
+      ],
+      "bbox": [
+        -482.378,
+        -468.0622,
+        -75.9779,
+        -62.73
+      ]
+    },
+    {
+      "id": "1433525094",
+      "tags": {
+        "building": "retail"
+      },
+      "xy": [
+        [
+          -285.6093,
+          -147.2965
+        ],
+        [
+          -297.0205,
+          -153.7896
+        ],
+        [
+          -308.8234,
+          -133.0786
+        ],
+        [
+          -297.4195,
+          -126.5771
+        ],
+        [
+          -285.6093,
+          -147.2965
+        ]
+      ],
+      "center": [
+        -294.8964,
+        -141.60766
+      ],
+      "bbox": [
+        -308.8234,
+        -285.6093,
+        -153.7896,
+        -126.5771
+      ]
+    },
+    {
+      "id": "1433797357",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -397.1088,
+          99.2854
+        ],
+        [
+          -389.5879,
+          90.0533
+        ],
+        [
+          -394.1704,
+          86.3182
+        ],
+        [
+          -401.6996,
+          95.543
+        ],
+        [
+          -397.1088,
+          99.2854
+        ]
+      ],
+      "center": [
+        -395.9351,
+        94.09706
+      ],
+      "bbox": [
+        -401.6996,
+        -389.5879,
+        86.3182,
+        99.2854
+      ]
+    },
+    {
+      "id": "1433797358",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -382.8157,
+          85.3309
+        ],
+        [
+          -387.7365,
+          81.3142
+        ],
+        [
+          -385.8446,
+          79.0053
+        ],
+        [
+          -392.4467,
+          73.6185
+        ],
+        [
+          -399.289,
+          82.0096
+        ],
+        [
+          -387.7587,
+          91.4048
+        ],
+        [
+          -382.8157,
+          85.3309
+        ]
+      ],
+      "center": [
+        -388.3867,
+        82.57345714285715
+      ],
+      "bbox": [
+        -399.289,
+        -382.8157,
+        73.6185,
+        91.4048
+      ]
+    },
+    {
+      "id": "1434059586",
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2",
+        "roof:levels": "0",
+        "roof:shape": "flat"
+      },
+      "xy": [
+        [
+          115.946,
+          -58.6457
+        ],
+        [
+          118.1297,
+          -64.3254
+        ],
+        [
+          136.4239,
+          -57.3062
+        ],
+        [
+          128.0846,
+          -35.5728
+        ],
+        [
+          121.5933,
+          -38.0647
+        ],
+        [
+          127.7489,
+          -54.1185
+        ],
+        [
+          115.946,
+          -58.6457
+        ]
+      ],
+      "center": [
+        123.41034285714287,
+        -52.38271428571428
+      ],
+      "bbox": [
+        115.946,
+        136.4239,
+        -64.3254,
+        -35.5728
+      ]
+    },
+    {
+      "id": "1434059587",
+      "tags": {
+        "addr:city": "Edava",
+        "addr:district": "Thiruvananthapuram",
+        "addr:housenumber": "Opp: Happy Collections",
+        "addr:postcode": "695311",
+        "addr:street": "Varkala - Edava - Kappil Bridge Approach Road",
+        "building": "yes",
+        "check_date": "2026-08-27",
+        "indoor_seating": "no",
+        "internet_access": "no",
+        "name": "Life Bakery",
+        "outdoor_seating": "no",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:upi": "yes",
+        "shop": "bakery",
+        "takeaway": "only",
+        "wheelchair": "no"
+      },
+      "xy": [
+        [
+          26.1206,
+          -27.7163
+        ],
+        [
+          32.0053,
+          -39.0042
+        ],
+        [
+          41.101,
+          -34.2592
+        ],
+        [
+          35.2081,
+          -22.9785
+        ],
+        [
+          26.1206,
+          -27.7163
+        ]
+      ],
+      "center": [
+        32.11112,
+        -30.334899999999998
+      ],
+      "bbox": [
+        26.1206,
+        41.101,
+        -39.0042,
+        -22.9785
+      ]
+    },
+    {
+      "id": "1434622380",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          53.1361,
+          -110.2019
+        ],
+        [
+          44.4623,
+          -114.5771
+        ],
+        [
+          39.9286,
+          -105.5985
+        ],
+        [
+          48.6024,
+          -101.2233
+        ],
+        [
+          53.1361,
+          -110.2019
+        ]
+      ],
+      "center": [
+        47.8531,
+        -108.36053999999999
+      ],
+      "bbox": [
+        39.9286,
+        53.1361,
+        -114.5771,
+        -101.2233
+      ]
+    },
+    {
+      "id": "1434622381",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          87.9111,
+          -99.7363
+        ],
+        [
+          72.015,
+          -105.8528
+        ],
+        [
+          67.1045,
+          -93.0893
+        ],
+        [
+          83.0007,
+          -86.9728
+        ],
+        [
+          87.9111,
+          -99.7363
+        ]
+      ],
+      "center": [
+        79.58848,
+        -97.07750000000001
+      ],
+      "bbox": [
+        67.1045,
+        87.9111,
+        -105.8528,
+        -86.9728
+      ]
+    },
+    {
+      "id": "1434622382",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          92.4698,
+          -146.3505
+        ],
+        [
+          112.7674,
+          -139.781
+        ],
+        [
+          116.5046,
+          -151.3228
+        ],
+        [
+          96.207,
+          -157.8923
+        ],
+        [
+          92.4698,
+          -146.3505
+        ]
+      ],
+      "center": [
+        102.08372,
+        -148.33942
+      ],
+      "bbox": [
+        92.4698,
+        116.5046,
+        -157.8923,
+        -139.781
+      ]
+    },
+    {
+      "id": "1435246344",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -471.1872,
+          58.7836
+        ],
+        [
+          -479.2582,
+          52.3019
+        ],
+        [
+          -488.88,
+          64.2815
+        ],
+        [
+          -480.809,
+          70.7632
+        ],
+        [
+          -471.1872,
+          58.7836
+        ]
+      ],
+      "center": [
+        -478.26432000000005,
+        60.98276
+      ],
+      "bbox": [
+        -488.88,
+        -471.1872,
+        52.3019,
+        70.7632
+      ]
+    },
+    {
+      "id": "1435246345",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -389.2712,
+          115.0805
+        ],
+        [
+          -409.4425,
+          101.0724
+        ],
+        [
+          -412.0619,
+          104.8457
+        ],
+        [
+          -391.898,
+          118.8621
+        ],
+        [
+          -389.2712,
+          115.0805
+        ]
+      ],
+      "center": [
+        -398.38896000000005,
+        110.98823999999999
+      ],
+      "bbox": [
+        -412.0619,
+        -389.2712,
+        101.0724,
+        118.8621
+      ]
+    },
+    {
+      "id": "1435246346",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -364.6556,
+          52.192
+        ],
+        [
+          -375.0804,
+          63.8526
+        ],
+        [
+          -364.3957,
+          73.3948
+        ],
+        [
+          -353.9709,
+          61.7341
+        ],
+        [
+          -364.6556,
+          52.192
+        ]
+      ],
+      "center": [
+        -364.55164,
+        60.6731
+      ],
+      "bbox": [
+        -375.0804,
+        -353.9709,
+        52.192,
+        73.3948
+      ]
+    },
+    {
+      "id": "1435246347",
+      "tags": {
+        "building": "detached"
+      },
+      "xy": [
+        [
+          -71.661,
+          58.9284
+        ],
+        [
+          -80.331,
+          53.0466
+        ],
+        [
+          -86.0501,
+          61.4748
+        ],
+        [
+          -77.3801,
+          67.3565
+        ],
+        [
+          -71.661,
+          58.9284
+        ]
+      ],
+      "center": [
+        -77.41664,
+        59.94694
+      ],
+      "bbox": [
+        -86.0501,
+        -71.661,
+        53.0466,
+        67.3565
+      ]
+    },
+    {
+      "id": "1435246348",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -93.6129,
+          11.9488
+        ],
+        [
+          -91.8239,
+          12.7619
+        ],
+        [
+          -86.4628,
+          17.0609
+        ],
+        [
+          -82.3026,
+          17.0214
+        ],
+        [
+          -80.9841,
+          5.6688
+        ],
+        [
+          -93.905,
+          4.0696
+        ],
+        [
+          -95.086,
+          11.1758
+        ],
+        [
+          -93.6129,
+          11.9488
+        ]
+      ],
+      "center": [
+        -89.723775,
+        11.457
+      ],
+      "bbox": [
+        -95.086,
+        -80.9841,
+        4.0696,
+        17.0609
+      ]
+    },
+    {
+      "id": "1435246349",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -29.3675,
+          55.6744
+        ],
+        [
+          -34.5645,
+          53.4583
+        ],
+        [
+          -36.5978,
+          58.2486
+        ],
+        [
+          -31.4008,
+          60.4647
+        ],
+        [
+          -29.3675,
+          55.6744
+        ]
+      ],
+      "center": [
+        -32.25962,
+        56.70408
+      ],
+      "bbox": [
+        -36.5978,
+        -29.3675,
+        53.4583,
+        60.4647
+      ]
+    },
+    {
+      "id": "1435246355",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          405.8118,
+          141.2147
+        ],
+        [
+          411.4753,
+          133.1671
+        ],
+        [
+          381.1987,
+          111.827
+        ],
+        [
+          375.5279,
+          119.883
+        ],
+        [
+          405.8118,
+          141.2147
+        ]
+      ],
+      "center": [
+        395.9651,
+        129.4613
+      ],
+      "bbox": [
+        375.5279,
+        411.4753,
+        111.827,
+        141.2147
+      ]
+    },
+    {
+      "id": "1435246356",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          340.5226,
+          78.9001
+        ],
+        [
+          334.6589,
+          74.3234
+        ],
+        [
+          325.8867,
+          85.5674
+        ],
+        [
+          331.7422,
+          90.1369
+        ],
+        [
+          340.5226,
+          78.9001
+        ]
+      ],
+      "center": [
+        334.6666,
+        81.56558000000001
+      ],
+      "bbox": [
+        325.8867,
+        340.5226,
+        74.3234,
+        90.1369
+      ]
+    },
+    {
+      "id": "1435246357",
+      "tags": {
+        "addr:city": "Edava",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695311",
+        "addr:street": "Varkala - Edava - Kappil Bridge Approach Road",
+        "building": "retail",
+        "name": "VAISAKH BUILDINGS"
+      },
+      "xy": [
+        [
+          323.2205,
+          86.9904
+        ],
+        [
+          334.4333,
+          73.0451
+        ],
+        [
+          324.9945,
+          65.4533
+        ],
+        [
+          313.7899,
+          79.4059
+        ],
+        [
+          323.2205,
+          86.9904
+        ]
+      ],
+      "center": [
+        323.93174,
+        78.37702000000002
+      ],
+      "bbox": [
+        313.7899,
+        334.4333,
+        65.4533,
+        86.9904
+      ]
+    },
+    {
+      "id": "1435246358",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          363.4284,
+          91.7078
+        ],
+        [
+          355.577,
+          85.3594
+        ],
+        [
+          343.6872,
+          100.0436
+        ],
+        [
+          351.5313,
+          106.4004
+        ],
+        [
+          363.4284,
+          91.7078
+        ]
+      ],
+      "center": [
+        355.53046,
+        95.0438
+      ],
+      "bbox": [
+        343.6872,
+        363.4284,
+        85.3594,
+        106.4004
+      ]
+    },
+    {
+      "id": "1435247959",
+      "tags": {
+        "building": "yes",
+        "name": "Devi Opticals",
+        "shop": "optician"
+      },
+      "xy": [
+        [
+          -38.3665,
+          -62.9203
+        ],
+        [
+          -46.3954,
+          -49.0858
+        ],
+        [
+          -51.098,
+          -51.8159
+        ],
+        [
+          -43.0608,
+          -65.6432
+        ],
+        [
+          -38.3665,
+          -62.9203
+        ]
+      ],
+      "center": [
+        -43.45744,
+        -58.47709999999999
+      ],
+      "bbox": [
+        -51.098,
+        -38.3665,
+        -65.6432,
+        -49.0858
+      ]
+    },
+    {
+      "id": "1435248156",
+      "tags": {
+        "building": "retail",
+        "name": "Ushus Building"
+      },
+      "xy": [
+        [
+          19.4465,
+          -28.681
+        ],
+        [
+          27.4486,
+          -45.84
+        ],
+        [
+          8.763,
+          -54.5493
+        ],
+        [
+          0.7692,
+          -37.383
+        ],
+        [
+          19.4465,
+          -28.681
+        ]
+      ],
+      "center": [
+        15.174759999999997,
+        -39.026860000000006
+      ],
+      "bbox": [
+        0.7692,
+        27.4486,
+        -54.5493,
+        -28.681
+      ]
+    },
+    {
+      "id": "1435248157",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -11.9901,
+          -59.5641
+        ],
+        [
+          -18.0498,
+          -61.2633
+        ],
+        [
+          -20.4908,
+          -52.5525
+        ],
+        [
+          -14.4238,
+          -50.8617
+        ],
+        [
+          -11.9901,
+          -59.5641
+        ]
+      ],
+      "center": [
+        -15.388919999999999,
+        -56.76114
+      ],
+      "bbox": [
+        -20.4908,
+        -11.9901,
+        -61.2633,
+        -50.8617
+      ]
+    },
+    {
+      "id": "1435248158",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -5.1365,
+          -57.4355
+        ],
+        [
+          -11.0945,
+          -59.4008
+        ],
+        [
+          -13.8217,
+          -51.1481
+        ],
+        [
+          -7.8554,
+          -49.1755
+        ],
+        [
+          -5.1365,
+          -57.4355
+        ]
+      ],
+      "center": [
+        -8.608920000000001,
+        -54.919079999999994
+      ],
+      "bbox": [
+        -13.8217,
+        -5.1365,
+        -59.4008,
+        -49.1755
+      ]
+    },
+    {
+      "id": "1435248159",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -9.3983,
+          -45.2284
+        ],
+        [
+          -15.8582,
+          -49.9429
+        ],
+        [
+          -25.6381,
+          -36.5476
+        ],
+        [
+          -19.1855,
+          -31.8248
+        ],
+        [
+          -9.3983,
+          -45.2284
+        ]
+      ],
+      "center": [
+        -15.895680000000002,
+        -41.75442
+      ],
+      "bbox": [
+        -25.6381,
+        -9.3983,
+        -49.9429,
+        -31.8248
+      ]
+    },
+    {
+      "id": "1435248160",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          64.991,
+          31.8414
+        ],
+        [
+          51.2003,
+          26.9782
+        ],
+        [
+          49.0822,
+          32.9671
+        ],
+        [
+          62.8811,
+          37.8375
+        ],
+        [
+          64.991,
+          31.8414
+        ]
+      ],
+      "center": [
+        58.62912,
+        32.29312
+      ],
+      "bbox": [
+        49.0822,
+        64.991,
+        26.9782,
+        37.8375
+      ]
+    },
+    {
+      "id": "1435251060",
+      "tags": {
+        "building": "retail"
+      },
+      "xy": [
+        [
+          -162.4082,
+          -104.4036
+        ],
+        [
+          -175.5198,
+          -100.2934
+        ],
+        [
+          -177.8404,
+          -105.6578
+        ],
+        [
+          -164.9164,
+          -109.2367
+        ],
+        [
+          -162.4082,
+          -104.4036
+        ]
+      ],
+      "center": [
+        -168.6186,
+        -104.79902
+      ],
+      "bbox": [
+        -177.8404,
+        -162.4082,
+        -109.2367,
+        -100.2934
+      ]
+    },
+    {
+      "id": "1435251061",
+      "tags": {
+        "building": "retail"
+      },
+      "xy": [
+        [
+          -112.6075,
+          -93.188
+        ],
+        [
+          -117.3936,
+          -84.105
+        ],
+        [
+          -107.1932,
+          -78.7175
+        ],
+        [
+          -102.3997,
+          -87.8089
+        ],
+        [
+          -112.6075,
+          -93.188
+        ]
+      ],
+      "center": [
+        -110.44030000000001,
+        -87.40147999999999
+      ],
+      "bbox": [
+        -117.3936,
+        -102.3997,
+        -93.188,
+        -78.7175
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "101048945",
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxheight": "4.67",
+        "name": "Venkulam - Guest House Road",
+        "oneway": "no",
+        "ref": "MDR",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -147.3373,
+          -117.6763
+        ],
+        [
+          -168.9611,
+          -114.8541
+        ],
+        [
+          -183.2343,
+          -112.9906
+        ],
+        [
+          -253.5303,
+          -82.9445
+        ],
+        [
+          -298.4131,
+          -40.6315
+        ],
+        [
+          -308.7016,
+          -30.228
+        ],
+        [
+          -321.6699,
+          -14.3131
+        ],
+        [
+          -331.0936,
+          -4.9131
+        ]
+      ]
+    },
+    {
+      "id": "101048996",
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Varkala - Edava - Kappil Bridge Approach Road",
+        "oneway": "no",
+        "ref": "MDR",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -147.3373,
+          -117.6763
+        ],
+        [
+          -143.5552,
+          -115.9158
+        ],
+        [
+          -125.6672,
+          -107.5651
+        ],
+        [
+          -81.7131,
+          -87.0414
+        ],
+        [
+          -57.1586,
+          -79.5535
+        ],
+        [
+          -15.3553,
+          -66.7914
+        ]
+      ]
+    },
+    {
+      "id": "236677527",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          37.6424,
+          -174.465
+        ],
+        [
+          80.2689,
+          -166.932
+        ],
+        [
+          124.6122,
+          -155.2152
+        ],
+        [
+          166.7094,
+          -144.0903
+        ],
+        [
+          211.4577,
+          -136.3408
+        ],
+        [
+          221.7779,
+          -131.3071
+        ],
+        [
+          231.6743,
+          -121.9673
+        ],
+        [
+          245.2583,
+          -105.3841
+        ],
+        [
+          303.9392,
+          -82.0336
+        ],
+        [
+          311.0264,
+          -76.5325
+        ],
+        [
+          317.0323,
+          -66.5763
+        ],
+        [
+          310.3317,
+          -38.2998
+        ]
+      ]
+    },
+    {
+      "id": "236677540",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          671.4836,
+          93.7627
+        ],
+        [
+          643.8027,
+          52.1681
+        ],
+        [
+          627.6451,
+          29.0069
+        ],
+        [
+          629.1009,
+          16.5462
+        ],
+        [
+          661.7302,
+          -18.9802
+        ]
+      ]
+    },
+    {
+      "id": "461186787",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          661.7302,
+          -18.9802
+        ],
+        [
+          684.7284,
+          3.8706
+        ],
+        [
+          718.7011,
+          38.2198
+        ]
+      ]
+    },
+    {
+      "id": "461186788",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          661.7302,
+          -18.9802
+        ],
+        [
+          605.5693,
+          -69.0756
+        ]
+      ]
+    },
+    {
+      "id": "806825305",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          1004.6525,
+          -117.2495
+        ],
+        [
+          985.2013,
+          -95.0562
+        ],
+        [
+          967.9095,
+          -71.7547
+        ],
+        [
+          917.9513,
+          18.2294
+        ]
+      ]
+    },
+    {
+      "id": "806825306",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          684.7284,
+          3.8706
+        ],
+        [
+          714.4393,
+          -26.7236
+        ]
+      ]
+    },
+    {
+      "id": "806825315",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          698.0335,
+          -140.7231
+        ],
+        [
+          652.6068,
+          -168.6804
+        ]
+      ]
+    },
+    {
+      "id": "959818791",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          577.6997,
+          -97.6022
+        ],
+        [
+          583.0027,
+          -93.4873
+        ],
+        [
+          588.5233,
+          -90.1882
+        ],
+        [
+          594.4963,
+          -88.7574
+        ],
+        [
+          599.66,
+          -89.0573
+        ],
+        [
+          606.0871,
+          -90.5147
+        ],
+        [
+          615.4061,
+          -91.9835
+        ],
+        [
+          629.1679,
+          -93.7475
+        ],
+        [
+          646.0793,
+          -95.9336
+        ],
+        [
+          661.0394,
+          -98.6308
+        ],
+        [
+          676.9226,
+          -101.2295
+        ]
+      ]
+    },
+    {
+      "id": "959818922",
+      "tags": {
+        "highway": "residential",
+        "surface": "dirt"
+      },
+      "xy": [
+        [
+          676.9226,
+          -101.2295
+        ],
+        [
+          839.9941,
+          -126.5952
+        ],
+        [
+          984.6768,
+          -147.0877
+        ]
+      ]
+    },
+    {
+      "id": "1080200869",
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Varkala - Edava - Kappil Bridge Approach Road",
+        "oneway": "no",
+        "ref": "MDR",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -15.3553,
+          -66.7914
+        ],
+        [
+          42.8742,
+          -45.4796
+        ],
+        [
+          61.3498,
+          -38.0498
+        ],
+        [
+          103.5943,
+          -21.0672
+        ],
+        [
+          122.7409,
+          -9.2451
+        ],
+        [
+          133.4357,
+          -2.8026
+        ],
+        [
+          139.1478,
+          -1.4079
+        ],
+        [
+          143.1816,
+          -0.4186
+        ]
+      ]
+    },
+    {
+      "id": "1305664620",
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "name": "Manaf Textiles Road",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          124.6122,
+          -155.2152
+        ],
+        [
+          79.5415,
+          -76.416
+        ],
+        [
+          61.3498,
+          -38.0498
+        ]
+      ]
+    },
+    {
+      "id": "1429664653",
+      "tags": {
+        "highway": "service"
+      },
+      "xy": [
+        [
+          140.2121,
+          172.4768
+        ],
+        [
+          120.1484,
+          156.2095
+        ],
+        [
+          63.2659,
+          118.1377
+        ],
+        [
+          80.8464,
+          73.8922
+        ],
+        [
+          106.3047,
+          34.9968
+        ],
+        [
+          106.0912,
+          7.1143
+        ]
+      ]
+    },
+    {
+      "id": "1429664654",
+      "tags": {
+        "est_width": "2.5 m",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Edava - Chirayil Road",
+        "narrow": "yes",
+        "surface": "dirt"
+      },
+      "xy": [
+        [
+          22.6012,
+          7.5967
+        ],
+        [
+          21.8112,
+          13.7727
+        ],
+        [
+          20.1616,
+          19.8613
+        ],
+        [
+          19.4523,
+          23.5916
+        ],
+        [
+          17.2452,
+          27.3117
+        ],
+        [
+          13.8268,
+          28.7416
+        ],
+        [
+          7.8748,
+          28.8391
+        ],
+        [
+          -10.0558,
+          28.7997
+        ],
+        [
+          -14.6817,
+          28.7864
+        ],
+        [
+          -52.2802,
+          16.4679
+        ],
+        [
+          -73.2316,
+          6.8386
+        ],
+        [
+          -94.1162,
+          3.2924
+        ],
+        [
+          -107.6078,
+          6.0333
+        ]
+      ]
+    },
+    {
+      "id": "1429664655",
+      "tags": {
+        "highway": "service",
+        "name": "Edava Railway station Road",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          10.6986,
+          18.4063
+        ],
+        [
+          15.107,
+          17.6664
+        ],
+        [
+          16.4486,
+          16.7699
+        ],
+        [
+          17.4196,
+          14.6605
+        ],
+        [
+          18.1807,
+          12.8407
+        ],
+        [
+          19.9168,
+          10.0252
+        ],
+        [
+          20.9675,
+          9.2438
+        ],
+        [
+          22.6012,
+          7.5967
+        ]
+      ]
+    },
+    {
+      "id": "1429664656",
+      "tags": {
+        "highway": "service",
+        "name": "Edava Railway station Road",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          106.0912,
+          7.1143
+        ],
+        [
+          125.8578,
+          4.8254
+        ],
+        [
+          134.6468,
+          2.4924
+        ],
+        [
+          139.1478,
+          -1.4079
+        ]
+      ]
+    },
+    {
+      "id": "1429664657",
+      "tags": {
+        "highway": "service",
+        "name": "Edava Railway station Road",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          106.0912,
+          7.1143
+        ],
+        [
+          75.2471,
+          7.8209
+        ],
+        [
+          40.8322,
+          7.6774
+        ],
+        [
+          22.6012,
+          7.5967
+        ]
+      ]
+    },
+    {
+      "id": "1429730240",
+      "tags": {
+        "highway": "service",
+        "layer": "1",
+        "name": "Edava Railway Station Road",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -57.1586,
+          -79.5535
+        ],
+        [
+          -62.2818,
+          -68.1162
+        ],
+        [
+          -74.5004,
+          -44.7943
+        ],
+        [
+          -82.1072,
+          -30.4566
+        ],
+        [
+          -89.5125,
+          -17.3336
+        ]
+      ]
+    },
+    {
+      "id": "1431448709",
+      "tags": {
+        "highway": "residential",
+        "motor_vehicle": "no",
+        "narrow": "yes",
+        "surface": "concrete"
+      },
+      "xy": [
+        [
+          958.1937,
+          53.337
+        ],
+        [
+          924.2187,
+          98.845
+        ],
+        [
+          908.8286,
+          121.0451
+        ],
+        [
+          902.158,
+          136.4846
+        ],
+        [
+          900.2985,
+          142.9962
+        ],
+        [
+          900.401,
+          149.8064
+        ]
+      ]
+    },
+    {
+      "id": "1431448714",
+      "tags": {
+        "highway": "residential",
+        "surface": "dirt"
+      },
+      "xy": [
+        [
+          605.5693,
+          -69.0756
+        ],
+        [
+          382.9641,
+          -35.2574
+        ],
+        [
+          381.9123,
+          -33.8404
+        ],
+        [
+          382.4341,
+          -32.1989
+        ],
+        [
+          384.3327,
+          -30.3424
+        ],
+        [
+          389.3929,
+          -28.0538
+        ],
+        [
+          402.275,
+          -19.5165
+        ],
+        [
+          409.3161,
+          -14.1299
+        ],
+        [
+          412.2656,
+          -10.5679
+        ],
+        [
+          412.3356,
+          -6.3914
+        ],
+        [
+          413.3407,
+          -2.18
+        ],
+        [
+          418.8842,
+          4.2477
+        ],
+        [
+          435.0271,
+          16.4422
+        ],
+        [
+          446.4452,
+          24.8805
+        ],
+        [
+          453.2191,
+          30.2549
+        ]
+      ]
+    },
+    {
+      "id": "1434304938",
+      "tags": {
+        "highway": "residential",
+        "lit": "no",
+        "sidewalk": "no",
+        "surface": "dirt"
+      },
+      "xy": [
+        [
+          -107.6078,
+          6.0333
+        ],
+        [
+          -53.041,
+          39.7367
+        ]
+      ]
+    }
+  ],
+  "center_rail_ys": [
+    -2.91,
+    2.03
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-08"
+}
