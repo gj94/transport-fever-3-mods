@@ -50,7 +50,10 @@ leaf=mat('Palm leaf',(.12,.25,.045),noise=6)
 
 
 def cube(name,loc,scale,m,bev=0):
- bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=move(bpy.context.object);o.name=name;o.dimensions=scale;bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+ sx,sy,sz=[v/2 for v in scale]
+ v=[(-sx,-sy,-sz),(-sx,-sy,sz),(-sx,sy,-sz),(-sx,sy,sz),(sx,-sy,-sz),(sx,-sy,sz),(sx,sy,-sz),(sx,sy,sz)]
+ me=bpy.data.meshes.new(name);me.from_pydata(v,[],[(2,6,4,0),(5,7,3,1),(4,5,1,0),(3,7,6,2),(1,3,2,0),(6,7,5,4)]);me.update()
+ o=bpy.data.objects.new(name,me);COL.objects.link(o);o.location=loc
  if m:o.data.materials.append(m)
  if bev:
   q=o.modifiers.new('Soft manufactured edges','BEVEL');q.width=bev;q.segments=2
@@ -85,7 +88,7 @@ def corrugated(name,x,y,z,w,d,m,pitch=.22):
  n=max(2,int(w/pitch)*4);v=[]
  for yy in [y-d/2,y+d/2]:
   for i in range(n+1):v.append((x-w/2+w*i/n,yy,z+.045*math.cos(i*math.pi/2)))
- o=mesh(name,v,[(i,i+1,n+i+2,n+i+1) for i in range(n)],m);so=o.modifiers.new('Sheet thickness 6 mm','SOLIDIFY');so.thickness=.006;return o
+ o=mesh(name,[(a-x,b-y,c-z) for a,b,c in v],[(i,i+1,n+i+2,n+i+1) for i in range(n)],m);o.location=(x,y,z);so=o.modifiers.new('Sheet thickness 6 mm','SOLIDIFY');so.thickness=.006;return o
 
 collection('01 | WEST FRONTAGE • 2017 photo-derived')
 # Central pavilion: genuinely open doorways, separate piers/lintel instead of solid box.
@@ -163,6 +166,7 @@ for x0 in [-13.9,3.5]:
  for zz in [.75,1.3,1.85,2.4,2.95]:cube('Entrance perforated screen lintel',(x0+.23,-5.1,zz),(.75,.2,.06),white)
 sign('Ticket hall wayfinding',-5,6.23,4.32,6.5,.85,'tickets')
 # Forecourt adaptable stage, not cadastral boundary.
+print('Building 02 | FORECOURT',flush=True)
 collection('02 | FORECOURT • inferred dressing')
 cube('Presentation ground',(2,2,-.32),(120,105,.5),road)
 cube('Paved footway',(2,-9.8,.09),(76,5.5,.18),stone,.02)
@@ -194,6 +198,7 @@ for x in [17,26]:
 sign('Forecourt parking direction',31,-17.0,3.0,4.5,1.4,'parking')
 for xx in [29,33]:cyl('Parking sign post',(xx,-16.85,1.7),.055,3.4,steel)
 # Trackside stage. Separate collections clearly communicate assembly rather than yard survey.
+print('Building 03 | PLATFORM',flush=True)
 collection('03 | PLATFORM KIT • configurable 96 m demonstration')
 L=96; platform_y=16.5
 cube('Platform retaining wall',(0,platform_y,.53),(L,8.6,1.06),red,.035)
@@ -256,23 +261,25 @@ for x in [-16,7,28]:
 cyl('Coach-position post',(-12,13,2.6),.04,2.9,blue)
 sign('Coach position 13 (not platform number)',-12,12.92,3.5,.75,.9,'coach_position')
 # Two sample broad-gauge tracks. No switches or invented complete yard.
+print('Building 04 | TRACK',flush=True)
 collection('04 | TRACK MODULES • demo placement only')
 for y in [24,29.8]:
  cube('Ballast bed',(0,y,.13),(110,3.6,.3),ballast,.08)
  for x in [i*.62-54.7 for i in range(177)]:
   cube('Concrete broad-gauge sleeper',(x,y,.34),(.23,2.75,.19),stone,.03)
- for yy in [y-.8375,y+.8375]:
+ for yy in [y-.87,y+.87]:
   cube('Rail foot',(0,yy,.49),(110,.14,.03),railmat)
   cube('Rail web',(0,yy,.565),(110,.025,.13),railmat)
   cube('Rail head',(0,yy,.645),(110,.065,.045),railhead,.01)
  # sparse explicit rail fastening plates, adequate demonstration
  for x in range(-53,55,2):
-  for yy in [y-.8375,y+.8375]:cube('Rail fastener plate',(x,yy,.45),(.22,.26,.025),railmat)
+  for yy in [y-.87,y+.87]:cube('Rail fastener plate',(x,yy,.45),(.22,.26,.025),railmat)
 # blue utility water pipe seen beside 2017 tracks
 for y in [22,32.5]:
  tube('Blue trackside water main',[(-53,y,.55),(53,y,.55)],.055,roofblue)
  for x in range(-50,54,4):beam('Utility pipe support',(x,y,.1),(x,y,.55),.06,white)
 # electrification grounded in observed masts, adjustable assembly
+print('Building 05 | OHE',flush=True)
 collection('05 | OHE MODULE • indicative spacing')
 for x in [-42,-10,22,48]:
  for y in [22.1,32.2]:
@@ -289,6 +296,7 @@ for yy in [24,29.8]:
   pts=[(a+(b-a)*i/16,yy,6.9-.3*math.sin(math.pi*i/16)) for i in range(17)];tube('Messenger catenary',pts,.016,railmat)
  for x in range(-50,55,5):beam('Catenary dropper',(x,yy,6.15),(x,yy,6.68),.009,railmat)
 # photo-anchored silver lattice footbridge, across demo tracks; x fixed, long axis y
+print('Building 06 | FOOTBRIDGE',flush=True)
 collection('06 | FOOTBRIDGE KIT • 2017 steel lattice and stairs')
 bx=-25;zdeck=7.2
 cube('Footbridge walkway',(bx,24,zdeck),(3.5,28,.24),steel)
@@ -333,6 +341,7 @@ for x in [-39,-37.5]:
  cube('Relay cabinet handle',(x+.28,33.24,1.18),(.035,.03,.14),steel)
  for i in range(4):cube('Relay cabinet ventilation slot',(x,33.245,1.54+i*.06),(.45,.02,.017),black)
 # presentation cameras
+print('Building 90 | PRESENTATION',flush=True)
 collection('90 | PRESENTATION • cameras lights')
 world=bpy.data.worlds.new('Soft Kerala daylight');scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.61,.72,.81,1);world.node_tree.nodes['Background'].inputs[1].default_value=.65
 bpy.ops.object.light_add(type='SUN',location=(0,0,30));o=move(bpy.context.object);o.name='Afternoon sun';o.rotation_euler=(.45,-.5,-.55);o.data.energy=2.2;o.data.angle=.12
@@ -343,7 +352,7 @@ def camera(name,loc,target,lens=44,ortho=None):
  if ortho:o.data.type='ORTHO';o.data.ortho_scale=ortho
  return o
 cams=[camera('01_Hero_west_frontage',(61,-72,30),(0,-1,3),48),camera('02_Front_elevation',(2,-85,7),(2,-2,4.6),50,81),camera('03_Platform_and_footbridge',(37,9,8),(-15,21,4),38),camera('04_Entrance_detail',(-20,-29,10),(-5,-5,4.2),47)]
-scene.camera=cams[0];scene.render.engine='CYCLES';scene.cycles.samples=32;scene.cycles.use_denoising=True;scene.render.threads_mode='FIXED';scene.render.threads=4
+scene.camera=cams[0];scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
 scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=100
 scene.view_settings.view_transform='AgX';scene.render.image_settings.file_format='PNG'
 scene['asset']='ERS Ernakulam Junction | coherent pre-redevelopment 2017 modular visual reconstruction'
@@ -359,7 +368,7 @@ bpy.ops.object.select_all(action='DESELECT')
 for o in scene.objects:
  if o.type in {'MESH','CURVE','FONT'}:o.select_set(True)
 bpy.ops.export_scene.gltf(filepath=str(P/'exports'/'ERS_2017_station.glb'),export_format='GLB',use_selection=True,export_apply=True,export_cameras=False,export_lights=False)
-qa={'blender':bpy.app.version_string,'objects':len(scene.objects),'mesh_objects':sum(o.type=='MESH' for o in scene.objects),'vertices':sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'packed_images':sum(bool(i.packed_file) for i in bpy.data.images),'metres_per_unit':scene.unit_settings.scale_length,'gauge_m':1.675,'render_threads':4,'render_samples':32,'source_saved':True,'export_glb_bytes':(P/'exports'/'ERS_2017_station.glb').stat().st_size}
+qa={'blender':bpy.app.version_string,'objects':len(scene.objects),'mesh_objects':sum(o.type=='MESH' for o in scene.objects),'vertices':sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'packed_images':sum(bool(i.packed_file) for i in bpy.data.images),'metres_per_unit':scene.unit_settings.scale_length,'gauge_m':1.675,'render_threads':4,'render_samples':64,'source_saved':True,'export_glb_bytes':(P/'exports'/'ERS_2017_station.glb').stat().st_size}
 (P/'qa_build.json').write_text(json.dumps(qa,indent=2))
 print('ERS_SOURCE_CHECKPOINT_SAVED',flush=True)
 if '--render' in sys.argv:
