@@ -1,6 +1,6 @@
 {
   "gallery_status": "in_progress",
-  "completed": 18,
+  "completed": 20,
   "planned": 21,
   "native_authoring": "Blender .blend, metre-scale class-specific source masters",
   "portable_exchange": "FBX with documented shader/alpha fallback",
@@ -298,14 +298,34 @@
     {
       "variant": "3A",
       "view": "bogie",
-      "status": "pending",
-      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7"
+      "status": "complete",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "image": "previews/LHB_3A_bogie.png",
+      "record": "qa/render_3A_bogie.json",
+      "image_sha256": "0254a66d1707a01fa69baec7b9c1e4fea16bcf8cb2291f5a6759159069056e94",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
     },
     {
       "variant": "3A",
       "view": "door",
-      "status": "pending",
-      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7"
+      "status": "complete",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "image": "previews/LHB_3A_door.png",
+      "record": "qa/render_3A_door.json",
+      "image_sha256": "b3cf62eecf5851757c4fe9a2939bd812c04f4c5c59ffc73b31b5c725e25d8cb6",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
     },
     {
       "variant": "3A",

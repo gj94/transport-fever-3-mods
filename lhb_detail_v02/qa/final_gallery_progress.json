@@ -87,9 +87,7 @@
     {
       "variant": "3A",
       "view": "hvac"
-    }
-  ],
-  "pending": [
+    },
     {
       "variant": "3A",
       "view": "bogie"
@@ -97,7 +95,9 @@
     {
       "variant": "3A",
       "view": "door"
-    },
+    }
+  ],
+  "pending": [
     {
       "variant": "3A",
       "view": "toilet"
@@ -105,6 +105,6 @@
   ],
   "active": {
     "variant": "3A",
-    "view": "bogie"
+    "view": "toilet"
   }
 }
