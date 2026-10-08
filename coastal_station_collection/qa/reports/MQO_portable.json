@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/mqo/export/MQO_coastal_station_v01.glb.zip!MQO_coastal_station_v01.glb",
+    "bytes": 38298272,
+    "errors": [],
+    "warnings": [],
+    "sha256": "14a27420c97ec1c71a98e9b04d43692cd4c3f049fc1caf4d265df6623dc12d62",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 38298272
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 137892
+      },
+      {
+        "type": 5130562,
+        "bytes": 38160352
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 199,
+    "mesh_count": 199,
+    "primitive_count": 199,
+    "vertex_reference_count": 1287562,
+    "accessor_count": 500,
+    "validated_accessor_count": 500,
+    "material_count": 27,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "69f82e4cc2479ee76b500314f81e5029cb573e306eccf344271d09771b5945c2",
+    "container_bytes": 5004646
+  }
+]

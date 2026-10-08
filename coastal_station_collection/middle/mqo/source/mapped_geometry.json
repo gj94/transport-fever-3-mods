@@ -1,0 +1,3258 @@
+{
+  "station": {
+    "sequence": "24",
+    "station_code": "MQO",
+    "station_name": "Munroturuttu",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "140.43",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "126.11",
+    "halt_marked_in_2025_map": "True",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "2",
+    "mapped_platform_bodies": "2",
+    "mapped_numbered_platform_positions": "2",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "2",
+    "mapped_connected_loops": "0",
+    "mapped_nonloop_sidings": "0",
+    "mapped_total_tracks_all_types": "2",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Two side platform outlines along two main roads. No loops or separate sidings mapped.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2018-06-15T20:06:49Z / 2025-10-31T05:49:30Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.6029084,8.9859978,76.6209084,9.0039978",
+    "mapped_rail_way_ids": "331666081;547319893;617379922;617379923;617379924;617379925;617379939;617379940;661604987;661604988;661604989;661604990",
+    "mapped_platform_way_ids": "598192044;598192045",
+    "mapped_excluded_nonoperational_way_ids": "",
+    "mapped_source_record": "middle_observations.json#MQO",
+    "map_latitude": "8.9945309",
+    "map_longitude": "76.6115842",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "2",
+    "wikipedia_reported_tracks": "2",
+    "wikipedia_platforms_numeric": "2",
+    "wikipedia_tracks_numeric": "2",
+    "wikipedia_platform_field_raw": "2",
+    "wikipedia_tracks_field_raw": "2",
+    "wikipedia_article_url": "https://en.wikipedia.org/wiki/Munroturuttu_railway_station",
+    "wikipedia_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1376920840",
+    "wikipedia_revision_id": "1376920840",
+    "wikipedia_revision_timestamp": "2026-09-27T00:32:02Z",
+    "wikipedia_accessed_date": "2026-10-08",
+    "wikipedia_platform_inline_citation_present": "False",
+    "wikipedia_tracks_inline_citation_present": "False",
+    "wikipedia_conflict_notes": "No specific conflict identified in this pass. Infobox count is reported, not independently verified as a current engineering inventory.",
+    "wikipedia_lookup_status": "FOUND",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "",
+    "wikipedia_count_source_class": "Wikipedia article infobox, reported secondary figure",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "2",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 2",
+    "iri_source_url": "https://indiarailinfo.com/station/map/munroturuttu-mqo/2781",
+    "iri_profile_updated_raw": "May 29 2020 (12:28)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure.",
+    "reported_platform_count": "2",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "2I",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/munroturuttu-mqo/2781",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "2781",
+    "iri_heading_station_code": "MQO",
+    "iri_heading_raw": "MQO/Munroturuttu (2 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "AGREES",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "2020",
+    "iri_source_reference": "turn209search0",
+    "iri_search_index_crawl_age_raw": "4 months ago",
+    "iri_slug_identity_status": "Heading and numeric ID agree; no contradictory named slug selected",
+    "iri_source_evidence_file": "sources/iri_middle_batch1_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "2020-05-29T12:28",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "2",
+    "comparison_wikipedia_platform_source": "https://en.wikipedia.org/w/index.php?oldid=1376920840",
+    "comparison_wikipedia_revision_timestamp": "2026-09-27T00:32:02Z",
+    "comparison_wikipedia_platform_agreement": "AGREES",
+    "iri_explicit_platform_field_update_raw": "NOT_RECOVERED",
+    "iri_timeline_evidence_url": "NOT_REVIEWED_SEPARATELY",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "No numeric Wikipedia platform discrepancy found in the existing register.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "origin_lonlat": [
+    76.6115842,
+    8.9945309
+  ],
+  "along_unit_east_north": [
+    -0.3466211513030352,
+    0.9380052118561806
+  ],
+  "ways": [
+    {
+      "id": "331666081",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5836118275",
+        "6041056897",
+        "6041056896",
+        "334667884",
+        "6041056895",
+        "334667883",
+        "1083766625",
+        "6041056894",
+        "334667882",
+        "6041056893",
+        "1083766662",
+        "334667878",
+        "1083766656",
+        "7561415740"
+      ],
+      "xy": [
+        [
+          830.5743,
+          24.758
+        ],
+        [
+          991.3523,
+          25.1268
+        ],
+        [
+          1081.6058,
+          25.3819
+        ],
+        [
+          1168.2859,
+          27.4966
+        ],
+        [
+          1241.8997,
+          35.4243
+        ],
+        [
+          1314.3707,
+          48.674
+        ],
+        [
+          1384.3134,
+          62.4361
+        ],
+        [
+          1430.2137,
+          69.7152
+        ],
+        [
+          1479.3969,
+          74.445
+        ],
+        [
+          1538.7587,
+          74.4756
+        ],
+        [
+          1596.8219,
+          68.551
+        ],
+        [
+          1689.4586,
+          51.843
+        ],
+        [
+          1753.2138,
+          34.6016
+        ],
+        [
+          1794.833,
+          25.3174
+        ]
+      ],
+      "timestamp": "2020-05-27T05:35:17Z"
+    },
+    {
+      "id": "547319893",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5693713702",
+        "5693713703",
+        "5693713704",
+        "5693713705",
+        "5693713706",
+        "5693713707",
+        "5288322199",
+        "13271657012",
+        "7558122584",
+        "5288322197"
+      ],
+      "xy": [
+        [
+          -247.7067,
+          25.3303
+        ],
+        [
+          -312.5626,
+          43.4473
+        ],
+        [
+          -353.0119,
+          56.5074
+        ],
+        [
+          -429.5512,
+          87.6159
+        ],
+        [
+          -494.7388,
+          120.5078
+        ],
+        [
+          -551.5474,
+          155.6485
+        ],
+        [
+          -599.4721,
+          188.9129
+        ],
+        [
+          -717.8071,
+          281.4977
+        ],
+        [
+          -1268.3294,
+          712.2298
+        ],
+        [
+          -1670.5772,
+          1021.7542
+        ]
+      ],
+      "timestamp": "2025-10-31T05:49:30Z"
+    },
+    {
+      "id": "598192044",
+      "tags": {
+        "railway": "platform"
+      },
+      "nodes": [
+        "5693713691",
+        "5693713690",
+        "5693713689",
+        "5693713688",
+        "5693713687"
+      ],
+      "xy": [
+        [
+          52.7348,
+          20.3788
+        ],
+        [
+          -71.8382,
+          20.1932
+        ],
+        [
+          -130.1499,
+          23.1972
+        ],
+        [
+          -177.6837,
+          27.716
+        ],
+        [
+          -207.5532,
+          33.2444
+        ]
+      ],
+      "timestamp": "2018-06-15T20:06:49Z"
+    },
+    {
+      "id": "598192045",
+      "tags": {
+        "railway": "platform"
+      },
+      "nodes": [
+        "5693713695",
+        "5693713694",
+        "5693713693",
+        "5693713692"
+      ],
+      "xy": [
+        [
+          -173.8707,
+          9.58
+        ],
+        [
+          -133.7998,
+          4.8416
+        ],
+        [
+          -74.9079,
+          2.5726
+        ],
+        [
+          92.0465,
+          3.4372
+        ]
+      ],
+      "timestamp": "2018-06-15T20:06:49Z"
+    },
+    {
+      "id": "617379922",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "6041056913",
+        "6041056912",
+        "6041056911",
+        "6041056910",
+        "6041056909",
+        "6041056908",
+        "6041056907",
+        "6041056906",
+        "6041056905",
+        "6041056904",
+        "6041056903",
+        "6041056902",
+        "6041056901",
+        "6041056900",
+        "6041056899",
+        "6041056898"
+      ],
+      "xy": [
+        [
+          1792.58,
+          17.9681
+        ],
+        [
+          1718.1558,
+          35.7879
+        ],
+        [
+          1644.5628,
+          51.425
+        ],
+        [
+          1593.5201,
+          60.0654
+        ],
+        [
+          1535.7753,
+          63.8329
+        ],
+        [
+          1487.5288,
+          63.2113
+        ],
+        [
+          1446.634,
+          59.6503
+        ],
+        [
+          1414.2909,
+          55.1447
+        ],
+        [
+          1328.3086,
+          40.2415
+        ],
+        [
+          1274.9326,
+          29.946
+        ],
+        [
+          1223.3627,
+          20.3311
+        ],
+        [
+          1182.9961,
+          14.5705
+        ],
+        [
+          1089.0902,
+          11.9142
+        ],
+        [
+          1009.4419,
+          9.3344
+        ],
+        [
+          928.0854,
+          9.3902
+        ],
+        [
+          832.4386,
+          9.827
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "617379923",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5693713701",
+        "5693713702"
+      ],
+      "xy": [
+        [
+          -226.119,
+          20.9634
+        ],
+        [
+          -247.7067,
+          25.3303
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "617379924",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5693713711",
+        "5693713712",
+        "5693713713",
+        "334668845",
+        "334668843",
+        "334668842",
+        "334667886"
+      ],
+      "xy": [
+        [
+          -225.6562,
+          29.1851
+        ],
+        [
+          -172.5041,
+          20.6327
+        ],
+        [
+          -128.1103,
+          14.2968
+        ],
+        [
+          -69.0266,
+          11.9687
+        ],
+        [
+          191.4172,
+          13.4633
+        ],
+        [
+          384.3138,
+          16.3812
+        ],
+        [
+          685.136,
+          25.531
+        ]
+      ],
+      "timestamp": "2018-08-16T10:37:31Z"
+    },
+    {
+      "id": "617379925",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "334668846",
+        "5693713711"
+      ],
+      "xy": [
+        [
+          -246.2936,
+          33.201
+        ],
+        [
+          -225.6562,
+          29.1851
+        ]
+      ],
+      "timestamp": "2018-08-16T10:37:31Z"
+    },
+    {
+      "id": "617379939",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "6193746493",
+        "6193746494"
+      ],
+      "xy": [
+        [
+          748.272,
+          24.0849
+        ],
+        [
+          769.5536,
+          24.1564
+        ]
+      ],
+      "timestamp": "2019-01-08T22:37:39Z"
+    },
+    {
+      "id": "617379940",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5288322198",
+        "7558122583",
+        "13271657013",
+        "334668849",
+        "5693713708",
+        "334668848",
+        "5693713709",
+        "5693713710",
+        "334668847",
+        "334668846"
+      ],
+      "xy": [
+        [
+          -1665.5716,
+          1030.29
+        ],
+        [
+          -1266.4174,
+          719.5878
+        ],
+        [
+          -702.2479,
+          280.3431
+        ],
+        [
+          -593.3975,
+          195.5885
+        ],
+        [
+          -547.204,
+          163.163
+        ],
+        [
+          -489.7915,
+          127.1193
+        ],
+        [
+          -425.8308,
+          95.9819
+        ],
+        [
+          -351.7109,
+          65.1345
+        ],
+        [
+          -309.829,
+          50.8769
+        ],
+        [
+          -246.2936,
+          33.201
+        ]
+      ],
+      "timestamp": "2025-10-31T05:49:30Z"
+    },
+    {
+      "id": "661604987",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "6193746494",
+        "5836118275"
+      ],
+      "xy": [
+        [
+          769.5536,
+          24.1564
+        ],
+        [
+          830.5743,
+          24.758
+        ]
+      ],
+      "timestamp": "2019-01-08T22:37:33Z"
+    },
+    {
+      "id": "661604988",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "name": "Kollam Kayamkulam Line",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "334667886",
+        "6193746493"
+      ],
+      "xy": [
+        [
+          685.136,
+          25.531
+        ],
+        [
+          748.272,
+          24.0849
+        ]
+      ],
+      "timestamp": "2019-01-08T22:37:33Z"
+    },
+    {
+      "id": "661604989",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "6041056898",
+        "5693713696"
+      ],
+      "xy": [
+        [
+          832.4386,
+          9.827
+        ],
+        [
+          684.8301,
+          11.2145
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "661604990",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5693713696",
+        "6041061596",
+        "5693713697",
+        "5693713698",
+        "5693713699",
+        "5693713700",
+        "5693713701"
+      ],
+      "xy": [
+        [
+          684.8301,
+          11.2145
+        ],
+        [
+          435.1665,
+          5.3963
+        ],
+        [
+          196.9738,
+          5.5373
+        ],
+        [
+          -70.9404,
+          5.5373
+        ],
+        [
+          -128.8372,
+          6.8056
+        ],
+        [
+          -171.6099,
+          12.39
+        ],
+        [
+          -226.119,
+          20.9634
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "847550173",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          488.4583,
+          147.7808
+        ],
+        [
+          485.9748,
+          139.0046
+        ],
+        [
+          476.3796,
+          141.718
+        ],
+        [
+          478.8632,
+          150.4942
+        ],
+        [
+          488.4583,
+          147.7808
+        ]
+      ],
+      "center": [
+        483.62684,
+        145.35567999999998
+      ],
+      "bbox": [
+        476.3796,
+        488.4583,
+        139.0046,
+        150.4942
+      ]
+    },
+    {
+      "id": "847550264",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          491.6223,
+          61.441
+        ],
+        [
+          489.2421,
+          54.0684
+        ],
+        [
+          478.9572,
+          57.3883
+        ],
+        [
+          481.3517,
+          64.7674
+        ],
+        [
+          491.6223,
+          61.441
+        ]
+      ],
+      "center": [
+        486.55912,
+        59.82122
+      ],
+      "bbox": [
+        478.9572,
+        491.6223,
+        54.0684,
+        64.7674
+      ]
+    },
+    {
+      "id": "847550610",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          493.0312,
+          -31.3185
+        ],
+        [
+          478.8986,
+          -28.4874
+        ],
+        [
+          475.1753,
+          -47.0737
+        ],
+        [
+          489.3041,
+          -49.9152
+        ],
+        [
+          493.0312,
+          -31.3185
+        ]
+      ],
+      "center": [
+        485.88808,
+        -37.62266
+      ],
+      "bbox": [
+        475.1753,
+        493.0312,
+        -49.9152,
+        -28.4874
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "250519829",
+      "tags": {
+        "highway": "service"
+      },
+      "xy": [
+        [
+          23.8612,
+          -41.4744
+        ],
+        [
+          28.8663,
+          -4.1965
+        ]
+      ]
+    },
+    {
+      "id": "420024573",
+      "tags": {
+        "name": "Vachalloor Canal",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          13.866,
+          -552.1219
+        ],
+        [
+          37.0278,
+          -527.6605
+        ],
+        [
+          58.4546,
+          -531.6281
+        ],
+        [
+          91.5229,
+          -518.7046
+        ],
+        [
+          122.018,
+          -487.2123
+        ],
+        [
+          126.8361,
+          -453.7805
+        ],
+        [
+          128.2883,
+          -426.0207
+        ],
+        [
+          139.2769,
+          -341.6872
+        ],
+        [
+          142.6749,
+          -315.631
+        ],
+        [
+          126.5032,
+          -284.5001
+        ],
+        [
+          95.9805,
+          -282.0241
+        ],
+        [
+          68.7783,
+          -280.7751
+        ],
+        [
+          55.8535,
+          -264.6875
+        ],
+        [
+          52.5159,
+          -229.4961
+        ],
+        [
+          29.9906,
+          -198.5375
+        ],
+        [
+          -19.3885,
+          -179.0362
+        ],
+        [
+          -54.9365,
+          -193.5636
+        ],
+        [
+          -83.0152,
+          -184.4419
+        ],
+        [
+          -87.6201,
+          -173.2339
+        ],
+        [
+          -98.2406,
+          -147.3778
+        ],
+        [
+          -125.8314,
+          -123.3505
+        ],
+        [
+          -192.6011,
+          -133.8893
+        ],
+        [
+          -222.5363,
+          -112.7701
+        ],
+        [
+          -215.8195,
+          -43.5616
+        ],
+        [
+          -236.6296,
+          5.6236
+        ],
+        [
+          -237.911,
+          16.4474
+        ],
+        [
+          -241.2502,
+          44.7939
+        ],
+        [
+          -244.5424,
+          72.6893
+        ],
+        [
+          -257.5816,
+          142.9036
+        ],
+        [
+          -360.1611,
+          283.9382
+        ],
+        [
+          -461.5387,
+          520.1083
+        ],
+        [
+          -491.501,
+          600.7609
+        ],
+        [
+          -498.4247,
+          679.3353
+        ],
+        [
+          -516.0418,
+          816.2622
+        ]
+      ]
+    },
+    {
+      "id": "777455236",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -547.9617,
+          -198.327
+        ],
+        [
+          -548.741,
+          -196.4214
+        ],
+        [
+          -549.8342,
+          -194.9156
+        ],
+        [
+          -551.9984,
+          -193.225
+        ],
+        [
+          -562.9031,
+          -186.476
+        ],
+        [
+          -624.913,
+          -152.0506
+        ],
+        [
+          -642.136,
+          -143.0019
+        ],
+        [
+          -659.0335,
+          -134.1321
+        ],
+        [
+          -666.9431,
+          -131.514
+        ],
+        [
+          -746.0272,
+          -111.0814
+        ],
+        [
+          -778.0793,
+          -104.2658
+        ],
+        [
+          -821.9378,
+          -94.9395
+        ],
+        [
+          -915.933,
+          -73.076
+        ],
+        [
+          -934.5782,
+          -69.9956
+        ]
+      ]
+    },
+    {
+      "id": "788912314",
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -505.1854,
+          -129.1042
+        ],
+        [
+          -575.6761,
+          -98.6484
+        ],
+        [
+          -579.0917,
+          -106.1893
+        ],
+        [
+          -564.3752,
+          -110.7483
+        ],
+        [
+          -572.9016,
+          -132.2485
+        ],
+        [
+          -582.1204,
+          -127.6814
+        ],
+        [
+          -589.1414,
+          -137.9458
+        ],
+        [
+          -573.6054,
+          -145.7147
+        ],
+        [
+          -574.6328,
+          -165.3558
+        ],
+        [
+          -557.9727,
+          -172.5555
+        ],
+        [
+          -549.5622,
+          -148.8322
+        ],
+        [
+          -526.3226,
+          -147.3158
+        ],
+        [
+          -516.5893,
+          -138.6398
+        ],
+        [
+          -511.0287,
+          -139.2645
+        ],
+        [
+          -505.1854,
+          -129.1042
+        ]
+      ]
+    },
+    {
+      "id": "788912315",
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -506.5003,
+          -106.6165
+        ],
+        [
+          -529.9059,
+          -97.6626
+        ],
+        [
+          -534.4362,
+          -97.1724
+        ],
+        [
+          -533.5149,
+          -94.7114
+        ],
+        [
+          -537.0079,
+          -92.3774
+        ],
+        [
+          -539.7978,
+          -92.1552
+        ],
+        [
+          -548.2796,
+          -88.388
+        ],
+        [
+          -550.3985,
+          -90.0431
+        ],
+        [
+          -553.9855,
+          -84.5915
+        ],
+        [
+          -561.3717,
+          -87.4299
+        ],
+        [
+          -563.8486,
+          -82.7637
+        ],
+        [
+          -570.4907,
+          -81.9503
+        ],
+        [
+          -576.2443,
+          -78.3472
+        ],
+        [
+          -581.2051,
+          -78.8936
+        ],
+        [
+          -577.6868,
+          -85.3982
+        ],
+        [
+          -574.107,
+          -87.4009
+        ],
+        [
+          -568.4411,
+          -86.5524
+        ],
+        [
+          -563.1449,
+          -89.9161
+        ],
+        [
+          -548.5393,
+          -98.9823
+        ],
+        [
+          -525.3477,
+          -111.3736
+        ],
+        [
+          -522.4171,
+          -107.5216
+        ],
+        [
+          -518.6922,
+          -115.1693
+        ],
+        [
+          -507.6847,
+          -111.5239
+        ],
+        [
+          -506.7663,
+          -109.0384
+        ],
+        [
+          -506.5003,
+          -106.6165
+        ]
+      ]
+    },
+    {
+      "id": "788912316",
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -500.815,
+          -48.5493
+        ],
+        [
+          -498.9495,
+          -45.1712
+        ],
+        [
+          -531.5057,
+          -30.2454
+        ],
+        [
+          -552.8504,
+          -20.4356
+        ],
+        [
+          -550.6349,
+          -26.869
+        ],
+        [
+          -510.512,
+          -48.4239
+        ],
+        [
+          -500.815,
+          -48.5493
+        ]
+      ]
+    },
+    {
+      "id": "788912317",
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -424.0078,
+          -109.6357
+        ],
+        [
+          -429.3243,
+          -124.023
+        ],
+        [
+          -450.6874,
+          -126.3384
+        ],
+        [
+          -462.4658,
+          -134.5752
+        ],
+        [
+          -468.0898,
+          -134.5717
+        ],
+        [
+          -471.4426,
+          -131.0235
+        ],
+        [
+          -475.5788,
+          -135.2153
+        ],
+        [
+          -491.2573,
+          -133.8056
+        ],
+        [
+          -488.5874,
+          -96.3916
+        ],
+        [
+          -465.9243,
+          -99.679
+        ],
+        [
+          -466.0105,
+          -104.1835
+        ],
+        [
+          -424.0078,
+          -109.6357
+        ]
+      ]
+    },
+    {
+      "id": "802664369",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -483.0016,
+          -27.867
+        ],
+        [
+          -488.0006,
+          -41.2346
+        ],
+        [
+          -493.7719,
+          -62.569
+        ],
+        [
+          -495.999,
+          -79.2584
+        ],
+        [
+          -499.3521,
+          -134.3543
+        ],
+        [
+          -500.4029,
+          -148.1494
+        ],
+        [
+          -498.6896,
+          -151.2206
+        ],
+        [
+          -495.4902,
+          -152.8718
+        ],
+        [
+          -476.4187,
+          -157.657
+        ]
+      ]
+    },
+    {
+      "id": "803073319",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          339.5167,
+          147.8088
+        ],
+        [
+          324.9572,
+          124.1775
+        ],
+        [
+          240.5684,
+          175.5701
+        ],
+        [
+          255.8561,
+          198.2172
+        ],
+        [
+          339.5167,
+          147.8088
+        ]
+      ]
+    },
+    {
+      "id": "803075613",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          1076.9318,
+          122.7941
+        ],
+        [
+          1086.3154,
+          151.0458
+        ],
+        [
+          1054.0071,
+          180.966
+        ],
+        [
+          1034.2672,
+          181.919
+        ],
+        [
+          1006.699,
+          193.1612
+        ],
+        [
+          962.5687,
+          196.7739
+        ],
+        [
+          965.9265,
+          174.387
+        ],
+        [
+          968.3148,
+          160.8098
+        ],
+        [
+          973.4948,
+          146.2126
+        ],
+        [
+          988.6338,
+          109.9423
+        ],
+        [
+          1005.2261,
+          89.0063
+        ],
+        [
+          1036.2154,
+          66.9818
+        ],
+        [
+          1081.9081,
+          53.2736
+        ],
+        [
+          1118.8058,
+          45.9216
+        ],
+        [
+          1121.9592,
+          51.0509
+        ],
+        [
+          1092.9102,
+          76.2384
+        ],
+        [
+          1066.4516,
+          94.8187
+        ],
+        [
+          1079.2033,
+          114.0074
+        ],
+        [
+          1076.9318,
+          122.7941
+        ]
+      ]
+    },
+    {
+      "id": "808240070",
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -120.942,
+          -135.6834
+        ],
+        [
+          -98.9942,
+          -127.2895
+        ]
+      ]
+    },
+    {
+      "id": "808240071",
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Perumon - Munroe Island Road",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -900.5563,
+          283.2698
+        ],
+        [
+          -892.6925,
+          277.3162
+        ],
+        [
+          -884.6746,
+          268.3752
+        ],
+        [
+          -822.1011,
+          194.8486
+        ],
+        [
+          -771.6673,
+          135.5841
+        ],
+        [
+          -762.9991,
+          127.9853
+        ],
+        [
+          -754.8938,
+          123.1029
+        ],
+        [
+          -744.1514,
+          118.805
+        ],
+        [
+          -734.4939,
+          114.9433
+        ],
+        [
+          -708.7386,
+          104.6405
+        ],
+        [
+          -680.2974,
+          89.7232
+        ],
+        [
+          -612.3196,
+          50.5724
+        ],
+        [
+          -580.4969,
+          32.2487
+        ],
+        [
+          -563.2114,
+          25.3924
+        ],
+        [
+          -550.0109,
+          21.3232
+        ],
+        [
+          -542.7552,
+          19.0874
+        ],
+        [
+          -532.4422,
+          14.6552
+        ],
+        [
+          -518.9532,
+          6.5174
+        ],
+        [
+          -493.9458,
+          -22.381
+        ],
+        [
+          -486.993,
+          -26.9782
+        ],
+        [
+          -483.0016,
+          -27.867
+        ],
+        [
+          -480.0935,
+          -28.5079
+        ],
+        [
+          -478.5554,
+          -28.8419
+        ],
+        [
+          -467.3437,
+          -28.2728
+        ],
+        [
+          -421.6014,
+          -24.4401
+        ],
+        [
+          -413.7857,
+          -25.4175
+        ],
+        [
+          -408.0068,
+          -28.5025
+        ],
+        [
+          -389.0308,
+          -44.7866
+        ],
+        [
+          -380.2133,
+          -48.9944
+        ],
+        [
+          -344.6747,
+          -59.6068
+        ],
+        [
+          -311.9958,
+          -77.5084
+        ],
+        [
+          -309.4516,
+          -79.0698
+        ],
+        [
+          -307.147,
+          -80.1558
+        ]
+      ]
+    },
+    {
+      "id": "808269471",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          691.1137,
+          1.4022
+        ],
+        [
+          614.8077,
+          4.6556
+        ],
+        [
+          588.8769,
+          4.1102
+        ],
+        [
+          582.3633,
+          3.5047
+        ],
+        [
+          576.7732,
+          1.7373
+        ],
+        [
+          570.6334,
+          -2.2884
+        ],
+        [
+          562.4088,
+          -10.4787
+        ],
+        [
+          553.8946,
+          -20.1913
+        ],
+        [
+          550.7615,
+          -24.238
+        ],
+        [
+          547.2823,
+          -26.2344
+        ],
+        [
+          542.3011,
+          -27.1249
+        ],
+        [
+          505.9769,
+          -27.6627
+        ],
+        [
+          494.9059,
+          -25.7636
+        ],
+        [
+          479.1127,
+          -21.8381
+        ],
+        [
+          472.7399,
+          -20.5851
+        ],
+        [
+          467.4432,
+          -20.8198
+        ],
+        [
+          464.3023,
+          -22.6716
+        ],
+        [
+          462.4004,
+          -26.341
+        ],
+        [
+          461.8559,
+          -32.9853
+        ],
+        [
+          459.5081,
+          -50.4507
+        ],
+        [
+          457.6368,
+          -55.5146
+        ],
+        [
+          455.4416,
+          -60.7167
+        ],
+        [
+          452.3617,
+          -63.142
+        ],
+        [
+          447.1909,
+          -64.5133
+        ],
+        [
+          433.7261,
+          -63.9216
+        ],
+        [
+          426.6444,
+          -64.5868
+        ],
+        [
+          418.1802,
+          -67.4841
+        ],
+        [
+          409.1214,
+          -71.2517
+        ],
+        [
+          402.5201,
+          -72.0944
+        ],
+        [
+          392.8739,
+          -71.5423
+        ],
+        [
+          374.0435,
+          -68.417
+        ],
+        [
+          347.9641,
+          -81.2154
+        ],
+        [
+          343.7606,
+          -82.9559
+        ],
+        [
+          340.1049,
+          -83.2461
+        ],
+        [
+          336.0012,
+          -81.7296
+        ],
+        [
+          331.7477,
+          -77.6963
+        ],
+        [
+          324.4154,
+          -65.6796
+        ],
+        [
+          320.5545,
+          -62.061
+        ],
+        [
+          315.3138,
+          -58.4833
+        ],
+        [
+          297.1727,
+          -46.8447
+        ]
+      ]
+    },
+    {
+      "id": "808269472",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          388.8868,
+          -16.559
+        ],
+        [
+          386.5974,
+          -24.1995
+        ],
+        [
+          384.935,
+          -27.7348
+        ],
+        [
+          383.3567,
+          -30.0468
+        ],
+        [
+          380.439,
+          -32.579
+        ],
+        [
+          377.6792,
+          -36.6112
+        ],
+        [
+          375.7393,
+          -41.8608
+        ],
+        [
+          374.4402,
+          -47.3354
+        ],
+        [
+          374.0435,
+          -68.417
+        ]
+      ]
+    },
+    {
+      "id": "808269473",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          412.1976,
+          -146.1069
+        ],
+        [
+          419.5725,
+          -118.7305
+        ],
+        [
+          424.7977,
+          -105.3293
+        ],
+        [
+          427.4044,
+          -97.5363
+        ],
+        [
+          430.1825,
+          -87.0638
+        ],
+        [
+          433.7261,
+          -63.9216
+        ]
+      ]
+    },
+    {
+      "id": "808269477",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          597.9089,
+          101.6153
+        ],
+        [
+          592.5851,
+          82.7764
+        ],
+        [
+          589.7298,
+          72.0628
+        ],
+        [
+          587.7793,
+          57.1818
+        ],
+        [
+          588.2766,
+          42.6623
+        ]
+      ]
+    },
+    {
+      "id": "808269481",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -44.2097,
+          -169.0318
+        ],
+        [
+          1.4968,
+          -112.0157
+        ],
+        [
+          6.8285,
+          -107.9609
+        ],
+        [
+          11.3455,
+          -106.0784
+        ],
+        [
+          19.1315,
+          -106.494
+        ],
+        [
+          28.9485,
+          -109.5707
+        ],
+        [
+          44.7877,
+          -117.0649
+        ],
+        [
+          48.3396,
+          -117.8265
+        ],
+        [
+          51.8532,
+          -117.2142
+        ],
+        [
+          54.1211,
+          -114.7702
+        ],
+        [
+          59.7875,
+          -107.2404
+        ],
+        [
+          82.6107,
+          -76.8869
+        ]
+      ]
+    },
+    {
+      "id": "808269482",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          59.7875,
+          -107.2404
+        ],
+        [
+          66.1398,
+          -112.0494
+        ],
+        [
+          90.2578,
+          -130.3157
+        ],
+        [
+          92.6711,
+          -133.3878
+        ],
+        [
+          92.6627,
+          -136.3972
+        ],
+        [
+          91.2984,
+          -140.8279
+        ],
+        [
+          83.5203,
+          -155.1964
+        ],
+        [
+          68.904,
+          -175.5129
+        ],
+        [
+          53.8081,
+          -192.6631
+        ],
+        [
+          45.9504,
+          -200.5669
+        ],
+        [
+          40.7912,
+          -205.7287
+        ]
+      ]
+    },
+    {
+      "id": "808269483",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          14.7335,
+          -167.2757
+        ],
+        [
+          66.1398,
+          -112.0494
+        ]
+      ]
+    },
+    {
+      "id": "808269492",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -109.5012,
+          -75.7225
+        ],
+        [
+          -68.6072,
+          -105.1464
+        ]
+      ]
+    },
+    {
+      "id": "808269509",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -329.8689,
+          -53.872
+        ],
+        [
+          -309.7858,
+          -64.0127
+        ],
+        [
+          -307.1759,
+          -66.2314
+        ],
+        [
+          -306.1069,
+          -69.6975
+        ],
+        [
+          -306.9795,
+          -73.5363
+        ],
+        [
+          -309.4516,
+          -79.0698
+        ]
+      ]
+    },
+    {
+      "id": "808269510",
+      "tags": {
+        "highway": "service",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -550.0109,
+          21.3232
+        ],
+        [
+          -561.7716,
+          1.7332
+        ],
+        [
+          -564.8858,
+          -4.7352
+        ],
+        [
+          -566.7734,
+          -13.0869
+        ],
+        [
+          -570.7374,
+          -32.8385
+        ]
+      ]
+    },
+    {
+      "id": "808269511",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -612.3196,
+          50.5724
+        ],
+        [
+          -637.1649,
+          -28.8985
+        ],
+        [
+          -637.3775,
+          -31.176
+        ],
+        [
+          -636.2279,
+          -33.1715
+        ],
+        [
+          -633.6666,
+          -34.751
+        ],
+        [
+          -605.622,
+          -47.7869
+        ],
+        [
+          -603.0774,
+          -49.8291
+        ],
+        [
+          -602.1504,
+          -52.8442
+        ],
+        [
+          -602.4232,
+          -56.9867
+        ],
+        [
+          -607.9619,
+          -85.5925
+        ],
+        [
+          -608.7775,
+          -87.7995
+        ],
+        [
+          -610.3455,
+          -88.6385
+        ],
+        [
+          -613.1293,
+          -88.0786
+        ],
+        [
+          -624.6049,
+          -83.8381
+        ],
+        [
+          -626.6067,
+          -83.7313
+        ],
+        [
+          -628.1257,
+          -85.6902
+        ],
+        [
+          -628.7294,
+          -88.6085
+        ],
+        [
+          -640.6054,
+          -131.3768
+        ],
+        [
+          -640.9644,
+          -135.3351
+        ],
+        [
+          -641.2533,
+          -138.6862
+        ],
+        [
+          -642.136,
+          -143.0019
+        ]
+      ]
+    },
+    {
+      "id": "808269529",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -744.1514,
+          118.805
+        ],
+        [
+          -745.911,
+          112.598
+        ]
+      ]
+    },
+    {
+      "id": "808269530",
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -745.911,
+          112.598
+        ],
+        [
+          -751.3008,
+          90.2083
+        ]
+      ]
+    },
+    {
+      "id": "808269531",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -751.3008,
+          90.2083
+        ],
+        [
+          -753.0417,
+          84.5336
+        ],
+        [
+          -754.764,
+          79.3912
+        ],
+        [
+          -758.7196,
+          68.2051
+        ],
+        [
+          -762.5615,
+          56.8128
+        ],
+        [
+          -765.1553,
+          46.3894
+        ],
+        [
+          -766.707,
+          31.4315
+        ],
+        [
+          -772.3295,
+          -39.9865
+        ],
+        [
+          -778.0793,
+          -104.2658
+        ]
+      ]
+    },
+    {
+      "id": "808269538",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -936.7548,
+          11.3727
+        ],
+        [
+          -1054.0252,
+          52.6914
+        ],
+        [
+          -1058.9922,
+          54.8903
+        ],
+        [
+          -1062.9448,
+          58.8711
+        ],
+        [
+          -1063.6406,
+          63.8286
+        ],
+        [
+          -1046.2855,
+          142.4922
+        ]
+      ]
+    },
+    {
+      "id": "808300657",
+      "tags": {
+        "highway": "residential",
+        "source": "digitalglobe"
+      },
+      "xy": [
+        [
+          -937.5723,
+          99.9516
+        ],
+        [
+          -993.2199,
+          122.8829
+        ],
+        [
+          -1034.7368,
+          138.2247
+        ],
+        [
+          -1046.2855,
+          142.4922
+        ],
+        [
+          -1091.2973,
+          157.754
+        ],
+        [
+          -1115.472,
+          165.2689
+        ]
+      ]
+    },
+    {
+      "id": "809916912",
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -307.147,
+          -80.1558
+        ],
+        [
+          -303.7868,
+          -82.3353
+        ]
+      ]
+    },
+    {
+      "id": "809916913",
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Perumon - Munroe Island Road",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -303.7868,
+          -82.3353
+        ],
+        [
+          -301.6187,
+          -83.8867
+        ],
+        [
+          -207.9646,
+          -141.4225
+        ],
+        [
+          -194.1483,
+          -147.4541
+        ],
+        [
+          -183.0996,
+          -149.0284
+        ],
+        [
+          -170.9038,
+          -146.631
+        ],
+        [
+          -120.942,
+          -135.6834
+        ]
+      ]
+    },
+    {
+      "id": "909886367",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          -87.3294,
+          80.2716
+        ],
+        [
+          -73.5174,
+          144.8186
+        ],
+        [
+          -59.7632,
+          159.8155
+        ],
+        [
+          -7.8794,
+          161.9297
+        ],
+        [
+          61.7075,
+          164.1951
+        ],
+        [
+          86.0912,
+          133.8978
+        ],
+        [
+          49.4134,
+          26.3886
+        ],
+        [
+          -51.5796,
+          49.4197
+        ],
+        [
+          -113.294,
+          61.8747
+        ],
+        [
+          -87.3294,
+          80.2716
+        ]
+      ]
+    },
+    {
+      "id": "909886368",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          129.6351,
+          148.8347
+        ],
+        [
+          139.2367,
+          144.3723
+        ],
+        [
+          127.216,
+          124.1751
+        ],
+        [
+          129.1751,
+          112.1982
+        ],
+        [
+          118.8238,
+          98.9915
+        ],
+        [
+          125.1577,
+          93.9081
+        ],
+        [
+          118.3707,
+          87.906
+        ],
+        [
+          124.7931,
+          79.7539
+        ],
+        [
+          101.2467,
+          88.455
+        ],
+        [
+          103.1831,
+          101.114
+        ],
+        [
+          105.6566,
+          107.8075
+        ],
+        [
+          112.809,
+          105.774
+        ],
+        [
+          129.6351,
+          148.8347
+        ]
+      ]
+    },
+    {
+      "id": "909886369",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          339.1915,
+          97.7596
+        ],
+        [
+          363.9375,
+          92.2724
+        ],
+        [
+          388.4452,
+          85.3377
+        ],
+        [
+          374.6699,
+          67.008
+        ],
+        [
+          339.1915,
+          97.7596
+        ]
+      ]
+    },
+    {
+      "id": "909886370",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          158.5256,
+          134.0092
+        ],
+        [
+          176.0584,
+          78.5566
+        ],
+        [
+          194.795,
+          17.9471
+        ]
+      ]
+    },
+    {
+      "id": "909886371",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          197.5156,
+          9.1233
+        ],
+        [
+          199.9923,
+          1.1164
+        ]
+      ]
+    },
+    {
+      "id": "909886372",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          194.795,
+          17.9471
+        ],
+        [
+          197.5156,
+          9.1233
+        ]
+      ]
+    },
+    {
+      "id": "909886373",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          243.4367,
+          -141.6152
+        ],
+        [
+          249.7519,
+          -122.0525
+        ],
+        [
+          256.9384,
+          -109.1885
+        ],
+        [
+          293.5105,
+          -117.2289
+        ],
+        [
+          277.8032,
+          -134.2352
+        ],
+        [
+          266.685,
+          -148.6823
+        ],
+        [
+          257.494,
+          -162.0247
+        ],
+        [
+          235.5996,
+          -171.8801
+        ],
+        [
+          218.4237,
+          -152.9087
+        ],
+        [
+          243.4367,
+          -141.6152
+        ]
+      ]
+    },
+    {
+      "id": "909886375",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          665.1469,
+          -204.3318
+        ],
+        [
+          672.5843,
+          -170.0744
+        ],
+        [
+          677.5314,
+          -130.3839
+        ],
+        [
+          680.7108,
+          -114.7145
+        ],
+        [
+          690.6467,
+          -74.9803
+        ],
+        [
+          704.5207,
+          -8.6276
+        ]
+      ]
+    },
+    {
+      "id": "909886377",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          330.2347,
+          145.5888
+        ],
+        [
+          335.4672,
+          150.114
+        ]
+      ]
+    },
+    {
+      "id": "909886379",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          335.4672,
+          150.114
+        ],
+        [
+          345.1973,
+          158.5567
+        ]
+      ]
+    },
+    {
+      "id": "909886380",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          -84.2915,
+          -5.9278
+        ],
+        [
+          -53.3115,
+          -8.772
+        ],
+        [
+          -22.5457,
+          -5.6763
+        ],
+        [
+          14.527,
+          -9.7287
+        ],
+        [
+          12.5993,
+          -15.9088
+        ],
+        [
+          -20.9931,
+          -14.5138
+        ],
+        [
+          -56.1238,
+          -16.8641
+        ],
+        [
+          -84.2915,
+          -5.9278
+        ]
+      ]
+    },
+    {
+      "id": "909886381",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -25.5807,
+          -11.0955
+        ],
+        [
+          -25.4189,
+          -21.8338
+        ],
+        [
+          -32.6982,
+          -41.5326
+        ],
+        [
+          -40.8533,
+          -59.8761
+        ],
+        [
+          -42.5944,
+          -77.5305
+        ]
+      ]
+    },
+    {
+      "id": "909886382",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -44.0767,
+          -92.3969
+        ],
+        [
+          -45.3919,
+          -105.7192
+        ],
+        [
+          -57.599,
+          -138.7532
+        ],
+        [
+          -87.6201,
+          -173.2339
+        ]
+      ]
+    },
+    {
+      "id": "909886383",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -42.5944,
+          -77.5305
+        ],
+        [
+          -44.0767,
+          -92.3969
+        ]
+      ]
+    },
+    {
+      "id": "909886397",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          199.9923,
+          1.1164
+        ],
+        [
+          200.9865,
+          -2.1346
+        ],
+        [
+          201.0468,
+          -34.0871
+        ],
+        [
+          213.5786,
+          -42.9847
+        ],
+        [
+          224.814,
+          -47.1365
+        ],
+        [
+          231.1525,
+          -57.9888
+        ],
+        [
+          232.3075,
+          -69.6685
+        ],
+        [
+          229.1404,
+          -78.239
+        ],
+        [
+          217.0087,
+          -90.483
+        ],
+        [
+          206.3601,
+          -104.4941
+        ],
+        [
+          189.5061,
+          -134.463
+        ],
+        [
+          206.1505,
+          -144.5638
+        ],
+        [
+          223.3485,
+          -151.5285
+        ],
+        [
+          232.7994,
+          -158.0686
+        ],
+        [
+          231.894,
+          -186.0187
+        ],
+        [
+          225.0227,
+          -210.7797
+        ]
+      ]
+    },
+    {
+      "id": "909889433",
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -987.4447,
+          -28.587
+        ],
+        [
+          -952.1071,
+          -38.1053
+        ],
+        [
+          -946.9919,
+          -13.5042
+        ],
+        [
+          -980.0091,
+          -1.3034
+        ],
+        [
+          -987.4447,
+          -28.587
+        ]
+      ]
+    },
+    {
+      "id": "909889438",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -272.0582,
+          1.0859
+        ],
+        [
+          -264.6892,
+          14.0584
+        ],
+        [
+          -237.911,
+          16.4474
+        ]
+      ]
+    },
+    {
+      "id": "909889439",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -276.3761,
+          -6.5201
+        ],
+        [
+          -272.0582,
+          1.0859
+        ]
+      ]
+    },
+    {
+      "id": "909889441",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -446.6834,
+          38.7488
+        ],
+        [
+          -414.816,
+          21.2526
+        ],
+        [
+          -363.3607,
+          -4.3845
+        ],
+        [
+          -327.8936,
+          -18.3698
+        ],
+        [
+          -317.5767,
+          -27.4804
+        ],
+        [
+          -298.4526,
+          -31.8983
+        ],
+        [
+          -278.9221,
+          -37.2399
+        ]
+      ]
+    },
+    {
+      "id": "909889442",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -452.82,
+          42.1183
+        ],
+        [
+          -446.6834,
+          38.7488
+        ]
+      ]
+    },
+    {
+      "id": "909889451",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -300.6021,
+          -77.2175
+        ],
+        [
+          -287.2017,
+          -54.0253
+        ],
+        [
+          -278.9221,
+          -37.2399
+        ],
+        [
+          -274.8571,
+          -29.0012
+        ],
+        [
+          -278.5793,
+          -10.3947
+        ],
+        [
+          -276.3761,
+          -6.5201
+        ]
+      ]
+    },
+    {
+      "id": "909889452",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -306.6509,
+          -87.677
+        ],
+        [
+          -300.6021,
+          -77.2175
+        ]
+      ]
+    },
+    {
+      "id": "909889454",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -360.3381,
+          -188.514
+        ],
+        [
+          -346.6787,
+          -155.243
+        ],
+        [
+          -314.1205,
+          -100.6006
+        ],
+        [
+          -306.6509,
+          -87.677
+        ]
+      ]
+    },
+    {
+      "id": "909911589",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -982.3119,
+          17.0013
+        ],
+        [
+          -1002.6215,
+          -87.7065
+        ],
+        [
+          -1017.0807,
+          -167.6864
+        ],
+        [
+          -1036.4636,
+          -346.0331
+        ]
+      ]
+    },
+    {
+      "id": "1374667817",
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -748.1187,
+          -72.6464
+        ],
+        [
+          -737.6591,
+          -28.6045
+        ],
+        [
+          -752.5106,
+          -26.5626
+        ],
+        [
+          -759.1375,
+          -70.0281
+        ],
+        [
+          -748.1187,
+          -72.6464
+        ]
+      ]
+    }
+  ],
+  "center_rail_ys": [
+    5.54,
+    12.36
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-08"
+}

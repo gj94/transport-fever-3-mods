@@ -1,0 +1,92 @@
+{
+  "station_code": "MQO",
+  "status": "Frozen candidate, independent gallery/export review passed; final scene-ray review tracked by parent auditor",
+  "blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1",
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/mqo/MQO_coastal_station_v01.blend",
+      "bytes": 8335452,
+      "sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/BUILD_QA.json",
+      "bytes": 1662,
+      "sha256": "19c96e6e220f8cb907d29bfcbab38ad1ddc527c5696ba580d2364ab44fdb3627"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/EXPORT_QA.json",
+      "bytes": 1315,
+      "sha256": "91fe7d80c26d007b77279a34b6c7f0dc73c8f638d315ca5fe26996c48c10a0b4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/RENDER_PROVENANCE.json",
+      "bytes": 2551,
+      "sha256": "c12b9d7e5bc9cafbbc8a1804c15c231995c38058f9f0c10eb9a542df8d12a9a1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 8310,
+      "sha256": "2335c2017a2ea55a1dbd22b73d097f1af94c22d731b19f3254c46db4c60660b2"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/export/MQO_coastal_station_v01.glb.zip",
+      "bytes": 5004646,
+      "sha256": "69f82e4cc2479ee76b500314f81e5029cb573e306eccf344271d09771b5945c2"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/renders/01_full_mapped_layout.png",
+      "bytes": 1046276,
+      "sha256": "591bbfc0deecd0cb4a8577f3d584df78860ddc0265e35cf412b306f1f70885b9"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/renders/02_station_and_platforms.png",
+      "bytes": 1117281,
+      "sha256": "6326d244fead2d40a2bae82f50bc84a4b29541ac07f709fe05a16e14ff8be399"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/renders/03_platform_track_details.png",
+      "bytes": 1219899,
+      "sha256": "c2c33ca8f796adb6728405c351dfb06b5fdf1985430c5aec3eec5d51480667ad"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/renders/04_facade_and_approach.png",
+      "bytes": 1227608,
+      "sha256": "2a637b833d990300f5b2feb3fecd283fdc5fe5111dcf66bd1c9621d0069fa70b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/renders/05_ticket_interior.png",
+      "bytes": 1480508,
+      "sha256": "bc9a091982eccdd742c06528016aca7ca94653caeee6763ac4f8c5da6d687983"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/source/mapped_geometry.json",
+      "bytes": 56960,
+      "sha256": "889602611300d3ef95db83aca9ee38b89bad571f6fd8f9035b9c9e8cf59a4ca5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/source/adopted_geometry.json",
+      "bytes": 97484,
+      "sha256": "7b5abd178eb02c61d57fa5c23655e4830a1130d7f4d87d4ca087e274ce8ad20a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/source/station_nameboard.png",
+      "bytes": 33021,
+      "sha256": "ae3d6b909dbe5b1332612b32a7ab250b32684dada5afce65b6a600d5cfb1c114"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/source/nameboard_text.json",
+      "bytes": 416,
+      "sha256": "a63d5a39dd2870929d5bf20c85f8846262fbd01c5f5024819b6ed92bf5fa83bd"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/mqo/source/visual_evidence.json",
+      "bytes": 1955,
+      "sha256": "4bbf02c5a8e089a788829604102e57b3374f6c40ed97d08f0dab16f79c6d919b"
+    }
+  ],
+  "included_render_count": 5,
+  "no_source_photos": true,
+  "licensing": "OSM-derived source geometry retained with ODbL attribution; generated label pixels only, no Google/provider imagery",
+  "provenance": "All render and export source hashes match authoritative packed Blend; builder snapshot retained where captured; packed Blend is authoritative",
+  "freeze_rule": "Do not mutate any allowlisted bytes after handoff. Revisions need a new directory."
+}

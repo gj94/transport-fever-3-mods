@@ -1,0 +1,13 @@
+{
+  "plan": "coastal_stations_overnight/middle/mqo/source/adopted_geometry.json",
+  "mesh": "coastal_stations_overnight/middle/mqo/source/adopted_geometry.json",
+  "plan_sha256": "7b5abd178eb02c61d57fa5c23655e4830a1130d7f4d87d4ca087e274ce8ad20a",
+  "mesh_sha256": "7b5abd178eb02c61d57fa5c23655e4830a1130d7f4d87d4ca087e274ce8ad20a",
+  "method": "Actual serialized top faces reconstructed as polygons, tested against route 45mm flange-channel union. 20 micrometre interior trim tolerates 5-decimal coordinate rounding.",
+  "head_area_m2": 489.10341916837615,
+  "head_valid": true,
+  "channel_raw_intrusion_m2": 0.00041544540867091847,
+  "channel_interior_intrusion_m2": 0.0,
+  "limitation": "Does not validate final scene overlays, switch blades, guardrails, or surveyed turnout design.",
+  "pass": true
+}
