@@ -1,41 +1,43 @@
+**Portable export colour notice:** Packed Blender scenes and their rendered previews retain the intended appearance. Some overnight GLB surfaces currently default to white because explicit fallback base colours were omitted. Colour-only corrections are in progress. Use the packed Blender scene for the intended appearance while replacement exports are checked. [Details and correction status](EXPORT_MATERIAL_NOTICE.md).
+
 # Every route station
 
 Route order and station-centre distances follow the source register. Unresolved historic chainage is left blank rather than guessed. A source backup is not final QA.
 
 [Image gallery](GALLERY.md) · [Source register](research/station_register.csv)
 
-Reviewed model set: 31 active-station entries and 1 closed historical entry. Recovery-only checkpoints are listed separately.
+Reviewed Blender/geometry set: 31 active-station entries and 1 closed historical entry. Recovery-only checkpoints are listed separately.
 
 | Order | Station | Coastal distance from ERS | Status |
 |---|---|---|---|
 | 01 | [ERS · Ernakulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ers) | 0.00 km | Previously published rich-v02 model |
-| 02 | [TNU · Tirunettur](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU) | Unresolved chainage | Published reviewed batch; closed halt, historical treatment only |
-| 03 | [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM) | 7.71 km | Published reviewed batch |
-| 04 | [AROR · Aroor](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR) | 12.81 km | Published reviewed batch |
-| 05 | [EZP · Ezhupunna](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP) | 18.23 km | Published reviewed batch |
-| 06 | [TUVR · Turavur](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR) | 23.30 km | Published reviewed batch |
-| 07 | [VAY · Vayalar](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY) | 26.97 km | Published reviewed batch |
-| 08 | [SRTL · Cherthala](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL) | 33.31 km | Published reviewed batch |
+| 02 | [TNU · Tirunettur](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU) | Unresolved chainage | Published Blender model; portable colour correction pending; closed halt, historical treatment only |
+| 03 | [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM) | 7.71 km | Published Blender model; portable colour correction pending |
+| 04 | [AROR · Aroor](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR) | 12.81 km | Published Blender model; portable colour correction pending |
+| 05 | [EZP · Ezhupunna](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP) | 18.23 km | Published Blender model; portable colour correction pending |
+| 06 | [TUVR · Turavur](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR) | 23.30 km | Published Blender model; portable colour correction pending |
+| 07 | [VAY · Vayalar](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY) | 26.97 km | Published Blender model; portable colour correction pending |
+| 08 | [SRTL · Cherthala](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL) | 33.31 km | Published Blender model; portable colour correction pending |
 | 09 | [TRVZ · Tiruvizha](https://github.com/gj94/transport-fever-3-mods/tree/f39a5f9ea3ab2480d355e55379f1c47d98fb658a/coastal_station_collection/north/checkpoints/source_2023/TRVZ) | 39.13 km | Backup checkpoint; final review pending |
 | 10 | [MAKM · Mararikulam](https://github.com/gj94/transport-fever-3-mods/tree/f39a5f9ea3ab2480d355e55379f1c47d98fb658a/coastal_station_collection/north/checkpoints/source_2023/MAKM) | 44.23 km | Backup checkpoint; final review pending |
-| 11 | [KAVR · Kalavur](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR) | 47.58 km | Published reviewed batch |
-| 12 | [TMPY · Tumboli](https://github.com/gj94/transport-fever-3-mods/tree/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/TMPY) | 53.00 km | Independently reviewed model |
-| 13 | [ALLP · Alappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP) | 57.00 km | Published reviewed batch |
-| 14 | [PNPR · Punnapra](https://github.com/gj94/transport-fever-3-mods/tree/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/PNPR) | 64.07 km | Independently reviewed model |
-| 15 | [AMPA · Ambalappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA) | 69.16 km | Published reviewed batch |
+| 11 | [KAVR · Kalavur](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR) | 47.58 km | Published Blender model; portable colour correction pending |
+| 12 | [TMPY · Tumboli](https://github.com/gj94/transport-fever-3-mods/tree/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/TMPY) | 53.00 km | Reviewed Blender checkpoint; portable colour correction pending |
+| 13 | [ALLP · Alappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP) | 57.00 km | Published Blender model; portable colour correction pending |
+| 14 | [PNPR · Punnapra](https://github.com/gj94/transport-fever-3-mods/tree/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/PNPR) | 64.07 km | Reviewed Blender checkpoint; portable colour correction pending |
+| 15 | [AMPA · Ambalappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA) | 69.16 km | Published Blender model; portable colour correction pending |
 | 16 | [TZH · Takazhi](https://github.com/gj94/transport-fever-3-mods/tree/747829ddee9cffcf515509c8567e6a2e3c3c082d/coastal_station_collection/north/checkpoints/source_1955/TZH) | 74.84 km | Backup checkpoint; final review pending |
 | 17 | [KVTA · Karuvatta](https://github.com/gj94/transport-fever-3-mods/tree/747829ddee9cffcf515509c8567e6a2e3c3c082d/coastal_station_collection/north/checkpoints/source_1955/KVTA) | 81.49 km | Backup checkpoint; final review pending |
-| 18 | [HAD · Haripad](https://github.com/gj94/transport-fever-3-mods/tree/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/north/HAD) | 87.30 km | Independently reviewed model |
+| 18 | [HAD · Haripad](https://github.com/gj94/transport-fever-3-mods/tree/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/north/HAD) | 87.30 km | Reviewed Blender checkpoint; portable colour correction pending |
 | 19 | [CHPD · Cheppad](https://github.com/gj94/transport-fever-3-mods/tree/747829ddee9cffcf515509c8567e6a2e3c3c082d/coastal_station_collection/north/checkpoints/source_1955/CHPD) | 92.58 km | Backup checkpoint; final review pending |
 | 20 | [KYJ · Kayamkulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/f39a5f9ea3ab2480d355e55379f1c47d98fb658a/coastal_station_collection/north/checkpoints/source_2023/KYJ) | 100.34 km | Backup checkpoint; final review pending |
-| 21 | [OCR · Ochira](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr) | 106.24 km | Published reviewed batch |
+| 21 | [OCR · Ochira](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr) | 106.24 km | Published Blender model; portable colour correction pending |
 | 22 | [KPY · Karunagapalli](https://github.com/gj94/transport-fever-3-mods/tree/0eac898347c1ff19f92e361b7fa5ee865414d4ed/coastal_station_collection/middle/kpy) | 113.93 km | Backup checkpoint; final review pending |
-| 23 | [STKT · Sasthankotta](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt) | 121.59 km | Published reviewed batch |
-| 24 | [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo) | 126.11 km | Published reviewed batch |
+| 23 | [STKT · Sasthankotta](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt) | 121.59 km | Published Blender model; portable colour correction pending |
+| 24 | [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo) | 126.11 km | Published Blender model; portable colour correction pending |
 | 25 | [PRND · Perinad](https://github.com/gj94/transport-fever-3-mods/tree/7ca21b719c5d0272840719c2c4b6e32525a8498a/coastal_station_collection/middle/prnd) | 131.99 km | Backup checkpoint; final review pending |
-| 26 | [QLN · Kollam Junction](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln) | 141.18 km | Published reviewed batch |
-| 27 | [IRP · Iravipuram](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp) | 145.60 km | Published reviewed batch |
-| 28 | [MYY · Mayyanad](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy) | 149.93 km | Published reviewed batch |
+| 26 | [QLN · Kollam Junction](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln) | 141.18 km | Published Blender model; portable colour correction pending |
+| 27 | [IRP · Iravipuram](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp) | 145.60 km | Published Blender model; portable colour correction pending |
+| 28 | [MYY · Mayyanad](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy) | 149.93 km | Published Blender model; portable colour correction pending |
 | 29 | [PVU · Paravur](https://github.com/gj94/transport-fever-3-mods/tree/0eac898347c1ff19f92e361b7fa5ee865414d4ed/coastal_station_collection/middle/pvu) | 153.50 km | Backup checkpoint; final review pending |
 | 30 | [KFI · Kappil](https://github.com/gj94/transport-fever-3-mods/tree/7ca21b719c5d0272840719c2c4b6e32525a8498a/coastal_station_collection/middle/kfi) | 158.03 km | Backup checkpoint; final review pending |
 | 31 | [EVA · Edavai](https://github.com/gj94/transport-fever-3-mods/tree/7ca21b719c5d0272840719c2c4b6e32525a8498a/coastal_station_collection/middle/eva) | 160.88 km | Backup checkpoint; final review pending |
@@ -43,25 +45,25 @@ Reviewed model set: 31 active-station entries and 1 closed historical entry. Rec
 | 33 | [AMY · Akathumuri](https://github.com/gj94/transport-fever-3-mods/tree/0eac898347c1ff19f92e361b7fa5ee865414d4ed/coastal_station_collection/middle/amy) | 171.11 km | Backup checkpoint; final review pending |
 | 34 | [KVU · Kadakavur](https://github.com/gj94/transport-fever-3-mods/tree/0eac898347c1ff19f92e361b7fa5ee865414d4ed/coastal_station_collection/middle/kvu) | 173.87 km | Backup checkpoint; final review pending |
 | 35 | [CRY · Chirayinkeezh](https://github.com/gj94/transport-fever-3-mods/tree/7ca21b719c5d0272840719c2c4b6e32525a8498a/coastal_station_collection/middle/cry) | 176.93 km | Backup checkpoint; final review pending |
-| 36 | [PGZ · Perunguzhi](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz) | 180.97 km | Published reviewed batch |
+| 36 | [PGZ · Perunguzhi](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz) | 180.97 km | Published Blender model; portable colour correction pending |
 | 37 | [MQU · Murukkampuzha](#station-mqu) | 184.38 km | Saved candidate |
-| 38 | [KXP · Kaniyapuram](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp) | 188.27 km | Published reviewed batch |
+| 38 | [KXP · Kaniyapuram](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp) | 188.27 km | Published Blender model; portable colour correction pending |
 | 39 | [KZK · Kazhakuttam](https://github.com/gj94/transport-fever-3-mods/tree/ad7791a30ece380b321ed585396de8396b6518e4/coastal_station_collection/south/kzk) | 192.29 km | Backup checkpoint; final review pending |
-| 40 | [VELI · Veli](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli) | 196.48 km | Published reviewed batch |
+| 40 | [VELI · Veli](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli) | 196.48 km | Published Blender model; portable colour correction pending |
 | 41 | [TVCN · Thiruvananthapuram North](https://github.com/gj94/transport-fever-3-mods/tree/ad7791a30ece380b321ed585396de8396b6518e4/coastal_station_collection/south/tvcn) | 199.42 km | Backup checkpoint; final review pending |
 | 42 | [TVP · Thiruvananthapuram Pettah](#station-tvp) | 203.17 km | Saved candidate |
 | 43 | [TVC · Thiruvananthapuram Central](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/tvc) | 205.66 km | Previously published rich-v02 model |
 | 44 | [TVCS · Thiruvananthapuram South](#station-tvcs) | 213.38 km | Saved candidate |
 | 45 | [BRAM · Balaramapuram](https://github.com/gj94/transport-fever-3-mods/tree/ad7791a30ece380b321ed585396de8396b6518e4/coastal_station_collection/south/bram) | 218.89 km | Backup checkpoint; final review pending |
-| 46 | [NYY · Neyyattinkara](https://github.com/gj94/transport-fever-3-mods/tree/e1a19fa48b6f1e79cf8b987499f69f5ba342b482/coastal_station_collection/south/nyy) | 222.76 km | Independently reviewed model |
-| 47 | [AMVA · Amaravila](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva) | 225.68 km | Published reviewed batch |
+| 46 | [NYY · Neyyattinkara](https://github.com/gj94/transport-fever-3-mods/tree/e1a19fa48b6f1e79cf8b987499f69f5ba342b482/coastal_station_collection/south/nyy) | 222.76 km | Reviewed Blender checkpoint; portable colour correction pending |
+| 47 | [AMVA · Amaravila](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva) | 225.68 km | Published Blender model; portable colour correction pending |
 | 48 | [DAVM · Dhanuvachapuram](https://github.com/gj94/transport-fever-3-mods/tree/ad7791a30ece380b321ed585396de8396b6518e4/coastal_station_collection/south/davm) | 229.18 km | Backup checkpoint; final review pending |
-| 49 | [PASA · Parassala](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa) | 235.24 km | Published reviewed batch |
-| 50 | [KZTW · Kulitturai West](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw) | 240.41 km | Published reviewed batch |
+| 49 | [PASA · Parassala](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa) | 235.24 km | Published Blender model; portable colour correction pending |
+| 50 | [KZTW · Kulitturai West](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw) | 240.41 km | Published Blender model; portable colour correction pending |
 | 51 | [KZT · Kulitturai](https://github.com/gj94/transport-fever-3-mods/tree/ad7791a30ece380b321ed585396de8396b6518e4/coastal_station_collection/south/kzt) | 243.55 km | Backup checkpoint; final review pending |
-| 52 | [PYD · Palliyadi](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd) | 249.79 km | Published reviewed batch |
-| 53 | [ERL · Eraniel](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl) | 258.30 km | Published reviewed batch |
-| 54 | [VRLR · Viranialur](https://github.com/gj94/transport-fever-3-mods/tree/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/south/vrlr) | 265.75 km | Independently reviewed model |
+| 52 | [PYD · Palliyadi](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd) | 249.79 km | Published Blender model; portable colour correction pending |
+| 53 | [ERL · Eraniel](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl) | 258.30 km | Published Blender model; portable colour correction pending |
+| 54 | [VRLR · Viranialur](https://github.com/gj94/transport-fever-3-mods/tree/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/south/vrlr) | 265.75 km | Reviewed Blender checkpoint; portable colour correction pending |
 | 55 | [NJT · Nagercoil Town](#station-njt) | 271.67 km | Saved candidate |
 | 56 | [NCJ · Nagercoil Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ncj) | 276.71 km | Previously published rich-v02 model |
 
@@ -77,13 +79,13 @@ Build: previously published. QA: passed prior rich-v02 review.
 
 ## Station TNU
 ### 02. Tirunettur (TNU)
-Published reviewed batch; closed halt, historical treatment only. Unresolved chainage.
+Published Blender model; portable colour correction pending; closed halt, historical treatment only. Unresolved chainage.
 
 [![TNU: Tirunettur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials retain base-colour fallbacks for some procedural Blender effects. Historical building is deliberately unplaced; exact former location and present survival/remnants remain unverified. Corridor and historical study must remain separate interpretations.
 
@@ -91,69 +93,69 @@ Tirunettur was officially closed from 10 July 2017. Any historical reconstructio
 
 ## Station KUMM
 ### 03. Kumbalam (KUMM)
-Published reviewed batch. 7.71 km.
+Published Blender model; portable colour correction pending. 7.71 km.
 
 [![KUMM: Kumbalam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 ## Station AROR
 ### 04. Aroor (AROR)
-Published reviewed batch. 12.81 km.
+Published Blender model; portable colour correction pending. 12.81 km.
 
 [![AROR: Aroor actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted exported-triangle checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects.
 
 ## Station EZP
 ### 05. Ezhupunna (EZP)
-Published reviewed batch. 18.23 km.
+Published Blender model; portable colour correction pending. 18.23 km.
 
 [![EZP: Ezhupunna actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted exported-triangle checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects. Station hut form is explicitly unverified/reconstructed; photo evidence supports corridor/platform context and is not claimed to verify the exact hut facade.
 
 ## Station TUVR
 ### 06. Turavur (TUVR)
-Published reviewed batch. 23.30 km.
+Published Blender model; portable colour correction pending. 23.30 km.
 
 [![TUVR: Turavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 ## Station VAY
 ### 07. Vayalar (VAY)
-Published reviewed batch. 26.97 km.
+Published Blender model; portable colour correction pending. 26.97 km.
 
 [![VAY: Vayalar actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted scene/export checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects.
 
 ## Station SRTL
 ### 08. Cherthala (SRTL)
-Published reviewed batch. 33.31 km.
+Published Blender model; portable colour correction pending. 33.31 km.
 
 [![SRTL: Cherthala actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted exported-triangle checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects.
 
@@ -175,61 +177,61 @@ Hypothetical second platform-body and access assumptions remain explicit. Final 
 
 ## Station KAVR
 ### 11. Kalavur (KAVR)
-Published reviewed batch. 47.58 km.
+Published Blender model; portable colour correction pending. 47.58 km.
 
 [![KAVR: Kalavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Modest hut and hidden interior details remain disclosed reconstructions; corrected Kalavur source citation is preserved. Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted scene/export checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects.
 
 ## Station TMPY
 ### 12. Tumboli (TMPY)
-Independently reviewed model. 53.00 km.
+Reviewed Blender checkpoint; portable colour correction pending. 53.00 km.
 
 [![TMPY: Tumboli actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/TMPY/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/TMPY/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/TMPY)
 
-Build: backed up. QA: passed independent station review.
+Build: backed up. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted scene/export checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects.
 
 ## Station ALLP
 ### 13. Alappuzha (ALLP)
-Published reviewed batch. 57.00 km.
+Published Blender model; portable colour correction pending. 57.00 km.
 
 [![ALLP: Alappuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials retain base-colour fallbacks for some procedural Blender effects.
 
 ## Station PNPR
 ### 14. Punnapra (PNPR)
-Independently reviewed model. 64.07 km.
+Reviewed Blender checkpoint; portable colour correction pending. 64.07 km.
 
 [![PNPR: Punnapra actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/PNPR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/PNPR/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/0a75dbe7bcf96cb1a44c00b4d44f28c8f534bb41/coastal_station_collection/north/PNPR)
 
-Build: backed up. QA: passed independent station review.
+Build: backed up. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted scene/export checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects.
 
 ## Station AMPA
 ### 15. Ambalappuzha (AMPA)
-Published reviewed batch. 69.16 km.
+Published Blender model; portable colour correction pending. 69.16 km.
 
 [![AMPA: Ambalappuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials retain base-colour fallbacks for some procedural Blender effects. The estimated hall/plinth shallowly abuts the mapped outer platform edge:7.47m² residual overlap, at most about0.40m inward. This is disclosed roof-envelope/wall-line uncertainty with ample remaining public width, not an exact surveyed non-overlap claim.
 
@@ -251,13 +253,13 @@ Source-only recovery checkpoint; final gallery/export/quality gates are pending.
 
 ## Station HAD
 ### 18. Haripad (HAD)
-Independently reviewed model. 87.30 km.
+Reviewed Blender checkpoint; portable colour correction pending. 87.30 km.
 
 [![HAD: Haripad actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/north/HAD/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/north/HAD/renders/02_Entrance_architecture.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/north/HAD)
 
-Build: backed up. QA: passed independent station review.
+Build: backed up. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and station services remain disclosed reconstructions. Targeted scene/export checks are not exhaustive pairwise collision certification. Portable materials include base-colour fallbacks for procedural Blender effects. A terminal-end platform cutout has0.658m nominal centerline separation; actual rail-head/platform surfaces do not meaningfully overlap. The reconstructed stop is retreated0.5m. This is not a running-side clearance certification.
 
@@ -279,13 +281,13 @@ Mapped dogleg geometry is preserved; the terminal landing extension is explicitl
 
 ## Station OCR
 ### 21. Ochira (OCR)
-Published reviewed batch. 106.24 km.
+Published Blender model; portable colour correction pending. 106.24 km.
 
 [![OCR: Ochira actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr/renders/04_facade_and_approach.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operational inventory or engineering certification. Mapped centerline irregularities have documented local regularization; raw observed source coordinates remain available. Unseen interiors, approximate dimensions and ancillary wing extent are reconstructed. Targeted checks are not exhaustive pairwise collision certification. Some procedural Blender materials use base-colour portable fallbacks.
 
@@ -299,25 +301,25 @@ Editable source recovery checkpoint; final gallery, portable export and independ
 
 ## Station STKT
 ### 23. Sasthankotta (STKT)
-Published reviewed batch. 121.59 km.
+Published Blender model; portable colour correction pending. 121.59 km.
 
 [![STKT: Sasthankotta actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt/renders/04_facade_and_approach.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification. Hidden interiors, dimensions, source-era facade appearance and service assignments are disclosed reconstructions. Procedural Blender surface effects use base-colour portable fallbacks. Targeted checks are not exhaustive pairwise collision certification.
 
 ## Station MQO
 ### 24. Munroturuttu (MQO)
-Published reviewed batch. 126.11 km.
+Published Blender model; portable colour correction pending. 126.11 km.
 
 [![MQO: Munroturuttu actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo/renders/02_station_and_platforms.png)](https://github.com/gj94/transport-fever-3-mods/blob/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo/renders/02_station_and_platforms.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Accepted narrow bridge correction resolves the former stair-to-deck defect. Views01–03 use the corrected scene; unchanged-area views04–05 retain their explicit earlier lineage. Original source and superseding review remain historical.
 
@@ -333,37 +335,37 @@ Editable source recovery checkpoint; final gallery, portable export and independ
 
 ## Station QLN
 ### 26. Kollam Junction (QLN)
-Published reviewed batch. 141.18 km.
+Published Blender model; portable colour correction pending. 141.18 km.
 
 [![QLN: Kollam Junction actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln/renders/04_facade_and_approach.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Historical2017–2020 terminal facade is reconstructed; current redevelopment completion is not claimed. Dimensions, unseen offices/interiors and service assignments remain disclosed reconstructions. Visual reconstruction, not a surveyed operating inventory or engineering certification. Targeted checks are not exhaustive pairwise collision certification. Procedural Blender materials use base-colour portable fallbacks.
 
 ## Station IRP
 ### 27. Iravipuram (IRP)
-Published reviewed batch. 145.60 km.
+Published Blender model; portable colour correction pending. 145.60 km.
 
 [![IRP: Iravipuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp/renders/04_facade_and_approach.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification. Hidden interiors, dimensions, source-era facade appearance and service assignments are disclosed reconstructions. Procedural Blender surface effects use base-colour portable fallbacks. Targeted checks are not exhaustive pairwise collision certification.
 
 ## Station MYY
 ### 28. Mayyanad (MYY)
-Published reviewed batch. 149.93 km.
+Published Blender model; portable colour correction pending. 149.93 km.
 
 [![MYY: Mayyanad actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy/renders/04_facade_and_approach.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operational inventory or engineering certification. Unseen interiors, approximate dimensions and reconstructed platform extents are disclosed. Targeted checks are not exhaustive pairwise collision certification. Some procedural Blender materials use base-colour portable fallbacks.
 
@@ -425,13 +427,13 @@ Editable source recovery checkpoint; final gallery, portable export and independ
 
 ## Station PGZ
 ### 36. Perunguzhi (PGZ)
-Published reviewed batch. 180.97 km.
+Published Blender model; portable colour correction pending. 180.97 km.
 
 [![PGZ: Perunguzhi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 ## Station MQU
 ### 37. Murukkampuzha (MQU)
@@ -443,13 +445,13 @@ Editable candidate saved locally. Remote source backup and final independent rev
 
 ## Station KXP
 ### 38. Kaniyapuram (KXP)
-Published reviewed batch. 188.27 km.
+Published Blender model; portable colour correction pending. 188.27 km.
 
 [![KXP: Kaniyapuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Corrected revision02 resolves the earlier stair and sanitary approach findings; the original checkpoint and earlier review are preserved. Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects.
 
@@ -463,13 +465,13 @@ Editable source recovery checkpoint; final gallery, portable export and independ
 
 ## Station VELI
 ### 40. Veli (VELI)
-Published reviewed batch. 196.48 km.
+Published Blender model; portable colour correction pending. 196.48 km.
 
 [![VELI: Veli actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification. Opposite raised-strip function and commissioning status are unresolved; it is not counted as a second established passenger platform. Building function, hidden fixtures, dimensions and scene positioning contain explicitly disclosed reconstruction. Procedural Blender surface effects use base-colour portable fallbacks. Targeted checks are not exhaustive pairwise collision certification.
 
@@ -517,25 +519,25 @@ Editable source recovery checkpoint; final gallery, portable export and independ
 
 ## Station NYY
 ### 46. Neyyattinkara (NYY)
-Independently reviewed model. 222.76 km.
+Reviewed Blender checkpoint; portable colour correction pending. 222.76 km.
 
 [![NYY: Neyyattinkara actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/e1a19fa48b6f1e79cf8b987499f69f5ba342b482/coastal_station_collection/south/nyy/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/e1a19fa48b6f1e79cf8b987499f69f5ba342b482/coastal_station_collection/south/nyy/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/e1a19fa48b6f1e79cf8b987499f69f5ba342b482/coastal_station_collection/south/nyy)
 
-Build: backed up. QA: passed independent station review.
+Build: backed up. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects.
 
 ## Station AMVA
 ### 47. Amaravila (AMVA)
-Published reviewed batch. 225.68 km.
+Published Blender model; portable colour correction pending. 225.68 km.
 
 [![AMVA: Amaravila actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Unseen interiors, dimensions and service functions are reconstructed and disclosed. Targeted export-triangle paths and floor probes are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects.
 
@@ -549,25 +551,25 @@ Editable source recovery checkpoint; final gallery, portable export and independ
 
 ## Station PASA
 ### 49. Parassala (PASA)
-Published reviewed batch. 235.24 km.
+Published Blender model; portable colour correction pending. 235.24 km.
 
 [![PASA: Parassala actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects.
 
 ## Station KZTW
 ### 50. Kulitturai West (KZTW)
-Published reviewed batch. 240.41 km.
+Published Blender model; portable colour correction pending. 240.41 km.
 
 [![KZTW: Kulitturai West actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Unseen interiors, dimensions and service functions are reconstructed and disclosed. Targeted export-triangle paths and floor probes are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects.
 
@@ -581,37 +583,37 @@ Immutable editable source recovery checkpoint. A localized facade-depth correcti
 
 ## Station PYD
 ### 52. Palliyadi (PYD)
-Published reviewed batch. 249.79 km.
+Published Blender model; portable colour correction pending. 249.79 km.
 
 [![PYD: Palliyadi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Unseen interiors, dimensions and service functions are reconstructed and disclosed. Targeted export-triangle paths and floor probes are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects. Opposite bridge landing is shown as physically constructed with operating status unverified, not counted as a confirmed second passenger platform.
 
 ## Station ERL
 ### 53. Eraniel (ERL)
-Published reviewed batch. 258.30 km.
+Published Blender model; portable colour correction pending. 258.30 km.
 
 [![ERL: Eraniel actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl/renders/02_STATION_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl)
 
-Build: published. QA: passed independent station review.
+Build: published. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 Visual reconstruction, not a surveyed current operating inventory or engineering certification. Hidden interiors, approximate dimensions and service assignments remain disclosed reconstructions. Targeted checks are not exhaustive pairwise collision certification. Portable materials use base-colour fallbacks for procedural Blender effects.
 
 ## Station VRLR
 ### 54. Viranialur (VRLR)
-Independently reviewed model. 265.75 km.
+Reviewed Blender checkpoint; portable colour correction pending. 265.75 km.
 
 [![VRLR: Viranialur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/south/vrlr/renders/02_OPEN_SHELTER_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/south/vrlr/renders/02_OPEN_SHELTER_ARCHITECTURE.png)
 
 [Open station files](https://github.com/gj94/transport-fever-3-mods/tree/ed629291467fc81c224cce8340bb9388ac2011e5/coastal_station_collection/south/vrlr)
 
-Build: backed up. QA: passed independent station review.
+Build: backed up. QA: scene/image/geometry checks retained; portable appearance gate reopened.
 
 IRI reports one platform; photographs show two built bodies, with the extra body’s operating status unverified. Photographed open shelters are modelled without an invented enclosed building. Two built platform bodies do not certify two operating passenger faces; primary reported count remains1. Open-shelter dimensions and unseen details are reconstructed; no enclosed building is claimed without evidence. Visual reconstruction, not a surveyed current operating inventory or engineering certification. Targeted checks are not exhaustive pairwise collision certification. Portable procedural materials use base-colour fallbacks.
 
