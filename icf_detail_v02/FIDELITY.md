@@ -54,3 +54,5 @@ Closed meshes are welded at micron tolerance, outward normals are checked, and a
 ## Image and material policy
 
 Every preview comes from the actual Blender scene. No image generation, photographed mesh projection or misleading stock photograph is used as a model preview. Cutaways are labelled and never replace intact source geometry. Procedural finish, small wear and sewing details are original. Blender shaders can use procedural textures that an FBX consumer will not reproduce without a separate bake/material conversion.
+
+Class-label lettering uses shallow modeled relief for legibility in these authoring assets. Actual painted stencil thickness and exact numbered-coach lettering are not reproduced; the close marking view should be read with that limitation.
