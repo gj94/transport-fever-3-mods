@@ -1,3 +1,5 @@
+**Portable export colour notice:** Packed Blender scenes and their rendered previews retain the intended appearance. Some overnight GLB surfaces currently default to white because explicit fallback base colours were omitted. Colour-only corrections are in progress. Use the packed Blender scene for the intended appearance while replacement exports are checked. [Details and correction status](EXPORT_MATERIAL_NOTICE.md).
+
 # Open and verify station models
 
 Each completed station has an editable Blender source and a portable export, with a file manifest and source/render provenance. Consult that station's README for its exact files, software requirements and limitations.
