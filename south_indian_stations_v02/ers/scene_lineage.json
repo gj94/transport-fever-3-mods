@@ -1,0 +1,502 @@
+{
+  "change": "Remove only actual stair fixture encroachments, no change to running rails/buildings/canopy geometry",
+  "parent_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e",
+  "corrected_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e",
+  "moved_objects": [
+    {
+      "object": "Rainwater downpipe.004",
+      "old_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "new_location": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "reason": "Associated pipe within stair headroom envelope"
+    },
+    {
+      "object": "Platform number board.004",
+      "old_location": [
+        -46.0,
+        19.0,
+        3.950000047683716
+      ],
+      "new_location": [
+        -22.0,
+        19.0,
+        3.950000047683716
+      ],
+      "reason": "Low platform number board over lower stair flight"
+    },
+    {
+      "object": "Platform numbers 1.004",
+      "old_location": [
+        -46.0,
+        18.934999465942383,
+        3.7799999713897705
+      ],
+      "new_location": [
+        -22.0,
+        18.934999465942383,
+        3.7799999713897705
+      ],
+      "reason": "Low platform number board over lower stair flight"
+    },
+    {
+      "object": "Rainwater downpipe.020",
+      "old_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "new_location": [
+        24.0,
+        0.0,
+        0.0
+      ],
+      "reason": "Associated pipe within stair headroom envelope"
+    },
+    {
+      "object": "Seat steel legs.076",
+      "old_location": [
+        -43.90999984741211,
+        48.0,
+        1.4299999475479126
+      ],
+      "new_location": [
+        -19.90999984741211,
+        48.0,
+        1.4299999475479126
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat steel legs.077",
+      "old_location": [
+        -42.09000015258789,
+        48.0,
+        1.4299999475479126
+      ],
+      "new_location": [
+        -18.09000015258789,
+        48.0,
+        1.4299999475479126
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench seat rail.038",
+      "old_location": [
+        -43.0,
+        48.0,
+        1.5800000429153442
+      ],
+      "new_location": [
+        -19.0,
+        48.0,
+        1.5800000429153442
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue passenger seat.152",
+      "old_location": [
+        -43.93600082397461,
+        48.0,
+        1.7000000476837158
+      ],
+      "new_location": [
+        -19.93600082397461,
+        48.0,
+        1.7000000476837158
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue backrest.152",
+      "old_location": [
+        -43.93600082397461,
+        48.220001220703125,
+        2.0
+      ],
+      "new_location": [
+        -19.93600082397461,
+        48.220001220703125,
+        2.0
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.304",
+      "old_location": [
+        -44.216800689697266,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -20.216800689697266,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.305",
+      "old_location": [
+        -43.65520095825195,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -19.655200958251953,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue passenger seat.153",
+      "old_location": [
+        -43.3120002746582,
+        48.0,
+        1.7000000476837158
+      ],
+      "new_location": [
+        -19.312000274658203,
+        48.0,
+        1.7000000476837158
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue backrest.153",
+      "old_location": [
+        -43.3120002746582,
+        48.220001220703125,
+        2.0
+      ],
+      "new_location": [
+        -19.312000274658203,
+        48.220001220703125,
+        2.0
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.306",
+      "old_location": [
+        -43.59280014038086,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -19.59280014038086,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.307",
+      "old_location": [
+        -43.03120040893555,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -19.031200408935547,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue passenger seat.154",
+      "old_location": [
+        -42.6879997253418,
+        48.0,
+        1.7000000476837158
+      ],
+      "new_location": [
+        -18.687999725341797,
+        48.0,
+        1.7000000476837158
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue backrest.154",
+      "old_location": [
+        -42.6879997253418,
+        48.220001220703125,
+        2.0
+      ],
+      "new_location": [
+        -18.687999725341797,
+        48.220001220703125,
+        2.0
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.308",
+      "old_location": [
+        -42.96879959106445,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -18.968799591064453,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.309",
+      "old_location": [
+        -42.40719985961914,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -18.40719985961914,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue passenger seat.155",
+      "old_location": [
+        -42.06399917602539,
+        48.0,
+        1.7000000476837158
+      ],
+      "new_location": [
+        -18.06399917602539,
+        48.0,
+        1.7000000476837158
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Molded blue backrest.155",
+      "old_location": [
+        -42.06399917602539,
+        48.220001220703125,
+        2.0
+      ],
+      "new_location": [
+        -18.06399917602539,
+        48.220001220703125,
+        2.0
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.310",
+      "old_location": [
+        -42.34479904174805,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -18.344799041748047,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Seat armrest.311",
+      "old_location": [
+        -41.783199310302734,
+        48.0,
+        1.9199999570846558
+      ],
+      "new_location": [
+        -17.783199310302734,
+        48.0,
+        1.9199999570846558
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Platform number board.020",
+      "old_location": [
+        -47.0,
+        48.0,
+        3.950000047683716
+      ],
+      "new_location": [
+        -23.0,
+        48.0,
+        3.950000047683716
+      ],
+      "reason": "Low platform number board over lower stair flight"
+    },
+    {
+      "object": "Platform numbers 2 / 3.003",
+      "old_location": [
+        -47.0,
+        47.935001373291016,
+        3.7799999713897705
+      ],
+      "new_location": [
+        -23.0,
+        47.935001373291016,
+        3.7799999713897705
+      ],
+      "reason": "Low platform number board over lower stair flight"
+    },
+    {
+      "object": "Bench bolted soleplate.076",
+      "old_location": [
+        -43.90999984741211,
+        48.0,
+        1.1949999332427979
+      ],
+      "new_location": [
+        -19.90999984741211,
+        48.0,
+        1.1949999332427979
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.304",
+      "old_location": [
+        -43.96500015258789,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "new_location": [
+        -19.96500015258789,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.305",
+      "old_location": [
+        -43.96500015258789,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "new_location": [
+        -19.96500015258789,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.306",
+      "old_location": [
+        -43.85499954223633,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "new_location": [
+        -19.854999542236328,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.307",
+      "old_location": [
+        -43.85499954223633,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "new_location": [
+        -19.854999542236328,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench bolted soleplate.077",
+      "old_location": [
+        -42.09000015258789,
+        48.0,
+        1.1949999332427979
+      ],
+      "new_location": [
+        -18.09000015258789,
+        48.0,
+        1.1949999332427979
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.308",
+      "old_location": [
+        -42.14500045776367,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "new_location": [
+        -18.145000457763672,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.309",
+      "old_location": [
+        -42.14500045776367,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "new_location": [
+        -18.145000457763672,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.310",
+      "old_location": [
+        -42.03499984741211,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "new_location": [
+        -18.03499984741211,
+        47.779998779296875,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    },
+    {
+      "object": "Bench anchor bolt.311",
+      "old_location": [
+        -42.03499984741211,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "new_location": [
+        -18.03499984741211,
+        48.220001220703125,
+        1.21999990940094
+      ],
+      "reason": "Bench assembly at PF2/3 stair foot"
+    }
+  ],
+  "affected_views": [
+    "04_Platform_concourse",
+    "10_Footbridge_and_platform"
+  ],
+  "lineage_note": "Unchanged earlier views remain valid for their depicted content and bind to the explicit parent hash; final structural and full-flight checks bind to corrected scene."
+}

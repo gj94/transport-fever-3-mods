@@ -1,23 +1,23 @@
 {
   "filename": "ERS_full_station_v02.blend",
-  "size": 43308429,
-  "sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e",
-  "git_blob_sha": "7f52782680b9318904698daed2dfb1f9cd2f0540",
+  "size": 43250391,
+  "sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e",
+  "git_blob_sha": "b5faba4d7c8b05349ccba3210d99cf2bde5fdbdd",
   "parts": [
     {
       "filename": "part001.bin",
       "size": 16777216,
-      "sha256": "b97168db08be87b89405e5a029dd20565ddae192431663b007d36bfc47933767"
+      "sha256": "1e169442b8f4ba873a302755b09533272d80ba857ecf753bc6392619bdad3b1b"
     },
     {
       "filename": "part002.bin",
       "size": 16777216,
-      "sha256": "a9dd1611b59b46cb52987608aa2c5131cc61e03f830664f0d0cd2265eee7dda7"
+      "sha256": "7fc3cd8b4a91c83c7d5cdba289bda512ced8d504e2a2a23b5dc8c15dace73541"
     },
     {
       "filename": "part003.bin",
-      "size": 9753997,
-      "sha256": "52848da65a7a47cffdadafe9ceb36cc4a1bb64cde53bd459ce39f3e42436f2c2"
+      "size": 9695959,
+      "sha256": "e9a6a17b201bad11539461b79cbe92dabbd1dc204e17cdadd123f87329619049"
     }
   ],
   "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
