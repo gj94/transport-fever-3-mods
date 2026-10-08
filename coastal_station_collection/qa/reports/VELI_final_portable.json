@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/veli/exchange/VELI_portable_GLTF.zip!VELI_station_v01.glb",
+    "bytes": 35217132,
+    "errors": [],
+    "warnings": [],
+    "sha256": "67e93fd377f6f2286134040d1258a26124d7cb3ff9936250a3f46d49b14db77a",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 35217132
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 423176
+      },
+      {
+        "type": 5130562,
+        "bytes": 34793928
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 662,
+    "mesh_count": 662,
+    "primitive_count": 662,
+    "vertex_reference_count": 1180160,
+    "accessor_count": 1428,
+    "validated_accessor_count": 1428,
+    "material_count": 21,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "6860e2faf3502101631448a5f88e06c8961708116f62dbc4789210bf7eb79b57",
+    "container_bytes": 4719085
+  }
+]

@@ -11,7 +11,7 @@ Route order and station-centre distances follow the source register. Unresolved 
 | 03 | [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM) | 7.71 km | Published reviewed batch |
 | 04 | [AROR · Aroor](https://github.com/gj94/transport-fever-3-mods/tree/6ee086ffd71084194d5b57294b3eacad5c9b9d25/coastal_station_collection/north/checkpoints/source_1946/AROR) | 12.81 km | Backup checkpoint; final review pending |
 | 05 | [EZP · Ezhupunna](https://github.com/gj94/transport-fever-3-mods/tree/6ee086ffd71084194d5b57294b3eacad5c9b9d25/coastal_station_collection/north/checkpoints/source_1946/EZP) | 18.23 km | Backup checkpoint; final review pending |
-| 06 | [TUVR · Turavur](https://github.com/gj94/transport-fever-3-mods/tree/14da801c968ba1eb78214802dfa4b1f2da3cd5f6/coastal_station_collection/north/TUVR) | 23.30 km | Independently reviewed model |
+| 06 | [TUVR · Turavur](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR) | 23.30 km | Published reviewed batch |
 | 07 | [VAY · Vayalar](https://github.com/gj94/transport-fever-3-mods/tree/6ee086ffd71084194d5b57294b3eacad5c9b9d25/coastal_station_collection/north/checkpoints/source_1946/VAY) | 26.97 km | Backup checkpoint; final review pending |
 | 08 | [SRTL · Cherthala](#station-srtl) | 33.31 km | Pending |
 | 09 | [TRVZ · Tiruvizha](#station-trvz) | 39.13 km | Pending |
@@ -28,11 +28,11 @@ Route order and station-centre distances follow the source register. Unresolved 
 | 20 | [KYJ · Kayamkulam Junction](#station-kyj) | 100.34 km | Pending |
 | 21 | [OCR · Ochira](#station-ocr) | 106.24 km | Pending |
 | 22 | [KPY · Karunagapalli](#station-kpy) | 113.93 km | Pending |
-| 23 | [STKT · Sasthankotta](https://github.com/gj94/transport-fever-3-mods/tree/a2671073e31c4ca2a9558d8e13d55bc0ae178cf8/coastal_station_collection/middle/stkt) | 121.59 km | Backup checkpoint; final review pending |
+| 23 | [STKT · Sasthankotta](https://github.com/gj94/transport-fever-3-mods/tree/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/middle/stkt) | 121.59 km | Independently reviewed model |
 | 24 | [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo) | 126.11 km | Published reviewed batch |
 | 25 | [PRND · Perinad](#station-prnd) | 131.99 km | Pending |
 | 26 | [QLN · Kollam Junction](https://github.com/gj94/transport-fever-3-mods/tree/a2671073e31c4ca2a9558d8e13d55bc0ae178cf8/coastal_station_collection/middle/qln) | 141.18 km | Backup checkpoint; final review pending |
-| 27 | [IRP · Iravipuram](#station-irp) | 145.60 km | Pending |
+| 27 | [IRP · Iravipuram](https://github.com/gj94/transport-fever-3-mods/tree/52238a9ee487f763ea61fbc99caca370316fe2b5/coastal_station_collection/middle/irp) | 145.60 km | Backup checkpoint; final review pending |
 | 28 | [MYY · Mayyanad](#station-myy) | 149.93 km | Pending |
 | 29 | [PVU · Paravur](#station-pvu) | 153.50 km | Pending |
 | 30 | [KFI · Kappil](#station-kfi) | 158.03 km | Pending |
@@ -41,11 +41,11 @@ Route order and station-centre distances follow the source register. Unresolved 
 | 33 | [AMY · Akathumuri](#station-amy) | 171.11 km | Pending |
 | 34 | [KVU · Kadakavur](#station-kvu) | 173.87 km | Pending |
 | 35 | [CRY · Chirayinkeezh](#station-cry) | 176.93 km | Pending |
-| 36 | [PGZ · Perunguzhi](https://github.com/gj94/transport-fever-3-mods/tree/54cad77619548160c653104ea2d803f12e8dc1cf/coastal_station_collection/south/pgz) | 180.97 km | Independently reviewed model |
+| 36 | [PGZ · Perunguzhi](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz) | 180.97 km | Published reviewed batch |
 | 37 | [MQU · Murukkampuzha](#station-mqu) | 184.38 km | Pending |
 | 38 | [KXP · Kaniyapuram](https://github.com/gj94/transport-fever-3-mods/tree/e456ff814faca1eed2d3f6467c7fd6770a3fc1e3/coastal_station_collection/south/kxp) | 188.27 km | Backup checkpoint; final review pending |
 | 39 | [KZK · Kazhakuttam](#station-kzk) | 192.29 km | Pending |
-| 40 | [VELI · Veli](#station-veli) | 196.48 km | Pending |
+| 40 | [VELI · Veli](https://github.com/gj94/transport-fever-3-mods/tree/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/south/veli) | 196.48 km | Independently reviewed model |
 | 41 | [TVCN · Thiruvananthapuram North](#station-tvcn) | 199.42 km | Pending |
 | 42 | [TVP · Thiruvananthapuram Pettah](#station-tvp) | 203.17 km | Pending |
 | 43 | [TVC · Thiruvananthapuram Central](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/tvc) | 205.66 km | Previously published rich-v02 model |
@@ -111,13 +111,13 @@ Editable source recovery checkpoint; final gallery and portable export are pendi
 
 ## Station TUVR
 ### 06. Turavur (TUVR)
-Independently reviewed model. 23.30 km.
+Published reviewed batch. 23.30 km.
 
-[![TUVR: Turavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/14da801c968ba1eb78214802dfa4b1f2da3cd5f6/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/14da801c968ba1eb78214802dfa4b1f2da3cd5f6/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)
+[![TUVR: Turavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)
 
-[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/14da801c968ba1eb78214802dfa4b1f2da3cd5f6/coastal_station_collection/north/TUVR)
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR)
 
-Build: backed up. QA: passed independent station review.
+Build: published. QA: passed independent station review.
 
 ## Station VAY
 ### 07. Vayalar (VAY)
@@ -231,11 +231,15 @@ Build: pending. QA: pending.
 
 ## Station STKT
 ### 23. Sasthankotta (STKT)
-Backup checkpoint; final review pending. 121.59 km.
+Independently reviewed model. 121.59 km.
 
-Build: backed up. QA: structural review passed; final gallery/export review pending.
+[![STKT: Sasthankotta actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/middle/stkt/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/middle/stkt/renders/04_facade_and_approach.png)
 
-Source-only recovery checkpoint. Final model/export/gallery release is not approved yet.
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/middle/stkt)
+
+Build: backed up. QA: passed independent station review.
+
+Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification. Hidden interiors, dimensions, source-era facade appearance and service assignments are disclosed reconstructions. Procedural Blender surface effects use base-colour portable fallbacks. Targeted checks are not exhaustive pairwise collision certification.
 
 ## Station MQO
 ### 24. Munroturuttu (MQO)
@@ -267,9 +271,11 @@ Source-only recovery checkpoint. Final model/export/gallery release is not appro
 
 ## Station IRP
 ### 27. Iravipuram (IRP)
-Pending. 145.60 km.
+Backup checkpoint; final review pending. 145.60 km.
 
-Build: pending. QA: pending.
+Build: backed up. QA: final independent circulation gate pending.
+
+Recovery source and verified lossless export are preserved; final station gate is pending.
 
 ## Station MYY
 ### 28. Mayyanad (MYY)
@@ -323,13 +329,13 @@ Build: pending. QA: pending.
 
 ## Station PGZ
 ### 36. Perunguzhi (PGZ)
-Independently reviewed model. 180.97 km.
+Published reviewed batch. 180.97 km.
 
-[![PGZ: Perunguzhi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/54cad77619548160c653104ea2d803f12e8dc1cf/coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/54cad77619548160c653104ea2d803f12e8dc1cf/coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png)
+[![PGZ: Perunguzhi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png)
 
-[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/54cad77619548160c653104ea2d803f12e8dc1cf/coastal_station_collection/south/pgz)
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz)
 
-Build: backed up. QA: passed independent station review.
+Build: published. QA: passed independent station review.
 
 ## Station MQU
 ### 37. Murukkampuzha (MQU)
@@ -353,9 +359,15 @@ Build: pending. QA: pending.
 
 ## Station VELI
 ### 40. Veli (VELI)
-Pending. 196.48 km.
+Independently reviewed model. 196.48 km.
 
-Build: pending. QA: pending.
+[![VELI: Veli actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/south/veli/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/south/veli/renders/02_STATION_ARCHITECTURE.png)
+
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/2fe6580932c9cc0c68d393550daeb5413e8d7ac3/coastal_station_collection/south/veli)
+
+Build: backed up. QA: passed independent station review.
+
+Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification. Opposite raised-strip function and commissioning status are unresolved; it is not counted as a second established passenger platform. Building function, hidden fixtures, dimensions and scene positioning contain explicitly disclosed reconstruction. Procedural Blender surface effects use base-colour portable fallbacks. Targeted checks are not exhaustive pairwise collision certification.
 
 ## Station TVCN
 ### 41. Thiruvananthapuram North (TVCN)

@@ -1,0 +1,144 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/veli/VELI_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 670,
+  "object_types": {
+    "MESH": 648,
+    "FONT": 14,
+    "LIGHT": 3,
+    "CAMERA": 5
+  },
+  "unique_meshes": 648,
+  "unique_vertices": 405365,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -77.9101791381836,
+      -0.550000011920929
+    ],
+    [
+      895.0,
+      318.67266845703125,
+      12.441779136657715
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "VELI",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_TRACK_AND_PLATFORM_DETAIL"
+  ],
+  "circulation_rays": {
+    "central_public_entry": {
+      "from": [
+        -110.0,
+        -10.190118789672852,
+        2.3499999046325684
+      ],
+      "to": [
+        -110.0,
+        -0.6901187300682068,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda": {
+      "from": [
+        -112.625,
+        -10.190118789672852,
+        2.3499999046325684
+      ],
+      "to": [
+        -112.625,
+        -7.990118503570557,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry": {
+      "from": [
+        -112.625,
+        -7.990118503570557,
+        2.3499999046325684
+      ],
+      "to": [
+        -110.0,
+        -7.990118503570557,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_bodypath": {
+      "from": [
+        -112.625,
+        -21.4901180267334,
+        0.7599999904632568
+      ],
+      "to": [
+        -112.625,
+        -9.890118598937988,
+        1.8899999856948853
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_low_clearance": {
+      "from": [
+        -112.625,
+        -21.4901180267334,
+        0.05000000074505806
+      ],
+      "to": [
+        -112.625,
+        -9.890118598937988,
+        1.190000057220459
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296"
+}
