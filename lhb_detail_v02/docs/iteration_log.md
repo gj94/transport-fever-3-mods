@@ -50,3 +50,11 @@ Completed and inspected current1400×840 uniform512 corridor pixels. Repeated pa
 ## Current-source final 3A exterior, 8 October 2026 00:08 UTC
 
 Actual1400×840 uniform512 exterior completed in619.8seconds. Nine saloon windows,3A identity, roof-end HVAC, livery transitions, bogies and equipment are visually coherent; no new visible defect. Six core frames now complete. Parent approved adding the existing3A bay camera as a21st final, after core views, because the corridor image does not show the berth faces clearly. Renderer and geometry remain unchanged; only supervisor queue changes. 2A interior is active.
+
+## Current-source final 2A interior, 8 October 2026 00:35 UTC
+
+Completed1400×840 uniform512 in1429.8seconds after recovering a transport interruption. Actual pixels inspected: corridor/ladder/partition rhythm and cushions remain coherent without newly observed geometry defect. This narrow camera remains layout proof and is not a strong inspection of berth faces. Source/renderer unchanged. Exterior is active; seven of21approved finals complete.
+
+## Current-source final 2A exterior and recovery, 8 October 2026 01:00 UTC
+
+Completed1400×840 uniform512 exterior inspected after environment replacement. Nine saloon windows,2A markings, shell/crown, HVAC, doors and underframe remain coherent; no newly visible defect. Eight current-source final frames now verified. Previous renderer session was lost during SL first batch; completed1A,CC,3A,2A pairs remain intact. Resumed gallery from actual completed hashes, preserving all finished frames and restarting only interrupted SL batch. Continue21-view gallery past requested minimum01:00UTC window.

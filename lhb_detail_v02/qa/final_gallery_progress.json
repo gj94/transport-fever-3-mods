@@ -39,18 +39,18 @@
     {
       "variant": "3A",
       "view": "exterior"
+    },
+    {
+      "variant": "2A",
+      "view": "interior"
+    },
+    {
+      "variant": "2A",
+      "view": "exterior"
     }
   ],
   "pending": [
     {
-      "variant": "2A",
-      "view": "interior"
-    },
-    {
-      "variant": "2A",
-      "view": "exterior"
-    },
-    {
       "variant": "SL",
       "view": "interior"
     },
@@ -73,6 +73,10 @@
     {
       "variant": "GS",
       "view": "exterior"
+    },
+    {
+      "variant": "3A",
+      "view": "bay"
     },
     {
       "variant": "CC",
@@ -100,7 +104,7 @@
     }
   ],
   "active": {
-    "variant": "2A",
+    "variant": "SL",
     "view": "interior"
   }
 }
