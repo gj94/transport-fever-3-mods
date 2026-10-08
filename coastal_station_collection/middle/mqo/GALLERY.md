@@ -1,6 +1,6 @@
 # MQO station gallery
 
-Passed independent station review with disclosed reconstruction limits. Full source, lossless export and five final previews are synchronized.
+Correction in progress: exact published geometry has an approximately 0.702 m final step from both footbridge stair approaches onto the deck. The earlier independent acceptance has been superseded by a targeted follow-up. The original source/export bytes remain available as a documented checkpoint; a corrected replacement is pending. [Full notice](REVIEW_NOTICE.md).
 
 Actual-model previews with accepted image hashes. Hidden interiors and unsurveyed details are reconstructions; read [sources and limitations](SOURCES_AND_UNCERTAINTIES.md). [Opening the model](README.md).
 
