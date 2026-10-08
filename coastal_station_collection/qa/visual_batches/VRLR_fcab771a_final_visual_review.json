@@ -1,0 +1,60 @@
+{
+  "station": "VRLR",
+  "reviewed_utc": "2026-10-08T21:52:50Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "53f602f252fd02560da9349bfb31b53b12d92b0037b878b64e09ea0c04890254",
+      "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "inheritance_basis": null
+    },
+    "02_OPEN_SHELTER_ARCHITECTURE.png": {
+      "image_sha256": "5dff3b5eab250406ef75e67672a90f94673cf6b8ae798ce4952cb832703cfb03",
+      "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "2b137997d61835efbd1f99cf7db58630a71ab9f92695ae7689f074f4a7d8bfe2",
+      "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "inheritance_basis": null
+    },
+    "04_COVERED_WAITING_DETAIL.png": {
+      "image_sha256": "ddc65cabeb5e7a21b87b579035619001aeb6995ddd0bfa7be31622cd19387f3d",
+      "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "inheritance_basis": null
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "b241909a670037fd20b64973cc7b34e66741e8b0156788d5008c79b3cd29e16c",
+      "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "inheritance_basis": null
+    }
+  },
+  "prior_review_reports": [
+    "VRLR_fcab771a_partial_visual_review.json"
+  ],
+  "observations": [
+    "New05 gives useful rail/platform-edge detail; all five current images now pass visually.",
+    "Open shelters and modest reconstructed amenities remain appropriate; two-built-platform/operating-status uncertainty preserved."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

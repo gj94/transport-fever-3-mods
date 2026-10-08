@@ -1,0 +1,128 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/vrlr/VRLR_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 887,
+  "object_types": {
+    "MESH": 852,
+    "FONT": 28,
+    "LIGHT": 2,
+    "CAMERA": 5
+  },
+  "unique_meshes": 852,
+  "unique_vertices": 459141,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -71.15008544921875,
+      -0.550000011920929
+    ],
+    [
+      895.0,
+      165.41827392578125,
+      21.8023681640625
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "VRLR",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_OPEN_SHELTER_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_COVERED_WAITING_DETAIL",
+    "05_TRACK_AND_PLATFORM_DETAIL"
+  ],
+  "circulation_rays": {
+    "bridge_1_upper_mouth": {
+      "from": [
+        -67.0,
+        2.0618698596954346,
+        9.050000190734863
+      ],
+      "to": [
+        -70.0,
+        2.0618698596954346,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_1_toe": {
+      "from": [
+        -54.125,
+        2.0618698596954346,
+        2.450000047683716
+      ],
+      "to": [
+        -55.525001525878906,
+        2.0618698596954346,
+        2.450000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_2_upper_mouth": {
+      "from": [
+        -67.0,
+        22.764253616333008,
+        9.050000190734863
+      ],
+      "to": [
+        -70.0,
+        22.764253616333008,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_2_toe": {
+      "from": [
+        -54.125,
+        22.764253616333008,
+        2.450000047683716
+      ],
+      "to": [
+        -55.525001525878906,
+        22.764253616333008,
+        2.450000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5"
+}

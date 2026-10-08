@@ -1,0 +1,878 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/HAD/HAD_coastal_station_v03.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 127,
+  "object_types": {
+    "MESH": 85,
+    "CURVE": 26,
+    "FONT": 8,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 85,
+  "unique_vertices": 968619,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.351614952087402
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f722563e560>",
+    "station_code": "HAD",
+    "station_name": "Haripad",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform_height0.3": {
+      "from": [
+        -12.949999809265137,
+        -0.012981315143406391,
+        1.7999999523162842
+      ],
+      "to": [
+        6.050000190734863,
+        -0.012981315143406391,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height0.8": {
+      "from": [
+        -12.949999809265137,
+        -0.012981315143406391,
+        2.299999952316284
+      ],
+      "to": [
+        6.050000190734863,
+        -0.012981315143406391,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height1.7": {
+      "from": [
+        -12.949999809265137,
+        -0.012981315143406391,
+        3.200000047683716
+      ],
+      "to": [
+        6.050000190734863,
+        -0.012981315143406391,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6_height0.35": {
+      "from": [
+        8.052783012390137,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        8.052783012390137,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6_height0.9": {
+      "from": [
+        8.052783012390137,
+        48.537017822265625,
+        2.3499999046325684
+      ],
+      "to": [
+        8.052783012390137,
+        63.73701858520508,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6_height1.7": {
+      "from": [
+        8.052783012390137,
+        48.537017822265625,
+        3.1500000953674316
+      ],
+      "to": [
+        8.052783012390137,
+        63.73701858520508,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_height0.35": {
+      "from": [
+        8.652783393859863,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        8.652783393859863,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_height0.9": {
+      "from": [
+        8.652783393859863,
+        48.537017822265625,
+        2.3499999046325684
+      ],
+      "to": [
+        8.652783393859863,
+        63.73701858520508,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_height1.7": {
+      "from": [
+        8.652783393859863,
+        48.537017822265625,
+        3.1500000953674316
+      ],
+      "to": [
+        8.652783393859863,
+        63.73701858520508,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_transition0.35": {
+      "from": [
+        8.652783393859863,
+        63.68701934814453,
+        9.050000190734863
+      ],
+      "to": [
+        8.652783393859863,
+        64.53701782226562,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_transition0.9": {
+      "from": [
+        8.652783393859863,
+        63.68701934814453,
+        9.600000381469727
+      ],
+      "to": [
+        8.652783393859863,
+        64.53701782226562,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_transition1.7": {
+      "from": [
+        8.652783393859863,
+        63.68701934814453,
+        10.399999618530273
+      ],
+      "to": [
+        8.652783393859863,
+        64.53701782226562,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_bridge_head_body1_offset0_-0.05": {
+      "from": [
+        8.652783393859863,
+        63.68701934814453,
+        9.0
+      ],
+      "to": [
+        8.652783393859863,
+        63.68701934814453,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        8.652783393859863,
+        63.68701934814453,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_bridge_head_body1_offset0_0.05": {
+      "from": [
+        8.652783393859863,
+        63.787017822265625,
+        9.0
+      ],
+      "to": [
+        8.652783393859863,
+        63.787017822265625,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        8.652783393859863,
+        63.787017822265625,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "bridge_head_body1_offset0.6_height0.35": {
+      "from": [
+        9.252782821655273,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        9.252782821655273,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0.6_height0.9": {
+      "from": [
+        9.252782821655273,
+        48.537017822265625,
+        2.3499999046325684
+      ],
+      "to": [
+        9.252782821655273,
+        63.73701858520508,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0.6_height1.7": {
+      "from": [
+        9.252782821655273,
+        48.537017822265625,
+        3.1500000953674316
+      ],
+      "to": [
+        9.252782821655273,
+        63.73701858520508,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6_height0.35": {
+      "from": [
+        36.63913345336914,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        36.63913345336914,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6_height0.9": {
+      "from": [
+        36.63913345336914,
+        48.537017822265625,
+        2.3499999046325684
+      ],
+      "to": [
+        36.63913345336914,
+        63.73701858520508,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6_height1.7": {
+      "from": [
+        36.63913345336914,
+        48.537017822265625,
+        3.1500000953674316
+      ],
+      "to": [
+        36.63913345336914,
+        63.73701858520508,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_height0.35": {
+      "from": [
+        37.239131927490234,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        37.239131927490234,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_height0.9": {
+      "from": [
+        37.239131927490234,
+        48.537017822265625,
+        2.3499999046325684
+      ],
+      "to": [
+        37.239131927490234,
+        63.73701858520508,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_height1.7": {
+      "from": [
+        37.239131927490234,
+        48.537017822265625,
+        3.1500000953674316
+      ],
+      "to": [
+        37.239131927490234,
+        63.73701858520508,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_transition0.35": {
+      "from": [
+        37.239131927490234,
+        63.68701934814453,
+        9.050000190734863
+      ],
+      "to": [
+        37.239131927490234,
+        64.53701782226562,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_transition0.9": {
+      "from": [
+        37.239131927490234,
+        63.68701934814453,
+        9.600000381469727
+      ],
+      "to": [
+        37.239131927490234,
+        64.53701782226562,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_transition1.7": {
+      "from": [
+        37.239131927490234,
+        63.68701934814453,
+        10.399999618530273
+      ],
+      "to": [
+        37.239131927490234,
+        64.53701782226562,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_bridge_head_body2_offset0_-0.05": {
+      "from": [
+        37.239131927490234,
+        63.68701934814453,
+        9.0
+      ],
+      "to": [
+        37.239131927490234,
+        63.68701934814453,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        37.239131927490234,
+        63.68701934814453,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_bridge_head_body2_offset0_0.05": {
+      "from": [
+        37.239131927490234,
+        63.787017822265625,
+        9.0
+      ],
+      "to": [
+        37.239131927490234,
+        63.787017822265625,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        37.239131927490234,
+        63.787017822265625,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "bridge_head_body2_offset0.6_height0.35": {
+      "from": [
+        37.839134216308594,
+        48.537017822265625,
+        1.7999999523162842
+      ],
+      "to": [
+        37.839134216308594,
+        63.73701858520508,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0.6_height0.9": {
+      "from": [
+        37.839134216308594,
+        48.537017822265625,
+        2.3499999046325684
+      ],
+      "to": [
+        37.839134216308594,
+        63.73701858520508,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0.6_height1.7": {
+      "from": [
+        37.839134216308594,
+        48.537017822265625,
+        3.1500000953674316
+      ],
+      "to": [
+        37.839134216308594,
+        63.73701858520508,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        -10.149999618530273,
+        30.987018585205078,
+        0.30000001192092896
+      ],
+      "to": [
+        -10.149999618530273,
+        13.587018966674805,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        -10.149999618530273,
+        13.587018966674805,
+        1.75
+      ],
+      "to": [
+        -10.149999618530273,
+        -0.012981315143406391,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        -10.149999618530273,
+        30.987018585205078,
+        0.800000011920929
+      ],
+      "to": [
+        -10.149999618530273,
+        13.587018966674805,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        -10.149999618530273,
+        13.587018966674805,
+        2.25
+      ],
+      "to": [
+        -10.149999618530273,
+        -0.012981315143406391,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -10.149999618530273,
+        30.987018585205078,
+        1.7000000476837158
+      ],
+      "to": [
+        -10.149999618530273,
+        13.587018966674805,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        -10.149999618530273,
+        13.587018966674805,
+        3.1500000953674316
+      ],
+      "to": [
+        -10.149999618530273,
+        -0.012981315143406391,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_13.6": {
+      "from": [
+        -10.149999618530273,
+        13.587018966674805,
+        1.7000000476837158
+      ],
+      "to": [
+        -10.149999618530273,
+        13.587018966674805,
+        0.949999988079071
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -10.149999618530273,
+        13.587018966674805,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        -0.08304549753665924,
+        -0.9965457916259766
+      ]
+    },
+    "floor_ramp_22.299999999999997": {
+      "from": [
+        -10.149999618530273,
+        22.287017822265625,
+        0.9750000238418579
+      ],
+      "to": [
+        -10.149999618530273,
+        22.287017822265625,
+        0.22499999403953552
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -10.149999618530273,
+        22.287017822265625,
+        0.7250000834465027
+      ],
+      "hit_normal": [
+        0.0,
+        -0.08304549753665924,
+        -0.9965457916259766
+      ]
+    },
+    "floor_ramp_31.0": {
+      "from": [
+        -10.149999618530273,
+        30.987018585205078,
+        0.25
+      ],
+      "to": [
+        -10.149999618530273,
+        30.987018585205078,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "08 | Surroundings and approach context / stone",
+      "hit_location": [
+        -10.149999618530273,
+        30.987018585205078,
+        0.06499999761581421
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-9.05": {
+      "from": [
+        -9.050000190734863,
+        -0.012981315143406391,
+        1.7000000476837158
+      ],
+      "to": [
+        -9.050000190734863,
+        -0.012981315143406391,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Haripad photographed architecture / stone",
+      "hit_location": [
+        -9.050000190734863,
+        -0.012981315143406391,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-8.850000000000001": {
+      "from": [
+        -8.850000381469727,
+        -0.012981315143406391,
+        1.7000000476837158
+      ],
+      "to": [
+        -8.850000381469727,
+        -0.012981315143406391,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Haripad photographed architecture / stone",
+      "hit_location": [
+        -8.850000381469727,
+        -0.012981315143406391,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_3.9499999999999993": {
+      "from": [
+        3.950000047683716,
+        -0.012981315143406391,
+        1.7000000476837158
+      ],
+      "to": [
+        3.950000047683716,
+        -0.012981315143406391,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Haripad photographed architecture / stone",
+      "hit_location": [
+        3.950000047683716,
+        -0.012981315143406391,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_4.149999999999999": {
+      "from": [
+        4.150000095367432,
+        -0.012981315143406391,
+        1.7000000476837158
+      ],
+      "to": [
+        4.150000095367432,
+        -0.012981315143406391,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Haripad photographed architecture / stone",
+      "hit_location": [
+        4.150000095367432,
+        -0.012981315143406391,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8"
+}

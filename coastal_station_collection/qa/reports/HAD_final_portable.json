@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/HAD/exports/HAD_coastal_station_v03.glb",
+    "bytes": 87005836,
+    "errors": [],
+    "warnings": [],
+    "sha256": "09c78597c54914c9aa0a7eeb2b4458d6351f045ce600c3aff66ec0bb01e274e6",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 87005836
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 91704
+      },
+      {
+        "type": 5130562,
+        "bytes": 86914104
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 119,
+    "mesh_count": 119,
+    "primitive_count": 119,
+    "vertex_reference_count": 2891346,
+    "accessor_count": 354,
+    "validated_accessor_count": 354,
+    "material_count": 26,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]
