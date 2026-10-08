@@ -82,6 +82,7 @@ for o in list(s.objects):
 heads=unary_union([r['rail'].buffer(.0325,cap_style='flat',join_style='mitre') for r in records]).difference(channel).intersection(region)
 webs=unary_union([r['rail'].buffer(.008,cap_style='flat',join_style='mitre') for r in records]).difference(channel).intersection(region)
 feet=unary_union([r['rail'].buffer(.075,cap_style='flat',join_style='mitre') for r in records]).intersection(region)
+assert heads.is_valid and not heads.is_empty, 'Compound rail union failed'
 make('Compound unioned running rail heads with46mm channels',heads,.46,.5,HEAD);make('Compound unioned rail webs',webs,.372,.472,RUST);make('Compound unioned rail feet',feet,.3525,.3775,RUST)
 # Opposite guard rails around actual intersection points, separate from the running lines.
 guards=[];intersections=[]
@@ -97,7 +98,7 @@ for i,a in enumerate(records):
     d=r['centre'].project(p);part=substring(r['centre'],max(0,d-2),min(r['centre'].length,d+2))
     if part.geom_type!='LineString':continue
     guard=part.offset_curve(-r['side']*.7595,join_style='mitre').buffer(.0325,cap_style='flat',join_style='mitre');guards.append(guard)
-if guards:make('Compound opposite checkrail heads',unary_union(guards).difference(channel).difference(heads.buffer(.002)).intersection(region),.445,.498,RUST)
+if guards:make('Compound opposite checkrail heads',unary_union(guards).difference(channel).difference(heads.buffer(.002)).intersection(region),.3775,.498,RUST)
 make('Compound continuous granite ballast support',beds,-.06,.211,BALL)
 # A single aligned bearer field per connected fan. Intersections produce no overlapping old ties.
 newties=[];tieaxes=[]

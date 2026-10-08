@@ -83,5 +83,6 @@ for leg in legs:leg['min_euclidean_centreline_clearance_m']=min(distseg((leg['x'
 #mast assemblies outward until Euclidean centreline clearance is at least3.0m.
 #Portal grids follow X; end legs normally exceed3m in the station, steeper approaches flagged.
 report={'support_assemblies':supports,'portal_legs':legs,'minimum_clearance_m':min(l['min_euclidean_centreline_clearance_m'] for l in legs),'flags_below_2_4m':[l for l in legs if l['min_euclidean_centreline_clearance_m']<2.4],'electrical_certification':False}
+assert not report['flags_below_2_4m'], 'OHE footings still conflict with mapped tracks'
 (R/'QA_OHE_CLEARANCE.json').write_text(json.dumps(report,indent=2));s['OHE_supports']='Portal-aligned connected suspension/brackets; legs outside route groups, geometric clearance report included.'
 bpy.ops.wm.save_as_mainfile(filepath=str(R/'NCJ_full_station_v02.blend'),compress=True);print('OHE_REPAIR_SAVED',supports,report['minimum_clearance_m'],flush=True)

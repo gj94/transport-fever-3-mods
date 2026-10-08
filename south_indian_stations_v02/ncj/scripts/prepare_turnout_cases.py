@@ -40,7 +40,25 @@ for n,neighbors in adj.items():
  if Y>0:V=(-V[0],-V[1]);Y=-Y
  stem=vecs[k];LO=-min(8,max(2,math.hypot(*stem)-1));vmin=Y-1.45;vmax=1.45
  poly=[(p[0]+U[0]*u+V[0]*v,p[1]+U[1]*u+V[1]*v) for u,v in [(LO,vmin),(L,vmin),(L,vmax),(LO,vmax)]]
- cases.append({'node':n,'position':p,'ways':sorted(use[n]),'U':U,'V':V,'closure_endpoint':q,'L':L,'Y':Y,'LO':LO,'poly':poly,'straight_neighbor':pos[bs[st]],'angle_deg':angle,'common_y_slope':dot(unit(stem),V)/dot(unit(stem),U)})
+ profile=[(LO,LO*(dot(unit(stem),V)/dot(unit(stem),U))),(0,0)];last=n;curr=bs[st]
+ while True:
+  rel=sub(pos[curr],p);uu,vv=dot(rel,U),dot(rel,V);profile.append((uu,vv))
+  if uu>=L or len(adj[curr])!=2:break
+  nxt=next(v for v in adj[curr] if v!=last);last,curr=curr,nxt
+ if profile[-1][0]>L:
+  a0,b0=profile[-2],profile[-1];profile[-1]=(L,a0[1]+(L-a0[0])/(b0[0]-a0[0])*(b0[1]-a0[1]))
+ vmin=min(Y,min(v for u,v in profile))-1.45;vmax=max(0,max(v for u,v in profile))+1.45
+ poly=[(p[0]+U[0]*u+V[0]*v,p[1]+U[1]*u+V[1]*v) for u,v in [(LO,vmin),(L,vmin),(L,vmax),(LO,vmax)]]
+ endsl=Y/L;best=1e9
+ for an,others in adj.items():
+  for bn in others:
+   ap,bp=pos[an],pos[bn];d=sub(bp,ap);den=dot(d,d)
+   if den<1e-6:continue
+   t=max(0,min(1,dot(sub(q,ap),d)/den));near=(ap[0]+t*d[0],ap[1]+t*d[1]);dd=math.dist(q,near)
+   if dd<best-1e-6 or (abs(dd-best)<1e-6 and dot(sub(bp,q),U)>0):
+    du=dot(d,U)
+    if abs(du)>.01:best=dd;endsl=dot(d,V)/du
+ cases.append({'node':n,'position':p,'ways':sorted(use[n]),'U':U,'V':V,'closure_endpoint':q,'L':L,'Y':Y,'LO':LO,'poly':poly,'straight_neighbor':pos[bs[st]],'angle_deg':angle,'common_y_slope':dot(unit(stem),V)/dot(unit(stem),U),'main_profile':profile,'end_slope':endsl})
 def overlap(a,b):
  for poly in [a,b]:
   for p,q in zip(poly,poly[1:]+poly[:1]):

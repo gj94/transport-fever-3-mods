@@ -6,6 +6,8 @@ s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.use_denoising=False;s.rend
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 quick='quick' in args;s.cycles.samples=12 if quick else 96;s.render.resolution_x=1000 if quick else 1400;s.render.resolution_y=650 if quick else 900
 names=[a for a in args if a!='quick']
+if (R/'HOLD_FINAL_REVIEW').exists() and not set(names).issubset({'02','17','18','19'}):
+ print('Review hold: later final renders deferred.');sys.exit(0)
 for c in sorted([o for o in s.objects if o.type=='CAMERA'],key=lambda x:x.name):
  if names and not any(c.name.startswith(a) for a in names):continue
  
