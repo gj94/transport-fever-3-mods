@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen corrected-stair source and verified lossless export checkpoint; final independent technical release gate is pending.
+Passed the full independent station gate, including equal repaired stair rises, transformed-export body paths and all five accepted preview lineages. Reconstruction limits remain explicit.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.

@@ -1,0 +1,22 @@
+{
+  "station": "AMVA",
+  "layout_sha256": "b2081a3ade8d106aca2e0a4caf76453a4915d75ae20e0eb8e38c9375bd80495b",
+  "platform_mesh_sha256": "59f612ee316756d81fffb4890882820a9d2cdfc00389e2e842c1b570923f1873",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 1396.9735864708528,
+      "railcenter_min_m": 1.9999995039856537,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 6.799999999999999,
+  "reported_faces": "1",
+  "modeled_bodies": 1,
+  "route_piece_ids": [
+    "31546483"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

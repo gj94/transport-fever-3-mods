@@ -1,0 +1,24 @@
+{
+  "station": "KZTW",
+  "layout_sha256": "8e1dfb75358b2f422fe8c0f95e9048df075f3dc31e4fa1694b7b80ce4dec1d94",
+  "platform_mesh_sha256": "4ed7ec9487ffa1841cd3c22dd900acc20a059fd6e54cbc2e7142170314ac8522",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 1581.2892512455885,
+      "railcenter_min_m": 1.9999995664320611,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 6.799999999999999,
+  "reported_faces": "1",
+  "modeled_bodies": 1,
+  "route_piece_ids": [
+    "547346150",
+    "547434722",
+    "547434723"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

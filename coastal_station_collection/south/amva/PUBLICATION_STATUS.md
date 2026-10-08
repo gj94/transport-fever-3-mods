@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen source and verified lossless export checkpoint, with reconstructed WC access link documented. Final independent technical release gate is pending.
+Passed the full independent station gate, including the continuous reconstructed WC approach and transformed-export body paths. All five previews retain their exact declared source lineage.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.

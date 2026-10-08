@@ -1,0 +1,125 @@
+{
+  "station": "PYD",
+  "reviewed_utc": "2026-10-08T20:37:29Z",
+  "status": "five_view_visual_source_pass_export_and_technical_gate_pending",
+  "current_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "97ee6586ab03c4e038057efa87bd01a4465c9e286f3face9d90a9f9308f7e900",
+      "recorded_provenance": {
+        "source_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+        "file_sha256": "97ee6586ab03c4e038057efa87bd01a4465c9e286f3face9d90a9f9308f7e900",
+        "camera": "01_FULL_STATION_NETWORK",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "resolution": [
+          1600,
+          900
+        ],
+        "seconds": 11.5,
+        "camera_override": null
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "566faa28ec73275759e5982540a90caa878a9b16f3d7081f035c45ac193f3ce4",
+      "recorded_provenance": {
+        "source_scene_sha256": "ef6ff6da192bfb369ec836c644d08ca7f5549751f5ffb5903d203e4bbf6e8f59",
+        "file_sha256": "566faa28ec73275759e5982540a90caa878a9b16f3d7081f035c45ac193f3ce4",
+        "camera": "02_STATION_ARCHITECTURE",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "resolution": [
+          1600,
+          900
+        ],
+        "seconds": 18.04,
+        "camera_override": null,
+        "unchanged_view_verified": true,
+        "current_source_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+        "inheritance_basis": "Changed stair AABB entirely outside recorded camera frustum; no other geometry or material edits"
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "b13dacf1880fafcbffb848a20aff087d2bcf29bb3ad8a6dd6a12baa03f700e2d",
+      "recorded_provenance": {
+        "source_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+        "file_sha256": "b13dacf1880fafcbffb848a20aff087d2bcf29bb3ad8a6dd6a12baa03f700e2d",
+        "camera": "03_PLATFORM_AND_TRACKS",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "resolution": [
+          1600,
+          900
+        ],
+        "seconds": 15.58,
+        "camera_override": {
+          "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+          "location": [
+            -180.04150390625,
+            12.767202377319336,
+            3.4000000953674316
+          ],
+          "target": [
+            19.958494216384224,
+            12.524534216721715,
+            2.1
+          ],
+          "lens_mm": 30
+        }
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "7f54376178ed10aff5985c9e88c8af1569d1c17667f80b5e81e3ee59482eec3a",
+      "recorded_provenance": {
+        "source_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+        "file_sha256": "7f54376178ed10aff5985c9e88c8af1569d1c17667f80b5e81e3ee59482eec3a",
+        "camera": "04_FURNISHED_INTERIOR",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "resolution": [
+          1600,
+          900
+        ],
+        "seconds": 30.28,
+        "camera_override": null
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "6e1b8424350d3acb0055ba33bf750547a7523ff4ad861afc7ed78351c928fce7",
+      "recorded_provenance": {
+        "source_scene_sha256": "ef6ff6da192bfb369ec836c644d08ca7f5549751f5ffb5903d203e4bbf6e8f59",
+        "file_sha256": "6e1b8424350d3acb0055ba33bf750547a7523ff4ad861afc7ed78351c928fce7",
+        "camera": "05_TRACK_AND_PLATFORM_DETAIL",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "resolution": [
+          1600,
+          900
+        ],
+        "seconds": 20.17,
+        "camera_override": null,
+        "unchanged_view_verified": true,
+        "current_source_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+        "inheritance_basis": "Changed stair AABB entirely outside recorded camera frustum; no other geometry or material edits"
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "minimum_corrections": [],
+  "source_review": "Actual source screenshots independently inspected earlier and recorded in PYD_candidate_visual_review.json; source unchanged.",
+  "limits": [
+    "Final export/resource/geometry gate belongs to technical auditor.",
+    "No current operational-inventory claim from dated photographs."
+  ],
+  "resolved_findings": [
+    "Updated01/03/04 preserve coherent small hut/canopy/interior; changed stair remains technical scope.",
+    "Retained02/05 have unchanged bytes and explicit out-of-frustum changed-stair inheritance."
+  ],
+  "nonblocking_notes": [
+    "05 near-pole framing remains optional and does not reopen source-fidelity pass."
+  ]
+}

@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen source and verified lossless export checkpoint; final independent technical release gate is pending.
+Passed the full independent station gate, including transformed-export body paths and all five preview lineages. Procedural Blender materials remain authoritative in the packed source.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.

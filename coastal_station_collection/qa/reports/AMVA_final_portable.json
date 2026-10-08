@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/amva/exchange/AMVA_portable_GLTF.zip!AMVA_station_v01.glb",
+    "bytes": 19650656,
+    "errors": [],
+    "warnings": [],
+    "sha256": "e713b6fccb5b5869bc6a62d594a0523e69f0688e97a3310b693e4714b27b8686",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 19650656
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 473956
+      },
+      {
+        "type": 5130562,
+        "bytes": 19176672
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 746,
+    "mesh_count": 746,
+    "primitive_count": 746,
+    "vertex_reference_count": 656054,
+    "accessor_count": 1595,
+    "validated_accessor_count": 1595,
+    "material_count": 20,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "58592526a3b5418d842d89ca631bb12b061613f08dec3203426a42fc4ed359ea",
+    "container_bytes": 2787076
+  }
+]
