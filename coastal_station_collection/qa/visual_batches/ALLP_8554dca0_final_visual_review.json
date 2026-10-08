@@ -1,0 +1,134 @@
+{
+  "station": "ALLP",
+  "reviewed_utc": "2026-10-08T20:29:40Z",
+  "status": "frozen_five_view_visual_source_pass",
+  "final_scene_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "d5411622e9a878ba055fd29d5a806ba07d249b6a479db32494ac270e70c9ace4",
+      "provenance_sha256": "d5411622e9a878ba055fd29d5a806ba07d249b6a479db32494ac270e70c9ace4",
+      "source_scene_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "visual_status": "pass"
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "c343efc7b0bc79d8aac911d3d791ac8576041121ad2a15bc8c27f02d809c86d2",
+      "provenance_sha256": "c343efc7b0bc79d8aac911d3d791ac8576041121ad2a15bc8c27f02d809c86d2",
+      "source_scene_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "8a48c523b3bfbbb6f0b77871a120a424132c80720c86097b73f767591680fb32",
+      "provenance_sha256": "8a48c523b3bfbbb6f0b77871a120a424132c80720c86097b73f767591680fb32",
+      "source_scene_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "visual_status": "pass"
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "17ffefea9ddf90e9cfd35a6c3549b9951c09d13701ba41217f21caea82e6418a",
+      "provenance_sha256": "17ffefea9ddf90e9cfd35a6c3549b9951c09d13701ba41217f21caea82e6418a",
+      "source_scene_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "34051569e7418f8073f04ae780e65b21e0918540b6688b9f1d7dacfafee20c1d",
+      "provenance_sha256": "34051569e7418f8073f04ae780e65b21e0918540b6688b9f1d7dacfafee20c1d",
+      "source_scene_sha256": "b7b54bdc2b8463cea5a539938c26b4067264fe9d14b425e3ed216f6d83082c0f",
+      "retained_for_final_blend_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision contains the explicitly recorded facade refinement: Upper station-name panel moved clear of projecting slab; two screened bays replace generic panes with perforated geometry. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+        "original_image_sha256": "34051569e7418f8073f04ae780e65b21e0918540b6688b9f1d7dacfafee20c1d",
+        "related_patch_chain": {
+          "facade_refinement": {
+            "source_blend_sha256": "b7b54bdc2b8463cea5a539938c26b4067264fe9d14b425e3ed216f6d83082c0f",
+            "source_blend_file": "ALLP_coastal_station_v01.blend",
+            "details": "Upper station-name panel moved clear of projecting slab; two screened bays replace generic panes with perforated geometry.",
+            "changed_existing_objects": [
+              {
+                "object": "Alappuzha raised-name panel",
+                "translation_x": 0.45
+              },
+              {
+                "object": "04 | Alappuzha photographed architecture / ivory",
+                "removed_screen_bay_vertices": 576
+              },
+              {
+                "object": "04 | Alappuzha photographed architecture / glass",
+                "removed_screen_bay_vertices": 16
+              },
+              {
+                "object": "04 | Alappuzha photographed architecture / wood",
+                "removed_screen_bay_vertices": 112
+              },
+              {
+                "object": "04 | Alappuzha photographed architecture / dark",
+                "removed_screen_bay_vertices": 64
+              }
+            ],
+            "all_other_geometry_unchanged": true,
+            "script_sha256": "b1f87bd5e1f4f510d6831392a8a97f6015ceb367ff23a84f4b8db4a9cd7a312e"
+          }
+        }
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "visual_status": "pass"
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/ALLP_main_facade_2020-02.png",
+      "sha256": "b8069488aa28d1c8dedfd5015be5d61efe0ed2d450dc134b7e9b881cd9897c0c",
+      "actual_full_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/ALLP_concourse_2022-03.png",
+      "sha256": "bad80d55f0d1113db01f8b231349b9258accf936c5de9b8c76a8c80a6c511056",
+      "actual_full_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/ALLP_platform_canopy_2025-10.png",
+      "sha256": "815f44313727bddb8d840109cddaadd37fa1ff53da0a6a32435576c94ccbc3ee",
+      "actual_full_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/ALLP_aux_building_2024-03.png",
+      "sha256": "240fa5a5c2aa0a0b26d3a9a43cc39c9954478696a77379b5bba878478504f595",
+      "actual_full_pixels_inspected": true
+    }
+  ],
+  "manifest_path": "coastal_stations_overnight/north/ALLP/MANIFEST.json",
+  "manifest_sha256": "24231eefeaec42aeada19c35bd560962e660fe6c9409c2eb79658f961892fbdf",
+  "observations": [
+    "Fresh final contact sheet reviewed for all five exact images; targeted revised02/04 inspected at full delivered size.",
+    "Requested source-identity and legibility corrections resolved; no new blocking visual defects.",
+    "Waiting seats, furnished ticket room and useful overall/platform/pointwork coverage present.",
+    "Retained images keep original source hashes with explicit final-subject declarations."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Unseen dimensions, room plans, exact wing/panel placement and fittings are disclosed reconstruction.",
+    "Technical auditor retains geometry, resource and final publication gate."
+  ],
+  "resolved_findings": [
+    "Upper name face readable.",
+    "Cream screen bays replace overlapping generic front panes.",
+    "04 waiting seating and ticket-room frame useful."
+  ],
+  "dated_caveat": "Bare upper roof framework is explicitly aFeb2020 facade interpretation, not a present-day uncovered-roof claim. Reconstructed ticket room is not claimed to reproduce photographed2022 public concourse."
+}

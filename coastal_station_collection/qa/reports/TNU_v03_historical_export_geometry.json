@@ -1,0 +1,251 @@
+{
+  "asset": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.glb",
+  "export_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+  "container_sha256": null,
+  "default_scene": "HISTORIC_2016_BUILDING__UNPLACED",
+  "scene_count": 1,
+  "objects": 16,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "historical_public_-0.3_0.45": {
+      "from": [
+        -0.3,
+        -4.5,
+        0.65
+      ],
+      "to": [
+        -0.3,
+        3.3,
+        0.65
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0_0.45": {
+      "from": [
+        0.0,
+        -4.5,
+        0.65
+      ],
+      "to": [
+        0.0,
+        3.3,
+        0.65
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0.3_0.45": {
+      "from": [
+        0.3,
+        -4.5,
+        0.65
+      ],
+      "to": [
+        0.3,
+        3.3,
+        0.65
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_-0.3_0.9": {
+      "from": [
+        -0.3,
+        -4.5,
+        1.1
+      ],
+      "to": [
+        -0.3,
+        3.3,
+        1.1
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0_0.9": {
+      "from": [
+        0.0,
+        -4.5,
+        1.1
+      ],
+      "to": [
+        0.0,
+        3.3,
+        1.1
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0.3_0.9": {
+      "from": [
+        0.3,
+        -4.5,
+        1.1
+      ],
+      "to": [
+        0.3,
+        3.3,
+        1.1
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_-0.3_1.7": {
+      "from": [
+        -0.3,
+        -4.5,
+        1.9
+      ],
+      "to": [
+        -0.3,
+        3.3,
+        1.9
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0_1.7": {
+      "from": [
+        0.0,
+        -4.5,
+        1.9
+      ],
+      "to": [
+        0.0,
+        3.3,
+        1.9
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0.3_1.7": {
+      "from": [
+        0.3,
+        -4.5,
+        1.9
+      ],
+      "to": [
+        0.3,
+        3.3,
+        1.9
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_-3.6": {
+      "from": [
+        0.0,
+        -3.6,
+        0.5
+      ],
+      "to": [
+        0.0,
+        -3.6,
+        -0.2
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        -3.6,
+        0.0
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_-3.2": {
+      "from": [
+        0.0,
+        -3.2,
+        0.5
+      ],
+      "to": [
+        0.0,
+        -3.2,
+        -0.2
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        -3.2,
+        0.20000000298023224
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_0": {
+      "from": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "to": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        0.0,
+        0.20000000298023224
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_3.2": {
+      "from": [
+        0.0,
+        3.2,
+        0.5
+      ],
+      "to": [
+        0.0,
+        3.2,
+        -0.2
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        3.2,
+        0.20000000298023224
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  }
+}

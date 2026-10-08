@@ -1,0 +1,31 @@
+{
+  "file": "renders/M2_Closed_site_context.png",
+  "camera": "M2_Closed_site_context",
+  "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "image_sha256": "c27f2da2cf8b604708de2c6c0ec6394604692fb3fc0cf8436ccb0f31fd0b6e3b",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 19.7,
+  "samples": 48,
+  "denoising": false,
+  "resolution": [
+    1280,
+    854
+  ],
+  "camera_override": {
+    "reason": "Read-only framing includes the full closed-site interpretation label and mapped rail corridor.",
+    "position": [
+      15.0,
+      -52.0,
+      12.0
+    ],
+    "rotation": [
+      1.3845198154449463,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 25
+  },
+  "historical_unplaced": false,
+  "status": "Station closed July2017; historical building study is unplaced, mapped corridor does not establish surviving station remnants."
+}

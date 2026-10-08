@@ -1,0 +1,73 @@
+{
+  "station": "TNU",
+  "reviewed_utc": "2026-10-08T20:23:28Z",
+  "status": "frozen_five_view_visual_source_pass",
+  "frame": {
+    "path": "coastal_stations_overnight/north/TNU/renders/H1_Historical_2016_facade.png",
+    "image_sha256": "1c7af30bf9afa0769142ef5ee930310d468bffde93efdc3228ed969a52b46696",
+    "source_scene_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+    "scene": "HISTORIC_2016_BUILDING__UNPLACED",
+    "actual_full_pixels_inspected": true
+  },
+  "source": {
+    "path": "coastal_stations_overnight/research/screenshots/TNU_historical_facade_capture_2016-08.png",
+    "sha256": "2cfa256fe6d9011b213ad6694249cbc41dac80b7152c9bf303bc26e63d6e6aab",
+    "actual_full_pixels_inspected": true,
+    "capture": "Aug2016; headerNov2016"
+  },
+  "observations": [
+    "Broad pale facade and long salmon/orange parapet/sunshade match the important historical massing.",
+    "Left dark grille, central tall open entrance, right purple door/shutter, yellow trilingual board and red benches on pale feet are source-specific.",
+    "Small unseen counter/furniture visible through doorway is reconstructed and not a claimed measured interior.",
+    "Sidecar explicitly identifies unplaced historical scene and July2017 closure. Mapped corridor remains a separate scene, avoiding current survival or reopened-operation claims.",
+    "H2 modest reconstructed bench/counter/desk/cabinet/fan interior is coherent; H3 roof overview consistent with same historical building. No duplicate fixture overlap or inflated concourse observed.",
+    "M1/M2 actual pixels show corridor only; M2 fully fits closure date and unresolved historical-platform interpretation label."
+  ],
+  "documentation_note": "Resolved: recovered photo source identified, zero mapped building envelope explicitly separated from unplaced15.5x6.8x4.78m historical study.",
+  "limits": [
+    "No current building/platform survival or reopened operation claimed.",
+    "No geometry/clearance/resource/publication gate conferred."
+  ],
+  "frames": {
+    "H1_Historical_2016_facade.png": {
+      "image_sha256": "1c7af30bf9afa0769142ef5ee930310d468bffde93efdc3228ed969a52b46696",
+      "provenance_sha256": "1c7af30bf9afa0769142ef5ee930310d468bffde93efdc3228ed969a52b46696",
+      "source_scene_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED",
+      "actual_full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "H2_Historical_interior.png": {
+      "image_sha256": "384a81e82ace7485247a91528d6eebf61261e17ada47872269590d205323f627",
+      "provenance_sha256": "384a81e82ace7485247a91528d6eebf61261e17ada47872269590d205323f627",
+      "source_scene_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED",
+      "actual_full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "H3_Historical_building_overview.png": {
+      "image_sha256": "431cfa2018219bce24f033788f1964d9e4223e45c03ede9e36bac2b1d32f35cf",
+      "provenance_sha256": "431cfa2018219bce24f033788f1964d9e4223e45c03ede9e36bac2b1d32f35cf",
+      "source_scene_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED",
+      "actual_full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "M1_Mapped_corridor_record.png": {
+      "image_sha256": "f01755b7d61370b56f29c0d051581cd8355ad7e992bcb6f1f8c4cdb73837c8af",
+      "provenance_sha256": "f01755b7d61370b56f29c0d051581cd8355ad7e992bcb6f1f8c4cdb73837c8af",
+      "source_scene_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+      "actual_full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "M2_Closed_site_context.png": {
+      "image_sha256": "c27f2da2cf8b604708de2c6c0ec6394604692fb3fc0cf8436ccb0f31fd0b6e3b",
+      "provenance_sha256": "c27f2da2cf8b604708de2c6c0ec6394604692fb3fc0cf8436ccb0f31fd0b6e3b",
+      "source_scene_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+      "actual_full_pixels_inspected": true,
+      "visual_status": "pass"
+    }
+  }
+}

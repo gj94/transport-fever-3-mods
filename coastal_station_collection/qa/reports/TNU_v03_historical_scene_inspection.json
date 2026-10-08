@@ -1,0 +1,312 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/revision_03/TNU/TNU_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 21,
+  "object_types": {
+    "MESH": 16,
+    "CAMERA": 3,
+    "LIGHT": 2
+  },
+  "unique_meshes": 47,
+  "unique_vertices": 290950,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -13.0,
+      -12.5,
+      -0.05000000074505806
+    ],
+    [
+      13.0,
+      3.509999990463257,
+      5.157749652862549
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "TNU",
+    "status": "Historical August2016 appearance. Closed10 July2017.",
+    "georeferenced": "False",
+    "location_status": "Unplaced facade/interior study. Do not position as a verified current remnant.",
+    "interior_basis": "Reconstructed furniture and unseen rooms; no interior survey",
+    "no_trains": "True"
+  },
+  "cameras": [
+    "H1_Historical_2016_facade",
+    "H2_Historical_interior",
+    "H3_Historical_building_overview"
+  ],
+  "circulation_rays": {
+    "historical_public_-0.3_0.45": {
+      "from": [
+        -0.30000001192092896,
+        -4.5,
+        0.6499999761581421
+      ],
+      "to": [
+        -0.30000001192092896,
+        3.299999952316284,
+        0.6499999761581421
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0_0.45": {
+      "from": [
+        0.0,
+        -4.5,
+        0.6499999761581421
+      ],
+      "to": [
+        0.0,
+        3.299999952316284,
+        0.6499999761581421
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0.3_0.45": {
+      "from": [
+        0.30000001192092896,
+        -4.5,
+        0.6499999761581421
+      ],
+      "to": [
+        0.30000001192092896,
+        3.299999952316284,
+        0.6499999761581421
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_-0.3_0.9": {
+      "from": [
+        -0.30000001192092896,
+        -4.5,
+        1.100000023841858
+      ],
+      "to": [
+        -0.30000001192092896,
+        3.299999952316284,
+        1.100000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0_0.9": {
+      "from": [
+        0.0,
+        -4.5,
+        1.100000023841858
+      ],
+      "to": [
+        0.0,
+        3.299999952316284,
+        1.100000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0.3_0.9": {
+      "from": [
+        0.30000001192092896,
+        -4.5,
+        1.100000023841858
+      ],
+      "to": [
+        0.30000001192092896,
+        3.299999952316284,
+        1.100000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_-0.3_1.7": {
+      "from": [
+        -0.30000001192092896,
+        -4.5,
+        1.899999976158142
+      ],
+      "to": [
+        -0.30000001192092896,
+        3.299999952316284,
+        1.899999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0_1.7": {
+      "from": [
+        0.0,
+        -4.5,
+        1.899999976158142
+      ],
+      "to": [
+        0.0,
+        3.299999952316284,
+        1.899999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "historical_public_0.3_1.7": {
+      "from": [
+        0.30000001192092896,
+        -4.5,
+        1.899999976158142
+      ],
+      "to": [
+        0.30000001192092896,
+        3.299999952316284,
+        1.899999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_-3.6": {
+      "from": [
+        0.0,
+        -3.5999999046325684,
+        0.5
+      ],
+      "to": [
+        0.0,
+        -3.5999999046325684,
+        -0.20000000298023224
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        -3.5999999046325684,
+        0.0
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_-3.2": {
+      "from": [
+        0.0,
+        -3.200000047683716,
+        0.5
+      ],
+      "to": [
+        0.0,
+        -3.200000047683716,
+        -0.20000000298023224
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        -3.200000047683716,
+        0.19999998807907104
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_0": {
+      "from": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "to": [
+        0.0,
+        0.0,
+        -0.20000000298023224
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        0.0,
+        0.19999998807907104
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_3.2": {
+      "from": [
+        0.0,
+        3.200000047683716,
+        0.5
+      ],
+      "to": [
+        0.0,
+        3.200000047683716,
+        -0.20000000298023224
+      ],
+      "clear": false,
+      "hit": "H2016 | Photo-derived historical envelope \u00b7 UNPLACED / H2016 f",
+      "hit_location": [
+        0.0,
+        3.200000047683716,
+        0.19999998807907104
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad"
+}

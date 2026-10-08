@@ -1,0 +1,51 @@
+{
+  "file": "renders/05_Mapped_turnout_detail.png",
+  "camera": "05_Mapped_turnout_detail",
+  "source_blend_sha256": "b7b54bdc2b8463cea5a539938c26b4067264fe9d14b425e3ed216f6d83082c0f",
+  "image_sha256": "34051569e7418f8073f04ae780e65b21e0918540b6688b9f1d7dacfafee20c1d",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 34.67,
+  "samples": 48,
+  "denoising": false,
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision contains the explicitly recorded facade refinement: Upper station-name panel moved clear of projecting slab; two screened bays replace generic panes with perforated geometry. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+    "original_image_sha256": "34051569e7418f8073f04ae780e65b21e0918540b6688b9f1d7dacfafee20c1d",
+    "related_patch_chain": {
+      "facade_refinement": {
+        "source_blend_sha256": "b7b54bdc2b8463cea5a539938c26b4067264fe9d14b425e3ed216f6d83082c0f",
+        "source_blend_file": "ALLP_coastal_station_v01.blend",
+        "details": "Upper station-name panel moved clear of projecting slab; two screened bays replace generic panes with perforated geometry.",
+        "changed_existing_objects": [
+          {
+            "object": "Alappuzha raised-name panel",
+            "translation_x": 0.45
+          },
+          {
+            "object": "04 | Alappuzha photographed architecture / ivory",
+            "removed_screen_bay_vertices": 576
+          },
+          {
+            "object": "04 | Alappuzha photographed architecture / glass",
+            "removed_screen_bay_vertices": 16
+          },
+          {
+            "object": "04 | Alappuzha photographed architecture / wood",
+            "removed_screen_bay_vertices": 112
+          },
+          {
+            "object": "04 | Alappuzha photographed architecture / dark",
+            "removed_screen_bay_vertices": 64
+          }
+        ],
+        "all_other_geometry_unchanged": true,
+        "script_sha256": "b1f87bd5e1f4f510d6831392a8a97f6015ceb367ff23a84f4b8db4a9cd7a312e"
+      }
+    }
+  }
+}

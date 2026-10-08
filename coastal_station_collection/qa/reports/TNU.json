@@ -1,0 +1,265 @@
+{
+  "station_code": "TNU",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/revision_03/TNU",
+  "manifest_sha256": "b433e13a88ee52b2063a92dcbcce2be864d7ed80e7f6a4f2439c2a49e20f2d36",
+  "blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "export_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/BUILD_HISTORY_SOURCE.py",
+      "bytes": 9332,
+      "sha256": "1324142a7365cd126565f0c117a16a70a4f4fa39c92b24240c09bf90fb81ab72"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/BUILD_SOURCE.py",
+      "bytes": 51704,
+      "sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/EXPORT_REVISION.json",
+      "bytes": 393,
+      "sha256": "22c8e4f66c55bb72bcd88df845275a57b8e0c68653db2c9e58190d0523f507fe"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/EXPORT_SOURCE.py",
+      "bytes": 3383,
+      "sha256": "d0058317a3b185f6328970126bb485cec8d9b0d98d46c4e1ef3a0b4c69e87190"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/QA_BUILD.json",
+      "bytes": 4409,
+      "sha256": "92ebff8f716ea2c7801c9cd741b284520eed3ee272b62663215725122219a37b"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/QA_EXPORT.json",
+      "bytes": 1366,
+      "sha256": "ae1eefb9f773cbcd5b0ff57bf0a0ae011cafc9d280b94b69877916ac35f6dcb6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/QA_SCENE.json",
+      "bytes": 1255,
+      "sha256": "1f591c84c4f864b47dc57f2358018e72013d7d898100c66ce0b12417e23cce44"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/README.md",
+      "bytes": 1167,
+      "sha256": "dec45485b51df6b641d0b014fa789dc63598bb17f9cc2424f2dd53c326690da7"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/RENDER_SOURCE.py",
+      "bytes": 1896,
+      "sha256": "52afec1513dd2800dc6e09b6681dca6547acc9db32189512ac073fff5b98a0cd"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 6211,
+      "sha256": "cf32acca3f3048bc283dfa110d92b074d1948a6ce25c9dc42c47608c2957e3fa"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/TNU_coastal_station_v02.blend",
+      "bytes": 6269811,
+      "sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/VISUAL_QA.md",
+      "bytes": 950,
+      "sha256": "ba8f60fb0447fb30cb79936f07382751d494f8bb82b42ebfe41f721fbe64729b"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/build_north.py",
+      "bytes": 51704,
+      "sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.glb",
+      "bytes": 191268,
+      "sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.validation.json",
+      "bytes": 549,
+      "sha256": "879c04a3c3d4571fb97afe52b361d9003756d7a14463a48be13adf9acaeb102b"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_mapped_corridor_unverified_remnants.glb",
+      "bytes": 26316704,
+      "sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_mapped_corridor_unverified_remnants.validation.json",
+      "bytes": 555,
+      "sha256": "2137f2fd8590ff9f64b3a3a76535991981fa0beea7a998a5d4efbfc12bc5d7d6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/FULL_TRACK_PLAN.png",
+      "bytes": 54972,
+      "sha256": "ef5a9b245e215cc12651bd89796a6c595f7f782e5a481a27f3575655b0f86781"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/HISTORICAL_SCOPE.json",
+      "bytes": 715,
+      "sha256": "8c634cbf0af0d85d9667cb0d081ad3b710d36b26ac5989f3e0b41d7308fdd090"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/architecture_google_evidence.json",
+      "bytes": 3790,
+      "sha256": "c024663b99fd0124fe7790d3abe1ffdbe99fc8f2f9f9dfe6550ad1e08f51ca28"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/closure_evidence.json",
+      "bytes": 483,
+      "sha256": "2341c719131868b3c42f80c055a93c13f99f393af704eb5aa15b080f4f6ea7f4"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/plan.json",
+      "bytes": 81166,
+      "sha256": "5345f35cd0aa509490d5689752d6b71d5af6805be949ed3401386f2c1815d448"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/plan.png",
+      "bytes": 22030,
+      "sha256": "d5782575e972d2250579066b6b71c3c1abbb7287085628012f2546b7bde493e0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/pointwork.json",
+      "bytes": 581,
+      "sha256": "0a2dc75167a9ff08265f90deabe65204d1a906b67d0199603110a42b041d789f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/rail_meshes.json",
+      "bytes": 40170,
+      "sha256": "69675d060e448007e0d914daac3e0df4a9e4875e3b887c13227228b97ab487f6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/references/station_record.json",
+      "bytes": 6474,
+      "sha256": "99d4a013d36fc1eec68fe1199529d1a97e1dfa708b923dca800d9395f4416670"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H1_Historical_2016_facade.json",
+      "bytes": 633,
+      "sha256": "03c9edf05d31ad4ba20ed1139062381c30eb17be8992cd8acd37b2f502f9ff5b"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H1_Historical_2016_facade.png",
+      "bytes": 1300211,
+      "sha256": "1c7af30bf9afa0769142ef5ee930310d468bffde93efdc3228ed969a52b46696"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H2_Historical_interior.json",
+      "bytes": 627,
+      "sha256": "4ccf0bb129342e4944966a5f98f52de3cb5806f8c2adc9c85885b8c4e08d7a75"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H2_Historical_interior.png",
+      "bytes": 1305236,
+      "sha256": "384a81e82ace7485247a91528d6eebf61261e17ada47872269590d205323f627"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H3_Historical_building_overview.json",
+      "bytes": 645,
+      "sha256": "39389fb4189a1f2997ab5e0b6e1f0e77680520460595a63a493cd6a1b9998dfd"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H3_Historical_building_overview.png",
+      "bytes": 1334385,
+      "sha256": "431cfa2018219bce24f033788f1964d9e4223e45c03ede9e36bac2b1d32f35cf"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M1_Mapped_corridor_record.json",
+      "bytes": 641,
+      "sha256": "91276f581e47c6e5b824fb5b43636ea5d0dc789d52f57720ee9608865ca45515"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M1_Mapped_corridor_record.png",
+      "bytes": 1410127,
+      "sha256": "f01755b7d61370b56f29c0d051581cd8355ad7e992bcb6f1f8c4cdb73837c8af"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M2_Closed_site_context.json",
+      "bytes": 926,
+      "sha256": "d4dc80db625dd6159ffb11060d0b44aaddec8bde101ff20a52cc46b6d575ba48"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M2_Closed_site_context.png",
+      "bytes": 1208870,
+      "sha256": "c27f2da2cf8b604708de2c6c0ec6394604692fb3fc0cf8436ccb0f31fd0b6e3b"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/textures/board.png",
+      "bytes": 55890,
+      "sha256": "49ff15483cbff2e2b0fd684fb4b03f57dab241b71ae53d9db78007be1df5ad4c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/textures/fascia.png",
+      "bytes": 41474,
+      "sha256": "bdf237648f49a8dcceace4e844423acda85503fc62b8ca27b277ae1b542bfdb9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/textures/notice.png",
+      "bytes": 35505,
+      "sha256": "7cd038f743054b51ba5cbf4735e301d2ccf23c8ad62547b42369a926a6be731e"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H1_Historical_2016_facade.png",
+      "bytes": 1300211,
+      "sha256": "1c7af30bf9afa0769142ef5ee930310d468bffde93efdc3228ed969a52b46696"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H2_Historical_interior.png",
+      "bytes": 1305236,
+      "sha256": "384a81e82ace7485247a91528d6eebf61261e17ada47872269590d205323f627"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H3_Historical_building_overview.png",
+      "bytes": 1334385,
+      "sha256": "431cfa2018219bce24f033788f1964d9e4223e45c03ede9e36bac2b1d32f35cf"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M1_Mapped_corridor_record.png",
+      "bytes": 1410127,
+      "sha256": "f01755b7d61370b56f29c0d051581cd8355ad7e992bcb6f1f8c4cdb73837c8af"
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M2_Closed_site_context.png",
+      "bytes": 1208870,
+      "sha256": "c27f2da2cf8b604708de2c6c0ec6394604692fb3fc0cf8436ccb0f31fd0b6e3b"
+    }
+  ],
+  "checks": {
+    "manifest": "All 39 frozen file hashes and byte counts independently verified.",
+    "visual": "All five final images have hash-bound independent visual/source review; retained-frame source hashes and unchanged-subject declarations are preserved.",
+    "resources": "Exact packed Blender scene has metric units, finite meshes and bounds, no external unpacked resources and no rolling-stock name candidates.",
+    "portable": "Independent binary finite-value, accessor/index/buffer-bounds and embedded-resource checks pass with exact scene-to-export provenance.",
+    "source": "Actual August2016 frontage supports an unplaced historical building study. The separate mapped railway corridor does not claim surviving station remnants or an active platform.",
+    "scene_isolation": "Corrected portable files each contain exactly one populated intended scene:historical16 nodes and corridor37 nodes; no historical geometry remains in the corridor export.",
+    "circulation": "Nine low/waist/head historical public routes and four actual floor probes pass independently in both Blender and exported triangles. Both source scenes separately inspected for finite geometry and resources."
+  },
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, dimensions and service assignments remain disclosed reconstructions.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Portable materials retain base-colour fallbacks for some procedural Blender effects.",
+    "Historical building is deliberately unplaced; exact former location and present survival/remnants remain unverified. Corridor and historical study must remain separate interpretations."
+  ],
+  "release_status": "Ready for reviewed publication.",
+  "additional_exports": [
+    {
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+      "sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649"
+    }
+  ],
+  "station_status": "Historical station closed10 July2017; never presented as current operation.",
+  "evidence_reports": [
+    "TNU_v03_historical_scene_inspection.json",
+    "TNU_v03_corridor_scene_inspection.json",
+    "TNU_v03_historical_export_geometry.json",
+    "TNU_v03_portable.json",
+    "TNU_v03_export_isolation.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/TNU_a76fb0e6_final_visual_review.json"
+  ]
+}

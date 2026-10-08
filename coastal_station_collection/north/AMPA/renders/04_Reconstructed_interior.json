@@ -1,0 +1,62 @@
+{
+  "file": "renders/04_Reconstructed_interior.png",
+  "camera": "04_Reconstructed_interior",
+  "source_blend_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+  "image_sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 56.49,
+  "samples": 48,
+  "denoising": false,
+  "camera_override": {
+    "reason": "Read-only camera framing makes existing waiting chairs and ticket furniture clearly visible; scene geometry unchanged.",
+    "position": [
+      -10.784295082092285,
+      -22.29926109313965,
+      3.0999999046325684
+    ],
+    "rotation": [
+      1.5417975187301636,
+      -1.5369186812108637e-08,
+      -0.3400971591472626
+    ],
+    "lens_mm": 28
+  },
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision contains the explicitly recorded facade refinement: Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+    "original_image_sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601",
+    "related_patch_chain": {
+      "facade_refinement": {
+        "source_blend_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+        "source_blend_file": "AMPA_coastal_station_v01.blend",
+        "details": "Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source.",
+        "changed_existing_objects": [
+          {
+            "object": "04 | Ambalappuzha photographed architecture / red",
+            "removed_old_clerestory_vertices": 120
+          },
+          {
+            "object": "04 | Ambalappuzha photographed architecture / cream",
+            "removed_old_clerestory_vertices": 8
+          },
+          {
+            "object": "04 | Ambalappuzha photographed architecture / wood",
+            "removed_old_clerestory_vertices": 48
+          },
+          {
+            "object": "04 | Ambalappuzha photographed architecture / dark",
+            "removed_old_clerestory_vertices": 48
+          }
+        ],
+        "added_collection": "04A | AMPA source-identifying facade refinement",
+        "all_other_geometry_unchanged": true,
+        "script_sha256": "f3430454eab7e8a9b766abf96cd02e257af20ac439824293f202f2f3576595cf"
+      }
+    }
+  }
+}
