@@ -103,8 +103,8 @@ for x,w in [(0,14.4),(-24.05,6.5),(24.05,6.5)]:
  box('Rear hall portal lintel',(x,7.7,4.28),(5.6,.55,.45),cream)
 box('Central entrance terrazzo',(0,7.5,.70),(13.5,15,.26),tile)
 # Entry rises gently from street to platform level, no blocked doorway.
-verts=[(-1.55,-6,.05),(1.55,-6,.05),(1.55,1,.85),(-1.55,1,.85),(-1.55,-6,-.10),(1.55,-6,-.10),(1.55,1,.60),(-1.55,1,.60)];add('Accessible entrance ramp',verts,[(0,1,2,3),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)],tile)
-for x in (-1.7,1.7):rod('Entrance ramp handrail',(x,-6,1),(x,1,1.8),.035,steel)
+verts=[(-1.55,-10,.05),(1.55,-10,.05),(1.55,1,.85),(-1.55,1,.85),(-1.55,-10,-.10),(1.55,-10,-.10),(1.55,1,.60),(-1.55,1,.60)];add('Accessible entrance ramp',verts,[(0,1,2,3),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)],tile)
+for x in (-1.7,1.7):rod('Entrance ramp handrail',(x,-10,1),(x,1,1.8),.035,steel)
 for x in (-5,5):bench(x,4,n=3)
 sign('PLATFORMS 1 - 5  /  ENQUIRY',(0,7.30,3.75),5.2,.7,size=.26)
 for x in (-4,4):fan(x,4,4.4);light(x,5,4.9);area('Heritage hall light',(x,4,4.7),(x,4,1),220,3)
@@ -161,7 +161,10 @@ for i,x in enumerate(range(96,132,5)):
  box('Ticket transaction opening frame',(x,6.92,2.42),(.70,.09,.055),steel);sign('%02d  TICKETS'%(i+1),(x,6.9,4.12),3.3,.65,size=.24);desk(x,9)
  for yy in (-3,-1,1,3,5):
   rod('Queue railing post',(x-1.3,yy,.85),(x-1.3,yy,1.85),.028,steel)
- for xx in (x-1.3,x+1.3):rod('Queue guide rail',(xx,-3,1.75),(xx,5.4,1.75),.025,steel)
+ for xx in (x-1.3,x+1.3):
+  rod('Queue guide rail',(xx,-3,1.75),(xx,5.4,1.75),.025,steel)
+  for yy in (-3,5.4):
+   rod('Queue terminal upright',(xx,yy,.85),(xx,yy,1.80),.032,steel);rod('Queue terminal cap',(xx,yy,1.78),(xx,yy,1.82),.042,steel,12);box('Queue terminal baseplate',(xx,yy,.87),(.17,.17,.04),steel)
 for x in (99,107,119,127):bench(x,-4,n=5)
 box('Token dispenser',(113,-4,1.52),(.55,.48,1.35),teal);box('Token dispenser screen',(113,-4.26,1.91),(.42,.035,.26),glass)
 sign('TOKEN 048   COUNTER 03',(113,7,4.85),7,.60,size=.34)
@@ -206,6 +209,21 @@ def clippts(pts,xlim=820):
   if not out or math.dist(out[-1],aa)>.01:out.append(aa)
   out.append(bb)
  return out
+# Precompute switch influence and clearance helpers from the complete map graph.
+allsegments=[(Vector(a),Vector(b)) for w in rails for a,b in zip(w['xy'],w['xy'][1:])]
+def railclear(p,clearance=1.95):
+ p=Vector(p)
+ for a,b in allsegments:
+  v=b-a;t=max(0,min(1,(p-a).dot(v)/max(v.length_squared,1e-12)))
+  if (p-a-v*t).length<clearance:return False
+ return True
+switchzones=[]
+for nd,neighbours in adj.items():
+ if len(neighbours)<3:continue
+ p=Vector(nodepos[nd]);vv=[(Vector(nodepos[n])-p).normalized() for n in neighbours];_,ii,jj=max((vv[i].dot(vv[j]),i,j) for i in range(len(vv)) for j in range(i+1,len(vv)));d=(vv[ii]+vv[jj]).normalized();switchzones.append((p,d,Vector((-d.y,d.x))))
+def switchbearer(x,y):
+ p=Vector((x,y))
+ return any(-3<(p-q).dot(d)<26 and abs((p-q).dot(n))<1.7 for q,d,n in switchzones)
 col('10_TRACK_NETWORK_MAPPED_PROFILES')
 route_lengths={};route_paths={}
 for wi,w in enumerate(rails):
@@ -213,13 +231,8 @@ for wi,w in enumerate(rails):
  if len(pts)<2:continue
  tag=w['tags'];label=tag.get('service',tag.get('usage','rail'));wid=w['id'];route_paths[wid]=pts;route_lengths[wid]=sum(math.dist(a,b) for a,b in zip(pts,pts[1:]))
  pathmesh('Route '+wid+' '+label+' ballast',pts,[(-1.9,-.30),(-1.4,-.08),(1.4,-.08),(1.9,-.30)],ballast)
- for sg in (-1,1):
-  c=sg*.872 # head width .068, inner gap exactly1.676.
-  pathmesh('Route '+wid+' rail-foot',pts,[(c-.075,-.015),(c+.075,-.015),(c+.075,.012),(c-.075,.012)],rust)
-  pathmesh('Route '+wid+' rail-web',pts,[(c-.012,.012),(c+.012,.012),(c+.012,.135),(c-.012,.135)],rust)
-  pathmesh('Route '+wid+' rail-head',pts,[(c-.034,.125),(c+.034,.125),(c+.034,.178),(c-.034,.178)],rail)
  for x,y,a in samples(pts,.60):
-  box('Precast PSC sleepers',(x,y,-.09),(.24,2.75,.16),concrete,a)
+  if not switchbearer(x,y):box('Precast PSC sleepers',(x,y,-.09),(.24,2.75,.16),concrete,a)
   nx=-math.sin(a);ny=math.cos(a)
   for sg in (-1,1):
    xx=x+nx*sg*.872;yy=y+ny*sg*.872
@@ -245,16 +258,12 @@ for nd,neighbours in adj.items():
    p=nodepos[nb];d=Vector((p[0]-x,p[1]-y));d.normalize();vectors.append(d)
   # Pair of closest outgoing directions is main vs divergent branch.
   pairs=[(vectors[i].dot(vectors[j]),i,j) for i in range(len(vectors)) for j in range(i+1,len(vectors))];_,i,j=max(pairs);d=(vectors[i]+vectors[j]).normalized();a=math.atan2(d.y,d.x);n=Vector((-d.y,d.x));turnouts.append(nd)
-  for sg in (-1,1):
-   # Slim switch rails converge into stock rail and flare over8m.
-   p0=Vector((x,y))+n*(sg*.86);p1=Vector((x,y))+d*7+n*(sg*.72)
-   rod('Tapered switch blade',(*p0,.12),(*p1,.12),.025,rail)
-   p0=Vector((x,y))+d*10+n*(sg*.67);p1=Vector((x,y))+d*14+n*(sg*.67)
-   rod('Frog check rail',(*p0,.10),(*p1,.10),.031,rust)
   # Timber turnout bearer lengths span the diverging route envelope.
-  for k in range(16):
-   p=Vector((x,y))+d*k*.62;box('Turnout extended bearer',(*p,-.10),(.24,3+k*.055,.17),wood,a)
+  for k in range(-5,44):
+   p=Vector((x,y))+d*k*.60;box('Turnout extended bearer',(*p,-.10),(.24,3+max(k,0)*.08,.17),wood,a)
   p=Vector((x,y))+n*2.25+d*2
+  candidates=[Vector((x,y))+n*sg*off+d*along for off in (2.5,3.5,4.5,5.5) for sg in (-1,1) for along in (2,5,9)]
+  p=next((q for q in candidates if railclear(q,1.95)),p)
   box('Point machine housing',(*p,.16),(1.05,.62,.35),steel,a);box('Point machine lid',(*p,.36),(1.12,.67,.055),dark,a)
   rod('Switch stretcher rod',(x+n.x*2.2,y+n.y*2.2,.04),(x-n.x*.85,y-n.y*.85,.04),.025,steel)
   for k in range(5):box('Point machine bolt',(p.x+(k%3)*.2-.2,p.y+(k//3)*.25-.12,.405),(.045,.045,.025),steel,a)
@@ -264,12 +273,14 @@ for nd,neighbours in adj.items():
   for sg in (-1,1):rod('Buffer stop diagonal',(x-dx*1.4+nx*sg*.8,y-dy*1.4+ny*sg*.8,.12),(x+nx*sg*.8,y+ny*sg*.8,1.15),.09,rust)
   box('Red buffer beam',(x,y,1.05),(.25,2.6,.35),red,a)
   for sg in (-1,1):box('Buffer white marker',(x+nx*sg*.65+dx*.15,y+ny*sg*.65+dy*.15,1.05),(.025,.35,.23),white,a)
+exec(compile((R/'scripts/load_running_rails.py').read_text(),str(R/'scripts/load_running_rails.py'),'exec'))
 # Modelled tracks remain geographic paths. Detailed component placements reconstructed.
 col('12_MAPPED_PLATFORMS_AND_EDGES')
 for w in platforms:
  pts=w['xy'][:-1];n=len(pts);vs=[(x,y,z) for z in (-.24,.85) for x,y in pts];fs=[tuple(reversed(range(n))),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];o=mesh('Mapped platform '+w['tags'].get('ref','1'),vs,fs,tile);o['osm_way']=w['id'];o['xy_status']='OSM mapped outline; vertical reconstruction'
  for a,b in zip(pts,pts[1:]+pts[:1]):
   length=math.dist(a,b)
+  if w['id']=='921797273' and (a[1]+b[1])/2<19:continue
   if length<3:continue
   d=Vector(b)-Vector(a);d.normalize();aa=math.atan2(d.y,d.x)
   for x,y,ang in samples([a,b],.6):
@@ -326,7 +337,7 @@ canopy(-255,195,18.6,9,'PLATFORM 1')
 canopy(-225,215,40.4,7.0,'PLATFORMS 2 / 3')
 canopy(-205,245,60,7.4,'PLATFORMS 4 / 5')
 # Small retail rooms with stock rather than solid blank blocks.
-for x,y in [(-155,18.8),(55,40.3),(-45,60),(170,18.8)]:
+for x,y in [(-155,18.8),(55,40.3),(-45,60),(140,18.8)]:
  box('Kiosk back',(x,y+1.0,2.1),(4,.10,2.5),teal)
  for dx in (-2,2):box('Kiosk side',(x+dx,y,2.1),(.1,2,2.5),teal)
  box('Kiosk roof',(x,y,3.43),(4.3,2.3,.15),roof);box('Kiosk counter',(x,y-.85,1.8),(4,.5,.18),wood)
@@ -341,38 +352,54 @@ for bx in (-105,178):
  for sg in (-1,1):
   x=bx+sg*2.1
   for y in range(12,75,3):
+   if (sg==1 if bx<0 else sg==-1) and any(abs(y-yy)<2.5 for yy in (18.6,40.4,60)):continue
    rod('FOB upright',(x,y,7.35),(x,y,10),.075,steel);rod('FOB diagonal truss',(x,y,7.6),(x,y+3,9.8),.055,steel)
-   for yy in [y+k*.18 for k in range(17)]:rod('Bridge safety grille',(x,yy,7.7),(x,yy,9.5),.009,steel,6)
-  for z in (7.55,9.8):rod('FOB chord',(x,12,z),(x,74,z),.09,steel)
+   for yy in [y+k*.18 for k in range(17) if not ((sg==1 if bx<0 else sg==-1) and any(abs(y+k*.18-zz)<1.5 for zz in (18.6,40.4,60)))]:rod('Bridge safety grille',(x,yy,7.7),(x,yy,9.5),.009,steel,6)
+  rod('FOB top chord',(x,12,9.8),(x,74,9.8),.09,steel)
+  if (sg==1 if bx<0 else sg==-1):
+   for ya,yb in [(12,17.1),(20.1,38.9),(41.9,58.5),(61.5,74)]:rod('FOB lower chord with landing openings',(x,ya,7.55),(x,yb,7.55),.09,steel)
+  else:rod('FOB lower chord',(x,12,7.55),(x,74,7.55),.09,steel)
  box('FOB blue sheet roof',(bx,43,10.13),(4.7,63,.18),roof)
  for y in (18.6,40.4,60):
   # Broad straight 38-step flights beside the platform centre, land directly on deck.
   direction=1 if bx<0 else -1
   for k in range(38):
-   x=bx+direction*(2.1+(38-k)*.30);top=.85+(k+1)*6.35/38
+   x=bx+direction*(2.1+(38-k)*.30);top=.85+(k+1)*6.64/38
    box('FOB individual stair tread',(x,y,top-.07),(.32,2.4,.14),concrete);box('Stair nosing',(x-direction*.14,y,top+.01),(.045,2.42,.025),yellow)
-  low=(bx+direction*13.8,y,.85);high=(bx+direction*2.2,y,7.25)
+  low=(bx+direction*13.8,y,.85);high=(bx+direction*2.2,y,7.49)
   for sg in (-1,1):
-   rod('Stair stringer',(low[0],y+sg*1.2,.73),(high[0],y+sg*1.2,7.12),.11,steel)
-   rod('Stair handrail',(low[0],y+sg*1.2,1.9),(high[0],y+sg*1.2,8.3),.036,steel)
+   rod('Stair stringer',(low[0],y+sg*1.2,.73),(high[0],y+sg*1.2,7.36),.11,steel)
+   rod('Stair handrail',(low[0],y+sg*1.2,1.9),(high[0],y+sg*1.2,8.54),.036,steel)
    for k in range(12):
-    t=k/11;x=low[0]*(1-t)+high[0]*t;z=.85+t*6.4;rod('Stair baluster',(x,y+sg*1.2,z),(x,y+sg*1.2,z+1.05),.023,steel)
-  box('FOB landing',(bx+direction*2.5,y,7.3),(2,2.5,.2),concrete)
- for y in (13,32,50,72):
+    t=k/11;x=low[0]*(1-t)+high[0]*t;z=.85+t*6.64;rod('Stair baluster',(x,y+sg*1.2,z),(x,y+sg*1.2,z+1.05),.023,steel)
+  box('FOB landing',(bx+direction*2.5,y,7.39),(2,2.5,.2),concrete)
+ for y in (18.6,40.4,60):
   for dx in (-1.55,1.55):box('Footbridge support pier',(bx+dx,y,3.6),(.35,.4,7.2),steel)
 # Platform-end service ramp, gentle slope with integral kerb.
 for x,y,direction in [(-271,18,1),(-266,39,1),(-226,55,1)]:
  add('Platform end service ramp',[(x-8,y-1,-.05),(x-8,y+1,-.05),(x,y+1,.85),(x,y-1,.85)],[(0,1,2,3)],concrete)
 col('15_OHE_PORTALS_SIGNALS_AND_CABLES_RECONSTRUCTED')
-for x in range(-700,721,45):
- # Portals across operating railway, columns clear of platform circulation.
- for y in (9,120):
+for x in range(-790,791,45):
+ ys=[]
+ for w in rails:
+  if w['tags'].get('electrified')!='contact_line':continue
+  for a,b in zip(w['xy'],w['xy'][1:]):
+   if min(a[0],b[0])<=x<=max(a[0],b[0]) and abs(b[0]-a[0])>.001:
+    ys.append(a[1]+(b[1]-a[1])*(x-a[0])/(b[0]-a[0]))
+ if not ys:continue
+ ymin=min(ys)-3.8;ymax=max(ys)+3.8
+ while not railclear((x,ymin),2.9):ymin-=.5
+ while not railclear((x,ymax),2.9):ymax+=.5
+ candidates=[ymin,ymax]+[y for y in (18.6,40.4,60) if ymin<y<ymax]
+ for y in candidates:
+  if not railclear((x,y),2.9):continue
   for dx in (-.25,.25):rod('Lattice OHE mast chord',(x+dx,y,-.1),(x+dx,y,8.2),.055,steel)
   for k in range(10):rod('Lattice mast bracing',(x-.25,y,k*.8),(x+.25,y,(k+1)*.8),.027,steel)
   box('OHE mast concrete footing',(x,y,.15),(1,1,.65),concrete)
- for z in (7.7,8.25):rod('OHE portal crossbeam',(x,9,z),(x,120,z),.072,steel)
- for yy in range(9,119,3):rod('OHE portal zigzag',(x,yy,7.7),(x,yy+3,8.25),.030,steel)
- for y in (29.3,31.8,49.7,69.4,75,81,87,93,100):
+ for z in (7.7,8.25):rod('OHE portal crossbeam',(x,ymin,z),(x,ymax,z),.072,steel)
+ for k in range(math.ceil((ymax-ymin)/3)):
+  ya=ymin+k*3;yb=min(ya+3,ymax);rod('OHE portal zigzag',(x,ya,7.7),(x,yb,8.25),.030,steel)
+ for y in ys:
   rod('Contact wire suspension',(x,y,7.7),(x,y,5.9),.018,dark)
   for z in (6.9,7.0,7.1,7.2):rod('Porcelain insulator',(x,y,z),(x,y,z+.05),.12,cream,10)
 # Catenary follows mapped electrified tracks including their curves, not a parallel straight substitute.
@@ -396,23 +423,13 @@ for y in (8,72,121):
 # Open drains, sumps and visible water pipes alongside platforms and maintenance roads.
 col('16_DRAINAGE_WATERING_AND_COACHING_INFRASTRUCTURE')
 for y in (26,46.6,66.7,114,138):
- for yy in (y-.24,y+.24):box('Open drain concrete wall',(0,yy,-.15),(1030,.12,.48),concrete)
+ for yy in (y-.24,y+.24):box('Open drain concrete wall',(0,yy,-.30),(1030,.12,.36),concrete)
  box('Open drain dark channel',(0,y,-.36),(1030,.38,.035),dark)
  for x in range(-500,501,32):
   box('Drain catchpit',(x,y,-.18),(1,.7,.45),dark)
-  for k in range(8):box('Catchpit iron grating',(x-.42+k*.12,y,.07),(.045,.75,.035),steel)
-for y in (72,82,93,104,157,170,186):
- rod('Carriage watering main',(-120,y,.19),(150,y,.19),.045,steel)
- for x in range(-115,146,18):
-  rod('Watering standpipe',(x,y,.19),(x,y,.84),.04,steel);rod('Watering tap',(x,y,.78),(x,y-.28,.78),.025,steel);box('Tap wheel',(x,y-.3,.81),(.16,.045,.16),red)
-  # Coiled hose loop as actual curve sections.
-  for k in range(16):
-   a=k*math.tau/16;b=(k+1)*math.tau/16;rod('Watering hose coil',(x+.32*math.cos(a),y+.32*math.sin(a),.12),(x+.32*math.cos(b),y+.32*math.sin(b),.12),.025,dark,6)
-# OSM southern fan houses maintenance roads. Inspection walks are reconstructed around existing centre lines.
-for y in (152,165,180,196):
- box('Maintenance inspection walkway',(60,y,.01),(160,.7,.25),concrete)
- for x in range(-15,139,12):light(x,y,3.7);box('Maintenance work light pole',(x,y,1.7),(.06,.06,3.7),steel)
-for x,y in [(230,118),(-70,133),(126,143)]:
+  for k in range(8):box('Catchpit iron grating',(x-.42+k*.12,y,-.07),(.045,.75,.035),steel)
+exec(compile((R/'scripts/add_railside_services.py').read_text(),str(R/'scripts/add_railside_services.py'),'exec'))
+for x,y in [(350,120),(-250,130),(-300,145)]:
  box('Depot service workshop floor',(x,y,.0),(25,12,.25),concrete)
  for dx in (-12,12):box('Workshop wall',(x+dx,y,2.6),(.25,12,5.2),plaster)
  box('Workshop back wall',(x,y+6,2.6),(25,.25,5.2),plaster);box('Workshop sheet roof',(x,y,5.3),(27,13,.16),roof)
@@ -464,6 +481,7 @@ for w in ways:
   for xx,yy,ang in samples([a,b],3.0):
    for z in range(2,int(h),3):box('Context building windows',(xx+nx*.05,yy+ny*.05,z),(1.0,.10,1.2),glass,angle)
 # Save build before optional expensive rendering or exchange operations.
+exec(compile((R/'scripts/add_rich_details.py').read_text(),str(R/'scripts/add_rich_details.py'),'exec'))
 col('90_REVIEW_CAMERAS_AND_LIGHTS')
 world=bpy.data.worlds.new('Kerala soft daylight');S.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.57,.69,.8,1);world.node_tree.nodes['Background'].inputs[1].default_value=.55
 sun=bpy.data.lights.new('Late morning sun','SUN');sun.energy=2.2;sun.angle=.16;o=bpy.data.objects.new('Late morning sun',sun);current.objects.link(o);o.rotation_euler=(.4,-.5,-.45)
@@ -474,17 +492,21 @@ def camera(n,p,target,lens=42,ortho=None):
 camera('01_Overall_full_station',(-590,-490,480),(0,60,0),42)
 camera('02_Heritage_forecourt',(-72,-85,32),(-6,1,6),48)
 camera('03_Entrance_hall',(0,1.6,2.45),(0,12,2.8),20)
-camera('04_Booking_hall',(112,-4.5,2.50),(113,7,2.5),18)
+camera('04_Booking_hall',(119,-1.5,2.45),(110,7.2,2.65),24)
+camera('14_Counter_working_detail',(109,10.8,2.3),(113,6.8,1.9),24)
 camera('05_Waiting_lounge',(-56,2.3,2.4),(-47,8,2),20)
 camera('06_Washroom',(-73,3.4,2.4),(-66,8,1.7),19)
 camera('07_Station_office',(35,2.4,2.4),(42,8,1.9),20)
-camera('08_Platform_one',(-189,16.0,2.55),(-120,18,3),32)
+camera('08_Platform_one',(-171,16.4,2.55),(-153,18.5,2.25),27)
 camera('09_Island_platform',(1,37.5,2.45),(90,40,3),30)
-camera('10_Turnout_detail',(-343,93,7),(-315,88,0),43)
+target=json.loads((R/'source/turnout_review_target.json').read_text())['xy'];tx,ty=target
+camera('10_Turnout_detail',(tx-11,ty-10,8),(tx,ty,.1),43)
+camera('15_Frog_closeup',(tx-3,ty-3,2.8),(tx,ty,.1),52)
 camera('11_Maintenance_yard',(-105,230,50),(90,160,1),44)
 camera('12_Full_yard_top',(0,75,1050),(0,75,0),45,1680)
 camera('13_Footbridge_detail',(-78,86,17),(-105,42,7),43)
 S.camera=bpy.data.objects['02_Heritage_forecourt'];S.render.engine='CYCLES';S.cycles.samples=24;S.cycles.use_denoising=False;S.render.threads_mode='FIXED';S.render.threads=4;S.render.resolution_x=1440;S.render.resolution_y=900;S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG';S.view_settings.view_transform='AgX'
+S['README']='Full-station TVC visual reconstruction in metres, mixed-date mapped rail network,2022 heritage photographs,furnished reconstructed interiors. Read README.md and evidence ledger. No rolling stock.'
 S['asset_status']='TVC full-scale visual reconstruction, 2022 heritage plus mixed-date OSM railway footprint; not surveyed as-built'
 S['no_rolling_stock']=True;S['gauge_inner_head_metres']=1.676;S['mapping_attribution']='© OpenStreetMap contributors, ODbL';S['interior_status']='Functional furnished reconstructions; exact floorplan unverified'
 flush()
@@ -502,6 +524,6 @@ for f in bpy.data.fonts:
   except:pass
 try:bpy.ops.file.pack_all()
 except:pass
-bpy.ops.wm.save_as_mainfile(filepath=str(R/'TVC_full_station_v02.blend'))
-qa={'objects':len(S.objects),'meshes':sum(o.type=='MESH' for o in S.objects),'vertices':sum(len(o.data.vertices) for o in S.objects if o.type=='MESH'),'route_count':len(route_paths),'total_route_length_m':sum(route_lengths.values()),'route_lengths_m':route_lengths,'graph_turnouts':len(turnouts),'true_dead_end_buffers':len(buffers),'nominal_inner_rail_head_gauge_m':1.676,'mapped_platform_bodies':3,'platform_faces':5,'rolling_stock_objects':0,'units':'metres','component_counts':counts,'turnout_nodes':turnouts,'buffer_nodes':buffers,'interiors':'Reconstructed furnished rooms, not as-built floor plans','rail_evidence':'Mixed-date current OSM coordinates; source map not a2022 survey'}
+bpy.ops.wm.save_as_mainfile(filepath=str(R/'TVC_full_station_v02.blend'),compress=True)
+qa={'objects':len(S.objects),'meshes':sum(o.type=='MESH' for o in S.objects),'vertices':sum(len(o.data.vertices) for o in S.objects if o.type=='MESH'),'route_count':len(route_paths),'total_route_length_m':sum(route_lengths.values()),'route_lengths_m':route_lengths,'graph_turnouts':len(turnouts),'true_dead_end_buffers':len(buffers),'nominal_inner_rail_head_gauge_m':1.676,'mapped_platform_bodies':3,'platform_faces':5,'rolling_stock_objects':0,'units':'metres','component_counts':counts,'physical_frog_crossings':frog_count,'flangeway_width_m':.045,'turnout_nodes':turnouts,'buffer_nodes':buffers,'interiors':'Reconstructed furnished rooms, not as-built floor plans','rail_evidence':'Mixed-date current OSM coordinates; source map not a2022 survey'}
 (R/'BUILD_QA.json').write_text(json.dumps(qa,indent=2));print('BUILD_COMPLETE',json.dumps({k:qa[k] for k in ('objects','vertices','route_count','total_route_length_m','graph_turnouts','true_dead_end_buffers')}),flush=True)

@@ -22,3 +22,14 @@ Era: heritage-led pre-redevelopment, approximately 2022. No proposed terminal bl
 8. New Indian Express 29 Sep 2015: https://www.newindianexpress.com/cities/thiruvananthapuram/2015/Sep/29/central-station-new-block-to-be-opened-soon-821894.html — booking block and conversion of older ticket-counter room into waiting lounge. Establishes separate booking function; does not supply measured floor plan.
 
 Unknown room plans, ceiling heights, roof structure hidden by photographs, exact fixtures, platforms' Z, shelter bay spans and signal identities will be clearly identified as reconstruction. Functional spaces still modelled in full rather than omitted.
+
+## Revision decisions after independent review
+- Rail geometry is now a single unioned footprint per structural rail part, with real 45 mm flange channels cut alongside the 1.676 m gauge running faces. Head centres are ±0.872 m, head width 0.068 m, channel centres ±0.8155 m. Opposite checkrail centre offset 0.762 m with 0.062 m head width produces 45 mm clearance; ends flare away from the stock rail. Primary generic dimensional check: IRISET Signalling General §4.6.4, p46, https://nfr.indianrailways.gov.in/uploads/files/1567770997122-S8.pdf (44–48 mm range). These are visual standard-informed turnouts, not engineering-approved point assemblies.
+- Moving tongue portions have separately editable 12 m taper regions following actual mapped branch paths. Mesh regions are partitioned, not duplicate coplanar rail-pairs.
+- Trackside maintenance water mains/walkways follow mapped road geometry and reject segments too close to another track. No arbitrary straight above-rail pipes cross the fan.
+- OHE portal extents derive from mapped electrified-track cross sections; outer legs are moved until at least 2.9 m centreline clearance against every mapped route. Intermediate legs use the same test.
+- Footbridge landings have real 2.6 m safety-railing openings; roof and purlin cut-outs clear the stairs. Piers are on platform bodies, not inside track gauge. Workshops relocated outside all route corridors; their siting is explicitly reconstructed.
+- First independent inspection passed eight actual-scene circulation rays (heritage entrance, platform passage, all six stair landings), found no train objects and confirmed three platform bodies. A subsequent physical rail correction is pending new scene/render verification.
+
+## Map chronology caveat
+Most raw mapped yard ways carry 2020 edit dates; some service roads were edited in 2023, approaches split/edited in 2024, platform tags edited in 2026. Edit dates are not construction dates. No historical OSM snapshot or railway engineering survey was recovered. The railway layout must therefore be labelled mixed-date map-derived, never an exact 2022 as-built. The architecture intentionally excludes current redevelopment.
