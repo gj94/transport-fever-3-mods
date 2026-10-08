@@ -14,6 +14,7 @@ COL=None
 
 def collection(name):
  global COL
+ print('COLLECTION',name,flush=True)
  COL=bpy.data.collections.new(name);scene.collection.children.link(COL);return COL
 
 def move(o):
@@ -591,13 +592,14 @@ for side in [-1,1]:beam('East ramp handrail',(side*4,120,2.15),(side*4,132,1.18)
 collection('12 | OHE NETWORK • masts wires insulators')
 for wid,pts,tags in paths:
  if tags.get('electrified')!='contact_line':continue
- tube('25kV contact wire '+wid,[(x,y,6.8) for x,y in pts],.012,railmat)
+ tube('25kV contact wire '+wid,[(x,y,6.2) for x,y in pts],.012,railmat)
  dist=0
  for a,b in zip(pts,pts[1:]):
   va=Vector(a);v=Vector(b)-va;l=v.length
   if l<.1:continue
   for k in range(math.ceil(dist/48),math.floor((dist+l)/48)+1):
    p=va+v*((k*48-dist)/l);x,y=p
+   if abs(x+60)<5 or abs(x-100)<5:continue
    # Narrow lattice masts placed away from running gauge.
    my=y+2.75
    cube('OHE foundation',(x,my,.6),(.65,.7,1.0),stone)
@@ -606,9 +608,9 @@ for wid,pts,tags in paths:
    beam('OHE cantilever',(x,my,7.6),(x,y,7.5),.065,steel);beam('OHE cantilever brace',(x,my,8.5),(x,y,7.5),.045,steel)
    for z in [7.1,7.17,7.24,7.31,7.38]:cyl('Brown porcelain insulator',(x,y,z),.085,.04,wood,12)
   for k in range(math.ceil(dist/6),math.floor((dist+l)/6)+1):
-   p=va+v*((k*6-dist)/l);tube('Catenary dropper',[(p.x,p.y,6.8),(p.x,p.y,7.4)],.009,railmat)
+   p=va+v*((k*6-dist)/l);tube('Catenary dropper',[(p.x,p.y,6.2),(p.x,p.y,6.9)],.009,railmat)
   # messenger retains sag in each map segment
-  tube('Sagged messenger '+wid,[(a[0]+v.x*i/12,a[1]+v.y*i/12,7.7-.30*math.sin(math.pi*i/12)) for i in range(13)],.016,railmat)
+  tube('Sagged messenger '+wid,[(a[0]+v.x*i/12,a[1]+v.y*i/12,7.2-.30*math.sin(math.pi*i/12)) for i in range(13)],.016,railmat)
   dist+=l
 # Signals, cable cabinets, troughs and drains distributed through actual yard.
 collection('13 | SIGNALS DRAINAGE AND SERVICES')
@@ -640,7 +642,7 @@ for y in [4,115]:
 collection('14 | BOUNDARIES AND TROPICAL SURROUNDS')
 for y in [-21,121]:
  for x in range(-400,700,10):
-  if -60<x<70:continue
+  if -60<x<70 or (y==121 and 495<x<545):continue
   cube('Boundary concrete post',(x,y,1),(.14,.14,2),white)
   for z in [.4,.8,1.2,1.6,2]:beam('Boundary wire',(x,y,z),(x+10,y,z),.012,steel)
 for x in range(-350,670,55):
@@ -653,29 +655,32 @@ for x in range(-350,670,55):
    mesh('Palm drooping frond',verts,[(0,1,2,3)],leaf)
 # Service building with real workshop benches/shelves next to sidings.
 collection('15 | YARD MAINTENANCE WORKSHOP INTERIOR')
-cube('Workshop slab',(520,93,.2),(30,14,.35),stone)
-for x in [505,535]:wall_door('Workshop gable',x,93,14,4,3,'y',z=.4)
-wall_door('Workshop frontage',520,86,30,4,4,z=.4)
-cube('Workshop rear wall',(520,100,2.4),(30,.20,4),white)
-corrugated('Workshop roof',520,93,4.6,31,15,roof)
+cube('Workshop slab',(520,123,.2),(30,14,.35),stone)
+for x in [505,535]:wall_door('Workshop gable',x,123,14,4,3,'y',z=.4)
+wall_door('Workshop frontage',520,116,30,4,4,z=.4)
+cube('Workshop rear wall',(520,130,2.4),(30,.20,4),white)
+corrugated('Workshop roof',520,123,4.6,31,15,roof)
 for x in [510,517,524,531]:
- desk(x,97,.4)
+ desk(x,127,.4)
  for z in [1.1,1.8,2.5,3.2]:
-  cube('Workshop storage rack',(x,99,z),(4,.7,.08),steel)
-  for dx in [-1.4,-.5,.5,1.4]:cube('Maintenance spares bin',(x+dx,99,z+.2),(.65,.5,.35),[blue,red,yellow][int(x)%3])
-text('Workshop identification','PERMANENT WAY / STORES',(520,85.87,3.6),.6,blue)
+  cube('Workshop storage rack',(x,129,z),(4,.7,.08),steel)
+  for dx in [-1.4,-.5,.5,1.4]:cube('Maintenance spares bin',(x+dx,129,z+.2),(.65,.5,.35),[blue,red,yellow][int(x)%3])
+text('Workshop identification','PERMANENT WAY / STORES',(520,115.87,3.6),.6,blue)
+# Move inferred workshop outside every mapped track with audited5m clearance.
+for ob in COL.objects:ob.location.y+=45
+cube('Workshop approach paving',(520,166,.06),(42,24,.16),stone)
 # Presentation and editable full asset checkpoint.
 collection('90 | REVIEW CAMERAS AND LIGHTING')
 world=bpy.data.worlds.new('Kerala soft daylight');scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.62,.73,.85,1);world.node_tree.nodes['Background'].inputs[1].default_value=.65
 bpy.ops.object.light_add(type='SUN',location=(0,0,50));o=move(bpy.context.object);o.name='Tropical afternoon';o.rotation_euler=(.48,-.35,-.6);o.data.energy=2.5;o.data.angle=.12
-for x,y,z,size,energy in [(-5,0,5.8,12,1500),(-24,0,3.5,10,650),(20,1,3.3,12,950),(49,0,3.5,10,850),(0,111,5.1,40,2000),(520,93,4.3,20,1300)]:
+for x,y,z,size,energy in [(-5,0,5.8,12,1500),(-24,0,3.5,10,650),(20,1,3.3,12,950),(49,0,3.5,10,850),(0,111,5.1,40,2000),(520,168,4.3,20,1300)]:
  bpy.ops.object.light_add(type='AREA',location=(x,y,z));o=move(bpy.context.object);o.name='Interior broad ceiling fill';o.data.energy=energy;o.data.shape='DISK';o.data.size=size
 # Cameras use real eye heights and aerial coverage; no hidden trains/stock.
 def camera(name,loc,target,lens=38,ortho=None):
  bpy.ops.object.camera_add(location=loc);o=move(bpy.context.object);o.name=name;o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.lens=lens;o.data.clip_end=4000
  if ortho:o.data.type='ORTHO';o.data.ortho_scale=ortho
  return o
-cams=[camera('01_West_architecture',(74,-92,18),(6,0,3.5),48),camera('02_Ticket_hall',(-12,-3.7,2.1),(-3,4.8,2.1),23),camera('03_Waiting_hall',(-31,-3,1.9),(-20,3,1.1),26),camera('04_Platform_concourse',(-4,44.5,2.85),(45,48,3.0),30),camera('05_Track_turnouts',(435,70,6),(500,49,.4),39),camera('06_Full_station_aerial',(950,-670,700),(130,55,0),48),camera('07_Full_yard_plan',(155,55,1100),(155,55,0),35,1430),camera('08_East_waiting_hall',(27,118,2.8),(-10,109,2.8),26),camera('09_Toilet_interior',(56,-3.4,2.05),(45,3,1.7),23),camera('10_Footbridge_and_platform',(-33,49,3.2),(-62,58,7.5),24),camera('11_Service_workshop',(532,88,2.0),(514,98,1.7),24)]
+cams=[camera('01_West_architecture',(74,-92,18),(6,0,3.5),48),camera('02_Ticket_hall',(-12,-3.7,2.1),(-3,4.8,2.1),23),camera('03_Waiting_hall',(-31,-3,1.9),(-20,3,1.1),26),camera('04_Platform_concourse',(-4,44.5,2.85),(45,48,3.0),30),camera('05_Track_turnouts',(435,70,6),(500,49,.4),39),camera('06_Full_station_aerial',(950,-670,700),(130,55,0),48),camera('07_Full_yard_plan',(155,55,1100),(155,55,0),35,1430),camera('08_East_waiting_hall',(27,118,2.8),(-10,109,2.8),26),camera('09_Toilet_interior',(56,-3.4,2.05),(45,3,1.7),23),camera('10_Footbridge_and_platform',(-33,49,3.2),(-62,58,7.5),24),camera('11_Service_workshop',(532,163,2.0),(514,173,1.7),24)]
 scene.camera=cams[0];scene.render.engine='CYCLES';scene.cycles.samples=24;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
 scene.render.resolution_x=1280;scene.render.resolution_y=800;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.exposure=.5
 scene['asset']='ERS full station v02: 2017 photo architecture + mixed-date mapped track plan + reconstructed interiors'
