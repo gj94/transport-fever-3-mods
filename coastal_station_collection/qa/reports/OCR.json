@@ -1,0 +1,163 @@
+{
+  "station_code": "OCR",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/revision_02/ocr",
+  "manifest_sha256": "653382fafef071b7b79f1a8a3121d00968433239d31cb4e54fcd4da43a547173",
+  "blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+  "export_sha256": "14f0902ae235e1bd9aa1e4fcca646044fe1fa7eb1f87e2af519d671a7cf3a773",
+  "export_zip_sha256": "5ec9a9eeac40eb46e30e902eec3d7d2d3bd4528accb00ebae3c6649dc2e2b735",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/OCR_coastal_station_v01.blend",
+      "bytes": 13321291,
+      "sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/BUILD_QA.json",
+      "bytes": 2513,
+      "sha256": "b84d80d6de8d3511a327c59435000a053d909e391f526c3a14aef86d416be3cc"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/EXPORT_QA.json",
+      "bytes": 1314,
+      "sha256": "e7b0ab2c2409fdd79aa6b808a88c8f5fa14cd569dadd5c8285825d7833673e57"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/RENDER_PROVENANCE.json",
+      "bytes": 3915,
+      "sha256": "d4a575f5efd4df38e077d5d0cb35350335acd0278eb9194d4aadc4199d49d661"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 8480,
+      "sha256": "127c4b43d89723ec106eaceb777ffe0edc7af00b35d97f28d9dbde0a3b313d8f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/export/OCR_coastal_station_v01.glb.zip",
+      "bytes": 7814875,
+      "sha256": "5ec9a9eeac40eb46e30e902eec3d7d2d3bd4528accb00ebae3c6649dc2e2b735"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/01_full_mapped_layout.png",
+      "bytes": 1046037,
+      "sha256": "5324cdfc38202360d02d575e5afcf50733dc063115e47e674f60928b00c15742"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/02_station_and_platforms.png",
+      "bytes": 1076433,
+      "sha256": "8ba86badb7deb08719fd94cb13fe4256cb6ec6301b877842bfe0f69e31b53f4d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/03_platform_track_details.png",
+      "bytes": 1272735,
+      "sha256": "b50412c48496fe449bd13ed26be310ed657cdb21c5617635fd482ad48de116e3"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/04_facade_and_approach.png",
+      "bytes": 1269550,
+      "sha256": "1ca570892b4ad5bca0c8999c8ac4446f94c3597dae804bce992f09256a8199ec"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/05_ticket_interior.png",
+      "bytes": 1423110,
+      "sha256": "0fb4a8754cd53267b9fb6e0799d870c89b9dfd59403feb6221e1222e815d0128"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/mapped_geometry.json",
+      "bytes": 50333,
+      "sha256": "bdb6b9ec06ef30ac98cf5e49a2db8082be8ac16f287e85d5b74e2d09ce4d690b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/adopted_geometry.json",
+      "bytes": 181494,
+      "sha256": "b255430e48caed798c35e63a96cf2ddf422d3f5de95dfc50c65230082b0f4fc2"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/station_nameboard.png",
+      "bytes": 19177,
+      "sha256": "4bf133f4093e4f672ea7822be36e3f281c18767334c7f6cc84c5107fe372b3c4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/nameboard_text.json",
+      "bytes": 392,
+      "sha256": "90ff44362eb4b7eb60aa4260a9978b97f005728bf0618970a98abf98bfecb42a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/visual_evidence.json",
+      "bytes": 1188,
+      "sha256": "2149fa2de01ced9135de4a10cc97c47330071cba5d3aaaac047eb3daea10042f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/build_station_used.py",
+      "bytes": 59450,
+      "sha256": "79f96dc61ebefdcee66b866b4dd4e3b53b0c04ae90757ae244fb0398b053af56"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/reference_spec.json",
+      "bytes": 708,
+      "sha256": "f7e63e895e22c65145b6ad1324deb3bba5219b8aaf3c9c638e6dc6d83c488d9a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/ARCHITECTURE_REVISION.json",
+      "bytes": 1320,
+      "sha256": "af50a0d44bd7173062d91202e08f6f270576e5bc2518c3e6c49a7447a5e19223"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/source/repair_architecture_used.py",
+      "bytes": 3690,
+      "sha256": "662f069e083e622019fcb49609ba6650fc9dbf13e89f0278f5c7f7dc903c0bed"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/01_full_mapped_layout.png",
+      "bytes": 1046037,
+      "sha256": "5324cdfc38202360d02d575e5afcf50733dc063115e47e674f60928b00c15742"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/02_station_and_platforms.png",
+      "bytes": 1076433,
+      "sha256": "8ba86badb7deb08719fd94cb13fe4256cb6ec6301b877842bfe0f69e31b53f4d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/03_platform_track_details.png",
+      "bytes": 1272735,
+      "sha256": "b50412c48496fe449bd13ed26be310ed657cdb21c5617635fd482ad48de116e3"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/04_facade_and_approach.png",
+      "bytes": 1269550,
+      "sha256": "1ca570892b4ad5bca0c8999c8ac4446f94c3597dae804bce992f09256a8199ec"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/ocr/renders/05_ticket_interior.png",
+      "bytes": 1423110,
+      "sha256": "0fb4a8754cd53267b9fb6e0799d870c89b9dfd59403feb6221e1222e815d0128"
+    }
+  ],
+  "checks": {
+    "manifest": "All20 frozen file hashes and byte counts independently verified.",
+    "visual": "All five current or explicitly retained images pass independent photo/source review; dark-blue plinth, dated red-tile main roof and adjacent blue-roof wing are represented. Noticeboard no longer overlaps its window.",
+    "resources": "Exact final packed Blender scene independently has metric units, finite meshes/bounds, packed image/font resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bound and embedded-resource checks pass; lossless ZIP and final source/export hashes match.",
+    "layout": "Two reported faces and two full reconstructed side bodies follow the mapped four-road station. All five adopted route segments are retained; platform top faces are valid with at least1.920m centerline separation, building footprint stays8.944m from rails and both stair footprints remain inside bodies. Raw geometry and local mapped-node regularization are retained and disclosed.",
+    "circulation": "Seventy-four independent exported-triangle checks pass:55 low/waist/head paths and19 floor probes. Both bridges meet their decks continuously at8.600m. The central waiting-room route bends around the normal benches; a direct empty central aisle is not claimed. Ramp and both building thresholds have support."
+  },
+  "evidence_reports": [
+    "OCR_final_scene_inspection.json",
+    "OCR_export_geometry_inspection.json",
+    "OCR_final_inputs.json",
+    "OCR_final_layout.json",
+    "OCR_final_portable.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/OCR_c5b94ab4_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operational inventory or engineering certification.",
+    "Mapped centerline irregularities have documented local regularization; raw observed source coordinates remain available.",
+    "Unseen interiors, approximate dimensions and ancillary wing extent are reconstructed.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Some procedural Blender materials use base-colour portable fallbacks."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

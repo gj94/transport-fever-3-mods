@@ -1,0 +1,30 @@
+{
+  "station": "OCR",
+  "adopted_sha256": "b255430e48caed798c35e63a96cf2ddf422d3f5de95dfc50c65230082b0f4fc2",
+  "platform_railcenter_min_m": [
+    1.9199996294688289,
+    1.9199995277479724
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 8.943996827392299,
+  "building_platform_overlap_m2": 0.0,
+  "ramp_railcenter_min_m": 19.072519941071885,
+  "flights": [
+    {
+      "platform": 0,
+      "y": -24.260588531880188,
+      "outside_platform_m2": 0.0
+    },
+    {
+      "platform": 1,
+      "y": -1.344012833796616,
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": "2",
+  "modelled_bodies": 2,
+  "route_segments": 5
+}

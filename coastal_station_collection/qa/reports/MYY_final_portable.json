@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/revision_02/myy/export/MYY_coastal_station_v01.glb.zip!MYY_coastal_station_v01.glb",
+    "bytes": 45528032,
+    "errors": [],
+    "warnings": [],
+    "sha256": "16bd2f678c430323b26ef388d47ed108fe919fd2eae2991206fbc3aae807c1bd",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 45528032
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 140636
+      },
+      {
+        "type": 5130562,
+        "bytes": 45387368
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 198,
+    "mesh_count": 198,
+    "primitive_count": 198,
+    "vertex_reference_count": 1532271,
+    "accessor_count": 507,
+    "validated_accessor_count": 507,
+    "material_count": 28,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "655f07cb875fc58841bababd2c16884f00fd1d9cc89aceb414c0c7664cff3556",
+    "container_bytes": 5835961
+  }
+]

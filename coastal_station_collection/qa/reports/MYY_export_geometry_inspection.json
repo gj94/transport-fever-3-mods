@@ -1,0 +1,395 @@
+{
+  "asset": "coastal_stations_overnight/middle/revision_02/myy/export/MYY_coastal_station_v01.glb.zip",
+  "export_sha256": "16bd2f678c430323b26ef388d47ed108fe919fd2eae2991206fbc3aae807c1bd",
+  "container_sha256": "655f07cb875fc58841bababd2c16884f00fd1d9cc89aceb414c0c7664cff3556",
+  "default_scene": "Scene",
+  "scene_count": 1,
+  "objects": 198,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "public_door_-2.9_0.35": {
+      "from": [
+        -2.9,
+        5.15,
+        1.3679999999999999
+      ],
+      "to": [
+        -2.9,
+        -6.449999999999999,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.35": {
+      "from": [
+        -14.95,
+        18.25,
+        0.39999999999999997
+      ],
+      "to": [
+        -14.95,
+        5.85,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_door_-2.9_0.9": {
+      "from": [
+        -2.9,
+        5.15,
+        1.9180000000000001
+      ],
+      "to": [
+        -2.9,
+        -6.449999999999999,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.9": {
+      "from": [
+        -14.95,
+        18.25,
+        0.9500000000000001
+      ],
+      "to": [
+        -14.95,
+        5.85,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_door_-2.9_1.7": {
+      "from": [
+        -2.9,
+        5.15,
+        2.718
+      ],
+      "to": [
+        -2.9,
+        -6.449999999999999,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -14.95,
+        18.25,
+        1.75
+      ],
+      "to": [
+        -14.95,
+        5.85,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "front_landing_to_portal_0.35": {
+      "from": [
+        -14.95,
+        5.05,
+        1.3679999999999999
+      ],
+      "to": [
+        -2.9,
+        5.05,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "front_landing_to_portal_0.9": {
+      "from": [
+        -14.95,
+        5.05,
+        1.9180000000000001
+      ],
+      "to": [
+        -2.9,
+        5.05,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "front_landing_to_portal_1.7": {
+      "from": [
+        -14.95,
+        5.05,
+        2.718
+      ],
+      "to": [
+        -2.9,
+        5.05,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_0": {
+      "from": [
+        -14.95,
+        18.25,
+        0.3
+      ],
+      "to": [
+        -14.95,
+        18.25,
+        -0.45
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -14.95,
+        18.25,
+        0.05000000074505809
+      ],
+      "hit_normal": [
+        0.0,
+        -0.07782773243031785,
+        -0.9969668219478294
+      ]
+    },
+    "floor_ramp_0.25": {
+      "from": [
+        -14.95,
+        15.15,
+        0.542
+      ],
+      "to": [
+        -14.95,
+        15.15,
+        -0.20800000000000002
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -14.95,
+        15.15,
+        0.2920000003665206
+      ],
+      "hit_normal": [
+        0.0,
+        -0.07782773243031785,
+        -0.9969668219478294
+      ]
+    },
+    "floor_ramp_0.5": {
+      "from": [
+        -14.95,
+        12.05,
+        0.784
+      ],
+      "to": [
+        -14.95,
+        12.05,
+        0.03400000000000003
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -14.95,
+        12.05,
+        0.5339999999879829
+      ],
+      "hit_normal": [
+        0.0,
+        -0.07782773243031785,
+        -0.9969668219478294
+      ]
+    },
+    "floor_ramp_0.75": {
+      "from": [
+        -14.95,
+        8.95,
+        1.026
+      ],
+      "to": [
+        -14.95,
+        8.95,
+        0.276
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -14.95,
+        8.95,
+        0.7759999996094454
+      ],
+      "hit_normal": [
+        0.0,
+        -0.07782773243031785,
+        -0.9969668219478294
+      ]
+    },
+    "floor_ramp_1": {
+      "from": [
+        -14.95,
+        5.85,
+        1.268
+      ],
+      "to": [
+        -14.95,
+        5.85,
+        0.518
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -14.95,
+        5.85,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-2.9_4.35": {
+      "from": [
+        -2.9,
+        4.35,
+        1.268
+      ],
+      "to": [
+        -2.9,
+        4.35,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -2.9,
+        4.35,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-2.9_4.15": {
+      "from": [
+        -2.9,
+        4.15,
+        1.268
+      ],
+      "to": [
+        -2.9,
+        4.15,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Station building raised floor",
+      "hit_location": [
+        -2.9,
+        4.15,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-2.9_-5.75": {
+      "from": [
+        -2.9,
+        -5.75,
+        1.268
+      ],
+      "to": [
+        -2.9,
+        -5.75,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Station building raised floor",
+      "hit_location": [
+        -2.9,
+        -5.75,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-2.9_-5.949999999999999": {
+      "from": [
+        -2.9,
+        -5.949999999999999,
+        1.268
+      ],
+      "to": [
+        -2.9,
+        -5.949999999999999,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Raised entrance-to-platform apron reconstructed",
+      "hit_location": [
+        -2.9,
+        -5.949999999999999,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-2.9_-6.449999999999999": {
+      "from": [
+        -2.9,
+        -6.449999999999999,
+        1.268
+      ],
+      "to": [
+        -2.9,
+        -6.449999999999999,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Platform body 1",
+      "hit_location": [
+        -2.9,
+        -6.449999999999999,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    }
+  }
+}

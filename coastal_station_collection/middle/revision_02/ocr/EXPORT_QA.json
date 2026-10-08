@@ -1,0 +1,36 @@
+{
+  "station": "OCR",
+  "authoritative_blend": "OCR_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+  "glb_file": "OCR_coastal_station_v01.glb",
+  "glb_sha256": "14f0902ae235e1bd9aa1e4fcca646044fe1fa7eb1f87e2af519d671a7cf3a773",
+  "glb_bytes": 61541052,
+  "source_mesh_objects": 239,
+  "source_vertices": 719160,
+  "elapsed_seconds": 1.3051016330718994,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "OCR_coastal_station_v01.glb.zip",
+  "zip_sha256": "5ec9a9eeac40eb46e30e902eec3d7d2d3bd4528accb00ebae3c6649dc2e2b735",
+  "zip_bytes": 7814875,
+  "roundtrip_mesh_objects": 239,
+  "roundtrip_vertices": 2069183,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -2.1500000953674316
+    ],
+    [
+      1135.0,
+      265.0,
+      12.48270320892334
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

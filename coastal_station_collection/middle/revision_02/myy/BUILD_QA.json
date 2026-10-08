@@ -1,0 +1,51 @@
+{
+  "station_code": "MYY",
+  "blend": "MYY_coastal_station_v01.blend",
+  "generated_at_unix": 1791490712.5348125,
+  "builder_sha256": "b33f6409f8b021b46346a16e05590bfef73a7b15bb94342e2caf1b2b7692c7aa",
+  "source_adopted_sha256": "2b42404b112a7e8beb1bec19e74b902bb7ee7df783abcef6ec6fe101bd430b78",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 2,
+  "track_route_total_length_m": 4300.05643609001,
+  "mapped_switch_nodes": 0,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 184,
+  "total_objects": 211,
+  "vertices": 512001,
+  "polygons": 374947,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000001867373346,
+      "clearance_m": 1.9200000000000013
+    },
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.0,
+      "clearance_m": 1.919999999999999
+    }
+  ],
+  "corrections": [],
+  "notes": "Mapped station building envelope anchors reconstruction; two side platforms reconstructed from double-line alignment. February2023 photo guides blue central bay, red decorative cross-gable with scalloped boards/trefoil motif, yellow name plaque, brown joinery and broad single-slope cream/grey shelters.",
+  "revision": "noticeboard placement revision02",
+  "base_blend_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+  "repair_script_sha256": "a4a67dee2ba3b6fff063c956f2f2bf2c9d01ed92b38dd43aadcaafb1b6fdac67"
+}
