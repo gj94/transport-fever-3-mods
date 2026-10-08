@@ -1,5 +1,21 @@
 # Indian Rail Prototype Pack v1.0
 
+## ICF and LHB detailed coach sources v0.2
+
+![Conventional blue ICF first-class coach rendered outdoors](icf_detail_v02/1A/renders/hero_final.png)
+
+[ICF actual-model gallery](icf_detail_v02/GALLERY.md) · [ICF editable sources and reproducible checks](icf_detail_v02/README.md) · [ICF reference interpretation](icf_detail_v02/FIDELITY.md)
+
+![Red and grey LHB first-class coach rendered outdoors](lhb_detail_v02/previews/LHB_1A_exterior.png)
+
+[LHB actual-model gallery](lhb_detail_v02/GALLERY.md) · [LHB editable sources and reproducible checks](lhb_detail_v02/README.md)
+
+Each separate v0.2 family includes seven full-length classes: **1A, 2A, 3A, 2S, CC, SL and GS**. Every class has its own furnished interior, exterior, metre-scale Blender master and FBX export. Rebuild/render scripts, texture dependencies, source and image provenance, railway reference links and validation reports accompany the models. The galleries contain actual Blender Cycles renders of the supplied geometry.
+
+Selected conventional ICF stock uses **screw couplings and side buffers**; LHB uses CBC geometry. Physical accommodation and class layouts are documented separately from gameplay capacity. These are reference-informed authoring models, not manufacturing drawings. Geometry and export checks pass within their documented scope; editable-font tessellation warnings and visual interpretations are disclosed in each family’s reports.
+
+**The completed galleries contain 24 ICF views and 21 LHB views**, accepted with the documented fidelity caveats. All fourteen class exterior/interior preview pairs are available. Every ICF image matches its current master. Twenty LHB images retain their exact accepted pre-WC-repair masters under `revisions/pre_wc_repair_20261008`; the corrected lavatory image matches the latest source. These source revisions are explicitly identified in the gallery and provenance records. The detailed v0.2 families have not been converted, optimized or tested in Transport Fever 3. Character-animation fit, dynamic mechanical clearances and runtime behavior remain unvalidated. Earlier v0.1 sources and the existing downloadable game pack remain unchanged.
+
 ## Vande Bharat 2.0 full-size detailed source v0.2
 
 ![Full-size Vande Bharat chair-car rake rendered beside the track](vande_bharat_detail_v02/previews/rake8.png)

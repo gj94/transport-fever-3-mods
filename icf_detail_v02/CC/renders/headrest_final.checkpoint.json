@@ -1,0 +1,137 @@
+{
+  "workflow": "independent_seed_linear_exr_average_v1",
+  "total_uniform_samples": 512,
+  "adaptive_sampling": false,
+  "batches": [
+    {
+      "file": "batch_00.exr",
+      "sha256": "4b2ee9e4f6a3a41a65307f1a40ea2717eb859fe08f1fdd33f2b13536a1cdfb4c",
+      "seed": 104746,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 235.77497728900198,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_01.exr",
+      "sha256": "9d9db0adda2a599c0f4234f9af961802fe3fba770850e442fdd57e4101192d2d",
+      "seed": 209475,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 230.03345542799798,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_02.exr",
+      "sha256": "0679953208766cb14a49a5844026026211fd8712bb8ae68047a300186c4f05f8",
+      "seed": 314204,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 239.10773823899945,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_03.exr",
+      "sha256": "28104f01bb3fa7288b60a72c25deba1f6aee5f4f17aac54af3bd62ea716ca87a",
+      "seed": 418933,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 238.92887456999597,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_04.exr",
+      "sha256": "ebcc356d0e55478385c0ce0c7805080c004a308ae19788e5978ffb0efa616cdc",
+      "seed": 523662,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 244.60824850599602,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_05.exr",
+      "sha256": "12811db179e27e39193e53e61cc2d4f11119604da8eb90ea71ffc4b324ae5373",
+      "seed": 628391,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 244.02160203599487,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_06.exr",
+      "sha256": "d6d908ed4510494dedf8521f13da13a8c7366e0be524e9fded1d447132951dc9",
+      "seed": 733120,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 240.29482697899948,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    },
+    {
+      "file": "batch_07.exr",
+      "sha256": "bf1c448129f975ea0045e1d0523a5144823a4241cb709d54a15afaed745f0c32",
+      "seed": 837849,
+      "samples": 64,
+      "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+      "seconds": 243.52234218299418,
+      "format": "OPEN_EXR RGBA float32 scene-linear"
+    }
+  ],
+  "fingerprint": "90dd2e1535e5eccc78f51bcdd0d3d363a62a3914446e3d9b22043accf65ee423",
+  "spec": {
+    "identity": {
+      "renderer_path": "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/render_detail.py",
+      "renderer_sha256": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+      "source_sha256": "40812066ecc01ec1814cfa08ec3028f6465b501098feeb0f4140874d4b1ec02d",
+      "presentation_modules": {
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/run_checkpoint_renderer_externaldeps.py": "0890e3afb911b8e150f3dc3b7edfc013c3741501e1cc2e987e9f62ae04f627c8",
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/checkpoint_render.py": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+        "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b"
+      }
+    },
+    "wrapper_sha256": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+    "batches": 8,
+    "samples_per_batch": 64,
+    "resolution": [
+      1600,
+      1040,
+      100
+    ],
+    "camera_matrix": [
+      [
+        0.6925317645072937,
+        -0.24128955602645874,
+        0.6798375844955444,
+        25.0
+      ],
+      [
+        0.7213873863220215,
+        0.2316378653049469,
+        -0.6526439785957336,
+        -24.0
+      ],
+      [
+        3.643966550725963e-08,
+        0.9424028992652893,
+        0.33447980880737305,
+        14.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_lens": 40.0,
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "method": "equal-weight mean of independent-seed uniform-sample scene-linear RGBA float32 EXRs; one final display transform",
+    "denoising": false,
+    "adaptive_sampling": false
+  },
+  "combined_linear_sha256": "a3e0e0c93fc981b32672579292f58e8d2edcc50ff7276bc79b2d6781e36f89dd",
+  "image_sha256": "1e35fec861d39f4dbd09b84129e6983fbe62aa1ca4e8588da9816552dcc4bd25",
+  "duration_seconds": 1917.5791268489993
+}

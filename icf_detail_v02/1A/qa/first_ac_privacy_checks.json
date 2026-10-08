@@ -1,0 +1,14 @@
+{
+  "variant": "1A",
+  "build_pass": "r12-stencil",
+  "source_sha256": "a945a7fa639996aaa13fe19a8cdd9d022b2efd1c35de81795b98010c8578756b",
+  "checks": {
+    "seven_bulkheads_present": true,
+    "six_corridor_top_panels_present": true,
+    "partition_and_ceiling_contacts": true,
+    "capacity_preserved": true,
+    "berth_count_preserved": true
+  },
+  "errors": [],
+  "passed": true
+}

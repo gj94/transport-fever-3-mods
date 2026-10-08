@@ -1,0 +1,88 @@
+{
+  "component_version": "v02.2",
+  "mode": "nonAC",
+  "source_sha256": "961ebcbbc6619669bfc4c875e26c5c557ad1c40e9eb46bc648d66a543cb3e680",
+  "passed": false,
+  "checks": {
+    "component_counts": {
+      "pass": true,
+      "detail": {
+        "primary_springs": 16,
+        "secondary_springs": 8,
+        "brake_blocks": 16,
+        "wheels": 8,
+        "axles": 4,
+        "belts": 4
+      }
+    },
+    "pivot_spacing": {
+      "pass": true,
+      "detail": null
+    },
+    "wheelbase": {
+      "pass": true,
+      "detail": null
+    },
+    "axle_height": {
+      "pass": true,
+      "detail": null
+    },
+    "wheel_tread_diameter": {
+      "pass": true,
+      "detail": null
+    },
+    "side_bearer_pitch": {
+      "pass": true,
+      "detail": null
+    },
+    "wheel_responds_to_axle_rotation": {
+      "pass": true,
+      "detail": null
+    },
+    "axlebox_does_not_rotate_with_axle": {
+      "pass": true,
+      "detail": null
+    },
+    "fixed_gear_not_parented_to_axles": {
+      "pass": true,
+      "detail": []
+    },
+    "wheel_responds_to_bogie_yaw": {
+      "pass": true,
+      "detail": null
+    },
+    "body_equipment_ignores_bogie_yaw": {
+      "pass": true,
+      "detail": null
+    },
+    "nonmanifold": {
+      "pass": false,
+      "detail": [
+        [
+          "Auxiliary air reservoir",
+          80
+        ],
+        [
+          "Control reservoir",
+          80
+        ]
+      ]
+    },
+    "degenerate_faces": {
+      "pass": true,
+      "detail": []
+    },
+    "inward_volume": {
+      "pass": true,
+      "detail": []
+    },
+    "nonfinite": {
+      "pass": true,
+      "detail": []
+    }
+  },
+  "mesh_count": 1879,
+  "vertices": 118092,
+  "polygons": 102062,
+  "scope": "Procedural component source geometry and parenting only. Not full-coach collision, production drawing certification, native game conversion, or suspension animation."
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "SL",
+  "build_pass": "r12-stencil",
+  "source_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+  "checks": {
+    "side_berth_pans_present": true,
+    "side_pans_reach_corner_posts": true,
+    "side_lower_legs_reach_floor": true
+  },
+  "details": {
+    "side_pan_count": 18,
+    "side_lower_leg_count": 18
+  },
+  "passed": true,
+  "scope": "Static focused source support contacts and paired-seat clearances; no dynamic or human fit certification"
+}

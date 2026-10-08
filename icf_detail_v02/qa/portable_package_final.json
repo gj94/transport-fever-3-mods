@@ -1,0 +1,90 @@
+{
+  "reference_ledger_available_and_verified": true,
+  "passed": true,
+  "sources": [
+    {
+      "path": "icf_detail_v02/1A/ICF_1A_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/1A/ICF_1A.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/2A/ICF_2A_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/2A/ICF_2A.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/3A/ICF_3A_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/3A/ICF_3A.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/2S/ICF_2S_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/2S/ICF_2S.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/CC/ICF_CC_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/CC/ICF_CC.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/SL/ICF_SL_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/SL/ICF_SL.fbx",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/GS/ICF_GS_master.blend",
+      "hash_matches": true
+    },
+    {
+      "path": "icf_detail_v02/GS/ICF_GS.fbx",
+      "hash_matches": true
+    }
+  ],
+  "presentation_dependencies": [
+    {
+      "path": "vande_bharat_detail_v02/components/environment_depot.py",
+      "hash_matches": true
+    },
+    {
+      "path": "vande_bharat_detail_v02/components/common.py",
+      "hash_matches": true
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+      "hash_matches": true
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_diff_2k.jpg",
+      "hash_matches": true
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_rough_2k.jpg",
+      "hash_matches": true
+    },
+    {
+      "path": "wap7_photoreal_v02/environment/dirt_disp_2k.exr",
+      "hash_matches": true
+    }
+  ],
+  "errors": [],
+  "scope": "File integrity and preview dependency availability only; see per-class QA for geometry and export checks. No game/runtime claim."
+}

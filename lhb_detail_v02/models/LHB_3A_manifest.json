@@ -1,0 +1,46 @@
+{
+  "source_module_sha256": {
+    "build_lhb_detail.py": "d7794d5b80f767575780dfaaab08ba0b943ebc04fc2c04feeb757e69848a5a89",
+    "lhb_shell.py": "29d80b2d0df25150d8ea48eda61bf80b6048ef3e7d018a15a9811f9b3ee2a56b",
+    "lhb_finish_detail.py": "2c75ca99a82c37261a76772bb484356744f228e8d9a8b3b4e3d0954223ce13b5",
+    "lhb_running_gear.py": "779f431074a2878540fcfd8070bed60938745ff21d897009c7c54eedd9c2c1d1",
+    "lhb_identity_detail.py": "43db9472d913ca775b1da6a93a3298e999f6dc4f67a4f465c67b88cc54f21eca",
+    "lhb_hvac_detail.py": "b344f40c1d026202f2428cfb84d87b66f546dc07a5f6a1ddb567423618f6acfb",
+    "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d",
+    "lhb_chair_detail.py": "29c0649b3c0b7df1a45d0d94bd986cacbcd4c258a878aebcf4643c19dce178c6"
+  },
+  "variant": "3A",
+  "prototype_code": "LWACCN",
+  "physical_capacity": 72,
+  "capacity_type": "berths",
+  "daytime_seats": 72,
+  "PAX_roots": 72,
+  "BERTH_references": 72,
+  "layout": "9 eight-berth bays; middle berths folded for daytime",
+  "game_capacity": null,
+  "root": "LHB_3A_ROOT_metres",
+  "body_length_m": 23.54,
+  "coupling_span_m": 24.0,
+  "body_width_m": 3.24,
+  "roof_height_m": 4.039,
+  "bogie_centres_m": 14.9,
+  "bogie_wheelbase_m": 2.56,
+  "wheel_tread_diameter_m": 0.915,
+  "floor_height_m": 1.303,
+  "seat_cushion_top_z_m": 1.84,
+  "seat_character_root_z_m": 1.3570000000000002,
+  "glass_source_transmission": 0.96,
+  "glass_fbx_alpha": 0.22,
+  "native_TF3_conversion": false,
+  "runtime_tested": false,
+  "wc_seat_ring_patch": {
+    "script": "scripts/fix_wc_seat_rings.py",
+    "sha256": "59a16f370a788e5445966352e826031399df6ff26468b7a5a8eafd89ec339f81",
+    "scope": "Only WC_seat_ring disconnected rods replaced by continuous manifold rings; all other evaluated geometry, hierarchy, custom properties and all material node inputs/links unchanged"
+  },
+  "wc_paper_mount_patch": {
+    "script": "scripts/fix_wc_paper_mounts.py",
+    "sha256": "52dd93467535a9939b03c5e50a18e40dddb2cc80264d65c0760b741732ecf70c",
+    "scope": "Only paper-holder and matching tissue-roll Y translations to actual corridor-wall inner face; all other evaluated geometry, hierarchy, custom properties and material node values/links unchanged"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "component_version": "v02.3",
+  "mode": "nonAC",
+  "source_sha256": "64470e779aca3013d2389b2d44323213c7608bad0472ba1241b4aaaa13945599",
+  "passed": true,
+  "checks": {
+    "component_counts": {
+      "pass": true,
+      "detail": {
+        "primary_springs": 16,
+        "secondary_springs": 8,
+        "brake_blocks": 16,
+        "wheels": 8,
+        "axles": 4,
+        "belts": 4
+      }
+    },
+    "pivot_spacing": {
+      "pass": true,
+      "detail": null
+    },
+    "wheelbase": {
+      "pass": true,
+      "detail": null
+    },
+    "axle_height": {
+      "pass": true,
+      "detail": null
+    },
+    "wheel_tread_diameter": {
+      "pass": true,
+      "detail": [
+        [
+          "ICF monobloc 915mm dished wheel",
+          96,
+          0.915000013985801
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.001",
+          96,
+          0.915000013985801
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.002",
+          96,
+          0.9149999868870746
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.003",
+          96,
+          0.9149999868870746
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.004",
+          96,
+          0.9149999868870746
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.005",
+          96,
+          0.9149999868870746
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.006",
+          96,
+          0.915000013985801
+        ],
+        [
+          "ICF monobloc 915mm dished wheel.007",
+          96,
+          0.915000013985801
+        ]
+      ]
+    },
+    "side_bearer_pitch": {
+      "pass": true,
+      "detail": null
+    },
+    "wheel_responds_to_axle_rotation": {
+      "pass": true,
+      "detail": null
+    },
+    "axlebox_does_not_rotate_with_axle": {
+      "pass": true,
+      "detail": null
+    },
+    "fixed_gear_not_parented_to_axles": {
+      "pass": true,
+      "detail": []
+    },
+    "wheel_responds_to_bogie_yaw": {
+      "pass": true,
+      "detail": null
+    },
+    "body_equipment_ignores_bogie_yaw": {
+      "pass": true,
+      "detail": null
+    },
+    "alternator_rotor_independent": {
+      "pass": true,
+      "detail": null
+    },
+    "alternator_drive_ratio": {
+      "pass": true,
+      "detail": null
+    },
+    "pulley_face_width": {
+      "pass": true,
+      "detail": null
+    },
+    "pulley_groove_count": {
+      "pass": true,
+      "detail": null
+    },
+    "spring_seat_contact": {
+      "pass": true,
+      "detail": [
+        [
+          "Primary 33.5mm helical spring",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.001",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.002",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.003",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.004",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.005",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.006",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.007",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.008",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.009",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.010",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.011",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.012",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.013",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.014",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Primary 33.5mm helical spring.015",
+          0.0008461728096008647,
+          0.0008461799621581889
+        ],
+        [
+          "Secondary 42mm bolster coil",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.001",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.002",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.003",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.004",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.005",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.006",
+          0.001046151638031012,
+          0.0010461344718932786
+        ],
+        [
+          "Secondary 42mm bolster coil.007",
+          0.001046151638031012,
+          0.0010461344718932786
+        ]
+      ]
+    },
+    "alternator_lower_plank_clearance": {
+      "pass": true,
+      "detail": [
+        0.0540003776550293,
+        0.6540002822875977,
+        0.0540003776550293,
+        0.6540002822875977
+      ]
+    },
+    "frame_length": {
+      "pass": true,
+      "detail": null
+    },
+    "brake_block_flange_root_clearance": {
+      "pass": true,
+      "detail": null
+    },
+    "nonmanifold": {
+      "pass": true,
+      "detail": []
+    },
+    "degenerate_faces": {
+      "pass": true,
+      "detail": []
+    },
+    "zero_length_edges": {
+      "pass": true,
+      "detail": []
+    },
+    "inward_volume": {
+      "pass": true,
+      "detail": []
+    },
+    "nonfinite": {
+      "pass": true,
+      "detail": []
+    }
+  },
+  "mesh_count": 1880,
+  "vertices": 117624,
+  "polygons": 101748,
+  "scope": "Procedural component source geometry and parenting only. Not full-coach collision, production drawing certification, native game conversion, or suspension animation."
+}
