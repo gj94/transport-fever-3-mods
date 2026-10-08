@@ -1,6 +1,6 @@
 # MQO station model
 
-Historical checkpoint: this initial model is superseded by the [corrected MQO revision](../revision_02/mqo/README.md). The stair-to-deck issue is resolved in that reviewed replacement. See the [correction history](REVIEW_NOTICE.md) and [current model gallery](../revision_02/mqo/GALLERY.md).
+Corrected footbridge revision passed renewed independent review. Source/export match the corrected scene; views 01–03 were refreshed and unchanged-area views 04–05 retain their explicitly documented earlier lineage.
 
 [Model images](GALLERY.md) · [Sources and limitations](SOURCES_AND_UNCERTAINTIES.md)
 

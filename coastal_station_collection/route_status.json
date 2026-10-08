@@ -1,5 +1,5 @@
 {
-  "status_snapshot_utc": "2026-10-08T18:53:35.888917+00:00",
+  "status_snapshot_utc": "2026-10-08T19:04:29.649639+00:00",
   "scope": "55 active station/halts plus closed historical TNU",
   "new_active_target": 52,
   "stations": [
@@ -310,14 +310,14 @@
       "name": "Munroturuttu",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "126.11",
-      "build_status": "published_correction_pending",
-      "qa_status": "corrections required",
-      "backup_commit": "857323d868e9ba7ec5ea24f52ddeb452abdbdaf6",
-      "main_commit": "c934147fb2a3a950b8b94758b9642c901c4673a2",
-      "station_path": "coastal_station_collection/middle/mqo",
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "d94e3faba694c3b9cf249ff2eb2cba5c798cc8b5",
+      "main_commit": null,
+      "station_path": "coastal_station_collection/middle/revision_02/mqo",
       "preview_paths": [
-        "coastal_station_collection/middle/mqo/renders/04_facade_and_approach.png",
-        "coastal_station_collection/middle/mqo/renders/05_ticket_interior.png"
+        "coastal_station_collection/middle/revision_02/mqo/renders/02_station_and_platforms.png",
+        "coastal_station_collection/middle/revision_02/mqo/renders/04_facade_and_approach.png"
       ],
       "station_code": "MQO"
     },

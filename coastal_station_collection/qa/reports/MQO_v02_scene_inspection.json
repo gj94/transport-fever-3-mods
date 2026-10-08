@@ -1,0 +1,551 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_02/mqo/MQO_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 209,
+  "object_types": {
+    "MESH": 191,
+    "FONT": 9,
+    "LIGHT": 4,
+    "CAMERA": 5
+  },
+  "unique_meshes": 191,
+  "unique_vertices": 433212,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.608071327209473
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../mqo/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "MQO",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "2",
+    "platform_bodies_modelled": "2",
+    "bridge_revision": "v02: 42-tread flights rise to leading deck edge x78.5, not deck centre. Walking deck top8.6m; 14.7m run; covered flight shifted with stairs.",
+    "base_blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1"
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "circulation_rays": {
+    "flight_1_-0.6_0.45": {
+      "from": [
+        63.79999923706055,
+        0.01730000041425228,
+        1.468000054359436
+      ],
+      "to": [
+        78.5,
+        0.01730000041425228,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0_0.45": {
+      "from": [
+        63.79999923706055,
+        0.6172999739646912,
+        1.468000054359436
+      ],
+      "to": [
+        78.5,
+        0.6172999739646912,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0.6_0.45": {
+      "from": [
+        63.79999923706055,
+        1.2173000574111938,
+        1.468000054359436
+      ],
+      "to": [
+        78.5,
+        1.2173000574111938,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_1_0.45": {
+      "from": [
+        78.19999694824219,
+        0.6172999739646912,
+        9.050000190734863
+      ],
+      "to": [
+        80.0,
+        0.6172999739646912,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_-0.6_0.9": {
+      "from": [
+        63.79999923706055,
+        0.01730000041425228,
+        1.9179999828338623
+      ],
+      "to": [
+        78.5,
+        0.01730000041425228,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0_0.9": {
+      "from": [
+        63.79999923706055,
+        0.6172999739646912,
+        1.9179999828338623
+      ],
+      "to": [
+        78.5,
+        0.6172999739646912,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0.6_0.9": {
+      "from": [
+        63.79999923706055,
+        1.2173000574111938,
+        1.9179999828338623
+      ],
+      "to": [
+        78.5,
+        1.2173000574111938,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_1_0.9": {
+      "from": [
+        78.19999694824219,
+        0.6172999739646912,
+        9.5
+      ],
+      "to": [
+        80.0,
+        0.6172999739646912,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_-0.6_1.7": {
+      "from": [
+        63.79999923706055,
+        0.01730000041425228,
+        2.7179999351501465
+      ],
+      "to": [
+        78.5,
+        0.01730000041425228,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0_1.7": {
+      "from": [
+        63.79999923706055,
+        0.6172999739646912,
+        2.7179999351501465
+      ],
+      "to": [
+        78.5,
+        0.6172999739646912,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0.6_1.7": {
+      "from": [
+        63.79999923706055,
+        1.2173000574111938,
+        2.7179999351501465
+      ],
+      "to": [
+        78.5,
+        1.2173000574111938,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_1_1.7": {
+      "from": [
+        78.19999694824219,
+        0.6172999739646912,
+        10.300000190734863
+      ],
+      "to": [
+        80.0,
+        0.6172999739646912,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_1_78.49": {
+      "from": [
+        78.48999786376953,
+        0.6172999739646912,
+        8.800000190734863
+      ],
+      "to": [
+        78.48999786376953,
+        0.6172999739646912,
+        7.400000095367432
+      ],
+      "clear": false,
+      "hit": "Footbridge individual stair tread",
+      "hit_location": [
+        78.48999786376953,
+        0.6172999739646912,
+        8.600000381469727
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_1_78.51": {
+      "from": [
+        78.51000213623047,
+        0.6172999739646912,
+        8.800000190734863
+      ],
+      "to": [
+        78.51000213623047,
+        0.6172999739646912,
+        7.400000095367432
+      ],
+      "clear": false,
+      "hit": "Footbridge deck",
+      "hit_location": [
+        78.51000213623047,
+        0.6172999739646912,
+        8.600000381469727
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "flight_2_-0.6_0.45": {
+      "from": [
+        63.79999923706055,
+        17.14399528503418,
+        1.468000054359436
+      ],
+      "to": [
+        78.5,
+        17.14399528503418,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0_0.45": {
+      "from": [
+        63.79999923706055,
+        17.743995666503906,
+        1.468000054359436
+      ],
+      "to": [
+        78.5,
+        17.743995666503906,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0.6_0.45": {
+      "from": [
+        63.79999923706055,
+        18.343994140625,
+        1.468000054359436
+      ],
+      "to": [
+        78.5,
+        18.343994140625,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_2_0.45": {
+      "from": [
+        78.19999694824219,
+        17.743995666503906,
+        9.050000190734863
+      ],
+      "to": [
+        80.0,
+        17.743995666503906,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_-0.6_0.9": {
+      "from": [
+        63.79999923706055,
+        17.14399528503418,
+        1.9179999828338623
+      ],
+      "to": [
+        78.5,
+        17.14399528503418,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0_0.9": {
+      "from": [
+        63.79999923706055,
+        17.743995666503906,
+        1.9179999828338623
+      ],
+      "to": [
+        78.5,
+        17.743995666503906,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0.6_0.9": {
+      "from": [
+        63.79999923706055,
+        18.343994140625,
+        1.9179999828338623
+      ],
+      "to": [
+        78.5,
+        18.343994140625,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_2_0.9": {
+      "from": [
+        78.19999694824219,
+        17.743995666503906,
+        9.5
+      ],
+      "to": [
+        80.0,
+        17.743995666503906,
+        9.5
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_-0.6_1.7": {
+      "from": [
+        63.79999923706055,
+        17.14399528503418,
+        2.7179999351501465
+      ],
+      "to": [
+        78.5,
+        17.14399528503418,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0_1.7": {
+      "from": [
+        63.79999923706055,
+        17.743995666503906,
+        2.7179999351501465
+      ],
+      "to": [
+        78.5,
+        17.743995666503906,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0.6_1.7": {
+      "from": [
+        63.79999923706055,
+        18.343994140625,
+        2.7179999351501465
+      ],
+      "to": [
+        78.5,
+        18.343994140625,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_2_1.7": {
+      "from": [
+        78.19999694824219,
+        17.743995666503906,
+        10.300000190734863
+      ],
+      "to": [
+        80.0,
+        17.743995666503906,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_2_78.49": {
+      "from": [
+        78.48999786376953,
+        17.743995666503906,
+        8.800000190734863
+      ],
+      "to": [
+        78.48999786376953,
+        17.743995666503906,
+        7.400000095367432
+      ],
+      "clear": false,
+      "hit": "Footbridge individual stair tread",
+      "hit_location": [
+        78.48999786376953,
+        17.743995666503906,
+        8.600000381469727
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_2_78.51": {
+      "from": [
+        78.51000213623047,
+        17.743995666503906,
+        8.800000190734863
+      ],
+      "to": [
+        78.51000213623047,
+        17.743995666503906,
+        7.400000095367432
+      ],
+      "clear": false,
+      "hit": "Footbridge deck",
+      "hit_location": [
+        78.51000213623047,
+        17.743995666503906,
+        8.600000381469727
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d"
+}

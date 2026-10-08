@@ -1,0 +1,36 @@
+{
+  "station": "MQO",
+  "authoritative_blend": "MQO_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+  "glb_file": "MQO_coastal_station_v01.glb",
+  "glb_sha256": "b86fe0b6590c8c16096f9e838c68c49dcfeb08237baf07f17c64ad86eeefd9ee",
+  "glb_bytes": 38297716,
+  "source_mesh_objects": 199,
+  "source_vertices": 450372,
+  "elapsed_seconds": 1.0827031135559082,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "MQO_coastal_station_v01.glb.zip",
+  "zip_sha256": "8f35daf33831244786f27443d00faf1e7ad10f138ee1bc8ace472025e33c5d47",
+  "zip_bytes": 5004738,
+  "roundtrip_mesh_objects": 199,
+  "roundtrip_vertices": 1287562,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.608071327209473
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

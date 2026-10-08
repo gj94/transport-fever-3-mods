@@ -29,7 +29,7 @@ Route order and station-centre distances follow the source register. Unresolved 
 | 21 | [OCR · Ochira](#station-ocr) | 106.24 km | Pending |
 | 22 | [KPY · Karunagapalli](#station-kpy) | 113.93 km | Pending |
 | 23 | [STKT · Sasthankotta](#station-stkt) | 121.59 km | Pending |
-| 24 | [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/c934147fb2a3a950b8b94758b9642c901c4673a2/coastal_station_collection/middle/mqo) | 126.11 km | Published checkpoint; correction pending |
+| 24 | [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/d94e3faba694c3b9cf249ff2eb2cba5c798cc8b5/coastal_station_collection/middle/revision_02/mqo) | 126.11 km | Independently reviewed model |
 | 25 | [PRND · Perinad](#station-prnd) | 131.99 km | Pending |
 | 26 | [QLN · Kollam Junction](#station-qln) | 141.18 km | Pending |
 | 27 | [IRP · Iravipuram](#station-irp) | 145.60 km | Pending |
@@ -213,15 +213,17 @@ Build: pending. QA: pending.
 
 ## Station MQO
 ### 24. Munroturuttu (MQO)
-Published checkpoint; correction pending. 126.11 km.
+Independently reviewed model. 126.11 km.
 
-[![MQO: Munroturuttu actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c934147fb2a3a950b8b94758b9642c901c4673a2/coastal_station_collection/middle/mqo/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/c934147fb2a3a950b8b94758b9642c901c4673a2/coastal_station_collection/middle/mqo/renders/04_facade_and_approach.png)
+[![MQO: Munroturuttu actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d94e3faba694c3b9cf249ff2eb2cba5c798cc8b5/coastal_station_collection/middle/revision_02/mqo/renders/02_station_and_platforms.png)](https://github.com/gj94/transport-fever-3-mods/blob/d94e3faba694c3b9cf249ff2eb2cba5c798cc8b5/coastal_station_collection/middle/revision_02/mqo/renders/02_station_and_platforms.png)
 
-[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/c934147fb2a3a950b8b94758b9642c901c4673a2/coastal_station_collection/middle/mqo)
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/d94e3faba694c3b9cf249ff2eb2cba5c798cc8b5/coastal_station_collection/middle/revision_02/mqo)
 
-Build: published correction pending. QA: corrections required.
+Build: backed up. QA: passed independent station review.
 
-Published first checkpoint has a confirmed footbridge stair-to-deck defect: approximately 0.702 m final rise on both approaches. Prior acceptance is superseded; corrected revision is in progress.
+Accepted narrow bridge correction resolves the former stair-to-deck defect. Views01–03 use the corrected scene; unchanged-area views04–05 retain their explicit earlier lineage. Original source and superseding review remain historical.
+
+[Checksums and source provenance](https://github.com/gj94/transport-fever-3-mods/blob/d94e3faba694c3b9cf249ff2eb2cba5c798cc8b5/coastal_station_collection/middle/revision_02/mqo/FROZEN_MANIFEST.json)
 
 ## Station PRND
 ### 25. Perinad (PRND)
