@@ -178,5 +178,23 @@
     "reviewed_utc": "2026-10-08T06:58:10.051245+00:00",
     "review": "Disclosed lavatory cutaway shows Western-style pan, floor drain, hose and adjacent washbasin. Door-attached controls/labels are hidden with removed door; fixed frame hardware remains. Sanitary layout is representative rather than an exact numbered-coach arrangement. Fine grain remains.",
     "definite_geometry_defect_identified": false
+  },
+  {
+    "variant": "SL",
+    "view": "side_berth",
+    "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+    "image_sha256": "4a33954d90afcd76958cb4186aa0f288960efe4a557e238c8c1f0878fdc94145",
+    "reviewed_utc": "2026-10-08T07:24:21.285985+00:00",
+    "review": "Sleeper side-berth support view shows barred/shuttered windows, upper bracing, paired ladders and adjacent folded-middle-berth hardware. Lower plinth and floor contact remain visible. Fine grain persists in shaded surfaces.",
+    "definite_geometry_defect_identified": false
+  },
+  {
+    "variant": "SL",
+    "view": "bogie",
+    "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+    "image_sha256": "881e113bfad26a63f7b2bbf856c4689425d04f82d81988cf695bd21afc1faadc",
+    "reviewed_utc": "2026-10-08T07:45:21.724048+00:00",
+    "review": "Bogie inspection shows wheel profiles, fixed axleboxes, primary and secondary coil springs, links/damper, tread-brake portions, entry steps and corrected WGSCN 72 BERTHS capacity wording. Authoring geometry visible, not a dynamic-clearance certification.",
+    "definite_geometry_defect_identified": false
   }
 ]

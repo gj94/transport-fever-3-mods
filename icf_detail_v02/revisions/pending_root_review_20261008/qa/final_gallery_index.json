@@ -1,5 +1,5 @@
 {
-  "completed_views": 20,
+  "completed_views": 22,
   "expected_views": 24,
   "images": [
     {
@@ -145,6 +145,22 @@
       "metadata": "SL/renders/bay_final.json",
       "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
       "image_sha256": "b8ec02aa196bf0ad01c82d0c3ee25d8936b31fbd4956fce8fc97e9c7914e4366"
+    },
+    {
+      "variant": "SL",
+      "view": "side_berth",
+      "image": "SL/renders/side_berth_final.png",
+      "metadata": "SL/renders/side_berth_final.json",
+      "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+      "image_sha256": "4a33954d90afcd76958cb4186aa0f288960efe4a557e238c8c1f0878fdc94145"
+    },
+    {
+      "variant": "SL",
+      "view": "bogie",
+      "image": "SL/renders/bogie_final.png",
+      "metadata": "SL/renders/bogie_final.json",
+      "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+      "image_sha256": "881e113bfad26a63f7b2bbf856c4689425d04f82d81988cf695bd21afc1faadc"
     },
     {
       "variant": "GS",

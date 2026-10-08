@@ -1,0 +1,175 @@
+{
+  "variant": "SL",
+  "view": "side_berth",
+  "presentation_environment": null,
+  "source_build_pass": "r12-stencil",
+  "source_blend_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+  "renderer_script_sha256": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+  "presentation_source_sha256": {
+    "render_detail.py": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+    "preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b",
+    "icf_presentation.py": "e1aa62fe1eaffd5d1b2e5da2ba2ad7bd6e6327c9ece39a2ce57de733a9a4bf54"
+  },
+  "samples": 512,
+  "adaptive_sampling": false,
+  "adaptive_threshold": 0.019999999552965164,
+  "adaptive_min_samples": 64,
+  "render_threads": 4,
+  "resolution": [
+    1600,
+    1040
+  ],
+  "denoising": false,
+  "engine": "Blender Cycles CPU, no denoising",
+  "camera_position_m": [
+    0.05000000074505806,
+    -0.800000011920929,
+    2.25
+  ],
+  "camera_lens_mm": 18.0,
+  "orthographic_scale_m": null,
+  "hidden_mesh_count": 0,
+  "cutaway": false,
+  "cutaway_scope": null,
+  "preview_track_gauge_m": 1.676,
+  "duration_seconds": 1709.31,
+  "rendered_utc": "2026-10-08T07:22:14.889543+00:00",
+  "image_sha256": "4a33954d90afcd76958cb4186aa0f288960efe4a557e238c8c1f0878fdc94145",
+  "sampling_workflow": {
+    "workflow": "independent_seed_linear_exr_average_v1",
+    "total_uniform_samples": 512,
+    "adaptive_sampling": false,
+    "batches": [
+      {
+        "file": "batch_00.exr",
+        "sha256": "c3170b33ebfeb1dbf2e9a3933092b89f2220696bb53e357a9eb18f2958353ab0",
+        "seed": 104746,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 213.37253455900645,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_01.exr",
+        "sha256": "e6f8519dcc2c5faeb3697365e01ec6538a13b83db11bdad55b801fe3a6a1b49c",
+        "seed": 209475,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 211.33404846199846,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_02.exr",
+        "sha256": "c533cfaa740ae31cd048ffe8ac036c72a175338d1f0c9c95e142f2b3f91bdcf3",
+        "seed": 314204,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 208.63532546700299,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_03.exr",
+        "sha256": "81f49d5fa432d4483a968157fdc383b4ae04c9de4ed2f45be6f4f954f978c4ac",
+        "seed": 418933,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 218.2820842900037,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_04.exr",
+        "sha256": "3336f3eb24169183443cada49b5c8b9d2d22ae51e07b3343312b023d9d214c34",
+        "seed": 523662,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 211.59356814300554,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_05.exr",
+        "sha256": "7e2f59c274a1ec97be9042b4b61d2190d11cf80d3f135ef6bed8a469cf5a6c95",
+        "seed": 628391,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 220.97416532100033,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_06.exr",
+        "sha256": "c138ecd92c10fd716d4b146957fce7303320c245448a2142da4dd6367a230760",
+        "seed": 733120,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 216.21988006799802,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      },
+      {
+        "file": "batch_07.exr",
+        "sha256": "6fa3b5b87f81f893068306358a5a5c6e088c30b96ad5330d0d0209861f69a69e",
+        "seed": 837849,
+        "samples": 64,
+        "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+        "seconds": 207.606256993,
+        "format": "OPEN_EXR RGBA float32 scene-linear"
+      }
+    ],
+    "fingerprint": "a04655dbc92cd2c70c32f7e4c71f232ab55bbe0f83b832fb6af862d151b5c319",
+    "spec": {
+      "identity": {
+        "renderer_path": "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/render_detail.py",
+        "renderer_sha256": "2ad09e5a60371caece64194f74175c0751bfa748b67b86345c7613cd5bb25472",
+        "source_sha256": "8c30e540a9642422921c2c2e2f3d48f8ef568393032e5fc0e4473182b8f4da60",
+        "presentation_modules": {
+          "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/run_checkpoint_renderer_externaldeps.py": "0890e3afb911b8e150f3dc3b7edfc013c3741501e1cc2e987e9f62ae04f627c8",
+          "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/checkpoint_render.py": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+          "/workspace/scratch/652ca471b64e/icf_detail_v02/scripts/preview_track.py": "920935694681fdde73e73732f4ab7eb897672b499dd5f340fb4f51a33053520b"
+        }
+      },
+      "wrapper_sha256": "b512350aa2d0d0127a205fc27c63b46689f7eca23a4faf60425018069217480b",
+      "batches": 8,
+      "samples_per_batch": 64,
+      "resolution": [
+        1600,
+        1040,
+        100
+      ],
+      "camera_matrix": [
+        [
+          0.6925317645072937,
+          -0.24128955602645874,
+          0.6798375844955444,
+          25.0
+        ],
+        [
+          0.7213873863220215,
+          0.2316378653049469,
+          -0.6526439785957336,
+          -24.0
+        ],
+        [
+          3.643966550725963e-08,
+          0.9424028992652893,
+          0.33447980880737305,
+          14.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_lens": 18.0,
+      "view_transform": "AgX",
+      "look": "None",
+      "exposure": 0.0,
+      "gamma": 1.0,
+      "method": "equal-weight mean of independent-seed uniform-sample scene-linear RGBA float32 EXRs; one final display transform",
+      "denoising": false,
+      "adaptive_sampling": false
+    },
+    "combined_linear_sha256": "09fbcf3eb8d3b4043d2152139b64b08ccae67afe5a3d2b1a42eb69dc1693277e",
+    "image_sha256": "4a33954d90afcd76958cb4186aa0f288960efe4a557e238c8c1f0878fdc94145",
+    "duration_seconds": 1709.2736368719998
+  }
+}
