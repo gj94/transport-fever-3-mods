@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/irp/export/IRP_coastal_station_v01.glb.zip!IRP_coastal_station_v01.glb",
+    "bytes": 43613612,
+    "errors": [],
+    "warnings": [],
+    "sha256": "58527fd98dc537217a70662fcf232393413c4dd529885bf6b4f7b4821d1ea5c7",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 43613612
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 117732
+      },
+      {
+        "type": 5130562,
+        "bytes": 43495852
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 169,
+    "mesh_count": 169,
+    "primitive_count": 169,
+    "vertex_reference_count": 1472656,
+    "accessor_count": 422,
+    "validated_accessor_count": 422,
+    "material_count": 25,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "b6e01b439f63620bc9e2b7ba9a6b2d60f35a0ef44412acf52cd0fc653628ad48",
+    "container_bytes": 5688213
+  }
+]

@@ -1,6 +1,6 @@
 # IRP station model
 
-Frozen complete source and lossless export checkpoint. Final independent circulation and publication gates are pending; no final-clear claim is made.
+Passed the full independent station gate with five accepted views, fifteen circulation paths and supported ramp/threshold probes. Source evidence and reconstructed details remain explicit.
 
 [Model images](GALLERY.md) · [Sources and limitations](SOURCES_AND_UNCERTAINTIES.md)
 

@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen complete source and lossless export checkpoint. Final independent circulation and publication gates are pending; no final-clear claim is made.
+Passed the full independent station gate with five accepted views, fifteen circulation paths and supported ramp/threshold probes. Source evidence and reconstructed details remain explicit.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.
