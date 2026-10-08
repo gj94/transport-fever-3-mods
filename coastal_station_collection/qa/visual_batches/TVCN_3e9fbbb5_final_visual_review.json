@@ -1,0 +1,61 @@
+{
+  "station": "TVCN",
+  "reviewed_utc": "2026-10-08T22:06:20Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "07844cce882a29394d58422a1bd5006c4ac977bd311e761c63696ef636ab2a8f",
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "inheritance_basis": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "aac5706e30ef19eae412794693ea52f196d55c3909732d21f2d58e152de5af7a",
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "0858e38d3ec0c0447fd8609daf5a150a91626c7da300fff29ee5fc33ec727534",
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "71c54aabbb7f4fcb5d7d9ca4ce93556d55484d1add97a983ca825993ed714e99",
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "inheritance_basis": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "f930ffc6d4190642f4dabdb8a183fa57f41c548df59e2b1c1adece4309716a50",
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "inheritance_basis": null
+    }
+  },
+  "prior_review_reports": [
+    "TVCN_3e9fbbb5_partial_visual_review.json"
+  ],
+  "observations": [
+    "Camera-only new04 puts ticket counter screens and desks at an inspectable scale; prior tiny-subject issue is resolved.",
+    "No geometry change needed or requested. Other01/02/03/05 retain exact prior source/visual passes.",
+    "Counters, room plan and other unobserved interior fittings remain disclosed reconstruction."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

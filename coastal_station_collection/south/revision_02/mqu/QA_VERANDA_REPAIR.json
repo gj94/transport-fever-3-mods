@@ -1,0 +1,18 @@
+{
+  "station": "MQU",
+  "input_source_sha256": "44d1dc607e3e2d6920c90a6f5ccdd2fa74ef6f4cfd86d63cecfef589cd079732",
+  "output_source_sha256": "bd1ddf784a35943f0e7d69814314e38d77993d77b40215d66909a8f22872536e",
+  "scope": "Veranda column/plinth components inside reconstructed entry/ramp corridors were removed. TVCS additionally replaces its roof-buried generic name strip with a readable current platform-facing identity panel; panel placement is reconstructed.",
+  "removed_components": [
+    {
+      "object": "Verandah column",
+      "component": 1,
+      "center_x": -11.071428775787354
+    },
+    {
+      "object": "Verandah column plinth",
+      "component": 1,
+      "center_x": -11.071428775787354
+    }
+  ]
+}

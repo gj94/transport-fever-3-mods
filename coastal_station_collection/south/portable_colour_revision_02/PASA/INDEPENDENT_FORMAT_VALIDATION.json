@@ -1,0 +1,477 @@
+{
+  "status": "pass",
+  "source_blend_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+  "palette_path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/SOURCE_PALETTE.json",
+  "palette_sha256": "52bf3e29592d01f57a565d9d2e632268bd1b4a114e376fdac87aff9590fc19d8",
+  "before": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/exchange/PASA_portable_GLTF.zip",
+    "glb_sha256": "5d50f76fa17cf70bff86a26a90e1ee979b8e6632db1792aef7b979a8cb30bc11",
+    "container_sha256": "ab6f02cca7f3be9ce2d4f3331c9fa5a418011c3f3993da1a3d09f26a3a9a5a5b",
+    "member": "PASA_station_v01.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 34283000,
+        "sha256": "8073e183ddb1b27df016bb4a3c0dfc31c3c738082a097e2ce9d5c0ff555b4529"
+      }
+    ]
+  },
+  "after": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/PASA_portable_colour_v02.zip",
+    "glb_sha256": "f9daaa2c55be7e3991dc4164634bd580117332086558b990d073bca90b6d7afd",
+    "container_sha256": "da1d6dcde8456ff2033f1a297a70575a45b0d134f4ffd4afbc413f0fb85fbfd1",
+    "member": "PASA_station_colour_v02.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 34283000,
+        "sha256": "8073e183ddb1b27df016bb4a3c0dfc31c3c738082a097e2ce9d5c0ff555b4529"
+      }
+    ]
+  },
+  "non_json_chunks_identical": true,
+  "all_non_colour_json_identical": true,
+  "material_count": 24,
+  "changed_materials": [
+    {
+      "index": 1,
+      "name": "white",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.8399999737739563,
+        0.8500000238418579,
+        0.7599999904632568,
+        1.0
+      ],
+      "source_rgba": [
+        0.8399999737739563,
+        0.8500000238418579,
+        0.7599999904632568,
+        1.0
+      ]
+    },
+    {
+      "index": 2,
+      "name": "blue",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.02500000037252903,
+        0.20000000298023224,
+        0.3100000023841858,
+        1.0
+      ],
+      "source_rgba": [
+        0.02500000037252903,
+        0.20000000298023224,
+        0.3100000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 4,
+      "name": "rust",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.23999999463558197,
+        0.10000000149011612,
+        0.04500000178813934,
+        1.0
+      ],
+      "source_rgba": [
+        0.23999999463558197,
+        0.10000000149011612,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "ballast",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.23999999463558197,
+        1.0
+      ],
+      "source_rgba": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.23999999463558197,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "concrete",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.41999998688697815,
+        0.4399999976158142,
+        0.4000000059604645,
+        1.0
+      ],
+      "source_rgba": [
+        0.41999998688697815,
+        0.4399999976158142,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "tile",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.5099999904632568,
+        0.46000000834465027,
+        0.3499999940395355,
+        1.0
+      ],
+      "source_rgba": [
+        0.5099999904632568,
+        0.46000000834465027,
+        0.3499999940395355,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "red",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.38999998569488525,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ],
+      "source_rgba": [
+        0.38999998569488525,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "yellow",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.9599999785423279,
+        0.6800000071525574,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_rgba": [
+        0.9599999785423279,
+        0.6800000071525574,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "tile2",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4300000071525574,
+        0.4000000059604645,
+        0.3100000023841858,
+        1.0
+      ],
+      "source_rgba": [
+        0.4300000071525574,
+        0.4000000059604645,
+        0.3100000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 13,
+      "name": "roof",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4699999988079071,
+        0.5099999904632568,
+        0.47999998927116394,
+        1.0
+      ],
+      "source_rgba": [
+        0.4699999988079071,
+        0.5099999904632568,
+        0.47999998927116394,
+        1.0
+      ]
+    },
+    {
+      "index": 14,
+      "name": "teal",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.029999999329447746,
+        0.28999999165534973,
+        0.23999999463558197,
+        1.0
+      ],
+      "source_rgba": [
+        0.029999999329447746,
+        0.28999999165534973,
+        0.23999999463558197,
+        1.0
+      ]
+    },
+    {
+      "index": 15,
+      "name": "wood",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ],
+      "source_rgba": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 16,
+      "name": "roofblue",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.03500000014901161,
+        0.28999999165534973,
+        0.4099999964237213,
+        1.0
+      ],
+      "source_rgba": [
+        0.03500000014901161,
+        0.28999999165534973,
+        0.4099999964237213,
+        1.0
+      ]
+    },
+    {
+      "index": 17,
+      "name": "cream",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.8500000238418579,
+        0.75,
+        0.7300000190734863,
+        1.0
+      ],
+      "source_rgba": [
+        0.8500000238418579,
+        0.75,
+        0.7300000190734863,
+        1.0
+      ]
+    },
+    {
+      "index": 19,
+      "name": "ivory",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.6899999976158142,
+        1.0
+      ],
+      "source_rgba": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.6899999976158142,
+        1.0
+      ]
+    },
+    {
+      "index": 20,
+      "name": "terracotta",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07000000029802322,
+        1.0
+      ],
+      "source_rgba": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07000000029802322,
+        1.0
+      ]
+    },
+    {
+      "index": 21,
+      "name": "soil",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.3400000035762787,
+        0.3100000023841858,
+        0.20000000298023224,
+        1.0
+      ],
+      "source_rgba": [
+        0.3400000035762787,
+        0.3100000023841858,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 22,
+      "name": "green",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.10999999940395355,
+        0.27000001072883606,
+        0.054999999701976776,
+        1.0
+      ],
+      "source_rgba": [
+        0.10999999940395355,
+        0.27000001072883606,
+        0.054999999701976776,
+        1.0
+      ]
+    },
+    {
+      "index": 23,
+      "name": "trunk",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.28999999165534973,
+        0.2199999988079071,
+        0.15000000596046448,
+        1.0
+      ],
+      "source_rgba": [
+        0.28999999165534973,
+        0.2199999988079071,
+        0.15000000596046448,
+        1.0
+      ]
+    }
+  ],
+  "changed_count": 19,
+  "errors": [],
+  "method": "Only absent untextured base-color fallbacks may be filled from the exact packed-source palette. Existing explicit colors, textures, alpha, alphaMode, extensions, node transforms, mesh/accessor/buffer tables and binary data are preserved. Original geometry QA remains applicable."
+}

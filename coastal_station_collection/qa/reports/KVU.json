@@ -1,0 +1,144 @@
+{
+  "station_code": "KVU",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/kvu",
+  "manifest_sha256": "52961c5599889d821abe241e3901e884eb366aeaa041082f7134ad0494eeda07",
+  "blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+  "export_sha256": "ebefb991afc2a927a1fa77054722ff8a2c926ba08423be95a1419c114688bcd9",
+  "export_zip_sha256": "abd764c017552738e9ec3f450fcbcc65196b099e4d67dac1cdb40254e41c9cae",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/kvu/KVU_coastal_station_v01.blend",
+      "bytes": 13668448,
+      "sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/BUILD_QA.json",
+      "bytes": 1758,
+      "sha256": "20d22c9a37cabff01f20eb62b4a91b0ae2072d189f674755acffc6acbadfda3d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/EXPORT_QA.json",
+      "bytes": 1315,
+      "sha256": "7ea9ce2ee63c12e0859e0ae6c2025c2c47c9ccbeae2e28be98f8f6fd1ff805b4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/RENDER_PROVENANCE.json",
+      "bytes": 2522,
+      "sha256": "3ac9becdf35b14c78862fba258c5f4fce98f6edd2d99f70448ca58067a4abe7a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 9286,
+      "sha256": "99cbd98e73c5755cc17b49c24fa8eb3057f1a71dc2b06e57a243d7667870096f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/export/KVU_coastal_station_v01.glb.zip",
+      "bytes": 7993357,
+      "sha256": "abd764c017552738e9ec3f450fcbcc65196b099e4d67dac1cdb40254e41c9cae"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/01_full_mapped_layout.png",
+      "bytes": 1048749,
+      "sha256": "b0020ae616a0cea8d5f3c6047cbd323c7cef50eace6297157c7e33f0240abb17"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/03_platform_track_details.png",
+      "bytes": 1402375,
+      "sha256": "2cb744bec87d02af2031e1e23a10521ec2652174e51578ff761f83b9d907b1c7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/04_facade_and_approach.png",
+      "bytes": 1265848,
+      "sha256": "7eebd89aa30c9d91fe1386b05f6a135514f89f1cb2c3da44b9dffac68ac88223"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/05_ticket_interior.png",
+      "bytes": 1394322,
+      "sha256": "a2d9d6488f91216a20be49f3cb12dfeac74e8d4399bae7c411fd3e2a57241f40"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/mapped_geometry.json",
+      "bytes": 58846,
+      "sha256": "3868d933b5f951b394ea42c035a0256ade4227b30f92e3a8a4a963c29db07c8b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/adopted_geometry.json",
+      "bytes": 243225,
+      "sha256": "75911ee9b323f24597575827e24e318ffef94511afd9c5a91c0040a20fc77773"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/station_nameboard.png",
+      "bytes": 27819,
+      "sha256": "fb8ea0194f760ff3fe32978cd886f47d52d031300822e1c84db45b89fcd0513a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/nameboard_text.json",
+      "bytes": 405,
+      "sha256": "bcb8eb51b24a0348efeaa3a5d3de68e5429568d673db61148cf550a74dc121aa"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/visual_evidence.json",
+      "bytes": 1946,
+      "sha256": "1bde1d31e7705c522b63723cf7f26c82aa4c074dd18936d5f0998ddcc4f6483e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/build_station_used.py",
+      "bytes": 60694,
+      "sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/source/reference_spec.json",
+      "bytes": 646,
+      "sha256": "78bdad9b5aad0a47e960a9c7f30566a573d1124779f670a817077fffa2632c0c"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/01_full_mapped_layout.png",
+      "bytes": 1048749,
+      "sha256": "b0020ae616a0cea8d5f3c6047cbd323c7cef50eace6297157c7e33f0240abb17"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/03_platform_track_details.png",
+      "bytes": 1402375,
+      "sha256": "2cb744bec87d02af2031e1e23a10521ec2652174e51578ff761f83b9d907b1c7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/04_facade_and_approach.png",
+      "bytes": 1265848,
+      "sha256": "7eebd89aa30c9d91fe1386b05f6a135514f89f1cb2c3da44b9dffac68ac88223"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kvu/renders/05_ticket_interior.png",
+      "bytes": 1394322,
+      "sha256": "a2d9d6488f91216a20be49f3cb12dfeac74e8d4399bae7c411fd3e2a57241f40"
+    }
+  ],
+  "checks": {
+    "manifest": "All 17 frozen file hashes and byte counts independently verified.",
+    "visual": "All 4 selected native views pass independent source/pixel review; retained images preserve original source hashes and unchanged-subject reasons.",
+    "source": "July2019 source facade is represented by the tall ochre front, red sheet roof, white geometric grille bays, brown upper windows and long sunshade.",
+    "resources": "Exact final Blender scene independently has metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Final source-bound ZIP-contained GLB independently passes finite-value, buffer/accessor/index-bounds and embedded-resource checks.",
+    "layout": "IRI-reported positions:3; physical bodies:2. All declared adopted track routes and raw source/correction evidence retained. Actual platform top triangles remain clear of running rail heads, and both stair footprints lie within their bodies.",
+    "circulation": "Single-portal entry, lateral ramp/front landing, both bridge flights and the narrow rear passage are clear. Main47 plus rear27 path/support probes pass. All12 rear-walk support points measure1.018m, and both bridge tread/deck transitions are8.600m."
+  },
+  "evidence_reports": [
+    "KVU_final_resources.json",
+    "KVU_final_portable.json",
+    "KVU_export_geometry_inspection.json",
+    "KVU_rear_geometry_inspection.json",
+    "KVU_final_layout.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/KVU_f27bbec4_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Unseen interiors, dimensions and service assignments remain disclosed reconstructions.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Some procedural Blender surface effects use base-colour portable fallbacks.",
+    "Mapped building envelope overlaps188.30m\u00b2 of the reconstructed raised platform body; the nominal body width is not unobstructed walking width. The1.3m rear veranda uses high wall brackets and inward door leaves; this is a disclosed reconstruction, not an accessibility-compliance claim."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

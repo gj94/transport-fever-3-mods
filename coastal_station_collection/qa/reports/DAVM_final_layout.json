@@ -1,0 +1,22 @@
+{
+  "station": "DAVM",
+  "layout_sha256": "44c7f875b90c64c9be3ab79e6c9ac443cdbcfc34624f147156d834f8056c06f2",
+  "platform_mesh_sha256": "32367ab2cf2b9002fb8c8b1075ab72805615b4d730a007a2419f8fd5e6508e81",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 2354.60159028037,
+      "railcenter_min_m": 1.999999526845112,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 7.300000000000001,
+  "reported_faces": "2",
+  "modeled_bodies": 1,
+  "route_piece_ids": [
+    "31546483"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

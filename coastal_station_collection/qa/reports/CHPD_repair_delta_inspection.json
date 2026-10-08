@@ -1,0 +1,278 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/CHPD/CHPD_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 105,
+  "object_types": {
+    "MESH": 75,
+    "CURVE": 20,
+    "FONT": 2,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 75,
+  "unique_vertices": 936842,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.367842674255371
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7ff76a832820>",
+    "station_code": "CHPD",
+    "station_name": "Cheppad",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "entry_0.3_-0.35": {
+      "from": [
+        -11.185578346252441,
+        -0.3499999940395355,
+        1.7999999523162842
+      ],
+      "to": [
+        4.814421653747559,
+        -0.3499999940395355,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.3_0": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        1.7999999523162842
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.3_0.35": {
+      "from": [
+        -11.185578346252441,
+        0.3499999940395355,
+        1.7999999523162842
+      ],
+      "to": [
+        4.814421653747559,
+        0.3499999940395355,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.5_-0.35": {
+      "from": [
+        -11.185578346252441,
+        -0.3499999940395355,
+        2.0
+      ],
+      "to": [
+        4.814421653747559,
+        -0.3499999940395355,
+        2.0
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.5_0": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        2.0
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        2.0
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.5_0.35": {
+      "from": [
+        -11.185578346252441,
+        0.3499999940395355,
+        2.0
+      ],
+      "to": [
+        4.814421653747559,
+        0.3499999940395355,
+        2.0
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.9_-0.35": {
+      "from": [
+        -11.185578346252441,
+        -0.3499999940395355,
+        2.4000000953674316
+      ],
+      "to": [
+        4.814421653747559,
+        -0.3499999940395355,
+        2.4000000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.9_0": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        2.4000000953674316
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        2.4000000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.9_0.35": {
+      "from": [
+        -11.185578346252441,
+        0.3499999940395355,
+        2.4000000953674316
+      ],
+      "to": [
+        4.814421653747559,
+        0.3499999940395355,
+        2.4000000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_1.7_-0.35": {
+      "from": [
+        -11.185578346252441,
+        -0.3499999940395355,
+        3.200000047683716
+      ],
+      "to": [
+        4.814421653747559,
+        -0.3499999940395355,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_1.7_0": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        3.200000047683716
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_1.7_0.35": {
+      "from": [
+        -11.185578346252441,
+        0.3499999940395355,
+        3.200000047683716
+      ],
+      "to": [
+        4.814421653747559,
+        0.3499999940395355,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a"
+}

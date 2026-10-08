@@ -1,0 +1,68 @@
+{
+  "station": "TVCN",
+  "layout_sha256": "39a00d93c93b4c474ff3eadc88e5e157d1ae874ac7d73af9ee81426b782cea30",
+  "platform_mesh_sha256": "f75cbe12b4907137b5ff69ee46b5f720a95c0948d0b8aa712108bc493aa316b0",
+  "platforms": [
+    {
+      "id": "427081226",
+      "valid": true,
+      "area_m2": 5255.995714309047,
+      "railcenter_min_m": 1.7999997764697746,
+      "intrusion_inside_1_8m_m2": 1.2086300753715162e-06
+    },
+    {
+      "id": "427081231",
+      "valid": true,
+      "area_m2": 3289.7267188704072,
+      "railcenter_min_m": 1.7999997058381336,
+      "intrusion_inside_1_8m_m2": 5.901847834214358e-06
+    },
+    {
+      "id": "519426843",
+      "valid": true,
+      "area_m2": 3990.5703088769474,
+      "railcenter_min_m": 1.7999994979848657,
+      "intrusion_inside_1_8m_m2": 4.380244416300066e-05
+    },
+    {
+      "id": "519426847",
+      "valid": true,
+      "area_m2": 2528.667591749779,
+      "railcenter_min_m": 1.7999995804245794,
+      "intrusion_inside_1_8m_m2": 4.726556620712979e-05
+    }
+  ],
+  "building_railcenter_min_m": 6.4058777419209285,
+  "reported_faces": "6",
+  "modeled_bodies": 4,
+  "route_piece_ids": [
+    "90772756",
+    "90772767",
+    "98623858",
+    "236967348",
+    "315266850",
+    "427081232",
+    "427081233",
+    "519426852",
+    "608428982",
+    "641627341",
+    "641627345",
+    "641627347",
+    "641627350",
+    "641627352",
+    "641627355",
+    "641627357",
+    "641627360",
+    "641627362",
+    "641627364",
+    "641627366",
+    "641627368",
+    "762403625",
+    "762403627",
+    "1011066125",
+    "1011066126",
+    "1534226864"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

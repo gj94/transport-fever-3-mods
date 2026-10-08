@@ -1,0 +1,398 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/KYJ/KYJ_coastal_station_v03.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 156,
+  "object_types": {
+    "MESH": 80,
+    "CURVE": 58,
+    "FONT": 10,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 80,
+  "unique_vertices": 1497120,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -500.0,
+      -1500.0,
+      -0.4000000059604645
+    ],
+    [
+      500.0,
+      1500.0,
+      15.456304550170898
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7ff760473820>",
+    "station_code": "KYJ",
+    "station_name": "Kayamkulam Junction",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "flight3_0.35_-0.6": {
+      "from": [
+        43.466217041015625,
+        14.488280296325684,
+        1.7999999523162842
+      ],
+      "to": [
+        43.466217041015625,
+        29.68828010559082,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_0.35_0": {
+      "from": [
+        44.06621551513672,
+        14.488280296325684,
+        1.7999999523162842
+      ],
+      "to": [
+        44.06621551513672,
+        29.68828010559082,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_0.35_0.6": {
+      "from": [
+        44.66621780395508,
+        14.488280296325684,
+        1.7999999523162842
+      ],
+      "to": [
+        44.66621780395508,
+        29.68828010559082,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing3_0.35": {
+      "from": [
+        44.06621551513672,
+        29.638280868530273,
+        9.050000190734863
+      ],
+      "to": [
+        44.06621551513672,
+        30.488279342651367,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_0.9_-0.6": {
+      "from": [
+        43.466217041015625,
+        14.488280296325684,
+        2.3499999046325684
+      ],
+      "to": [
+        43.466217041015625,
+        29.68828010559082,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_0.9_0": {
+      "from": [
+        44.06621551513672,
+        14.488280296325684,
+        2.3499999046325684
+      ],
+      "to": [
+        44.06621551513672,
+        29.68828010559082,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_0.9_0.6": {
+      "from": [
+        44.66621780395508,
+        14.488280296325684,
+        2.3499999046325684
+      ],
+      "to": [
+        44.66621780395508,
+        29.68828010559082,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing3_0.9": {
+      "from": [
+        44.06621551513672,
+        29.638280868530273,
+        9.600000381469727
+      ],
+      "to": [
+        44.06621551513672,
+        30.488279342651367,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_1.7_-0.6": {
+      "from": [
+        43.466217041015625,
+        14.488280296325684,
+        3.1500000953674316
+      ],
+      "to": [
+        43.466217041015625,
+        29.68828010559082,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_1.7_0": {
+      "from": [
+        44.06621551513672,
+        14.488280296325684,
+        3.1500000953674316
+      ],
+      "to": [
+        44.06621551513672,
+        29.68828010559082,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight3_1.7_0.6": {
+      "from": [
+        44.66621780395508,
+        14.488280296325684,
+        3.1500000953674316
+      ],
+      "to": [
+        44.66621780395508,
+        29.68828010559082,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing3_1.7": {
+      "from": [
+        44.06621551513672,
+        29.638280868530273,
+        10.399999618530273
+      ],
+      "to": [
+        44.06621551513672,
+        30.488279342651367,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_toe3_-0.6": {
+      "from": [
+        43.466217041015625,
+        14.388279914855957,
+        1.7000000476837158
+      ],
+      "to": [
+        43.466217041015625,
+        14.388279914855957,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "Platform paving 3",
+      "hit_location": [
+        43.466217041015625,
+        14.388279914855957,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_toe3_0": {
+      "from": [
+        44.06621551513672,
+        14.388279914855957,
+        1.7000000476837158
+      ],
+      "to": [
+        44.06621551513672,
+        14.388279914855957,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "Platform paving 3",
+      "hit_location": [
+        44.06621551513672,
+        14.388279914855957,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_toe3_0.6": {
+      "from": [
+        44.66621780395508,
+        14.388279914855957,
+        1.7000000476837158
+      ],
+      "to": [
+        44.66621780395508,
+        14.388279914855957,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "Platform paving 3",
+      "hit_location": [
+        44.66621780395508,
+        14.388279914855957,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_top3_-0.05": {
+      "from": [
+        44.06621551513672,
+        29.638280868530273,
+        9.0
+      ],
+      "to": [
+        44.06621551513672,
+        29.638280868530273,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        44.06621551513672,
+        29.638280868530273,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_top3_0.05": {
+      "from": [
+        44.06621551513672,
+        29.738279342651367,
+        9.0
+      ],
+      "to": [
+        44.06621551513672,
+        29.738279342651367,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "KYJ mapped dogleg bridge deck",
+      "hit_location": [
+        44.06621551513672,
+        29.738279342651367,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    }
+  },
+  "blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5"
+}

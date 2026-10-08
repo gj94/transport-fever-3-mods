@@ -1,0 +1,346 @@
+{
+  "old_glb_sha256": "6aff2a5f85de8cc8ca4b38c019bd622087df5a4c5ddbd4217152bd1e37cb8641",
+  "new_glb_sha256": "b11c569aa4033fae061b3b339d968a164f1a0627a52d7aeb5ad7a0f3c3261799",
+  "changed_materials": [
+    {
+      "index": 1,
+      "name": "white",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.8399999737739563,
+        0.8500000238418579,
+        0.7599999904632568,
+        1.0
+      ]
+    },
+    {
+      "index": 2,
+      "name": "blue",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.02500000037252903,
+        0.20000000298023224,
+        0.3100000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 4,
+      "name": "rust",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.23999999463558197,
+        0.10000000149011612,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "ballast",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.23999999463558197,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "concrete",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.41999998688697815,
+        0.4399999976158142,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "tile",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.5099999904632568,
+        0.46000000834465027,
+        0.3499999940395355,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "red",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.38999998569488525,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "yellow",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.9599999785423279,
+        0.6800000071525574,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "tile2",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.4300000071525574,
+        0.4000000059604645,
+        0.3100000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 12,
+      "name": "roof",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.4699999988079071,
+        0.5099999904632568,
+        0.47999998927116394,
+        1.0
+      ]
+    },
+    {
+      "index": 14,
+      "name": "teal",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.029999999329447746,
+        0.28999999165534973,
+        0.23999999463558197,
+        1.0
+      ]
+    },
+    {
+      "index": 15,
+      "name": "wood",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 16,
+      "name": "roofblue",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.03500000014901161,
+        0.28999999165534973,
+        0.4099999964237213,
+        1.0
+      ]
+    },
+    {
+      "index": 17,
+      "name": "ivory",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.6899999976158142,
+        1.0
+      ]
+    },
+    {
+      "index": 18,
+      "name": "cream",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.7200000286102295,
+        1.0
+      ]
+    },
+    {
+      "index": 20,
+      "name": "terracotta",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07000000029802322,
+        1.0
+      ]
+    },
+    {
+      "index": 21,
+      "name": "soil",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.3400000035762787,
+        0.3100000023841858,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 22,
+      "name": "green",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.10999999940395355,
+        0.27000001072883606,
+        0.054999999701976776,
+        1.0
+      ]
+    },
+    {
+      "index": 23,
+      "name": "asphalt",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.14000000059604645,
+        0.1599999964237213,
+        0.15000000596046448,
+        1.0
+      ]
+    },
+    {
+      "index": 24,
+      "name": "trunk",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.28999999165534973,
+        0.2199999988079071,
+        0.15000000596046448,
+        1.0
+      ]
+    }
+  ],
+  "binary_chunks": [
+    {
+      "type": 5130562,
+      "bytes": 38973236,
+      "unchanged_sha256": "7bf6adc1e1314a952193bc4be3afa856ea24b87ca32294164011a4405c5f730a"
+    }
+  ],
+  "binary_identical": true,
+  "all_non_colour_json_identical": true,
+  "alpha_semantics_unchanged": true,
+  "existing_factors_and_textures_unchanged": true,
+  "station": "KXP",
+  "source_blend_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+  "palette_sha256": "c89f7ed957ca28166e72af487753a027ecf4d5e888bc42a10223a19bdd1b12b8",
+  "source_blend_unchanged": true,
+  "old_export_manifest_sha256": "460773b99b31024e119602f2f959d3f7a1f77ce36a1aeb7f728797d582dc2dfa",
+  "old_archive_sha256": "c0a6b214054cc0368f069eb9683eb20bedaf493e8ceef72c80adbd68d9bc1d01",
+  "new_archive_sha256": "213019695567309365fc57ac8b8f1d4d8abdef06ff31d7caf55fe59e841d1631",
+  "new_archive_bytes": 5429839,
+  "lossless_roundtrip_verified": true
+}

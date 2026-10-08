@@ -1,0 +1,102 @@
+{
+  "station": "TVCS",
+  "views": {
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "file_sha256": "d6bba8fb958a9f08cddcae38accf195f8bbc6fc717056a7c9adb7902074ef21a",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 26.08,
+      "camera_override": {
+        "reason": "Low oblique proof of the photograph-derived platform face beneath its canopy",
+        "location": [
+          22.5,
+          19.82786750793457,
+          3.4000000953674316
+        ],
+        "target": [
+          0,
+          8.127868283324517,
+          2.7
+        ],
+        "lens_mm": 34
+      }
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "file_sha256": "bbc6133bb7233f093e461a39e35a5483c72a84b3e3d706f0b95f547dddb90c8f",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 16.22,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "file_sha256": "4ad8baffc75fade9995afc8a4227f3eb87c50b6fd8a8abd72e8298e49fd3af62",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 23.08,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -253.7755584716797,
+          1.9012951850891113,
+          3.4000000953674316
+        ],
+        "target": [
+          -53.77556154945688,
+          15.130022573376635,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "file_sha256": "016b52081bb6917bd6888a0021458e43947de8460d9e93dc9b36cf877ad95069",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 30.76,
+      "camera_override": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "fd98ddfb52a10b7928ab2c319683a489aa02cc0d637f6106083c977a3ca2579a",
+      "file_sha256": "cdd6035b166ced7a66e8f23cf2692998718acd6eafb6c6caed8fe29c97bb02e6",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 15.68,
+      "camera_override": null,
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "inheritance_basis": "Only station-wall trim moved; rail-detail geometry and view unchanged",
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "1b7db792feb07b63eaffbdc42abe4943ece0195393bb2ff5a20a5b5f38792aa9",
+          "to_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+          "basis": "Only platform-wall decoration changed, outside the pointwork/rail-detail subject"
+        }
+      ]
+    }
+  },
+  "current_source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf"
+}

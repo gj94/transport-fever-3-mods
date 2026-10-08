@@ -1,0 +1,66 @@
+{
+  "station_code": "KFI",
+  "blend": "KFI_coastal_station_v01.blend",
+  "generated_at_unix": 1791494444.4963663,
+  "builder_sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e",
+  "source_adopted_sha256": "362fb1d8ba1e31efccec23fcc0007995cca471c39c52d406dc5651d28e434586",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 4,
+  "track_route_total_length_m": 3368.4196051180143,
+  "mapped_switch_nodes": 0,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 167,
+  "total_objects": 187,
+  "vertices": 407264,
+  "polygons": 296743,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.001517906687603,
+      "clearance_m": 1.9199999999999975
+    },
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.0,
+      "clearance_m": 1.92
+    }
+  ],
+  "corrections": [
+    {
+      "node_id": "6041709145",
+      "way_id": "236119109",
+      "raw_xy": [
+        2.3906,
+        -15.2486
+      ],
+      "adopted_xy": [
+        2.3906,
+        -17.8
+      ],
+      "displacement_m": 2.5514,
+      "reason": "Local mapping-artifact regularization to avoid overlapping parallel running envelopes; graph unchanged; not a surveyed correction."
+    }
+  ],
+  "notes": "Compact coastal halt building. Minor regularization of erroneous close mainline node documented separately; no added loops or sidings. October2017 photo guides peach flat parapet with blue accents and deep rose veranda; April2025 photo guides rough earthen/grass platform end behind narrow paved edge, not uniformly polished paving.",
+  "revision": "KFI revision03: camera04 clears the opposite platform canopy and faces the photographed rose veranda. Its high roof attachment/support tops are refined so the blue parapet accents remain visible above it; public circulation geometry is unchanged.",
+  "base_blend_sha256": "e5c7c5504ed62f1e039714331f92bbb7a4320837289cd6b18b2a12061ad19ee9",
+  "repair_script_sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a"
+}

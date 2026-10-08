@@ -1,0 +1,82 @@
+{
+  "station": "KZT",
+  "views": {
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "file_sha256": "3f5fae6990a60cdc649fcec5d8a19721bc9380a4f4dfa079aff0a7ad6a4e4b6a",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 18.56,
+      "camera_override": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "file_sha256": "73ff83f2cddd9f8bcdddb002890af8319d48b1b3fa0b2f98ea4d5599b8f1aed5",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 28.39,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "file_sha256": "3c5cb1618de048ec2dccfa62c58e8aa4cdd77ba4178200ca4f7438bb9bab87d3",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 24.12,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -259.9150695800781,
+          -2.9777543544769287,
+          3.4000000953674316
+        ],
+        "target": [
+          -59.91508337289383,
+          -7.924329422151323,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "file_sha256": "73e6234190e5c9387a6fc9884621f455cfda91ca686c1c5e38258798a32faa87",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 30.25,
+      "camera_override": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "d18776dcee8ab0e81ccf680f9bcdcc9790efeb2c424a1216d78c0a52f1452183",
+      "file_sha256": "6baf311f3d06e7991fd6d5756732773847158e9e9a0abd7bb379fe6d7ba5a9da",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 15.94,
+      "camera_override": null,
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "inheritance_basis": "Only facade spandrels shifted0.16m, wholly outside this recorded camera frustum"
+    }
+  },
+  "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702"
+}

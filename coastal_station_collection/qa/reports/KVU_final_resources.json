@@ -1,0 +1,67 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/kvu/KVU_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 217,
+  "object_types": {
+    "MESH": 192,
+    "FONT": 12,
+    "LIGHT": 8,
+    "CAMERA": 5
+  },
+  "unique_meshes": 192,
+  "unique_vertices": 700716,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -2.1500000953674316
+    ],
+    [
+      1135.0,
+      265.0,
+      12.483048439025879
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "KVU",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "3",
+    "platform_bodies_modelled": "2"
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd"
+}

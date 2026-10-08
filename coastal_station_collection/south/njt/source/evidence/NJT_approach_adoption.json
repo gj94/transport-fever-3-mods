@@ -1,0 +1,41 @@
+{
+  "station": "NJT",
+  "status": "Adopted for coordinated rebuild; rail and platform geometry unchanged",
+  "source_url": "https://www.google.com/maps/place/8%C2%B011'59.8%22N+77%C2%B025'12.2%22E/@8.1999573,77.4193037,225m/data=!3m1!1e3!4m4!3m3!8m2!3d8.199952!4d77.420044?entry=ttu&g_ep=EgoyMDI2MTAwNS4wIKXMDSoASAFQAw%3D%3D",
+  "image_acquisition_date": null,
+  "image_picked_canopy_lonlat": [
+    77.420044,
+    8.199667
+  ],
+  "image_picked_bridge_lonlat": [
+    77.419706,
+    8.199813
+  ],
+  "local_canopy_xy": [
+    20.83489168462457,
+    -5.803624782755646
+  ],
+  "local_bridge_x": 49.33237009580953,
+  "bridge_y_basis": "Individual support/flight centres follow adopted platform cross-sections, not the image-picked Y as a survey value",
+  "mapped_station_building_way": "551805510",
+  "mapped_approach_way": "383031404",
+  "mapped_approach_local_x": 32.3,
+  "canopy_estimated_width_depth_m": [
+    10.2,
+    15
+  ],
+  "adopted_configuration": {
+    "building": [
+      25.54709467990692,
+      8.89678250428283
+    ],
+    "building_x": 2.5408513351558697,
+    "building_y": -6.446556465933965,
+    "annex_side": -1,
+    "bridge_x": 49.33237009580953,
+    "bridge_stair_direction": -1,
+    "canopy_center_x_world": 20.83489168462457,
+    "canopy_center_y_world": -5.803624782755646
+  },
+  "uncertainty": "Image-picked points and OSM building extents are approximate mixed-date source observations. Roof extents, interior rooms, exact stair arrangement and service annex remain reconstructed."
+}

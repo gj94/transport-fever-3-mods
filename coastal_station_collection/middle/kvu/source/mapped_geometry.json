@@ -1,0 +1,3369 @@
+{
+  "station": {
+    "sequence": "34",
+    "station_code": "KVU",
+    "station_name": "Kadakavur",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "188.19",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "173.87",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "",
+    "mapped_platform_bodies": "1",
+    "mapped_numbered_platform_positions": "",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "4",
+    "mapped_connected_loops": "2",
+    "mapped_nonloop_sidings": "",
+    "mapped_total_tracks_all_types": "",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Two main roads and two outer connected loops with end extensions. Only one island-like platform polygon mapped, platform inventory incomplete.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2017-08-10T05:37:57Z / 2020-07-18T23:45:53Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.7576720,8.6700780,76.7756720,8.6880780",
+    "mapped_rail_way_ids": "514385379;514385380;514385381;514385383;608428984;641627315;641627317;661604992",
+    "mapped_platform_way_ids": "514385382",
+    "mapped_excluded_nonoperational_way_ids": "",
+    "mapped_source_record": "middle_observations.json#KVU",
+    "map_latitude": "8.6786987",
+    "map_longitude": "76.7676427",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "3",
+    "wikipedia_reported_tracks": "4",
+    "wikipedia_platforms_numeric": "3",
+    "wikipedia_tracks_numeric": "4",
+    "wikipedia_platform_field_raw": "3",
+    "wikipedia_tracks_field_raw": "4",
+    "wikipedia_article_url": "https://en.wikipedia.org/wiki/Kadakkavoor_railway_station",
+    "wikipedia_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1376741290",
+    "wikipedia_revision_id": "1376741290",
+    "wikipedia_revision_timestamp": "2026-09-26T00:09:55Z",
+    "wikipedia_accessed_date": "2026-10-08",
+    "wikipedia_platform_inline_citation_present": "False",
+    "wikipedia_tracks_inline_citation_present": "False",
+    "wikipedia_conflict_notes": "No specific conflict identified in this pass. Infobox count is reported, not independently verified as a current engineering inventory. Track figure supplied separately by the city rail table; station infobox did not state tracks. Planned construction count is excluded.",
+    "wikipedia_lookup_status": "FOUND",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "*",
+    "wikipedia_count_source_class": "Wikipedia article infobox, reported secondary figure",
+    "wikipedia_tracks_source_url": "https://en.wikipedia.org/w/index.php?title=Thiruvananthapuram&oldid=1379039524#Rail",
+    "wikipedia_tracks_revision_id": "1379039524",
+    "wikipedia_tracks_revision_timestamp": "2026-10-07T15:12:00Z",
+    "wikipedia_tracks_source_class": "City rail table (not station infobox)",
+    "iri_reported_platforms": "3",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 3",
+    "iri_source_url": "https://indiarailinfo.com/station/map/kadakavur-kvu/1013",
+    "iri_profile_updated_raw": "Mar 27 (09:03)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure. The returned update date omits a year; no exact year is inferred.",
+    "reported_platform_count": "3",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "3I",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/kadakavur-kvu/1013",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "1013",
+    "iri_heading_station_code": "KVU",
+    "iri_heading_raw": "KVU/Kadakavur (3 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "AGREES",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "",
+    "iri_source_reference": "turn213search1",
+    "iri_search_index_crawl_age_raw": "4 months ago",
+    "iri_slug_identity_status": "Heading and numeric ID agree; no contradictory named slug selected",
+    "iri_source_evidence_file": "sources/iri_middle_batch4_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "3",
+    "comparison_wikipedia_platform_source": "https://en.wikipedia.org/w/index.php?oldid=1376741290",
+    "comparison_wikipedia_revision_timestamp": "2026-09-26T00:09:55Z",
+    "comparison_wikipedia_platform_agreement": "AGREES",
+    "iri_explicit_platform_field_update_raw": "NOT_RECOVERED",
+    "iri_timeline_evidence_url": "NOT_REVIEWED_SEPARATELY",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "No numeric Wikipedia platform discrepancy found in the existing register.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "origin_lonlat": [
+    76.7676427,
+    8.6786987
+  ],
+  "along_unit_east_north": [
+    -0.822803620397751,
+    0.5683257888397758
+  ],
+  "ways": [
+    {
+      "id": "514385379",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5025569412",
+        "5025569413",
+        "6042091648",
+        "5025569414",
+        "6042091645",
+        "5025569415",
+        "6042091644",
+        "5025569416",
+        "6042091638",
+        "5025569417",
+        "5025569418",
+        "5025569419",
+        "5025569420",
+        "5025569621",
+        "6042091639",
+        "5025569655",
+        "5025569654",
+        "5025569622",
+        "5025569653",
+        "6042091636",
+        "5025569652",
+        "5025569651",
+        "5025569650",
+        "5025569649",
+        "5025569648",
+        "5025569647",
+        "5025569646",
+        "5025569645",
+        "5025569644",
+        "5025569643",
+        "5025569642"
+      ],
+      "xy": [
+        [
+          -1528.0031,
+          -168.5171
+        ],
+        [
+          -1404.7647,
+          -196.0799
+        ],
+        [
+          -1353.5987,
+          -205.6967
+        ],
+        [
+          -1305.5153,
+          -212.6126
+        ],
+        [
+          -1225.902,
+          -215.7038
+        ],
+        [
+          -1166.3135,
+          -214.24
+        ],
+        [
+          -1113.7173,
+          -211.7342
+        ],
+        [
+          -1062.5711,
+          -205.3865
+        ],
+        [
+          -1012.7027,
+          -194.8072
+        ],
+        [
+          -959.3775,
+          -180.0544
+        ],
+        [
+          -872.1613,
+          -153.8389
+        ],
+        [
+          -820.3056,
+          -137.8687
+        ],
+        [
+          -554.6024,
+          -58.5862
+        ],
+        [
+          -505.1445,
+          -44.4888
+        ],
+        [
+          -447.1837,
+          -32.1487
+        ],
+        [
+          -390.4061,
+          -24.6983
+        ],
+        [
+          -348.2076,
+          -22.3392
+        ],
+        [
+          -292.8637,
+          -21.5072
+        ],
+        [
+          -233.2627,
+          -20.1971
+        ],
+        [
+          296.9671,
+          -20.1971
+        ],
+        [
+          421.5631,
+          -19.0736
+        ],
+        [
+          499.4588,
+          -18.9811
+        ],
+        [
+          591.6326,
+          -20.7971
+        ],
+        [
+          639.6458,
+          -27.3015
+        ],
+        [
+          670.3327,
+          -32.4607
+        ],
+        [
+          757.3204,
+          -57.3815
+        ],
+        [
+          830.9567,
+          -91.0104
+        ],
+        [
+          892.5703,
+          -128.8035
+        ],
+        [
+          941.1163,
+          -169.3451
+        ],
+        [
+          984.8783,
+          -210.5123
+        ],
+        [
+          1231.3394,
+          -464.7063
+        ]
+      ],
+      "timestamp": "2018-11-06T16:30:24Z"
+    },
+    {
+      "id": "514385380",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "6042091632",
+        "5025569626",
+        "5025569625",
+        "5025569624",
+        "6801360489",
+        "5025569623",
+        "6042091642"
+      ],
+      "xy": [
+        [
+          650.7863,
+          -20.8918
+        ],
+        [
+          602.2599,
+          -15.5807
+        ],
+        [
+          540.865,
+          -13.0157
+        ],
+        [
+          425.2638,
+          -14.2851
+        ],
+        [
+          -24.1762,
+          -15.1295
+        ],
+        [
+          -201.4832,
+          -15.4558
+        ],
+        [
+          -325.4545,
+          -18.3937
+        ]
+      ],
+      "timestamp": "2019-09-17T07:03:36Z"
+    },
+    {
+      "id": "514385381",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "5025569632",
+        "5025569631",
+        "5025569630",
+        "6042091635",
+        "5025569629",
+        "5025569628",
+        "5025569627",
+        "5025569669"
+      ],
+      "xy": [
+        [
+          -96.7976,
+          -31.6295
+        ],
+        [
+          -46.3164,
+          -37.7957
+        ],
+        [
+          -19.6847,
+          -39.0589
+        ],
+        [
+          46.7363,
+          -39.3157
+        ],
+        [
+          148.8305,
+          -39.1905
+        ],
+        [
+          206.73,
+          -37.2564
+        ],
+        [
+          242.8293,
+          -36.0389
+        ],
+        [
+          300.9543,
+          -28.5643
+        ]
+      ],
+      "timestamp": "2018-11-06T16:30:23Z"
+    },
+    {
+      "id": "514385382",
+      "tags": {
+        "atm": "yes",
+        "railway": "platform"
+      },
+      "nodes": [
+        "5025569641",
+        "5025569640",
+        "5025569639",
+        "5025569638",
+        "5025569633",
+        "5025569637",
+        "5025569636",
+        "5025569635",
+        "5025569641"
+      ],
+      "xy": [
+        [
+          288.8341,
+          -26.0041
+        ],
+        [
+          208.1951,
+          -28.7085
+        ],
+        [
+          157.5719,
+          -29.9463
+        ],
+        [
+          7.3798,
+          -30.3766
+        ],
+        [
+          -19.3088,
+          -30.1539
+        ],
+        [
+          -148.7627,
+          -27.3812
+        ],
+        [
+          -149.0432,
+          -23.0831
+        ],
+        [
+          289.0869,
+          -21.4325
+        ],
+        [
+          288.8341,
+          -26.0041
+        ]
+      ],
+      "timestamp": "2017-08-10T05:37:57Z"
+    },
+    {
+      "id": "514385383",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "2449240678",
+        "7547392025",
+        "6042091628",
+        "7547391919",
+        "1615612731",
+        "5025569673",
+        "3931047763",
+        "5764349060",
+        "5025569672",
+        "335560054",
+        "335560055",
+        "6042091629",
+        "1615612709",
+        "6042091630",
+        "5025569671",
+        "335560057",
+        "5025569670",
+        "5025569669",
+        "5025569668",
+        "5025569667",
+        "6042091631",
+        "5025569634",
+        "5025569632",
+        "335560059",
+        "5025569666",
+        "1615612694",
+        "6042091641",
+        "5025569665",
+        "6042091640",
+        "335560062"
+      ],
+      "xy": [
+        [
+          2073.6688,
+          -1342.9679
+        ],
+        [
+          1968.215,
+          -1231.7129
+        ],
+        [
+          1943.5565,
+          -1205.6946
+        ],
+        [
+          1728.6762,
+          -984.3457
+        ],
+        [
+          1226.7637,
+          -467.2986
+        ],
+        [
+          980.8871,
+          -214.3379
+        ],
+        [
+          937.5124,
+          -173.0926
+        ],
+        [
+          938.9374,
+          -168.1849
+        ],
+        [
+          888.5321,
+          -133.5681
+        ],
+        [
+          828.7806,
+          -96.0311
+        ],
+        [
+          760.1892,
+          -65.6011
+        ],
+        [
+          718.2496,
+          -51.0051
+        ],
+        [
+          678.8948,
+          -40.1707
+        ],
+        [
+          636.1721,
+          -31.1214
+        ],
+        [
+          591.2722,
+          -26.336
+        ],
+        [
+          524.435,
+          -23.8501
+        ],
+        [
+          420.332,
+          -24.8622
+        ],
+        [
+          300.9543,
+          -28.5643
+        ],
+        [
+          213.4931,
+          -32.2738
+        ],
+        [
+          161.2683,
+          -32.2772
+        ],
+        [
+          41.472,
+          -33.3595
+        ],
+        [
+          -18.3133,
+          -33.241
+        ],
+        [
+          -96.7976,
+          -31.6295
+        ],
+        [
+          -148.8828,
+          -27.0717
+        ],
+        [
+          -237.6898,
+          -27.9227
+        ],
+        [
+          -347.2125,
+          -34.2747
+        ],
+        [
+          -393.4277,
+          -39.5707
+        ],
+        [
+          -443.8345,
+          -44.7041
+        ],
+        [
+          -497.3379,
+          -56.1977
+        ],
+        [
+          -556.4832,
+          -70.56
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "608428984",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "335560062",
+        "5025569664",
+        "5025569663",
+        "5025569662",
+        "6042091637",
+        "1615612687",
+        "6042091643",
+        "5025569661",
+        "6042091646",
+        "335560064",
+        "6042091647",
+        "5025569660",
+        "335560066"
+      ],
+      "xy": [
+        [
+          -556.4832,
+          -70.56
+        ],
+        [
+          -812.2714,
+          -147.0799
+        ],
+        [
+          -870.731,
+          -164.7973
+        ],
+        [
+          -958.4097,
+          -190.1688
+        ],
+        [
+          -1011.0942,
+          -203.8161
+        ],
+        [
+          -1063.3583,
+          -214.819
+        ],
+        [
+          -1112.8257,
+          -222.0095
+        ],
+        [
+          -1165.834,
+          -227.1135
+        ],
+        [
+          -1236.3967,
+          -227.715
+        ],
+        [
+          -1305.6273,
+          -221.9576
+        ],
+        [
+          -1354.5446,
+          -215.5771
+        ],
+        [
+          -1404.8818,
+          -207.1602
+        ],
+        [
+          -1531.6932,
+          -178.8588
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "641627315",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "5025569648",
+        "6042091633",
+        "6042091634",
+        "5025569625"
+      ],
+      "xy": [
+        [
+          670.3327,
+          -32.4607
+        ],
+        [
+          617.5931,
+          -20.6432
+        ],
+        [
+          583.6907,
+          -16.9474
+        ],
+        [
+          540.865,
+          -13.0157
+        ]
+      ],
+      "timestamp": "2018-11-06T16:30:15Z"
+    },
+    {
+      "id": "641627317",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "5025569623",
+        "5025569622"
+      ],
+      "xy": [
+        [
+          -201.4832,
+          -15.4558
+        ],
+        [
+          -292.8637,
+          -21.5072
+        ]
+      ],
+      "timestamp": "2018-11-06T16:30:15Z"
+    },
+    {
+      "id": "661604992",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "railway": "rail",
+        "service": "crossover",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "335560062",
+        "5025569657",
+        "5025569656",
+        "5025569655"
+      ],
+      "xy": [
+        [
+          -556.4832,
+          -70.56
+        ],
+        [
+          -480.0859,
+          -44.9849
+        ],
+        [
+          -451.8565,
+          -36.1881
+        ],
+        [
+          -390.4061,
+          -24.6983
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "725262299",
+      "tags": {
+        "addr:postcode": "695306",
+        "addr:street": "kadakavoor",
+        "building": "yes",
+        "name": "kadakkavoor railway station"
+      },
+      "xy": [
+        [
+          15.6717,
+          -12.3104
+        ],
+        [
+          15.0976,
+          -3.25
+        ],
+        [
+          16.827,
+          3.1534
+        ],
+        [
+          16.3413,
+          6.6061
+        ],
+        [
+          -24.4789,
+          5.3883
+        ],
+        [
+          -24.686,
+          -1.8441
+        ],
+        [
+          -24.1762,
+          -15.1295
+        ],
+        [
+          15.6717,
+          -12.3104
+        ]
+      ],
+      "center": [
+        0.7835250000000007,
+        -3.7120750000000005
+      ],
+      "bbox": [
+        -24.686,
+        16.827,
+        -15.1295,
+        6.6061
+      ]
+    },
+    {
+      "id": "785872101",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -210.1132,
+          29.1425
+        ],
+        [
+          -213.3174,
+          40.9457
+        ],
+        [
+          -223.5316,
+          38.4229
+        ],
+        [
+          -218.3685,
+          25.2939
+        ],
+        [
+          -210.1132,
+          29.1425
+        ]
+      ],
+      "center": [
+        -215.08878000000004,
+        32.5895
+      ],
+      "bbox": [
+        -223.5316,
+        -210.1132,
+        25.2939,
+        40.9457
+      ]
+    },
+    {
+      "id": "800032650",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          164.5872,
+          80.3742
+        ],
+        [
+          161.2864,
+          77.6208
+        ],
+        [
+          152.2078,
+          90.7646
+        ],
+        [
+          164.7237,
+          91.8331
+        ],
+        [
+          164.5872,
+          80.3742
+        ]
+      ],
+      "center": [
+        161.47845999999998,
+        84.19338
+      ],
+      "bbox": [
+        152.2078,
+        164.7237,
+        77.6208,
+        91.8331
+      ]
+    },
+    {
+      "id": "800032651",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -30.0452,
+          90.7832
+        ],
+        [
+          -22.9703,
+          94.2494
+        ],
+        [
+          -29.8133,
+          102.7816
+        ],
+        [
+          -36.8882,
+          99.3154
+        ],
+        [
+          -30.0452,
+          90.7832
+        ]
+      ],
+      "center": [
+        -29.952440000000003,
+        95.58256000000002
+      ],
+      "bbox": [
+        -36.8882,
+        -22.9703,
+        90.7832,
+        102.7816
+      ]
+    },
+    {
+      "id": "800032660",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          53.0037,
+          -130.1792
+        ],
+        [
+          39.8351,
+          -137.8544
+        ],
+        [
+          36.3753,
+          -130.7736
+        ],
+        [
+          47.2679,
+          -123.2499
+        ],
+        [
+          53.0037,
+          -130.1792
+        ]
+      ],
+      "center": [
+        45.89714,
+        -130.44726
+      ],
+      "bbox": [
+        36.3753,
+        53.0037,
+        -137.8544,
+        -123.2499
+      ]
+    },
+    {
+      "id": "800032676",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          92.3062,
+          -141.8479
+        ],
+        [
+          80.0759,
+          -147.4545
+        ],
+        [
+          74.3187,
+          -139.1194
+        ],
+        [
+          81.6677,
+          -132.6227
+        ],
+        [
+          92.3062,
+          -141.8479
+        ]
+      ],
+      "center": [
+        84.13494,
+        -140.57848
+      ],
+      "bbox": [
+        74.3187,
+        92.3062,
+        -147.4545,
+        -132.6227
+      ]
+    },
+    {
+      "id": "802083631",
+      "tags": {
+        "addr:city": "Kadakkavoor",
+        "addr:postcode": "695306",
+        "amenity": "post_office",
+        "building": "yes",
+        "name": "Post Office Kadakkavoor",
+        "name:ml": "\u0d2a\u0d4b\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d4d \u0d13\u0d2b\u0d40\u0d38\u0d4d \u0d15\u0d1f\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d3e\u0d35\u0d42\u0d7c",
+        "opening_hours": "Mo-Sa 08:40-16:30",
+        "operator": "government",
+        "phone": "+914702656640"
+      },
+      "xy": [
+        [
+          -137.9031,
+          -53.0947
+        ],
+        [
+          -138.5989,
+          -60.3941
+        ],
+        [
+          -152.2102,
+          -64.0593
+        ],
+        [
+          -168.1123,
+          -62.8397
+        ],
+        [
+          -174.1084,
+          -61.962
+        ],
+        [
+          -173.0882,
+          -54.0867
+        ],
+        [
+          -157.2684,
+          -49.9785
+        ],
+        [
+          -147.9396,
+          -49.9884
+        ],
+        [
+          -137.9031,
+          -53.0947
+        ]
+      ],
+      "center": [
+        -154.12579999999997,
+        -56.610899999999994
+      ],
+      "bbox": [
+        -174.1084,
+        -137.9031,
+        -64.0593,
+        -49.9785
+      ]
+    },
+    {
+      "id": "802083632",
+      "tags": {
+        "building": "yes",
+        "name": "Muthoot FinCorp"
+      },
+      "xy": [
+        [
+          -190.238,
+          -126.6927
+        ],
+        [
+          -188.2818,
+          -124.8003
+        ],
+        [
+          -192.3484,
+          -117.2863
+        ],
+        [
+          -200.8722,
+          -121.8886
+        ],
+        [
+          -196.4514,
+          -130.0509
+        ],
+        [
+          -190.238,
+          -126.6927
+        ]
+      ],
+      "center": [
+        -193.07163333333335,
+        -124.56858333333332
+      ],
+      "bbox": [
+        -200.8722,
+        -188.2818,
+        -130.0509,
+        -117.2863
+      ]
+    },
+    {
+      "id": "802083633",
+      "tags": {
+        "building": "retail",
+        "name": "S S Electricals"
+      },
+      "xy": [
+        [
+          -196.9282,
+          -108.855
+        ],
+        [
+          -200.2775,
+          -101.6438
+        ],
+        [
+          -209.8194,
+          -106.3404
+        ],
+        [
+          -206.9106,
+          -113.3012
+        ],
+        [
+          -196.9282,
+          -108.855
+        ]
+      ],
+      "center": [
+        -202.17278000000002,
+        -107.79908
+      ],
+      "bbox": [
+        -209.8194,
+        -196.9282,
+        -113.3012,
+        -101.6438
+      ]
+    },
+    {
+      "id": "802092052",
+      "tags": {
+        "building": "yes",
+        "name": "Vigneswara Lotteries",
+        "shop": "lottery"
+      },
+      "xy": [
+        [
+          -17.13,
+          40.3101
+        ],
+        [
+          -19.9821,
+          44.8072
+        ],
+        [
+          -24.6631,
+          41.8445
+        ],
+        [
+          -21.811,
+          37.3474
+        ],
+        [
+          -17.13,
+          40.3101
+        ]
+      ],
+      "center": [
+        -20.14324,
+        40.923860000000005
+      ],
+      "bbox": [
+        -24.6631,
+        -17.13,
+        37.3474,
+        44.8072
+      ]
+    },
+    {
+      "id": "802092053",
+      "tags": {
+        "amenity": "bank",
+        "building": "yes",
+        "name": "Sub Treasury"
+      },
+      "xy": [
+        [
+          48.0409,
+          -86.1462
+        ],
+        [
+          41.9714,
+          -75.7132
+        ],
+        [
+          31.9001,
+          -81.5603
+        ],
+        [
+          37.9605,
+          -91.9995
+        ],
+        [
+          48.0409,
+          -86.1462
+        ]
+      ],
+      "center": [
+        41.58276,
+        -84.31307999999999
+      ],
+      "bbox": [
+        31.9001,
+        48.0409,
+        -91.9995,
+        -75.7132
+      ]
+    },
+    {
+      "id": "802092054",
+      "tags": {
+        "building": "yes",
+        "name": "Sub- Registrar Office"
+      },
+      "xy": [
+        [
+          57.5741,
+          -81.0496
+        ],
+        [
+          50.8206,
+          -70.5751
+        ],
+        [
+          45.0928,
+          -74.2878
+        ],
+        [
+          51.6403,
+          -84.4447
+        ],
+        [
+          57.5741,
+          -81.0496
+        ]
+      ],
+      "center": [
+        52.540380000000006,
+        -78.28136
+      ],
+      "bbox": [
+        45.0928,
+        57.5741,
+        -84.4447,
+        -70.5751
+      ]
+    },
+    {
+      "id": "802096032",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          96.8992,
+          36.1102
+        ],
+        [
+          93.5999,
+          45.6695
+        ],
+        [
+          79.9288,
+          40.9484
+        ],
+        [
+          83.2218,
+          31.3982
+        ],
+        [
+          96.8992,
+          36.1102
+        ]
+      ],
+      "center": [
+        90.10978000000001,
+        38.04729999999999
+      ],
+      "bbox": [
+        79.9288,
+        96.8992,
+        31.3982,
+        45.6695
+      ]
+    },
+    {
+      "id": "802096033",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          207.443,
+          83.0791
+        ],
+        [
+          203.7291,
+          88.185
+        ],
+        [
+          195.6132,
+          82.2951
+        ],
+        [
+          199.3244,
+          77.1738
+        ],
+        [
+          207.443,
+          83.0791
+        ]
+      ],
+      "center": [
+        202.71053999999998,
+        82.76241999999999
+      ],
+      "bbox": [
+        195.6132,
+        207.443,
+        77.1738,
+        88.185
+      ]
+    },
+    {
+      "id": "802096034",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          74.8593,
+          77.7778
+        ],
+        [
+          72.645,
+          80.9836
+        ],
+        [
+          60.292,
+          80.0276
+        ],
+        [
+          53.18,
+          75.5887
+        ],
+        [
+          60.189,
+          66.4677
+        ],
+        [
+          74.8593,
+          77.7778
+        ]
+      ],
+      "center": [
+        66.00410000000001,
+        76.4372
+      ],
+      "bbox": [
+        53.18,
+        74.8593,
+        66.4677,
+        80.9836
+      ]
+    },
+    {
+      "id": "802096035",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          155.472,
+          128.9667
+        ],
+        [
+          151.6792,
+          126.577
+        ],
+        [
+          146.1989,
+          134.8598
+        ],
+        [
+          154.9996,
+          141.6557
+        ],
+        [
+          161.5657,
+          133.1758
+        ],
+        [
+          155.472,
+          128.9667
+        ]
+      ],
+      "center": [
+        154.23123333333334,
+        132.36695
+      ],
+      "bbox": [
+        146.1989,
+        161.5657,
+        126.577,
+        141.6557
+      ]
+    },
+    {
+      "id": "802096036",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          99.9754,
+          97.8589
+        ],
+        [
+          96.4569,
+          103.9791
+        ],
+        [
+          86.3602,
+          98.1687
+        ],
+        [
+          89.8941,
+          92.0455
+        ],
+        [
+          99.9754,
+          97.8589
+        ]
+      ],
+      "center": [
+        94.5324,
+        97.98222000000001
+      ],
+      "bbox": [
+        86.3602,
+        99.9754,
+        92.0455,
+        103.9791
+      ]
+    },
+    {
+      "id": "802096037",
+      "tags": {
+        "building": "yes",
+        "name": "Kerala Bakery",
+        "shop": "bakery"
+      },
+      "xy": [
+        [
+          -88.5934,
+          29.8594
+        ],
+        [
+          -89.2266,
+          36.4303
+        ],
+        [
+          -102.4791,
+          36.5441
+        ],
+        [
+          -101.7497,
+          29.2145
+        ],
+        [
+          -88.5934,
+          29.8594
+        ]
+      ],
+      "center": [
+        -94.12844,
+        32.38154
+      ],
+      "bbox": [
+        -102.4791,
+        -88.5934,
+        29.2145,
+        36.5441
+      ]
+    },
+    {
+      "id": "802103054",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -5.1403,
+          -77.5426
+        ],
+        [
+          -9.694,
+          -67.0773
+        ],
+        [
+          -19.7939,
+          -70.3465
+        ],
+        [
+          -14.7594,
+          -81.5078
+        ],
+        [
+          -5.1403,
+          -77.5426
+        ]
+      ],
+      "center": [
+        -10.90558,
+        -74.80336
+      ],
+      "bbox": [
+        -19.7939,
+        -5.1403,
+        -81.5078,
+        -67.0773
+      ]
+    },
+    {
+      "id": "802103055",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -34.3839,
+          -97.7281
+        ],
+        [
+          -40.7309,
+          -83.8339
+        ],
+        [
+          -55.3791,
+          -90.5288
+        ],
+        [
+          -49.0385,
+          -104.4138
+        ],
+        [
+          -34.3839,
+          -97.7281
+        ]
+      ],
+      "center": [
+        -42.78326,
+        -94.84653999999999
+      ],
+      "bbox": [
+        -55.3791,
+        -34.3839,
+        -104.4138,
+        -83.8339
+      ]
+    },
+    {
+      "id": "802103056",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -12.6316,
+          -88.4804
+        ],
+        [
+          -19.3055,
+          -77.0174
+        ],
+        [
+          -34.2755,
+          -84.2727
+        ],
+        [
+          -28.2039,
+          -96.3547
+        ],
+        [
+          -12.6316,
+          -88.4804
+        ]
+      ],
+      "center": [
+        -21.409620000000004,
+        -86.92112
+      ],
+      "bbox": [
+        -34.2755,
+        -12.6316,
+        -96.3547,
+        -77.0174
+      ]
+    },
+    {
+      "id": "802564450",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -171.366,
+          40.0224
+        ],
+        [
+          -177.1319,
+          57.1997
+        ],
+        [
+          -186.0237,
+          55.0085
+        ],
+        [
+          -187.9157,
+          45.8006
+        ],
+        [
+          -185.9462,
+          35.6881
+        ],
+        [
+          -171.366,
+          40.0224
+        ]
+      ],
+      "center": [
+        -179.95825000000002,
+        45.62361666666666
+      ],
+      "bbox": [
+        -187.9157,
+        -171.366,
+        35.6881,
+        57.1997
+      ]
+    },
+    {
+      "id": "802564451",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -152.682,
+          64.4007
+        ],
+        [
+          -161.5709,
+          77.2697
+        ],
+        [
+          -169.9823,
+          70.7428
+        ],
+        [
+          -162.0885,
+          58.2688
+        ],
+        [
+          -152.682,
+          64.4007
+        ]
+      ],
+      "center": [
+        -159.80113999999998,
+        67.01654
+      ],
+      "bbox": [
+        -169.9823,
+        -152.682,
+        58.2688,
+        77.2697
+      ]
+    },
+    {
+      "id": "802564452",
+      "tags": {
+        "building": "house"
+      },
+      "xy": [
+        [
+          -224.3223,
+          113.5734
+        ],
+        [
+          -235.82,
+          130.7422
+        ],
+        [
+          -248.1895,
+          121.1161
+        ],
+        [
+          -238.4022,
+          103.8482
+        ],
+        [
+          -224.3223,
+          113.5734
+        ]
+      ],
+      "center": [
+        -234.21125999999998,
+        116.57066000000002
+      ],
+      "bbox": [
+        -248.1895,
+        -224.3223,
+        103.8482,
+        130.7422
+      ]
+    },
+    {
+      "id": "802575340",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -302.5746,
+          62.7431
+        ],
+        [
+          -310.773,
+          73.5862
+        ],
+        [
+          -328.0585,
+          59.1303
+        ],
+        [
+          -319.8037,
+          49.7739
+        ],
+        [
+          -302.5746,
+          62.7431
+        ]
+      ],
+      "center": [
+        -312.75688,
+        61.595319999999994
+      ],
+      "bbox": [
+        -328.0585,
+        -302.5746,
+        49.7739,
+        73.5862
+      ]
+    },
+    {
+      "id": "802575341",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -433.3416,
+          13.6844
+        ],
+        [
+          -436.36,
+          22.7207
+        ],
+        [
+          -450.2804,
+          18.4768
+        ],
+        [
+          -447.5065,
+          9.2716
+        ],
+        [
+          -433.3416,
+          13.6844
+        ]
+      ],
+      "center": [
+        -440.16602,
+        15.567580000000001
+      ],
+      "bbox": [
+        -450.2804,
+        -433.3416,
+        9.2716,
+        22.7207
+      ]
+    },
+    {
+      "id": "802575344",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -253.5936,
+          -132.2873
+        ],
+        [
+          -259.439,
+          -120.1843
+        ],
+        [
+          -275.449,
+          -127.6574
+        ],
+        [
+          -268.5977,
+          -141.2168
+        ],
+        [
+          -253.5936,
+          -132.2873
+        ]
+      ],
+      "center": [
+        -262.13458,
+        -130.72661999999997
+      ],
+      "bbox": [
+        -275.449,
+        -253.5936,
+        -141.2168,
+        -120.1843
+      ]
+    },
+    {
+      "id": "802575346",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -73.9769,
+          -140.9592
+        ],
+        [
+          -80.7802,
+          -130.5867
+        ],
+        [
+          -91.32,
+          -137.1497
+        ],
+        [
+          -84.2722,
+          -147.3533
+        ],
+        [
+          -73.9769,
+          -140.9592
+        ]
+      ],
+      "center": [
+        -80.86524,
+        -139.40162
+      ],
+      "bbox": [
+        -91.32,
+        -73.9769,
+        -147.3533,
+        -130.5867
+      ]
+    },
+    {
+      "id": "802584208",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -323.2173,
+          -140.5608
+        ],
+        [
+          -333.2995,
+          -129.5849
+        ],
+        [
+          -341.0403,
+          -137.0828
+        ],
+        [
+          -331.6196,
+          -147.0815
+        ],
+        [
+          -323.2173,
+          -140.5608
+        ]
+      ],
+      "center": [
+        -330.4788,
+        -138.97416
+      ],
+      "bbox": [
+        -341.0403,
+        -323.2173,
+        -147.0815,
+        -129.5849
+      ]
+    },
+    {
+      "id": "802584209",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          180.0321,
+          61.0342
+        ],
+        [
+          173.9902,
+          69.7815
+        ],
+        [
+          158.1254,
+          58.458
+        ],
+        [
+          164.8944,
+          50.2265
+        ],
+        [
+          180.0321,
+          61.0342
+        ]
+      ],
+      "center": [
+        171.41484,
+        60.106880000000004
+      ],
+      "bbox": [
+        158.1254,
+        180.0321,
+        50.2265,
+        69.7815
+      ]
+    },
+    {
+      "id": "802584210",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          314.9345,
+          42.2989
+        ],
+        [
+          313.9966,
+          54.5581
+        ],
+        [
+          297.5691,
+          52.8983
+        ],
+        [
+          298.7686,
+          39.7375
+        ],
+        [
+          314.9345,
+          42.2989
+        ]
+      ],
+      "center": [
+        308.04066,
+        46.35834
+      ],
+      "bbox": [
+        297.5691,
+        314.9345,
+        39.7375,
+        54.5581
+      ]
+    },
+    {
+      "id": "802591149",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          364.3055,
+          23.663
+        ],
+        [
+          365.3424,
+          35.1351
+        ],
+        [
+          350.0911,
+          36.4389
+        ],
+        [
+          349.0714,
+          23.8963
+        ],
+        [
+          364.3055,
+          23.663
+        ]
+      ],
+      "center": [
+        358.62318,
+        28.559260000000002
+      ],
+      "bbox": [
+        349.0714,
+        365.3424,
+        23.663,
+        36.4389
+      ]
+    },
+    {
+      "id": "803430289",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -119.806,
+          125.8568
+        ],
+        [
+          -126.1141,
+          136.5579
+        ],
+        [
+          -136.2278,
+          128.8551
+        ],
+        [
+          -129.9477,
+          120.2859
+        ],
+        [
+          -119.806,
+          125.8568
+        ]
+      ],
+      "center": [
+        -126.38032000000001,
+        127.4825
+      ],
+      "bbox": [
+        -136.2278,
+        -119.806,
+        120.2859,
+        136.5579
+      ]
+    },
+    {
+      "id": "804330980",
+      "tags": {
+        "addr:city": "Kadakkavoor",
+        "addr:street": "Near Kadakkavoor Railway Station",
+        "building": "yes",
+        "name": "Achu Store",
+        "payment:cash": "yes",
+        "shop": "grocery"
+      },
+      "xy": [
+        [
+          19.9682,
+          31.9488
+        ],
+        [
+          15.1767,
+          28.8557
+        ],
+        [
+          12.685,
+          32.5599
+        ],
+        [
+          17.9785,
+          36.3786
+        ],
+        [
+          19.9682,
+          31.9488
+        ]
+      ],
+      "center": [
+        17.15532,
+        32.33836
+      ],
+      "bbox": [
+        12.685,
+        19.9682,
+        28.8557,
+        36.3786
+      ]
+    },
+    {
+      "id": "804330986",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -137.9403,
+          71.3089
+        ],
+        [
+          -145.9941,
+          82.9689
+        ],
+        [
+          -153.88,
+          79.3214
+        ],
+        [
+          -145.5275,
+          64.6343
+        ],
+        [
+          -137.9403,
+          71.3089
+        ]
+      ],
+      "center": [
+        -144.25644,
+        73.90848
+      ],
+      "bbox": [
+        -153.88,
+        -137.9403,
+        64.6343,
+        82.9689
+      ]
+    },
+    {
+      "id": "804330990",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -48.4305,
+          54.9354
+        ],
+        [
+          -55.632,
+          64.3159
+        ],
+        [
+          -63.3836,
+          57.8793
+        ],
+        [
+          -55.4641,
+          49.0084
+        ],
+        [
+          -48.4305,
+          54.9354
+        ]
+      ],
+      "center": [
+        -54.26814,
+        56.21488000000001
+      ],
+      "bbox": [
+        -63.3836,
+        -48.4305,
+        49.0084,
+        64.3159
+      ]
+    },
+    {
+      "id": "804388261",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          279.3503,
+          136.3186
+        ],
+        [
+          268.2445,
+          144.071
+        ],
+        [
+          258.6465,
+          130.9745
+        ],
+        [
+          271.1382,
+          122.7452
+        ],
+        [
+          279.3503,
+          136.3186
+        ]
+      ],
+      "center": [
+        271.34596,
+        134.08558
+      ],
+      "bbox": [
+        258.6465,
+        279.3503,
+        122.7452,
+        144.071
+      ]
+    },
+    {
+      "id": "888799372",
+      "tags": {
+        "addr:city": "Kadakkavoor",
+        "addr:postcode": "695306",
+        "building": "yes",
+        "government": "register_office",
+        "name": "Sub Registrar Office Kadakkavoor",
+        "office": "government",
+        "opening_hours": "Mo-Sa 10:00-17:00",
+        "operator": "government",
+        "phone": "+914702658570"
+      },
+      "xy": [
+        [
+          38.0629,
+          -74.8953
+        ],
+        [
+          31.0455,
+          -63.9806
+        ],
+        [
+          22.4893,
+          -69.4847
+        ],
+        [
+          29.5067,
+          -80.3993
+        ],
+        [
+          38.0629,
+          -74.8953
+        ]
+      ],
+      "center": [
+        31.833460000000002,
+        -72.73104000000001
+      ],
+      "bbox": [
+        22.4893,
+        38.0629,
+        -80.3993,
+        -63.9806
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "389945047",
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1"
+      },
+      "xy": [
+        [
+          -229.907,
+          -7.2994
+        ],
+        [
+          -206.6591,
+          -63.786
+        ]
+      ]
+    },
+    {
+      "id": "389945369",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -237.191,
+          13.4699
+        ],
+        [
+          -116.8246,
+          14.6755
+        ],
+        [
+          -17.7585,
+          12.3303
+        ],
+        [
+          9.7207,
+          11.6796
+        ],
+        [
+          87.2935,
+          -5.0516
+        ],
+        [
+          208.6754,
+          -2.644
+        ],
+        [
+          322.2233,
+          -1.3451
+        ],
+        [
+          436.4157,
+          0.047
+        ],
+        [
+          538.3659,
+          -6.2995
+        ],
+        [
+          579.8626,
+          -5.6157
+        ],
+        [
+          573.0823,
+          33.8067
+        ],
+        [
+          567.008,
+          69.0897
+        ],
+        [
+          577.3976,
+          85.2224
+        ],
+        [
+          635.6538,
+          102.15
+        ],
+        [
+          679.2641,
+          123.6678
+        ],
+        [
+          732.922,
+          62.0743
+        ],
+        [
+          732.0953,
+          42.4945
+        ],
+        [
+          742.1986,
+          21.129
+        ],
+        [
+          766.3702,
+          -10.245
+        ],
+        [
+          789.8803,
+          -40.6418
+        ],
+        [
+          809.1265,
+          -65.582
+        ],
+        [
+          859.088,
+          -22.4139
+        ],
+        [
+          868.5571,
+          -18.1734
+        ],
+        [
+          874.2997,
+          -17.1157
+        ],
+        [
+          877.7573,
+          -17.3387
+        ],
+        [
+          885.3588,
+          -13.9958
+        ],
+        [
+          894.1323,
+          -9.3293
+        ],
+        [
+          903.6994,
+          -4.8046
+        ],
+        [
+          914.7726,
+          0.0568
+        ],
+        [
+          922.0982,
+          3.5473
+        ],
+        [
+          932.6588,
+          7.8923
+        ],
+        [
+          943.3951,
+          11.4793
+        ],
+        [
+          953.2933,
+          12.7556
+        ],
+        [
+          961.5465,
+          15.155
+        ],
+        [
+          970.444,
+          17.6478
+        ],
+        [
+          980.3209,
+          20.4653
+        ],
+        [
+          992.0862,
+          24.0729
+        ],
+        [
+          996.447,
+          22.0386
+        ],
+        [
+          1001.1277,
+          17.2758
+        ],
+        [
+          1005.9509,
+          8.7827
+        ],
+        [
+          1012.4298,
+          -6.3869
+        ],
+        [
+          1018.3777,
+          -18.2703
+        ],
+        [
+          1022.9187,
+          -26.6066
+        ],
+        [
+          1029.7335,
+          -36.2406
+        ]
+      ]
+    },
+    {
+      "id": "725266692",
+      "tags": {
+        "highway": "residential",
+        "layer": "-1",
+        "name": "kaniyakkudi tunnel",
+        "tunnel": "yes"
+      },
+      "xy": [
+        [
+          -825.4413,
+          -167.7847
+        ],
+        [
+          -836.5125,
+          -138.6861
+        ]
+      ]
+    },
+    {
+      "id": "725266693",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -836.5125,
+          -138.6861
+        ],
+        [
+          -839.6263,
+          -73.2037
+        ],
+        [
+          -842.1688,
+          -54.7875
+        ],
+        [
+          -852.3843,
+          -24.0426
+        ],
+        [
+          -878.4566,
+          6.9657
+        ],
+        [
+          -883.104,
+          45.3719
+        ],
+        [
+          -883.6889,
+          82.9313
+        ],
+        [
+          -887.5469,
+          99.4375
+        ],
+        [
+          -918.9825,
+          135.8871
+        ],
+        [
+          -958.5471,
+          181.8205
+        ],
+        [
+          -974.1806,
+          200.6785
+        ],
+        [
+          -984.3066,
+          216.6165
+        ],
+        [
+          -998.2082,
+          247.102
+        ],
+        [
+          -1006.8414,
+          281.578
+        ]
+      ]
+    },
+    {
+      "id": "796294995",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -848.7579,
+          -151.3383
+        ],
+        [
+          -851.4418,
+          -142.7475
+        ]
+      ]
+    },
+    {
+      "id": "796294999",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -848.1587,
+          -153.2515
+        ],
+        [
+          -848.7579,
+          -151.3383
+        ]
+      ]
+    },
+    {
+      "id": "796295000",
+      "tags": {
+        "layer": "-1",
+        "tunnel": "culvert",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -845.4748,
+          -161.8423
+        ],
+        [
+          -848.1587,
+          -153.2515
+        ]
+      ]
+    },
+    {
+      "id": "796296127",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          -609.664,
+          -147.0963
+        ],
+        [
+          -621.4147,
+          -134.7699
+        ],
+        [
+          -624.5148,
+          -125.073
+        ],
+        [
+          -613.6488,
+          -119.0017
+        ],
+        [
+          -603.7515,
+          -113.5996
+        ],
+        [
+          -597.4823,
+          -121.1076
+        ],
+        [
+          -598.1787,
+          -123.7397
+        ],
+        [
+          -593.0147,
+          -133.8105
+        ],
+        [
+          -597.6326,
+          -137.0001
+        ],
+        [
+          -599.8147,
+          -138.5074
+        ],
+        [
+          -606.5496,
+          -147.4616
+        ],
+        [
+          -609.664,
+          -147.0963
+        ]
+      ]
+    },
+    {
+      "id": "796296563",
+      "tags": {
+        "name": "Ponds In Attingal",
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          -586.7489,
+          -32.2606
+        ],
+        [
+          -594.5405,
+          -26.1695
+        ],
+        [
+          -595.6807,
+          -21.9242
+        ],
+        [
+          -599.6615,
+          -13.5662
+        ],
+        [
+          -605.1602,
+          -7.6772
+        ],
+        [
+          -622.608,
+          -17.2123
+        ],
+        [
+          -635.4585,
+          -17.8354
+        ],
+        [
+          -647.6287,
+          -24.0905
+        ],
+        [
+          -644.3265,
+          -40.8183
+        ],
+        [
+          -654.8771,
+          -46.32
+        ],
+        [
+          -664.0021,
+          -54.4086
+        ],
+        [
+          -658.901,
+          -65.9569
+        ],
+        [
+          -654.7602,
+          -73.5008
+        ],
+        [
+          -643.0955,
+          -71.1803
+        ],
+        [
+          -632.5134,
+          -57.4175
+        ],
+        [
+          -620.4393,
+          -59.8335
+        ],
+        [
+          -612.5647,
+          -50.4574
+        ],
+        [
+          -596.9809,
+          -41.8446
+        ],
+        [
+          -586.7489,
+          -32.2606
+        ]
+      ]
+    },
+    {
+      "id": "834924901",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          75.7635,
+          208.8929
+        ],
+        [
+          43.617,
+          167.68
+        ],
+        [
+          24.9032,
+          148.6117
+        ],
+        [
+          1.9769,
+          133.7638
+        ],
+        [
+          -34.0552,
+          121.1604
+        ],
+        [
+          -55.9906,
+          109.3509
+        ],
+        [
+          -67.1157,
+          100.9631
+        ],
+        [
+          -81.6638,
+          89.6697
+        ]
+      ]
+    },
+    {
+      "id": "888799492",
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -142.0094,
+          -257.762
+        ],
+        [
+          -139.8681,
+          -243.6871
+        ],
+        [
+          -142.9891,
+          -223.6006
+        ],
+        [
+          -148.8093,
+          -203.2273
+        ],
+        [
+          -156.6162,
+          -171.671
+        ],
+        [
+          -163.2892,
+          -144.3509
+        ],
+        [
+          -170.7128,
+          -116.4669
+        ],
+        [
+          -182.5058,
+          -85.878
+        ],
+        [
+          -190.7645,
+          -56.7849
+        ],
+        [
+          -189.2021,
+          -42.4334
+        ],
+        [
+          -175.6644,
+          -39.1844
+        ],
+        [
+          -150.368,
+          -38.9211
+        ],
+        [
+          -125.3135,
+          -41.1925
+        ],
+        [
+          -103.8841,
+          -43.2889
+        ],
+        [
+          -29.3244,
+          -51.2236
+        ],
+        [
+          8.6231,
+          -53.7083
+        ],
+        [
+          37.4407,
+          -58.5622
+        ],
+        [
+          54.1607,
+          -59.9204
+        ],
+        [
+          79.4001,
+          -56.4764
+        ],
+        [
+          99.3972,
+          -57.3704
+        ],
+        [
+          115.0633,
+          -54.0854
+        ],
+        [
+          142.3294,
+          -48.8898
+        ],
+        [
+          165.0622,
+          -47.5289
+        ],
+        [
+          177.1056,
+          -47.8286
+        ],
+        [
+          200.25,
+          -46.5216
+        ],
+        [
+          215.6203,
+          -45.2674
+        ],
+        [
+          227.5477,
+          -46.7159
+        ],
+        [
+          235.2294,
+          -50.15
+        ],
+        [
+          248.5935,
+          -47.7921
+        ]
+      ]
+    },
+    {
+      "id": "899718650",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -974.7124,
+          193.7224
+        ],
+        [
+          -979.5652,
+          187.6781
+        ],
+        [
+          -973.5191,
+          179.5832
+        ],
+        [
+          -950.9439,
+          150.1912
+        ],
+        [
+          -943.5563,
+          136.204
+        ],
+        [
+          -931.3139,
+          110.5797
+        ],
+        [
+          -913.5822,
+          79.6416
+        ],
+        [
+          -896.2748,
+          55.2428
+        ],
+        [
+          -890.581,
+          24.6351
+        ],
+        [
+          -888.0467,
+          -12.8225
+        ]
+      ]
+    },
+    {
+      "id": "901864327",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          -556.0142,
+          92.3597
+        ],
+        [
+          -544.2866,
+          98.4037
+        ],
+        [
+          -533.6062,
+          82.1857
+        ],
+        [
+          -531.1576,
+          75.6782
+        ],
+        [
+          -541.2263,
+          68.7236
+        ],
+        [
+          -546.0598,
+          70.5126
+        ],
+        [
+          -556.0142,
+          92.3597
+        ]
+      ]
+    },
+    {
+      "id": "901864328",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          -657.3234,
+          38.8758
+        ],
+        [
+          -658.5153,
+          29.3126
+        ],
+        [
+          -648.4496,
+          14.7399
+        ],
+        [
+          -641.7866,
+          12.7805
+        ],
+        [
+          -640.4877,
+          28.9658
+        ],
+        [
+          -647.9168,
+          38.8114
+        ],
+        [
+          -650.3416,
+          47.7436
+        ],
+        [
+          -645.4649,
+          54.2373
+        ],
+        [
+          -659.3334,
+          66.1833
+        ],
+        [
+          -665.3253,
+          66.7257
+        ],
+        [
+          -671.6635,
+          62.3478
+        ],
+        [
+          -674.8086,
+          50.1907
+        ],
+        [
+          -666.0939,
+          48.4172
+        ],
+        [
+          -656.7943,
+          41.7307
+        ],
+        [
+          -657.3234,
+          38.8758
+        ]
+      ]
+    },
+    {
+      "id": "901864329",
+      "tags": {
+        "natural": "water"
+      },
+      "xy": [
+        [
+          -537.8647,
+          54.7561
+        ],
+        [
+          -527.7635,
+          40.5192
+        ],
+        [
+          -540.0469,
+          26.799
+        ],
+        [
+          -552.9053,
+          35.8303
+        ],
+        [
+          -537.8647,
+          54.7561
+        ]
+      ]
+    },
+    {
+      "id": "901864330",
+      "tags": {
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -538.816,
+          39.7715
+        ],
+        [
+          -538.5255,
+          21.7887
+        ],
+        [
+          -545.279,
+          19.5998
+        ],
+        [
+          -575.2578,
+          41.0638
+        ],
+        [
+          -604.4732,
+          62.2164
+        ],
+        [
+          -608.5175,
+          52.523
+        ],
+        [
+          -616.2415,
+          59.3102
+        ],
+        [
+          -614.0136,
+          68.8449
+        ],
+        [
+          -615.2197,
+          77.3876
+        ],
+        [
+          -631.6146,
+          99.1291
+        ],
+        [
+          -641.21,
+          97.4531
+        ],
+        [
+          -658.2216,
+          83.7817
+        ],
+        [
+          -664.0085,
+          57.4612
+        ]
+      ]
+    },
+    {
+      "id": "901864333",
+      "tags": {
+        "name": "Stream",
+        "waterway": "stream"
+      },
+      "xy": [
+        [
+          -509.1871,
+          -73.3927
+        ],
+        [
+          -512.1822,
+          -80.4809
+        ],
+        [
+          -522.4775,
+          -86.875
+        ],
+        [
+          -524.3437,
+          -92.4799
+        ],
+        [
+          -529.5414,
+          -95.3529
+        ],
+        [
+          -533.6589,
+          -103.9334
+        ],
+        [
+          -543.0934,
+          -107.9335
+        ],
+        [
+          -550.8622,
+          -113.2996
+        ],
+        [
+          -560.1254,
+          -122.2143
+        ],
+        [
+          -570.9526,
+          -131.4787
+        ],
+        [
+          -583.7762,
+          -137.8333
+        ],
+        [
+          -595.1461,
+          -148.9067
+        ],
+        [
+          -603.2073,
+          -151.2548
+        ],
+        [
+          -606.5496,
+          -147.4616
+        ]
+      ]
+    },
+    {
+      "id": "939067282",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          932.6588,
+          7.8923
+        ],
+        [
+          933.4808,
+          13.6148
+        ],
+        [
+          932.1872,
+          24.6271
+        ],
+        [
+          930.5563,
+          40.2905
+        ],
+        [
+          930.7837,
+          52.2181
+        ],
+        [
+          928.0649,
+          55.9414
+        ],
+        [
+          919.311,
+          60.5019
+        ],
+        [
+          907.6325,
+          62.0547
+        ],
+        [
+          898.2635,
+          63.7686
+        ],
+        [
+          882.4876,
+          67.4971
+        ],
+        [
+          869.2408,
+          72.1337
+        ],
+        [
+          861.0443,
+          78.811
+        ],
+        [
+          849.3645,
+          84.0835
+        ],
+        [
+          838.7375,
+          90.9491
+        ],
+        [
+          818.4563,
+          103.4851
+        ],
+        [
+          805.1684,
+          112.9638
+        ],
+        [
+          788.0496,
+          121.9477
+        ],
+        [
+          776.2213,
+          128.2676
+        ],
+        [
+          757.1152,
+          139.3153
+        ],
+        [
+          750.2815,
+          142.7804
+        ]
+      ]
+    }
+  ],
+  "center_rail_ys": [
+    -39.14,
+    -33.28,
+    -20.2,
+    -15.08
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-08"
+}

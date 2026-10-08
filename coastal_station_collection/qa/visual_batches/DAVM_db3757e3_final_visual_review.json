@@ -1,0 +1,68 @@
+{
+  "station": "DAVM",
+  "reviewed_utc": "2026-10-08T22:14:41.058094+00:00",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+  "frames": {
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "b9cfc21ad66c5f2b5c5fd85605c4f1b84959c8504ae60d50212ccf11a11d3f4a",
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "70962f0cd1054391a96418317b250bedab86ae9889307170f5f6150b7ed43159",
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "inheritance_basis": null
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "664b8d543cdfb3f2a31eaaae2ea734b4779b2469eaf1878ad8c307b429e93a38",
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "6dce2269837f9c0a7bff36b0ac44fec512249f943d725a123d1db2dad43a453b",
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "inheritance_basis": null
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "7858d1193fda47bc11f99b9cf823d959052ffde9300e5dd99105352c3ecce5d9",
+      "source_scene_sha256": "14566e28d8e38da7f5cf201b3ddb5c7383fde6ed73d00922d122e88be724a3f7",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    }
+  },
+  "prior_review_reports": [],
+  "observations": [
+    "Five reduced views inspected, including open ticket-shelter source dated December2019.",
+    "Teal corrugated gable wall, small ticket opening, timetable panel, open white/gray roof and yellow-green benches give the photographed open shelter character.",
+    "02 shows bench placement and approach access;04 clearly presents the shelter wall and ticket aperture.04 alone crops benches, but02 supplies their visible coverage.",
+    "Track/platform views are unobstructed and visually coherent. No trains or obvious material geometry collision are visible.",
+    "The modeled schedule/ticket-wall arrangement is simplified rather than an exact as-built reproduction; source research supports the shelter typology, materials and broad elements."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ],
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/DAVM_ticket_shelter_interior_2019-12.png",
+      "sha256": "3851b0671e1e95a00d841d43a6ba337e4bb558f7b6224afe973c43a014e62179",
+      "reduced_pixels_inspected": true
+    }
+  ]
+}

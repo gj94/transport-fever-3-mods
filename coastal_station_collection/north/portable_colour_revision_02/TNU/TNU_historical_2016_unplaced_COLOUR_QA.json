@@ -1,0 +1,158 @@
+{
+  "old_glb_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+  "new_glb_sha256": "1f7d002c7f30ca62cbf114fcd17c24d9295e8d8cf5030d29c661c967daf01c4e",
+  "changed_materials": [
+    {
+      "index": 2,
+      "name": "H2016 floor",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.4399999976158142,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "H2016 peach",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.8700000047683716,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "H2016 steel",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.30000001192092896,
+        0.3499999940395355,
+        0.3400000035762787,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "H2016 purple",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.23999999463558197,
+        0.11500000208616257,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "H2016 orange",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.7400000095367432,
+        0.28999999165534973,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "H2016 white",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.800000011920929,
+        0.8199999928474426,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "H2016 red",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.47999998927116394,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "H2016 wood",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ]
+    }
+  ],
+  "binary_chunks": [
+    {
+      "type": 5130562,
+      "bytes": 177012,
+      "unchanged_sha256": "5a353faa6b70eefb61eb19f029ea7ee57b1f379d0bac4573f3f3e1f7e500f00f"
+    }
+  ],
+  "binary_identical": true,
+  "all_non_colour_json_identical": true,
+  "alpha_semantics_unchanged": true,
+  "existing_factors_and_textures_unchanged": true,
+  "station_code": "TNU",
+  "source_scene": "HISTORIC_2016_BUILDING__UNPLACED",
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "source_glb": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.glb",
+  "source_glb_bytes": 191268,
+  "corrected_glb_bytes": 191784,
+  "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_colour_v02.glb.zip",
+  "zip_member": "TNU_historical_2016_unplaced_colour_v02.glb",
+  "zip_sha256": "9fb778cc59d0f92d45b007de7b3615f08797c877529f2abf463a61221a250036",
+  "zip_bytes": 93095,
+  "zip_lossless_verified": true,
+  "source_palette_sha256": "3f3bcb718ff6b081cdd184a8c909fb48ec064bfb41730cab7c8bcf5bf3b03bad",
+  "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+}

@@ -1,0 +1,69 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_02/amy/AMY_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 187,
+  "object_types": {
+    "MESH": 169,
+    "FONT": 9,
+    "LIGHT": 4,
+    "CAMERA": 5
+  },
+  "unique_meshes": 169,
+  "unique_vertices": 406682,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -4.0
+    ],
+    [
+      1135.0,
+      265.0,
+      12.486699104309082
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../amy/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "AMY",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "2",
+    "platform_bodies_modelled": "2",
+    "facade_revision": "AMY front now matches the photographed brown window left / perforated screen right, yellow header and shade, with a functional facade-parallel ramp. Room layout and central doorway remain unchanged.",
+    "base_blend_sha256": "6ca7129c71dcab56374a6118c920259fb214601901fcd74268c76969f08e8d07"
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824"
+}

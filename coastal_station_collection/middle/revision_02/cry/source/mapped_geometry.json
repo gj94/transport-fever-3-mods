@@ -1,0 +1,2695 @@
+{
+  "station": {
+    "sequence": "35",
+    "station_code": "CRY",
+    "station_name": "Chirayinkeezh",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "191.25",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "176.93",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "",
+    "mapped_platform_bodies": "",
+    "mapped_numbered_platform_positions": "",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "2",
+    "mapped_connected_loops": "0",
+    "mapped_nonloop_sidings": "0",
+    "mapped_total_tracks_all_types": "2",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Two main roads mapped; platform geometry absent. No loops or separate sidings mapped.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2021-01-12T17:57:42Z / 2026-08-11T06:59:21Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.7763703,8.6493379,76.7943703,8.6673379",
+    "mapped_rail_way_ids": "738434644;738434645;738434649;894664081;965152734;965152735;965152736;965152737;965152745;965152746;965152747;965152748",
+    "mapped_platform_way_ids": "",
+    "mapped_excluded_nonoperational_way_ids": "",
+    "mapped_source_record": "middle_observations.json#CRY",
+    "map_latitude": "8.6595556",
+    "map_longitude": "76.7855551",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "2",
+    "wikipedia_reported_tracks": "2",
+    "wikipedia_platforms_numeric": "2",
+    "wikipedia_tracks_numeric": "2",
+    "wikipedia_platform_field_raw": "2",
+    "wikipedia_tracks_field_raw": "2",
+    "wikipedia_article_url": "https://en.wikipedia.org/wiki/Chirayinkeezhu_railway_station",
+    "wikipedia_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1370894752",
+    "wikipedia_revision_id": "1370894752",
+    "wikipedia_revision_timestamp": "2026-08-23T16:41:08Z",
+    "wikipedia_accessed_date": "2026-10-08",
+    "wikipedia_platform_inline_citation_present": "False",
+    "wikipedia_tracks_inline_citation_present": "False",
+    "wikipedia_conflict_notes": "No specific conflict identified in this pass. Infobox count is reported, not independently verified as a current engineering inventory.",
+    "wikipedia_lookup_status": "FOUND",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "",
+    "wikipedia_count_source_class": "Wikipedia article infobox, reported secondary figure",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "2",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 2",
+    "iri_source_url": "https://indiarailinfo.com/station/map/1012",
+    "iri_profile_updated_raw": "Jul 31 2023 (01:27)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure.",
+    "reported_platform_count": "2",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "2I",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/1012",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "1012",
+    "iri_heading_station_code": "CRY",
+    "iri_heading_raw": "CRY/Chirayinkeezhu (2 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "AGREES",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "2023",
+    "iri_source_reference": "turn213search0",
+    "iri_search_index_crawl_age_raw": "4 months ago",
+    "iri_slug_identity_status": "Heading and numeric ID agree; no contradictory named slug selected",
+    "iri_source_evidence_file": "sources/iri_middle_batch4_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "2023-07-31T01:27",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "2",
+    "comparison_wikipedia_platform_source": "https://en.wikipedia.org/w/index.php?oldid=1370894752",
+    "comparison_wikipedia_revision_timestamp": "2026-08-23T16:41:08Z",
+    "comparison_wikipedia_platform_agreement": "AGREES",
+    "iri_explicit_platform_field_update_raw": "Sep 18 2013 (11:56)",
+    "iri_timeline_evidence_url": "https://indiarailinfo.com/station/timeline/edits-thiruvananthapuram-north-kochuveli-tvcn/1012",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "No numeric Wikipedia platform discrepancy found in the existing register.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "origin_lonlat": [
+    76.7855551,
+    8.6595556
+  ],
+  "along_unit_east_north": [
+    -0.4613749101988217,
+    0.8872052706330307
+  ],
+  "ways": [
+    {
+      "id": "738434644",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "3930932416",
+        "6042091650",
+        "1615612627",
+        "6042091652",
+        "1615612608",
+        "6042091653",
+        "3930932426",
+        "6042091654",
+        "8928412064"
+      ],
+      "xy": [
+        [
+          798.0193,
+          -73.8542
+        ],
+        [
+          580.3515,
+          -35.1971
+        ],
+        [
+          367.7542,
+          3.8003
+        ],
+        [
+          310.0136,
+          11.5492
+        ],
+        [
+          256.7615,
+          16.9268
+        ],
+        [
+          -103.8218,
+          16.9268
+        ],
+        [
+          -570.9582,
+          16.3203
+        ],
+        [
+          -804.8903,
+          18.3212
+        ],
+        [
+          -824.6918,
+          18.1246
+        ]
+      ],
+      "timestamp": "2026-08-11T06:59:21Z"
+    },
+    {
+      "id": "738434645",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8928412065",
+        "5764348892",
+        "5764348891",
+        "8887631843",
+        "5764348889",
+        "6042091651",
+        "5764348888",
+        "6042091649",
+        "5764348887"
+      ],
+      "xy": [
+        [
+          -824.3984,
+          24.3106
+        ],
+        [
+          -579.577,
+          25.4911
+        ],
+        [
+          -103.4996,
+          24.7848
+        ],
+        [
+          251.2617,
+          22.5406
+        ],
+        [
+          259.0703,
+          22.1143
+        ],
+        [
+          309.2762,
+          18.3829
+        ],
+        [
+          367.2609,
+          9.8248
+        ],
+        [
+          579.6413,
+          -29.0349
+        ],
+        [
+          800.3232,
+          -68.6517
+        ]
+      ],
+      "timestamp": "2026-08-11T06:59:21Z"
+    },
+    {
+      "id": "738434649",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "1615612504",
+        "8316114782"
+      ],
+      "xy": [
+        [
+          -1257.0749,
+          -6.4219
+        ],
+        [
+          -1455.5699,
+          -64.5649
+        ]
+      ],
+      "timestamp": "2021-01-12T17:57:42Z"
+    },
+    {
+      "id": "894664081",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8316114785",
+        "5764348895"
+      ],
+      "xy": [
+        [
+          -1467.1229,
+          -59.2268
+        ],
+        [
+          -1248.863,
+          7.7527
+        ]
+      ],
+      "timestamp": "2021-01-12T17:57:42Z"
+    },
+    {
+      "id": "965152734",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8928411974",
+        "5764348886",
+        "5764348885",
+        "5764348884",
+        "5764348883"
+      ],
+      "xy": [
+        [
+          809.2601,
+          -70.3345
+        ],
+        [
+          1179.3691,
+          -139.9391
+        ],
+        [
+          1260.0997,
+          -149.7078
+        ],
+        [
+          1344.4557,
+          -144.5913
+        ],
+        [
+          1436.9876,
+          -121.4609
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152735",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5764348887",
+        "8928411974"
+      ],
+      "xy": [
+        [
+          800.3232,
+          -68.6517
+        ],
+        [
+          809.2601,
+          -70.3345
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152736",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "1615612673",
+        "5025569659",
+        "335560069",
+        "335560071",
+        "8928411975"
+      ],
+      "xy": [
+        [
+          1441.5135,
+          -131.9393
+        ],
+        [
+          1345.2195,
+          -149.975
+        ],
+        [
+          1259.9389,
+          -155.1564
+        ],
+        [
+          1178.5386,
+          -145.3
+        ],
+        [
+          807.1607,
+          -75.4573
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152737",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8928411975",
+        "3930932416"
+      ],
+      "xy": [
+        [
+          807.1607,
+          -75.4573
+        ],
+        [
+          798.0193,
+          -73.8542
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152745",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8928412067",
+        "335560077",
+        "6042091656",
+        "2900337192",
+        "6042091659",
+        "1615612504"
+      ],
+      "xy": [
+        [
+          -842.0988,
+          17.948
+        ],
+        [
+          -1051.4502,
+          15.8243
+        ],
+        [
+          -1102.5441,
+          15.7009
+        ],
+        [
+          -1159.6314,
+          13.5588
+        ],
+        [
+          -1209.1409,
+          5.0697
+        ],
+        [
+          -1257.0749,
+          -6.4219
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152746",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8928412064",
+        "8928412067"
+      ],
+      "xy": [
+        [
+          -824.6918,
+          18.1246
+        ],
+        [
+          -842.0988,
+          17.948
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152747",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5764348895",
+        "6042091658",
+        "5764348894",
+        "6042091657",
+        "5764348893",
+        "8928412066"
+      ],
+      "xy": [
+        [
+          -1248.863,
+          7.7527
+        ],
+        [
+          -1206.6159,
+          15.3297
+        ],
+        [
+          -1163.061,
+          20.8374
+        ],
+        [
+          -1108.7095,
+          24.8363
+        ],
+        [
+          -1053.5099,
+          27.4018
+        ],
+        [
+          -841.0972,
+          24.386
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    },
+    {
+      "id": "965152748",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "8928412066",
+        "6042091655",
+        "8928412065"
+      ],
+      "xy": [
+        [
+          -841.0972,
+          24.386
+        ],
+        [
+          -832.5748,
+          24.2707
+        ],
+        [
+          -824.3984,
+          24.3106
+        ]
+      ],
+      "timestamp": "2021-07-17T10:27:25Z"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "783801245",
+      "tags": {
+        "building": "yes",
+        "building:use": "medical",
+        "name": "mortuary building"
+      },
+      "xy": [
+        [
+          152.0526,
+          -133.5144
+        ],
+        [
+          142.2516,
+          -152.0476
+        ],
+        [
+          131.0284,
+          -146.0995
+        ],
+        [
+          140.8342,
+          -127.5812
+        ],
+        [
+          152.0526,
+          -133.5144
+        ]
+      ],
+      "center": [
+        143.64388000000002,
+        -138.55142
+      ],
+      "bbox": [
+        131.0284,
+        152.0526,
+        -152.0476,
+        -127.5812
+      ]
+    },
+    {
+      "id": "797839779",
+      "tags": {
+        "building": "yes",
+        "building:use": "foodservice",
+        "shop": "bakery"
+      },
+      "xy": [
+        [
+          141.0184,
+          -53.661
+        ],
+        [
+          127.7924,
+          -43.8432
+        ],
+        [
+          124.4427,
+          -48.4026
+        ],
+        [
+          139.067,
+          -57.5582
+        ],
+        [
+          141.0184,
+          -53.661
+        ]
+      ],
+      "center": [
+        134.66778000000002,
+        -51.4252
+      ],
+      "bbox": [
+        124.4427,
+        141.0184,
+        -57.5582,
+        -43.8432
+      ]
+    },
+    {
+      "id": "797839787",
+      "tags": {
+        "building": "yes",
+        "building:use": "service",
+        "name": "cooperative society",
+        "office": "government"
+      },
+      "xy": [
+        [
+          198.1489,
+          -65.2852
+        ],
+        [
+          190.0932,
+          -76.6261
+        ],
+        [
+          183.1271,
+          -72.4081
+        ],
+        [
+          190.5705,
+          -60.3147
+        ],
+        [
+          198.1489,
+          -65.2852
+        ]
+      ],
+      "center": [
+        192.01772,
+        -67.98386
+      ],
+      "bbox": [
+        183.1271,
+        198.1489,
+        -76.6261,
+        -60.3147
+      ]
+    },
+    {
+      "id": "797839790",
+      "tags": {
+        "building": "yes",
+        "building:use": "government",
+        "name": "pwd",
+        "office": "government"
+      },
+      "xy": [
+        [
+          123.2677,
+          -106.2527
+        ],
+        [
+          113.2082,
+          -98.8631
+        ],
+        [
+          110.7988,
+          -106.3675
+        ],
+        [
+          119.5294,
+          -112.6691
+        ],
+        [
+          123.2677,
+          -106.2527
+        ]
+      ],
+      "center": [
+        118.01436000000001,
+        -106.08102
+      ],
+      "bbox": [
+        110.7988,
+        123.2677,
+        -112.6691,
+        -98.8631
+      ]
+    },
+    {
+      "id": "797839791",
+      "tags": {
+        "building": "yes",
+        "building:use": "medical",
+        "name": "ambili medicals",
+        "shop": "medical_supply"
+      },
+      "xy": [
+        [
+          112.5203,
+          -37.0672
+        ],
+        [
+          105.096,
+          -34.2855
+        ],
+        [
+          101.8903,
+          -41.4875
+        ],
+        [
+          108.2434,
+          -45.4363
+        ],
+        [
+          112.5203,
+          -37.0672
+        ]
+      ],
+      "center": [
+        108.05406,
+        -39.068740000000005
+      ],
+      "bbox": [
+        101.8903,
+        112.5203,
+        -45.4363,
+        -34.2855
+      ]
+    },
+    {
+      "id": "797839802",
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "building:use": "medical",
+        "healthcare": "hospital",
+        "name": "swamiji hospital",
+        "operator": "private"
+      },
+      "xy": [
+        [
+          147.3423,
+          -83.0729
+        ],
+        [
+          133.3672,
+          -75.8054
+        ],
+        [
+          127.1768,
+          -83.3903
+        ],
+        [
+          129.6277,
+          -85.4091
+        ],
+        [
+          127.1691,
+          -90.2334
+        ],
+        [
+          139.2213,
+          -97.9894
+        ],
+        [
+          147.3423,
+          -83.0729
+        ]
+      ],
+      "center": [
+        135.89238571428572,
+        -85.56762857142859
+      ],
+      "bbox": [
+        127.1691,
+        147.3423,
+        -97.9894,
+        -75.8054
+      ]
+    },
+    {
+      "id": "797839815",
+      "tags": {
+        "building": "yes",
+        "shop": "hairdresser"
+      },
+      "xy": [
+        [
+          133.374,
+          -56.7312
+        ],
+        [
+          131.0702,
+          -60.6065
+        ],
+        [
+          121.7826,
+          -56.9923
+        ],
+        [
+          124.2014,
+          -52.1721
+        ],
+        [
+          133.374,
+          -56.7312
+        ]
+      ],
+      "center": [
+        128.76044000000002,
+        -56.64666
+      ],
+      "bbox": [
+        121.7826,
+        133.374,
+        -60.6065,
+        -52.1721
+      ]
+    },
+    {
+      "id": "797839818",
+      "tags": {
+        "building": "yes",
+        "building:use": "medical",
+        "healthcare": "laboratory",
+        "name": "trivandrum lab"
+      },
+      "xy": [
+        [
+          88.9935,
+          -73.7672
+        ],
+        [
+          83.5507,
+          -82.4479
+        ],
+        [
+          70.7334,
+          -71.6271
+        ],
+        [
+          71.7312,
+          -64.2073
+        ],
+        [
+          74.024,
+          -68.3394
+        ],
+        [
+          77.5571,
+          -65.5748
+        ],
+        [
+          88.9935,
+          -73.7672
+        ]
+      ],
+      "center": [
+        79.36905714285714,
+        -71.39012857142856
+      ],
+      "bbox": [
+        70.7334,
+        88.9935,
+        -82.4479,
+        -64.2073
+      ]
+    },
+    {
+      "id": "797839825",
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "building:use": "education",
+        "name": "NSS",
+        "operator:type": "private"
+      },
+      "xy": [
+        [
+          185.8647,
+          -80.2695
+        ],
+        [
+          180.2078,
+          -75.3679
+        ],
+        [
+          168.9647,
+          -92.2829
+        ],
+        [
+          175.5429,
+          -95.6542
+        ],
+        [
+          185.8647,
+          -80.2695
+        ]
+      ],
+      "center": [
+        179.28896,
+        -84.7688
+      ],
+      "bbox": [
+        168.9647,
+        185.8647,
+        -95.6542,
+        -75.3679
+      ]
+    },
+    {
+      "id": "802567320",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -262.9452,
+          97.0091
+        ],
+        [
+          -272.7635,
+          102.4498
+        ],
+        [
+          -280.527,
+          87.521
+        ],
+        [
+          -270.5716,
+          82.3439
+        ],
+        [
+          -262.9452,
+          97.0091
+        ]
+      ],
+      "center": [
+        -269.95050000000003,
+        93.26658
+      ],
+      "bbox": [
+        -280.527,
+        -262.9452,
+        82.3439,
+        102.4498
+      ]
+    },
+    {
+      "id": "802570672",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -218.9271,
+          -48.6464
+        ],
+        [
+          -234.6955,
+          -36.1173
+        ],
+        [
+          -242.4917,
+          -44.7153
+        ],
+        [
+          -226.1948,
+          -57.5069
+        ],
+        [
+          -218.9271,
+          -48.6464
+        ]
+      ],
+      "center": [
+        -228.24724,
+        -47.126459999999994
+      ],
+      "bbox": [
+        -242.4917,
+        -218.9271,
+        -57.5069,
+        -36.1173
+      ]
+    },
+    {
+      "id": "937241256",
+      "tags": {
+        "addr:city": "Chirayinkeezhu",
+        "addr:postcode": "695304",
+        "building": "yes",
+        "name": "Chirayinkeezhu Railway Station"
+      },
+      "xy": [
+        [
+          50.7923,
+          4.2001
+        ],
+        [
+          50.3761,
+          -4.0556
+        ],
+        [
+          12.7015,
+          -2.1645
+        ],
+        [
+          13.1227,
+          6.101
+        ],
+        [
+          50.7923,
+          4.2001
+        ]
+      ],
+      "center": [
+        35.556979999999996,
+        1.6562199999999998
+      ],
+      "bbox": [
+        12.7015,
+        50.7923,
+        -4.0556,
+        6.101
+      ]
+    },
+    {
+      "id": "938351567",
+      "tags": {
+        "addr:city": "Sarkara",
+        "addr:place": "sarkara",
+        "addr:postcode": "695304",
+        "building": "school",
+        "name": "Sree Chithira Vilasam Boys High School"
+      },
+      "xy": [
+        [
+          -480.4511,
+          79.6389
+        ],
+        [
+          -489.4915,
+          79.6266
+        ],
+        [
+          -489.4956,
+          82.3453
+        ],
+        [
+          -497.2793,
+          82.3369
+        ],
+        [
+          -486.9769,
+          110.5203
+        ],
+        [
+          -499.324,
+          115.031
+        ],
+        [
+          -516.3358,
+          68.4928
+        ],
+        [
+          -504.696,
+          64.2383
+        ],
+        [
+          -480.426,
+          64.2695
+        ],
+        [
+          -480.4511,
+          79.6389
+        ]
+      ],
+      "center": [
+        -492.49273000000005,
+        82.61385
+      ],
+      "bbox": [
+        -516.3358,
+        -480.426,
+        64.2383,
+        115.031
+      ]
+    },
+    {
+      "id": "938900619",
+      "tags": {
+        "addr:city": "Chirayinkeezhu",
+        "addr:postcode": "695304",
+        "addr:street": "Chirayinkeezhu-Attingal road",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Station,Chirayinkeezhu",
+        "operator": "government of kerala",
+        "ref": "15292006"
+      },
+      "xy": [
+        [
+          12.7858,
+          -110.795
+        ],
+        [
+          -2.7619,
+          -102.0398
+        ],
+        [
+          7.9738,
+          -82.9879
+        ],
+        [
+          23.5215,
+          -91.7431
+        ],
+        [
+          12.7858,
+          -110.795
+        ]
+      ],
+      "center": [
+        10.861,
+        -99.67215999999999
+      ],
+      "bbox": [
+        -2.7619,
+        23.5215,
+        -110.795,
+        -82.9879
+      ]
+    },
+    {
+      "id": "938903813",
+      "tags": {
+        "addr:city": "Chirayinkeezhu",
+        "addr:postcode": "695304",
+        "addr:street": "Chirayinkeezhu-Attingal road",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Grama Panchayath Office, Chirayinkeezhu",
+        "office": "government"
+      },
+      "xy": [
+        [
+          71.9418,
+          -105.8089
+        ],
+        [
+          59.5781,
+          -98.3623
+        ],
+        [
+          57.5592,
+          -100.3142
+        ],
+        [
+          43.4737,
+          -91.8357
+        ],
+        [
+          52.6262,
+          -76.6245
+        ],
+        [
+          79.7021,
+          -92.9128
+        ],
+        [
+          71.9418,
+          -105.8089
+        ]
+      ],
+      "center": [
+        62.403271428571436,
+        -95.95247142857144
+      ],
+      "bbox": [
+        43.4737,
+        79.7021,
+        -105.8089,
+        -76.6245
+      ]
+    },
+    {
+      "id": "938907771",
+      "tags": {
+        "addr:city": "Chirayinkeezhu",
+        "addr:postcode": "695304",
+        "addr:street": "Chirayinkeezhu-Attingal road",
+        "building": "yes",
+        "government": "register_office",
+        "name": "Sub Registar Office Chirayinkeezhu",
+        "office": "government",
+        "operator": "government"
+      },
+      "xy": [
+        [
+          45.0119,
+          -110.4481
+        ],
+        [
+          22.0367,
+          -98.7484
+        ],
+        [
+          27.4004,
+          -88.2652
+        ],
+        [
+          50.1066,
+          -100.4824
+        ],
+        [
+          45.0119,
+          -110.4481
+        ]
+      ],
+      "center": [
+        37.9135,
+        -101.67844
+      ],
+      "bbox": [
+        22.0367,
+        50.1066,
+        -110.4481,
+        -88.2652
+      ]
+    },
+    {
+      "id": "961939885",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -468.8685,
+          -40.0567
+        ],
+        [
+          -474.6107,
+          -52.3774
+        ],
+        [
+          -492.3005,
+          -44.1705
+        ],
+        [
+          -487.1935,
+          -32.2266
+        ],
+        [
+          -468.8685,
+          -40.0567
+        ]
+      ],
+      "center": [
+        -478.36834,
+        -41.77758
+      ],
+      "bbox": [
+        -492.3005,
+        -468.8685,
+        -52.3774,
+        -32.2266
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "286375415",
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "service",
+        "horse": "yes",
+        "lanes": "2",
+        "maxspeed": "30",
+        "motor_vehicle": "yes",
+        "name": "Railway Station Road",
+        "oneway": "no",
+        "service": "driveway",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -35.2782,
+          -11.9825
+        ],
+        [
+          116.3298,
+          -19.9458
+        ],
+        [
+          119.3899,
+          -24.3157
+        ],
+        [
+          120.9389,
+          -33.1839
+        ]
+      ]
+    },
+    {
+      "id": "286375718",
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "motor_vehicle": "yes",
+        "name": "post office road",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          173.0332,
+          -75.0977
+        ],
+        [
+          133.1383,
+          -40.2226
+        ],
+        [
+          120.9389,
+          -33.1839
+        ],
+        [
+          118.9883,
+          -35.2458
+        ],
+        [
+          93.6836,
+          -76.3055
+        ],
+        [
+          70.3369,
+          -109.812
+        ],
+        [
+          60.4287,
+          -125.0768
+        ],
+        [
+          57.0636,
+          -134.0813
+        ],
+        [
+          59.5778,
+          -142.8065
+        ]
+      ]
+    },
+    {
+      "id": "286376620",
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "motor_vehicle": "yes",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -922.0706,
+          159.1047
+        ],
+        [
+          -829.4578,
+          154.668
+        ],
+        [
+          -820.2913,
+          155.2846
+        ]
+      ]
+    },
+    {
+      "id": "286376621",
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "motor_vehicle": "yes",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -400.58,
+          30.264
+        ],
+        [
+          -369.0077,
+          102.4612
+        ],
+        [
+          -360.7471,
+          119.6248
+        ],
+        [
+          -352.4865,
+          136.7883
+        ],
+        [
+          -334.0285,
+          168.446
+        ],
+        [
+          -319.5847,
+          191.6849
+        ],
+        [
+          -239.3723,
+          227.0518
+        ]
+      ]
+    },
+    {
+      "id": "389934469",
+      "tags": {
+        "highway": "residential",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -755.3182,
+          145.8088
+        ],
+        [
+          -703.253,
+          151.4432
+        ]
+      ]
+    },
+    {
+      "id": "389934471",
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "motor_vehicle": "yes",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -809.4646,
+          156.0053
+        ],
+        [
+          -755.3182,
+          145.8088
+        ]
+      ]
+    },
+    {
+      "id": "444400585",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          1322.4125,
+          -72.3722
+        ],
+        [
+          1283.738,
+          -57.8545
+        ],
+        [
+          1257.48,
+          -41.2721
+        ],
+        [
+          1249.7101,
+          -43.1359
+        ],
+        [
+          1241.5771,
+          -60.4402
+        ],
+        [
+          1228.315,
+          -76.6775
+        ],
+        [
+          1217.3186,
+          -87.593
+        ],
+        [
+          1194.4121,
+          -82.9994
+        ],
+        [
+          1171.2413,
+          -78.9382
+        ],
+        [
+          1159.7156,
+          -72.9445
+        ],
+        [
+          1141.7392,
+          -65.9158
+        ],
+        [
+          1114.3207,
+          -55.3289
+        ],
+        [
+          1096.9684,
+          -51.1056
+        ],
+        [
+          1082.1921,
+          -47.0435
+        ],
+        [
+          1069.3997,
+          -40.6143
+        ],
+        [
+          1045.5208,
+          -31.5209
+        ],
+        [
+          1035.1415,
+          -22.985
+        ],
+        [
+          1024.2911,
+          -9.9744
+        ],
+        [
+          1007.9903,
+          9.9517
+        ],
+        [
+          996.2301,
+          23.3362
+        ],
+        [
+          982.6749,
+          28.6363
+        ],
+        [
+          967.2723,
+          29.1292
+        ],
+        [
+          957.1481,
+          32.5583
+        ],
+        [
+          946.4787,
+          37.3997
+        ],
+        [
+          871.9219,
+          101.6747
+        ],
+        [
+          868.305,
+          106.8799
+        ],
+        [
+          862.9885,
+          104.9807
+        ],
+        [
+          854.9307,
+          96.5311
+        ],
+        [
+          849.1409,
+          89.234
+        ],
+        [
+          840.5521,
+          80.3908
+        ],
+        [
+          833.3006,
+          70.331
+        ]
+      ]
+    },
+    {
+      "id": "536069031",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          130.9289,
+          148.9621
+        ],
+        [
+          136.0588,
+          133.9025
+        ],
+        [
+          142.9312,
+          78.7395
+        ],
+        [
+          144.9785,
+          59.8996
+        ],
+        [
+          143.0503,
+          53.224
+        ],
+        [
+          128.3901,
+          49.0886
+        ],
+        [
+          72.7537,
+          44.7903
+        ],
+        [
+          33.7386,
+          46.2994
+        ],
+        [
+          -2.7477,
+          45.2159
+        ],
+        [
+          -41.7873,
+          45.4476
+        ],
+        [
+          -75.1607,
+          45.9827
+        ],
+        [
+          -120.1081,
+          46.0492
+        ],
+        [
+          -146.7598,
+          45.3712
+        ],
+        [
+          -171.9744,
+          39.1082
+        ],
+        [
+          -179.9934,
+          28.8274
+        ]
+      ]
+    },
+    {
+      "id": "536069245",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          107.8198,
+          288.2097
+        ],
+        [
+          101.8837,
+          278.5079
+        ],
+        [
+          98.2099,
+          267.2451
+        ],
+        [
+          92.6286,
+          247.175
+        ],
+        [
+          89.3059,
+          227.4187
+        ],
+        [
+          75.888,
+          210.1338
+        ],
+        [
+          60.5694,
+          191.2448
+        ],
+        [
+          30.6744,
+          168.5985
+        ],
+        [
+          1.3832,
+          151.4806
+        ],
+        [
+          -26.5364,
+          132.6571
+        ],
+        [
+          -46.4816,
+          113.5816
+        ],
+        [
+          -65.4186,
+          85.2492
+        ],
+        [
+          -82.8533,
+          79.1082
+        ],
+        [
+          -111.8693,
+          79.3124
+        ],
+        [
+          -141.2898,
+          84.1676
+        ],
+        [
+          -141.0263,
+          63.0798
+        ],
+        [
+          -146.7598,
+          45.3712
+        ]
+      ]
+    },
+    {
+      "id": "678340754",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          432.7781,
+          25.2094
+        ],
+        [
+          437.3847,
+          32.4271
+        ],
+        [
+          453.8524,
+          56.3005
+        ],
+        [
+          459.5034,
+          64.9473
+        ],
+        [
+          465.0646,
+          67.8481
+        ],
+        [
+          472.3812,
+          65.1968
+        ],
+        [
+          506.848,
+          35.6874
+        ],
+        [
+          536.5771,
+          11.5444
+        ],
+        [
+          543.016,
+          11.6692
+        ],
+        [
+          548.5692,
+          13.4205
+        ],
+        [
+          556.263,
+          20.422
+        ],
+        [
+          568.0781,
+          40.9221
+        ],
+        [
+          578.728,
+          60.2915
+        ],
+        [
+          593.0321,
+          77.7606
+        ],
+        [
+          608.2091,
+          92.4686
+        ],
+        [
+          623.1832,
+          109.0063
+        ],
+        [
+          632.0064,
+          114.8499
+        ],
+        [
+          645.7665,
+          126.8092
+        ],
+        [
+          656.088,
+          139.9736
+        ],
+        [
+          667.7954,
+          153.5833
+        ],
+        [
+          688.1461,
+          176.0203
+        ],
+        [
+          706.1403,
+          191.6821
+        ]
+      ]
+    },
+    {
+      "id": "748016296",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -370.7671,
+          -194.4619
+        ],
+        [
+          -357.032,
+          -177.6768
+        ],
+        [
+          -333.8282,
+          -152.4316
+        ],
+        [
+          -318.5485,
+          -135.6683
+        ],
+        [
+          -291.9789,
+          -113.6743
+        ],
+        [
+          -264.8812,
+          -95.4902
+        ],
+        [
+          -246.6393,
+          -80.7758
+        ],
+        [
+          -222.3607,
+          -64.1523
+        ],
+        [
+          -197.7388,
+          -39.1236
+        ],
+        [
+          -184.2547,
+          -23.0143
+        ],
+        [
+          -176.1458,
+          -15.7696
+        ],
+        [
+          -164.1942,
+          -20.5583
+        ],
+        [
+          -151.4733,
+          -28.0419
+        ]
+      ]
+    },
+    {
+      "id": "754481682",
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Erappupalam",
+        "oneway": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -819.5664,
+          63.7861
+        ],
+        [
+          -844.0962,
+          64.9445
+        ]
+      ]
+    },
+    {
+      "id": "756881572",
+      "tags": {
+        "natural": "water",
+        "water": "river"
+      },
+      "xy": [
+        [
+          -826.7334,
+          70.0064
+        ],
+        [
+          -828.4055,
+          45.1
+        ],
+        [
+          -830.0056,
+          13.8175
+        ],
+        [
+          -832.6423,
+          -20.3991
+        ],
+        [
+          -840.1344,
+          -47.8112
+        ],
+        [
+          -841.419,
+          -52.477
+        ],
+        [
+          -843.3769,
+          -49.0276
+        ],
+        [
+          -842.971,
+          -42.1186
+        ],
+        [
+          -841.5107,
+          -17.499
+        ],
+        [
+          -840.4776,
+          7.1196
+        ],
+        [
+          -838.3814,
+          32.19
+        ],
+        [
+          -837.7899,
+          46.7426
+        ],
+        [
+          -836.6543,
+          70.7621
+        ],
+        [
+          -826.7334,
+          70.0064
+        ]
+      ]
+    },
+    {
+      "id": "821532523",
+      "tags": {
+        "name": "Karunthara Kulam",
+        "natural": "water",
+        "water": "pond"
+      },
+      "xy": [
+        [
+          866.4858,
+          115.1321
+        ],
+        [
+          853.9175,
+          104.0168
+        ],
+        [
+          840.0629,
+          101.72
+        ],
+        [
+          826.0747,
+          113.9808
+        ],
+        [
+          825.1996,
+          134.1338
+        ],
+        [
+          829.7281,
+          141.0324
+        ],
+        [
+          855.8902,
+          126.0752
+        ],
+        [
+          866.4858,
+          115.1321
+        ]
+      ]
+    },
+    {
+      "id": "960732367",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -1021.4867,
+          109.1763
+        ],
+        [
+          -1013.9064,
+          124.5973
+        ],
+        [
+          -1008.8203,
+          137.3213
+        ],
+        [
+          -1018.8226,
+          147.1372
+        ],
+        [
+          -1031.5614,
+          151.715
+        ],
+        [
+          -1047.1937,
+          159.5838
+        ],
+        [
+          -1056.8348,
+          166.6442
+        ],
+        [
+          -1064.247,
+          173.575
+        ]
+      ]
+    },
+    {
+      "id": "965152738",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          359.5324,
+          -285.2098
+        ],
+        [
+          366.1002,
+          -269.2747
+        ],
+        [
+          369.5129,
+          -243.3135
+        ],
+        [
+          371.7039,
+          -231.8378
+        ],
+        [
+          395.5809,
+          -183.4863
+        ],
+        [
+          395.5825,
+          -177.1857
+        ],
+        [
+          391.5807,
+          -171.3213
+        ],
+        [
+          355.1049,
+          -155.6399
+        ],
+        [
+          350.0999,
+          -149.75
+        ],
+        [
+          351.1868,
+          -137.9606
+        ],
+        [
+          387.129,
+          -60.5934
+        ],
+        [
+          387.2211,
+          -55.0841
+        ],
+        [
+          384.7611,
+          -52.5521
+        ],
+        [
+          339.171,
+          -31.1137
+        ]
+      ]
+    },
+    {
+      "id": "965152743",
+      "tags": {
+        "highway": "secondary",
+        "name": "Sarkara - Manjadimoodu Bypass Road"
+      },
+      "xy": [
+        [
+          -827.6696,
+          -7.6038
+        ],
+        [
+          -792.3268,
+          -3.0973
+        ],
+        [
+          -687.6453,
+          -4.5938
+        ],
+        [
+          -671.9729,
+          -4.9541
+        ],
+        [
+          -630.8453,
+          -5.8996
+        ],
+        [
+          -602.8354,
+          -6.3496
+        ],
+        [
+          -578.1259,
+          -13.146
+        ],
+        [
+          -554.8198,
+          -21.9416
+        ],
+        [
+          -529.3038,
+          -35.1735
+        ]
+      ]
+    },
+    {
+      "id": "965152744",
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Sarkara - Manjadimoodu Bypass Road"
+      },
+      "xy": [
+        [
+          -841.7793,
+          -7.8577
+        ],
+        [
+          -827.6696,
+          -7.6038
+        ]
+      ]
+    },
+    {
+      "id": "965152751",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -671.9729,
+          -4.9541
+        ],
+        [
+          -684.2116,
+          -29.9846
+        ],
+        [
+          -697.9988,
+          -57.9685
+        ],
+        [
+          -707.2838,
+          -69.9601
+        ],
+        [
+          -719.9007,
+          -80.9757
+        ],
+        [
+          -729.8323,
+          -95.6826
+        ],
+        [
+          -735.778,
+          -107.1159
+        ]
+      ]
+    },
+    {
+      "id": "1041350970",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          130.9289,
+          148.9621
+        ],
+        [
+          159.2564,
+          155.0824
+        ],
+        [
+          195.361,
+          155.7939
+        ],
+        [
+          205.6556,
+          154.2609
+        ],
+        [
+          222.7334,
+          145.9629
+        ],
+        [
+          266.1194,
+          118.0421
+        ],
+        [
+          307.6344,
+          83.6766
+        ]
+      ]
+    },
+    {
+      "id": "1077915957",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -152.0456,
+          139.8493
+        ],
+        [
+          -197.4413,
+          157.3908
+        ]
+      ]
+    },
+    {
+      "id": "1145058117",
+      "tags": {
+        "highway": "residential",
+        "source": "maxar"
+      },
+      "xy": [
+        [
+          265.4844,
+          184.9583
+        ],
+        [
+          278.8465,
+          174.4371
+        ],
+        [
+          307.6999,
+          147.9585
+        ],
+        [
+          315.2425,
+          140.6994
+        ],
+        [
+          321.21,
+          134.2718
+        ],
+        [
+          333.6361,
+          114.7606
+        ]
+      ]
+    },
+    {
+      "id": "1175380689",
+      "tags": {
+        "highway": "tertiary",
+        "name": "chirayinkeezhu-Thiruvananthapuram Road",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -819.5664,
+          63.7861
+        ],
+        [
+          -751.362,
+          60.2586
+        ],
+        [
+          -678.7878,
+          58.3783
+        ],
+        [
+          -644.7692,
+          53.3895
+        ],
+        [
+          -618.4296,
+          44.0335
+        ],
+        [
+          -579.577,
+          25.4911
+        ],
+        [
+          -574.9192,
+          20.5261
+        ],
+        [
+          -570.9582,
+          16.3203
+        ],
+        [
+          -529.3038,
+          -35.1735
+        ]
+      ]
+    },
+    {
+      "id": "1206064608",
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Chirayinkeezhu - Attingal Road",
+        "oneway": "no"
+      },
+      "xy": [
+        [
+          138.0468,
+          62.76
+        ],
+        [
+          137.3906,
+          30.6145
+        ],
+        [
+          134.9347,
+          3.1635
+        ],
+        [
+          133.1306,
+          -16.2785
+        ],
+        [
+          131.7308,
+          -25.8708
+        ],
+        [
+          129.5914,
+          -33.6521
+        ],
+        [
+          125.3731,
+          -41.233
+        ]
+      ]
+    },
+    {
+      "id": "1245156591",
+      "tags": {
+        "highway": "secondary",
+        "name": "Chirayinkeezhu - Attingal Road",
+        "oneway": "no"
+      },
+      "xy": [
+        [
+          106.2504,
+          253.0536
+        ],
+        [
+          107.6706,
+          221.7883
+        ],
+        [
+          124.3327,
+          149.8618
+        ],
+        [
+          134.1734,
+          102.4335
+        ],
+        [
+          138.0468,
+          62.76
+        ]
+      ]
+    },
+    {
+      "id": "1309998211",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          395.5825,
+          -177.1857
+        ],
+        [
+          415.8986,
+          -166.6139
+        ],
+        [
+          476.6162,
+          -176.4072
+        ],
+        [
+          491.3627,
+          -139.1229
+        ],
+        [
+          551.2057,
+          -157.7397
+        ],
+        [
+          586.1767,
+          -109.191
+        ],
+        [
+          641.0951,
+          -136.361
+        ],
+        [
+          726.1081,
+          -190.4938
+        ]
+      ]
+    },
+    {
+      "id": "1378252917",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          982.6749,
+          28.6363
+        ],
+        [
+          1033.6495,
+          79.3195
+        ],
+        [
+          1045.3268,
+          84.9813
+        ],
+        [
+          1057.6331,
+          87.4135
+        ],
+        [
+          1067.2925,
+          94.2859
+        ],
+        [
+          1098.4066,
+          121.5204
+        ]
+      ]
+    },
+    {
+      "id": "1378252918",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          262.1051,
+          26.5026
+        ],
+        [
+          276.7357,
+          46.0471
+        ],
+        [
+          287.256,
+          60.1004
+        ],
+        [
+          307.6344,
+          83.6766
+        ],
+        [
+          333.6361,
+          114.7606
+        ]
+      ]
+    },
+    {
+      "id": "1548771931",
+      "tags": {
+        "highway": "secondary",
+        "name": "Chirayinkeezhu - Attingal Road",
+        "oneway": "no"
+      },
+      "xy": [
+        [
+          125.3731,
+          -41.233
+        ],
+        [
+          105.2114,
+          -71.1241
+        ],
+        [
+          79.3907,
+          -107.2886
+        ],
+        [
+          63.2605,
+          -131.1886
+        ],
+        [
+          59.5778,
+          -142.8065
+        ]
+      ]
+    },
+    {
+      "id": "1548771932",
+      "tags": {
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          249.3578,
+          9.6627
+        ],
+        [
+          197.898,
+          -47.4787
+        ],
+        [
+          173.0332,
+          -75.0977
+        ]
+      ]
+    }
+  ],
+  "center_rail_ys": [
+    16.93,
+    24.13
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-08"
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "platform_id": "1081587507",
+    "adjacent_road_id": "385040650",
+    "reason": "Mapped polygon does not reach the observed boarding face. Complete only railward edge; retain outer boundary and source length. Satellite supports adjacency, not exact dimensions.",
+    "raw_polygon_preserved": true,
+    "prior_adopted_polygon": [
+      [
+        427.85563412716533,
+        -32.5826556823196
+      ],
+      [
+        -166.81993165535187,
+        -32.19093548944683
+      ],
+      [
+        -166.79001153600095,
+        -28.38075592912947
+      ],
+      [
+        427.8803605148321,
+        -28.762718250015638
+      ],
+      [
+        427.85563412716533,
+        -32.5826556823196
+      ]
+    ],
+    "adopted_polygon": [
+      [
+        -166.81993165535187,
+        -32.19093548944683
+      ],
+      [
+        427.85563412716533,
+        -32.5826556823196
+      ],
+      [
+        427.85563412716533,
+        -26.39152604304526
+      ],
+      [
+        -166.81993165535187,
+        -26.541142724044423
+      ],
+      [
+        -166.81993165535187,
+        -32.19093548944683
+      ]
+    ],
+    "previous_minimum_rail_centre_distance_m": 3.6396206745778765,
+    "minimum_rail_centre_distance_m": 1.7999999999999978,
+    "adopted_area_m2": 3520.753615194013,
+    "basis_screenshot": "TVP_satellite_undated.png",
+    "image_acquisition_date": "not exposed",
+    "accessed_date": "2026-10-08"
+  },
+  {
+    "platform_id": "1081587508",
+    "adjacent_road_id": "608428979",
+    "reason": "Mapped polygon does not reach the observed boarding face. Complete only railward edge; retain outer boundary and source length. Satellite supports adjacency, not exact dimensions.",
+    "raw_polygon_preserved": true,
+    "prior_adopted_polygon": [
+      [
+        433.6433473856358,
+        -15.852785933629065
+      ],
+      [
+        433.6234937911522,
+        -17.54062170401374
+      ],
+      [
+        77.71165985802065,
+        -17.540621704013716
+      ],
+      [
+        -165.880828972099,
+        -16.26362519349758
+      ],
+      [
+        -165.83902962755784,
+        -12.710090905567093
+      ],
+      [
+        433.6433473856358,
+        -15.852785933629065
+      ]
+    ],
+    "adopted_polygon": [
+      [
+        -165.83902962755784,
+        -12.710090905567093
+      ],
+      [
+        433.6433473856358,
+        -15.852785933629065
+      ],
+      [
+        433.6433473856358,
+        -17.54062170401374
+      ],
+      [
+        -165.83902962755784,
+        -17.5406217040137
+      ],
+      [
+        -165.83902962755784,
+        -12.710090905567093
+      ]
+    ],
+    "previous_minimum_rail_centre_distance_m": 1.8,
+    "minimum_rail_centre_distance_m": 1.8,
+    "adopted_area_m2": 1953.822942463156,
+    "basis_screenshot": "TVP_satellite_undated.png",
+    "image_acquisition_date": "not exposed",
+    "accessed_date": "2026-10-08"
+  }
+]

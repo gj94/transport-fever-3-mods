@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/kvu/export/KVU_coastal_station_v01.glb.zip!KVU_coastal_station_v01.glb",
+    "bytes": 62200372,
+    "errors": [],
+    "warnings": [],
+    "sha256": "ebefb991afc2a927a1fa77054722ff8a2c926ba08423be95a1419c114688bcd9",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 62200372
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 146508
+      },
+      {
+        "type": 5130562,
+        "bytes": 62053836
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 204,
+    "mesh_count": 204,
+    "primitive_count": 204,
+    "vertex_reference_count": 2102920,
+    "accessor_count": 536,
+    "validated_accessor_count": 536,
+    "material_count": 28,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "abd764c017552738e9ec3f450fcbcc65196b099e4d67dac1cdb40254e41c9cae",
+    "container_bytes": 7993357
+  }
+]

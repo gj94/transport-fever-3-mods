@@ -1,0 +1,34 @@
+{
+  "station": "MQU",
+  "layout_sha256": "5accdd05129b32155c8cdbf0a77682de875afcb92dc098e87f23cd20b022e2cd",
+  "platform_mesh_sha256": "ff40836af67017e8236c97071f63e14931c231b4ca7d7c0bbe170f4772743d05",
+  "platforms": [
+    {
+      "id": "1409282832",
+      "valid": true,
+      "area_m2": 3723.8652695308,
+      "railcenter_min_m": 1.9999997906670883,
+      "intrusion_inside_1_8m_m2": 0.0
+    },
+    {
+      "id": "1409282833",
+      "valid": true,
+      "area_m2": 3194.6484081491926,
+      "railcenter_min_m": 1.9999995815494456,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 7.561207616372152,
+  "reported_faces": "2",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "90772767",
+    "608428982",
+    "641627321",
+    "641627322",
+    "641627325",
+    "1536886962"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

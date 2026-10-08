@@ -1,0 +1,126 @@
+{
+  "source_plan_sha256": "7317b8e48e96734a0a7e64fb7e1a909d6c1bb0f5a9dab05c8d757492edd2a9b9",
+  "method": "Intersections of actual adopted OSM route railhead centerline offsets\u00b10.868m; shared-toe intersections within5m of mapped junction removed to isolate visible crossing noses. Not official switch design.",
+  "crossings": [
+    {
+      "ways": [
+        "97246730",
+        "640865722"
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "xy": [
+        -22.574370943795394,
+        -611.8507280363439
+      ],
+      "nearest_junction_distance_m": 18.186638598058117
+    },
+    {
+      "ways": [
+        "97246730",
+        "640865723"
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "xy": [
+        -21.41126462185374,
+        288.69169682787276
+      ],
+      "nearest_junction_distance_m": 32.82412585401853
+    },
+    {
+      "ways": [
+        "97246730",
+        "640865724"
+      ],
+      "sides": [
+        1,
+        1
+      ],
+      "xy": [
+        -22.51837214345217,
+        371.37178059361094
+      ],
+      "nearest_junction_distance_m": 22.238809019302597
+    },
+    {
+      "ways": [
+        "97246730",
+        "640865725"
+      ],
+      "sides": [
+        1,
+        1
+      ],
+      "xy": [
+        -23.786708922958777,
+        -538.3107942000996
+      ],
+      "nearest_junction_distance_m": 28.007885121575498
+    },
+    {
+      "ways": [
+        "640865722",
+        "640865726"
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "xy": [
+        -16.543251264190154,
+        -559.368658997163
+      ],
+      "nearest_junction_distance_m": 9.561479182825066
+    },
+    {
+      "ways": [
+        "640865722",
+        "640865726"
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "xy": [
+        -16.839885952178356,
+        -381.196456769648
+      ],
+      "nearest_junction_distance_m": 15.629921647290859
+    },
+    {
+      "ways": [
+        "640865722",
+        "640865723"
+      ],
+      "sides": [
+        1,
+        -1
+      ],
+      "xy": [
+        -17.537093092033018,
+        241.54584509308867
+      ],
+      "nearest_junction_distance_m": 20.04498380145615
+    },
+    {
+      "ways": [
+        "640865724",
+        "640865725"
+      ],
+      "sides": [
+        1,
+        -1
+      ],
+      "xy": [
+        -27.719721461487598,
+        -498.3563335985035
+      ],
+      "nearest_junction_distance_m": 7.91043186263465
+    }
+  ]
+}

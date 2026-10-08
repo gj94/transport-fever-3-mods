@@ -1,0 +1,55 @@
+{
+  "station": "KPY",
+  "reviewed_utc": "2026-10-08T22:43:28.403775+00:00",
+  "status": "five_view_visual_source_complete_pass",
+  "source_scene_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "d5c64596f6372a4f711623bfa64b0a2fb5d6c2f1942b42b09e8fc2ecd12f1bb0",
+      "source_scene_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "02_station_and_platforms.png": {
+      "image_sha256": "e8715799e25aee78023697a986ebed234c34a30e15fd8649348c56734ccf5eae",
+      "source_scene_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "6c3ffd3fcb85e6caa4ad432cca6489fb711c89871efe40570c7d987e0ce2642d",
+      "source_scene_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "94fdd98aba8a02ce3e851bde34627fd654f25fd44895893adc443820940ce6ec",
+      "source_scene_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "9704e49f04de9a7f397cfc6ee2f14092496f17d214e37d4ae984a2a42d1790a4",
+      "source_scene_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retention_reason": null,
+      "prior_review_report": "KPY_36388c2a_partial_visual_review.json"
+    }
+  },
+  "sources": [],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/KPY_review_2243.jpg",
+  "prior_review_reports": [
+    "KPY_36388c2a_partial_visual_review.json"
+  ],
+  "observations": [
+    "New01/02/03/05 inspected: full mapped corridor and yard approaches, station/platform overview, close platform structural and track details, and reconstructed desk/counter interior are coherent and unobstructed.",
+    "Exact prior source-facing04 image9704e49f is preserved; its2017 historical main block versus2023 flat service block distinction remains unchanged.",
+    "No trains present in the inspected gallery; full five-view visual coverage complete."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

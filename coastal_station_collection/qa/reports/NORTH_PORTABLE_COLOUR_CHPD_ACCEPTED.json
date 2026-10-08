@@ -1,0 +1,38 @@
+{
+  "status": "accepted",
+  "scope": "Additive portable RGB revisions only; each station still requires its separate original native/gallery/geometric gate.",
+  "cohort_manifest": "qa/reports/CHPD_colour_cohort_input.json",
+  "cohort_manifest_sha256": "39ab4a2f6f77cae5f22ecfe74aadc9d75a791e7efcf18e3b3a49e9587e9c08ae",
+  "station_count": 1,
+  "export_count": 1,
+  "validator_sha256": "51b131ac7e34c1cd490065add62998354130c0aaf1c743b25fb54c1516f74db0",
+  "controls": "qa/reports/material_revision_validator_controls.json",
+  "checks": [
+    "Every original, retained and new frozen file hash/size checked.",
+    "Exact unchanged packed-source palette bound and normalized values verified.",
+    "All non-JSON bytes, geometry/node/resource tables, existing factors/textures and alpha semantics preserved.",
+    "TNU remains two separately isolated single-scene exports,16 historic nodes and37 corridor nodes."
+  ],
+  "limitations": [
+    "Solid base-color fallbacks approximate procedural Blender appearance.",
+    "A color pass does not certify the underlying station layout or current operation."
+  ],
+  "stations": [
+    {
+      "station": "CHPD",
+      "source_blend_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "original_manifest_sha256": "27caa0b350280b10e4b7e35aaec088a20417be84f3cc69b0aec26aca50b431ee",
+      "revision_manifest": "north/portable_colour_revision_02/CHPD/MANIFEST.json",
+      "revision_manifest_sha256": "25672a25088a3fc7e8ae4b5d7af92a6b21268b9377a032c7c0592632827c8b72",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/CHPD/CHPD_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "4cb5e6450f9a11427362820b50ebd349649c27cd0c8986b032cb62b5cf8d8f85",
+          "glb_sha256": "881bd5652453aa3cb17a7a7ab9d241d8b3e39d95a19a8f79f81cbdc8d206dff2",
+          "independent_report": "qa/reports/CHPD_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    }
+  ]
+}

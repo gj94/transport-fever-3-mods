@@ -1,0 +1,27 @@
+{
+  "station": "AMY",
+  "publication_mode": "first_main_native_and_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/amy/AMY_coastal_station_v01.blend",
+  "source_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/amy/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "82fb56edd9513be4d0e10899305b669942c2d231a225972afdd4bcea286d0f60",
+  "native_gate_path": "coastal_station_collection/qa/reports/AMY.json",
+  "native_gate_sha256": "661780b0cfee3ba0efcb8d0afa27ae58c93b4c864edec558515c2ae35ac570e8",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/AMY/AMY_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "52263beb6179b865fb0d1f576fd6009f7754b734d0441b9b12764f81e1b15b60",
+  "corrected_glb_sha256": "e8e380961a98a1eef5b1e4f4df272646f50eb987fae902112d001a147ea8e105",
+  "superseded_archive_sha256": "4b3097693bb78ce21e6fcf71c6a73116e5c8ceef6d7435e6139f98dc03be0306",
+  "superseded_archive_disposition": "Excluded from first main; supplied solely in optional historical-only manifest.",
+  "retained_images": [],
+  "limitations": [
+    "Visual reconstruction, not a survey, current operating inventory or engineering certification.",
+    "Unseen room details, precise dimensions and service assignments remain reconstructed and disclosed.",
+    "Targeted paths/support samples do not exhaustively certify every pairwise collision.",
+    "Portable colors approximate procedural Blender shading; procedural noise/bump is not baked."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

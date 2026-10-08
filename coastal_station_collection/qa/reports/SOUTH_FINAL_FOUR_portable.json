@@ -1,0 +1,146 @@
+[
+  {
+    "path": "south/mqu/exchange/MQU_portable_GLTF.zip!MQU_station_v01.glb",
+    "bytes": 50007824,
+    "errors": [],
+    "warnings": [],
+    "sha256": "c988568b738b0550cb9f7d89f55435d26603866418993ab91428ece7015be599",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 50007824
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 623504
+      },
+      {
+        "type": 5130562,
+        "bytes": 49384292
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 981,
+    "mesh_count": 981,
+    "primitive_count": 981,
+    "vertex_reference_count": 1685312,
+    "accessor_count": 2108,
+    "validated_accessor_count": 2108,
+    "material_count": 25,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "a903d3ccb93b34097ca9b4342d21cd0e0a03634c80fa8ef091b2d60d6c12f2a9",
+    "container_bytes": 6759249
+  },
+  {
+    "path": "south/revision_02/kzt/exchange/KZT_portable_GLTF.zip!KZT_station_v01.glb",
+    "bytes": 43564980,
+    "errors": [],
+    "warnings": [],
+    "sha256": "28ab0bd8c19664790341cb171fab6e3776f48e998a918f927e14db028dcff59a",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 43564980
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 593488
+      },
+      {
+        "type": 5130562,
+        "bytes": 42971464
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 929,
+    "mesh_count": 929,
+    "primitive_count": 929,
+    "vertex_reference_count": 1453432,
+    "accessor_count": 1995,
+    "validated_accessor_count": 1995,
+    "material_count": 24,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "58ff7b0c4b028ef5efc72b0cec496abfa3ed491dd42fa46565eece1bb2ea4c73",
+    "container_bytes": 5923194
+  },
+  {
+    "path": "south/njt/exchange/NJT_portable_GLTF.zip!NJT_station_v01.glb",
+    "bytes": 60697772,
+    "errors": [],
+    "warnings": [],
+    "sha256": "b494a3c44f3bd104135ca49c7c8d71284e9ee01a77a8016825e1816930e94d4b",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 60697772
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 630372
+      },
+      {
+        "type": 5130562,
+        "bytes": 60067372
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 991,
+    "mesh_count": 991,
+    "primitive_count": 991,
+    "vertex_reference_count": 2050713,
+    "accessor_count": 2121,
+    "validated_accessor_count": 2121,
+    "material_count": 24,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "64cf6715e19a8db03a9e22ee903e30a1a7839c49d721db51e63d716c0f835262",
+    "container_bytes": 7892951
+  },
+  {
+    "path": "south/tvcs/exchange/TVCS_portable_GLTF.zip!TVCS_station_v01.glb",
+    "bytes": 38690828,
+    "errors": [],
+    "warnings": [],
+    "sha256": "85d7d3c71f2e795d291a7607dac3e76d583c610c26e52624bd5cf44a5d37b6ad",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 38690828
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 620412
+      },
+      {
+        "type": 5130562,
+        "bytes": 38070388
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 975,
+    "mesh_count": 975,
+    "primitive_count": 975,
+    "vertex_reference_count": 1299316,
+    "accessor_count": 2084,
+    "validated_accessor_count": 2084,
+    "material_count": 23,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "3f052d67055a7e083d4c153156cb642cd6611755389dc988a3692dbb2f39e129",
+    "container_bytes": 5315553
+  }
+]

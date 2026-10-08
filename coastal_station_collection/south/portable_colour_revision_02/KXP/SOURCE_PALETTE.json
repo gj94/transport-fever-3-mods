@@ -1,0 +1,660 @@
+{
+  "station": "KXP",
+  "source_blend": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/kxp/KXP_station_v01.blend",
+  "source_blend_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+  "source_blend_unchanged": true,
+  "colors": {
+    "asphalt": [
+      0.14000000059604645,
+      0.1599999964237213,
+      0.15000000596046448,
+      1.0
+    ],
+    "ballast": [
+      0.2800000011920929,
+      0.2800000011920929,
+      0.23999999463558197,
+      1.0
+    ],
+    "blue": [
+      0.02500000037252903,
+      0.20000000298023224,
+      0.3100000023841858,
+      1.0
+    ],
+    "concrete": [
+      0.41999998688697815,
+      0.4399999976158142,
+      0.4000000059604645,
+      1.0
+    ],
+    "cream": [
+      0.8199999928474426,
+      0.8100000023841858,
+      0.7200000286102295,
+      1.0
+    ],
+    "dark": [
+      0.027000000700354576,
+      0.03400000184774399,
+      0.03500000014901161,
+      1.0
+    ],
+    "Fluorescent diffuser": [
+      0.9300000071525574,
+      0.8999999761581421,
+      0.7200000286102295,
+      1.0
+    ],
+    "glass": [
+      0.10999999940395355,
+      0.23000000417232513,
+      0.25,
+      1.0
+    ],
+    "green": [
+      0.10999999940395355,
+      0.27000001072883606,
+      0.054999999701976776,
+      1.0
+    ],
+    "head": [
+      0.4300000071525574,
+      0.47999998927116394,
+      0.5,
+      1.0
+    ],
+    "ivory": [
+      0.8199999928474426,
+      0.8100000023841858,
+      0.6899999976158142,
+      1.0
+    ],
+    "red": [
+      0.38999998569488525,
+      0.07500000298023224,
+      0.04500000178813934,
+      1.0
+    ],
+    "roof": [
+      0.4699999988079071,
+      0.5099999904632568,
+      0.47999998927116394,
+      1.0
+    ],
+    "roofblue": [
+      0.03500000014901161,
+      0.28999999165534973,
+      0.4099999964237213,
+      1.0
+    ],
+    "rust": [
+      0.23999999463558197,
+      0.10000000149011612,
+      0.04500000178813934,
+      1.0
+    ],
+    "soil": [
+      0.3400000035762787,
+      0.3100000023841858,
+      0.20000000298023224,
+      1.0
+    ],
+    "steel": [
+      0.44999998807907104,
+      0.49000000953674316,
+      0.49000000953674316,
+      1.0
+    ],
+    "teal": [
+      0.029999999329447746,
+      0.28999999165534973,
+      0.23999999463558197,
+      1.0
+    ],
+    "terracotta": [
+      0.41999998688697815,
+      0.1599999964237213,
+      0.07000000029802322,
+      1.0
+    ],
+    "tile": [
+      0.5099999904632568,
+      0.46000000834465027,
+      0.3499999940395355,
+      1.0
+    ],
+    "tile2": [
+      0.4300000071525574,
+      0.4000000059604645,
+      0.3100000023841858,
+      1.0
+    ],
+    "trunk": [
+      0.28999999165534973,
+      0.2199999988079071,
+      0.15000000596046448,
+      1.0
+    ],
+    "white": [
+      0.8399999737739563,
+      0.8500000238418579,
+      0.7599999904632568,
+      1.0
+    ],
+    "wood": [
+      0.25,
+      0.11999999731779099,
+      0.04500000178813934,
+      1.0
+    ],
+    "yellow": [
+      0.9599999785423279,
+      0.6800000071525574,
+      0.02500000037252903,
+      1.0
+    ]
+  },
+  "materials": {
+    "asphalt": {
+      "authored_base_default_rgba": [
+        0.14000000059604645,
+        0.1599999964237213,
+        0.15000000596046448,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.14000000059604645,
+        0.1599999964237213,
+        0.15000000596046448,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "ballast": {
+      "authored_base_default_rgba": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.23999999463558197,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.23999999463558197,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "blue": {
+      "authored_base_default_rgba": [
+        0.02500000037252903,
+        0.20000000298023224,
+        0.3100000023841858,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.02500000037252903,
+        0.20000000298023224,
+        0.3100000023841858,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "concrete": {
+      "authored_base_default_rgba": [
+        0.41999998688697815,
+        0.4399999976158142,
+        0.4000000059604645,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.41999998688697815,
+        0.4399999976158142,
+        0.4000000059604645,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "cream": {
+      "authored_base_default_rgba": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.7200000286102295,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.7200000286102295,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "dark": {
+      "authored_base_default_rgba": [
+        0.027000000700354576,
+        0.03400000184774399,
+        0.03500000014901161,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.027000000700354576,
+        0.03400000184774399,
+        0.03500000014901161,
+        1.0
+      ],
+      "base_colour_links": [],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "Fluorescent diffuser": {
+      "authored_base_default_rgba": [
+        0.9300000071525574,
+        0.8999999761581421,
+        0.7200000286102295,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.9300000071525574,
+        0.8999999761581421,
+        0.7200000286102295,
+        1.0
+      ],
+      "base_colour_links": [],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "glass": {
+      "authored_base_default_rgba": [
+        0.10999999940395355,
+        0.23000000417232513,
+        0.25,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.10999999940395355,
+        0.23000000417232513,
+        0.25,
+        1.0
+      ],
+      "base_colour_links": [],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "green": {
+      "authored_base_default_rgba": [
+        0.10999999940395355,
+        0.27000001072883606,
+        0.054999999701976776,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.10999999940395355,
+        0.27000001072883606,
+        0.054999999701976776,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "head": {
+      "authored_base_default_rgba": [
+        0.4300000071525574,
+        0.47999998927116394,
+        0.5,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.4300000071525574,
+        0.47999998927116394,
+        0.5,
+        1.0
+      ],
+      "base_colour_links": [],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "ivory": {
+      "authored_base_default_rgba": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.6899999976158142,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.8199999928474426,
+        0.8100000023841858,
+        0.6899999976158142,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "red": {
+      "authored_base_default_rgba": [
+        0.38999998569488525,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.38999998569488525,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "roof": {
+      "authored_base_default_rgba": [
+        0.4699999988079071,
+        0.5099999904632568,
+        0.47999998927116394,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.4699999988079071,
+        0.5099999904632568,
+        0.47999998927116394,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "roofblue": {
+      "authored_base_default_rgba": [
+        0.03500000014901161,
+        0.28999999165534973,
+        0.4099999964237213,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.03500000014901161,
+        0.28999999165534973,
+        0.4099999964237213,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "rust": {
+      "authored_base_default_rgba": [
+        0.23999999463558197,
+        0.10000000149011612,
+        0.04500000178813934,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.23999999463558197,
+        0.10000000149011612,
+        0.04500000178813934,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "soil": {
+      "authored_base_default_rgba": [
+        0.3400000035762787,
+        0.3100000023841858,
+        0.20000000298023224,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.3400000035762787,
+        0.3100000023841858,
+        0.20000000298023224,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "steel": {
+      "authored_base_default_rgba": [
+        0.44999998807907104,
+        0.49000000953674316,
+        0.49000000953674316,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.44999998807907104,
+        0.49000000953674316,
+        0.49000000953674316,
+        1.0
+      ],
+      "base_colour_links": [],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "teal": {
+      "authored_base_default_rgba": [
+        0.029999999329447746,
+        0.28999999165534973,
+        0.23999999463558197,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.029999999329447746,
+        0.28999999165534973,
+        0.23999999463558197,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "terracotta": {
+      "authored_base_default_rgba": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07000000029802322,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07000000029802322,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "tile": {
+      "authored_base_default_rgba": [
+        0.5099999904632568,
+        0.46000000834465027,
+        0.3499999940395355,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.5099999904632568,
+        0.46000000834465027,
+        0.3499999940395355,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "tile2": {
+      "authored_base_default_rgba": [
+        0.4300000071525574,
+        0.4000000059604645,
+        0.3100000023841858,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.4300000071525574,
+        0.4000000059604645,
+        0.3100000023841858,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "trunk": {
+      "authored_base_default_rgba": [
+        0.28999999165534973,
+        0.2199999988079071,
+        0.15000000596046448,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.28999999165534973,
+        0.2199999988079071,
+        0.15000000596046448,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "white": {
+      "authored_base_default_rgba": [
+        0.8399999737739563,
+        0.8500000238418579,
+        0.7599999904632568,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.8399999737739563,
+        0.8500000238418579,
+        0.7599999904632568,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "wood": {
+      "authored_base_default_rgba": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    },
+    "yellow": {
+      "authored_base_default_rgba": [
+        0.9599999785423279,
+        0.6800000071525574,
+        0.02500000037252903,
+        1.0
+      ],
+      "diffuse_rgba": [
+        0.9599999785423279,
+        0.6800000071525574,
+        0.02500000037252903,
+        1.0
+      ],
+      "base_colour_links": [
+        {
+          "name": "Color Ramp",
+          "node_type": "ShaderNodeValToRGB"
+        }
+      ],
+      "choice": "Explicit authored Principled base default; procedural variation remains in native scene"
+    }
+  }
+}

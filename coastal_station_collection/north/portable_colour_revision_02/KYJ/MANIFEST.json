@@ -1,0 +1,466 @@
+{
+  "station": "KYJ",
+  "status": "frozen_for_independent_material_gate",
+  "revision": "portable_colour_revision_02",
+  "source_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "original_source_gallery_manifest": "coastal_stations_overnight/north/KYJ/MANIFEST.json",
+  "original_source_gallery_manifest_sha256": "b3916b201228f806cbb041dd92ea5cb45c771e9180c5eeb2e39f8c974e7e635f",
+  "native_scene_and_render_bytes_unchanged": true,
+  "retained_assets": [
+    {
+      "path": "coastal_stations_overnight/north/KYJ/KYJ_coastal_station_v03.blend",
+      "relative_station_path": "KYJ_coastal_station_v03.blend",
+      "sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "size": 31177246
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "f222bdae5bcd6d6452966401b4478fe08a3691ec5c4fcfbee00f11122125f838",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "f2c832a030c9e5162aca034f7d004183b9880377614353243537eb178526e8b9",
+      "size": 1421602
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "79c80226844870d20bfd9956bc805dc1717e2e36f6db9dede4ce9e18be73db03",
+      "size": 2166
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e",
+      "size": 1434942
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "2547eafd8e7a8dacc15373e2c7db933d7a394d63dd1444284a221e2374feb778",
+      "size": 912
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "ab83d7bd6834c8fc60576bb33db43ccce5d0f04e9defea4a57e1560352063f49",
+      "size": 1480059
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "772f01a888adb02084cac57d2108fd51de7903951f5f2868e78d029700e09590",
+      "size": 2393
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93",
+      "size": 1370136
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/05_Mapped_turnout_detail.json",
+      "relative_station_path": "renders/05_Mapped_turnout_detail.json",
+      "sha256": "cac7a7d88376b7a5cbb05662af0a26be06bfe2d82768acc2e0a8073113ec3fca",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/05_Mapped_turnout_detail.png",
+      "relative_station_path": "renders/05_Mapped_turnout_detail.png",
+      "sha256": "f4cebc2b10c3949e4bc408805ba6700943a919448a68ce84d232ce081b57c7a3",
+      "size": 1493704
+    }
+  ],
+  "portable_replacements": [
+    {
+      "old_glb_sha256": "2d4fbd5f0137c86a3b6c731f6c6440597360c8bf42e549af1f8e3382de038a82",
+      "new_glb_sha256": "bbf647b34e97ac6d6fd1cd65ab5a8bf43a560e548b2b049c2105f42399341ec9",
+      "changed_materials": [
+        {
+          "index": 0,
+          "name": "ballast",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.2800000011920929,
+            0.25,
+            0.20999999344348907,
+            1.0
+          ]
+        },
+        {
+          "index": 1,
+          "name": "railweb",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.25,
+            0.14000000059604645,
+            0.07500000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "name": "sleeper",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.3799999952316284,
+            1.0
+          ]
+        },
+        {
+          "index": 5,
+          "name": "steel",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.3700000047683716,
+            0.41999998688697815,
+            0.4000000059604645,
+            1.0
+          ]
+        },
+        {
+          "index": 6,
+          "name": "stone",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.5099999904632568,
+            0.5099999904632568,
+            0.4300000071525574,
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "name": "red",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.46000000834465027,
+            0.10499999672174454,
+            0.06499999761581421,
+            1.0
+          ]
+        },
+        {
+          "index": 8,
+          "name": "white",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.8500000238418579,
+            0.8700000047683716,
+            0.8299999833106995,
+            1.0
+          ]
+        },
+        {
+          "index": 10,
+          "name": "yellow",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.9300000071525574,
+            0.6399999856948853,
+            0.05999999865889549,
+            1.0
+          ]
+        },
+        {
+          "index": 11,
+          "name": "pavers",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.5,
+            0.25999999046325684,
+            0.1899999976158142,
+            1.0
+          ]
+        },
+        {
+          "index": 13,
+          "name": "ivory",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.800000011920929,
+            0.7699999809265137,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "index": 14,
+          "name": "tile",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.41999998688697815,
+            0.1599999964237213,
+            0.07999999821186066,
+            1.0
+          ]
+        },
+        {
+          "index": 17,
+          "name": "wood",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.27000001072883606,
+            0.12999999523162842,
+            0.05000000074505806,
+            1.0
+          ]
+        },
+        {
+          "index": 18,
+          "name": "blue",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.05999999865889549,
+            0.23000000417232513,
+            0.3499999940395355,
+            1.0
+          ]
+        },
+        {
+          "index": 19,
+          "name": "roofblue",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.03500000014901161,
+            0.23999999463558197,
+            0.5699999928474426,
+            1.0
+          ]
+        },
+        {
+          "index": 20,
+          "name": "water",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.09000000357627869,
+            0.25,
+            0.2199999988079071,
+            1.0
+          ]
+        },
+        {
+          "index": 21,
+          "name": "ground",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.2800000011920929,
+            0.3400000035762787,
+            0.17000000178813934,
+            1.0
+          ]
+        },
+        {
+          "index": 22,
+          "name": "road",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ]
+        },
+        {
+          "index": 23,
+          "name": "leaflight",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.18000000715255737,
+            0.3199999928474426,
+            0.07500000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 24,
+          "name": "leaf",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.10000000149011612,
+            0.23999999463558197,
+            0.054999999701976776,
+            1.0
+          ]
+        }
+      ],
+      "binary_chunks": [
+        {
+          "type": 5130562,
+          "bytes": 134771812,
+          "unchanged_sha256": "f09b02f34fdf4a9b80e0362f01601a2f4ec945a18fb9904c91def224f43f1b91"
+        }
+      ],
+      "binary_identical": true,
+      "all_non_colour_json_identical": true,
+      "alpha_semantics_unchanged": true,
+      "existing_factors_and_textures_unchanged": true,
+      "station_code": "KYJ",
+      "source_scene": null,
+      "source_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "source_glb": "coastal_stations_overnight/north/KYJ/exports/KYJ_coastal_station_v03.glb",
+      "source_glb_bytes": 134885948,
+      "corrected_glb_bytes": 134887460,
+      "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_colour_v02.glb.zip",
+      "zip_member": "KYJ_coastal_station_v03_colour_v02.glb",
+      "zip_sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65",
+      "zip_bytes": 17155256,
+      "zip_lossless_verified": true,
+      "source_palette_sha256": "cc109714978a55bed4dcc476680dd317ce42ec113f5c8f84514f426a1be321cf",
+      "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "proof_file": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_COLOUR_QA.json",
+      "independent_validation_file": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_INDEPENDENT_VALIDATION.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_COLOUR_QA.json",
+      "sha256": "20fce0e4496bcbe5d0b0ed479e457f29673f251a87674bd504cbe900aa194bcc",
+      "size": 6349
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_INDEPENDENT_VALIDATION.json",
+      "sha256": "46b53a9e65908610ad0c99b9f0ab827af589754c21c03dde768c76f339610286",
+      "size": 9981
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_colour_v02.glb.zip",
+      "sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65",
+      "size": 17155256
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/ORIGINAL_EXPORT_QA.json",
+      "sha256": "db325bcebca8655fb9f79d27465b3377025beae0738521156ba37f77774eddc8",
+      "size": 527
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/PATCH_SOURCE.py",
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "size": 1723
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/README.md",
+      "sha256": "200e6af1edc8e154fa57f45db84b8522410b77cf1213defff27f2eccaaaa8f45",
+      "size": 1125
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/REVISION_BUILDER.py",
+      "sha256": "02287dd503ae737876955bab17312e7511a33b5b44291ee558a232190f4a8281",
+      "size": 6891
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/SOURCE_MATERIALS.json",
+      "sha256": "cc109714978a55bed4dcc476680dd317ce42ec113f5c8f84514f426a1be321cf",
+      "size": 11715
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/VALIDATION_PALETTE.json",
+      "sha256": "dc1f8568321c45c79c849848b9e76ccbd814a4757b597a82eb1a2b1ece300962",
+      "size": 3194
+    }
+  ],
+  "file_count": 9,
+  "total_bytes": 17196761,
+  "opening_instructions": "Unzip the new archive(s) and open the contained GLB. Retain the original packed Blend/gallery; this addendum supersedes only portable RGB fallback factors.",
+  "photo_redistribution": "No third-party photographs included; embedded original sign images unchanged."
+}

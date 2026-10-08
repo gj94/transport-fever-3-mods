@@ -1,0 +1,107 @@
+{
+  "station_code": "PRND",
+  "status": "Frozen candidate; automatic source/render/export hash gates passed. Independent scene/gallery acceptance is tracked by the parent auditor.",
+  "blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/PRND_coastal_station_v01.blend",
+      "bytes": 13422246,
+      "sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/BUILD_QA.json",
+      "bytes": 2126,
+      "sha256": "fb410a547670f4e03398e7efa09a6015a08cd7f665ac4aaac9dd992f1c332d07"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/EXPORT_QA.json",
+      "bytes": 1318,
+      "sha256": "898c2da3a343fa93cc610f939dbc44d22459af3c582b66055ec1dfbcbc540387"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/RENDER_PROVENANCE.json",
+      "bytes": 2708,
+      "sha256": "4dc87947e9661fcd3b03652e002a8e8025b0c0ed9d4907a8ebee5f13daedc8be"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 9229,
+      "sha256": "ceaaaec6026278b9d9165baf8a6ee762309d86bfaf94982d6f8e031dcd12f969"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/export/PRND_coastal_station_v01.glb.zip",
+      "bytes": 7890886,
+      "sha256": "c0e1c4909d421d4c3c424d65279f8206b614e1d5592b3508c0c408326dd71230"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/renders/01_full_mapped_layout.png",
+      "bytes": 1038687,
+      "sha256": "4c58b2f03bae7222a595e6d97f52a29dfe3a9888d6f34a8e0a1c579cf3286cd4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/renders/03_platform_track_details.png",
+      "bytes": 1282237,
+      "sha256": "1253481e9937d4c4208b50fd03415690df5435f07a11f8351f2934a98de33627"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/renders/04_facade_and_approach.png",
+      "bytes": 1243230,
+      "sha256": "82c95d9935b4d4b838349e3b2aad589eed1b8d4c2e4e0e0bd36bb5841705b4e8"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/renders/05_ticket_interior.png",
+      "bytes": 1353425,
+      "sha256": "822e0c1c0316e252abd47abe422969899aac72460388d82a46e4bd37df750e87"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/mapped_geometry.json",
+      "bytes": 59695,
+      "sha256": "5a00481ba94d959acd0cd9032675cc74d8588237106eda8f105e240a5d4a966b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/adopted_geometry.json",
+      "bytes": 162439,
+      "sha256": "147032111fc9d8ed1024430775f0e6a139d03f3f423a8ac4980b0f523a72e419"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/station_nameboard.png",
+      "bytes": 22780,
+      "sha256": "b1360e488590a627dae750200944066a7b306b322f7d7036c202304911eb4742"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/nameboard_text.json",
+      "bytes": 400,
+      "sha256": "791da415fd6726ffd0ad8739c5d9ea388f8ca9002ade6fb33da50f7fc9f90feb"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/visual_evidence.json",
+      "bytes": 1910,
+      "sha256": "244c202ba18d8cef8dd2a62404bccb33d5932ca5946cba7f24aa0095e128f308"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/build_station_used.py",
+      "bytes": 59559,
+      "sha256": "b33f6409f8b021b46346a16e05590bfef73a7b15bb94342e2caf1b2b7692c7aa"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/reference_spec.json",
+      "bytes": 719,
+      "sha256": "0956d1e21bc624b2ecbbdcaa236c885e865c7619d9c811f0ba41ef07943a2406"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/ARCHITECTURE_REVISION.json",
+      "bytes": 3122,
+      "sha256": "4a711c52e50557bf9472988799697b9a0f2aef2791b64718a5490045dd963443"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/prnd/source/repair_architecture_used.py",
+      "bytes": 4520,
+      "sha256": "f46ed6830801a4af93865df4ffedf0edcdc55bfe688803103c9a8b3926d5d8d6"
+    }
+  ],
+  "included_render_count": 4,
+  "no_source_photos": true,
+  "licensing": "OSM-derived source geometry retained with ODbL attribution; generated label pixels only, no Google/provider imagery",
+  "provenance": "Per-view source hashes and retained-view reasons are explicit; export hash matches the authoritative packed Blend; exact builder or repair snapshot retained where captured",
+  "freeze_rule": "Do not mutate any allowlisted bytes after handoff. Revisions need a new directory."
+}

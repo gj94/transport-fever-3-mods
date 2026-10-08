@@ -1,0 +1,70 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_03/vak/VAK_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 227,
+  "object_types": {
+    "MESH": 201,
+    "FONT": 13,
+    "LIGHT": 8,
+    "CAMERA": 5
+  },
+  "unique_meshes": 201,
+  "unique_vertices": 737286,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1285.0,
+      -215.0,
+      -4.0
+    ],
+    [
+      685.0,
+      215.0,
+      12.538846015930176
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../vak/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "VAK",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "3",
+    "platform_bodies_modelled": "2",
+    "architecture_revision": "VAKv02: source-observed square cream chamber, stepped yellow-ochre upturned hip cap and finial; clear platform camera03. Reference: Google Maps Oct2019.",
+    "base_blend_sha256": "9bdbda1968e9105290c4520a693c5d2d737571064dd76de6628552098e501d56",
+    "platform_building_overlap": "The inferred raised platform body continues beneath the mapped building as station-edge foundation. It is not six metres of unobstructed passenger width. Outdoor amenities and canopy bays inside the mapped building have been removed."
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121"
+}

@@ -1,0 +1,106 @@
+{
+  "station": "KYJ",
+  "reviewed_utc": "2026-10-08T22:18:40.750034+00:00",
+  "status": "5_view_visual_source_pass",
+  "source_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "f2c832a030c9e5162aca034f7d004183b9880377614353243537eb178526e8b9",
+      "source_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "current_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "preserved_prior_hash_bound_pass"
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e",
+      "source_scene_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+      "current_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision changes only the recorded bridge, bufferstop or roof components outside this retained remote rail/enclosed interior view. Exact original pixels and actual source-scene checksum are preserved; this is unchanged-subject lineage, not a fresh rendering.",
+        "original_image_sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e",
+        "related_patch_chain": {
+          "bridge_patch": {
+            "source_blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+            "source_blend_file": "KYJ_coastal_station_v02.blend",
+            "changed_collection": "07 | Pedestrian footbridge reconstructed geometry",
+            "reason": "Move reconstructed platform4/5 flight inward to x44.066216 and update its deck-mouth railing. Its whole run now lies inside the common source-platform interval, including the narrowed toe.",
+            "common_center_interval_with_1_30m_margins": [
+              43.229130837679186,
+              44.903301526521915
+            ],
+            "mapped_platform_and_bridge_route_unchanged": true,
+            "all_nonbridge_geometry_unchanged": true,
+            "script_sha256": "c3d97928372b59f4fae0e1d70708218e3152f509ef3ac6826b71eb04d991c445"
+          }
+        }
+      },
+      "review_basis": "preserved_prior_hash_bound_pass"
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "ab83d7bd6834c8fc60576bb33db43ccce5d0f04e9defea4a57e1560352063f49",
+      "source_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "current_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "new_reduced_pixels_inspected"
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93",
+      "source_scene_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+      "current_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision changes only the recorded bridge, bufferstop or roof components outside this retained remote rail/enclosed interior view. Exact original pixels and actual source-scene checksum are preserved; this is unchanged-subject lineage, not a fresh rendering.",
+        "original_image_sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93",
+        "related_patch_chain": {
+          "bridge_patch": {
+            "source_blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+            "source_blend_file": "KYJ_coastal_station_v02.blend",
+            "changed_collection": "07 | Pedestrian footbridge reconstructed geometry",
+            "reason": "Move reconstructed platform4/5 flight inward to x44.066216 and update its deck-mouth railing. Its whole run now lies inside the common source-platform interval, including the narrowed toe.",
+            "common_center_interval_with_1_30m_margins": [
+              43.229130837679186,
+              44.903301526521915
+            ],
+            "mapped_platform_and_bridge_route_unchanged": true,
+            "all_nonbridge_geometry_unchanged": true,
+            "script_sha256": "c3d97928372b59f4fae0e1d70708218e3152f509ef3ac6826b71eb04d991c445"
+          }
+        }
+      },
+      "review_basis": "preserved_prior_hash_bound_pass"
+    },
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "f4cebc2b10c3949e4bc408805ba6700943a919448a68ce84d232ce081b57c7a3",
+      "source_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "current_scene_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null,
+      "review_basis": "preserved_prior_hash_bound_pass"
+    }
+  },
+  "prior_review_reports": [
+    "KYJ_8bf8fadb_partial_visual_review.json",
+    "KYJ_8bf8fadb_05_visual_review.json"
+  ],
+  "observations": [
+    "New03 camera clears the dominant near pier and now shows the platform/rail corridor, three bridge approaches and canopy relationships.",
+    "No geometry changes were required; camera-only provenance is preserved.",
+    "Prior01/02/04 visual/source passes and newly passed05 pointwork remain exact-hash retained."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Retained subjects preserve original image/source hashes; no claim of pixel-identical rerender.",
+    "Technical auditor owns geometry/export and final acceptance."
+  ]
+}

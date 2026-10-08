@@ -1,0 +1,2177 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/DAVM_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 687,
+  "object_types": {
+    "MESH": 667,
+    "FONT": 12,
+    "LIGHT": 3,
+    "CAMERA": 5
+  },
+  "unique_meshes": 667,
+  "unique_vertices": 218899,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -189.27854919433594,
+      -8.65236759185791
+    ],
+    [
+      895.0,
+      149.27935791015625,
+      12.740228652954102
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "DAVM",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676",
+    "wc_access_repair_input_sha256": "14566e28d8e38da7f5cf201b3ddb5c7383fde6ed73d00922d122e88be724a3f7"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_TRACK_AND_PLATFORM_DETAIL"
+  ],
+  "circulation_rays": {
+    "central_public_entry_0.25": {
+      "from": [
+        0.0,
+        4.673112869262695,
+        1.274999976158142
+      ],
+      "to": [
+        0.0,
+        -3.126887321472168,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.5": {
+      "from": [
+        0.0,
+        4.673112869262695,
+        1.524999976158142
+      ],
+      "to": [
+        0.0,
+        -3.126887321472168,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.9": {
+      "from": [
+        0.0,
+        4.673112869262695,
+        1.9249999523162842
+      ],
+      "to": [
+        0.0,
+        -3.126887321472168,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_1.3": {
+      "from": [
+        0.0,
+        4.673112869262695,
+        2.325000047683716
+      ],
+      "to": [
+        0.0,
+        -3.126887321472168,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_1.7": {
+      "from": [
+        0.0,
+        4.673112869262695,
+        2.7249999046325684
+      ],
+      "to": [
+        0.0,
+        -3.126887321472168,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.25": {
+      "from": [
+        -2.2750000953674316,
+        4.673112869262695,
+        1.274999976158142
+      ],
+      "to": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.5": {
+      "from": [
+        -2.2750000953674316,
+        4.673112869262695,
+        1.524999976158142
+      ],
+      "to": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.9": {
+      "from": [
+        -2.2750000953674316,
+        4.673112869262695,
+        1.9249999523162842
+      ],
+      "to": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_1.3": {
+      "from": [
+        -2.2750000953674316,
+        4.673112869262695,
+        2.325000047683716
+      ],
+      "to": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_1.7": {
+      "from": [
+        -2.2750000953674316,
+        4.673112869262695,
+        2.7249999046325684
+      ],
+      "to": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.25": {
+      "from": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "to": [
+        0.0,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.5": {
+      "from": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "to": [
+        0.0,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.9": {
+      "from": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "to": [
+        0.0,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_1.3": {
+      "from": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "to": [
+        0.0,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_1.7": {
+      "from": [
+        -2.2750000953674316,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "to": [
+        0.0,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.25": {
+      "from": [
+        4.050000190734863,
+        3.7731127738952637,
+        1.274999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        -4.726887226104736,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.5": {
+      "from": [
+        4.050000190734863,
+        3.7731127738952637,
+        1.524999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        -4.726887226104736,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.9": {
+      "from": [
+        4.050000190734863,
+        3.7731127738952637,
+        1.9249999523162842
+      ],
+      "to": [
+        4.050000190734863,
+        -4.726887226104736,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_1.3": {
+      "from": [
+        4.050000190734863,
+        3.7731127738952637,
+        2.325000047683716
+      ],
+      "to": [
+        4.050000190734863,
+        -4.726887226104736,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_1.7": {
+      "from": [
+        4.050000190734863,
+        3.7731127738952637,
+        2.7249999046325684
+      ],
+      "to": [
+        4.050000190734863,
+        -4.726887226104736,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.25": {
+      "from": [
+        0.0,
+        2.1731128692626953,
+        1.274999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        2.1731128692626953,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.5": {
+      "from": [
+        0.0,
+        2.1731128692626953,
+        1.524999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        2.1731128692626953,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.9": {
+      "from": [
+        0.0,
+        2.1731128692626953,
+        1.9249999523162842
+      ],
+      "to": [
+        4.050000190734863,
+        2.1731128692626953,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_1.3": {
+      "from": [
+        0.0,
+        2.1731128692626953,
+        2.325000047683716
+      ],
+      "to": [
+        4.050000190734863,
+        2.1731128692626953,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_1.7": {
+      "from": [
+        0.0,
+        2.1731128692626953,
+        2.7249999046325684
+      ],
+      "to": [
+        4.050000190734863,
+        2.1731128692626953,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.25": {
+      "from": [
+        -2.2750000953674316,
+        15.973113059997559,
+        0.13862499594688416
+      ],
+      "to": [
+        -2.2750000953674316,
+        4.373112678527832,
+        1.245460033416748
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.5": {
+      "from": [
+        -2.2750000953674316,
+        15.973113059997559,
+        0.38862499594688416
+      ],
+      "to": [
+        -2.2750000953674316,
+        4.373112678527832,
+        1.495460033416748
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.9": {
+      "from": [
+        -2.2750000953674316,
+        15.973113059997559,
+        0.7886250019073486
+      ],
+      "to": [
+        -2.2750000953674316,
+        4.373112678527832,
+        1.8954600095748901
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.3": {
+      "from": [
+        -2.2750000953674316,
+        15.973113059997559,
+        1.1886249780654907
+      ],
+      "to": [
+        -2.2750000953674316,
+        4.373112678527832,
+        2.2954599857330322
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -2.2750000953674316,
+        15.973113059997559,
+        1.5886249542236328
+      ],
+      "to": [
+        -2.2750000953674316,
+        4.373112678527832,
+        2.695460081100464
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_0": {
+      "from": [
+        -2.2750000953674316,
+        15.973113059997559,
+        0.13862499594688416
+      ],
+      "to": [
+        -2.2750000953674316,
+        15.973113059997559,
+        -0.4113749861717224
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -2.2750000953674316,
+        15.973113059997559,
+        -0.11137500405311584
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        0.9954786896705627
+      ]
+    },
+    "floor_ramp_0.25": {
+      "from": [
+        -2.2750000953674316,
+        13.073112487792969,
+        0.41533374786376953
+      ],
+      "to": [
+        -2.2750000953674316,
+        13.073112487792969,
+        -0.13466624915599823
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -2.2750000953674316,
+        13.073112487792969,
+        0.16533339023590088
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        0.9954786896705627
+      ]
+    },
+    "floor_ramp_0.5": {
+      "from": [
+        -2.2750000953674316,
+        10.173112869262695,
+        0.6920425295829773
+      ],
+      "to": [
+        -2.2750000953674316,
+        10.173112869262695,
+        0.14204250276088715
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -2.2750000953674316,
+        10.173112869262695,
+        0.44204169511795044
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        0.9954786896705627
+      ]
+    },
+    "floor_ramp_0.75": {
+      "from": [
+        -2.2750000953674316,
+        7.273112773895264,
+        0.9687512516975403
+      ],
+      "to": [
+        -2.2750000953674316,
+        7.273112773895264,
+        0.41875123977661133
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -2.2750000953674316,
+        7.273112773895264,
+        0.71875
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        0.9954786896705627
+      ]
+    },
+    "floor_ramp_1": {
+      "from": [
+        -2.2750000953674316,
+        4.373112678527832,
+        1.245460033416748
+      ],
+      "to": [
+        -2.2750000953674316,
+        4.373112678527832,
+        0.6954600214958191
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -2.2750000953674316,
+        4.373112678527832,
+        0.9954583644866943
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        0.9954786896705627
+      ]
+    },
+    "floor_threshold_0.7731127628794802": {
+      "from": [
+        0.0,
+        0.7731127738952637,
+        1.350000023841858
+      ],
+      "to": [
+        0.0,
+        0.7731127738952637,
+        0.5
+      ],
+      "clear": false,
+      "hit": "Continuous bespoke approach landing",
+      "hit_location": [
+        0.0,
+        0.7731127738952637,
+        1.0049999952316284
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "floor_threshold_0.5731127628794802": {
+      "from": [
+        0.0,
+        0.5731127858161926,
+        1.350000023841858
+      ],
+      "to": [
+        0.0,
+        0.5731127858161926,
+        0.5
+      ],
+      "clear": false,
+      "hit": "DAVM small waiting shelter floor",
+      "hit_location": [
+        0.0,
+        0.5731127858161926,
+        1.0299999713897705
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "access_link_0.25": {
+      "from": [
+        4.050000190734863,
+        4.263912677764893,
+        1.254958987236023
+      ],
+      "to": [
+        4.050000190734863,
+        -4.91768741607666,
+        1.214040994644165
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.5": {
+      "from": [
+        4.050000190734863,
+        4.263912677764893,
+        1.504958987236023
+      ],
+      "to": [
+        4.050000190734863,
+        -4.91768741607666,
+        1.464040994644165
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.9": {
+      "from": [
+        4.050000190734863,
+        4.263912677764893,
+        1.904958963394165
+      ],
+      "to": [
+        4.050000190734863,
+        -4.91768741607666,
+        1.8640409708023071
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_1.3": {
+      "from": [
+        4.050000190734863,
+        4.263912677764893,
+        2.3049590587615967
+      ],
+      "to": [
+        4.050000190734863,
+        -4.91768741607666,
+        2.264040946960449
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_1.7": {
+      "from": [
+        4.050000190734863,
+        4.263912677764893,
+        2.704958915710449
+      ],
+      "to": [
+        4.050000190734863,
+        -4.91768741607666,
+        2.664041042327881
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_access_0": {
+      "from": [
+        4.050000190734863,
+        4.263912677764893,
+        1.2049590349197388
+      ],
+      "to": [
+        4.050000190734863,
+        4.263912677764893,
+        0.704958975315094
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        4.263912677764893,
+        1.004958987236023
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_1": {
+      "from": [
+        4.050000190734863,
+        3.3531126976013184,
+        1.2009000778198242
+      ],
+      "to": [
+        4.050000190734863,
+        3.3531126976013184,
+        0.7009000182151794
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        3.3531126976013184,
+        1.0009000301361084
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_2": {
+      "from": [
+        4.050000190734863,
+        2.433112859725952,
+        1.1967999935150146
+      ],
+      "to": [
+        4.050000190734863,
+        2.433112859725952,
+        0.6967999339103699
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        2.433112859725952,
+        0.9967999458312988
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_3": {
+      "from": [
+        4.050000190734863,
+        1.5131127834320068,
+        1.1927000284194946
+      ],
+      "to": [
+        4.050000190734863,
+        1.5131127834320068,
+        0.6926999688148499
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        1.5131127834320068,
+        0.9926999807357788
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_4": {
+      "from": [
+        4.050000190734863,
+        0.5931127667427063,
+        1.188599944114685
+      ],
+      "to": [
+        4.050000190734863,
+        0.5931127667427063,
+        0.6885999441146851
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        0.5931127667427063,
+        0.9886000156402588
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_5": {
+      "from": [
+        4.050000190734863,
+        -0.32688724994659424,
+        1.184499979019165
+      ],
+      "to": [
+        4.050000190734863,
+        -0.32688724994659424,
+        0.684499979019165
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        -0.32688724994659424,
+        0.984499990940094
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_6": {
+      "from": [
+        4.050000190734863,
+        -1.24688720703125,
+        1.180400013923645
+      ],
+      "to": [
+        4.050000190734863,
+        -1.24688720703125,
+        0.6803999543190002
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        -1.24688720703125,
+        0.9803999662399292
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_7": {
+      "from": [
+        4.050000190734863,
+        -2.1668872833251953,
+        1.176300048828125
+      ],
+      "to": [
+        4.050000190734863,
+        -2.1668872833251953,
+        0.6762999892234802
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        -2.1668872833251953,
+        0.9763000011444092
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_8": {
+      "from": [
+        4.050000190734863,
+        -3.0868871212005615,
+        1.1721999645233154
+      ],
+      "to": [
+        4.050000190734863,
+        -3.0868871212005615,
+        0.6721999645233154
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        -3.0868871212005615,
+        0.9721999764442444
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_9": {
+      "from": [
+        4.050000190734863,
+        -4.006887435913086,
+        1.1680999994277954
+      ],
+      "to": [
+        4.050000190734863,
+        -4.006887435913086,
+        0.6680999398231506
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        -4.006887435913086,
+        0.9680999517440796
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "floor_access_10": {
+      "from": [
+        4.050000190734863,
+        -4.91768741607666,
+        1.1640410423278809
+      ],
+      "to": [
+        4.050000190734863,
+        -4.91768741607666,
+        0.6640409827232361
+      ],
+      "clear": false,
+      "hit": "DAVM reconstructed approach link",
+      "hit_location": [
+        4.050000190734863,
+        -4.91768741607666,
+        0.964040994644165
+      ],
+      "hit_normal": [
+        0.0,
+        0.004456478636711836,
+        -0.9999901056289673
+      ]
+    },
+    "central_public_entry_0.25_lateral-0.3": {
+      "from": [
+        -0.30000001192092896,
+        4.673112869262695,
+        1.274999976158142
+      ],
+      "to": [
+        -0.30000001192092896,
+        -3.126887321472168,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.25_lateral0.3": {
+      "from": [
+        0.30000001192092896,
+        4.673112869262695,
+        1.274999976158142
+      ],
+      "to": [
+        0.30000001192092896,
+        -3.126887321472168,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.5_lateral-0.3": {
+      "from": [
+        -0.30000001192092896,
+        4.673112869262695,
+        1.524999976158142
+      ],
+      "to": [
+        -0.30000001192092896,
+        -3.126887321472168,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.5_lateral0.3": {
+      "from": [
+        0.30000001192092896,
+        4.673112869262695,
+        1.524999976158142
+      ],
+      "to": [
+        0.30000001192092896,
+        -3.126887321472168,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.9_lateral-0.3": {
+      "from": [
+        -0.30000001192092896,
+        4.673112869262695,
+        1.9249999523162842
+      ],
+      "to": [
+        -0.30000001192092896,
+        -3.126887321472168,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_0.9_lateral0.3": {
+      "from": [
+        0.30000001192092896,
+        4.673112869262695,
+        1.9249999523162842
+      ],
+      "to": [
+        0.30000001192092896,
+        -3.126887321472168,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_1.3_lateral-0.3": {
+      "from": [
+        -0.30000001192092896,
+        4.673112869262695,
+        2.325000047683716
+      ],
+      "to": [
+        -0.30000001192092896,
+        -3.126887321472168,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_1.3_lateral0.3": {
+      "from": [
+        0.30000001192092896,
+        4.673112869262695,
+        2.325000047683716
+      ],
+      "to": [
+        0.30000001192092896,
+        -3.126887321472168,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_1.7_lateral-0.3": {
+      "from": [
+        -0.30000001192092896,
+        4.673112869262695,
+        2.7249999046325684
+      ],
+      "to": [
+        -0.30000001192092896,
+        -3.126887321472168,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_public_entry_1.7_lateral0.3": {
+      "from": [
+        0.30000001192092896,
+        4.673112869262695,
+        2.7249999046325684
+      ],
+      "to": [
+        0.30000001192092896,
+        -3.126887321472168,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.25_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        4.673112869262695,
+        1.274999976158142
+      ],
+      "to": [
+        -2.575000047683716,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.25_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        4.673112869262695,
+        1.274999976158142
+      ],
+      "to": [
+        -1.975000023841858,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.5_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        4.673112869262695,
+        1.524999976158142
+      ],
+      "to": [
+        -2.575000047683716,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.5_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        4.673112869262695,
+        1.524999976158142
+      ],
+      "to": [
+        -1.975000023841858,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.9_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        4.673112869262695,
+        1.9249999523162842
+      ],
+      "to": [
+        -2.575000047683716,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_0.9_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        4.673112869262695,
+        1.9249999523162842
+      ],
+      "to": [
+        -1.975000023841858,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_1.3_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        4.673112869262695,
+        2.325000047683716
+      ],
+      "to": [
+        -2.575000047683716,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_1.3_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        4.673112869262695,
+        2.325000047683716
+      ],
+      "to": [
+        -1.975000023841858,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_1.7_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        4.673112869262695,
+        2.7249999046325684
+      ],
+      "to": [
+        -2.575000047683716,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda_1.7_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        4.673112869262695,
+        2.7249999046325684
+      ],
+      "to": [
+        -1.975000023841858,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.25_lateral-0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.1731128692626953,
+        1.274999976158142
+      ],
+      "to": [
+        0.0,
+        2.1731128692626953,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.25_lateral0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.7731127738952637,
+        1.274999976158142
+      ],
+      "to": [
+        0.0,
+        2.7731127738952637,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.5_lateral-0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.1731128692626953,
+        1.524999976158142
+      ],
+      "to": [
+        0.0,
+        2.1731128692626953,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.5_lateral0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.7731127738952637,
+        1.524999976158142
+      ],
+      "to": [
+        0.0,
+        2.7731127738952637,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.9_lateral-0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.1731128692626953,
+        1.9249999523162842
+      ],
+      "to": [
+        0.0,
+        2.1731128692626953,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_0.9_lateral0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.7731127738952637,
+        1.9249999523162842
+      ],
+      "to": [
+        0.0,
+        2.7731127738952637,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_1.3_lateral-0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.1731128692626953,
+        2.325000047683716
+      ],
+      "to": [
+        0.0,
+        2.1731128692626953,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_1.3_lateral0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.7731127738952637,
+        2.325000047683716
+      ],
+      "to": [
+        0.0,
+        2.7731127738952637,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_1.7_lateral-0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.1731128692626953,
+        2.7249999046325684
+      ],
+      "to": [
+        0.0,
+        2.1731128692626953,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry_1.7_lateral0.3": {
+      "from": [
+        -2.2750000953674316,
+        2.7731127738952637,
+        2.7249999046325684
+      ],
+      "to": [
+        0.0,
+        2.7731127738952637,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.25_lateral-0.3": {
+      "from": [
+        3.75,
+        3.7731127738952637,
+        1.274999976158142
+      ],
+      "to": [
+        3.75,
+        -4.726887226104736,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.25_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        3.7731127738952637,
+        1.274999976158142
+      ],
+      "to": [
+        4.349999904632568,
+        -4.726887226104736,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.5_lateral-0.3": {
+      "from": [
+        3.75,
+        3.7731127738952637,
+        1.524999976158142
+      ],
+      "to": [
+        3.75,
+        -4.726887226104736,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.5_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        3.7731127738952637,
+        1.524999976158142
+      ],
+      "to": [
+        4.349999904632568,
+        -4.726887226104736,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.9_lateral-0.3": {
+      "from": [
+        3.75,
+        3.7731127738952637,
+        1.9249999523162842
+      ],
+      "to": [
+        3.75,
+        -4.726887226104736,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_0.9_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        3.7731127738952637,
+        1.9249999523162842
+      ],
+      "to": [
+        4.349999904632568,
+        -4.726887226104736,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_1.3_lateral-0.3": {
+      "from": [
+        3.75,
+        3.7731127738952637,
+        2.325000047683716
+      ],
+      "to": [
+        3.75,
+        -4.726887226104736,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_1.3_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        3.7731127738952637,
+        2.325000047683716
+      ],
+      "to": [
+        4.349999904632568,
+        -4.726887226104736,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_1.7_lateral-0.3": {
+      "from": [
+        3.75,
+        3.7731127738952637,
+        2.7249999046325684
+      ],
+      "to": [
+        3.75,
+        -4.726887226104736,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "external_platform_approach_1.7_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        3.7731127738952637,
+        2.7249999046325684
+      ],
+      "to": [
+        4.349999904632568,
+        -4.726887226104736,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.25_lateral-0.3": {
+      "from": [
+        0.0,
+        1.8731127977371216,
+        1.274999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        1.8731127977371216,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.25_lateral0.3": {
+      "from": [
+        0.0,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        2.4731128215789795,
+        1.274999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.5_lateral-0.3": {
+      "from": [
+        0.0,
+        1.8731127977371216,
+        1.524999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        1.8731127977371216,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.5_lateral0.3": {
+      "from": [
+        0.0,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "to": [
+        4.050000190734863,
+        2.4731128215789795,
+        1.524999976158142
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.9_lateral-0.3": {
+      "from": [
+        0.0,
+        1.8731127977371216,
+        1.9249999523162842
+      ],
+      "to": [
+        4.050000190734863,
+        1.8731127977371216,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_0.9_lateral0.3": {
+      "from": [
+        0.0,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "to": [
+        4.050000190734863,
+        2.4731128215789795,
+        1.9249999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_1.3_lateral-0.3": {
+      "from": [
+        0.0,
+        1.8731127977371216,
+        2.325000047683716
+      ],
+      "to": [
+        4.050000190734863,
+        1.8731127977371216,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_1.3_lateral0.3": {
+      "from": [
+        0.0,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "to": [
+        4.050000190734863,
+        2.4731128215789795,
+        2.325000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_1.7_lateral-0.3": {
+      "from": [
+        0.0,
+        1.8731127977371216,
+        2.7249999046325684
+      ],
+      "to": [
+        4.050000190734863,
+        1.8731127977371216,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_external_approach_1.7_lateral0.3": {
+      "from": [
+        0.0,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "to": [
+        4.050000190734863,
+        2.4731128215789795,
+        2.7249999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.25_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        15.973113059997559,
+        0.13862499594688416
+      ],
+      "to": [
+        -2.575000047683716,
+        4.373112678527832,
+        1.245460033416748
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.25_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        15.973113059997559,
+        0.13862499594688416
+      ],
+      "to": [
+        -1.975000023841858,
+        4.373112678527832,
+        1.245460033416748
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.5_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        15.973113059997559,
+        0.38862499594688416
+      ],
+      "to": [
+        -2.575000047683716,
+        4.373112678527832,
+        1.495460033416748
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.5_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        15.973113059997559,
+        0.38862499594688416
+      ],
+      "to": [
+        -1.975000023841858,
+        4.373112678527832,
+        1.495460033416748
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.9_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        15.973113059997559,
+        0.7886250019073486
+      ],
+      "to": [
+        -2.575000047683716,
+        4.373112678527832,
+        1.8954600095748901
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.9_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        15.973113059997559,
+        0.7886250019073486
+      ],
+      "to": [
+        -1.975000023841858,
+        4.373112678527832,
+        1.8954600095748901
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.3_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        15.973113059997559,
+        1.1886249780654907
+      ],
+      "to": [
+        -2.575000047683716,
+        4.373112678527832,
+        2.2954599857330322
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.3_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        15.973113059997559,
+        1.1886249780654907
+      ],
+      "to": [
+        -1.975000023841858,
+        4.373112678527832,
+        2.2954599857330322
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7_lateral-0.3": {
+      "from": [
+        -2.575000047683716,
+        15.973113059997559,
+        1.5886249542236328
+      ],
+      "to": [
+        -2.575000047683716,
+        4.373112678527832,
+        2.695460081100464
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7_lateral0.3": {
+      "from": [
+        -1.975000023841858,
+        15.973113059997559,
+        1.5886249542236328
+      ],
+      "to": [
+        -1.975000023841858,
+        4.373112678527832,
+        2.695460081100464
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.25_lateral-0.3": {
+      "from": [
+        3.75,
+        4.263912677764893,
+        1.254958987236023
+      ],
+      "to": [
+        3.75,
+        -4.91768741607666,
+        1.214040994644165
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.25_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        4.263912677764893,
+        1.254958987236023
+      ],
+      "to": [
+        4.349999904632568,
+        -4.91768741607666,
+        1.214040994644165
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.5_lateral-0.3": {
+      "from": [
+        3.75,
+        4.263912677764893,
+        1.504958987236023
+      ],
+      "to": [
+        3.75,
+        -4.91768741607666,
+        1.464040994644165
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.5_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        4.263912677764893,
+        1.504958987236023
+      ],
+      "to": [
+        4.349999904632568,
+        -4.91768741607666,
+        1.464040994644165
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.9_lateral-0.3": {
+      "from": [
+        3.75,
+        4.263912677764893,
+        1.904958963394165
+      ],
+      "to": [
+        3.75,
+        -4.91768741607666,
+        1.8640409708023071
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_0.9_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        4.263912677764893,
+        1.904958963394165
+      ],
+      "to": [
+        4.349999904632568,
+        -4.91768741607666,
+        1.8640409708023071
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_1.3_lateral-0.3": {
+      "from": [
+        3.75,
+        4.263912677764893,
+        2.3049590587615967
+      ],
+      "to": [
+        3.75,
+        -4.91768741607666,
+        2.264040946960449
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_1.3_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        4.263912677764893,
+        2.3049590587615967
+      ],
+      "to": [
+        4.349999904632568,
+        -4.91768741607666,
+        2.264040946960449
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_1.7_lateral-0.3": {
+      "from": [
+        3.75,
+        4.263912677764893,
+        2.704958915710449
+      ],
+      "to": [
+        3.75,
+        -4.91768741607666,
+        2.664041042327881
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "access_link_1.7_lateral0.3": {
+      "from": [
+        4.349999904632568,
+        4.263912677764893,
+        2.704958915710449
+      ],
+      "to": [
+        4.349999904632568,
+        -4.91768741607666,
+        2.664041042327881
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5"
+}

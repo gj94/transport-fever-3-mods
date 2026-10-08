@@ -1,0 +1,30 @@
+{
+  "file": "renders/03_Platform_and_tracks.png",
+  "camera": "03_Platform_and_tracks",
+  "source_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "image_sha256": "ab83d7bd6834c8fc60576bb33db43ccce5d0f04e9defea4a57e1560352063f49",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 62.87,
+  "samples": 48,
+  "denoising": false,
+  "os_peak_rss_kib": 1895920,
+  "renderer_script_sha256": "ac2facc132ecf3057641fd6293073bb62ddfc61d4ee6a415de2e24399a63b6e6",
+  "camera_override": {
+    "reason": "Read-only camera moved along/trackward to clear the near canopy pier and show all three bridge approaches; scene geometry unchanged.",
+    "position": [
+      18.0,
+      -14.0,
+      4.199999809265137
+    ],
+    "rotation": [
+      1.5682719945907593,
+      1.3703136403364624e-09,
+      -0.07580383867025375
+    ],
+    "lens_mm": 28
+  },
+  "resolution": [
+    1280,
+    854
+  ]
+}

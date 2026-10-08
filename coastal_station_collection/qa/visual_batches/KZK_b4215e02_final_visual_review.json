@@ -1,0 +1,63 @@
+{
+  "station": "KZK",
+  "reviewed_utc": "2026-10-08T22:47:43.086888+00:00",
+  "status": "five_view_visual_source_complete_pass",
+  "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+  "frames": {
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "8bc04acf6116026365d938efa557b41add85c18b68faec498771c6ba15432c57",
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "3c6c0750f416bb14b3e7578aedc2fa76bf42faf306db9aef14e347b7e41eb408",
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "119b85a17b3e3223ff75ed7a266f9205b7522fa3e0963e49355c92dbb7cbc491",
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "KZK_b4215e02_partial_visual_review.json"
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "ea9a4e624c9fa2352be4a8efcad2f4c9e69654f1da36bfbcaf162a4f57784da1",
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "targeted_detail_pixels_inspected": true,
+      "prior_review_report": "KZK_b4215e02_partial_visual_review.json"
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "773a52808c68ca179f846c6da9b0026503894632ab6af61541e1ec6b1d863e4b",
+      "source_scene_sha256": "079c09ba6bbc813903e792b40e8c8c62edf56a5245c59c48a25bba5976179cd8",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "prior_review_report": "KZK_079c09ba_partial_visual_review.json",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "inheritance_basis": "Only approach-side entry louvers and shade changed, outside recorded camera frustum"
+    }
+  },
+  "sources": [],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/KZK_TVP_final_details_2247.jpg",
+  "prior_review_reports": [
+    "KZK_b4215e02_partial_visual_review.json",
+    "KZK_079c09ba_partial_visual_review.json"
+  ],
+  "observations": [
+    "Final03/04 are coherent: platform/track perspective and close reconstructed booking counters are readable without material obstruction.",
+    "Prior revised01/02 exact source/entry-detail pass retained; no further louver/rainshade geometry request.",
+    "Exact prior05 pointwork image retained with final-scene unchanged-view lineage. Complete five-view visual coverage."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

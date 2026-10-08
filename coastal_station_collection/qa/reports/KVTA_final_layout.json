@@ -1,0 +1,30 @@
+{
+  "station": "KVTA",
+  "blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "plan_sha256": "3b2f30c4e7ebad86e66d87af67a36e156c2d496e5e71580dfb9372b3f7636268",
+  "platform_railcenter_min_m": [
+    2.0500000000000007,
+    2.5117635270133154
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 14.67026376874871,
+  "enclosed_building_platform_overlap_m2": 0.0,
+  "motor_slab_platform_overlap_m2": [],
+  "motor_slab_railcenter_min_m": [],
+  "flights": [
+    {
+      "name": "bridge_head_body1_offset0",
+      "outside_platform_m2": 0.0
+    },
+    {
+      "name": "bridge_head_body2_offset0",
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": 2,
+  "modelled_bodies": 2,
+  "gauge_m": 1.676
+}

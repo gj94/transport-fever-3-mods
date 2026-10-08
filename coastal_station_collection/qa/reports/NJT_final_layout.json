@@ -1,0 +1,31 @@
+{
+  "station": "NJT",
+  "layout_sha256": "dea918637de666f6e32c5f997c29c6dc14445d205c6a646fd085da6879279a36",
+  "platform_mesh_sha256": "d5b20a2c0c6391f3fcabc8d6f6badcf9a7e6aff978484d6cd1cda12189be2fb9",
+  "platforms": [
+    {
+      "id": "383031394",
+      "valid": true,
+      "area_m2": 6291.98932336305,
+      "railcenter_min_m": 1.7999993661971416,
+      "intrusion_inside_1_8m_m2": 2.1041188100054044e-05
+    },
+    {
+      "id": "1180712996",
+      "valid": true,
+      "area_m2": 8499.312616512716,
+      "railcenter_min_m": 1.799999869545774,
+      "intrusion_inside_1_8m_m2": 5.841944643556621e-06
+    }
+  ],
+  "building_railcenter_min_m": 11.747792689052138,
+  "reported_faces": "3",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "256080322",
+    "1180712994",
+    "NJT_satellite_third_platform_road"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

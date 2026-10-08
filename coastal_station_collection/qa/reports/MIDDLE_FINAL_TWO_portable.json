@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip!EVA_coastal_station_colour_v02.glb",
+    "bytes": 45494920,
+    "errors": [],
+    "warnings": [],
+    "sha256": "7b19a443f7121031dd9cb5201025852407c949e9bc8e590bcab84da09a3f989f",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 45494920
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 135768
+      },
+      {
+        "type": 5130562,
+        "bytes": 45359124
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 187,
+    "mesh_count": 187,
+    "primitive_count": 190,
+    "vertex_reference_count": 1530717,
+    "accessor_count": 486,
+    "validated_accessor_count": 486,
+    "material_count": 25,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073",
+    "container_bytes": 5957192
+  },
+  {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/PVU_coastal_station_colour_v02.glb.zip!PVU_coastal_station_colour_v02.glb",
+    "bytes": 70459812,
+    "errors": [],
+    "warnings": [],
+    "sha256": "979a5b2799cc8378a9be0c0933b8bfbbafad607b0c3d707852f56ea249739d56",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 70459812
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 174200
+      },
+      {
+        "type": 5130562,
+        "bytes": 70285584
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 247,
+    "mesh_count": 247,
+    "primitive_count": 247,
+    "vertex_reference_count": 2379920,
+    "accessor_count": 620,
+    "validated_accessor_count": 620,
+    "material_count": 28,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "512094476bcb30f0ae3041f30a8d565b0c2fa668d6b6e023ef6c84331f6f171c",
+    "container_bytes": 9120895
+  }
+]

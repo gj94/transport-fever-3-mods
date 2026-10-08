@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "station_code": "VAK",
+  "source_blend": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_03/vak/VAK_coastal_station_v01.blend",
+  "source_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+  "extracted_utc": "2026-10-08T22:33:30.139665+00:00",
+  "source_blend_unchanged": true,
+  "materials": {
+    "Asphalt forecourt": {
+      "diffuse_rgba": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 1
+    },
+    "Blue corrugated platform sheet": {
+      "diffuse_rgba": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 4
+    },
+    "Blue tinted glazing": {
+      "diffuse_rgba": [
+        0.07000000029802322,
+        0.1899999976158142,
+        0.2199999988079071,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.07000000029802322,
+        0.1899999976158142,
+        0.2199999988079071,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.07000000029802322,
+        0.1899999976158142,
+        0.2199999988079071,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 3
+    },
+    "Chalk white masonry": {
+      "diffuse_rgba": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 20
+    },
+    "Coconut palm leaves": {
+      "diffuse_rgba": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 2
+    },
+    "Crushed granite ballast": {
+      "diffuse_rgba": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 1
+    },
+    "Dark green painted piers": {
+      "diffuse_rgba": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 5
+    },
+    "Dark iron and rubber": {
+      "diffuse_rgba": [
+        0.03500000014901161,
+        0.04500000178813934,
+        0.04500000178813934,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.03500000014901161,
+        0.04500000178813934,
+        0.04500000178813934,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.03500000014901161,
+        0.04500000178813934,
+        0.04500000178813934,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 26
+    },
+    "Faded cream limewash": {
+      "diffuse_rgba": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 10
+    },
+    "Fluorescent diffusers": {
+      "diffuse_rgba": [
+        0.8600000143051147,
+        0.9100000262260437,
+        0.7900000214576721,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.8600000143051147,
+        0.9100000262260437,
+        0.7900000214576721,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.8600000143051147,
+        0.9100000262260437,
+        0.7900000214576721,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 2
+    },
+    "Galvanised canopy underside": {
+      "diffuse_rgba": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 1
+    },
+    "Galvanised structural steel": {
+      "diffuse_rgba": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 49
+    },
+    "Generated bilingual station lettering": {
+      "diffuse_rgba": [
+        0.9399999976158142,
+        0.6600000262260437,
+        0.05000000074505806,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.9399999976158142,
+        0.6600000262260437,
+        0.05000000074505806,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.9399999976158142,
+        0.6600000262260437,
+        0.05000000074505806,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeTexImage",
+          "node_name": "Image Texture",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 4
+    },
+    "Institutional cobalt lower band": {
+      "diffuse_rgba": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 10
+    },
+    "Oxide red masonry and tile": {
+      "diffuse_rgba": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 12
+    },
+    "Oxidised rail web": {
+      "diffuse_rgba": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 4
+    },
+    "Palm bark": {
+      "diffuse_rgba": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 2
+    },
+    "Polished steel running heads": {
+      "diffuse_rgba": [
+        0.5099999904632568,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.5099999904632568,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.5099999904632568,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 2
+    },
+    "Precast concrete sleepers": {
+      "diffuse_rgba": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 12
+    },
+    "Printed paper": {
+      "diffuse_rgba": [
+        0.7799999713897705,
+        0.7799999713897705,
+        0.6899999976158142,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.7799999713897705,
+        0.7799999713897705,
+        0.6899999976158142,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.7799999713897705,
+        0.7799999713897705,
+        0.6899999976158142,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 4
+    },
+    "Railway enamel yellow": {
+      "diffuse_rgba": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 2
+    },
+    "Small red platform pavers": {
+      "diffuse_rgba": [
+        0.4099999964237213,
+        0.1550000011920929,
+        0.08500000089406967,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.4099999964237213,
+        0.1550000011920929,
+        0.08500000089406967,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.4099999964237213,
+        0.1550000011920929,
+        0.08500000089406967,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeTexBrick",
+          "node_name": "Brick Texture",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 2
+    },
+    "Terrazzo public room floor": {
+      "diffuse_rgba": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 4
+    },
+    "Tropical groundcover": {
+      "diffuse_rgba": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 1
+    },
+    "Varkala pavilion warm yellow ochre cap": {
+      "diffuse_rgba": [
+        0.7400000095367432,
+        0.5,
+        0.1599999964237213,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.7400000095367432,
+        0.5,
+        0.1599999964237213,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.7400000095367432,
+        0.5,
+        0.1599999964237213,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 4
+    },
+    "Warm station ochre": {
+      "diffuse_rgba": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 13
+    },
+    "Weathered timber": {
+      "diffuse_rgba": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ],
+      "principled_base_rgba": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ],
+      "intended_base_rgba": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ],
+      "diffuse_matches_principled": true,
+      "intended_verified": true,
+      "used_by_object_count": 14
+    }
+  }
+}

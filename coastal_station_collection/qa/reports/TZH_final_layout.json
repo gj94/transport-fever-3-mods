@@ -1,0 +1,30 @@
+{
+  "station": "TZH",
+  "blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+  "plan_sha256": "372a9be86f58edf0757fe3d333f6c2769059d4ea5652ebd747965feddf0e7fa4",
+  "platform_railcenter_min_m": [
+    2.0500000000000007,
+    2.049999999999998
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 7.748268235691187,
+  "enclosed_building_platform_overlap_m2": 0.11023770611599416,
+  "motor_slab_platform_overlap_m2": [],
+  "motor_slab_railcenter_min_m": [],
+  "flights": [
+    {
+      "name": "bridge_head_body1_offset0",
+      "outside_platform_m2": 0.0
+    },
+    {
+      "name": "bridge_head_body2_offset0",
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": 2,
+  "modelled_bodies": 2,
+  "gauge_m": 1.676
+}

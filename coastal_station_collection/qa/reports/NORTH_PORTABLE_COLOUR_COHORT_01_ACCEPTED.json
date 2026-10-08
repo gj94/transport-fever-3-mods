@@ -1,0 +1,320 @@
+{
+  "status": "accepted",
+  "scope": "Additive portable RGB revisions only; each station still requires its separate original native/gallery/geometric gate.",
+  "cohort_manifest": "north/portable_colour_revision_02/COHORT_2243.json",
+  "cohort_manifest_sha256": "3d7249ed84951b9bc7051cd1c4c9073f83708667a8556c0b3c91cfd6aafb8b4d",
+  "station_count": 18,
+  "export_count": 19,
+  "validator_sha256": "51b131ac7e34c1cd490065add62998354130c0aaf1c743b25fb54c1516f74db0",
+  "controls": "qa/reports/material_revision_validator_controls.json",
+  "checks": [
+    "Every original, retained and new frozen file hash/size checked.",
+    "Exact unchanged packed-source palette bound and normalized values verified.",
+    "All non-JSON bytes, geometry/node/resource tables, existing factors/textures and alpha semantics preserved.",
+    "TNU remains two separately isolated single-scene exports,16 historic nodes and37 corridor nodes."
+  ],
+  "limitations": [
+    "Solid base-color fallbacks approximate procedural Blender appearance.",
+    "A color pass does not certify the underlying station layout or current operation."
+  ],
+  "stations": [
+    {
+      "station": "ALLP",
+      "source_blend_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "original_manifest_sha256": "24231eefeaec42aeada19c35bd560962e660fe6c9409c2eb79658f961892fbdf",
+      "revision_manifest": "north/portable_colour_revision_02/ALLP/MANIFEST.json",
+      "revision_manifest_sha256": "c89c0ebc9e7bebebd0d738229d293a076b2de9cd633e37a989e1f11fa6b40495",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/ALLP/ALLP_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "eea087e14303cb16768b70bf8905d29d96425f9ccad7eeb10788f513facf0ea5",
+          "glb_sha256": "9643c3386887f681cf82925a894bc1747ee30a45f573ea675f10cb52cfc0270e",
+          "independent_report": "qa/reports/ALLP_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "AMPA",
+      "source_blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "original_manifest_sha256": "0de8c3dc1105614b15cd138501e722797be4918826df1ebb5183b015a0fb46e4",
+      "revision_manifest": "north/portable_colour_revision_02/AMPA/MANIFEST.json",
+      "revision_manifest_sha256": "e41bfeeaf45af8cb61ffc596dc617fd74353aad11608e1bbc9ba8e68028b742a",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/AMPA/AMPA_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "0bb669fb42aa40482b22767118fa7c957265117f44309c580ff0dd7f6d8b2cce",
+          "glb_sha256": "7eb73fcb15c0bec79ca0777e1e167d98aad19473b3d211865fabb08855b98fc5",
+          "independent_report": "qa/reports/AMPA_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "AROR",
+      "source_blend_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+      "original_manifest_sha256": "ee20cef3d5c7e3b5debc2f5905c3fca745b1c621e952d3ac0e4cb66fc73d8241",
+      "revision_manifest": "north/portable_colour_revision_02/AROR/MANIFEST.json",
+      "revision_manifest_sha256": "9d3e0cdcc1d92200f2a6ac2884b993482840148c03c519b1059d99caf2425ef2",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/AROR/AROR_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "de12057e3f6b7e82c57cfaa61a06fd78836cf12aabb61c6a0a2c9226b61465c6",
+          "glb_sha256": "fc11679a210ae3dfa402c5c87cf37d891a733086fd58f2f03cb63faa6e1817ee",
+          "independent_report": "qa/reports/AROR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "EZP",
+      "source_blend_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "original_manifest_sha256": "c561eb8520907ef8e35fe3b2c0e0dbf0c4c325509cea4751e293e24010a032d5",
+      "revision_manifest": "north/portable_colour_revision_02/EZP/MANIFEST.json",
+      "revision_manifest_sha256": "3bb2a61b3cd31e116b564b992cbf565273707467eac80bbb3220c04181007ab1",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/EZP/EZP_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "37c709f5d735e01671636e7c3d558fcda20084cd7198dc18e67d7297b4fd10a3",
+          "glb_sha256": "2a68a24bf55553244c708fc53ab504a326e279a9237dfba94f54af6001e8297c",
+          "independent_report": "qa/reports/EZP_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "HAD",
+      "source_blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8",
+      "original_manifest_sha256": "ba21ca7b007beaa30e6d954a88b2f3464f1df0873e1a6674efec1bf892efeab0",
+      "revision_manifest": "north/portable_colour_revision_02/HAD/MANIFEST.json",
+      "revision_manifest_sha256": "0d3e9e40db0f6a75479c53ad847c909cdd47539fcf224ae1f79c394fca483c29",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/HAD/HAD_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "1fe3f8db1c6a0787497d8478dfee4fcdb7deda8a42c3e6e426788ac3e941f08d",
+          "glb_sha256": "0ad77a5b6d0ce2e8eb7779e99974247112c0779d199cdb6bb8ef6309c7e5b238",
+          "independent_report": "qa/reports/HAD_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "KAVR",
+      "source_blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+      "original_manifest_sha256": "b2c4b1a9c7597f991ddae96c9be01584be930f5e43735d0b18c950ffba3517f5",
+      "revision_manifest": "north/portable_colour_revision_02/KAVR/MANIFEST.json",
+      "revision_manifest_sha256": "0e0834267b964a60b5caa9fd2d9020c63702cc340d49d33e62a2a4e882956477",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KAVR/KAVR_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "856253a9be409b1838c8fedca58e5366f304a47e52bf7f8e2d8014c5fb70b496",
+          "glb_sha256": "7777b0278e89e2df2a4f42efe41b5ea88a3885439b2689a28432fd0b522f5d98",
+          "independent_report": "qa/reports/KAVR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "KUMM",
+      "source_blend_sha256": "8489168b583adf58e5438bf620432014cc8c7b84a5a23c8110e6ca3634581a90",
+      "original_manifest_sha256": "f044942470f13c6d1428bdd1861bc7ff84fe124f2bf89cb29d1e20c74d3c3bb5",
+      "revision_manifest": "north/portable_colour_revision_02/KUMM/MANIFEST.json",
+      "revision_manifest_sha256": "c1e77c3e9c3cddde284c6117e1f190834117aa832c1efb591a63c8258c509d99",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KUMM/KUMM_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "c6ed2c196f9bd520f942f647cb9252e9ab95dfb96a0683cafa5ec21d5d007c5d",
+          "glb_sha256": "88f89f7fb29e031044d204bb1c581f5546076bee94b6c0bf45cbe4ad072eeb65",
+          "independent_report": "qa/reports/KUMM_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "KVTA",
+      "source_blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "original_manifest_sha256": "e1a40376f654fd5fc51bac99abe5f68352ca90a0c7074682f8764ede06ed589f",
+      "revision_manifest": "north/portable_colour_revision_02/KVTA/MANIFEST.json",
+      "revision_manifest_sha256": "95f1b1b7fc572b1825a75af1ab2626efae499018348d3a47a85cfffde3b0c42d",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KVTA/KVTA_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "2bb51be0f6ab7a30a31c543879aaba31f2ee8216f79e04552be25dbe06a6ac89",
+          "glb_sha256": "6cb2ed3e2b1204746e791317c0145688512701ce0e4047a39c663721416c77fd",
+          "independent_report": "qa/reports/KVTA_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "KYJ",
+      "source_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "original_manifest_sha256": "b3916b201228f806cbb041dd92ea5cb45c771e9180c5eeb2e39f8c974e7e635f",
+      "revision_manifest": "north/portable_colour_revision_02/KYJ/MANIFEST.json",
+      "revision_manifest_sha256": "47a917028d270ad14501fb5ed95d702064867301ebe1abd59bc00e1ce80769eb",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65",
+          "glb_sha256": "bbf647b34e97ac6d6fd1cd65ab5a8bf43a560e548b2b049c2105f42399341ec9",
+          "independent_report": "qa/reports/KYJ_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "MAKM",
+      "source_blend_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "original_manifest_sha256": "fc2ca7d8cac18f4d4c86386831fec93188324e43b372ce10bde6ba5ec9df2948",
+      "revision_manifest": "north/portable_colour_revision_02/MAKM/MANIFEST.json",
+      "revision_manifest_sha256": "ed5d1f79847a78659ed9c07eb4df2b6cface21b711564df1279c2406d459f53f",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/MAKM/MAKM_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "e261093282d7bbdde0092b9ffd9de8e137b11bb3f011475376642886194d1987",
+          "glb_sha256": "4e35a50856bafa8add00432b9ae8a5ef5bdf1a8e96a4f45a00a23495249a49ed",
+          "independent_report": "qa/reports/MAKM_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "PNPR",
+      "source_blend_sha256": "ad4677ebf936fd27ae3552954ed887c05e76659707e8af275e9a19320800576b",
+      "original_manifest_sha256": "2aa76cf21237becd1b6ae8643a1efbd61558518111305323caecca08e59a2696",
+      "revision_manifest": "north/portable_colour_revision_02/PNPR/MANIFEST.json",
+      "revision_manifest_sha256": "e48dcf370a27a6669829ba30de1ab959cd2925b926c847a64912f203d23a3523",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/PNPR/PNPR_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "e52b5924ca1fee7fede9962a8ee3cfc618c10a23b781f38c29987e55d4c050f5",
+          "glb_sha256": "1cd28bf0807328e3fd857de785d5c9faea09d74da74950dc8665b0c8343ee9f6",
+          "independent_report": "qa/reports/PNPR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "SRTL",
+      "source_blend_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "original_manifest_sha256": "0e1f8974c23fdfdc0dd93e4d26ef17a8cff0ced4ee10911031506626205eee93",
+      "revision_manifest": "north/portable_colour_revision_02/SRTL/MANIFEST.json",
+      "revision_manifest_sha256": "b0735240d98d9533f80ea4d160613e515c832a7a5183cf8cfc1acdf2cf6d0e49",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/SRTL/SRTL_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "293b396b31e19c1fddd6cee4be99803827ddbeba7c79ea3de0b977dbfae76b45",
+          "glb_sha256": "2bcd045c07d2d60f7f2582e53351d0232422fa105f57b2915216e12b9c2404ea",
+          "independent_report": "qa/reports/SRTL_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "TMPY",
+      "source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "original_manifest_sha256": "ffa0ca7f76d5096489baaa7b6d74166ff2a22a00ab930526cdba445a6c46109d",
+      "revision_manifest": "north/portable_colour_revision_02/TMPY/MANIFEST.json",
+      "revision_manifest_sha256": "e9acca08ff44e62d876fe901b20077b6fba7d84ac7fb7733403a37ea17dcddd0",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TMPY/TMPY_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "f4806b4e2fb0461a85b9dca71aeebb37ea174c9e6c67e54dfbc87d2d0f6e838e",
+          "glb_sha256": "2da5a35d70a8ffae6a3d8f82452946964ed6e4bad187561f15c7f1323cc64018",
+          "independent_report": "qa/reports/TMPY_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "TNU",
+      "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "original_manifest_sha256": "b433e13a88ee52b2063a92dcbcce2be864d7ed80e7f6a4f2439c2a49e20f2d36",
+      "revision_manifest": "north/portable_colour_revision_02/TNU/MANIFEST.json",
+      "revision_manifest_sha256": "ddfb0dcb652327e3cc1087f2407fb5ab57153f509de2b44027c6f3533a6ca7bb",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_colour_v02.glb.zip",
+          "zip_sha256": "9fb778cc59d0f92d45b007de7b3615f08797c877529f2abf463a61221a250036",
+          "glb_sha256": "1f7d002c7f30ca62cbf114fcd17c24d9295e8d8cf5030d29c661c967daf01c4e",
+          "independent_report": "qa/reports/TNU_portable_colour_revision_02_0.json",
+          "isolated_scene": "HISTORIC_2016_BUILDING__UNPLACED",
+          "node_count": 16
+        },
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_colour_v02.glb.zip",
+          "zip_sha256": "0ee29a1ffb2e4e4f1a658ed59868ca064f4c83fd50c4e2634b24cbcf8f1d5976",
+          "glb_sha256": "7372bccba8ee677496f8eb276c11393a70b4c768f1c03dae13dd1d0f390bd95f",
+          "independent_report": "qa/reports/TNU_portable_colour_revision_02_1.json",
+          "isolated_scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+          "node_count": 37
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "TRVZ",
+      "source_blend_sha256": "06755a8328a171ffd24c1f66a33723359edd4aebfd8a37a552d6b839293519aa",
+      "original_manifest_sha256": "a39a4bceb3608d848efa45e30cd0c3f6e08b20a0bfe43876b5cd17afddb96372",
+      "revision_manifest": "north/portable_colour_revision_02/TRVZ/MANIFEST.json",
+      "revision_manifest_sha256": "aebc23e0135d10bfd167f55cc653a16bdd9026c00c46a8912aa34c1178c86ba6",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TRVZ/TRVZ_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "955e2c7632c5b9ecec22b6aba5fd3b7affb8242399d5098d2950812920003f6d",
+          "glb_sha256": "f4a24a7d2ef740be2763455bb8a5f4db4362b44ca754dc1161dbf9083275753d",
+          "independent_report": "qa/reports/TRVZ_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "TUVR",
+      "source_blend_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+      "original_manifest_sha256": "c5532d327e8c7f8dc0824f90abab3210df7bca641289c6ab95c19ee5b3bf497b",
+      "revision_manifest": "north/portable_colour_revision_02/TUVR/MANIFEST.json",
+      "revision_manifest_sha256": "d9884e397b979e06267f0f4d927450b6caaeaf8d747ecf7c90205f002281a448",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TUVR/TUVR_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "59c424b7912f8d100d181d383224cd19fee988e65894cdd72d5de2044b879bc3",
+          "glb_sha256": "db627dcb835a695e7ec5d57d41aad43c329522275e3e29190851e49b6760535c",
+          "independent_report": "qa/reports/TUVR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "TZH",
+      "source_blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "original_manifest_sha256": "3238e34013364884ed17277adec3302317986711d2c26cf0861bd6908e080315",
+      "revision_manifest": "north/portable_colour_revision_02/TZH/MANIFEST.json",
+      "revision_manifest_sha256": "1e3395b6866f12c53331e92bb49a0bf1b3b9d93b20b7dc72f2605fff828e2f5f",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "994a8ad5143c86d48cfbcf8290295a42cfaa9d3a1b510ed2754bde81e72ec0e8",
+          "glb_sha256": "f45e5ca5fdb010c19f142f9687804536977ad780b545f6754510b1803215a210",
+          "independent_report": "qa/reports/TZH_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    },
+    {
+      "station": "VAY",
+      "source_blend_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "original_manifest_sha256": "b6f4241fc33f6b3ba08878b2cfef80519a136218b2fbecc228cc1a87f9918c06",
+      "revision_manifest": "north/portable_colour_revision_02/VAY/MANIFEST.json",
+      "revision_manifest_sha256": "aed3692471779a77366d2a17ac9e9d8d559044d44f2ace97ae9af9f497f70478",
+      "exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/VAY/VAY_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "d6684ae8a181c82f250a61a7969c8d8ce3c8f2cad3febbd85bb43d0ae005f6c6",
+          "glb_sha256": "6ea55768606f92f1dfecab8571bc8b053a07b4e9e35c06e29393caaf367112aa",
+          "independent_report": "qa/reports/VAY_portable_colour_revision_02_0.json"
+        }
+      ],
+      "status": "portable_colour_revision_accepted"
+    }
+  ]
+}

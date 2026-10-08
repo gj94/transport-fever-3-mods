@@ -1,0 +1,32 @@
+{
+  "station": "KZT",
+  "layout_sha256": "7af590c6a75f8cc11b9314d575c606e779cc3b5f3b54c7ea77c9038a1688e014",
+  "platform_mesh_sha256": "bf8e38f86c64dc2003b556056f4027c2ba44d8bf291d44813eac6bfaf73ec7a9",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 3517.4163050620296,
+      "railcenter_min_m": 1.9999994983229699,
+      "intrusion_inside_1_8m_m2": 0.0
+    },
+    {
+      "id": "RECONSTRUCTED_PLATFORM_2",
+      "valid": true,
+      "area_m2": 2752.0647328577684,
+      "railcenter_min_m": 1.7999999289652386,
+      "intrusion_inside_1_8m_m2": 7.25224648449676e-07
+    }
+  ],
+  "building_railcenter_min_m": 8.711296484656623,
+  "reported_faces": "2",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "146626681",
+    "547434724",
+    "642058771",
+    "642058772"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

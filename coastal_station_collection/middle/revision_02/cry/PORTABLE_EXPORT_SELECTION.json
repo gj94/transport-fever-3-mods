@@ -1,0 +1,46 @@
+{
+  "station": "CRY",
+  "publication_mode": "first_main_native_and_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/cry/CRY_coastal_station_v01.blend",
+  "source_blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/cry/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "45abefa95eeab63f850bae80b90a97775c5f80409fccaab46d5272319f5f2799",
+  "native_gate_path": "coastal_station_collection/qa/reports/CRY.json",
+  "native_gate_sha256": "379457c59c02630d81adb87e501c59c4263d4aee8d6e989c4149c23eb7ba23e4",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/CRY/CRY_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "db929c9b44afb85be93c3a7e58eb71af2923fe5f3f07883b1f82ea61be5e02d9",
+  "corrected_glb_sha256": "3f25fa317b283f986de30f401f9efbf03ecf35422da7b2237f9470114ca68890",
+  "superseded_archive_sha256": "39fb113ecfae422810cd09652d30a31a451ca5de8a4c5566a04f83b68f362731",
+  "superseded_archive_disposition": "Excluded from first main; supplied solely in optional historical-only manifest.",
+  "retained_images": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "sha256": "4bfb0b90bd367e43d03d059798cb2814d01fd6e94b9e29f29e67e09c75657ad9",
+      "source_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "sha256": "9585dc32d1032cfb2a808a79718286144e0643ddb2246facc473a613107268db",
+      "source_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "sha256": "50149944c99010ebfe3298d9ccc6d20b77512f936438c8148bb4d531e24a2254",
+      "source_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    }
+  ],
+  "limitations": [
+    "Visual reconstruction, not a survey, current operating inventory or engineering certification.",
+    "Unseen room details, precise dimensions and service assignments remain reconstructed and disclosed.",
+    "Targeted paths/support samples do not exhaustively certify every pairwise collision.",
+    "Portable colors approximate procedural Blender shading; procedural noise/bump is not baked."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

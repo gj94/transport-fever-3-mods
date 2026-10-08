@@ -1,0 +1,54 @@
+{
+  "station": "VAK",
+  "reviewed_utc": "2026-10-08T22:04:37.811445+00:00",
+  "status": "complete_five_view_visual_source_pass",
+  "source_scene_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+  "frames": {
+    "03_platform_track_details.png": {
+      "image_sha256": "4e29b59dfd4bd7df127ca1c27a8449b59244d4b969505fe0981acc144ce78522",
+      "source_scene_sha256": "9bdbda1968e9105290c4520a693c5d2d737571064dd76de6628552098e501d56",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retention_reason": "Camera03 looks away from the corrected building area, from x\u221230 toward x\u2212110; outdoor subjects in this view are unchanged."
+    },
+    "01_full_mapped_layout.png": {
+      "image_sha256": "2b8bc9ba7c86ca23bf561698c9449d0408ecaba5b753219077c3e602dd5e1b9e",
+      "source_scene_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    },
+    "02_station_and_platforms.png": {
+      "image_sha256": "eec0423d7541a5b2031d75c4f40088a38da925b29a753258e817130ea4a4f49f",
+      "source_scene_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "fe9f5685e1cdf4adeea6687f46f21746792ceeaaec808d6fa907b169880077ee",
+      "source_scene_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "b1bb767e23c8893651aaf5ba1ecc75ad94387cc9bd2a783a1d0360918e4ae1f0",
+      "source_scene_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    }
+  },
+  "sources": [],
+  "prior_review_reports": [
+    "VAK_9bdbda19_final_visual_review.json"
+  ],
+  "observations": [
+    "Changed01/02/04 maintain the previously accepted source-shaped raised pavilion, capped roof and long ochre/red station architecture.",
+    "New05 has clear staff desk/chair, counter screens and public queuing lanes, with no visible external fixture assembly inside room and no apparent material collisions.",
+    "No material visual regression found after localized door/veranda support/fixture clearance repairs.",
+    "Exact accepted03 hash preserved from VAK_9bdbda19_final_visual_review.json; source comparisons and reconstruction limits continue unchanged."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed pixels reviewed; any unlisted view remains pending.",
+    "Source photographs guide visible architecture; unseen interior layout, dimensions and fixture positions remain disclosed reconstruction.",
+    "No operational track-use claim is made by visual acceptance. Technical auditor owns final geometry/export/resource/freeze acceptance."
+  ]
+}

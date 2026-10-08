@@ -1,0 +1,39 @@
+{
+  "station": "KZK",
+  "layout_sha256": "80a91057acfc93d78d60addde7639422a2f2e204209539500a9a670c486ce594",
+  "platform_mesh_sha256": "3af6bdbad71c49f8f8a218b10c27eca52ab555531b48162ebc77eba6f1e04a6d",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 3850.026968144741,
+      "railcenter_min_m": 1.9999996641524613,
+      "intrusion_inside_1_8m_m2": 0.0
+    },
+    {
+      "id": "RECONSTRUCTED_PLATFORM_2",
+      "valid": true,
+      "area_m2": 4175.772359328326,
+      "railcenter_min_m": 1.7999995758340663,
+      "intrusion_inside_1_8m_m2": 3.1786436849328945e-05
+    }
+  ],
+  "building_railcenter_min_m": 9.252782306112866,
+  "reported_faces": "3",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "90772767",
+    "98623852",
+    "98623876",
+    "98623887",
+    "608428982",
+    "641627329",
+    "641627331",
+    "641627334",
+    "641627336",
+    "641627338",
+    "641627339"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

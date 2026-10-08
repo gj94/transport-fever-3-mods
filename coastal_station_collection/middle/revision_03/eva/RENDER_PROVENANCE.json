@@ -1,0 +1,81 @@
+{
+  "station": "EVA",
+  "blend_file": "EVA_coastal_station_v01.blend",
+  "blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "camera_location": [
+        -25.0,
+        -12.0,
+        3.200000047683716
+      ],
+      "camera_rotation": [
+        1.5660344362258911,
+        -0.0,
+        0.0
+      ],
+      "sha256": "9b6180e0578afc7f4fa95685041fa8b2ab7f9166a2fc62d1e80bf44b19653bad",
+      "render_seconds": 22.181581020355225
+    },
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "623190e9a866c341aa19c5258ad714a2dedd5c5f0032834e938134dc127e771c",
+      "render_seconds": 16.964630603790283
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "camera_location": [
+        134.25865173339844,
+        -15.987532615661621,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "8248af4d0f4f4e2268870f923b0fe583774140e662f6442fcf1daf43ad2560c6",
+      "render_seconds": 20.662235736846924
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "camera_location": [
+        -39.2933349609375,
+        13.399999618530273,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.3026580810546875,
+        8.733554324180659e-08,
+        -1.3183462619781494
+      ],
+      "sha256": "b04bc85a6960773ae8eb001a118b93e20e4c08a1d027a8ebb0f3320ce63df0df",
+      "render_seconds": 27.43876552581787
+    }
+  ]
+}

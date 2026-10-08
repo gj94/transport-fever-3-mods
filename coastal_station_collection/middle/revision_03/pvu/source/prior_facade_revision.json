@@ -1,0 +1,45 @@
+{
+  "base_blend_sha256": "44677066bc27cfb41f74e15cb49d55714313d6ae8c34e39f1cde23dab51fc380",
+  "repaired_blend_sha256": "2a5a0b12dafabbed96c539f52b195f04f5d8186fcfe17ce4daa8089fdfac9844",
+  "repair_script_sha256": "ffc5a7905137fc2265d48b495b996beedcbae4fbdacac7718085a0d03fa0bfe2",
+  "reason": "PVU revision02 explicitly models the observed May2023 front window/transom, continuous blue-edged shade, yellow name panel and dark-red roof fascia. Building envelope, doors, rooms, tracks and platforms stay unchanged.",
+  "changes": [
+    {
+      "facade_additions": "Brown paired window mullions, blue transom/louvre bars, long off-white sunshade with blue edge, yellow name panel and dark-red roof fascia. Existing walls/openings/room layout/ramp unchanged."
+    }
+  ],
+  "camera04_before": {
+    "location": [
+      -18.299999237060547,
+      65.1500015258789,
+      10.017999649047852
+    ],
+    "rotation": [
+      1.4120711088180542,
+      2.85569097258076e-08,
+      -2.666581869125366
+    ],
+    "lens": 38.0
+  },
+  "camera04_after": {
+    "location": [
+      -14.0,
+      65.0,
+      5.800000190734863
+    ],
+    "rotation": [
+      1.5067918300628662,
+      5.35262145717752e-08,
+      -2.7670369148254395
+    ],
+    "lens": 32.0
+  },
+  "retained_views": [],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ],
+  "uncertainty": "Visible facade arrangement is photo-guided; dimensions and hidden room details remain reconstructed."
+}

@@ -1,0 +1,36 @@
+{
+  "station": "KFI",
+  "authoritative_blend": "KFI_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+  "glb_file": "KFI_coastal_station_v01.glb",
+  "glb_sha256": "d8b443644de9ce205eafadf72fa0068bd34aa41563d1ab520ec2bc92c9b3f540",
+  "glb_bytes": 35812712,
+  "source_mesh_objects": 176,
+  "source_vertices": 421580,
+  "elapsed_seconds": 0.8803200721740723,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "KFI_coastal_station_v01.glb.zip",
+  "zip_sha256": "bdabab680c66608f9cb2240159b344e75871e5c8dacefdd86f6a14220d915fc8",
+  "zip_bytes": 4771564,
+  "roundtrip_mesh_objects": 176,
+  "roundtrip_vertices": 1204742,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.549983978271484
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

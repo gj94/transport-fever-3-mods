@@ -1,0 +1,70 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_03/kfi/KFI_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 187,
+  "object_types": {
+    "MESH": 167,
+    "FONT": 9,
+    "LIGHT": 6,
+    "CAMERA": 5
+  },
+  "unique_meshes": 167,
+  "unique_vertices": 407264,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.549983978271484
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../kfi/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "KFI",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "2",
+    "platform_bodies_modelled": "2",
+    "canopy_revision": "KFIv02: source-observed rose sloping platform veranda gets visible thickness/fascia and corrected peach-pier tops. Facade camera04 now faces the photographed platform side.",
+    "base_blend_sha256": "e5c7c5504ed62f1e039714331f92bbb7a4320837289cd6b18b2a12061ad19ee9",
+    "proof_view_revision": "KFI revision03: camera04 clears the opposite platform canopy and faces the photographed rose veranda. Its high roof attachment/support tops are refined so the blue parapet accents remain visible above it; public circulation geometry is unchanged."
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd"
+}

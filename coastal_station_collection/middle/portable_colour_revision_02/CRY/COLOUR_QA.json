@@ -1,0 +1,803 @@
+{
+  "schema_version": 1,
+  "station_code": "CRY",
+  "status": "Material-only portable correction; independent acceptance pending",
+  "source_blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+  "source_export_zip": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_02/cry/export/CRY_coastal_station_v01.glb.zip",
+  "source_export_zip_sha256": "39fb113ecfae422810cd09652d30a31a451ca5de8a4c5566a04f83b68f362731",
+  "source_glb_sha256": "1e8a5cc13406019b2ecceeff0945230b648523d252c4a46d1743ac5cbf5fcb95",
+  "corrected_glb_sha256": "3f25fa317b283f986de30f401f9efbf03ecf35422da7b2237f9470114ca68890",
+  "corrected_glb_bytes": 46468780,
+  "zip_file": "CRY_coastal_station_colour_v02.glb.zip",
+  "zip_bytes": 5979316,
+  "zip_sha256": "db929c9b44afb85be93c3a7e58eb71af2923fe5f3f07883b1f82ea61be5e02d9",
+  "palette_sha256": "2caac4810d3c4ca09ca040dce0dbfff8a20eebe07196f914d183bd4afa63bab7",
+  "patch_script_sha256": "00ffd427cfb35692eb3d1936e4ae49916f82488e1036a31e042203a8dd8a8394",
+  "material_changes": [
+    {
+      "material_index": 0,
+      "material_name": "Crushed granite ballast",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 1,
+      "material_name": "Oxidised rail web",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 3,
+      "material_name": "Precast concrete sleepers",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 5,
+      "material_name": "Galvanised structural steel",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 6,
+      "material_name": "Small red platform pavers",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.4099999964237213,
+        0.1550000011920929,
+        0.08500000089406967,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.4099999964237213,
+        0.1550000011920929,
+        0.08500000089406967,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeTexBrick",
+          "node_name": "Brick Texture",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 7,
+      "material_name": "Chalk white masonry",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 8,
+      "material_name": "Warm station ochre",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 9,
+      "material_name": "Faded cream limewash",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 11,
+      "material_name": "Blue corrugated platform sheet",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 12,
+      "material_name": "Weathered timber",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 13,
+      "material_name": "Dark green painted piers",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 14,
+      "material_name": "Institutional cobalt lower band",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 16,
+      "material_name": "Railway enamel yellow",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 18,
+      "material_name": "Oxide red masonry and tile",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 19,
+      "material_name": "Terrazzo public room floor",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 21,
+      "material_name": "Faded salmon facade panels",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.550000011920929,
+        0.25,
+        0.18000000715255737,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.550000011920929,
+        0.25,
+        0.18000000715255737,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 22,
+      "material_name": "Galvanised canopy underside",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 23,
+      "material_name": "Tropical groundcover",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 24,
+      "material_name": "Backwater surface",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.0949999988079071,
+        0.2800000011920929,
+        0.30000001192092896,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.0949999988079071,
+        0.2800000011920929,
+        0.30000001192092896,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 25,
+      "material_name": "Laterite and tropical earth",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.25,
+        0.23499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.25,
+        0.23499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 26,
+      "material_name": "Asphalt forecourt",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 27,
+      "material_name": "Palm bark",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    },
+    {
+      "material_index": 28,
+      "material_name": "Coconut palm leaves",
+      "before_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "before_was_implicit_white": true,
+      "after_rgba": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ],
+      "source_choice": "Principled BSDF Base Color socket default",
+      "existing_alpha_preserved": true,
+      "source_palette_rgba": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ],
+      "base_colour_link_source": [
+        {
+          "node_type": "ShaderNodeValToRGB",
+          "node_name": "Color Ramp",
+          "output": "Color"
+        }
+      ]
+    }
+  ],
+  "texture_materials_preserved": [
+    {
+      "index": 2,
+      "name": "Polished steel running heads",
+      "reason": "Existing explicit base colour factor preserved"
+    },
+    {
+      "index": 4,
+      "name": "Dark iron and rubber",
+      "reason": "Existing explicit base colour factor preserved"
+    },
+    {
+      "index": 10,
+      "name": "Generated bilingual station lettering",
+      "reason": "Image texture and factor preserved"
+    },
+    {
+      "index": 15,
+      "name": "Fluorescent diffusers",
+      "reason": "Existing explicit base colour factor preserved"
+    },
+    {
+      "index": 17,
+      "name": "Printed paper",
+      "reason": "Existing explicit base colour factor preserved"
+    },
+    {
+      "index": 20,
+      "name": "Blue tinted glazing",
+      "reason": "Existing explicit base colour factor preserved"
+    }
+  ],
+  "before_materials_sha256": "25047bdbe71234f72425d629b617c73b3b524bb552af9c4c78eb3c9509a21802",
+  "after_materials_sha256": "b9e3fdba2705528fdb7240392fe9efb0e38788d7ae0e0aac521f9f22bfd155c0",
+  "non_colour_json_before_sha256": "9449817ed715659e7155c530c0b118dd8b6d3f38322696bec4235eced772d5b8",
+  "non_colour_json_after_sha256": "9449817ed715659e7155c530c0b118dd8b6d3f38322696bec4235eced772d5b8",
+  "geometry_node_texture_structure_before_sha256": "ac60f413ef8ac5c76b6211ae166f7723f05c2dc6d945205d17e8f09210321078",
+  "geometry_node_texture_structure_after_sha256": "ac60f413ef8ac5c76b6211ae166f7723f05c2dc6d945205d17e8f09210321078",
+  "binary_chunks": [
+    {
+      "type": 5130562,
+      "bytes": 46321488,
+      "before_sha256": "ca98bec110ca3f6db3e3a3be8f67ac74e25be1f4289fab3a121f8c827a541458",
+      "after_sha256": "ca98bec110ca3f6db3e3a3be8f67ac74e25be1f4289fab3a121f8c827a541458"
+    }
+  ],
+  "source_blend_and_old_export_unchanged": true,
+  "zip_lossless_verified": true,
+  "limitation": "Base colours are restored from exact Blend material settings. Procedural noise, paving and bump patterns remain native Blend features; geometry and embedded sign images are unchanged."
+}

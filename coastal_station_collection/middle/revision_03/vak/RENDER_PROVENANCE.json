@@ -1,0 +1,100 @@
+{
+  "station": "VAK",
+  "blend_file": "VAK_coastal_station_v01.blend",
+  "blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "9bdbda1968e9105290c4520a693c5d2d737571064dd76de6628552098e501d56",
+      "camera_location": [
+        -30.0,
+        -6.900000095367432,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.562449336051941,
+        1.1778959674302314e-07,
+        1.5445524454116821
+      ],
+      "sha256": "4e29b59dfd4bd7df127ca1c27a8449b59244d4b969505fe0981acc144ce78522",
+      "render_seconds": 27.565213441848755,
+      "retained_from_immutable_base": true,
+      "retention_reason": "Camera03 looks away from the corrected building area, from x\u221230 toward x\u2212110; outdoor subjects in this view are unchanged."
+    },
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "camera_location": [
+        -528.0,
+        -1140.0,
+        1235.0
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "2b8bc9ba7c86ca23bf561698c9449d0408ecaba5b753219077c3e602dd5e1b9e",
+      "render_seconds": 22.606811046600342
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "camera": "02_STATION_AND_PLATFORMS",
+      "source_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "camera_location": [
+        -75.9000015258789,
+        167.6999969482422,
+        125.0
+      ],
+      "camera_rotation": [
+        1.0867509841918945,
+        -4.1809158801697777e-08,
+        -2.4522833824157715
+      ],
+      "sha256": "eec0423d7541a5b2031d75c4f40088a38da925b29a753258e817130ea4a4f49f",
+      "render_seconds": 21.4879207611084
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "camera_location": [
+        16.100000381469727,
+        39.095001220703125,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4196608066558838,
+        2.784995167814941e-08,
+        -2.6914052963256836
+      ],
+      "sha256": "fe9f5685e1cdf4adeea6687f46f21746792ceeaaec808d6fa907b169880077ee",
+      "render_seconds": 28.47051167488098
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "camera_location": [
+        8.505999565124512,
+        -1.899999976158142,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.410831093788147,
+        1.1240048891636434e-08,
+        -1.4235889911651611
+      ],
+      "sha256": "b1bb767e23c8893651aaf5ba1ecc75ad94387cc9bd2a783a1d0360918e4ae1f0",
+      "render_seconds": 31.875003576278687
+    }
+  ]
+}

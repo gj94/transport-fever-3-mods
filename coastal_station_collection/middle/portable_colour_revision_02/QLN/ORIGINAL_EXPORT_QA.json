@@ -1,0 +1,36 @@
+{
+  "station": "QLN",
+  "authoritative_blend": "QLN_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234",
+  "glb_file": "QLN_coastal_station_v01.glb",
+  "glb_sha256": "a48ce2ba5d1557d70b346426d45fd7762e5f3a52afab450559683551287efb1b",
+  "glb_bytes": 194229764,
+  "source_mesh_objects": 321,
+  "source_vertices": 2273940,
+  "elapsed_seconds": 3.5073697566986084,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "QLN_coastal_station_v01.glb.zip",
+  "zip_sha256": "d138aa9d4273abfc32393463ac4705bb74b1b9987f7ccfd541032f8991ac8c18",
+  "zip_bytes": 24796695,
+  "roundtrip_mesh_objects": 321,
+  "roundtrip_vertices": 6527791,
+  "roundtrip_bounds_blender_m": [
+    [
+      -635.0,
+      -785.0,
+      -4.0
+    ],
+    [
+      1385.0,
+      225.0,
+      12.391302108764648
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

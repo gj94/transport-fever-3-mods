@@ -1,0 +1,318 @@
+{
+  "old_glb_sha256": "95607be4c55efab486c510c15ba4b805d03b02524c17e5504e1829959ba022ae",
+  "new_glb_sha256": "7777b0278e89e2df2a4f42efe41b5ea88a3885439b2689a28432fd0b522f5d98",
+  "changed_materials": [
+    {
+      "index": 0,
+      "name": "ballast",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.2800000011920929,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "railweb",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.25,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "sleeper",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "steel",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "red",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.46000000834465027,
+        0.10499999672174454,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "stone",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.5099999904632568,
+        0.5099999904632568,
+        0.4300000071525574,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "white",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.8500000238418579,
+        0.8700000047683716,
+        0.8299999833106995,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "yellow",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.9300000071525574,
+        0.6399999856948853,
+        0.05999999865889549,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "pavers",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.5,
+        0.25999999046325684,
+        0.1899999976158142,
+        1.0
+      ]
+    },
+    {
+      "index": 13,
+      "name": "roof",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.3700000047683716,
+        0.4000000059604645,
+        0.3700000047683716,
+        1.0
+      ]
+    },
+    {
+      "index": 15,
+      "name": "ivory",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.800000011920929,
+        0.7699999809265137,
+        0.6499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 17,
+      "name": "wood",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.27000001072883606,
+        0.12999999523162842,
+        0.05000000074505806,
+        1.0
+      ]
+    },
+    {
+      "index": 18,
+      "name": "blue",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.05999999865889549,
+        0.23000000417232513,
+        0.3499999940395355,
+        1.0
+      ]
+    },
+    {
+      "index": 19,
+      "name": "water",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.09000000357627869,
+        0.25,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "index": 20,
+      "name": "ground",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.2800000011920929,
+        0.3400000035762787,
+        0.17000000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 21,
+      "name": "road",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.12999999523162842,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ]
+    },
+    {
+      "index": 22,
+      "name": "leaflight",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.18000000715255737,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 23,
+      "name": "leaf",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.054999999701976776,
+        1.0
+      ]
+    }
+  ],
+  "binary_chunks": [
+    {
+      "type": 5130562,
+      "bytes": 28093092,
+      "unchanged_sha256": "53d00f66d3c57da7edb0dfcdabc4eb188f905f64f1d55d502c832bda3c172160"
+    }
+  ],
+  "binary_identical": true,
+  "all_non_colour_json_identical": true,
+  "alpha_semantics_unchanged": true,
+  "existing_factors_and_textures_unchanged": true,
+  "station_code": "KAVR",
+  "source_scene": null,
+  "source_blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+  "source_glb": "coastal_stations_overnight/north/KAVR/exports/KAVR_coastal_station_v01.glb",
+  "source_glb_bytes": 28142684,
+  "corrected_glb_bytes": 28144108,
+  "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/KAVR/KAVR_coastal_station_v01_colour_v02.glb.zip",
+  "zip_member": "KAVR_coastal_station_v01_colour_v02.glb",
+  "zip_sha256": "856253a9be409b1838c8fedca58e5366f304a47e52bf7f8e2d8014c5fb70b496",
+  "zip_bytes": 4101656,
+  "zip_lossless_verified": true,
+  "source_palette_sha256": "f9d718467e7910d6b3b5b8d390208063fd0e757053ae5aa7685a0c3391d2aa11",
+  "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+}

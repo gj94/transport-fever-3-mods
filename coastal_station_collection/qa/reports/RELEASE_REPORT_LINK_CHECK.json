@@ -1,0 +1,936 @@
+{
+  "checked_utc": "2026-10-08T23:12:46.729980+00:00",
+  "accepted_entry_count": 53,
+  "accepted_active_count": 52,
+  "closed_historical_count": 1,
+  "preview_count": 249,
+  "errors": [],
+  "status": "pass",
+  "stations": [
+    {
+      "station": "TNU",
+      "gate_report": "qa/reports/TNU.json",
+      "gate_report_sha256": "b662cdc3f9bf75d07b19cfedb231491a25ed6277cea0285deaaeca50ef33829a",
+      "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_colour_v02.glb.zip",
+          "zip_sha256": "9fb778cc59d0f92d45b007de7b3615f08797c877529f2abf463a61221a250036",
+          "glb_sha256": "1f7d002c7f30ca62cbf114fcd17c24d9295e8d8cf5030d29c661c967daf01c4e",
+          "independent_report": "qa/reports/TNU_portable_colour_revision_02_0.json",
+          "isolated_scene": "HISTORIC_2016_BUILDING__UNPLACED",
+          "node_count": 16
+        },
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_colour_v02.glb.zip",
+          "zip_sha256": "0ee29a1ffb2e4e4f1a658ed59868ca064f4c83fd50c4e2634b24cbcf8f1d5976",
+          "glb_sha256": "7372bccba8ee677496f8eb276c11393a70b4c768f1c03dae13dd1d0f390bd95f",
+          "independent_report": "qa/reports/TNU_portable_colour_revision_02_1.json",
+          "isolated_scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+          "node_count": 37
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KUMM",
+      "gate_report": "qa/reports/KUMM.json",
+      "gate_report_sha256": "c2a0fc5da229d8bcf6d8b42f2587932ec1973de307a892a90966702c17bfc2dd",
+      "source_blend_sha256": "8489168b583adf58e5438bf620432014cc8c7b84a5a23c8110e6ca3634581a90",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KUMM/KUMM_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "c6ed2c196f9bd520f942f647cb9252e9ab95dfb96a0683cafa5ec21d5d007c5d",
+          "glb_sha256": "88f89f7fb29e031044d204bb1c581f5546076bee94b6c0bf45cbe4ad072eeb65",
+          "independent_report": "qa/reports/KUMM_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "AROR",
+      "gate_report": "qa/reports/AROR.json",
+      "gate_report_sha256": "71415babf95be039fc14647b213d7dcac7a6207281d51fb2f88d9cbc3511f278",
+      "source_blend_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/AROR/AROR_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "de12057e3f6b7e82c57cfaa61a06fd78836cf12aabb61c6a0a2c9226b61465c6",
+          "glb_sha256": "fc11679a210ae3dfa402c5c87cf37d891a733086fd58f2f03cb63faa6e1817ee",
+          "independent_report": "qa/reports/AROR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "EZP",
+      "gate_report": "qa/reports/EZP.json",
+      "gate_report_sha256": "a0032700e9ed2ef4738939ca7a1fc435841d0a7bb13c53a0d01f2e6b4abe8cd5",
+      "source_blend_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/EZP/EZP_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "37c709f5d735e01671636e7c3d558fcda20084cd7198dc18e67d7297b4fd10a3",
+          "glb_sha256": "2a68a24bf55553244c708fc53ab504a326e279a9237dfba94f54af6001e8297c",
+          "independent_report": "qa/reports/EZP_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TUVR",
+      "gate_report": "qa/reports/TUVR.json",
+      "gate_report_sha256": "6233c972a1e9302d20e8861dad8ed4303d1017caad9cafcd89eeb2ef521ddb81",
+      "source_blend_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TUVR/TUVR_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "59c424b7912f8d100d181d383224cd19fee988e65894cdd72d5de2044b879bc3",
+          "glb_sha256": "db627dcb835a695e7ec5d57d41aad43c329522275e3e29190851e49b6760535c",
+          "independent_report": "qa/reports/TUVR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "VAY",
+      "gate_report": "qa/reports/VAY.json",
+      "gate_report_sha256": "d522086b2c268b2bffec71f000659559aa80713ec3e4adc56ae7f472bc6a854f",
+      "source_blend_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/VAY/VAY_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "d6684ae8a181c82f250a61a7969c8d8ce3c8f2cad3febbd85bb43d0ae005f6c6",
+          "glb_sha256": "6ea55768606f92f1dfecab8571bc8b053a07b4e9e35c06e29393caaf367112aa",
+          "independent_report": "qa/reports/VAY_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "SRTL",
+      "gate_report": "qa/reports/SRTL.json",
+      "gate_report_sha256": "da5697065cb0153804f579911ae37e27d5c943d9446c44f04793d3b36ea45afb",
+      "source_blend_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/SRTL/SRTL_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "293b396b31e19c1fddd6cee4be99803827ddbeba7c79ea3de0b977dbfae76b45",
+          "glb_sha256": "2bcd045c07d2d60f7f2582e53351d0232422fa105f57b2915216e12b9c2404ea",
+          "independent_report": "qa/reports/SRTL_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TRVZ",
+      "gate_report": "qa/reports/TRVZ.json",
+      "gate_report_sha256": "e894dce5cab8104c07b51e745cf7d900505e6ad12aa3363b2af0198a6800e20d",
+      "source_blend_sha256": "06755a8328a171ffd24c1f66a33723359edd4aebfd8a37a552d6b839293519aa",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TRVZ/TRVZ_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "955e2c7632c5b9ecec22b6aba5fd3b7affb8242399d5098d2950812920003f6d",
+          "glb_sha256": "f4a24a7d2ef740be2763455bb8a5f4db4362b44ca754dc1161dbf9083275753d",
+          "independent_report": "qa/reports/TRVZ_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "MAKM",
+      "gate_report": "qa/reports/MAKM.json",
+      "gate_report_sha256": "36aa0391e5a213680d69c783a0caabd67e91f85ab32cc93b7c9b7e1a76e65daf",
+      "source_blend_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/MAKM/MAKM_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "e261093282d7bbdde0092b9ffd9de8e137b11bb3f011475376642886194d1987",
+          "glb_sha256": "4e35a50856bafa8add00432b9ae8a5ef5bdf1a8e96a4f45a00a23495249a49ed",
+          "independent_report": "qa/reports/MAKM_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KAVR",
+      "gate_report": "qa/reports/KAVR.json",
+      "gate_report_sha256": "f6579620adbc9ae447770cc85061fde6cf81f9b95b1f127a6c702f593cb681ca",
+      "source_blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KAVR/KAVR_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "856253a9be409b1838c8fedca58e5366f304a47e52bf7f8e2d8014c5fb70b496",
+          "glb_sha256": "7777b0278e89e2df2a4f42efe41b5ea88a3885439b2689a28432fd0b522f5d98",
+          "independent_report": "qa/reports/KAVR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TMPY",
+      "gate_report": "qa/reports/TMPY.json",
+      "gate_report_sha256": "60d670e26c2095c7a701fac910ef8d27a37d168b19f5452353bb95b6952ed366",
+      "source_blend_sha256": "f716300925f0b828388d225d94e3808d1cb8ae9e5fcb9fc950c0f084024f6561",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TMPY/TMPY_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "f4806b4e2fb0461a85b9dca71aeebb37ea174c9e6c67e54dfbc87d2d0f6e838e",
+          "glb_sha256": "2da5a35d70a8ffae6a3d8f82452946964ed6e4bad187561f15c7f1323cc64018",
+          "independent_report": "qa/reports/TMPY_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "ALLP",
+      "gate_report": "qa/reports/ALLP.json",
+      "gate_report_sha256": "b1a4e6b55622ac3cc0035c8d87841e2a5567e677db0ebdd13b8d18835b26d0ea",
+      "source_blend_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/ALLP/ALLP_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "eea087e14303cb16768b70bf8905d29d96425f9ccad7eeb10788f513facf0ea5",
+          "glb_sha256": "9643c3386887f681cf82925a894bc1747ee30a45f573ea675f10cb52cfc0270e",
+          "independent_report": "qa/reports/ALLP_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "PNPR",
+      "gate_report": "qa/reports/PNPR.json",
+      "gate_report_sha256": "615b4b32784e4482bc77504ff3949df66130da565de23f85da920e6c7bb234f2",
+      "source_blend_sha256": "ad4677ebf936fd27ae3552954ed887c05e76659707e8af275e9a19320800576b",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/PNPR/PNPR_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "e52b5924ca1fee7fede9962a8ee3cfc618c10a23b781f38c29987e55d4c050f5",
+          "glb_sha256": "1cd28bf0807328e3fd857de785d5c9faea09d74da74950dc8665b0c8343ee9f6",
+          "independent_report": "qa/reports/PNPR_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "AMPA",
+      "gate_report": "qa/reports/AMPA.json",
+      "gate_report_sha256": "43821cc950d2a2f7229c32586c53b7eb36f0961612dee04c8289c5e791b69239",
+      "source_blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/AMPA/AMPA_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "0bb669fb42aa40482b22767118fa7c957265117f44309c580ff0dd7f6d8b2cce",
+          "glb_sha256": "7eb73fcb15c0bec79ca0777e1e167d98aad19473b3d211865fabb08855b98fc5",
+          "independent_report": "qa/reports/AMPA_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TZH",
+      "gate_report": "qa/reports/TZH.json",
+      "gate_report_sha256": "38b7b72362f84defd3234bab14448ab6c526dbc33bc0d533fe7a00d34711e8e3",
+      "source_blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "994a8ad5143c86d48cfbcf8290295a42cfaa9d3a1b510ed2754bde81e72ec0e8",
+          "glb_sha256": "f45e5ca5fdb010c19f142f9687804536977ad780b545f6754510b1803215a210",
+          "independent_report": "qa/reports/TZH_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KVTA",
+      "gate_report": "qa/reports/KVTA.json",
+      "gate_report_sha256": "f8f554caa9748eaa47944848ec71ce3e061218d09f232a0c07f41826694cd7bd",
+      "source_blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KVTA/KVTA_coastal_station_v01_colour_v02.glb.zip",
+          "zip_sha256": "2bb51be0f6ab7a30a31c543879aaba31f2ee8216f79e04552be25dbe06a6ac89",
+          "glb_sha256": "6cb2ed3e2b1204746e791317c0145688512701ce0e4047a39c663721416c77fd",
+          "independent_report": "qa/reports/KVTA_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "HAD",
+      "gate_report": "qa/reports/HAD.json",
+      "gate_report_sha256": "b1b4da81cf6eb551ddd8d8e5677b9639beafa9c0dc241ecc57f5e50e616f5b90",
+      "source_blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/HAD/HAD_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "1fe3f8db1c6a0787497d8478dfee4fcdb7deda8a42c3e6e426788ac3e941f08d",
+          "glb_sha256": "0ad77a5b6d0ce2e8eb7779e99974247112c0779d199cdb6bb8ef6309c7e5b238",
+          "independent_report": "qa/reports/HAD_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "CHPD",
+      "gate_report": "qa/reports/CHPD.json",
+      "gate_report_sha256": "84dd9017e05a1c42250dc96f8b485f603233773351ea60ea5cec9bd90b26068a",
+      "source_blend_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_CHPD_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/CHPD/CHPD_coastal_station_v02_colour_v02.glb.zip",
+          "zip_sha256": "4cb5e6450f9a11427362820b50ebd349649c27cd0c8986b032cb62b5cf8d8f85",
+          "glb_sha256": "881bd5652453aa3cb17a7a7ab9d241d8b3e39d95a19a8f79f81cbdc8d206dff2",
+          "independent_report": "qa/reports/CHPD_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KYJ",
+      "gate_report": "qa/reports/KYJ.json",
+      "gate_report_sha256": "5cc8a511fbaf04c85212ddcee406080f8584f71b90fdc75c4df8dad7443fde72",
+      "source_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_colour_v02.glb.zip",
+          "zip_sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65",
+          "glb_sha256": "bbf647b34e97ac6d6fd1cd65ab5a8bf43a560e548b2b049c2105f42399341ec9",
+          "independent_report": "qa/reports/KYJ_portable_colour_revision_02_0.json"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "OCR",
+      "gate_report": "qa/reports/OCR.json",
+      "gate_report_sha256": "f12c32be631c78f951f850acea71633b5f37bd7376f9e3d68c66ede85b30919f",
+      "source_blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/OCR/OCR_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "47bad33b32a16c5d2d2fd041ee6779a6c1a4fae1b855a9a7d419c29f49f52e2e",
+          "glb_sha256": "6986cb362f10df643901dac8616b322409b743559227157ac595f0b8fcd225fe"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KPY",
+      "gate_report": "qa/reports/KPY.json",
+      "gate_report_sha256": "0100e76ddbf2fc80437670ea18a3167c798bc6c700c0c369303d589a4f12ad52",
+      "source_blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/KPY/KPY_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "a083969a998453fc7b8e3f66a86e0e31ef58890109f5e9c2d42c2dd80563881e",
+          "glb_sha256": "f05274ef187f5d70c8e41a627c0289ee1f0c8d365936e657584f7c19815cddf7"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "STKT",
+      "gate_report": "qa/reports/STKT.json",
+      "gate_report_sha256": "05a9f7ad2469f8152e29376f22bdb54b1b2c841f5e131bcf9bb41178bb9951c8",
+      "source_blend_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/STKT/STKT_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "aa343525a9764e3a2e310241f5b658090a2e395f919065e76585086a6dbf328b",
+          "glb_sha256": "352999069e770d0e6f1d7d61fddf064f573c5923001b56047bc3663ad60c1b3c"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "MQO",
+      "gate_report": "qa/reports/MQO_v02_ACCEPTED.json",
+      "gate_report_sha256": "b72ac22d5d849bd77701a42d786d1ba226ea1731a63adb559efb2e4c4ea7fd1b",
+      "source_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/MQO/MQO_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "b5b314f564fd2be4a0b7858908ea3deb00b661be0ca9f4679d7fb5ea63aa3c5e",
+          "glb_sha256": "eedd742831a9c3c64f80c1ad8378dc9e96763599c0bdb2726af439071662ed42"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "PRND",
+      "gate_report": "qa/reports/PRND.json",
+      "gate_report_sha256": "4fa8ab6e630fb612f5f508327918614a860c6c8366dfe17bfc08771bf5c4c973",
+      "source_blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/PRND/PRND_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "930093f43f2d3589ea53c7e7d6da506b3f889307b70263f2f93eb40833e8e239",
+          "glb_sha256": "dc86e9206ca6e5c38429a18d80cbaf2fbd149ea22e86cebac38e3104fd2d3277"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "QLN",
+      "gate_report": "qa/reports/QLN.json",
+      "gate_report_sha256": "76ca21360c75bf94d6cc3fbd67d877477cec28c4c273b9856c3b3e03840809dd",
+      "source_blend_sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/QLN/QLN_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "9dfbcbba2708054c161a5449a398d6a05c5528868a10bfbcc14ad765acc4414f",
+          "glb_sha256": "40b7910d0bb17f303429197e3ac47d41c1ccfedc20e0a05fa1c1bfbfa2e09099"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "IRP",
+      "gate_report": "qa/reports/IRP.json",
+      "gate_report_sha256": "83eec18a4c3cab29bb7338910fa08b46aeb59e12b25e090f66d09657b114c942",
+      "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/IRP/IRP_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "24de219c1ac33805912f84a1cf53eb6c075e62df667311527b783237786d59a9",
+          "glb_sha256": "bf32fee6565f0c6b051bd13b941a1bfe27ecbe57ac82b44970d10dd874fc8360"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "MYY",
+      "gate_report": "qa/reports/MYY.json",
+      "gate_report_sha256": "e88ecfb1f0b82a3c4f8d3c42f55520cd451c48a4f19ffd7c4babeff531e34899",
+      "source_blend_sha256": "47ccce54dd6324232869a3ce497b3e89cafc8d93d409d77f0832d059809adb27",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/MYY/MYY_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "753ce7a3db18a08fdec68eb77baa8e5a7a41b9604405e098c3dd0b2bc9b0f6c5",
+          "glb_sha256": "c11bda232db196b661fddfafd2ff0d1b80a5a1dcefe1c11f3338d89279ab5ce6"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "PVU",
+      "gate_report": "qa/reports/PVU.json",
+      "gate_report_sha256": "b9e1bcf31cf93dcbf31a8a4008b003eced0f74cb27403b9a83c5cea41f522ddd",
+      "source_blend_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_02_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/PVU_final/PVU_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "512094476bcb30f0ae3041f30a8d565b0c2fa668d6b6e023ef6c84331f6f171c",
+          "glb_sha256": "979a5b2799cc8378a9be0c0933b8bfbbafad607b0c3d707852f56ea249739d56"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KFI",
+      "gate_report": "qa/reports/KFI.json",
+      "gate_report_sha256": "1e2b2d3384025dcc13fbf5529888f7e557cba7b45800fc228ad8567e0e7b7a3e",
+      "source_blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/KFI/KFI_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "21eab2a71cfae0cbabcb6bb15067c0704135080f863dadb7faec7ee585d3e621",
+          "glb_sha256": "485ab934f56b5024ce25afbdbd22a5d087b8438967b05871ca4cf40ad6aa68f3"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "EVA",
+      "gate_report": "qa/reports/EVA.json",
+      "gate_report_sha256": "7c05c5b6d29b48d9c4914130f36c3b890c352c0b8728cffdc13732781b37436c",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_02_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073",
+          "glb_sha256": "7b19a443f7121031dd9cb5201025852407c949e9bc8e590bcab84da09a3f989f"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "VAK",
+      "gate_report": "qa/reports/VAK.json",
+      "gate_report_sha256": "6e0bb8f82181b31701eb7c6c17753c698fb82ef45d32d328de586ace154e7701",
+      "source_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/VAK/VAK_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "34049c5c1e459780976a965390662f4f2a67a5303338514b05f0d8569db51723",
+          "glb_sha256": "5adf4975aeaddafc59d2d696aa70455c79e498f96d73730aba1996c65e8c29ed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "AMY",
+      "gate_report": "qa/reports/AMY.json",
+      "gate_report_sha256": "661780b0cfee3ba0efcb8d0afa27ae58c93b4c864edec558515c2ae35ac570e8",
+      "source_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/AMY/AMY_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "52263beb6179b865fb0d1f576fd6009f7754b734d0441b9b12764f81e1b15b60",
+          "glb_sha256": "e8e380961a98a1eef5b1e4f4df272646f50eb987fae902112d001a147ea8e105"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KVU",
+      "gate_report": "qa/reports/KVU.json",
+      "gate_report_sha256": "952c358222f85198e0fe6aa98d98cdc42220483f52816bc6a288d384ad807d17",
+      "source_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/KVU/KVU_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "41992ff8b90174286cbf0c1af014c5acd96b95448f692b8e0bf9f02ddba0d256",
+          "glb_sha256": "c35b3015d3931885fae96c79b218507f83e234ffd928822ceb6f717d2b580299"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "CRY",
+      "gate_report": "qa/reports/CRY.json",
+      "gate_report_sha256": "379457c59c02630d81adb87e501c59c4263d4aee8d6e989c4149c23eb7ba23e4",
+      "source_blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+      "accepted_preview_count": 4,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "middle/portable_colour_revision_02/CRY/CRY_coastal_station_colour_v02.glb.zip",
+          "zip_sha256": "db929c9b44afb85be93c3a7e58eb71af2923fe5f3f07883b1f82ea61be5e02d9",
+          "glb_sha256": "3f25fa317b283f986de30f401f9efbf03ecf35422da7b2237f9470114ca68890"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "PGZ",
+      "gate_report": "qa/reports/PGZ.json",
+      "gate_report_sha256": "0dd239e87d656bd1ba9069dd2eaccde0c59329610f57f44f96348ad7841eaaa1",
+      "source_blend_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/PGZ/PGZ_portable_colour_v02.zip",
+          "zip_sha256": "99153381cca935183b018b2a0c4e5d03abcc9b9c2517a8e5efa72a8619bc12d3",
+          "glb_sha256": "7583b73ca4b4f04471498db4ebd9a51fa8a9def6f9c0aa2250d56341fe5137ed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "MQU",
+      "gate_report": "qa/reports/MQU.json",
+      "gate_report_sha256": "9767a8be684a5533b21069437da63c8a627b012e6c0791a32a9bebdd5dfc3bce",
+      "source_blend_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": null,
+      "current_exports": [
+        {
+          "glb_sha256": "6ce7873f85ee883b984b515279cca7f1006f267bacd5353c0d18b16d0583a787",
+          "zip_sha256": "8d9f2ed0b79100f96f36ec80b4bfb983f1814cbb552459d6c04a7e676a89f050"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KXP",
+      "gate_report": "qa/reports/KXP.json",
+      "gate_report_sha256": "be3bcdcb7f3f40adf5619e353bd1c29f0e6606c21db2c57740d63c78ba537ce6",
+      "source_blend_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/KXP/KXP_portable_colour_v02.zip",
+          "zip_sha256": "213019695567309365fc57ac8b8f1d4d8abdef06ff31d7caf55fe59e841d1631",
+          "glb_sha256": "b11c569aa4033fae061b3b339d968a164f1a0627a52d7aeb5ad7a0f3c3261799"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KZK",
+      "gate_report": "qa/reports/KZK.json",
+      "gate_report_sha256": "0b86dab2137651ed3af4c36eac9e25145a1a8ac75c658e7c66d187c1353c4394",
+      "source_blend_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": null,
+      "current_exports": [
+        {
+          "glb_sha256": "a51b3006958497a5ebcb7d3ae820887722d205f5c51333476ec5b9fb6ce30bdd",
+          "zip_sha256": "bef35f5574ee74ac31210876ffe300a58cf61f5d8220d81e5ba77917dc628a9a"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "VELI",
+      "gate_report": "qa/reports/VELI.json",
+      "gate_report_sha256": "c5c7c296b8d021305cb36c98a0cbb81ec05ea9469d00287b78c73972c51b2103",
+      "source_blend_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/VELI/VELI_portable_colour_v02.zip",
+          "zip_sha256": "dc1b3946cd39e31b64700768196b804fd9e7577498a91062151e49c3b92411e0",
+          "glb_sha256": "d4476b2178dfa2e9867eb0d1bf6b6c1d1ff99eea1a04d88adfed5a024839a72e"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TVCN",
+      "gate_report": "qa/reports/TVCN.json",
+      "gate_report_sha256": "a2400ce5d38ae10e98e1753d5085e84af97f52895a68d1f7f12c0342a91dac6d",
+      "source_blend_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/TVCN/TVCN_portable_colour_v02.zip",
+          "zip_sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f",
+          "glb_sha256": "fa7636cf568836d458f11c43283a4c5b6c48f62e290d4f898b5abf7f9beacfd0"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TVP",
+      "gate_report": "qa/reports/TVP.json",
+      "gate_report_sha256": "cbf1e72f2810137b6132cc50155c8363195217874c70e3331fdd742188cccc84",
+      "source_blend_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": null,
+      "current_exports": [
+        {
+          "glb_sha256": "13bafbbab66f56c5681789f5ba84d31325e2e56a035c8aaddff9ae03c44b63de",
+          "zip_sha256": "db080fb5946bb7c9840f035bd82d33135b8c652b047a16d5fbcaac17390673af"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "TVCS",
+      "gate_report": "qa/reports/TVCS.json",
+      "gate_report_sha256": "c0952301da6b915e01023832ab030ed979dc4f7e8eb3f1bc47c0ee17ba52472b",
+      "source_blend_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": null,
+      "current_exports": [
+        {
+          "glb_sha256": "85d7d3c71f2e795d291a7607dac3e76d583c610c26e52624bd5cf44a5d37b6ad",
+          "zip_sha256": "3f052d67055a7e083d4c153156cb642cd6611755389dc988a3692dbb2f39e129"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "BRAM",
+      "gate_report": "qa/reports/BRAM.json",
+      "gate_report_sha256": "f9b1111176e709103bb9ec7acb6875008200732173aee16cc14d0b568b1371c6",
+      "source_blend_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/BRAM/BRAM_portable_colour_v02.zip",
+          "zip_sha256": "7ad088a06d7cff5e9b35c2633711b2d1dfb55acd141e202ef355e08ada45363f",
+          "glb_sha256": "8cd92e051c49dc04904786abf90030279cd4bd02de559ab6204d2e07b905efc6"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "NYY",
+      "gate_report": "qa/reports/NYY.json",
+      "gate_report_sha256": "756a118e4bca0fa8c673b2396286c8bddbaba208570ecd8b8259d3459c6c7bbe",
+      "source_blend_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/NYY/NYY_portable_colour_v02.zip",
+          "zip_sha256": "cb3a1b4de467cb5fb702b2841e291f382dc3021731d805b92b635360ad38aadb",
+          "glb_sha256": "2f558dc5ed7d15dfbf39cb9d6b95d7e73879eaf6611c09d3f59ab778cbedd337"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "AMVA",
+      "gate_report": "qa/reports/AMVA.json",
+      "gate_report_sha256": "a2046bb92a107bd48f3ee10f9c1d19507d7df6cfc3aa11c37467eab5601280bf",
+      "source_blend_sha256": "d0fe50f13992587299c8495054f091d37a0ef3e8cb9e9fb2f71a364d496cbdce",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/AMVA/AMVA_portable_colour_v02.zip",
+          "zip_sha256": "e146ee370c25a6119cacd9140cc3d338bd6c7ec4722bb0d7ea394a8df7593ca3",
+          "glb_sha256": "0f14c14e26ac204ce82a89d1c9f7653000e5aa6b9488217225a4b953106f4d86"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "DAVM",
+      "gate_report": "qa/reports/DAVM.json",
+      "gate_report_sha256": "e28095ec219feea0889bf31a105efe07ccad879999fcec3891a8f1a355dbe30c",
+      "source_blend_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/DAVM/DAVM_portable_colour_v02.zip",
+          "zip_sha256": "6acbb4e0429dcee722b2408711dc6da8ff6d4ee1d971d4418534311d146affe9",
+          "glb_sha256": "012bfc9031c7ac1d0a114e1f50a29f85e8632ae0247dca5c05b8b7931a29d264"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "PASA",
+      "gate_report": "qa/reports/PASA.json",
+      "gate_report_sha256": "7bc8d07371a28083781914f89d46cfc04a6f842cb7c9a14a29ffef07f682de18",
+      "source_blend_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/PASA/PASA_portable_colour_v02.zip",
+          "zip_sha256": "da1d6dcde8456ff2033f1a297a70575a45b0d134f4ffd4afbc413f0fb85fbfd1",
+          "glb_sha256": "f9daaa2c55be7e3991dc4164634bd580117332086558b990d073bca90b6d7afd"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KZTW",
+      "gate_report": "qa/reports/KZTW.json",
+      "gate_report_sha256": "34481df7c9694669e7c143311df4e744b09d3042c4ccf03326b56f82c1770ade",
+      "source_blend_sha256": "424cf312e59b232f29e75ada4158fa39a4e1d37325da67d6ae4e1466fc3bc9bc",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/KZTW/KZTW_portable_colour_v02.zip",
+          "zip_sha256": "27122100c47a5be87efe577ed1ef942103d91bd0134a09e710d46c2b316a3fb1",
+          "glb_sha256": "a2af64001417f9e787980b655ca8cd2b020fcc204462b4acbd16f3cf383389fd"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "KZT",
+      "gate_report": "qa/reports/KZT.json",
+      "gate_report_sha256": "1a7a6a32a62cea02c63b08670c1ef7b22a8045899d8e2a85a4f77a9acfdb6465",
+      "source_blend_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": null,
+      "current_exports": [
+        {
+          "glb_sha256": "28ab0bd8c19664790341cb171fab6e3776f48e998a918f927e14db028dcff59a",
+          "zip_sha256": "58ff7b0c4b028ef5efc72b0cec496abfa3ed491dd42fa46565eece1bb2ea4c73"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "PYD",
+      "gate_report": "qa/reports/PYD.json",
+      "gate_report_sha256": "f012f9896c3c68987bdb619f923ceafedd390b6278f84a6d20b8eef1652fb6b0",
+      "source_blend_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/PYD/PYD_portable_colour_v02.zip",
+          "zip_sha256": "46a03696e4fb0c9cdf95734108ffbcdddab391644391782ee88e383699d2368c",
+          "glb_sha256": "b19f9caa0426cf77dc138e801fb1b231842f0a7715064d0ce65e297b9ba87c9d"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "ERL",
+      "gate_report": "qa/reports/ERL.json",
+      "gate_report_sha256": "53f7dc250ca59dc6d19be41639f6362e607d8248422a20e59ce2b2254f8c38a3",
+      "source_blend_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/ERL/ERL_portable_colour_v02.zip",
+          "zip_sha256": "02ef2d077d3f1267545b1cb5cedc6e7b34a884c41298e0878c4b7cf4321cf91c",
+          "glb_sha256": "551169f85dd1ab093567292528cd76162c5c1f1d9a61de6d1f0453c6e60574cc"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "VRLR",
+      "gate_report": "qa/reports/VRLR.json",
+      "gate_report_sha256": "7eff258a77e142dc81c3a083953afa45f556db1a5cd7845981a03094068f89ce",
+      "source_blend_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": "qa/reports/SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+      "current_exports": [
+        {
+          "corrected_zip": "south/portable_colour_revision_02/VRLR/VRLR_portable_colour_v02.zip",
+          "zip_sha256": "a2e646c4a0dcb341caa5a2b68c10efe04352437700fddf39031a9b4082603ff6",
+          "glb_sha256": "56f887b1267933ba514124a3e268000d1a872818e4cc58e88d21d7d253de6ff7"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "station": "NJT",
+      "gate_report": "qa/reports/NJT.json",
+      "gate_report_sha256": "e98e8f4310b16fdb781fed830a48b549caaf246a8eb4fa72bd8e530578fe85c4",
+      "source_blend_sha256": "8b62f545a193ac5eae81ce4366531655ac565e72887ac2e663287fa26c6c6290",
+      "accepted_preview_count": 5,
+      "current_portable_state": "accepted_current_palette",
+      "colour_acceptance": null,
+      "current_exports": [
+        {
+          "glb_sha256": "b494a3c44f3bd104135ca49c7c8d71284e9ee01a77a8016825e1816930e94d4b",
+          "zip_sha256": "64cf6715e19a8db03a9e22ee903e30a1a7839c49d721db51e63d716c0f835262"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "scope_note": "This checks release-record links, exact selected preview hashes and current corrected archive hashes. It preserves prior native gates and separately flags pending portable color addenda."
+}

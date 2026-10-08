@@ -1,0 +1,66 @@
+{
+  "source_plan_sha256": "372a9be86f58edf0757fe3d333f6c2769059d4ea5652ebd747965feddf0e7fa4",
+  "method": "Intersections of actual adopted OSM route railhead centerline offsets\u00b10.868m; shared-toe intersections within5m of mapped junction removed to isolate visible crossing noses. Not official switch design.",
+  "crossings": [
+    {
+      "ways": [
+        "619910178",
+        "1034621335"
+      ],
+      "sides": [
+        -1,
+        -1
+      ],
+      "xy": [
+        -13.268886376730313,
+        -375.78066078159793
+      ],
+      "nearest_junction_distance_m": 9999
+    },
+    {
+      "ways": [
+        "619910190",
+        "619910191"
+      ],
+      "sides": [
+        -1,
+        -1
+      ],
+      "xy": [
+        -20.13736250373969,
+        -374.73938156891506
+      ],
+      "nearest_junction_distance_m": 9999
+    },
+    {
+      "ways": [
+        "619910190",
+        "619980232"
+      ],
+      "sides": [
+        -1,
+        -1
+      ],
+      "xy": [
+        -19.97928203664985,
+        -415.9479260464642
+      ],
+      "nearest_junction_distance_m": 9999
+    },
+    {
+      "ways": [
+        "619980222",
+        "1034621335"
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "xy": [
+        -11.61534366645894,
+        -416.39867280082717
+      ],
+      "nearest_junction_distance_m": 9999
+    }
+  ]
+}

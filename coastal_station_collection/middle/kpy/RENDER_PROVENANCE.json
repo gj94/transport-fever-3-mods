@@ -1,0 +1,98 @@
+{
+  "station": "KPY",
+  "blend_file": "KPY_coastal_station_v01.blend",
+  "blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "camera_location": [
+        -48.0,
+        67.5,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4120711088180542,
+        2.85569097258076e-08,
+        -2.666581869125366
+      ],
+      "sha256": "9704e49f04de9a7f397cfc6ee2f14092496f17d214e37d4ae984a2a42d1790a4",
+      "render_seconds": 45.86669921875
+    },
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "camera_location": [
+        -842.0,
+        -1860.0,
+        2665.0
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "d5c64596f6372a4f711623bfa64b0a2fb5d6c2f1942b42b09e8fc2ecd12f1bb0",
+      "render_seconds": 41.67599153518677
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "camera": "02_STATION_AND_PLATFORMS",
+      "source_blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "camera_location": [
+        -140.0,
+        197.0,
+        125.0
+      ],
+      "camera_rotation": [
+        1.0867509841918945,
+        -4.1809158801697777e-08,
+        -2.4522833824157715
+      ],
+      "sha256": "e8715799e25aee78023697a986ebed234c34a30e15fd8649348c56734ccf5eae",
+      "render_seconds": 30.775106191635132
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "camera_location": [
+        19.5,
+        14.776167869567871,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607975721359253,
+        -7.58241256448855e-08,
+        1.558489441871643
+      ],
+      "sha256": "6c3ffd3fcb85e6caa4ad432cca6489fb711c89871efe40570c7d987e0ce2642d",
+      "render_seconds": 61.52129817008972
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+      "camera_location": [
+        -51.88666534423828,
+        27.399999618530273,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.3861311674118042,
+        1.0182013454596017e-07,
+        -1.4001572132110596
+      ],
+      "sha256": "94fdd98aba8a02ce3e851bde34627fd654f25fd44895893adc443820940ce6ec",
+      "render_seconds": 53.67500042915344
+    }
+  ]
+}

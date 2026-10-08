@@ -1,0 +1,491 @@
+{
+  "asset": "coastal_stations_overnight/middle/revision_02/prnd/export/PRND_coastal_station_v01.glb.zip",
+  "export_sha256": "75944a6bc3373e3e8d6082ef9c4530d6182676488729e1f3557851a0116de649",
+  "container_sha256": "c0e1c4909d421d4c3c424d65279f8206b614e1d5592b3508c0c408326dd71230",
+  "default_scene": "Scene",
+  "scene_count": 1,
+  "objects": 193,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "public_0.25_-0.25": {
+      "from": [
+        -8.25,
+        -7.8,
+        1.268
+      ],
+      "to": [
+        -8.25,
+        1.6,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.25_-0.25": {
+      "from": [
+        -19.142857,
+        -7.75,
+        1.268
+      ],
+      "to": [
+        -8.0,
+        -7.75,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.25_0": {
+      "from": [
+        -8.0,
+        -7.8,
+        1.268
+      ],
+      "to": [
+        -8.0,
+        1.6,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.25_0": {
+      "from": [
+        -19.142857,
+        -7.5,
+        1.268
+      ],
+      "to": [
+        -8.0,
+        -7.5,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.25_0.25": {
+      "from": [
+        -7.75,
+        -7.8,
+        1.268
+      ],
+      "to": [
+        -7.75,
+        1.6,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.25_0.25": {
+      "from": [
+        -19.142857,
+        -7.25,
+        1.268
+      ],
+      "to": [
+        -8.0,
+        -7.25,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.5_-0.25": {
+      "from": [
+        -8.25,
+        -7.8,
+        1.518
+      ],
+      "to": [
+        -8.25,
+        1.6,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.5_-0.25": {
+      "from": [
+        -19.142857,
+        -7.75,
+        1.518
+      ],
+      "to": [
+        -8.0,
+        -7.75,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.5_0": {
+      "from": [
+        -8.0,
+        -7.8,
+        1.518
+      ],
+      "to": [
+        -8.0,
+        1.6,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.5_0": {
+      "from": [
+        -19.142857,
+        -7.5,
+        1.518
+      ],
+      "to": [
+        -8.0,
+        -7.5,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.5_0.25": {
+      "from": [
+        -7.75,
+        -7.8,
+        1.518
+      ],
+      "to": [
+        -7.75,
+        1.6,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.5_0.25": {
+      "from": [
+        -19.142857,
+        -7.25,
+        1.518
+      ],
+      "to": [
+        -8.0,
+        -7.25,
+        1.518
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.9_-0.25": {
+      "from": [
+        -8.25,
+        -7.8,
+        1.9180000000000001
+      ],
+      "to": [
+        -8.25,
+        1.6,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.9_-0.25": {
+      "from": [
+        -19.142857,
+        -7.75,
+        1.9180000000000001
+      ],
+      "to": [
+        -8.0,
+        -7.75,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.9_0": {
+      "from": [
+        -8.0,
+        -7.8,
+        1.9180000000000001
+      ],
+      "to": [
+        -8.0,
+        1.6,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.9_0": {
+      "from": [
+        -19.142857,
+        -7.5,
+        1.9180000000000001
+      ],
+      "to": [
+        -8.0,
+        -7.5,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_0.9_0.25": {
+      "from": [
+        -7.75,
+        -7.8,
+        1.9180000000000001
+      ],
+      "to": [
+        -7.75,
+        1.6,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_0.9_0.25": {
+      "from": [
+        -19.142857,
+        -7.25,
+        1.9180000000000001
+      ],
+      "to": [
+        -8.0,
+        -7.25,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_1.3_-0.25": {
+      "from": [
+        -8.25,
+        -7.8,
+        2.318
+      ],
+      "to": [
+        -8.25,
+        1.6,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_1.3_-0.25": {
+      "from": [
+        -19.142857,
+        -7.75,
+        2.318
+      ],
+      "to": [
+        -8.0,
+        -7.75,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_1.3_0": {
+      "from": [
+        -8.0,
+        -7.8,
+        2.318
+      ],
+      "to": [
+        -8.0,
+        1.6,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_1.3_0": {
+      "from": [
+        -19.142857,
+        -7.5,
+        2.318
+      ],
+      "to": [
+        -8.0,
+        -7.5,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_1.3_0.25": {
+      "from": [
+        -7.75,
+        -7.8,
+        2.318
+      ],
+      "to": [
+        -7.75,
+        1.6,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_1.3_0.25": {
+      "from": [
+        -19.142857,
+        -7.25,
+        2.318
+      ],
+      "to": [
+        -8.0,
+        -7.25,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_1.7_-0.25": {
+      "from": [
+        -8.25,
+        -7.8,
+        2.718
+      ],
+      "to": [
+        -8.25,
+        1.6,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_1.7_-0.25": {
+      "from": [
+        -19.142857,
+        -7.75,
+        2.718
+      ],
+      "to": [
+        -8.0,
+        -7.75,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_1.7_0": {
+      "from": [
+        -8.0,
+        -7.8,
+        2.718
+      ],
+      "to": [
+        -8.0,
+        1.6,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_1.7_0": {
+      "from": [
+        -19.142857,
+        -7.5,
+        2.718
+      ],
+      "to": [
+        -8.0,
+        -7.5,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_1.7_0.25": {
+      "from": [
+        -7.75,
+        -7.8,
+        2.718
+      ],
+      "to": [
+        -7.75,
+        1.6,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "landing_1.7_0.25": {
+      "from": [
+        -19.142857,
+        -7.25,
+        2.718
+      ],
+      "to": [
+        -8.0,
+        -7.25,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "station": "VAK",
+  "adopted_sha256": "ef1339e6b284a000b504377d92bd46a675644077fab8779c79a30f432c5c568e",
+  "platform_railcenter_min_m": [
+    1.8977109391390083,
+    1.9199995314231688
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 2.9816999717640686,
+  "building_platform_overlap_m2": 259.68106555691264,
+  "ramp_railcenter_min_m": 12.951315707639067,
+  "flights": [
+    {
+      "platform": 0,
+      "y": -4.252999829081327,
+      "outside_platform_m2": 0.0
+    },
+    {
+      "platform": 1,
+      "y": -26.846642480351125,
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": "3",
+  "modelled_bodies": 2,
+  "route_segments": 18
+}

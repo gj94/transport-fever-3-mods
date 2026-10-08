@@ -1,0 +1,59 @@
+{
+  "station": "EVA",
+  "reviewed_utc": "2026-10-08T23:03:06.500855+00:00",
+  "status": "four_view_bounded_openings_complete_pass",
+  "source_scene_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "623190e9a866c341aa19c5258ad714a2dedd5c5f0032834e938134dc127e771c",
+      "source_scene_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "8248af4d0f4f4e2268870f923b0fe583774140e662f6442fcf1daf43ad2560c6",
+      "source_scene_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "b04bc85a6960773ae8eb001a118b93e20e4c08a1d027a8ebb0f3320ce63df0df",
+      "source_scene_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "9b6180e0578afc7f4fa95685041fa8b2ab7f9166a2fc62d1e80bf44b19653bad",
+      "source_scene_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "review_basis": "new_reduced_pixels_inspected_in_earlier_sheet_same_review",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "EVA_9d713a69_partial_visual_review.json"
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/EVA_Yappe_facade_undated.png",
+      "sha256": "0c435062a5d6e7684a0524305afaace1cb80d06df403cabda9b2cd535e66aaa3"
+    }
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/AMY_EVA_gallery_completion_2303.jpg",
+  "prior_review_reports": [
+    "EVA_8b0a1421_partial_visual_review.json",
+    "EVA_9d713a69_partial_visual_review.json"
+  ],
+  "observations": [
+    "04 previously inspected in this review resolves tall near-floor platform apertures and full-height geometric blue grilles, with the high vents/roof/wall colour pattern retained.",
+    "New current01/03/05 inspected now. Full layout, unobstructed platform-track/catenary coverage and furnished booking interior remain coherent after the bounded opening correction.",
+    "All four gallery image hashes bind9d713a69; prior source/camera passes remain in historical reports. No further visual correction requested."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ],
+  "review_contact_sheets": [
+    "coastal_stations_overnight/qa/visual_batches/EVA_delta_facade_2301.jpg",
+    "coastal_stations_overnight/qa/visual_batches/AMY_EVA_gallery_completion_2303.jpg"
+  ]
+}

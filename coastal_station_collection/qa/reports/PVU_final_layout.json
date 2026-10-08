@@ -1,0 +1,30 @@
+{
+  "station": "PVU",
+  "adopted_sha256": "9396356ceb5d7165a9f4ed386d6c85f9e50993c8e7cccc39ce4d5e0c0d1568a8",
+  "platform_railcenter_min_m": [
+    1.9199998298475616,
+    1.9199996631658454
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 8.665213481704868,
+  "building_platform_overlap_m2": 0.0,
+  "ramp_railcenter_min_m": 18.368162961735692,
+  "flights": [
+    {
+      "platform": 0,
+      "y": 17.461328398999207,
+      "outside_platform_m2": 0.0
+    },
+    {
+      "platform": 1,
+      "y": 1.2067669003616759,
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": "3",
+  "modelled_bodies": 2,
+  "route_segments": 12
+}

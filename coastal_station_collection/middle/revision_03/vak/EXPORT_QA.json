@@ -1,0 +1,36 @@
+{
+  "station": "VAK",
+  "authoritative_blend": "VAK_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+  "glb_file": "VAK_coastal_station_v01.glb",
+  "glb_sha256": "0a9b223eb547ee0bcd1f4ab36a64331adc4336e08d6b524fa736fd03d8f8a170",
+  "glb_bytes": 65523040,
+  "source_mesh_objects": 214,
+  "source_vertices": 769146,
+  "elapsed_seconds": 1.1241307258605957,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "VAK_coastal_station_v01.glb.zip",
+  "zip_sha256": "626880c7d9604ac51b9f7c5bd1fb4bb0a798ded09ead73486d29a52f96bb0b2d",
+  "zip_bytes": 8598727,
+  "roundtrip_mesh_objects": 214,
+  "roundtrip_vertices": 2213545,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1285.0,
+      -215.0,
+      -4.0
+    ],
+    [
+      685.0,
+      215.0,
+      12.538846015930176
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

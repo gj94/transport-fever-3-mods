@@ -1,0 +1,53 @@
+{
+  "station": "OCR",
+  "publication_mode": "additive_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/ocr/OCR_coastal_station_v01.blend",
+  "source_blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/ocr/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "653382fafef071b7b79f1a8a3121d00968433239d31cb4e54fcd4da43a547173",
+  "native_gate_path": "coastal_station_collection/qa/reports/OCR.json",
+  "native_gate_sha256": "f12c32be631c78f951f850acea71633b5f37bd7376f9e3d68c66ede85b30919f",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/OCR/OCR_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "47bad33b32a16c5d2d2fd041ee6779a6c1a4fae1b855a9a7d419c29f49f52e2e",
+  "corrected_glb_sha256": "6986cb362f10df643901dac8616b322409b743559227157ac595f0b8fcd225fe",
+  "superseded_archive_sha256": "5ec9a9eeac40eb46e30e902eec3d7d2d3bd4528accb00ebae3c6649dc2e2b735",
+  "superseded_archive_disposition": "Already published bytes preserved unchanged.",
+  "retained_images": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "sha256": "5324cdfc38202360d02d575e5afcf50733dc063115e47e674f60928b00c15742",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "sha256": "8ba86badb7deb08719fd94cb13fe4256cb6ec6301b877842bfe0f69e31b53f4d",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "sha256": "b50412c48496fe449bd13ed26be310ed657cdb21c5617635fd482ad48de116e3",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "sha256": "1ca570892b4ad5bca0c8999c8ac4446f94c3597dae804bce992f09256a8199ec",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    }
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operational inventory or engineering certification.",
+    "Mapped centerline irregularities have documented local regularization; raw observed source coordinates remain available.",
+    "Unseen interiors, approximate dimensions and ancillary wing extent are reconstructed.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Some procedural Blender materials use base-colour portable fallbacks."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

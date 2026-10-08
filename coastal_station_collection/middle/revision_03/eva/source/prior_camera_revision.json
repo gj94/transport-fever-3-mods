@@ -1,0 +1,42 @@
+{
+  "base_blend_sha256": "643a922c2a250c1c4a32e04fed6fd1efb92a9092e7cc80b9f3b795c6e8e3669c",
+  "repaired_blend_sha256": "8b0a142156a678db6d69ed522e0633dd2adc76ebcfd8344858a01f550508b48f",
+  "repair_script_sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a",
+  "camera04_before": {
+    "location": [
+      -43.0,
+      52.0,
+      10.017999649047852
+    ],
+    "rotation": [
+      1.4120711088180542,
+      2.85569097258076e-08,
+      -2.666581869125366
+    ],
+    "lens": 38.0
+  },
+  "camera04_after": {
+    "location": [
+      -25.0,
+      -12.0,
+      3.200000047683716
+    ],
+    "rotation": [
+      1.5660344362258911,
+      -0.0,
+      0.0
+    ],
+    "lens": 22.0
+  },
+  "geometry_changes": [],
+  "reason": "EVA revision02 changes only camera04 to show the existing photographed platform-side ventilators, tall blue geometric grilles and broad blue canopy. All geometry and materials remain unchanged.",
+  "retained_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "04_facade_and_approach.png"
+  ],
+  "source_geometry_note": "Track, platform, room and furnishing geometry unchanged. KFI only adjusts high canopy/support attachment; EVA/CRY are camera-only."
+}

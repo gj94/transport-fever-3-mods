@@ -1,0 +1,401 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/MAKM/MAKM_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 94,
+  "object_types": {
+    "MESH": 72,
+    "CURVE": 12,
+    "FONT": 2,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 72,
+  "unique_vertices": 613088,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.452357292175293
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f722d68b760>",
+    "station_code": "MAKM",
+    "station_name": "Mararikulam",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676",
+    "platform_2_basis": "Hypothetical IRI-led opposite-side reconstruction; only the first narrow side body is mapped confidently.",
+    "platform_2_operational_status": "UNVERIFIED. Do not treat the rendered second body as proof of current operation.",
+    "second_body_pedestrian_connection": "UNVERIFIED. No footbridge is invented over the narrow3.06m mapped platform."
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform_height0.3": {
+      "from": [
+        -1.7535927295684814,
+        -2.183718204498291,
+        1.7999999523162842
+      ],
+      "to": [
+        -15.082197189331055,
+        -2.183718204498291,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height0.8": {
+      "from": [
+        -1.7535927295684814,
+        -2.183718204498291,
+        2.299999952316284
+      ],
+      "to": [
+        -15.082197189331055,
+        -2.183718204498291,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height1.7": {
+      "from": [
+        -1.7535927295684814,
+        -2.183718204498291,
+        3.200000047683716
+      ],
+      "to": [
+        -15.082197189331055,
+        -2.183718204498291,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        -4.553592681884766,
+        28.816282272338867,
+        0.30000001192092896
+      ],
+      "to": [
+        -4.553592681884766,
+        11.416281700134277,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        -4.553592681884766,
+        11.416281700134277,
+        1.75
+      ],
+      "to": [
+        -4.553592681884766,
+        -2.183718204498291,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        -4.553592681884766,
+        28.816282272338867,
+        0.800000011920929
+      ],
+      "to": [
+        -4.553592681884766,
+        11.416281700134277,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        -4.553592681884766,
+        11.416281700134277,
+        2.25
+      ],
+      "to": [
+        -4.553592681884766,
+        -2.183718204498291,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -4.553592681884766,
+        28.816282272338867,
+        1.7000000476837158
+      ],
+      "to": [
+        -4.553592681884766,
+        11.416281700134277,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        -4.553592681884766,
+        11.416281700134277,
+        3.1500000953674316
+      ],
+      "to": [
+        -4.553592681884766,
+        -2.183718204498291,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_13.6": {
+      "from": [
+        -4.553592681884766,
+        11.416281700134277,
+        1.7000000476837158
+      ],
+      "to": [
+        -4.553592681884766,
+        11.416281700134277,
+        0.949999988079071
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -4.553592681884766,
+        11.416281700134277,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549008607864,
+        0.9965457916259766
+      ]
+    },
+    "floor_ramp_22.299999999999997": {
+      "from": [
+        -4.553592681884766,
+        20.116281509399414,
+        0.9750000238418579
+      ],
+      "to": [
+        -4.553592681884766,
+        20.116281509399414,
+        0.22499999403953552
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -4.553592681884766,
+        20.116281509399414,
+        0.7250000834465027
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549008607864,
+        0.9965457916259766
+      ]
+    },
+    "floor_ramp_31.0": {
+      "from": [
+        -4.553592681884766,
+        28.816282272338867,
+        0.25
+      ],
+      "to": [
+        -4.553592681884766,
+        28.816282272338867,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -4.553592681884766,
+        28.816282272338867,
+        1.4901161193847656e-08
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549008607864,
+        0.9965457916259766
+      ]
+    },
+    "floor_threshold_-5.653592686726725": {
+      "from": [
+        -5.653592586517334,
+        -2.183718204498291,
+        1.7000000476837158
+      ],
+      "to": [
+        -5.653592586517334,
+        -2.183718204498291,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Mararikulam photographed architecture / stone",
+      "hit_location": [
+        -5.653592586517334,
+        -2.183718204498291,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-5.853592686726724": {
+      "from": [
+        -5.853592872619629,
+        -2.183718204498291,
+        1.7000000476837158
+      ],
+      "to": [
+        -5.853592872619629,
+        -2.183718204498291,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Mararikulam photographed architecture / stone",
+      "hit_location": [
+        -5.853592872619629,
+        -2.183718204498291,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-12.982196976329217": {
+      "from": [
+        -12.982196807861328,
+        -2.183718204498291,
+        1.7000000476837158
+      ],
+      "to": [
+        -12.982196807861328,
+        -2.183718204498291,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Mararikulam photographed architecture / stone",
+      "hit_location": [
+        -12.982196807861328,
+        -2.183718204498291,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-13.182196976329216": {
+      "from": [
+        -13.182196617126465,
+        -2.183718204498291,
+        1.7000000476837158
+      ],
+      "to": [
+        -13.182196617126465,
+        -2.183718204498291,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Mararikulam photographed architecture / stone",
+      "hit_location": [
+        -13.182196617126465,
+        -2.183718204498291,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46"
+}

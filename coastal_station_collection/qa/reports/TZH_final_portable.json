@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/TZH/exports/TZH_coastal_station_v01.glb",
+    "bytes": 50326368,
+    "errors": [],
+    "warnings": [],
+    "sha256": "a8bdbb5c926a1fc3e1993528d9434e9772fa6df8bb2a7955d28b1e6f7cbad522",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 50326368
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 72112
+      },
+      {
+        "type": 5130562,
+        "bytes": 50254228
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 94,
+    "mesh_count": 94,
+    "primitive_count": 94,
+    "vertex_reference_count": 1681000,
+    "accessor_count": 272,
+    "validated_accessor_count": 272,
+    "material_count": 27,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

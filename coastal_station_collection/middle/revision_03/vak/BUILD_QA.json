@@ -1,0 +1,56 @@
+{
+  "station_code": "VAK",
+  "blend": "VAK_coastal_station_v01.blend",
+  "generated_at_unix": 1791488092.2653255,
+  "builder_sha256": "8421c86e984bb4831e26599978e8292c61e253bd83fed2579c97d873ae99c3ab",
+  "source_adopted_sha256": "ef1339e6b284a000b504377d92bd46a675644077fab8779c79a30f432c5c568e",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 1.0,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "3",
+  "physical_platform_bodies": 2,
+  "track_routes": 18,
+  "track_route_total_length_m": 6494.820233465154,
+  "mapped_switch_nodes": 11,
+  "mapped_true_service_buffers": 5,
+  "mesh_objects": 201,
+  "total_objects": 227,
+  "vertices": 737286,
+  "polygons": 543255,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000013216331064,
+      "clearance_m": 1.8977113667898218
+    },
+    {
+      "label": "2;3",
+      "basis": "reconstructed island body in widest mapped station-road gap; face assignment unverified",
+      "width_min_sample_m": 10.00059026588347,
+      "clearance_m": 1.9199999999999953
+    }
+  ],
+  "corrections": [],
+  "notes": "Mapped station building footprint plus dated facade photos. Inconsistent2026 platform polygons replaced by clearance-corrected reconstructed side-plus-island arrangement; raw polygons retained for comparison. Incomplete shelter coverage retained.",
+  "revision": "platform/building overlap clearance revision03",
+  "base_blend_sha256": "9bdbda1968e9105290c4520a693c5d2d737571064dd76de6628552098e501d56",
+  "repair_script_sha256": "9ecabbfc0f690004399b3e3ddac27120b651f16420b16d64a6c2c9abab60faeb",
+  "station_edge_clear_width_before_veranda_posts_m": {
+    "min": 1.0618191594521535,
+    "max": 1.7378676354412113
+  },
+  "platform_body_width_note": "Nominal six-metre raised-body width includes the building overlap; it is not unobstructed pedestrian width."
+}

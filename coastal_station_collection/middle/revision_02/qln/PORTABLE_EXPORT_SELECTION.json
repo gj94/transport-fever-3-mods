@@ -1,0 +1,44 @@
+{
+  "station": "QLN",
+  "publication_mode": "additive_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/qln/QLN_coastal_station_v01.blend",
+  "source_blend_sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/qln/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "524d6882c0df208562fcc47cccd736b21e45f9e7ac9d2b4bd435f1ec880188f5",
+  "native_gate_path": "coastal_station_collection/qa/reports/QLN.json",
+  "native_gate_sha256": "76ca21360c75bf94d6cc3fbd67d877477cec28c4c273b9856c3b3e03840809dd",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/QLN/QLN_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "9dfbcbba2708054c161a5449a398d6a05c5528868a10bfbcc14ad765acc4414f",
+  "corrected_glb_sha256": "40b7910d0bb17f303429197e3ac47d41c1ccfedc20e0a05fa1c1bfbfa2e09099",
+  "superseded_archive_sha256": "d138aa9d4273abfc32393463ac4705bb74b1b9987f7ccfd541032f8991ac8c18",
+  "superseded_archive_disposition": "Already published bytes preserved unchanged.",
+  "retained_images": [
+    {
+      "file": "renders/03_platform_track_details.png",
+      "sha256": "c09ccde120d453228ff162fdefbfce25d6fd6f0f2f216e7cfb29dfd97abcbf28",
+      "source_blend_sha256": "032e138121ab63188fb703ceb3238d9d33d13232bb1caa9fce7af81d5aa327d1",
+      "reason": "Entrance-side external cladding is outside this platform/interior camera; subject, camera and illumination unchanged."
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "sha256": "344a52841dca76322c1b30974f0db01955e37158a9d802baeb37dcbf2abcfba1",
+      "source_blend_sha256": "032e138121ab63188fb703ceb3238d9d33d13232bb1caa9fce7af81d5aa327d1",
+      "reason": "Entrance-side external cladding is outside this platform/interior camera; subject, camera and illumination unchanged."
+    }
+  ],
+  "limitations": [
+    "Historical2017\u20132020 terminal facade is reconstructed; current redevelopment completion is not claimed.",
+    "Dimensions, unseen offices/interiors and service assignments remain disclosed reconstructions.",
+    "Visual reconstruction, not a surveyed operating inventory or engineering certification.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Procedural Blender materials use base-colour portable fallbacks."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild.",
+  "source_transport_manifest": "coastal_station_collection/middle/revision_02/qln/QLN_coastal_station_v01.blend.parts/manifest.json",
+  "corrected_archive_transport_manifest": "coastal_station_collection/middle/portable_colour_revision_02/QLN/QLN_coastal_station_colour_v02.glb.zip.parts/manifest.json",
+  "transport_note": "Exact original bytes in 16 MiB parts; delivered-script reassembly and whole-file SHA256 verified."
+}

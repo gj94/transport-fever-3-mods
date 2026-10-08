@@ -1,0 +1,277 @@
+{
+  "station": "NYY",
+  "revision_kind": "portable RGB factors only",
+  "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2",
+  "original_delivery_manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/DELIVERY_MANIFEST.json",
+  "original_delivery_manifest_sha256": "82129a8edd66ee0771bfd2990d9eb9e0525c40a5078058175eda2896b4029aea",
+  "retained_assets": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/NYY_station_v01.blend",
+      "relative_path": "south/nyy/NYY_station_v01.blend",
+      "bytes": 7460891,
+      "sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/README.md",
+      "relative_path": "south/nyy/README.md",
+      "bytes": 4719,
+      "sha256": "9ebf3ddad9fee5f8f2738792d50e3463a6b30bfdbf21347bb14f28bb95fc0a3e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/SOURCES.json",
+      "relative_path": "south/nyy/SOURCES.json",
+      "bytes": 10270,
+      "sha256": "2e519bbad5d6f4ded725140a111d7521676437e523574bb580a0ca8bebb26a4c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/nyy/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/QA_BUILD.json",
+      "relative_path": "south/nyy/QA_BUILD.json",
+      "bytes": 8146,
+      "sha256": "16dd0cf35b657f8f566ba75765d6295fb14ab64ac2c6afd8c51e5cdca1b11b8a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/QA_EXPORT.json",
+      "relative_path": "south/nyy/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "993d167dcab686ef37aa2e098c0c336d3cca87b9e171c34c0930964de133bd91"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/RENDER_PROVENANCE.json",
+      "relative_path": "south/nyy/RENDER_PROVENANCE.json",
+      "bytes": 2923,
+      "sha256": "df49889f61e6e4224f5af9ccd5d31c7f3313dc75f45d4f2f22eb3c0f0ea26c79"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/exchange/MANIFEST.json",
+      "relative_path": "south/nyy/exchange/MANIFEST.json",
+      "bytes": 654,
+      "sha256": "4f5ae9bd96dea9a083366623b2a9069b876d12659b797d6771f5d4c9aa6e51f3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/nyy/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1463134,
+      "sha256": "1ed6ae575b58eae11548c945234dbd782d8839f1d702c49a2283fdc57cdce027"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/nyy/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1870714,
+      "sha256": "0bf8314c9aeb63d191db2b5c32684a7819bde51944f3060cd0d49a28f1de9cc1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/nyy/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1728482,
+      "sha256": "7816b80725c645dc3135e4749e0f2b99af8735b99a4004c91b2256f777e9722a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/nyy/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1460153,
+      "sha256": "07da5ac521fcc630dd3b07316f8ad959f7539e4f189fd290e7b8e36d3e0b6e0f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/nyy/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 1944572,
+      "sha256": "ed665fd893ad3f9ba61fb1200f626879788d0d93bcb60d5494346300378c97a9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/QA_SCENE.json",
+      "relative_path": "south/nyy/QA_SCENE.json",
+      "bytes": 5655,
+      "sha256": "24572e14b9121480552973e00a5a45ce2702b58f61723040ffbc6c859500c244"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/nyy/QA_CIRCULATION_RAYS.json",
+      "bytes": 2133,
+      "sha256": "18a5064662d088e83ac622acd0012b4209b26a7631e5c5bb30ef9980d1873c08"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/VISUAL_QA.md",
+      "relative_path": "south/nyy/VISUAL_QA.md",
+      "bytes": 489,
+      "sha256": "64167fb457754ea559fa2bfcb64eaf26d2c95178a0f7b01a16e9ba9766c6c41c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/QA_STAIR_REPAIR.json",
+      "relative_path": "south/nyy/QA_STAIR_REPAIR.json",
+      "bytes": 9991,
+      "sha256": "4662a1fd337778a4446828c4713f66e6ee82c2760e9e5141591ef97abf81fdf8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/REPAIR_LINEAGE.json",
+      "relative_path": "south/nyy/REPAIR_LINEAGE.json",
+      "bytes": 545,
+      "sha256": "0b103591c4fff099054ee8a85953b6a9005620ee26138ab1170d36c612c4ba19"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/name_ta.svg",
+      "relative_path": "south/nyy/source/name_ta.svg",
+      "bytes": 247,
+      "sha256": "36c9db6aa875448060228f961cdb679f8d78854e23be5932e7967242e7da9769"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/platform_mesh.json",
+      "relative_path": "south/nyy/source/platform_mesh.json",
+      "bytes": 2019,
+      "sha256": "76f64f34d4d0b522eff509069fc0da6083c3ba3d9ace5a1cd9cfa675aa7e96d0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/build_config.json",
+      "relative_path": "south/nyy/source/build_config.json",
+      "bytes": 469,
+      "sha256": "eec0f10b4b521cb8ad759b3c0426e1f6f87539f1561361541af75e57d63ad4d1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/layout.json",
+      "relative_path": "south/nyy/source/layout.json",
+      "bytes": 12623,
+      "sha256": "274c5cd96f44cf9489b2ab7676613db35e3fc89e9480dae1ad2072cb4a6d7138"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/name_ml.svg",
+      "relative_path": "south/nyy/source/name_ml.svg",
+      "bytes": 245,
+      "sha256": "60d543ad2ee97c37c3e263f8a7d42875f638fd8eff7e7fc28626ce5e7d281696"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/name_ml_outlined.svg",
+      "relative_path": "south/nyy/source/name_ml_outlined.svg",
+      "bytes": 9339,
+      "sha256": "03dec6a39e405b7cfcf2120667d782af3e7b6ca15b885ca22d2bc9eecc9bc0f4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/name_ta_outlined.svg",
+      "relative_path": "south/nyy/source/name_ta_outlined.svg",
+      "bytes": 10389,
+      "sha256": "4d8337e7f83ec4c58acd452406791886bc00bbc6c00070ced170ffc857d22400"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/rail_mesh.json",
+      "relative_path": "south/nyy/source/rail_mesh.json",
+      "bytes": 160350,
+      "sha256": "f2dd64d2d915cf8ffa14e7943357ca8c5aa1209b5f89500dc574f024eba1a365"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/native_names.json",
+      "relative_path": "south/nyy/source/native_names.json",
+      "bytes": 188,
+      "sha256": "632d1b27a34cfbdc330101587db71cbf32efdcbc8dfdf63e03172079d2923c4e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/architectural_variants.py",
+      "relative_path": "south/nyy/source/recipe/architectural_variants.py",
+      "bytes": 60310,
+      "sha256": "d8ec25948f30f4f6096f5d808a14078d32b237928657dd0243d60fed2a4fef78"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/nyy/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/access_geometry.py",
+      "relative_path": "south/nyy/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/build_station.py",
+      "relative_path": "south/nyy/source/recipe/build_station.py",
+      "bytes": 47129,
+      "sha256": "22acbd340595039905f873c1fd4840612105fed7c091c06ce0b0608422c68cc3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/repair_kzt_arches.py",
+      "relative_path": "south/nyy/source/recipe/repair_kzt_arches.py",
+      "bytes": 3031,
+      "sha256": "fb28775430ccc14791e7c23b6bfd64d15e8244e021493e5665ea616f9a316392"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/prepare_geometry.py",
+      "relative_path": "south/nyy/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/repair_veranda_columns.py",
+      "relative_path": "south/nyy/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/export_station.py",
+      "relative_path": "south/nyy/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/repair_access_link.py",
+      "relative_path": "south/nyy/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/nyy/source/recipe/scene_review_inputs.py",
+      "bytes": 2177,
+      "sha256": "e2d87bbb9c3540c1c14fcc9087d3c5cedfbeac31f16b490660e60cac00de67ae"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/nyy/source/recipe/render_station.py",
+      "relative_path": "south/nyy/source/recipe/render_station.py",
+      "bytes": 6220,
+      "sha256": "b8b9b4fffe06513434b6fe6d3a231d21fce1a9f0b0b53f9cf3c31531e74ecd20"
+    }
+  ],
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/NYY_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/NYY/NYY_portable_colour_v02.zip",
+      "bytes": 4906810,
+      "sha256": "cb3a1b4de467cb5fb702b2841e291f382dc3021731d805b92b635360ad38aadb"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/NYY/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/SOURCE_PALETTE.json",
+      "bytes": 15262,
+      "sha256": "4f6919d0a7c7f32cb429dde6ebec3cb6380f93262ac47ba7714fe8f70546004b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/COLOUR_QA.json",
+      "bytes": 6160,
+      "sha256": "aac1a0e44b648b6c29d311805ccb1a46167a8cf14affa1e6437afe85f651611f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10043,
+      "sha256": "1a859381d3894e901b93364f693a51d0598f05ace297302196b301b4e172df23"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/README.md",
+      "relative_path": "south/portable_colour_revision_02/NYY/README.md",
+      "bytes": 591,
+      "sha256": "cb3116c2a812263a2376e6e2dc7475d200bbce3bb38dc74896d6165206f5727e"
+    }
+  ],
+  "total_new_bytes": 4940589,
+  "frozen_at_utc": "2026-10-08T22:33:41.579615+00:00"
+}

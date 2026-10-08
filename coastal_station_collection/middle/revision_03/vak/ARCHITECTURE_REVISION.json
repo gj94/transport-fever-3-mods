@@ -1,0 +1,231 @@
+{
+  "base_blend_sha256": "9bdbda1968e9105290c4520a693c5d2d737571064dd76de6628552098e501d56",
+  "repaired_blend_sha256": "b4acd40a0e6ce721c41738dd04d7b43dc9948c428d6ffd2e4d95699e9cd75121",
+  "repair_script_sha256": "9ecabbfc0f690004399b3e3ddac27120b651f16420b16d64a6c2c9abab60faeb",
+  "changes": [
+    {
+      "object": "Wayfinding DRINKING WATER",
+      "removed": "non-mesh platform sign inside building"
+    },
+    {
+      "object": "Canopy steel column web",
+      "components_removed": 7,
+      "vertices_removed": 56,
+      "whole_object": false
+    },
+    {
+      "object": "Canopy steel column flange",
+      "components_removed": 14,
+      "vertices_removed": 112,
+      "whole_object": false
+    },
+    {
+      "object": "Canopy column footing",
+      "components_removed": 7,
+      "vertices_removed": 56,
+      "whole_object": false
+    },
+    {
+      "object": "Canopy principal rafter",
+      "components_removed": 14,
+      "vertices_removed": 224,
+      "whole_object": false
+    },
+    {
+      "object": "Canopy roof truss bottom chord",
+      "components_removed": 14,
+      "vertices_removed": 224,
+      "whole_object": false
+    },
+    {
+      "object": "Canopy diagonal truss web",
+      "components_removed": 14,
+      "vertices_removed": 224,
+      "whole_object": false
+    },
+    {
+      "object": "Corrugated shelter roof sheets",
+      "components_removed": 14,
+      "vertices_removed": 56,
+      "whole_object": false
+    },
+    {
+      "object": "Canopy corrugation ribs",
+      "components_removed": 168,
+      "vertices_removed": 2016,
+      "whole_object": false
+    },
+    {
+      "object": "Shelter eaves purlin",
+      "components_removed": 14,
+      "vertices_removed": 224,
+      "whole_object": false
+    },
+    {
+      "object": "Timber bench seat slat",
+      "components_removed": 5,
+      "vertices_removed": 40,
+      "whole_object": false
+    },
+    {
+      "object": "Bench back slat",
+      "components_removed": 4,
+      "vertices_removed": 32,
+      "whole_object": false
+    },
+    {
+      "object": "Bench steel leg",
+      "components_removed": 4,
+      "vertices_removed": 64,
+      "whole_object": false
+    },
+    {
+      "object": "Bench back iron upright",
+      "components_removed": 2,
+      "vertices_removed": 32,
+      "whole_object": false
+    },
+    {
+      "object": "Bench anchor foot",
+      "components_removed": 2,
+      "vertices_removed": 16,
+      "whole_object": false
+    },
+    {
+      "object": "Waste bin body",
+      "components_removed": 1,
+      "vertices_removed": 24,
+      "whole_object": false
+    },
+    {
+      "object": "Waste bin rim",
+      "components_removed": 2,
+      "vertices_removed": 48,
+      "whole_object": false
+    },
+    {
+      "object": "Waste bin body.001",
+      "components_removed": 1,
+      "vertices_removed": 24,
+      "whole_object": false
+    },
+    {
+      "object": "Ceiling fan drop rod",
+      "components_removed": 2,
+      "vertices_removed": 32,
+      "whole_object": false
+    },
+    {
+      "object": "Ceiling fan motor",
+      "components_removed": 2,
+      "vertices_removed": 48,
+      "whole_object": false
+    },
+    {
+      "object": "Ceiling fan blade",
+      "components_removed": 6,
+      "vertices_removed": 48,
+      "whole_object": false
+    },
+    {
+      "object": "Fluorescent housing",
+      "components_removed": 2,
+      "vertices_removed": 16,
+      "whole_object": false
+    },
+    {
+      "object": "Fluorescent luminous face",
+      "components_removed": 2,
+      "vertices_removed": 16,
+      "whole_object": false
+    },
+    {
+      "object": "Water dispenser plinth",
+      "components_removed": 1,
+      "vertices_removed": 8,
+      "whole_object": false
+    },
+    {
+      "object": "Drinking water stainless unit",
+      "components_removed": 1,
+      "vertices_removed": 8,
+      "whole_object": false
+    },
+    {
+      "object": "Drip tray",
+      "components_removed": 1,
+      "vertices_removed": 8,
+      "whole_object": false
+    },
+    {
+      "object": "Drinking water faucet",
+      "components_removed": 3,
+      "vertices_removed": 48,
+      "whole_object": false
+    },
+    {
+      "object": "Enamel wayfinding panel",
+      "components_removed": 1,
+      "vertices_removed": 8,
+      "whole_object": false
+    },
+    {
+      "object": "Concrete bench seat",
+      "components_removed": 1,
+      "vertices_removed": 8,
+      "whole_object": false
+    },
+    {
+      "object": "Blue bench masonry pedestal",
+      "components_removed": 2,
+      "vertices_removed": 16,
+      "whole_object": false
+    },
+    {
+      "object": "Veranda column",
+      "removed": "standing pier replaced by high wall bracket at narrow station edge"
+    },
+    {
+      "object": "Veranda column plinth",
+      "removed": "standing pier replaced by high wall bracket at narrow station edge"
+    },
+    {
+      "object": "Open door panel",
+      "rear_leaf_vertices_moved": 40,
+      "dy_m": 1.02
+    },
+    {
+      "object": "Door lever handle",
+      "rear_leaf_vertices_moved": 80,
+      "dy_m": 1.76
+    },
+    {
+      "object": "Narrow veranda high wall brackets reconstructed",
+      "added": "high wall brackets leave ground passage clear",
+      "minimum_z_m": 3.97
+    }
+  ],
+  "building_envelope_m": [
+    5.45,
+    -6.45,
+    62.75,
+    1.85
+  ],
+  "body_building_overlap_area_m2": 259.68,
+  "station_edge_width_before_veranda_posts_m": [
+    1.0618191594521535,
+    1.7378676354412113
+  ],
+  "candidate_rear_walking_line_y_m": -7.05,
+  "uncertainty": "Narrow reconstructed station-edge treatment follows the axis-aligned mapped building envelope and inferred platform boundary; not a surveyed accessibility-compliance claim.",
+  "unchanged": "Mapped tracks, platform bodies, building, furnished interiors, revised pavilion, cameras and bridge; erroneously colocated outdoor components removed and narrow-edge standing veranda piers replaced by high reconstructed wall brackets; rear door leaves swing inward instead of crossing the narrow veranda.",
+  "retained_views": [
+    "03_platform_track_details.png"
+  ],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "02_station_and_platforms.png",
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ]
+}

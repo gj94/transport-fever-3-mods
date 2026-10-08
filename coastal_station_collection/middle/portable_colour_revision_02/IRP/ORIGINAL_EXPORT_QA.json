@@ -1,0 +1,36 @@
+{
+  "station": "IRP",
+  "authoritative_blend": "IRP_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+  "glb_file": "IRP_coastal_station_v01.glb",
+  "glb_sha256": "58527fd98dc537217a70662fcf232393413c4dd529885bf6b4f7b4821d1ea5c7",
+  "glb_bytes": 43613612,
+  "source_mesh_objects": 169,
+  "source_vertices": 511424,
+  "elapsed_seconds": 1.029130458831787,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "IRP_coastal_station_v01.glb.zip",
+  "zip_sha256": "b6e01b439f63620bc9e2b7ba9a6b2d60f35a0ef44412acf52cd0fc653628ad48",
+  "zip_bytes": 5688213,
+  "roundtrip_mesh_objects": 169,
+  "roundtrip_vertices": 1472656,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.590963363647461
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

@@ -1,0 +1,340 @@
+{
+  "station_code": "DAVM",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "south/davm with portable_colour_revision_02/DAVM",
+  "manifest_sha256": "f8473ffd644b7a7b64870202e0cb710a60b6f2a0747ebc20d4da5776450d0643",
+  "portable_revision_manifest_sha256": "61973c4c113e102f3c5c03c71f2fd0dd7822fd2071850f46dbd523b834c6311e",
+  "portable_revision_manifest": "south/portable_colour_revision_02/DAVM/DELIVERY_MANIFEST.json",
+  "blend_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+  "export_sha256": "012bfc9031c7ac1d0a114e1f50a29f85e8632ae0247dca5c05b8b7931a29d264",
+  "export_zip_sha256": "6acbb4e0429dcee722b2408711dc6da8ff6d4ee1d971d4418534311d146affe9",
+  "accepted_assets": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/DAVM_station_v01.blend",
+      "relative_path": "south/davm/DAVM_station_v01.blend",
+      "bytes": 4529814,
+      "sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/README.md",
+      "relative_path": "south/davm/README.md",
+      "bytes": 5264,
+      "sha256": "ae7adfca750ceb3be07af5e67cc01251f1bee32bb4d20780e444db2265ffe678"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/SOURCES.json",
+      "relative_path": "south/davm/SOURCES.json",
+      "bytes": 10540,
+      "sha256": "46ec1adf315890df13a9c1fad0acaaecb84db9a45c6a342334858d26da615898"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/davm/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/QA_BUILD.json",
+      "relative_path": "south/davm/QA_BUILD.json",
+      "bytes": 6625,
+      "sha256": "f290e091d30109f7ee458bc0805a064e7c9560b10b99448e41cfd3efdf8c696e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/QA_EXPORT.json",
+      "relative_path": "south/davm/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "e61ae8a562d9e9296c90912187d6b096e9ddd4a38b9beebeec9cbe7aec17d1bf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/RENDER_PROVENANCE.json",
+      "relative_path": "south/davm/RENDER_PROVENANCE.json",
+      "bytes": 3626,
+      "sha256": "e56fe54b29535a274226df2734e5fd878777b9576d4c1c1088f518946c10b098"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/exchange/MANIFEST.json",
+      "relative_path": "south/davm/exchange/MANIFEST.json",
+      "bytes": 656,
+      "sha256": "2a58f7fb2874eaee70d25bb3e776cfc8487ee5cbf317c53f57a329f5a9e79c70"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/davm/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1462863,
+      "sha256": "664b8d543cdfb3f2a31eaaae2ea734b4779b2469eaf1878ad8c307b429e93a38"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/davm/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1694447,
+      "sha256": "b9cfc21ad66c5f2b5c5fd85605c4f1b84959c8504ae60d50212ccf11a11d3f4a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/davm/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1659953,
+      "sha256": "6dce2269837f9c0a7bff36b0ac44fec512249f943d725a123d1db2dad43a453b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/davm/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1423281,
+      "sha256": "70962f0cd1054391a96418317b250bedab86ae9889307170f5f6150b7ed43159"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/davm/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1836734,
+      "sha256": "7858d1193fda47bc11f99b9cf823d959052ffde9300e5dd99105352c3ecce5d9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/QA_SCENE.json",
+      "relative_path": "south/davm/QA_SCENE.json",
+      "bytes": 4086,
+      "sha256": "2d8797171ab4bdc8bc1946e6815566c14873b45c4b8c3a934c0198ff8fdad8ae"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/davm/QA_CIRCULATION_RAYS.json",
+      "bytes": 1172,
+      "sha256": "064bf7c5323190052487648430fdf0ed5de4f1216b51b98c4ff36ddbb4a4e03c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/VISUAL_QA.md",
+      "relative_path": "south/davm/VISUAL_QA.md",
+      "bytes": 704,
+      "sha256": "9bd6d177529a8cc0cd0c597abcdcd6fd1fcb2fa3064af5078f6f75c9aaf45905"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/QA_ACCESS_REPAIR.json",
+      "relative_path": "south/davm/QA_ACCESS_REPAIR.json",
+      "bytes": 2495,
+      "sha256": "675137c3ff79eb1f6f13ee79b96119257bb4c3a62d67eff1d5cb4c55b7a46c4a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/REPAIR_LINEAGE.json",
+      "relative_path": "south/davm/REPAIR_LINEAGE.json",
+      "bytes": 524,
+      "sha256": "cf00ccea386ae59678fdda2cce4606a21d25ae348b1136d1af8b6b41f42eb5a8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/REPAIR_HISTORY.json",
+      "relative_path": "south/davm/REPAIR_HISTORY.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/platform_mesh.json",
+      "relative_path": "south/davm/source/platform_mesh.json",
+      "bytes": 1094,
+      "sha256": "32367ab2cf2b9002fb8c8b1075ab72805615b4d730a007a2419f8fd5e6508e81"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/build_config.json",
+      "relative_path": "south/davm/source/build_config.json",
+      "bytes": 457,
+      "sha256": "8e8478c9c9193aca7a2da3ed89f3d30f6303401ed214b1d80724f0d6f221415e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/layout.json",
+      "relative_path": "south/davm/source/layout.json",
+      "bytes": 9198,
+      "sha256": "44c7f875b90c64c9be3ab79e6c9ac443cdbcfc34624f147156d834f8056c06f2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/name_ml.svg",
+      "relative_path": "south/davm/source/name_ml.svg",
+      "bytes": 239,
+      "sha256": "1605bbf9811c279c852bfa32a3a740340fd5b4096350223be7a215898def9bf9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/name_ml_outlined.svg",
+      "relative_path": "south/davm/source/name_ml_outlined.svg",
+      "bytes": 6878,
+      "sha256": "37be79a1104e5eb3c9bdc776c8f10fbc1ad56e972e378d3c625b078f3ff5e485"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/rail_mesh.json",
+      "relative_path": "south/davm/source/rail_mesh.json",
+      "bytes": 25862,
+      "sha256": "8e810c504ec14dfddf9fcdaf5ac98b9b35d889449550f42bcd1fee53d0b763a2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/native_names.json",
+      "relative_path": "south/davm/source/native_names.json",
+      "bytes": 88,
+      "sha256": "57155a79bbdc7d47cd231bc3cc9eef4c94485db0a74e12c79385c13412eed5c0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/architectural_variants.py",
+      "relative_path": "south/davm/source/recipe/architectural_variants.py",
+      "bytes": 60483,
+      "sha256": "a052fad8508e6b7f41e665d30ae6aae659b89f424605407f88ebe86d373ef7b9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/repair_tvcs_platform_face.py",
+      "relative_path": "south/davm/source/recipe/repair_tvcs_platform_face.py",
+      "bytes": 2913,
+      "sha256": "29aab8d8fc10a89c1bc179574f39c4b620f10c6fe5ad02a8149147ffa99dddca"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/davm/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/access_geometry.py",
+      "relative_path": "south/davm/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/build_station.py",
+      "relative_path": "south/davm/source/recipe/build_station.py",
+      "bytes": 47129,
+      "sha256": "22acbd340595039905f873c1fd4840612105fed7c091c06ce0b0608422c68cc3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/repair_kzt_arches.py",
+      "relative_path": "south/davm/source/recipe/repair_kzt_arches.py",
+      "bytes": 3031,
+      "sha256": "fb28775430ccc14791e7c23b6bfd64d15e8244e021493e5665ea616f9a316392"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/prepare_geometry.py",
+      "relative_path": "south/davm/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/repair_veranda_columns.py",
+      "relative_path": "south/davm/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/export_station.py",
+      "relative_path": "south/davm/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/close_njt_upper_portal.py",
+      "relative_path": "south/davm/source/recipe/close_njt_upper_portal.py",
+      "bytes": 1726,
+      "sha256": "d72454b077053beab69ab87c567afa7ea7abe01c0d548f42c8916319dbe4a240"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/repair_access_link.py",
+      "relative_path": "south/davm/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/davm/source/recipe/scene_review_inputs.py",
+      "bytes": 2177,
+      "sha256": "e2d87bbb9c3540c1c14fcc9087d3c5cedfbeac31f16b490660e60cac00de67ae"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/source/recipe/render_station.py",
+      "relative_path": "south/davm/source/recipe/render_station.py",
+      "bytes": 7627,
+      "sha256": "27590fc0ba4eb07dfaba61a7f6787a820c0982ae4869c14d193c053c41a739d5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/DAVM/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/DAVM_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/DAVM/DAVM_portable_colour_v02.zip",
+      "bytes": 2703758,
+      "sha256": "6acbb4e0429dcee722b2408711dc6da8ff6d4ee1d971d4418534311d146affe9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/SOURCE_PALETTE.json",
+      "bytes": 13460,
+      "sha256": "4217b5013a2adea055054959b63daedd96f15f19157de1001ac5e55f85582d0f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/COLOUR_QA.json",
+      "bytes": 5627,
+      "sha256": "60256483507042212ec298b4e2d8d8d4ffebcbff2c7cdda9bd3734a11f23f64b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 9188,
+      "sha256": "64488e42a723ff2ca3673581d44d5ca04a774607b4ad7f141c252b71e2858482"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/README.md",
+      "relative_path": "south/portable_colour_revision_02/DAVM/README.md",
+      "bytes": 593,
+      "sha256": "4eb69f49987f1b57ee4aeb2721ad1f71c456a5085c010616b84a34616b9b472b"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/davm/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1462863,
+      "sha256": "664b8d543cdfb3f2a31eaaae2ea734b4779b2469eaf1878ad8c307b429e93a38"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/davm/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1694447,
+      "sha256": "b9cfc21ad66c5f2b5c5fd85605c4f1b84959c8504ae60d50212ccf11a11d3f4a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/davm/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1659953,
+      "sha256": "6dce2269837f9c0a7bff36b0ac44fec512249f943d725a123d1db2dad43a453b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/davm/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1423281,
+      "sha256": "70962f0cd1054391a96418317b250bedab86ae9889307170f5f6150b7ed43159"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/davm/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/davm/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1836734,
+      "sha256": "7858d1193fda47bc11f99b9cf823d959052ffde9300e5dd99105352c3ecce5d9"
+    }
+  ],
+  "checks": {
+    "manifest": "Every original frozen file and additive corrected portable file independently verified. Old ZIP retained only as history; corrected ZIP is the current portable asset.",
+    "visual": "Five exact native PNG hashes independently source-reviewed; current and retained view lineage checked.",
+    "geometry": "Exact packed Blender scene and station-specific low/waist/head entry, approach and applicable bridge/internal-stair paths pass, including lateral body-width samples. Actual floor probes confirm continuous approach links and normal stair rises.",
+    "resources": "Exact unchanged packed scene has finite geometry and bounds, metric scale1, packed dependencies and no rolling-stock candidates.",
+    "layout": "Actual platform top triangles remain rail-clear, with raw/adopted source distinctions retained.",
+    "portable": "Corrected GLB finite/index/buffer/embedded-resource checks pass. Exact source palette RGB factors independently verified; BIN and all non-color JSON identical to source-bound original export."
+  },
+  "evidence_reports": [
+    "DAVM_repaired_final_scene_inspection.json",
+    "DAVM_repaired_final_inputs.json",
+    "DAVM_final_layout.json",
+    "DAVM_portable_colour_revision_02.json",
+    "SOUTH_NEW_THREE_portable.json",
+    "SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "../visual_batches/DAVM_db3757e3_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not survey or operational certification.",
+    "Hidden interior details and measured-looking dimensions remain reconstructed unless specifically evidenced.",
+    "Targeted floor/body paths are not exhaustive pairwise collision certification.",
+    "Solid portable base colors approximate Blender procedural materials; procedural texture/bump is not baked.",
+    "Preserves photographed closed ticket-end wall and one definite platform body versusIRI-reported2; practical route uses the supported exterior side walk."
+  ],
+  "release_status": "Ready for reviewed publication with the corrected portable revision."
+}

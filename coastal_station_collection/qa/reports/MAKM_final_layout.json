@@ -1,0 +1,39 @@
+{
+  "station": "MAKM",
+  "blend_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+  "plan_sha256": "7317b8e48e96734a0a7e64fb7e1a909d6c1bb0f5a9dab05c8d757492edd2a9b9",
+  "platform_railcenter_min_m": [
+    2.0499999999999963,
+    2.1999999999999975
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 6.168082337881417,
+  "enclosed_building_platform_overlap_m2": 0.0,
+  "motor_slab_platform_overlap_m2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "motor_slab_railcenter_min_m": [
+    2.495024127146343,
+    2.4578559402058926,
+    2.4657680277190814,
+    2.500016413175821,
+    2.354414835152675,
+    2.405879435033328,
+    2.468882573146342,
+    2.351012422001107
+  ],
+  "flights": [],
+  "reported_faces": 2,
+  "modelled_bodies": 2,
+  "gauge_m": 1.676
+}

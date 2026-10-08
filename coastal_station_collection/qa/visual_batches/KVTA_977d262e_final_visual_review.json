@@ -1,0 +1,59 @@
+{
+  "station": "KVTA",
+  "reviewed_utc": "2026-10-08T22:29:50.437079+00:00",
+  "status": "4_view_visual_source_pass",
+  "source_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "75c037e5996ee4f73503dd061738ecc02eab367c4bd182e221a7197c8dd59818",
+      "source_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "current_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "c9aa1248a7a86bf70d49861768a68188a9e4b1059918f3c8fdd95887c4d2a438",
+      "source_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "current_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "c8841a8f44f33b349526e6e256300dacc59e2d7f5c417595cfc7229b640d8445",
+      "source_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "current_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "56c8343fa9a1ffcb1729f768971fb89995764fdfa332dacef9d20b7036bcd033",
+      "source_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "current_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null
+    }
+  },
+  "prior_review_reports": [],
+  "observations": [
+    "Reduced source and all four current gallery frames inspected. Cream compact ticket/waiting block with orange band, covered blue footbridge and stairs, pale walking surfaces, red edge strips and white/red boundary fence follow the observed station cues.",
+    "Overall extent, train-free two-road platform scene, entrance approach and reconstructed furnished interior are legible without material obstruction.",
+    "The approach-side facade/door/window arrangement is partly inferred: source photograph directly shows the platform-facing hut beneath/beside the stair landing. Exact dimensions and bridge longitudinal placement remain disclosed estimates."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Retained subjects preserve original image/source hashes; no claim of pixel-identical rerender.",
+    "Technical auditor owns geometry/export and final acceptance."
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/KVTA_review_2229.jpg",
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/KVTA_hut_and_stairs_2025-02.png",
+      "sha256": "e6c3553d24e5b4e3d7ac56b277a2927e02dd3924d30d362e09bf37d2ecceb381"
+    }
+  ]
+}

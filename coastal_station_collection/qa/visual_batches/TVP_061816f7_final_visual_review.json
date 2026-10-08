@@ -1,0 +1,58 @@
+{
+  "station": "TVP",
+  "reviewed_utc": "2026-10-08T22:47:43.103886+00:00",
+  "status": "five_view_visual_source_complete_pass",
+  "source_scene_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+  "frames": {
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "3c738314c444862a2a4a6fefe4e3302067de096db2259f07c7e6d5fe72219954",
+      "source_scene_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "b0069be98c9973221898e8441eff0e259f4b8bbc6101f85328dbdb688ce469a2",
+      "source_scene_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "TVP_061816f7_partial_visual_review.json"
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "24227b892fb15b8fac78e8c03ae86fc712c124e0eb055c7a17b39c7b9305b11b",
+      "source_scene_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "TVP_061816f7_partial_visual_review.json"
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "aa93a1a33a0a7cfeee673cdc93bd0ad0f9d8008a7a2ec1ae42535ce885fdd9f7",
+      "source_scene_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "TVP_061816f7_partial_visual_review.json"
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "8925e2b6d2b5fb5ab399e7c8e151accabab48f4280d6dccf975e00e878d843aa",
+      "source_scene_sha256": "061816f7fd01ffc381ff6aeb1d27c4b41f102eaca567a7d415547fe9c1681f33",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "TVP_061816f7_partial_visual_review.json"
+    }
+  },
+  "sources": [],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/KZK_TVP_final_details_2247.jpg",
+  "prior_review_reports": [
+    "TVP_061816f7_partial_visual_review.json",
+    "TVP_834b66e7_final_visual_review.json"
+  ],
+  "observations": [
+    "Final05 clearly shows the repaired raised boarding edge directly adjacent to the running track with continuous platform finish. No visible geometry obstruction.",
+    "Current01\u201304 exact accepted frame hashes retained. Prior834b66e7 source-architecture qualification remains valid; final repaired gallery now complete."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

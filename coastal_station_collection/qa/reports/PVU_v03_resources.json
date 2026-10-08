@@ -1,0 +1,69 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_03/pvu/PVU_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 260,
+  "object_types": {
+    "MESH": 233,
+    "FONT": 14,
+    "LIGHT": 8,
+    "CAMERA": 5
+  },
+  "unique_meshes": 233,
+  "unique_vertices": 791820,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -2.1500000953674316
+    ],
+    [
+      1135.0,
+      265.0,
+      12.558919906616211
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../pvu/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "PVU",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "3",
+    "platform_bodies_modelled": "2",
+    "facade_revision": "PVU revision03: photographed lower window leaves are divided/louvred reddish-brown timber; blue is limited to the upper transoms. Walls, openings and public circulation unchanged.",
+    "base_blend_sha256": "2a5a0b12dafabbed96c539f52b195f04f5d8186fcfe17ce4daa8089fdfac9844"
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4"
+}

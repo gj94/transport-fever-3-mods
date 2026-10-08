@@ -1,0 +1,130 @@
+{
+  "base_blend_sha256": "6ca7129c71dcab56374a6118c920259fb214601901fcd74268c76969f08e8d07",
+  "repaired_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+  "repair_script_sha256": "ffc5a7905137fc2265d48b495b996beedcbae4fbdacac7718085a0d03fa0bfe2",
+  "reason": "AMY front now matches the photographed brown window left / perforated screen right, yellow header and shade, with a functional facade-parallel ramp. Room layout and central doorway remain unchanged.",
+  "changes": [
+    {
+      "object": "Street facade wall pier",
+      "front_vertices_mirrored_by_component": 48
+    },
+    {
+      "object": "Street facade lintel",
+      "front_vertices_mirrored_by_component": 24
+    },
+    {
+      "object": "Street facade window sill wall",
+      "front_vertices_mirrored_by_component": 16
+    },
+    {
+      "object": "Timber window sill",
+      "front_vertices_mirrored_by_component": 16
+    },
+    {
+      "object": "Timber window jamb",
+      "front_vertices_mirrored_by_component": 32
+    },
+    {
+      "object": "Window header",
+      "front_vertices_mirrored_by_component": 16
+    },
+    {
+      "object": "Window security bars",
+      "front_vertices_mirrored_by_component": 96
+    },
+    {
+      "object": "Window glass pane",
+      "front_vertices_mirrored_by_component": 8
+    },
+    {
+      "object": "Masonry lower plinth",
+      "front_vertices_mirrored_by_component": 16
+    },
+    {
+      "object": "Akathumuri breeze-block vertical web",
+      "facade_detail_reflected_about_x_m": -20
+    },
+    {
+      "object": "Akathumuri breeze-block horizontal web",
+      "facade_detail_reflected_about_x_m": -20
+    },
+    {
+      "object": "Akathumuri yellow entrance sunshade",
+      "facade_detail_reflected_about_x_m": -20
+    },
+    {
+      "object": "Akathumuri open gate horizontal rail",
+      "facade_detail_reflected_about_x_m": -20
+    },
+    {
+      "object": "Akathumuri upper vent louvre",
+      "facade_detail_reflected_about_x_m": -20
+    },
+    {
+      "object": "Enamel wayfinding panel.001",
+      "name_panel": "yellow raised above sunshade"
+    },
+    {
+      "access_ramp": "Runs parallel to facade from lower(-5,4.5,.05) to upper(-19,4.5,1.018); joins landing x[-26,-19],y[3.5,5.3]. Steps width3m centrex-20.5; central doorway unchanged."
+    },
+    {
+      "object": "Station noticeboard timber frame.001",
+      "notice_vertices_moved": 8,
+      "dx_m": 0.34,
+      "reason": "Keep board on solid pier beside the mirrored wide screen."
+    },
+    {
+      "object": "Noticeboard felt.001",
+      "notice_vertices_moved": 8,
+      "dx_m": 0.34,
+      "reason": "Keep board on solid pier beside the mirrored wide screen."
+    },
+    {
+      "object": "Notice sheet.001",
+      "notice_vertices_moved": 32,
+      "dx_m": 0.34,
+      "reason": "Keep board on solid pier beside the mirrored wide screen."
+    },
+    {
+      "object": "Notice printed line.001",
+      "notice_vertices_moved": 160,
+      "dx_m": 0.34,
+      "reason": "Keep board on solid pier beside the mirrored wide screen."
+    }
+  ],
+  "camera04_before": {
+    "location": [
+      -38.0,
+      38.5,
+      10.017999649047852
+    ],
+    "rotation": [
+      1.4120711088180542,
+      2.85569097258076e-08,
+      -2.666581869125366
+    ],
+    "lens": 38.0
+  },
+  "camera04_after": {
+    "location": [
+      -20.0,
+      24.0,
+      3.0
+    ],
+    "rotation": [
+      1.5512868165969849,
+      8.740614276803171e-08,
+      3.1415927410125732
+    ],
+    "lens": 30.0
+  },
+  "retained_views": [],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ],
+  "uncertainty": "Visible facade arrangement is photo-guided; dimensions and hidden room details remain reconstructed.",
+  "final_gallery_note": "The initially retained03 was refreshed from the corrected scene so all four final views bind the current native source."
+}

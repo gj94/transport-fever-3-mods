@@ -1,0 +1,239 @@
+{
+  "base_blend_sha256": "bf51dc2fc200fe084f5d6f11e64fc5b9b65b70406fed7a5eae83d9a5e73b1844",
+  "repaired_blend_sha256": "e5c7c5504ed62f1e039714331f92bbb7a4320837289cd6b18b2a12061ad19ee9",
+  "repair_script_sha256": "9770e9f0e8d4772a909eb04b313bfac786c0537e24701750d6e6abded7860dca",
+  "changes": [
+    {
+      "object": "Kappil rose sloping veranda roof",
+      "old_vertices": [
+        [
+          0.800000011920929,
+          -5.0,
+          4.817999839782715
+        ],
+        [
+          22.200000762939453,
+          -5.0,
+          4.817999839782715
+        ],
+        [
+          22.200000762939453,
+          -8.199999809265137,
+          4.118000030517578
+        ],
+        [
+          0.800000011920929,
+          -8.199999809265137,
+          4.118000030517578
+        ]
+      ],
+      "new_vertices": [
+        [
+          0.8,
+          -5,
+          4.818
+        ],
+        [
+          22.2,
+          -5,
+          4.818
+        ],
+        [
+          22.2,
+          -8.2,
+          4.118
+        ],
+        [
+          0.8,
+          -8.2,
+          4.118
+        ],
+        [
+          0.8,
+          -5,
+          4.6979999999999995
+        ],
+        [
+          22.2,
+          -5,
+          4.6979999999999995
+        ],
+        [
+          22.2,
+          -8.2,
+          3.998
+        ],
+        [
+          0.8,
+          -8.2,
+          3.998
+        ]
+      ],
+      "reason": "Give the source-shaped sloping plane a visible physical edge and correct upper/lower normals."
+    },
+    {
+      "object": "Low blue parapet",
+      "material": "Kappil salmon plaster",
+      "reason": "Peach parapet backdrop with separate blue accents, as photographed."
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        2,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        5,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        8,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        11,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        14,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        17,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil platform-facing blue parapet accent",
+      "centre_m": [
+        20,
+        -5.14,
+        4.698
+      ],
+      "dimensions_m": [
+        1.15,
+        0.05,
+        0.3
+      ]
+    },
+    {
+      "object": "Kappil deep rose front fascia",
+      "centre_m": [
+        11.5,
+        -8.19,
+        4.066
+      ],
+      "dimensions_m": [
+        21.4,
+        0.15,
+        0.22
+      ]
+    },
+    {
+      "object": "Kappil rose support beam over peach piers",
+      "centre_m": [
+        11.5,
+        -7.9,
+        4.1
+      ],
+      "dimensions_m": [
+        20.6,
+        0.26,
+        0.2
+      ]
+    },
+    {
+      "object": "Veranda column",
+      "top_vertices_lowered": 20,
+      "new_top_z_m": 4.0
+    }
+  ],
+  "camera04_before": {
+    "location": [
+      -6.5,
+      36.0,
+      10.017999649047852
+    ],
+    "rotation": [
+      1.4120711088180542,
+      2.85569097258076e-08,
+      -2.666581869125366
+    ],
+    "lens": 38.0
+  },
+  "camera04_after": {
+    "location": [
+      -2.5,
+      -33.0,
+      8.300000190734863
+    ],
+    "rotation": [
+      1.3999806642532349,
+      -2.165397461340035e-08,
+      -0.46364760398864746
+    ],
+    "lens": 45.0
+  },
+  "observed_source": "KFI_facade_2017-10.png: peach block, blue parapet accents and prominent deep rose sloping veranda canopy.",
+  "uncertainty": "Roof thickness, fascia, dimensions and pier height are reconstructed from the distant photograph.",
+  "unchanged": "Track/platform/body/room/furniture geometry and all cameras except04. Existing canopy plan extent and pitch retained; support tops corrected under it; peach parapet and blue platform-facing accents follow the source.",
+  "retained_views": [
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png"
+  ]
+}

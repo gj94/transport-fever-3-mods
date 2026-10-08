@@ -1,0 +1,34 @@
+{
+  "base_blend_sha256": "2a5a0b12dafabbed96c539f52b195f04f5d8186fcfe17ce4daa8089fdfac9844",
+  "repaired_blend_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+  "repair_script_sha256": "b097e73e826d85305984a7c44697d5afc2b9ff712d3e4c29155f33a6e4c17a60",
+  "changes": [
+    {
+      "object": "Window glass pane",
+      "front_glazing_vertices_replaced": 56
+    },
+    {
+      "object": "Paravur reddish-brown divided wooden window leaf",
+      "material": "Weathered timber",
+      "vertices": 168
+    },
+    {
+      "object": "Paravur brown louvred leaf slat",
+      "material": "Weathered timber",
+      "vertices": 1176
+    },
+    {
+      "object": "Paravur retained blue upper transom pane",
+      "material": "Blue tinted glazing",
+      "vertices": 56
+    }
+  ],
+  "unchanged": "All walls/openings, doors/ramps, room furniture, tracks, platforms, roofs and cameras. Only front window infill changed below existing blue transoms.",
+  "retained_views": [],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ]
+}

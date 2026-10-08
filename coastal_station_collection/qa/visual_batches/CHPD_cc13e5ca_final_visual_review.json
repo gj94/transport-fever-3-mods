@@ -1,0 +1,58 @@
+{
+  "station": "CHPD",
+  "reviewed_utc": "2026-10-08T22:48:34.918183+00:00",
+  "status": "five_view_visual_source_complete_pass",
+  "source_scene_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "e256f99fe8c1b992c2076e05f57742dc4e064089b515a358d68719657bf31347",
+      "source_scene_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "840c3af3a7e31f2b99aa137c2aaca40501e0757ac93eaa2458a1ad215411596c",
+      "source_scene_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "40b4a182bfac94f4cc157f37754b32c7619fa1f4ca2ba1d1a661651eb0e6a7db",
+      "source_scene_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "ac077db2261d0aaa2fe8a10a71d1c169d246de6e35a3b370be762a5b25d13cc3",
+      "source_scene_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "6c10e36c855c4e190ce8d9f9a2ca79b9d4fa67350f27b9ac4a323e7fa8bddd9e",
+      "source_scene_sha256": "cc13e5ca1dff095eccabe8bd45e4b8ea52357279c81f77488ee562925e07938a",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/CHPD_public_hall_2019-10.png",
+      "sha256": "8f826c95b34236ec33d2def8954b8eb9144b431d0caa770f4920cc750d8019ae"
+    }
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/CHPD_review_2247.jpg",
+  "prior_review_reports": [],
+  "observations": [
+    "All five current gallery frames inspected against the observed2019 public entrance photograph. Cream/salmon entrance palette, white entry trim, rectangular opening and dark exterior information panels are recognizable.",
+    "Overall mapped tracks/approaches, station entrance, platform corridor and turnout detail are readable and train-free; the repaired entry band does not visually span the open doorway.",
+    "04 clearly presents a furnished reconstructed waiting/booking room with seating, desk and counter; its furniture, checker-pattern floor and side-room layout are inferred, not an exact reproduction of the photographed plain dark-floor public through-hall.",
+    "No material geometry obstruction or further visual correction requested; exact current public-hall appearance is not claimed by this source-guided reconstruction."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

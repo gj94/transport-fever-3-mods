@@ -1,0 +1,1104 @@
+{
+  "code": "MQU",
+  "name": "Murukkampuzha",
+  "metadata": {
+    "sequence": "37",
+    "station_code": "MQU",
+    "station_name": "Murukkampuzha",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "198.70",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "184.38",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "2",
+    "mapped_platform_bodies": "2",
+    "mapped_numbered_platform_positions": "2",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "3",
+    "mapped_connected_loops": "1",
+    "mapped_nonloop_sidings": "1",
+    "mapped_total_tracks_all_types": "4",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Two main roads plus western connected loop and southern dead-end extension. Two outer-side platform polygons. Proposed standard-gauge Silver Line excluded from existing rail inventory.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2018-11-06T16:30:15Z / 2026-07-20T06:27:21Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.8212450,8.6046300,76.8392450,8.6226300",
+    "mapped_rail_way_ids": "90772767;608428982;641627321;641627322;641627325;796439515;796439516;827889067;827889068;965152762;1536886962",
+    "mapped_platform_way_ids": "1409282832;1409282833",
+    "mapped_excluded_nonoperational_way_ids": "954581495",
+    "mapped_source_record": "middle_observations.json#MQU",
+    "map_latitude": "8.6131373",
+    "map_longitude": "76.8304901",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "",
+    "wikipedia_reported_tracks": "",
+    "wikipedia_platforms_numeric": "",
+    "wikipedia_tracks_numeric": "",
+    "wikipedia_platform_field_raw": "",
+    "wikipedia_tracks_field_raw": "",
+    "wikipedia_article_url": "",
+    "wikipedia_revision_url": "",
+    "wikipedia_revision_id": "",
+    "wikipedia_revision_timestamp": "",
+    "wikipedia_accessed_date": "",
+    "wikipedia_platform_inline_citation_present": "",
+    "wikipedia_tracks_inline_citation_present": "",
+    "wikipedia_conflict_notes": "Standalone English station article not found under tested title; alternate titles or other-language coverage may exist.",
+    "wikipedia_lookup_status": "Tested English title missing; aliases/languages may exist",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "",
+    "wikipedia_count_source_class": "",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "2",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 2",
+    "iri_source_url": "https://d.indiarailinfo.com/station/map/murukkampuzha-mqu/2782",
+    "iri_profile_updated_raw": "Oct 04 2024 (19:13)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure.",
+    "reported_platform_count": "2",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "2I",
+    "reported_platform_source_url": "https://d.indiarailinfo.com/station/map/murukkampuzha-mqu/2782",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "2782",
+    "iri_heading_station_code": "MQU",
+    "iri_heading_raw": "MQU/Murukkampuzha (2 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "NO_WIKIPEDIA_FIGURE",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "2024",
+    "iri_source_reference": "turn215search2",
+    "iri_search_index_crawl_age_raw": "4 months ago",
+    "iri_slug_identity_status": "Heading and numeric ID agree; no contradictory named slug selected",
+    "iri_source_evidence_file": "sources/iri_middle_batch5_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "2024-10-04T19:13",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "NOT_STATED",
+    "comparison_wikipedia_platform_source": "NOT_FOUND",
+    "comparison_wikipedia_revision_timestamp": "NOT_FOUND",
+    "comparison_wikipedia_platform_agreement": "NO_NUMERIC_WIKIPEDIA_PLATFORM_FIGURE",
+    "iri_explicit_platform_field_update_raw": "NOT_RECOVERED",
+    "iri_timeline_evidence_url": "NOT_REVIEWED_SEPARATELY",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "Existing Wikipedia register has no numeric platform count to compare.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "config": {
+    "length": 510,
+    "building": [
+      31,
+      9
+    ],
+    "roof": "flat",
+    "color": [
+      0.84,
+      0.64,
+      0.28
+    ],
+    "pfwidth": 6,
+    "bridge": true,
+    "halt": false,
+    "envelope": 850,
+    "architecture": "mqu_louvers",
+    "bridge_x": 60,
+    "primary_platform_id": "1409282833",
+    "photo_basis": "Google Maps Aneeshraj BT April2022 louvered low flat-parapet street facade, Anjali S Nair November2022 golden platform facade with orange bands/maroon shutters and colored pots, plus undated satellite two outer platforms around three roads. Southwest platform width reconstructed5.5m because mapped footprint is imprecise."
+  },
+  "transform": {
+    "origin_lonlat": [
+      76.8304901,
+      8.6131373
+    ],
+    "x_axis_east_north": [
+      0.6886851127766339,
+      -0.7250605598429933
+    ],
+    "y_axis_east_north": [
+      0.7250605598429933,
+      0.6886851127766339
+    ],
+    "units": "metres",
+    "geodetic": "Local equirectangular, appropriate short model extent"
+  },
+  "ways": [
+    {
+      "id": "90772767",
+      "source_id": "90772767",
+      "xy": [
+        [
+          -850.0,
+          77.7900786306799
+        ],
+        [
+          -832.5265213843259,
+          77.11521758743896
+        ],
+        [
+          -705.6454240281896,
+          67.17106692911346
+        ],
+        [
+          -652.8000107603934,
+          63.852834796032255
+        ],
+        [
+          -477.9830655310959,
+          50.65415567043934
+        ],
+        [
+          -265.84517287936865,
+          34.32519983669373
+        ],
+        [
+          -111.98930030366364,
+          24.049527016289694
+        ],
+        [
+          -46.79770703465196,
+          22.31741045793513
+        ],
+        [
+          19.760022178736342,
+          21.959383850368628
+        ],
+        [
+          144.3408740816872,
+          28.469323071202197
+        ],
+        [
+          311.1848594009391,
+          44.885039328363405
+        ],
+        [
+          368.1483459530157,
+          52.258538995890916
+        ],
+        [
+          424.2875320663932,
+          57.014654166406416
+        ],
+        [
+          521.9893019490638,
+          66.30029117244538
+        ],
+        [
+          754.8932069644802,
+          91.25574242468878
+        ],
+        [
+          778.9778639681379,
+          93.83632512906615
+        ],
+        [
+          850.0,
+          101.93894437448485
+        ]
+      ],
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "timestamp": "2026-01-06T10:54:07Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    },
+    {
+      "id": "608428982",
+      "source_id": "608428982",
+      "xy": [
+        [
+          850.0,
+          95.62644560326542
+        ],
+        [
+          777.268682621981,
+          87.97599519172769
+        ],
+        [
+          754.3932749137048,
+          85.40051347071085
+        ],
+        [
+          522.4325785278106,
+          61.036817970583684
+        ],
+        [
+          429.8006110460841,
+          52.096940968045544
+        ],
+        [
+          415.24102678099973,
+          50.70049969107359
+        ],
+        [
+          310.06846820251116,
+          39.3117415236311
+        ],
+        [
+          144.5717234623114,
+          22.709337636261914
+        ],
+        [
+          20.304506923024853,
+          16.14437854192311
+        ],
+        [
+          -40.921915335569885,
+          16.144378541923107
+        ],
+        [
+          -115.73387991353329,
+          18.710737313792762
+        ],
+        [
+          -264.6632877790927,
+          28.87629487567422
+        ],
+        [
+          -397.8604670612168,
+          38.39849667518652
+        ],
+        [
+          -491.506207613216,
+          44.82739842781859
+        ],
+        [
+          -706.1510185644644,
+          59.56033081719687
+        ],
+        [
+          -850.0,
+          60.666955853272626
+        ]
+      ],
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "timestamp": "2026-07-09T05:00:08Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    },
+    {
+      "id": "641627321",
+      "source_id": "641627321",
+      "xy": [
+        [
+          521.9893019490638,
+          66.30029117244538
+        ],
+        [
+          429.8006110460841,
+          52.096940968045544
+        ]
+      ],
+      "tags": {
+        "railway": "rail",
+        "service": "crossover"
+      },
+      "timestamp": "2018-11-06T16:30:15Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    },
+    {
+      "id": "641627322",
+      "source_id": "641627322",
+      "xy": [
+        [
+          425.9637077678808,
+          47.27088450574814
+        ],
+        [
+          321.2699235434516,
+          34.94161000241925
+        ],
+        [
+          308.3794177684942,
+          33.56891104854998
+        ],
+        [
+          268.852360609881,
+          29.352629705258593
+        ],
+        [
+          107.00834685769635,
+          14.108003353346838
+        ],
+        [
+          47.78251662114259,
+          10.917474637484819
+        ],
+        [
+          -35.317698439294375,
+          9.637274966610894
+        ],
+        [
+          -140.06129362524698,
+          13.643503914099824
+        ],
+        [
+          -234.1617640739585,
+          20.99008382564257
+        ],
+        [
+          -334.0858054074364,
+          28.16037480116546
+        ],
+        [
+          -399.9999679737281,
+          32.020914747045225
+        ],
+        [
+          -416.4435290236394,
+          32.990775147696695
+        ],
+        [
+          -518.8862292938447,
+          38.986055593742066
+        ]
+      ],
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "timestamp": "2026-07-09T15:19:18Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    },
+    {
+      "id": "641627325",
+      "source_id": "641627325",
+      "xy": [
+        [
+          415.24102678099973,
+          50.70049969107359
+        ],
+        [
+          321.2699235434516,
+          34.94161000241925
+        ]
+      ],
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "timestamp": "2018-11-06T16:30:15Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    },
+    {
+      "id": "1536886962",
+      "source_id": "1536886962",
+      "xy": [
+        [
+          -416.4435290236394,
+          32.990775147696695
+        ],
+        [
+          -491.506207613216,
+          44.82739842781859
+        ]
+      ],
+      "tags": {
+        "gauge": "1676",
+        "railway": "rail",
+        "service": "crossover"
+      },
+      "timestamp": "2026-07-09T15:19:18Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "1409282832",
+      "xy": [
+        [
+          -243.79590455299953,
+          39.38553985592996
+        ],
+        [
+          -177.81252413335156,
+          36.400417606909755
+        ],
+        [
+          -137.4998557004161,
+          34.269063189629634
+        ],
+        [
+          -38.707940163051504,
+          31.04312963691649
+        ],
+        [
+          3.9814919635078176,
+          32.377129080393
+        ],
+        [
+          71.10715656921326,
+          31.79844074545528
+        ],
+        [
+          115.02858752062184,
+          35.11969928912272
+        ],
+        [
+          210.7283823139703,
+          44.287928241114116
+        ],
+        [
+          283.66374132346374,
+          52.21737543608158
+        ],
+        [
+          283.9898394781805,
+          46.95894161471256
+        ],
+        [
+          283.8786444964087,
+          46.94632858096494
+        ],
+        [
+          283.9898394781805,
+          44.21898886354204
+        ],
+        [
+          144.1906947549301,
+          30.464204186231356
+        ],
+        [
+          19.71317892833567,
+          23.959664764533244
+        ],
+        [
+          -46.765764082474774,
+          24.31726756622227
+        ],
+        [
+          -111.89606332817446,
+          26.047755565012892
+        ],
+        [
+          -265.70178371463027,
+          36.320078838341956
+        ],
+        [
+          -273.23913498129895,
+          36.90025371609903
+        ],
+        [
+          -273.1961132624572,
+          38.97634623267923
+        ],
+        [
+          -273.23913498129895,
+          38.980127959013245
+        ],
+        [
+          -273.15120949079125,
+          41.1432606849978
+        ],
+        [
+          -243.79590455299953,
+          39.38553985592996
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification; northeast railward edge completed parallel to road90772767 at2.0m model clearance; original outer boundary/extent retained, satellite establishes adjacency but exact dimensions estimated",
+      "tags": {
+        "name": "Murukkampuzha",
+        "name:ml": "\u0d2e\u0d41\u0d30\u0d41\u0d15\u0d4d\u0d15\u0d2e\u0d4d\u0d2a\u0d41\u0d34",
+        "public_transport": "platform",
+        "railway": "platform",
+        "train": "yes"
+      },
+      "timestamp": "2026-07-09T15:19:18Z"
+    },
+    {
+      "id": "1409282833",
+      "xy": [
+        [
+          -289.790188157028,
+          22.976693263704764
+        ],
+        [
+          -234.31117374008403,
+          18.995662561822606
+        ],
+        [
+          -140.17739415573521,
+          11.64648215077569
+        ],
+        [
+          -35.340531206521675,
+          7.6366859015115995
+        ],
+        [
+          47.851738382577444,
+          8.918303717659999
+        ],
+        [
+          107.15597698337591,
+          12.113056336111265
+        ],
+        [
+          269.05221298088696,
+          27.36260167513167
+        ],
+        [
+          289.1335210580701,
+          29.504639324303433
+        ],
+        [
+          289.7168869256629,
+          24.035664624734267
+        ],
+        [
+          269.60180700115274,
+          21.89002459228256
+        ],
+        [
+          107.56195982899476,
+          6.626952038713442
+        ],
+        [
+          48.04209822652328,
+          3.420583688141742
+        ],
+        [
+          -35.403321316396735,
+          2.1350659724885395
+        ],
+        [
+          -140.4966706145778,
+          6.154672301634318
+        ],
+        [
+          -234.72205032192838,
+          13.51100408631763
+        ],
+        [
+          -290.18384175870654,
+          17.4907989116519
+        ],
+        [
+          -289.790188157028,
+          22.976693263704764
+        ]
+      ],
+      "basis": "Google satellite visually confirms normal-width southwest outer platform beside red-roof station and silver canopy. Imprecise OSM footprint realigned parallel to source western loop with approximate5.5m width; original preserved in raw_platforms.",
+      "tags": {
+        "name": "Murukkampuzha",
+        "name:ml": "\u0d2e\u0d41\u0d30\u0d41\u0d15\u0d4d\u0d15\u0d2e\u0d4d\u0d2a\u0d41\u0d34",
+        "public_transport": "platform",
+        "railway": "platform",
+        "train": "yes"
+      },
+      "timestamp": "2026-07-09T15:19:18Z"
+    }
+  ],
+  "raw_platforms": [
+    {
+      "id": "1409282832",
+      "xy": [
+        [
+          -273.15120949079125,
+          41.1432606849978
+        ],
+        [
+          -243.79590455299953,
+          39.38553985592996
+        ],
+        [
+          -177.81252413335156,
+          36.400417606909755
+        ],
+        [
+          -137.4998557004161,
+          34.269063189629634
+        ],
+        [
+          -38.707940163051504,
+          31.04312963691649
+        ],
+        [
+          3.9814919635078176,
+          32.377129080393
+        ],
+        [
+          71.10715656921326,
+          31.79844074545528
+        ],
+        [
+          115.02858752062184,
+          35.11969928912272
+        ],
+        [
+          210.7283823139703,
+          44.287928241114116
+        ],
+        [
+          283.66374132346374,
+          52.21737543608158
+        ],
+        [
+          283.9898394781805,
+          46.95894161471256
+        ],
+        [
+          206.02394186873153,
+          38.11513875560763
+        ],
+        [
+          71.69458113603083,
+          27.521374841165375
+        ],
+        [
+          -3.4144547387250554,
+          25.07206445331221
+        ],
+        [
+          -48.867200832612454,
+          25.740364758015144
+        ],
+        [
+          -128.28472126746163,
+          29.220173059113414
+        ],
+        [
+          -195.83559655534867,
+          32.17614598218913
+        ],
+        [
+          -273.23913498129895,
+          38.980127959013245
+        ],
+        [
+          -273.15120949079125,
+          41.1432606849978
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification",
+      "tags": {
+        "name": "Murukkampuzha",
+        "name:ml": "\u0d2e\u0d41\u0d30\u0d41\u0d15\u0d4d\u0d15\u0d2e\u0d4d\u0d2a\u0d41\u0d34",
+        "public_transport": "platform",
+        "railway": "platform",
+        "train": "yes"
+      },
+      "timestamp": "2026-07-09T15:19:18Z"
+    },
+    {
+      "id": "1409282833",
+      "xy": [
+        [
+          24.741831987067975,
+          6.434491569354709
+        ],
+        [
+          -85.67014658002384,
+          7.217640495724432
+        ],
+        [
+          -169.72006408789775,
+          11.454232376329799
+        ],
+        [
+          -259.0681622806202,
+          18.218493454434736
+        ],
+        [
+          -295.4735525862889,
+          21.253327930973512
+        ],
+        [
+          -295.16891089502815,
+          24.318760355679814
+        ],
+        [
+          -238.65791880309695,
+          19.659233996084623
+        ],
+        [
+          -171.28878491760491,
+          14.826578248007394
+        ],
+        [
+          -106.78119826401489,
+          11.042103952838445
+        ],
+        [
+          -60.07248743889704,
+          8.983508590055962
+        ],
+        [
+          -27.989644040971264,
+          7.6255561859608605
+        ],
+        [
+          41.7561443618721,
+          9.339907729333394
+        ],
+        [
+          68.69333575354128,
+          10.076327119842656
+        ],
+        [
+          137.50357406138295,
+          14.561619241337837
+        ],
+        [
+          241.0591753729926,
+          24.617184743357512
+        ],
+        [
+          286.0877873641988,
+          30.484479599044278
+        ],
+        [
+          286.02364963616924,
+          26.628947240667515
+        ],
+        [
+          206.08211434821186,
+          16.443496444017512
+        ],
+        [
+          68.81701757853654,
+          5.920957512504895
+        ],
+        [
+          24.741831987067975,
+          6.434491569354709
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification",
+      "tags": {
+        "name": "Murukkampuzha",
+        "name:ml": "\u0d2e\u0d41\u0d30\u0d41\u0d15\u0d4d\u0d15\u0d2e\u0d4d\u0d2a\u0d41\u0d34",
+        "public_transport": "platform",
+        "railway": "platform",
+        "train": "yes"
+      },
+      "timestamp": "2026-07-09T15:19:18Z"
+    }
+  ],
+  "platform_corrections": [
+    {
+      "platform_id": "1409282833",
+      "reason": "Satellite rejects sub1m clipped ribbon. Reconstructed a connected normal-width platform parallel to western loop; width approximate, not surveyed.",
+      "original_area_m2": 1836.5239386515882,
+      "adopted_area_m2": 3194.6484041987665,
+      "width_m": 5.5
+    },
+    {
+      "platform_id": "1409282832",
+      "adjacent_road_id": "90772767",
+      "raw_polygon_preserved": true,
+      "previous_adopted_polygon": [
+        [
+          -273.15120949079125,
+          41.1432606849978
+        ],
+        [
+          -243.79590455299953,
+          39.38553985592996
+        ],
+        [
+          -177.81252413335156,
+          36.400417606909755
+        ],
+        [
+          -137.4998557004161,
+          34.269063189629634
+        ],
+        [
+          -38.707940163051504,
+          31.04312963691649
+        ],
+        [
+          3.9814919635078176,
+          32.377129080393
+        ],
+        [
+          71.10715656921326,
+          31.79844074545528
+        ],
+        [
+          115.02858752062184,
+          35.11969928912272
+        ],
+        [
+          210.7283823139703,
+          44.287928241114116
+        ],
+        [
+          283.66374132346374,
+          52.21737543608158
+        ],
+        [
+          283.9898394781805,
+          46.95894161471256
+        ],
+        [
+          206.02394186873153,
+          38.11513875560763
+        ],
+        [
+          71.69458113603083,
+          27.521374841165375
+        ],
+        [
+          -3.4144547387250554,
+          25.07206445331221
+        ],
+        [
+          -48.867200832612454,
+          25.740364758015144
+        ],
+        [
+          -128.28472126746163,
+          29.220173059113414
+        ],
+        [
+          -195.83559655534867,
+          32.17614598218913
+        ],
+        [
+          -273.23913498129895,
+          38.980127959013245
+        ],
+        [
+          -273.15120949079125,
+          41.1432606849978
+        ]
+      ],
+      "adopted_polygon": [
+        [
+          -243.79590455299953,
+          39.38553985592996
+        ],
+        [
+          -177.81252413335156,
+          36.400417606909755
+        ],
+        [
+          -137.4998557004161,
+          34.269063189629634
+        ],
+        [
+          -38.707940163051504,
+          31.04312963691649
+        ],
+        [
+          3.9814919635078176,
+          32.377129080393
+        ],
+        [
+          71.10715656921326,
+          31.79844074545528
+        ],
+        [
+          115.02858752062184,
+          35.11969928912272
+        ],
+        [
+          210.7283823139703,
+          44.287928241114116
+        ],
+        [
+          283.66374132346374,
+          52.21737543608158
+        ],
+        [
+          283.9898394781805,
+          46.95894161471256
+        ],
+        [
+          283.8786444964087,
+          46.94632858096494
+        ],
+        [
+          283.9898394781805,
+          44.21898886354204
+        ],
+        [
+          144.1906947549301,
+          30.464204186231356
+        ],
+        [
+          19.71317892833567,
+          23.959664764533244
+        ],
+        [
+          -46.765764082474774,
+          24.31726756622227
+        ],
+        [
+          -111.89606332817446,
+          26.047755565012892
+        ],
+        [
+          -265.70178371463027,
+          36.320078838341956
+        ],
+        [
+          -273.23913498129895,
+          36.90025371609903
+        ],
+        [
+          -273.1961132624572,
+          38.97634623267923
+        ],
+        [
+          -273.23913498129895,
+          38.980127959013245
+        ],
+        [
+          -273.15120949079125,
+          41.1432606849978
+        ],
+        [
+          -243.79590455299953,
+          39.38553985592996
+        ]
+      ],
+      "previous_rail_distance_m": 2.521104970074679,
+      "adopted_rail_distance_m": 1.9999999999999956,
+      "added_surface_area_m2": 939.9264129671446,
+      "old_inner_edge": [
+        [
+          283.9898394781805,
+          46.95894161471256
+        ],
+        [
+          206.02394186873153,
+          38.11513875560763
+        ],
+        [
+          71.69458113603083,
+          27.521374841165375
+        ],
+        [
+          -3.4144547387250554,
+          25.07206445331221
+        ],
+        [
+          -48.867200832612454,
+          25.740364758015144
+        ],
+        [
+          -128.28472126746163,
+          29.220173059113414
+        ],
+        [
+          -195.83559655534867,
+          32.17614598218913
+        ],
+        [
+          -273.23913498129895,
+          38.980127959013245
+        ]
+      ],
+      "new_inner_edge": [
+        [
+          283.9898394781805,
+          44.21898886354204
+        ],
+        [
+          144.1906947549301,
+          30.464204186231356
+        ],
+        [
+          19.71317892833567,
+          23.959664764533244
+        ],
+        [
+          -46.765764082474774,
+          24.31726756622227
+        ],
+        [
+          -111.89606332817446,
+          26.047755565012892
+        ],
+        [
+          -265.70178371463027,
+          36.320078838341956
+        ],
+        [
+          -273.23913498129895,
+          36.90025371609903
+        ]
+      ],
+      "basis": "MQU_satellite_undated.png shows two developed outer bodies around three rail alignments, with northeast boarding edge alongside outer road; exact edge dimension reconstructed",
+      "accessed_date": "2026-10-08",
+      "image_capture_date": "not exposed",
+      "scope": "Only additive boarding surface, coping, safety edge and paving joints. Existing furniture, bridge, building and rails remain unchanged."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "954581495",
+      "reason": "proposed",
+      "tags": {
+        "name": "Thiruvananthapuram\u2013Kasargode Semi High Speed Silver Line Rail Corridor",
+        "proposed": "rail",
+        "proposed:electrified": "contact_line",
+        "proposed:frequency": "50",
+        "proposed:gauge": "1435",
+        "proposed:maxspeed": "200",
+        "proposed:railway": "rail",
+        "proposed:railway:etcs": "2",
+        "proposed:voltage": "25000",
+        "railway": "proposed",
+        "usage": "main",
+        "website": "https://keralarail.com/",
+        "wikidata": "Q7785511"
+      }
+    }
+  ],
+  "cross_section_y": [
+    10.18,
+    16.14,
+    22.07
+  ]
+}

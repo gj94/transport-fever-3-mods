@@ -1,0 +1,36 @@
+{
+  "station": "CRY",
+  "authoritative_blend": "CRY_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+  "glb_file": "CRY_coastal_station_v01.glb",
+  "glb_sha256": "1e8a5cc13406019b2ecceeff0945230b648523d252c4a46d1743ac5cbf5fcb95",
+  "glb_bytes": 46466952,
+  "source_mesh_objects": 205,
+  "source_vertices": 551483,
+  "elapsed_seconds": 0.9058737754821777,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "CRY_coastal_station_v01.glb.zip",
+  "zip_sha256": "39fb113ecfae422810cd09652d30a31a451ca5de8a4c5566a04f83b68f362731",
+  "zip_bytes": 5978936,
+  "roundtrip_mesh_objects": 205,
+  "roundtrip_vertices": 1566124,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -4.0
+    ],
+    [
+      1135.0,
+      265.0,
+      12.553532600402832
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

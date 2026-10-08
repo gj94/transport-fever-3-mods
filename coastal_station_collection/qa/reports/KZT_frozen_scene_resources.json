@@ -1,0 +1,288 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/kzt/KZT_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 941,
+  "object_types": {
+    "MESH": 900,
+    "FONT": 29,
+    "LIGHT": 7,
+    "CAMERA": 5
+  },
+  "unique_meshes": 900,
+  "unique_vertices": 491694,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -83.44965362548828,
+      -12.512367248535156
+    ],
+    [
+      895.0,
+      418.5943603515625,
+      11.839720726013184
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "KZT",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_PHYSICAL_POINTWORK"
+  ],
+  "circulation_rays": {
+    "central_public_entry": {
+      "from": [
+        0.0,
+        14.709085464477539,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        -1.29091477394104,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda": {
+      "from": [
+        -14.0,
+        14.709085464477539,
+        2.3499999046325684
+      ],
+      "to": [
+        -14.0,
+        12.509084701538086,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry": {
+      "from": [
+        -14.0,
+        12.509084701538086,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        12.509084701538086,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_veranda_lateral_-0.35": {
+      "from": [
+        -14.350000381469727,
+        14.209085464477539,
+        2.3499999046325684
+      ],
+      "to": [
+        -14.350000381469727,
+        12.509084701538086,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_veranda_lateral_0.35": {
+      "from": [
+        -13.649999618530273,
+        14.209085464477539,
+        2.3499999046325684
+      ],
+      "to": [
+        -13.649999618530273,
+        12.509084701538086,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_bodypath": {
+      "from": [
+        -14.0,
+        26.009084701538086,
+        0.7599999904632568
+      ],
+      "to": [
+        -14.0,
+        14.409085273742676,
+        1.8899999856948853
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_low_clearance": {
+      "from": [
+        -14.0,
+        26.009084701538086,
+        0.05000000074505806
+      ],
+      "to": [
+        -14.0,
+        14.409085273742676,
+        1.190000057220459
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_low": {
+      "from": [
+        25.0,
+        3.259085178375244,
+        1.3049999475479126
+      ],
+      "to": [
+        25.0,
+        -0.7800379991531372,
+        1.2640000581741333
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_waist": {
+      "from": [
+        25.0,
+        3.259085178375244,
+        1.9049999713897705
+      ],
+      "to": [
+        25.0,
+        -0.7800379991531372,
+        1.8639999628067017
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_head": {
+      "from": [
+        25.0,
+        3.259085178375244,
+        2.6050000190734863
+      ],
+      "to": [
+        25.0,
+        -0.7800379991531372,
+        2.563999891281128
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_1_upper_mouth": {
+      "from": [
+        -67.0,
+        -17.362903594970703,
+        9.050000190734863
+      ],
+      "to": [
+        -70.0,
+        -17.362903594970703,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_1_toe": {
+      "from": [
+        -54.125,
+        -17.362903594970703,
+        2.450000047683716
+      ],
+      "to": [
+        -55.525001525878906,
+        -17.362903594970703,
+        2.450000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_2_upper_mouth": {
+      "from": [
+        -67.0,
+        -3.402139663696289,
+        9.050000190734863
+      ],
+      "to": [
+        -70.0,
+        -3.402139663696289,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_2_toe": {
+      "from": [
+        -54.125,
+        -3.402139663696289,
+        2.450000047683716
+      ],
+      "to": [
+        -55.525001525878906,
+        -3.402139663696289,
+        2.450000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702"
+}

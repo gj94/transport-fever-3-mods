@@ -1,0 +1,51 @@
+{
+  "station_code": "PVU",
+  "blend": "PVU_coastal_station_v01.blend",
+  "generated_at_unix": 1791495152.5597034,
+  "builder_sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e",
+  "source_adopted_sha256": "9396356ceb5d7165a9f4ed386d6c85f9e50993c8e7cccc39ce4d5e0c0d1568a8",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "3",
+  "physical_platform_bodies": 2,
+  "track_routes": 12,
+  "track_route_total_length_m": 7063.526449716807,
+  "mapped_switch_nodes": 12,
+  "mapped_true_service_buffers": 2,
+  "mesh_objects": 233,
+  "total_objects": 260,
+  "vertices": 791820,
+  "polygons": 584087,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000011340581093,
+      "clearance_m": 1.9199999999999993
+    },
+    {
+      "label": "2;3",
+      "basis": "reconstructed island body in widest mapped station-road gap; face assignment unverified",
+      "width_min_sample_m": 7.276268112117163,
+      "clearance_m": 1.9199999999999984
+    }
+  ],
+  "corrections": [],
+  "notes": "Mapped42m station envelope, three reported positions in side plus island arrangement. Extra mapped yard road and true dead-end extensions included. May2023 facade photo guides white walls/blue lower band, grey sheet roof, dark-red fascia, blue window transoms and long sunshade.",
+  "revision": "PVU revision03: photographed lower window leaves are divided/louvred reddish-brown timber; blue is limited to the upper transoms. Walls, openings and public circulation unchanged.",
+  "base_blend_sha256": "2a5a0b12dafabbed96c539f52b195f04f5d8186fcfe17ce4daa8089fdfac9844",
+  "repair_script_sha256": "b097e73e826d85305984a7c44697d5afc2b9ff712d3e4c29155f33a6e4c17a60"
+}

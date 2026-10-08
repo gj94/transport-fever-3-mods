@@ -1,0 +1,486 @@
+{
+  "station": "TZH",
+  "status": "frozen_for_independent_material_gate",
+  "revision": "portable_colour_revision_02",
+  "source_blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+  "original_source_gallery_manifest": "coastal_stations_overnight/north/TZH/MANIFEST.json",
+  "original_source_gallery_manifest_sha256": "3238e34013364884ed17277adec3302317986711d2c26cf0861bd6908e080315",
+  "native_scene_and_render_bytes_unchanged": true,
+  "retained_assets": [
+    {
+      "path": "coastal_stations_overnight/north/TZH/TZH_coastal_station_v01.blend",
+      "relative_station_path": "TZH_coastal_station_v01.blend",
+      "sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "size": 11595510
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "89a8306d6db35ad01d09a30e6abc8dfd25874673dd397b2edadc2d538c9d967b",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "d65532c74cb326147b437a9303ca9c69fdbe2e606328698bb6d6bcd09a4751cb",
+      "size": 1576300
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "e5d101b33359773acd4838061c404b61800d711a10c02e5ff9681513dcb912bc",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "f65d858108f24ea5699a9df299fe35cc70259000d8e03daddd6222289b660a14",
+      "size": 1432489
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "8ea2667949a322a98e5260da0a64b89ee588be5edba59c4e86efd0ac878eb3e8",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "4fb6a5a675811486f1384aba70b3be459bd7dc1c29ed9702c5026ca29e93ce93",
+      "size": 1340046
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "c8008edc54ef58e1ce1eb582ebaa11c84a49f4c4173a3795d1a324b9400ad476",
+      "size": 567
+    },
+    {
+      "path": "coastal_stations_overnight/north/TZH/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "050221eb1984540ca29fc6428efc44c4d0a73ee1ba808c65f898e50ce405267d",
+      "size": 1396116
+    }
+  ],
+  "portable_replacements": [
+    {
+      "old_glb_sha256": "a8bdbb5c926a1fc3e1993528d9434e9772fa6df8bb2a7955d28b1e6f7cbad522",
+      "new_glb_sha256": "f45e5ca5fdb010c19f142f9687804536977ad780b545f6754510b1803215a210",
+      "changed_materials": [
+        {
+          "index": 0,
+          "name": "ballast",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.2800000011920929,
+            0.25,
+            0.20999999344348907,
+            1.0
+          ]
+        },
+        {
+          "index": 1,
+          "name": "railweb",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.25,
+            0.14000000059604645,
+            0.07500000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "name": "sleeper",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.3799999952316284,
+            1.0
+          ]
+        },
+        {
+          "index": 5,
+          "name": "steel",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.3700000047683716,
+            0.41999998688697815,
+            0.4000000059604645,
+            1.0
+          ]
+        },
+        {
+          "index": 6,
+          "name": "stone",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.5099999904632568,
+            0.5099999904632568,
+            0.4300000071525574,
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "name": "red",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.46000000834465027,
+            0.10499999672174454,
+            0.06499999761581421,
+            1.0
+          ]
+        },
+        {
+          "index": 9,
+          "name": "white",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.8500000238418579,
+            0.8700000047683716,
+            0.8299999833106995,
+            1.0
+          ]
+        },
+        {
+          "index": 10,
+          "name": "yellow",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.9300000071525574,
+            0.6399999856948853,
+            0.05999999865889549,
+            1.0
+          ]
+        },
+        {
+          "index": 11,
+          "name": "pavers",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.5,
+            0.25999999046325684,
+            0.1899999976158142,
+            1.0
+          ]
+        },
+        {
+          "index": 13,
+          "name": "roof",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.3700000047683716,
+            0.4000000059604645,
+            0.3700000047683716,
+            1.0
+          ]
+        },
+        {
+          "index": 14,
+          "name": "roofblue",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.03500000014901161,
+            0.23999999463558197,
+            0.5699999928474426,
+            1.0
+          ]
+        },
+        {
+          "index": 16,
+          "name": "cream",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.8500000238418579,
+            0.7699999809265137,
+            0.5199999809265137,
+            1.0
+          ]
+        },
+        {
+          "index": 18,
+          "name": "wood",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.27000001072883606,
+            0.12999999523162842,
+            0.05000000074505806,
+            1.0
+          ]
+        },
+        {
+          "index": 19,
+          "name": "orange",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.8500000238418579,
+            0.3199999928474426,
+            0.054999999701976776,
+            1.0
+          ]
+        },
+        {
+          "index": 20,
+          "name": "ivory",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.800000011920929,
+            0.7699999809265137,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "index": 21,
+          "name": "blue",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.05999999865889549,
+            0.23000000417232513,
+            0.3499999940395355,
+            1.0
+          ]
+        },
+        {
+          "index": 22,
+          "name": "water",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.09000000357627869,
+            0.25,
+            0.2199999988079071,
+            1.0
+          ]
+        },
+        {
+          "index": 23,
+          "name": "ground",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.2800000011920929,
+            0.3400000035762787,
+            0.17000000178813934,
+            1.0
+          ]
+        },
+        {
+          "index": 24,
+          "name": "road",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ]
+        },
+        {
+          "index": 25,
+          "name": "leaflight",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.18000000715255737,
+            0.3199999928474426,
+            0.07500000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 26,
+          "name": "leaf",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.10000000149011612,
+            0.23999999463558197,
+            0.054999999701976776,
+            1.0
+          ]
+        }
+      ],
+      "binary_chunks": [
+        {
+          "type": 5130562,
+          "bytes": 50254228,
+          "unchanged_sha256": "3ca182c8026031ba90bce724c0c2715ff288d04b58ecaf2ef4e8c85ab6fd347a"
+        }
+      ],
+      "binary_identical": true,
+      "all_non_colour_json_identical": true,
+      "alpha_semantics_unchanged": true,
+      "existing_factors_and_textures_unchanged": true,
+      "station_code": "TZH",
+      "source_scene": null,
+      "source_blend_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "source_glb": "coastal_stations_overnight/north/TZH/exports/TZH_coastal_station_v01.glb",
+      "source_glb_bytes": 50326368,
+      "corrected_glb_bytes": 50328040,
+      "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_colour_v02.glb.zip",
+      "zip_member": "TZH_coastal_station_v01_colour_v02.glb",
+      "zip_sha256": "994a8ad5143c86d48cfbcf8290295a42cfaa9d3a1b510ed2754bde81e72ec0e8",
+      "zip_bytes": 6735939,
+      "zip_lossless_verified": true,
+      "source_palette_sha256": "62b128e39d201a1fd748447cb8d468c3bd7e362619f3033e4ebf282f106e5cd3",
+      "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "proof_file": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_COLOUR_QA.json",
+      "independent_validation_file": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_INDEPENDENT_VALIDATION.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/ORIGINAL_EXPORT_QA.json",
+      "sha256": "6cb134ed58e6fec52a2f77b850a500f85e963b75c65a840decce682c76e0c946",
+      "size": 524
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/PATCH_SOURCE.py",
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "size": 1723
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/README.md",
+      "sha256": "9be9b012204407d6f46721876c018ae7e2bcdd1627e7baaabeea6a6a5f8b4b02",
+      "size": 1125
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/REVISION_BUILDER.py",
+      "sha256": "02287dd503ae737876955bab17312e7511a33b5b44291ee558a232190f4a8281",
+      "size": 6891
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/SOURCE_MATERIALS.json",
+      "sha256": "62b128e39d201a1fd748447cb8d468c3bd7e362619f3033e4ebf282f106e5cd3",
+      "size": 13011
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_COLOUR_QA.json",
+      "sha256": "da5cc5fee00c8a48a07b0ab2a31e292a8da965712c5c5ce94d74048f0d019a75",
+      "size": 6874
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_INDEPENDENT_VALIDATION.json",
+      "sha256": "b7bc5db6209e8d5619f29cf8a921db26460ef0b277190490cbe118d613f171f0",
+      "size": 10834
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/TZH_coastal_station_v01_colour_v02.glb.zip",
+      "sha256": "994a8ad5143c86d48cfbcf8290295a42cfaa9d3a1b510ed2754bde81e72ec0e8",
+      "size": 6735939
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TZH/VALIDATION_PALETTE.json",
+      "sha256": "94742835c0dda47812c4a8780f528b6d9d9dfe1286f08f773522e1f4c48190af",
+      "size": 3525
+    }
+  ],
+  "file_count": 9,
+  "total_bytes": 6780446,
+  "opening_instructions": "Unzip the new archive(s) and open the contained GLB. Retain the original packed Blend/gallery; this addendum supersedes only portable RGB fallback factors.",
+  "photo_redistribution": "No third-party photographs included; embedded original sign images unchanged."
+}

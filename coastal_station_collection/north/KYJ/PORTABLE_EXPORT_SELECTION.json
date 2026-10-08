@@ -1,0 +1,42 @@
+{
+  "station": "KYJ",
+  "status": "Current corrected portable revision selected for first main; original source, render, README and evidence bytes preserved.",
+  "original_builder_manifest_sha256": "b3916b201228f806cbb041dd92ea5cb45c771e9180c5eeb2e39f8c974e7e635f",
+  "retained_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "corrected_revision_manifest": "coastal_station_collection/north/portable_colour_revision_02/KYJ/MANIFEST.json",
+  "corrected_revision_manifest_sha256": "47a917028d270ad14501fb5ed95d702064867301ebe1abd59bc00e1ce80769eb",
+  "excluded_first_main_files": [
+    {
+      "path": "coastal_station_collection/north/KYJ/exports/KYJ_coastal_station_v03.glb",
+      "sha256": "2d4fbd5f0137c86a3b6c731f6c6440597360c8bf42e549af1f8e3382de038a82",
+      "size": 134885948
+    }
+  ],
+  "portable_exports": [
+    {
+      "station": "KYJ",
+      "old_glb_sha256": "2d4fbd5f0137c86a3b6c731f6c6440597360c8bf42e549af1f8e3382de038a82",
+      "new_glb_sha256": "bbf647b34e97ac6d6fd1cd65ab5a8bf43a560e548b2b049c2105f42399341ec9",
+      "archive_sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65",
+      "archive_bytes": 17155256,
+      "archive_member": "KYJ_coastal_station_v03_colour_v02.glb",
+      "status": "passed",
+      "non_json_chunks_identical": true,
+      "all_non_colour_json_identical": true,
+      "existing_factors_textures_and_alpha_unchanged": true,
+      "source_palette_match": true,
+      "changed_material_count": 19,
+      "old_bytes_verified_in_memory_from_archive": null,
+      "no_raw_file_restored": true,
+      "historical_archive_sha256": "f9daeae16a47ed74cfa200133a3951ef4e119a54ecead256538daeb4ed4c05d8",
+      "historical_archive_path": "coastal_station_collection/north/KYJ/exports/KYJ_coastal_station_v03.glb.gz"
+    }
+  ],
+  "native_gate_sha256": "5cc8a511fbaf04c85212ddcee406080f8584f71b90fdc75c4df8dad7443fde72",
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted scene/export checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ]
+}

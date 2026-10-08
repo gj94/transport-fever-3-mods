@@ -1,0 +1,70 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_03/eva/EVA_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 200,
+  "object_types": {
+    "MESH": 175,
+    "FONT": 12,
+    "LIGHT": 8,
+    "CAMERA": 5
+  },
+  "unique_meshes": 175,
+  "unique_vertices": 511852,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -4.0
+    ],
+    [
+      1135.0,
+      265.0,
+      12.242907524108887
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../eva/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "EVA",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "2",
+    "platform_bodies_modelled": "2",
+    "proof_view_revision": "EVA revision02 changes only camera04 to show the existing photographed platform-side ventilators, tall blue geometric grilles and broad blue canopy. All geometry and materials remain unchanged.",
+    "base_blend_sha256": "8b0a142156a678db6d69ed522e0633dd2adc76ebcfd8344858a01f550508b48f",
+    "facade_revision": "EVA revision03: photographed platform-face tall near-floor rectangular grille openings below high vents; generic sill-height windows removed only on this face."
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0"
+}

@@ -1,0 +1,635 @@
+{
+  "revision_kind": "Portable RGB fallback correction only",
+  "stations": [
+    {
+      "station": "AMVA",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/DELIVERY_MANIFEST.json",
+      "sha256": "efc9622b2081d4d6e67ee6fda6f59c944de9f6280418d777d7b314e3aaea9fb1",
+      "source_scene_sha256": "d0fe50f13992587299c8495054f091d37a0ef3e8cb9e9fb2f71a364d496cbdce"
+    },
+    {
+      "station": "BRAM",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/DELIVERY_MANIFEST.json",
+      "sha256": "6a1e51df2af232e9ca8f41cc1b22b6c3b6dba4932afc8d5168fa2bc4e499ac66",
+      "source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79"
+    },
+    {
+      "station": "DAVM",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/DELIVERY_MANIFEST.json",
+      "sha256": "61973c4c113e102f3c5c03c71f2fd0dd7822fd2071850f46dbd523b834c6311e",
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5"
+    },
+    {
+      "station": "ERL",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/DELIVERY_MANIFEST.json",
+      "sha256": "dd172f65cbb36ceae7d0f22cd766bb04d458b3cb79625b5fa177419c82d75c7e",
+      "source_scene_sha256": "5d6878500729b4090469a8bd04abd6c5684bd09066cae012f0148aa5f39e6f32"
+    },
+    {
+      "station": "KXP",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/DELIVERY_MANIFEST.json",
+      "sha256": "99f46703b6fa45f050ba7cb10d3df93f8842b94f411c0cd23f6cf36d75aee8c2",
+      "source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65"
+    },
+    {
+      "station": "KZTW",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/DELIVERY_MANIFEST.json",
+      "sha256": "9e755875e2c292388c52fc98998622344f51305c6c8be5efe83e0674361d138a",
+      "source_scene_sha256": "424cf312e59b232f29e75ada4158fa39a4e1d37325da67d6ae4e1466fc3bc9bc"
+    },
+    {
+      "station": "NYY",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/DELIVERY_MANIFEST.json",
+      "sha256": "2752422207fb59b91ae90ba6eb488f4382aff8cffcf8c10a447a3535a65e7a9f",
+      "source_scene_sha256": "2ab1b315037e5ee35d83502fb2cad993b586bf6fc65907aabb91123f50cd34d2"
+    },
+    {
+      "station": "PASA",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/DELIVERY_MANIFEST.json",
+      "sha256": "d95d17de21b97b8b2a82cfb8a0e984d4eaf8d8abef2bddb67082dfdcdf639947",
+      "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c"
+    },
+    {
+      "station": "PGZ",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/DELIVERY_MANIFEST.json",
+      "sha256": "a1ecb7c8141c0fab393603704b6d2b875277ae921fcbecfe90f90423dbaa68b3",
+      "source_scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166"
+    },
+    {
+      "station": "PYD",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/DELIVERY_MANIFEST.json",
+      "sha256": "ced54e9b02c77346ab3c0d3e2202af501200424c2229e20f8ee9ba23fdeee2d9",
+      "source_scene_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6"
+    },
+    {
+      "station": "TVCN",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/DELIVERY_MANIFEST.json",
+      "sha256": "4c1a3bc228a92e79007add42cdec3b84c96929eb464d1c958b47837429fce461",
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f"
+    },
+    {
+      "station": "VELI",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/DELIVERY_MANIFEST.json",
+      "sha256": "b60b4655e706be3846efc3ae3cf35826cb067a4799e09936600a87f793a3d17e",
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296"
+    },
+    {
+      "station": "VRLR",
+      "manifest": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/DELIVERY_MANIFEST.json",
+      "sha256": "0807f75a2362e0ed8cb874cccb2ce8482d7ce9359a3ad4225ce50d09f2efdc0b",
+      "source_scene_sha256": "fcab771a81fa64490fc65c921426928b2fa25ab284efdbf144de6ead00a13cc5"
+    }
+  ],
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/AMVA/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/AMVA/SOURCE_PALETTE.json",
+      "bytes": 12815,
+      "sha256": "bfbdf0160278db182938016359154e713f5fc2e299782c5a60a498eda9b1fa5e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/AMVA/COLOUR_QA.json",
+      "bytes": 5363,
+      "sha256": "5957ef33a0ff822e8fdaa143a4fd8b257eb5087c3aa244077af65d86afe5963d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/AMVA/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 8760,
+      "sha256": "5a3804bd4ec932cefdb8b583724904d0e7f719e63316d372113771b1ebcac57f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/README.md",
+      "relative_path": "south/portable_colour_revision_02/AMVA/README.md",
+      "bytes": 593,
+      "sha256": "acdb20341f52359419ec026e6f04f7651acf95ba9b45c1c08c50eb4ba7b72dd1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/AMVA_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/AMVA/AMVA_portable_colour_v02.zip",
+      "bytes": 2787052,
+      "sha256": "e146ee370c25a6119cacd9140cc3d338bd6c7ec4722bb0d7ea394a8df7593ca3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/AMVA/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/AMVA/DELIVERY_MANIFEST.json",
+      "bytes": 13149,
+      "sha256": "efc9622b2081d4d6e67ee6fda6f59c944de9f6280418d777d7b314e3aaea9fb1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/BRAM/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/BRAM_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/BRAM/BRAM_portable_colour_v02.zip",
+      "bytes": 2852801,
+      "sha256": "7ad088a06d7cff5e9b35c2633711b2d1dfb55acd141e202ef355e08ada45363f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/BRAM/SOURCE_PALETTE.json",
+      "bytes": 15304,
+      "sha256": "e594317d9d7c370a78d8db6f4fe003fff84a417c1b3c15f740d3669cc5681a45"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/BRAM/COLOUR_QA.json",
+      "bytes": 6180,
+      "sha256": "82541eaf1b3e4b6da7ccebead4bc109912dd2094238486795fe8eefe597c5c18"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/BRAM/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10068,
+      "sha256": "684b6a25dcce9c60ce8fc806cd2bd4f3c9b1a6a48061049e81fe7c8f19f173cc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/README.md",
+      "relative_path": "south/portable_colour_revision_02/BRAM/README.md",
+      "bytes": 593,
+      "sha256": "07ac04a0b954515b5c8743514287bf0dc980f3aeaeaffd86576c393555475ad2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/BRAM/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/BRAM/DELIVERY_MANIFEST.json",
+      "bytes": 14709,
+      "sha256": "6a1e51df2af232e9ca8f41cc1b22b6c3b6dba4932afc8d5168fa2bc4e499ac66"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/DAVM/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/DAVM_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/DAVM/DAVM_portable_colour_v02.zip",
+      "bytes": 2703758,
+      "sha256": "6acbb4e0429dcee722b2408711dc6da8ff6d4ee1d971d4418534311d146affe9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/SOURCE_PALETTE.json",
+      "bytes": 13460,
+      "sha256": "4217b5013a2adea055054959b63daedd96f15f19157de1001ac5e55f85582d0f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/COLOUR_QA.json",
+      "bytes": 5627,
+      "sha256": "60256483507042212ec298b4e2d8d8d4ffebcbff2c7cdda9bd3734a11f23f64b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 9188,
+      "sha256": "64488e42a723ff2ca3673581d44d5ca04a774607b4ad7f141c252b71e2858482"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/README.md",
+      "relative_path": "south/portable_colour_revision_02/DAVM/README.md",
+      "bytes": 593,
+      "sha256": "4eb69f49987f1b57ee4aeb2721ad1f71c456a5085c010616b84a34616b9b472b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/DAVM/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/DAVM/DELIVERY_MANIFEST.json",
+      "bytes": 14132,
+      "sha256": "61973c4c113e102f3c5c03c71f2fd0dd7822fd2071850f46dbd523b834c6311e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/ERL_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/ERL/ERL_portable_colour_v02.zip",
+      "bytes": 7646185,
+      "sha256": "02ef2d077d3f1267545b1cb5cedc6e7b34a884c41298e0878c4b7cf4321cf91c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/ERL/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/ERL/SOURCE_PALETTE.json",
+      "bytes": 16612,
+      "sha256": "00d7bfbe044d15f29724c9d443e8d6814d0cb22f48574f12825308021b340425"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/ERL/COLOUR_QA.json",
+      "bytes": 6717,
+      "sha256": "1e8a0f56267e75f86495ce49cbda7d0c1eeaf6a89b63d3d180014a3cedfe5b43"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/ERL/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10930,
+      "sha256": "ef19be6d68e523dcc76b0bc746e2402d2a941dd377b10116fc67a686f1c65316"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/README.md",
+      "relative_path": "south/portable_colour_revision_02/ERL/README.md",
+      "bytes": 591,
+      "sha256": "59f8dda9d95d91ccdc8f6e19c62a6fbb3dbe62d837b2d64fec6aae8442800832"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/ERL/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/ERL/DELIVERY_MANIFEST.json",
+      "bytes": 13644,
+      "sha256": "dd172f65cbb36ceae7d0f22cd766bb04d458b3cb79625b5fa177419c82d75c7e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/KXP/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/KXP/SOURCE_PALETTE.json",
+      "bytes": 15934,
+      "sha256": "c89f7ed957ca28166e72af487753a027ecf4d5e888bc42a10223a19bdd1b12b8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/KXP/COLOUR_QA.json",
+      "bytes": 6430,
+      "sha256": "d35d9c9ae89f03c659ba7fe437f63cb18766d09221a3d599bdf8bfec0e977453"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/KXP_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/KXP/KXP_portable_colour_v02.zip",
+      "bytes": 5429839,
+      "sha256": "213019695567309365fc57ac8b8f1d4d8abdef06ff31d7caf55fe59e841d1631"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/KXP/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10490,
+      "sha256": "66bb7e5217b57b67a2164052fc54cd8ee12e6b0d79b762e40d5d15111bb0837a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/README.md",
+      "relative_path": "south/portable_colour_revision_02/KXP/README.md",
+      "bytes": 591,
+      "sha256": "f6f8e3f50fefef62f40eaecd25b6e20515d922cd87038a1166371d2c64c0026b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KXP/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/KXP/DELIVERY_MANIFEST.json",
+      "bytes": 14268,
+      "sha256": "99f46703b6fa45f050ba7cb10d3df93f8842b94f411c0cd23f6cf36d75aee8c2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/KZTW/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/KZTW/SOURCE_PALETTE.json",
+      "bytes": 13426,
+      "sha256": "f8e8be1da3797840ea1c4b5eb83d79d776cdd573232083db6ce698b55b608730"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/KZTW/COLOUR_QA.json",
+      "bytes": 5627,
+      "sha256": "7259c74d33ef9c88170b4b2f168c53ca5d645ec405557ac64d5c6b05fe5a0ab9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/KZTW/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 9187,
+      "sha256": "a520624ad7db07fa49ef84f17728677993683a521b4748801ce9e51ff93e5dad"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/README.md",
+      "relative_path": "south/portable_colour_revision_02/KZTW/README.md",
+      "bytes": 593,
+      "sha256": "bf393515d7c42ac6e6020315530eb6759aec1f439875403890d252e30bc21089"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/KZTW_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/KZTW/KZTW_portable_colour_v02.zip",
+      "bytes": 2874811,
+      "sha256": "27122100c47a5be87efe577ed1ef942103d91bd0134a09e710d46c2b316a3fb1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/KZTW/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/KZTW/DELIVERY_MANIFEST.json",
+      "bytes": 11432,
+      "sha256": "9e755875e2c292388c52fc98998622344f51305c6c8be5efe83e0674361d138a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/NYY_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/NYY/NYY_portable_colour_v02.zip",
+      "bytes": 4906810,
+      "sha256": "cb3a1b4de467cb5fb702b2841e291f382dc3021731d805b92b635360ad38aadb"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/NYY/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/SOURCE_PALETTE.json",
+      "bytes": 15262,
+      "sha256": "4f6919d0a7c7f32cb429dde6ebec3cb6380f93262ac47ba7714fe8f70546004b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/COLOUR_QA.json",
+      "bytes": 6160,
+      "sha256": "aac1a0e44b648b6c29d311805ccb1a46167a8cf14affa1e6437afe85f651611f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10043,
+      "sha256": "1a859381d3894e901b93364f693a51d0598f05ace297302196b301b4e172df23"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/README.md",
+      "relative_path": "south/portable_colour_revision_02/NYY/README.md",
+      "bytes": 591,
+      "sha256": "cb3116c2a812263a2376e6e2dc7475d200bbce3bb38dc74896d6165206f5727e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/NYY/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/NYY/DELIVERY_MANIFEST.json",
+      "bytes": 13676,
+      "sha256": "2752422207fb59b91ae90ba6eb488f4382aff8cffcf8c10a447a3535a65e7a9f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/PASA/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/PASA/SOURCE_PALETTE.json",
+      "bytes": 15229,
+      "sha256": "52bf3e29592d01f57a565d9d2e632268bd1b4a114e376fdac87aff9590fc19d8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/PASA/COLOUR_QA.json",
+      "bytes": 6150,
+      "sha256": "402c127faab1c94839918109d8262ca8ea2299156ba22732bda2f1271ef36fa2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/PASA_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/PASA/PASA_portable_colour_v02.zip",
+      "bytes": 5078250,
+      "sha256": "da1d6dcde8456ff2033f1a297a70575a45b0d134f4ffd4afbc413f0fb85fbfd1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/PASA/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10025,
+      "sha256": "fd5a75ac14bdccd5e477a018402e5c03f363e98bfbe043ec3f1c4360518d044d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/README.md",
+      "relative_path": "south/portable_colour_revision_02/PASA/README.md",
+      "bytes": 593,
+      "sha256": "631f6b22847e7ed1a8eaa360c90d08d381ad35c24b09cfa5078df301af9711ad"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PASA/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/PASA/DELIVERY_MANIFEST.json",
+      "bytes": 13737,
+      "sha256": "d95d17de21b97b8b2a82cfb8a0e984d4eaf8d8abef2bddb67082dfdcdf639947"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/PGZ/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/PGZ/SOURCE_PALETTE.json",
+      "bytes": 15879,
+      "sha256": "fde8cf86031fbbcb8de99a5f4aa5a677a11098e39e052617f216ca7a14909599"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/PGZ/COLOUR_QA.json",
+      "bytes": 6166,
+      "sha256": "1322f6f08a46f1d66ed9d33921c64623218d4e0472fc6374967f5396d5943bcf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/PGZ/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10050,
+      "sha256": "63131b826bfe8495d412f36a6d4a213fd2b69e69a30e4970319da0e86d545a70"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/README.md",
+      "relative_path": "south/portable_colour_revision_02/PGZ/README.md",
+      "bytes": 591,
+      "sha256": "0fd62c1d861640d24257ab3ff3f3c2e3b5ad0224337f8e9f3247f1be878d4750"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/PGZ_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/PGZ/PGZ_portable_colour_v02.zip",
+      "bytes": 5467291,
+      "sha256": "99153381cca935183b018b2a0c4e5d03abcc9b9c2517a8e5efa72a8619bc12d3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PGZ/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/PGZ/DELIVERY_MANIFEST.json",
+      "bytes": 10683,
+      "sha256": "a1ecb7c8141c0fab393603704b6d2b875277ae921fcbecfe90f90423dbaa68b3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/PYD/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/PYD/SOURCE_PALETTE.json",
+      "bytes": 15262,
+      "sha256": "6bdeeefe1c88e155fcfb4c97b0e2dbaa30c600cd44cf59993fedfe9e5e8dfd83"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/PYD/COLOUR_QA.json",
+      "bytes": 6159,
+      "sha256": "f7c918e87459515368c0001724cd78e8dc3f226e1c6f0b567ec237fef82da3d2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/PYD/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10042,
+      "sha256": "6afeb38f8877ed7d63fbf0313408ee4ab64bccc53b88536052abadfb9ad6b3bc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/README.md",
+      "relative_path": "south/portable_colour_revision_02/PYD/README.md",
+      "bytes": 591,
+      "sha256": "4c5719fd254d00a22662072bd4dd53ede760077caf34827e9287f66e1c06bbd0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/PYD_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/PYD/PYD_portable_colour_v02.zip",
+      "bytes": 2727844,
+      "sha256": "46a03696e4fb0c9cdf95734108ffbcdddab391644391782ee88e383699d2368c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/PYD/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/PYD/DELIVERY_MANIFEST.json",
+      "bytes": 11914,
+      "sha256": "ced54e9b02c77346ab3c0d3e2202af501200424c2229e20f8ee9ba23fdeee2d9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/TVCN/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/SOURCE_PALETTE.json",
+      "bytes": 17032,
+      "sha256": "d4f3b7f5acd064201f5d440cbd665d7780dcb3ba3672358adb9811347bc7a935"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/COLOUR_QA.json",
+      "bytes": 6434,
+      "sha256": "9f8389493fee609d579338ce6dde1c899e59351c60b1d0657f12af2c22913184"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10488,
+      "sha256": "8f806069bb7a5f523cb34c3dcaf8b4711d728a1e3493a489e0cbc9efe3a97bbf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/README.md",
+      "relative_path": "south/portable_colour_revision_02/TVCN/README.md",
+      "bytes": 593,
+      "sha256": "92c10932759e2183acee8b2975f074e8efc2697dc049ce2022736c562d3259a4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/TVCN_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/TVCN/TVCN_portable_colour_v02.zip",
+      "bytes": 23432979,
+      "sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/DELIVERY_MANIFEST.json",
+      "bytes": 13610,
+      "sha256": "4c1a3bc228a92e79007add42cdec3b84c96929eb464d1c958b47837429fce461"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/VELI/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/VELI/SOURCE_PALETTE.json",
+      "bytes": 14567,
+      "sha256": "15a9716458feaf0f2d7bc381d2ebe3fa2322341ac4dda0eb5dde7b875916c267"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/VELI/COLOUR_QA.json",
+      "bytes": 5627,
+      "sha256": "5dd8c79a563e9f410df93186097c0008c8919ba69b5408ac89972e471a71e431"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/VELI/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 9188,
+      "sha256": "392662beab5f8b01089b2c068b9107efedb18732ac6760a3e8f934eb823dd1d8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/README.md",
+      "relative_path": "south/portable_colour_revision_02/VELI/README.md",
+      "bytes": 593,
+      "sha256": "729b0c01ad1f21e6e75dba8173be5b4f0637ee56469cbab947bfe85b42f76eaf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/VELI_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/VELI/VELI_portable_colour_v02.zip",
+      "bytes": 4718659,
+      "sha256": "dc1b3946cd39e31b64700768196b804fd9e7577498a91062151e49c3b92411e0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VELI/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/VELI/DELIVERY_MANIFEST.json",
+      "bytes": 10754,
+      "sha256": "b60b4655e706be3846efc3ae3cf35826cb067a4799e09936600a87f793a3d17e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/VRLR/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/VRLR/SOURCE_PALETTE.json",
+      "bytes": 13353,
+      "sha256": "8c5efae0505e6db91560e83ba44be6dae117634806e40750a66d8ece667d7108"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/VRLR/COLOUR_QA.json",
+      "bytes": 5364,
+      "sha256": "c3012e86dafd576abb6fc932f9a18a7fa50e9805fcf1dd1d2385c668900792d7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/VRLR_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/VRLR/VRLR_portable_colour_v02.zip",
+      "bytes": 5609440,
+      "sha256": "a2e646c4a0dcb341caa5a2b68c10efe04352437700fddf39031a9b4082603ff6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/VRLR/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 8761,
+      "sha256": "f46af8c9fd68eb18477d3c2bf7d819bb6701056530648bd1da77b5726c72a54c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/README.md",
+      "relative_path": "south/portable_colour_revision_02/VRLR/README.md",
+      "bytes": 593,
+      "sha256": "40bd28e494243f536dfa82dc4be009ff0ab209841ddb667dbc4670a861be6673"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/VRLR/DELIVERY_MANIFEST.json",
+      "relative_path": "south/portable_colour_revision_02/VRLR/DELIVERY_MANIFEST.json",
+      "bytes": 13560,
+      "sha256": "0807f75a2362e0ed8cb874cccb2ce8482d7ce9359a3ad4225ce50d09f2efdc0b"
+    }
+  ],
+  "total_new_bytes": 76834444,
+  "frozen_at_utc": "2026-10-08T22:34:33.898294+00:00",
+  "unchanged_assets": "Each per-station manifest retains exact source scene, gallery and original package hash references",
+  "checks": "All 13 pass independent validator: source-bound RGB defaults, unchanged BIN/non-colour JSON, alpha, textures, nodes and transforms"
+}

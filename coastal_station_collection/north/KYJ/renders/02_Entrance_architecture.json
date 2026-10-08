@@ -1,0 +1,38 @@
+{
+  "file": "renders/02_Entrance_architecture.png",
+  "camera": "02_Entrance_architecture",
+  "source_blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+  "image_sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 45.79,
+  "samples": 48,
+  "denoising": false,
+  "os_peak_rss_kib": 1824232,
+  "renderer_script_sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30",
+  "camera_override": null,
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision changes only the recorded bridge, bufferstop or roof components outside this retained remote rail/enclosed interior view. Exact original pixels and actual source-scene checksum are preserved; this is unchanged-subject lineage, not a fresh rendering.",
+    "original_image_sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e",
+    "related_patch_chain": {
+      "bridge_patch": {
+        "source_blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+        "source_blend_file": "KYJ_coastal_station_v02.blend",
+        "changed_collection": "07 | Pedestrian footbridge reconstructed geometry",
+        "reason": "Move reconstructed platform4/5 flight inward to x44.066216 and update its deck-mouth railing. Its whole run now lies inside the common source-platform interval, including the narrowed toe.",
+        "common_center_interval_with_1_30m_margins": [
+          43.229130837679186,
+          44.903301526521915
+        ],
+        "mapped_platform_and_bridge_route_unchanged": true,
+        "all_nonbridge_geometry_unchanged": true,
+        "script_sha256": "c3d97928372b59f4fae0e1d70708218e3152f509ef3ac6826b71eb04d991c445"
+      }
+    }
+  }
+}

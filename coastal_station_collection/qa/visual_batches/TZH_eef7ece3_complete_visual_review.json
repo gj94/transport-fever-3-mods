@@ -1,0 +1,51 @@
+{
+  "station": "TZH",
+  "reviewed_utc": "2026-10-08T22:05:30Z",
+  "status": "complete_four_view_visual_source_pass",
+  "source_scene_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "d65532c74cb326147b437a9303ca9c69fdbe2e606328698bb6d6bcd09a4751cb",
+      "source_scene_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "f65d858108f24ea5699a9df299fe35cc70259000d8e03daddd6222289b660a14",
+      "source_scene_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "4fb6a5a675811486f1384aba70b3be459bd7dc1c29ed9702c5026ca29e93ce93",
+      "source_scene_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "050221eb1984540ca29fc6428efc44c4d0a73ee1ba808c65f898e50ce405267d",
+      "source_scene_sha256": "eef7ece3096da1fa2d762244945c84888224641c30869b4c63588a7dc2829d4d",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/TZH_building_2024-08.png",
+      "sha256": "8081317a3396c6ae5f3f20a53e08a6c1917f843a7e21e99dcf8a6e505052aee1",
+      "reduced_pixels_inspected": true
+    }
+  ],
+  "observations": [
+    "Compact cream/orange station block beneath broad blue sheet shelter and two-platform setting are recognizable from source.",
+    "01 site overview,02 approach,03 clear platform/rail sightline and04 modest furnished ticket/waiting interior are useful and coherent.",
+    "No material overlap or duplicate assembly visible. Track operation and unseen facade/room details are not established by these images.",
+    "Approach-side openings, detailed hut dimensions, interior arrangement and fixture positions are reconstructed, not directly photographed."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed pixels reviewed; unlisted frames are pending.",
+    "Unseen interior plans, heights, dimensions and fixture layouts are disclosed reconstruction.",
+    "Technical auditor owns geometry/resources/full-track inventory and final freeze gate."
+  ]
+}

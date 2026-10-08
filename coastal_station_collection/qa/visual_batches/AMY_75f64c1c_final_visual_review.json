@@ -1,0 +1,79 @@
+{
+  "station": "AMY",
+  "reviewed_utc": "2026-10-08T23:03:06.486531+00:00",
+  "status": "four_view_bounded_facade_complete_pass",
+  "source_scene_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+  "frames": {
+    "04_facade_and_approach.png": {
+      "image_sha256": "86b57883c4a7455e3e84d0f5e1d57aa4b3c3af9ffbecddf5c81dd9687a1c28f1",
+      "source_scene_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "01_full_mapped_layout.png": {
+      "image_sha256": "4caca45ec226b2b93b27a4ae713874e63a8153e4d6bfb69435157d8d00814acc",
+      "source_scene_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "1d2e23e4b8fd8c72f40a4afa709741c67f1d338994805d3a8b6dc9642e0aa5e5",
+      "source_scene_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "cf9aa9cf31de6a19896d36aa754d5e2def44ef2ff46db37432436406ebc6c304",
+      "source_scene_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true,
+      "visual_result": "pass"
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/AMY_Yappe_facade_undated.png",
+      "sha256": "15217d73c2c35d02c42c9d75176bc5c70a0e666a59417d3535653e1a95e48631"
+    }
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/AMY_delta_review_2255.jpg",
+  "prior_review_reports": [
+    "AMY_6ca7129c_partial_visual_review.json"
+  ],
+  "observations": [
+    "04 now presents the source-facing order: brown window left, central through-portal, open white perforated screen right, yellow shallow shade and name fascia. The formerly inverted opening order and blue header are corrected.",
+    "The facade-parallel ramp reaches the entrance landing coherently, and the central steps are readable. Source-photo proportions, exact screen density and gate detailing remain a reconstruction rather than a measured replica; folded gate rails are present in the builder geometry and largely edge-on in04.",
+    "New01 full mapped layout and05 furnished interior remain coherent after the facade/ramp change. The booking screen is open geometry; no new material visual obstruction is apparent.",
+    "03 retained at its exact previously passed image hash with explicit unchanged track-detail subject/camera and lighting lineage; it was not reopened.",
+    "Final refresh: current-source03 cf9aa9cf inspected separately and passes. Same unobstructed platform/rail/catenary subject; prior exact retained03 remains recorded as historical pass. All four current gallery views now bind75f64c1c."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ],
+  "targeted_detail_review": {
+    "path": "coastal_stations_overnight/qa/visual_batches/AMY_gate_detail_2255.png",
+    "derived_from_frame": "04_facade_and_approach.png",
+    "purpose": "Check central portal and screen/ramp readability only"
+  },
+  "superseded_exact_frame_passes": [
+    {
+      "file": "03_platform_track_details.png",
+      "image_sha256": "2bcfde5223929af4d5765bcbf388eda2e0d051e4a2e4242d4f3e22b815bfb939",
+      "source_scene_sha256": "6ca7129c71dcab56374a6118c920259fb214601901fcd74268c76969f08e8d07",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retention_reason": "Track-detail camera looks away from the changed facade/ramp region; its subject geometry and lighting are unchanged.",
+      "visual_result": "pass",
+      "prior_review_report": "AMY_6ca7129c_partial_visual_review.json",
+      "current_source_scene_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "retained_from_immutable_base": true,
+      "current_scene_lineage_verified": true
+    }
+  ],
+  "review_contact_sheets": [
+    "coastal_stations_overnight/qa/visual_batches/AMY_delta_review_2255.jpg",
+    "coastal_stations_overnight/qa/visual_batches/AMY_EVA_gallery_completion_2303.jpg"
+  ]
+}

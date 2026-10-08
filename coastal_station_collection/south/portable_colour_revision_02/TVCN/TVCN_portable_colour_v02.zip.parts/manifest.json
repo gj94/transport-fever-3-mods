@@ -1,0 +1,19 @@
+{
+  "filename": "TVCN_portable_colour_v02.zip",
+  "size": 23432979,
+  "sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f",
+  "git_blob_sha": "1b46edb5086d0115146203299869cce50b70fdc8",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "0ba0a4cd575dd134de56c03a63011673701d5cc755f3fcba781b17da118e7f48"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 6655763,
+      "sha256": "4c82c026fec869273ffa82999f69226c8187fbec2985f47c7d047d759a62be4f"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub transport; parts are not individually openable."
+}

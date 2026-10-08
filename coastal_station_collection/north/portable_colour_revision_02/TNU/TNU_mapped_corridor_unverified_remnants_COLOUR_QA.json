@@ -1,0 +1,206 @@
+{
+  "old_glb_sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649",
+  "new_glb_sha256": "7372bccba8ee677496f8eb276c11393a70b4c768f1c03dae13dd1d0f390bd95f",
+  "changed_materials": [
+    {
+      "index": 0,
+      "name": "ballast",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.2800000011920929,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "railweb",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.25,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "sleeper",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "steel",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "red",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.46000000834465027,
+        0.10499999672174454,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "water",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.09000000357627869,
+        0.25,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "ground",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.2800000011920929,
+        0.3400000035762787,
+        0.17000000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "road",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.12999999523162842,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "wood",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.27000001072883606,
+        0.12999999523162842,
+        0.05000000074505806,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "leaflight",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.18000000715255737,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 12,
+      "name": "leaf",
+      "old_implicit_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "new_factor": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.054999999701976776,
+        1.0
+      ]
+    }
+  ],
+  "binary_chunks": [
+    {
+      "type": 5130562,
+      "bytes": 26286912,
+      "unchanged_sha256": "840c95c912e5c02b383dcc16c0b566ab48154cb0ef4206a30ad2c1d30d44ad1a"
+    }
+  ],
+  "binary_identical": true,
+  "all_non_colour_json_identical": true,
+  "alpha_semantics_unchanged": true,
+  "existing_factors_and_textures_unchanged": true,
+  "station_code": "TNU",
+  "source_scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "source_glb": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_mapped_corridor_unverified_remnants.glb",
+  "source_glb_bytes": 26316704,
+  "corrected_glb_bytes": 26317576,
+  "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_colour_v02.glb.zip",
+  "zip_member": "TNU_mapped_corridor_unverified_remnants_colour_v02.glb",
+  "zip_sha256": "0ee29a1ffb2e4e4f1a658ed59868ca064f4c83fd50c4e2634b24cbcf8f1d5976",
+  "zip_bytes": 3902735,
+  "zip_lossless_verified": true,
+  "source_palette_sha256": "3f3bcb718ff6b081cdd184a8c909fb48ec064bfb41730cab7c8bcf5bf3b03bad",
+  "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+}

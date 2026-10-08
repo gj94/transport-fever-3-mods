@@ -1,0 +1,25 @@
+{
+  "station": "MQU",
+  "source_blend_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+  "status": "pass",
+  "routes_unchanged": true,
+  "building_and_bridge_metadata_unchanged": true,
+  "platform_delta": [
+    {
+      "body": "1409282832",
+      "old_area_m2": 2783.938912785054,
+      "new_area_m2": 3723.8652695308,
+      "lost_original_surface_m2": 2.007893568322484e-09,
+      "added_surface_m2": 939.9263567477543
+    },
+    {
+      "body": "1409282833",
+      "old_area_m2": 3194.6484081491926,
+      "new_area_m2": 3194.6484081491926,
+      "lost_original_surface_m2": 0.0,
+      "added_surface_m2": 0.0
+    }
+  ],
+  "interpretation": "Only estimated boarding-edge completion; all original paved area retained, no rails moved. Both current bodies are2.0m from adopted rail centers and all130 floor/body probes pass.",
+  "limits": "Source supports adjacency, not exact survey offsets."
+}

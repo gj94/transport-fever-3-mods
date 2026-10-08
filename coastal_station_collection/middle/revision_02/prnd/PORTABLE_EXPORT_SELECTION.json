@@ -1,0 +1,34 @@
+{
+  "station": "PRND",
+  "publication_mode": "first_main_native_and_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/prnd/PRND_coastal_station_v01.blend",
+  "source_blend_sha256": "402709da4c95a6ee6544c0483458c5b18df2d7c1adccd56e25d26edbbfbaec25",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/prnd/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "55f289af1aceede513ca1a5568d673b59bdba740f0e67474218be82adaddbfb7",
+  "native_gate_path": "coastal_station_collection/qa/reports/PRND.json",
+  "native_gate_sha256": "4fa8ab6e630fb612f5f508327918614a860c6c8366dfe17bfc08771bf5c4c973",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/PRND/PRND_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "930093f43f2d3589ea53c7e7d6da506b3f889307b70263f2f93eb40833e8e239",
+  "corrected_glb_sha256": "dc86e9206ca6e5c38429a18d80cbaf2fbd149ea22e86cebac38e3104fd2d3277",
+  "superseded_archive_sha256": "c0e1c4909d421d4c3c424d65279f8206b614e1d5592b3508c0c408326dd71230",
+  "superseded_archive_disposition": "Excluded from first main; supplied solely in optional historical-only manifest.",
+  "retained_images": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "sha256": "4c58b2f03bae7222a595e6d97f52a29dfe3a9888d6f34a8e0a1c579cf3286cd4",
+      "source_blend_sha256": "2d9a3201ec5bbf43549be14c51099f97e80d8cb184994bc0c4cf9d9fbd781ce3",
+      "reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    }
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Unseen interiors, dimensions and service assignments remain disclosed reconstructions.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Some procedural Blender surface effects use base-colour portable fallbacks."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

@@ -1,0 +1,26 @@
+{
+  "code": "KFI",
+  "base": "revision_02/kfi",
+  "target": "revision_03/kfi",
+  "base_sha256": "e5c7c5504ed62f1e039714331f92bbb7a4320837289cd6b18b2a12061ad19ee9",
+  "camera_location": [
+    11.5,
+    -21,
+    7.8
+  ],
+  "camera_target": [
+    11.5,
+    -5.6,
+    2.95
+  ],
+  "lens": 26,
+  "retain": [
+    "05_ticket_interior.png"
+  ],
+  "rerender": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png"
+  ],
+  "reason": "KFI revision03: camera04 clears the opposite platform canopy and faces the photographed rose veranda. Its high roof attachment/support tops are refined so the blue parapet accents remain visible above it; public circulation geometry is unchanged."
+}

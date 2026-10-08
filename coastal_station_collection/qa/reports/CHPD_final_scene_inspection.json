@@ -1,0 +1,886 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/CHPD/CHPD_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 104,
+  "object_types": {
+    "MESH": 74,
+    "CURVE": 20,
+    "FONT": 2,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 74,
+  "unique_vertices": 936826,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.367842674255371
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7ffb2bbdeae0>",
+    "station_code": "CHPD",
+    "station_name": "Cheppad",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform_height0.3": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        1.7999999523162842
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        1.7999999523162842
+      ],
+      "clear": false,
+      "hit": "04 | Cheppad photographed architecture / peach",
+      "hit_location": [
+        -7.385578155517578,
+        0.0,
+        1.7999999523162842
+      ],
+      "hit_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "central_front_hall_platform_height0.8": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        2.299999952316284
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height1.7": {
+      "from": [
+        -11.185578346252441,
+        0.0,
+        3.200000047683716
+      ],
+      "to": [
+        4.814421653747559,
+        0.0,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6_height0.35": {
+      "from": [
+        8.524994850158691,
+        48.54999923706055,
+        1.7999999523162842
+      ],
+      "to": [
+        8.524994850158691,
+        63.75,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6_height0.9": {
+      "from": [
+        8.524994850158691,
+        48.54999923706055,
+        2.3499999046325684
+      ],
+      "to": [
+        8.524994850158691,
+        63.75,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6_height1.7": {
+      "from": [
+        8.524994850158691,
+        48.54999923706055,
+        3.1500000953674316
+      ],
+      "to": [
+        8.524994850158691,
+        63.75,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_height0.35": {
+      "from": [
+        9.124994277954102,
+        48.54999923706055,
+        1.7999999523162842
+      ],
+      "to": [
+        9.124994277954102,
+        63.75,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_height0.9": {
+      "from": [
+        9.124994277954102,
+        48.54999923706055,
+        2.3499999046325684
+      ],
+      "to": [
+        9.124994277954102,
+        63.75,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_height1.7": {
+      "from": [
+        9.124994277954102,
+        48.54999923706055,
+        3.1500000953674316
+      ],
+      "to": [
+        9.124994277954102,
+        63.75,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_transition0.35": {
+      "from": [
+        9.124994277954102,
+        63.70000076293945,
+        9.050000190734863
+      ],
+      "to": [
+        9.124994277954102,
+        64.55000305175781,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_transition0.9": {
+      "from": [
+        9.124994277954102,
+        63.70000076293945,
+        9.600000381469727
+      ],
+      "to": [
+        9.124994277954102,
+        64.55000305175781,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0_transition1.7": {
+      "from": [
+        9.124994277954102,
+        63.70000076293945,
+        10.399999618530273
+      ],
+      "to": [
+        9.124994277954102,
+        64.55000305175781,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_bridge_head_body1_offset0_-0.05": {
+      "from": [
+        9.124994277954102,
+        63.70000076293945,
+        9.0
+      ],
+      "to": [
+        9.124994277954102,
+        63.70000076293945,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        9.124994277954102,
+        63.70000076293945,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_bridge_head_body1_offset0_0.05": {
+      "from": [
+        9.124994277954102,
+        63.79999923706055,
+        9.0
+      ],
+      "to": [
+        9.124994277954102,
+        63.79999923706055,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        9.124994277954102,
+        63.79999923706055,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "bridge_head_body1_offset0.6_height0.35": {
+      "from": [
+        9.724994659423828,
+        48.54999923706055,
+        1.7999999523162842
+      ],
+      "to": [
+        9.724994659423828,
+        63.75,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0.6_height0.9": {
+      "from": [
+        9.724994659423828,
+        48.54999923706055,
+        2.3499999046325684
+      ],
+      "to": [
+        9.724994659423828,
+        63.75,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0.6_height1.7": {
+      "from": [
+        9.724994659423828,
+        48.54999923706055,
+        3.1500000953674316
+      ],
+      "to": [
+        9.724994659423828,
+        63.75,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6_height0.35": {
+      "from": [
+        26.520000457763672,
+        48.54999923706055,
+        1.7999999523162842
+      ],
+      "to": [
+        26.520000457763672,
+        63.75,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6_height0.9": {
+      "from": [
+        26.520000457763672,
+        48.54999923706055,
+        2.3499999046325684
+      ],
+      "to": [
+        26.520000457763672,
+        63.75,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6_height1.7": {
+      "from": [
+        26.520000457763672,
+        48.54999923706055,
+        3.1500000953674316
+      ],
+      "to": [
+        26.520000457763672,
+        63.75,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_height0.35": {
+      "from": [
+        27.1200008392334,
+        48.54999923706055,
+        1.7999999523162842
+      ],
+      "to": [
+        27.1200008392334,
+        63.75,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_height0.9": {
+      "from": [
+        27.1200008392334,
+        48.54999923706055,
+        2.3499999046325684
+      ],
+      "to": [
+        27.1200008392334,
+        63.75,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_height1.7": {
+      "from": [
+        27.1200008392334,
+        48.54999923706055,
+        3.1500000953674316
+      ],
+      "to": [
+        27.1200008392334,
+        63.75,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_transition0.35": {
+      "from": [
+        27.1200008392334,
+        63.70000076293945,
+        9.050000190734863
+      ],
+      "to": [
+        27.1200008392334,
+        64.55000305175781,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_transition0.9": {
+      "from": [
+        27.1200008392334,
+        63.70000076293945,
+        9.600000381469727
+      ],
+      "to": [
+        27.1200008392334,
+        64.55000305175781,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0_transition1.7": {
+      "from": [
+        27.1200008392334,
+        63.70000076293945,
+        10.399999618530273
+      ],
+      "to": [
+        27.1200008392334,
+        64.55000305175781,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_bridge_head_body2_offset0_-0.05": {
+      "from": [
+        27.1200008392334,
+        63.70000076293945,
+        9.0
+      ],
+      "to": [
+        27.1200008392334,
+        63.70000076293945,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        27.1200008392334,
+        63.70000076293945,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_bridge_head_body2_offset0_0.05": {
+      "from": [
+        27.1200008392334,
+        63.79999923706055,
+        9.0
+      ],
+      "to": [
+        27.1200008392334,
+        63.79999923706055,
+        7.900000095367432
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        27.1200008392334,
+        63.79999923706055,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "bridge_head_body2_offset0.6_height0.35": {
+      "from": [
+        27.719999313354492,
+        48.54999923706055,
+        1.7999999523162842
+      ],
+      "to": [
+        27.719999313354492,
+        63.75,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0.6_height0.9": {
+      "from": [
+        27.719999313354492,
+        48.54999923706055,
+        2.3499999046325684
+      ],
+      "to": [
+        27.719999313354492,
+        63.75,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0.6_height1.7": {
+      "from": [
+        27.719999313354492,
+        48.54999923706055,
+        3.1500000953674316
+      ],
+      "to": [
+        27.719999313354492,
+        63.75,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        -8.385578155517578,
+        26.5,
+        0.30000001192092896
+      ],
+      "to": [
+        -8.385578155517578,
+        9.100000381469727,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        -8.385578155517578,
+        9.100000381469727,
+        1.75
+      ],
+      "to": [
+        -8.385578155517578,
+        0.0,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        -8.385578155517578,
+        26.5,
+        0.800000011920929
+      ],
+      "to": [
+        -8.385578155517578,
+        9.100000381469727,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        -8.385578155517578,
+        9.100000381469727,
+        2.25
+      ],
+      "to": [
+        -8.385578155517578,
+        0.0,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -8.385578155517578,
+        26.5,
+        1.7000000476837158
+      ],
+      "to": [
+        -8.385578155517578,
+        9.100000381469727,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        -8.385578155517578,
+        9.100000381469727,
+        3.1500000953674316
+      ],
+      "to": [
+        -8.385578155517578,
+        0.0,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_9.1": {
+      "from": [
+        -8.385578155517578,
+        9.100000381469727,
+        1.7000000476837158
+      ],
+      "to": [
+        -8.385578155517578,
+        9.100000381469727,
+        0.949999988079071
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -8.385578155517578,
+        9.100000381469727,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        -0.08304549753665924,
+        -0.9965457916259766
+      ]
+    },
+    "floor_ramp_17.799999999999997": {
+      "from": [
+        -8.385578155517578,
+        17.799999237060547,
+        0.9750000238418579
+      ],
+      "to": [
+        -8.385578155517578,
+        17.799999237060547,
+        0.22499999403953552
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -8.385578155517578,
+        17.799999237060547,
+        0.7250000834465027
+      ],
+      "hit_normal": [
+        0.0,
+        -0.08304549753665924,
+        -0.9965457916259766
+      ]
+    },
+    "floor_ramp_26.5": {
+      "from": [
+        -8.385578155517578,
+        26.5,
+        0.25
+      ],
+      "to": [
+        -8.385578155517578,
+        26.5,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -8.385578155517578,
+        26.5,
+        0.0
+      ],
+      "hit_normal": [
+        0.0,
+        -0.08304549753665924,
+        -0.9965457916259766
+      ]
+    },
+    "floor_threshold_-7.2855783440550885": {
+      "from": [
+        -7.28557825088501,
+        0.0,
+        1.7000000476837158
+      ],
+      "to": [
+        -7.28557825088501,
+        0.0,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Cheppad photographed architecture / stone",
+      "hit_location": [
+        -7.28557825088501,
+        0.0,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-7.085578344055089": {
+      "from": [
+        -7.085578441619873,
+        0.0,
+        1.7000000476837158
+      ],
+      "to": [
+        -7.085578441619873,
+        0.0,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Cheppad photographed architecture / stone",
+      "hit_location": [
+        -7.085578441619873,
+        0.0,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_2.7144216559449115": {
+      "from": [
+        2.7144217491149902,
+        0.0,
+        1.7000000476837158
+      ],
+      "to": [
+        2.7144217491149902,
+        0.0,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Cheppad photographed architecture / stone",
+      "hit_location": [
+        2.7144217491149902,
+        0.0,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_2.9144216559449108": {
+      "from": [
+        2.914421558380127,
+        0.0,
+        1.7000000476837158
+      ],
+      "to": [
+        2.914421558380127,
+        0.0,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Cheppad photographed architecture / stone",
+      "hit_location": [
+        2.914421558380127,
+        0.0,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "42be27b6aeb918b6b5111a97377cd1da311ab82f7d956007d45417523c4cc614"
+}

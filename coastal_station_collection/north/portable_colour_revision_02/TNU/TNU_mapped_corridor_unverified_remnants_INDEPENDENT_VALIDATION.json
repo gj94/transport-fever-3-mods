@@ -1,0 +1,293 @@
+{
+  "status": "pass",
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "palette_path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/portable_colour_revision_02/TNU/VALIDATION_PALETTE.json",
+  "palette_sha256": "57763672e1cf7df1cbeb81b3b826eb52255c8d26b9ebb472c9323db367f67c4f",
+  "before": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/revision_03/TNU/exports/TNU_mapped_corridor_unverified_remnants.glb",
+    "glb_sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649",
+    "container_sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649",
+    "member": null,
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 26286912,
+        "sha256": "840c95c912e5c02b383dcc16c0b566ab48154cb0ef4206a30ad2c1d30d44ad1a"
+      }
+    ]
+  },
+  "after": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_colour_v02.glb.zip",
+    "glb_sha256": "7372bccba8ee677496f8eb276c11393a70b4c768f1c03dae13dd1d0f390bd95f",
+    "container_sha256": "0ee29a1ffb2e4e4f1a658ed59868ca064f4c83fd50c4e2634b24cbcf8f1d5976",
+    "member": "TNU_mapped_corridor_unverified_remnants_colour_v02.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 26286912,
+        "sha256": "840c95c912e5c02b383dcc16c0b566ab48154cb0ef4206a30ad2c1d30d44ad1a"
+      }
+    ]
+  },
+  "non_json_chunks_identical": true,
+  "all_non_colour_json_identical": true,
+  "material_count": 13,
+  "changed_materials": [
+    {
+      "index": 0,
+      "name": "ballast",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.2800000011920929,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ],
+      "source_rgba": [
+        0.2800000011920929,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "railweb",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.25,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ],
+      "source_rgba": [
+        0.25,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "sleeper",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ],
+      "source_rgba": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "steel",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ],
+      "source_rgba": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "red",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.46000000834465027,
+        0.10499999672174454,
+        0.06499999761581421,
+        1.0
+      ],
+      "source_rgba": [
+        0.46000000834465027,
+        0.10499999672174454,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "water",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.09000000357627869,
+        0.25,
+        0.2199999988079071,
+        1.0
+      ],
+      "source_rgba": [
+        0.09000000357627869,
+        0.25,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "ground",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.2800000011920929,
+        0.3400000035762787,
+        0.17000000178813934,
+        1.0
+      ],
+      "source_rgba": [
+        0.2800000011920929,
+        0.3400000035762787,
+        0.17000000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "road",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.12999999523162842,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_rgba": [
+        0.12999999523162842,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "wood",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.27000001072883606,
+        0.12999999523162842,
+        0.05000000074505806,
+        1.0
+      ],
+      "source_rgba": [
+        0.27000001072883606,
+        0.12999999523162842,
+        0.05000000074505806,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "leaflight",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.18000000715255737,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ],
+      "source_rgba": [
+        0.18000000715255737,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 12,
+      "name": "leaf",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.054999999701976776,
+        1.0
+      ],
+      "source_rgba": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.054999999701976776,
+        1.0
+      ]
+    }
+  ],
+  "changed_count": 11,
+  "errors": [],
+  "method": "Only absent untextured base-color fallbacks may be filled from the exact packed-source palette. Existing explicit colors, textures, alpha, alphaMode, extensions, node transforms, mesh/accessor/buffer tables and binary data are preserved. Original geometry QA remains applicable."
+}

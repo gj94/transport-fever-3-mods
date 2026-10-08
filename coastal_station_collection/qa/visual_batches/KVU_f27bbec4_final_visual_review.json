@@ -1,0 +1,52 @@
+{
+  "station": "KVU",
+  "reviewed_utc": "2026-10-08T22:03:02.759784+00:00",
+  "status": "complete_four_view_visual_source_pass",
+  "source_scene_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "b0020ae616a0cea8d5f3c6047cbd323c7cef50eace6297157c7e33f0240abb17",
+      "source_scene_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "2cb744bec87d02af2031e1e23a10521ec2652174e51578ff761f83b9d907b1c7",
+      "source_scene_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "7eebd89aa30c9d91fe1386b05f6a135514f89f1cb2c3da44b9dffac68ac88223",
+      "source_scene_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "a2d9d6488f91216a20be49f3cb12dfeac74e8d4399bae7c411fd3e2a57241f40",
+      "source_scene_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retention_reason": null
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/KVU_facade_2019-07.png",
+      "sha256": "48d614ccc09983484b96635a5c991fb0dd085cc6717dfea0fce086c21955b28c",
+      "reduced_pixels_inspected": true
+    }
+  ],
+  "prior_review_reports": [],
+  "observations": [
+    "Ochre station block, red-brown sloping roof, upper small window band and white geometric grilles retain photographed architectural identity.",
+    "01 shows full mapped corridor,03 clear rail and platform view,04 useful facade coverage.",
+    "05 provides legible reconstructed staff desks, ticket counter screens, waiting furniture and windows without apparent material clashes.",
+    "Approximate building dimensions and unobserved interiors are reconstruction, not surveyed facts."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed pixels reviewed; any unlisted view remains pending.",
+    "Source photographs guide visible architecture; unseen interior layout, dimensions and fixture positions remain disclosed reconstruction.",
+    "No operational track-use claim is made by visual acceptance. Technical auditor owns final geometry/export/resource/freeze acceptance."
+  ]
+}

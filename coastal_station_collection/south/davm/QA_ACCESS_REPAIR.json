@@ -1,0 +1,82 @@
+{
+  "station": "DAVM",
+  "input_source_sha256": "14566e28d8e38da7f5cf201b3ddb5c7383fde6ed73d00922d122e88be724a3f7",
+  "output_source_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+  "scope": "Short reconstructed continuous access link. PASA additionally closes the two pitched-roof end seams; DAVM removes unsupported generic red threshold skirting and receives the already-requested wider interior proof camera.",
+  "foot_probes": [
+    {
+      "x": 4.05,
+      "y": 4.26391276287948,
+      "floor_z": 1.004958987236023,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": 3.35311276287948,
+      "floor_z": 1.0009000301361084,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": 2.43311276287948,
+      "floor_z": 0.9967999458312988,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": 1.51311276287948,
+      "floor_z": 0.9926999807357788,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": 0.5931127628794801,
+      "floor_z": 0.988599956035614,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": -0.3268872371205198,
+      "floor_z": 0.984499990940094,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": -1.2468872371205197,
+      "floor_z": 0.9803999662399292,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": -2.1668872371205197,
+      "floor_z": 0.9763000011444092,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": -3.0868872371205196,
+      "floor_z": 0.9721999764442444,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": -4.0068872371205195,
+      "floor_z": 0.9680999517440796,
+      "object": "DAVM reconstructed approach link"
+    },
+    {
+      "x": 4.05,
+      "y": -4.91768723712052,
+      "floor_z": 0.964040994644165,
+      "object": "DAVM reconstructed approach link"
+    }
+  ],
+  "source_layout_clearance": {
+    "minimum_adopted_rail_centerline_distance_m": 6.700000000000001,
+    "nearest_rail_way": "31546483",
+    "required_model_clearance_m": 1.8,
+    "platform_contact": "Endpoint is0.30m inside a source platform cross-section, not extrapolated from the main-building origin"
+  },
+  "internal_stair_checks": [],
+  "status": "Eleven actual floor support rays passed"
+}

@@ -1,0 +1,500 @@
+{
+  "status": "pass",
+  "source_blend_sha256": "02bf4867d46bad7c584dc3b207bc1b54f0f5b9d683f9da056cf79f1edd033aa8",
+  "palette_path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/portable_colour_revision_02/HAD/VALIDATION_PALETTE.json",
+  "palette_sha256": "892be71b2f6b154f6237b6fabf58d3b305324344e46c78d6bbfc6ab9c7359806",
+  "before": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/HAD/exports/HAD_coastal_station_v03.glb",
+    "glb_sha256": "09c78597c54914c9aa0a7eeb2b4458d6351f045ce600c3aff66ec0bb01e274e6",
+    "container_sha256": "09c78597c54914c9aa0a7eeb2b4458d6351f045ce600c3aff66ec0bb01e274e6",
+    "member": null,
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 86914104,
+        "sha256": "589de682b6ee5d2146504252d22288dfb43fd2bfcfa2e0b55eaad9ab43fa31dc"
+      }
+    ]
+  },
+  "after": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/portable_colour_revision_02/HAD/HAD_coastal_station_v03_colour_v02.glb.zip",
+    "glb_sha256": "0ad77a5b6d0ce2e8eb7779e99974247112c0779d199cdb6bb8ef6309c7e5b238",
+    "container_sha256": "1fe3f8db1c6a0787497d8478dfee4fcdb7deda8a42c3e6e426788ac3e941f08d",
+    "member": "HAD_coastal_station_v03_colour_v02.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 86914104,
+        "sha256": "589de682b6ee5d2146504252d22288dfb43fd2bfcfa2e0b55eaad9ab43fa31dc"
+      }
+    ]
+  },
+  "non_json_chunks_identical": true,
+  "all_non_colour_json_identical": true,
+  "material_count": 26,
+  "changed_materials": [
+    {
+      "index": 0,
+      "name": "ballast",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.2800000011920929,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ],
+      "source_rgba": [
+        0.2800000011920929,
+        0.25,
+        0.20999999344348907,
+        1.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "railweb",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.25,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ],
+      "source_rgba": [
+        0.25,
+        0.14000000059604645,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "sleeper",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ],
+      "source_rgba": [
+        0.4300000071525574,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "steel",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ],
+      "source_rgba": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "stone",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.5099999904632568,
+        0.5099999904632568,
+        0.4300000071525574,
+        1.0
+      ],
+      "source_rgba": [
+        0.5099999904632568,
+        0.5099999904632568,
+        0.4300000071525574,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "red",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.46000000834465027,
+        0.10499999672174454,
+        0.06499999761581421,
+        1.0
+      ],
+      "source_rgba": [
+        0.46000000834465027,
+        0.10499999672174454,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "white",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.8500000238418579,
+        0.8700000047683716,
+        0.8299999833106995,
+        1.0
+      ],
+      "source_rgba": [
+        0.8500000238418579,
+        0.8700000047683716,
+        0.8299999833106995,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "yellow",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.9300000071525574,
+        0.6399999856948853,
+        0.05999999865889549,
+        1.0
+      ],
+      "source_rgba": [
+        0.9300000071525574,
+        0.6399999856948853,
+        0.05999999865889549,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "pavers",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.5,
+        0.25999999046325684,
+        0.1899999976158142,
+        1.0
+      ],
+      "source_rgba": [
+        0.5,
+        0.25999999046325684,
+        0.1899999976158142,
+        1.0
+      ]
+    },
+    {
+      "index": 13,
+      "name": "tile",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07999999821186066,
+        1.0
+      ],
+      "source_rgba": [
+        0.41999998688697815,
+        0.1599999964237213,
+        0.07999999821186066,
+        1.0
+      ]
+    },
+    {
+      "index": 15,
+      "name": "cream",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.8500000238418579,
+        0.7699999809265137,
+        0.5199999809265137,
+        1.0
+      ],
+      "source_rgba": [
+        0.8500000238418579,
+        0.7699999809265137,
+        0.5199999809265137,
+        1.0
+      ]
+    },
+    {
+      "index": 17,
+      "name": "wood",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.27000001072883606,
+        0.12999999523162842,
+        0.05000000074505806,
+        1.0
+      ],
+      "source_rgba": [
+        0.27000001072883606,
+        0.12999999523162842,
+        0.05000000074505806,
+        1.0
+      ]
+    },
+    {
+      "index": 18,
+      "name": "ivory",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.800000011920929,
+        0.7699999809265137,
+        0.6499999761581421,
+        1.0
+      ],
+      "source_rgba": [
+        0.800000011920929,
+        0.7699999809265137,
+        0.6499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 19,
+      "name": "blue",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.05999999865889549,
+        0.23000000417232513,
+        0.3499999940395355,
+        1.0
+      ],
+      "source_rgba": [
+        0.05999999865889549,
+        0.23000000417232513,
+        0.3499999940395355,
+        1.0
+      ]
+    },
+    {
+      "index": 20,
+      "name": "roof",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.3700000047683716,
+        0.4000000059604645,
+        0.3700000047683716,
+        1.0
+      ],
+      "source_rgba": [
+        0.3700000047683716,
+        0.4000000059604645,
+        0.3700000047683716,
+        1.0
+      ]
+    },
+    {
+      "index": 21,
+      "name": "water",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.09000000357627869,
+        0.25,
+        0.2199999988079071,
+        1.0
+      ],
+      "source_rgba": [
+        0.09000000357627869,
+        0.25,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "index": 22,
+      "name": "ground",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.2800000011920929,
+        0.3400000035762787,
+        0.17000000178813934,
+        1.0
+      ],
+      "source_rgba": [
+        0.2800000011920929,
+        0.3400000035762787,
+        0.17000000178813934,
+        1.0
+      ]
+    },
+    {
+      "index": 23,
+      "name": "road",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.12999999523162842,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_rgba": [
+        0.12999999523162842,
+        0.14000000059604645,
+        0.12999999523162842,
+        1.0
+      ]
+    },
+    {
+      "index": 24,
+      "name": "leaflight",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.18000000715255737,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ],
+      "source_rgba": [
+        0.18000000715255737,
+        0.3199999928474426,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 25,
+      "name": "leaf",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.054999999701976776,
+        1.0
+      ],
+      "source_rgba": [
+        0.10000000149011612,
+        0.23999999463558197,
+        0.054999999701976776,
+        1.0
+      ]
+    }
+  ],
+  "changed_count": 20,
+  "errors": [],
+  "method": "Only absent untextured base-color fallbacks may be filled from the exact packed-source palette. Existing explicit colors, textures, alpha, alphaMode, extensions, node transforms, mesh/accessor/buffer tables and binary data are preserved. Original geometry QA remains applicable."
+}

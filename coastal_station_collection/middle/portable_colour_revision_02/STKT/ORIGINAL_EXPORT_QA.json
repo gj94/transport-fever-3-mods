@@ -1,0 +1,36 @@
+{
+  "station": "STKT",
+  "authoritative_blend": "STKT_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+  "glb_file": "STKT_coastal_station_v01.glb",
+  "glb_sha256": "45c0d5126d4330795265311d173a1e8e51125fa208c4bb5e5026d8b5d980efa1",
+  "glb_bytes": 57991768,
+  "source_mesh_objects": 190,
+  "source_vertices": 679064,
+  "elapsed_seconds": 1.3142261505126953,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "STKT_coastal_station_v01.glb.zip",
+  "zip_sha256": "74cd9d6dc9d0d976aa399a4ee52655e498cad3bca424ce86987fec9c5ff32d1e",
+  "zip_bytes": 7471606,
+  "roundtrip_mesh_objects": 190,
+  "roundtrip_vertices": 1951348,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.603644371032715
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}
