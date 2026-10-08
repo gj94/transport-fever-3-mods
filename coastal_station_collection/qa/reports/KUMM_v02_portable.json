@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/revision_02/KUMM/exports/KUMM_coastal_station_v02.glb",
+    "bytes": 51777584,
+    "errors": [],
+    "warnings": [],
+    "sha256": "c86341689e4930ab0c25a66e3f51772497040de61731bf4a2ca15e6202bf9ad4",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 51777584
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 61992
+      },
+      {
+        "type": 5130562,
+        "bytes": 51715564
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 80,
+    "mesh_count": 80,
+    "primitive_count": 80,
+    "vertex_reference_count": 1722264,
+    "accessor_count": 236,
+    "validated_accessor_count": 236,
+    "material_count": 25,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

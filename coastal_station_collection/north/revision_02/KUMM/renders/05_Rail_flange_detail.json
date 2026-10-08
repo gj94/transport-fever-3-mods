@@ -1,0 +1,38 @@
+{
+  "file": "renders/05_Rail_flange_detail.png",
+  "source_blend_sha256": "8489168b583adf58e5438bf620432014cc8c7b84a5a23c8110e6ca3634581a90",
+  "image_sha256": "daa3f40f70eb9e4074bdc7847238d10763d2c3e3e2c96b2fca9d1ac17965719a",
+  "camera": "05_Mapped_turnout_detail; read-only close-up override",
+  "camera_override": {
+    "position": [
+      -2.9894542694091797,
+      617.7855224609375,
+      5.800000190734863
+    ],
+    "rotation": [
+      1.0153173208236694,
+      1.299136354049324e-08,
+      0.5713375210762024
+    ],
+    "lens_mm": 43,
+    "target_point": [
+      -7.489454351322657,
+      624.7855446679521,
+      0.635
+    ]
+  },
+  "camera_geometry_lineage": "Frozen scene geometry, materials and lighting unchanged. Only camera moved transiently for unobscured rail proof. Blend not saved.",
+  "crossing_source_ways": [
+    "602468921",
+    "640855306"
+  ],
+  "railhead_intersection_source": "shapely offset-curve centerlines\u00b10.868m from frozen plan; crossing point624.785545m longitudinal",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples": 48,
+  "resolution": [
+    1280,
+    854
+  ],
+  "denoising": false,
+  "source_file_unchanged": true
+}

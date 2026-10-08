@@ -1,0 +1,13 @@
+{
+  "plan": "coastal_stations_overnight/north/KUMM/references/plan.json",
+  "mesh": "coastal_stations_overnight/north/KUMM/references/rail_meshes.json",
+  "plan_sha256": "6311e2515435c842be40793fe51d026996902bbbccf3a2bca70ad5e99142f1f4",
+  "mesh_sha256": "d7aadf3bbed90678bc7cba9136f01f3e2c950b3950025a010591a636241830ef",
+  "method": "Actual serialized top faces reconstructed as polygons, tested against route 45mm flange-channel union. 20 micrometre interior trim tolerates 5-decimal coordinate rounding.",
+  "head_area_m2": 536.3524821464057,
+  "head_valid": true,
+  "channel_raw_intrusion_m2": 0.011502547662796812,
+  "channel_interior_intrusion_m2": 0.0,
+  "limitation": "Does not validate final scene overlays, switch blades, guardrails, or surveyed turnout design.",
+  "pass": true
+}

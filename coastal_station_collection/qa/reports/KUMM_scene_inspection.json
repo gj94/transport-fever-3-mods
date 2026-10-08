@@ -1,0 +1,1503 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/KUMM/KUMM_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 87,
+  "object_types": {
+    "MESH": 70,
+    "CURVE": 8,
+    "FONT": 2,
+    "CAMERA": 4,
+    "LIGHT": 3
+  },
+  "unique_meshes": 70,
+  "unique_vertices": 577336,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.452937126159668
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7fd1d4ce6760>",
+    "station_code": "KUMM",
+    "station_name": "Kumbalam",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior"
+  ],
+  "object_inventory": [
+    {
+      "name": "Mapped rail ballast",
+      "type": "MESH",
+      "bounds": [
+        [
+          -231.5138702392578,
+          -1006.2918090820312,
+          -0.05999999865889549
+        ],
+        [
+          171.0220184326172,
+          1150.6439208984375,
+          0.30000001192092896
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped rail foot",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.77166748046875,
+          -1005.7704467773438,
+          0.45500001311302185
+        ],
+        [
+          170.17172241210938,
+          1150.3282470703125,
+          0.48500001430511475
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped rail web",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.7192840576172,
+          -1005.733642578125,
+          0.48500001430511475
+        ],
+        [
+          170.1117401123047,
+          1150.305908203125,
+          0.5910000205039978
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped rail head",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.73483276367188,
+          -1005.74462890625,
+          0.5899999737739563
+        ],
+        [
+          170.12954711914062,
+          1150.3125,
+          0.6349999904632568
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "01 | Mapped railway infrastructure / sleeper",
+      "type": "MESH",
+      "bounds": [
+        [
+          -231.1884002685547,
+          -1006.1087036132812,
+          0.289999783039093
+        ],
+        [
+          170.50547790527344,
+          1150.2867431640625,
+          0.5100002288818359
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "01 | Mapped railway infrastructure / dark",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.83029174804688,
+          -1005.8473510742188,
+          0.3700000047683716
+        ],
+        [
+          170.1118927001953,
+          1150.1270751953125,
+          0.75
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "01 | Mapped railway infrastructure / steel",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.81703186035156,
+          -1005.8070678710938,
+          0.46000000834465027
+        ],
+        [
+          170.10995483398438,
+          1150.0653076171875,
+          0.8100000023841858
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "01 | Mapped railway infrastructure / stone",
+      "type": "MESH",
+      "bounds": [
+        [
+          -17.690900802612305,
+          -436.32391357421875,
+          0.2199999988079071
+        ],
+        [
+          -2.3671000003814697,
+          650.1790771484375,
+          0.36000001430511475
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Contact wire OSM route 602468921",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -230.01063537597656,
+          -1005.2359008789062,
+          6.2870001792907715
+        ],
+        [
+          169.29989624023438,
+          1150.0045166015625,
+          6.313000202178955
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Messenger OSM route 602468921",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -230.01145935058594,
+          -1005.2365112304688,
+          7.00600004196167
+        ],
+        [
+          169.3008270263672,
+          1150.0048828125,
+          7.033999919891357
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Contact wire OSM route 640855306",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -19.503812789916992,
+          -435.6250305175781,
+          6.2870001792907715
+        ],
+        [
+          -5.254116058349609,
+          649.4798583984375,
+          6.313000202178955
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Messenger OSM route 640855306",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -19.50480842590332,
+          -435.6251220703125,
+          7.00600004196167
+        ],
+        [
+          -5.253117561340332,
+          649.4799194335938,
+          7.033999919891357
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Contact wire OSM route 640855307",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -14.293601989746094,
+          -324.0403137207031,
+          6.2870001792907715
+        ],
+        [
+          -10.212496757507324,
+          -135.75555419921875,
+          6.313000202178955
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Messenger OSM route 640855307",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -14.294598579406738,
+          -324.0404357910156,
+          7.00600004196167
+        ],
+        [
+          -10.211496353149414,
+          -135.75547790527344,
+          7.033999919891357
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Contact wire OSM route 640855308",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -23.798484802246094,
+          -382.52398681640625,
+          6.2870001792907715
+        ],
+        [
+          -12.51701545715332,
+          583.242431640625,
+          6.313000202178955
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Messenger OSM route 640855308",
+      "type": "CURVE",
+      "bounds": [
+        [
+          -23.799484252929688,
+          -382.5240478515625,
+          7.00600004196167
+        ],
+        [
+          -12.51602554321289,
+          583.2426147460938,
+          7.033999919891357
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "02 | Electrification and rail services / steel",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.0070037841797,
+          -1005.2354736328125,
+          0.0
+        ],
+        [
+          166.4355010986328,
+          1142.305908203125,
+          8.100000381469727
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "02 | Electrification and rail services / stone",
+      "type": "MESH",
+      "bounds": [
+        [
+          -35.71779251098633,
+          -406.45001220703125,
+          0.0
+        ],
+        [
+          5.067629337310791,
+          620.4500122070312,
+          0.5
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "02 | Electrification and rail services / dark",
+      "type": "MESH",
+      "bounds": [
+        [
+          -23.89779281616211,
+          -406.1300048828125,
+          3.200000047683716
+        ],
+        [
+          -6.752370834350586,
+          620.1300048828125,
+          7.300000190734863
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "02 | Electrification and rail services / red",
+      "type": "MESH",
+      "bounds": [
+        [
+          -16.165376663208008,
+          -390.2799987792969,
+          3.4024999141693115
+        ],
+        [
+          -9.733384132385254,
+          389.9200134277344,
+          4.297500133514404
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Platform body 1 | IRI platform count; reconstructed extent/widt",
+      "type": "MESH",
+      "bounds": [
+        [
+          -12.080430030822754,
+          -200.0,
+          0.0
+        ],
+        [
+          -2.6389000415802,
+          200.0,
+          1.3899999856948853
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Platform paving 1",
+      "type": "MESH",
+      "bounds": [
+        [
+          -12.080430030822754,
+          -200.0,
+          1.3899999856948853
+        ],
+        [
+          -2.6389000415802,
+          200.0,
+          1.4500000476837158
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Trilingual nameboard",
+      "type": "MESH",
+      "bounds": [
+        [
+          -7.726989269256592,
+          -185.06700134277344,
+          2.4200000762939453
+        ],
+        [
+          -4.388038158416748,
+          -185.06700134277344,
+          4.019999980926514
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Trilingual nameboard.001",
+      "type": "MESH",
+      "bounds": [
+        [
+          -9.030077934265137,
+          184.93299865722656,
+          2.4200000762939453
+        ],
+        [
+          -4.470078468322754,
+          184.93299865722656,
+          4.019999980926514
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / white",
+      "type": "MESH",
+      "bounds": [
+        [
+          -12.190363883972168,
+          -200.11000061035156,
+          1.379995346069336
+        ],
+        [
+          -2.528904438018799,
+          200.11000061035156,
+          6.014999866485596
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / yellow",
+      "type": "MESH",
+      "bounds": [
+        [
+          -11.680670738220215,
+          -200.003173828125,
+          1.4529937505722046
+        ],
+        [
+          -2.6389026641845703,
+          200.004150390625,
+          4.079999923706055
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / pavers",
+      "type": "MESH",
+      "bounds": [
+        [
+          -11.379226684570312,
+          -200.97000122070312,
+          1.4529999494552612
+        ],
+        [
+          -3.353710412979126,
+          198.97000122070312,
+          1.4709999561309814
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / dark",
+      "type": "MESH",
+      "bounds": [
+        [
+          -9.085078239440918,
+          -185.08999633789062,
+          1.4149999618530273
+        ],
+        [
+          -4.365170955657959,
+          185.08999633789062,
+          1.8650000095367432
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / red",
+      "type": "MESH",
+      "bounds": [
+        [
+          -8.166921615600586,
+          -195.10000610351562,
+          1.4500000476837158
+        ],
+        [
+          -2.8407328128814697,
+          193.10000610351562,
+          2.619999885559082
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / stone",
+      "type": "MESH",
+      "bounds": [
+        [
+          -8.116921424865723,
+          -166.02499389648438,
+          1.5049999952316284
+        ],
+        [
+          -6.595646858215332,
+          151.02499389648438,
+          1.9550000429153442
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "03 | Platforms and hardscape / steel",
+      "type": "MESH",
+      "bounds": [
+        [
+          -7.911921501159668,
+          -122.03500366210938,
+          1.4499998092651367
+        ],
+        [
+          -6.109235763549805,
+          158.03500366210938,
+          6.03000020980835
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Trilingual entrance fascia",
+      "type": "MESH",
+      "bounds": [
+        [
+          11.831098556518555,
+          -7.849999904632568,
+          4.389999866485596
+        ],
+        [
+          11.831098556518555,
+          7.849999904632568,
+          5.110000133514404
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Accessible approach ramp",
+      "type": "MESH",
+      "bounds": [
+        [
+          8.611098289489746,
+          9.100000381469727,
+          0.0
+        ],
+        [
+          10.111098289489746,
+          26.5,
+          1.4500000476837158
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Pitched roof shell",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.343981981277466,
+          -8.5,
+          5.329999923706055
+        ],
+        [
+          8.666178703308105,
+          8.5,
+          5.759999752044678
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Pitched roof shell.001",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.1945693492889404,
+          -8.350000381469727,
+          7.230000019073486
+        ],
+        [
+          8.516766548156738,
+          8.350000381469727,
+          7.690000057220459
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Platform station fascia",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.0189013481140137,
+          -6.5,
+          4.610000133514404
+        ],
+        [
+          -2.0189013481140137,
+          6.5,
+          5.389999866485596
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Station notice",
+      "type": "MESH",
+      "bounds": [
+        [
+          8.361098289489746,
+          -2.799999952316284,
+          2.4749999046325684
+        ],
+        [
+          8.361098289489746,
+          -2.200000047683716,
+          3.325000047683716
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Station notice.001",
+      "type": "MESH",
+      "bounds": [
+        [
+          8.361098289489746,
+          2.200000047683716,
+          2.4749999046325684
+        ],
+        [
+          8.361098289489746,
+          2.799999952316284,
+          3.325000047683716
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Building room label",
+      "type": "FONT",
+      "bounds": [
+        [
+          8.399598121643066,
+          3.881955146789551,
+          3.9289300441741943
+        ],
+        [
+          8.40259838104248,
+          5.728625297546387,
+          4.089930057525635
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / stone",
+      "type": "MESH",
+      "bounds": [
+        [
+          -3.3279471397399902,
+          -8.0,
+          1.3877787807814457e-17
+        ],
+        [
+          14.421098709106445,
+          9.449999809265137,
+          1.9249999523162842
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / red",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.342711925506592,
+          -8.5600004196167,
+          0.009999999776482582
+        ],
+        [
+          9.451098442077637,
+          8.5600004196167,
+          7.669849395751953
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / peach",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.0889012813568115,
+          -8.25,
+          1.4500000476837158
+        ],
+        [
+          11.8110990524292,
+          8.25,
+          7.204999923706055
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / glass",
+      "type": "MESH",
+      "bounds": [
+        [
+          -1.8539013862609863,
+          -7.835000038146973,
+          2.7249999046325684
+        ],
+        [
+          8.196098327636719,
+          7.835000038146973,
+          4.175000190734863
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / wood",
+      "type": "MESH",
+      "bounds": [
+        [
+          -1.8239014148712158,
+          -7.862500190734863,
+          2.674999952316284
+        ],
+        [
+          8.271099090576172,
+          7.862500190734863,
+          4.224999904632568
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / dark",
+      "type": "MESH",
+      "bounds": [
+        [
+          -1.7414013147354126,
+          -7.900000095367432,
+          1.4499999284744263
+        ],
+        [
+          11.771099090576172,
+          7.900000095367432,
+          4.517499923706055
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / steel",
+      "type": "MESH",
+      "bounds": [
+        [
+          8.588598251342773,
+          9.09813117980957,
+          0.977577805519104
+        ],
+        [
+          10.133598327636719,
+          26.501867294311523,
+          2.4724221229553223
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / white",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.418901205062866,
+          -8.5,
+          5.249999523162842
+        ],
+        [
+          8.741098403930664,
+          8.5,
+          7.310000419616699
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / roof",
+      "type": "MESH",
+      "bounds": [
+        [
+          -2.339949607849121,
+          -8.516500473022461,
+          5.3385329246521
+        ],
+        [
+          8.66214656829834,
+          8.23650074005127,
+          7.651458740234375
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "04 | Kumbalam photographed architecture / ivory",
+      "type": "MESH",
+      "bounds": [
+        [
+          8.383598327636719,
+          -7.637499809265137,
+          1.5500003099441528
+        ],
+        [
+          8.458599090576172,
+          7.637499809265137,
+          5.199999809265137
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Ticket window label",
+      "type": "FONT",
+      "bounds": [
+        [
+          3.689598560333252,
+          4.100639820098877,
+          4.251120090484619
+        ],
+        [
+          3.692598819732666,
+          5.294559955596924,
+          4.4751200675964355
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / peach",
+      "type": "MESH",
+      "bounds": [
+        [
+          -1.338901400566101,
+          2.4200000762939453,
+          1.4500000476837158
+        ],
+        [
+          7.661098480224609,
+          6.980000019073486,
+          4.704999923706055
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / wood",
+      "type": "MESH",
+      "bounds": [
+        [
+          1.8610986471176147,
+          -5.800000190734863,
+          1.5499999523162842
+        ],
+        [
+          3.886098623275757,
+          6.949999809265137,
+          2.700000047683716
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / steel",
+      "type": "MESH",
+      "bounds": [
+        [
+          -0.5529013872146606,
+          -5.633999824523926,
+          1.4500000476837158
+        ],
+        [
+          3.6010985374450684,
+          6.527500152587891,
+          4.199999809265137
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / dark",
+      "type": "MESH",
+      "bounds": [
+        [
+          2.446098566055298,
+          -4.014999866485596,
+          2.2874999046325684
+        ],
+        [
+          3.1760988235473633,
+          5.940000057220459,
+          4.949999809265137
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / ivory",
+      "type": "MESH",
+      "bounds": [
+        [
+          1.911098599433899,
+          -4.391961574554443,
+          1.4500000476837158
+        ],
+        [
+          3.779995918273926,
+          6.340000152587891,
+          4.579999923706055
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / blue",
+      "type": "MESH",
+      "bounds": [
+        [
+          -0.6289013624191284,
+          -5.690000057220459,
+          1.8650000095367432
+        ],
+        [
+          1.7510986328125,
+          5.989999771118164,
+          2.619999885559082
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "05 | Furnished reconstructed interiors / white",
+      "type": "MESH",
+      "bounds": [
+        [
+          4.701098442077637,
+          -4.625,
+          4.90500020980835
+        ],
+        [
+          4.821098804473877,
+          4.625,
+          4.974999904632568
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Corrugated butterfly roof sheet",
+      "type": "MESH",
+      "bounds": [
+        [
+          -10.727974891662598,
+          -15.0,
+          5.300000190734863
+        ],
+        [
+          -7.22796106338501,
+          15.0,
+          6.052000045776367
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Corrugated butterfly roof sheet.001",
+      "type": "MESH",
+      "bounds": [
+        [
+          -7.22796106338501,
+          -15.0,
+          5.300000190734863
+        ],
+        [
+          -3.7279469966888428,
+          15.0,
+          6.052000045776367
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "06 | Platform shelters and furniture / steel",
+      "type": "MESH",
+      "bounds": [
+        [
+          -10.772233009338379,
+          -15.0649995803833,
+          1.4499999284744263
+        ],
+        [
+          -3.6784114837646484,
+          13.0649995803833,
+          6.046445846557617
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "06 | Platform shelters and furniture / stone",
+      "type": "MESH",
+      "bounds": [
+        [
+          -7.487266540527344,
+          -15.225000381469727,
+          1.4550000429153442
+        ],
+        [
+          -6.963377475738525,
+          13.225000381469727,
+          1.8049999475479126
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "06 | Platform shelters and furniture / blue",
+      "type": "MESH",
+      "bounds": [
+        [
+          -6.752961158752441,
+          -10.225000381469727,
+          1.4700000286102295
+        ],
+        [
+          -6.3029608726501465,
+          10.225000381469727,
+          2.369999885559082
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "06 | Platform shelters and furniture / dark",
+      "type": "MESH",
+      "bounds": [
+        [
+          -6.777961254119873,
+          -10.25,
+          2.3550000190734863
+        ],
+        [
+          -6.277961254119873,
+          10.25,
+          2.424999952316284
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body",
+      "type": "MESH",
+      "bounds": [
+        [
+          -208.67689514160156,
+          -314.9003601074219,
+          -0.12999999523162842
+        ],
+        [
+          -198.8011474609375,
+          -296.9648132324219,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.001",
+      "type": "MESH",
+      "bounds": [
+        [
+          -74.7547378540039,
+          -172.548583984375,
+          -0.12999999523162842
+        ],
+        [
+          -63.84253692626953,
+          -163.47804260253906,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.002",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.0,
+          117.7681884765625,
+          -0.12999999523162842
+        ],
+        [
+          -228.4690704345703,
+          125.95250701904297,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.003",
+      "type": "MESH",
+      "bounds": [
+        [
+          -147.132080078125,
+          1140.337646484375,
+          -0.12999999523162842
+        ],
+        [
+          -137.01422119140625,
+          1150.0,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.004",
+      "type": "MESH",
+      "bounds": [
+        [
+          -84.48065185546875,
+          6.612176418304443,
+          -0.12999999523162842
+        ],
+        [
+          -40.1048583984375,
+          49.66041564941406,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.005",
+      "type": "MESH",
+      "bounds": [
+        [
+          -72.82413482666016,
+          143.51979064941406,
+          -0.12999999523162842
+        ],
+        [
+          -38.446720123291016,
+          198.4882049560547,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.006",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.0,
+          447.7157897949219,
+          -0.12999999523162842
+        ],
+        [
+          -194.64706420898438,
+          561.7899169921875,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.007",
+      "type": "MESH",
+      "bounds": [
+        [
+          -94.03984832763672,
+          -91.5539779663086,
+          -0.12999999523162842
+        ],
+        [
+          -44.99961853027344,
+          -50.88710021972656,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.008",
+      "type": "MESH",
+      "bounds": [
+        [
+          -51.5057487487793,
+          709.74755859375,
+          -0.12999999523162842
+        ],
+        [
+          -15.043227195739746,
+          732.9539794921875,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "Mapped water body.009",
+      "type": "MESH",
+      "bounds": [
+        [
+          -230.0,
+          639.1290283203125,
+          -0.12999999523162842
+        ],
+        [
+          -127.38279724121094,
+          842.8925170898438,
+          -0.10000000149011612
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / ground",
+      "type": "MESH",
+      "bounds": [
+        [
+          -280.0,
+          -1200.0,
+          -0.4000000059604645
+        ],
+        [
+          280.0,
+          1200.0,
+          -0.07999999821186066
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / road",
+      "type": "MESH",
+      "bounds": [
+        [
+          -120.8426513671875,
+          -500.7781066894531,
+          -0.08250576257705688
+        ],
+        [
+          120.3526840209961,
+          500.1025390625,
+          -0.0374942384660244
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / stone",
+      "type": "MESH",
+      "bounds": [
+        [
+          8.16109848022461,
+          -20.5,
+          -0.03500000014901161
+        ],
+        [
+          26.16109848022461,
+          20.5,
+          0.06499999761581421
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / wood",
+      "type": "MESH",
+      "bounds": [
+        [
+          -117.59416198730469,
+          -574.4902954101562,
+          -0.0028742551803588867
+        ],
+        [
+          83.69004821777344,
+          611.6968383789062,
+          15.026410102844238
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / leaflight",
+      "type": "MESH",
+      "bounds": [
+        [
+          -119.64826965332031,
+          -577.6182861328125,
+          2.4062905311584473
+        ],
+        [
+          86.48650360107422,
+          614.8736572265625,
+          15.152680397033691
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / leaf",
+      "type": "MESH",
+      "bounds": [
+        [
+          -119.80827331542969,
+          -577.7838134765625,
+          2.9062905311584473
+        ],
+        [
+          87.55099487304688,
+          615.4954223632812,
+          15.452937126159668
+        ]
+      ],
+      "hidden_render": false
+    },
+    {
+      "name": "08 | Surroundings and approach context / sleeper",
+      "type": "MESH",
+      "bounds": [
+        [
+          -25.325048446655273,
+          -379.9327392578125,
+          0.3100000023841858
+        ],
+        [
+          -8.630383491516113,
+          379.169921875,
+          0.39444923400878906
+        ]
+      ],
+      "hidden_render": false
+    }
+  ],
+  "circulation_rays": {
+    "front_entry_to_hall": {
+      "from": [
+        14.0,
+        0.0,
+        2.799999952316284
+      ],
+      "to": [
+        0.0,
+        0.0,
+        2.799999952316284
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "hall_to_platform": {
+      "from": [
+        0.0,
+        0.0,
+        2.799999952316284
+      ],
+      "to": [
+        -6.0,
+        0.0,
+        2.799999952316284
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "threshold_support": {
+      "from": [
+        -2.200000047683716,
+        0.0,
+        1.7000000476837158
+      ],
+      "to": [
+        -2.200000047683716,
+        0.0,
+        1.0
+      ],
+      "clear": false,
+      "hit": "04 | Kumbalam photographed architecture / stone"
+    },
+    "portico_support": {
+      "from": [
+        9.0,
+        0.0,
+        1.7000000476837158
+      ],
+      "to": [
+        9.0,
+        0.0,
+        1.0
+      ],
+      "clear": false,
+      "hit": "04 | Kumbalam photographed architecture / stone"
+    }
+  },
+  "blend_sha256": "f03ef07b3b27a0b842c4c6eb163d9c5215a20cba19de1d764efd31166395241d"
+}
