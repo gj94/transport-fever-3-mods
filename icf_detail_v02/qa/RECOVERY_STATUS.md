@@ -21,3 +21,5 @@ Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main pu
 2026-10-07 23:22 UTC: Active queue session 72302 continues. 1A hero/cabin and 2A hero are completed and source/pixel/provenance-reviewed (3/24). 2A bay has 6 durable batches, no stall. All new frames use external-dependency-bound wrapper; original completed cabin retains its original frozen wrapper attestation. Resume with run_final_gallery.py, preserving caches.
 
 2026-10-08 00:10 UTC: Exec-server transport disconnected and session 72302 could not be resumed (unknown session). All seven durable 3A bay batch EXRs verified against stored SHA-256 before restart. Queue resumed as session 35779 with unchanged scripts/dependency fingerprints, skipping all five completed final frames. Only the unfinished eighth batch is rerendered. Authoritative writable path unchanged; no source geometry changed.
+
+2026-10-08 01:00 UTC: Environment replacement killed session 35779. Seven final frames verified; 2S aisle retains five verified durable EXR batches. Resuming unchanged queue from remaining three batches; all24 gallery target continues beyond minimum window. No source or renderer changes.

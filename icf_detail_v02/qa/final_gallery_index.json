@@ -1,5 +1,5 @@
 {
-  "completed_views": 6,
+  "completed_views": 8,
   "expected_views": 24,
   "images": [
     {
@@ -49,6 +49,22 @@
       "metadata": "3A/renders/bay_final.json",
       "source_blend_sha256": "ade75fe27c9655654426d9ff70288d705b9710bc9069e9ce083f165dbb10c571",
       "image_sha256": "836dd91fcc84c39f86282a51f0600529653be3d3d5f186c5a967d3b5bb70dea6"
+    },
+    {
+      "variant": "2S",
+      "view": "hero",
+      "image": "2S/renders/hero_final.png",
+      "metadata": "2S/renders/hero_final.json",
+      "source_blend_sha256": "1885cbd484e24b1a05937cd1fdfba0cd938d28f928f21e3da6dcd65262cf302c",
+      "image_sha256": "50c78d7821303af2633122ec29f5dd60090f72a9585982586f55db48dc82a740"
+    },
+    {
+      "variant": "2S",
+      "view": "aisle",
+      "image": "2S/renders/aisle_final.png",
+      "metadata": "2S/renders/aisle_final.json",
+      "source_blend_sha256": "1885cbd484e24b1a05937cd1fdfba0cd938d28f928f21e3da6dcd65262cf302c",
+      "image_sha256": "2bd99c11d96526a1bcc98718cddc198fcc74d6c3b867c26f1630caa88fdcc4d6"
     }
   ]
 }
