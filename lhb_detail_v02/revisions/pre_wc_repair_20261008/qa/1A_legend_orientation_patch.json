@@ -1,0 +1,143 @@
+{
+  "status": "pass",
+  "source_sha256_before": "426cd1e1b1a3549a098c0ff5e8d4f6093943b36fb27905b09e5206362a842e94",
+  "source_sha256_after": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+  "patch": {
+    "script": "scripts/fix_1a_legend_orientation.py",
+    "sha256": "d0d99764e8dbbc49a43652505b71bd4ebd1ceaf3a4c2ef17e8cb5ab4ce646259",
+    "purpose": "Orient eight cabin legends toward the interior (+Y); no non-text changes"
+  },
+  "non_text_fingerprint_before": "a9b0bc9984b956865dab0555a5e0c827dd54e422bc4f622e8fe924b55e71e706",
+  "non_text_fingerprint_after": "a9b0bc9984b956865dab0555a5e0c827dd54e422bc4f622e8fe924b55e71e706",
+  "other_six_source_sha256_unchanged": {
+    "LHB_CC.blend": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+    "LHB_SL.blend": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
+    "LHB_2S.blend": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
+    "LHB_GS.blend": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab",
+    "LHB_3A.blend": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+    "LHB_2A.blend": "691214f8ac28b7dc835310016be69deeac7922c167d0b369f1abc70884f08ae4"
+  },
+  "changes": [
+    {
+      "object": "CABIN_control_legend",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.001",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.002",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.003",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.004",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.005",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.006",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    },
+    {
+      "object": "CABIN_control_legend.007",
+      "before": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "after": [
+        1.5707963705062866,
+        0.0,
+        3.1415927410125732
+      ],
+      "front_normal": "+Y",
+      "text": "LIGHT  /  SOCKET"
+    }
+  ],
+  "fbx_sha256": "f92fd4ada70e8e5875fa89eb886bd81e692bfcd0a99d8f0a8b204e6176026f44"
+}

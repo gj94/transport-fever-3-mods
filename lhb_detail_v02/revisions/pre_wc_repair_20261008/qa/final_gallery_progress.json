@@ -1,0 +1,105 @@
+{
+  "status": "complete",
+  "renderer": "Blender CPU Cycles",
+  "samples": 512,
+  "minimum_samples": 64,
+  "sampling_workflow": "uniform512 independent-seed linear EXR checkpoints; earlier completed adaptive views retained",
+  "denoising": false,
+  "cpu_threads": 4,
+  "locked_source_sha256": {
+    "1A": "12dfa0eb3e67abe3c0bb53744577c632162f935422d033b62321d5dd833862e8",
+    "CC": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+    "3A": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+    "2A": "691214f8ac28b7dc835310016be69deeac7922c167d0b369f1abc70884f08ae4",
+    "SL": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
+    "2S": "d52a647182f522740a642947a7b1a614b685a44d485e9c98b8affbb42e52deaf",
+    "GS": "c4960404d425bfb5dcd4bb5b552237a3f30777050a9ebef9ddda62870ce2eaab"
+  },
+  "completed": [
+    {
+      "variant": "1A",
+      "view": "interior"
+    },
+    {
+      "variant": "1A",
+      "view": "exterior"
+    },
+    {
+      "variant": "CC",
+      "view": "interior"
+    },
+    {
+      "variant": "CC",
+      "view": "exterior"
+    },
+    {
+      "variant": "3A",
+      "view": "interior"
+    },
+    {
+      "variant": "3A",
+      "view": "exterior"
+    },
+    {
+      "variant": "2A",
+      "view": "interior"
+    },
+    {
+      "variant": "2A",
+      "view": "exterior"
+    },
+    {
+      "variant": "SL",
+      "view": "interior"
+    },
+    {
+      "variant": "SL",
+      "view": "exterior"
+    },
+    {
+      "variant": "2S",
+      "view": "interior"
+    },
+    {
+      "variant": "2S",
+      "view": "exterior"
+    },
+    {
+      "variant": "GS",
+      "view": "interior"
+    },
+    {
+      "variant": "GS",
+      "view": "exterior"
+    },
+    {
+      "variant": "3A",
+      "view": "bay"
+    },
+    {
+      "variant": "CC",
+      "view": "chair_detail"
+    },
+    {
+      "variant": "1A",
+      "view": "cabin_entry"
+    },
+    {
+      "variant": "3A",
+      "view": "hvac"
+    },
+    {
+      "variant": "3A",
+      "view": "bogie"
+    },
+    {
+      "variant": "3A",
+      "view": "door"
+    },
+    {
+      "variant": "3A",
+      "view": "toilet"
+    }
+  ],
+  "pending": []
+}
