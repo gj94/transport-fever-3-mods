@@ -43,7 +43,8 @@ def cyl(n,loc,r,depth,m,verts=16,rot=None):
  return o
 def beam(n,a,b,r,m):
  a,b=Vector(a),Vector(b);o=cyl(n,(a+b)/2,r,(b-a).length,m,12);o.rotation_euler=(b-a).to_track_quat('Z','Y').to_euler();return o
-font=bpy.data.fonts.load('/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf')
+fontfile=Path('/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf')
+font=bpy.data.fonts.load(str(fontfile)) if fontfile.exists() else bpy.data.fonts.get('Bfont')
 def text(n,body,loc,size,m,width=None,rot=(math.pi/2,0,0),fontpath=None):
  d=bpy.data.curves.new(n,'FONT');d.body=body;d.size=size;d.align_x='CENTER';d.align_y='CENTER';d.extrude=.009;d.bevel_depth=.002;d.font=bpy.data.fonts.load(fontpath) if fontpath else font;o=bpy.data.objects.new(n,d);active.objects.link(o);o.location=loc;o.rotation_euler=rot;d.materials.append(m);bpy.context.view_layer.update()
  if width and o.dimensions.x>width:o.scale.x*=width/o.dimensions.x

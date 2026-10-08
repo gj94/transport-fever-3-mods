@@ -1,39 +1,53 @@
-# Nagercoil Junction: full-size detailed reconstruction v02
+# Nagercoil Junction: detailed full-size station v02
 
-Editable Blender railway environment, no trains or rolling stock. One Blender unit is one metre; broad-gauge rail inner faces are 1.676 m apart. This replaces the former short platform/track demonstration with an approximately 2.4 km-long site envelope and approximately 19.6 km of mapped/reconstructed rail-route geometry.
+Editable Blender environment with no trains or rolling stock. One unit is one metre. Rail inner-face gauge is 1.676 m. Full mapped platform spans are approximately 841.6 m, including the side/bay extension, and 563.8 m for the island. The source-centreline network totals approximately 19.6 km inside a roughly 2.4 km-long site envelope; the yard is not compressed for presentation.
 
-## Scope and evidence boundary
-This is a **mixed-date, pre-final-remodelling visual reconstruction**, not an as-built survey or signalling plan. The retained heritage entrance derives from inspected January/October 2010 photographs. Platform outlines were mapped in 2021/2023; rail approaches include OSM edits through 2025. Furnished interior room arrangements, most equipment locations, connections missing from the map, pit-road assignments and point numbers are reconstructed. The proposed 2026 final yard is not silently presented as commissioned.
+## Evidence boundary
+This is a mixed-date, pre-final-remodelling visual reconstruction, not an as-built survey. The heritage entrance derives from inspected 2010 photographs; mapped platform outlines date from 2021/2023 and some approach edits extend through 2025. Interiors, most equipment locations, pit assignments and missing connections are reconstructed. The proposed 2026 final yard is not presented as commissioned.
 
-The platform arrangement is **side platform 1, terminal/bay 1A, and island faces 2/3**, not four separate through platforms. Two physical mapped platform polygons extend approximately 841 m and 564 m, including the bay-side extension. Source footprints and centreline geometry retain their metric extent; the yard has not been compressed for a hero view.
+The platform arrangement is side platform 1, terminal/bay 1A, and island faces 2/3. Two physical mapped platform bodies support these labels. Source polygons retain their full bounds, with building insets to prevent the platform slab from intruding into the reconstructed toilet/annex rooms.
 
-## What's modelled
-- Heritage portico, shaped Tamil/Hindi/English roof lettering, side veranda, annex and forecourt
-- Navigable booking hall, six ticket windows and clerk desks/computers, queue railings, waiting room seating/luggage racks, station manager and parcel offices
-- Six toilet cubicles with opening doors, WCs/cisterns, four basins/taps/mirrors/waste pipes; electrical room and upper staff rooms with an actual stairwell
-- Full platform bodies, clipped individual paving tiles, edge coping/safety stripes, corrugated steel shelters, trusses/purlins/gutters/downpipes, fans/lighting, benches, bins, water taps, kiosks, trolleys and signs
-- Full mapped main, loop, siding, bay and depot track alignments with ballast, true-pitch sleepers, pads/clips, three-part rail sections, physical crossing gaps, reconstructed check rails/switch blades/motors/buffers
-- Five long inspection-pit facilities with split supports and side walkways, watering hoses, goods shed/loading apron, furnished maintenance workshop, water towers
-- Contact/messenger wires, droppers, lattice portals, insulators, colour-light signal equipment, cable troughs, open drains, fences, site roads and vegetation
-- Fourteen review cameras covering architecture, interiors, bay, full yard, pointwork, pits and small details
+## Included detail
+- Photo-informed portico, shaped Tamil/Hindi/English signs, veranda, annex, weathered surfaces and forecourt
+- Booking hall with six grilled ticket counters, pass shelves, clerk desks/computers/chairs, queue rails, timetable, clock, fans, lights and bins
+- Furnished waiting room, station-manager and parcel offices, electrical room, upper staff rooms and an internal stairwell
+- Six toilet cubicles with open doors, WCs/cisterns, four basins, taps, mirrors and plumbing
+- Full platform bodies, individual paving/joints, edge coping, corrugated shelters, trusses, gutters, downpipes, lighting, benches, signs, water taps, kiosks, trolleys and fire equipment
+- True-pitch sleepers, fasteners, three-part rails, full curved routes, buffers, source-fitted pointwork and explicit compound crossings
+- Five excavated path-following maintenance-pit representations, watering hoses, a furnished workshop, goods shed/apron and water towers
+- Connected OHE supports, contact/messenger wires, signal equipment, buried utility crossings, open drains, fences, roads and vegetation
 
-## Files and reproducibility
-- `NCJ_full_station_v02.blend`: editable, packed fonts; source scope in scene/collection metadata
-- `exports/NCJ_full_station_v02_GLTF.zip`: compressed portable GLB export; unzip to obtain NCJ_full_station_v02.glb (procedural textures simplify to base materials)
-- `scripts/build_ncj_full.py`: deterministic build; uses `scripts/facade_heritage.py`, `assets/`, and `references/local_geometry.json`
-- `scripts/render_ncj_full.py`: actual Blender render cameras
-- `scripts/export_ncj_full.py`: GLB export
-- `QA_BUILD.json`, `QA_VALIDATION.json`, `SOURCES_AND_UNCERTAINTIES.md`: actual inventory and evidence ledger
+## Main files
+- `NCJ_full_station_v02.blend`: primary editable asset, packed fonts and separated collections
+- `exports/NCJ_full_station_v02_GLTF.zip`: portable GLB; unzip before use. Procedural material textures simplify to base materials in this export
+- `renders/`: reviewed Blender views; consult `RENDER_PROVENANCE.json` for exact source hashes and retained older views
+- `references/NCJ_TRACK_COVERAGE_PLAN.svg`: zoomable source/coverage diagram, with a PNG preview
+- `SOURCES_AND_UNCERTAINTIES.md`, `DIMENSIONS.csv`, `QA_FINAL_SUMMARY.json`: evidence, scale and verification
 
-Run:
-    blender -b -t 4 --python scripts/build_ncj_full.py
-    blender -b -t 4 --python scripts/add_review_labels.py
-    blender -b -t 4 --python scripts/render_ncj_full.py
-    blender -b -t 4 --python scripts/export_ncj_full.py
+## Rebuild and render
+Tested with Blender 4.3.2. Geometry finishing uses Shapely 2.2.0 installed for the Python used by Blender. Set `NCJ_SHAPELY_PATH` to a compatible installation, or place it in `.build_deps/shapely`. That dependency is needed only to rebuild, not to open the saved model.
 
-Camera navigation: use the named review cameras, or Blender walk navigation (Shift+backtick). Collections separate interiors, platform detail, trackwork, pits and electrical equipment. Roof slabs can be hidden for editing, but normal review views preserve roofs. Rendering is limited to four CPU threads; denoising is disabled because this Blender build lacks OIDN.
+Run from this directory:
 
-## Limits
-No measured NCJ interior plan, authenticated contemporary yard drawing, exact signal numbering or verified current utility equipment positions were available. OSM is an open community map, not railway engineering authority. Supplemental pointwork is visual geometry, not simulation-ready interlocking or certified turnout design. Source photographs are not textures and are not redistributed in the publication package. No new licence is granted for generated assets; existing repository status is retained. OSM geometry retains ODbL attribution; see the source ledger.
+    bash scripts/finish_ncj.sh
 
-The top-down review view includes a separate review-only label collection, disabled in the default editable scene and excluded from the physical GLB export. Interior circulation was also checked by actual scene ray casts, including both stair-to-footbridge openings and office entrance gaps.
+This performs the clean base build and all physical finishing passes, validates the scene and renders the three pointwork proof views. It uses the frozen JSON source geometry supplied here; optional extraction scripts require the original OSM download.
+
+Render the final gallery:
+
+    blender -b -t 4 --python-exit-code 1 --python scripts/render_ncj_full.py -- 01 02 03 04 05 06 08 10 17 18 19
+
+Export the current scene:
+
+    blender -b -t 4 --python-exit-code 1 --python scripts/export_ncj_full.py
+
+Rendering uses four CPU threads and no denoising. The toilet view is a labelled cutaway with overhead material hidden only for review. Yard labels are a separate non-physical collection, disabled by default and excluded from the GLB. Named cameras and Blender walk navigation make the scene easy to inspect.
+
+## Verification and limits
+The final scene contains 7,947 objects and approximately 3.14 million vertices; see the final report for exact counts. Tests found no non-finite mesh coordinates or rolling stock. Six principal circulation rays and 18 sloping stair-body rays passed. Both footbridge flights have real canopy openings. Reconstructed ground-floor blocks have supporting plinths and entrance steps.
+
+All 34 mapped junctions receive explicit treatment: 20 source-fitted simple turnout reconstructions and 14 simplified fixed/compound crossing treatments. These preserve mapped route relationships and clear flange channels, but are not NCJ fabrication drawings, movable-point mechanisms or a signalling/interlocking simulation.
+
+OHE footing centreline clearance is at least 3.406 m. Five inferred pit assignments contain clear inspection sections of approximately 414 / 300 / 408 / 279 / 312 m. Utility crossings are buried rather than left as raised obstructions across tracks. No measured interior plan, certified current yard drawing or verified signal-number inventory was obtained.
+
+Original reference photographs are not textures and are not redistributed. OSM attribution and font notices are retained. No new licence is granted for generated assets; existing repository status is unchanged.

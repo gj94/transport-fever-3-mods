@@ -6,7 +6,7 @@ Requires Shapely2.2 in Blender Python, or set NCJ_SHAPELY_PATH to its compatible
 import bpy,sys,os,json,math
 from pathlib import Path
 from mathutils import Vector
-sys.path.insert(0,os.environ.get('NCJ_SHAPELY_PATH','/tmp/ncj_shapely313'))
+sys.path.insert(0,os.environ.get('NCJ_SHAPELY_PATH',str(Path(__file__).resolve().parents[1]/'.build_deps/shapely')))
 import shapely
 from shapely.geometry import Polygon,LineString,Point,box
 from shapely.ops import unary_union,substring

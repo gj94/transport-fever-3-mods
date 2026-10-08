@@ -6,8 +6,6 @@ s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.use_denoising=False;s.rend
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 quick='quick' in args;s.cycles.samples=12 if quick else 96;s.render.resolution_x=1000 if quick else 1400;s.render.resolution_y=650 if quick else 900
 names=[a for a in args if a!='quick']
-if (R/'HOLD_FINAL_REVIEW').exists() and not set(names).issubset({'02','17','18','19'}):
- print('Review hold: later final renders deferred.');sys.exit(0)
 for c in sorted([o for o in s.objects if o.type=='CAMERA'],key=lambda x:x.name):
  if names and not any(c.name.startswith(a) for a in names):continue
  
@@ -17,4 +15,12 @@ for c in sorted([o for o in s.objects if o.type=='CAMERA'],key=lambda x:x.name):
   for ob in label.objects:
    if hasattr(ob,'visible_shadow'):ob.visible_shadow=False
  s.cycles.samples=12 if quick else (128 if c.name[:2] in ['02','03','04','12','14'] else 48)
- s.camera=c;s.render.filepath=str(R/'renders'/f'{c.name}.png');bpy.ops.render.render(write_still=True)
+ if c.name.startswith('04_'):
+  c.data.type='ORTHO';c.data.ortho_scale=20.7;c.location=(-68,6.7,16);c.rotation_euler=(0,0,0);s.cycles.samples=48
+  from mathutils import Vector
+  for ob in s.objects:
+   if ob.type!='MESH':continue
+   pts=[ob.matrix_world@Vector(p)for p in ob.bound_box]
+   if max(p.x for p in pts)>-77 and min(p.x for p in pts)<-59 and max(p.y for p in pts)>1 and min(p.y for p in pts)<12.3 and min(p.z for p in pts)>3.25 and max(p.z for p in pts)<4.5:ob.hide_render=True
+  d=bpy.data.curves.new('Review toilet cutaway caption','FONT');d.body='TOILET BLOCK CUTAWAY  |  CEILING HIDDEN  |  INFERRED LAYOUT';d.size=.27;d.align_x='CENTER';ob=bpy.data.objects.new('Review toilet cutaway caption',d);s.collection.objects.link(ob);ob.location=(-68,.40,5);d.materials.append(bpy.data.materials['Review ink']);ob.visible_shadow=False
+ s.camera=c;s.render.filepath=str(R/'renders'/('04_TOILETS_CUTAWAY.png' if c.name.startswith('04_') else f'{c.name}.png'));bpy.ops.render.render(write_still=True)

@@ -159,5 +159,6 @@
     "14_SERVICE_WORKSHOP"
   ],
   "render_threads": 4,
-  "denoise": false
+  "denoise": false,
+  "stage": "Base build before final physical and circulation finishing. Use QA_VALIDATION.json and QA_FINAL_SUMMARY.json for shipped geometry."
 }
