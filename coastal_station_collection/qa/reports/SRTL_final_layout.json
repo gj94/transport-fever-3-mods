@@ -1,0 +1,50 @@
+{
+  "station": "SRTL",
+  "blend_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+  "plan_sha256": "e9d097703f9823d7255d6cf192c8a1dd6b262ba0fea2b7b83d2eb178c43469e3",
+  "platform_railcenter_min_m": [
+    2.1999999693081502,
+    2.049999999999996
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 10.352032078034439,
+  "enclosed_building_platform_overlap_m2": 0.0,
+  "motor_slab_platform_overlap_m2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "motor_slab_railcenter_min_m": [
+    2.472689005357503,
+    2.1543256640951616,
+    2.472847391377151,
+    2.433833198239013,
+    1.766797269990763,
+    2.4495340865774033,
+    2.419190074306225,
+    2.3118568715453147,
+    2.4192583707740702
+  ],
+  "flights": [
+    {
+      "name": "bridge_head_body1_offset0",
+      "outside_platform_m2": 0.0
+    },
+    {
+      "name": "bridge_head_body2_offset0",
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": 3,
+  "modelled_bodies": 2,
+  "gauge_m": 1.676
+}

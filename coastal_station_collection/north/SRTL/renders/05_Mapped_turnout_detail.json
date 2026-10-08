@@ -1,0 +1,42 @@
+{
+  "file": "renders/05_Mapped_turnout_detail.png",
+  "camera": "05_Mapped_turnout_detail",
+  "source_blend_sha256": "3547d69a0c8981e1ce4f2b453598fe93328dcb294e84388e1e73c640bbfd4dc1",
+  "image_sha256": "2a2c59eb8554df1d30ce50f0720f86c8bbe655c0fc50c5a16c7f75ca53a2e747",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 33.21,
+  "samples": 48,
+  "denoising": false,
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision contains the explicitly recorded facade refinement: Stepped cream underside corbels added beneath the photographed twin-gable portico; existing wings remain reconstructed. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+    "original_image_sha256": "2a2c59eb8554df1d30ce50f0720f86c8bbe655c0fc50c5a16c7f75ca53a2e747",
+    "related_patch_chain": {
+      "bridge_patch": {
+        "original_blend_file": "SRTL_coastal_station_v01.blend",
+        "original_blend_sha256": "3547d69a0c8981e1ce4f2b453598fe93328dcb294e84388e1e73c640bbfd4dc1",
+        "script_sha256": "c8cba1aa433ebf8ffdeec7880be4d64e785f1dfda7cb4c521b02f6ac82ad878a",
+        "changed_collections": [
+          "07 | Pedestrian footbridge reconstructed geometry",
+          "05 | Furnished reconstructed interiors: flush floor color tiles only"
+        ],
+        "flushed_tile_vertices": 2176,
+        "other_scene_geometry_unchanged": true
+      },
+      "facade_refinement": {
+        "source_blend_sha256": "1b0607787cedaddd8b7c50400b957e333a78c6d988f7482a0f75f5ba96ed77e4",
+        "source_blend_file": "SRTL_coastal_station_v02.blend",
+        "details": "Stepped cream underside corbels added beneath the photographed twin-gable portico; existing wings remain reconstructed.",
+        "changed_existing_objects": [],
+        "added_collection": "04A | SRTL source-identifying facade refinement",
+        "all_other_geometry_unchanged": true,
+        "script_sha256": "af436d2d10fb1320a962a4162042e7893ccf602b8df56a1355d888739a96c4e7"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "code": "KAVR",
+  "blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+  "source_plan_sha256": "318118c224198111dceb5b3e12d6b505e7e95baa03e97f9a8f5c089f29137620",
+  "platform_checks": [
+    {
+      "ref": "1",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.1999999999999997
+    }
+  ],
+  "switch_motor_checks": [],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}

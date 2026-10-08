@@ -1,0 +1,221 @@
+{
+  "station_code": "KAVR",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/KAVR final freeze",
+  "manifest_sha256": "b2c4b1a9c7597f991ddae96c9be01584be930f5e43735d0b18c950ffba3517f5",
+  "blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+  "export_sha256": "95607be4c55efab486c510c15ba4b805d03b02524c17e5504e1829959ba022ae",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/KAVR/BUILD_SOURCE.py",
+      "bytes": 54731,
+      "sha256": "7673335dedacbf306222764b2311fdf9cf74e23a79d2d576556e6b3b030c37a5"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/EXPORT_SOURCE.py",
+      "bytes": 1574,
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/KAVR_coastal_station_v01.blend",
+      "bytes": 6646198,
+      "sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/QA_BUILD.json",
+      "bytes": 3611,
+      "sha256": "58abb1ab78818c8143d51d3ca074045eacffc50f13335b27a4f3942170721464"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/QA_EXPORT.json",
+      "bytes": 526,
+      "sha256": "03c30604fb45d5d3ebc3d93b507b6434bae6e9c0638ebe83b6fab988f92d585f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/QA_LAYOUT.json",
+      "bytes": 644,
+      "sha256": "22d061b20185c33c26802b244944de9334373d34873d0ff6ae33b0b203d34fd5"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/QA_RAY_INPUTS.json",
+      "bytes": 192,
+      "sha256": "4305ac485621581d773600d66ab819978c6e347beaf1278505f1a3f3a7c8f159"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/QA_SCENE.json",
+      "bytes": 2398,
+      "sha256": "d80b9259bb39316ddf43f084902916cd4d0dd7d044c442a6a7818ba0bf68f517"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/README.md",
+      "bytes": 594,
+      "sha256": "428c6d2715649ef6f4e1d0cd2973889866374f35908bb770d82f9c1920ecdffa"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/RENDER_SOURCE.py",
+      "bytes": 2538,
+      "sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 5488,
+      "sha256": "bf08bb7fdc3ba8906c19c181ff190bbaa2ba7253b1bb1b217e98370934b065d2"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/VISUAL_QA.md",
+      "bytes": 1070,
+      "sha256": "368041eeebbfbbe61b8ae34fa3a48312687e1e0e86b67a8800ffac49c44e4dc6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/exports/KAVR_coastal_station_v01.glb",
+      "bytes": 28142684,
+      "sha256": "95607be4c55efab486c510c15ba4b805d03b02524c17e5504e1829959ba022ae"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/exports/KAVR_coastal_station_v01.validation.json",
+      "bytes": 560,
+      "sha256": "c5ae2a46ac8ecc5170df6b7753a112687fe3c0f334b02410378f13ef2097374f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/FULL_TRACK_PLAN.png",
+      "bytes": 65021,
+      "sha256": "e9437408d1729536e9bbcadfa7188d970b5f880ce7f7f160c06926de1967bce7"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/IRI_IDENTITY_CLARIFICATION.json",
+      "bytes": 559,
+      "sha256": "f7460b97ce5168e347b009ea1edf9c6bc748801d5076a14fd88d10ef158a86f5"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/architecture_google_evidence.json",
+      "bytes": 1860,
+      "sha256": "394b3bbec048701942a020fa1af07fb37d57111002b0844846ef4ebfd6e76e3a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/plan.json",
+      "bytes": 79340,
+      "sha256": "318118c224198111dceb5b3e12d6b505e7e95baa03e97f9a8f5c089f29137620"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/plan.png",
+      "bytes": 26694,
+      "sha256": "0ee93e946aa34c4da06b25b51e39d8192c17e400c7676044f04134b3907404a6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/pointwork.json",
+      "bytes": 335,
+      "sha256": "d14fa1b6f0b606c28fc659991011d6cc45ab53504395e6b964876bab2c23ed6d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/rail_meshes.json",
+      "bytes": 17011,
+      "sha256": "3f0abdd4cc8a1a7b23ff1f3e154fc11e6d79abb27af4794fff248d9763a32963"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/references/station_record.json",
+      "bytes": 6135,
+      "sha256": "2a180c14463d6887e209e48eba7f4f7fd2eaa8ceb9193619e04f9c21102b856d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/01_Overall_station.json",
+      "bytes": 552,
+      "sha256": "57aa692931f0ef0dc4cd9caf7e16e908c051f11be97c8d1b0d71c4502e08c185"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/01_Overall_station.png",
+      "bytes": 1530478,
+      "sha256": "2630511f9642d3693c6885494c682e7e938fa8a805d18a1c21320ead99705287"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/02_Entrance_architecture.json",
+      "bytes": 565,
+      "sha256": "599aa2067fbc27236bb85867d698758d348e6904d1bef3af892c49f53aa48196"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/02_Entrance_architecture.png",
+      "bytes": 1397477,
+      "sha256": "b12f1f175866822e9e7351de14816a7e6843e286ee80a1ef3e262b2b14a87f23"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/03_Platform_and_tracks.json",
+      "bytes": 561,
+      "sha256": "cf096adf77f849031d8e687623342622e116e0327041c30f673cd35775a6d68d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/03_Platform_and_tracks.png",
+      "bytes": 1275286,
+      "sha256": "dfe69ce8c8d88e02fc1743b1237c3cc747b19cb2bff2d94e0e3fcb90519293a1"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/04_Reconstructed_interior.json",
+      "bytes": 567,
+      "sha256": "2f227ffe288a93bca7d31e63b25fd73ddb8e1715300b04a56eeec042bfc7e5af"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/04_Reconstructed_interior.png",
+      "bytes": 1365663,
+      "sha256": "4ccd8cec412a8d835c19d4ff2565c29de16f679b54bb71852faabff1cbcc913d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/textures/board.png",
+      "bytes": 45386,
+      "sha256": "31e1a6a58ea8b6358da462f8e421ab59b711869754049f505ac862444270cd6f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/textures/fascia.png",
+      "bytes": 34298,
+      "sha256": "3a46117c59719a1dc59dc66988749dded5556384ab631725636f2472cb2fd46c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/textures/notice.png",
+      "bytes": 38254,
+      "sha256": "8a9a3f698bb493e88d4b3f7d1d679b3ac95197fccc64af8646305383da8786c4"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/01_Overall_station.png",
+      "bytes": 1530478,
+      "sha256": "2630511f9642d3693c6885494c682e7e938fa8a805d18a1c21320ead99705287"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/02_Entrance_architecture.png",
+      "bytes": 1397477,
+      "sha256": "b12f1f175866822e9e7351de14816a7e6843e286ee80a1ef3e262b2b14a87f23"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/03_Platform_and_tracks.png",
+      "bytes": 1275286,
+      "sha256": "dfe69ce8c8d88e02fc1743b1237c3cc747b19cb2bff2d94e0e3fcb90519293a1"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KAVR/renders/04_Reconstructed_interior.png",
+      "bytes": 1365663,
+      "sha256": "4ccd8cec412a8d835c19d4ff2565c29de16f679b54bb71852faabff1cbcc913d"
+    }
+  ],
+  "checks": {
+    "manifest": "All 33 frozen file hashes and byte counts independently verified.",
+    "visual": "All 4 native gallery images have independent source/pixel review; source/reconstruction distinctions are preserved.",
+    "resources": "Exact packed scene inventory confirms metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bounds and embedded-dependency checks pass; exact source-to-export provenance verifies.",
+    "layout": "Reported faces:1; physical bodies:1. All actual adopted platform polygons valid and clear of rail envelopes; enclosed building footprint has no platform overlap. Source footprints and inferred choices are retained.",
+    "circulation": "9 independent low/waist/head public and ramp paths clear; 7 actual floor probes support ramps and entrance/platform thresholds."
+  },
+  "evidence_reports": [
+    "KAVR_frozen_scene_resources.json",
+    "KAVR_final_scene_inspection.json",
+    "KAVR_final_inputs.json",
+    "KAVR_final_layout.json",
+    "KAVR_final_portable.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/KAVR_4976f535_complete_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted scene/export checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication."
+}
