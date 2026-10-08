@@ -6,16 +6,37 @@ from matplotlib.patches import Polygon
 R=Path(__file__).resolve().parents[1];D=json.loads((R/'source/mapped_geometry.json').read_text());rails=[w for w in D['ways'] if w['tags'].get('railway')=='rail'];records=[]
 fig,ax=plt.subplots(figsize=(25,8.6));fig.patch.set_facecolor('#f7f5ef');ax.set_facecolor('#f7f5ef')
 colors={'yard':'#6d607f','siding':'#ab5a33','crossover':'#ad344b','main':'#1e6a77','rail':'#465154'}
+occupied=[]
+def clipped(pts):
+ out=[]
+ for a,b in zip(pts,pts[1:]):
+  if min(a[0],b[0])>820 or max(a[0],b[0])<-820:continue
+  aa=list(a);bb=list(b)
+  for p,q in ((aa,bb),(bb,aa)):
+   if abs(p[0])>820:
+    xx=math.copysign(820,p[0]);t=(xx-p[0])/(q[0]-p[0]);p[1]+=t*(q[1]-p[1]);p[0]=xx
+  if not out or math.dist(out[-1],aa)>.01:out.append(aa)
+  out.append(bb)
+ return out
 for i,w in enumerate(rails):
- label='R%02d'%(i+1);p=w['xy'];typ=w['tags'].get('service',w['tags'].get('usage','rail'));cc=colors.get(typ,'#465154');x,y=zip(*p);ax.plot(x,y,color=cc,lw=1.1,zorder=3)
+ label='R%02d'%(i+1);p=clipped(w['xy']);typ=w['tags'].get('service',w['tags'].get('usage','rail'));cc=colors.get(typ,'#465154');x,y=zip(*p);ax.plot(x,y,color=cc,lw=1.1,zorder=3)
  length=sum(math.dist(a,b) for a,b in zip(p,p[1:]));target=length*(.25+.11*(i%5));run=0;mid=p[len(p)//2]
  for a,b in zip(p,p[1:]):
   ll=math.dist(a,b)
   if run+ll>=target:
    t=(target-run)/ll;mid=(a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t);break
   run+=ll
- if -800<mid[0]<800:ax.text(*mid,label,color='white',fontsize=8.4,ha='center',va='center',bbox={'facecolor':cc,'edgecolor':'none','pad':1.4},zorder=5)
- records.append({'review_label':label,'osm_way_id':w['id'],'mapped_class':typ,'source_length_m':round(length,2),'operational_road_number':'unverified'})
+ labelpos=mid
+ for dy in (0,4,-4,8,-8):
+  found=False
+  for dx in (0,20,-20,40,-40,60,-60,80,-80):
+   q=(mid[0]+dx,mid[1]+dy)
+   if -815<q[0]<815 and all(abs(q[0]-a)>27 or abs(q[1]-b)>8 for a,b in occupied):labelpos=q;found=True;break
+  if found:break
+ occupied.append(labelpos)
+ if math.dist(labelpos,mid)>2:ax.plot([labelpos[0],mid[0]],[labelpos[1],mid[1]],color=cc,lw=.5,zorder=4)
+ ax.text(*labelpos,label,color='white',fontsize=8.4,ha='center',va='center',bbox={'facecolor':cc,'edgecolor':'none','pad':1.4},zorder=5)
+ records.append({'review_label':label,'osm_way_id':w['id'],'mapped_class':typ,'rendered_length_m':round(length,2),'operational_road_number':'unverified'})
 for w in D['ways']:
  if w['tags'].get('railway')=='platform':
   p=w['xy'];ax.add_patch(Polygon(p,facecolor='#e5cf9a',edgecolor='#aa8b4d',linewidth=.8,zorder=1))

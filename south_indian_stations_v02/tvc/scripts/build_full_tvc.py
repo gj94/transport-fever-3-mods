@@ -16,7 +16,7 @@ for o in list(bpy.data.objects):
  elif o.name.startswith('Pavilion rear'):
   h=o.dimensions.z;o.dimensions.z=h-4.5;o.location.z=(h+4.5)/2
 S.unit_settings.system='METRIC';S.unit_settings.scale_length=1
-current=None;batch={};counts={}
+current=None;batch={};counts={};active_route=None
 def col(n):
  global current
  flush();current=bpy.data.collections.new(n);S.collection.children.link(current);print('COLLECTION',n,flush=True);return current
@@ -45,6 +45,7 @@ def flush():
  for (cn,n,mn),(v,f,m) in list(batch.items()):
   me=bpy.data.meshes.new(n);me.from_pydata(v,[],f);me.update();o=bpy.data.objects.new(n,me);bpy.data.collections[cn].objects.link(o)
   if m:me.materials.append(m)
+  if cn=='10_TRACK_NETWORK_MAPPED_PROFILES' and active_route:o['route_id']=active_route
  batch.clear()
 def box(n,p,d,m,a=0):
  x,y,z=[v/2 for v in d];cs=math.cos(a);sn=math.sin(a)
@@ -229,6 +230,7 @@ route_lengths={};route_paths={}
 for wi,w in enumerate(rails):
  pts=clippts(w['xy'])
  if len(pts)<2:continue
+ active_route=w['id']
  tag=w['tags'];label=tag.get('service',tag.get('usage','rail'));wid=w['id'];route_paths[wid]=pts;route_lengths[wid]=sum(math.dist(a,b) for a,b in zip(pts,pts[1:]))
  pathmesh('Route '+wid+' '+label+' ballast',pts,[(-1.9,-.30),(-1.4,-.08),(1.4,-.08),(1.9,-.30)],ballast)
  for x,y,a in samples(pts,.60):
@@ -489,7 +491,7 @@ def camera(n,p,target,lens=42,ortho=None):
  d=bpy.data.cameras.new(n);o=bpy.data.objects.new(n,d);current.objects.link(o);o.location=p;o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();d.lens=lens;d.clip_end=4000
  if ortho:d.type='ORTHO';d.ortho_scale=ortho
  return o
-camera('01_Overall_full_station',(-590,-490,480),(0,60,0),42)
+camera('01_Overall_full_station',(0,-1250,1100),(0,65,0),32)
 camera('02_Heritage_forecourt',(-72,-85,32),(-6,1,6),48)
 camera('03_Entrance_hall',(0,1.6,2.45),(0,12,2.8),20)
 camera('04_Booking_hall',(119,-1.5,2.45),(110,7.2,2.65),24)
@@ -504,6 +506,7 @@ camera('10_Turnout_detail',(tx-11,ty-10,8),(tx,ty,.1),43)
 camera('15_Frog_closeup',(tx-3,ty-3,2.8),(tx,ty,.1),52)
 camera('11_Maintenance_yard',(-105,230,50),(90,160,1),44)
 camera('12_Full_yard_top',(0,75,1050),(0,75,0),45,1680)
+camera('16_Furnished_building_roof_off',(80,-150,165),(20,3,0),40)
 camera('13_Footbridge_detail',(-78,86,17),(-105,42,7),43)
 S.camera=bpy.data.objects['02_Heritage_forecourt'];S.render.engine='CYCLES';S.cycles.samples=24;S.cycles.use_denoising=False;S.render.threads_mode='FIXED';S.render.threads=4;S.render.resolution_x=1440;S.render.resolution_y=900;S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG';S.view_settings.view_transform='AgX'
 S['README']='Full-station TVC visual reconstruction in metres, mixed-date mapped rail network,2022 heritage photographs,furnished reconstructed interiors. Read README.md and evidence ledger. No rolling stock.'
