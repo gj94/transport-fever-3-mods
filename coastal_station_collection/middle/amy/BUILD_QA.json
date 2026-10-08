@@ -1,0 +1,48 @@
+{
+  "station_code": "AMY",
+  "blend": "AMY_coastal_station_v01.blend",
+  "generated_at_unix": 1791495150.574373,
+  "builder_sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e",
+  "source_adopted_sha256": "21b9cd55815578e8dec2ecc93f41d8fac161fe69cf0f51b33003646aa205d618",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 6,
+  "track_route_total_length_m": 3389.7039979758288,
+  "mapped_switch_nodes": 0,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 169,
+  "total_objects": 187,
+  "vertices": 406682,
+  "polygons": 297344,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.001545703343787,
+      "clearance_m": 1.9199999999999977
+    },
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.0,
+      "clearance_m": 1.91933463781207
+    }
+  ],
+  "corrections": [],
+  "notes": "Small two-track halt; sparse shelter and booking booth rather than invented large hall. Internal furnishing reconstructed. Undated photographed cream-yellow flat-front booking shelter has a gated portal, narrow brown window, perforated white screen and facade-parallel ramp."
+}

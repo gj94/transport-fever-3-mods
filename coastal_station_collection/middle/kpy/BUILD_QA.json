@@ -1,0 +1,48 @@
+{
+  "station_code": "KPY",
+  "blend": "KPY_coastal_station_v01.blend",
+  "generated_at_unix": 1791495156.4150128,
+  "builder_sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e",
+  "source_adopted_sha256": "4c9b86233f3f244aaad1651fe2f764b08ea48c9f25f365b3f48e1fd2b52d53cf",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "3",
+  "physical_platform_bodies": 2,
+  "track_routes": 19,
+  "track_route_total_length_m": 14787.352293513295,
+  "mapped_switch_nodes": 21,
+  "mapped_true_service_buffers": 5,
+  "mesh_objects": 199,
+  "total_objects": 226,
+  "vertices": 1501900,
+  "polygons": 1117614,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000043084014873,
+      "clearance_m": 1.908547552692384
+    },
+    {
+      "label": "2;3",
+      "basis": "reconstructed island body in widest mapped station-road gap; face assignment unverified",
+      "width_min_sample_m": 2.4160199209752555,
+      "clearance_m": 1.9199999948382322
+    }
+  ],
+  "corrections": [],
+  "notes": "Three reported platform positions represented as one side and one island; industrial spur geometry included to mapped endpoints. Building footprint is approximate, absent from mapped inventory. Historic2017 white-and-salmon clerestory facade reconstructed separately from2023 flat-roof service block. Satellite evidence fixes the east island between ways641467876/661604986 and western building-side platform outside546893500. The additional641478855 goods/siding alignment remains fully modelled and is not mistaken for a platform-defining outer loop."
+}

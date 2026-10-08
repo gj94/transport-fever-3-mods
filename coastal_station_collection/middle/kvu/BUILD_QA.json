@@ -1,0 +1,48 @@
+{
+  "station_code": "KVU",
+  "blend": "KVU_coastal_station_v01.blend",
+  "generated_at_unix": 1791494913.3440645,
+  "builder_sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e",
+  "source_adopted_sha256": "75911ee9b323f24597575827e24e318ffef94511afd9c5a91c0040a20fc77773",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 1.3,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "3",
+  "physical_platform_bodies": 2,
+  "track_routes": 8,
+  "track_route_total_length_m": 6043.622628030207,
+  "mapped_switch_nodes": 8,
+  "mapped_true_service_buffers": 2,
+  "mesh_objects": 192,
+  "total_objects": 217,
+  "vertices": 700716,
+  "polygons": 515810,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000010160223729,
+      "clearance_m": 1.9199999999999984
+    },
+    {
+      "label": "2;3",
+      "basis": "reconstructed island body in widest mapped station-road gap; face assignment unverified",
+      "width_min_sample_m": 3.1843147384410244,
+      "clearance_m": 1.919999999999998
+    }
+  ],
+  "corrections": [],
+  "notes": "Mapped station building and central platform body. Three platform positions use side plus island, not three islands. July2019 photo guides tall ochre front, red sheet roof, white geometric grille panels, brown clerestory windows and long sunshade."
+}
