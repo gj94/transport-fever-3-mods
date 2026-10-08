@@ -27,3 +27,5 @@ Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main pu
 2026-10-08 02:00 UTC: Ten final images pass current-source/provenance audit and pixel review, including complete CC exterior/aisle pair. Active session 94510 continues into SL hero; no restart since 01:00 recovery. All24 target remains open; final masters unchanged.
 
 2026-10-08 02:43 UTC: SL hero/bay completed and pixel/provenance reviewed, 12/24 final images current-source verified. Session94510 moved into GS hero. New README/gallery portable instructions and dependency inventory/checks ready for checkpoint. No source/render changes.
+
+2026-10-08 03:27 UTC: All seven exterior/interior pairs are completed, pixel-reviewed and current-source verified (14/24). Session94510 continues into 1A cabin_cutaway, followed by remaining detail views. Locked sources unchanged, no native/runtime claims.
