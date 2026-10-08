@@ -1,0 +1,66 @@
+{
+  "station_code": "OCR",
+  "blend": "OCR_coastal_station_v01.blend",
+  "generated_at_unix": 1791489847.7687998,
+  "builder_sha256": "79f96dc61ebefdcee66b866b4dd4e3b53b0c04ae90757ae244fb0398b053af56",
+  "source_adopted_sha256": "b255430e48caed798c35e63a96cf2ddf422d3f5de95dfc50c65230082b0f4fc2",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 5,
+  "track_route_total_length_m": 6239.4748411554365,
+  "mapped_switch_nodes": 5,
+  "mapped_true_service_buffers": 1,
+  "mesh_objects": 227,
+  "total_objects": 250,
+  "vertices": 690104,
+  "polygons": 508413,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000003890668292,
+      "clearance_m": 1.9199999999999982
+    },
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.000009888213665,
+      "clearance_m": 1.9199999454918428
+    }
+  ],
+  "corrections": [
+    {
+      "node_id": "7515252698",
+      "way_id": "619142868",
+      "raw_xy": [
+        52.315,
+        -19.1901
+      ],
+      "adopted_xy": [
+        52.315,
+        -14.8
+      ],
+      "displacement_m": 4.3901,
+      "reason": "Local mapping-artifact regularization to avoid overlapping parallel running envelopes; graph unchanged; not a surveyed correction."
+    }
+  ],
+  "notes": "OSM platform-tagged short fragments excluded as complete platform bodies. Two full side bodies inferred beside outer loops. Roof and pale-green wall palette from dated Ochira photograph. Dated2019 photograph shows dark-blue plinth, red tiled main roof, grey veranda and low blue-roofed adjacent wing; ancillary wing extent reconstructed from nearby short footprint fragment.",
+  "revision": "noticeboard placement revision02",
+  "base_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+  "repair_script_sha256": "662f069e083e622019fcb49609ba6650fc9dbf13e89f0278f5c7f7dc903c0bed"
+}

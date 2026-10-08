@@ -1,0 +1,106 @@
+{
+  "station": "OCR",
+  "blend_file": "OCR_coastal_station_v01.blend",
+  "blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "5324cdfc38202360d02d575e5afcf50733dc063115e47e674f60928b00c15742",
+      "render_seconds": 21.255162239074707,
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "camera": "02_STATION_AND_PLATFORMS",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "camera_location": [
+        -111.0,
+        177.10000610351562,
+        125.0
+      ],
+      "camera_rotation": [
+        1.0867509841918945,
+        -4.1809158801697777e-08,
+        -2.4522833824157715
+      ],
+      "sha256": "8ba86badb7deb08719fd94cb13fe4256cb6ec6301b877842bfe0f69e31b53f4d",
+      "render_seconds": 19.775850772857666,
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "camera_location": [
+        38.01485824584961,
+        -25.7807674407959,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "b50412c48496fe449bd13ed26be310ed657cdb21c5617635fd482ad48de116e3",
+      "render_seconds": 26.914705753326416,
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "camera_location": [
+        -19.0,
+        46.650001525878906,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4120711088180542,
+        2.85569097258076e-08,
+        -2.666581869125366
+      ],
+      "sha256": "1ca570892b4ad5bca0c8999c8ac4446f94c3597dae804bce992f09256a8199ec",
+      "render_seconds": 25.729639768600464,
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+      "camera_location": [
+        -9.397333145141602,
+        7.5,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.1680796146392822,
+        4.1118497051684244e-08,
+        -1.1731253862380981
+      ],
+      "sha256": "0fb4a8754cd53267b9fb6e0799d870c89b9dfd59403feb6221e1222e815d0128",
+      "render_seconds": 28.648391246795654
+    }
+  ]
+}

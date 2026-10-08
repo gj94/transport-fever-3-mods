@@ -1,0 +1,56 @@
+{
+  "station": "OCR",
+  "reviewed_utc": "2026-10-08T21:13:45Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "5324cdfc38202360d02d575e5afcf50733dc063115e47e674f60928b00c15742",
+      "source_scene_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    "02_station_and_platforms.png": {
+      "image_sha256": "8ba86badb7deb08719fd94cb13fe4256cb6ec6301b877842bfe0f69e31b53f4d",
+      "source_scene_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "b50412c48496fe449bd13ed26be310ed657cdb21c5617635fd482ad48de116e3",
+      "source_scene_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "1ca570892b4ad5bca0c8999c8ac4446f94c3597dae804bce992f09256a8199ec",
+      "source_scene_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "One internal ticket-room noticeboard moved; exterior subject/camera/illumination unchanged and noticeboard not visible in these exterior views."
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "0fb4a8754cd53267b9fb6e0799d870c89b9dfd59403feb6221e1222e815d0128",
+      "source_scene_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retained_from_immutable_base": false,
+      "retention_reason": null
+    }
+  },
+  "prior_review_reports": [
+    "OCR_4650621b_visual_review.json"
+  ],
+  "observations": [
+    "Noticeboard now sits fully on clear wall left of the window; previous visible overlap is resolved.",
+    "Revised05 shows a coherent single desk, computer, chair and ticket counter; no duplicated fixture assembly detected.",
+    "All four exterior/source frames retain exact accepted hashes with explicit unchanged-subject lineage."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

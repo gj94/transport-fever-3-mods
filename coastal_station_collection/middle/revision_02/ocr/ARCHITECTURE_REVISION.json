@@ -1,0 +1,47 @@
+{
+  "base_blend_sha256": "4650621b0a296ec30fc488b63ba13ae8cefae1df7edf6f2bef0fd6d248aaa3f8",
+  "repaired_blend_sha256": "c5b94ab4f0143c1e7a6c2e42ef601da933cb26878bb2822aec3ae73eb05a21b9",
+  "repair_script_sha256": "662f069e083e622019fcb49609ba6650fc9dbf13e89f0278f5c7f7dc903c0bed",
+  "changes": [
+    {
+      "object": "Station noticeboard timber frame.001",
+      "vertices_moved": 8,
+      "dx_m": -1.1280000000000001
+    },
+    {
+      "object": "Noticeboard felt.001",
+      "vertices_moved": 8,
+      "dx_m": -1.1280000000000001
+    },
+    {
+      "object": "Notice sheet.001",
+      "vertices_moved": 32,
+      "dx_m": -1.1280000000000001
+    },
+    {
+      "object": "Notice printed line.001",
+      "vertices_moved": 160,
+      "dx_m": -1.1280000000000001
+    }
+  ],
+  "noticeboard_old_centre_m": [
+    -5.5120000000000005,
+    11.499999999999998,
+    2.918
+  ],
+  "noticeboard_new_centre_m": [
+    -6.640000000000001,
+    11.499999999999998,
+    2.918
+  ],
+  "unchanged": "All rail/platform/building/furniture other than one noticeboard assembly; all cameras and illumination unchanged.",
+  "retained_views": [
+    "01_full_mapped_layout.png",
+    "02_station_and_platforms.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png"
+  ],
+  "rerender_views": [
+    "05_ticket_interior.png"
+  ]
+}

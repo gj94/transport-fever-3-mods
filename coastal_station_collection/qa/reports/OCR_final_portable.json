@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/revision_02/ocr/export/OCR_coastal_station_v01.glb.zip!OCR_coastal_station_v01.glb",
+    "bytes": 61541052,
+    "errors": [],
+    "warnings": [],
+    "sha256": "14f0902ae235e1bd9aa1e4fcca646044fe1fa7eb1f87e2af519d671a7cf3a773",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 61541052
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 166820
+      },
+      {
+        "type": 5130562,
+        "bytes": 61374204
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 239,
+    "mesh_count": 239,
+    "primitive_count": 239,
+    "vertex_reference_count": 2069183,
+    "accessor_count": 600,
+    "validated_accessor_count": 600,
+    "material_count": 28,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "5ec9a9eeac40eb46e30e902eec3d7d2d3bd4528accb00ebae3c6649dc2e2b735",
+    "container_bytes": 7814875
+  }
+]

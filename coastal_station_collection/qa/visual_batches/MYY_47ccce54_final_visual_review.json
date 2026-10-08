@@ -1,0 +1,56 @@
+{
+  "station": "MYY",
+  "reviewed_utc": "2026-10-08T21:21:05Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "47ccce54dd6324232869a3ce497b3e89cafc8d93d409d77f0832d059809adb27",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "91242195073d6b38a3054e8aac1e4bd466890ee4cb4e9586d88f28ddd22d2364",
+      "source_scene_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    "02_station_and_platforms.png": {
+      "image_sha256": "5180cba961d2f4815b17b2438d4dbc58aeab85f5f2c7eb79f369bb32479808f3",
+      "source_scene_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "8c816fdfd484f74456c4a88a2d0c0d4fe5b65b19a9278c76b702841edf72b7fb",
+      "source_scene_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "864fcff064f484fe843f5d5aa89bd7b07b9765663b888a66d71004b3e9ed69f3",
+      "source_scene_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retained_from_immutable_base": true,
+      "retention_reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "607dc41da2423699f04f2b38741c70f16a99b0118cb6deff1ae95b1eed3ef23a",
+      "source_scene_sha256": "47ccce54dd6324232869a3ce497b3e89cafc8d93d409d77f0832d059809adb27",
+      "review_basis": "new_reduced_pixels_inspected",
+      "retained_from_immutable_base": false,
+      "retention_reason": null
+    }
+  },
+  "prior_review_reports": [
+    "MYY_1fc4b497_exterior_visual_review.json"
+  ],
+  "observations": [
+    "Revised05 shows display mounted on clear wall beyond the small window; previous window overlap resolved.",
+    "Single desk/computer/chair and ticket counter remain coherent; no duplicated assembly visible.",
+    "Four exterior/source views retain exact accepted hashes and explicit unchanged-subject lineage."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}
