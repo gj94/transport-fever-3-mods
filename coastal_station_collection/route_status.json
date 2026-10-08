@@ -1,4 +1,5 @@
 {
+  "status_snapshot_utc": "2026-10-08T18:42:31.950377+00:00",
   "scope": "55 active station/halts plus closed historical TNU",
   "new_active_target": 52,
   "stations": [
@@ -33,10 +34,10 @@
       "name": "Kumbalam",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "7.71",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "4faf92c407b2e82b47ce4e1cd84d89946de58412",
-      "main_commit": null,
+      "main_commit": "897fcfb3bf639df21b9e2bb40319c507e87a8a7f",
       "station_path": "coastal_station_collection/north/revision_02/KUMM",
       "preview_paths": [
         "coastal_station_collection/north/revision_02/KUMM/renders/02_Entrance_architecture.png",
@@ -310,8 +311,8 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "126.11",
       "build_status": "backed_up",
-      "qa_status": "technical export checks and five previews passed; final circulation-ray check pending",
-      "backup_commit": "a3b600448147c871794a3d7e5c36a4522f4dbcd6",
+      "qa_status": "passed independent station review",
+      "backup_commit": "857323d868e9ba7ec5ea24f52ddeb452abdbdaf6",
       "main_commit": null,
       "station_path": "coastal_station_collection/middle/mqo",
       "preview_paths": [
