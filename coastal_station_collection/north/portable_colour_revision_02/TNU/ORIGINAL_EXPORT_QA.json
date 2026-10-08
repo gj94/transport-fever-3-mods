@@ -1,0 +1,38 @@
+{
+  "scene": "HISTORIC_2016_BUILDING__UNPLACED",
+  "export": "exports/TNU_historical_2016_unplaced.glb",
+  "export_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+  "export_bytes": 191268,
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "images_embedded": true,
+  "external_uris": [],
+  "valid_header_and_json": true,
+  "scene_isolation": {
+    "scene_count": 1,
+    "scene_name": "HISTORIC_2016_BUILDING__UNPLACED",
+    "node_count": 16,
+    "all_nodes_from_intended_scene": true
+  },
+  "seconds": 0.34,
+  "source_blend": "TNU_coastal_station_v02.blend",
+  "source_unchanged": true,
+  "additional_exports": [
+    {
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+      "export": "exports/TNU_mapped_corridor_unverified_remnants.glb",
+      "export_sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649",
+      "export_bytes": 26316704,
+      "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "images_embedded": true,
+      "external_uris": [],
+      "valid_header_and_json": true,
+      "scene_isolation": {
+        "scene_count": 1,
+        "scene_name": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+        "node_count": 37,
+        "all_nodes_from_intended_scene": true
+      },
+      "seconds": 0.43
+    }
+  ]
+}

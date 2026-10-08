@@ -1,0 +1,160 @@
+{
+  "station_code": "KVTA",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/KVTA final freeze with portable_colour_revision_02",
+  "manifest_sha256": "e1a40376f654fd5fc51bac99abe5f68352ca90a0c7074682f8764ede06ed589f",
+  "blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "export_sha256": "6cb2ed3e2b1204746e791317c0145688512701ce0e4047a39c663721416c77fd",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/KVTA/KVTA_coastal_station_v01.blend",
+      "relative_station_path": "KVTA_coastal_station_v01.blend",
+      "sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "size": 12434887
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "85290ac18241ac6273e746637d3a6f7bc46ae47040ea3758d70c391e1fc5ba44",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "75c037e5996ee4f73503dd061738ecc02eab367c4bd182e221a7197c8dd59818",
+      "size": 1483898
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "f0d759bde2a71158e01d3b9d067b967f557f5ce17344f1889b4036c0ad0d2c67",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "c9aa1248a7a86bf70d49861768a68188a9e4b1059918f3c8fdd95887c4d2a438",
+      "size": 1576495
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "e5bdc96c47bd92aeb44acc016d2b76ca7f16cf58c9ca5ed1c3f088d89a06db0f",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "c8841a8f44f33b349526e6e256300dacc59e2d7f5c417595cfc7229b640d8445",
+      "size": 1370473
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "98e0b1f9c3ccf34bf88dcd7d086e1beb4497777fee0c80dfa93491d79aac6d7d",
+      "size": 567
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "56c8343fa9a1ffcb1729f768971fb89995764fdfa332dacef9d20b7036bcd033",
+      "size": 1360215
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/KVTA_coastal_station_v01_COLOUR_QA.json",
+      "sha256": "c0e9c87567f6ec44cc0db75134d5f298856d842de56644d56c5e7cd5ce231f6a",
+      "size": 6880
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/KVTA_coastal_station_v01_INDEPENDENT_VALIDATION.json",
+      "sha256": "7daaf78d24102386088c17fa4e365a43d47f55f7d1a7fd1b970c2bd4592075b3",
+      "size": 10840
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/KVTA_coastal_station_v01_colour_v02.glb.zip",
+      "sha256": "2bb51be0f6ab7a30a31c543879aaba31f2ee8216f79e04552be25dbe06a6ac89",
+      "size": 7154538
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/ORIGINAL_EXPORT_QA.json",
+      "sha256": "b1f28f2a158211752364ec2bbcae2c897eb083874d2f761aedc9f60805c80aa3",
+      "size": 526
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/PATCH_SOURCE.py",
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "size": 1723
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/README.md",
+      "sha256": "d4f8c7a91011bee6a9236241bee79800b3248b6c06b953ba09ec78fc0082c3eb",
+      "size": 1129
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/REVISION_BUILDER.py",
+      "sha256": "02287dd503ae737876955bab17312e7511a33b5b44291ee558a232190f4a8281",
+      "size": 6891
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/SOURCE_MATERIALS.json",
+      "sha256": "026cbe09ddac88033c920d8f8a7fce086f237a31947e72c15efe17ab14257255",
+      "size": 13014
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KVTA/VALIDATION_PALETTE.json",
+      "sha256": "698695fcbb1a6d3068cd5114249e98ae5dc5bc5074b7a40e886e16a54808da5e",
+      "size": 3525
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/01_Overall_station.png",
+      "bytes": 1483898,
+      "sha256": "75c037e5996ee4f73503dd061738ecc02eab367c4bd182e221a7197c8dd59818"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/02_Entrance_architecture.png",
+      "bytes": 1576495,
+      "sha256": "c9aa1248a7a86bf70d49861768a68188a9e4b1059918f3c8fdd95887c4d2a438"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/03_Platform_and_tracks.png",
+      "bytes": 1370473,
+      "sha256": "c8841a8f44f33b349526e6e256300dacc59e2d7f5c417595cfc7229b640d8445"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/04_Reconstructed_interior.png",
+      "bytes": 1360215,
+      "sha256": "56c8343fa9a1ffcb1729f768971fb89995764fdfa332dacef9d20b7036bcd033"
+    }
+  ],
+  "checks": {
+    "manifest": "All 33 frozen file hashes and byte counts independently verified.",
+    "visual": "All 4 native gallery images have independent source/pixel review; source/reconstruction distinctions are preserved.",
+    "resources": "Exact packed scene inventory confirms metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bounds and embedded-dependency checks pass; exact source-to-export provenance verifies. Authored RGB additions independently validated; all geometry, transforms, explicit factors/textures and alpha remain unchanged.",
+    "layout": "Reported faces:2; physical bodies:2. All actual adopted platform polygons valid and clear of rail envelopes; enclosed building footprint has no platform overlap. Source footprints and inferred choices are retained.",
+    "circulation": "33 independent low/waist/head public and ramp paths clear; 11 actual floor probes support ramps and entrance/platform thresholds."
+  },
+  "evidence_reports": [
+    "KVTA_frozen_scene_resources.json",
+    "KVTA_final_scene_inspection.json",
+    "KVTA_final_inputs.json",
+    "KVTA_final_layout.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/KVTA_977d262e_final_visual_review.json",
+    "NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "NORTH_NEW_FOUR_portable.json",
+    "KVTA_portable_colour_revision_02_0.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted scene/export checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication.",
+  "portable_revision_manifest": "north/portable_colour_revision_02/KVTA/MANIFEST.json",
+  "portable_revision_manifest_sha256": "95f1b1b7fc572b1825a75af1ab2626efae499018348d3a47a85cfffde3b0c42d",
+  "export_zip_sha256": "2bb51be0f6ab7a30a31c543879aaba31f2ee8216f79e04552be25dbe06a6ac89"
+}

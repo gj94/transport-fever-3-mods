@@ -1,0 +1,513 @@
+{
+  "station": "TNU",
+  "status": "frozen_for_independent_material_gate",
+  "revision": "portable_colour_revision_02",
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "original_source_gallery_manifest": "coastal_stations_overnight/north/revision_03/TNU/MANIFEST.json",
+  "original_source_gallery_manifest_sha256": "b433e13a88ee52b2063a92dcbcce2be864d7ed80e7f6a4f2439c2a49e20f2d36",
+  "native_scene_and_render_bytes_unchanged": true,
+  "retained_assets": [
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/TNU_coastal_station_v02.blend",
+      "relative_station_path": "TNU_coastal_station_v02.blend",
+      "sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "size": 6269811
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H1_Historical_2016_facade.json",
+      "relative_station_path": "renders/H1_Historical_2016_facade.json",
+      "sha256": "03c9edf05d31ad4ba20ed1139062381c30eb17be8992cd8acd37b2f502f9ff5b",
+      "size": 633
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H1_Historical_2016_facade.png",
+      "relative_station_path": "renders/H1_Historical_2016_facade.png",
+      "sha256": "1c7af30bf9afa0769142ef5ee930310d468bffde93efdc3228ed969a52b46696",
+      "size": 1300211
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H2_Historical_interior.json",
+      "relative_station_path": "renders/H2_Historical_interior.json",
+      "sha256": "4ccf0bb129342e4944966a5f98f52de3cb5806f8c2adc9c85885b8c4e08d7a75",
+      "size": 627
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H2_Historical_interior.png",
+      "relative_station_path": "renders/H2_Historical_interior.png",
+      "sha256": "384a81e82ace7485247a91528d6eebf61261e17ada47872269590d205323f627",
+      "size": 1305236
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H3_Historical_building_overview.json",
+      "relative_station_path": "renders/H3_Historical_building_overview.json",
+      "sha256": "39389fb4189a1f2997ab5e0b6e1f0e77680520460595a63a493cd6a1b9998dfd",
+      "size": 645
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/H3_Historical_building_overview.png",
+      "relative_station_path": "renders/H3_Historical_building_overview.png",
+      "sha256": "431cfa2018219bce24f033788f1964d9e4223e45c03ede9e36bac2b1d32f35cf",
+      "size": 1334385
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M1_Mapped_corridor_record.json",
+      "relative_station_path": "renders/M1_Mapped_corridor_record.json",
+      "sha256": "91276f581e47c6e5b824fb5b43636ea5d0dc789d52f57720ee9608865ca45515",
+      "size": 641
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M1_Mapped_corridor_record.png",
+      "relative_station_path": "renders/M1_Mapped_corridor_record.png",
+      "sha256": "f01755b7d61370b56f29c0d051581cd8355ad7e992bcb6f1f8c4cdb73837c8af",
+      "size": 1410127
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M2_Closed_site_context.json",
+      "relative_station_path": "renders/M2_Closed_site_context.json",
+      "sha256": "d4dc80db625dd6159ffb11060d0b44aaddec8bde101ff20a52cc46b6d575ba48",
+      "size": 926
+    },
+    {
+      "path": "coastal_stations_overnight/north/revision_03/TNU/renders/M2_Closed_site_context.png",
+      "relative_station_path": "renders/M2_Closed_site_context.png",
+      "sha256": "c27f2da2cf8b604708de2c6c0ec6394604692fb3fc0cf8436ccb0f31fd0b6e3b",
+      "size": 1208870
+    }
+  ],
+  "portable_replacements": [
+    {
+      "old_glb_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+      "new_glb_sha256": "1f7d002c7f30ca62cbf114fcd17c24d9295e8d8cf5030d29c661c967daf01c4e",
+      "changed_materials": [
+        {
+          "index": 2,
+          "name": "H2016 floor",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.4399999976158142,
+            0.4300000071525574,
+            0.3799999952316284,
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "name": "H2016 peach",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.8700000047683716,
+            0.699999988079071,
+            0.5600000023841858,
+            1.0
+          ]
+        },
+        {
+          "index": 5,
+          "name": "H2016 steel",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.30000001192092896,
+            0.3499999940395355,
+            0.3400000035762787,
+            1.0
+          ]
+        },
+        {
+          "index": 6,
+          "name": "H2016 purple",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.23999999463558197,
+            0.11500000208616257,
+            0.20000000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "name": "H2016 orange",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.7400000095367432,
+            0.28999999165534973,
+            0.11999999731779099,
+            1.0
+          ]
+        },
+        {
+          "index": 8,
+          "name": "H2016 white",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.800000011920929,
+            0.8199999928474426,
+            0.75,
+            1.0
+          ]
+        },
+        {
+          "index": 9,
+          "name": "H2016 red",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.47999998927116394,
+            0.15000000596046448,
+            0.15000000596046448,
+            1.0
+          ]
+        },
+        {
+          "index": 10,
+          "name": "H2016 wood",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.25,
+            0.11999999731779099,
+            0.04500000178813934,
+            1.0
+          ]
+        }
+      ],
+      "binary_chunks": [
+        {
+          "type": 5130562,
+          "bytes": 177012,
+          "unchanged_sha256": "5a353faa6b70eefb61eb19f029ea7ee57b1f379d0bac4573f3f3e1f7e500f00f"
+        }
+      ],
+      "binary_identical": true,
+      "all_non_colour_json_identical": true,
+      "alpha_semantics_unchanged": true,
+      "existing_factors_and_textures_unchanged": true,
+      "station_code": "TNU",
+      "source_scene": "HISTORIC_2016_BUILDING__UNPLACED",
+      "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "source_glb": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.glb",
+      "source_glb_bytes": 191268,
+      "corrected_glb_bytes": 191784,
+      "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_colour_v02.glb.zip",
+      "zip_member": "TNU_historical_2016_unplaced_colour_v02.glb",
+      "zip_sha256": "9fb778cc59d0f92d45b007de7b3615f08797c877529f2abf463a61221a250036",
+      "zip_bytes": 93095,
+      "zip_lossless_verified": true,
+      "source_palette_sha256": "3f3bcb718ff6b081cdd184a8c909fb48ec064bfb41730cab7c8bcf5bf3b03bad",
+      "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "proof_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_COLOUR_QA.json",
+      "independent_validation_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_INDEPENDENT_VALIDATION.json"
+    },
+    {
+      "old_glb_sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649",
+      "new_glb_sha256": "7372bccba8ee677496f8eb276c11393a70b4c768f1c03dae13dd1d0f390bd95f",
+      "changed_materials": [
+        {
+          "index": 0,
+          "name": "ballast",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.2800000011920929,
+            0.25,
+            0.20999999344348907,
+            1.0
+          ]
+        },
+        {
+          "index": 1,
+          "name": "railweb",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.25,
+            0.14000000059604645,
+            0.07500000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "name": "sleeper",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.4300000071525574,
+            0.4300000071525574,
+            0.3799999952316284,
+            1.0
+          ]
+        },
+        {
+          "index": 5,
+          "name": "steel",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.3700000047683716,
+            0.41999998688697815,
+            0.4000000059604645,
+            1.0
+          ]
+        },
+        {
+          "index": 6,
+          "name": "red",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.46000000834465027,
+            0.10499999672174454,
+            0.06499999761581421,
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "name": "water",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.09000000357627869,
+            0.25,
+            0.2199999988079071,
+            1.0
+          ]
+        },
+        {
+          "index": 8,
+          "name": "ground",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.2800000011920929,
+            0.3400000035762787,
+            0.17000000178813934,
+            1.0
+          ]
+        },
+        {
+          "index": 9,
+          "name": "road",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.12999999523162842,
+            0.14000000059604645,
+            0.12999999523162842,
+            1.0
+          ]
+        },
+        {
+          "index": 10,
+          "name": "wood",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.27000001072883606,
+            0.12999999523162842,
+            0.05000000074505806,
+            1.0
+          ]
+        },
+        {
+          "index": 11,
+          "name": "leaflight",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.18000000715255737,
+            0.3199999928474426,
+            0.07500000298023224,
+            1.0
+          ]
+        },
+        {
+          "index": 12,
+          "name": "leaf",
+          "old_implicit_factor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "new_factor": [
+            0.10000000149011612,
+            0.23999999463558197,
+            0.054999999701976776,
+            1.0
+          ]
+        }
+      ],
+      "binary_chunks": [
+        {
+          "type": 5130562,
+          "bytes": 26286912,
+          "unchanged_sha256": "840c95c912e5c02b383dcc16c0b566ab48154cb0ef4206a30ad2c1d30d44ad1a"
+        }
+      ],
+      "binary_identical": true,
+      "all_non_colour_json_identical": true,
+      "alpha_semantics_unchanged": true,
+      "existing_factors_and_textures_unchanged": true,
+      "station_code": "TNU",
+      "source_scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+      "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+      "source_glb": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_mapped_corridor_unverified_remnants.glb",
+      "source_glb_bytes": 26316704,
+      "corrected_glb_bytes": 26317576,
+      "zip_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_colour_v02.glb.zip",
+      "zip_member": "TNU_mapped_corridor_unverified_remnants_colour_v02.glb",
+      "zip_sha256": "0ee29a1ffb2e4e4f1a658ed59868ca064f4c83fd50c4e2634b24cbcf8f1d5976",
+      "zip_bytes": 3902735,
+      "zip_lossless_verified": true,
+      "source_palette_sha256": "3f3bcb718ff6b081cdd184a8c909fb48ec064bfb41730cab7c8bcf5bf3b03bad",
+      "patch_source_sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "proof_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_COLOUR_QA.json",
+      "independent_validation_file": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_INDEPENDENT_VALIDATION.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/ORIGINAL_EXPORT_QA.json",
+      "sha256": "ae1eefb9f773cbcd5b0ff57bf0a0ae011cafc9d280b94b69877916ac35f6dcb6",
+      "size": 1366
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/PATCH_SOURCE.py",
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "size": 1723
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/README.md",
+      "sha256": "66be4a9f071d7f410240a428d8b9230d2e2e8214b49442d1e968a1d574219252",
+      "size": 1528
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/REVISION_BUILDER.py",
+      "sha256": "02287dd503ae737876955bab17312e7511a33b5b44291ee558a232190f4a8281",
+      "size": 6891
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/SOURCE_MATERIALS.json",
+      "sha256": "3f3bcb718ff6b081cdd184a8c909fb48ec064bfb41730cab7c8bcf5bf3b03bad",
+      "size": 11636
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_COLOUR_QA.json",
+      "sha256": "f13ce35f1bb4079376573628c111a5ae84deec916aca10edfd557c12f843c5ee",
+      "size": 3538
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_INDEPENDENT_VALIDATION.json",
+      "sha256": "7444eff5b4105493d32f241cfc765e140cf55781150940c998f09eb4bcc8e2d8",
+      "size": 5362
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_colour_v02.glb.zip",
+      "sha256": "9fb778cc59d0f92d45b007de7b3615f08797c877529f2abf463a61221a250036",
+      "size": 93095
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_COLOUR_QA.json",
+      "sha256": "b199b7735817fe5ac570214aaa0454c6d587755d304bca91bcea837f1b782c34",
+      "size": 4333
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_INDEPENDENT_VALIDATION.json",
+      "sha256": "d9da051032046f3326414f70f289210f17b2287fffd73f628c0f87d44c0d6e2f",
+      "size": 6635
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_mapped_corridor_unverified_remnants_colour_v02.glb.zip",
+      "sha256": "0ee29a1ffb2e4e4f1a658ed59868ca064f4c83fd50c4e2634b24cbcf8f1d5976",
+      "size": 3902735
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TNU/VALIDATION_PALETTE.json",
+      "sha256": "57763672e1cf7df1cbeb81b3b826eb52255c8d26b9ebb472c9323db367f67c4f",
+      "size": 3211
+    }
+  ],
+  "file_count": 12,
+  "total_bytes": 4042053,
+  "opening_instructions": "Unzip the new archive(s) and open the contained GLB. Retain the original packed Blend/gallery; this addendum supersedes only portable RGB fallback factors.",
+  "photo_redistribution": "No third-party photographs included; embedded original sign images unchanged."
+}

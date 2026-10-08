@@ -1,0 +1,224 @@
+{
+  "status": "pass",
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "palette_path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/portable_colour_revision_02/TNU/VALIDATION_PALETTE.json",
+  "palette_sha256": "57763672e1cf7df1cbeb81b3b826eb52255c8d26b9ebb472c9323db367f67c4f",
+  "before": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.glb",
+    "glb_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+    "container_sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+    "member": null,
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 177012,
+        "sha256": "5a353faa6b70eefb61eb19f029ea7ee57b1f379d0bac4573f3f3e1f7e500f00f"
+      }
+    ]
+  },
+  "after": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/portable_colour_revision_02/TNU/TNU_historical_2016_unplaced_colour_v02.glb.zip",
+    "glb_sha256": "1f7d002c7f30ca62cbf114fcd17c24d9295e8d8cf5030d29c661c967daf01c4e",
+    "container_sha256": "9fb778cc59d0f92d45b007de7b3615f08797c877529f2abf463a61221a250036",
+    "member": "TNU_historical_2016_unplaced_colour_v02.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 177012,
+        "sha256": "5a353faa6b70eefb61eb19f029ea7ee57b1f379d0bac4573f3f3e1f7e500f00f"
+      }
+    ]
+  },
+  "non_json_chunks_identical": true,
+  "all_non_colour_json_identical": true,
+  "material_count": 12,
+  "changed_materials": [
+    {
+      "index": 2,
+      "name": "H2016 floor",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4399999976158142,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ],
+      "source_rgba": [
+        0.4399999976158142,
+        0.4300000071525574,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "H2016 peach",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.8700000047683716,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "source_rgba": [
+        0.8700000047683716,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "H2016 steel",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.30000001192092896,
+        0.3499999940395355,
+        0.3400000035762787,
+        1.0
+      ],
+      "source_rgba": [
+        0.30000001192092896,
+        0.3499999940395355,
+        0.3400000035762787,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "H2016 purple",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.23999999463558197,
+        0.11500000208616257,
+        0.20000000298023224,
+        1.0
+      ],
+      "source_rgba": [
+        0.23999999463558197,
+        0.11500000208616257,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "H2016 orange",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.7400000095367432,
+        0.28999999165534973,
+        0.11999999731779099,
+        1.0
+      ],
+      "source_rgba": [
+        0.7400000095367432,
+        0.28999999165534973,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "name": "H2016 white",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.800000011920929,
+        0.8199999928474426,
+        0.75,
+        1.0
+      ],
+      "source_rgba": [
+        0.800000011920929,
+        0.8199999928474426,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "H2016 red",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.47999998927116394,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ],
+      "source_rgba": [
+        0.47999998927116394,
+        0.15000000596046448,
+        0.15000000596046448,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "H2016 wood",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ],
+      "source_rgba": [
+        0.25,
+        0.11999999731779099,
+        0.04500000178813934,
+        1.0
+      ]
+    }
+  ],
+  "changed_count": 8,
+  "errors": [],
+  "method": "Only absent untextured base-color fallbacks may be filled from the exact packed-source palette. Existing explicit colors, textures, alpha, alphaMode, extensions, node transforms, mesh/accessor/buffer tables and binary data are preserved. Original geometry QA remains applicable."
+}

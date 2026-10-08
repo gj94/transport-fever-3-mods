@@ -1,0 +1,21 @@
+{
+  "code": "KVTA",
+  "blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "source_plan_sha256": "3b2f30c4e7ebad86e66d87af67a36e156c2d496e5e71580dfb9372b3f7636268",
+  "platform_checks": [
+    {
+      "ref": "",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.0500000000000007
+    },
+    {
+      "ref": "",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.5117635270133154
+    }
+  ],
+  "switch_motor_checks": [],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}

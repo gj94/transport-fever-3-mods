@@ -1,0 +1,57 @@
+{
+  "station": "MAKM",
+  "reviewed_utc": "2026-10-08T22:35:06.048504+00:00",
+  "status": "five_view_visual_source_complete_pass",
+  "source_scene_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+  "frames": {
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "b84b2af52a941f2e22ab561b880533be99a417e03a9e5511b6f49ab2d105e680",
+      "source_scene_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "01_Overall_station.png": {
+      "image_sha256": "86b4961653b69d9dc0f476991632c54c59d542f542591f93963dd5d101456b7d",
+      "source_scene_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "MAKM_04e85d19_partial_visual_review.json"
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "f45ad36f6284c1a2e6b58f8cbf651f91d36dc22d89635e29b523427ce73d26af",
+      "source_scene_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "MAKM_04e85d19_partial_visual_review.json"
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "6ac47e8f14bb9e6cc1733bd6842dab6ca477268d09d1c45cef924216f6535a10",
+      "source_scene_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "MAKM_04e85d19_partial_visual_review.json"
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "fabf7e055d2cd34e395cd6673d21458fe1b121354e0c661506ca9ada8584332d",
+      "source_scene_sha256": "04e85d19689ad86d13abeaf34d6c324d33630ea6c86c5a41f2f090d66f401c46",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "MAKM_04e85d19_partial_visual_review.json"
+    }
+  },
+  "sources": [],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/NJT_MAKM_AMY_PVU_details_2234.jpg",
+  "prior_review_reports": [
+    "MAKM_04e85d19_partial_visual_review.json"
+  ],
+  "observations": [
+    "Current05 pointwork frame is clear and coherent, with running/branching rails, sleepers and guard/point details visible.",
+    "01\u201304 exact prior reviewed image hashes preserved. This completes gallery visual coverage for this scene; previous source and reconstruction qualifications continue."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

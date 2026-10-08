@@ -1,0 +1,213 @@
+{
+  "station": "KVTA",
+  "status": "frozen_for_independent_audit",
+  "blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "export_sha256": "47da93f488a4a1d054af675a0721c960433ed1e851d756506b070ca28eaf62b8",
+  "render_final_scene_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "render_lineage": "Each render sidecar records actual source checksum; retained unaffected views explicitly cite final revision and verified change scope.",
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/KVTA/BUILD_SOURCE.py",
+      "relative_station_path": "BUILD_SOURCE.py",
+      "sha256": "c272b9c945a4d89dfe44460a9e2fe7b6ff859c4852fe81d49f769de24a03f5f3",
+      "size": 55455
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/EXPORT_SOURCE.py",
+      "relative_station_path": "EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "size": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/KVTA_coastal_station_v01.blend",
+      "relative_station_path": "KVTA_coastal_station_v01.blend",
+      "sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+      "size": 12434887
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/QA_BUILD.json",
+      "relative_station_path": "QA_BUILD.json",
+      "sha256": "165546efe8de75b6152f4bcc5905daea9cc08cd35a2a935e388f3ce15c549a7c",
+      "size": 4176
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/QA_EXPORT.json",
+      "relative_station_path": "QA_EXPORT.json",
+      "sha256": "b1f28f2a158211752364ec2bbcae2c897eb083874d2f761aedc9f60805c80aa3",
+      "size": 526
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/QA_LAYOUT.json",
+      "relative_station_path": "QA_LAYOUT.json",
+      "sha256": "d09ac4ed455ed3b9d6c5688b6208548b3099f40db961b95891b2a98f13088ad1",
+      "size": 767
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/QA_RAY_INPUTS.json",
+      "relative_station_path": "QA_RAY_INPUTS.json",
+      "sha256": "004936997c3e5396f9ea6bcab4fd037c10194f8fe42b1c83c5e6472c28512cc4",
+      "size": 2475
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/QA_SCENE.json",
+      "relative_station_path": "QA_SCENE.json",
+      "sha256": "5e4c702a413ed275da538c426fb65eea8c2507f7f16b6d0d2304f7710700d305",
+      "size": 19495
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/QA_SCENE_PROVENANCE.json",
+      "relative_station_path": "QA_SCENE_PROVENANCE.json",
+      "sha256": "ee7347267cbc9c56c14d98ba23aabb4896a6ae0d5b4ef5b535ad489b855e46a0",
+      "size": 321
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/README.md",
+      "relative_station_path": "README.md",
+      "sha256": "520fd8cd0774f44364e9a551e2193fbab63be5eefbb835f29f77d140707c00d9",
+      "size": 596
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/RENDER_SOURCE.py",
+      "relative_station_path": "RENDER_SOURCE.py",
+      "sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30",
+      "size": 2538
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/SOURCES_AND_UNCERTAINTIES.md",
+      "relative_station_path": "SOURCES_AND_UNCERTAINTIES.md",
+      "sha256": "17a44dfc81ec8ef2d8a8d9665351d653bb7334cca9c6e7517a9de5d20c3dac28",
+      "size": 6045
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/VISUAL_QA.md",
+      "relative_station_path": "VISUAL_QA.md",
+      "sha256": "203fa00a21f08a014bc2d3cc01776765623995852f650c870acd20b188feb38c",
+      "size": 1070
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/exports/KVTA_coastal_station_v01.glb",
+      "relative_station_path": "exports/KVTA_coastal_station_v01.glb",
+      "sha256": "47da93f488a4a1d054af675a0721c960433ed1e851d756506b070ca28eaf62b8",
+      "size": 54682408
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/exports/KVTA_coastal_station_v01.validation.json",
+      "relative_station_path": "exports/KVTA_coastal_station_v01.validation.json",
+      "sha256": "48db75ca1f003eee31e06da7a10b50f83ccccfea21385ecab0b46310cfc5bf5b",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/FULL_TRACK_PLAN.png",
+      "relative_station_path": "references/FULL_TRACK_PLAN.png",
+      "sha256": "f1963f79d124126088c7e0f87eac4c65a16ce5b9fe4074e966f8f58d79d795fd",
+      "size": 65145
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/architecture_evidence.json",
+      "relative_station_path": "references/architecture_evidence.json",
+      "sha256": "b09cacab74f6337a74f12c5354d285820c5eefe9304a25788db862054bb78315",
+      "size": 2269
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/plan.json",
+      "relative_station_path": "references/plan.json",
+      "sha256": "3b2f30c4e7ebad86e66d87af67a36e156c2d496e5e71580dfb9372b3f7636268",
+      "size": 34907
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/plan.png",
+      "relative_station_path": "references/plan.png",
+      "sha256": "e8342e4941885492e6118f464a9d59760b12f3896c122b6c3d701f3f35c6e901",
+      "size": 25531
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/pointwork.json",
+      "relative_station_path": "references/pointwork.json",
+      "sha256": "f77986ecf47a6640558bb1f9fe051105b88ad78d627f49627c8c0b033a2fa5c6",
+      "size": 335
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/rail_meshes.json",
+      "relative_station_path": "references/rail_meshes.json",
+      "sha256": "e5d74d651830fa0112c94f8ffc08f9a4cefad9819e12a3b876c54d6ec1f41f42",
+      "size": 20139
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/references/station_record.json",
+      "relative_station_path": "references/station_record.json",
+      "sha256": "5e96a2e68981f6611d5d703773a0a4668558fb8ba410f2fe811e7334835b5b2e",
+      "size": 6341
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "85290ac18241ac6273e746637d3a6f7bc46ae47040ea3758d70c391e1fc5ba44",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "75c037e5996ee4f73503dd061738ecc02eab367c4bd182e221a7197c8dd59818",
+      "size": 1483898
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "f0d759bde2a71158e01d3b9d067b967f557f5ce17344f1889b4036c0ad0d2c67",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "c9aa1248a7a86bf70d49861768a68188a9e4b1059918f3c8fdd95887c4d2a438",
+      "size": 1576495
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "e5bdc96c47bd92aeb44acc016d2b76ca7f16cf58c9ca5ed1c3f088d89a06db0f",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "c8841a8f44f33b349526e6e256300dacc59e2d7f5c417595cfc7229b640d8445",
+      "size": 1370473
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "98e0b1f9c3ccf34bf88dcd7d086e1beb4497777fee0c80dfa93491d79aac6d7d",
+      "size": 567
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "56c8343fa9a1ffcb1729f768971fb89995764fdfa332dacef9d20b7036bcd033",
+      "size": 1360215
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/textures/board.png",
+      "relative_station_path": "textures/board.png",
+      "sha256": "e0a09ddca9aa5c1cdd25950b01bb8dc673d38fbc2de72c1f4f51ab7c0cdddcc0",
+      "size": 50292
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/textures/fascia.png",
+      "relative_station_path": "textures/fascia.png",
+      "sha256": "08813d9b9f7f06f5f2463281741b140ea0dd2093e3470881dc62a5b964fb850f",
+      "size": 37808
+    },
+    {
+      "path": "coastal_stations_overnight/north/KVTA/textures/notice.png",
+      "relative_station_path": "textures/notice.png",
+      "sha256": "e03c28c8e7420c887a570566131b4e3b92ed9ed184449839816d52305ef278f2",
+      "size": 37962
+    }
+  ],
+  "file_count": 33,
+  "total_bytes": 73286950,
+  "photo_redistribution": "No downloaded Google Maps/Mappls/other source photography included. Original station sign art and generated render images only.",
+  "source_data_attribution": "\u00a9 OpenStreetMap contributors, ODbL1.0; IRI references linked",
+  "cautions": "Read SOURCES_AND_UNCERTAINTIES.md. Hidden interiors and some dimensions/placement are reconstructed; current yard inventory not certified."
+}

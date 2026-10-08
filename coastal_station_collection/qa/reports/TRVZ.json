@@ -1,0 +1,160 @@
+{
+  "station_code": "TRVZ",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/TRVZ final freeze with portable_colour_revision_02",
+  "manifest_sha256": "a39a4bceb3608d848efa45e30cd0c3f6e08b20a0bfe43876b5cd17afddb96372",
+  "blend_sha256": "06755a8328a171ffd24c1f66a33723359edd4aebfd8a37a552d6b839293519aa",
+  "export_sha256": "f4a24a7d2ef740be2763455bb8a5f4db4362b44ca754dc1161dbf9083275753d",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/TRVZ_coastal_station_v01.blend",
+      "relative_station_path": "TRVZ_coastal_station_v01.blend",
+      "sha256": "06755a8328a171ffd24c1f66a33723359edd4aebfd8a37a552d6b839293519aa",
+      "size": 6627477
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "2c1d716299d5fa634e685756656bb2e19cc09ead4404a6c60c0ab51bb1a22ed7",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "d490822668524c4e9a66ddffd0325af6ccf1f311f4251335e701f918a7cb8b0a",
+      "size": 1475185
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "ccfc2910330eb8d79c0c67dab18ee8d9444d765907d6d4a345ba6fc6213797a1",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "1b074f386f8f03afa4921df1294abd24798dd5458dcc51c7250c59cc534792e0",
+      "size": 1437766
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "0e05e5cf4989d7403c46b45eab56db41b18c3cc922f6f216e42f9c3bfc3f8807",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "f8357dc7f43f0e5ca40d9d57b5a371cbadae877b860cbe210ae7550de106862e",
+      "size": 1162080
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "5535e91e3d5e88cbb3c64d4f13d2c5b9bbfcc71ebd3c7d168fb96bd6fc9ac27e",
+      "size": 567
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "5a729a2b0a0fae7b4d8ff96a08b5d0130a587aad66b36e4bbbb957c7c81f3fd4",
+      "size": 1327898
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/ORIGINAL_EXPORT_QA.json",
+      "sha256": "1ac51c35dc90dc8bd1e2e0407b8b089c7526ce08f468de672b12cd9ce94eab2c",
+      "size": 526
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/PATCH_SOURCE.py",
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "size": 1723
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/README.md",
+      "sha256": "fdbe548f64c7ab9e0412a65a921913c2613036ab8750301e0c1d85cf917ecc32",
+      "size": 1129
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/REVISION_BUILDER.py",
+      "sha256": "02287dd503ae737876955bab17312e7511a33b5b44291ee558a232190f4a8281",
+      "size": 6891
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/SOURCE_MATERIALS.json",
+      "sha256": "3349edd3a1bed0f3db7f22296b2422a818d18e2ef4439d6753da8e973c49b410",
+      "size": 11607
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/TRVZ_coastal_station_v01_COLOUR_QA.json",
+      "sha256": "7973916170413333722274ebd97832c2755a3c81f84498e1cde2df640423a858",
+      "size": 6080
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/TRVZ_coastal_station_v01_INDEPENDENT_VALIDATION.json",
+      "sha256": "c40c12802f06869017d064509d923fdf0c53e640a5eaa820551710d39afe6ed1",
+      "size": 9547
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/TRVZ_coastal_station_v01_colour_v02.glb.zip",
+      "sha256": "955e2c7632c5b9ecec22b6aba5fd3b7affb8242399d5098d2950812920003f6d",
+      "size": 4048286
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/TRVZ/VALIDATION_PALETTE.json",
+      "sha256": "83975511abc92338f80e71cd7bb3419a4942ae11e8e874f760cffabcbe619e06",
+      "size": 3187
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/01_Overall_station.png",
+      "bytes": 1475185,
+      "sha256": "d490822668524c4e9a66ddffd0325af6ccf1f311f4251335e701f918a7cb8b0a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/02_Entrance_architecture.png",
+      "bytes": 1437766,
+      "sha256": "1b074f386f8f03afa4921df1294abd24798dd5458dcc51c7250c59cc534792e0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/03_Platform_and_tracks.png",
+      "bytes": 1162080,
+      "sha256": "f8357dc7f43f0e5ca40d9d57b5a371cbadae877b860cbe210ae7550de106862e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/TRVZ/renders/04_Reconstructed_interior.png",
+      "bytes": 1327898,
+      "sha256": "5a729a2b0a0fae7b4d8ff96a08b5d0130a587aad66b36e4bbbb957c7c81f3fd4"
+    }
+  ],
+  "checks": {
+    "manifest": "All 31 frozen file hashes and byte counts independently verified.",
+    "visual": "All 4 native gallery images have independent source/pixel review; source/reconstruction distinctions are preserved.",
+    "resources": "Exact packed scene inventory confirms metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bounds and embedded-dependency checks pass; exact source-to-export provenance verifies. Authored RGB additions independently validated; all geometry, transforms, explicit factors/textures and alpha remain unchanged.",
+    "layout": "Reported faces:1; physical bodies:1. All actual adopted platform polygons valid and clear of rail envelopes; enclosed building footprint has no platform overlap. Source footprints and inferred choices are retained.",
+    "circulation": "9 independent low/waist/head public and ramp paths clear; 7 actual floor probes support ramps and entrance/platform thresholds."
+  },
+  "evidence_reports": [
+    "TRVZ_frozen_scene_resources.json",
+    "TRVZ_final_scene_inspection.json",
+    "TRVZ_final_inputs.json",
+    "TRVZ_final_layout.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/TRVZ_06755a83_final_visual_review.json",
+    "NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "NORTH_NEW_FOUR_portable.json",
+    "TRVZ_portable_colour_revision_02_0.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted scene/export checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication.",
+  "portable_revision_manifest": "north/portable_colour_revision_02/TRVZ/MANIFEST.json",
+  "portable_revision_manifest_sha256": "aebc23e0135d10bfd167f55cc653a16bdd9026c00c46a8912aa34c1178c86ba6",
+  "export_zip_sha256": "955e2c7632c5b9ecec22b6aba5fd3b7affb8242399d5098d2950812920003f6d"
+}

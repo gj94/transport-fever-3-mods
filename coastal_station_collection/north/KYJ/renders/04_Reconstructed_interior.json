@@ -1,0 +1,49 @@
+{
+  "file": "renders/04_Reconstructed_interior.png",
+  "camera": "04_Reconstructed_interior",
+  "source_blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+  "image_sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 87.98,
+  "samples": 48,
+  "denoising": false,
+  "camera_override": {
+    "reason": "Read-only camera framing makes existing waiting chairs and ticket furniture clearly visible; scene geometry unchanged.",
+    "position": [
+      -6.800000190734863,
+      90.0,
+      3.0999999046325684
+    ],
+    "rotation": [
+      1.5417975187301636,
+      -1.5369186812108637e-08,
+      -0.3400971591472626
+    ],
+    "lens_mm": 28
+  },
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision changes only the recorded bridge, bufferstop or roof components outside this retained remote rail/enclosed interior view. Exact original pixels and actual source-scene checksum are preserved; this is unchanged-subject lineage, not a fresh rendering.",
+    "original_image_sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93",
+    "related_patch_chain": {
+      "bridge_patch": {
+        "source_blend_sha256": "598e134499e510b4027ecccbb836e228d35fe6e1cf341e45c63a44a98c97e821",
+        "source_blend_file": "KYJ_coastal_station_v02.blend",
+        "changed_collection": "07 | Pedestrian footbridge reconstructed geometry",
+        "reason": "Move reconstructed platform4/5 flight inward to x44.066216 and update its deck-mouth railing. Its whole run now lies inside the common source-platform interval, including the narrowed toe.",
+        "common_center_interval_with_1_30m_margins": [
+          43.229130837679186,
+          44.903301526521915
+        ],
+        "mapped_platform_and_bridge_route_unchanged": true,
+        "all_nonbridge_geometry_unchanged": true,
+        "script_sha256": "c3d97928372b59f4fae0e1d70708218e3152f509ef3ac6826b71eb04d991c445"
+      }
+    }
+  }
+}

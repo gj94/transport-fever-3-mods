@@ -1,0 +1,180 @@
+{
+  "station_code": "KYJ",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/KYJ final freeze with portable_colour_revision_02",
+  "manifest_sha256": "b3916b201228f806cbb041dd92ea5cb45c771e9180c5eeb2e39f8c974e7e635f",
+  "blend_sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+  "export_sha256": "bbf647b34e97ac6d6fd1cd65ab5a8bf43a560e548b2b049c2105f42399341ec9",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/KYJ/KYJ_coastal_station_v03.blend",
+      "relative_station_path": "KYJ_coastal_station_v03.blend",
+      "sha256": "8bf8fadb4fd474ffef921223563a35a031808826558d338084e8ff39ab1e83a5",
+      "size": 31177246
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "f222bdae5bcd6d6452966401b4478fe08a3691ec5c4fcfbee00f11122125f838",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "f2c832a030c9e5162aca034f7d004183b9880377614353243537eb178526e8b9",
+      "size": 1421602
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "79c80226844870d20bfd9956bc805dc1717e2e36f6db9dede4ce9e18be73db03",
+      "size": 2166
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e",
+      "size": 1434942
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "2547eafd8e7a8dacc15373e2c7db933d7a394d63dd1444284a221e2374feb778",
+      "size": 912
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "ab83d7bd6834c8fc60576bb33db43ccce5d0f04e9defea4a57e1560352063f49",
+      "size": 1480059
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "772f01a888adb02084cac57d2108fd51de7903951f5f2868e78d029700e09590",
+      "size": 2393
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93",
+      "size": 1370136
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/05_Mapped_turnout_detail.json",
+      "relative_station_path": "renders/05_Mapped_turnout_detail.json",
+      "sha256": "cac7a7d88376b7a5cbb05662af0a26be06bfe2d82768acc2e0a8073113ec3fca",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/05_Mapped_turnout_detail.png",
+      "relative_station_path": "renders/05_Mapped_turnout_detail.png",
+      "sha256": "f4cebc2b10c3949e4bc408805ba6700943a919448a68ce84d232ce081b57c7a3",
+      "size": 1493704
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_COLOUR_QA.json",
+      "sha256": "20fce0e4496bcbe5d0b0ed479e457f29673f251a87674bd504cbe900aa194bcc",
+      "size": 6349
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_INDEPENDENT_VALIDATION.json",
+      "sha256": "46b53a9e65908610ad0c99b9f0ab827af589754c21c03dde768c76f339610286",
+      "size": 9981
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/KYJ_coastal_station_v03_colour_v02.glb.zip",
+      "sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65",
+      "size": 17155256
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/ORIGINAL_EXPORT_QA.json",
+      "sha256": "db325bcebca8655fb9f79d27465b3377025beae0738521156ba37f77774eddc8",
+      "size": 527
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/PATCH_SOURCE.py",
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203",
+      "size": 1723
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/README.md",
+      "sha256": "200e6af1edc8e154fa57f45db84b8522410b77cf1213defff27f2eccaaaa8f45",
+      "size": 1125
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/REVISION_BUILDER.py",
+      "sha256": "02287dd503ae737876955bab17312e7511a33b5b44291ee558a232190f4a8281",
+      "size": 6891
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/SOURCE_MATERIALS.json",
+      "sha256": "cc109714978a55bed4dcc476680dd317ce42ec113f5c8f84514f426a1be321cf",
+      "size": 11715
+    },
+    {
+      "path": "coastal_stations_overnight/north/portable_colour_revision_02/KYJ/VALIDATION_PALETTE.json",
+      "sha256": "dc1f8568321c45c79c849848b9e76ccbd814a4757b597a82eb1a2b1ece300962",
+      "size": 3194
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/01_Overall_station.png",
+      "bytes": 1421602,
+      "sha256": "f2c832a030c9e5162aca034f7d004183b9880377614353243537eb178526e8b9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/02_Entrance_architecture.png",
+      "bytes": 1434942,
+      "sha256": "48ec8f9605016252964e6633ec8ad92ed3cc5e9f2d005daed579f00c1d0ed35e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/03_Platform_and_tracks.png",
+      "bytes": 1480059,
+      "sha256": "ab83d7bd6834c8fc60576bb33db43ccce5d0f04e9defea4a57e1560352063f49"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/04_Reconstructed_interior.png",
+      "bytes": 1370136,
+      "sha256": "59871759a8cdc8b5b49497bd67da07f73cb2943fbb57edc31b2ed68b960a5f93"
+    },
+    {
+      "path": "coastal_stations_overnight/north/KYJ/renders/05_Mapped_turnout_detail.png",
+      "bytes": 1493704,
+      "sha256": "f4cebc2b10c3949e4bc408805ba6700943a919448a68ce84d232ce081b57c7a3"
+    }
+  ],
+  "checks": {
+    "manifest": "All 36 frozen file hashes and byte counts independently verified.",
+    "visual": "All 5 native gallery images have independent source/pixel review; source/reconstruction distinctions are preserved.",
+    "resources": "Exact packed scene inventory confirms metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bounds and embedded-dependency checks pass; exact source-to-export provenance verifies. Authored RGB additions independently validated; all geometry, transforms, explicit factors/textures and alpha remain unchanged.",
+    "layout": "Reported faces:5; physical bodies:3. All actual adopted platform polygons valid and clear of rail envelopes; enclosed building footprint has no platform overlap. Source footprints and inferred choices are retained.",
+    "circulation": "57 independent low/waist/head public and ramp paths clear; 22 actual floor probes support ramps and entrance/platform thresholds."
+  },
+  "evidence_reports": [
+    "KYJ_frozen_scene_resources.json",
+    "KYJ_current_geometry_evidence.json",
+    "KYJ_final_inputs.json",
+    "KYJ_final_layout.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/KYJ_8bf8fadb_final_visual_review.json",
+    "KYJ_final_scene_inspection.json",
+    "KYJ_repair_delta_inspection.json",
+    "KYJ_final_layout.json",
+    "NORTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "NORTH_NEW_FOUR_portable.json",
+    "KYJ_portable_colour_revision_02_0.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted scene/export checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication.",
+  "portable_revision_manifest": "north/portable_colour_revision_02/KYJ/MANIFEST.json",
+  "portable_revision_manifest_sha256": "47a917028d270ad14501fb5ed95d702064867301ebe1abd59bc00e1ce80769eb",
+  "export_zip_sha256": "fbe6e1b10aa208eec5ae03969fc66213e807cfeee4112694cffd30d3bb25fd65"
+}

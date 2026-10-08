@@ -1,0 +1,163 @@
+{
+  "station_code": "KVTA",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 2,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 2,
+  "source_route_segments": 2,
+  "mapped_turnout_nodes": 0,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 7078,
+  "switch_hardware": [],
+  "bridge_deck_underside_m": 8.4,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 15.548180519937347,
+  "stair_landing_method": "Last tread ends at deck leading edge and top equals slab top8.70m; no treads run underneath solid deck.",
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 97,
+  "mesh_objects": 84,
+  "mesh_vertices": 610828,
+  "mesh_faces": 430510,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "c272b9c945a4d89dfe44460a9e2fe7b6ff859c4852fe81d49f769de24a03f5f3",
+  "source_plan_sha256": "3b2f30c4e7ebad86e66d87af67a36e156c2d496e5e71580dfb9372b3f7636268",
+  "blend_file": "KVTA_coastal_station_v01.blend",
+  "blend_sha256": "977d262e0a4e3968b93079ac710aca0c9c0346217e0c29390444eb4054085c65",
+  "blend_bytes": 12434887,
+  "building_dimensions_m": {
+    "width": 7.636183961629562,
+    "length": 17.079630710618797,
+    "position_xy": [
+      -2.593703198649344,
+      -1.2018194800626545
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": 27.992628435989293,
+      "y": -23.465175455084832,
+      "bounds": [
+        25.4367444393102,
+        -240.59870046170346,
+        30.788000724437268,
+        193.6683495515338
+      ],
+      "width": 4.5346352986493415,
+      "ref": "1"
+    },
+    {
+      "x": 10.343158624292869,
+      "y": -19.0908145937573,
+      "bounds": [
+        7.303428224684859,
+        -232.6604504243676,
+        13.382889023900878,
+        194.478821236853
+      ],
+      "width": 6.000000103822505,
+      "ref": "2"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -284.1064453125,
+        240.0
+      ],
+      "rotation": [
+        1.027801275253296,
+        2.3583218933254102e-08,
+        -0.8547168970108032
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -28.411794662475586,
+        -19.201820373535156,
+        9.300000190734863
+      ],
+      "rotation": [
+        1.3762799501419067,
+        1.0226538904589688e-07,
+        -0.8850667476654053
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        12.143158912658691,
+        -67.20182037353516,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        2.5454993668461157e-10,
+        -0.03821667283773422
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -5.5117950439453125,
+        -8.20181941986084,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5416979789733887,
+        3.276250026829075e-08,
+        -0.2649018466472626
+      ]
+    }
+  ],
+  "peak_rss_kb": 460504,
+  "initial_build_inventory": {
+    "object_count": 97,
+    "mesh_objects": 84,
+    "mesh_vertices": 610828,
+    "mesh_faces": 430510
+  },
+  "unique_mesh_vertices_final": 610828,
+  "geometry_bounds_m": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.36091136932373
+    ]
+  ],
+  "packed_resources_final": true,
+  "no_stock_name_candidates_final": true,
+  "final_inventory_source": "QA_SCENE.json, exact read-only inspected scene hash"
+}

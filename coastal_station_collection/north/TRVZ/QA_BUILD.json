@@ -1,0 +1,147 @@
+{
+  "station_code": "TRVZ",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 1,
+  "platform_bodies_modeled": 1,
+  "road_cross_section_count": 1,
+  "source_route_segments": 1,
+  "mapped_turnout_nodes": 0,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 3548,
+  "switch_hardware": [],
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 73,
+  "mesh_objects": 62,
+  "mesh_vertices": 311824,
+  "mesh_faces": 221214,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "710e5c45f8bb56806cd775c22d5eb4477d9f526526d9e376d654fc8eaaca5e0a",
+  "source_plan_sha256": "711ff1031bad334478a0810d118bd70229f61a0714c767aa537705a35280a954",
+  "blend_file": "TRVZ_coastal_station_v01.blend",
+  "blend_sha256": "06755a8328a171ffd24c1f66a33723359edd4aebfd8a37a552d6b839293519aa",
+  "blend_bytes": 6627477,
+  "building_dimensions_m": {
+    "width": 10,
+    "length": 16,
+    "position_xy": [
+      -3.015868391305193,
+      0
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": 10.284690010616899,
+      "y": 0.3983004275155402,
+      "bounds": [
+        2.7841316086948074,
+        -51.674769886566686,
+        13.75301762694331,
+        52.47137074159777
+      ],
+      "width": 6.778862097522313,
+      "ref": "1"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -62.08938217163086,
+        240.0
+      ],
+      "rotation": [
+        0.9063892960548401,
+        -1.7265411145217513e-07,
+        -1.3654403686523438
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -30.015869140625,
+        -18.0,
+        9.300000190734863
+      ],
+      "rotation": [
+        1.3762799501419067,
+        1.0226538904589688e-07,
+        -0.8850667476654053
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        12.08469009399414,
+        -66.0,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        -1.060605159253214e-09,
+        -0.03821668028831482
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -7.11586856842041,
+        -7.0,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5424739122390747,
+        1.9304765785932432e-08,
+        -0.3500448763370514
+      ]
+    }
+  ],
+  "peak_rss_kb": 339628,
+  "initial_build_inventory": {
+    "object_count": 73,
+    "mesh_objects": 62,
+    "mesh_vertices": 311824,
+    "mesh_faces": 221214
+  },
+  "unique_mesh_vertices_final": 311824,
+  "geometry_bounds_m": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.269731521606445
+    ]
+  ],
+  "packed_resources_final": true,
+  "no_stock_name_candidates_final": true,
+  "final_inventory_source": "QA_SCENE.json, exact read-only inspected scene hash"
+}
