@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-08T15:36:00Z",
+  "snapshot_utc": "2026-10-08T16:16:00Z",
   "status": "Selected reviewed WIP previews; not final station completion",
   "images": [
     {
@@ -17,6 +17,14 @@
       "sha256": "3164e9607276b2e9d3c4d764b49936c3cdfc5898d1c93c296ce0ccef91e75198",
       "status": "work in progress / accepted scope-specific preview",
       "caveat": "Schematic coverage plan, not a Blender beauty render.46 mapped route segments are not46 distinct tracks. Review labels are not railway operational numbers."
+    },
+    {
+      "title": "TVC \u00b7 service-side platform amenities",
+      "source_path": "south_indian_stations_v02/tvc/renders/17_Platform_amenities_service_side.png",
+      "gallery_file": "tvc_platform_amenities.png",
+      "sha256": "8e8a3deaff0527151e65bd3637acf47b323ebc5dc808b6e6b95f1eba4e4dc30f",
+      "status": "Reviewed scoped reconstruction preview; package still WIP",
+      "caveat": "Stocked kiosk serving side, tea urn/cups/menu, drinking-water cooler/taps and separated bins. Exact earlier scene lineage is retained; later waiting-lounge-only corrections do not alter this platform geometry."
     },
     {
       "title": "NCJ \u00b7 heritage facade and station",

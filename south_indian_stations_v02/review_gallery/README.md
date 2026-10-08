@@ -16,6 +16,12 @@ Schematic coverage plan, not a Blender beauty render.46 mapped route segments ar
 
 [![TVC · full mapped yard coverage](tvc_labelled_yard.png)](tvc_labelled_yard.png)
 
+## TVC · service-side platform amenities
+
+Stocked kiosk serving side, tea urn/cups/menu, drinking-water cooler/taps and separated bins. Exact earlier scene lineage is retained; later waiting-lounge-only corrections do not alter this platform geometry.
+
+[![TVC · service-side platform amenities](tvc_platform_amenities.png)](tvc_platform_amenities.png)
+
 ## NCJ · heritage facade and station
 
 Current corrected scene with historical facade appearance and mixed-date mapped yard. This is a visual reconstruction, not an as-built survey.
@@ -72,6 +78,6 @@ Labelled schematic coverage plan, not a final Blender yard render. Current-map g
 
 ## Revisions and rights
 
-[TVC booking source hash](tvc_booking_hall_provenance.json) · [NCJ render revisions](ncj_render_provenance.json) · [NCJ pointwork source lineage](ncj_proof_source_lineage.json) · [ERS ticket hall](ers_ticket_hall_review.json) · [ERS platform](ers_platform_concourse_review.json) · [Corrected platform lineage](ers_platform_concourse_proof.json) · [ERS turnout](ers_turnout_frog_review.json) · [Corrected ERS proof lineage](ers_turnout_frog_proof.json).
+[TVC booking source hash](tvc_booking_hall_provenance.json) · [TVC platform source hash](tvc_platform_amenities_provenance.json) · [NCJ render revisions](ncj_render_provenance.json) · [NCJ pointwork source lineage](ncj_proof_source_lineage.json) · [ERS ticket hall](ers_ticket_hall_review.json) · [ERS platform](ers_platform_concourse_review.json) · [Corrected platform lineage](ers_platform_concourse_proof.json) · [ERS turnout](ers_turnout_frog_review.json) · [Corrected ERS proof lineage](ers_turnout_frog_proof.json).
 
 Yard plans use OpenStreetMap-derived data: © OpenStreetMap contributors, [copyright and ODbL information](https://www.openstreetmap.org/copyright). No new licence is granted for generated assets. Source notices remain applicable.
