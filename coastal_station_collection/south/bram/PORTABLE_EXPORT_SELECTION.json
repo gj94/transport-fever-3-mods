@@ -1,0 +1,19 @@
+{
+  "station": "BRAM",
+  "retained_blend_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+  "original_builder_manifest_sha256": "71c3b734f5cee471e8371a4641c0c21cf32e26bf3e26231a271fcb8b092cbca5",
+  "corrected_revision_manifest": "coastal_station_collection/south/portable_colour_revision_02/BRAM/DELIVERY_MANIFEST.json",
+  "corrected_revision_manifest_sha256": "6a1e51df2af232e9ca8f41cc1b22b6c3b6dba4932afc8d5168fa2bc4e499ac66",
+  "old_archive_sha256": "5083d3e4f127a743dbac75502e5c84e90e29b09a475b3207345172cc262bd073",
+  "corrected_glb_sha256": "8cd92e051c49dc04904786abf90030279cd4bd02de559ab6204d2e07b905efc6",
+  "corrected_archive_sha256": "7ad088a06d7cff5e9b35c2633711b2d1dfb55acd141e202ef355e08ada45363f",
+  "excluded_first_main_files": [
+    {
+      "path": "coastal_station_collection/south/bram/exchange/BRAM_portable_GLTF.zip",
+      "size": 2853531,
+      "sha256": "5083d3e4f127a743dbac75502e5c84e90e29b09a475b3207345172cc262bd073"
+    }
+  ],
+  "original_archive_preserved_in_backup_branch": "backup/coastal-station-collection-20261008",
+  "reason": "First main delivery uses the explicitly corrected portable export. Original source/render/evidence bytes are retained; the superseded white-fallback archive is preserved in backup history."
+}

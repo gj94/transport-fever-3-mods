@@ -1,0 +1,39 @@
+{
+  "station": "TVCN",
+  "retained_blend_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+  "original_builder_manifest_sha256": "0c4baf81b71e861d0d637d9268116c2276afcdd06b50a1d80ec481fe04afbee3",
+  "corrected_revision_manifest": "coastal_station_collection/south/portable_colour_revision_02/TVCN/DELIVERY_MANIFEST.json",
+  "corrected_revision_manifest_sha256": "4c1a3bc228a92e79007add42cdec3b84c96929eb464d1c958b47837429fce461",
+  "old_archive_sha256": "05ab1f5c6284bc491ec7f6be935f063b1960a4306bb7c962afd1ff8b161046ae",
+  "corrected_glb_sha256": "fa7636cf568836d458f11c43283a4c5b6c48f62e290d4f898b5abf7f9beacfd0",
+  "corrected_archive_sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f",
+  "excluded_first_main_files": [
+    {
+      "path": "coastal_station_collection/south/tvcn/exchange/TVCN_portable_GLTF.zip.parts/part001.bin",
+      "size": 16777216,
+      "sha256": "228166eeeccdd53d2b3012122357b18dcb3fe13b5fe1bf18b683d2287ddebb0f"
+    },
+    {
+      "path": "coastal_station_collection/south/tvcn/exchange/TVCN_portable_GLTF.zip.parts/part002.bin",
+      "size": 6656090,
+      "sha256": "756dc520fccadfc0853583183f47710dacacb947a3e30b67b9d146d7ce78010a"
+    },
+    {
+      "path": "coastal_station_collection/south/tvcn/exchange/TVCN_portable_GLTF.zip.parts/manifest.json",
+      "size": 638,
+      "sha256": "ee343f91b028b41a2a3225ed3afe92395cd631352f4a61f5c58a3fb360dfa50b"
+    },
+    {
+      "path": "coastal_station_collection/south/tvcn/exchange/TVCN_portable_GLTF.zip.parts/reassemble.py",
+      "size": 983,
+      "sha256": "09762f91aa79d502db2ed0ef1fc3384b4c4f5f549f37654b2cf57e1f3e4757df"
+    },
+    {
+      "path": "coastal_station_collection/south/tvcn/exchange/TVCN_portable_GLTF.zip.parts/README.md",
+      "size": 448,
+      "sha256": "80c8d3f8f3b6fe50ad420c92e5a52db9b0ce16ed0a54654f58b34f641a5b3ea6"
+    }
+  ],
+  "original_archive_preserved_in_backup_branch": "backup/coastal-station-collection-20261008",
+  "reason": "First main delivery uses the explicitly corrected portable export. Original source/render/evidence bytes are retained; the superseded white-fallback archive is preserved in backup history."
+}

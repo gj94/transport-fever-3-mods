@@ -1,0 +1,31 @@
+[
+  {
+    "station_code": "TVCN",
+    "observed_at_utc": "2026-10-08T17:55:39Z",
+    "method": "Google Maps satellite visually inspected in root cloud browser",
+    "image_acquisition_date": null,
+    "source_url": "https://www.google.com/maps/place/8%C2%B030'37.2%22N+76%C2%B053'49.4%22E/@8.5100118,76.8965723,224m/data=!3m1!1e3!4m4!3m3!8m2!3d8.5103341!4d76.8970471?entry=ttu&g_ep=EgoyMDI2MTAwNS4wIKXMDSoASAFQAw%3D%3D",
+    "observations": [
+      "Four distinct platform-like bodies are visible in two separated eastern/western groups.",
+      "The eastern island mapped OSM ref4;5 has two running tracks between it and the eastern side platform ref6. Its yard-side western edge adjoins broad bare earth in the inspected frame; no clearly laid immediately adjacent road was discernible.",
+      "Western island ref2;3 has a visible yard-side alignment near its eastern edge; mapped polygon/track registration appears imperfect.",
+      "A full-width footbridge links both groups.",
+      "The eastern marker is by the eastern side entry, not proof of the main western entrance location."
+    ],
+    "interpretation": "Satellite observation does not resolve current six-face operational road arrangement. Do not add an unverified rail just to satisfy a count. Current IRI6 can coexist with older/undated imagery; preserve uncertainty and reconstruction choices.",
+    "secondary_leads": [
+      {
+        "url": "https://www.manoramaonline.com/news/latest-news/2022/12/11/terminal-s-second-phase-completed-in-kochuveli-railway-station.amp.html",
+        "date": "2022-12-11",
+        "retrieval": "search indexed excerpt only; direct fetch failed",
+        "summary": "Reports completed second-stage terminal, six platforms, four stabling and three pit lines; references historically missing track at third platform. Does not localize all current roads."
+      },
+      {
+        "url": "https://www.manoramaonline.com/district-news/thiruvananthapuram/2024/07/28/kochuveli-railway-station-master-plan-is-not-included-in-budget-and-construction-delayed.html",
+        "date": "2024-07-28",
+        "retrieval": "indexed full text",
+        "summary": "Reports six platforms, three stabling and three pit lines, delayed fourth-stage pit/stabling addition. Different stabling total from2022 report; not resolved."
+      }
+    ]
+  }
+]

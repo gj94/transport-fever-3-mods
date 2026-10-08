@@ -1,0 +1,19 @@
+{
+  "station": "DAVM",
+  "retained_blend_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+  "original_builder_manifest_sha256": "f8473ffd644b7a7b64870202e0cb710a60b6f2a0747ebc20d4da5776450d0643",
+  "corrected_revision_manifest": "coastal_station_collection/south/portable_colour_revision_02/DAVM/DELIVERY_MANIFEST.json",
+  "corrected_revision_manifest_sha256": "61973c4c113e102f3c5c03c71f2fd0dd7822fd2071850f46dbd523b834c6311e",
+  "old_archive_sha256": "b32d0ea59d8a7c3caa351773b2ade829c195101af59844638bef91a96db0b64d",
+  "corrected_glb_sha256": "012bfc9031c7ac1d0a114e1f50a29f85e8632ae0247dca5c05b8b7931a29d264",
+  "corrected_archive_sha256": "6acbb4e0429dcee722b2408711dc6da8ff6d4ee1d971d4418534311d146affe9",
+  "excluded_first_main_files": [
+    {
+      "path": "coastal_station_collection/south/davm/exchange/DAVM_portable_GLTF.zip",
+      "size": 2703755,
+      "sha256": "b32d0ea59d8a7c3caa351773b2ade829c195101af59844638bef91a96db0b64d"
+    }
+  ],
+  "original_archive_preserved_in_backup_branch": "backup/coastal-station-collection-20261008",
+  "reason": "First main delivery uses the explicitly corrected portable export. Original source/render/evidence bytes are retained; the superseded white-fallback archive is preserved in backup history."
+}

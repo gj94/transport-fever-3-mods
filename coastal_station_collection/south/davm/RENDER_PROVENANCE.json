@@ -1,0 +1,103 @@
+{
+  "station": "DAVM",
+  "views": {
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "file_sha256": "b9cfc21ad66c5f2b5c5fd85605c4f1b84959c8504ae60d50212ccf11a11d3f4a",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 17.16,
+      "camera_override": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "file_sha256": "70962f0cd1054391a96418317b250bedab86ae9889307170f5f6150b7ed43159",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 17.37,
+      "camera_override": {
+        "reason": "Complete photographed ticket hatch, speaking panel and both modest benches fit the interior proof",
+        "location": [
+          0.0,
+          0.17311276495456696,
+          2.3499999046325684
+        ],
+        "target": [
+          0.05,
+          -4.22688723712052,
+          2.6
+        ],
+        "lens_mm": 24
+      }
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "file_sha256": "664b8d543cdfb3f2a31eaaae2ea734b4779b2469eaf1878ad8c307b429e93a38",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 11.13,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "file_sha256": "6dce2269837f9c0a7bff36b0ac44fec512249f943d725a123d1db2dad43a453b",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 15.67,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -225.7673797607422,
+          -17.98944854736328,
+          3.4000000953674316
+        ],
+        "target": [
+          -25.767377417871813,
+          -10.664735569248721,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "source_scene_sha256": "14566e28d8e38da7f5cf201b3ddb5c7383fde6ed73d00922d122e88be724a3f7",
+      "file_sha256": "7858d1193fda47bc11f99b9cf823d959052ffde9300e5dd99105352c3ecce5d9",
+      "camera": "05_TRACK_AND_PLATFORM_DETAIL",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 20.08,
+      "camera_override": null,
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "14566e28d8e38da7f5cf201b3ddb5c7383fde6ed73d00922d122e88be724a3f7",
+          "to_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+          "previous_basis": null,
+          "basis": "Only added approach link is outside recorded camera frustum"
+        }
+      ],
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    }
+  },
+  "current_source_scene_sha256": "db3757e374a65ec111bf9cb5892f3b21b5ba65fa275171257172465986bf25f5"
+}

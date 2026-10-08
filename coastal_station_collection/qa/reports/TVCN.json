@@ -1,0 +1,329 @@
+{
+  "station_code": "TVCN",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "south/tvcn with portable_colour_revision_02/TVCN",
+  "manifest_sha256": "0c4baf81b71e861d0d637d9268116c2276afcdd06b50a1d80ec481fe04afbee3",
+  "portable_revision_manifest_sha256": "4c1a3bc228a92e79007add42cdec3b84c96929eb464d1c958b47837429fce461",
+  "portable_revision_manifest": "south/portable_colour_revision_02/TVCN/DELIVERY_MANIFEST.json",
+  "blend_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+  "export_sha256": "fa7636cf568836d458f11c43283a4c5b6c48f62e290d4f898b5abf7f9beacfd0",
+  "export_zip_sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f",
+  "accepted_assets": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/TVCN_station_v01.blend",
+      "relative_path": "south/tvcn/TVCN_station_v01.blend",
+      "bytes": 40088189,
+      "sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/README.md",
+      "relative_path": "south/tvcn/README.md",
+      "bytes": 7604,
+      "sha256": "01731d5add6fd8097734a02cc36a9e3d79e9bb1e99a7ce8f97f9dd0ecadc9695"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/SOURCES.json",
+      "relative_path": "south/tvcn/SOURCES.json",
+      "bytes": 20956,
+      "sha256": "d9f19fdd3924d55c55976894a02b08ed5d386bf06d0be5025030b0cb4e6c29e4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/tvcn/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/QA_BUILD.json",
+      "relative_path": "south/tvcn/QA_BUILD.json",
+      "bytes": 11533,
+      "sha256": "8add0fbf55dc05991c21b88fa96936e84ce81aee71bc0c263c777ad3f6a43fd7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/QA_EXPORT.json",
+      "relative_path": "south/tvcn/QA_EXPORT.json",
+      "bytes": 686,
+      "sha256": "ed56fcf3f44b99559a0f894d0214ee3e6235f4f56faa8aaef24430e913682b4a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/RENDER_PROVENANCE.json",
+      "relative_path": "south/tvcn/RENDER_PROVENANCE.json",
+      "bytes": 2914,
+      "sha256": "6871e4b3d706aa0b3ce283acf699d08c00bd705c36f966379b22c9a82b00a5a5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/exchange/MANIFEST.json",
+      "relative_path": "south/tvcn/exchange/MANIFEST.json",
+      "bytes": 659,
+      "sha256": "0bbbb8dcc04f6f46089b5d9ca941303f9d0f50ce5fd38c544e2ff0ae7afb202e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/tvcn/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1515296,
+      "sha256": "07844cce882a29394d58422a1bd5006c4ac977bd311e761c63696ef636ab2a8f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/tvcn/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1873266,
+      "sha256": "aac5706e30ef19eae412794693ea52f196d55c3909732d21f2d58e152de5af7a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/tvcn/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1916323,
+      "sha256": "0858e38d3ec0c0447fd8609daf5a150a91626c7da300fff29ee5fc33ec727534"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/tvcn/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1519863,
+      "sha256": "71c54aabbb7f4fcb5d7d9ca4ce93556d55484d1add97a983ca825993ed714e99"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/tvcn/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 1945455,
+      "sha256": "f930ffc6d4190642f4dabdb8a183fa57f41c548df59e2b1c1adece4309716a50"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/QA_SCENE.json",
+      "relative_path": "south/tvcn/QA_SCENE.json",
+      "bytes": 8002,
+      "sha256": "d2a4795e79fa15eff88ac0870ab193450f69de65631b0b364404aa43c84b5368"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/tvcn/QA_CIRCULATION_RAYS.json",
+      "bytes": 3517,
+      "sha256": "32466ef465f48b45b1aa315329d2d36d55b4d77f7161e01585a18fc53c9d69b2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/VISUAL_QA.md",
+      "relative_path": "south/tvcn/VISUAL_QA.md",
+      "bytes": 771,
+      "sha256": "aaef570ac2aad0e451c112b61d466356021a33635cc6d6b019c0a0080707c6c6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/platform_mesh.json",
+      "relative_path": "south/tvcn/source/platform_mesh.json",
+      "bytes": 5029,
+      "sha256": "f75cbe12b4907137b5ff69ee46b5f720a95c0948d0b8aa712108bc493aa316b0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/build_config.json",
+      "relative_path": "south/tvcn/source/build_config.json",
+      "bytes": 504,
+      "sha256": "cb7c43cdbec58b9933e97eda3b7d51e2ed35190783b97c6f1b1af7ffd2d5298b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/layout.json",
+      "relative_path": "south/tvcn/source/layout.json",
+      "bytes": 34802,
+      "sha256": "39a00d93c93b4c474ff3eadc88e5e157d1ae874ac7d73af9ee81426b782cea30"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/name_ml.svg",
+      "relative_path": "south/tvcn/source/name_ml.svg",
+      "bytes": 267,
+      "sha256": "0512c871ef9ed3c70e8666b0cf6a3fdeb42661f08ed25a5a90fb923d6a724fa0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/name_ml_outlined.svg",
+      "relative_path": "south/tvcn/source/name_ml_outlined.svg",
+      "bytes": 15847,
+      "sha256": "03ddf6596cd1c0050e0669ec9e542e9d8d77df2e487d2df1c89b686f0ed9e5bb"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/rail_mesh.json",
+      "relative_path": "south/tvcn/source/rail_mesh.json",
+      "bytes": 1099759,
+      "sha256": "db8835d4b4c2857b6731f0f0f24738e0c81f21fd538dce221ff402d13ae319d9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/native_names.json",
+      "relative_path": "south/tvcn/source/native_names.json",
+      "bytes": 116,
+      "sha256": "5ffd94820aa0a4d5e7c9c8e47f20a4c338008c095934ca1cee6ad7fc8675341f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/evidence/spatial_observations.json",
+      "relative_path": "south/tvcn/source/evidence/spatial_observations.json",
+      "bytes": 2331,
+      "sha256": "9bcfca6dab256f0c20e517ffe76b07c719beb4643430a1e33d8b54a3ff31a9b0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/architectural_variants.py",
+      "relative_path": "south/tvcn/source/recipe/architectural_variants.py",
+      "bytes": 60483,
+      "sha256": "a052fad8508e6b7f41e665d30ae6aae659b89f424605407f88ebe86d373ef7b9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/repair_tvcs_platform_face.py",
+      "relative_path": "south/tvcn/source/recipe/repair_tvcs_platform_face.py",
+      "bytes": 2913,
+      "sha256": "29aab8d8fc10a89c1bc179574f39c4b620f10c6fe5ad02a8149147ffa99dddca"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/tvcn/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/access_geometry.py",
+      "relative_path": "south/tvcn/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/build_station.py",
+      "relative_path": "south/tvcn/source/recipe/build_station.py",
+      "bytes": 47129,
+      "sha256": "22acbd340595039905f873c1fd4840612105fed7c091c06ce0b0608422c68cc3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/repair_kzt_arches.py",
+      "relative_path": "south/tvcn/source/recipe/repair_kzt_arches.py",
+      "bytes": 3031,
+      "sha256": "fb28775430ccc14791e7c23b6bfd64d15e8244e021493e5665ea616f9a316392"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/prepare_geometry.py",
+      "relative_path": "south/tvcn/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/repair_veranda_columns.py",
+      "relative_path": "south/tvcn/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/export_station.py",
+      "relative_path": "south/tvcn/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/close_njt_upper_portal.py",
+      "relative_path": "south/tvcn/source/recipe/close_njt_upper_portal.py",
+      "bytes": 1726,
+      "sha256": "d72454b077053beab69ab87c567afa7ea7abe01c0d548f42c8916319dbe4a240"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/repair_access_link.py",
+      "relative_path": "south/tvcn/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/tvcn/source/recipe/scene_review_inputs.py",
+      "bytes": 2177,
+      "sha256": "e2d87bbb9c3540c1c14fcc9087d3c5cedfbeac31f16b490660e60cac00de67ae"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/source/recipe/render_station.py",
+      "relative_path": "south/tvcn/source/recipe/render_station.py",
+      "bytes": 7627,
+      "sha256": "27590fc0ba4eb07dfaba61a7f6787a820c0982ae4869c14d193c053c41a739d5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/PATCH_SOURCE.py",
+      "relative_path": "south/portable_colour_revision_02/TVCN/PATCH_SOURCE.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/SOURCE_PALETTE.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/SOURCE_PALETTE.json",
+      "bytes": 17032,
+      "sha256": "d4f3b7f5acd064201f5d440cbd665d7780dcb3ba3672358adb9811347bc7a935"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/COLOUR_QA.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/COLOUR_QA.json",
+      "bytes": 6434,
+      "sha256": "9f8389493fee609d579338ce6dde1c899e59351c60b1d0657f12af2c22913184"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/INDEPENDENT_FORMAT_VALIDATION.json",
+      "relative_path": "south/portable_colour_revision_02/TVCN/INDEPENDENT_FORMAT_VALIDATION.json",
+      "bytes": 10488,
+      "sha256": "8f806069bb7a5f523cb34c3dcaf8b4711d728a1e3493a489e0cbc9efe3a97bbf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/README.md",
+      "relative_path": "south/portable_colour_revision_02/TVCN/README.md",
+      "bytes": 593,
+      "sha256": "92c10932759e2183acee8b2975f074e8efc2697dc049ce2022736c562d3259a4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/portable_colour_revision_02/TVCN/TVCN_portable_colour_v02.zip",
+      "relative_path": "south/portable_colour_revision_02/TVCN/TVCN_portable_colour_v02.zip",
+      "bytes": 23432979,
+      "sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/tvcn/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1515296,
+      "sha256": "07844cce882a29394d58422a1bd5006c4ac977bd311e761c63696ef636ab2a8f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/tvcn/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1873266,
+      "sha256": "aac5706e30ef19eae412794693ea52f196d55c3909732d21f2d58e152de5af7a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/tvcn/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1916323,
+      "sha256": "0858e38d3ec0c0447fd8609daf5a150a91626c7da300fff29ee5fc33ec727534"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/tvcn/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1519863,
+      "sha256": "71c54aabbb7f4fcb5d7d9ca4ce93556d55484d1add97a983ca825993ed714e99"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcn/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/tvcn/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 1945455,
+      "sha256": "f930ffc6d4190642f4dabdb8a183fa57f41c548df59e2b1c1adece4309716a50"
+    }
+  ],
+  "checks": {
+    "manifest": "Every original frozen file and additive corrected portable file independently verified. Old ZIP retained only as history; corrected ZIP is the current portable asset.",
+    "visual": "Five exact native PNG hashes independently source-reviewed; current and retained view lineage checked.",
+    "geometry": "All189 exact-scene path/floor-support probes pass, with finite geometry, metre units, packed resources and no stock-name candidates.",
+    "resources": "Exact unchanged packed scene has finite geometry and bounds, metric scale1, packed dependencies and no rolling-stock candidates.",
+    "layout": "Actual platform top triangles remain rail-clear, with raw/adopted source distinctions retained.",
+    "portable": "Corrected GLB finite/index/buffer/embedded-resource checks pass. Exact source palette RGB factors independently verified; BIN and all non-color JSON identical to source-bound original export."
+  },
+  "evidence_reports": [
+    "TVCN_final_scene_inspection.json",
+    "TVCN_final_inputs.json",
+    "TVCN_final_layout.json",
+    "TVCN_final_layout.json",
+    "TVCN_portable_colour_revision_02.json",
+    "SOUTH_NEW_THREE_portable.json",
+    "SOUTH_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "../visual_batches/TVCN_3e9fbbb5_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not survey or operational certification.",
+    "Hidden interior details and measured-looking dimensions remain reconstructed unless specifically evidenced.",
+    "Targeted floor/body paths are not exhaustive pairwise collision certification.",
+    "Solid portable base colors approximate Blender procedural materials; procedural texture/bump is not baked.",
+    "Four modelled bodies versus six reported positions; unresolved adjacent rail on eastern island remains absent, rather than being invented as verified current track. Image-picked main-entry coordinates are approximate."
+  ],
+  "release_status": "Ready for reviewed publication with the corrected portable revision."
+}

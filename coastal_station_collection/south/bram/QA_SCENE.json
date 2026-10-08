@@ -1,0 +1,193 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/bram/BRAM_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 739,
+  "object_types": {
+    "MESH": 715,
+    "FONT": 14,
+    "LIGHT": 5,
+    "CAMERA": 5
+  },
+  "unique_meshes": 715,
+  "unique_vertices": 228874,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -161.26536560058594,
+      -0.550000011920929
+    ],
+    [
+      895.0,
+      97.46481323242188,
+      19.542367935180664
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "BRAM",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676",
+    "wc_access_repair_input_sha256": "06516c6734983e66f31de80ba7b92692f4dfc52ae21afa5a11f4440ecc0d44c4"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_TRACK_AND_PLATFORM_DETAIL"
+  ],
+  "circulation_rays": {
+    "central_public_entry": {
+      "from": [
+        0.0,
+        1.9550548791885376,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        15.955055236816406,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda": {
+      "from": [
+        -7.0,
+        1.9550548791885376,
+        2.3499999046325684
+      ],
+      "to": [
+        -7.0,
+        4.155055046081543,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry": {
+      "from": [
+        -7.0,
+        4.155055046081543,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        4.155055046081543,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_bodypath": {
+      "from": [
+        -7.0,
+        -9.344944953918457,
+        0.7599999904632568
+      ],
+      "to": [
+        -7.0,
+        2.2550549507141113,
+        1.8899999856948853
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_low_clearance": {
+      "from": [
+        -7.0,
+        -9.344944953918457,
+        0.05000000074505806
+      ],
+      "to": [
+        -7.0,
+        2.2550549507141113,
+        1.190000057220459
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_low": {
+      "from": [
+        15.0,
+        12.405055046081543,
+        1.3049999475479126
+      ],
+      "to": [
+        15.0,
+        15.555054664611816,
+        1.2640000581741333
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_waist": {
+      "from": [
+        15.0,
+        12.405055046081543,
+        1.9049999713897705
+      ],
+      "to": [
+        15.0,
+        15.555054664611816,
+        1.8639999628067017
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "sanitary_approach_head": {
+      "from": [
+        15.0,
+        12.405055046081543,
+        2.6050000190734863
+      ],
+      "to": [
+        15.0,
+        15.555054664611816,
+        2.563999891281128
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79"
+}

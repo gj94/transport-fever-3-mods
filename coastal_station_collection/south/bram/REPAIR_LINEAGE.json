@@ -1,0 +1,26 @@
+{
+  "station": "BRAM",
+  "input_source_sha256": "06516c6734983e66f31de80ba7b92692f4dfc52ae21afa5a11f4440ecc0d44c4",
+  "output_source_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+  "changed_bounds": [
+    [
+      14.199999809265137,
+      12.405055046081543,
+      -0.20000000298023224
+    ],
+    [
+      15.800000190734863,
+      15.555054664611816,
+      1.0049999952316284
+    ]
+  ],
+  "retained_views": [
+    "04_FURNISHED_INTERIOR.png",
+    "05_TRACK_AND_PLATFORM_DETAIL.png"
+  ],
+  "rerender_prefixes": [
+    "01",
+    "02",
+    "03"
+  ]
+}

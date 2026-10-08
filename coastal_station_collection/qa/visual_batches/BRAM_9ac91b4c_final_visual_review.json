@@ -1,0 +1,62 @@
+{
+  "station": "BRAM",
+  "reviewed_utc": "2026-10-08T22:07:15Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+  "frames": {
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "7af1365768d6bd1408bcb99ed64c53d6b689d4d82adf6330554c40da69b92dec",
+      "source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "inheritance_basis": null
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "ad0c2c02a5bbb9d2dd1456b491946502e2b9c74121e07aff86b24fd8a39c8e91",
+      "source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "2d7954cc2cd7a1a45a055ccbacc9104cfb3817c4ce59e0a8f35176f104057d2b",
+      "source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "e32623b37778764f4cc291de2d399de4527277d39552abc4b9d1ae321d0a11ff",
+      "source_scene_sha256": "06516c6734983e66f31de80ba7b92692f4dfc52ae21afa5a11f4440ecc0d44c4",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "3e58ab1c41af6cc6677b4b95ecb2e7d731ef704da4f8b93c1cd33ac6569b2328",
+      "source_scene_sha256": "06516c6734983e66f31de80ba7b92692f4dfc52ae21afa5a11f4440ecc0d44c4",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "9ac91b4cb118099afe7e70a76c46d731f966b0055287d978b283f924476b7a79",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    }
+  },
+  "prior_review_reports": [
+    "BRAM_06516c67_02_04_recheck.json"
+  ],
+  "observations": [
+    "Changed01/02/03 maintain the source-specific raised sheet overroof, turquoise/red fascia and stepped yellow-ended brackets; no visual regression after annex link.",
+    "01 covers full modeled corridor;03 and newly inspected retained05 give unobstructed track/platform details and coherent benches/shelter fixtures.",
+    "Interior04 preserves its exact prior accepted maroon two-bay grille/counter hash and explicit unaffected-subject lineage.",
+    "05 original source hash preserved truthfully; its pixels were inspected here because no prior exact-hash visual report was located."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "station": "TVCN",
+  "views": {
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "file_sha256": "07844cce882a29394d58422a1bd5006c4ac977bd311e761c63696ef636ab2a8f",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 58.09,
+      "camera_override": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "file_sha256": "aac5706e30ef19eae412794693ea52f196d55c3909732d21f2d58e152de5af7a",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 87.55,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "file_sha256": "0858e38d3ec0c0447fd8609daf5a150a91626c7da300fff29ee5fc33ec727534",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 104.47,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -70.24010467529297,
+          -138.51708984375,
+          3.4000000953674316
+        ],
+        "target": [
+          129.75989735456548,
+          -137.81020260438572,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "file_sha256": "71c54aabbb7f4fcb5d7d9ca4ce93556d55484d1add97a983ca825993ed714e99",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 66.25,
+      "camera_override": {
+        "reason": "Closer oblique proof of existing ticket counters, clerk desks/chairs and room fittings; scene geometry unchanged",
+        "location": [
+          19.479999542236328,
+          -154.1582794189453,
+          2.75
+        ],
+        "target": [
+          13.88,
+          -149.3582727570115,
+          2.15
+        ],
+        "lens_mm": 25
+      }
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "3e9fbbb51d981c30ac2dc32fd68cb2a33e603e3b7cb20662106e30110af8ba2f",
+      "file_sha256": "f930ffc6d4190642f4dabdb8a183fa57f41c548df59e2b1c1adece4309716a50",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 23.46,
+      "camera_override": null
+    }
+  }
+}

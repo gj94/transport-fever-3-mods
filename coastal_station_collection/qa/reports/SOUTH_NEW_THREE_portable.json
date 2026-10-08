@@ -1,0 +1,110 @@
+[
+  {
+    "path": "south/portable_colour_revision_02/BRAM/BRAM_portable_colour_v02.zip!BRAM_station_colour_v02.glb",
+    "bytes": 20547936,
+    "errors": [],
+    "warnings": [],
+    "sha256": "8cd92e051c49dc04904786abf90030279cd4bd02de559ab6204d2e07b905efc6",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 20547936
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 463480
+      },
+      {
+        "type": 5130562,
+        "bytes": 20084428
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 729,
+    "mesh_count": 729,
+    "primitive_count": 729,
+    "vertex_reference_count": 688703,
+    "accessor_count": 1555,
+    "validated_accessor_count": 1555,
+    "material_count": 24,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "7ad088a06d7cff5e9b35c2633711b2d1dfb55acd141e202ef355e08ada45363f",
+    "container_bytes": 2852801
+  },
+  {
+    "path": "south/portable_colour_revision_02/DAVM/DAVM_portable_colour_v02.zip!DAVM_station_colour_v02.glb",
+    "bytes": 19613924,
+    "errors": [],
+    "warnings": [],
+    "sha256": "012bfc9031c7ac1d0a114e1f50a29f85e8632ae0247dca5c05b8b7931a29d264",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 19613924
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 430896
+      },
+      {
+        "type": 5130562,
+        "bytes": 19183000
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 679,
+    "mesh_count": 679,
+    "primitive_count": 679,
+    "vertex_reference_count": 656206,
+    "accessor_count": 1445,
+    "validated_accessor_count": 1445,
+    "material_count": 21,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "6acbb4e0429dcee722b2408711dc6da8ff6d4ee1d971d4418534311d146affe9",
+    "container_bytes": 2703758
+  },
+  {
+    "path": "south/portable_colour_revision_02/TVCN/TVCN_portable_colour_v02.zip!TVCN_station_colour_v02.glb",
+    "bytes": 177939612,
+    "errors": [],
+    "warnings": [],
+    "sha256": "fa7636cf568836d458f11c43283a4c5b6c48f62e290d4f898b5abf7f9beacfd0",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 177939612
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 890188
+      },
+      {
+        "type": 5130562,
+        "bytes": 177049396
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 1376,
+    "mesh_count": 1376,
+    "primitive_count": 1376,
+    "vertex_reference_count": 5982166,
+    "accessor_count": 3022,
+    "validated_accessor_count": 3022,
+    "material_count": 25,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "a00b5247a87b9b9142487c5682184c5a0db9886967373bec65c11f0d9ee0336f",
+    "container_bytes": 23432979
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "station": "BRAM",
+  "layout_sha256": "ba691885e3dd3afafcc48f3e3b8e89cf25a13909bd89ef412a2b3d7e275dd0c1",
+  "platform_mesh_sha256": "9279ae95d142c3ef2d36921e0134fc5de53101c7a466ec0be75f51e2faa27ea0",
+  "platforms": [
+    {
+      "id": "BRAM_SINGLE_PLATFORM_RECONSTRUCTED",
+      "valid": true,
+      "area_m2": 2102.509118145618,
+      "railcenter_min_m": 1.9999996106584568,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 7.799999999999999,
+  "reported_faces": "1",
+  "modeled_bodies": 1,
+  "route_piece_ids": [
+    "385040651"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}
