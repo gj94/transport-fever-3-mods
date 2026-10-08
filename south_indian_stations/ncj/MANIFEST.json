@@ -1,0 +1,172 @@
+{
+  "asset": "NCJ 2010 photo-informed architectural reconstruction",
+  "source_sha256": "9c5b0a37d3a279e9343262eabde2fd45c2070676ab7c5477d7c96223918f5a57",
+  "render_source": "All four final PNGs rendered directly from this exact blend; no subsequent geometry changes.",
+  "licensing": "No new licence granted for generated work. Third-party photo/font notices remain scoped to original sources.",
+  "excluded": [
+    "research_only/**",
+    "*.log",
+    "*.blend1",
+    "__pycache__/**"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 114,
+      "sha256": "0c1c2a3ba66d88da06a01f3f05aca8642f616ae5c1b3d41d6f2f3bdbc67b40ae"
+    },
+    {
+      "path": "EXPORT_QA.json",
+      "bytes": 867,
+      "sha256": "35568a31c7c9ce74b9f5ac2f9b3e68d17f7ba29eef013fa8a52b8a2b55e333f8"
+    },
+    {
+      "path": "NCJ_2010_station.blend",
+      "bytes": 19836684,
+      "sha256": "9c5b0a37d3a279e9343262eabde2fd45c2070676ab7c5477d7c96223918f5a57"
+    },
+    {
+      "path": "QA.json",
+      "bytes": 697,
+      "sha256": "adc1cc862456078df95e69316e721f380c90730d13eb22dcaf7b6f11e194f875"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5303,
+      "sha256": "cfbe238e428b3093df5202926ee82e7c41ae6953b38b7be59663f585193b8a45"
+    },
+    {
+      "path": "SOURCES_AND_LICENCES.md",
+      "bytes": 3496,
+      "sha256": "491e355009ed288d4d0b6bf6b93787a08b9d64330e68f86a8a7da749cb022bfe"
+    },
+    {
+      "path": "VISUAL_QA.md",
+      "bytes": 3660,
+      "sha256": "d92b60b469cee19eb889831464104243b44f247a20df9c87fc5777cc9e417440"
+    },
+    {
+      "path": "assets/english.svg",
+      "bytes": 223,
+      "sha256": "30c9d270e6eb2cb3c84c5a9b93b46faee5cf9aa92f05696ff2d0ecde3b9f7ff3"
+    },
+    {
+      "path": "assets/english_outlined.svg",
+      "bytes": 5308,
+      "sha256": "4c9294e6c8389439b9aa639bc208250eb2e24f910cf4ee48c8f0dee6779dfe13"
+    },
+    {
+      "path": "assets/hindi.svg",
+      "bytes": 237,
+      "sha256": "99b9344580664ef59540c05909d2c64a8958ae535ec7b6798cad21e113ee89ab"
+    },
+    {
+      "path": "assets/hindi_outlined.svg",
+      "bytes": 5778,
+      "sha256": "5063ce6119a62967fa9af4ac54273d163e00bafab9497045b60d9f49fd9ae3e4"
+    },
+    {
+      "path": "assets/tamil.svg",
+      "bytes": 247,
+      "sha256": "c184b2d84b6ffc6658dfa616b906b2a2ab639d96d031a9f8ec2869db6a146380"
+    },
+    {
+      "path": "assets/tamil_outlined.svg",
+      "bytes": 9645,
+      "sha256": "596ff8ce5153cf7afcd7ab860a43f79d31dcf898544a6658c611f761d8635868"
+    },
+    {
+      "path": "dimensions.csv",
+      "bytes": 1886,
+      "sha256": "3391c682f8870d1040a171c228cfefe5a84e6e415cba6d619a979ea56dccc394"
+    },
+    {
+      "path": "exports/NCJ_2010_architecture.glb",
+      "bytes": 19494424,
+      "sha256": "a64475f07f77d2b91018af9e4f8e884dc9bd9990c96297704903d86e7547d603"
+    },
+    {
+      "path": "exports/NCJ_2010_station.glb",
+      "bytes": 25885576,
+      "sha256": "76141ed5def3430a792511bd48326f5d38496bacd238f1ec0dd2c50fe432be57"
+    },
+    {
+      "path": "references/font_licences/usr/share/doc/fonts-dejavu-core/copyright",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "references/font_licences/usr/share/doc/fonts-noto-core/copyright",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "renders/01_HERO_FORECOURT.png",
+      "bytes": 2464879,
+      "sha256": "777414309ac16d4ab15b852e0bf252c6b9db5cdc9a02cf693a110b2f660e2e32",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "renders/02_FRONT_ELEVATION.png",
+      "bytes": 707664,
+      "sha256": "ccb94cedf9742f00008dcd77d1b04cc9fe12b6fedd331d778cad489a8dd072d6",
+      "width": 1600,
+      "height": 320
+    },
+    {
+      "path": "renders/03_ENTRANCE_DETAIL.png",
+      "bytes": 2901923,
+      "sha256": "93de3cf09c75250557461f5bbd78876318c11d0faa8e8b9ba099f91f770fc34f",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "renders/04_PLATFORM_CONTEXT.png",
+      "bytes": 2420814,
+      "sha256": "566768a0ffe1983362446096db1de7f47a1bc636be6cefd9a116e46249c0e8e5",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "scripts/build_ncj.py",
+      "bytes": 23820,
+      "sha256": "8fad92b2a7ae5b8743cf3e21908e997561b47f899bf7656b921677197053a7d5"
+    },
+    {
+      "path": "scripts/export_architecture.py",
+      "bytes": 530,
+      "sha256": "cce5a551c2565845584c77ab706b765c7161d54bc3d4efdedf42e02849a6f6ba"
+    },
+    {
+      "path": "scripts/finalize_workspace.py",
+      "bytes": 512,
+      "sha256": "0cc8ab48b231e440c19914fe1ee736441cd8937052a5df2bb2b7968f766f0b7d"
+    },
+    {
+      "path": "scripts/inspect_glb.py",
+      "bytes": 1046,
+      "sha256": "ab3bfdddbbe1f6054505d6e7a430f14e87698e4e1ad1cfd2e0804e5e15b890f4"
+    },
+    {
+      "path": "scripts/qa_ncj.py",
+      "bytes": 2256,
+      "sha256": "0643d6d5d2d85058129bdc3ad65ba907a6958ba25cec59b28dc089c6a4715893"
+    },
+    {
+      "path": "scripts/render_ncj.py",
+      "bytes": 611,
+      "sha256": "66563a38951abae0548a2178d6f0ce931ec423ad7cb467466dd40f8a102a0968"
+    },
+    {
+      "path": "scripts/shape_signs.sh",
+      "bytes": 221,
+      "sha256": "003c50e2804e0516d642831927fa20d3a5bf64b762a4337c1644ddaaa6b2e3e1"
+    },
+    {
+      "path": "scripts/toggle_context.py",
+      "bytes": 405,
+      "sha256": "ca8aeb751328a517a4c41fc552684dbbf6582347a7766e67ae3cee3fee916d93"
+    }
+  ]
+}

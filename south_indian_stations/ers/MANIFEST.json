@@ -1,0 +1,161 @@
+{
+  "asset": "Ernakulam Junction ERS 2017 modular visual reconstruction",
+  "finalized_utc": "2026-10-08T12:33:53.659515+00:00",
+  "files": [
+    {
+      "path": "ERS_2017_station.blend",
+      "bytes": 13292684,
+      "sha256": "cdedcc4db8f14c39db3b37b6447e4b070d48d9b274236630de9fa17228dad477"
+    },
+    {
+      "path": "build_ers.py",
+      "bytes": 27034,
+      "sha256": "41497f5c7d58632575c703e7328387e7676b1c3f2ef2ff13b1b3b79c1c47ff20"
+    },
+    {
+      "path": "render_ers.py",
+      "bytes": 975,
+      "sha256": "60f0dd445cda508e49fd110a423dc826968f577c51af7ea30bfe988964ca97b9"
+    },
+    {
+      "path": "make_signs.py",
+      "bytes": 2132,
+      "sha256": "509ca83eee7708eb37e90dd43947d801d13f278bbd2e070ba463f75cadd9c4b9"
+    },
+    {
+      "path": "validate_ers.py",
+      "bytes": 2695,
+      "sha256": "b810f128c814ce2990520d1418b11a41d4981f7539fc77a82fa607d8111589c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4538,
+      "sha256": "b5ee4c293681c4548e30db24a3f8cff8f94245ad45eabc7711e639abe6ca280e"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 4611,
+      "sha256": "f373713d76f0a2a6b8053d8acd0fdd3777aed909fe4674fd6a91b249d07ef67f"
+    },
+    {
+      "path": "DIMENSIONS.csv",
+      "bytes": 2315,
+      "sha256": "c9ede0ee9d9cce47f4b8d3d14484611045dcd2b5e910dce821159f9af7659dc5"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 934,
+      "sha256": "4fe66ba158c2d17173822c4b3be8ae36e5430a7832a6d3b789e7352361271459"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 4172,
+      "sha256": "c9cf3b69c1b34e77c806e69cf9fd91a28609eb7e3c9c1308eb1900107b5bff07"
+    },
+    {
+      "path": "qa_build.json",
+      "bytes": 483,
+      "sha256": "41a45ceba34b5dcc91777cd42a2c7e6077c291a192d65d35116a31c2d208fd2a"
+    },
+    {
+      "path": "qa_validation.json",
+      "bytes": 1331,
+      "sha256": "2680e129796a316b51369348f83611e1421970cfe77477321518d6c611999ea6"
+    },
+    {
+      "path": "exports/ERS_2017_station.glb",
+      "bytes": 5398372,
+      "sha256": "a2d6e5427ee9f5a5b298430e7cb4ccd3cccc28882ac30febeeaf958ae353423b"
+    },
+    {
+      "path": "textures/atm.png",
+      "bytes": 5810,
+      "sha256": "17a96e01ce801d9600ee2a84cfee94936c332c4de8b7afffea4f5ae19a0ca717"
+    },
+    {
+      "path": "textures/catering.png",
+      "bytes": 21527,
+      "sha256": "9cdf7128f4603dde11649ffc5c0a1594d6e2a23a8fcc1c73aa7cba959666f040"
+    },
+    {
+      "path": "textures/coach_position.png",
+      "bytes": 13929,
+      "sha256": "bb69467bbe18b0f753b40f435fbf30d8a5c5f70b0d43dfb951a1ddcaec764627"
+    },
+    {
+      "path": "textures/entry_en.png",
+      "bytes": 19158,
+      "sha256": "bfd6653be50d2d5cb832a0cdbe997035044c19986bf398f464a659d183b5bc7f"
+    },
+    {
+      "path": "textures/entry_hi.png",
+      "bytes": 16758,
+      "sha256": "700dc78883e010d03fb5e1cb411821f349210f91628f3bcb72c537716dc06973"
+    },
+    {
+      "path": "textures/entry_ml.png",
+      "bytes": 38170,
+      "sha256": "62641cf73a1aa49e68e844999ced2a73d7ed9532bab6532723f75d0ce3cf75c4"
+    },
+    {
+      "path": "textures/parking.png",
+      "bytes": 15006,
+      "sha256": "82d5d11e641142d9ae11577d29c157303ae2222727016bbd67148814aa8ae2e1"
+    },
+    {
+      "path": "textures/platform_name.png",
+      "bytes": 71993,
+      "sha256": "3aa467bb13b86b1053a98bf8b574c6587079613946f3a44089602030d046395b"
+    },
+    {
+      "path": "textures/tickets.png",
+      "bytes": 13147,
+      "sha256": "354f1bbad7c88add563ba354b9dc2d52681960023ac95e29a3d1cf8ae10b352a"
+    },
+    {
+      "path": "textures/top_en.png",
+      "bytes": 20035,
+      "sha256": "dbf4d9e739d9be54916008314fcafc773a1677c3735f424378adfc09c25c55fd"
+    },
+    {
+      "path": "textures/top_hi.png",
+      "bytes": 17517,
+      "sha256": "8fffa4eb7f02996771a5d59a0e1305218113db4d503b6c70ccd59d4750a08708"
+    },
+    {
+      "path": "textures/top_ml.png",
+      "bytes": 40747,
+      "sha256": "bed1eec34440e09bbd17666512cb91666ebf07b2a5827df2cd8a9e3125a7a253"
+    },
+    {
+      "path": "renders/01_Hero_west_frontage.png",
+      "bytes": 2069426,
+      "sha256": "21e27b72391f3287cd93ab62478cb36e381b2de4186d8eba0e83f6949356ef6e"
+    },
+    {
+      "path": "renders/02_Front_elevation.png",
+      "bytes": 884477,
+      "sha256": "9859f2fbf0bb83b103671c2e5394d2070d85f32ecea2cee0803f8ecd604131d7"
+    },
+    {
+      "path": "renders/03_Platform_and_footbridge.png",
+      "bytes": 3135620,
+      "sha256": "796a2c39c2252bcba3b3720ab5c434ad3ecf363d551871afa569bb621be577a4"
+    },
+    {
+      "path": "renders/04_Entrance_detail.png",
+      "bytes": 2752580,
+      "sha256": "d9e1ad15002be88edec1b368a8c6a3044399fe520c1c2de8d739fa7c6a04d31d"
+    },
+    {
+      "path": "DELIVERABLES.txt",
+      "bytes": 638,
+      "sha256": "f9bd62ac1450c66781db156b2415ccf2024cc30823304b4dd3d14b52fffab95d"
+    }
+  ],
+  "rights": "No new generated-asset licence; third-party notices in SOURCES.md and NOTICE.txt",
+  "geometry_scope": "Photo-inferred frontage plus demonstration rail-side modules; not a surveyed complete yard",
+  "runtime_status": "Blender/GLB validated; no simulator-native testing claimed",
+  "documentation_updated_utc": "2026-10-08T12:36:03.254048+00:00",
+  "gauge_note": "Model 1.675 m versus Indian 1.676 m standard: approximately 1 mm narrower; no exact compliance claimed"
+}

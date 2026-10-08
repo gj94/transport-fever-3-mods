@@ -1,0 +1,30 @@
+{
+  "reopen_blend": true,
+  "blender": "4.3.2",
+  "scene_units": "METRIC",
+  "scale_length": 1.0,
+  "objects": 2992,
+  "mesh_objects": 2947,
+  "materials": 26,
+  "packed_fonts": [
+    {
+      "name": "DejaVu Sans Condensed",
+      "packed": true
+    }
+  ],
+  "external_unpacked_images": [],
+  "nonfinite_vertices": 0,
+  "render_samples": 64,
+  "render_threads": 4,
+  "denoising": false,
+  "gauge_inner_faces_m": 1.676001,
+  "platform_top_above_rail_m": 0.76,
+  "scope": "2010 facade photo reconstruction; rear/platform/context not a surveyed station layout",
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "header_size_matches": true,
+    "size_bytes": 25885576
+  },
+  "checks_pass": true
+}

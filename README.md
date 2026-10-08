@@ -286,3 +286,12 @@ Each script recreates its scene and writes outputs beside itself. Back up edits 
 These models are for visualization and asset development, not manufacture or safety/clearance engineering. Each model README identifies dimensional sources, photographic references and unverified assumptions. Referenced photographs and third-party manuals are not bundled as assets; geometry and materials are procedural.
 
 No open-source license is granted by this repository.
+
+
+## South Indian station architectural sources
+
+[Open TVC, NCJ and ERS source models and actual-model galleries](south_indian_stations/README.md).
+
+Three editable historical architectural studies cover **TVC's November 2022 heritage entrance, NCJ's 2010 entrance and ERS's 2017 west frontage**. Dated photographic references inform the identifiable facades; streets, vegetation, platforms and footbridges include explicitly documented modular or inferred context. These are metre-scale Blender authoring sources, with exchange files identified as architecture-only or whole-scene where supplied. They are not surveyed full-yard layouts or current-day reconstructions.
+
+These station assets have not been converted, optimized or tested as Transport Fever 3 native stations. Existing vehicle families and the downloadable game pack are unchanged. Station-folder provenance identifies third-party photo/font rights separately; no new open-source licence is granted for generated assets.

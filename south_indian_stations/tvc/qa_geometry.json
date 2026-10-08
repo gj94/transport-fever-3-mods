@@ -1,0 +1,25 @@
+{
+  "objects": 6449,
+  "meshes": 6441,
+  "vertices": 89791,
+  "scale_length": 1.0,
+  "packed_images": [
+    "TVC_trilingual_board.png"
+  ],
+  "missing_external_images": [],
+  "central_upper_front_bays": 3,
+  "station_specific_measured_dimensions": 0,
+  "rail_inner_gauge_m": 1.676,
+  "render_engine": "CYCLES",
+  "render_samples": 64,
+  "render_threads": 4,
+  "denoising": false,
+  "packed_font_validation": "All four loaded DejaVu font datablocks packed; builtin Bfont has no external dependency",
+  "return_geometry_validation": "Reopened final .blend: granite block positions span return elevation; no collapsed transform groups",
+  "front_flank_radius_m": 0.74,
+  "front_central_radius_m": 1.18,
+  "reviewed_flank_central_width_ratio": 0.6271186440677966,
+  "final_reopen_audit": "passed",
+  "rail_inner_gauge_checked_m": 1.675999,
+  "asset_browser_collections": 4
+}
