@@ -1,0 +1,52 @@
+{
+  "station": "EZP",
+  "reviewed_utc": "2026-10-08T21:02:58Z",
+  "status": "four_view_visual_source_pass",
+  "source_scene_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "2682298832927a13b236b4ad76c29db7bd811829b6dbeab43b866b8ec4bdd3cb",
+      "provenance_sha256": "2682298832927a13b236b4ad76c29db7bd811829b6dbeab43b866b8ec4bdd3cb",
+      "source_scene_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "0360fd1302d2674c1778bb437736738c6ca57f7a5dc429111029effcc94fb413",
+      "provenance_sha256": "0360fd1302d2674c1778bb437736738c6ca57f7a5dc429111029effcc94fb413",
+      "source_scene_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "12a375ed5a44677370fcfdde6e138042883a6e7ac4848504ec9b19476da61501",
+      "provenance_sha256": "12a375ed5a44677370fcfdde6e138042883a6e7ac4848504ec9b19476da61501",
+      "source_scene_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "3c51c63d84e23cdec761a4233dc6a1c7e265705e1120cea738dcf35b681f4954",
+      "provenance_sha256": "3c51c63d84e23cdec761a4233dc6a1c7e265705e1120cea738dcf35b681f4954",
+      "source_scene_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "source": {
+    "path": "coastal_stations_overnight/research/screenshots/EZP_platform_2016-11.png",
+    "sha256": "8e3a5e07e66a2a8b013973ff2f79eeec7bfc671c8326a35b2aa6ae4361c226b3",
+    "actual_full_pixels_inspected": true
+  },
+  "minimum_corrections": [],
+  "observations": [
+    "Overall/site, entrance, platform and furnished-interior views provide useful modest-halt coverage.",
+    "Correct readable station name face; no floating shutter or duplicated fixture assembly detected.",
+    "Pale-blue fence posts, light pickets and concrete platform preserve observed2016 source character."
+  ],
+  "limits": [
+    "Exact hidden-room plan, dimensions, fittings and additional supports are disclosed reconstruction.",
+    "Technical auditor owns geometry/resources/final freeze gate.",
+    "No verified hut facade source exists; compact hut and furnished interior are reconstruction, not claimed photo matches."
+  ]
+}

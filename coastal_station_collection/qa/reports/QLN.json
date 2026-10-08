@@ -1,0 +1,170 @@
+{
+  "station_code": "QLN",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/revision_02/qln",
+  "manifest_sha256": "524d6882c0df208562fcc47cccd736b21e45f9e7ac9d2b4bd435f1ec880188f5",
+  "blend_sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234",
+  "export_sha256": "a48ce2ba5d1557d70b346426d45fd7762e5f3a52afab450559683551287efb1b",
+  "export_zip_sha256": "d138aa9d4273abfc32393463ac4705bb74b1b9987f7ccfd541032f8991ac8c18",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/QLN_coastal_station_v01.blend",
+      "bytes": 42727179,
+      "sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/BUILD_QA.json",
+      "bytes": 2140,
+      "sha256": "5266217a9948ba4582892900ba34719d9cf93df897f4858e1ca3af2cdf99de7a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/EXPORT_QA.json",
+      "bytes": 1302,
+      "sha256": "9dac16a163dbc5c1c1a05b9daa0d1caa7308b03f3ea2c7399b342c839c9c651f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/RENDER_PROVENANCE.json",
+      "bytes": 3400,
+      "sha256": "5c6d97b890ffb2959fca008e3e83abbfa239c2046ad2349ee0be3c0fa65da010"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 12595,
+      "sha256": "35b7e4f4e80129b814c15407d6579a7cbf3dc4088c5c3859a04cae764d8a1210"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/export/QLN_coastal_station_v01.glb.zip",
+      "bytes": 24796695,
+      "sha256": "d138aa9d4273abfc32393463ac4705bb74b1b9987f7ccfd541032f8991ac8c18"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/03_platform_track_details.png",
+      "bytes": 1436898,
+      "sha256": "c09ccde120d453228ff162fdefbfce25d6fd6f0f2f216e7cfb29dfd97abcbf28"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/05_ticket_interior.png",
+      "bytes": 1369752,
+      "sha256": "344a52841dca76322c1b30974f0db01955e37158a9d802baeb37dcbf2abcfba1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/04_facade_and_approach.png",
+      "bytes": 1222074,
+      "sha256": "d1bc7c4109e0f9ff468d88e5741fd415a7d5e7a22bc2af883ea002df3858bbeb"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/02_station_and_platforms.png",
+      "bytes": 1233070,
+      "sha256": "77e692f0b2a067fff98516947597f7aeb436a2c5d3eb1299e65c4ae90d69edea"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/01_full_mapped_layout.png",
+      "bytes": 1098550,
+      "sha256": "fdf86576313752d122e4b6d634807c7059381ff32f4925381d41192a77435ba4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/mapped_geometry.json",
+      "bytes": 200495,
+      "sha256": "1308d469ab5ebf1b7ebff43388354c73a50df2c1fd6aaa3cea1729fac7163e25"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/adopted_geometry.json",
+      "bytes": 927475,
+      "sha256": "81510e4489dd4f82e1fbac6aac96c334ff072b6e265c1c9a3c951aa953a30959"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/station_nameboard.png",
+      "bytes": 36310,
+      "sha256": "cdcf869c95968a1bf6ef9b1a6814db5307c93c2395149bb7894f523c117ab945"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/nameboard_text.json",
+      "bytes": 458,
+      "sha256": "57e8806f060d35c5fb3512362e94174344c16a877d1e4db9b0dd73e4fa75c447"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/visual_evidence.json",
+      "bytes": 5561,
+      "sha256": "6fcdc2de89fdfc5ecf0f582fd4c3e0a2e8799ae375054ab1c1b6568c12aae570"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/build_station_used.py",
+      "bytes": 58389,
+      "sha256": "99f452767bb486f227785ac3c9aa7f6fe1e59f1cd336dc573c2e0afa66f9e1be"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/reference_spec.json",
+      "bytes": 570,
+      "sha256": "2a846e5c2ef0bfaf0e62445451ae9b374d62d11ef7dbdec6c4678cfe04cf5fcc"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/ARCHITECTURE_REVISION.json",
+      "bytes": 1929,
+      "sha256": "6413697525e3cc1b8392e5f748c7e8005ddb54e0ac1af90cba06191f0c85dd08"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/repair_architecture_used.py",
+      "bytes": 6220,
+      "sha256": "8df92e49ed01a95c9d7b06fb979ac612babb6a5c92d7195dc39d95377719d9c5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/source/yard_building_footprints.json",
+      "bytes": 974338,
+      "sha256": "36fc5ae97e97787bfd2532d03489c387d7e13c8f3a1e9ae45d9911c6a86e7664"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/03_platform_track_details.png",
+      "bytes": 1436898,
+      "sha256": "c09ccde120d453228ff162fdefbfce25d6fd6f0f2f216e7cfb29dfd97abcbf28"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/05_ticket_interior.png",
+      "bytes": 1369752,
+      "sha256": "344a52841dca76322c1b30974f0db01955e37158a9d802baeb37dcbf2abcfba1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/04_facade_and_approach.png",
+      "bytes": 1222074,
+      "sha256": "d1bc7c4109e0f9ff468d88e5741fd415a7d5e7a22bc2af883ea002df3858bbeb"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/02_station_and_platforms.png",
+      "bytes": 1233070,
+      "sha256": "77e692f0b2a067fff98516947597f7aeb436a2c5d3eb1299e65c4ae90d69edea"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/qln/renders/01_full_mapped_layout.png",
+      "bytes": 1098550,
+      "sha256": "fdf86576313752d122e4b6d634807c7059381ff32f4925381d41192a77435ba4"
+    }
+  ],
+  "checks": {
+    "manifest": "All21 frozen allowlist hashes and byte counts independently verified.",
+    "visual": "All five current or truthfully retained images have independent source/pixel review. New facade pattern and closer camera match viewed historical reference.",
+    "resources": "Base032e scene passed exact finite-mesh/bounds, metre-unit, packed-resource and no-stock checks. Inspected revision script changes only two local facade panels and camera04, reuses embedded materials and packs all resources. Final export validates all geometry and dependencies.",
+    "portable": "Lossless ZIP-contained GLB independently passes binary finite-value, buffer/accessor/index bounds and embedded-resource checks, matching the final authoritative scene provenance.",
+    "layout": "Three mapped physical bodies represent reported positions1/1A,2/3,4/5. Full declared yard, service/depot/FCI routes and mapped shed footprint are preserved. Previously checked guard/flange channels and three service-pit openings are unchanged through the local facade revision.",
+    "circulation": "Reused exact032e full-body bridge and upper-office stair/landing checks; all three bridge bodies connect at8.600m. Final revision independently passes24 low/waist/head public-entry and continuous-front-landing paths, with four floor probes confirming1.018m support. The ramp reaches the central public portal along that landing; the separate far-left doorway leads to the staff stair.",
+    "revision": "Exact base hash and repair-script hash verified. Local cladding replaces two small placeholder panels; tracks, platforms, bridge, pit geometry, offices and furnishings are unchanged."
+  },
+  "evidence_reports": [
+    "QLN_final_structural_inspection.json",
+    "QLN_v02_delta_geometry.json",
+    "QLN_v02_delta_inputs.json",
+    "QLN_v02_portable.json",
+    "STKT_QLN_geometry_check.json",
+    "QLN_scene_inspection.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/QLN_db097aa5_final_visual_review.json"
+  ],
+  "limitations": [
+    "Historical2017\u20132020 terminal facade is reconstructed; current redevelopment completion is not claimed.",
+    "Dimensions, unseen offices/interiors and service assignments remain disclosed reconstructions.",
+    "Visual reconstruction, not a surveyed operating inventory or engineering certification.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Procedural Blender materials use base-colour portable fallbacks."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

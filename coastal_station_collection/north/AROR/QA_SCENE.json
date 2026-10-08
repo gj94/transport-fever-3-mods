@@ -1,0 +1,101 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/AROR/AROR_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 85,
+  "object_types": {
+    "MESH": 70,
+    "CURVE": 6,
+    "FONT": 2,
+    "CAMERA": 4,
+    "LIGHT": 3
+  },
+  "unique_meshes": 70,
+  "unique_vertices": 312054,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.424689292907715
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f0fd21fd520>",
+    "station_code": "AROR",
+    "station_name": "Aroor",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform": {
+      "from": [
+        18.286518096923828,
+        14.164695739746094,
+        2.8499999046325684
+      ],
+      "to": [
+        0.5376286506652832,
+        14.164695739746094,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb"
+}

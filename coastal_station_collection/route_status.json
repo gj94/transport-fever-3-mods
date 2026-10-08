@@ -1,8 +1,8 @@
 {
-  "status_snapshot_utc": "2026-10-08T21:12:03.143124+00:00",
+  "status_snapshot_utc": "2026-10-08T21:23:48.254294+00:00",
   "scope": "55 active station/halts plus closed historical TNU",
   "new_active_target": 52,
-  "reviewed_active_entries": 15,
+  "reviewed_active_entries": 18,
   "reviewed_closed_historical_entries": 1,
   "stations": [
     {
@@ -23,10 +23,10 @@
       "name": "Tirunettur",
       "operational_status": "CLOSED from2017-07-10",
       "coastal_route_km": "",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "611fb2f0471f25758620a3161c0aed19354838e1",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/north/revision_03/TNU",
       "preview_paths": [
         "coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png",
@@ -56,11 +56,14 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "12.81",
       "build_status": "backed_up",
-      "qa_status": "final independent station review pending",
-      "backup_commit": "6ee086ffd71084194d5b57294b3eacad5c9b9d25",
+      "qa_status": "passed independent station review",
+      "backup_commit": "58524e1f0cade5795ea0e91abbc605fed847de6c",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/checkpoints/source_1946/AROR",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/north/AROR",
+      "preview_paths": [
+        "coastal_station_collection/north/AROR/renders/02_Entrance_architecture.png",
+        "coastal_station_collection/north/AROR/renders/04_Reconstructed_interior.png"
+      ],
       "station_code": "AROR"
     },
     {
@@ -69,11 +72,14 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "18.23",
       "build_status": "backed_up",
-      "qa_status": "final independent station review pending",
-      "backup_commit": "6ee086ffd71084194d5b57294b3eacad5c9b9d25",
+      "qa_status": "passed independent station review",
+      "backup_commit": "58524e1f0cade5795ea0e91abbc605fed847de6c",
       "main_commit": null,
-      "station_path": "coastal_station_collection/north/checkpoints/source_1946/EZP",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/north/EZP",
+      "preview_paths": [
+        "coastal_station_collection/north/EZP/renders/02_Entrance_architecture.png",
+        "coastal_station_collection/north/EZP/renders/04_Reconstructed_interior.png"
+      ],
       "station_code": "EZP"
     },
     {
@@ -175,10 +181,10 @@
       "name": "Alappuzha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "57.00",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "611fb2f0471f25758620a3161c0aed19354838e1",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/north/ALLP",
       "preview_paths": [
         "coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png",
@@ -204,10 +210,10 @@
       "name": "Ambalappuzha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "69.16",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "a6bb656274036bab4caf6df061b013c4bed27dca",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/north/AMPA",
       "preview_paths": [
         "coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png",
@@ -357,11 +363,14 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "141.18",
       "build_status": "backed_up",
-      "qa_status": "structural review passed; final gallery/export review pending",
-      "backup_commit": "a2671073e31c4ca2a9558d8e13d55bc0ae178cf8",
+      "qa_status": "passed independent station review",
+      "backup_commit": "58524e1f0cade5795ea0e91abbc605fed847de6c",
       "main_commit": null,
-      "station_path": "coastal_station_collection/middle/qln",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/middle/revision_02/qln",
+      "preview_paths": [
+        "coastal_station_collection/middle/revision_02/qln/renders/04_facade_and_approach.png",
+        "coastal_station_collection/middle/revision_02/qln/renders/05_ticket_interior.png"
+      ],
       "station_code": "QLN"
     },
     {
@@ -369,10 +378,10 @@
       "name": "Iravipuram",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "145.60",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "84f21801ebaa38b0ba9aa356c9884d86a3bbf553",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/middle/irp",
       "preview_paths": [
         "coastal_station_collection/middle/irp/renders/04_facade_and_approach.png",
@@ -638,10 +647,10 @@
       "name": "Amaravila",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "225.68",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "5f93c245c6fc94ec3fa633d2a028c3818855daba",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/south/amva",
       "preview_paths": [
         "coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png",
@@ -680,10 +689,10 @@
       "name": "Kulitturai West",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "240.41",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "5f93c245c6fc94ec3fa633d2a028c3818855daba",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/south/kztw",
       "preview_paths": [
         "coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png",
@@ -709,10 +718,10 @@
       "name": "Palliyadi",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "249.79",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "5f93c245c6fc94ec3fa633d2a028c3818855daba",
-      "main_commit": null,
+      "main_commit": "6e488fb401177bf83d9f215fde9eab08413e700f",
       "station_path": "coastal_station_collection/south/pyd",
       "preview_paths": [
         "coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png",

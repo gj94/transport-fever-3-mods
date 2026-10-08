@@ -1,0 +1,57 @@
+{
+  "station_code": "QLN",
+  "blend": "QLN_coastal_station_v01.blend",
+  "generated_at_unix": 1791487596.6088085,
+  "builder_sha256": "99f452767bb486f227785ac3c9aa7f6fe1e59f1cd336dc573c2e0afa66f9e1be",
+  "source_adopted_sha256": "81510e4489dd4f82e1fbac6aac96c334ff072b6e265c1c9a3c951aa953a30959",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "6",
+  "physical_platform_bodies": 3,
+  "track_routes": 44,
+  "track_route_total_length_m": 20457.904981607484,
+  "mapped_switch_nodes": 43,
+  "mapped_true_service_buffers": 10,
+  "mesh_objects": 280,
+  "total_objects": 348,
+  "vertices": 2150632,
+  "polygons": 1595804,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "4;5",
+      "basis": "mapped polygon, locally inset for 1.90m rail-centre clearance",
+      "width_min_sample_m": 9.515716030147388,
+      "clearance_m": 1.8999999980676534
+    },
+    {
+      "label": "2;3",
+      "basis": "mapped polygon, locally inset for 1.90m rail-centre clearance",
+      "width_min_sample_m": 9.354844389450411,
+      "clearance_m": 2.0797
+    },
+    {
+      "label": "1;1A",
+      "basis": "mapped polygon, locally inset for 1.90m rail-centre clearance",
+      "width_min_sample_m": 9.080005069774455,
+      "clearance_m": 1.899999999999999
+    }
+  ],
+  "corrections": [],
+  "notes": "Three mapped bodies carry positions1/1A,2/3,4/5. Historical2017\u20132020 terminal facade reconstructed; present redevelopment completion is not claimed. Yard, depot/FCI spurs, secondary terminal and service buildings retained within declared coverage.",
+  "revision": "historical facade panel and camera revision02",
+  "base_blend_sha256": "032e138121ab63188fb703ceb3238d9d33d13232bb1caa9fce7af81d5aa327d1",
+  "repair_script_sha256": "8df92e49ed01a95c9d7b06fb979ac612babb6a5c92d7195dc39d95377719d9c5"
+}

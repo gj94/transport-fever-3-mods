@@ -1,0 +1,16 @@
+{
+  "code": "EZP",
+  "blend_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+  "source_plan_sha256": "12e37c456fea11f96f5fcc91b1efee412626641e392608230a8ef29e640168db",
+  "platform_checks": [
+    {
+      "ref": "1",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.199999999999998
+    }
+  ],
+  "switch_motor_checks": [],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}

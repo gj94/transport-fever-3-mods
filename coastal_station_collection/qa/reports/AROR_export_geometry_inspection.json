@@ -1,0 +1,323 @@
+{
+  "asset": "coastal_stations_overnight/north/AROR/exports/AROR_coastal_station_v02.glb",
+  "export_sha256": "5c8977368608cd9cbe8d40d4d28ae4a2d17f98c73dac0847f8651f8083fbf432",
+  "container_sha256": null,
+  "default_scene": "Scene",
+  "scene_count": 1,
+  "objects": 78,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "central_front_hall_platform_height0.3": {
+      "from": [
+        18.286517679229856,
+        14.164695695413645,
+        1.8
+      ],
+      "to": [
+        0.5376286788786437,
+        14.164695695413645,
+        1.8
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height0.8": {
+      "from": [
+        18.286517679229856,
+        14.164695695413645,
+        2.3
+      ],
+      "to": [
+        0.5376286788786437,
+        14.164695695413645,
+        2.3
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height1.7": {
+      "from": [
+        18.286517679229856,
+        14.164695695413645,
+        3.2
+      ],
+      "to": [
+        0.5376286788786437,
+        14.164695695413645,
+        3.2
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        15.486517679229856,
+        39.763030179608286,
+        0.3
+      ],
+      "to": [
+        15.486517679229856,
+        22.363030179608288,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        15.486517679229856,
+        22.363030179608288,
+        1.75
+      ],
+      "to": [
+        15.486517679229856,
+        14.164695695413645,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        15.486517679229856,
+        39.763030179608286,
+        0.8
+      ],
+      "to": [
+        15.486517679229856,
+        22.363030179608288,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        15.486517679229856,
+        22.363030179608288,
+        2.25
+      ],
+      "to": [
+        15.486517679229856,
+        14.164695695413645,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        15.486517679229856,
+        39.763030179608286,
+        1.7
+      ],
+      "to": [
+        15.486517679229856,
+        22.363030179608288,
+        3.15
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        15.486517679229856,
+        22.363030179608288,
+        3.15
+      ],
+      "to": [
+        15.486517679229856,
+        14.164695695413645,
+        3.15
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_8.198334484194643": {
+      "from": [
+        15.486517679229856,
+        22.363030179608288,
+        1.7
+      ],
+      "to": [
+        15.486517679229856,
+        22.363030179608288,
+        0.95
+      ],
+      "clear": false,
+      "hit": "04 | Aroor photographed architecture / stone",
+      "hit_location": [
+        15.486517679229856,
+        22.363030179608288,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_ramp_16.898334484194642": {
+      "from": [
+        15.486517679229856,
+        31.063030179608287,
+        0.975
+      ],
+      "to": [
+        15.486517679229856,
+        31.063030179608287,
+        0.22499999999999998
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        15.486517679229856,
+        31.063030179608287,
+        0.7250000291178273
+      ],
+      "hit_normal": [
+        -0.0,
+        0.0830454753335021,
+        0.996545758621566
+      ]
+    },
+    "floor_ramp_25.59833448419464": {
+      "from": [
+        15.486517679229856,
+        39.763030179608286,
+        0.25
+      ],
+      "to": [
+        15.486517679229856,
+        39.763030179608286,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        15.486517679229856,
+        39.763030179608286,
+        6.885425371527809e-08
+      ],
+      "hit_normal": [
+        0.0,
+        0.0830454753335021,
+        0.996545758621566
+      ]
+    },
+    "floor_threshold_14.386517679229856": {
+      "from": [
+        14.386517679229856,
+        14.164695695413645,
+        1.7
+      ],
+      "to": [
+        14.386517679229856,
+        14.164695695413645,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Aroor photographed architecture / stone",
+      "hit_location": [
+        14.386517679229856,
+        14.164695695413645,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_14.186517679229857": {
+      "from": [
+        14.186517679229857,
+        14.164695695413645,
+        1.7
+      ],
+      "to": [
+        14.186517679229857,
+        14.164695695413645,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Aroor photographed architecture / stone",
+      "hit_location": [
+        14.186517679229857,
+        14.164695695413645,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_2.6376286788786434": {
+      "from": [
+        2.6376286788786434,
+        14.164695695413645,
+        1.7
+      ],
+      "to": [
+        2.6376286788786434,
+        14.164695695413645,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Aroor photographed architecture / stone",
+      "hit_location": [
+        2.6376286788786434,
+        14.164695695413645,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_2.437628678878644": {
+      "from": [
+        2.437628678878644,
+        14.164695695413645,
+        1.7
+      ],
+      "to": [
+        2.437628678878644,
+        14.164695695413645,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Aroor photographed architecture / stone",
+      "hit_location": [
+        2.437628678878644,
+        14.164695695413645,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  }
+}

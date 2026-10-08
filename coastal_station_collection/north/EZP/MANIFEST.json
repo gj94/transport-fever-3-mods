@@ -1,0 +1,207 @@
+{
+  "station": "EZP",
+  "status": "frozen_for_independent_audit",
+  "blend_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+  "export_sha256": "d2b7064c6b245c6648dd668e1f747e8210ab42ee954e17aa3603dfb61cd7c60e",
+  "render_final_scene_sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+  "render_lineage": "Each render sidecar records actual source checksum; retained unaffected views explicitly cite final revision and verified change scope.",
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/EZP/BUILD_SOURCE.py",
+      "relative_station_path": "BUILD_SOURCE.py",
+      "sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9",
+      "size": 51704
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/EXPORT_SOURCE.py",
+      "relative_station_path": "EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "size": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/EZP_coastal_station_v01.blend",
+      "relative_station_path": "EZP_coastal_station_v01.blend",
+      "sha256": "88d042da72d9a4cb6a31b6c53143622d462075c64e6bee5b109a3408348c164e",
+      "size": 6086093
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/QA_BUILD.json",
+      "relative_station_path": "QA_BUILD.json",
+      "sha256": "b99df1c3225c039279a3b179ab3b4ba1ec4254c4916e40a43c936320e8e17677",
+      "size": 3615
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/QA_EXPORT.json",
+      "relative_station_path": "QA_EXPORT.json",
+      "sha256": "841012660bec23e7ce37c223eb7499b253e2a975f9a555d99544a98464c601f2",
+      "size": 523
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/QA_LAYOUT.json",
+      "relative_station_path": "QA_LAYOUT.json",
+      "sha256": "7772be2307d742f704a567b8d454f28f1e15ee39cb914ddac1d017aa3705d1d7",
+      "size": 642
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/QA_RAY_INPUTS.json",
+      "relative_station_path": "QA_RAY_INPUTS.json",
+      "sha256": "8e425a054c61c9c27beafeba0c6ae788b216ccdf7f19060e876d752b3ef7e597",
+      "size": 192
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/QA_SCENE.json",
+      "relative_station_path": "QA_SCENE.json",
+      "sha256": "6592a4d3182ef734d3c84723853926eba082a0e7154280c720e9ea6f25fca838",
+      "size": 2395
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/README.md",
+      "relative_station_path": "README.md",
+      "sha256": "eb99c06ebf618b40dc0f3dfac43cb58e26a7400d091ae6e0abfdf96abacfccd6",
+      "size": 594
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/RENDER_SOURCE.py",
+      "relative_station_path": "RENDER_SOURCE.py",
+      "sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30",
+      "size": 2538
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/SOURCES_AND_UNCERTAINTIES.md",
+      "relative_station_path": "SOURCES_AND_UNCERTAINTIES.md",
+      "sha256": "eae2453033c7b1987696ef4ba7dff45f302865579de8a4f4a4cd7244eb525934",
+      "size": 5520
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/VISUAL_QA.md",
+      "relative_station_path": "VISUAL_QA.md",
+      "sha256": "dd1111e89dd8400a91a2ba5d0c440f72fb2c84f032a654b1947528e007819e83",
+      "size": 1069
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/exports/EZP_coastal_station_v01.glb",
+      "relative_station_path": "exports/EZP_coastal_station_v01.glb",
+      "sha256": "d2b7064c6b245c6648dd668e1f747e8210ab42ee954e17aa3603dfb61cd7c60e",
+      "size": 25647728
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/exports/EZP_coastal_station_v01.validation.json",
+      "relative_station_path": "exports/EZP_coastal_station_v01.validation.json",
+      "sha256": "ff7f6a8cbe0f7479997a7226ffcb794f32f57a4621f83f705bd425230d4cb5ae",
+      "size": 559
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/FULL_TRACK_PLAN.png",
+      "relative_station_path": "references/FULL_TRACK_PLAN.png",
+      "sha256": "fb1e1531087d72215271cb294f57a11b76a37397b8a2abfdcd5ee43395a1fbc5",
+      "size": 64941
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/architecture_google_evidence.json",
+      "relative_station_path": "references/architecture_google_evidence.json",
+      "sha256": "7032d5ed0af4ea59982873fed2c97cfe3fea32201ca7a87203f123e8174aa586",
+      "size": 1708
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/plan.json",
+      "relative_station_path": "references/plan.json",
+      "sha256": "12e37c456fea11f96f5fcc91b1efee412626641e392608230a8ef29e640168db",
+      "size": 79972
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/plan.png",
+      "relative_station_path": "references/plan.png",
+      "sha256": "e8b48831309e53080d3ebd612ddef43f73aeaf67b5019e296df54cc91dad0a04",
+      "size": 28301
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/pointwork.json",
+      "relative_station_path": "references/pointwork.json",
+      "sha256": "8f6820bc7c970cbb2f489e9ac4dacc3764695f969de7222336fd0a5a24d24dbd",
+      "size": 335
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/rail_meshes.json",
+      "relative_station_path": "references/rail_meshes.json",
+      "sha256": "6975a975390ed278a7792842d524fa6dc0cecf44a236e77881cad472dd0e9756",
+      "size": 32216
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/references/station_record.json",
+      "relative_station_path": "references/station_record.json",
+      "sha256": "4a42b83b9f2654add754a48350568e620503ab755512e338bceabebd0b3156e8",
+      "size": 6221
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "7df2ecff02f5a598e83c1380793c78069b59c3e505e956efc528da7acc9a5724",
+      "size": 427
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "2682298832927a13b236b4ad76c29db7bd811829b6dbeab43b866b8ec4bdd3cb",
+      "size": 1520384
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "dd9c560a646bebb937788d579fc806c1b77a4fa19416690a0842f98c6d63bcc2",
+      "size": 439
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "0360fd1302d2674c1778bb437736738c6ca57f7a5dc429111029effcc94fb413",
+      "size": 1384820
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "c9b30cae2526b31dbb10c848d43fc08c5f24aaa2e26d13670e4aacc94bf555f8",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "12a375ed5a44677370fcfdde6e138042883a6e7ac4848504ec9b19476da61501",
+      "size": 1269103
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "270670a859b7ad76758de95b41c53a635f8f6bc348d0ceaf3ece31d296e337dc",
+      "size": 567
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "3c51c63d84e23cdec761a4233dc6a1c7e265705e1120cea738dcf35b681f4954",
+      "size": 1308916
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/textures/board.png",
+      "relative_station_path": "textures/board.png",
+      "sha256": "163a20c1e118cbaac99901640744ebfa28a846337142f3dec5a95983da4a2379",
+      "size": 43485
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/textures/fascia.png",
+      "relative_station_path": "textures/fascia.png",
+      "sha256": "897bf40dec8c5d33854e8cfc14191429fe5bb2e8617556990d9e868cf02fd4c5",
+      "size": 32107
+    },
+    {
+      "path": "coastal_stations_overnight/north/EZP/textures/notice.png",
+      "relative_station_path": "textures/notice.png",
+      "sha256": "1913881a428e7289730b15c888aa93a704b92364f629d742b12ac31b34fcfdaf",
+      "size": 36251
+    }
+  ],
+  "file_count": 32,
+  "total_bytes": 37615500,
+  "photo_redistribution": "No downloaded Google Maps/Mappls/other source photography included. Original station sign art and generated render images only.",
+  "source_data_attribution": "\u00a9 OpenStreetMap contributors, ODbL1.0; IRI references linked",
+  "cautions": "Read SOURCES_AND_UNCERTAINTIES.md. Hidden interiors and some dimensions/placement are reconstructed; current yard inventory not certified."
+}

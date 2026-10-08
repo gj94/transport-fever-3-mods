@@ -1,0 +1,24 @@
+{
+  "filename": "QLN_coastal_station_v01.blend",
+  "size": 42727179,
+  "sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234",
+  "git_blob_sha": "2f1ab0ec2386411496887f51d50184be8111216b",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "dc2dc46d81ee3c4f192d7f0ff4214239078ca28029b5b78de6f1eeb417724c4a"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "ced6174435ad3483b99338ca21232086c45e879695c120638790007f5168c022"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 9172747,
+      "sha256": "c43c99b2c55b46382fb7ea3e632dd0e4e10b5acb7c6f19062dc65ed0091d9d60"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub transport; parts are not individually openable."
+}

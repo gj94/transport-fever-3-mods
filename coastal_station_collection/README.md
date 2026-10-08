@@ -6,9 +6,9 @@ These are source models and portable exchange assets for further mod development
 
 [Every station and status](ROUTE_INDEX.md) · [Complete image gallery](GALLERY.md) · [Opening models](OPEN_MODELS.md) · [Evidence and source register](research/README.md)
 
-Reviewed model set: 15 active-station entries and 1 closed historical entry. Recovery-only checkpoints are listed separately.
+Reviewed model set: 18 active-station entries and 1 closed historical entry. Recovery-only checkpoints are listed separately.
 
-New active stations independently reviewed: **12/52**. Existing ERS, TVC and NCJ remain available. Historical TNU is tracked separately.
+New active stations independently reviewed: **15/52**. Existing ERS, TVC and NCJ remain available. Historical TNU is tracked separately.
 
 ### [ERS · Ernakulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ers)
 
@@ -16,11 +16,11 @@ New active stations independently reviewed: **12/52**. Existing ERS, TVC and NCJ
 
 Previously published rich-v02 model.
 
-### [TNU · Tirunettur](https://github.com/gj94/transport-fever-3-mods/tree/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/revision_03/TNU)
+### [TNU · Tirunettur](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU)
 
-[![TNU: Tirunettur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png)](https://github.com/gj94/transport-fever-3-mods/blob/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png)
+[![TNU: Tirunettur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU/renders/H1_Historical_2016_facade.png)
 
-Independently reviewed model; closed halt, historical treatment only. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/revision_03/TNU/GALLERY.md).
+Published reviewed batch; closed halt, historical treatment only. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU/GALLERY.md).
 
 ### [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM)
 
@@ -28,23 +28,35 @@ Independently reviewed model; closed halt, historical treatment only. [All revie
 
 Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM/GALLERY.md).
 
+### [AROR · Aroor](https://github.com/gj94/transport-fever-3-mods/tree/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/AROR)
+
+[![AROR: Aroor actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/AROR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/AROR/renders/02_Entrance_architecture.png)
+
+Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/AROR/GALLERY.md).
+
+### [EZP · Ezhupunna](https://github.com/gj94/transport-fever-3-mods/tree/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/EZP)
+
+[![EZP: Ezhupunna actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/EZP/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/EZP/renders/02_Entrance_architecture.png)
+
+Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/north/EZP/GALLERY.md).
+
 ### [TUVR · Turavur](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR)
 
 [![TUVR: Turavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png)
 
 Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/GALLERY.md).
 
-### [ALLP · Alappuzha](https://github.com/gj94/transport-fever-3-mods/tree/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/ALLP)
+### [ALLP · Alappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP)
 
-[![ALLP: Alappuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png)
+[![ALLP: Alappuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP/renders/02_Entrance_architecture.png)
 
-Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/611fb2f0471f25758620a3161c0aed19354838e1/coastal_station_collection/north/ALLP/GALLERY.md).
+Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP/GALLERY.md).
 
-### [AMPA · Ambalappuzha](https://github.com/gj94/transport-fever-3-mods/tree/a6bb656274036bab4caf6df061b013c4bed27dca/coastal_station_collection/north/AMPA)
+### [AMPA · Ambalappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA)
 
-[![AMPA: Ambalappuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/a6bb656274036bab4caf6df061b013c4bed27dca/coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/a6bb656274036bab4caf6df061b013c4bed27dca/coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png)
+[![AMPA: Ambalappuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/renders/02_Entrance_architecture.png)
 
-Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/a6bb656274036bab4caf6df061b013c4bed27dca/coastal_station_collection/north/AMPA/GALLERY.md). [Accuracy note](https://github.com/gj94/transport-fever-3-mods/blob/a6bb656274036bab4caf6df061b013c4bed27dca/coastal_station_collection/north/AMPA/PLATFORM_EDGE_CLARIFICATION.md).
+Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/GALLERY.md). [Accuracy note](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/PLATFORM_EDGE_CLARIFICATION.md).
 
 ### [STKT · Sasthankotta](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt)
 
@@ -58,11 +70,17 @@ Published reviewed batch. [All reviewed views](https://github.com/gj94/transport
 
 Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo/GALLERY.md).
 
-### [IRP · Iravipuram](https://github.com/gj94/transport-fever-3-mods/tree/84f21801ebaa38b0ba9aa356c9884d86a3bbf553/coastal_station_collection/middle/irp)
+### [QLN · Kollam Junction](https://github.com/gj94/transport-fever-3-mods/tree/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/middle/revision_02/qln)
 
-[![IRP: Iravipuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/84f21801ebaa38b0ba9aa356c9884d86a3bbf553/coastal_station_collection/middle/irp/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/84f21801ebaa38b0ba9aa356c9884d86a3bbf553/coastal_station_collection/middle/irp/renders/04_facade_and_approach.png)
+[![QLN: Kollam Junction actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/middle/revision_02/qln/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/middle/revision_02/qln/renders/04_facade_and_approach.png)
 
-Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/84f21801ebaa38b0ba9aa356c9884d86a3bbf553/coastal_station_collection/middle/irp/GALLERY.md).
+Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/58524e1f0cade5795ea0e91abbc605fed847de6c/coastal_station_collection/middle/revision_02/qln/GALLERY.md).
+
+### [IRP · Iravipuram](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp)
+
+[![IRP: Iravipuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp/renders/04_facade_and_approach.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp/renders/04_facade_and_approach.png)
+
+Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp/GALLERY.md).
 
 ### [PGZ · Perunguzhi](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz)
 
@@ -82,23 +100,23 @@ Published reviewed batch. [All reviewed views](https://github.com/gj94/transport
 
 Previously published rich-v02 model.
 
-### [AMVA · Amaravila](https://github.com/gj94/transport-fever-3-mods/tree/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/amva)
+### [AMVA · Amaravila](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva)
 
-[![AMVA: Amaravila actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png)
+[![AMVA: Amaravila actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva/renders/02_STATION_ARCHITECTURE.png)
 
-Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/amva/GALLERY.md).
+Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva/GALLERY.md).
 
-### [KZTW · Kulitturai West](https://github.com/gj94/transport-fever-3-mods/tree/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/kztw)
+### [KZTW · Kulitturai West](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw)
 
-[![KZTW: Kulitturai West actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png)
+[![KZTW: Kulitturai West actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw/renders/02_STATION_ARCHITECTURE.png)
 
-Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/kztw/GALLERY.md).
+Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw/GALLERY.md).
 
-### [PYD · Palliyadi](https://github.com/gj94/transport-fever-3-mods/tree/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/pyd)
+### [PYD · Palliyadi](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd)
 
-[![PYD: Palliyadi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png)
+[![PYD: Palliyadi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd/renders/02_STATION_ARCHITECTURE.png)
 
-Independently reviewed model. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/5f93c245c6fc94ec3fa633d2a028c3818855daba/coastal_station_collection/south/pyd/GALLERY.md).
+Published reviewed batch. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd/GALLERY.md).
 
 ### [NCJ · Nagercoil Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ncj)
 

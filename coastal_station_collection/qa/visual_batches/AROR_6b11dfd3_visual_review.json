@@ -1,0 +1,51 @@
+{
+  "station": "AROR",
+  "reviewed_utc": "2026-10-08T21:02:58Z",
+  "status": "four_view_visual_source_pass",
+  "source_scene_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "8f96eba2af29cca8b61c74face39c68239d06257ac1c776e690da01303328dc6",
+      "provenance_sha256": "8f96eba2af29cca8b61c74face39c68239d06257ac1c776e690da01303328dc6",
+      "source_scene_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "f9531de592ec3fba392341426cc9eee8ac4dfb087f2e877a73354831bd016571",
+      "provenance_sha256": "f9531de592ec3fba392341426cc9eee8ac4dfb087f2e877a73354831bd016571",
+      "source_scene_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "e05587183729d684fe32129d8760d6119d5c4520ac1c089f0eac49b6efb35986",
+      "provenance_sha256": "e05587183729d684fe32129d8760d6119d5c4520ac1c089f0eac49b6efb35986",
+      "source_scene_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "b39573b5080bc8c5103da05e79def35a6485bc77cc09ba6cb0b789a2ba5c4b6a",
+      "provenance_sha256": "b39573b5080bc8c5103da05e79def35a6485bc77cc09ba6cb0b789a2ba5c4b6a",
+      "source_scene_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "source": {
+    "path": "coastal_stations_overnight/research/screenshots/AROR_ticket_hut_2020-01.png",
+    "sha256": "264520f2007b45b2435334d24f4628361fa4cf9f50bfc630364bfe75c8a4148a",
+    "actual_full_pixels_inspected": true
+  },
+  "minimum_corrections": [],
+  "observations": [
+    "Overall/site, entrance, platform and furnished-interior views provide useful modest-halt coverage.",
+    "Correct readable station name face; no floating shutter or duplicated fixture assembly detected.",
+    "Small pale block, upper overroof, reddish trim and brown attached shutters follow observed dated source features; shutter-pivot issue corrected."
+  ],
+  "limits": [
+    "Exact hidden-room plan, dimensions, fittings and additional supports are disclosed reconstruction.",
+    "Technical auditor owns geometry/resources/final freeze gate."
+  ]
+}
