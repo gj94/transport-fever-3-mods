@@ -1,0 +1,419 @@
+{
+  "format_version": 1,
+  "asset": "Nagercoil Junction full-size station v02",
+  "status": "complete",
+  "primary_scene": "NCJ_full_station_v02.blend",
+  "primary_scene_sha256": "c5ac2ad5b1830b1d00c44fc752df6cef562e2a305c4e7e021b9a323991454b8d",
+  "portable_export": "exports/NCJ_full_station_v02_GLTF.zip",
+  "portable_export_sha256": "823706ed56e205422951f6db1a08ac4acb7c1699a2bf2d20a818f471dcfeede6",
+  "unit": "metre",
+  "rail_inner_gauge_m": 1.676,
+  "rolling_stock_count": 0,
+  "objects": 7947,
+  "base_mesh_vertices": 3141981,
+  "platform_longitudinal_spans_m": [
+    841.6295623779297,
+    563.7887725830078
+  ],
+  "original_centreline_network_m_approx": 19634.168,
+  "source_status": "Mixed-date source-informed visual reconstruction; room layouts, fixture positions and operational road/pit assignments remain inferred. Not as-built or an operational interlocking model.",
+  "pointwork": {
+    "source_fitted_simple_nodes": 20,
+    "simplified_compound_nodes": 14
+  },
+  "lineage": "RENDER_PROVENANCE.json",
+  "validation_reports": [
+    "QA_FINAL_SUMMARY.json",
+    "QA_EXPORT.json",
+    "QA_EXPORT_GEOMETRY.json",
+    "QA_STAIR_CANOPY_CLEARANCE.json",
+    "QA_PLATFORM_BUILDING_INSETS.json"
+  ],
+  "files": [
+    {
+      "path": "DIMENSIONS.csv",
+      "bytes": 1650,
+      "sha256": "5a86a85ea536ab0e0d71b2b1cef3ac66fa1c91fa3fdf60b4faf13fb80d70e972"
+    },
+    {
+      "path": "FINAL_SOURCE_GALLERY_ALLOWLIST.txt",
+      "bytes": 2037,
+      "sha256": "388255a5c7868c20c2121e708074d2065b80b340cfda45bd8fe4dd047cd6cb87"
+    },
+    {
+      "path": "NCJ_full_station_v02.blend",
+      "bytes": 50096848,
+      "sha256": "c5ac2ad5b1830b1d00c44fc752df6cef562e2a305c4e7e021b9a323991454b8d"
+    },
+    {
+      "path": "PROOF_SOURCE_LINEAGE.json",
+      "bytes": 521,
+      "sha256": "cadf215a6cc0827749a0d8c170803d7e74c33e06d981914ea7745c6de2da6291"
+    },
+    {
+      "path": "QA_ALL_TURNOUTS.json",
+      "bytes": 21030,
+      "sha256": "e814f66e162fd701093f54581d2aca8beb7454e840431d5fef46c1b61df19466"
+    },
+    {
+      "path": "QA_BUILD.json",
+      "bytes": 4018,
+      "sha256": "feb579a18f6d17c9fb92028a3c297fea4c6e01e222b844ec6d3ccdb1371844aa"
+    },
+    {
+      "path": "QA_COMPOUND_CROSSINGS.json",
+      "bytes": 8023,
+      "sha256": "8938024b65ee241275693a56881d85c242e3bd935b8ab9d24251e5ca13839ee5"
+    },
+    {
+      "path": "QA_EXPORT.json",
+      "bytes": 716,
+      "sha256": "f0991fd086e3c13c07a51b50ba532cd72970bbedad455389c9679773eb70b576"
+    },
+    {
+      "path": "QA_EXPORT_GEOMETRY.json",
+      "bytes": 190,
+      "sha256": "13f6aa97c848a224134a3a203f4d27ecc5056058e64596c236d0704e7153ca60"
+    },
+    {
+      "path": "QA_EXPORT_RESOURCES.json",
+      "bytes": 318,
+      "sha256": "a3c5ae2278b4e6b9843186ffb08c6ee51c7c41e01da6f2e99f80f05c8af3dc28"
+    },
+    {
+      "path": "QA_FINAL_SUMMARY.json",
+      "bytes": 8925,
+      "sha256": "d088be020cb344f8273bc4cb5b42280b966326ea66eb2f8ba0e17841c158b667"
+    },
+    {
+      "path": "QA_OHE_CLEARANCE.json",
+      "bytes": 25061,
+      "sha256": "eed38d9fc83a0dc469822230465395dd4dc9dc2a093fb64f15ea0f01bdd9c37f"
+    },
+    {
+      "path": "QA_PIT_SERVICES.json",
+      "bytes": 1380,
+      "sha256": "2c38ad0a3dfef72f6af6cf0610294be4112859711972f383a34317ec062274f6"
+    },
+    {
+      "path": "QA_PLATFORM_BUILDING_INSETS.json",
+      "bytes": 1776,
+      "sha256": "1e4caf3e70d5fb1c932bef33749aa3aa4b5075da7b3054bf764926acdb65f65f"
+    },
+    {
+      "path": "QA_SCOPE.md",
+      "bytes": 1998,
+      "sha256": "2bf72b4af442ed10bfe248ca325ab52955f731fba11071835531d46d9031056a"
+    },
+    {
+      "path": "QA_SERVICE_CROSSINGS.json",
+      "bytes": 4370,
+      "sha256": "c6e3fcbcd29fed2c4a89db652f880ada5e60c289b1c4bef401386b6cfabd4fa8"
+    },
+    {
+      "path": "QA_STAIR_CANOPY_CLEARANCE.json",
+      "bytes": 2956,
+      "sha256": "bd062fffe75ec0d79d57354691f2ea9bb39a8be7e0adc6f6a9131eec45bfc9bf"
+    },
+    {
+      "path": "QA_TURNOUT_6045464001.json",
+      "bytes": 828,
+      "sha256": "90f0d8772eb5724a25f1b1541a7867e5006ba167168c5726107d794f1fb1d9e0"
+    },
+    {
+      "path": "QA_VALIDATION.json",
+      "bytes": 1964,
+      "sha256": "424412ff38a8c9ff61a45933312c6793517bff218e695fd6c6942e20eaeb141c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5293,
+      "sha256": "55953159fd80aa9fcb1307c9f05ee43b32e0f827f3cb9e121bfafc64bf60ac33"
+    },
+    {
+      "path": "RENDER_PROVENANCE.json",
+      "bytes": 4559,
+      "sha256": "7ba235165e080c4646922993c5a6309c58c9c24d9025d7388bf0aecf3733abbf"
+    },
+    {
+      "path": "SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 9475,
+      "sha256": "4cfc69c38c01cd7bc38c65ff49663a851ed61309f4c958280eb173a637349f78"
+    },
+    {
+      "path": "VISUAL_QA.md",
+      "bytes": 2078,
+      "sha256": "7007ae6148b4557069d3626f9ae20299cced48909221dfeaa3c28831fbd64252"
+    },
+    {
+      "path": "assets/english.svg",
+      "bytes": 223,
+      "sha256": "30c9d270e6eb2cb3c84c5a9b93b46faee5cf9aa92f05696ff2d0ecde3b9f7ff3"
+    },
+    {
+      "path": "assets/english_outlined.svg",
+      "bytes": 5308,
+      "sha256": "4c9294e6c8389439b9aa639bc208250eb2e24f910cf4ee48c8f0dee6779dfe13"
+    },
+    {
+      "path": "assets/hindi.svg",
+      "bytes": 237,
+      "sha256": "99b9344580664ef59540c05909d2c64a8958ae535ec7b6798cad21e113ee89ab"
+    },
+    {
+      "path": "assets/hindi_outlined.svg",
+      "bytes": 5778,
+      "sha256": "5063ce6119a62967fa9af4ac54273d163e00bafab9497045b60d9f49fd9ae3e4"
+    },
+    {
+      "path": "assets/tamil.svg",
+      "bytes": 247,
+      "sha256": "c184b2d84b6ffc6658dfa616b906b2a2ab639d96d031a9f8ec2869db6a146380"
+    },
+    {
+      "path": "assets/tamil_outlined.svg",
+      "bytes": 9645,
+      "sha256": "596ff8ce5153cf7afcd7ab860a43f79d31dcf898544a6658c611f761d8635868"
+    },
+    {
+      "path": "exports/NCJ_full_station_v02_GLTF.zip",
+      "bytes": 61044052,
+      "sha256": "823706ed56e205422951f6db1a08ac4acb7c1699a2bf2d20a818f471dcfeede6"
+    },
+    {
+      "path": "references/NCJ_TRACK_COVERAGE_PLAN.png",
+      "bytes": 106728,
+      "sha256": "d2e4b7e01344ff68d25998788d5fa0c9dea73e1762cd2c0a851dedc6ec4b6f62"
+    },
+    {
+      "path": "references/NCJ_TRACK_COVERAGE_PLAN.svg",
+      "bytes": 71926,
+      "sha256": "025b676b29b8a802b3017fed03339b144c7757d1c9f437a29cd5a2a4ceab3dc2"
+    },
+    {
+      "path": "references/compound_domains.geojson",
+      "bytes": 32151,
+      "sha256": "8ccb88515f3f618367dc43a1ceda6b7f290eae6866827d9115267c22ac5aaacd"
+    },
+    {
+      "path": "references/font_licences/usr/share/doc/fonts-dejavu-core/copyright",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "references/font_licences/usr/share/doc/fonts-noto-core/copyright",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "references/junction_node_positions.json",
+      "bytes": 2354,
+      "sha256": "264bfcf8f7314c1039d8058da6aa724fbfd3c21a3690921e16b58e3e9aee84d5"
+    },
+    {
+      "path": "references/legacy_facade_sources.md",
+      "bytes": 3496,
+      "sha256": "491e355009ed288d4d0b6bf6b93787a08b9d64330e68f86a8a7da749cb022bfe"
+    },
+    {
+      "path": "references/local_geometry.json",
+      "bytes": 112207,
+      "sha256": "5e53fd42e716af61834f414800414beb27a1177267bb14c7a796722b3c77c35c"
+    },
+    {
+      "path": "references/map_geometry.json",
+      "bytes": 76046,
+      "sha256": "61e4fc76df352ff6a2e8356654459740feed8852d35541ef6d896f14c073194b"
+    },
+    {
+      "path": "references/map_trace.png",
+      "bytes": 58414,
+      "sha256": "2cdab40371b8a41a15a3370650cf6392b0ef11b6a50e7fab20012ce56f9df2c0"
+    },
+    {
+      "path": "references/ncj_annexure_inventory_observation.json",
+      "bytes": 3011,
+      "sha256": "e3c99a5e7eb27b3bdadfc261bd2dcf6784a78f9d6ce6267893d2369fb7315557"
+    },
+    {
+      "path": "references/physical_turnout_cases.json",
+      "bytes": 29291,
+      "sha256": "e1aa43a611e5ef4a422bab3e408351d970f3e7a3c4c2b25f80ed49bfca6bdd24"
+    },
+    {
+      "path": "references/turnout_source_nodes.json",
+      "bytes": 7222,
+      "sha256": "3305c66500cbc09da0ed3476f12b29902f2bc1acff0bfd13d20f3f46cc7336ca"
+    },
+    {
+      "path": "renders/01_FACADE_AND_STATION.png",
+      "bytes": 1946923,
+      "sha256": "2bfcee4d8da11e47788d0a7121e654edbbfd9742e38915e3a9a5ad64a6304c2d"
+    },
+    {
+      "path": "renders/02_TICKET_HALL.png",
+      "bytes": 2983884,
+      "sha256": "a34733a2c6ac3777320f6576d1f890e4ceb7f7c67014e3b86c90586f33408a43"
+    },
+    {
+      "path": "renders/03_WAITING_HALL.png",
+      "bytes": 2901490,
+      "sha256": "1d8a84a938bea2f9895986156b5c0f14d0ab3fd491324e9ecc5624667fa2512a"
+    },
+    {
+      "path": "renders/04_TOILETS_CUTAWAY.png",
+      "bytes": 2402527,
+      "sha256": "c0f38a81bd69381d6c0e880184e7c6a5fadfed1a445b7f179207b054924cfbcc"
+    },
+    {
+      "path": "renders/05_PLATFORM_DETAIL.png",
+      "bytes": 2501143,
+      "sha256": "0fc148c9d03847b8e724e07fc760e2b98cb57a221822da990139dd179c710cd5"
+    },
+    {
+      "path": "renders/06_FOOTBRIDGE.png",
+      "bytes": 2188019,
+      "sha256": "6a2bf2cd3cf844b0167fb83c5e00621ed7c947db4f1e607d780b71d8428d1a10"
+    },
+    {
+      "path": "renders/08_DEPOT_PITS.png",
+      "bytes": 1782215,
+      "sha256": "33dd6715d671b0243cd1ba296b8d3300c543b574ed72ad298552dfa1a78c67c7"
+    },
+    {
+      "path": "renders/10_FULL_YARD_TOP.png",
+      "bytes": 1396455,
+      "sha256": "746f8d3f7306d28d0f19179899f9f30de3729cb04fd9ec1592547d8c408a1d6e"
+    },
+    {
+      "path": "renders/17_PHYSICAL_TURNOUT_6045464001.png",
+      "bytes": 2223534,
+      "sha256": "3dbdd0d828648370e1aa4d8b0416039e15b85ea6a2d78d657c7eccf979db9c9f"
+    },
+    {
+      "path": "renders/18_FROG_DETAIL_6045464001.png",
+      "bytes": 1969322,
+      "sha256": "6e3543aaf2292f980b43ba3b510af5f29e24629e9d4f7b8b202a065abbfa4866"
+    },
+    {
+      "path": "renders/19_SWITCH_TOE_6045464001.png",
+      "bytes": 1963177,
+      "sha256": "9e3dcf1abb9d82283531aea5826959dfa22ab9f15ef5620172c5d349ed83ed1d"
+    },
+    {
+      "path": "scripts/add_review_labels.py",
+      "bytes": 1841,
+      "sha256": "ef8f90195c2ec081a4113361c7efaa1f512a9d46b7fb9401b286636e5998e7ce"
+    },
+    {
+      "path": "scripts/audit_turnouts_source.py",
+      "bytes": 1111,
+      "sha256": "12afca67d37b9a3bb556477595833a68801b6abae2291a90cbcc3ba4f5f9933c"
+    },
+    {
+      "path": "scripts/build_ncj_full.py",
+      "bytes": 43843,
+      "sha256": "1f373c36e1c172bb6a73dfd7f52a0286b8a9e3a47d58ee42fce827c01e5f2e2a"
+    },
+    {
+      "path": "scripts/export_monitored.py",
+      "bytes": 1751,
+      "sha256": "65e9567d4de7ca3327671551b6b911c3ca1b7b667c9b56417c5ce048ed987a0b"
+    },
+    {
+      "path": "scripts/export_ncj_full.py",
+      "bytes": 643,
+      "sha256": "45ad9cb8ff438d6cfd8978f25dc75e09fe91a6784c8d24c1a7533ea77766e288"
+    },
+    {
+      "path": "scripts/extract_map.py",
+      "bytes": 1200,
+      "sha256": "048a190b54a24bd664954e35a22cc9ae4d6dceee2ae19d0485fa370f4122b8a5"
+    },
+    {
+      "path": "scripts/facade_heritage.py",
+      "bytes": 14652,
+      "sha256": "12ee4a0cc7c08f8bf8531264450d5b445c2a293fdd039dc13e9ac45aeaae9f95"
+    },
+    {
+      "path": "scripts/finish_ncj.sh",
+      "bytes": 674,
+      "sha256": "9e2791a2e3cc798b85f0f89e0b7e28462d6666ae8fab6cc519757fdab68a1524"
+    },
+    {
+      "path": "scripts/make_coverage_plan.py",
+      "bytes": 6281,
+      "sha256": "6b16903d107518068d838c155c83f9a1d703bdc2a2ab92e473d190852ddaa3c6"
+    },
+    {
+      "path": "scripts/prepare_turnout_cases.py",
+      "bytes": 5046,
+      "sha256": "d6baa7708ca915674ada21d8d7eb8b45bdd6f3dcaae96ccbcb80003dc399a041"
+    },
+    {
+      "path": "scripts/refine_review_cameras.py",
+      "bytes": 694,
+      "sha256": "3bd381fe8fce8570500cc256e7ea456fd568fa963586164ff636df67a2eb74ca"
+    },
+    {
+      "path": "scripts/render_monitored.py",
+      "bytes": 2005,
+      "sha256": "5e0996c43246050dd042dff7a96e7bf28798270250334b68101708054af50550"
+    },
+    {
+      "path": "scripts/render_ncj_full.py",
+      "bytes": 2011,
+      "sha256": "bffc03dab6bc8148cf27572c53e14e28ec4be1182210f6594e51ebea2816f56b"
+    },
+    {
+      "path": "scripts/repair_all_ncj_turnouts.py",
+      "bytes": 14132,
+      "sha256": "64d0e5f9fe7e138ede662b3ba0c5c809040d659988c2c932fe14ee67926bf133"
+    },
+    {
+      "path": "scripts/repair_ncj_compound_crossings.py",
+      "bytes": 9291,
+      "sha256": "d646d56c79532715278feeed617329dd771badf6bf11b80bc0a340e435813ad5"
+    },
+    {
+      "path": "scripts/repair_ncj_ohe.py",
+      "bytes": 5995,
+      "sha256": "f403cd22469165cf8580ea122fd1c811a988449f7beb17810a2169df1829456c"
+    },
+    {
+      "path": "scripts/repair_ncj_pits.py",
+      "bytes": 8168,
+      "sha256": "1cd05881d217fe1a20a6dc3127a94df3a0e0cfa0afd84b996fb8158e933424fc"
+    },
+    {
+      "path": "scripts/repair_ncj_platform_insets.py",
+      "bytes": 5890,
+      "sha256": "8aa04964ad800ec82e31f663d4d2d09e31aa58b673d841edd3a94cbe09bc77e6"
+    },
+    {
+      "path": "scripts/repair_ncj_services.py",
+      "bytes": 2912,
+      "sha256": "4d8f6b6b4d1f11e0d5005bc29663de358a47f1526a32aa118edd6e8e3b01ab42"
+    },
+    {
+      "path": "scripts/repair_ncj_stair_canopies.py",
+      "bytes": 7354,
+      "sha256": "c4a4b04591634beea8ec41418e1bab781619ad96f7f700fcd51fd36169756ee3"
+    },
+    {
+      "path": "scripts/validate_ncj_export.py",
+      "bytes": 2332,
+      "sha256": "f9f5c9b3453336c3f29a392150ace90e6092ff6b7282eaf8d323335f42b16749"
+    },
+    {
+      "path": "scripts/validate_ncj_export_geometry.py",
+      "bytes": 1796,
+      "sha256": "42cee8bb7020f3bee78558b179a6f6d58680fb4b35f324a0e404419239b32631"
+    },
+    {
+      "path": "scripts/validate_ncj_full.py",
+      "bytes": 2023,
+      "sha256": "d93224b61429b61f9e2fdcffa7f270046db5a7433bafba34065b1c5b1b153820"
+    }
+  ]
+}
