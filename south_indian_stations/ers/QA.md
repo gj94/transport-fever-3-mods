@@ -7,7 +7,7 @@
 - 12 original sign textures packed in the `.blend`; no external file-image dependencies.
 - GLB 2.0 export contains 2,041 mesh entries and 12 embedded images; no external buffer/image URIs; header length matches file size.
 - No empty meshes, nonfinite vertices or inward-facing closed box geometry found.
-- Two rail pairs checked at inner rail-head faces: 1.675002 m and 1.675000 m, within 0.01 mm numeric tolerance of nominal 1.675 m. This is a model-scale check, not an engineering measurement of ERS.
+- Two rail pairs checked at inner rail-head faces: 1.675002 m and 1.675000 m. The numeric check is within 0.01 mm of the chosen model target of 1.675 m, **not** of the Indian broad-gauge standard of 1.676 m. The model is respectively 0.998 mm and 1.000 mm narrower than that standard. This documented 1 mm visual-context approximation is not a claim of exact gauge compliance or an engineering measurement of ERS.
 - Source scripts pass Python syntax compilation. Full build runs without needing the photographs or fonts because generated sign textures are distributed.
 
 ## Visual inspection / corrections

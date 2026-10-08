@@ -26,7 +26,7 @@ The six numbered platforms are **not** reconstructed as six invented islands. Th
 1. WEST FRONTAGE: photo-inspired frontage and open portal, main building shells, genuine doorway voids, gallery glazing/mullions.
 2. FORECOURT: configurable parking marks, benches, bollards, planters/palms, lamps.
 3. PLATFORM KIT: configurable 96 m demonstration, 8 m canopy bays, furniture, kiosk and nameboards.
-4. TRACK MODULES: two 1.675 m gauge sample lines with rail head/web/foot, sleepers, plates, ballast and utility pipe.
+4. TRACK MODULES: two approximately broad-gauge sample lines (model inner-face gauge 1.675 m, approximately 1 mm narrower than the Indian 1.676 m standard) with rail head/web/foot, sleepers, plates, ballast and utility pipe.
 5. OHE MODULE: indicative configurable electrification masts, cantilevers, insulators, contact/catenary wires.
 6. FOOTBRIDGE KIT: individual truss chords, X members and railings, tread/riser staircase, handrails and blue hood.
 90. PRESENTATION: cameras and lights; removable for game import.
@@ -34,7 +34,7 @@ The six numbered platforms are **not** reconstructed as six invented islands. Th
 Move/duplicate collections as modules. The source constants define platform length and member spacing. The covered staircase has a roof aperture and an opening in the bridge-side guardrail. Geometry is editable and named, with lightweight bevel/solidify modifiers where useful. GLB is an exchange asset, not engine-specific optimized LOD, collision or route signalling. No proprietary textures, train assets or external image dependencies.
 
 ## Accuracy and limits
-All dimensions except units and nominal broad gauge are inferred or adjusted for the scene. Rear walls, depths, interior ticket windows, furniture distribution, ornamental planting and demo track alignment are artistic completion. No survey, route-ready yard, present-day redevelopment, passenger simulation, working signalling, or safety-critical clearance claim. Refer to `DIMENSIONS.csv`, `SOURCES.md` and `QA.md` before reuse.
+All dimensions except the metre unit definition are inferred or adjusted for the scene. The model uses approximately 1.675 m between inner rail-head faces; Indian broad gauge is 1.676 m, so this context geometry is approximately 1 mm narrow and is not exact standard-compliant track. Rear walls, depths, interior ticket windows, furniture distribution, ornamental planting and demo track alignment are artistic completion. No survey, route-ready yard, present-day redevelopment, passenger simulation, working signalling, or safety-critical clearance claim. Refer to `DIMENSIONS.csv`, `SOURCES.md` and `QA.md` before reuse.
 
 ## Rights and provenance
 No new licence is granted for generated geometry, code, artwork or renders. Third-party photo and font notices are scoped to their originals in `SOURCES.md` and `NOTICE.txt`. Raw research photographs/crops are omitted. Reference-use obligations have not been legally cleared; there is no official railway endorsement.

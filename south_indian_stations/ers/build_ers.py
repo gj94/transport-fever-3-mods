@@ -414,6 +414,9 @@ for o in scene.objects:
  if o.type in {'MESH','CURVE','FONT'}:o.select_set(True)
 bpy.ops.export_scene.gltf(filepath=str(P/'exports'/'ERS_2017_station.glb'),export_format='GLB',use_selection=True,export_apply=True,export_cameras=False,export_lights=False)
 qa={'blender':bpy.app.version_string,'objects':len(scene.objects),'mesh_objects':sum(o.type=='MESH' for o in scene.objects),'vertices':sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'packed_images':sum(bool(i.packed_file) for i in bpy.data.images),'metres_per_unit':scene.unit_settings.scale_length,'gauge_m':1.675,'render_threads':4,'render_samples':64,'source_saved':True,'export_glb_bytes':(P/'exports'/'ERS_2017_station.glb').stat().st_size}
+qa['indian_broad_gauge_standard_m']=1.676
+qa['model_gauge_target_m']=1.675
+qa['gauge_compliance']='Approximate visual context: model about 1 mm narrower than 1.676 m standard; no exact compliance claimed'
 (P/'qa_build.json').write_text(json.dumps(qa,indent=2))
 print('ERS_SOURCE_CHECKPOINT_SAVED',flush=True)
 if '--render' in sys.argv:

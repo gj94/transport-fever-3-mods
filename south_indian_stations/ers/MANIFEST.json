@@ -9,8 +9,8 @@
     },
     {
       "path": "build_ers.py",
-      "bytes": 26829,
-      "sha256": "6c91786356f03bdfdbc6618b0a583c0e7e667fb204506b52f6026069e8c237b2"
+      "bytes": 27034,
+      "sha256": "41497f5c7d58632575c703e7328387e7676b1c3f2ef2ff13b1b3b79c1c47ff20"
     },
     {
       "path": "render_ers.py",
@@ -24,23 +24,23 @@
     },
     {
       "path": "validate_ers.py",
-      "bytes": 2329,
-      "sha256": "fb6f51bc9d448861df597c0a34b72112677ca539231b1cc91a32996fdab00c47"
+      "bytes": 2695,
+      "sha256": "b810f128c814ce2990520d1418b11a41d4981f7539fc77a82fa607d8111589c7"
     },
     {
       "path": "README.md",
-      "bytes": 4239,
-      "sha256": "a4b9079ee7d63c1d696781d5da6d86bf340d80fd6429f2a7d885ac3f8dde4ca9"
+      "bytes": 4538,
+      "sha256": "b5ee4c293681c4548e30db24a3f8cff8f94245ad45eabc7711e639abe6ca280e"
     },
     {
       "path": "SOURCES.md",
-      "bytes": 4225,
-      "sha256": "7ce89e55bceaff5088481f7cb22e7094f3f7fb4dc25850f69f248cc2538bef0a"
+      "bytes": 4611,
+      "sha256": "f373713d76f0a2a6b8053d8acd0fdd3777aed909fe4674fd6a91b249d07ef67f"
     },
     {
       "path": "DIMENSIONS.csv",
-      "bytes": 2174,
-      "sha256": "0f914752d54a16f9a5d7c553ce721f9bad04eb56813634b6d2087fd7b282d6ac"
+      "bytes": 2315,
+      "sha256": "c9ede0ee9d9cce47f4b8d3d14484611045dcd2b5e910dce821159f9af7659dc5"
     },
     {
       "path": "NOTICE.txt",
@@ -49,18 +49,18 @@
     },
     {
       "path": "QA.md",
-      "bytes": 3957,
-      "sha256": "6d31230de8a06ee93a6bb5a2071baa1ae8ba39f49758c990e19d1594e1ca2cdb"
+      "bytes": 4172,
+      "sha256": "c9cf3b69c1b34e77c806e69cf9fd91a28609eb7e3c9c1308eb1900107b5bff07"
     },
     {
       "path": "qa_build.json",
-      "bytes": 278,
-      "sha256": "7cbe07ece93c9ef330a553a813b6e3c183a28eede564370ec675b0ff62a8de95"
+      "bytes": 483,
+      "sha256": "41a45ceba34b5dcc91777cd42a2c7e6077c291a192d65d35116a31c2d208fd2a"
     },
     {
       "path": "qa_validation.json",
-      "bytes": 1018,
-      "sha256": "6d03325e338d2fea1477c8e5b2d5502900dcd9786846400280e4363cd8f4e852"
+      "bytes": 1331,
+      "sha256": "2680e129796a316b51369348f83611e1421970cfe77477321518d6c611999ea6"
     },
     {
       "path": "exports/ERS_2017_station.glb",
@@ -155,5 +155,7 @@
   ],
   "rights": "No new generated-asset licence; third-party notices in SOURCES.md and NOTICE.txt",
   "geometry_scope": "Photo-inferred frontage plus demonstration rail-side modules; not a surveyed complete yard",
-  "runtime_status": "Blender/GLB validated; no simulator-native testing claimed"
+  "runtime_status": "Blender/GLB validated; no simulator-native testing claimed",
+  "documentation_updated_utc": "2026-10-08T12:36:03.254048+00:00",
+  "gauge_note": "Model 1.675 m versus Indian 1.676 m standard: approximately 1 mm narrower; no exact compliance claimed"
 }

@@ -47,8 +47,6 @@ font=bpy.data.fonts.load('/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.t
 def text(n,body,loc,size,m,width=None,rot=(math.pi/2,0,0),fontpath=None):
  d=bpy.data.curves.new(n,'FONT');d.body=body;d.size=size;d.align_x='CENTER';d.align_y='CENTER';d.extrude=.009;d.bevel_depth=.002;d.font=bpy.data.fonts.load(fontpath) if fontpath else font;o=bpy.data.objects.new(n,d);active.objects.link(o);o.location=loc;o.rotation_euler=rot;d.materials.append(m);bpy.context.view_layer.update()
  if width and o.dimensions.x>width:o.scale.x*=width/o.dimensions.x
- if n=='Rooftop station lettering':
-  o.scale.x*=width/o.dimensions.x;o.scale.y*=.70/o.dimensions.z
  return o
 def outlined_sign(n,file,loc,width,m):
  before=set(bpy.data.objects)
@@ -89,8 +87,8 @@ for x in [-12,-4.4,4.4,12]:cube('Entrance jamb',(x,0,2.25),(.45,.65,3.3),ivory)
 cube('First floor spandrel',(0,.15,4.1),(36.2,.5,.6),peach)
 cube('Upper storey backing wall',(0,.25,6.48),(36.2,.4,4.15),peach)
 for x in [-15,-11,-7,-3,3,7,11,15]:window(x,-.02,6.45,1.4,2.1)
-for x in [-17.9,17.9]:cube('End wall',(x,5,4.53),(.42,10,8),peach)
-cube('Rear wall',(0,10,4.3),(36,.4,7.6),peach)
+for x in [-17.9,17.9]:cube('End wall',(x,5,4.875),(.42,10,8.75),peach)
+cube('Rear wall',(0,10,4.875),(36,.4,8.75),peach)
 cube('Interior mezzanine floor',(0,5.3,4.2),(36,9.1,.24),grey)
 cube('Interior floor',(0,5.3,.58),(36,9.2,.14),terracotta)
 for x in [-13,-8,8,13]:cube('Internal pier',(x,5,2.4),(.42,.42,3.6),ivory)
@@ -136,7 +134,7 @@ group('04_SIGNAGE')
 for x,w,body,m,fp in [(-11.6,12.2,'NAGERCOIL JUNCTION',red,None),(1.55,10.7,'நாகர்கோவில் சந்திப்பு',blue,'/usr/share/fonts/truetype/noto/NotoSansTamil-Regular.ttf'),(12.15,8.7,'नागरकोविल जंक्शन',blue,'/usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf')]:
  for dx in [-w*.35,w*.35]:cube('Rooftop board support',(x+dx,-2.65,10.42),(.15,.2,.7),ivory)
  cube('Rooftop nameboard',(x,-2.65,11.01),(w,.18,.91),ivory,.025)
- outlined_sign('Shaped '+body,'tamil_outlined.svg' if 'Tamil' in fp else 'hindi_outlined.svg',(x,-2.772,11.02),w-.28,m) if fp else text('Rooftop station lettering',body,(x,-2.756,11.02),1.05,m,width=w-.28)
+ outlined_sign('Shaped '+body,('tamil_outlined.svg' if 'Tamil' in fp else 'hindi_outlined.svg') if fp else 'english_outlined.svg',(x,-2.772,11.02),w-.28,m)
 beam('Photographed bare flagpole',(0,-2.2,9.5),(0,-2.2,15.2),.035,metal)
 # Left lower two-storey veranda, clearly evidenced by side photograph.
 group('02_LEFT_VERANDA_2010_PHOTO')
@@ -245,12 +243,13 @@ def auto(x,y,ang=0):
  cube('Auto registration plate',(0,-1.2,.79),(.42,.025,.14),yellow,.005)
  text('Auto plate','TN 74',(0,-1.222,.8),.07,black,width=.36)
  for o in set(bpy.data.objects)-before:
-  vx,vy=o.location.x,o.location.y;o.location.x=x+vx*math.cos(ang)-vy*math.sin(ang);o.location.y=y+vx*math.sin(ang)+vy*math.cos(ang);o.rotation_euler.z+=ang
+  vx,vy=o.location.x,o.location.y;o.location.x=x+vx*math.cos(ang)-vy*math.sin(ang);o.location.y=y+vx*math.sin(ang)+vy*math.cos(ang);o.location.z-=.09;o.rotation_euler.z+=ang
 for x,y,a in [(-10,-11,0),(-5,-11,0),(1,-11,0),(17,-12,-.2),(23,-12,-.2)]:auto(x,y,a)
 def palm(x,y,h):
+ base=.17 if y < -24 else -.1
  for j in range(16):
-  cyl('Palm ringed trunk',(x+.18*math.sin(j/16),y,.5+j*h/16),.17-j*.004,h/16+.015,trunk,10)
- top=Vector((x+.18,y,h))
+  cyl('Palm ringed trunk',(x+.18*math.sin(j/16),y,base+(j+.5)*h/16),.17-j*.004,h/16+.015,trunk,10)
+ top=Vector((x+.18,y,base+h))
  for a in [i*math.pi/4 for i in range(8)]:
   end=top+Vector((math.cos(a)*3.2,math.sin(a)*3.2,-.9));mid=top+Vector((math.cos(a)*1.3,math.sin(a)*1.3,.75));beam('Palm frond midrib',top,mid,.025,leaf);beam('Palm frond midrib',mid,end,.018,leaf)
   for k in range(1,10):
@@ -270,19 +269,29 @@ def camera(n,loc,target,lens=48,ortho=None):
  bpy.ops.object.camera_add(location=loc);o=assign(bpy.context.object,n,None);o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.lens=lens
  if ortho:o.data.type='ORTHO';o.data.ortho_scale=ortho
  return o
-cams=[camera('01_HERO_FORECOURT',(-31,-52,13),(0,-1,5),44),camera('02_FRONT_ELEVATION',(-20,-110,8),(-20,-1,5.7),48,116),camera('03_ENTRANCE_DETAIL',(24,-33,13),(2,-3,5.5),50),camera('04_PLATFORM_CONTEXT',(48,40,14),(-3,13,3.4),47)]
+cams=[camera('01_HERO_FORECOURT',(-31,-52,13),(0,-1,5),44),camera('02_FRONT_ELEVATION',(-20,-110,8),(-20,-1,5.7),48,116),camera('03_ENTRANCE_DETAIL',(24,-33,13),(2,-3,5.5),50),camera('04_PLATFORM_CONTEXT',(42,32,6.6),(-3,14,3.4),42)]
 bpy.ops.object.light_add(type='SUN',location=(0,-15,35));sun=assign(bpy.context.object,'Sun warm late morning',None);sun.rotation_euler=(math.radians(27),math.radians(-20),math.radians(-32));sun.data.energy=3.3;sun.data.angle=.15
 world=bpy.data.worlds.new('Soft coastal sky');bpy.context.scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.5,.67,.83,1);world.node_tree.nodes['Background'].inputs[1].default_value=.65
 scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1;scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4;scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=100;scene.view_settings.view_transform='AgX';scene.view_settings.exposure=.45;scene.camera=cams[0];scene.render.image_settings.file_format='PNG';scene.render.film_transparent=False
 scene['asset_title']='Nagercoil Junction NCJ | 2010 photo-informed reconstruction';scene['scale']='1 Blender unit = 1 metre. Dimensions are inferred, not as-built.';scene['historical_basis']='Kkdrua 9 Jan 2010 + Danymaddy 17 Oct 2010, CC BY-SA 3.0';scene['yard_warning']='Rear wall, platform and track are modular context; neither cited photograph shows the rail side. No exact yard claimed.'
 for f in bpy.data.fonts:
  if f.filepath and f.filepath!='<builtin>':f.pack()
+bpy.ops.object.select_all(action='DESELECT')
+for screen in bpy.data.screens:
+ for area in screen.areas:
+  if area.type=='VIEW_3D':
+   area.spaces.active.region_3d.view_perspective='CAMERA';area.spaces.active.shading.color_type='MATERIAL'
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'NCJ_2010_station.blend'))
 # Portable mesh export excludes lights/cameras. Text converted for export only.
 for o in bpy.context.selected_objects:o.select_set(False)
 for o in scene.objects:
  if o.type in {'MESH','FONT','CURVE'}:o.select_set(True)
 bpy.ops.export_scene.gltf(filepath=str(ROOT/'exports/NCJ_2010_station.glb'),export_format='GLB',use_selection=True,export_apply=True)
+bpy.ops.object.select_all(action='DESELECT')
+for name in ['01_MAIN_2010_PHOTO','02_LEFT_VERANDA_2010_PHOTO','03_ANNEX_PHOTO_INFERRED','04_SIGNAGE']:
+ for o in cols[name].objects:
+  if o.type in {'MESH','FONT','CURVE'}:o.select_set(True)
+bpy.ops.export_scene.gltf(filepath=str(ROOT/'exports/NCJ_2010_architecture.glb'),export_format='GLB',use_selection=True,export_apply=True)
 report={'object_count':len(scene.objects),'mesh_count':sum(o.type=='MESH' for o in scene.objects),'material_count':len(bpy.data.materials),'unit':'metres','blender':bpy.app.version_string,'nonfinite_vertices':0,'cameras':[c.name for c in cams],'reference_scope':'Street facade and left annex only; platform and yard not surveyed','render_threads':4}
 for o in scene.objects:
  if o.type=='MESH':
@@ -291,4 +300,4 @@ for o in scene.objects:
 (ROOT/'QA.json').write_text(json.dumps(report,indent=2));print('NCJ_SAVED_CHECKPOINT',flush=True)
 if '--render' in __import__('sys').argv:
  for cam in cams:
-  scene.camera=cam;scene.render.filepath=str(ROOT/'renders'/f'{cam.name}.png');bpy.ops.render.render(write_still=True)
+  scene.camera=cam;scene.render.resolution_y=320 if cam.name=='02_FRONT_ELEVATION' else 1000;scene.render.filepath=str(ROOT/'renders'/f'{cam.name}.png');bpy.ops.render.render(write_still=True)

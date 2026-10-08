@@ -8,4 +8,4 @@ if '--' in sys.argv:
  opts=sys.argv[sys.argv.index('--')+1:]
  if opts:names=opts
 for n in names:
- s.camera=bpy.data.objects[n];s.render.filepath=str(R/'renders'/f'{n}.png');bpy.ops.render.render(write_still=True)
+ s.camera=bpy.data.objects[n];s.render.resolution_y=320 if n=='02_FRONT_ELEVATION' else 1000;s.render.filepath=str(R/'renders'/f'{n}.png');bpy.ops.render.render(write_still=True)

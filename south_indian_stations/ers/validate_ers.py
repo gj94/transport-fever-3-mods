@@ -26,7 +26,12 @@ for o in s.objects:
 with open(P/'exports'/'ERS_2017_station.glb','rb') as f:
  magic,ver,size=struct.unpack('<4sII',f.read(12));clen,ctyp=struct.unpack('<II',f.read(8));gltf=json.loads(f.read(clen))
 q={'saved_blend_reopened':True,'units_metric':s.unit_settings.system=='METRIC','unit_scale':s.unit_settings.scale_length,'source_file_image_count':len(images),'all_file_images_packed':all(i.packed_file for i in images),'empty_meshes':empty,'nonfinite_geometry':nonfinite,'inward_box_meshes':negative,'measured_inner_rail_head_gauges_m':gauges,'glb_magic':magic.decode(),'glb_version':ver,'glb_size_matches':size==(P/'exports'/'ERS_2017_station.glb').stat().st_size,'glb_meshes':len(gltf.get('meshes',[])),'glb_images':len(gltf.get('images',[])),'glb_external_uris':[v['uri'] for v in gltf.get('images',[]) if 'uri' in v]+[v['uri'] for v in gltf.get('buffers',[]) if 'uri' in v],'issues':issues,'visual_review':'See QA.md; automated checks do not replace render inspection'}
+q['indian_broad_gauge_standard_m']=1.676
+q['model_gauge_target_m']=1.675
+q['deviation_from_standard_mm']=[round((g-1.676)*1000,6) for g in gauges]
+q['numeric_tolerance_to_model_target_mm']=.01
+q['gauge_compliance']='Approximate visual context: model about 1 mm narrower than 1.676 m standard; no exact compliance claimed'
 (P/'qa_validation.json').write_text(json.dumps(q,indent=2));print(json.dumps(q,indent=2))
 assert not (issues or empty or nonfinite or negative)
-assert all(abs(g-1.675)<1e-5 for g in gauges), 'Rail gauge outside 0.01 mm tolerance'
+assert all(abs(g-1.675)<1e-5 for g in gauges), 'Rail gauge outside 0.01 mm numeric tolerance to model target, not standard gauge'
 assert q['glb_size_matches'] and not q['glb_external_uris']

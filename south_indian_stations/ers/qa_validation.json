@@ -40,5 +40,13 @@
       "height": 1000,
       "format": "PNG"
     }
-  }
+  },
+  "indian_broad_gauge_standard_m": 1.676,
+  "model_gauge_target_m": 1.675,
+  "gauge_compliance": "Approximate visual context: model about 1 mm narrower than 1.676 m standard; no exact compliance claimed",
+  "deviation_from_standard_mm": [
+    -0.998,
+    -1.0
+  ],
+  "numeric_tolerance_to_model_target_mm": 0.01
 }

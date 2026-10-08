@@ -25,3 +25,6 @@ Sign textures are original Pillow/RAQM typesetting. Malayalam and Devanagari gly
 
 ## Explicitly not used
 2023 eastern-entry tower photos and redevelopment renderings are excluded. No 2026 as-built claim, new terminal, multilevel car park, roof plaza or metro skywalk is modelled. No imagery of bystanders or branded snack packaging is transferred into the asset. Cars/trains are not included or copied from other tasks.
+
+## Gauge standard clarification
+Indian Railways defines broad gauge as 1676 mm (1.676 m), documented in its [Schedule of Dimensions](https://irimee.indianrailways.gov.in/instt/uploads/files/1454673172611-sod.pdf). This asset measures approximately 1.675 m at the inner rail-head faces, approximately 1 mm narrower; it is contextual geometry rather than exact standard-compliant track.

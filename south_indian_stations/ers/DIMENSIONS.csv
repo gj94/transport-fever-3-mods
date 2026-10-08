@@ -1,6 +1,6 @@
 component,model_dimension_m,basis,confidence,limitation
 Coordinate system,1 Blender unit = 1 metre,explicit scene metric units,high,not a survey
-Track gauge,1.675,Indian broad-gauge nominal standard,high,inner head faces 1.675 m apart; wheel interface verify in simulator
+Track gauge,1.675 model versus 1.676 standard,measured inner rail-head faces in model,high for model measurement,model approximately 1 mm narrower than Indian broad-gauge standard; visual context approximation not exact compliance; verify wheel interface in simulator
 Central portal width,20,relative proportions from 2017 Shady59 facade image,medium,no measured drawing
 Central white spandrel height,9.1,door/column relative photographic scale,low,photo perspective and night visibility limit accuracy
 Entry awning height,3.73,relative entrance scale,medium,no measured drawing
