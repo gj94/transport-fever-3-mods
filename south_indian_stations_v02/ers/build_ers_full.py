@@ -2,7 +2,7 @@
 """ERS 2017 visual reconstruction. Run blender -b -t 4 --python build_ers.py -- --render.
 Full station scene using inspected map-derived plan, photo-derived facade and reconstructed interiors.
 """
-import bpy, math, random, json, sys
+import bpy, math, random, json, sys, resource
 from pathlib import Path
 from mathutils import Vector, Matrix
 P=Path(__file__).resolve().parent;random.seed(2017)
@@ -14,7 +14,8 @@ COL=None
 
 def collection(name):
  global COL
- print('COLLECTION',name,flush=True)
+ print('COLLECTION',name,'RSS_PEAK_KB',resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,flush=True)
+ if '--low-memory' in sys.argv and resource.getrusage(resource.RUSAGE_SELF).ru_maxrss>1100000:raise RuntimeError('Geometry build stopped at memory guard; wait for exclusive resource slot')
  COL=bpy.data.collections.new(name);scene.collection.children.link(COL);return COL
 
 def move(o):
@@ -362,6 +363,14 @@ for x in [-30,-10,10,30,50]:
 cube('Rear passage canopy',(10,9.7,4.0),(105,5.5,.18),roof)
 mesh('Accessible west hall to platform ramp',[(-15,7.4,.4),(4,7.4,.4),(4,17.3,1.16),(-15,17.3,1.16)],[(0,1,2,3)],stone)
 # Map-derived tracks and platform polygons.
+def smooth_path(pp):
+ out=[]
+ for i in range(len(pp)-1):
+  p0=Vector(pp[max(0,i-1)]);p1=Vector(pp[i]);p2=Vector(pp[i+1]);p3=Vector(pp[min(len(pp)-1,i+2)])
+  n=max(3,min(24,int((p2-p1).length/5)))
+  for j in range(n):
+   t=j/n;v=.5*((2*p1)+(-p0+p2)*t+(2*p0-5*p1+4*p2-p3)*t*t+(-p0+3*p1-3*p2+p3)*t*t*t);out.append(tuple(v))
+ out.append(pp[-1]);return out
 W=json.loads((P/'references'/'osm_rail.json').read_text())
 def xy(p):
  e=(p[0]-76.29105)*109640;n=(p[1]-9.9693)*111195
@@ -405,6 +414,7 @@ for w in W:
    seg=[]
  if len(seg)>1:segs.append(seg)
  for j,pts in enumerate(segs):
+  pts=smooth_path(pts)
   paths.append((w['id'],pts,w['tags']));trackledger.append({'OSM_way':w['id'],'service':w['tags'].get('service','running'),'length_m':sum((Vector(b)-Vector(a)).length for a,b in zip(pts,pts[1:]))})
   for i,p in enumerate(pts):
    for k in [i-1,i+1]:
@@ -532,7 +542,9 @@ for bx in [-60,100]:
  cube('Footbridge deck',(bx,59,7.7),(3.6,94,.24),steel)
  for sy in [-1,1]:
   xx=bx+sy*1.75
-  for yy in range(12,107,4):beam('Bridge lattice upright',(xx,yy,7.8),(xx,yy,10.3),.12,steel)
+  for yy in range(12,107,4):
+   if sy==1 and any(abs(yy-p)<1.5 for p in [19,48,68,98]):continue
+   beam('Bridge lattice upright',(xx,yy,7.8),(xx,yy,10.3),.12,steel)
   for yy in range(12,103,4):
    # leave stair landing openings at each platform
    if sy==1 and any(abs(yy-p)<4 for p in [19,48,68,98]):continue
@@ -574,21 +586,37 @@ cube('East terminal blue fascia',(0,120.3,4.45),(63,.25,.55),blue)
 cube('East terminal removable roof',(0,111,5.5),(63,19.2,.25),white)
 # signage faces east outward
 for i,t in enumerate(['en','hi','ml']):
- o=sign('East entrance identity',-19+i*19,120.45,4.45,18,.5,'entry_'+t);o.rotation_euler[2]=math.pi
+ o=sign('East entrance identity',-19+i*19,120.45,4.45,18,.5,'entry_'+t)
+ for vertex in o.data.vertices:vertex.co.x=2*(-19+i*19)-vertex.co.x
 for x in [-23,-17,-11]:
  desk(x,107,1.15);cube('East booking counter',(x,109,1.75),(4.8,.35,1.25),red)
  cube('East counter granite',(x,109,2.4),(5,.55,.08),black)
  for xx in [x-2.35,x+2.35]:cube('Booking window frame',(xx,109,3),(.05,.08,1.2),steel)
- text('East booking identification','TICKETS',(x,109.12,3.35),.30,blue)
+ text('East booking identification','TICKETS',(x,109.12,3.35),.30,blue).rotation_euler[2]=math.pi
 for x in [4,12,20]:
  for y in [106,110,114]:bench(x,y,1.14,4.8)
 for x in [-24,-12,0,12,24]:fan(x,111,4.6)
-text('East waiting hall identity','EAST ENTRY • WAITING HALL',(13,102.14,4.3),.48,blue)
+text('East waiting hall identity','EAST ENTRY • WAITING HALL',(13,102.14,4.3),.48,blue).rotation_euler[2]=math.pi
 cube('East forecourt',(0,124,.05),(90,15,.2),stone)
 # Gentle entrance ramp and handrails.
 mesh('East entry ramp',[(-4,120,1.15),(4,120,1.15),(4,132,.18),(-4,132,.18)],[(0,1,2,3)],stone)
 for side in [-1,1]:beam('East ramp handrail',(side*4,120,2.15),(side*4,132,1.18),.055,steel)
 # OHE on each actual electrified mapped centreline, with sag/dropper geometry.
+def mast_clearance(x,y):
+ best=1e9
+ for rid,pp,t in paths:
+  for a,b in zip(pp,pp[1:]):
+   dx=b[0]-a[0];dy=b[1]-a[1];ll=dx*dx+dy*dy
+   if ll<1e-10:continue
+   q=max(0,min(1,((x-a[0])*dx+(y-a[1])*dy)/ll));dist=math.hypot(x-a[0]-q*dx,y-a[1]-q*dy)
+   best=min(best,dist)
+ return best
+def choose_mast_y(x,track_y):
+ for offset in [2.75,-2.75,3.25,-3.25,4,-4,5,-5,6,-6,8,-8]:
+  yy=track_y+offset
+  if any(bx+1<x<bx+17 and abs(yy-py)<1.7 for bx in [-60,100] for py in [19,48,68,98]):continue
+  if mast_clearance(x,yy)>=2.35:return yy
+ return None
 collection('12 | OHE NETWORK • masts wires insulators')
 for wid,pts,tags in paths:
  if tags.get('electrified')!='contact_line':continue
@@ -601,14 +629,18 @@ for wid,pts,tags in paths:
    p=va+v*((k*48-dist)/l);x,y=p
    if abs(x+60)<5 or abs(x-100)<5:continue
    # Narrow lattice masts placed away from running gauge.
-   my=y+2.75
+   my=choose_mast_y(x,y)
+   if my is None:continue
    cube('OHE foundation',(x,my,.6),(.65,.7,1.0),stone)
    for dx in [-.11,.11]:beam('OHE mast chord',(x+dx,my,.9),(x+dx,my,8.7),.075,steel)
    for z in [1.5,2.5,3.5,4.5,5.5,6.5,7.5]:beam('OHE lattice diagonal',(x-.11,my,z),(x+.11,my,z+.9),.035,steel)
    beam('OHE cantilever',(x,my,7.6),(x,y,7.5),.065,steel);beam('OHE cantilever brace',(x,my,8.5),(x,y,7.5),.045,steel)
    for z in [7.1,7.17,7.24,7.31,7.38]:cyl('Brown porcelain insulator',(x,y,z),.085,.04,wood,12)
+   beam('OHE insulator steel core',(x,y,6.9),(x,y,7.5),.025,steel)
+   beam('OHE messenger clamp stem',(x,y,6.85),(x,y,7.25),.025,steel)
+   beam('OHE contact registration link',(x,y,6.2),(x,y,6.9),.02,steel)
   for k in range(math.ceil(dist/6),math.floor((dist+l)/6)+1):
-   p=va+v*((k*6-dist)/l);tube('Catenary dropper',[(p.x,p.y,6.2),(p.x,p.y,6.9)],.009,railmat)
+   p=va+v*((k*6-dist)/l);tube('Catenary dropper',[(p.x,p.y,6.2),(p.x,p.y,7.2-.30*math.sin(math.pi*(k*6-dist)/l))],.009,railmat)
   # messenger retains sag in each map segment
   tube('Sagged messenger '+wid,[(a[0]+v.x*i/12,a[1]+v.y*i/12,7.2-.30*math.sin(math.pi*i/12)) for i in range(13)],.016,railmat)
   dist+=l
@@ -640,9 +672,9 @@ for y in [4,115]:
  for x in range(-400,635,5):cube('Drain crossing grate',(x,y,.25),(.6,1,.035),steel)
 # Tropical boundary context: perimeter fence and deliberately modest low-rise surroundings.
 collection('14 | BOUNDARIES AND TROPICAL SURROUNDS')
-for y in [-21,121]:
+for y in [-21,160]:
  for x in range(-400,700,10):
-  if -60<x<70 or (y==121 and 495<x<545):continue
+  if -60<x<70 or (y==160 and 495<x<545):continue
   cube('Boundary concrete post',(x,y,1),(.14,.14,2),white)
   for z in [.4,.8,1.2,1.6,2]:beam('Boundary wire',(x,y,z),(x+10,y,z),.012,steel)
 for x in range(-350,670,55):
@@ -669,19 +701,27 @@ text('Workshop identification','PERMANENT WAY / STORES',(520,115.87,3.6),.6,blue
 # Move inferred workshop outside every mapped track with audited5m clearance.
 for ob in COL.objects:ob.location.y+=45
 cube('Workshop approach paving',(520,166,.06),(42,24,.16),stone)
+# Replace generic junction overlays with physical crossing cuts and derived hardware.
+exec(compile((P/'refine_pointwork.py').read_text(),str(P/'refine_pointwork.py'),'exec'),globals())
+exec(compile((P/'finish_crossing_castings.py').read_text(),str(P/'finish_crossing_castings.py'),'exec'),globals())
+# Close-range detail pass, a separate reproducible source module.
+exec(compile((P/'add_details.py').read_text(),str(P/'add_details.py'),'exec'),globals())
+# Preserve physical geometry before any presentation/evaluation work.
+bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_geometry_verified_checkpoint.blend'),compress=True)
 # Presentation and editable full asset checkpoint.
 collection('90 | REVIEW CAMERAS AND LIGHTING')
 world=bpy.data.worlds.new('Kerala soft daylight');scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.62,.73,.85,1);world.node_tree.nodes['Background'].inputs[1].default_value=.65
-bpy.ops.object.light_add(type='SUN',location=(0,0,50));o=move(bpy.context.object);o.name='Tropical afternoon';o.rotation_euler=(.48,-.35,-.6);o.data.energy=2.5;o.data.angle=.12
+ld=bpy.data.lights.new('Tropical afternoon','SUN');o=bpy.data.objects.new('Tropical afternoon',ld);COL.objects.link(o);o.location=(0,0,50);o.rotation_euler=(.48,-.35,-.6);o.data.energy=2.5;o.data.angle=.12
 for x,y,z,size,energy in [(-5,0,5.8,12,1500),(-24,0,3.5,10,650),(20,1,3.3,12,950),(49,0,3.5,10,850),(0,111,5.1,40,2000),(520,168,4.3,20,1300)]:
- bpy.ops.object.light_add(type='AREA',location=(x,y,z));o=move(bpy.context.object);o.name='Interior broad ceiling fill';o.data.energy=energy;o.data.shape='DISK';o.data.size=size
+ ld=bpy.data.lights.new('Interior broad ceiling fill','AREA');o=bpy.data.objects.new('Interior broad ceiling fill',ld);COL.objects.link(o);o.location=(x,y,z);o.data.energy=energy;o.data.shape='DISK';o.data.size=size
 # Cameras use real eye heights and aerial coverage; no hidden trains/stock.
 def camera(name,loc,target,lens=38,ortho=None):
- bpy.ops.object.camera_add(location=loc);o=move(bpy.context.object);o.name=name;o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.lens=lens;o.data.clip_end=4000
+ cd=bpy.data.cameras.new(name);o=bpy.data.objects.new(name,cd);COL.objects.link(o);o.location=loc;o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.lens=lens;o.data.clip_end=4000
  if ortho:o.data.type='ORTHO';o.data.ortho_scale=ortho
  return o
-cams=[camera('01_West_architecture',(74,-92,18),(6,0,3.5),48),camera('02_Ticket_hall',(-12,-3.7,2.1),(-3,4.8,2.1),23),camera('03_Waiting_hall',(-31,-3,1.9),(-20,3,1.1),26),camera('04_Platform_concourse',(-4,44.5,2.85),(45,48,3.0),30),camera('05_Track_turnouts',(435,70,6),(500,49,.4),39),camera('06_Full_station_aerial',(950,-670,700),(130,55,0),48),camera('07_Full_yard_plan',(155,55,1100),(155,55,0),35,1430),camera('08_East_waiting_hall',(27,118,2.8),(-10,109,2.8),26),camera('09_Toilet_interior',(56,-3.4,2.05),(45,3,1.7),23),camera('10_Footbridge_and_platform',(-33,49,3.2),(-62,58,7.5),24),camera('11_Service_workshop',(532,163,2.0),(514,173,1.7),24)]
-scene.camera=cams[0];scene.render.engine='CYCLES';scene.cycles.samples=24;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
+cams=[camera('01_West_architecture',(74,-92,18),(6,0,3.5),48),camera('02_Ticket_hall',(-12,-3.7,2.1),(-3,4.8,2.1),23),camera('03_Waiting_hall',(-31,-3,1.9),(-20,3,1.1),26),camera('04_Platform_concourse',(15,43.9,2.75),(-16,48,3.1),28),camera('05_Track_turnouts',(590,18,5),(552,39,.62),39),camera('06_Full_station_aerial',(950,-670,700),(130,55,0),48),camera('07_Full_yard_plan',(155,55,1100),(155,55,0),35,1430),camera('08_East_waiting_hall',(27,118,2.8),(-10,109,2.8),26),camera('09_Toilet_interior',(56,-3.4,2.05),(45,3,1.7),23),camera('10_Footbridge_and_platform',(-33,49,3.2),(-62,58,7.5),24),camera('11_Service_workshop',(532,163,2.0),(514,173,1.7),24)]
+cams.append(camera('13_Turnout_frog_detail',(557,33,3.6),(549.85,39.75,.62),46))
+scene.camera=cams[0];scene.render.engine='CYCLES';scene.cycles.samples=96;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
 scene.render.resolution_x=1280;scene.render.resolution_y=800;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.exposure=.5
 scene['asset']='ERS full station v02: 2017 photo architecture + mixed-date mapped track plan + reconstructed interiors'
 scene['survey_status']='No surveyed2017 as-built claim. Current OSM ways mixed dates; furnishings and turnout hardware reconstructed. See SOURCES and COVERAGE.'
@@ -690,8 +730,8 @@ for o in scene.objects:
  if o.type=='MESH':o['asset_part']='ERS_FULL_V02'
 for im in bpy.data.images:
  if im.source=='FILE':im.pack()
-bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_full_station_v02.blend'))
-qa={'blender':bpy.app.version_string,'objects':len(scene.objects),'mesh_objects':sum(o.type=='MESH' for o in scene.objects),'vertices':sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'packed_images':sum(bool(i.packed_file) for i in bpy.data.images),'gauge_m':1.676,'rail_head_width_m':.060,'rail_centres_m':1.736,'platform_polygon_count':len(platforms),'platform_faces':6,'mapped_track_paths':len(paths),'turnout_groups':switch_count,'rolling_stock':0,'render_threads':4,'render_samples':24}
+bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_full_station_v02.blend'),compress=True)
+qa={'blender':bpy.app.version_string,'objects':len(scene.objects),'mesh_objects':sum(o.type=='MESH' for o in scene.objects),'vertices':sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'packed_images':sum(bool(i.packed_file) for i in bpy.data.images),'gauge_m':1.676,'rail_head_width_m':.060,'rail_centres_m':1.736,'platform_polygon_count':len(platforms),'platform_faces':6,'mapped_track_paths':len(paths),'turnout_groups':switch_count,'rolling_stock':0,'render_threads':4,'render_samples':96}
 (P/'qa_build.json').write_text(json.dumps(qa,indent=2));print('ERS FULL SOURCE SAVED',json.dumps(qa),flush=True)
 if '--render' in sys.argv:
  for cam in cams:
@@ -701,4 +741,4 @@ if '--export' in sys.argv:
  for o in scene.objects:
   if o.type in {'MESH','CURVE','FONT'}:o.select_set(True)
  bpy.ops.export_scene.gltf(filepath=str(P/'exports'/'ERS_full_station_v02.glb'),export_format='GLB',use_selection=True,export_apply=True,export_cameras=False,export_lights=False)
-scene.camera=cams[0];bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_full_station_v02.blend'))
+scene.camera=cams[0];bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_full_station_v02.blend'),compress=True)
