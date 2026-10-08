@@ -1,6 +1,8 @@
-# Munroturuttu model previews
+# MQO station gallery
 
-Five independently reviewed frames from the frozen Blender source. Final scene-ray validation is pending. Hidden interiors and uncertain physical details are reconstructed; see [sources and limitations](SOURCES_AND_UNCERTAINTIES.md).
+Passed independent station review with disclosed reconstruction limits. Full source, lossless export and five final previews are synchronized.
+
+Actual-model previews with accepted image hashes. Hidden interiors and unsurveyed details are reconstructions; read [sources and limitations](SOURCES_AND_UNCERTAINTIES.md). [Opening the model](README.md).
 
 ## Full mapped layout
 

@@ -1,0 +1,139 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/mqo/MQO_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 209,
+  "object_types": {
+    "MESH": 191,
+    "FONT": 9,
+    "LIGHT": 4,
+    "CAMERA": 5
+  },
+  "unique_meshes": 191,
+  "unique_vertices": 433212,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -0.5400000214576721
+    ],
+    [
+      1135.0,
+      265.0,
+      12.608071327209473
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "MQO",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "2",
+    "platform_bodies_modelled": "2"
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "circulation_rays": {
+    "left_public_path_leg_1": {
+      "from": [
+        -42.33300018310547,
+        -10.0,
+        2.4179999828338623
+      ],
+      "to": [
+        -42.33300018310547,
+        -7.5,
+        2.4179999828338623
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "left_public_path_leg_2": {
+      "from": [
+        -42.33300018310547,
+        -7.5,
+        2.4179999828338623
+      ],
+      "to": [
+        -43.5,
+        -7.5,
+        2.4179999828338623
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "left_public_path_leg_3": {
+      "from": [
+        -43.5,
+        -7.5,
+        2.4179999828338623
+      ],
+      "to": [
+        -43.5,
+        -3.299999952316284,
+        2.4179999828338623
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "left_public_path_leg_4": {
+      "from": [
+        -43.5,
+        -3.299999952316284,
+        2.4179999828338623
+      ],
+      "to": [
+        -42.33300018310547,
+        -3.299999952316284,
+        2.4179999828338623
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "left_public_path_leg_5": {
+      "from": [
+        -42.33300018310547,
+        -3.299999952316284,
+        2.4179999828338623
+      ],
+      "to": [
+        -42.33300018310547,
+        0.0,
+        2.4179999828338623
+      ],
+      "clear": true,
+      "hit": null
+    }
+  },
+  "blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1"
+}

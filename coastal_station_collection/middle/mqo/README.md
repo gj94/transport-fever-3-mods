@@ -1,9 +1,9 @@
-# Munroturuttu (MQO)
+# MQO station model
 
-[View all five reviewed model images](GALLERY.md).
+Passed independent station review with disclosed reconstruction limits. Full source, lossless export and five final previews are synchronized.
 
-Open `MQO_coastal_station_v01.blend` in Blender for the full editable metre-scale source, packed resources and complete source shaders. Unzip `export/MQO_coastal_station_v01.glb.zip` for the portable GLB. The ZIP reproduces the exact uncompressed GLB; no geometry compression was applied. Procedural Blender materials use base-material fallback in glTF; the original Blender source retains the full shaders.
+[Model images](GALLERY.md) · [Sources and limitations](SOURCES_AND_UNCERTAINTIES.md)
 
-The scene/export technical checks and five previews have passed independent review. Final scene-ray validation is pending. This is a mixed-date visual reconstruction, not an engineering as-built or certified operating layout. No rolling stock is included.
+Open the packed `.blend` for the editable metre-scale source. Unzip any `.glb.zip`, or decompress any `.glb.gz`, before importing the portable GLB. The lossless archives preserve exact GLB bytes; procedural Blender materials can use base-material fallback in glTF. Full source shaders remain in the Blend.
 
-Read [sources and uncertainties](SOURCES_AND_UNCERTAINTIES.md). The exact initial Python builder snapshot was not captured for this candidate; the authoritative editable Blend and frozen source/adopted geometry are supplied. `FROZEN_MANIFEST.json` records original file checksums; `RENDER_PROVENANCE.json` binds all previews to the exact scene.
+The packed Blend is authoritative. The builder’s source report records any missing reproducibility snapshots. No native Transport Fever 3 runtime compatibility or engineering as-built accuracy is claimed.
