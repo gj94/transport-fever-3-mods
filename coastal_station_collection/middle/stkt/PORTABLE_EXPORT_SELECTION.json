@@ -1,0 +1,27 @@
+{
+  "station": "STKT",
+  "publication_mode": "additive_corrected_export",
+  "source_path": "coastal_station_collection/middle/stkt/STKT_coastal_station_v01.blend",
+  "source_blend_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+  "source_manifest_path": "coastal_station_collection/middle/stkt/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "e8d398a4d94160c1ba851413a9cd97a50c45cdbc35144b3de64c4d713b5ab99b",
+  "native_gate_path": "coastal_station_collection/qa/reports/STKT.json",
+  "native_gate_sha256": "05a9f7ad2469f8152e29376f22bdb54b1b2c841f5e131bcf9bb41178bb9951c8",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/STKT/STKT_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "aa343525a9764e3a2e310241f5b658090a2e395f919065e76585086a6dbf328b",
+  "corrected_glb_sha256": "352999069e770d0e6f1d7d61fddf064f573c5923001b56047bc3663ad60c1b3c",
+  "superseded_archive_sha256": "74cd9d6dc9d0d976aa399a4ee52655e498cad3bca424ce86987fec9c5ff32d1e",
+  "superseded_archive_disposition": "Already published bytes preserved unchanged.",
+  "retained_images": [],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification.",
+    "Hidden interiors, dimensions, source-era facade appearance and service assignments are disclosed reconstructions.",
+    "Procedural Blender surface effects use base-colour portable fallbacks.",
+    "Targeted checks are not exhaustive pairwise collision certification."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

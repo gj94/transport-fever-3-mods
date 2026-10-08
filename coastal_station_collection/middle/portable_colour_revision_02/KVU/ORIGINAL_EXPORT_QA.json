@@ -1,0 +1,36 @@
+{
+  "station": "KVU",
+  "authoritative_blend": "KVU_coastal_station_v01.blend",
+  "authoritative_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+  "glb_file": "KVU_coastal_station_v01.glb",
+  "glb_sha256": "ebefb991afc2a927a1fa77054722ff8a2c926ba08423be95a1419c114688bcd9",
+  "glb_bytes": 62200372,
+  "source_mesh_objects": 204,
+  "source_vertices": 731648,
+  "elapsed_seconds": 1.2950115203857422,
+  "units": "metres; glTF Y-up transform",
+  "geometry": "No lossy compression; font objects converted to triangles; original source .blend unchanged",
+  "material_note": "Generated sign images embedded; procedural Blender noise and paving nodes use base material fallback in glTF; full shaders remain in packed .blend",
+  "header_valid": true,
+  "zip_lossless_sha256_matches": true,
+  "zip_file": "KVU_coastal_station_v01.glb.zip",
+  "zip_sha256": "abd764c017552738e9ec3f450fcbcc65196b099e4d67dac1cdb40254e41c9cae",
+  "zip_bytes": 7993357,
+  "roundtrip_mesh_objects": 204,
+  "roundtrip_vertices": 2102920,
+  "roundtrip_bounds_blender_m": [
+    [
+      -1085.0,
+      -265.0,
+      -2.1500000953674316
+    ],
+    [
+      1135.0,
+      265.0,
+      12.483048439025879
+    ]
+  ],
+  "roundtrip_images_embedded_or_loaded": 1,
+  "roundtrip_pass": true,
+  "source_blend_unchanged": true
+}

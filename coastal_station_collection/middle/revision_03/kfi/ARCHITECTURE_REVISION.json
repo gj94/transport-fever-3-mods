@@ -1,0 +1,58 @@
+{
+  "base_blend_sha256": "e5c7c5504ed62f1e039714331f92bbb7a4320837289cd6b18b2a12061ad19ee9",
+  "repaired_blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+  "repair_script_sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a",
+  "camera04_before": {
+    "location": [
+      -2.5,
+      -33.0,
+      8.300000190734863
+    ],
+    "rotation": [
+      1.3999806642532349,
+      -2.165397461340035e-08,
+      -0.46364760398864746
+    ],
+    "lens": 45.0
+  },
+  "camera04_after": {
+    "location": [
+      11.5,
+      -21.0,
+      7.800000190734863
+    ],
+    "rotation": [
+      1.2656946182250977,
+      -0.0,
+      0.0
+    ],
+    "lens": 26.0
+  },
+  "geometry_changes": [
+    {
+      "object": "Kappil rose sloping veranda roof",
+      "upper_edge_vertices_lowered": 4,
+      "dz_m": -0.268,
+      "reason": "Keep the photographed blue parapet accents above the canopy attachment."
+    },
+    {
+      "object": "Kappil rose support beam over peach piers",
+      "dz_m": -0.15
+    },
+    {
+      "object": "Veranda column",
+      "top_vertices_lowered": 20,
+      "top_z_m": 3.85
+    }
+  ],
+  "reason": "KFI revision03: camera04 clears the opposite platform canopy and faces the photographed rose veranda. Its high roof attachment/support tops are refined so the blue parapet accents remain visible above it; public circulation geometry is unchanged.",
+  "retained_views": [
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png"
+  ],
+  "source_geometry_note": "Track, platform, room and furnishing geometry unchanged. KFI only adjusts high canopy/support attachment; EVA/CRY are camera-only."
+}

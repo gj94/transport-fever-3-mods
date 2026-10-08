@@ -1,0 +1,69 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_02/cry/CRY_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 218,
+  "object_types": {
+    "MESH": 192,
+    "FONT": 13,
+    "LIGHT": 8,
+    "CAMERA": 5
+  },
+  "unique_meshes": 192,
+  "unique_vertices": 522355,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -1085.0,
+      -265.0,
+      -4.0
+    ],
+    [
+      1135.0,
+      265.0,
+      12.553532600402832
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "station_nameboard.png",
+      "source": "FILE",
+      "path": "//../../cry/source/station_nameboard.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "CRY",
+    "no_rolling_stock": "True",
+    "model_scale": "1 Blender unit = 1 metre",
+    "geometry_source": "OpenStreetMap contributors, retrieved2026-10-08; see source/adopted_geometry.json",
+    "uncertainty": "Hidden interiors reconstructed; photo-era facade dates and current redevelopment are distinguished in SOURCES_AND_UNCERTAINTIES.md",
+    "gauge_m": "1.676",
+    "platform_positions_reported": "2",
+    "platform_bodies_modelled": "2",
+    "proof_view_revision": "CRY revision02 changes only camera04 to face the existing three-pier gateway from its approach side, with the station beyond. The source is the actual built-site PIB photograph from May2025; all geometry and materials remain unchanged.",
+    "base_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0"
+  },
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016"
+}

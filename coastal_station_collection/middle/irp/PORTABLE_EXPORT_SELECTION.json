@@ -1,0 +1,27 @@
+{
+  "station": "IRP",
+  "publication_mode": "additive_corrected_export",
+  "source_path": "coastal_station_collection/middle/irp/IRP_coastal_station_v01.blend",
+  "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+  "source_manifest_path": "coastal_station_collection/middle/irp/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "9638c205bd0ccf75814b523fb40525cbd55e31293114ec869125cf15e6c3c082",
+  "native_gate_path": "coastal_station_collection/qa/reports/IRP.json",
+  "native_gate_sha256": "83eec18a4c3cab29bb7338910fa08b46aeb59e12b25e090f66d09657b114c942",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/IRP/IRP_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "24de219c1ac33805912f84a1cf53eb6c075e62df667311527b783237786d59a9",
+  "corrected_glb_sha256": "bf32fee6565f0c6b051bd13b941a1bfe27ecbe57ac82b44970d10dd874fc8360",
+  "superseded_archive_sha256": "b6e01b439f63620bc9e2b7ba9a6b2d60f35a0ef44412acf52cd0fc653628ad48",
+  "superseded_archive_disposition": "Already published bytes preserved unchanged.",
+  "retained_images": [],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification.",
+    "Hidden interiors, dimensions, source-era facade appearance and service assignments are disclosed reconstructions.",
+    "Procedural Blender surface effects use base-colour portable fallbacks.",
+    "Targeted checks are not exhaustive pairwise collision certification."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

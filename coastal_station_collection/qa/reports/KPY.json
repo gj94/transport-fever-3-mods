@@ -1,0 +1,175 @@
+{
+  "station_code": "KPY",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/kpy with portable_colour_revision_02",
+  "manifest_sha256": "acd4c127d9950dc47a1ed437a3e757b7464c3942ab2b34bef7439f8b0d647d34",
+  "portable_revision_manifest": "middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "portable_revision_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "blend_sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71",
+  "export_sha256": "f05274ef187f5d70c8e41a627c0289ee1f0c8d365936e657584f7c19815cddf7",
+  "export_zip_sha256": "a083969a998453fc7b8e3f66a86e0e31ef58890109f5e9c2d42c2dd80563881e",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/kpy/KPY_coastal_station_v01.blend",
+      "bytes": 30291030,
+      "sha256": "36388c2a9e54aa01b6152daa6ae55a69b3d555c361555cf312c28d8a8f1eba71"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/BUILD_QA.json",
+      "bytes": 2068,
+      "sha256": "0f637b4a0a7948cc665518d76fffad1ae2dec66e743b7757ace532b990f798ed"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/EXPORT_QA.json",
+      "bytes": 1319,
+      "sha256": "1b47f75d4b92b906f2d1cc101c62b0d55bfd7261052cca12017ef1b2f5ed7ae2"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/RENDER_PROVENANCE.json",
+      "bytes": 3014,
+      "sha256": "063bd89666af0d2e9383c9106ee2b07b4bfe3b45de9cf0d4a1cfe4af967fc6e6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 12096,
+      "sha256": "0749564ae9997bcf822b91393700d6f329e4e1fa23eb98b4dd3639e921dc57ce"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/04_facade_and_approach.png",
+      "bytes": 1244910,
+      "sha256": "9704e49f04de9a7f397cfc6ee2f14092496f17d214e37d4ae984a2a42d1790a4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/01_full_mapped_layout.png",
+      "bytes": 1030257,
+      "sha256": "d5c64596f6372a4f711623bfa64b0a2fb5d6c2f1942b42b09e8fc2ecd12f1bb0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/02_station_and_platforms.png",
+      "bytes": 1198836,
+      "sha256": "e8715799e25aee78023697a986ebed234c34a30e15fd8649348c56734ccf5eae"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/03_platform_track_details.png",
+      "bytes": 1357695,
+      "sha256": "6c3ffd3fcb85e6caa4ad432cca6489fb711c89871efe40570c7d987e0ce2642d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/05_ticket_interior.png",
+      "bytes": 1348326,
+      "sha256": "94fdd98aba8a02ce3e851bde34627fd654f25fd44895893adc443820940ce6ec"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/mapped_geometry.json",
+      "bytes": 52849,
+      "sha256": "eef181531d5a5ebc4327cca3622a6f9ae8450e6a5fbde698b5b637c9912b4243"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/adopted_geometry.json",
+      "bytes": 497201,
+      "sha256": "4c9b86233f3f244aaad1651fe2f764b08ea48c9f25f365b3f48e1fd2b52d53cf"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/station_nameboard.png",
+      "bytes": 33464,
+      "sha256": "598680a110f9aeaf5841f76aab0af2e354a2fa50c973cb9dc28374c9dc543900"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/nameboard_text.json",
+      "bytes": 421,
+      "sha256": "0cfc30829351f2eba1aa26c93918d1f8aa3ee508212af3af6e942c1b956e735b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/visual_evidence.json",
+      "bytes": 6703,
+      "sha256": "91a0ef6b555acd2bf179f8caa8a8e66d10aa853e72ce06f9c676e42ebc2c4d51"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/build_station_used.py",
+      "bytes": 60694,
+      "sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/source/reference_spec.json",
+      "bytes": 824,
+      "sha256": "1cb900329da6659af04559e6fc589e7e3a6067fba8c0d90e81d8e3d944d1f35d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KPY/KPY_coastal_station_colour_v02.glb.zip",
+      "bytes": 16846534,
+      "sha256": "a083969a998453fc7b8e3f66a86e0e31ef58890109f5e9c2d42c2dd80563881e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KPY/COLOUR_QA.json",
+      "bytes": 20451,
+      "sha256": "e8e4c9152e0d58ecc5f3577347ec79cba3c6ef07524781f1598519b49951bf56"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KPY/SOURCE_MATERIALS.json",
+      "bytes": 22496,
+      "sha256": "1d0d353c7a9ecbc133ceb90c7ea8667dbc195650c7a0d789b80a174b5bd3b4de"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KPY/ORIGINAL_EXPORT_QA.json",
+      "bytes": 1319,
+      "sha256": "1b47f75d4b92b906f2d1cc101c62b0d55bfd7261052cca12017ef1b2f5ed7ae2"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KPY/PATCH_SOURCE.py",
+      "bytes": 6281,
+      "sha256": "00ffd427cfb35692eb3d1936e4ae49916f82488e1036a31e042203a8dd8a8394"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/04_facade_and_approach.png",
+      "bytes": 1244910,
+      "sha256": "9704e49f04de9a7f397cfc6ee2f14092496f17d214e37d4ae984a2a42d1790a4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/01_full_mapped_layout.png",
+      "bytes": 1030257,
+      "sha256": "d5c64596f6372a4f711623bfa64b0a2fb5d6c2f1942b42b09e8fc2ecd12f1bb0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/02_station_and_platforms.png",
+      "bytes": 1198836,
+      "sha256": "e8715799e25aee78023697a986ebed234c34a30e15fd8649348c56734ccf5eae"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/03_platform_track_details.png",
+      "bytes": 1357695,
+      "sha256": "6c3ffd3fcb85e6caa4ad432cca6489fb711c89871efe40570c7d987e0ce2642d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/kpy/renders/05_ticket_interior.png",
+      "bytes": 1348326,
+      "sha256": "94fdd98aba8a02ce3e851bde34627fd654f25fd44895893adc443820940ce6ec"
+    }
+  ],
+  "checks": {
+    "manifest": "Every native frozen asset hash/size checked; additive color cohort immutable allowlist independently verified. Original portable ZIP is historical; corrected archive selected.",
+    "source_visual": "Photo-supported2017 white/salmon main building, tiled shallow gable and yellow railings; separate2023 service block distinguished. West entry/side body and eastern island placement use the observed passenger arrangement; an intervening goods road is retained. All5 exact selected frames independently source-reviewed and render lineage verified.",
+    "layout": "3 reported faces versus2 physical bodies;19 adopted route segments retained. Valid actual platform polygons and bridge footprints remain clear of tracks. Enclosed-building/raised-body edge overlap is0.000m\u00b2, disclosed with checked public clearance.",
+    "circulation": "52 independent current export-triangle paths/support probes pass. Actual ramp and doorway landings are continuous; applicable bridge last-tread and deck tops are8.600m. Optional straight booking-room traces through ordinary seating are excluded when the real central public route is clear.",
+    "resources": "Exact final packed native scene metric/finite/bounds/dependencies pass; no rolling-stock name candidates.",
+    "portable": "Corrected archive independently validates finite geometry, accessor/index/buffer bounds and embedded resources. Authored absent RGB fallbacks match exact source; BIN, transforms, explicit factors/textures and alpha semantics preserved."
+  },
+  "evidence_reports": [
+    "KPY_public_route_evidence.json",
+    "KPY_final_resources.json",
+    "KPY_final_layout.json",
+    "MIDDLE_FINAL_FOUR_portable.json",
+    "MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "KPY_portable_colour_revision_02.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/KPY_36388c2a_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a survey, current operating inventory or engineering certification.",
+    "Unseen room details, precise dimensions and service assignments remain reconstructed and disclosed.",
+    "Targeted paths/support samples do not exhaustively certify every pairwise collision.",
+    "Portable colors approximate procedural Blender shading; procedural noise/bump is not baked."
+  ],
+  "release_status": "Ready for reviewed publication with corrected portable archive."
+}

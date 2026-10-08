@@ -1,0 +1,83 @@
+{
+  "station": "KFI",
+  "blend_file": "KFI_coastal_station_v01.blend",
+  "blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "bf51dc2fc200fe084f5d6f11e64fc5b9b65b70406fed7a5eae83d9a5e73b1844",
+      "camera_location": [
+        3.0999999046325684,
+        -1.600000023841858,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.2879314422607422,
+        -5.6148273586131836e-08,
+        -1.3033854961395264
+      ],
+      "sha256": "36abc1b6de3c2d30287c79b9db65bd0deaac7bb38b64660df98b91ac864a7ae4",
+      "render_seconds": 27.196150541305542,
+      "retained_from_immutable_base": true,
+      "retention_reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "camera_location": [
+        11.5,
+        -21.0,
+        7.800000190734863
+      ],
+      "camera_rotation": [
+        1.2656946182250977,
+        -0.0,
+        0.0
+      ],
+      "sha256": "64a37eeee30e47d5de5a819f333ed60515d561c51904add7356df6245085ed17",
+      "render_seconds": 22.524032831192017
+    },
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "cbb1773f177cf6b0ae6ea66e585a3ff351c3d4af88747535e936d7248d2e4ad7",
+      "render_seconds": 14.212441682815552
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "camera_location": [
+        46.5,
+        -22.273101806640625,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "d0b13fef803297a69023e11798524830e256a5f618899d02c5181da0cc374d96",
+      "render_seconds": 19.971700191497803
+    }
+  ]
+}

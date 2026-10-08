@@ -1,0 +1,122 @@
+{
+  "station_code": "EVA",
+  "status": "Frozen candidate; automatic source/render/export hash gates passed. Independent scene/gallery acceptance is tracked by the parent auditor.",
+  "blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/EVA_coastal_station_v01.blend",
+      "bytes": 10032496,
+      "sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/BUILD_QA.json",
+      "bytes": 2167,
+      "sha256": "04fc03382d2cc4c75fe51adf8d85f33e5decabf7606d4ae404a18746199c8cb7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/EXPORT_QA.json",
+      "bytes": 1300,
+      "sha256": "dc45d18f01678c70601ddabedf37ea2b84a40fd1ce050a6035c7f6c16c871c91"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/RENDER_PROVENANCE.json",
+      "bytes": 2463,
+      "sha256": "e7ade201882073ba1b44dcb3ec00c3bb31d57e963361e42b42d8506273ade959"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 8771,
+      "sha256": "a26fe2f5dc4ab5f365ceedce1f141618fab227d8bea7254543afc9ecd9c48fae"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/export/EVA_coastal_station_v01.glb.zip",
+      "bytes": 5956439,
+      "sha256": "404976edcf8da3b08f5c4108d20526f4d9061214e2e088fd9e722204edf045b5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/04_facade_and_approach.png",
+      "bytes": 1250905,
+      "sha256": "9b6180e0578afc7f4fa95685041fa8b2ab7f9166a2fc62d1e80bf44b19653bad"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/01_full_mapped_layout.png",
+      "bytes": 1038549,
+      "sha256": "623190e9a866c341aa19c5258ad714a2dedd5c5f0032834e938134dc127e771c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/03_platform_track_details.png",
+      "bytes": 1192160,
+      "sha256": "8248af4d0f4f4e2268870f923b0fe583774140e662f6442fcf1daf43ad2560c6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/05_ticket_interior.png",
+      "bytes": 1365375,
+      "sha256": "b04bc85a6960773ae8eb001a118b93e20e4c08a1d027a8ebb0f3320ce63df0df"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/mapped_geometry.json",
+      "bytes": 71191,
+      "sha256": "6b09bf4be4d78728de8956696779894d1f2cbe8b29b6294e916306409256a7d6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/adopted_geometry.json",
+      "bytes": 83254,
+      "sha256": "c14ee1962ce3006b902dfa86fc494cc68f7a1f40c99c165de28ad9bfc1cc580f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/station_nameboard.png",
+      "bytes": 16875,
+      "sha256": "0aa58cb0a16f431c7778fb9cf96ace67126a2b19203f94784b550418df0b0144"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/nameboard_text.json",
+      "bytes": 386,
+      "sha256": "038b1f73078abcc5768233dacd68a2f835dae4cf304c12a291bf7546c4d3b1a1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/visual_evidence.json",
+      "bytes": 1200,
+      "sha256": "89a41c7cbcf4370e0160c83c8d193d3600df3f2ec7d112b7083457733dbc79e6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/build_station_used.py",
+      "bytes": 60330,
+      "sha256": "cd36c911cbdfd5da17a98795f036d8205ebf7845dbc3f3b4136c2cb989af313c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/reference_spec.json",
+      "bytes": 576,
+      "sha256": "b7ae20581be7ad59c6214f2def56f7485439c33db55479d8f1c693c9fce9259c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/ARCHITECTURE_REVISION.json",
+      "bytes": 2085,
+      "sha256": "bf5d69a03348db88510ccc77aa02ee574e92f207271041aca1c94f70becf26be"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/repair_architecture_used.py",
+      "bytes": 8288,
+      "sha256": "209eb868d0a3307737e3718e85a7d8f7094aaca7af7fd32acff97f4d750752ac"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/camera_revision_input.json",
+      "bytes": 651,
+      "sha256": "20f70dc61f93c0ad5b8d2e4e2d958cca7990b1c8628d2e69b4ea8e4b240dcffa"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/prior_camera_revision.json",
+      "bytes": 1279,
+      "sha256": "2eb28fe77cada6ecce62ba1066b02b1d755bdf93788a4dca2a662af09213a0d9"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/prior_camera_revision_used.py",
+      "bytes": 5394,
+      "sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a"
+    }
+  ],
+  "included_render_count": 4,
+  "no_source_photos": true,
+  "licensing": "OSM-derived source geometry retained with ODbL attribution; generated label pixels only, no Google/provider imagery",
+  "provenance": "Per-view source hashes and retained-view reasons are explicit; export hash matches the authoritative packed Blend; exact builder or repair snapshot retained where captured",
+  "freeze_rule": "Do not mutate any allowlisted bytes after handoff. Revisions need a new directory."
+}

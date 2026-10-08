@@ -1,0 +1,26 @@
+{
+  "code": "CRY",
+  "base": "cry",
+  "target": "revision_02/cry",
+  "base_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+  "camera_location": [
+    28,
+    -68,
+    6.5
+  ],
+  "camera_target": [
+    35.6,
+    -32.4,
+    5.5
+  ],
+  "lens": 38,
+  "retain": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "05_ticket_interior.png"
+  ],
+  "rerender": [
+    "04_facade_and_approach.png"
+  ],
+  "reason": "CRY revision02 changes only camera04 to face the existing three-pier gateway from its approach side, with the station beyond. The source is the actual built-site PIB photograph from May2025; all geometry and materials remain unchanged."
+}

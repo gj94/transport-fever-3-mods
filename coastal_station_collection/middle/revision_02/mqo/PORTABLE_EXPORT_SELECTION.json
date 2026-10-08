@@ -1,0 +1,41 @@
+{
+  "station": "MQO",
+  "publication_mode": "additive_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/mqo/MQO_coastal_station_v01.blend",
+  "source_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/mqo/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "fcef5e3ca30e17f79f88f234af21a59c670a2a00f688e820cedfa11968bb0995",
+  "native_gate_path": "coastal_station_collection/qa/reports/MQO_v02_ACCEPTED.json",
+  "native_gate_sha256": "b72ac22d5d849bd77701a42d786d1ba226ea1731a63adb559efb2e4c4ea7fd1b",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/MQO/MQO_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "b5b314f564fd2be4a0b7858908ea3deb00b661be0ca9f4679d7fb5ea63aa3c5e",
+  "corrected_glb_sha256": "eedd742831a9c3c64f80c1ad8378dc9e96763599c0bdb2726af439071662ed42",
+  "superseded_archive_sha256": "8f35daf33831244786f27443d00faf1e7ad10f138ee1bc8ace472025e33c5d47",
+  "superseded_archive_disposition": "Already published bytes preserved unchanged.",
+  "retained_images": [
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "sha256": "2a637b833d990300f5b2feb3fecd283fdc5fe5111dcf66bd1c9621d0069fa70b",
+      "source_blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1",
+      "reason": "Bridge geometry is outside this facade/interior view; camera, subject geometry, materials and illumination unchanged."
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "sha256": "bc9a091982eccdd742c06528016aca7ca94653caeee6763ac4f8c5da6d687983",
+      "source_blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1",
+      "reason": "Bridge geometry is outside this facade/interior view; camera, subject geometry, materials and illumination unchanged."
+    }
+  ],
+  "limitations": [
+    "Visual reconstruction, not surveyed current yard inventory or engineering/safety certification.",
+    "Main building facade is not visible in retrieved source image; modest hut footprint/appearance and hidden interior are reconstructed.",
+    "No direct central straight-through public path; verified public circulation uses left doorway around compact ticket counter.",
+    "Exact original builder-code revision was not captured for this first candidate; packed Blend is authoritative and this is disclosed in its source document.",
+    "Targeted sampling does not constitute exhaustive pairwise collision certification."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

@@ -1,0 +1,21 @@
+{
+  "station": "AMY",
+  "adopted_sha256": "21b9cd55815578e8dec2ecc93f41d8fac161fe69cf0f51b33003646aa205d618",
+  "platform_railcenter_min_m": [
+    1.9199995772533414,
+    1.9193347591497527
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 10.142000000000001,
+  "building_platform_overlap_m2": 0.0,
+  "ramp_railcenter_min_m": 15.242,
+  "flights": [],
+  "reported_faces": "2",
+  "modelled_bodies": 2,
+  "route_segments": 6,
+  "prior_ramp_railcenter_min_m": 16.741999999999997,
+  "current_ramp_geometry": "75f64c1c facade-parallel ramp, lower(-5,4.5,.05), upper(-19,4.5,1.018), conservatively0.9m half-width"
+}

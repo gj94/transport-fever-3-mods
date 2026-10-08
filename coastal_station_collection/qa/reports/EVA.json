@@ -1,0 +1,190 @@
+{
+  "station_code": "EVA",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/revision_03/eva with portable_colour_revision_02",
+  "manifest_sha256": "26079ccbd1cd3563ea16e5c41d4d3e958b39eda658df822997420dddbfb8aee5",
+  "portable_revision_manifest": "middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_02.json",
+  "portable_revision_manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb",
+  "blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+  "export_sha256": "7b19a443f7121031dd9cb5201025852407c949e9bc8e590bcab84da09a3f989f",
+  "export_zip_sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/EVA_coastal_station_v01.blend",
+      "bytes": 10032496,
+      "sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/BUILD_QA.json",
+      "bytes": 2167,
+      "sha256": "04fc03382d2cc4c75fe51adf8d85f33e5decabf7606d4ae404a18746199c8cb7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/EXPORT_QA.json",
+      "bytes": 1300,
+      "sha256": "dc45d18f01678c70601ddabedf37ea2b84a40fd1ce050a6035c7f6c16c871c91"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/RENDER_PROVENANCE.json",
+      "bytes": 2463,
+      "sha256": "e7ade201882073ba1b44dcb3ec00c3bb31d57e963361e42b42d8506273ade959"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 8771,
+      "sha256": "a26fe2f5dc4ab5f365ceedce1f141618fab227d8bea7254543afc9ecd9c48fae"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/04_facade_and_approach.png",
+      "bytes": 1250905,
+      "sha256": "9b6180e0578afc7f4fa95685041fa8b2ab7f9166a2fc62d1e80bf44b19653bad"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/01_full_mapped_layout.png",
+      "bytes": 1038549,
+      "sha256": "623190e9a866c341aa19c5258ad714a2dedd5c5f0032834e938134dc127e771c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/03_platform_track_details.png",
+      "bytes": 1192160,
+      "sha256": "8248af4d0f4f4e2268870f923b0fe583774140e662f6442fcf1daf43ad2560c6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/05_ticket_interior.png",
+      "bytes": 1365375,
+      "sha256": "b04bc85a6960773ae8eb001a118b93e20e4c08a1d027a8ebb0f3320ce63df0df"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/mapped_geometry.json",
+      "bytes": 71191,
+      "sha256": "6b09bf4be4d78728de8956696779894d1f2cbe8b29b6294e916306409256a7d6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/adopted_geometry.json",
+      "bytes": 83254,
+      "sha256": "c14ee1962ce3006b902dfa86fc494cc68f7a1f40c99c165de28ad9bfc1cc580f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/station_nameboard.png",
+      "bytes": 16875,
+      "sha256": "0aa58cb0a16f431c7778fb9cf96ace67126a2b19203f94784b550418df0b0144"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/nameboard_text.json",
+      "bytes": 386,
+      "sha256": "038b1f73078abcc5768233dacd68a2f835dae4cf304c12a291bf7546c4d3b1a1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/visual_evidence.json",
+      "bytes": 1200,
+      "sha256": "89a41c7cbcf4370e0160c83c8d193d3600df3f2ec7d112b7083457733dbc79e6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/build_station_used.py",
+      "bytes": 60330,
+      "sha256": "cd36c911cbdfd5da17a98795f036d8205ebf7845dbc3f3b4136c2cb989af313c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/reference_spec.json",
+      "bytes": 576,
+      "sha256": "b7ae20581be7ad59c6214f2def56f7485439c33db55479d8f1c693c9fce9259c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/ARCHITECTURE_REVISION.json",
+      "bytes": 2085,
+      "sha256": "bf5d69a03348db88510ccc77aa02ee574e92f207271041aca1c94f70becf26be"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/repair_architecture_used.py",
+      "bytes": 8288,
+      "sha256": "209eb868d0a3307737e3718e85a7d8f7094aaca7af7fd32acff97f4d750752ac"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/camera_revision_input.json",
+      "bytes": 651,
+      "sha256": "20f70dc61f93c0ad5b8d2e4e2d958cca7990b1c8628d2e69b4ea8e4b240dcffa"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/prior_camera_revision.json",
+      "bytes": 1279,
+      "sha256": "2eb28fe77cada6ecce62ba1066b02b1d755bdf93788a4dca2a662af09213a0d9"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/source/prior_camera_revision_used.py",
+      "bytes": 5394,
+      "sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip",
+      "bytes": 5957192,
+      "sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/COLOUR_QA.json",
+      "bytes": 17464,
+      "sha256": "1ad2f915bf787d17bc933a99e108b6496610dee7d3e54c5bdd9b7e98b5730178"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/SOURCE_MATERIALS.json",
+      "bytes": 19460,
+      "sha256": "5342587f783553f0b55f8c045897ce457d2c09c3985821eed45084837a44c0d5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/ORIGINAL_EXPORT_QA.json",
+      "bytes": 1300,
+      "sha256": "dc45d18f01678c70601ddabedf37ea2b84a40fd1ce050a6035c7f6c16c871c91"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/PATCH_SOURCE.py",
+      "bytes": 6281,
+      "sha256": "00ffd427cfb35692eb3d1936e4ae49916f82488e1036a31e042203a8dd8a8394"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/04_facade_and_approach.png",
+      "bytes": 1250905,
+      "sha256": "9b6180e0578afc7f4fa95685041fa8b2ab7f9166a2fc62d1e80bf44b19653bad"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/01_full_mapped_layout.png",
+      "bytes": 1038549,
+      "sha256": "623190e9a866c341aa19c5258ad714a2dedd5c5f0032834e938134dc127e771c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/03_platform_track_details.png",
+      "bytes": 1192160,
+      "sha256": "8248af4d0f4f4e2268870f923b0fe583774140e662f6442fcf1daf43ad2560c6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/05_ticket_interior.png",
+      "bytes": 1365375,
+      "sha256": "b04bc85a6960773ae8eb001a118b93e20e4c08a1d027a8ebb0f3320ce63df0df"
+    }
+  ],
+  "checks": {
+    "manifest": "Every native frozen asset hash/size checked; additive color cohort immutable allowlist independently verified. Original portable ZIP is historical; corrected archive selected.",
+    "source_visual": "Source-facing tall near-floor openings and full-height blue geometric grilles restored; high vents and broad canopy remain source-supported. Street facade, public doors, rooms and furniture stay unchanged. All4 exact selected frames independently source-reviewed and render lineage verified.",
+    "layout": "2 reported faces versus2 physical bodies;6 adopted route segments retained. Valid actual platform polygons and bridge footprints remain clear of tracks. Enclosed-building/raised-body edge overlap is30.352m\u00b2, disclosed with checked public clearance.",
+    "circulation": "24 independent current export-triangle paths/support probes pass. Actual ramp and doorway landings are continuous; applicable bridge last-tread and deck tops are8.600m. Optional straight booking-room traces through ordinary seating are excluded when the real central public route is clear.",
+    "resources": "Exact final packed native scene metric/finite/bounds/dependencies pass; no rolling-stock name candidates.",
+    "portable": "Corrected archive independently validates finite geometry, accessor/index/buffer bounds and embedded resources. Authored absent RGB fallbacks match exact source; BIN, transforms, explicit factors/textures and alpha semantics preserved."
+  },
+  "evidence_reports": [
+    "EVA_latest_export_geometry.json",
+    "EVA_latest_resources.json",
+    "EVA_final_layout.json",
+    "EVA_portable_colour_revision_02.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/EVA_9d713a69_final_visual_review.json",
+    "MIDDLE_FINAL_TWO_portable.json",
+    "MIDDLE_PORTABLE_COLOUR_COHORT_02_ACCEPTED.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a survey, current operating inventory or engineering certification.",
+    "Unseen room details, precise dimensions and service assignments remain reconstructed and disclosed.",
+    "Targeted paths/support samples do not exhaustively certify every pairwise collision.",
+    "Portable colors approximate procedural Blender shading; procedural noise/bump is not baked."
+  ],
+  "release_status": "Ready for reviewed publication with corrected portable archive."
+}

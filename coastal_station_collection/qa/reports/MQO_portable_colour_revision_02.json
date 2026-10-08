@@ -1,0 +1,523 @@
+{
+  "status": "pass",
+  "source_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+  "palette_path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/qa/reports/MQO_material_validation_palette.json",
+  "palette_sha256": "31fbf5a21f2c6a1d933a6355c2158101ce159915ecc00e8a4968aa2c29bbb956",
+  "before": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_02/mqo/export/MQO_coastal_station_v01.glb.zip",
+    "glb_sha256": "b86fe0b6590c8c16096f9e838c68c49dcfeb08237baf07f17c64ad86eeefd9ee",
+    "container_sha256": "8f35daf33831244786f27443d00faf1e7ad10f138ee1bc8ace472025e33c5d47",
+    "member": "MQO_coastal_station_v01.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 38159680,
+        "sha256": "f3b0598ec67456417ddbd0f4b67d013859bfb31e4c71290ef43e0104d21cd1c4"
+      }
+    ]
+  },
+  "after": {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/portable_colour_revision_02/MQO/MQO_coastal_station_colour_v02.glb.zip",
+    "glb_sha256": "eedd742831a9c3c64f80c1ad8378dc9e96763599c0bdb2726af439071662ed42",
+    "container_sha256": "b5b314f564fd2be4a0b7858908ea3deb00b661be0ca9f4679d7fb5ea63aa3c5e",
+    "member": "MQO_coastal_station_colour_v02.glb",
+    "non_json_chunks": [
+      {
+        "type": 5130562,
+        "bytes": 38159680,
+        "sha256": "f3b0598ec67456417ddbd0f4b67d013859bfb31e4c71290ef43e0104d21cd1c4"
+      }
+    ]
+  },
+  "non_json_chunks_identical": true,
+  "all_non_colour_json_identical": true,
+  "material_count": 27,
+  "changed_materials": [
+    {
+      "index": 0,
+      "name": "Crushed granite ballast",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ],
+      "source_rgba": [
+        0.23999999463558197,
+        0.24500000476837158,
+        0.22499999403953552,
+        1.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Oxidised rail web",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_rgba": [
+        0.25,
+        0.07000000029802322,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Precast concrete sleepers",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ],
+      "source_rgba": [
+        0.4099999964237213,
+        0.4300000071525574,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Chalk white masonry",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "source_rgba": [
+        0.800000011920929,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Warm station ochre",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_rgba": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Faded cream limewash",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ],
+      "source_rgba": [
+        0.7400000095367432,
+        0.699999988079071,
+        0.5600000023841858,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Galvanised structural steel",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ],
+      "source_rgba": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.4399999976158142,
+        1.0
+      ]
+    },
+    {
+      "index": 10,
+      "name": "Galvanised canopy underside",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ],
+      "source_rgba": [
+        0.5,
+        0.5600000023841858,
+        0.5699999928474426,
+        1.0
+      ]
+    },
+    {
+      "index": 11,
+      "name": "Blue corrugated platform sheet",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ],
+      "source_rgba": [
+        0.07500000298023224,
+        0.24500000476837158,
+        0.36000001430511475,
+        1.0
+      ]
+    },
+    {
+      "index": 13,
+      "name": "Weathered timber",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ],
+      "source_rgba": [
+        0.2199999988079071,
+        0.08500000089406967,
+        0.02800000086426735,
+        1.0
+      ]
+    },
+    {
+      "index": 14,
+      "name": "Dark green painted piers",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ],
+      "source_rgba": [
+        0.11999999731779099,
+        0.3499999940395355,
+        0.12999999523162842,
+        1.0
+      ]
+    },
+    {
+      "index": 15,
+      "name": "Institutional cobalt lower band",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ],
+      "source_rgba": [
+        0.06499999761581421,
+        0.20000000298023224,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "index": 16,
+      "name": "Railway enamel yellow",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ],
+      "source_rgba": [
+        0.9399999976158142,
+        0.6499999761581421,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "index": 18,
+      "name": "Oxide red masonry and tile",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ],
+      "source_rgba": [
+        0.4000000059604645,
+        0.07000000029802322,
+        0.03999999910593033,
+        1.0
+      ]
+    },
+    {
+      "index": 19,
+      "name": "Terrazzo public room floor",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ],
+      "source_rgba": [
+        0.6000000238418579,
+        0.5899999737739563,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "index": 20,
+      "name": "Pale mint station plaster",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.44999998807907104,
+        0.6600000262260437,
+        0.5400000214576721,
+        1.0
+      ],
+      "source_rgba": [
+        0.44999998807907104,
+        0.6600000262260437,
+        0.5400000214576721,
+        1.0
+      ]
+    },
+    {
+      "index": 22,
+      "name": "Tropical groundcover",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ],
+      "source_rgba": [
+        0.12999999523162842,
+        0.20000000298023224,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "index": 23,
+      "name": "Backwater surface",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.0949999988079071,
+        0.2800000011920929,
+        0.30000001192092896,
+        1.0
+      ],
+      "source_rgba": [
+        0.0949999988079071,
+        0.2800000011920929,
+        0.30000001192092896,
+        1.0
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Asphalt forecourt",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ],
+      "source_rgba": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.09000000357627869,
+        1.0
+      ]
+    },
+    {
+      "index": 25,
+      "name": "Palm bark",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "source_rgba": [
+        0.30000001192092896,
+        0.23499999940395355,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "index": 26,
+      "name": "Coconut palm leaves",
+      "before_factor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "before_factor_explicit": false,
+      "after_factor": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ],
+      "source_rgba": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.035999998450279236,
+        1.0
+      ]
+    }
+  ],
+  "changed_count": 21,
+  "errors": [],
+  "method": "Only absent untextured base-color fallbacks may be filled from the exact packed-source palette. Existing explicit colors, textures, alpha, alphaMode, extensions, node transforms, mesh/accessor/buffer tables and binary data are preserved. Original geometry QA remains applicable."
+}

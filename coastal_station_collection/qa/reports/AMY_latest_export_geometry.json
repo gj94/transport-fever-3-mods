@@ -1,0 +1,947 @@
+{
+  "asset": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/middle/revision_02/amy/export/AMY_coastal_station_v01.glb.zip",
+  "export_sha256": "615e0002997acd9633bd3c4912935885b6bee8427fb653dae557454e56c94915",
+  "container_sha256": "4b3097693bb78ce21e6fcf71c6a73116e5c8ceef6d7435e6139f98dc03be0306",
+  "default_scene": "Scene",
+  "scene_count": 1,
+  "objects": 179,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "public_door_-20_0.35": {
+      "from": [
+        -20.0,
+        4.4,
+        1.3679999999999999
+      ],
+      "to": [
+        -20.0,
+        -2.1,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_door_-20_0.9": {
+      "from": [
+        -20.0,
+        4.4,
+        1.9180000000000001
+      ],
+      "to": [
+        -20.0,
+        -2.1,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "public_door_-20_1.7": {
+      "from": [
+        -20.0,
+        4.4,
+        2.718
+      ],
+      "to": [
+        -20.0,
+        -2.1,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_threshold_-20_3.6": {
+      "from": [
+        -20.0,
+        3.6,
+        1.268
+      ],
+      "to": [
+        -20.0,
+        3.6,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -20.0,
+        3.6,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-20_3.4": {
+      "from": [
+        -20.0,
+        3.4,
+        1.268
+      ],
+      "to": [
+        -20.0,
+        3.4,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Station building raised floor",
+      "hit_location": [
+        -20.0,
+        3.4,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-20_-1.4": {
+      "from": [
+        -20.0,
+        -1.4,
+        1.268
+      ],
+      "to": [
+        -20.0,
+        -1.4,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Station building raised floor",
+      "hit_location": [
+        -20.0,
+        -1.4,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-20_-1.6": {
+      "from": [
+        -20.0,
+        -1.6,
+        1.268
+      ],
+      "to": [
+        -20.0,
+        -1.6,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Raised entrance-to-platform apron reconstructed",
+      "hit_location": [
+        -20.0,
+        -1.6,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-20_-2.1": {
+      "from": [
+        -20.0,
+        -2.1,
+        1.268
+      ],
+      "to": [
+        -20.0,
+        -2.1,
+        0.41800000000000004
+      ],
+      "clear": false,
+      "hit": "Raised entrance-to-platform apron reconstructed",
+      "hit_location": [
+        -20.0,
+        -2.1,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "new_ramp_0.25_-0.35": {
+      "from": [
+        -5.0,
+        4.15,
+        0.3
+      ],
+      "to": [
+        -19.0,
+        4.15,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.25_-0.35": {
+      "from": [
+        -19.0,
+        4.15,
+        1.268
+      ],
+      "to": [
+        -20.5,
+        4.15,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.25_0": {
+      "from": [
+        -5.0,
+        4.5,
+        0.3
+      ],
+      "to": [
+        -19.0,
+        4.5,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.25_0": {
+      "from": [
+        -19.0,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -20.5,
+        4.5,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.25_0.35": {
+      "from": [
+        -5.0,
+        4.85,
+        0.3
+      ],
+      "to": [
+        -19.0,
+        4.85,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.25_0.35": {
+      "from": [
+        -19.0,
+        4.85,
+        1.268
+      ],
+      "to": [
+        -20.5,
+        4.85,
+        1.268
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.35_-0.35": {
+      "from": [
+        -5.0,
+        4.15,
+        0.39999999999999997
+      ],
+      "to": [
+        -19.0,
+        4.15,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.35_-0.35": {
+      "from": [
+        -19.0,
+        4.15,
+        1.3679999999999999
+      ],
+      "to": [
+        -20.5,
+        4.15,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.35_0": {
+      "from": [
+        -5.0,
+        4.5,
+        0.39999999999999997
+      ],
+      "to": [
+        -19.0,
+        4.5,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.35_0": {
+      "from": [
+        -19.0,
+        4.5,
+        1.3679999999999999
+      ],
+      "to": [
+        -20.5,
+        4.5,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.35_0.35": {
+      "from": [
+        -5.0,
+        4.85,
+        0.39999999999999997
+      ],
+      "to": [
+        -19.0,
+        4.85,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.35_0.35": {
+      "from": [
+        -19.0,
+        4.85,
+        1.3679999999999999
+      ],
+      "to": [
+        -20.5,
+        4.85,
+        1.3679999999999999
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.9_-0.35": {
+      "from": [
+        -5.0,
+        4.15,
+        0.9500000000000001
+      ],
+      "to": [
+        -19.0,
+        4.15,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.9_-0.35": {
+      "from": [
+        -19.0,
+        4.15,
+        1.9180000000000001
+      ],
+      "to": [
+        -20.5,
+        4.15,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.9_0": {
+      "from": [
+        -5.0,
+        4.5,
+        0.9500000000000001
+      ],
+      "to": [
+        -19.0,
+        4.5,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.9_0": {
+      "from": [
+        -19.0,
+        4.5,
+        1.9180000000000001
+      ],
+      "to": [
+        -20.5,
+        4.5,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_0.9_0.35": {
+      "from": [
+        -5.0,
+        4.85,
+        0.9500000000000001
+      ],
+      "to": [
+        -19.0,
+        4.85,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_0.9_0.35": {
+      "from": [
+        -19.0,
+        4.85,
+        1.9180000000000001
+      ],
+      "to": [
+        -20.5,
+        4.85,
+        1.9180000000000001
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_1.3_-0.35": {
+      "from": [
+        -5.0,
+        4.15,
+        1.35
+      ],
+      "to": [
+        -19.0,
+        4.15,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_1.3_-0.35": {
+      "from": [
+        -19.0,
+        4.15,
+        2.318
+      ],
+      "to": [
+        -20.5,
+        4.15,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_1.3_0": {
+      "from": [
+        -5.0,
+        4.5,
+        1.35
+      ],
+      "to": [
+        -19.0,
+        4.5,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_1.3_0": {
+      "from": [
+        -19.0,
+        4.5,
+        2.318
+      ],
+      "to": [
+        -20.5,
+        4.5,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_1.3_0.35": {
+      "from": [
+        -5.0,
+        4.85,
+        1.35
+      ],
+      "to": [
+        -19.0,
+        4.85,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_1.3_0.35": {
+      "from": [
+        -19.0,
+        4.85,
+        2.318
+      ],
+      "to": [
+        -20.5,
+        4.85,
+        2.318
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_1.7_-0.35": {
+      "from": [
+        -5.0,
+        4.15,
+        1.75
+      ],
+      "to": [
+        -19.0,
+        4.15,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_1.7_-0.35": {
+      "from": [
+        -19.0,
+        4.15,
+        2.718
+      ],
+      "to": [
+        -20.5,
+        4.15,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_1.7_0": {
+      "from": [
+        -5.0,
+        4.5,
+        1.75
+      ],
+      "to": [
+        -19.0,
+        4.5,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_1.7_0": {
+      "from": [
+        -19.0,
+        4.5,
+        2.718
+      ],
+      "to": [
+        -20.5,
+        4.5,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_ramp_1.7_0.35": {
+      "from": [
+        -5.0,
+        4.85,
+        1.75
+      ],
+      "to": [
+        -19.0,
+        4.85,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "new_landing_1.7_0.35": {
+      "from": [
+        -19.0,
+        4.85,
+        2.718
+      ],
+      "to": [
+        -20.5,
+        4.85,
+        2.718
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_new_ramp_0": {
+      "from": [
+        -5.0,
+        4.5,
+        0.3
+      ],
+      "to": [
+        -5.0,
+        4.5,
+        -0.35000000000000003
+      ],
+      "clear": false,
+      "hit": "Station approach forecourt",
+      "hit_location": [
+        -5.0,
+        4.5,
+        0.05000000074505809
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_new_ramp_0.1": {
+      "from": [
+        -6.4,
+        4.5,
+        0.3968
+      ],
+      "to": [
+        -6.4,
+        4.5,
+        -0.25320000000000004
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -6.4,
+        4.5,
+        0.1468000013381243
+      ],
+      "hit_normal": [
+        0.06897817099288077,
+        -0.0,
+        0.9976181694047462
+      ]
+    },
+    "floor_new_ramp_0.25": {
+      "from": [
+        -8.5,
+        4.5,
+        0.542
+      ],
+      "to": [
+        -8.5,
+        4.5,
+        -0.10800000000000004
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -8.5,
+        4.5,
+        0.2920000022277236
+      ],
+      "hit_normal": [
+        0.06897817099288077,
+        -0.0,
+        0.9976181694047462
+      ]
+    },
+    "floor_new_ramp_0.5": {
+      "from": [
+        -12.0,
+        4.5,
+        0.784
+      ],
+      "to": [
+        -12.0,
+        4.5,
+        0.134
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -12.0,
+        4.5,
+        0.5340000037103894
+      ],
+      "hit_normal": [
+        0.06897817099288077,
+        -0.0,
+        0.9976181694047462
+      ]
+    },
+    "floor_new_ramp_0.75": {
+      "from": [
+        -15.5,
+        4.5,
+        1.026
+      ],
+      "to": [
+        -15.5,
+        4.5,
+        0.376
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -15.5,
+        4.5,
+        0.7760000051930547
+      ],
+      "hit_normal": [
+        0.06897817099288077,
+        0.0,
+        0.9976181694047462
+      ]
+    },
+    "floor_new_ramp_0.9": {
+      "from": [
+        -17.6,
+        4.5,
+        1.1712
+      ],
+      "to": [
+        -17.6,
+        4.5,
+        0.5212
+      ],
+      "clear": false,
+      "hit": "Accessible ramp from forecourt",
+      "hit_location": [
+        -17.6,
+        4.5,
+        0.921200006082654
+      ],
+      "hit_normal": [
+        0.06897817099288077,
+        0.0,
+        0.9976181694047462
+      ]
+    },
+    "floor_new_ramp_1": {
+      "from": [
+        -19.0,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -19.0,
+        4.5,
+        0.618
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -19.0,
+        4.5,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_new_landing_-19.1": {
+      "from": [
+        -19.1,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -19.1,
+        4.5,
+        0.7
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -19.1,
+        4.5,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_new_landing_-20": {
+      "from": [
+        -20.0,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -20.0,
+        4.5,
+        0.7
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -20.0,
+        4.5,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_new_landing_-20.5": {
+      "from": [
+        -20.5,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -20.5,
+        4.5,
+        0.7
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -20.5,
+        4.5,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_new_landing_-24": {
+      "from": [
+        -24.0,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -24.0,
+        4.5,
+        0.7
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -24.0,
+        4.5,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_new_landing_-25.9": {
+      "from": [
+        -25.9,
+        4.5,
+        1.268
+      ],
+      "to": [
+        -25.9,
+        4.5,
+        0.7
+      ],
+      "clear": false,
+      "hit": "Continuous front entrance landing",
+      "hit_location": [
+        -25.9,
+        4.5,
+        1.0180000066757202
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  }
+}

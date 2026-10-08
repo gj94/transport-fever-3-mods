@@ -1,0 +1,52 @@
+{
+  "station": "MYY",
+  "publication_mode": "additive_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_02/myy/MYY_coastal_station_v01.blend",
+  "source_blend_sha256": "47ccce54dd6324232869a3ce497b3e89cafc8d93d409d77f0832d059809adb27",
+  "source_manifest_path": "coastal_station_collection/middle/revision_02/myy/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "fc72b67d443d5557fcc92193f1db97d0a901083d201186058339a94cc976693c",
+  "native_gate_path": "coastal_station_collection/qa/reports/MYY.json",
+  "native_gate_sha256": "e88ecfb1f0b82a3c4f8d3c42f55520cd451c48a4f19ffd7c4babeff531e34899",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/MYY/MYY_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "753ce7a3db18a08fdec68eb77baa8e5a7a41b9604405e098c3dd0b2bc9b0f6c5",
+  "corrected_glb_sha256": "c11bda232db196b661fddfafd2ff0d1b80a5a1dcefe1c11f3338d89279ab5ce6",
+  "superseded_archive_sha256": "655f07cb875fc58841bababd2c16884f00fd1d9cc89aceb414c0c7664cff3556",
+  "superseded_archive_disposition": "Already published bytes preserved unchanged.",
+  "retained_images": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "sha256": "91242195073d6b38a3054e8aac1e4bd466890ee4cb4e9586d88f28ddd22d2364",
+      "source_blend_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "sha256": "5180cba961d2f4815b17b2438d4dbc58aeab85f5f2c7eb79f369bb32479808f3",
+      "source_blend_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "sha256": "8c816fdfd484f74456c4a88a2d0c0d4fe5b65b19a9278c76b702841edf72b7fb",
+      "source_blend_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "sha256": "864fcff064f484fe843f5d5aa89bd7b07b9765663b888a66d71004b3e9ed69f3",
+      "source_blend_sha256": "1fc4b4970aacf67e7e0a77261feaef9135d85bad4cdc371996680e57b5a723a2",
+      "reason": "Internal wall fixtures moved; exterior subject/camera/illumination unchanged and changed fixtures not visible in these exterior views."
+    }
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operational inventory or engineering certification.",
+    "Unseen interiors, approximate dimensions and reconstructed platform extents are disclosed.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Some procedural Blender materials use base-colour portable fallbacks."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

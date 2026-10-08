@@ -1,0 +1,26 @@
+{
+  "code": "EVA",
+  "base": "eva",
+  "target": "revision_02/eva",
+  "base_sha256": "643a922c2a250c1c4a32e04fed6fd1efb92a9092e7cc80b9f3b795c6e8e3669c",
+  "camera_location": [
+    -25,
+    -12,
+    3.2
+  ],
+  "camera_target": [
+    -25,
+    9,
+    3.1
+  ],
+  "lens": 22,
+  "retain": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "05_ticket_interior.png"
+  ],
+  "rerender": [
+    "04_facade_and_approach.png"
+  ],
+  "reason": "EVA revision02 changes only camera04 to show the existing photographed platform-side ventilators, tall blue geometric grilles and broad blue canopy. All geometry and materials remain unchanged."
+}

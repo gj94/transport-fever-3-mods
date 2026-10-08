@@ -1,0 +1,56 @@
+{
+  "station": "KFI",
+  "reviewed_utc": "2026-10-08T22:51:13.072037+00:00",
+  "status": "four_view_visual_source_complete_pass",
+  "source_scene_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "cbb1773f177cf6b0ae6ea66e585a3ff351c3d4af88747535e936d7248d2e4ad7",
+      "source_scene_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "d0b13fef803297a69023e11798524830e256a5f618899d02c5181da0cc374d96",
+      "source_scene_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "64a37eeee30e47d5de5a819f333ed60515d561c51904add7356df6245085ed17",
+      "source_scene_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "36abc1b6de3c2d30287c79b9db65bd0deaac7bb38b64660df98b91ac864a7ae4",
+      "source_scene_sha256": "bf51dc2fc200fe084f5d6f11e64fc5b9b65b70406fed7a5eae83d9a5e73b1844",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "retention_reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment.",
+      "prior_review_report": "KFI_e5c7c550_partial_visual_review.json",
+      "current_source_scene_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+      "retained_from_immutable_base": true
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/KFI_facade_2017-10.png",
+      "sha256": "7d32d826f3832d35b1b30f9ece97d9a1479a94a444a43c3b4b4b14e176f12d67"
+    }
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/KFI_review_2250.jpg",
+  "prior_review_reports": [
+    "KFI_e5c7c550_partial_visual_review.json"
+  ],
+  "observations": [
+    "Current04 source-facing architecture camera clears the opposite canopy: photographed rose/peach facade, projecting rose shade and turquoise parapet/low accents are readable. Revised canopy no longer has the previously reported intrusive piers/thickness problem.",
+    "New01 full corridor and03 platform/track coverage are coherent and train-free.",
+    "Original05 exact furnished-room pass retained with immutable-base lineage. Required four-view visual/source coverage complete."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "base_blend_sha256": "8b0a142156a678db6d69ed522e0633dd2adc76ebcfd8344858a01f550508b48f",
+  "repaired_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+  "repair_script_sha256": "209eb868d0a3307737e3718e85a7d8f7094aaca7af7fd32acff97f4d750752ac",
+  "changes": [
+    {
+      "object": "Timber window sill",
+      "platform_frame_vertices_adjusted": 48,
+      "finish": "source-observed blue"
+    },
+    {
+      "object": "Timber window jamb",
+      "platform_frame_vertices_adjusted": 96,
+      "finish": "source-observed blue"
+    },
+    {
+      "object": "Window header",
+      "platform_frame_vertices_adjusted": 48,
+      "finish": "source-observed blue"
+    },
+    {
+      "object": "Window security bars",
+      "platform_vertices_removed": 288
+    },
+    {
+      "object": "Window glass pane",
+      "platform_vertices_removed": 48
+    },
+    {
+      "object": "Outward timber window awning shutter",
+      "platform_vertices_removed": 24
+    },
+    {
+      "object": "Masonry lower plinth",
+      "platform_vertices_removed": 48
+    },
+    {
+      "object": "Platform facade lintel",
+      "window_lintel_lower_vertices_raised": 24,
+      "new_window_top_above_platform_m": 2.58
+    },
+    {
+      "object": "Platform facade window sill wall",
+      "new_sill_wall_height_m": 0.1
+    },
+    {
+      "object": "Edavai grille upright",
+      "replaced": "full-height source-facing grille"
+    },
+    {
+      "object": "Edavai diamond grille",
+      "replaced": "full-height source-facing grille"
+    },
+    {
+      "object": "Edavai tall blue geometric grilles and clear low sill",
+      "six_platform_windows": "near-floor sill0.10m, top2.58m; full-height blue grilles; separate high vents retained"
+    }
+  ],
+  "unchanged": "All track/platform/ramp/doorway and room-furniture geometry, high vents, roof/canopy and cameras. Street facade remains unchanged.",
+  "retained_views": [],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ]
+}

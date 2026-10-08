@@ -1,0 +1,64 @@
+{
+  "station": "PVU",
+  "reviewed_utc": "2026-10-08T23:10:47.991239+00:00",
+  "status": "four_view_bounded_wooden_leaf_complete_pass",
+  "source_scene_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+  "frames": {
+    "01_full_mapped_layout.png": {
+      "image_sha256": "482add28414e08e8a3c680210498ef0a9065cf6fe0905d03bddd07398f91bdf7",
+      "source_scene_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_platform_track_details.png": {
+      "image_sha256": "a7c7e6c3ba0f12cdb8ceadffb424e206174021641c238d2a1374468d2b9a7841",
+      "source_scene_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_ticket_interior.png": {
+      "image_sha256": "6d15e680d262039076b0e501b1abe9dcc18df512f85479c4303d216b807174da",
+      "source_scene_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_facade_and_approach.png": {
+      "image_sha256": "ec368bae249f99e00950d533f5810f0fefc873e3dec51c07576007e2c7b4f2e9",
+      "source_scene_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "review_basis": "new_reduced_pixels_inspected_in_earlier_sheet_same_review",
+      "current_scene_lineage_verified": true,
+      "prior_review_report": "PVU_61372dcc_partial_visual_review.json"
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/PVU_facade_2023-05.png",
+      "sha256": "f157b1c1a11a74c522f31c392d628fa7181bc1136298f04734cc2cec4f5c45bd"
+    }
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/PVU_final_gallery_2310.jpg",
+  "prior_review_reports": [
+    "PVU_2a5a0b12_partial_visual_review.json",
+    "PVU_61372dcc_partial_visual_review.json"
+  ],
+  "observations": [
+    "Previously inspected current04 shows the photo-specific reddish-brown divided/louvred lower wooden leaves with blue upper transoms. Broad generic blue lower glazing is removed. Existing long shade, yellow fascia and roof trim remain coherent.",
+    "New current01/03/05 inspected now: full mapped station context, usable platform/track view and furnished booking interior remain coherent after the bounded front-window infill change. Interior view shows the brown window backs without new obstruction.",
+    "All four gallery views bind61372dcc and exact image hashes are verified. Earlier exact visual passes remain historical; no further visual correction requested."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ],
+  "targeted_detail_review": {
+    "path": "coastal_stations_overnight/qa/visual_batches/PVU_final_leaf_detail_2309.png",
+    "derived_from_frame": "04_facade_and_approach.png",
+    "purpose": "Verify brown divided/louvred lower leaves and blue upper transoms"
+  },
+  "review_contact_sheets": [
+    "coastal_stations_overnight/qa/visual_batches/PVU_final04_2309.jpg",
+    "coastal_stations_overnight/qa/visual_batches/PVU_final_gallery_2310.jpg"
+  ]
+}

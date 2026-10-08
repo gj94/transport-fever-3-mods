@@ -1,0 +1,30 @@
+{
+  "station": "KPY",
+  "adopted_sha256": "4c9b86233f3f244aaad1651fe2f764b08ea48c9f25f365b3f48e1fd2b52d53cf",
+  "platform_railcenter_min_m": [
+    1.9085478588675497,
+    1.919999747571088
+  ],
+  "platform_valid": [
+    true,
+    true
+  ],
+  "building_railcenter_min_m": 9.813240486208233,
+  "building_platform_overlap_m2": 0.0,
+  "ramp_railcenter_min_m": 21.817020232826287,
+  "flights": [
+    {
+      "platform": 0,
+      "y": 15.864397735274633,
+      "outside_platform_m2": 0.0
+    },
+    {
+      "platform": 1,
+      "y": -25.60375365021669,
+      "outside_platform_m2": 0.0
+    }
+  ],
+  "reported_faces": "3",
+  "modelled_bodies": 2,
+  "route_segments": 19
+}

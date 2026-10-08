@@ -1,0 +1,87 @@
+{
+  "station": "CRY",
+  "blend_file": "CRY_coastal_station_v01.blend",
+  "blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "4bfb0b90bd367e43d03d059798cb2814d01fd6e94b9e29f29e67e09c75657ad9",
+      "render_seconds": 18.543915033340454,
+      "retained_from_immutable_base": true,
+      "retention_reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "camera_location": [
+        50.0,
+        10.606800079345703,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "9585dc32d1032cfb2a808a79718286144e0643ddb2246facc473a613107268db",
+      "render_seconds": 30.014698266983032,
+      "retained_from_immutable_base": true,
+      "retention_reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+      "camera_location": [
+        18.582000732421875,
+        2.0999999046325684,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.3397618532180786,
+        -2.1448078868502307e-08,
+        -1.355281949043274
+      ],
+      "sha256": "50149944c99010ebfe3298d9ccc6d20b77512f936438c8148bb4d531e24a2254",
+      "render_seconds": 29.72673511505127,
+      "retained_from_immutable_base": true,
+      "retention_reason": "Unchanged subject/camera/illumination; the revised source-facing proof camera is04. KFI interior is unaffected by the external high canopy adjustment."
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+      "camera_location": [
+        28.0,
+        -68.0,
+        6.5
+      ],
+      "camera_rotation": [
+        1.5433324575424194,
+        2.797946763166692e-08,
+        -0.21032588183879852
+      ],
+      "sha256": "5255a6e1a3e523ca61d755e77f26a1bfd30d64037512527e3550b9bdd9c32a65",
+      "render_seconds": 21.43910241127014
+    }
+  ]
+}

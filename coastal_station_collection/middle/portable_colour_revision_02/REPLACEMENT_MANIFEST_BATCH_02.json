@@ -1,0 +1,153 @@
+{
+  "revision_id": "middle_portable_base_colour_02_BATCH_02",
+  "status": "Frozen additive material-only replacement; independent release gate tracked separately",
+  "created_utc": "2026-10-08T23:10:30.808019+00:00",
+  "station_count": 2,
+  "stations": [
+    {
+      "station_code": "EVA",
+      "corrected_archive": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "old_archive_sha256": "404976edcf8da3b08f5c4108d20526f4d9061214e2e088fd9e722204edf045b5",
+      "new_archive_sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073",
+      "old_glb_sha256": "d6ec8fe234446892b13a16ef8f44dd553b39c36948ea63da384afac28f758e6c",
+      "new_glb_sha256": "7b19a443f7121031dd9cb5201025852407c949e9bc8e590bcab84da09a3f989f",
+      "changed_missing_factors": 19,
+      "geometry_binary_unchanged": true,
+      "non_colour_json_unchanged": true
+    },
+    {
+      "station_code": "PVU",
+      "corrected_archive": "coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/PVU_coastal_station_colour_v02.glb.zip",
+      "source_blend_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "old_archive_sha256": "e07716b5cfc74c0d245b67d3699f4648f1e392e636340464cff9dd3a38991a3c",
+      "new_archive_sha256": "512094476bcb30f0ae3041f30a8d565b0c2fa668d6b6e023ef6c84331f6f171c",
+      "old_glb_sha256": "aeddd3fa46c2a49437c93c6393a7a7f59abf19ffd4101d514266c4510cb0c964",
+      "new_glb_sha256": "979a5b2799cc8378a9be0c0933b8bfbbafad607b0c3d707852f56ea249739d56",
+      "changed_missing_factors": 22,
+      "geometry_binary_unchanged": true,
+      "non_colour_json_unchanged": true
+    }
+  ],
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip",
+      "bytes": 5957192,
+      "sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/COLOUR_QA.json",
+      "bytes": 17464,
+      "sha256": "1ad2f915bf787d17bc933a99e108b6496610dee7d3e54c5bdd9b7e98b5730178"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/SOURCE_MATERIALS.json",
+      "bytes": 19460,
+      "sha256": "5342587f783553f0b55f8c045897ce457d2c09c3985821eed45084837a44c0d5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/ORIGINAL_EXPORT_QA.json",
+      "bytes": 1300,
+      "sha256": "dc45d18f01678c70601ddabedf37ea2b84a40fd1ce050a6035c7f6c16c871c91"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/EVA_final/PATCH_SOURCE.py",
+      "bytes": 6281,
+      "sha256": "00ffd427cfb35692eb3d1936e4ae49916f82488e1036a31e042203a8dd8a8394"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/PVU_coastal_station_colour_v02.glb.zip",
+      "bytes": 9120895,
+      "sha256": "512094476bcb30f0ae3041f30a8d565b0c2fa668d6b6e023ef6c84331f6f171c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/COLOUR_QA.json",
+      "bytes": 19694,
+      "sha256": "86545ce1079911139e6f2635a9d0deff7b704dacfdf6a92b83204b60b134e997"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/SOURCE_MATERIALS.json",
+      "bytes": 21757,
+      "sha256": "96838738018863621a31fdca40a9619c0691da6de7aea841ceda94f6a643ae0d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/ORIGINAL_EXPORT_QA.json",
+      "bytes": 1315,
+      "sha256": "e74216cd02ff2dc3910335e1d53a6cd4dd91c65ac218148a190474b30023da58"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/PVU_final/PATCH_SOURCE.py",
+      "bytes": 6281,
+      "sha256": "00ffd427cfb35692eb3d1936e4ae49916f82488e1036a31e042203a8dd8a8394"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/OPEN_CORRECTED_EXPORTS_BATCH_02.md",
+      "bytes": 1010,
+      "sha256": "0094a0504cab0e50163943d7f47e79b0b230c1123e71fb15312d5cc2a4b45ed6"
+    }
+  ],
+  "retained_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/EVA_coastal_station_v01.blend",
+      "bytes": 10032496,
+      "sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/RENDER_PROVENANCE.json",
+      "bytes": 2463,
+      "sha256": "e7ade201882073ba1b44dcb3ec00c3bb31d57e963361e42b42d8506273ade959"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/04_facade_and_approach.png",
+      "bytes": 1250905,
+      "sha256": "9b6180e0578afc7f4fa95685041fa8b2ab7f9166a2fc62d1e80bf44b19653bad"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/01_full_mapped_layout.png",
+      "bytes": 1038549,
+      "sha256": "623190e9a866c341aa19c5258ad714a2dedd5c5f0032834e938134dc127e771c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/03_platform_track_details.png",
+      "bytes": 1192160,
+      "sha256": "8248af4d0f4f4e2268870f923b0fe583774140e662f6442fcf1daf43ad2560c6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/eva/renders/05_ticket_interior.png",
+      "bytes": 1365375,
+      "sha256": "b04bc85a6960773ae8eb001a118b93e20e4c08a1d027a8ebb0f3320ce63df0df"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/pvu/PVU_coastal_station_v01.blend",
+      "bytes": 15601682,
+      "sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/pvu/RENDER_PROVENANCE.json",
+      "bytes": 2489,
+      "sha256": "423d1039f1adc4a7d9a014fea39e2414f6aeb73af753815bbb78f67c5dd17028"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/pvu/renders/04_facade_and_approach.png",
+      "bytes": 1155391,
+      "sha256": "ec368bae249f99e00950d533f5810f0fefc873e3dec51c07576007e2c7b4f2e9"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/pvu/renders/01_full_mapped_layout.png",
+      "bytes": 1039144,
+      "sha256": "482add28414e08e8a3c680210498ef0a9065cf6fe0905d03bddd07398f91bdf7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/pvu/renders/03_platform_track_details.png",
+      "bytes": 1414727,
+      "sha256": "a7c7e6c3ba0f12cdb8ceadffb424e206174021641c238d2a1374468d2b9a7841"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/pvu/renders/05_ticket_interior.png",
+      "bytes": 1407866,
+      "sha256": "6d15e680d262039076b0e501b1abe9dcc18df512f85479c4303d216b807174da"
+    }
+  ],
+  "preservation": "All retained native scenes, renders and original export archives remain unchanged. Do not copy or rewrite their accepted manifests.",
+  "freeze_rule": "All allowlisted new files are immutable; future corrections use a new directory/manifest."
+}

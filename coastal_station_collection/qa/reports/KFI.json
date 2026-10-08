@@ -1,0 +1,191 @@
+{
+  "station_code": "KFI",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/revision_03/kfi with portable_colour_revision_02",
+  "manifest_sha256": "41ef6f0e241c9485d7cd264d365418651fa5447c4fd89a145b99bf03db7365bc",
+  "portable_revision_manifest": "middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "portable_revision_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "blend_sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd",
+  "export_sha256": "485ab934f56b5024ce25afbdbd22a5d087b8438967b05871ca4cf40ad6aa68f3",
+  "export_zip_sha256": "21eab2a71cfae0cbabcb6bb15067c0704135080f863dadb7faec7ee585d3e621",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/KFI_coastal_station_v01.blend",
+      "bytes": 7891406,
+      "sha256": "f2001563f7a965d1fd07b524c393b43612efff31081883f1f593a72b572bc6bd"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/BUILD_QA.json",
+      "bytes": 2657,
+      "sha256": "a89b4ccdc0a4d1682621eae4f9c94dd3a86142e7c73e0e8d5e09949ff8bdc506"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/EXPORT_QA.json",
+      "bytes": 1315,
+      "sha256": "2a0117894d509027aa26ef6b14a1abe8a7a484a18435f6686e2cffe611058f61"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/RENDER_PROVENANCE.json",
+      "bytes": 2676,
+      "sha256": "31efd66f14506a4d9400f7bacb3a37c60ac9ccd076c0b22254d2fdaaef767a3d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 11348,
+      "sha256": "8e0ddfd9e9161ff0320d4f7e59af630c2b7113772d4d4a27c7f86f2dc4f12ee1"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/05_ticket_interior.png",
+      "bytes": 1400761,
+      "sha256": "36abc1b6de3c2d30287c79b9db65bd0deaac7bb38b64660df98b91ac864a7ae4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/04_facade_and_approach.png",
+      "bytes": 1256390,
+      "sha256": "64a37eeee30e47d5de5a819f333ed60515d561c51904add7356df6245085ed17"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/01_full_mapped_layout.png",
+      "bytes": 1040363,
+      "sha256": "cbb1773f177cf6b0ae6ea66e585a3ff351c3d4af88747535e936d7248d2e4ad7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/03_platform_track_details.png",
+      "bytes": 1227026,
+      "sha256": "d0b13fef803297a69023e11798524830e256a5f618899d02c5181da0cc374d96"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/mapped_geometry.json",
+      "bytes": 126061,
+      "sha256": "b9053172d0c87dcb4ccaac1bbf80b0ce78bf0ce3783e64acbe64086af0db8b27"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/adopted_geometry.json",
+      "bytes": 91162,
+      "sha256": "362fb1d8ba1e31efccec23fcc0007995cca471c39c52d406dc5651d28e434586"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/station_nameboard.png",
+      "bytes": 19245,
+      "sha256": "e9858fafbcbeb94b089ace8a928740e9c1fb62df704642f815abca2bfb80ab92"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/nameboard_text.json",
+      "bytes": 395,
+      "sha256": "9e61233799c9f9cdf5a600da359880e5bc2fc2a5af80fef281832c65fe0df05a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/visual_evidence.json",
+      "bytes": 3854,
+      "sha256": "51436fb5dfdea1c368e905b8d439394c39f061b1f83a9e902eff47d310d18189"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/build_station_used.py",
+      "bytes": 60694,
+      "sha256": "e1ee817e560e633a34abdb7e7b549ecf2b36f7d1d976c8a27fe6d4d4828f5a0e"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/reference_spec.json",
+      "bytes": 675,
+      "sha256": "cdfc83e9de35c58cdea68eb168bac0e547838019a0812b601b4d8b82a0b78e7d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/ARCHITECTURE_REVISION.json",
+      "bytes": 1750,
+      "sha256": "2f53b6f6ec98ea853087b69d0a62871b256e3917218f0874a27d2fb3e4818043"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/repair_architecture_used.py",
+      "bytes": 5394,
+      "sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/prior_canopy_revision.json",
+      "bytes": 4854,
+      "sha256": "1bba60a08d1980e692d8a4520b954bb2257be0cdc90fdf025f873c4a36f15f48"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/prior_canopy_revision_used.py",
+      "bytes": 6429,
+      "sha256": "9770e9f0e8d4772a909eb04b313bfac786c0537e24701750d6e6abded7860dca"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/source/camera_revision_input.json",
+      "bytes": 722,
+      "sha256": "b571efdf33ab79e412cf25bb8f25464ec1787a1605e317d250bfd57b428bf46c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KFI/KFI_coastal_station_colour_v02.glb.zip",
+      "bytes": 4771865,
+      "sha256": "21eab2a71cfae0cbabcb6bb15067c0704135080f863dadb7faec7ee585d3e621"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KFI/COLOUR_QA.json",
+      "bytes": 19754,
+      "sha256": "41b003a30fa0510375811c37e3ebb48c194ab161d4cb807a9786ef406a526465"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KFI/SOURCE_MATERIALS.json",
+      "bytes": 21800,
+      "sha256": "4ded80ba97e6a8e1c6381c02384b0eb774e9b0d8a55f0114eca8e8baf435ae4d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KFI/ORIGINAL_EXPORT_QA.json",
+      "bytes": 1315,
+      "sha256": "2a0117894d509027aa26ef6b14a1abe8a7a484a18435f6686e2cffe611058f61"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/portable_colour_revision_02/KFI/PATCH_SOURCE.py",
+      "bytes": 6281,
+      "sha256": "00ffd427cfb35692eb3d1936e4ae49916f82488e1036a31e042203a8dd8a8394"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/05_ticket_interior.png",
+      "bytes": 1400761,
+      "sha256": "36abc1b6de3c2d30287c79b9db65bd0deaac7bb38b64660df98b91ac864a7ae4"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/04_facade_and_approach.png",
+      "bytes": 1256390,
+      "sha256": "64a37eeee30e47d5de5a819f333ed60515d561c51904add7356df6245085ed17"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/01_full_mapped_layout.png",
+      "bytes": 1040363,
+      "sha256": "cbb1773f177cf6b0ae6ea66e585a3ff351c3d4af88747535e936d7248d2e4ad7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_03/kfi/renders/03_platform_track_details.png",
+      "bytes": 1227026,
+      "sha256": "d0b13fef803297a69023e11798524830e256a5f618899d02c5181da0cc374d96"
+    }
+  ],
+  "checks": {
+    "manifest": "Every native frozen asset hash/size checked; additive color cohort immutable allowlist independently verified. Original portable ZIP is historical; corrected archive selected.",
+    "source_visual": "Photo-specific rose sloping veranda, peach facade and turquoise accents restored. High canopy/support tops are refined above the public walking envelope. Public circulation uses the practical bent route through the compact room plan. All4 exact selected frames independently source-reviewed and render lineage verified.",
+    "layout": "2 reported faces versus2 physical bodies;4 adopted route segments retained. Valid actual platform polygons and bridge footprints remain clear of tracks. Enclosed-building/raised-body edge overlap is9.467m\u00b2, disclosed with checked public clearance.",
+    "circulation": "46 independent current export-triangle paths/support probes pass. Actual ramp and doorway landings are continuous; applicable bridge last-tread and deck tops are8.600m. Optional straight booking-room traces through ordinary seating are excluded when the real central public route is clear.",
+    "resources": "Exact final packed native scene metric/finite/bounds/dependencies pass; no rolling-stock name candidates.",
+    "portable": "Corrected archive independently validates finite geometry, accessor/index/buffer bounds and embedded resources. Authored absent RGB fallbacks match exact source; BIN, transforms, explicit factors/textures and alpha semantics preserved."
+  },
+  "evidence_reports": [
+    "KFI_latest_export_geometry.json",
+    "KFI_latest_resources.json",
+    "KFI_final_layout.json",
+    "MIDDLE_FINAL_FOUR_portable.json",
+    "MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+    "KFI_portable_colour_revision_02.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/KFI_f2001563_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a survey, current operating inventory or engineering certification.",
+    "Unseen room details, precise dimensions and service assignments remain reconstructed and disclosed.",
+    "Targeted paths/support samples do not exhaustively certify every pairwise collision.",
+    "Portable colors approximate procedural Blender shading; procedural noise/bump is not baked.",
+    "The9.467m\u00b2 shallow outer platform/building abutment is a map/enclosure reconciliation limit, not a claim of exact non-overlap."
+  ],
+  "release_status": "Ready for reviewed publication with corrected portable archive."
+}

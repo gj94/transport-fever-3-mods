@@ -1,0 +1,27 @@
+{
+  "station": "EVA",
+  "publication_mode": "first_main_native_and_corrected_export",
+  "source_path": "coastal_station_collection/middle/revision_03/eva/EVA_coastal_station_v01.blend",
+  "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+  "source_manifest_path": "coastal_station_collection/middle/revision_03/eva/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "26079ccbd1cd3563ea16e5c41d4d3e958b39eda658df822997420dddbfb8aee5",
+  "native_gate_path": "coastal_station_collection/qa/reports/EVA.json",
+  "native_gate_sha256": "7c05c5b6d29b48d9c4914130f36c3b890c352c0b8728cffdc13732781b37436c",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_02_ACCEPTED.json",
+  "colour_gate_sha256": "94f256a89444863804df420f78797906e1540e189c7b7dab9c679acd0b224de6",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_02.json",
+  "colour_cohort_manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073",
+  "corrected_glb_sha256": "7b19a443f7121031dd9cb5201025852407c949e9bc8e590bcab84da09a3f989f",
+  "superseded_archive_sha256": "404976edcf8da3b08f5c4108d20526f4d9061214e2e088fd9e722204edf045b5",
+  "superseded_archive_disposition": "Excluded from first main; supplied solely in optional historical-only manifest.",
+  "retained_images": [],
+  "limitations": [
+    "Visual reconstruction, not a survey, current operating inventory or engineering certification.",
+    "Unseen room details, precise dimensions and service assignments remain reconstructed and disclosed.",
+    "Targeted paths/support samples do not exhaustively certify every pairwise collision.",
+    "Portable colors approximate procedural Blender shading; procedural noise/bump is not baked."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

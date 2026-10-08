@@ -1,0 +1,42 @@
+{
+  "base_blend_sha256": "b532c71519330a93a25503148793d91842cd39e36c3a4ff9dfcec11bc002a0d0",
+  "repaired_blend_sha256": "57aa0f85043181c5e624836ec6c480c28d5c5355befb1fd514a98284121c1016",
+  "repair_script_sha256": "6cf0859c768f55932798a36059f8fb079ac1b3a4bb763c6bcc280b9de9d50f5a",
+  "camera04_before": {
+    "location": [
+      17.600000381469727,
+      -38.400001525878906,
+      10.017999649047852
+    ],
+    "rotation": [
+      1.4120712280273438,
+      4.217135440853781e-08,
+      -0.4750106930732727
+    ],
+    "lens": 38.0
+  },
+  "camera04_after": {
+    "location": [
+      28.0,
+      -68.0,
+      6.5
+    ],
+    "rotation": [
+      1.5433324575424194,
+      2.797946763166692e-08,
+      -0.21032588183879852
+    ],
+    "lens": 38.0
+  },
+  "geometry_changes": [],
+  "reason": "CRY revision02 changes only camera04 to face the existing three-pier gateway from its approach side, with the station beyond. The source is the actual built-site PIB photograph from May2025; all geometry and materials remain unchanged.",
+  "retained_views": [
+    "01_full_mapped_layout.png",
+    "03_platform_track_details.png",
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "04_facade_and_approach.png"
+  ],
+  "source_geometry_note": "Track, platform, room and furnishing geometry unchanged. KFI only adjusts high canopy/support attachment; EVA/CRY are camera-only."
+}

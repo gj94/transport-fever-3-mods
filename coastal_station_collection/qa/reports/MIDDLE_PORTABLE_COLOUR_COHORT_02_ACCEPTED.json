@@ -1,0 +1,47 @@
+{
+  "status": "accepted",
+  "scope": "Two final additive portable RGB revisions, EVA/PVU. Native/source/gallery and station geometry gates remain individually required.",
+  "cohort_manifest": "middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_02.json",
+  "cohort_manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb",
+  "station_count": 2,
+  "new_file_count": 11,
+  "retained_asset_count": 12,
+  "validator_sha256": "51b131ac7e34c1cd490065add62998354130c0aaf1c743b25fb54c1516f74db0",
+  "controls": "qa/reports/material_revision_validator_controls.json",
+  "checks": [
+    "Every frozen new and retained file hash and size independently verified.",
+    "Each exact-source palette and unchanged BIN/non-color/alpha proof bound to the independently checked pair.",
+    "Existing explicit factors, texture-backed colors, alpha modes and transformations unchanged."
+  ],
+  "limitations": [
+    "Portable solid base colors approximate Blender procedural texture/bump appearance."
+  ],
+  "stations": [
+    {
+      "station": "EVA",
+      "source_blend_sha256": "9d713a698420cb3b253c679398a34ffcfd95c24c3fa7e1375a9fd2abb927fed0",
+      "colour_qa": "middle/portable_colour_revision_02/EVA_final/COLOUR_QA.json",
+      "colour_qa_sha256": "1ad2f915bf787d17bc933a99e108b6496610dee7d3e54c5bdd9b7e98b5730178",
+      "corrected_zip": "middle/portable_colour_revision_02/EVA_final/EVA_coastal_station_colour_v02.glb.zip",
+      "corrected_zip_sha256": "dd632fbfe94d3284fe76890a25cf52d8f514b696f1f1615e63e40f84caa1c073",
+      "corrected_glb_sha256": "7b19a443f7121031dd9cb5201025852407c949e9bc8e590bcab84da09a3f989f",
+      "independent_report": "qa/reports/EVA_portable_colour_revision_02.json",
+      "status": "portable_colour_revision_accepted",
+      "revision_manifest": "middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_02.json",
+      "revision_manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb"
+    },
+    {
+      "station": "PVU",
+      "source_blend_sha256": "61372dcc20823ef141ff17294d77f310fc51de84b39a1172c50a7be22ec36fd4",
+      "colour_qa": "middle/portable_colour_revision_02/PVU_final/COLOUR_QA.json",
+      "colour_qa_sha256": "86545ce1079911139e6f2635a9d0deff7b704dacfdf6a92b83204b60b134e997",
+      "corrected_zip": "middle/portable_colour_revision_02/PVU_final/PVU_coastal_station_colour_v02.glb.zip",
+      "corrected_zip_sha256": "512094476bcb30f0ae3041f30a8d565b0c2fa668d6b6e023ef6c84331f6f171c",
+      "corrected_glb_sha256": "979a5b2799cc8378a9be0c0933b8bfbbafad607b0c3d707852f56ea249739d56",
+      "independent_report": "qa/reports/PVU_portable_colour_revision_02.json",
+      "status": "portable_colour_revision_accepted",
+      "revision_manifest": "middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_02.json",
+      "revision_manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb"
+    }
+  ]
+}

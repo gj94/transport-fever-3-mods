@@ -1,0 +1,28 @@
+{
+  "station": "KVU",
+  "publication_mode": "first_main_native_and_corrected_export",
+  "source_path": "coastal_station_collection/middle/kvu/KVU_coastal_station_v01.blend",
+  "source_blend_sha256": "f27bbec440313bd1190cc88cb582ecdc7a6d2d8e8d25aabfd670dccdc80938bd",
+  "source_manifest_path": "coastal_station_collection/middle/kvu/FROZEN_MANIFEST.json",
+  "source_manifest_sha256": "52961c5599889d821abe241e3901e884eb366aeaa041082f7134ad0494eeda07",
+  "native_gate_path": "coastal_station_collection/qa/reports/KVU.json",
+  "native_gate_sha256": "952c358222f85198e0fe6aa98d98cdc42220483f52816bc6a288d384ad807d17",
+  "colour_gate_path": "coastal_station_collection/qa/reports/MIDDLE_PORTABLE_COLOUR_COHORT_01_ACCEPTED.json",
+  "colour_gate_sha256": "ac3790297a58ec11f77f72889dc0ba5d0c191e72608a3e66d534cbe4ccd316d1",
+  "colour_cohort_manifest_path": "coastal_station_collection/middle/portable_colour_revision_02/REPLACEMENT_MANIFEST_BATCH_01.json",
+  "colour_cohort_manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
+  "corrected_archive_path": "coastal_station_collection/middle/portable_colour_revision_02/KVU/KVU_coastal_station_colour_v02.glb.zip",
+  "corrected_archive_sha256": "41992ff8b90174286cbf0c1af014c5acd96b95448f692b8e0bf9f02ddba0d256",
+  "corrected_glb_sha256": "c35b3015d3931885fae96c79b218507f83e234ffd928822ceb6f717d2b580299",
+  "superseded_archive_sha256": "abd764c017552738e9ec3f450fcbcc65196b099e4d67dac1cdb40254e41c9cae",
+  "superseded_archive_disposition": "Excluded from first main; supplied solely in optional historical-only manifest.",
+  "retained_images": [],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Unseen interiors, dimensions and service assignments remain disclosed reconstructions.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Some procedural Blender surface effects use base-colour portable fallbacks.",
+    "Mapped building envelope overlaps188.30m\u00b2 of the reconstructed raised platform body; the nominal body width is not unobstructed walking width. The1.3m rear veranda uses high wall brackets and inward door leaves; this is a disclosed reconstruction, not an accessibility-compliance claim."
+  ],
+  "source_scripts": "Provenance snapshots, not a tested standalone rebuild."
+}

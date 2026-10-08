@@ -1,0 +1,81 @@
+{
+  "station": "AMY",
+  "blend_file": "AMY_coastal_station_v01.blend",
+  "blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "camera_location": [
+        -20.0,
+        24.0,
+        3.0
+      ],
+      "camera_rotation": [
+        1.5512868165969849,
+        8.740614276803171e-08,
+        3.1415927410125732
+      ],
+      "sha256": "86b57883c4a7455e3e84d0f5e1d57aa4b3c3af9ffbecddf5c81dd9687a1c28f1",
+      "render_seconds": 16.240713119506836
+    },
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "4caca45ec226b2b93b27a4ae713874e63a8153e4d6bfb69435157d8d00814acc",
+      "render_seconds": 13.898571252822876
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "camera_location": [
+        -25.040000915527344,
+        1.399999976158142,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.1561154127120972,
+        6.51401421691844e-08,
+        -1.1590733528137207
+      ],
+      "sha256": "1d2e23e4b8fd8c72f40a4afa709741c67f1d338994805d3a8b6dc9642e0aa5e5",
+      "render_seconds": 21.45391035079956
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "75f64c1cf537b8398bba224fb13adcdf062998fe33fd36f37d471973bc0f7824",
+      "camera_location": [
+        125.7654037475586,
+        -9.061470031738281,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "cf9aa9cf31de6a19896d36aa754d5e2def44ef2ff46db37432436406ebc6c304",
+      "render_seconds": 18.095345735549927
+    }
+  ]
+}
