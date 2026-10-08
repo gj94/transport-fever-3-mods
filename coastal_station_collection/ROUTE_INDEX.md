@@ -8,7 +8,7 @@ Route order and station-centre distances follow the source register. Unresolved 
 |---|---|---|---|
 | 01 | [ERS · Ernakulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ers) | 0.00 km | Previously published rich-v02 model |
 | 02 | [TNU · Tirunettur](#station-tnu) | Unresolved chainage | Pending; closed halt, historical treatment only |
-| 03 | [KUMM · Kumbalam](#station-kumm) | 7.71 km | Pending |
+| 03 | [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM) | 7.71 km | Backup checkpoint; final review pending |
 | 04 | [AROR · Aroor](#station-aror) | 12.81 km | Pending |
 | 05 | [EZP · Ezhupunna](#station-ezp) | 18.23 km | Pending |
 | 06 | [TUVR · Turavur](#station-tuvr) | 23.30 km | Pending |
@@ -83,9 +83,13 @@ Tirunettur was officially closed from 10 July 2017. Any historical reconstructio
 
 ## Station KUMM
 ### 03. Kumbalam (KUMM)
-Pending. 7.71 km.
+Backup checkpoint; final review pending. 7.71 km.
 
-Build: pending. QA: pending.
+[![KUMM: Kumbalam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM/renders/02_Entrance_architecture.png)
+
+[Open station files](https://github.com/gj94/transport-fever-3-mods/tree/34233cc44e35b4eabec15bf2b7f584863c448092/coastal_station_collection/north/KUMM)
+
+Build: backed up. QA: scene/export technical checks and previews 01–04 passed; final pointwork proof pending.
 
 ## Station AROR
 ### 04. Aroor (AROR)

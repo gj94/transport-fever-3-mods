@@ -33,12 +33,15 @@
       "name": "Kumbalam",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "7.71",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "scene/export technical checks and previews 01\u201304 passed; final pointwork proof pending",
+      "backup_commit": "34233cc44e35b4eabec15bf2b7f584863c448092",
       "main_commit": null,
       "station_path": "coastal_station_collection/north/KUMM",
-      "preview_paths": [],
+      "preview_paths": [
+        "coastal_station_collection/north/KUMM/renders/02_Entrance_architecture.png",
+        "coastal_station_collection/north/KUMM/renders/04_Reconstructed_interior.png"
+      ],
       "station_code": "KUMM"
     },
     {
