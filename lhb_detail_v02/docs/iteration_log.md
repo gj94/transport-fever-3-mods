@@ -58,3 +58,11 @@ Completed1400×840 uniform512 in1429.8seconds after recovering a transport inter
 ## Current-source final 2A exterior and recovery, 8 October 2026 01:00 UTC
 
 Completed1400×840 uniform512 exterior inspected after environment replacement. Nine saloon windows,2A markings, shell/crown, HVAC, doors and underframe remain coherent; no newly visible defect. Eight current-source final frames now verified. Previous renderer session was lost during SL first batch; completed1A,CC,3A,2A pairs remain intact. Resumed gallery from actual completed hashes, preserving all finished frames and restarting only interrupted SL batch. Continue21-view gallery past requested minimum01:00UTC window.
+
+## Current-source final SL interior, 8 October 2026 01:23 UTC
+
+Actual1400×840 uniform512 completed in1344.1seconds and reviewed. Open non-AC arrangement, ceiling fans, ladder rails and berth supports are coherent without a newly observed collision. As with other sleeper corridor cameras, this is layout proof rather than detailed berth-face evidence. Source unchanged. SL exterior follows;9/21finals complete.
+
+## Current-source final SL exterior, 8 October 2026 01:34 UTC
+
+Actual1400×840 uniform512 exterior completed614.1seconds and inspected. Paired narrow barred windows and ventilated non-AC roof differentiate SL from the air-conditioned types; the livery, doors, running gear and underfloor equipment remain coherent without a newly visible silhouette defect. Ten final frames complete. 2S interior is active.

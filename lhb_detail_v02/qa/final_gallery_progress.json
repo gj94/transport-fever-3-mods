@@ -47,9 +47,7 @@
     {
       "variant": "2A",
       "view": "exterior"
-    }
-  ],
-  "pending": [
+    },
     {
       "variant": "SL",
       "view": "interior"
@@ -57,7 +55,9 @@
     {
       "variant": "SL",
       "view": "exterior"
-    },
+    }
+  ],
+  "pending": [
     {
       "variant": "2S",
       "view": "interior"
@@ -104,7 +104,7 @@
     }
   ],
   "active": {
-    "variant": "SL",
+    "variant": "2S",
     "view": "interior"
   }
 }
