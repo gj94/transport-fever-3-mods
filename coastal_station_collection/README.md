@@ -10,9 +10,7 @@ The packed Blender scenes and verified portable exchange exports are the primary
 
 Reviewed Blender/geometry set: 55 active-station entries and 1 closed historical entry. Recovery-only checkpoints are listed separately.
 
-Editable candidate sources saved: **52/52 active stations**, plus 1 separately labelled historical entry. Saved candidates can still require corrections, final images, portable exports and independent review; this is separate from remote recovery backups and reviewed releases.
-
-New active stations with Blender/geometry review: **52/52**. Existing ERS, TVC and NCJ remain available. Historical TNU is tracked separately.
+All **52 new active stations and the separately labelled historical TNU entry** are independently reviewed and published on main. They contain **249 reviewed preview images and 54 current portable GLBs**, including TNU’s two deliberately separate exports. Existing ERS, TVC and NCJ remain available.
 
 ### [ERS · Ernakulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ers)
 
@@ -26,7 +24,7 @@ Previously published rich-v02 model.
 
 Published Blender model; corrected portable export available; closed halt, historical treatment only. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/revision_03/TNU/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/TNU/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/TNU/README.md).
 
 
 ### [KUMM · Kumbalam](https://github.com/gj94/transport-fever-3-mods/tree/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM)
@@ -35,7 +33,7 @@ Published Blender model; corrected portable export available; closed halt, histo
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/897fcfb3bf639df21b9e2bb40319c507e87a8a7f/coastal_station_collection/north/revision_02/KUMM/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/KUMM/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/KUMM/README.md).
 
 
 ### [AROR · Aroor](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR)
@@ -44,7 +42,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/AROR/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/AROR/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/AROR/README.md).
 
 
 ### [EZP · Ezhupunna](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP)
@@ -53,7 +51,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/north/EZP/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/EZP/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/EZP/README.md).
 
 
 ### [TUVR · Turavur](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR)
@@ -62,7 +60,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/north/TUVR/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/TUVR/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/TUVR/README.md).
 
 
 ### [VAY · Vayalar](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY)
@@ -71,7 +69,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/VAY/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/VAY/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/VAY/README.md).
 
 
 ### [SRTL · Cherthala](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL)
@@ -80,25 +78,25 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/SRTL/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/SRTL/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/SRTL/README.md).
 
 
-### [TRVZ · Tiruvizha](https://github.com/gj94/transport-fever-3-mods/tree/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TRVZ)
+### [TRVZ · Tiruvizha](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TRVZ)
 
-[![TRVZ: Tiruvizha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TRVZ/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TRVZ/renders/02_Entrance_architecture.png)
+[![TRVZ: Tiruvizha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TRVZ/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TRVZ/renders/02_Entrance_architecture.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TRVZ/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TRVZ/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/TRVZ/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/TRVZ/README.md).
 
 
-### [MAKM · Mararikulam](https://github.com/gj94/transport-fever-3-mods/tree/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/MAKM)
+### [MAKM · Mararikulam](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/MAKM)
 
-[![MAKM: Mararikulam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/MAKM/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/MAKM/renders/02_Entrance_architecture.png)
+[![MAKM: Mararikulam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/MAKM/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/MAKM/renders/02_Entrance_architecture.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/MAKM/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/MAKM/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/MAKM/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/MAKM/README.md).
 
 
 ### [KAVR · Kalavur](https://github.com/gj94/transport-fever-3-mods/tree/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR)
@@ -107,7 +105,7 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/71de28140c525032670dfc4f022d7a5caf54ba3c/coastal_station_collection/north/KAVR/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/KAVR/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/KAVR/README.md).
 
 
 ### [TMPY · Tumboli](https://github.com/gj94/transport-fever-3-mods/tree/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/north/TMPY)
@@ -116,7 +114,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/north/TMPY/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/TMPY/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/TMPY/README.md).
 
 
 ### [ALLP · Alappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP)
@@ -125,7 +123,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/ALLP/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/ALLP/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/ALLP/README.md).
 
 
 ### [PNPR · Punnapra](https://github.com/gj94/transport-fever-3-mods/tree/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/north/PNPR)
@@ -134,7 +132,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/north/PNPR/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/PNPR/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/PNPR/README.md).
 
 
 ### [AMPA · Ambalappuzha](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA)
@@ -143,25 +141,25 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/GALLERY.md). [Accuracy note](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/north/AMPA/PLATFORM_EDGE_CLARIFICATION.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/AMPA/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/AMPA/README.md).
 
 
-### [TZH · Takazhi](https://github.com/gj94/transport-fever-3-mods/tree/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TZH)
+### [TZH · Takazhi](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TZH)
 
-[![TZH: Takazhi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TZH/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TZH/renders/02_Entrance_architecture.png)
+[![TZH: Takazhi actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TZH/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TZH/renders/02_Entrance_architecture.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/TZH/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/TZH/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/TZH/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/TZH/README.md).
 
 
-### [KVTA · Karuvatta](https://github.com/gj94/transport-fever-3-mods/tree/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KVTA)
+### [KVTA · Karuvatta](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KVTA)
 
-[![KVTA: Karuvatta actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KVTA/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KVTA/renders/02_Entrance_architecture.png)
+[![KVTA: Karuvatta actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KVTA/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KVTA/renders/02_Entrance_architecture.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KVTA/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KVTA/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/KVTA/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/KVTA/README.md).
 
 
 ### [HAD · Haripad](https://github.com/gj94/transport-fever-3-mods/tree/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/north/HAD)
@@ -170,25 +168,25 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/north/HAD/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/HAD/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/HAD/README.md).
 
 
-### [CHPD · Cheppad](https://github.com/gj94/transport-fever-3-mods/tree/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/CHPD)
+### [CHPD · Cheppad](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/CHPD)
 
-[![CHPD: Cheppad actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/CHPD/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/CHPD/renders/02_Entrance_architecture.png)
+[![CHPD: Cheppad actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/CHPD/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/CHPD/renders/02_Entrance_architecture.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/CHPD/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/CHPD/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/CHPD/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/CHPD/README.md).
 
 
-### [KYJ · Kayamkulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KYJ)
+### [KYJ · Kayamkulam Junction](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KYJ)
 
-[![KYJ: Kayamkulam Junction actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KYJ/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KYJ/renders/02_Entrance_architecture.png)
+[![KYJ: Kayamkulam Junction actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KYJ/renders/02_Entrance_architecture.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KYJ/renders/02_Entrance_architecture.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/KYJ/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/KYJ/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/c7fc44f28441ce2bb4c1bef387e3096d45be5710/coastal_station_collection/north/portable_colour_revision_02/KYJ/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/north/portable_colour_revision_02/KYJ/README.md).
 
 
 ### [OCR · Ochira](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr)
@@ -197,16 +195,16 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/ocr/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/ocr/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/ocr/CURRENT_PORTABLE_EXPORT.md).
 
 
-### [KPY · Karunagapalli](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kpy)
+### [KPY · Karunagapalli](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kpy)
 
-[![KPY: Karunagapalli actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kpy/renders/02_station_and_platforms.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kpy/renders/02_station_and_platforms.png)
+[![KPY: Karunagapalli actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kpy/renders/02_station_and_platforms.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kpy/renders/02_station_and_platforms.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kpy/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kpy/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kpy/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kpy/CURRENT_PORTABLE_EXPORT.md).
 
 
 ### [STKT · Sasthankotta](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt)
@@ -215,7 +213,7 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/middle/stkt/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/stkt/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/stkt/CURRENT_PORTABLE_EXPORT.md).
 
 
 ### [MQO · Munroturuttu](https://github.com/gj94/transport-fever-3-mods/tree/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo)
@@ -224,16 +222,16 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8daf8d9f9aa9bc2b8e83c537780ae4b1dfc8d7be/coastal_station_collection/middle/revision_02/mqo/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/mqo/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/mqo/CURRENT_PORTABLE_EXPORT.md).
 
 
-### [PRND · Perinad](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/prnd)
+### [PRND · Perinad](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/prnd)
 
-[![PRND: Perinad actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/prnd/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/prnd/renders/01_full_mapped_layout.png)
+[![PRND: Perinad actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/prnd/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/prnd/renders/01_full_mapped_layout.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/prnd/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/prnd/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/prnd/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/prnd/CURRENT_PORTABLE_EXPORT.md).
 
 
 ### [QLN · Kollam Junction](https://github.com/gj94/transport-fever-3-mods/tree/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln)
@@ -242,7 +240,7 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8f953362f49d8f6c86feff63b2c1ae715a1a89a0/coastal_station_collection/middle/revision_02/qln/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/qln/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/qln/CURRENT_PORTABLE_EXPORT.md).
 
 
 ### [IRP · Iravipuram](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp)
@@ -251,7 +249,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/middle/irp/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/irp/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/irp/CURRENT_PORTABLE_EXPORT.md).
 
 
 ### [MYY · Mayyanad](https://github.com/gj94/transport-fever-3-mods/tree/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy)
@@ -260,70 +258,70 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dafe306bbc90ed02f2d3305d1753b0d6b3f5d30a/coastal_station_collection/middle/revision_02/myy/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/myy/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/myy/CURRENT_PORTABLE_EXPORT.md).
 
 
-### [PVU · Paravur](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/pvu)
+### [PVU · Paravur](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/pvu)
 
-[![PVU: Paravur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/pvu/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/pvu/renders/01_full_mapped_layout.png)
+[![PVU: Paravur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/pvu/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/pvu/renders/01_full_mapped_layout.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/pvu/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/pvu/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/pvu/CURRENT_PORTABLE_EXPORT.md).
-
-
-### [KFI · Kappil](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/kfi)
-
-[![KFI: Kappil actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/kfi/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/kfi/renders/01_full_mapped_layout.png)
-
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/kfi/GALLERY.md).
-
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/kfi/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/pvu/CURRENT_PORTABLE_EXPORT.md).
 
 
-### [EVA · Edavai](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/eva)
+### [KFI · Kappil](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/kfi)
 
-[![EVA: Edavai actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/eva/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/eva/renders/01_full_mapped_layout.png)
+[![KFI: Kappil actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/kfi/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/kfi/renders/01_full_mapped_layout.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/eva/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/kfi/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/eva/CURRENT_PORTABLE_EXPORT.md).
-
-
-### [VAK · Varkala Sivagiri](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/vak)
-
-[![VAK: Varkala Sivagiri actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/vak/renders/02_station_and_platforms.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/vak/renders/02_station_and_platforms.png)
-
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/vak/GALLERY.md).
-
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_03/vak/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/kfi/CURRENT_PORTABLE_EXPORT.md).
 
 
-### [AMY · Akathumuri](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/amy)
+### [EVA · Edavai](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/eva)
 
-[![AMY: Akathumuri actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/amy/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/amy/renders/01_full_mapped_layout.png)
+[![EVA: Edavai actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/eva/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/eva/renders/01_full_mapped_layout.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/amy/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/eva/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/amy/CURRENT_PORTABLE_EXPORT.md).
-
-
-### [KVU · Kadakavur](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kvu)
-
-[![KVU: Kadakavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kvu/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kvu/renders/01_full_mapped_layout.png)
-
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kvu/GALLERY.md).
-
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/kvu/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/eva/CURRENT_PORTABLE_EXPORT.md).
 
 
-### [CRY · Chirayinkeezh](https://github.com/gj94/transport-fever-3-mods/tree/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/cry)
+### [VAK · Varkala Sivagiri](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/vak)
 
-[![CRY: Chirayinkeezh actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/cry/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/cry/renders/01_full_mapped_layout.png)
+[![VAK: Varkala Sivagiri actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/vak/renders/02_station_and_platforms.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/vak/renders/02_station_and_platforms.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/cry/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/vak/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/dae1fb4fe0779cbafa3f7d480a32011fbb96416f/coastal_station_collection/middle/revision_02/cry/CURRENT_PORTABLE_EXPORT.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_03/vak/CURRENT_PORTABLE_EXPORT.md).
+
+
+### [AMY · Akathumuri](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/amy)
+
+[![AMY: Akathumuri actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/amy/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/amy/renders/01_full_mapped_layout.png)
+
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/amy/GALLERY.md).
+
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/amy/CURRENT_PORTABLE_EXPORT.md).
+
+
+### [KVU · Kadakavur](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kvu)
+
+[![KVU: Kadakavur actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kvu/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kvu/renders/01_full_mapped_layout.png)
+
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kvu/GALLERY.md).
+
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/kvu/CURRENT_PORTABLE_EXPORT.md).
+
+
+### [CRY · Chirayinkeezh](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/cry)
+
+[![CRY: Chirayinkeezh actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/cry/renders/01_full_mapped_layout.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/cry/renders/01_full_mapped_layout.png)
+
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/cry/GALLERY.md).
+
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/middle/revision_02/cry/CURRENT_PORTABLE_EXPORT.md).
 
 
 ### [PGZ · Perunguzhi](https://github.com/gj94/transport-fever-3-mods/tree/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz)
@@ -332,16 +330,16 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/08b98c0d1503e2ea6859eef99e03363c34410987/coastal_station_collection/south/pgz/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/PGZ/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/PGZ/README.md).
 
 
-### [MQU · Murukkampuzha](https://github.com/gj94/transport-fever-3-mods/tree/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/mqu)
+### [MQU · Murukkampuzha](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/mqu)
 
-[![MQU: Murukkampuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png)
+[![MQU: Murukkampuzha actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/mqu/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/mqu/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/mqu/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/mqu/README.md).
 
 
 ### [KXP · Kaniyapuram](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp)
@@ -350,16 +348,16 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/revision_02/kxp/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/KXP/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/KXP/README.md).
 
 
-### [KZK · Kazhakuttam](https://github.com/gj94/transport-fever-3-mods/tree/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzk)
+### [KZK · Kazhakuttam](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzk)
 
-[![KZK: Kazhakuttam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzk/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzk/renders/02_STATION_ARCHITECTURE.png)
+[![KZK: Kazhakuttam actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzk/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzk/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzk/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzk/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzk/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzk/README.md).
 
 
 ### [VELI · Veli](https://github.com/gj94/transport-fever-3-mods/tree/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli)
@@ -368,25 +366,25 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/be3fa14b3722977028c9cf3b5611b44224865018/coastal_station_collection/south/veli/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/VELI/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/VELI/README.md).
 
 
-### [TVCN · Thiruvananthapuram North](https://github.com/gj94/transport-fever-3-mods/tree/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/tvcn)
+### [TVCN · Thiruvananthapuram North](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcn)
 
-[![TVCN: Thiruvananthapuram North actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/tvcn/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/tvcn/renders/02_STATION_ARCHITECTURE.png)
+[![TVCN: Thiruvananthapuram North actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcn/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcn/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/tvcn/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcn/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/TVCN/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/TVCN/README.md).
 
 
-### [TVP · Thiruvananthapuram Pettah](https://github.com/gj94/transport-fever-3-mods/tree/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvp)
+### [TVP · Thiruvananthapuram Pettah](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvp)
 
-[![TVP: Thiruvananthapuram Pettah actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvp/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvp/renders/02_STATION_ARCHITECTURE.png)
+[![TVP: Thiruvananthapuram Pettah actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvp/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvp/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvp/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvp/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvp/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvp/README.md).
 
 
 ### [TVC · Thiruvananthapuram Central](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/tvc)
@@ -395,22 +393,22 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Previously published rich-v02 model.
 
-### [TVCS · Thiruvananthapuram South](https://github.com/gj94/transport-fever-3-mods/tree/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvcs)
+### [TVCS · Thiruvananthapuram South](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcs)
 
-[![TVCS: Thiruvananthapuram South actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvcs/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvcs/renders/02_STATION_ARCHITECTURE.png)
+[![TVCS: Thiruvananthapuram South actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcs/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcs/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvcs/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcs/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/tvcs/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/tvcs/README.md).
 
 
-### [BRAM · Balaramapuram](https://github.com/gj94/transport-fever-3-mods/tree/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/bram)
+### [BRAM · Balaramapuram](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/bram)
 
-[![BRAM: Balaramapuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/bram/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/bram/renders/02_STATION_ARCHITECTURE.png)
+[![BRAM: Balaramapuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/bram/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/bram/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/bram/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/bram/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/BRAM/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/BRAM/README.md).
 
 
 ### [NYY · Neyyattinkara](https://github.com/gj94/transport-fever-3-mods/tree/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/south/nyy)
@@ -419,7 +417,7 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/south/nyy/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/NYY/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/NYY/README.md).
 
 
 ### [AMVA · Amaravila](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva)
@@ -428,16 +426,16 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/amva/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/AMVA/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/AMVA/README.md).
 
 
-### [DAVM · Dhanuvachapuram](https://github.com/gj94/transport-fever-3-mods/tree/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/davm)
+### [DAVM · Dhanuvachapuram](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/davm)
 
-[![DAVM: Dhanuvachapuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/davm/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/davm/renders/02_STATION_ARCHITECTURE.png)
+[![DAVM: Dhanuvachapuram actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/davm/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/davm/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/cdab62a6c4e4320de17525743f074b142db5244f/coastal_station_collection/south/davm/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/davm/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/DAVM/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/DAVM/README.md).
 
 
 ### [PASA · Parassala](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa)
@@ -446,7 +444,7 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/pasa/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/PASA/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/PASA/README.md).
 
 
 ### [KZTW · Kulitturai West](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw)
@@ -455,16 +453,16 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/kztw/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/KZTW/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/KZTW/README.md).
 
 
-### [KZT · Kulitturai](https://github.com/gj94/transport-fever-3-mods/tree/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzt)
+### [KZT · Kulitturai](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzt)
 
-[![KZT: Kulitturai actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzt/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzt/renders/02_STATION_ARCHITECTURE.png)
+[![KZT: Kulitturai actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzt/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzt/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzt/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzt/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/revision_02/kzt/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/revision_02/kzt/README.md).
 
 
 ### [PYD · Palliyadi](https://github.com/gj94/transport-fever-3-mods/tree/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd)
@@ -473,7 +471,7 @@ Reviewed Blender checkpoint; corrected portable export available. [All reviewed 
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/6e488fb401177bf83d9f215fde9eab08413e700f/coastal_station_collection/south/pyd/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/PYD/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/PYD/README.md).
 
 
 ### [ERL · Eraniel](https://github.com/gj94/transport-fever-3-mods/tree/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl)
@@ -482,7 +480,7 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8e3472bb91531d479e047118f3b0688895924108/coastal_station_collection/south/erl/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/ERL/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/ERL/README.md).
 
 
 ### [VRLR · Viranialur](https://github.com/gj94/transport-fever-3-mods/tree/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/south/vrlr)
@@ -491,16 +489,16 @@ Published Blender model; corrected portable export available. [All reviewed view
 
 Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/8695eb793db7f89bba6f1fddc5f568e40dc69b51/coastal_station_collection/south/vrlr/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/302e23bdcc08019a8040ec6b4c0e2598d7f12b7f/coastal_station_collection/south/portable_colour_revision_02/VRLR/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/portable_colour_revision_02/VRLR/README.md).
 
 
-### [NJT · Nagercoil Town](https://github.com/gj94/transport-fever-3-mods/tree/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/njt)
+### [NJT · Nagercoil Town](https://github.com/gj94/transport-fever-3-mods/tree/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/njt)
 
-[![NJT: Nagercoil Town actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/njt/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/njt/renders/02_STATION_ARCHITECTURE.png)
+[![NJT: Nagercoil Town actual-model render](https://raw.githubusercontent.com/gj94/transport-fever-3-mods/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/njt/renders/02_STATION_ARCHITECTURE.png)](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/njt/renders/02_STATION_ARCHITECTURE.png)
 
-Reviewed Blender checkpoint; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/njt/GALLERY.md).
+Published Blender model; corrected portable export available. [All reviewed views](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/njt/GALLERY.md).
 
-[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/2bd430a7122415736be71003e4232990719cfe0c/coastal_station_collection/south/njt/README.md).
+[Current checked portable export](https://github.com/gj94/transport-fever-3-mods/blob/d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe/coastal_station_collection/south/njt/README.md).
 
 
 ### [NCJ · Nagercoil Junction](https://github.com/gj94/transport-fever-3-mods/tree/1585bc27960fb67d970a1b5c75208ddf53597191/south_indian_stations_v02/ncj)
