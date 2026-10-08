@@ -33,8 +33,9 @@ for cx,cy,w,d in [(-48,5.6,22.7,9.7),(-68,5.6,14.7,9.7),(41,5.6,14.7,9.7),(54,5.
    for k in range(6):box('Notice text strokes',(xx,ny-.105,zz+.12-k*.045),(.40,.004,.006),dark)
    rod('Notice pin',(xx,ny-.10,zz+.18),(xx,ny-.115,zz+.18),.013,red,8)
  # Frosted high-level vent and operating AC grille above rear room openings.
- box('Wall-mounted air conditioner',(cx,cy+d/2-.35,4.52),(1.8,.42,.35),white)
- for k in range(7):box('AC outlet louvres',(cx,cy+d/2-.58,4.40+k*.023),(1.5,.045,.012),dark)
+ acx=cx+8 if cx==-48 else cx
+ box('Wall-mounted air conditioner',(acx,cy+d/2-.35,4.52),(1.8,.42,.35),white)
+ for k in range(7):box('AC outlet louvres',(acx,cy+d/2-.58,4.40+k*.023),(1.5,.045,.012),dark)
 # Platform P1 wall carries functional posters and passenger displays.
 for x in range(-65,60,17):
  sign('EXIT  /  WAY OUT',(x,14.25,3.55),2.6,.6,size=.24)
@@ -119,9 +120,13 @@ def bowl(n,x,y,profile,stretch=1):
  fs=[(i*N+k,i*N+(k+1)%N,((i+1)%len(profile))*N+(k+1)%N,((i+1)%len(profile))*N+k) for i in range(len(profile)) for k in range(N)];signed=sum(profile[i][0]*profile[(i+1)%len(profile)][1]-profile[(i+1)%len(profile)][0]*profile[i][1] for i in range(len(profile)));o=mesh(n,vs,fs if signed>0 else [tuple(reversed(f)) for f in fs],ceramic)
  for f in o.data.polygons:f.use_smooth=True
 for x in(-73,-70,-67):
+ box('Washbasin supporting vanity',(x,2.3,1.245),(1.42,.60,.79),teal)
+ for dx in(-.35,.35):
+  box('Vanity cabinet front door',(x+dx,2.615,1.25),(.67,.035,.70),teal);rod('Vanity door pull',(x+dx-.09,2.645,1.30),(x+dx+.09,2.645,1.30),.014,steel,8)
  bowl('Concave ceramic washbasin',x,2.25,[(.10,1.772),(.18,1.81),(.245,1.925),(.28,1.945),(.29,1.93),(.245,1.81),(.15,1.762),(.10,1.762)],.78)
  rod('Washbasin drain hole',(x,2.25,1.77),(x,2.25,1.779),.045,steel,16)
 for x in(-73,-70,-67,-64):
+ rod('WC floor mounting plinth',(x,8.8,.85),(x,8.8,.915),.22,ceramic,20)
  bowl('Open oval WC bowl',x,8.62,[(.10,1.14),(.155,1.20),(.20,1.34),(.24,1.36),(.25,1.32),(.20,1.19),(.14,1.11),(.10,1.11)],1.30)
  bowl('Toilet seat ring',x,8.62,[(.19,1.36),(.235,1.36),(.24,1.40),(.19,1.40)],1.30)
  rod('WC water visible',(x,8.62,1.139),(x,8.62,1.148),.11,water,20)

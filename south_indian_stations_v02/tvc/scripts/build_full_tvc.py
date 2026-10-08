@@ -86,11 +86,16 @@ def light(x,y,z):
 def desk(x,y):
  box('Desk teak top',(x,y,1.64),(1.9,.78,.08),wood)
  for dx in (-.8,.8):box('Desk side pedestal',(x+dx,y,1.19),(.25,.66,.85),teal)
- box('Monitor base',(x,y+.12,1.73),(.35,.25,.05),dark);box('Monitor stem',(x,y+.20,1.93),(.05,.06,.38),dark);box('Monitor bezel',(x,y+.23,2.13),(.55,.08,.35),dark);box('Monitor green screen',(x,y+.18,2.13),(.48,.018,.28),glass);box('Keyboard',(x,y-.17,1.71),(.53,.17,.035),dark)
+ box('Monitor base',(x,y+.12,1.73),(.35,.25,.05),dark);box('Monitor stem',(x,y+.30,1.93),(.05,.06,.38),dark);box('Monitor bezel',(x,y+.23,2.13),(.55,.08,.35),dark);box('Monitor green screen',(x,y+.18,2.13),(.48,.018,.28),glass);box('Keyboard',(x,y-.17,1.71),(.53,.17,.035),dark)
+ for row in range(4):
+  for key in range(12):box('Individual keyboard keys',(x-.22+key*.04,y-.22+row*.034,1.735),(.033,.025,.014),steel)
+ box('Desk optical mouse',(x+.38,y-.17,1.732),(.075,.115,.045),dark);box('Mouse button seam',(x+.38,y-.20,1.757),(.006,.045,.005),steel)
+ txt('Workstation screen interface','TVC / STATION DESK\nSERVICE LOG',(x,y+.162,2.20),.033,white)
  for dx in (-.28,.28):
   for yy in (-.27,.27):rod('Office chair legs',(x+dx,y-.9+yy,.85),(x+dx,y-.9+yy,1.25),.025,steel)
  box('Chair cushion',(x,y-.9,1.26),(.62,.58,.09),teal);box('Chair back',(x,y-1.14,1.63),(.62,.09,.55),teal)
  for k in range(3):box('Paper forms',(x+.55,y-.07,1.715+k*.012),(.35,.25,.012),paper,.06*k)
+ for row in range(6):box('Printed service form lines',(x+.55,y-.15+row*.027,1.747),(.24,.004,.003),dark)
 def doorwall(n,x,y,w,h=4.2,opening=1.5):
  dh=min(2.8,h-.15)
  for sg in (-1,1):box(n+' wall pier',(x+sg*(opening/2+(w-opening)/4),y,.85+h/2),((w-opening)/2,.23,h),plaster)
@@ -130,7 +135,6 @@ for lo,hi in [(-77,-27.5),(27.5,59)]:
  for x in range(math.ceil(lo)+2,math.floor(hi),4):
   box('Extended granite facade pier',(x,0,2.3),(1.1,.5,4.6),stone);box('Pale lintel bands',(x,0,4.45),(4.0,.65,.3),cream)
   for z in [1.2,2.2,3.2]:box('Masonry corner dressing',(x,-.28,z),(1.15,.09,.15),cream)
-  box('Wing room clerestory frame',(x,5.4,4.38),(2.8,.2,.85),wood);box('Wing room clerestory glass',(x,5.25,4.38),(2.65,.07,.72),glass)
 # Public rooms off the covered rear circulation. Fully furnished, explicitly reconstructed.
 col('04_FURNISHED_WAITING_LOUNGE_RECONSTRUCTED')
 room('Waiting lounge',-48,5.6,23,10)
@@ -155,11 +159,9 @@ cove=emit('Waiting-room blue cove glow',(.08,.42,1.0),2.5);wainscot=material('Wa
 for x in(-59.3,-36.7):
  box('AC lounge side wainscot',(x,5.6,1.70),(.065,9.5,1.68),wainscot);box('AC lounge brown wall band',(x,5.6,1.72),(.075,9.5,.32),wood);box('Waiting ceiling cove',(x+.1 if x< -48 else x-.1,5.6,4.98),(.20,9.4,.10),cove)
 for y in(.95,10.23):box('Waiting ceiling cove',(-48,y,4.98),(22.5,.18,.10),cove)
-box('Lounge wall television',(-48,10.27,3.65),(1.55,.14,.90),dark);box('TV screen',(-48,10.18,3.65),(1.40,.035,.75),glass);txt('TV passenger information','SOUTHERN RAILWAY',(-48,10.15,3.65),.12,white)
-rod('TV power cable',(-48,10.20,3.2),(-48,10.20,2.75),.012,dark);box('TV receiver shelf',(-48,10.17,2.73),(.62,.3,.07),steel);box('Set top receiver',(-48,10.15,2.82),(.44,.20,.10),dark)
+box('Lounge wall television',(-48,10.27,4.20),(1.55,.14,.90),dark);box('TV screen',(-48,10.18,4.20),(1.40,.035,.75),glass);txt('TV passenger information','SOUTHERN RAILWAY',(-48,10.15,4.20),.12,white)
+rod('TV power cable',(-48,10.20,3.75),(-48,10.20,3.45),.012,dark);box('TV receiver shelf',(-48,10.17,3.43),(.62,.3,.07),steel);box('Set top receiver',(-48,10.15,3.52),(.44,.20,.10),dark)
 
-box('Lounge information board',(-48,10.42,3.25),(4,.12,1.3),teal)
-txt('Passenger information','PASSENGER INFORMATION\nKeep your belongings with you\nDrinking water  >',(-48,10.33,3.45),.23,white)
 box('Newspaper rack',(-58,6,1.45),(1.2,.35,1.2),wood)
 for z in (1.3,1.65,1.95):box('Rack newspapers',(-58,5.80,z),(1.08,.09,.30),paper)
 col('05_OFFICES_SERVICE_AND_TOILETS_RECONSTRUCTED')
@@ -168,7 +170,7 @@ for x in (36,41,46):desk(x,7.5)
 for x in (36,38):
  box('Office filing cabinet',(x,9.8,2.1),(1.3,.55,2.5),teal)
  for z in (1.1,1.6,2.1,2.6,3.1):box('File drawer',(x,9.48,z),(1.18,.07,.43),steel);box('Drawer pull',(x,9.40,z),(.3,.035,.03),dark)
-sign('DUTY ROSTER',(45,10.43,3.4),3,1.1,size=.27)
+sign('DUTY ROSTER',(48.35,7.0,3.1),3,1.1,size=.27,rot=-math.pi/2)
 room('Toilets',-68,5.6,15,10)
 # Cubicles at rear; central accessible turning space and sinks by front wall.
 for x in (-73,-70,-67,-64):
@@ -598,8 +600,9 @@ camera('03_Entrance_hall',(0,1.6,2.45),(0,12,2.8),20)
 camera('04_Booking_hall',(119,-1.5,2.45),(110,7.2,2.65),24)
 camera('14_Counter_working_detail',(109,10.8,2.3),(113,6.8,1.9),24)
 camera('05_Waiting_lounge',(-56,2.3,2.4),(-47,8,2),20)
-camera('06_Washroom',(-73,3.4,2.4),(-66,8,1.7),19)
-camera('07_Station_office',(35,2.4,2.4),(42,8,1.9),20)
+camera('06_Washroom',(-70,5.2,2.4),(-70,8.65,1.65),28)
+camera('18_Washbasin_detail',(-69,4.5,2.25),(-70,2.3,1.7),30)
+camera('07_Station_office',(37.5,5.3,2.25),(41,8.6,1.9),27)
 camera('08_Platform_one',(-171,16.4,2.55),(-153,18.5,2.25),27)
 camera('09_Island_platform',(1,37.5,2.45),(90,40,3),30)
 target=json.loads((R/'source/turnout_review_target.json').read_text())['xy'];tx,ty=target

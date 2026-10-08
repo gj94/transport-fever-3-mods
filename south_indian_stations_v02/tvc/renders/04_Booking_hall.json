@@ -1,0 +1,14 @@
+{
+  "camera": "04_Booking_hall",
+  "source_blend_sha256": "6ce74c64dc79ba8fa7f5fcf7a4926b580a7b3cf94c7a79e4d96efcc831acb859",
+  "render_engine": "CYCLES",
+  "samples": 192,
+  "denoising": false,
+  "adaptive_threshold": 0.055,
+  "resolution": [
+    1440,
+    900
+  ],
+  "presentation_exclusions": [],
+  "lineage": "Rendered from WIP physical-rail checkpoint, before subsequent ballast/cable/bearer refinements. Booking room unchanged by those distant corrections; preserve as accepted reconstructed interior preview."
+}
