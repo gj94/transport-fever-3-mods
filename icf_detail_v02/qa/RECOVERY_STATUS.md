@@ -25,3 +25,5 @@ Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main pu
 2026-10-08 01:00 UTC: Environment replacement killed session 35779. Seven final frames verified; 2S aisle retains five verified durable EXR batches. Resuming unchanged queue from remaining three batches; all24 gallery target continues beyond minimum window. No source or renderer changes.
 
 2026-10-08 02:00 UTC: Ten final images pass current-source/provenance audit and pixel review, including complete CC exterior/aisle pair. Active session 94510 continues into SL hero; no restart since 01:00 recovery. All24 target remains open; final masters unchanged.
+
+2026-10-08 02:43 UTC: SL hero/bay completed and pixel/provenance reviewed, 12/24 final images current-source verified. Session94510 moved into GS hero. New README/gallery portable instructions and dependency inventory/checks ready for checkpoint. No source/render changes.

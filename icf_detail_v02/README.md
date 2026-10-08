@@ -4,7 +4,7 @@ Separate, original authoring-source revision for seven conventional self-generat
 
 ## Current checkpoint
 
-All seven masters are now r12-stencil: four capacity labels per class were corrected to BERTHS or SEATS, with no fabricated tare mass. An exact non-stencil mesh/transform/hierarchy/material-assignment fingerprint confirms that the reviewed six-class r10 geometry and isolated first-class r11 privacy closure are otherwise unchanged. All source geometry, aperture, support, seated-root and relocated-FBX texture/hierarchy/bounds checks pass on r12. Final 512-sample image production remains pending. Earlier low-sample review images are retained as named history; source hashes in adjacent JSON files distinguish them from current final images.
+All seven masters are now r12-stencil: four capacity labels per class were corrected to BERTHS or SEATS, with no fabricated tare mass. An exact non-stencil mesh/transform/hierarchy/material-assignment fingerprint confirms that the reviewed six-class r10 geometry and isolated first-class r11 privacy closure are otherwise unchanged. All source geometry, aperture, support, seated-root and relocated-FBX texture/hierarchy/bounds checks pass on r12. High-sample final image production is tracked in GALLERY.md and remains incomplete until all 24 views pass the audit. Earlier low-sample review images are retained as named history; source hashes in adjacent JSON files distinguish them from current final images.
 
 Selected stock uses conventional screw couplings and side buffers. It is intentionally not a CBC clone of the existing native fleet. Coupling to the WAP7, linked rake articulation, character fit and all native game behavior are **unvalidated**. No TF3 conversion is included.
 
@@ -14,7 +14,22 @@ Dimensions selected from NWR conventional-stock tables, with the 3.245 m body wi
 
 Capacities: 1A 18; 2A 46; 3A 64; 2S 108; CC 73; SL 72; GS selected 108-seat subtype. Private first-class cabins/coupes, two-tier curtains, three-tier/folded-middle sleepers, chair car, individual second-sitting seats and general benches are separate physical arrangements. Commercial game capacity is not changed here.
 
-## Rebuild
+## Open, verify and render
+
+Work from the **repository root**, the parent directory of `icf_detail_v02`, with Blender 4.3.2 (the tested version), Python 3 and Blender's bundled NumPy. Open `<class>/ICF_<class>_master.blend` to inspect a vehicle, or use its adjacent FBX plus `.fbm` texture directory. Do not treat FBX as a native Transport Fever resource or a guarantee of Blender shader parity.
+
+- Source and portable-dependency checks: `python icf_detail_v02/scripts/verify_portable_package.py`
+- Resume the 24-view gallery: `python icf_detail_v02/scripts/run_final_gallery.py`
+- Rebuild its completed-image index: `python icf_detail_v02/scripts/update_gallery_index.py`
+- Audit completed images and completeness: `python icf_detail_v02/scripts/audit_final_gallery.py`
+
+The queue skips matching completed images, checks the locked master before each job, and uses four CPU threads. Preserve `renders/.checkpoints/` when resuming on the same workspace: complete 64-sample scene-linear EXR batches are hash-checked and reused. Do not edit any source, renderer or dependency while rendering. Checkpoint identities include absolute working paths; moving an unfinished cache requires separate identity validation, so copying only a cache to another path is not a supported resume method. Finished PNGs and relative gallery links remain portable.
+
+Most new finals use eight independent 64-sample uniform batches, averaged in scene-linear float space, without denoising. The existing first-AC hero uses 512 maximum adaptive samples, a 2% threshold and minimum 64; the lavatory wrapper currently uses that adaptive workflow too. These workflows are identified in each sidecar and should not be described as equivalent. Fine residual Monte Carlo grain is expected. The adjacent JSON includes exact source/image hashes, camera and cutaway scope. The 24-view completion status is in GALLERY.md and the audit report; no missing final is silently replaced by an earlier proof.
+
+## Rebuild sources (invalidates prior image provenance)
+
+Rebuilding is unnecessary for inspection or resume. A rebuilt master requires a new review and geometry-lock update before the final gallery queue will accept it. Keep reviewed masters and their image sidecars together.
 
 Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/build.py -- all`. A class code builds only that variant. After a base rebuild, run `blender -b -t 4 --python icf_detail_v02/scripts/build_1a_r11.py` for the current first-class privacy revision; this wrapper leaves the other six source versions unchanged. Finish with `blender -b -t 4 --python icf_detail_v02/scripts/patch_capacity_stencils_r12.py` to record the current capacity-stencil pass and non-text fingerprint. The bundled original text-only marking PNGs are packed into each master; Blender builds need no downloads or additional Python libraries. Optional `scripts/make_marking_textures.py` regeneration uses Pillow with Raqm and Noto Sans Devanagari. Preview renderer: `blender -b icf_detail_v02/SL/ICF_SL_master.blend -t 2 --python icf_detail_v02/scripts/render_detail.py -- exterior cutaway aisle bogie entrance`.
 
