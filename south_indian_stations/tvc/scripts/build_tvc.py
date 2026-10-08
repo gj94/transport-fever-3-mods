@@ -11,7 +11,7 @@ scene=bpy.context.scene; scene.unit_settings.system='METRIC'; scene.unit_setting
 current=None
 def collection(name):
  global current
- current=bpy.data.collections.new(name); scene.collection.children.link(current); return current
+ print('BUILD COLLECTION',name,flush=True); current=bpy.data.collections.new(name); scene.collection.children.link(current); return current
 def link(o):
  for c in list(o.users_collection): c.objects.unlink(o)
  current.objects.link(o); return o
@@ -43,14 +43,20 @@ leaf=mat('Tropical foliage',(.075,.20,.06),noise=6)
 wood=mat('Bark',(.18,.12,.065),noise=16)
 
 def cube(name,loc,scale,material,bev=0):
- bpy.ops.mesh.primitive_cube_add(size=1,location=loc); o=link(bpy.context.object); o.name=name; o.dimensions=scale; bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
- if material:o.data.materials.append(material)
+ x,y,z=[v/2 for v in scale]
+ vs=[(-x,-y,-z),(-x,-y,z),(-x,y,-z),(-x,y,z),(x,-y,-z),(x,-y,z),(x,y,-z),(x,y,z)]
+ me=bpy.data.meshes.new(name);me.from_pydata(vs,[],[(0,2,6,4),(1,5,7,3),(0,4,5,1),(2,3,7,6),(0,1,3,2),(4,6,7,5)]);me.update()
+ o=bpy.data.objects.new(name,me);current.objects.link(o);o.location=loc
+ if material:me.materials.append(material)
  if bev:
-  m=o.modifiers.new('Edge wear bevel','BEVEL'); m.width=bev; m.segments=2
+  m=o.modifiers.new('Edge wear bevel','BEVEL');m.width=bev;m.segments=2
  return o
 
 def cyl(name,a,b,r,material,verts=12):
- d=Vector(b)-Vector(a); bpy.ops.mesh.primitive_cylinder_add(vertices=verts,radius=r,depth=d.length,location=(Vector(a)+Vector(b))/2); o=link(bpy.context.object); o.name=name; o.rotation_euler=d.to_track_quat('Z','Y').to_euler(); o.data.materials.append(material); return o
+ d=Vector(b)-Vector(a);h=d.length/2
+ vs=[(r*math.cos(i*2*math.pi/verts),r*math.sin(i*2*math.pi/verts),z) for z in (-h,h) for i in range(verts)]
+ fs=[tuple(reversed(range(verts))),tuple(range(verts,verts*2))]+[(i,(i+1)%verts,(i+1)%verts+verts,i+verts) for i in range(verts)]
+ o=mesh(name,vs,fs,material);o.location=(Vector(a)+Vector(b))/2;o.rotation_euler=d.to_track_quat('Z','Y').to_euler();return o
 
 def mesh(name,vs,fs,material):
  me=bpy.data.meshes.new(name); me.from_pydata(vs,[],fs); me.update(); o=bpy.data.objects.new(name,me); current.objects.link(o); o.data.materials.append(material); return o
@@ -81,7 +87,7 @@ def facade(name,cx,width,height,y,openings):
  wall=cube(name+' structural masonry',(cx,y+.26,height/2),(width,.52,height),mortar)
  for idx,(x,b,s,r) in enumerate(openings):
   pts=arch_poly(x,b,s,r,y-1); n=len(pts); vs=pts+[(a,y+1.2,c) for a,bb,c in pts]
-  fs=[tuple(reversed(range(n))),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)]
+  fs=[tuple(range(n)),tuple(reversed(range(n,2*n)))]+[(i,i+n,(i+1)%n+n,(i+1)%n) for i in range(n)]
   cut=mesh('TEMP_arch_cut',vs,fs,dark)
   bpy.context.view_layer.objects.active=wall; md=wall.modifiers.new('Arched opening %d'%idx,'BOOLEAN'); md.operation='DIFFERENCE'; md.object=cut; bpy.ops.object.modifier_apply(modifier=md.name); bpy.data.objects.remove(cut,do_unlink=True)
  # Individually modelled dressed stones; clip boundary blocks by omitting stones that touch an opening.
@@ -264,7 +270,7 @@ hero=cam('CAM_Hero',(37,-58,23),(0,2,6.6),48)
 elev=cam('CAM_Elevation',(0,-70,8),(0,0,8),48,62)
 detail=cam('CAM_Heritage_detail',(12,-24,12),(0,0,8.5),53)
 canopy=cam('CAM_Canopy_detail',(24,7,7),(4,19,3.1),44)
-scene.camera=hero;scene.render.engine='CYCLES';scene.cycles.samples=32;scene.cycles.use_denoising=True;scene.render.threads_mode='FIXED';scene.render.threads=4
+scene.camera=hero;scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
 scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=75
 scene.view_settings.view_transform='AgX';scene.render.image_settings.file_format='PNG'
 scene['README']='Photo-reconstructed November 2022 TVC heritage module. Metres, no surveyed dimensions. Read README.md. Canopy is detached study, not exact yard.'
@@ -273,6 +279,7 @@ scene['reference_era']='2022-11-14';scene['source_measured_station_dimensions']=
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'TVC_heritage_2022.blend'))
 metrics={'objects':len(scene.objects),'mesh_objects':sum(o.type=='MESH' for o in scene.objects),'vertices':sum(len(o.data.vertices) for o in scene.objects if o.type=='MESH'),'units':'metres','central_upper_front_bays':3,'station_specific_measured_dimensions':0,'blender':bpy.app.version_string}
 (ROOT/'qa_geometry.json').write_text(json.dumps(metrics,indent=2))
+
+# Finish packed trilingual signage, exact nominal rail gap and review renders.
 if '--render' in sys.argv:
- for c,n in [(hero,'hero'),(elev,'elevation'),(detail,'heritage_detail'),(canopy,'canopy_detail')]:
-  scene.camera=c;scene.render.filepath=str(ROOT/'renders'/f'{n}.png');bpy.ops.render.render(write_still=True)
+ exec(compile((ROOT/'scripts'/'finalize_tvc.py').read_text(),str(ROOT/'scripts'/'finalize_tvc.py'),'exec'))

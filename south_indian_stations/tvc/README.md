@@ -3,8 +3,10 @@
 Editable architectural asset in metres, reconstructing the distinctive heritage entrance photographed on **14 November 2022**, before major redevelopment. This is a photo-derived model, not a measured survey or a reconstruction of the entire station campus.
 
 ## Deliverables
-- `TVC_heritage_2022.blend`: separately organized heritage pavilion, gallery/end-pavilion kit, contextual forecourt, independent platform/canopy demonstration, cameras and lighting.
+- `TVC_heritage_2022_v1.blend`: separately organized heritage pavilion, gallery/end-pavilion kit, contextual forecourt, independent platform/canopy demonstration, cameras and lighting.
 - `scripts/build_tvc.py`: deterministic, reusable Blender construction script. Run `/usr/bin/blender -b -t 4 --python scripts/build_tvc.py -- --render` from any directory.
+- `scripts/add_return_detail.py`: three-bay central return refinement from the wider reference.
+- `scripts/finalize_tvc.py`: packed trilingual graphic, nominal inner rail gauge correction, QA and render pass. Automatically called by `build_tvc.py -- --render`.
 - `scripts/make_sign.py`: original trilingual platform sign texture, Pillow with RAQM text shaping. Run before building.
 - `renders/`: actual Blender Cycles renders, not AI-generated images.
 - `qa_geometry.json`: scene inventory and accuracy metadata.
@@ -13,7 +15,7 @@ Editable architectural asset in metres, reconstructing the distinctive heritage 
 ## What was observed and reproduced
 The 2022 exterior shows **three tall arched upper front windows** on the raised central pavilion, with the middle opening wider than its neighbours, four full-height pale pilasters, two stacked shutter tiers and an arched fanlight. The central lower entrance is arched. Dressed dark granite, stepped pale cornices, a parapet, red raised rooftop English lettering, rainwater pipes and lower pitched-roof veranda wings are the identifying details. Individual dressed-stone blocks, louvre blades, frames and hinges are editable geometry rather than a facade photo pasted on a block.
 
-The broader 2010 comparison reveals the pavilion's return elevation and a smaller single-upper-bay secondary pavilion beyond a veranda. This version limits the building to the central pavilion, two short gallery study modules and two secondary pavilions; gallery repetition and symmetry outside the close 2022 view are reconstruction choices, not verified complete opening counts. Return and rear elevations remain simplified. The full far wings, hidden rooms and operational circulation are not surveyed.
+The broader 2010 comparison reveals the pavilion's return elevation and a smaller single-upper-bay secondary pavilion beyond a veranda. This version limits the building to the central pavilion, two short gallery study modules and two secondary pavilions; gallery repetition and symmetry outside the close 2022 view are reconstruction choices, not verified complete opening counts. The central return repeats three observed narrow upper bays; the rear elevation remains simplified. The full far wings, hidden rooms and operational circulation are not surveyed.
 
 The 2022 platform photo shows a sloped corrugated canopy, built-up steel columns, diagonal brackets, light fittings, reddish edge paving, a yellow trilingual nameboard and electrified railway surroundings. The 36 m detached canopy/platform demonstration reproduces that structural character; it is not claimed as an exact platform segment or geographical placement. No five-island arrangement or invented full yard ladder is supplied.
 
@@ -32,7 +34,7 @@ No station-specific dimensions are source-measured.
 | Secondary pavilion | 6.5 m wide × 11.4 m high | Photo-inferred |
 | Canopy module length / width | 36 / 7 m | Game-adjusted modular sample |
 | Platform height | 0.68 m | Game-adjusted; not a TVC survey |
-| Illustrative track gauge | 1.676 m rail-centre placement | Indian broad-gauge nominal; rail-inner gauge approximation disclosed |
+| Illustrative track gauge | 1.676 m clear inner head gap | Indian broad-gauge nominal, not a surveyed TVC track |
 
 Front is negative Y, up Z, central entrance X=0. The canopy is offset to Y=19 for kit presentation, not true surveyed station siting. Forecourt autos, trees, road dashes and railings supply scale/context and are not an inventory of objects present on the date. Political flags and advertising images in the reference are omitted. This avoids borrowing commercial advertisement pixels and obstructing architectural review.
 
@@ -50,3 +52,6 @@ Primary station context: KMRL-hosted Comprehensive Mobility Plan, section 2.11.1
 
 ## Limits and use
 Suitable as an editable visual heritage/railway scene asset. Not engineering, surveying, train-clearance or safety infrastructure data. Materials use Blender shader nodes; exchange formats may not reproduce procedural bump/colour without baking. The .blend is the authoritative editable source. Use collection visibility to isolate the building or the separate canopy study.
+
+## Typography
+The original platform graphic uses Noto Sans Malayalam, Noto Sans Devanagari and DejaVu Sans. Generated lettering is not copied from a photograph. Relevant font redistribution notices are preserved under `licenses/`; the packed Blender rooftop type uses DejaVu Sans Condensed.
