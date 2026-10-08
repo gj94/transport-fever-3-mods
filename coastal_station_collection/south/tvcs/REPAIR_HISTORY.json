@@ -1,0 +1,28 @@
+[
+  {
+    "station": "TVCS",
+    "input_source_sha256": "fd98ddfb52a10b7928ab2c319683a489aa02cc0d637f6106083c977a3ca2579a",
+    "output_source_sha256": "1b7db792feb07b63eaffbdc42abe4943ece0195393bb2ff5a20a5b5f38792aa9",
+    "changed_bounds": [
+      [
+        -13.0,
+        -4.226131916046143,
+        0.949999988079071
+      ],
+      [
+        13.0,
+        8.042868614196777,
+        4.96999979019165
+      ]
+    ],
+    "retained_views": [
+      "05_PHYSICAL_POINTWORK.png"
+    ],
+    "rerender_prefixes": [
+      "01",
+      "02",
+      "03",
+      "04"
+    ]
+  }
+]

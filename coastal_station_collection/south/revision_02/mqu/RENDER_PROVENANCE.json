@@ -1,0 +1,79 @@
+{
+  "station": "MQU",
+  "views": {
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "file_sha256": "555898c07a00bea0d5af0dcee41d1a1708207650e66dc0aa4c9660284a460f3e",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 17.81,
+      "camera_override": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "file_sha256": "37f4fa6fc6ba9c9f19719456b6ea737425b6a279490c61399a17c60241b05912",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 25.0,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "file_sha256": "01e8bcc368a77d15562506788719f00cbf931b0413adcac68439ede1cb5f1798",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 24.09,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -280.183837890625,
+          23.03736686706543,
+          3.4000000953674316
+        ],
+        "target": [
+          -80.18384175870654,
+          10.352582282201812,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "file_sha256": "d307b175517ba1a8831973d497b011b83c3e981f9696c0eb6575542046cdfcaf",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 31.47,
+      "camera_override": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "file_sha256": "644d248eb0f5165e8ce3ac2e7f4b39679ff2dc40196d6fba6803871ff129bafb",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 15.27,
+      "camera_override": null
+    }
+  },
+  "current_source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff"
+}

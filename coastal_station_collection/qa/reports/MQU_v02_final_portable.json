@@ -1,0 +1,38 @@
+[
+  {
+    "path": "south/revision_02/mqu/exchange/MQU_portable_GLTF.zip!MQU_station_v01.glb",
+    "bytes": 50010024,
+    "errors": [],
+    "warnings": [],
+    "sha256": "6ce7873f85ee883b984b515279cca7f1006f267bacd5353c0d18b16d0583a787",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 50010024
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 625780
+      },
+      {
+        "type": 5130562,
+        "bytes": 49384216
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 984,
+    "mesh_count": 984,
+    "primitive_count": 984,
+    "vertex_reference_count": 1685309,
+    "accessor_count": 2117,
+    "validated_accessor_count": 2117,
+    "material_count": 25,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "8d9f2ed0b79100f96f36ec80b4bfb983f1814cbb552459d6c04a7e676a89f050",
+    "container_bytes": 6763457
+  }
+]

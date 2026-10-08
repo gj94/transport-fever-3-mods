@@ -1,0 +1,108 @@
+{
+  "station": "KZK",
+  "views": {
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "file_sha256": "ea9a4e624c9fa2352be4a8efcad2f4c9e69654f1da36bfbcaf162a4f57784da1",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 42.13,
+      "camera_override": {
+        "reason": "Low approach angle beneath the veranda fascia shows photographed rainshade, clerestories, triple vents and high wall identity band",
+        "location": [
+          0.0,
+          22.021867752075195,
+          2.4000000953674316
+        ],
+        "target": [
+          -16.5,
+          9.021867914129214,
+          3.5
+        ],
+        "lens_mm": 33
+      }
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "file_sha256": "119b85a17b3e3223ff75ed7a266f9205b7522fa3e0963e49355c92dbb7cbc491",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 27.72,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "file_sha256": "8bc04acf6116026365d938efa557b41add85c18b68faec498771c6ba15432c57",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 43.28,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -264.97027587890625,
+          -10.351699829101562,
+          3.4000000953674316
+        ],
+        "target": [
+          -64.97028820264029,
+          -10.394882684903532,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "file_sha256": "3c6c0750f416bb14b3e7578aedc2fa76bf42faf306db9aef14e347b7e41eb408",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 37.54,
+      "camera_override": {
+        "reason": "Closer existing booking-counter and clerk-workspace proof, replacing the distant hall framing",
+        "location": [
+          -24.219999313354492,
+          5.841867923736572,
+          2.9000000953674316
+        ],
+        "target": [
+          -29.32,
+          2.2418679141292133,
+          2.15
+        ],
+        "lens_mm": 28
+      }
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "source_scene_sha256": "079c09ba6bbc813903e792b40e8c8c62edf56a5245c59c48a25bba5976179cd8",
+      "file_sha256": "773a52808c68ca179f846c6da9b0026503894632ab6af61541e1ec6b1d863e4b",
+      "camera": "05_PHYSICAL_POINTWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 20.12,
+      "camera_override": null,
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7",
+      "inheritance_basis": "Only approach-side entry louvers and shade changed, outside recorded camera frustum"
+    }
+  },
+  "current_source_scene_sha256": "b4215e02da31c17a1d795ec6803ccc9ea673fc80324d15fd44f665b1f3288dd7"
+}

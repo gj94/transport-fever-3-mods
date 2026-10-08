@@ -1,0 +1,62 @@
+{
+  "station": "MQU",
+  "reviewed_utc": "2026-10-08T22:54:29.865962+00:00",
+  "status": "five_view_bounded_delta_complete_pass",
+  "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "555898c07a00bea0d5af0dcee41d1a1708207650e66dc0aa4c9660284a460f3e",
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "37f4fa6fc6ba9c9f19719456b6ea737425b6a279490c61399a17c60241b05912",
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "01e8bcc368a77d15562506788719f00cbf931b0413adcac68439ede1cb5f1798",
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "d307b175517ba1a8831973d497b011b83c3e981f9696c0eb6575542046cdfcaf",
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "644d248eb0f5165e8ce3ac2e7f4b39679ff2dc40196d6fba6803871ff129bafb",
+      "source_scene_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    }
+  },
+  "sources": [],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/MQU_delta_review_2254.jpg",
+  "prior_review_reports": [
+    "MQU_bd1ddf78_final_visual_review.json"
+  ],
+  "observations": [
+    "New 0aee19fb 01\u201305 gallery inspected once at reduced scale. The repaired northeast platform reads as a continuous usable surface beside the outer track; coping/safety edge follows the rail alignment without an obvious detached strip or intrusion.",
+    "03 makes the repaired track/platform adjacency readable. 01 preserves full route context; 02, 04 and 05 remain coherent with the unchanged architectural, interior and pointwork subjects. No new obstruction or gallery regression visible.",
+    "Prior architectural/photo-fidelity passes remain preserved; this is only the additive boarding-edge delta and affected-gallery review. No source-photo re-review or architectural churn requested.",
+    "The exact boarding-edge dimension is reconstructed; the documented 2.0 m model distance is not a measured operational clearance or compliance certification."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ],
+  "evidence_artifacts": [
+    {
+      "path": "coastal_stations_overnight/south/revision_02/mqu/source/evidence/MQU_boarding_edge_adoption.json",
+      "sha256": "3fdcec20bcd477445be8dba24576212c07dbde5bf49fe4fc26c23a754d6c8087",
+      "review_basis": "read_adoption_record"
+    }
+  ]
+}

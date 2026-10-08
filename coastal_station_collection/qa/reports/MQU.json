@@ -1,0 +1,401 @@
+{
+  "station_code": "MQU",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "south/revision_02/mqu",
+  "manifest_sha256": "65d9681af188959ffa570555df4e0cde0e5ac589326cd3f3a9579397a601329e",
+  "blend_sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff",
+  "export_sha256": "6ce7873f85ee883b984b515279cca7f1006f267bacd5353c0d18b16d0583a787",
+  "export_zip_sha256": "8d9f2ed0b79100f96f36ec80b4bfb983f1814cbb552459d6c04a7e676a89f050",
+  "accepted_assets": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/MQU_station_v01.blend",
+      "relative_path": "south/revision_02/mqu/MQU_station_v01.blend",
+      "bytes": 11245363,
+      "sha256": "0aee19fb4973f7e77938254b88a55e1cf5de4835dbca037b7e863b9e64ecc4ff"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/README.md",
+      "relative_path": "south/revision_02/mqu/README.md",
+      "bytes": 5663,
+      "sha256": "9878dc1747beaa38f2e96f50d0f1425ca96e576644d7f4c798e7c27bb48d9efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/SOURCES.json",
+      "relative_path": "south/revision_02/mqu/SOURCES.json",
+      "bytes": 18860,
+      "sha256": "4091a7afb6a316465665c18c6ffb040553cba69119a0ebb9c3f5f8612a0f7f54"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/revision_02/mqu/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/QA_BUILD.json",
+      "relative_path": "south/revision_02/mqu/QA_BUILD.json",
+      "bytes": 8874,
+      "sha256": "8a61368f6bbbd3180c437444ac1b8ae6b29acfe20d27f0ac34a7072ef09b6a65"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/QA_EXPORT.json",
+      "relative_path": "south/revision_02/mqu/QA_EXPORT.json",
+      "bytes": 1172,
+      "sha256": "fb982d27ec80bae2e4997bfb3701c3cc0608c869a3290e63905ceb822148be15"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/RENDER_PROVENANCE.json",
+      "relative_path": "south/revision_02/mqu/RENDER_PROVENANCE.json",
+      "bytes": 2649,
+      "sha256": "3ea939d88b39f0384ae708f1f1d1f6ca22d22c499fdfe0f8f5f228b5d50d3050"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/exchange/MQU_portable_GLTF.zip",
+      "relative_path": "south/revision_02/mqu/exchange/MQU_portable_GLTF.zip",
+      "bytes": 6763457,
+      "sha256": "8d9f2ed0b79100f96f36ec80b4bfb983f1814cbb552459d6c04a7e676a89f050"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/exchange/MANIFEST.json",
+      "relative_path": "south/revision_02/mqu/exchange/MANIFEST.json",
+      "bytes": 654,
+      "sha256": "0ac8a49dc38823a73ef8c2ac798e5071adce66769d044c76db335612cf798e29"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/revision_02/mqu/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1464117,
+      "sha256": "555898c07a00bea0d5af0dcee41d1a1708207650e66dc0aa4c9660284a460f3e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1719833,
+      "sha256": "37f4fa6fc6ba9c9f19719456b6ea737425b6a279490c61399a17c60241b05912"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/revision_02/mqu/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1760874,
+      "sha256": "01e8bcc368a77d15562506788719f00cbf931b0413adcac68439ede1cb5f1798"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/revision_02/mqu/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1477832,
+      "sha256": "d307b175517ba1a8831973d497b011b83c3e981f9696c0eb6575542046cdfcaf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/revision_02/mqu/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 1929144,
+      "sha256": "644d248eb0f5165e8ce3ac2e7f4b39679ff2dc40196d6fba6803871ff129bafb"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/QA_SCENE.json",
+      "relative_path": "south/revision_02/mqu/QA_SCENE.json",
+      "bytes": 6213,
+      "sha256": "8ed5f79e490487fccae77ce71aee38317c8c9207b1aedf0da9c40e8794b3104e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/revision_02/mqu/QA_CIRCULATION_RAYS.json",
+      "bytes": 2375,
+      "sha256": "d7cdd1406876001c9a859d637e0b9e8f1cc1e4b33f72ffd2133ddd82a5f25990"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/QA_VERANDA_REPAIR.json",
+      "relative_path": "south/revision_02/mqu/QA_VERANDA_REPAIR.json",
+      "bytes": 717,
+      "sha256": "134039cf67336d3d97b0c40875f589dfac024a9d0a77936fdc6441e2699638ce"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/QA_BOARDING_EDGE_REPAIR.json",
+      "relative_path": "south/revision_02/mqu/QA_BOARDING_EDGE_REPAIR.json",
+      "bytes": 573,
+      "sha256": "b9ad8a104b4266708a32a8b2e2e1a31ade46bd68c4dfa30c76b998181c04f2ec"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/exchange/COLOUR_PRESERVATION.json",
+      "relative_path": "south/revision_02/mqu/exchange/COLOUR_PRESERVATION.json",
+      "bytes": 5934,
+      "sha256": "8826b265ef68751da0c8161207f0111f965ee0228083c2b133452a188aba6ea4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/exchange/SOURCE_PALETTE.json",
+      "relative_path": "south/revision_02/mqu/exchange/SOURCE_PALETTE.json",
+      "bytes": 2882,
+      "sha256": "626a494471f34e520ae5bf3e02cc57bd175e5814422bcaaaa6f8f79096a82006"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/REPAIR_LINEAGE.json",
+      "relative_path": "south/revision_02/mqu/REPAIR_LINEAGE.json",
+      "bytes": 440,
+      "sha256": "935b24c61309f60855f54900d4fcc76f7e54ce59ca608550cb34299b2e06bd99"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/platform_mesh.json",
+      "relative_path": "south/revision_02/mqu/source/platform_mesh.json",
+      "bytes": 3899,
+      "sha256": "ff40836af67017e8236c97071f63e14931c231b4ca7d7c0bbe170f4772743d05"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/build_config.json",
+      "relative_path": "south/revision_02/mqu/source/build_config.json",
+      "bytes": 622,
+      "sha256": "aa79510afb76c1b4ff159922c455e7521de44e9ad72adfd218ccdd8c39ea3e81"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/layout.json",
+      "relative_path": "south/revision_02/mqu/source/layout.json",
+      "bytes": 29334,
+      "sha256": "5accdd05129b32155c8cdbf0a77682de875afcb92dc098e87f23cd20b022e2cd"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/name_ml.svg",
+      "relative_path": "south/revision_02/mqu/source/name_ml.svg",
+      "bytes": 242,
+      "sha256": "ca2258935c7d8d0bdd22af2ecc389777d632e001e7ca2ddbf449ece970c9d418"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/name_ml_outlined.svg",
+      "relative_path": "south/revision_02/mqu/source/name_ml_outlined.svg",
+      "bytes": 7886,
+      "sha256": "2cfffb7acc11d933add27894b8d5b1720f98390d72cfa04d5907a295c36795ad"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/rail_mesh.json",
+      "relative_path": "south/revision_02/mqu/source/rail_mesh.json",
+      "bytes": 249294,
+      "sha256": "86e0eda8636cd28cf5235b7fa003ea349fd6a3e226c4cb3241ba87e925758b30"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/native_names.json",
+      "relative_path": "south/revision_02/mqu/source/native_names.json",
+      "bytes": 91,
+      "sha256": "e44669f769a5f0f11b7f00bc88858f0fe46c2daa34158f09b135823e9ea00531"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/evidence/MQU_boarding_edge_adoption.json",
+      "relative_path": "south/revision_02/mqu/source/evidence/MQU_boarding_edge_adoption.json",
+      "bytes": 4327,
+      "sha256": "3fdcec20bcd477445be8dba24576212c07dbde5bf49fe4fc26c23a754d6c8087"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/evidence/previous_revision_colour_validation.json",
+      "relative_path": "south/revision_02/mqu/source/evidence/previous_revision_colour_validation.json",
+      "bytes": 10417,
+      "sha256": "54bc2e65f045eda33353538d6a78541d22dbc01163e9908c313704045dcf55d8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/architectural_variants.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/architectural_variants.py",
+      "bytes": 60563,
+      "sha256": "c5a922f1d8f9fb8f7dfb81ed50b6144a18b33b1a1da8467bdabda01fcdb70736"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/extract_portable_palettes.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/extract_portable_palettes.py",
+      "bytes": 1587,
+      "sha256": "8dd94ad493b3014bbc675fb489b59f1b0cc8b25019da7ac1315e67551e6faf53"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/prepare_mqu_edge_revision.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/prepare_mqu_edge_revision.py",
+      "bytes": 2888,
+      "sha256": "6eef8f1301a9a703e82cd7051723a2e267f72c06d70377448a9f2bf348abb014"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_tvcs_platform_face.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_tvcs_platform_face.py",
+      "bytes": 2913,
+      "sha256": "29aab8d8fc10a89c1bc179574f39c4b620f10c6fe5ad02a8149147ffa99dddca"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/access_geometry.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/build_station.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/build_station.py",
+      "bytes": 47129,
+      "sha256": "22acbd340595039905f873c1fd4840612105fed7c091c06ce0b0608422c68cc3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_kzt_arches.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_kzt_arches.py",
+      "bytes": 3031,
+      "sha256": "fb28775430ccc14791e7c23b6bfd64d15e8244e021493e5665ea616f9a316392"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/prepare_geometry.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_veranda_columns.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/export_station.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/export_station.py",
+      "bytes": 2570,
+      "sha256": "51b5b9265044754400a4a4a03f3228a22de82081c615bb40a1d2c76abf9a8aa9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_kzk_entry_depth.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_kzk_entry_depth.py",
+      "bytes": 4069,
+      "sha256": "d05def089736580095f2614a311623f5680abeca118bff3160be90a7b0a97597"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/close_njt_upper_portal.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/close_njt_upper_portal.py",
+      "bytes": 1726,
+      "sha256": "d72454b077053beab69ab87c567afa7ea7abe01c0d548f42c8916319dbe4a240"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_access_link.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/portable_colors.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/portable_colors.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/complete_tvp_boarding_edges.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/complete_tvp_boarding_edges.py",
+      "bytes": 2651,
+      "sha256": "39d54b0f331cfb481552918141ca23d317659f4a55ec350c64547bc6c7d6412b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/scene_review_inputs.py",
+      "bytes": 2177,
+      "sha256": "e2d87bbb9c3540c1c14fcc9087d3c5cedfbeac31f16b490660e60cac00de67ae"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/finalize_portable_colours.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/finalize_portable_colours.py",
+      "bytes": 4498,
+      "sha256": "2b601dff040f0eb788090e13483ed0c2ab231306623ea59ca5c956bbe327b284"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/render_station.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/render_station.py",
+      "bytes": 7627,
+      "sha256": "27590fc0ba4eb07dfaba61a7f6787a820c0982ae4869c14d193c053c41a739d5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/source/recipe/repair_mqu_boarding_edge.py",
+      "relative_path": "south/revision_02/mqu/source/recipe/repair_mqu_boarding_edge.py",
+      "bytes": 5928,
+      "sha256": "44ff1681bf2dda6c00fa1ac0bf7ff2e5a3dcb385e09259cbf3358faf572c287b"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/revision_02/mqu/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1464117,
+      "sha256": "555898c07a00bea0d5af0dcee41d1a1708207650e66dc0aa4c9660284a460f3e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1719833,
+      "sha256": "37f4fa6fc6ba9c9f19719456b6ea737425b6a279490c61399a17c60241b05912"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/revision_02/mqu/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1760874,
+      "sha256": "01e8bcc368a77d15562506788719f00cbf931b0413adcac68439ede1cb5f1798"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/revision_02/mqu/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1477832,
+      "sha256": "d307b175517ba1a8831973d497b011b83c3e981f9696c0eb6575542046cdfcaf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/revision_02/mqu/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/revision_02/mqu/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 1929144,
+      "sha256": "644d248eb0f5165e8ce3ac2e7f4b39679ff2dc40196d6fba6803871ff129bafb"
+    }
+  ],
+  "checks": {
+    "manifest": "Every frozen file size and SHA256 verified.",
+    "source_visual": "Northeast platform boarding edge is completed to an estimated2.0m adopted rail-centre envelope based on observed adjacency. All original paved area, raw source polygons, outer boundaries and track coordinates are retained; the opposite body is unchanged. All five exact gallery hashes passed source review and current/retained source lineage.",
+    "layout": "2 reported faces versus 2 modeled bodies. Actual top triangles remain clear of the adopted1.8m rail envelope within submillimetre serialization tolerance; raw source evidence retained.",
+    "circulation": "130 export-triangle checks pass. Floor surfaces confirm the complete approach, sanitary link, supported bridge toes and equal0.167762m upper stair transitions. Low/waist/head paths include lateral samples.",
+    "resources": "Current packed scene metric/finite/bounds/resources inventory passes; portable buffers/accessors/indices/embedded dependencies independently pass.",
+    "portable_palette": "25 untextured material RGB factors independently matched to exact source defaults; source palette hash 626a494471f34e520ae5bf3e02cc57bd175e5814422bcaaaa6f8f79096a82006"
+  },
+  "actual_floor_heights": {
+    "floor_ramp_0": -0.11137502528403048,
+    "floor_ramp_0.25": 0.16533330704099075,
+    "floor_ramp_0.5": 0.44204163936601204,
+    "floor_ramp_0.75": 0.7187499716910337,
+    "floor_ramp_1": 0.995458304016055,
+    "floor_entry_-6.719528455887701": 1.0049999952316284,
+    "floor_entry_-6.519528455887702": 1.024999976158142,
+    "floor_entry_2.2804715441122982": 1.024999976158142,
+    "floor_entry_2.4804715441122984": 1.0299999713897705,
+    "floor_entry_2.7804715441122982": 1.0299999713897705,
+    "floor_annex_0": 1.004999995247546,
+    "floor_annex_1": 1.0008999944768648,
+    "floor_annex_2": 0.9967999937061838,
+    "floor_annex_3": 0.9926999929355026,
+    "floor_annex_4": 0.9885999921648215,
+    "floor_annex_5": 0.9844999913941404,
+    "floor_annex_6": 0.9803999906234593,
+    "floor_annex_7": 0.9762999898527782,
+    "floor_annex_8": 0.972199989082097,
+    "floor_annex_9": 0.9680999883114159,
+    "floor_annex_10": 0.9639999875407348,
+    "floor_bridge_0_62.245": 8.010000228881836,
+    "floor_bridge_0_62.425": 7.842237949371338,
+    "floor_bridge_0_62.725": 7.674476146697998,
+    "floor_bridge_0_74.725": 0.9639999866485596,
+    "floor_bridge_0_74.975": 0.9639999866485596,
+    "floor_bridge_1_62.245": 8.010000228881836,
+    "floor_bridge_1_62.425": 7.842237949371338,
+    "floor_bridge_1_62.725": 7.674476146697998,
+    "floor_bridge_1_74.725": 0.9639999866485596,
+    "floor_bridge_1_74.975": 0.9639999866485596
+  },
+  "evidence_reports": [
+    "MQU_final_inputs.json",
+    "MQU_final_layout.json",
+    "MQU_frozen_scene_resources.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/MQU_0aee19fb_final_visual_review.json",
+    "MQU_v02_export_geometry_inspection.json",
+    "MQU_v02_final_portable.json",
+    "MQU_boarding_edge_delta.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a survey, operational inventory or engineering/accessibility certification.",
+    "Hidden interior details and precise dimensions are reconstructed unless separately evidenced.",
+    "Sanitary links are explicitly reconstructed; small raised tactile/threshold surfaces up to60mm occur at some sampled contacts.",
+    "Procedural Blender shading is approximated by source-authored portable base colors."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

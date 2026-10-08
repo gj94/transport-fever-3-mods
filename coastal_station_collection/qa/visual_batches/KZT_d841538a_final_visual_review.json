@@ -1,0 +1,61 @@
+{
+  "station": "KZT",
+  "reviewed_utc": "2026-10-08T22:22:43.219721+00:00",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "3f5fae6990a60cdc649fcec5d8a19721bc9380a4f4dfa079aff0a7ad6a4e4b6a",
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "inheritance_basis": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "73ff83f2cddd9f8bcdddb002890af8319d48b1b3fa0b2f98ea4d5599b8f1aed5",
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "3c5cb1618de048ec2dccfa62c58e8aa4cdd77ba4178200ca4f7438bb9bab87d3",
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "73e6234190e5c9387a6fc9884621f455cfda91ca686c1c5e38258798a32faa87",
+      "source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "inheritance_basis": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "6baf311f3d06e7991fd6d5756732773847158e9e9a0abd7bb379fe6d7ba5a9da",
+      "source_scene_sha256": "d18776dcee8ab0e81ccf680f9bcdcc9790efeb2c424a1216d78c0a52f1452183",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "d841538a2b0fbc227ff62b1d89a4a85d3534cf171cb2b1db7b89a2b0e011e702",
+      "inheritance_basis": "Only facade spandrels shifted0.16m, wholly outside this recorded camera frustum"
+    }
+  },
+  "prior_review_reports": [
+    "KZT_d841538a_partial_visual_review.json"
+  ],
+  "observations": [
+    "New04 reconstructed booking hall and counter are coherent; no material obstruction visible.",
+    "Revision02 source-signature arches are visible and pass;01/02/03/05 exact reviewed images are preserved.",
+    "This completes five-view visual coverage for the final corrected scene; no further geometry request."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "station": "TVP",
+  "layout_sha256": "a7d44a29a5a1aeb2b8c29c3d88c9be37742d96873a3ae02e0b2024dc10c06e93",
+  "platform_mesh_sha256": "ca1347427d83c4dd57685e7099171fa44e75bbabd44dddc605d3d7a605b13b04",
+  "platforms": [
+    {
+      "id": "1081587507",
+      "valid": true,
+      "area_m2": 3520.7534961559268,
+      "railcenter_min_m": 1.7999999569227436,
+      "intrusion_inside_1_8m_m2": 1.7299313256741853e-06
+    },
+    {
+      "id": "1081587508",
+      "valid": true,
+      "area_m2": 1953.8230716591788,
+      "railcenter_min_m": 1.799999704013701,
+      "intrusion_inside_1_8m_m2": 0.00017743855811943942
+    }
+  ],
+  "building_railcenter_min_m": 6.061144951833684,
+  "reported_faces": "2",
+  "modeled_bodies": 2,
+  "route_piece_ids": [
+    "385040650",
+    "608428979"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

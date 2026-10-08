@@ -1,0 +1,71 @@
+{
+  "station": "TVCS",
+  "reviewed_utc": "2026-10-08T22:36:09.287732+00:00",
+  "status": "five_view_visual_source_complete_pass",
+  "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "bbc6133bb7233f093e461a39e35a5483c72a84b3e3d706f0b95f547dddb90c8f",
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "d6bba8fb958a9f08cddcae38accf195f8bbc6fc717056a7c9adb7902074ef21a",
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "4ad8baffc75fade9995afc8a4227f3eb87c50b6fd8a8abd72e8298e49fd3af62",
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "016b52081bb6917bd6888a0021458e43947de8460d9e93dc9b36cf877ad95069",
+      "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "review_basis": "new_reduced_pixels_inspected",
+      "current_scene_lineage_verified": true
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "cdd6035b166ced7a66e8f23cf2692998718acd6eafb6c6caed8fe29c97bb02e6",
+      "source_scene_sha256": "fd98ddfb52a10b7928ab2c319683a489aa02cc0d637f6106083c977a3ca2579a",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "visual_result": "coherent",
+      "prior_review_report": "TVCS_1b7db792_partial_visual_review.json",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+      "inheritance_basis": "Only station-wall trim moved; rail-detail geometry and view unchanged",
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "1b7db792feb07b63eaffbdc42abe4943ece0195393bb2ff5a20a5b5f38792aa9",
+          "to_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+          "basis": "Only platform-wall decoration changed, outside the pointwork/rail-detail subject"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/TVCS_platform_facade_2024-08.png",
+      "sha256": "d22fcba2f3a92d1719dcff88e8ef5ed11bf385eab96459574579ae0984b5b15a"
+    }
+  ],
+  "review_contact_sheet": "coastal_stations_overnight/qa/visual_batches/TVCS_review_2235.jpg",
+  "prior_review_reports": [
+    "TVCS_1b7db792_partial_visual_review.json"
+  ],
+  "observations": [
+    "Current01\u201304 inspected. Platform-facing turquoise vertical/horizontal trim is now exposed on the pale wall beneath the broad blue canopy; recognizable source-facing station architecture is readable.",
+    "The low camera no longer relies on the unreferenced rear wall as proof. Partial perspective overlap from normal canopy piers does not materially obscure the station-specific facade subject.",
+    "Mapped full extent, platform/track approach, and reconstructed booking interior are coherent and train-free.",
+    "05 retains the exact prior passed image under documented unchanged-view lineage; five-view gallery complete."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Only listed images reviewed; preserved frames retain exact prior source/image hashes.",
+    "Unseen interior plans, dimensions and fixture positions remain disclosed reconstruction. Source photographs do not establish present operations.",
+    "Technical auditor owns geometry/export/resource/lineage and final freeze acceptance."
+  ]
+}

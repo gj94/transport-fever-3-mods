@@ -1,0 +1,311 @@
+{
+  "station": "TVCS",
+  "name": "Thiruvananthapuram South",
+  "source_scene_sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf",
+  "frozen_at_utc": "2026-10-08T22:37:30.640577+00:00",
+  "status": "Frozen after builder visual review; independent audit tracked separately",
+  "revision": 1,
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/TVCS_station_v01.blend",
+      "relative_path": "south/tvcs/TVCS_station_v01.blend",
+      "bytes": 8428099,
+      "sha256": "ed4519297289eace0f30e6e66b0ce82534260ecfd9732d6aa35155acce1cd3bf"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/README.md",
+      "relative_path": "south/tvcs/README.md",
+      "bytes": 4839,
+      "sha256": "87f194488b206d6b18c423462d9eb9b0cdfcd4115c8731fc4ec50eb0f193375b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/SOURCES.json",
+      "relative_path": "south/tvcs/SOURCES.json",
+      "bytes": 10983,
+      "sha256": "9f252332809a33782268c6ec6e21d8a73404f28bbaca0a2657ca026bf369e774"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/tvcs/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/QA_BUILD.json",
+      "relative_path": "south/tvcs/QA_BUILD.json",
+      "bytes": 10746,
+      "sha256": "11aa2b86b6b6f2a6d3b5768e1a71e213ab2322ca7e67d8cb10745e13d13629fb"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/QA_EXPORT.json",
+      "relative_path": "south/tvcs/QA_EXPORT.json",
+      "bytes": 1143,
+      "sha256": "1ac6daeba0c814c07ecbb1b19d79fb6eae90b3f9546ce54caae0423469655c35"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/RENDER_PROVENANCE.json",
+      "relative_path": "south/tvcs/RENDER_PROVENANCE.json",
+      "bytes": 3572,
+      "sha256": "6abb56af1a78104f447cb1fc6130448eac8e127e66deb6b305d7a37ac0628c06"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/exchange/TVCS_portable_GLTF.zip",
+      "relative_path": "south/tvcs/exchange/TVCS_portable_GLTF.zip",
+      "bytes": 5315553,
+      "sha256": "3f052d67055a7e083d4c153156cb642cd6611755389dc988a3692dbb2f39e129"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/exchange/MANIFEST.json",
+      "relative_path": "south/tvcs/exchange/MANIFEST.json",
+      "bytes": 656,
+      "sha256": "2eac49d0a391d6dd3ee831a838cb5c11b2f320525f380308545a34e662b16a21"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/tvcs/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1475934,
+      "sha256": "bbc6133bb7233f093e461a39e35a5483c72a84b3e3d706f0b95f547dddb90c8f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/tvcs/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1798758,
+      "sha256": "d6bba8fb958a9f08cddcae38accf195f8bbc6fc717056a7c9adb7902074ef21a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/tvcs/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1704877,
+      "sha256": "4ad8baffc75fade9995afc8a4227f3eb87c50b6fd8a8abd72e8298e49fd3af62"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/tvcs/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1511800,
+      "sha256": "016b52081bb6917bd6888a0021458e43947de8460d9e93dc9b36cf877ad95069"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/tvcs/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 2013566,
+      "sha256": "cdd6035b166ced7a66e8f23cf2692998718acd6eafb6c6caed8fe29c97bb02e6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/QA_SCENE.json",
+      "relative_path": "south/tvcs/QA_SCENE.json",
+      "bytes": 6139,
+      "sha256": "bd57250b6d3a080aaa43fd87cef75ac129e94757bdbacd6d7fa08b1ae0a2e4d6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/tvcs/QA_CIRCULATION_RAYS.json",
+      "bytes": 2417,
+      "sha256": "2157c3563b691e122276614db81b170a48e9f4e549e42b0c4681fb7d89519970"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/QA_VERANDA_REPAIR.json",
+      "relative_path": "south/tvcs/QA_VERANDA_REPAIR.json",
+      "bytes": 718,
+      "sha256": "7c590aeb8dbcda41366ce0ac3a0ffd3df449ec81e2766548238eb46cd50c2d5e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/QA_FACADE_REPAIR.json",
+      "relative_path": "south/tvcs/QA_FACADE_REPAIR.json",
+      "bytes": 1450,
+      "sha256": "d233a9b5e9058d457e9f3013135d5f25adf547dff4edbc86421edf1d4589fb82"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/exchange/COLOUR_PRESERVATION.json",
+      "relative_path": "south/tvcs/exchange/COLOUR_PRESERVATION.json",
+      "bytes": 877,
+      "sha256": "e6fcd114ffa08e59ddd0cfdf221415a2b3a3a299a5c3a233a821245a5fe70c83"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/exchange/SOURCE_PALETTE.json",
+      "relative_path": "south/tvcs/exchange/SOURCE_PALETTE.json",
+      "bytes": 14620,
+      "sha256": "c3f6ae60057f3e9e86e4e813c5c141b77573afa53f7d41ab15bb894a6bde73a1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/REPAIR_LINEAGE.json",
+      "relative_path": "south/tvcs/REPAIR_LINEAGE.json",
+      "bytes": 338,
+      "sha256": "cb3d94c39ce6b651f8ebe49bc2d10732b404d3c6d45f3083c1b12704ec35a80d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/REPAIR_HISTORY.json",
+      "relative_path": "south/tvcs/REPAIR_HISTORY.json",
+      "bytes": 569,
+      "sha256": "677228478235798ed1130d3fdabf29e67fd8bba105f066a6175331719ba10d64"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/name_ta.svg",
+      "relative_path": "south/tvcs/source/name_ta.svg",
+      "bytes": 217,
+      "sha256": "afceb2e0f9ea436156ccb625a25861cbccd88931b5e789b14d3cae9debd96f60"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/platform_mesh.json",
+      "relative_path": "south/tvcs/source/platform_mesh.json",
+      "bytes": 3998,
+      "sha256": "42fa78dcb988732b5219ccb7ed59cca7c559a9a2dbdfa0368f179ee505a643f7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/build_config.json",
+      "relative_path": "south/tvcs/source/build_config.json",
+      "bytes": 382,
+      "sha256": "fc52563ebd6ff0495f113af8deb137a47bfd146dacf3bb0638ee0d73a2d8dfc6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/layout.json",
+      "relative_path": "south/tvcs/source/layout.json",
+      "bytes": 15815,
+      "sha256": "064b9d06df5a8013a00f2b43bb8107801f15afa710be29cf20153e763a2cfd99"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/name_ml.svg",
+      "relative_path": "south/tvcs/source/name_ml.svg",
+      "bytes": 218,
+      "sha256": "560f6c4432a69f5be8dd000f703cbeaad43bc0b26c21f745c60ae3491a69f9f5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/name_ml_outlined.svg",
+      "relative_path": "south/tvcs/source/name_ml_outlined.svg",
+      "bytes": 3678,
+      "sha256": "fc06d198164ef8539af9ff0de166ebb80aa4ea2f2e82ed33dad49e8d49769052"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/name_ta_outlined.svg",
+      "relative_path": "south/tvcs/source/name_ta_outlined.svg",
+      "bytes": 3894,
+      "sha256": "3ca9c1d2587bf909d3feaca1ec8b80b73b5ce40542cdbbffd5474d1acf11dece"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/rail_mesh.json",
+      "relative_path": "south/tvcs/source/rail_mesh.json",
+      "bytes": 192649,
+      "sha256": "e6e71776c0baf871dba367382fdeb2a72f946679632e668e3aa2278d0ab5eea2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/native_names.json",
+      "relative_path": "south/tvcs/source/native_names.json",
+      "bytes": 200,
+      "sha256": "e0ba6781b9bd2bacff45806b8a2c5ceded7e6832baf48da9bc4e62e460641917"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/architectural_variants.py",
+      "relative_path": "south/tvcs/source/recipe/architectural_variants.py",
+      "bytes": 60563,
+      "sha256": "c5a922f1d8f9fb8f7dfb81ed50b6144a18b33b1a1da8467bdabda01fcdb70736"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/extract_portable_palettes.py",
+      "relative_path": "south/tvcs/source/recipe/extract_portable_palettes.py",
+      "bytes": 1587,
+      "sha256": "8dd94ad493b3014bbc675fb489b59f1b0cc8b25019da7ac1315e67551e6faf53"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/repair_tvcs_platform_face.py",
+      "relative_path": "south/tvcs/source/recipe/repair_tvcs_platform_face.py",
+      "bytes": 2913,
+      "sha256": "29aab8d8fc10a89c1bc179574f39c4b620f10c6fe5ad02a8149147ffa99dddca"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/tvcs/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/access_geometry.py",
+      "relative_path": "south/tvcs/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/build_station.py",
+      "relative_path": "south/tvcs/source/recipe/build_station.py",
+      "bytes": 47129,
+      "sha256": "22acbd340595039905f873c1fd4840612105fed7c091c06ce0b0608422c68cc3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/repair_kzt_arches.py",
+      "relative_path": "south/tvcs/source/recipe/repair_kzt_arches.py",
+      "bytes": 3031,
+      "sha256": "fb28775430ccc14791e7c23b6bfd64d15e8244e021493e5665ea616f9a316392"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/prepare_geometry.py",
+      "relative_path": "south/tvcs/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/repair_veranda_columns.py",
+      "relative_path": "south/tvcs/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/export_station.py",
+      "relative_path": "south/tvcs/source/recipe/export_station.py",
+      "bytes": 2570,
+      "sha256": "51b5b9265044754400a4a4a03f3228a22de82081c615bb40a1d2c76abf9a8aa9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/repair_kzk_entry_depth.py",
+      "relative_path": "south/tvcs/source/recipe/repair_kzk_entry_depth.py",
+      "bytes": 3992,
+      "sha256": "abccbb0553c920d21c0b8e21446b4fc0a41a9737ca04015e8ee1a15c03306000"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/close_njt_upper_portal.py",
+      "relative_path": "south/tvcs/source/recipe/close_njt_upper_portal.py",
+      "bytes": 1726,
+      "sha256": "d72454b077053beab69ab87c567afa7ea7abe01c0d548f42c8916319dbe4a240"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/repair_access_link.py",
+      "relative_path": "south/tvcs/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/portable_colors.py",
+      "relative_path": "south/tvcs/source/recipe/portable_colors.py",
+      "bytes": 1723,
+      "sha256": "616ba7001a3d4a5084c64bb621a4fb9475d71ed575c81174adadfe5468efa203"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/complete_tvp_boarding_edges.py",
+      "relative_path": "south/tvcs/source/recipe/complete_tvp_boarding_edges.py",
+      "bytes": 2651,
+      "sha256": "39d54b0f331cfb481552918141ca23d317659f4a55ec350c64547bc6c7d6412b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/tvcs/source/recipe/scene_review_inputs.py",
+      "bytes": 2177,
+      "sha256": "e2d87bbb9c3540c1c14fcc9087d3c5cedfbeac31f16b490660e60cac00de67ae"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/finalize_portable_colours.py",
+      "relative_path": "south/tvcs/source/recipe/finalize_portable_colours.py",
+      "bytes": 4498,
+      "sha256": "2b601dff040f0eb788090e13483ed0c2ab231306623ea59ca5c956bbe327b284"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/tvcs/source/recipe/render_station.py",
+      "relative_path": "south/tvcs/source/recipe/render_station.py",
+      "bytes": 7627,
+      "sha256": "27590fc0ba4eb07dfaba61a7f6787a820c0982ae4869c14d193c053c41a739d5"
+    }
+  ],
+  "excluded": [
+    "raw Google/third-party reference screenshots",
+    "redundant raw .glb after verified lossless archiving",
+    "Blender backup .blend1 files",
+    "logs and mutable region-wide working files"
+  ],
+  "total_bytes": 22720742
+}
