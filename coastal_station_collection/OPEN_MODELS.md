@@ -1,4 +1,4 @@
-**Portable export colour notice:** Packed Blender scenes and their rendered previews retain the intended appearance. Some overnight GLB surfaces currently default to white because explicit fallback base colours were omitted. Colour-only corrections are in progress. Use the packed Blender scene for the intended appearance while replacement exports are checked. [Details and correction status](EXPORT_MATERIAL_NOTICE.md).
+**Current portable exports:** All **53 overnight entries** have checked current selections: **52 active stations plus the separately labelled historical TNU entry**. Use the [current portable export list](PORTABLE_EXPORTS.md). Original archives remain as history; packed Blender scenes retain the full procedural appearance. [Correction history and limitations](EXPORT_MATERIAL_NOTICE.md).
 
 # Open and verify station models
 
