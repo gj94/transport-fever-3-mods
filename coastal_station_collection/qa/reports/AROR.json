@@ -1,0 +1,221 @@
+{
+  "station_code": "AROR",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/AROR final freeze",
+  "manifest_sha256": "ee20cef3d5c7e3b5debc2f5905c3fca745b1c621e952d3ac0e4cb66fc73d8241",
+  "blend_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+  "export_sha256": "5c8977368608cd9cbe8d40d4d28ae4a2d17f98c73dac0847f8651f8083fbf432",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/AROR/AROR_coastal_station_v02.blend",
+      "bytes": 6529614,
+      "sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/BUILD_SOURCE.py",
+      "bytes": 51704,
+      "sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/EXPORT_SOURCE.py",
+      "bytes": 1574,
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/QA_BUILD.json",
+      "bytes": 6050,
+      "sha256": "f544e8cb94d92741e74b687366736ff5efc00bc7fc10db35bdc428315cec2fd8"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/QA_EXPORT.json",
+      "bytes": 526,
+      "sha256": "f3652881c16e61c3944c91e8a38122304dddaab051ca5e0fc9a2143cc565838f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/QA_LAYOUT.json",
+      "bytes": 643,
+      "sha256": "e2ea399a50826e6d997011a1669d1b27d750c2cf6f0bae2376f6e55f895c3eb3"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/QA_RAY_INPUTS.json",
+      "bytes": 193,
+      "sha256": "ce4773396bd72e0fbdf27da2c7d427229b434700d9585bed45fdef478846043a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/QA_SCENE.json",
+      "bytes": 2398,
+      "sha256": "83b966e8ce88309ea614415317353f59c7577be4e6c6c593621ad1123dca02b9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/README.md",
+      "bytes": 592,
+      "sha256": "3acfc175d426d274781b2444b262def122b494849b75e37e65b992248b6f6e32"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/RENDER_SOURCE.py",
+      "bytes": 2538,
+      "sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/SHUTTER_PATCH_SOURCE.py",
+      "bytes": 1394,
+      "sha256": "c431a5a31e4cccd698c66000afda05f1dafea2acacd2a4f74bb1c426bd12caa4"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 5779,
+      "sha256": "6fdce99006a9c1be8c2cd878852bd8c980e9decbf3769351789c9c510704d7fa"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/VISUAL_QA.md",
+      "bytes": 1070,
+      "sha256": "7c6e851c0cb0ba2b9bd5af2ea4b6af2dc79f9ca4d910385aa276f884a294bda9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/exports/AROR_coastal_station_v02.glb",
+      "bytes": 27663208,
+      "sha256": "5c8977368608cd9cbe8d40d4d28ae4a2d17f98c73dac0847f8651f8083fbf432"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/exports/AROR_coastal_station_v02.validation.json",
+      "bytes": 561,
+      "sha256": "596794fb743034abf96ac84be615b56760d78aa232324a22f465b9c025ac1805"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/FULL_TRACK_PLAN.png",
+      "bytes": 64446,
+      "sha256": "6b4521f345a05338e0f35ce9018a59515f20fbe19bd71ac02340d61b09ac35b3"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/architecture_google_evidence.json",
+      "bytes": 1768,
+      "sha256": "6e5114723a10cc49baeafb4f0882303247f920048f6820ef976c7d00a2874741"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/plan.json",
+      "bytes": 93588,
+      "sha256": "af732a6ed8c3cbac25b18e7f299909c704cd4d32caae3bca9ee4db356dd649dc"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/plan.png",
+      "bytes": 29537,
+      "sha256": "690e60e0c398739eaf79bfe1fd37eba80d076a0c370b1b589ed3f40775e9c881"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/pointwork.json",
+      "bytes": 828,
+      "sha256": "7fa9ee8f8830d489047f5502d224d73afb7a733d4319037a1c3525c5648fe31b"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/rail_meshes.json",
+      "bytes": 42160,
+      "sha256": "d328688dd58075beddeaaa1f4dbb5e4584d33cc0cc691864e3dcb12128b86335"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/references/station_record.json",
+      "bytes": 6362,
+      "sha256": "d2599ed938550d13ac7b8936a8b07c375f8689b9b67da726f03e9867381a900c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/01_Overall_station.json",
+      "bytes": 427,
+      "sha256": "00e23d88331aa329ad40214893b0a592296c8af1620980bcf9785ab3ec473ece"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/01_Overall_station.png",
+      "bytes": 1531043,
+      "sha256": "8f96eba2af29cca8b61c74face39c68239d06257ac1c776e690da01303328dc6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/02_Entrance_architecture.json",
+      "bytes": 439,
+      "sha256": "d706a93e3b7fb7de424ffea027cd04efd0941e24670fae96fd6bd898a0d5bfe9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/02_Entrance_architecture.png",
+      "bytes": 1400601,
+      "sha256": "f9531de592ec3fba392341426cc9eee8ac4dfb087f2e877a73354831bd016571"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/03_Platform_and_tracks.json",
+      "bytes": 561,
+      "sha256": "be89e8a8e7caf51bdbd5c60b7bb46f7dc978b327e26c4276bb49c84c91a544be"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/03_Platform_and_tracks.png",
+      "bytes": 1277787,
+      "sha256": "e05587183729d684fe32129d8760d6119d5c4520ac1c089f0eac49b6efb35986"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/04_Reconstructed_interior.json",
+      "bytes": 567,
+      "sha256": "db5cdf1fe98085cd617140b3189411c7c60eb25c61f10c676b0bf64ef1de984c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/04_Reconstructed_interior.png",
+      "bytes": 1346963,
+      "sha256": "b39573b5080bc8c5103da05e79def35a6485bc77cc09ba6cb0b789a2ba5c4b6a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/textures/board.png",
+      "bytes": 43645,
+      "sha256": "0aea07e30e78982e2e12e63e6f907356d8003eccd2aeecb71b08535a11daa16c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/textures/fascia.png",
+      "bytes": 32817,
+      "sha256": "bfa74152ea6cdda7abcbc51b32aa258e0ef50addc576aa1e7c658260b21ecbc6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/textures/notice.png",
+      "bytes": 37327,
+      "sha256": "044572eaea364a9dea26e26ec42defb022f508f76fd744b0da33c13c261d2f26"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/01_Overall_station.png",
+      "bytes": 1531043,
+      "sha256": "8f96eba2af29cca8b61c74face39c68239d06257ac1c776e690da01303328dc6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/02_Entrance_architecture.png",
+      "bytes": 1400601,
+      "sha256": "f9531de592ec3fba392341426cc9eee8ac4dfb087f2e877a73354831bd016571"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/03_Platform_and_tracks.png",
+      "bytes": 1277787,
+      "sha256": "e05587183729d684fe32129d8760d6119d5c4520ac1c089f0eac49b6efb35986"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AROR/renders/04_Reconstructed_interior.png",
+      "bytes": 1346963,
+      "sha256": "b39573b5080bc8c5103da05e79def35a6485bc77cc09ba6cb0b789a2ba5c4b6a"
+    }
+  ],
+  "checks": {
+    "manifest": "All 33 frozen file hashes and byte counts independently verified.",
+    "visual": "All 4 native gallery images have independent source/pixel review; source/reconstruction distinctions are preserved.",
+    "resources": "Exact packed scene inventory confirms metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bounds and embedded-dependency checks pass; exact source-to-export provenance verifies.",
+    "layout": "Reported faces:1; physical bodies:1. All actual adopted platform polygons valid and clear of rail envelopes; enclosed building footprint has no platform overlap. Source footprints and inferred choices are retained.",
+    "circulation": "9 independent low/waist/head public and ramp paths clear; 7 actual floor probes support ramps and entrance/platform thresholds."
+  },
+  "evidence_reports": [
+    "AROR_frozen_scene_resources.json",
+    "AROR_export_geometry_inspection.json",
+    "AROR_final_inputs.json",
+    "AROR_final_layout.json",
+    "AROR_final_portable.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/AROR_6b11dfd3_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted exported-triangle checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

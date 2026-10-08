@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/EZP/exports/EZP_coastal_station_v01.glb",
+    "bytes": 25647728,
+    "errors": [],
+    "warnings": [],
+    "sha256": "d2b7064c6b245c6648dd668e1f747e8210ab42ee954e17aa3603dfb61cd7c60e",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 25647728
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 47684
+      },
+      {
+        "type": 5130562,
+        "bytes": 25600016
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 60,
+    "mesh_count": 60,
+    "primitive_count": 60,
+    "vertex_reference_count": 857496,
+    "accessor_count": 175,
+    "validated_accessor_count": 175,
+    "material_count": 24,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

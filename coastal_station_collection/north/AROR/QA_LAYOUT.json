@@ -1,0 +1,16 @@
+{
+  "code": "AROR",
+  "blend_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+  "source_plan_sha256": "af732a6ed8c3cbac25b18e7f299909c704cd4d32caae3bca9ee4db356dd649dc",
+  "platform_checks": [
+    {
+      "ref": "1",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.199999999999999
+    }
+  ],
+  "switch_motor_checks": [],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}

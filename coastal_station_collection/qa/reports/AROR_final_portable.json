@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/AROR/exports/AROR_coastal_station_v02.glb",
+    "bytes": 27663208,
+    "errors": [],
+    "warnings": [],
+    "sha256": "5c8977368608cd9cbe8d40d4d28ae4a2d17f98c73dac0847f8651f8083fbf432",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 27663208
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 59684
+      },
+      {
+        "type": 5130562,
+        "bytes": 27603496
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 78,
+    "mesh_count": 78,
+    "primitive_count": 78,
+    "vertex_reference_count": 924349,
+    "accessor_count": 225,
+    "validated_accessor_count": 225,
+    "material_count": 23,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

@@ -1,0 +1,228 @@
+{
+  "station_code": "AROR",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 1,
+  "platform_bodies_modeled": 1,
+  "road_cross_section_count": 1,
+  "source_route_segments": 3,
+  "mapped_turnout_nodes": 0,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 3429,
+  "switch_hardware": [],
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 85,
+  "mesh_objects": 70,
+  "mesh_vertices": 312054,
+  "mesh_faces": 222230,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "9234e0cd05f93e1167b1fad64b17fa8a05405672d051a971c97b3fc70a5bf7b9",
+  "source_plan_sha256": "af732a6ed8c3cbac25b18e7f299909c704cd4d32caae3bca9ee4db356dd649dc",
+  "blend_file": "AROR_coastal_station_v02.blend",
+  "blend_sha256": "6b11dfd33f27ba8adc8fb5e6dfef3561ad205b26bc62be0af69dd79a525b1fdb",
+  "blend_bytes": 6529614,
+  "building_dimensions_m": {
+    "width": 11.748889000351213,
+    "length": 13.196668968389284,
+    "position_xy": [
+      8.41207317905425,
+      14.164695695413645
+    ],
+    "height": 5.1
+  },
+  "platform_parameters": [
+    {
+      "x": -1.9086723112421684,
+      "y": 0.0,
+      "bounds": [
+        -10.485299191801031,
+        -135.0,
+        2.297037523932359,
+        135.0
+      ],
+      "width": 8.000894167932778,
+      "ref": "1"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        300.0,
+        -162.0,
+        240.0
+      ],
+      "rotation": [
+        0.957441508769989,
+        8.224759540098603e-09,
+        1.0756629705429077
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        36.28651809692383,
+        -3.8353042602539062,
+        9.300000190734863
+      ],
+      "rotation": [
+        1.3762799501419067,
+        -1.0226538904589688e-07,
+        0.8850667476654053
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        -3.708672285079956,
+        -51.835304260253906,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        -2.5454993668461157e-10,
+        0.03821667283773422
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        13.386517524719238,
+        8.566361427307129,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5374679565429688,
+        -1.4457777197662836e-08,
+        0.5010194182395935
+      ]
+    }
+  ],
+  "peak_rss_kb": 338612,
+  "shutter_patch": {
+    "source_blend_sha256": "17d63e42002c4418fdaa5a6b474905929b18de8dd106013cfa2b704cf1c9fe84",
+    "source_blend_file": "AROR_coastal_station_v01.blend",
+    "reason": "Wood shutter geometry was rotated about global origin; now each leaf rotates about its own window center.",
+    "changed_objects": [
+      {
+        "object": "Aroor hinged wooden shutter",
+        "hinged_leaf_center": [
+          2.79762864112854,
+          9.920028686523438,
+          3.450000286102295
+        ],
+        "rotation_radians": -0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.001",
+        "hinged_leaf_center": [
+          2.79762864112854,
+          10.811028480529785,
+          3.450000286102295
+        ],
+        "rotation_radians": 0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.002",
+        "hinged_leaf_center": [
+          2.79762864112854,
+          17.51836395263672,
+          3.450000286102295
+        ],
+        "rotation_radians": -0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.003",
+        "hinged_leaf_center": [
+          2.79762864112854,
+          18.40936279296875,
+          3.450000286102295
+        ],
+        "rotation_radians": 0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.004",
+        "hinged_leaf_center": [
+          14.546516418457031,
+          9.920028686523438,
+          3.450000286102295
+        ],
+        "rotation_radians": -0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.005",
+        "hinged_leaf_center": [
+          14.546516418457031,
+          10.811028480529785,
+          3.450000286102295
+        ],
+        "rotation_radians": 0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.006",
+        "hinged_leaf_center": [
+          14.546516418457031,
+          17.51836395263672,
+          3.450000286102295
+        ],
+        "rotation_radians": -0.3499999940395355
+      },
+      {
+        "object": "Aroor hinged wooden shutter.007",
+        "hinged_leaf_center": [
+          14.546516418457031,
+          18.40936279296875,
+          3.450000286102295
+        ],
+        "rotation_radians": 0.3499999940395355
+      }
+    ],
+    "all_other_geometry_unchanged": true,
+    "script_sha256": "c431a5a31e4cccd698c66000afda05f1dafea2acacd2a4f74bb1c426bd12caa4"
+  },
+  "initial_build_inventory": {
+    "object_count": 85,
+    "mesh_objects": 70,
+    "mesh_vertices": 312054,
+    "mesh_faces": 222230
+  },
+  "unique_mesh_vertices_final": 312054,
+  "geometry_bounds_m": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.424689292907715
+    ]
+  ],
+  "packed_resources_final": true,
+  "no_stock_name_candidates_final": true,
+  "final_inventory_source": "QA_SCENE.json, exact read-only inspected scene hash"
+}

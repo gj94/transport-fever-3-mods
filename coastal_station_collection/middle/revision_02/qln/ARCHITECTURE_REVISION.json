@@ -1,0 +1,53 @@
+{
+  "base_blend_sha256": "032e138121ab63188fb703ceb3238d9d33d13232bb1caa9fce7af81d5aa327d1",
+  "repaired_blend_sha256": "db097aa561f2e1bc04a4733819b396192abb3afddd91f93d670e4f7baf8ce234",
+  "repair_script_sha256": "8df92e49ed01a95c9d7b06fb979ac612babb6a5c92d7195dc39d95377719d9c5",
+  "removed_objects": [
+    "Kollam red-white stepped entry panel",
+    "Kollam red-white stepped entry panel.001"
+  ],
+  "created_objects": [
+    "Kollam broad left stepped diagonal mosaic",
+    "Kollam broad left stepped diagonal mosaic.001",
+    "Kollam pointed right stepped diagonal mosaic",
+    "Kollam pointed right stepped diagonal mosaic.001"
+  ],
+  "camera04_before": {
+    "location": [
+      -81.0,
+      -119.80000305175781,
+      10.017999649047852
+    ],
+    "rotation": [
+      1.499057412147522,
+      -3.904001566468196e-09,
+      -0.2067912369966507
+    ],
+    "lens": 38.0
+  },
+  "camera04_after": {
+    "location": [
+      -80.0,
+      -93.0,
+      13.5
+    ],
+    "rotation": [
+      1.431637167930603,
+      1.780952096908095e-08,
+      -0.28053680062294006
+    ],
+    "lens": 42.0
+  },
+  "observed_source": "Google Maps Sep2020 capture/Apr2022 header, QLN_google_facade_capture_2020-09.png. Filled broad red-white stepped diagonal rectangle at left, pointed patterned panel at right of portico.",
+  "uncertainty": "Panel dimensions and pattern tessellation reconstructed; cladding covers incidental generic openings in these photographed solid facade zones. Central public entrance and remote ramp doorway remain unchanged.",
+  "unchanged": "Yard/rail/platform/bridge geometry, upper office and all interior furnishings. Camera04 only changed; surface cladding added at front of entrance-side walls.",
+  "retained_views": [
+    "03_platform_track_details.png",
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "02_station_and_platforms.png",
+    "04_facade_and_approach.png"
+  ]
+}

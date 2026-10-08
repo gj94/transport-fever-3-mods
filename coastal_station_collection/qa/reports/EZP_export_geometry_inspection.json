@@ -1,0 +1,323 @@
+{
+  "asset": "coastal_stations_overnight/north/EZP/exports/EZP_coastal_station_v01.glb",
+  "export_sha256": "d2b7064c6b245c6648dd668e1f747e8210ab42ee954e17aa3603dfb61cd7c60e",
+  "container_sha256": null,
+  "default_scene": "Scene",
+  "scene_count": 1,
+  "objects": 60,
+  "method": "Static exported triangles with complete glTF node transforms, converted from glTF Y-up to Blender Z-up. Double-sided Moller-Trumbore finite-segment tests; not an engineering certification.",
+  "circulation_rays": {
+    "central_front_hall_platform_height0.3": {
+      "from": [
+        25.223809239237738,
+        3.8830776559359457,
+        1.8
+      ],
+      "to": [
+        9.476141790534756,
+        3.8830776559359457,
+        1.8
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height0.8": {
+      "from": [
+        25.223809239237738,
+        3.8830776559359457,
+        2.3
+      ],
+      "to": [
+        9.476141790534756,
+        3.8830776559359457,
+        2.3
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height1.7": {
+      "from": [
+        25.223809239237738,
+        3.8830776559359457,
+        3.2
+      ],
+      "to": [
+        9.476141790534756,
+        3.8830776559359457,
+        3.2
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        22.423809239237738,
+        28.970227659813958,
+        0.3
+      ],
+      "to": [
+        22.423809239237738,
+        11.57022765981396,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        22.423809239237738,
+        11.57022765981396,
+        1.75
+      ],
+      "to": [
+        22.423809239237738,
+        3.8830776559359457,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        22.423809239237738,
+        28.970227659813958,
+        0.8
+      ],
+      "to": [
+        22.423809239237738,
+        11.57022765981396,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        22.423809239237738,
+        11.57022765981396,
+        2.25
+      ],
+      "to": [
+        22.423809239237738,
+        3.8830776559359457,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        22.423809239237738,
+        28.970227659813958,
+        1.7
+      ],
+      "to": [
+        22.423809239237738,
+        11.57022765981396,
+        3.15
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        22.423809239237738,
+        11.57022765981396,
+        3.15
+      ],
+      "to": [
+        22.423809239237738,
+        3.8830776559359457,
+        3.15
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_7.687150003878015": {
+      "from": [
+        22.423809239237738,
+        11.57022765981396,
+        1.7
+      ],
+      "to": [
+        22.423809239237738,
+        11.57022765981396,
+        0.95
+      ],
+      "clear": false,
+      "hit": "04 | Ezhupunna photographed architecture / stone",
+      "hit_location": [
+        22.423809239237738,
+        11.57022765981396,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_ramp_16.387150003878013": {
+      "from": [
+        22.423809239237738,
+        20.27022765981396,
+        0.975
+      ],
+      "to": [
+        22.423809239237738,
+        20.27022765981396,
+        0.22499999999999998
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        22.423809239237738,
+        20.27022765981396,
+        0.725000044614706
+      ],
+      "hit_normal": [
+        -0.0,
+        0.08304547985373997,
+        0.9965457582448797
+      ]
+    },
+    "floor_ramp_25.087150003878016": {
+      "from": [
+        22.423809239237738,
+        28.97022765981396,
+        0.25
+      ],
+      "to": [
+        22.423809239237738,
+        28.97022765981396,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        22.423809239237738,
+        28.97022765981396,
+        4.4614705624335116e-08
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304547985373997,
+        0.9965457582448797
+      ]
+    },
+    "floor_threshold_21.323809239237736": {
+      "from": [
+        21.323809239237736,
+        3.8830776559359457,
+        1.7
+      ],
+      "to": [
+        21.323809239237736,
+        3.8830776559359457,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Ezhupunna photographed architecture / stone",
+      "hit_location": [
+        21.323809239237736,
+        3.8830776559359457,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_21.123809239237737": {
+      "from": [
+        21.123809239237737,
+        3.8830776559359457,
+        1.7
+      ],
+      "to": [
+        21.123809239237737,
+        3.8830776559359457,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Ezhupunna photographed architecture / stone",
+      "hit_location": [
+        21.123809239237737,
+        3.8830776559359457,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_11.576141790534756": {
+      "from": [
+        11.576141790534756,
+        3.8830776559359457,
+        1.7
+      ],
+      "to": [
+        11.576141790534756,
+        3.8830776559359457,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Ezhupunna photographed architecture / stone",
+      "hit_location": [
+        11.576141790534756,
+        3.8830776559359457,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_11.376141790534756": {
+      "from": [
+        11.376141790534756,
+        3.8830776559359457,
+        1.7
+      ],
+      "to": [
+        11.376141790534756,
+        3.8830776559359457,
+        0.8
+      ],
+      "clear": false,
+      "hit": "04 | Ezhupunna photographed architecture / stone",
+      "hit_location": [
+        11.376141790534756,
+        3.8830776559359457,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        -0.0,
+        1.0
+      ]
+    }
+  }
+}
