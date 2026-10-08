@@ -12,6 +12,9 @@ for c in sorted([o for o in s.objects if o.type=='CAMERA'],key=lambda x:x.name):
  if names and not any(c.name.startswith(a) for a in names):continue
  
  label=bpy.data.collections.get('91_REVIEW_LABELS_NOT_PHYSICAL')
- if label:label.hide_render=not c.name.startswith('10_');label.hide_viewport=False
+ if label:
+  label.hide_render=not c.name.startswith('10_');label.hide_viewport=False
+  for ob in label.objects:
+   if hasattr(ob,'visible_shadow'):ob.visible_shadow=False
  s.cycles.samples=12 if quick else (128 if c.name[:2] in ['02','03','04','12','14'] else 48)
  s.camera=c;s.render.filepath=str(R/'renders'/f'{c.name}.png');bpy.ops.render.render(write_still=True)
