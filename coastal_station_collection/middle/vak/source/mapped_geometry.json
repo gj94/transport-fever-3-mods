@@ -1,0 +1,4339 @@
+{
+  "station": {
+    "sequence": "32",
+    "station_code": "VAK",
+    "station_name": "Varkala Sivagiri",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "178.98",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "164.66",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "",
+    "mapped_platform_bodies": "2",
+    "mapped_numbered_platform_positions": "",
+    "mapped_roads_at_marker_transect": "",
+    "mapped_parallel_running_roads": "4",
+    "mapped_connected_loops": "2",
+    "mapped_nonloop_sidings": "",
+    "mapped_total_tracks_all_types": "",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "Two main roads and two outer loops with several end stubs. Two platform polygons refs 1 and2; eastern polygon intersects mapped track, so face inventory not inferred from imperfect alignment. Siding total unresolved.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2017-08-10T06:48:12Z / 2026-07-09T15:19:18Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=76.7138720,8.7317320,76.7318720,8.7497320",
+    "mapped_rail_way_ids": "236119111;514398896;514398898;514398901;514398903;514398904;608428990;608428994;617584065;617584067;641573562;641573563;641573564;641573565;641573566;820369256;820369257;820369258",
+    "mapped_platform_way_ids": "1536886969;1536886989",
+    "mapped_excluded_nonoperational_way_ids": "",
+    "mapped_source_record": "middle_observations.json#VAK",
+    "map_latitude": "8.7406369",
+    "map_longitude": "76.723134",
+    "mapped_crossing_loop_alignments": "",
+    "mapped_dead_end_extensions_simple_station_only": "",
+    "wikipedia_reported_platforms": "3",
+    "wikipedia_reported_tracks": "5",
+    "wikipedia_platforms_numeric": "3",
+    "wikipedia_tracks_numeric": "5",
+    "wikipedia_platform_field_raw": "3",
+    "wikipedia_tracks_field_raw": "5",
+    "wikipedia_article_url": "https://en.wikipedia.org/wiki/Varkala_Sivagiri_railway_station",
+    "wikipedia_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1371011384",
+    "wikipedia_revision_id": "1371011384",
+    "wikipedia_revision_timestamp": "2026-08-24T03:31:08Z",
+    "wikipedia_accessed_date": "2026-10-08",
+    "wikipedia_platform_inline_citation_present": "False",
+    "wikipedia_tracks_inline_citation_present": "False",
+    "wikipedia_conflict_notes": "No specific conflict identified in this pass. Infobox count is reported, not independently verified as a current engineering inventory.",
+    "wikipedia_lookup_status": "FOUND",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "",
+    "wikipedia_count_source_class": "Wikipedia article infobox, reported secondary figure",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "3",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 3",
+    "iri_source_url": "https://indiarailinfo.com/station/map/varkala-sivagiri-vak/569",
+    "iri_profile_updated_raw": "Sep 11 2024 (02:11)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Number of Platforms is the profile's stated platform total. Track: Double Electric-Line is a section category, not a count of all tracks within station limits. Numerical station running-line, loop, siding and total-track counts are not stated in the inspected profile. Profile update date is not assumed to date the platform figure.",
+    "reported_platform_count": "3",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "3I",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/varkala-sivagiri-vak/569",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "569",
+    "iri_heading_station_code": "VAK",
+    "iri_heading_raw": "VAK/Varkala Sivagiri (3 PFs)",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "NOT_ESTABLISHED",
+    "iri_history_url": "",
+    "iri_history_findings": "No count-specific history date established; profile timestamp not treated as platform update date.",
+    "wikipedia_comparison": "AGREES",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI double-line category agrees primary named-section baseline; not a complete yard inventory.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "2024",
+    "iri_source_reference": "turn212search2",
+    "iri_search_index_crawl_age_raw": "4 months ago",
+    "iri_slug_identity_status": "Heading and numeric ID agree; no contradictory named slug selected",
+    "iri_source_evidence_file": "sources/iri_middle_batch3_2026-10-08.txt",
+    "iri_profile_updated_iso_local": "2024-09-11T02:11",
+    "iri_profile_updated_timezone": "NOT_EXPOSED",
+    "comparison_wikipedia_platforms": "3",
+    "comparison_wikipedia_platform_source": "https://en.wikipedia.org/w/index.php?oldid=1371011384",
+    "comparison_wikipedia_revision_timestamp": "2026-08-24T03:31:08Z",
+    "comparison_wikipedia_platform_agreement": "AGREES",
+    "iri_explicit_platform_field_update_raw": "NOT_RECOVERED",
+    "iri_timeline_evidence_url": "NOT_REVIEWED_SEPARATELY",
+    "iri_platform_count_basis": "IRI Number of Platforms field; do not automatically equate to platform bodies or uninterrupted boarding faces",
+    "iri_conflict_notes": "No numeric Wikipedia platform discrepancy found in the existing register.",
+    "satellite_observation_json": "",
+    "satellite_platform_bodies_observed": "",
+    "satellite_body_count_scope": "",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "origin_lonlat": [
+    76.723134,
+    8.7406369
+  ],
+  "along_unit_east_north": [
+    -0.5274299466028068,
+    0.8495985236725405
+  ],
+  "ways": [
+    {
+      "id": "236119111",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "2441808150",
+        "335560030"
+      ],
+      "xy": [
+        [
+          -1071.1737,
+          -61.4482
+        ],
+        [
+          -1107.6676,
+          -72.5548
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "514398896",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "1",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5025657051",
+        "5025657052"
+      ],
+      "xy": [
+        [
+          -1105.1156,
+          -66.2911
+        ],
+        [
+          -1065.4036,
+          -54.644
+        ]
+      ],
+      "timestamp": "2019-04-02T14:24:34Z"
+    },
+    {
+      "id": "514398898",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5025657050",
+        "5025657051"
+      ],
+      "xy": [
+        [
+          -1546.8368,
+          -203.1713
+        ],
+        [
+          -1105.1156,
+          -66.2911
+        ]
+      ],
+      "timestamp": "2017-08-10T06:48:12Z"
+    },
+    {
+      "id": "514398901",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "railway": "rail",
+        "service": "siding",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "6041709189",
+        "5025657059",
+        "5025657060",
+        "5025657061",
+        "5025657062",
+        "5025657063",
+        "5025657064",
+        "5025657065",
+        "5025657066",
+        "5025657067",
+        "5025657068",
+        "5025657069",
+        "5025657071",
+        "6041709181",
+        "5025657072",
+        "6041709180"
+      ],
+      "xy": [
+        [
+          -584.8618,
+          44.0722
+        ],
+        [
+          -538.0268,
+          38.0878
+        ],
+        [
+          -512.1115,
+          34.4969
+        ],
+        [
+          -479.6633,
+          31.3829
+        ],
+        [
+          -258.3135,
+          6.3406
+        ],
+        [
+          -187.1356,
+          -1.5463
+        ],
+        [
+          -123.2101,
+          -6.8477
+        ],
+        [
+          -53.4033,
+          -10.2314
+        ],
+        [
+          19.6344,
+          -10.0781
+        ],
+        [
+          94.4918,
+          -8.9564
+        ],
+        [
+          149.1153,
+          -5.1807
+        ],
+        [
+          213.7338,
+          2.1159
+        ],
+        [
+          275.0202,
+          12.6985
+        ],
+        [
+          327.4287,
+          23.1848
+        ],
+        [
+          357.1144,
+          29.1288
+        ],
+        [
+          436.7165,
+          47.961
+        ]
+      ],
+      "timestamp": "2020-07-18T23:29:42Z"
+    },
+    {
+      "id": "514398903",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "railway": "rail",
+        "service": "siding",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "334641064",
+        "5025657039",
+        "5025657038",
+        "5025657037",
+        "5025657036",
+        "5025657035",
+        "5025657034",
+        "5025657033",
+        "5025657032",
+        "8827581034",
+        "5025657031",
+        "8827581035",
+        "8827581036",
+        "5025657030",
+        "5025657029",
+        "8827581037",
+        "8827581038",
+        "5025657028",
+        "5025657027",
+        "5025657026",
+        "6041709185",
+        "6041709191",
+        "6041709190"
+      ],
+      "xy": [
+        [
+          440.3667,
+          35.5418
+        ],
+        [
+          354.8902,
+          10.7083
+        ],
+        [
+          322.7656,
+          3.7272
+        ],
+        [
+          283.4289,
+          -3.1152
+        ],
+        [
+          212.1161,
+          -19.8022
+        ],
+        [
+          182.1604,
+          -25.5267
+        ],
+        [
+          149.9364,
+          -29.3121
+        ],
+        [
+          90.4809,
+          -33.0409
+        ],
+        [
+          36.4046,
+          -38.4255
+        ],
+        [
+          14.957,
+          -40.3017
+        ],
+        [
+          -32.1232,
+          -41.3396
+        ],
+        [
+          -62.8777,
+          -39.3808
+        ],
+        [
+          -78.9437,
+          -37.527
+        ],
+        [
+          -102.9259,
+          -35.7189
+        ],
+        [
+          -134.2332,
+          -34.6083
+        ],
+        [
+          -146.0439,
+          -34.3213
+        ],
+        [
+          -163.6079,
+          -31.5245
+        ],
+        [
+          -192.1015,
+          -26.3459
+        ],
+        [
+          -235.629,
+          -18.6851
+        ],
+        [
+          -331.8418,
+          -2.7289
+        ],
+        [
+          -348.1886,
+          0.3611
+        ],
+        [
+          -383.9036,
+          4.5448
+        ],
+        [
+          -486.0051,
+          16.5029
+        ]
+      ],
+      "timestamp": "2021-06-12T15:10:36Z"
+    },
+    {
+      "id": "514398904",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "334641065",
+        "334641064",
+        "334641063",
+        "5025657075",
+        "5025657070",
+        "334641062",
+        "5025657076",
+        "6041709179",
+        "5025657077",
+        "334641061",
+        "5025657078",
+        "335560027",
+        "5025657025",
+        "6041709192",
+        "474968692",
+        "5025657080",
+        "5025657079",
+        "5025657081",
+        "6041709194",
+        "335560028",
+        "335560029",
+        "7660291487",
+        "2441808150"
+      ],
+      "xy": [
+        [
+          518.3624,
+          52.0818
+        ],
+        [
+          440.3667,
+          35.5418
+        ],
+        [
+          300.7337,
+          7.1995
+        ],
+        [
+          274.7983,
+          1.7247
+        ],
+        [
+          216.7266,
+          -7.9009
+        ],
+        [
+          151.7188,
+          -14.917
+        ],
+        [
+          93.8778,
+          -19.1688
+        ],
+        [
+          18.7067,
+          -21.5979
+        ],
+        [
+          -53.4743,
+          -20.9622
+        ],
+        [
+          -125.1045,
+          -17.3919
+        ],
+        [
+          -187.3513,
+          -11.1382
+        ],
+        [
+          -259.448,
+          -3.7817
+        ],
+        [
+          -429.3526,
+          15.7166
+        ],
+        [
+          -455.2816,
+          18.6944
+        ],
+        [
+          -475.5491,
+          21.0197
+        ],
+        [
+          -585.55,
+          32.326
+        ],
+        [
+          -646.4553,
+          34.3667
+        ],
+        [
+          -717.9058,
+          32.8654
+        ],
+        [
+          -762.5365,
+          25.9166
+        ],
+        [
+          -804.5564,
+          17.0103
+        ],
+        [
+          -909.3794,
+          -13.8918
+        ],
+        [
+          -927.6531,
+          -19.2665
+        ],
+        [
+          -1071.1737,
+          -61.4482
+        ]
+      ],
+      "timestamp": "2020-07-18T23:45:53Z"
+    },
+    {
+      "id": "608428990",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "335560030",
+        "7660278684",
+        "335560031"
+      ],
+      "xy": [
+        [
+          -1107.6676,
+          -72.5548
+        ],
+        [
+          -1122.8644,
+          -77.2366
+        ],
+        [
+          -1544.2163,
+          -207.0126
+        ]
+      ],
+      "timestamp": "2020-07-18T23:29:42Z"
+    },
+    {
+      "id": "608428994",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5025657052",
+        "5025657053",
+        "5025657054",
+        "6041709193",
+        "5025657055",
+        "5025657056",
+        "5025657057",
+        "5025657058",
+        "5025657049",
+        "5025657048",
+        "5025657047",
+        "5025657046",
+        "5025657045",
+        "13327656778",
+        "5025657044",
+        "5025657043",
+        "5025657042",
+        "5025657041",
+        "5025657040",
+        "5025657073",
+        "5025657074",
+        "5764349254"
+      ],
+      "xy": [
+        [
+          -1065.4036,
+          -54.644
+        ],
+        [
+          -882.4425,
+          0.5836
+        ],
+        [
+          -806.5883,
+          22.6231
+        ],
+        [
+          -762.6691,
+          31.1273
+        ],
+        [
+          -717.043,
+          37.8855
+        ],
+        [
+          -649.9602,
+          40.1816
+        ],
+        [
+          -608.7447,
+          39.4341
+        ],
+        [
+          -572.2454,
+          36.4083
+        ],
+        [
+          -474.7392,
+          25.8914
+        ],
+        [
+          -260.2369,
+          1.2795
+        ],
+        [
+          -187.6339,
+          -6.2747
+        ],
+        [
+          -124.1726,
+          -12.3239
+        ],
+        [
+          -53.3924,
+          -15.8069
+        ],
+        [
+          3.7876,
+          -15.8069
+        ],
+        [
+          19.9065,
+          -15.8028
+        ],
+        [
+          92.4592,
+          -14.4677
+        ],
+        [
+          150.0801,
+          -9.7685
+        ],
+        [
+          216.2561,
+          -2.2214
+        ],
+        [
+          273.7269,
+          7.2592
+        ],
+        [
+          430.6962,
+          40.6905
+        ],
+        [
+          451.1192,
+          44.5885
+        ],
+        [
+          516.2695,
+          57.1108
+        ]
+      ],
+      "timestamp": "2025-11-24T08:40:10Z"
+    },
+    {
+      "id": "617584065",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5837938373",
+        "334641270",
+        "334641269",
+        "334641268",
+        "334641267",
+        "6041709171",
+        "334641266",
+        "334641265",
+        "334641264",
+        "334641263",
+        "334641216",
+        "334641215",
+        "6041709174",
+        "334641214",
+        "6041709175",
+        "334641213",
+        "334641212",
+        "334641211",
+        "334641210",
+        "334641209",
+        "334641208",
+        "6041709177",
+        "334641198",
+        "334641197",
+        "3930673382",
+        "9114960355",
+        "334641195",
+        "334641194",
+        "9114950160",
+        "334641193",
+        "334641192",
+        "334641065"
+      ],
+      "xy": [
+        [
+          3326.0699,
+          952.7078
+        ],
+        [
+          3274.6817,
+          931.94
+        ],
+        [
+          3200.145,
+          904.6146
+        ],
+        [
+          3032.9856,
+          841.261
+        ],
+        [
+          2920.247,
+          799.3179
+        ],
+        [
+          2865.8778,
+          782.8871
+        ],
+        [
+          2806.6073,
+          768.9033
+        ],
+        [
+          2703.4657,
+          754.6608
+        ],
+        [
+          2602.4243,
+          746.9883
+        ],
+        [
+          2492.5348,
+          729.812
+        ],
+        [
+          2343.1983,
+          698.545
+        ],
+        [
+          2156.6826,
+          639.9554
+        ],
+        [
+          2048.3384,
+          596.2685
+        ],
+        [
+          1940.3063,
+          547.4279
+        ],
+        [
+          1881.8654,
+          517.7899
+        ],
+        [
+          1815.2466,
+          485.342
+        ],
+        [
+          1703.1075,
+          430.8144
+        ],
+        [
+          1522.6362,
+          341.6909
+        ],
+        [
+          1458.0159,
+          313.053
+        ],
+        [
+          1420.9004,
+          296.4916
+        ],
+        [
+          1352.264,
+          267.0834
+        ],
+        [
+          1294.0203,
+          245.0026
+        ],
+        [
+          1244.4674,
+          226.5791
+        ],
+        [
+          1154.4761,
+          200.0028
+        ],
+        [
+          1101.4359,
+          186.114
+        ],
+        [
+          1074.8792,
+          179.9759
+        ],
+        [
+          1038.8069,
+          171.638
+        ],
+        [
+          973.3295,
+          156.8582
+        ],
+        [
+          880.789,
+          134.597
+        ],
+        [
+          870.334,
+          132.0869
+        ],
+        [
+          770.6578,
+          111.1215
+        ],
+        [
+          518.3624,
+          52.0818
+        ]
+      ],
+      "timestamp": "2021-09-22T18:07:38Z"
+    },
+    {
+      "id": "617584067",
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "nodes": [
+        "5764349254",
+        "5764349253",
+        "5764349152",
+        "5764349151",
+        "5764349150",
+        "5764349149",
+        "5764349148",
+        "5764349147",
+        "6041709178",
+        "5764349146",
+        "5764349145",
+        "5764349144",
+        "5764349143",
+        "5764349142",
+        "5764349141",
+        "6041709176",
+        "5764349140",
+        "6041709173",
+        "5764349139",
+        "5764349138",
+        "5764349137",
+        "5764349136",
+        "5764349135",
+        "5764349134",
+        "6041709172",
+        "5764349133",
+        "5764349132",
+        "5764349131",
+        "5764349130",
+        "5837938372"
+      ],
+      "xy": [
+        [
+          516.2695,
+          57.1108
+        ],
+        [
+          769.4834,
+          115.8782
+        ],
+        [
+          869.376,
+          138.6907
+        ],
+        [
+          972.4536,
+          163.4887
+        ],
+        [
+          1037.0577,
+          177.3473
+        ],
+        [
+          1099.271,
+          192.3144
+        ],
+        [
+          1152.1351,
+          205.7297
+        ],
+        [
+          1237.8452,
+          231.4671
+        ],
+        [
+          1292.3649,
+          250.7573
+        ],
+        [
+          1350.7869,
+          272.5977
+        ],
+        [
+          1418.1835,
+          300.6
+        ],
+        [
+          1456.3228,
+          318.0928
+        ],
+        [
+          1519.4203,
+          346.7048
+        ],
+        [
+          1701.0289,
+          436.1195
+        ],
+        [
+          1814.3139,
+          492.0077
+        ],
+        [
+          1880.7139,
+          523.8922
+        ],
+        [
+          1935.9505,
+          551.8932
+        ],
+        [
+          2047.5569,
+          601.2993
+        ],
+        [
+          2154.2872,
+          646.7133
+        ],
+        [
+          2339.555,
+          703.4615
+        ],
+        [
+          2493.8795,
+          736.5792
+        ],
+        [
+          2602.0099,
+          753.7079
+        ],
+        [
+          2704.3394,
+          760.7749
+        ],
+        [
+          2805.0687,
+          776.4503
+        ],
+        [
+          2863.6903,
+          789.1145
+        ],
+        [
+          2919.452,
+          804.7067
+        ],
+        [
+          3031.4647,
+          846.958
+        ],
+        [
+          3197.5279,
+          908.6092
+        ],
+        [
+          3273.297,
+          936.8013
+        ],
+        [
+          3320.7839,
+          957.5953
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:44Z"
+    },
+    {
+      "id": "641573562",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "5025657073",
+        "5025657072"
+      ],
+      "xy": [
+        [
+          430.6962,
+          40.6905
+        ],
+        [
+          357.1144,
+          29.1288
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:32Z"
+    },
+    {
+      "id": "641573563",
+      "tags": {
+        "railway": "rail",
+        "service": "yard"
+      },
+      "nodes": [
+        "6041709181",
+        "6041709182",
+        "6041709183",
+        "6041709184"
+      ],
+      "xy": [
+        [
+          327.4287,
+          23.1848
+        ],
+        [
+          276.2057,
+          17.2463
+        ],
+        [
+          250.8596,
+          14.7469
+        ],
+        [
+          208.1941,
+          9.8027
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:32Z"
+    },
+    {
+      "id": "641573564",
+      "tags": {
+        "railway": "rail",
+        "service": "yard"
+      },
+      "nodes": [
+        "6041709185",
+        "6041709186",
+        "6041709187",
+        "6041709188"
+      ],
+      "xy": [
+        [
+          -348.1886,
+          0.3611
+        ],
+        [
+          -306.8588,
+          -11.0508
+        ],
+        [
+          -278.2635,
+          -17.8596
+        ],
+        [
+          -223.8861,
+          -25.3923
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:32Z"
+    },
+    {
+      "id": "641573565",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "5025657060",
+        "5025657058"
+      ],
+      "xy": [
+        [
+          -512.1115,
+          34.4969
+        ],
+        [
+          -572.2454,
+          36.4083
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:32Z"
+    },
+    {
+      "id": "641573566",
+      "tags": {
+        "railway": "rail",
+        "service": "siding"
+      },
+      "nodes": [
+        "6041709191",
+        "6041709192"
+      ],
+      "xy": [
+        [
+          -383.9036,
+          4.5448
+        ],
+        [
+          -455.2816,
+          18.6944
+        ]
+      ],
+      "timestamp": "2018-11-06T13:46:32Z"
+    },
+    {
+      "id": "820369256",
+      "tags": {
+        "bridge": "yes",
+        "electrified": "rail",
+        "layer": "1",
+        "railway": "rail",
+        "service": "spur",
+        "usage": "branch"
+      },
+      "nodes": [
+        "7660278684",
+        "7660291488"
+      ],
+      "xy": [
+        [
+          -1122.8644,
+          -77.2366
+        ],
+        [
+          -1102.3107,
+          -74.3522
+        ]
+      ],
+      "timestamp": "2020-06-28T08:24:31Z"
+    },
+    {
+      "id": "820369257",
+      "tags": {
+        "railway": "rail"
+      },
+      "nodes": [
+        "7660291485",
+        "7660291486",
+        "7660291487"
+      ],
+      "xy": [
+        [
+          -1088.4807,
+          -70.6478
+        ],
+        [
+          -1063.0389,
+          -63.5197
+        ],
+        [
+          -927.6531,
+          -19.2665
+        ]
+      ],
+      "timestamp": "2020-06-28T08:24:31Z"
+    },
+    {
+      "id": "820369258",
+      "tags": {
+        "bridge": "yes",
+        "layer": "1",
+        "railway": "rail"
+      },
+      "nodes": [
+        "7660291488",
+        "7660291485"
+      ],
+      "xy": [
+        [
+          -1102.3107,
+          -74.3522
+        ],
+        [
+          -1088.4807,
+          -70.6478
+        ]
+      ],
+      "timestamp": "2020-06-28T08:24:31Z"
+    },
+    {
+      "id": "1536886969",
+      "tags": {
+        "name": "Varkala Sivagiri",
+        "name:hi": "\u0935\u0930\u094d\u0915\u0932\u093e \u0936\u093f\u0935\u0917\u093f\u0930\u093f",
+        "public_transport": "platform",
+        "ref": "1",
+        "train": "yes"
+      },
+      "nodes": [
+        "14000450913",
+        "14000450912",
+        "14000450944",
+        "14000450911",
+        "14000450922",
+        "14000450925",
+        "14000450184",
+        "14000450988",
+        "14000450913"
+      ],
+      "xy": [
+        [
+          204.2832,
+          -17.9829
+        ],
+        [
+          100.9233,
+          -25.8866
+        ],
+        [
+          15.9191,
+          -28.3888
+        ],
+        [
+          -188.7109,
+          -22.0662
+        ],
+        [
+          -189.0469,
+          -28.6437
+        ],
+        [
+          18.0553,
+          -37.0838
+        ],
+        [
+          100.3136,
+          -35.48
+        ],
+        [
+          203.6262,
+          -26.4073
+        ],
+        [
+          204.2832,
+          -17.9829
+        ]
+      ],
+      "timestamp": "2026-07-09T15:19:18Z"
+    },
+    {
+      "id": "1536886989",
+      "tags": {
+        "name": "Varkala Sivagiri",
+        "name:hi": "\u0935\u0930\u094d\u0915\u0932\u093e \u0936\u093f\u0935\u0917\u093f\u0930\u093f",
+        "public_transport": "platform",
+        "ref": "2",
+        "train": "yes"
+      },
+      "nodes": [
+        "14000450919",
+        "14000450139",
+        "14000450162",
+        "14000450995",
+        "14000450157",
+        "14000450985",
+        "14000450902",
+        "14000450933",
+        "14000450919"
+      ],
+      "xy": [
+        [
+          203.4772,
+          12.4201
+        ],
+        [
+          100.1172,
+          4.5164
+        ],
+        [
+          15.1131,
+          2.0143
+        ],
+        [
+          -189.5169,
+          8.3368
+        ],
+        [
+          -189.8529,
+          1.7593
+        ],
+        [
+          17.2493,
+          -6.6807
+        ],
+        [
+          99.5076,
+          -5.077
+        ],
+        [
+          202.8202,
+          3.9958
+        ],
+        [
+          203.4772,
+          12.4201
+        ]
+      ],
+      "timestamp": "2026-07-09T15:19:18Z"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "378516721",
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Varkala Park International"
+      },
+      "xy": [
+        [
+          -342.3402,
+          88.3811
+        ],
+        [
+          -346.9502,
+          77.6838
+        ],
+        [
+          -344.6836,
+          77.0926
+        ],
+        [
+          -347.4551,
+          66.3807
+        ],
+        [
+          -347.7133,
+          66.4503
+        ],
+        [
+          -349.6748,
+          58.9005
+        ],
+        [
+          -351.2048,
+          59.3064
+        ],
+        [
+          -352.7786,
+          53.2254
+        ],
+        [
+          -353.2665,
+          53.347
+        ],
+        [
+          -358.2029,
+          52.6559
+        ],
+        [
+          -359.9141,
+          46.5436
+        ],
+        [
+          -367.7495,
+          48.6753
+        ],
+        [
+          -358.8865,
+          80.6389
+        ],
+        [
+          -353.2997,
+          93.0997
+        ],
+        [
+          -342.3402,
+          88.3811
+        ]
+      ],
+      "center": [
+        -351.7639999999999,
+        67.38415333333334
+      ],
+      "bbox": [
+        -367.7495,
+        -342.3402,
+        46.5436,
+        93.0997
+      ]
+    },
+    {
+      "id": "378516735",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -364.5087,
+          108.4761
+        ],
+        [
+          -392.7108,
+          118.6409
+        ],
+        [
+          -399.3531,
+          102.8337
+        ],
+        [
+          -371.162,
+          92.7144
+        ],
+        [
+          -364.5087,
+          108.4761
+        ]
+      ],
+      "center": [
+        -378.44866,
+        106.22824
+      ],
+      "bbox": [
+        -399.3531,
+        -364.5087,
+        92.7144,
+        118.6409
+      ]
+    },
+    {
+      "id": "378516749",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -252.4624,
+          72.3301
+        ],
+        [
+          -253.1477,
+          59.9345
+        ],
+        [
+          -267.4866,
+          60.7291
+        ],
+        [
+          -266.7919,
+          73.1188
+        ],
+        [
+          -252.4624,
+          72.3301
+        ]
+      ],
+      "center": [
+        -258.47020000000003,
+        67.68852
+      ],
+      "bbox": [
+        -267.4866,
+        -252.4624,
+        59.9345,
+        73.1188
+      ]
+    },
+    {
+      "id": "378516751",
+      "tags": {
+        "building": "government"
+      },
+      "xy": [
+        [
+          -42.3566,
+          -26.6078
+        ],
+        [
+          -42.8343,
+          -36.5163
+        ],
+        [
+          -74.2918,
+          -35.0146
+        ],
+        [
+          -73.8141,
+          -25.1061
+        ],
+        [
+          -42.3566,
+          -26.6078
+        ]
+      ],
+      "center": [
+        -55.13068,
+        -29.97052
+      ],
+      "bbox": [
+        -74.2918,
+        -42.3566,
+        -36.5163,
+        -25.1061
+      ]
+    },
+    {
+      "id": "378516757",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -376.3019,
+          68.2042
+        ],
+        [
+          -386.565,
+          45.6571
+        ],
+        [
+          -404.7591,
+          45.5814
+        ],
+        [
+          -391.8413,
+          75.3387
+        ],
+        [
+          -376.3019,
+          68.2042
+        ]
+      ],
+      "center": [
+        -387.15384,
+        60.597120000000004
+      ],
+      "bbox": [
+        -404.7591,
+        -376.3019,
+        45.5814,
+        75.3387
+      ]
+    },
+    {
+      "id": "378516766",
+      "tags": {
+        "building": "government"
+      },
+      "xy": [
+        [
+          -138.4525,
+          -22.7682
+        ],
+        [
+          -139.1609,
+          -31.3808
+        ],
+        [
+          -170.5486,
+          -28.7958
+        ],
+        [
+          -169.8402,
+          -20.1831
+        ],
+        [
+          -138.4525,
+          -22.7682
+        ]
+      ],
+      "center": [
+        -151.29093999999998,
+        -25.179219999999997
+      ],
+      "bbox": [
+        -170.5486,
+        -138.4525,
+        -31.3808,
+        -20.1831
+      ]
+    },
+    {
+      "id": "378516767",
+      "tags": {
+        "building": "government",
+        "roof:shape": "gabled"
+      },
+      "xy": [
+        [
+          28.7366,
+          -27.5396
+        ],
+        [
+          28.5366,
+          -38.6046
+        ],
+        [
+          -2.8847,
+          -38.0578
+        ],
+        [
+          -2.6943,
+          -26.9868
+        ],
+        [
+          28.7366,
+          -27.5396
+        ]
+      ],
+      "center": [
+        16.08616,
+        -31.74568
+      ],
+      "bbox": [
+        -2.8847,
+        28.7366,
+        -38.6046,
+        -26.9868
+      ]
+    },
+    {
+      "id": "378516775",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -86.2732,
+          60.6293
+        ],
+        [
+          -86.9884,
+          50.0006
+        ],
+        [
+          -115.003,
+          51.8773
+        ],
+        [
+          -114.2878,
+          62.506
+        ],
+        [
+          -86.2732,
+          60.6293
+        ]
+      ],
+      "center": [
+        -97.76512,
+        57.128499999999995
+      ],
+      "bbox": [
+        -115.003,
+        -86.2732,
+        50.0006,
+        62.506
+      ]
+    },
+    {
+      "id": "427595517",
+      "tags": {
+        "building": "train_station",
+        "building:levels": "0",
+        "roof:levels": "1"
+      },
+      "xy": [
+        [
+          56.9955,
+          -4.5606
+        ],
+        [
+          56.8352,
+          2.4416
+        ],
+        [
+          -0.3315,
+          1.1123
+        ],
+        [
+          -0.1617,
+          -5.8957
+        ],
+        [
+          56.9955,
+          -4.5606
+        ]
+      ],
+      "center": [
+        34.0666,
+        -2.2925999999999997
+      ],
+      "bbox": [
+        -0.3315,
+        56.9955,
+        -5.8957,
+        2.4416
+      ]
+    },
+    {
+      "id": "742488870",
+      "tags": {
+        "addr:city": "Varkala",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695141",
+        "addr:street": "Paravur - Varkala Road",
+        "building": "hospital",
+        "name": "NEW MANGALA MEDICAL CENTRE (NMMC)"
+      },
+      "xy": [
+        [
+          449.7364,
+          121.298
+        ],
+        [
+          454.0366,
+          118.1363
+        ],
+        [
+          455.1287,
+          119.621
+        ],
+        [
+          458.7676,
+          116.9347
+        ],
+        [
+          457.6813,
+          115.4592
+        ],
+        [
+          470.0626,
+          106.3613
+        ],
+        [
+          465.2814,
+          99.8627
+        ],
+        [
+          453.6125,
+          108.4407
+        ],
+        [
+          451.2817,
+          105.2772
+        ],
+        [
+          447.4915,
+          108.0575
+        ],
+        [
+          442.9919,
+          101.928
+        ],
+        [
+          436.4054,
+          106.768
+        ],
+        [
+          446.4003,
+          120.3775
+        ],
+        [
+          448.1291,
+          119.11
+        ],
+        [
+          449.7364,
+          121.298
+        ]
+      ],
+      "center": [
+        452.44955999999996,
+        112.59534000000001
+      ],
+      "bbox": [
+        436.4054,
+        470.0626,
+        99.8627,
+        121.298
+      ]
+    },
+    {
+      "id": "799427013",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -210.6166,
+          80.9559
+        ],
+        [
+          -218.1029,
+          62.966
+        ],
+        [
+          -230.7356,
+          69.7593
+        ],
+        [
+          -216.4263,
+          87.7225
+        ],
+        [
+          -210.6166,
+          80.9559
+        ]
+      ],
+      "center": [
+        -217.2996,
+        76.47191999999998
+      ],
+      "bbox": [
+        -230.7356,
+        -210.6166,
+        62.966,
+        87.7225
+      ]
+    },
+    {
+      "id": "799427014",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -176.4486,
+          102.9214
+        ],
+        [
+          -182.4421,
+          92.4226
+        ],
+        [
+          -196.8202,
+          99.7814
+        ],
+        [
+          -181.361,
+          112.8219
+        ],
+        [
+          -176.4486,
+          102.9214
+        ]
+      ],
+      "center": [
+        -182.7041,
+        102.17374000000001
+      ],
+      "bbox": [
+        -196.8202,
+        -176.4486,
+        92.4226,
+        112.8219
+      ]
+    },
+    {
+      "id": "799427017",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -230.2585,
+          109.532
+        ],
+        [
+          -235.7549,
+          99.644
+        ],
+        [
+          -246.2996,
+          106.2549
+        ],
+        [
+          -240.4204,
+          115.2188
+        ],
+        [
+          -230.2585,
+          109.532
+        ]
+      ],
+      "center": [
+        -236.59838,
+        108.03634
+      ],
+      "bbox": [
+        -246.2996,
+        -230.2585,
+        99.644,
+        115.2188
+      ]
+    },
+    {
+      "id": "799427018",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -229.1877,
+          136.7108
+        ],
+        [
+          -237.7537,
+          125.5296
+        ],
+        [
+          -245.4276,
+          132.5859
+        ],
+        [
+          -236.0743,
+          142.5659
+        ],
+        [
+          -229.1877,
+          136.7108
+        ]
+      ],
+      "center": [
+        -235.52620000000002,
+        134.8206
+      ],
+      "bbox": [
+        -245.4276,
+        -229.1877,
+        125.5296,
+        142.5659
+      ]
+    },
+    {
+      "id": "799427022",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -99.3385,
+          113.4971
+        ],
+        [
+          -113.9007,
+          99.3688
+        ],
+        [
+          -123.4543,
+          106.8797
+        ],
+        [
+          -112.8403,
+          123.977
+        ],
+        [
+          -99.3385,
+          113.4971
+        ]
+      ],
+      "center": [
+        -109.77446,
+        111.44394000000003
+      ],
+      "bbox": [
+        -123.4543,
+        -99.3385,
+        99.3688,
+        123.977
+      ]
+    },
+    {
+      "id": "835037995",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          386.9093,
+          -113.7184
+        ],
+        [
+          374.8947,
+          -106.5836
+        ],
+        [
+          369.3373,
+          -115.9156
+        ],
+        [
+          381.2129,
+          -123.042
+        ],
+        [
+          386.9093,
+          -113.7184
+        ]
+      ],
+      "center": [
+        379.8527,
+        -114.59559999999999
+      ],
+      "bbox": [
+        369.3373,
+        386.9093,
+        -123.042,
+        -106.5836
+      ]
+    },
+    {
+      "id": "835078349",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -128.2106,
+          145.7571
+        ],
+        [
+          -141.4133,
+          133.2066
+        ],
+        [
+          -150.9937,
+          141.0967
+        ],
+        [
+          -137.0411,
+          155.5515
+        ],
+        [
+          -128.2106,
+          145.7571
+        ]
+      ],
+      "center": [
+        -137.17386,
+        144.2738
+      ],
+      "bbox": [
+        -150.9937,
+        -128.2106,
+        133.2066,
+        155.5515
+      ]
+    },
+    {
+      "id": "835078551",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -319.0654,
+          124.9441
+        ],
+        [
+          -325.5622,
+          113.9935
+        ],
+        [
+          -340.3495,
+          122.4871
+        ],
+        [
+          -334.6582,
+          132.8369
+        ],
+        [
+          -328.0231,
+          129.2359
+        ],
+        [
+          -327.5516,
+          129.9533
+        ],
+        [
+          -319.0654,
+          124.9441
+        ]
+      ],
+      "center": [
+        -327.75362857142864,
+        125.48498571428573
+      ],
+      "bbox": [
+        -340.3495,
+        -319.0654,
+        113.9935,
+        132.8369
+      ]
+    },
+    {
+      "id": "837304300",
+      "tags": {
+        "building": "yes",
+        "government": "yes",
+        "name": "Varkala Municipality",
+        "office": "government"
+      },
+      "xy": [
+        [
+          -256.0082,
+          56.6985
+        ],
+        [
+          -279.0626,
+          59.3681
+        ],
+        [
+          -279.3808,
+          45.4108
+        ],
+        [
+          -256.2109,
+          42.6953
+        ],
+        [
+          -256.0082,
+          56.6985
+        ]
+      ],
+      "center": [
+        -265.33414,
+        52.17424
+      ],
+      "bbox": [
+        -279.3808,
+        -256.0082,
+        42.6953,
+        59.3681
+      ]
+    },
+    {
+      "id": "923024465",
+      "tags": {
+        "addr:city": "Varkala",
+        "addr:housenumber": "Kannamba",
+        "addr:postcode": "695141",
+        "addr:street": "Good Shed Road",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "marthoma",
+        "name": "Mar Thoma Church",
+        "religion": "christian"
+      },
+      "xy": [
+        [
+          85.333,
+          -52.625
+        ],
+        [
+          86.6733,
+          -68.5962
+        ],
+        [
+          77.8043,
+          -69.9023
+        ],
+        [
+          76.0002,
+          -55.5857
+        ],
+        [
+          81.8151,
+          -55.168
+        ],
+        [
+          82.1441,
+          -53.2872
+        ],
+        [
+          85.333,
+          -52.625
+        ]
+      ],
+      "center": [
+        82.15757142857142,
+        -58.255628571428566
+      ],
+      "bbox": [
+        76.0002,
+        86.6733,
+        -69.9023,
+        -52.625
+      ]
+    },
+    {
+      "id": "923309048",
+      "tags": {
+        "addr:city": "Varkala",
+        "addr:housenumber": "Maithanam",
+        "addr:postcode": "695141",
+        "addr:street": "Railway Station Road",
+        "building": "yes",
+        "government": "village_office",
+        "name": "Village Office Varkala",
+        "office": "government"
+      },
+      "xy": [
+        [
+          -302.1499,
+          58.9242
+        ],
+        [
+          -309.9795,
+          60.4954
+        ],
+        [
+          -311.7922,
+          51.4546
+        ],
+        [
+          -303.9568,
+          49.8927
+        ],
+        [
+          -302.1499,
+          58.9242
+        ]
+      ],
+      "center": [
+        -306.00566,
+        55.93822
+      ],
+      "bbox": [
+        -311.7922,
+        -302.1499,
+        49.8927,
+        60.4954
+      ]
+    },
+    {
+      "id": "943545947",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          306.4492,
+          140.6157
+        ],
+        [
+          293.8285,
+          148.2305
+        ],
+        [
+          287.1749,
+          137.196
+        ],
+        [
+          299.7861,
+          129.5872
+        ],
+        [
+          306.4492,
+          140.6157
+        ]
+      ],
+      "center": [
+        298.73758000000004,
+        139.24902000000003
+      ],
+      "bbox": [
+        287.1749,
+        306.4492,
+        129.5872,
+        148.2305
+      ]
+    },
+    {
+      "id": "943545968",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          266.408,
+          115.057
+        ],
+        [
+          255.666,
+          120.7803
+        ],
+        [
+          250.5805,
+          111.2588
+        ],
+        [
+          261.332,
+          105.5297
+        ],
+        [
+          266.408,
+          115.057
+        ]
+      ],
+      "center": [
+        260.0789,
+        113.53655999999998
+      ],
+      "bbox": [
+        250.5805,
+        266.408,
+        105.5297,
+        120.7803
+      ]
+    },
+    {
+      "id": "943546409",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          73.3475,
+          68.3396
+        ],
+        [
+          61.9444,
+          70.3809
+        ],
+        [
+          55.5429,
+          45.5271
+        ],
+        [
+          63.4198,
+          44.4964
+        ],
+        [
+          71.0625,
+          46.3177
+        ],
+        [
+          72.5189,
+          53.2227
+        ],
+        [
+          73.7241,
+          53.2645
+        ],
+        [
+          73.9297,
+          55.5586
+        ],
+        [
+          74.1291,
+          58.1804
+        ],
+        [
+          71.3894,
+          58.6638
+        ],
+        [
+          73.3475,
+          68.3396
+        ]
+      ],
+      "center": [
+        69.48689090909092,
+        56.571936363636375
+      ],
+      "bbox": [
+        55.5429,
+        74.1291,
+        44.4964,
+        70.3809
+      ]
+    },
+    {
+      "id": "943546450",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          101.2383,
+          101.5319
+        ],
+        [
+          89.928,
+          106.5719
+        ],
+        [
+          82.8982,
+          90.2671
+        ],
+        [
+          94.1154,
+          85.246
+        ],
+        [
+          101.2383,
+          101.5319
+        ]
+      ],
+      "center": [
+        93.88363999999999,
+        97.02976
+      ],
+      "bbox": [
+        82.8982,
+        101.2383,
+        85.246,
+        106.5719
+      ]
+    },
+    {
+      "id": "943546651",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -20.6796,
+          59.4079
+        ],
+        [
+          -38.8459,
+          60.7913
+        ],
+        [
+          -40.0111,
+          43.0214
+        ],
+        [
+          -21.2631,
+          42.5329
+        ],
+        [
+          -20.6796,
+          59.4079
+        ]
+      ],
+      "center": [
+        -28.295859999999998,
+        53.03227999999999
+      ],
+      "bbox": [
+        -40.0111,
+        -20.6796,
+        42.5329,
+        60.7913
+      ]
+    },
+    {
+      "id": "943547959",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -61.1429,
+          111.8529
+        ],
+        [
+          -72.3219,
+          118.7929
+        ],
+        [
+          -79.4049,
+          109.1775
+        ],
+        [
+          -70.1351,
+          99.732
+        ],
+        [
+          -61.1429,
+          111.8529
+        ]
+      ],
+      "center": [
+        -68.82954,
+        110.28164
+      ],
+      "bbox": [
+        -79.4049,
+        -61.1429,
+        99.732,
+        118.7929
+      ]
+    },
+    {
+      "id": "952097883",
+      "tags": {
+        "amenity": "bank",
+        "brand": "Corporation Bank",
+        "brand:wikidata": "Q2003387",
+        "brand:wikipedia": "en:Corporation Bank",
+        "building": "yes",
+        "name": "Corporation Bank"
+      },
+      "xy": [
+        [
+          -130.6762,
+          62.3843
+        ],
+        [
+          -131.5793,
+          53.7112
+        ],
+        [
+          -143.0707,
+          54.9137
+        ],
+        [
+          -142.1733,
+          63.5774
+        ],
+        [
+          -130.6762,
+          62.3843
+        ]
+      ],
+      "center": [
+        -135.63514,
+        59.39417999999999
+      ],
+      "bbox": [
+        -143.0707,
+        -130.6762,
+        53.7112,
+        63.5774
+      ]
+    },
+    {
+      "id": "953759697",
+      "tags": {
+        "building": "yes",
+        "name": "Mathematics Tution Centre",
+        "office": "educational_institution"
+      },
+      "xy": [
+        [
+          123.3883,
+          -55.3605
+        ],
+        [
+          115.8119,
+          -55.1121
+        ],
+        [
+          115.5491,
+          -63.1336
+        ],
+        [
+          110.0504,
+          -62.9577
+        ],
+        [
+          109.7897,
+          -70.9547
+        ],
+        [
+          117.6743,
+          -71.2131
+        ],
+        [
+          117.7681,
+          -68.487
+        ],
+        [
+          123.0335,
+          -65.9151
+        ],
+        [
+          123.3883,
+          -55.3605
+        ]
+      ],
+      "center": [
+        117.38373333333334,
+        -63.16603333333334
+      ],
+      "bbox": [
+        109.7897,
+        123.3883,
+        -71.2131,
+        -55.1121
+      ]
+    },
+    {
+      "id": "958646705",
+      "tags": {
+        "building": "yes",
+        "name": "Sagar College"
+      },
+      "xy": [
+        [
+          -482.4006,
+          94.4287
+        ],
+        [
+          -486.5171,
+          79.3975
+        ],
+        [
+          -495.5634,
+          81.8794
+        ],
+        [
+          -493.6549,
+          88.8793
+        ],
+        [
+          -494.4483,
+          89.0999
+        ],
+        [
+          -492.2613,
+          97.1183
+        ],
+        [
+          -482.4006,
+          94.4287
+        ]
+      ],
+      "center": [
+        -489.6066,
+        89.31882857142857
+      ],
+      "bbox": [
+        -495.5634,
+        -482.4006,
+        79.3975,
+        97.1183
+      ]
+    },
+    {
+      "id": "958805230",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -217.0474,
+          52.4036
+        ],
+        [
+          -216.9547,
+          39.3826
+        ],
+        [
+          -235.0681,
+          36.5243
+        ],
+        [
+          -248.8334,
+          38.3485
+        ],
+        [
+          -248.5971,
+          48.2902
+        ],
+        [
+          -244.7984,
+          55.6967
+        ],
+        [
+          -233.719,
+          56.5112
+        ],
+        [
+          -217.0474,
+          52.4036
+        ]
+      ],
+      "center": [
+        -232.7581875,
+        47.4450875
+      ],
+      "bbox": [
+        -248.8334,
+        -216.9547,
+        36.5243,
+        56.5112
+      ]
+    },
+    {
+      "id": "1426667778",
+      "tags": {
+        "addr:city": "Varkala",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695141",
+        "addr:street": "Varkala - Parippally - Madathara Road",
+        "amenity": "post_office",
+        "brand": "Indian Post",
+        "building": "construction",
+        "construction": "building",
+        "name": "Varkala Post Office",
+        "opening_hours": "Mo-Fr 09:00-15:00",
+        "operator": "India Post",
+        "operator:wikidata": "Q3519720",
+        "wheelchair": "limited",
+        "wikipedia": "en:India Post"
+      },
+      "xy": [
+        [
+          -458.8195,
+          85.2417
+        ],
+        [
+          -471.9355,
+          90.3279
+        ],
+        [
+          -480.7285,
+          67.6581
+        ],
+        [
+          -472.8832,
+          64.6137
+        ],
+        [
+          -471.3807,
+          64.6911
+        ],
+        [
+          -469.4944,
+          66.421
+        ],
+        [
+          -467.7198,
+          65.7338
+        ],
+        [
+          -464.5024,
+          74.0191
+        ],
+        [
+          -463.3555,
+          73.5661
+        ],
+        [
+          -458.8195,
+          85.2417
+        ]
+      ],
+      "center": [
+        -467.9638999999999,
+        73.75142
+      ],
+      "bbox": [
+        -480.7285,
+        -458.8195,
+        64.6137,
+        90.3279
+      ]
+    },
+    {
+      "id": "1426667779",
+      "tags": {
+        "addr:city": "Varkala",
+        "addr:district": "Thiruvananthapuram",
+        "addr:postcode": "695141",
+        "addr:street": "Varkala - Parippally - Madathara Road",
+        "air_conditioning": "no",
+        "brand": "Dhanya Supermarkets",
+        "building": "yes",
+        "layer": "-1",
+        "name": "Dhanya Supermarket",
+        "opening_hours": "Mo-Su 09:00-18:30",
+        "operator": "Dhanya Consumers Pvt Ltd",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:upi": "yes",
+        "phone": "04702612525",
+        "shop": "supermarket",
+        "website": "https://www.dhanyasupermarket.com/"
+      },
+      "xy": [
+        [
+          -487.3571,
+          78.0023
+        ],
+        [
+          -495.5771,
+          80.1266
+        ],
+        [
+          -500.0856,
+          64.1473
+        ],
+        [
+          -492.244,
+          62.2578
+        ],
+        [
+          -487.3571,
+          78.0023
+        ]
+      ],
+      "center": [
+        -492.52418000000006,
+        72.50726
+      ],
+      "bbox": [
+        -500.0856,
+        -487.3571,
+        62.2578,
+        80.1266
+      ]
+    },
+    {
+      "id": "1429895485",
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "operator": "Swachh Bharat Mission",
+        "operator:type": "government",
+        "operator:wikidata": "Q18175130"
+      },
+      "xy": [
+        [
+          60.7908,
+          146.4042
+        ],
+        [
+          57.8253,
+          147.7271
+        ],
+        [
+          56.1352,
+          143.907
+        ],
+        [
+          59.1006,
+          142.5841
+        ],
+        [
+          60.7908,
+          146.4042
+        ]
+      ],
+      "center": [
+        58.92854,
+        145.40532000000002
+      ],
+      "bbox": [
+        56.1352,
+        60.7908,
+        142.5841,
+        147.7271
+      ]
+    },
+    {
+      "id": "1429895486",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          69.0271,
+          137.3412
+        ],
+        [
+          56.3523,
+          143.5391
+        ],
+        [
+          54.3006,
+          139.3477
+        ],
+        [
+          66.9754,
+          133.1498
+        ],
+        [
+          69.0271,
+          137.3412
+        ]
+      ],
+      "center": [
+        63.1365,
+        138.1438
+      ],
+      "bbox": [
+        54.3006,
+        69.0271,
+        133.1498,
+        143.5391
+      ]
+    },
+    {
+      "id": "1435124357",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          43.4691,
+          57.9696
+        ],
+        [
+          53.7974,
+          57.8906
+        ],
+        [
+          56.5736,
+          57.8248
+        ],
+        [
+          55.593,
+          51.6864
+        ],
+        [
+          53.694,
+          44.6806
+        ],
+        [
+          43.3657,
+          44.7595
+        ],
+        [
+          43.4691,
+          57.9696
+        ]
+      ],
+      "center": [
+        49.99455714285715,
+        53.25444285714286
+      ],
+      "bbox": [
+        43.3657,
+        56.5736,
+        44.6806,
+        57.9696
+      ]
+    },
+    {
+      "id": "1437063508",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          413.7037,
+          82.2299
+        ],
+        [
+          417.7119,
+          63.9291
+        ],
+        [
+          413.0253,
+          62.9016
+        ],
+        [
+          409.0171,
+          81.2024
+        ],
+        [
+          413.7037,
+          82.2299
+        ]
+      ],
+      "center": [
+        413.43234,
+        74.49857999999999
+      ],
+      "bbox": [
+        409.0171,
+        417.7119,
+        62.9016,
+        82.2299
+      ]
+    },
+    {
+      "id": "1437063509",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          430.211,
+          85.8781
+        ],
+        [
+          434.3435,
+          68.1994
+        ],
+        [
+          425.2016,
+          66.0526
+        ],
+        [
+          421.0596,
+          83.7371
+        ],
+        [
+          430.211,
+          85.8781
+        ]
+      ],
+      "center": [
+        428.2053400000001,
+        77.94906
+      ],
+      "bbox": [
+        421.0596,
+        434.3435,
+        66.0526,
+        85.8781
+      ]
+    },
+    {
+      "id": "1516018613",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -193.6654,
+          -102.7154
+        ],
+        [
+          -194.3783,
+          -116.1687
+        ],
+        [
+          -212.4227,
+          -113.4493
+        ],
+        [
+          -210.7631,
+          -101.827
+        ],
+        [
+          -193.6654,
+          -102.7154
+        ]
+      ],
+      "center": [
+        -200.97898,
+        -107.37516000000001
+      ],
+      "bbox": [
+        -212.4227,
+        -193.6654,
+        -116.1687,
+        -101.827
+      ]
+    },
+    {
+      "id": "1516018676",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -195.7951,
+          -82.887
+        ],
+        [
+          -196.3952,
+          -94.1958
+        ],
+        [
+          -210.9414,
+          -93.3762
+        ],
+        [
+          -209.6939,
+          -85.0982
+        ],
+        [
+          -206.1196,
+          -85.1026
+        ],
+        [
+          -205.1693,
+          -80.8491
+        ],
+        [
+          -195.7951,
+          -82.887
+        ]
+      ],
+      "center": [
+        -202.84422857142857,
+        -86.34227142857142
+      ],
+      "bbox": [
+        -210.9414,
+        -195.7951,
+        -94.1958,
+        -80.8491
+      ]
+    },
+    {
+      "id": "1516019516",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          122.3592,
+          -96.6554
+        ],
+        [
+          122.3716,
+          -111.051
+        ],
+        [
+          109.5744,
+          -110.2423
+        ],
+        [
+          109.8598,
+          -96.148
+        ],
+        [
+          122.3592,
+          -96.6554
+        ]
+      ],
+      "center": [
+        117.30484000000001,
+        -102.15042000000001
+      ],
+      "bbox": [
+        109.5744,
+        122.3716,
+        -111.051,
+        -96.148
+      ]
+    },
+    {
+      "id": "1516019565",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          101.8684,
+          -102.0136
+        ],
+        [
+          102.3011,
+          -108.2394
+        ],
+        [
+          103.8491,
+          -108.5529
+        ],
+        [
+          103.8346,
+          -117.4409
+        ],
+        [
+          91.1738,
+          -117.4679
+        ],
+        [
+          91.2607,
+          -102.849
+        ],
+        [
+          101.8684,
+          -102.0136
+        ]
+      ],
+      "center": [
+        99.45087142857143,
+        -108.36818571428572
+      ],
+      "bbox": [
+        91.1738,
+        103.8491,
+        -117.4679,
+        -102.0136
+      ]
+    },
+    {
+      "id": "1516034304",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          -304.8733,
+          -101.7325
+        ],
+        [
+          -307.8317,
+          -109.6217
+        ],
+        [
+          -311.6399,
+          -115.3128
+        ],
+        [
+          -324.4031,
+          -107.6743
+        ],
+        [
+          -317.2183,
+          -95.8688
+        ],
+        [
+          -313.0533,
+          -97.8976
+        ],
+        [
+          -311.9311,
+          -97.2085
+        ],
+        [
+          -304.8733,
+          -101.7325
+        ]
+      ],
+      "center": [
+        -311.97800000000007,
+        -103.38108749999999
+      ],
+      "bbox": [
+        -324.4031,
+        -304.8733,
+        -115.3128,
+        -95.8688
+      ]
+    },
+    {
+      "id": "1516111935",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          309.9366,
+          -133.2117
+        ],
+        [
+          307.8071,
+          -137.3807
+        ],
+        [
+          305.091,
+          -141.0172
+        ],
+        [
+          295.3439,
+          -135.1475
+        ],
+        [
+          300.3924,
+          -126.2765
+        ],
+        [
+          309.9366,
+          -133.2117
+        ]
+      ],
+      "center": [
+        304.75126666666665,
+        -134.37421666666668
+      ],
+      "bbox": [
+        295.3439,
+        309.9366,
+        -141.0172,
+        -126.2765
+      ]
+    },
+    {
+      "id": "1516118864",
+      "tags": {
+        "building": "yes"
+      },
+      "xy": [
+        [
+          269.6976,
+          141.4411
+        ],
+        [
+          266.5009,
+          143.4257
+        ],
+        [
+          263.3503,
+          138.0128
+        ],
+        [
+          257.9482,
+          141.0038
+        ],
+        [
+          255.2263,
+          136.7881
+        ],
+        [
+          264.1982,
+          131.0629
+        ],
+        [
+          269.6976,
+          141.4411
+        ]
+      ],
+      "center": [
+        263.8027285714286,
+        139.0250714285714
+      ],
+      "bbox": [
+        255.2263,
+        269.6976,
+        131.0629,
+        143.4257
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "39624119",
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Varkala - Kallambalam Road",
+        "oneway": "no",
+        "ref": "MDR",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -915.2047,
+          83.5638
+        ],
+        [
+          -958.467,
+          61.3646
+        ],
+        [
+          -1014.8413,
+          16.25
+        ],
+        [
+          -1057.6366,
+          -30.6509
+        ],
+        [
+          -1066.4365,
+          -40.2882
+        ],
+        [
+          -1108.3355,
+          -89.3125
+        ],
+        [
+          -1160.429,
+          -142.2001
+        ],
+        [
+          -1195.0353,
+          -176.4166
+        ],
+        [
+          -1231.1046,
+          -206.3836
+        ],
+        [
+          -1263.1409,
+          -231.3948
+        ]
+      ]
+    },
+    {
+      "id": "40623230",
+      "tags": {
+        "comment": "Primary:Municipality:Motor Vehicle Speed as per Kerala Govt restriction G.O. (P) No. 20/2014/Tran src: http://www.keralamvd.gov.in/images/mvd/notifications/2014/20-14.pdf",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:bus": "40",
+        "maxspeed:hgv": "40",
+        "maxspeed:motorcycle": "50",
+        "name": "Varkala - Parippally - Madathara Road",
+        "ref": "SH64",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          1353.0711,
+          -314.6098
+        ],
+        [
+          1302.4403,
+          -286.0144
+        ],
+        [
+          1284.4174,
+          -277.5195
+        ],
+        [
+          1266.0214,
+          -268.8447
+        ],
+        [
+          1230.6018,
+          -255.4684
+        ],
+        [
+          1196.3982,
+          -248.0271
+        ],
+        [
+          1134.2725,
+          -235.5418
+        ],
+        [
+          1126.1543,
+          -233.908
+        ],
+        [
+          1087.4155,
+          -223.7678
+        ],
+        [
+          1064.7912,
+          -213.1028
+        ],
+        [
+          1042.4551,
+          -201.5935
+        ],
+        [
+          1022.2662,
+          -187.7653
+        ],
+        [
+          987.2608,
+          -159.7918
+        ],
+        [
+          954.0775,
+          -133.2733
+        ],
+        [
+          935.0972,
+          -118.1102
+        ],
+        [
+          881.8101,
+          -75.5369
+        ],
+        [
+          853.031,
+          -61.5949
+        ],
+        [
+          837.1747,
+          -56.0897
+        ],
+        [
+          814.3573,
+          -51.2232
+        ],
+        [
+          773.1672,
+          -39.354
+        ],
+        [
+          745.7768,
+          -33.876
+        ],
+        [
+          737.761,
+          -32.2669
+        ],
+        [
+          703.0896,
+          -22.8776
+        ],
+        [
+          698.0979,
+          -21.8638
+        ],
+        [
+          670.4783,
+          -16.2694
+        ],
+        [
+          657.0863,
+          -11.9444
+        ],
+        [
+          641.9358,
+          -7.0328
+        ],
+        [
+          588.0266,
+          12.1237
+        ],
+        [
+          564.1832,
+          20.5929
+        ],
+        [
+          527.6162,
+          25.409
+        ],
+        [
+          513.1655,
+          24.3563
+        ],
+        [
+          492.2124,
+          22.8335
+        ],
+        [
+          428.7342,
+          14.6088
+        ],
+        [
+          353.9144,
+          -2.3875
+        ],
+        [
+          305.1238,
+          -13.4622
+        ]
+      ]
+    },
+    {
+      "id": "107727915",
+      "tags": {
+        "comment": "Primary:Municipality:Motor Vehicle Speed as per Kerala Govt restriction G.O. (P) No. 20/2014/Tran src: http://www.keralamvd.gov.in/images/mvd/notifications/2014/20-14.pdf",
+        "highway": "primary",
+        "maxspeed": "50",
+        "maxspeed:bus": "40",
+        "maxspeed:hgv": "40",
+        "maxspeed:motorcycle": "50",
+        "name": "Varkala - Parippally - Madathara Road",
+        "ref": "SH64",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          294.1578,
+          30.0601
+        ],
+        [
+          300.7337,
+          7.1995
+        ],
+        [
+          305.1238,
+          -13.4622
+        ]
+      ]
+    },
+    {
+      "id": "135174622",
+      "tags": {
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Varkala Kallambalam Road",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -693.4395,
+          118.2244
+        ],
+        [
+          -822.3161,
+          39.8593
+        ],
+        [
+          -832.0131,
+          39.119
+        ],
+        [
+          -837.6946,
+          43.4749
+        ],
+        [
+          -840.5146,
+          53.6434
+        ],
+        [
+          -835.8479,
+          66.015
+        ],
+        [
+          -803.2415,
+          112.4809
+        ],
+        [
+          -782.0629,
+          146.6803
+        ]
+      ]
+    },
+    {
+      "id": "205231156",
+      "tags": {
+        "highway": "service"
+      },
+      "xy": [
+        [
+          -16.7128,
+          21.1372
+        ],
+        [
+          -16.7672,
+          25.9885
+        ],
+        [
+          -15.768,
+          40.6627
+        ],
+        [
+          -13.3177,
+          63.6051
+        ],
+        [
+          -11.0186,
+          71.9942
+        ],
+        [
+          -7.5332,
+          82.1464
+        ],
+        [
+          -4.6027,
+          89.7163
+        ],
+        [
+          8.3913,
+          116.2404
+        ],
+        [
+          44.3367,
+          155.3367
+        ]
+      ]
+    },
+    {
+      "id": "221981000",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -1085.7948,
+          123.0429
+        ],
+        [
+          -1079.4459,
+          113.6623
+        ],
+        [
+          -1074.1468,
+          104.9334
+        ],
+        [
+          -1072.2751,
+          101.7642
+        ],
+        [
+          -1068.2459,
+          93.5647
+        ],
+        [
+          -1065.2198,
+          87.4642
+        ],
+        [
+          -1033.0586,
+          13.8576
+        ]
+      ]
+    },
+    {
+      "id": "240940378",
+      "tags": {
+        "highway": "service",
+        "source": "BingSat"
+      },
+      "xy": [
+        [
+          -470.8987,
+          47.9707
+        ],
+        [
+          -470.6391,
+          49.5708
+        ],
+        [
+          -469.2052,
+          54.7932
+        ],
+        [
+          -439.2288,
+          127.9641
+        ]
+      ]
+    },
+    {
+      "id": "378516709",
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -835.8479,
+          66.015
+        ],
+        [
+          -867.689,
+          37.878
+        ],
+        [
+          -893.9742,
+          17.5718
+        ],
+        [
+          -897.5555,
+          15.1588
+        ],
+        [
+          -901.067,
+          14.399
+        ],
+        [
+          -904.8183,
+          16.3134
+        ],
+        [
+          -920.725,
+          29.1669
+        ],
+        [
+          -926.4269,
+          32.4347
+        ],
+        [
+          -930.3628,
+          33.2074
+        ],
+        [
+          -961.6194,
+          18.4222
+        ]
+      ]
+    },
+    {
+      "id": "397203664",
+      "tags": {
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Good Shed Road",
+        "smoothness": "bad",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          305.1238,
+          -13.4622
+        ],
+        [
+          273.8857,
+          -29.6317
+        ],
+        [
+          136.5963,
+          -46.2841
+        ],
+        [
+          106.1028,
+          -47.1551
+        ],
+        [
+          -6.8202,
+          -50.3912
+        ],
+        [
+          -33.6069,
+          -49.0695
+        ],
+        [
+          -198.6821,
+          -40.9353
+        ],
+        [
+          -206.2411,
+          -40.6588
+        ],
+        [
+          -262.5289,
+          -38.6096
+        ],
+        [
+          -292.9963,
+          -33.8245
+        ],
+        [
+          -316.9815,
+          -20.3073
+        ],
+        [
+          -367.0604,
+          -7.9188
+        ],
+        [
+          -403.5959,
+          -1.6588
+        ],
+        [
+          -478.3316,
+          7.5043
+        ],
+        [
+          -542.1368,
+          15.3211
+        ],
+        [
+          -627.3241,
+          18.8769
+        ],
+        [
+          -650.249,
+          19.8344
+        ],
+        [
+          -792.8512,
+          2.9188
+        ],
+        [
+          -865.5897,
+          -28.0741
+        ],
+        [
+          -891.8896,
+          -34.4105
+        ]
+      ]
+    },
+    {
+      "id": "397203665",
+      "tags": {
+        "comment": "Primary:State Highway:Motor Vehicle Speed as per Kerala Govt restriction G.O. (P) No. 20/2014/Tran src: http://www.keralamvd.gov.in/images/mvd/notifications/2014/20-14.pdf",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:bus": "40",
+        "maxspeed:hgv": "40",
+        "maxspeed:motorcycle": "50",
+        "name": "Varkala - Parippally - Madathara Road",
+        "ref": "SH64",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          294.1578,
+          30.0601
+        ],
+        [
+          257.6263,
+          25.478
+        ],
+        [
+          184.2293,
+          23.2684
+        ],
+        [
+          133.4213,
+          21.7344
+        ],
+        [
+          91.664,
+          20.4483
+        ],
+        [
+          67.1209,
+          20.9729
+        ],
+        [
+          8.8303,
+          20.3026
+        ],
+        [
+          -16.7128,
+          21.1372
+        ],
+        [
+          -86.7968,
+          20.7819
+        ],
+        [
+          -117.0623,
+          20.2357
+        ],
+        [
+          -122.799,
+          20.5982
+        ],
+        [
+          -254.6041,
+          23.101
+        ],
+        [
+          -263.8865,
+          23.2818
+        ],
+        [
+          -289.8712,
+          26.592
+        ]
+      ]
+    },
+    {
+      "id": "397203669",
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Paravur - Varkala Road",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          1090.7315,
+          204.7515
+        ],
+        [
+          967.9982,
+          177.9878
+        ],
+        [
+          900.0292,
+          163.5634
+        ],
+        [
+          883.4157,
+          163.2058
+        ],
+        [
+          865.306,
+          158.6228
+        ],
+        [
+          794.5054,
+          153.7783
+        ],
+        [
+          776.9951,
+          149.9498
+        ],
+        [
+          745.8923,
+          143.1373
+        ],
+        [
+          684.768,
+          127.6236
+        ],
+        [
+          567.3452,
+          92.3182
+        ],
+        [
+          518.2287,
+          83.6733
+        ],
+        [
+          294.1578,
+          30.0601
+        ]
+      ]
+    },
+    {
+      "id": "547839943",
+      "tags": {
+        "highway": "service",
+        "surface": "unpaved"
+      },
+      "xy": [
+        [
+          -4.6027,
+          89.7163
+        ],
+        [
+          -26.5436,
+          98.1052
+        ]
+      ]
+    },
+    {
+      "id": "957097514",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -169.2926,
+          -99.7153
+        ],
+        [
+          -109.8938,
+          -84.3219
+        ],
+        [
+          -89.8766,
+          -75.8853
+        ]
+      ]
+    },
+    {
+      "id": "960772290",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          184.2293,
+          23.2684
+        ],
+        [
+          186.2466,
+          3.8077
+        ],
+        [
+          157.6504,
+          -0.9089
+        ],
+        [
+          117.4363,
+          -1.0809
+        ],
+        [
+          96.6846,
+          -2.6381
+        ],
+        [
+          81.1749,
+          -2.6319
+        ]
+      ]
+    },
+    {
+      "id": "1288635903",
+      "tags": {
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Good Shed Road",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -891.8896,
+          -34.4105
+        ],
+        [
+          -897.7715,
+          -35.8227
+        ],
+        [
+          -945.365,
+          -47.2908
+        ],
+        [
+          -963.5564,
+          -51.6677
+        ],
+        [
+          -1029.0999,
+          -77.0648
+        ]
+      ]
+    },
+    {
+      "id": "1288635904",
+      "tags": {
+        "highway": "residential"
+      },
+      "xy": [
+        [
+          -627.3241,
+          18.8769
+        ],
+        [
+          -628.9436,
+          -3.4027
+        ],
+        [
+          -651.1163,
+          -42.8126
+        ],
+        [
+          -677.0962,
+          -91.4368
+        ],
+        [
+          -668.9167,
+          -103.7151
+        ],
+        [
+          -693.3591,
+          -164.0037
+        ],
+        [
+          -693.872,
+          -175.3408
+        ]
+      ]
+    },
+    {
+      "id": "1372618689",
+      "tags": {
+        "comment": "Primary:State Highway:Motor Vehicle Speed as per Kerala Govt restriction G.O. (P) No. 20/2014/Tran src: http://www.keralamvd.gov.in/images/mvd/notifications/2014/20-14.pdf",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:bus": "40",
+        "maxspeed:hgv": "40",
+        "maxspeed:motorcycle": "50",
+        "name": "Varkala - Parippally - Madathara Road",
+        "oneway": "no",
+        "ref": "SH64",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -289.8712,
+          26.592
+        ],
+        [
+          -379.1395,
+          37.9262
+        ],
+        [
+          -450.0728,
+          42.8511
+        ],
+        [
+          -470.8987,
+          47.9707
+        ],
+        [
+          -493.0184,
+          55.2273
+        ],
+        [
+          -530.7432,
+          67.613
+        ],
+        [
+          -599.2057,
+          90.8701
+        ],
+        [
+          -613.1368,
+          95.5297
+        ],
+        [
+          -663.0927,
+          112.232
+        ],
+        [
+          -693.4395,
+          118.2244
+        ],
+        [
+          -702.3866,
+          123.7787
+        ],
+        [
+          -710.8597,
+          130.4763
+        ],
+        [
+          -720.0289,
+          140.2738
+        ],
+        [
+          -728.6644,
+          152.2395
+        ],
+        [
+          -743.2118,
+          177.3291
+        ]
+      ]
+    },
+    {
+      "id": "1412783813",
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Varkala - Kallambalam Road",
+        "oneway": "no",
+        "ref": "MDR",
+        "surface": "asphalt"
+      },
+      "xy": [
+        [
+          -782.0629,
+          146.6803
+        ],
+        [
+          -806.405,
+          136.2793
+        ],
+        [
+          -861.6395,
+          111.7218
+        ],
+        [
+          -915.2047,
+          83.5638
+        ]
+      ]
+    }
+  ],
+  "center_rail_ys": [
+    -40.63,
+    -21.43,
+    -15.81,
+    -10.12
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-08"
+}
