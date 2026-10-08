@@ -23,3 +23,5 @@ Immutable r10 backup commit a605d3589c45426f5d30c916612dc529eb72137a. No main pu
 2026-10-08 00:10 UTC: Exec-server transport disconnected and session 72302 could not be resumed (unknown session). All seven durable 3A bay batch EXRs verified against stored SHA-256 before restart. Queue resumed as session 35779 with unchanged scripts/dependency fingerprints, skipping all five completed final frames. Only the unfinished eighth batch is rerendered. Authoritative writable path unchanged; no source geometry changed.
 
 2026-10-08 01:00 UTC: Environment replacement killed session 35779. Seven final frames verified; 2S aisle retains five verified durable EXR batches. Resuming unchanged queue from remaining three batches; all24 gallery target continues beyond minimum window. No source or renderer changes.
+
+2026-10-08 02:00 UTC: Ten final images pass current-source/provenance audit and pixel review, including complete CC exterior/aisle pair. Active session 94510 continues into SL hero; no restart since 01:00 recovery. All24 target remains open; final masters unchanged.

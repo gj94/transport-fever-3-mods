@@ -1,6 +1,6 @@
 # ICF detail v02 — actual-model final gallery
 
-Completed and verified high-sample views: **8/24**. Gallery production is in progress; missing views are intentionally not linked.
+Completed and verified high-sample views: **10/24**. Gallery production is in progress; missing views are intentionally not linked.
 Every image below is rendered from its linked current Blender master. These are original 3D assets, not generated illustrations or photographs of a different coach. Source and image SHA-256, renderer/dependency hashes, camera and cutaway scope are in the adjacent JSON sidecar.
 
 Rendering: Blender Cycles CPU with no denoising. Original completed frames use 512 maximum samples with a 2% adaptive threshold and minimum 64 samples. Restart-safe frames use eight independent-seed batches of 64 uniform samples (512 actual samples per pixel), averaged in scene-linear float EXR space before one display transform. Each sidecar identifies the actual workflow; these are not equivalent adaptive settings. Hero images are 1600 × 900; interiors and inspection details are 1600 × 1040.
@@ -57,6 +57,14 @@ Prototype: representative conventional blue self-generating ICF stock, with scre
 
 ## CC
 [Blender master](CC/ICF_CC_master.blend) · [FBX](CC/ICF_CC.fbx) · [Class manifest](CC/manifest.json)
+
+### Outdoor exterior
+[![CC: Outdoor exterior](CC/renders/hero_final.png)](CC/renders/hero_final.png)
+[Image provenance and exact cutaway disclosure](CC/renders/hero_final.json)
+
+### Saloon aisle
+[![CC: Saloon aisle](CC/renders/aisle_final.png)](CC/renders/aisle_final.png)
+[Image provenance and exact cutaway disclosure](CC/renders/aisle_final.json)
 
 
 ## SL

@@ -1,5 +1,5 @@
 {
-  "completed_views": 8,
+  "completed_views": 10,
   "expected_views": 24,
   "images": [
     {
@@ -65,6 +65,22 @@
       "metadata": "2S/renders/aisle_final.json",
       "source_blend_sha256": "1885cbd484e24b1a05937cd1fdfba0cd938d28f928f21e3da6dcd65262cf302c",
       "image_sha256": "2bd99c11d96526a1bcc98718cddc198fcc74d6c3b867c26f1630caa88fdcc4d6"
+    },
+    {
+      "variant": "CC",
+      "view": "hero",
+      "image": "CC/renders/hero_final.png",
+      "metadata": "CC/renders/hero_final.json",
+      "source_blend_sha256": "40812066ecc01ec1814cfa08ec3028f6465b501098feeb0f4140874d4b1ec02d",
+      "image_sha256": "29162d2fd0d8cff41ae2e19bfe885e6827b78fb9a356bad619ad2f396ca5c877"
+    },
+    {
+      "variant": "CC",
+      "view": "aisle",
+      "image": "CC/renders/aisle_final.png",
+      "metadata": "CC/renders/aisle_final.json",
+      "source_blend_sha256": "40812066ecc01ec1814cfa08ec3028f6465b501098feeb0f4140874d4b1ec02d",
+      "image_sha256": "6007eb13ca46cbc542b51d5796f2dd0b4039ae192d4930804e8de2e3c92b6027"
     }
   ]
 }
