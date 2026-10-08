@@ -1,6 +1,6 @@
 {
   "gallery_status": "in_progress",
-  "completed": 14,
+  "completed": 16,
   "planned": 21,
   "native_authoring": "Blender .blend, metre-scale class-specific source masters",
   "portable_exchange": "FBX with documented shader/alpha fallback",
@@ -234,14 +234,34 @@
     {
       "variant": "3A",
       "view": "bay",
-      "status": "pending",
-      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7"
+      "status": "complete",
+      "source_sha256": "966833157d601dc2d04971000b7c3091f0dc03fee7e153e7fb1326fe6ef4b7a7",
+      "image": "previews/LHB_3A_bay.png",
+      "record": "qa/render_3A_bay.json",
+      "image_sha256": "c1751a46cbb74ada9a1a1f78f33f786776c00059e5071fd7074fdc85d1d93c73",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
     },
     {
       "variant": "CC",
       "view": "chair_detail",
-      "status": "pending",
-      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e"
+      "status": "complete",
+      "source_sha256": "3c99c3ef40310683c122130ce4fe3443177cc33ddf4d54a69c5186418e5cc40e",
+      "image": "previews/LHB_CC_chair_detail.png",
+      "record": "qa/render_CC_chair_detail.json",
+      "image_sha256": "b22a52c66082c06bbf294f83baa028996553f8f553646d38850e46969a221d08",
+      "resolution": [
+        1400,
+        840
+      ],
+      "samples": 512,
+      "workflow": "uniform512 independent-seed linear EXR average",
+      "denoising": false
     },
     {
       "variant": "1A",

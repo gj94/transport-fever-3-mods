@@ -71,9 +71,7 @@
     {
       "variant": "GS",
       "view": "exterior"
-    }
-  ],
-  "pending": [
+    },
     {
       "variant": "3A",
       "view": "bay"
@@ -81,7 +79,9 @@
     {
       "variant": "CC",
       "view": "chair_detail"
-    },
+    }
+  ],
+  "pending": [
     {
       "variant": "1A",
       "view": "cabin_entry"
@@ -104,7 +104,7 @@
     }
   ],
   "active": {
-    "variant": "3A",
-    "view": "bay"
+    "variant": "1A",
+    "view": "cabin_entry"
   }
 }

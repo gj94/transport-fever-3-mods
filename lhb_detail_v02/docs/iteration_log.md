@@ -82,3 +82,11 @@ Actual 1400×840 uniform 512-sample frame completed in 1323.1 seconds and was in
 ## All seven core class pairs, 8 October 2026 02:40 UTC
 
 GS exterior completed at 1400×840 uniform 512 samples in 606.4 seconds. Centre-entry arrangement, paired barred windows and non-AC roof are clearly distinguished; source remains the selected legacy GS type. All fourteen class interior/exterior frames are now complete and source-matched. Seven detail views remain, starting with the approved 3A bay camera. The gallery is not yet complete and native game conversion is still outside scope.
+
+## 3A bay final, 8 October 2026 03:03 UTC
+
+Completed actual 1400×840 uniform 512-sample bay view in 1408.7 seconds and inspected. Folded middle-berth backs, lower cushions, upper berths, ladders, curtains, reading lamps, table and bottle holders are visible. This view supplies berth-face detail obscured by the corridor camera. No source geometry or camera redesign was required, and no new visual defect was observed. Fifteen of 21 planned frames complete; CC chair close-up follows.
+
+## CC chair close-up final, 8 October 2026 03:29 UTC
+
+Actual 1400×840 uniform 512-sample close-up completed in 1625.1 seconds. Thin draped linen, upholstery piping, tray backs, nets, bracket-mounted bottle cages and footrests are legible. No newly visible attachment defect. Some bevel faceting is visible at this close range; the geometry remains the previously approved locked source. Sixteen of 21 frames complete, with 1A cabin-entry detail running next.
