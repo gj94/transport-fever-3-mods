@@ -1,5 +1,5 @@
 {
-  "status_snapshot_utc": "2026-10-08T20:03:51.620530+00:00",
+  "status_snapshot_utc": "2026-10-08T20:23:44.541198+00:00",
   "scope": "55 active station/halts plus closed historical TNU",
   "new_active_target": 52,
   "stations": [
@@ -76,10 +76,10 @@
       "name": "Turavur",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "23.30",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "14da801c968ba1eb78214802dfa4b1f2da3cd5f6",
-      "main_commit": null,
+      "main_commit": "08b98c0d1503e2ea6859eef99e03363c34410987",
       "station_path": "coastal_station_collection/north/TUVR",
       "preview_paths": [
         "coastal_station_collection/north/TUVR/renders/02_Entrance_architecture.png",
@@ -301,11 +301,14 @@
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "121.59",
       "build_status": "backed_up",
-      "qa_status": "structural review passed; final gallery/export review pending",
-      "backup_commit": "a2671073e31c4ca2a9558d8e13d55bc0ae178cf8",
+      "qa_status": "passed independent station review",
+      "backup_commit": "2fe6580932c9cc0c68d393550daeb5413e8d7ac3",
       "main_commit": null,
       "station_path": "coastal_station_collection/middle/stkt",
-      "preview_paths": [],
+      "preview_paths": [
+        "coastal_station_collection/middle/stkt/renders/04_facade_and_approach.png",
+        "coastal_station_collection/middle/stkt/renders/05_ticket_interior.png"
+      ],
       "station_code": "STKT"
     },
     {
@@ -355,11 +358,11 @@
       "name": "Iravipuram",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "145.60",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "final independent circulation gate pending",
+      "backup_commit": "52238a9ee487f763ea61fbc99caca370316fe2b5",
       "main_commit": null,
-      "station_path": "coastal_station_collection/middle/IRP",
+      "station_path": "coastal_station_collection/middle/irp",
       "preview_paths": [],
       "station_code": "IRP"
     },
@@ -472,10 +475,10 @@
       "name": "Perunguzhi",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "180.97",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "passed independent station review",
       "backup_commit": "54cad77619548160c653104ea2d803f12e8dc1cf",
-      "main_commit": null,
+      "main_commit": "08b98c0d1503e2ea6859eef99e03363c34410987",
       "station_path": "coastal_station_collection/south/pgz",
       "preview_paths": [
         "coastal_station_collection/south/pgz/renders/02_STATION_ARCHITECTURE.png",
@@ -527,12 +530,15 @@
       "name": "Veli",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "196.48",
-      "build_status": "pending",
-      "qa_status": "pending",
-      "backup_commit": null,
+      "build_status": "backed_up",
+      "qa_status": "passed independent station review",
+      "backup_commit": "2fe6580932c9cc0c68d393550daeb5413e8d7ac3",
       "main_commit": null,
-      "station_path": "coastal_station_collection/south/VELI",
-      "preview_paths": [],
+      "station_path": "coastal_station_collection/south/veli",
+      "preview_paths": [
+        "coastal_station_collection/south/veli/renders/02_STATION_ARCHITECTURE.png",
+        "coastal_station_collection/south/veli/renders/04_FURNISHED_INTERIOR.png"
+      ],
       "station_code": "VELI"
     },
     {
