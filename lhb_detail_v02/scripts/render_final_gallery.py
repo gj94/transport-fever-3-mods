@@ -5,7 +5,7 @@ import hashlib,json,os,subprocess,time
 from pathlib import Path
 P=Path(__file__).resolve().parent.parent
 QUEUE=[(k,v) for k in ['1A','CC','3A','2A','SL','2S','GS'] for v in ['interior','exterior']]
-QUEUE += [('CC','chair_detail'),('1A','cabin_entry'),('3A','hvac'),('3A','bogie'),('3A','door'),('3A','toilet')]
+QUEUE += [('3A','bay'),('CC','chair_detail'),('1A','cabin_entry'),('3A','hvac'),('3A','bogie'),('3A','door'),('3A','toilet')]
 SAMPLES=512;RESOLUTION=1400
 STATE=P/'qa/final_gallery_progress.json'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()

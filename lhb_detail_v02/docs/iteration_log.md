@@ -42,3 +42,11 @@ Actual 1400×840 uniform512 interior completed in1739.8seconds and visually insp
 ## Current-source final CC exterior, 7 October 2026 23:34 UTC
 
 Actual 1400×840 uniform512 exterior completed in630.3seconds and visually inspected. Continuous chair-car window rhythm and seating visible through glazing distinguish CC from cabin coaches; the blue/grey livery, crown, HVAC, door hardware and underframe remain coherent with the locked source. No newly observed silhouette or attachment defect. Four final gallery views are complete (1A and CC interior/exterior). 3A interior starts next.
+
+## Current-source final 3A interior, 7 October 2026 23:57 UTC
+
+Completed and inspected current1400×840 uniform512 corridor pixels. Repeated partitions, ladders, folded daytime berth backs, lower cushions, upper berth undersides and ceiling equipment remain coherent, without a newly observed geometry defect. This longitudinal corridor framing hides much of the berth faces and does not by itself establish class-specific bay detail. Proposed adding the already supported bay-camera512 view after core gallery; no source/camera redesign. Exterior rendering follows.
+
+## Current-source final 3A exterior, 8 October 2026 00:08 UTC
+
+Actual1400×840 uniform512 exterior completed in619.8seconds. Nine saloon windows,3A identity, roof-end HVAC, livery transitions, bogies and equipment are visually coherent; no new visible defect. Six core frames now complete. Parent approved adding the existing3A bay camera as a21st final, after core views, because the corridor image does not show the berth faces clearly. Renderer and geometry remain unchanged; only supervisor queue changes. 2A interior is active.
