@@ -1,0 +1,424 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/veli/VELI_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 670,
+  "object_types": {
+    "MESH": 648,
+    "FONT": 14,
+    "LIGHT": 3,
+    "CAMERA": 5
+  },
+  "unique_meshes": 648,
+  "unique_vertices": 405365,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -77.9101791381836,
+      -0.550000011920929
+    ],
+    [
+      895.0,
+      318.67266845703125,
+      12.441779136657715
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "VELI",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_TRACK_AND_PLATFORM_DETAIL"
+  ],
+  "circulation_rays": {
+    "entry_0.4": {
+      "from": [
+        -110.0,
+        -8.190118789672852,
+        1.350000023841858
+      ],
+      "to": [
+        -110.0,
+        -0.8901187181472778,
+        1.350000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.4": {
+      "from": [
+        -112.625,
+        -21.290119171142578,
+        0.30000001192092896
+      ],
+      "to": [
+        -112.625,
+        -9.290119171142578,
+        1.350000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_0.4": {
+      "from": [
+        -112.625,
+        -7.990118503570557,
+        1.350000023841858
+      ],
+      "to": [
+        -110.0,
+        -7.990118503570557,
+        1.350000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_0.9": {
+      "from": [
+        -110.0,
+        -8.190118789672852,
+        1.850000023841858
+      ],
+      "to": [
+        -110.0,
+        -0.8901187181472778,
+        1.850000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.9": {
+      "from": [
+        -112.625,
+        -21.290119171142578,
+        0.800000011920929
+      ],
+      "to": [
+        -112.625,
+        -9.290119171142578,
+        1.850000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_0.9": {
+      "from": [
+        -112.625,
+        -7.990118503570557,
+        1.850000023841858
+      ],
+      "to": [
+        -110.0,
+        -7.990118503570557,
+        1.850000023841858
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_1.7": {
+      "from": [
+        -110.0,
+        -8.190118789672852,
+        2.6500000953674316
+      ],
+      "to": [
+        -110.0,
+        -0.8901187181472778,
+        2.6500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -112.625,
+        -21.290119171142578,
+        1.600000023841858
+      ],
+      "to": [
+        -112.625,
+        -9.290119171142578,
+        2.6500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_1.7": {
+      "from": [
+        -112.625,
+        -7.990118503570557,
+        2.6500000953674316
+      ],
+      "to": [
+        -110.0,
+        -7.990118503570557,
+        2.6500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_0": {
+      "from": [
+        -112.625,
+        -21.290119171142578,
+        0.15000000596046448
+      ],
+      "to": [
+        -112.625,
+        -21.290119171142578,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -112.625,
+        -21.290119171142578,
+        -0.0922916829586029
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        -0.9954786896705627
+      ]
+    },
+    "floor_ramp_0.25": {
+      "from": [
+        -112.625,
+        -18.290119171142578,
+        0.4124999940395355
+      ],
+      "to": [
+        -112.625,
+        -18.290119171142578,
+        -0.23749999701976776
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -112.625,
+        -18.290119171142578,
+        0.1939583271741867
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        -0.9954786896705627
+      ]
+    },
+    "floor_ramp_0.5": {
+      "from": [
+        -112.625,
+        -15.290119171142578,
+        0.675000011920929
+      ],
+      "to": [
+        -112.625,
+        -15.290119171142578,
+        0.02500000037252903
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -112.625,
+        -15.290119171142578,
+        0.4802083373069763
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        -0.9954786896705627
+      ]
+    },
+    "floor_ramp_0.75": {
+      "from": [
+        -112.625,
+        -12.290119171142578,
+        0.9375
+      ],
+      "to": [
+        -112.625,
+        -12.290119171142578,
+        0.2874999940395355
+      ],
+      "clear": false,
+      "hit": "Accessible sloping entrance path",
+      "hit_location": [
+        -112.625,
+        -12.290119171142578,
+        0.7664583325386047
+      ],
+      "hit_normal": [
+        0.0,
+        0.09498526155948639,
+        -0.9954786896705627
+      ]
+    },
+    "floor_ramp_1": {
+      "from": [
+        -112.625,
+        -9.290119171142578,
+        1.2000000476837158
+      ],
+      "to": [
+        -112.625,
+        -9.290119171142578,
+        0.550000011920929
+      ],
+      "clear": false,
+      "hit": "Continuous bespoke approach landing",
+      "hit_location": [
+        -112.625,
+        -9.290119171142578,
+        1.0049999952316284
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "floor_door_-6.290": {
+      "from": [
+        -110.0,
+        -6.29011869430542,
+        1.2999999523162842
+      ],
+      "to": [
+        -110.0,
+        -6.29011869430542,
+        0.6000000238418579
+      ],
+      "clear": false,
+      "hit": "Continuous bespoke approach landing",
+      "hit_location": [
+        -110.0,
+        -6.29011869430542,
+        1.0049999952316284
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "floor_door_-6.090": {
+      "from": [
+        -110.0,
+        -6.090118885040283,
+        1.2999999523162842
+      ],
+      "to": [
+        -110.0,
+        -6.090118885040283,
+        0.6000000238418579
+      ],
+      "clear": false,
+      "hit": "VELI modest service block floor",
+      "hit_location": [
+        -110.0,
+        -6.090118885040283,
+        1.0399999618530273
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "floor_door_-1.790": {
+      "from": [
+        -110.0,
+        -1.79011869430542,
+        1.2999999523162842
+      ],
+      "to": [
+        -110.0,
+        -1.79011869430542,
+        0.6000000238418579
+      ],
+      "clear": false,
+      "hit": "VELI modest service block floor",
+      "hit_location": [
+        -110.0,
+        -1.79011869430542,
+        1.0399999618530273
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "floor_door_-1.290": {
+      "from": [
+        -110.0,
+        -1.29011869430542,
+        1.2999999523162842
+      ],
+      "to": [
+        -110.0,
+        -1.29011869430542,
+        0.6000000238418579
+      ],
+      "clear": false,
+      "hit": "Hall platform link",
+      "hit_location": [
+        -110.0,
+        -1.29011869430542,
+        1.0049999952316284
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    }
+  },
+  "blend_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296"
+}

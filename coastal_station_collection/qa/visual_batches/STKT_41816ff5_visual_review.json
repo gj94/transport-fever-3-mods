@@ -1,0 +1,64 @@
+{
+  "station": "STKT",
+  "reviewed_utc": "2026-10-08T20:09:03Z",
+  "status": "visual_source_pass",
+  "source_scene_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+  "frames": {
+    "renders/01_full_mapped_layout.png": {
+      "image_sha256": "e2fc3ed47fccc72a56df569b14e360d9620693461d2657891721742aacb7b74b",
+      "provenance_sha256": "e2fc3ed47fccc72a56df569b14e360d9620693461d2657891721742aacb7b74b",
+      "source_scene_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "renders/02_station_and_platforms.png": {
+      "image_sha256": "0c003ad5b7edd183ade37ae0f8c4aeb22e02fa4e9eaf63af4d85fda66595566e",
+      "provenance_sha256": "0c003ad5b7edd183ade37ae0f8c4aeb22e02fa4e9eaf63af4d85fda66595566e",
+      "source_scene_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "renders/03_platform_track_details.png": {
+      "image_sha256": "c17bc5b08b5e4bc28ec4a2feb1d36b2bfe8cc9ee5e727f5be9a37499765e2abb",
+      "provenance_sha256": "c17bc5b08b5e4bc28ec4a2feb1d36b2bfe8cc9ee5e727f5be9a37499765e2abb",
+      "source_scene_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "renders/04_facade_and_approach.png": {
+      "image_sha256": "fad625e0d25468faf4009d0f5a7071a75bb9cac310db2dcd6b235dffdfcdcdea",
+      "provenance_sha256": "fad625e0d25468faf4009d0f5a7071a75bb9cac310db2dcd6b235dffdfcdcdea",
+      "source_scene_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    },
+    "renders/05_ticket_interior.png": {
+      "image_sha256": "14e86886ea2bd941af66885f5a20e3723b2eb4a2be6e0922538df9ac8c0d6c11",
+      "provenance_sha256": "14e86886ea2bd941af66885f5a20e3723b2eb4a2be6e0922538df9ac8c0d6c11",
+      "source_scene_sha256": "41816ff585e087d5419b44c4e59335e4109c51ee09ce5b0ba0b1697dc5b9cbb0",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    }
+  },
+  "source": {
+    "path": "coastal_stations_overnight/research/screenshots/STKT_Madhyamam_2025-09-03.png",
+    "sha256": "6a06eb25a63accb86162e860c4f465566d5d4d4085a81512ccc913e3b39f7c52",
+    "actual_full_pixels_inspected": true,
+    "source_url": "https://www.madhyamam.com/h-upload/2025/09/03/2672817-untitled-1.jpg",
+    "capture_date": "Exact capture unresolved; article dated2025-09-03",
+    "reference_only": true
+  },
+  "observations": [
+    "Independent source screenshot successfully viewed after direct web cache fetch failed; source signoff was held until this inspection.",
+    "Low flat/parapet pale-mint block, blue lower band and timber-style outward awnings/openings are source-consistent at reconstruction fidelity.",
+    "Concrete platform and modest station massing preserve source character without large invented concourse.",
+    "One shared booking/reservation counter is modeled in accordance with builder's cited article, and current interior clearly shows counter, desk/chair, waiting bench, queue rails and fan.",
+    "Overall route and station-scale aerials provide complementary coverage; platform view is clear enough to inspect tracks and facilities.",
+    "No duplicate/overlapping fixture assembly visible in reviewed views."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Unseen plan, window count, exact room dimensions and furnishings are reconstructed and disclosed.",
+    "Technical auditor owns geometry, resource and publication gate."
+  ]
+}

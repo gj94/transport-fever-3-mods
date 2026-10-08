@@ -1,0 +1,27 @@
+[
+  {
+    "code": "STKT",
+    "adopted_sha256": "96b009f052ee4e0ea70016aaf57f1dd7135dad293e71ff30ac1e7fb50ed15fba",
+    "head_channel_inner_overlap": 0.0,
+    "guard_head_inner_overlap": 0.0,
+    "guard_channel_inner_overlap": 0.0,
+    "platform_min_railcenter_m": [
+      1.9150526819088673,
+      1.9188539339995923
+    ],
+    "building_railcenter_min_m": 8.418139959683057
+  },
+  {
+    "code": "QLN",
+    "adopted_sha256": "af0cac24888aad55313330f773d24a5eb1dcc38968987d884db6d7a166b60459",
+    "head_channel_inner_overlap": 0.0,
+    "guard_head_inner_overlap": 0.0,
+    "guard_channel_inner_overlap": 0.0,
+    "platform_min_railcenter_m": [
+      1.899999646770082,
+      2.0797,
+      1.8999995386974489
+    ],
+    "building_railcenter_min_m": 15.025095675104648
+  }
+]

@@ -1,6 +1,6 @@
 # STKT station model
 
-Frozen complete source and lossless export checkpoint. Structural and visual/source reviews have passed; final independent manifest gate remains pending.
+Passed the full independent station gate with five accepted views and exact source/export provenance. Source evidence and reconstructed details remain clearly distinguished.
 
 [Model images](GALLERY.md) · [Sources and limitations](SOURCES_AND_UNCERTAINTIES.md)
 

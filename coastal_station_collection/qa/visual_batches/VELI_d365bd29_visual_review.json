@@ -1,0 +1,69 @@
+{
+  "station": "VELI",
+  "reviewed_utc": "2026-10-08T19:56:49Z",
+  "scope": "Visual/source comparison only; final geometry/resources/publication gate belongs to technical auditor.",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "4c01998b6161bb9598ab9df6c6149e96186770f31bc03298767e0c9223a98a8c",
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "provenance_image_sha256": "4c01998b6161bb9598ab9df6c6149e96186770f31bc03298767e0c9223a98a8c",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "96b856541737fd170d20a6d3ed4fdfd8bb9bc2fc28228b55af0c0aac32cb8a93",
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "provenance_image_sha256": "96b856541737fd170d20a6d3ed4fdfd8bb9bc2fc28228b55af0c0aac32cb8a93",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "68fc29e74252d924d4aa0a0c2e90496164a87c5da922d178b79a018be36bf531",
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "provenance_image_sha256": "68fc29e74252d924d4aa0a0c2e90496164a87c5da922d178b79a018be36bf531",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "60bfb8006910f314f71ad44473dd60d25b2b546125c410418c6872d645c7062e",
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "provenance_image_sha256": "60bfb8006910f314f71ad44473dd60d25b2b546125c410418c6872d645c7062e",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "263cae170921505601f3bbed81be85e28c700e947202f58b80b26b0d88ff72b7",
+      "source_scene_sha256": "d365bd29aa20a919efa105b19036a53b5e57ba0369808d811ef17de1c30a5296",
+      "provenance_image_sha256": "263cae170921505601f3bbed81be85e28c700e947202f58b80b26b0d88ff72b7",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/VELI_sign_platform_2023-01.png",
+      "sha256": "a1c565bc351ebecdac13908fcd328e312bc2b1ee56743d0f7df6775f319a4596",
+      "actual_full_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/VELI_sign_service_block_2017-12.png",
+      "sha256": "b5843036c6fce1cba11998a130e8cc06c6e591bf3f75c5e4a1edf0f1e814ce40",
+      "actual_full_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/VELI_canopy_2026-09.png",
+      "sha256": "17864cc6d8f71834cc2074d4f571fba56f87df129df39e8d9eea150469eac6c8",
+      "actual_full_pixels_inspected": true
+    }
+  ],
+  "status": "visual_source_pass",
+  "observations": [
+    "Small low white service block with continuous high-vent band matches visible historical evidence. Function is correctly unverified in photo_basis; modeled bench/cabinet are modest reconstructed fittings.",
+    "2026 platform canopy reflected in current shelter geometry; one clearly modeled passenger-side platform, no unsupported large concourse.",
+    "Track/platform coverage, station identity and amenities legible; no overlapping fixture assemblies detected.",
+    "Different historical nameboard supports and paint appearances do not justify exact repaint requirement."
+  ],
+  "optional_refinements": [
+    "Frame05 blue near column obscures right quarter; camera-only improvement would help but is not a source-fidelity hold."
+  ]
+}

@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen complete source and lossless export checkpoint. Structural and visual/source reviews have passed; final independent manifest gate remains pending.
+Passed the full independent station gate with five accepted views and exact source/export provenance. Source evidence and reconstructed details remain clearly distinguished.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.

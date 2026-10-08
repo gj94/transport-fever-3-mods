@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/middle/stkt/export/STKT_coastal_station_v01.glb.zip!STKT_coastal_station_v01.glb",
+    "bytes": 57991768,
+    "errors": [],
+    "warnings": [],
+    "sha256": "45c0d5126d4330795265311d173a1e8e51125fa208c4bb5e5026d8b5d980efa1",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 57991768
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 134568
+      },
+      {
+        "type": 5130562,
+        "bytes": 57857172
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 190,
+    "mesh_count": 190,
+    "primitive_count": 190,
+    "vertex_reference_count": 1951348,
+    "accessor_count": 489,
+    "validated_accessor_count": 489,
+    "material_count": 26,
+    "embedded_images": 1,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "74cd9d6dc9d0d976aa399a4ee52655e498cad3bca424ce86987fec9c5ff32d1e",
+    "container_bytes": 7471606
+  }
+]

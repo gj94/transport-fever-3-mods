@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen source/export checkpoint; final independent technical gate is pending. The uncertain opposite raised strip remains distinct from the reported passenger platform.
+Passed independent station review with five accepted views. The established passenger platform and uncertain opposite raised strip remain separate; the strip is not counted as a confirmed operational platform.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.
