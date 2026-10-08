@@ -1,7 +1,9 @@
 {
-  "status_snapshot_utc": "2026-10-08T23:50:09.172374+00:00",
+  "status_snapshot_utc": "2026-10-08T23:57:54.664566+00:00",
   "scope": "55 active station/halts plus closed historical TNU",
   "new_active_target": 52,
+  "published_new_active_entries": 52,
+  "published_closed_historical_entries": 1,
   "saved_new_active_candidates": 52,
   "saved_closed_historical_candidates": 1,
   "reviewed_active_entries": 55,
@@ -40,7 +42,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/TNU/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "ddfb0dcb652327e3cc1087f2407fb5ab57153f509de2b44027c6f3533a6ca7bb",
         "gate_status": "accepted"
       }
@@ -65,7 +67,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/KUMM/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "c1e77c3e9c3cddde284c6117e1f190834117aa832c1efb591a63c8258c509d99",
         "gate_status": "accepted"
       }
@@ -90,7 +92,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/AROR/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "9d3e0cdcc1d92200f2a6ac2884b993482840148c03c519b1059d99caf2425ef2",
         "gate_status": "accepted"
       }
@@ -115,7 +117,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/EZP/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "3bb2a61b3cd31e116b564b992cbf565273707467eac80bbb3220c04181007ab1",
         "gate_status": "accepted"
       }
@@ -140,7 +142,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/TUVR/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "d9884e397b979e06267f0f4d927450b6caaeaf8d747ecf7c90205f002281a448",
         "gate_status": "accepted"
       }
@@ -165,7 +167,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/VAY/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "aed3692471779a77366d2a17ac9e9d8d559044d44f2ace97ae9af9f497f70478",
         "gate_status": "accepted"
       }
@@ -190,7 +192,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/SRTL/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "b0735240d98d9533f80ea4d160613e515c832a7a5183cf8cfc1acdf2cf6d0e49",
         "gate_status": "accepted"
       }
@@ -200,10 +202,10 @@
       "name": "Tiruvizha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "39.13",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/north/TRVZ",
       "preview_paths": [
         "coastal_station_collection/north/TRVZ/renders/02_Entrance_architecture.png",
@@ -215,7 +217,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/TRVZ/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "aebc23e0135d10bfd167f55cc653a16bdd9026c00c46a8912aa34c1178c86ba6",
         "gate_status": "accepted"
       }
@@ -225,10 +227,10 @@
       "name": "Mararikulam",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "44.23",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/north/MAKM",
       "preview_paths": [
         "coastal_station_collection/north/MAKM/renders/02_Entrance_architecture.png",
@@ -240,7 +242,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/MAKM/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "ed5d1f79847a78659ed9c07eb4df2b6cface21b711564df1279c2406d459f53f",
         "gate_status": "accepted"
       }
@@ -265,7 +267,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/KAVR/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "0e0834267b964a60b5caa9fd2d9020c63702cc340d49d33e62a2a4e882956477",
         "gate_status": "accepted"
       }
@@ -290,7 +292,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/TMPY/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e9acca08ff44e62d876fe901b20077b6fba7d84ac7fb7733403a37ea17dcddd0",
         "gate_status": "accepted"
       }
@@ -315,7 +317,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/ALLP/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "c89c0ebc9e7bebebd0d738229d293a076b2de9cd633e37a989e1f11fa6b40495",
         "gate_status": "accepted"
       }
@@ -340,7 +342,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/PNPR/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e48dcf370a27a6669829ba30de1ab959cd2925b926c847a64912f203d23a3523",
         "gate_status": "accepted"
       }
@@ -365,7 +367,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/AMPA/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e41bfeeaf45af8cb61ffc596dc617fd74353aad11608e1bbc9ba8e68028b742a",
         "gate_status": "accepted"
       }
@@ -375,10 +377,10 @@
       "name": "Takazhi",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "74.84",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/north/TZH",
       "preview_paths": [
         "coastal_station_collection/north/TZH/renders/02_Entrance_architecture.png",
@@ -390,7 +392,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/TZH/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "1e3395b6866f12c53331e92bb49a0bf1b3b9d93b20b7dc72f2605fff828e2f5f",
         "gate_status": "accepted"
       }
@@ -400,10 +402,10 @@
       "name": "Karuvatta",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "81.49",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/north/KVTA",
       "preview_paths": [
         "coastal_station_collection/north/KVTA/renders/02_Entrance_architecture.png",
@@ -415,7 +417,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/KVTA/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "95f1b1b7fc572b1825a75af1ab2626efae499018348d3a47a85cfffde3b0c42d",
         "gate_status": "accepted"
       }
@@ -440,7 +442,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/HAD/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "0d3e9e40db0f6a75479c53ad847c909cdd47539fcf224ae1f79c394fca483c29",
         "gate_status": "accepted"
       }
@@ -450,10 +452,10 @@
       "name": "Cheppad",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "92.58",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/north/CHPD",
       "preview_paths": [
         "coastal_station_collection/north/CHPD/renders/02_Entrance_architecture.png",
@@ -465,7 +467,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/CHPD/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "25672a25088a3fc7e8ae4b5d7af92a6b21268b9377a032c7c0592632827c8b72",
         "gate_status": "accepted"
       }
@@ -475,10 +477,10 @@
       "name": "Kayamkulam Junction",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "100.34",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/north/KYJ",
       "preview_paths": [
         "coastal_station_collection/north/KYJ/renders/02_Entrance_architecture.png",
@@ -490,7 +492,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/north/portable_colour_revision_02/KYJ/README.md",
         "backup_commit": "c7fc44f28441ce2bb4c1bef387e3096d45be5710",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "47a917028d270ad14501fb5ed95d702064867301ebe1abd59bc00e1ce80769eb",
         "gate_status": "accepted"
       }
@@ -515,7 +517,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/ocr/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -525,10 +527,10 @@
       "name": "Karunagapalli",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "113.93",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/kpy",
       "preview_paths": [
         "coastal_station_collection/middle/kpy/renders/02_station_and_platforms.png",
@@ -540,7 +542,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/kpy/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -565,7 +567,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/stkt/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -590,7 +592,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/mqo/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -600,10 +602,10 @@
       "name": "Perinad",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "131.99",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_02/prnd",
       "preview_paths": [
         "coastal_station_collection/middle/revision_02/prnd/renders/01_full_mapped_layout.png",
@@ -615,7 +617,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/prnd/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -640,7 +642,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/qln/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -665,7 +667,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/irp/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -690,7 +692,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/myy/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -700,10 +702,10 @@
       "name": "Paravur",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "153.50",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_03/pvu",
       "preview_paths": [
         "coastal_station_collection/middle/revision_03/pvu/renders/01_full_mapped_layout.png",
@@ -715,7 +717,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_03/pvu/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb",
         "gate_status": "accepted"
       }
@@ -725,10 +727,10 @@
       "name": "Kappil",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "158.03",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_03/kfi",
       "preview_paths": [
         "coastal_station_collection/middle/revision_03/kfi/renders/01_full_mapped_layout.png",
@@ -740,7 +742,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_03/kfi/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -750,10 +752,10 @@
       "name": "Edavai",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "160.88",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_03/eva",
       "preview_paths": [
         "coastal_station_collection/middle/revision_03/eva/renders/01_full_mapped_layout.png",
@@ -765,7 +767,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_03/eva/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "b80fd738efe8e24fc1e1a6b581d618aca8239ac09d55c56eb6a762eca77078cb",
         "gate_status": "accepted"
       }
@@ -775,10 +777,10 @@
       "name": "Varkala Sivagiri",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "164.66",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_03/vak",
       "preview_paths": [
         "coastal_station_collection/middle/revision_03/vak/renders/02_station_and_platforms.png",
@@ -790,7 +792,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_03/vak/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -800,10 +802,10 @@
       "name": "Akathumuri",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "171.11",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_02/amy",
       "preview_paths": [
         "coastal_station_collection/middle/revision_02/amy/renders/01_full_mapped_layout.png",
@@ -815,7 +817,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/amy/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -825,10 +827,10 @@
       "name": "Kadakavur",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "173.87",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/kvu",
       "preview_paths": [
         "coastal_station_collection/middle/kvu/renders/01_full_mapped_layout.png",
@@ -840,7 +842,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/kvu/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -850,10 +852,10 @@
       "name": "Chirayinkeezh",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "176.93",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/middle/revision_02/cry",
       "preview_paths": [
         "coastal_station_collection/middle/revision_02/cry/renders/01_full_mapped_layout.png",
@@ -865,7 +867,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/middle/revision_02/cry/CURRENT_PORTABLE_EXPORT.md",
         "backup_commit": "dae1fb4fe0779cbafa3f7d480a32011fbb96416f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "e6b6bc1e3c2be09d1e9ed2a009f5f5a79bea1777d6dc5bad703ff95cd90bf6ba",
         "gate_status": "accepted"
       }
@@ -890,7 +892,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/PGZ/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "a1ecb7c8141c0fab393603704b6d2b875277ae921fcbecfe90f90423dbaa68b3",
         "gate_status": "accepted"
       }
@@ -900,10 +902,10 @@
       "name": "Murukkampuzha",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "184.38",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/revision_02/mqu",
       "preview_paths": [
         "coastal_station_collection/south/revision_02/mqu/renders/02_STATION_ARCHITECTURE.png",
@@ -915,7 +917,7 @@
         "kind": "first_export",
         "opening_path": "coastal_station_collection/south/revision_02/mqu/README.md",
         "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "65d9681af188959ffa570555df4e0cde0e5ac589326cd3f3a9579397a601329e",
         "gate_status": "accepted"
       }
@@ -940,7 +942,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/KXP/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "99f46703b6fa45f050ba7cb10d3df93f8842b94f411c0cd23f6cf36d75aee8c2",
         "gate_status": "accepted"
       }
@@ -950,10 +952,10 @@
       "name": "Kazhakuttam",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "192.29",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/revision_02/kzk",
       "preview_paths": [
         "coastal_station_collection/south/revision_02/kzk/renders/02_STATION_ARCHITECTURE.png",
@@ -965,7 +967,7 @@
         "kind": "first_export",
         "opening_path": "coastal_station_collection/south/revision_02/kzk/README.md",
         "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "d6b281f5ba618624cad75a30c54e6c86d29625c8a801d8a3e2ea133b3e4f8807",
         "gate_status": "accepted"
       }
@@ -990,7 +992,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/VELI/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "b60b4655e706be3846efc3ae3cf35826cb067a4799e09936600a87f793a3d17e",
         "gate_status": "accepted"
       }
@@ -1000,10 +1002,10 @@
       "name": "Thiruvananthapuram North",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "199.42",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "cdab62a6c4e4320de17525743f074b142db5244f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/tvcn",
       "preview_paths": [
         "coastal_station_collection/south/tvcn/renders/02_STATION_ARCHITECTURE.png",
@@ -1015,7 +1017,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/TVCN/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "4c1a3bc228a92e79007add42cdec3b84c96929eb464d1c958b47837429fce461",
         "gate_status": "accepted"
       }
@@ -1025,10 +1027,10 @@
       "name": "Thiruvananthapuram Pettah",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "203.17",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/tvp",
       "preview_paths": [
         "coastal_station_collection/south/tvp/renders/02_STATION_ARCHITECTURE.png",
@@ -1040,7 +1042,7 @@
         "kind": "first_export",
         "opening_path": "coastal_station_collection/south/tvp/README.md",
         "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "016210d8cefb1e12f9d727f4399fbf85d6d722c52ef3fea1503a76628f23c59d",
         "gate_status": "accepted"
       }
@@ -1063,10 +1065,10 @@
       "name": "Thiruvananthapuram South",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "213.38",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/tvcs",
       "preview_paths": [
         "coastal_station_collection/south/tvcs/renders/02_STATION_ARCHITECTURE.png",
@@ -1078,7 +1080,7 @@
         "kind": "first_export",
         "opening_path": "coastal_station_collection/south/tvcs/README.md",
         "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "07a6c18877b47c69e919a8967fae98482ab95dcc46cc51040a0debd23b67676a",
         "gate_status": "accepted"
       }
@@ -1088,10 +1090,10 @@
       "name": "Balaramapuram",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "218.89",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "cdab62a6c4e4320de17525743f074b142db5244f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/bram",
       "preview_paths": [
         "coastal_station_collection/south/bram/renders/02_STATION_ARCHITECTURE.png",
@@ -1103,7 +1105,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/BRAM/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "6a1e51df2af232e9ca8f41cc1b22b6c3b6dba4932afc8d5168fa2bc4e499ac66",
         "gate_status": "accepted"
       }
@@ -1128,7 +1130,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/NYY/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "2752422207fb59b91ae90ba6eb488f4382aff8cffcf8c10a447a3535a65e7a9f",
         "gate_status": "accepted"
       }
@@ -1153,7 +1155,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/AMVA/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "efc9622b2081d4d6e67ee6fda6f59c944de9f6280418d777d7b314e3aaea9fb1",
         "gate_status": "accepted"
       }
@@ -1163,10 +1165,10 @@
       "name": "Dhanuvachapuram",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "229.18",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "cdab62a6c4e4320de17525743f074b142db5244f",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/davm",
       "preview_paths": [
         "coastal_station_collection/south/davm/renders/02_STATION_ARCHITECTURE.png",
@@ -1178,7 +1180,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/DAVM/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "61973c4c113e102f3c5c03c71f2fd0dd7822fd2071850f46dbd523b834c6311e",
         "gate_status": "accepted"
       }
@@ -1203,7 +1205,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/PASA/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "d95d17de21b97b8b2a82cfb8a0e984d4eaf8d8abef2bddb67082dfdcdf639947",
         "gate_status": "accepted"
       }
@@ -1228,7 +1230,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/KZTW/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "9e755875e2c292388c52fc98998622344f51305c6c8be5efe83e0674361d138a",
         "gate_status": "accepted"
       }
@@ -1238,10 +1240,10 @@
       "name": "Kulitturai",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "243.55",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/revision_02/kzt",
       "preview_paths": [
         "coastal_station_collection/south/revision_02/kzt/renders/02_STATION_ARCHITECTURE.png",
@@ -1253,7 +1255,7 @@
         "kind": "first_export",
         "opening_path": "coastal_station_collection/south/revision_02/kzt/README.md",
         "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "0fb94c758cbcb499451cde871027d6ab9d787fac92b7ccc51e35995d8418630a",
         "gate_status": "accepted"
       }
@@ -1278,7 +1280,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/PYD/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "ced54e9b02c77346ab3c0d3e2202af501200424c2229e20f8ee9ba23fdeee2d9",
         "gate_status": "accepted"
       }
@@ -1303,7 +1305,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/ERL/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "dd172f65cbb36ceae7d0f22cd766bb04d458b3cb79625b5fa177419c82d75c7e",
         "gate_status": "accepted"
       }
@@ -1328,7 +1330,7 @@
         "kind": "additive_colour_revision",
         "opening_path": "coastal_station_collection/south/portable_colour_revision_02/VRLR/README.md",
         "backup_commit": "302e23bdcc08019a8040ec6b4c0e2598d7f12b7f",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "0807f75a2362e0ed8cb874cccb2ce8482d7ce9359a3ad4225ce50d09f2efdc0b",
         "gate_status": "accepted"
       }
@@ -1338,10 +1340,10 @@
       "name": "Nagercoil Town",
       "operational_status": "Listed current by SR2025; no subsequent closure found",
       "coastal_route_km": "271.67",
-      "build_status": "backed_up",
+      "build_status": "published",
       "qa_status": "Source/image/geometry and current portable-colour checks passed",
       "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-      "main_commit": null,
+      "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
       "station_path": "coastal_station_collection/south/njt",
       "preview_paths": [
         "coastal_station_collection/south/njt/renders/02_STATION_ARCHITECTURE.png",
@@ -1353,7 +1355,7 @@
         "kind": "first_export",
         "opening_path": "coastal_station_collection/south/njt/README.md",
         "backup_commit": "2bd430a7122415736be71003e4232990719cfe0c",
-        "main_commit": null,
+        "main_commit": "d9b1fbcbe2325b9ed1585dcc45b00a15baa2effe",
         "manifest_sha256": "153acb60ebe5030a68e870891e3706c49e5f980d3b0b5038baf2f40dcbf243f9",
         "gate_status": "accepted"
       }
