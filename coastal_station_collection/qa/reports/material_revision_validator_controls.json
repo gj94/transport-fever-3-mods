@@ -1,0 +1,45 @@
+{
+  "validator_sha256": "51b131ac7e34c1cd490065add62998354130c0aaf1c743b25fb54c1516f74db0",
+  "scope": "Synthetic unit fixtures for revision guard only; not station assets. Valid case preserves intended white, explicit translucent glass/alpha/transmission and textured material while restoring one missing green factor.",
+  "cases": [
+    {
+      "case": "valid",
+      "expected": "pass",
+      "observed": "pass",
+      "errors": []
+    },
+    {
+      "case": "wrong_colour",
+      "expected": "fail",
+      "observed": "fail",
+      "errors": [
+        "green: RGB does not match authored source palette."
+      ]
+    },
+    {
+      "case": "changed_alpha",
+      "expected": "fail",
+      "observed": "fail",
+      "errors": [
+        "glass: alpha factor changed.",
+        "glass: existing textured/explicit colour was modified."
+      ]
+    },
+    {
+      "case": "changed_transform",
+      "expected": "fail",
+      "observed": "fail",
+      "errors": [
+        "JSON outside baseColorFactor changed."
+      ]
+    },
+    {
+      "case": "changed_binary",
+      "expected": "fail",
+      "observed": "fail",
+      "errors": [
+        "Non-JSON chunks differ."
+      ]
+    }
+  ]
+}
