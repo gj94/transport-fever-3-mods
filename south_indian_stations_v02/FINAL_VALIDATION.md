@@ -1,0 +1,11 @@
+# Final package validation addendum
+
+8 October2026. The independent research review records its review-time state. The following later finishing and export checks close its pending package items without changing its historical/source uncertainty limits.
+
+- TVC authoritative scene SHA256: `e724b331bf99cfdc7cbd06ec7349e6314d4f551c25f80da530817437cb849261`. Final lounge/access/stair corrections and gallery are complete. [Exchange QA](tvc/EXCHANGE_QA.json) validates24embedded-resource GLBs. [Round-trip QA](tvc/EXCHANGE_REIMPORT_QA.json) reimports every module at common metre-scale identity placement. Assembled dimensions approximately1660×446.793×22.805m.
+- NCJ authoritative scene SHA256: `c5ac2ad5b1830b1d00c44fc752df6cef562e2a305c4e7e021b9a323991454b8d`. Final stair-canopy openings, plinths and toilet/platform inset corrections are included. [Final QA](ncj/QA_FINAL_SUMMARY.json), [export container QA](ncj/QA_EXPORT.json) and [export geometry QA](ncj/QA_EXPORT_GEOMETRY.json) pass their recorded checks. The complete exported GLB is inside the validated ZIP.
+- ERS authoritative scene SHA256: `976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e`. [Scene lineage](ers/scene_lineage.json) identifies fixture-only corrections relative to earlier accepted rail/architectural views. Full-flight checks and self-contained glTF export passed; [final manifest](ers/MANIFEST.json) records per-file/proof hashes.
+
+Publication independently verified archive CRC/decompression and every TVC module hash, the NCJ wholeGLB hash and the ERS wholeGLB hash. Binary transport parts reassemble the exact original bytes using the supplied SHA256 checks. Station logical manifests describe reconstructed originals; transport manifests describe repository parts. No geometry is removed for transport.
+
+These checks concern the delivered modelling files. They do not establish nativeTF3 runtime compatibility, railway operational safety, exhaustive clearances, exact historical dating or measured as-built accuracy. Original source limitations and mixed-date reconstruction disclosures remain applicable. Some accepted renders show unchanged scoped geometry from explicitly recorded earlier parent scenes.
