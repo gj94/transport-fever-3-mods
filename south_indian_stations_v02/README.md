@@ -10,7 +10,7 @@ Three editable metre-scale Blender scenes expand the earlier frontage studies in
 
 ## Open the models and portable exports
 
-Large files in this repository use exact-byte `.parts` folders. **They are not individually openable models.** [Reassembly instructions](REASSEMBLY.md) reconstruct and SHA256-verify each whole `.blend` or compressed export. Complete editable `.blend` files are also supplied as native Library attachments in the task conversation after validation. Every station includes procedural sources, source notices and validation records.
+Large files in this repository use exact-byte `.parts` folders. **They are not individually openable models.** [Reassembly instructions](REASSEMBLY.md) reconstruct and SHA256-verify each whole `.blend` or compressed export. Whole editable `.blend` files are saved in Library, but the chat attachment size limit prevented direct attachment. The repository parts reconstruct the same complete model files without loss. Every station includes procedural sources, source notices and validation records.
 
 Portable glTF exports are supplied for interchange. These scenes are **not native Transport Fever 3 station mods** and have not been tested in that game's runtime. Visual detail and large editable scenes are not a claim of game-ready optimization, signalling simulation or certified clearances.
 

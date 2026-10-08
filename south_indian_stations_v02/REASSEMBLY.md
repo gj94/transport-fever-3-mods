@@ -13,4 +13,4 @@ TVC exchange is supplied by `tvc/packages/TVC_v02_exchange_glb.zip.parts/`. Reas
 
 For TVC, the portable exchange is modular: preserve all included GLB modules and their manifest; original world coordinates allow them to assemble together. NCJ/ERS use their documented whole-scene exchange files. glTF is an interchange deliverable, not the fully editable procedural Blender source.
 
-The final main selection excludes older superseded whole-binary checkpoints from the WIP backup branch. Backup history remains available for recovery. Native whole-model Library attachments avoid the reassembly step for Blender scenes.
+The final main selection excludes older superseded whole-binary checkpoints from the WIP backup branch. Backup history remains available for recovery. Whole Blender models are saved in Library; direct chat attachment exceeded its upload limit. The parts route above preserves all model detail and exact bytes.
