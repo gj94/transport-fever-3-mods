@@ -16,6 +16,12 @@ Schematic coverage plan, not a Blender beauty render.46 mapped route segments ar
 
 [![TVC · full mapped yard coverage](tvc_labelled_yard.png)](tvc_labelled_yard.png)
 
+## NCJ · heritage facade and station
+
+Current corrected scene with historical facade appearance and mixed-date mapped yard. This is a visual reconstruction, not an as-built survey.
+
+[![NCJ · heritage facade and station](ncj_facade_station.png)](ncj_facade_station.png)
+
 ## NCJ · reconstructed ticket hall
 
 Detailed unchanged ticket-hall interior. Distant platform/OHE background predates the final engineering corrections; this is an earlier interior proof.
@@ -54,7 +60,7 @@ Accepted interim platform view. Source-scene SHA256 is in its review sidecar; fi
 
 ## ERS · physical turnout and frog
 
-Accepted rail-head/flangeway geometry. Ballast coplanarity/inward-strip-normal artifacts remain visible in this interim image; corrected source is awaiting bake. This is not a finished visual.
+Reviewed corrected rail-head, flangeway and ballast-bed geometry. This replaces the earlier frame with ballast artifacts. Generic mixed-date visual reconstruction; not engineering certification. Final package/export still pending.
 
 [![ERS · physical turnout and frog](ers_turnout_frog.png)](ers_turnout_frog.png)
 
@@ -66,6 +72,6 @@ Labelled schematic coverage plan, not a final Blender yard render. Current-map g
 
 ## Revisions and rights
 
-[TVC booking source hash](tvc_booking_hall_provenance.json) · [NCJ render revisions](ncj_render_provenance.json) · [ERS ticket hall](ers_ticket_hall_review.json) · [ERS platform](ers_platform_concourse_review.json) · [ERS turnout](ers_turnout_frog_review.json).
+[TVC booking source hash](tvc_booking_hall_provenance.json) · [NCJ render revisions](ncj_render_provenance.json) · [NCJ pointwork source lineage](ncj_proof_source_lineage.json) · [ERS ticket hall](ers_ticket_hall_review.json) · [ERS platform](ers_platform_concourse_review.json) · [ERS turnout](ers_turnout_frog_review.json) · [Corrected ERS proof lineage](ers_turnout_frog_proof.json).
 
 Yard plans use OpenStreetMap-derived data: © OpenStreetMap contributors, [copyright and ODbL information](https://www.openstreetmap.org/copyright). No new licence is granted for generated assets. Source notices remain applicable.

@@ -1,5 +1,5 @@
 {
-  "current_scene_sha256": "0bb4204c403cbc65498498bc585935709e53f13de517eec5786e148fa34d875c",
+  "current_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
   "current_geometry": "Globally corrected simple/compound pointwork, OHE, buried services and excavated path-following pits",
   "views": {
     "02_TICKET_HALL.png": {
@@ -18,9 +18,9 @@
       "file_sha256": "ae160634137ae5f9e90f725ed0336b3002cccc3116b209aeb3e10c066116913d"
     },
     "05_PLATFORM_DETAIL.png": {
-      "status": "Early low-sample study; not a final corrected-scene preview",
-      "samples": 12,
-      "file_sha256": "58497fd2cc48e30d79bf2f1493d7c6e045b6e975a760c9ac4d2e5077fe2d7dac"
+      "status": "Current corrected scene; review frame of populated platform. Kiosk working side is not the main face visible in this composition.",
+      "samples": 48,
+      "file_sha256": "8043519c493a603ca63d27a5db0cbf52951dfefb45a8539e3837bdd284bf9e5d"
     },
     "07_YARD_POINTS.png": {
       "status": "Early low-sample study; not a final corrected-scene preview",
@@ -46,6 +46,24 @@
       "status": "Current corrected scene, accepted physical pointwork proof",
       "samples": 48,
       "file_sha256": "9e3dcf1abb9d82283531aea5826959dfa22ab9f15ef5620172c5d349ed83ed1d"
+    },
+    "01_FACADE_AND_STATION.png": {
+      "status": "Final corrected geometry, current dedicated review viewpoint",
+      "samples": 48,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "2bfcee4d8da11e47788d0a7121e654edbbfd9742e38915e3a9a5ad64a6304c2d"
+    },
+    "10_FULL_YARD_TOP.png": {
+      "status": "Final corrected geometry, current dedicated review viewpoint",
+      "samples": 48,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "18039bc4245c546658cb3743de050ef47b6a5f80c78b8c3d52cd30068d5924ef"
+    },
+    "08_DEPOT_PITS.png": {
+      "status": "Final corrected geometry, current dedicated review viewpoint",
+      "samples": 48,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "33dd6715d671b0243cd1ba296b8d3300c543b574ed72ad298552dfa1a78c67c7"
     }
   }
 }

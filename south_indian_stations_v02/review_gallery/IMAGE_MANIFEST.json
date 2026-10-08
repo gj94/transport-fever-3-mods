@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-08T15:23:00Z",
+  "snapshot_utc": "2026-10-08T15:33:00Z",
   "status": "Selected reviewed WIP previews; not final station completion",
   "images": [
     {
@@ -17,6 +17,14 @@
       "sha256": "3164e9607276b2e9d3c4d764b49936c3cdfc5898d1c93c296ce0ccef91e75198",
       "status": "work in progress / accepted scope-specific preview",
       "caveat": "Schematic coverage plan, not a Blender beauty render.46 mapped route segments are not46 distinct tracks. Review labels are not railway operational numbers."
+    },
+    {
+      "title": "NCJ \u00b7 heritage facade and station",
+      "source_path": "south_indian_stations_v02/ncj/renders/01_FACADE_AND_STATION.png",
+      "gallery_file": "ncj_facade_station.png",
+      "sha256": "2bfcee4d8da11e47788d0a7121e654edbbfd9742e38915e3a9a5ad64a6304c2d",
+      "status": "Reviewed reconstruction preview; full package still WIP",
+      "caveat": "Current corrected scene with historical facade appearance and mixed-date mapped yard. This is a visual reconstruction, not an as-built survey."
     },
     {
       "title": "NCJ \u00b7 reconstructed ticket hall",
@@ -70,9 +78,9 @@
       "title": "ERS \u00b7 physical turnout and frog",
       "source_path": "south_indian_stations_v02/ers/renders/13_Turnout_frog_detail.png",
       "gallery_file": "ers_turnout_frog.png",
-      "sha256": "a5eb9c7e7732687fa0d6e2fdcb648f2104ffaa19fcafe5d8091a1a2c5a760bc4",
+      "sha256": "617b0c1143129b5a200820dd0e48d14ad0e2bd85ea76332b025f64337fab3fa2",
       "status": "work in progress / accepted scope-specific preview",
-      "caveat": "Accepted rail-head/flangeway geometry. Ballast coplanarity/inward-strip-normal artifacts remain visible in this interim image; corrected source is awaiting bake. This is not a finished visual."
+      "caveat": "Reviewed corrected rail-head, flangeway and ballast-bed geometry. This replaces the earlier frame with ballast artifacts. Generic mixed-date visual reconstruction; not engineering certification. Final package/export still pending."
     },
     {
       "title": "ERS \u00b7 full mapped yard coverage",

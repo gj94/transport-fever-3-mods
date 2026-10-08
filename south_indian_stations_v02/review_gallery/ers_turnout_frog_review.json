@@ -1,15 +1,16 @@
 {
   "image": "13_Turnout_frog_detail.png",
-  "image_sha256": "a5eb9c7e7732687fa0d6e2fdcb648f2104ffaa19fcafe5d8091a1a2c5a760bc4",
-  "status": "Accepted interim review image; not final deliverable validation",
+  "image_sha256": "617b0c1143129b5a200820dd0e48d14ad0e2bd85ea76332b025f64337fab3fa2",
+  "source_blend": "ERS_full_station_v02.blend",
+  "source_blend_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e",
   "samples": 64,
-  "render_engine": "Cycles CPU",
   "threads": 4,
+  "engine": "Cycles CPU",
   "denoising": false,
-  "source_blend_sha256": "0b171fa56dc6f91caf12a983c0f8bc4d2b901c46bcbbfb67aaf008d3f8027690",
-  "source_blend_file": "ERS_full_station_v02.blend",
+  "status": "Accepted corrected physical turnout and formation proof",
   "caveats": [
-    "Global rail-head/flange geometry accepted as generic reconstruction. Ballast coplanarity/inward-strip-normal artifacts remain in this interim image; correction source is ready but not baked into this proof.",
-    "Final packed-scene validation and export pending."
+    "Generic mixed-date visual reconstruction, not a surveyed or engineering-certified turnout.",
+    "The earlier ballast overlap/inward-normal defect is corrected in this exact frozen scene.",
+    "Remaining gallery refresh and GLB export are still in progress."
   ]
 }
