@@ -1,0 +1,46 @@
+{
+  "station_code": "MQO",
+  "blend": "MQO_coastal_station_v01.blend",
+  "generated_at_unix": 1791482882.0956287,
+  "source_adopted_sha256": "7b5abd178eb02c61d57fa5c23655e4830a1130d7f4d87d4ca087e274ce8ad20a",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 12,
+  "track_route_total_length_m": 3596.5072716592185,
+  "mapped_switch_nodes": 0,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 191,
+  "total_objects": 209,
+  "vertices": 433212,
+  "polygons": 315963,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.0,
+      "clearance_m": 1.9199999999999988
+    },
+    {
+      "label": "2",
+      "basis": "reconstructed side body along mapped outer road; width6m, rail-centre offset1.92m; extent is approximate",
+      "width_min_sample_m": 6.0000987960516365,
+      "clearance_m": 1.919999999999999
+    }
+  ],
+  "corrections": [],
+  "notes": "Modest island halt; no invented concourse. Ticket shelter and staff booth interiors are reconstructed, not observed. August2026 Google contributor photo shows a covered footbridge and short grey shelters; these are represented with long uncovered concrete platform ends."
+}
