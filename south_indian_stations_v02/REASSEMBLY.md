@@ -2,6 +2,12 @@
 
 The GitHub API cannot accept some large binaries in one call. Files above the transport threshold are stored as `filename.parts/part001.bin`, etc. No scene detail has been removed. Each folder has `manifest.json`, part checksums, the original complete-file SHA256, and `reassemble.py`.
 
+## One command for all three Blender models
+
+After downloading the complete repository tree, run `python3 south_indian_stations_v02/reassemble_all_models.py` from the repository root. The tested script verifies all parts and all three original SHA256 hashes. Add `--include-exports` to reconstruct the compressed export archives too.
+
+## Individual files
+
 1. Download the complete repository folder tree, not one isolated part.
 2. Run `python3 path/to/filename.parts/reassemble.py` (Python 3, standard library only).
 3. The script verifies every part and writes the whole original file beside the `.parts` folder. It refuses to overwrite different bytes; move an older local checkpoint aside first.
