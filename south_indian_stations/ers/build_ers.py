@@ -4,7 +4,7 @@ Not a surveyed yard: demo tracks/platform length and component placement are con
 """
 import bpy, math, random, json, sys
 from pathlib import Path
-from mathutils import Vector
+from mathutils import Vector, Matrix
 P=Path(__file__).resolve().parent;random.seed(2017)
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):
@@ -104,7 +104,13 @@ for i in range(N):
  a=2*i;b=2*(N+1);f.extend([(a,a+2,a+3,a+1),(b+a+1,b+a+3,b+a+2,b+a),(a,a+b,a+b+2,a+2)])
 mesh('White parabolic spandrel wall',v,f,white)
 # Cobalt curve remains visually separate from pale spandrel.
-pts=[(x,-6.28,z-.08) for x,z in zip(xs,zs)];tube('Blue curved entrance frame',pts,.24,blue)
+av=[]
+for yy in [-6.48,-6.04]:
+ for x,z in zip(xs,zs):av.extend([(x,yy,z-.35),(x,yy,z+.13)])
+af=[];n=len(xs)*2
+for i in range(len(xs)-1):
+ a=2*i;af.extend([(a,a+2,a+3,a+1),(n+a+1,n+a+3,n+a+2,n+a),(a,n+a,n+a+2,a+2),(a+1,a+3,n+a+3,n+a+1)])
+mesh('Flat blue arched portal fascia',av,af,blue)
 for s in [-1,1]:
  beam('Blue diagonal portal leg',(-5+s*8.7,-6.2,.35),(-5+s*5.8,-6.2,3.7),.52,blue,.8)
  cube('Portal outer side strip',(-5+s*9.2,-6.15,2),(.46,.8,3.5),blue)
@@ -143,20 +149,48 @@ sign('ATM panel',-24,-7.38,4.12,3.1,.8,'atm')
 cube('Right wing main floor',(22,1,.25),(34,13,.5),stone)
 cube('Right wing first floor',(22,1,3.65),(34,13,.32),white)
 cube('Right wing rear wall',(22,7.3,4.1),(34,.4,7.8),white)
-for x in [6,12,18,24,30,36,39]:
- cube('Right wing monumental fin',(x,-5.55,4.25),(.7,1.05,8.5),white,.035)
- cube('Blue vertical gallery fin',(x+.58,-5.92,4.35),(.21,.32,5.5),blue)
-# asymmetric mild undulating roofline from 2017 night image
-for x in [9,15,21,27,33,37.5]:
- width=5.35 if x<37 else 2.25
- profile=[(x-width/2+width*i/16,-5.55,7.15+.38*math.cos(math.pi*(i/16-.5))) for i in range(17)]
- for a,b in zip(profile,profile[1:]):beam('Undulating parapet segment',a,b,.52,white,.55)
- cube('Wing roof behind parapet',(x,1,7.12),(width,13,.2),white)
- for z in [4.45,5.35,6.25]:
-  cube('Recessed upper gallery glass',(x,-5.16,z),(width-.1,.08,.79),glass)
-  cube('Gallery horizontal mullion',(x,-5.24,z-.45),(width,.13,.08),steel)
- for xx in [x-width*.33,x,x+width*.33]:cube('Gallery vertical mullion',(xx,-5.28,5.35),(.085,.16,2.75),steel)
- cube('Ground floor recessed opening',(x,-3.9,1.85),(width-.4,.1,2.8),black)
+# Four near-entry arched gallery recesses, then two broad curved-header bays.
+# This asymmetry is visible in the cropped Shady59 2017 photograph.
+for x in [6,18,28.5,39]:
+ cube('Right wing major white pier',(x,-5.55,4.3),(.72,1.05,8.6),white,.035)
+for x in [6.5,9.3,12.1,14.9,17.6]:
+ cube('Near gallery blue vertical fin',(x,-5.94,5.5),(.24,.32,3.5),blue)
+
+def arch_spandrel(name,x,w,opening_low,opening_rise,outer_edge,outer_dip,y=-5.5):
+ n=32;v=[]
+ for yy in [y-.25,y+.25]:
+  for i in range(n+1):
+   t=i/n;xx=x-w/2+w*t;arch=math.sin(math.pi*t)
+   v.extend([(xx,yy,opening_low+opening_rise*arch),(xx,yy,outer_edge-outer_dip*arch)])
+ faces=[];off=2*(n+1)
+ for i in range(n):
+  q=2*i;faces.extend([(q,q+2,q+3,q+1),(off+q+1,off+q+3,off+q+2,off+q),(q,off+q,off+q+2,q+2),(q+1,q+3,off+q+3,off+q+1)])
+ return mesh(name,v,faces,white)
+
+# First gallery has small open arch crowns; glazing sits recessed behind the masonry.
+for x in [7.8,10.6,13.4,16.2]:
+ w=2.55
+ arch_spandrel('Small gallery arched masonry crown',x,w,6.55,.52,7.8,0)
+ cube('Small gallery recessed glazing',(x,-5.10,5.2),(w-.16,.07,3.45),glass)
+ cube('Small gallery pale sill',(x,-5.41,3.58),(w,.37,.16),white)
+ for xx in [x-.77,x+.77]:cube('Small gallery dark mullion',(xx,-5.23,5.05),(.055,.10,2.9),steel)
+ cube('Small gallery horizontal transom',(x,-5.24,5.1),(w-.13,.1,.055),steel)
+ cube('Small gallery ground doorway',(x,-3.9,1.8),(w-.35,.1,2.65),black)
+cube('Small gallery flat roof',(12,1,7.61),(12,13,.21),white)
+# Broad curved openings beneath a concave parapet, not rectangular blue wall panels.
+for x,w in [(23.25,9.7),(33.75,9.7)]:
+ arch_spandrel('Broad gallery curved spandrel',x,w,6.3,.53,8.15,.74)
+ cube('Broad gallery recessed glazing',(x,-5.13,5.0),(w-.18,.075,3.8),glass)
+ cube('Broad gallery sill',(x,-5.43,3.45),(w,.42,.22),white)
+ for i in range(8):
+  xx=x-w/2+.52+i*(w-1.04)/7
+  top=6.3+.53*math.sin(math.pi*(xx-x+w/2)/w)
+  cube('Broad gallery vertical dark mullion',(xx,-5.29,(top+3.55)/2),(.075,.14,top-3.55),steel)
+ for z in [4.3,5.15]:cube('Broad gallery horizontal transom',(x,-5.27,z),(w-.13,.13,.045),steel)
+ for xx in [x-2.5,x+2.5]:
+  cube('Broad gallery ground doorway',(xx,-3.9,1.78),(4.3,.1,2.6),black)
+ cube('Broad wing roof slab',(x,1,7.35),(w,13,.2),white)
+ cube('Broad wing blue ground fascia',(x,-5.59,3.1),(w,.36,.26),blue)
 # blue upright beside entrance; flush fascia
 cube('Tall cobalt entrance blade',(5.55,-6.14,5.2),(.8,1.1,10.4),blue,.04)
 # lattice screen genuine open repeating masonry slots
@@ -208,7 +242,7 @@ for yy in [12.28,20.72]:
  cube('Platform safety paint',(0,yy+(.5 if yy<16 else -.5),1.186),(L,.1,.015),yellow)
 for x in range(-47,49,3):cube('Platform slab transverse seam',(x,16.5,1.183),(.015,8.3,.009),black)
 # Low canopy with visible open web brackets and corrugated sheet.
-for x in range(-40,49,8):
+for x in [-40,-32,-28,-12,-8,0,8,16,24,32,40,48]:
  for yy in [14.5,18.5]:
   cube('Canopy concrete foot',(x,yy,1.36),(.6,.6,.38),stone)
   beam('Canopy steel column',(x,yy,1.5),(x,yy,4.7),.13,steel)
@@ -218,9 +252,11 @@ for x in range(-40,49,8):
  beam('Canopy roof rafter right',(x,16.5,5.25),(x,21.1,4.75),.11,steel)
  for i in range(6):
   yy=12+i*1.75;beam('Canopy open web diagonal',(x,yy,4.76),(x,yy+.75,5.25-abs(yy+.75-16.5)*.108),.046,steel)
-for yy in [12.2,14.4,16.5,18.6,20.8]:beam('Canopy longitudinal purlin',(-44,yy,5.25-abs(yy-16.5)*.108),(48,yy,5.25-abs(yy-16.5)*.108),.08,steel)
+for yy in [12.2,14.4,16.5,18.6,20.8]:
+ for a,b in [(-44,-27),(-11,48)]:beam('Canopy longitudinal purlin',(a,yy,5.25-abs(yy-16.5)*.108),(b,yy,5.25-abs(yy-16.5)*.108),.08,steel)
 for side in [-1,1]:
- o=corrugated('Platform corrugated roof '+str(side),2,16.5+side*2.35,5.02,92,4.78,roof);o.rotation_euler[0]=side*-.108
+ for a,b in [(-44,-27),(-11,48)]:
+  o=corrugated('Platform corrugated roof '+str(side),(a+b)/2,16.5+side*2.35,5.02,b-a,4.78,roof);o.rotation_euler[0]=side*-.108
 for yy in [11.84,21.16]:tube('Canopy rainwater gutter',[(-44,yy,4.71),(48,yy,4.71)],.09,steel)
 for x in [-35,-11,13,37]:
  tube('Platform rainwater downpipe',[(x,21,4.7),(x,20.1,4.6),(x,20.1,1.3)],.055,steel)
@@ -239,6 +275,7 @@ for x in [-30,-8,14,36]:
   beam('Bench cast iron foot',(xx,16.2,1.2),(xx,16.2,1.7),.09,black)
   beam('Bench back frame',(xx,16.8,1.2),(xx,16.8,2.4),.085,black)
 # green/yellow kiosk directly grounded in November 2017 platform photo.
+kiosk_existing=set(bpy.data.objects)
 x=2;y=16
 cube('Kiosk base',(x,y,1.33),(3.4,2.8,.3),stone)
 for xx in [x-1.6,x+1.6]:cube('Kiosk green side pier',(xx,y,2.63),(.24,2.6,2.3),green)
@@ -255,6 +292,11 @@ for zz in [1.65,2,2.33]:
 for j in range(10):
  cyl('Unbranded water bottle',(x-1.2+j*.25,y-.6,2.9),.075,.45,glass,12)
  cyl('Bottle cap',(x-1.2+j*.25,y-.6,3.15),.05,.035,blue,12)
+# The kiosk shopfront faces along the platform, as the 2017 photograph does.
+# Rotate the complete assembly (including artwork and merchandise) around its centre.
+rot=Matrix.Translation(Vector((2,16,0))) @ Matrix.Rotation(math.pi/2,4,'Z') @ Matrix.Translation(Vector((-2,-16,0)))
+bpy.context.view_layer.update()
+for ko in set(bpy.data.objects)-kiosk_existing:ko.matrix_world=rot @ ko.matrix_world
 for x in [-16,7,28]:
  cyl('Waste bin body',(x,18,1.62),.24,.85,red,24);cyl('Waste bin rim',(x,18,2.06),.27,.08,black,24)
 # coach-position sign is NOT platform number 13
@@ -307,12 +349,15 @@ for yy in [10,17,24,31,38]:
 for xx in [bx-1.65,bx+1.65]:
  for y in range(10,39,4):beam('Bridge vertical truss post',(xx,y,7.25),(xx,y,9.8),.12,steel)
  for y in range(10,38,4):
+  if xx>bx and y==14:continue # actual stair opening in east-side truss
   beam('Bridge X brace',(xx,y,7.32),(xx,y+4,9.72),.105,steel)
   beam('Bridge X brace',(xx,y,9.72),(xx,y+4,7.32),.105,steel)
- for z in [7.35,7.85,8.22,8.6,9.77]:beam('Bridge horizontal rail',(xx,10,z),(xx,38,z),.07 if z<9 else .14,steel)
+ for z in [7.35,7.85,8.22,8.6,9.77]:
+  segments=[(10,15.25),(17.75,38)] if xx>bx and z<9 else [(10,38)]
+  for a,b in segments:beam('Bridge horizontal rail',(xx,a,z),(xx,b,z),.07 if z<9 else .14,steel)
 corrugated('Footbridge corrugated roof',bx,24,9.98,4.35,29,roof)
 # covered straight stair connects platform to bridge, axis x, with risers and guards.
-sx=bx;ex=bx+12;yy=16.5;n=34
+sx=bx+1.75;ex=bx+13.75;yy=16.5;n=34
 for i in range(n):
  xx=sx+(ex-sx)*(i+.5)/n;zz=zdeck-(zdeck-1.18)*(i+1)/n
  cube('Footbridge stair tread',(xx,yy,zz),((ex-sx)/n+.015,2.3,.12),stone)
@@ -351,10 +396,10 @@ def camera(name,loc,target,lens=44,ortho=None):
  bpy.ops.object.camera_add(location=loc);o=move(bpy.context.object);o.name=name;o.rotation_euler=(Vector(target)-o.location).to_track_quat('-Z','Y').to_euler();o.data.lens=lens;o.data.clip_end=500
  if ortho:o.data.type='ORTHO';o.data.ortho_scale=ortho
  return o
-cams=[camera('01_Hero_west_frontage',(61,-72,30),(0,-1,3),48),camera('02_Front_elevation',(2,-85,7),(2,-2,4.6),50,81),camera('03_Platform_and_footbridge',(37,9,8),(-15,21,4),38),camera('04_Entrance_detail',(-20,-29,10),(-5,-5,4.2),47)]
+cams=[camera('01_Hero_west_frontage',(60,-96,18),(2,-1,3.7),52),camera('02_Front_elevation',(2,-85,7),(2,-2,4.6),50,81),camera('03_Platform_and_footbridge',(10,11.5,2.8),(-8,16,3.6),28),camera('04_Entrance_detail',(-20,-29,10),(-5,-5,4.2),47)]
 scene.camera=cams[0];scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False;scene.render.threads_mode='FIXED';scene.render.threads=4
 scene.render.resolution_x=1600;scene.render.resolution_y=1000;scene.render.resolution_percentage=100
-scene.view_settings.view_transform='AgX';scene.render.image_settings.file_format='PNG'
+scene.view_settings.view_transform='AgX';scene.view_settings.exposure=.65;scene.render.image_settings.file_format='PNG'
 scene['asset']='ERS Ernakulam Junction | coherent pre-redevelopment 2017 modular visual reconstruction'
 scene['survey_status']='Photo-inferred dimensions. Demo track placement, canopy length, rear/roof depth and interior are artistic completion, not a measured yard.'
 scene['references']='Shady59 2017-08-02 frontage; KannanVM 2017-11-19 platform / bridge, CC BY-SA 4.0; see SOURCES.md'
@@ -373,5 +418,6 @@ qa={'blender':bpy.app.version_string,'objects':len(scene.objects),'mesh_objects'
 print('ERS_SOURCE_CHECKPOINT_SAVED',flush=True)
 if '--render' in sys.argv:
  for cam in cams:
+  scene.render.resolution_y=400 if cam.name.startswith('02_') else 1000
   scene.camera=cam;scene.render.filepath=str(P/'renders'/(cam.name+'.png'));bpy.ops.render.render(write_still=True)
- scene.camera=cams[0];bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_2017_station.blend'))
+ scene.camera=cams[0];scene.render.resolution_y=1000;bpy.ops.wm.save_as_mainfile(filepath=str(P/'ERS_2017_station.blend'))

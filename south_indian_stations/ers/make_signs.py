@@ -15,7 +15,6 @@ def sign(name,size,bg,lines):
   d.text(((size[0]-(b[2]-b[0]))/2-b[0],y-b[1]),txt,font=f,fill=col)
  im.save(P/(name+'.png'))
 ml='NotoSansMalayalam-Bold.ttf';hi='NotoSansDevanagari-Bold.ttf';en='NotoSans-Bold.ttf'
-sign('entrance',(3072,256),'#ddb84d', [('എറണാകുളം ജം.',ml,48,980,112,'#202521'),('एर्नाकुलम जं.',hi,48,950,100,'#202521')])
 # Separate panels keep regional glyph shaping correct and English fully legible.
 for name,txt,font in [('ml','എറണാകുളം ജംഗ്ഷൻ',ml),('hi','एर्नाकुलम जंक्शन',hi),('en','ERNAKULAM JUNCTION',en)]:
  sign('entry_'+name,(2048,230),'#ddbf57',[(txt,font,54,1960,120,'#172023')])
