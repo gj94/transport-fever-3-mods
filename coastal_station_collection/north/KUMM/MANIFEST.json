@@ -1,0 +1,182 @@
+{
+  "station": "KUMM",
+  "status": "frozen_for_independent_audit",
+  "blend_sha256": "3e588d59941b1c1978a139f5ba18b89bf3eb481099a566d796419d70704a1adf",
+  "export_sha256": "5f666ed46748258763f1964eeac06ee8502257f61efa6ea4764762378fc360e2",
+  "render_source_blend_sha256": "3e588d59941b1c1978a139f5ba18b89bf3eb481099a566d796419d70704a1adf",
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/KUMM/BUILD_SOURCE.py",
+      "relative_station_path": "BUILD_SOURCE.py",
+      "sha256": "7b4b70542eb184f5f3348b7c8b87663f039fc2f95c8edbdf22575ade967c2553",
+      "size": 40467
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/KUMM_coastal_station_v01.blend",
+      "relative_station_path": "KUMM_coastal_station_v01.blend",
+      "sha256": "3e588d59941b1c1978a139f5ba18b89bf3eb481099a566d796419d70704a1adf",
+      "size": 12223624
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/QA_BUILD.json",
+      "relative_station_path": "QA_BUILD.json",
+      "sha256": "59a8e5e8102317ce6a9efa3fab3aa86821252c078373a01fc90b927716072f6b",
+      "size": 3182
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/QA_EXPORT.json",
+      "relative_station_path": "QA_EXPORT.json",
+      "sha256": "de060882dbec5e6bfddfb445005dd9bdb2f5bd3511414dc28b79d98981a683ad",
+      "size": 526
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/README.md",
+      "relative_station_path": "README.md",
+      "sha256": "3a4cffada817c96e646e47cfae21838725c48cce142818487b5bb9905efa7df5",
+      "size": 595
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/RENDER_SOURCE.py",
+      "relative_station_path": "RENDER_SOURCE.py",
+      "sha256": "a932c965996220f91bb98138b1c14762dd3469c5b79bae6056a25efb4955e3b1",
+      "size": 1679
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/SOURCES_AND_UNCERTAINTIES.md",
+      "relative_station_path": "SOURCES_AND_UNCERTAINTIES.md",
+      "sha256": "a09686a8baa43354a628bc149c88f1f2fa27a387a6175f336bb509586457660d",
+      "size": 5027
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/VISUAL_QA.md",
+      "relative_station_path": "VISUAL_QA.md",
+      "sha256": "17b606f64cf7269dbfbe481811d735fa6adede4f38895e00b360e5096b13d80e",
+      "size": 865
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/exports/KUMM_coastal_station_v01.glb",
+      "relative_station_path": "exports/KUMM_coastal_station_v01.glb",
+      "sha256": "5f666ed46748258763f1964eeac06ee8502257f61efa6ea4764762378fc360e2",
+      "size": 51674544
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/exports/KUMM_coastal_station_v01.validation.json",
+      "relative_station_path": "exports/KUMM_coastal_station_v01.validation.json",
+      "sha256": "eaab952a36506d26431691ab0877652837c6866ae425a6025cb2a2873fd96076",
+      "size": 530
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/references/architecture_evidence.json",
+      "relative_station_path": "references/architecture_evidence.json",
+      "sha256": "f05f30dc8a6561edfcc9681accebe8a4f58d65b934d2a01f608fa22888a1fed6",
+      "size": 1238
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/references/plan.json",
+      "relative_station_path": "references/plan.json",
+      "sha256": "228833792e06fcc2b45fe636532f1fd6377037e0fcb734b18a0a67bac3a18030",
+      "size": 62432
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/references/plan.png",
+      "relative_station_path": "references/plan.png",
+      "sha256": "3425f3dfc7163ef93c7bc1d33e030a0ba2964978a963ae7f43fab882ffb79577",
+      "size": 24568
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/references/rail_meshes.json",
+      "relative_station_path": "references/rail_meshes.json",
+      "sha256": "d7aadf3bbed90678bc7cba9136f01f3e2c950b3950025a010591a636241830ef",
+      "size": 111306
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/references/station_record.json",
+      "relative_station_path": "references/station_record.json",
+      "sha256": "12cbdf710166a46a427f2a9783dbd91e97609bb649309f794760134c47af62c6",
+      "size": 6531
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "b5db1bcc868e9fa9f6a568f590d577aefb36b31f2be9a03653a776322e67bb5e",
+      "size": 400
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "3076b2b36f2562aa376ef11cca9d512eedfb533b611c1dd5803c86a59dea631e",
+      "size": 1597318
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "85c5f123aaec7f40125edf59bada2d316eef8315189a43e5a6a0e8febe1c69a0",
+      "size": 412
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "5b8ebbe50bac535543d4eaaeaf32c77e009481e5e90d270c5a40589b014ea365",
+      "size": 1419569
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "e476a52bdfc2e3734a525fcb002f0214f539c7fec6d40e5b78dd4457b2eb42e9",
+      "size": 408
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "0a71cb5ecfb79c859f0ac50c3e975a1842cd111c4ad9284a5aa8f070664331bf",
+      "size": 1328729
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "91e464a8547d9c1c56b2bca1bc1827120f9bfeb56d06d1c7ffa420c908adfffc",
+      "size": 414
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "ddaa81dd82cb57940c77f23790de2a1167335ceaa747dfa09375c71e5d80f266",
+      "size": 1299873
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/05_Mapped_turnout_detail.json",
+      "relative_station_path": "renders/05_Mapped_turnout_detail.json",
+      "sha256": "b93045bd68653c8e3aa27484b1c91112dbba1150c55ffd421cee1e575e7b8e56",
+      "size": 412
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/renders/05_Mapped_turnout_detail.png",
+      "relative_station_path": "renders/05_Mapped_turnout_detail.png",
+      "sha256": "a20927b5fde0339b3ae14be10f97cb60c065fbd2a238676aa1d0586a408dab33",
+      "size": 1785211
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/textures/board.png",
+      "relative_station_path": "textures/board.png",
+      "sha256": "64dc8fc0797a8fc382533a09f42df098684cd61e66032a36a68363874503bc4f",
+      "size": 44539
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/textures/fascia.png",
+      "relative_station_path": "textures/fascia.png",
+      "sha256": "cbafe55b0852e187cf234ff8f4059c8b6f8adc8d4c46fad82d061293d9aef60e",
+      "size": 33579
+    },
+    {
+      "path": "coastal_stations_overnight/north/KUMM/textures/notice.png",
+      "relative_station_path": "textures/notice.png",
+      "sha256": "190e6e87f379dc0395e99662d1d08477a24eb0277ae548bbc2e0bbdc94e3a282",
+      "size": 37327
+    }
+  ],
+  "file_count": 28,
+  "total_bytes": 71705305,
+  "photo_redistribution": "No downloaded Google Maps/Mappls/other source photography included. Original station sign art and generated render images only.",
+  "source_data_attribution": "\u00a9 OpenStreetMap contributors, ODbL1.0; IRI references linked",
+  "cautions": "Read SOURCES_AND_UNCERTAINTIES.md. Hidden interiors and some dimensions/placement are reconstructed; current yard inventory not certified."
+}
