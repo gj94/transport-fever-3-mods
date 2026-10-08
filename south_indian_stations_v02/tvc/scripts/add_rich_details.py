@@ -55,11 +55,13 @@ for i,(nd,neighbours) in enumerate(adj.items()):
  if len(neighbours)<3:continue
  x,y=nodepos[nd]
  if abs(x)>700:continue
- box('Point identification plate',(x+1.6,y+2.5,.72),(.65,.05,.32),yellow)
- txt('Reconstructed point asset marker','P%02d'%(i%100),(x+1.6,y+2.46,.65),.14,dark)
- box('Junction cable box',(x-1.5,y+2.4,.31),(.45,.50,.60),steel)
+ mx,my=safe_service_xy(x+1.6,y+2.5,2.25);cx,cy=safe_service_xy(x-1.5,y+2.4,2.25)
+ box('Point identification plate',(mx,my,.72),(.65,.05,.32),yellow)
+ txt('Reconstructed point asset marker','P%02d'%(i%100),(mx,my-.04,.65),.14,dark)
+ box('Junction cable box',(cx,cy,.31),(.45,.50,.60),steel)
  for k in range(3):rod('Cable ground run',(x-1.5+k*.06,y+2.4,.03),(x-.4+k*.06,y+1,.03),.015,dark,6)
 for x,y in [(-360,110),(-420,85),(302,128),(450,90)]:
+ x,y=safe_service_xy(x,y,3.0)
  box('Trackside telecom cabinet',(x,y,1.10),(1.2,.55,1.9),steel);box('Telecom door seam',(x,y-.285,1.12),(.013,.014,1.72),dark)
  for z in (.65,.8,.95,1.1):box('Telecom vent',(x,y-.288,z),(.8,.016,.025),dark)
  for k in range(9):box('Stacked replacement sleeper',(x+3,y, k*.19),(.26,2.7,.18),concrete)
@@ -87,7 +89,7 @@ for x in range(-50,56,7):
  box('Auto rank end markings',(x,-26.5,.052),(5.9,.10,.015),yellow)
 for x in (-62,64):sign('AUTO / TAXI',(x,-22,2.8),3,.75,size=.28)
 for o in list(bpy.data.collections['00_TEMP_AUTOS'].objects):
- current.objects.link(o);bpy.data.collections['00_TEMP_AUTOS'].objects.unlink(o);o.location.y-=15;o.location.x*=1.9
+ current.objects.link(o);bpy.data.collections['00_TEMP_AUTOS'].objects.unlink(o);o.location.y-=15;cx=min((-13,-8,10,15,21),key=lambda q:abs(o.location.x-q));o.location.x+=cx*.9
 bpy.data.collections.remove(bpy.data.collections['00_TEMP_AUTOS'])
 # Dense tropical foliage clusters with individual low-poly lobes; no image billboards.
 leafmats=[material('Tropical foliage variation %d'%i,(.045+i*.015,.12+i*.035,.027+i*.007),noise=7) for i in range(4)]
@@ -99,7 +101,7 @@ def lobe(p,s,ma):
  for i in range(10):f.extend([(0,2+i,2+(i+1)%10),(1,2+(i+1)%10,2+i)])
  add('Broadleaf tree crown clusters',v,f,ma)
 for x,y in [(-143,-19),(-86,-20),(84,-19),(149,-18),(-235,215),(245,131),(317,140),(475,128)]:
- h=random.uniform(5,8);rod('Shade tree trunk',(x,y,0),(x,y,h),.24,wood,12)
+ x,y=safe_service_xy(x,y,5.0);h=random.uniform(5,8);rod('Shade tree trunk',(x,y,0),(x,y,h),.24,wood,12)
  for k in range(22):
   a=random.random()*math.tau;r=random.uniform(.1,3.2);p=(x+math.cos(a)*r,y+math.sin(a)*r,h+random.uniform(-.4,1.6));rod('Shade tree branch',(x,y,h-1),p,.05,wood);lobe(p,(random.uniform(.9,1.7),random.uniform(.8,1.5),random.uniform(.6,1.0)),random.choice(leafmats))
  for sg in(-1,1):box('Planter brick edging',(x+sg*2.3,y,.25),(.18,4.6,.5),red);box('Planter brick edging',(x,y+sg*2.3,.25),(4.6,.18,.5),red)
@@ -114,7 +116,7 @@ def bowl(n,x,y,profile,stretch=1):
  for r,z in profile:
   for k in range(N):
    a=k*math.tau/N;vs.append((x+r*math.cos(a),y+r*math.sin(a)*stretch,z))
- fs=[(i*N+k,i*N+(k+1)%N,((i+1)%len(profile))*N+(k+1)%N,((i+1)%len(profile))*N+k) for i in range(len(profile)) for k in range(N)];o=mesh(n,vs,fs,ceramic)
+ fs=[(i*N+k,i*N+(k+1)%N,((i+1)%len(profile))*N+(k+1)%N,((i+1)%len(profile))*N+k) for i in range(len(profile)) for k in range(N)];signed=sum(profile[i][0]*profile[(i+1)%len(profile)][1]-profile[(i+1)%len(profile)][0]*profile[i][1] for i in range(len(profile)));o=mesh(n,vs,fs if signed>0 else [tuple(reversed(f)) for f in fs],ceramic)
  for f in o.data.polygons:f.use_smooth=True
 for x in(-73,-70,-67):
  bowl('Concave ceramic washbasin',x,2.25,[(.10,1.772),(.18,1.81),(.245,1.925),(.28,1.945),(.29,1.93),(.245,1.81),(.15,1.762),(.10,1.762)],.78)

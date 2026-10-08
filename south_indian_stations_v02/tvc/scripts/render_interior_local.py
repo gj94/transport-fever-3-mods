@@ -15,7 +15,7 @@ for c in bpy.data.collections:
   c.hide_render=True;hidden.append(c.name)
 # Far platform slabs/roof trusses remain nearby lighting context. All internal walls stay.
 S.render.engine='BLENDER_EEVEE_NEXT';S.render.threads_mode='FIXED';S.render.threads=4
-S.eevee.taa_render_samples=64
+if hasattr(S.eevee,'taa_render_samples'):S.eevee.taa_render_samples=64
 S.render.resolution_x=1200;S.render.resolution_y=800;S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG';S.view_settings.exposure=.35
 S.render.filepath=str(R/'renders'/f'{name}_local_eevee.png')
 print('LOCAL_VIEW_RENDER',name,'excluded',hidden,flush=True)

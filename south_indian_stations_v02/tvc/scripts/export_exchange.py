@@ -7,7 +7,7 @@ R=Path(__file__).resolve().parents[1];O=R/'exchange';O.mkdir(exist_ok=True)
 S=bpy.context.scene
 for c in bpy.data.collections:c.hide_render=False;c.hide_viewport=False
 for o in S.objects:o.hide_set(False)
-groups=[('01_heritage',['01_','02_']),('02_interiors',['03_','04_','05_','06_','18_','80_']),('03_platform_bodies',['12_']),('04_shelters_and_furniture',['13_']),('05_bridges',['14_']),('06_signals_ohe',['15_']),('07_yard_utilities',['11_','11B','16_','16B','20_']),('08_running_rails',['10B']),('09_surrounds',['17_']),('10_signage',['19_']),('11_paving_and_forecourt',['21_'])]
+groups=[('01_heritage',['01_','02_']),('02_interiors',['03_','04_','05_','06_','18_','80_']),('03_platform_bodies',['12_']),('04_shelters_and_furniture',['13_']),('05_bridges',['14_']),('06_signals_ohe',['15_']),('07_yard_utilities',['11_','11B','16_','16B','20_']),('08_running_rails',['10B']),('09_surrounds',['17_']),('10_signage',['19_']),('11_paving_and_forecourt',['21_']),('12_fixture_refinements',['22_']),('13_platform_service_detail',['23_'])]
 items=[]
 for name,prefixes in groups:
  objs=set(o for c in bpy.data.collections if any(c.name.startswith(p) for p in prefixes) for o in c.objects if o.type in ('MESH','FONT','CURVE'))

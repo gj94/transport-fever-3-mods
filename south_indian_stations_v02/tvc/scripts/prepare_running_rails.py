@@ -74,7 +74,14 @@ def meshdata(g,z0,z1):
   for ring in [p.exterior,*p.interiors]:
    xy=list(ring.coords)
    for (a,b),(c,d) in zip(xy,xy[1:]):f.append([idx(a,b,z0),idx(c,d,z0),idx(c,d,z1),idx(a,b,z1)])
- return {'vertices':v,'faces':f,'polygon_parts':len(polygons(g))}
+ filtered=[]
+ for face in f:
+  if len(set(face))<3:continue
+  a=v[face[0]];area=0
+  for j in range(1,len(face)-1):
+   b=v[face[j]];c=v[face[j+1]];u=[b[k]-a[k] for k in range(3)];w=[c[k]-a[k] for k in range(3)];cross=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]];area+=sum(q*q for q in cross)
+  if area>1e-20:filtered.append(face)
+ return {'vertices':v,'faces':filtered,'polygon_parts':len(polygons(g))}
 frogs=[]
 for i,(wid,sg,a) in enumerate(offsets):
  for wid2,sg2,b in offsets[i+1:]:

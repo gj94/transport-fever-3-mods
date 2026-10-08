@@ -19,6 +19,6 @@ for wi,wid in enumerate(['641863870','641863872','641863874','641863876','641863
   n=Vector((-math.sin(a),math.cos(a)));p=Vector((x,y))+n*2.2
   if not clear(p):continue
   rod('Map-following water riser',(*p,.25),(*p,.88),.034,steel);rod('Service water tap',(*p,.81),(p.x+.2,p.y,.81),.022,steel);box('Service tap handle',(p.x+.2,p.y,.84),(.14,.05,.04),red)
-  if i%3==0:
+  if i%3==0 and clear(p,2.4):
    rod('Service pathway lamp',(*p,.1),(*p,3.2),.045,steel);box('Service pathway lamp hood',(*p,3.2),(.55,.22,.13),lit)
 flush()

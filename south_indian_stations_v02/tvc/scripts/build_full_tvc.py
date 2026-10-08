@@ -33,7 +33,7 @@ def mesh(n,v,f,m):
 def material(n,c,rough=.7,metal=0,noise=0):
  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal
  if noise:
-  nd=m.node_tree.nodes;ln=m.node_tree.links;t=nd.new('ShaderNodeTexNoise');t.inputs['Scale'].default_value=noise;t.inputs['Detail'].default_value=3;cr=nd.new('ShaderNodeValToRGB');cr.color_ramp.elements[0].color=(*(v*.65 for v in c),1);cr.color_ramp.elements[1].color=(*(min(v*1.12,1) for v in c),1);ln.new(t.outputs['Fac'],cr.inputs[0]);ln.new(cr.outputs[0],p.inputs['Base Color']);b=nd.new('ShaderNodeBump');b.inputs['Strength'].default_value=.3;b.inputs['Distance'].default_value=.025;ln.new(t.outputs['Fac'],b.inputs['Height']);ln.new(b.outputs[0],p.inputs['Normal'])
+  nd=m.node_tree.nodes;ln=m.node_tree.links;t=nd.new('ShaderNodeTexNoise');tc=nd.new('ShaderNodeTexCoord');ln.new(tc.outputs['Object'],t.inputs['Vector']);t.inputs['Scale'].default_value=noise;t.inputs['Detail'].default_value=3;cr=nd.new('ShaderNodeValToRGB');cr.color_ramp.elements[0].color=(*(v*.65 for v in c),1);cr.color_ramp.elements[1].color=(*(min(v*1.12,1) for v in c),1);ln.new(t.outputs['Fac'],cr.inputs[0]);ln.new(cr.outputs[0],p.inputs['Base Color']);b=nd.new('ShaderNodeBump');b.inputs['Strength'].default_value=.3;b.inputs['Distance'].default_value=.001 if 'leather' in n.lower() else (.002 if metal or 'terrazzo' in n.lower() else .007);ln.new(t.outputs['Fac'],b.inputs['Height']);ln.new(b.outputs[0],p.inputs['Normal'])
  return m
 def emit(n,c,power):
  m=material(n,c);p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Emission Color'].default_value=(*c,1);p.inputs['Emission Strength'].default_value=power;return m
@@ -41,7 +41,7 @@ cream=bpy.data.materials['Weathered ivory limework'];dark=bpy.data.materials['Ir
 plaster=material('Warm ochre lime plaster',(.64,.54,.34),noise=7);red=material('Oxide red skirting',(.32,.055,.033),noise=9);teal=material('Aged institutional teal',(.10,.26,.24),noise=12);wood=material('Varnished teak grain',(.25,.105,.035),noise=25)
 steel=material('Galvanised metal patina',(.38,.43,.43),.36,.7,16);rail=material('Polished rail head',(.48,.49,.46),.23,.87);rust=material('Oxidised rail webs',(.24,.085,.035),.68,.4,20);ballast=material('Crushed grey granite aggregate',(.29,.27,.22),noise=85);concrete=material('Stained concrete sleepers',(.48,.47,.40),noise=28)
 ballast_stones=[material('Ballast stone shade %d'%i,(.16+i*.045,.155+i*.042,.14+i*.035),noise=40) for i in range(4)]
-nd=ballast.node_tree.nodes;ln=ballast.node_tree.links;voro=nd.new('ShaderNodeTexVoronoi');voro.feature='DISTANCE_TO_EDGE';voro.inputs['Scale'].default_value=28;bump=nd.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.75;bump.inputs['Distance'].default_value=.045;ln.new(voro.outputs['Distance'],bump.inputs['Height']);ln.new(bump.outputs['Normal'],nd.get('Principled BSDF').inputs['Normal'])
+nd=ballast.node_tree.nodes;ln=ballast.node_tree.links;voro=nd.new('ShaderNodeTexVoronoi');voro.feature='DISTANCE_TO_EDGE';voro.inputs['Scale'].default_value=28;tc=nd.new('ShaderNodeTexCoord');ln.new(tc.outputs['Object'],voro.inputs['Vector']);bump=nd.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.75;bump.inputs['Distance'].default_value=.045;ln.new(voro.outputs['Distance'],bump.inputs['Height']);ln.new(bump.outputs['Normal'],nd.get('Principled BSDF').inputs['Normal'])
 roof=material('Weathered blue-grey sheet',(.13,.24,.29),.56,.3,15);roofalt=material('Roof repaired sheet',(.26,.32,.33),.55,.3,14);tile=material('Warm cream terrazzo',(.60,.56,.45),noise=70);tile2=material('Terrazzo shade variation',(.48,.44,.34),noise=70);tactile=material('Oxide tactile tiles',(.48,.22,.12),noise=35);yellow=material('Faded railway yellow',(.88,.53,.03),noise=14);glass=material('Smoky window glass',(.10,.22,.24),.18,.2);green=material('Tropical leaves',(.055,.19,.035),noise=8);soil=material('Earth and verge',(.24,.23,.13),noise=18);asphalt=material('Road asphalt',(.095,.11,.12),noise=60);paper=material('Aged paper',(.78,.74,.59),noise=25);lit=emit('Warm fluorescent diffuser',(.86,.91,.80),3);led=emit('Red LED coach display',(.9,.012,.004),2)
 # Batch all repeated primitives by material. Every semantic collection remains editable mesh parts.
 def add(n,v,f,m):
@@ -249,6 +249,13 @@ def railclear(p,clearance=1.95):
   v=b-a;t=max(0,min(1,(p-a).dot(v)/max(v.length_squared,1e-12)))
   if (p-a-v*t).length<clearance:return False
  return True
+def safe_service_xy(x,y,clearance=2.25):
+ if railclear((x,y),clearance):return x,y
+ for i in range(1,81):
+  off=i*.5
+  for q in((x,y-off),(x,y+off),(x-off,y),(x+off,y)):
+   if railclear(q,clearance):return q
+ raise RuntimeError('No rail-clear service placement found')
 switchzones=[]
 for nd,neighbours in adj.items():
  if len(neighbours)<3:continue
@@ -271,6 +278,27 @@ for gi in range(-1333,1334):
   else:intervals.append([lo,hi])
  if intervals:woodgrid[gi]=intervals;woodrails[gi]=unique
 def switchbearer(x,y):return any(lo+.4<y<hi-.4 for lo,hi in woodgrid.get(round(x/.6),[]))
+# Spatially filter real ballast stones against every sleeper/bearer and running
+# rail/flangeway footprint, including neighboring routes at points and crossings.
+scatter_obstacles={}
+def scatter_block(x,y,a,hx,hy):
+ cs=math.cos(a);sn=math.sin(a);hx+=.035;hy+=.035;ex=abs(cs)*hx+abs(sn)*hy;ey=abs(sn)*hx+abs(cs)*hy;item=(x,y,cs,sn,hx,hy)
+ for ix in range(math.floor(x-ex),math.floor(x+ex)+1):
+  for iy in range(math.floor(y-ey),math.floor(y+ey)+1):scatter_obstacles.setdefault((ix,iy),[]).append(item)
+def scatter_clear(x,y):
+ for cx,cy,cs,sn,hx,hy in scatter_obstacles.get((math.floor(x),math.floor(y)),[]):
+  dx=x-cx;dy=y-cy
+  if abs(dx*cs+dy*sn)<=hx and abs(-dx*sn+dy*cs)<=hy:return False
+ return True
+for gi,intervals in woodgrid.items():
+ for lo,hi in intervals:scatter_block(gi*.6,(lo+hi)/2,0,.145,(hi-lo)/2)
+for ww in rails:
+ pp=clippts(ww['xy'])
+ if len(pp)<2:continue
+ for xx,yy,aa in samples(pp,.60):
+  if not switchbearer(xx,yy):scatter_block(xx,yy,aa,.12,1.375)
+ for xx,yy,aa in samples(pp,.70):
+  for ss in(-1,1):scatter_block(xx-math.sin(aa)*ss*.872,yy+math.cos(aa)*ss*.872,aa,.50,.16)
 col('10_TRACK_NETWORK_MAPPED_PROFILES')
 route_lengths={};route_paths={}
 for wi,w in enumerate(rails):
@@ -290,8 +318,10 @@ for wi,w in enumerate(rails):
     box('Rail clip and shoulder',(xxx,yyy,.032),(.13,.055,.046),rust,a)
  for x,y,a in samples(pts,4):
   for k in range(80):
-   off=random.uniform(-1.73,1.73);t=random.uniform(-2,2);xx=x-math.sin(a)*off+t*math.cos(a);yy=y+math.cos(a)*off+t*math.sin(a);rx=random.uniform(.035,.075);ry=random.uniform(.025,.060);ang=random.random()*math.tau;cs=math.cos(ang);sn=math.sin(ang)
-   vv=[(xx,yy,random.uniform(-.02,.035)),(xx,yy,-.105)]+[(xx+dx*cs-dy*sn,yy+dx*sn+dy*cs,-.055) for dx,dy in [(rx,0),(0,ry),(-rx,0),(0,-ry)]]
+   off=random.uniform(-1.73,1.73);t=random.uniform(-2,2);xx=x-math.sin(a)*off+t*math.cos(a);yy=y+math.cos(a)*off+t*math.sin(a)
+   if not scatter_clear(xx,yy):continue
+   rx=random.uniform(.015,.030);ry=random.uniform(.015,.030);ang=random.random()*math.tau;cs=math.cos(ang);sn=math.sin(ang)
+   vv=[(xx,yy,random.uniform(-.055,-.025)),(xx,yy,-.09)]+[(xx+dx*cs-dy*sn,yy+dx*sn+dy*cs,-.065) for dx,dy in [(rx,0),(0,ry),(-rx,0),(0,-ry)]]
    ff=[(0,2+i,2+(i+1)%4) for i in range(4)]+[(1,2+(i+1)%4,2+i) for i in range(4)];add('Individual angular ballast stones',vv,ff,ballast_stones[k%4])
  flush()
 # Physically identifiable switch components at each mapped junction.
@@ -330,7 +360,9 @@ exec(compile((R/'scripts/load_running_rails.py').read_text(),str(R/'scripts/load
 # Modelled tracks remain geographic paths. Detailed component placements reconstructed.
 col('12_MAPPED_PLATFORMS_AND_EDGES')
 for w in platforms:
- pts=w['xy'][:-1];n=len(pts);vs=[(x,y,z) for z in (-.24,.85) for x,y in pts];fs=[tuple(reversed(range(n))),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];o=mesh('Mapped platform '+w['tags'].get('ref','1'),vs,fs,tile);o['osm_way']=w['id'];o['xy_status']='OSM mapped outline; vertical reconstruction'
+ pts=w['xy'][:-1]
+ if sum(pts[i][0]*pts[(i+1)%len(pts)][1]-pts[(i+1)%len(pts)][0]*pts[i][1] for i in range(len(pts)))<0:pts=list(reversed(pts))
+ n=len(pts);vs=[(x,y,z) for z in (-.24,.85) for x,y in pts];fs=[tuple(reversed(range(n))),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];o=mesh('Mapped platform '+w['tags'].get('ref','1'),vs,fs,tile);o['osm_way']=w['id'];o['xy_status']='OSM mapped outline; vertical reconstruction'
  for a,b in zip(pts,pts[1:]+pts[:1]):
   length=math.dist(a,b)
   if w['id']=='921797273' and (a[1]+b[1])/2<19:continue
@@ -366,7 +398,9 @@ def canopy(lo,hi,y,w,label):
   for aa,bb in intervals:
    aa=max(aa,lo-1);bb=min(bb,hi+1)
    if bb<=aa:continue
-   v=[(aa,y,5.98),(bb,y,5.98),(bb,y+sg*(w/2+.25),5.19),(aa,y+sg*(w/2+.25),5.19)];add('Shelter roof planes',v,[(0,1,2,3)],roof)
+   v=[(aa,y,5.98),(bb,y,5.98),(bb,y+sg*(w/2+.25),5.19),(aa,y+sg*(w/2+.25),5.19)]
+   if sg<0:v.reverse()
+   add('Shelter roof planes',v,[(0,1,2,3)],roof)
   for xx in [lo+i*.4 for i in range(int((hi-lo)/.4)) if not (-119<lo+i*.4<-90 or 163<lo+i*.4<193)]:rod('Corrugated sheet ribs',(xx,y,5.99),(xx,y+sg*(w/2+.25),5.20),.018,roof,6)
   rod('Shelter gutter',(lo,y+sg*(w/2+.25),5.17),(hi,y+sg*(w/2+.25),5.17),.07,steel)
   for k in range(4):
@@ -425,12 +459,12 @@ for bx in (-105,178):
    rod('Stair handrail',(low[0],y+sg*1.2,1.9),(high[0],y+sg*1.2,8.54),.036,steel)
    for k in range(12):
     t=k/11;x=low[0]*(1-t)+high[0]*t;z=.85+t*6.64;rod('Stair baluster',(x,y+sg*1.2,z),(x,y+sg*1.2,z+1.05),.023,steel)
-  box('FOB landing',(bx+direction*2.5,y,7.39),(2,2.5,.2),concrete)
+  box('FOB landing',(bx+direction*2.05,y,7.39),(.55,2.5,.2),concrete)
  for y in (18.6,40.4,60):
   for dx in (-1.55,1.55):box('Footbridge support pier',(bx+dx,y,3.6),(.35,.4,7.2),steel)
 # Platform-end service ramp, gentle slope with integral kerb.
 for x,y,direction in [(-271,18,1),(-266,39,1),(-226,55,1)]:
- add('Platform end service ramp',[(x-8,y-1,-.05),(x-8,y+1,-.05),(x,y+1,.85),(x,y-1,.85)],[(0,1,2,3)],concrete)
+ add('Platform end service ramp',[(x-8,y-1,-.05),(x-8,y+1,-.05),(x,y+1,.85),(x,y-1,.85)],[(3,2,1,0)],concrete)
 col('15_OHE_PORTALS_SIGNALS_AND_CABLES_RECONSTRUCTED')
 for x in range(-790,791,45):
  ys=[]
@@ -463,6 +497,7 @@ for w in rails:
   rod('Contact copper wire',(*a,5.8),(*b,5.8),.011,rust,6);rod('Messenger wire',(*a,6.55),(*b,6.55),.014,dark,6)
  for x,y,a in samples(pts,9):rod('Catenary dropper',(x,y,5.8),(x,y,6.55),.009,dark,6)
 for x,y,sg in [(-325,28,1),(-310,46,1),(-295,68,1),(340,29,-1),(353,49,-1),(365,70,-1),(-450,36,1),(475,36,-1)]:
+ x,y=safe_service_xy(x,y,2.4)
  rod('Colour light signal post',(x,y,.1),(x,y,4.8),.09,steel);box('Signal black head',(x,y,4.6),(.40,.28,1.35),dark)
  for i,m in enumerate((red,yellow,green)):
   rod('Signal lens',(x,y-.15,4.16+i*.43),(x,y-.22,4.16+i*.43),.115,m,16);box('Signal hood',(x,y-.25,4.32+i*.43),(.32,.36,.055),dark)
@@ -514,6 +549,7 @@ for x in range(-540,561,3):
  box('Railway boundary wall',(x,y,1.1),(2.97,.25,2.2),plaster);box('Boundary wall coping',(x,y,2.24),(3.02,.33,.12),concrete)
 # Palm crowns are individual fronds in geometry.
 def palm(x,y,h):
+ x,y=safe_service_xy(x,y,5.0)
  rod('Coconut palm trunk',(x,y,0),(x+.6,y,h),.18,wood,10)
  for k in range(12):
   a=k*math.tau/12;ex=x+.6+math.cos(a)*3.1;ey=y+math.sin(a)*3.1;ez=h-.7
@@ -531,6 +567,7 @@ for w in ways:
  cx=sum(q[0] for q in p)/len(p);cy=sum(q[1] for q in p)/len(p)
  if abs(cx)>620 or cy<-110 or cy>270 or (-300<cx<320 and -30<cy<220):continue
  if p[0]==p[-1]:p=p[:-1]
+ if sum(p[i][0]*p[(i+1)%len(p)][1]-p[(i+1)%len(p)][0]*p[i][1] for i in range(len(p)))<0:p=list(reversed(p))
  n=len(p);h=min(float(t.get('building:levels','2'))*3.1,22) if t.get('building:levels','2').replace('.','').isdigit() else 6.2
  vs=[(x,y,z) for z in (-.1,h) for x,y in p];fs=[tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];mesh('Mapped urban mass '+w['id'],vs,fs,plaster if int(w['id'])%2 else white)
  for a,b in zip(p,p[1:]+p[:1]):
@@ -541,6 +578,12 @@ for w in ways:
    for z in range(2,int(h),3):box('Context building windows',(xx+nx*.05,yy+ny*.05,z),(1.0,.10,1.2),glass,angle)
 # Save build before optional expensive rendering or exchange operations.
 exec(compile((R/'scripts/add_rich_details.py').read_text(),str(R/'scripts/add_rich_details.py'),'exec'))
+col('09_EDITABLE_MAPPED_ROUTE_GUIDES')
+current.hide_render=True;current.hide_viewport=True
+for wid,pts in route_paths.items():
+ cu=bpy.data.curves.new('Mapped centreline '+wid,'CURVE');cu.dimensions='3D';sp=cu.splines.new('POLY');sp.points.add(len(pts)-1)
+ for pt,xy in zip(sp.points,pts):pt.co=(xy[0],xy[1],.18,1)
+ ob=bpy.data.objects.new('SOURCE ROUTE '+wid,cu);current.objects.link(ob);ob['osm_way']=wid;ob['source_geometry']='Editable mapped centreline; rerun rail preprocessing after XY edits in source/mapped_geometry.json'
 col('90_REVIEW_CAMERAS_AND_LIGHTS')
 world=bpy.data.worlds.new('Kerala soft daylight');S.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.57,.69,.8,1);world.node_tree.nodes['Background'].inputs[1].default_value=.55
 sun=bpy.data.lights.new('Late morning sun','SUN');sun.energy=2.2;sun.angle=.16;o=bpy.data.objects.new('Late morning sun',sun);current.objects.link(o);o.rotation_euler=(.4,-.5,-.45)
@@ -563,7 +606,7 @@ camera('10_Turnout_detail',(tx-11,ty-10,8),(tx,ty,.1),43)
 camera('15_Frog_closeup',(tx-3,ty-3,2.8),(tx,ty,.1),52)
 camera('11_Maintenance_yard',(-105,230,50),(90,160,1),44)
 camera('12_Full_yard_top',(0,75,1050),(0,75,0),45,1680)
-camera('17_Platform_amenities_service_side',(-162,14.4,2.55),(-156,18.3,2.35),28)
+camera('17_Platform_amenities_service_side',(-157,12.4,2.55),(-157,18.8,2.30),20)
 camera('16_Furnished_building_roof_off',(80,-150,165),(20,3,0),40)
 camera('13_Footbridge_detail',(-78,86,17),(-105,42,7),43)
 S.camera=bpy.data.objects['02_Heritage_forecourt'];S.render.engine='CYCLES';S.cycles.samples=24;S.cycles.use_denoising=False;S.render.threads_mode='FIXED';S.render.threads=4;S.render.resolution_x=1440;S.render.resolution_y=900;S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG';S.view_settings.view_transform='AgX'
@@ -577,6 +620,14 @@ for o in list(S.objects):
  if o.type=='MESH' and any(s in o.name.lower() for s in (' ceiling','room ceiling','wing roof')):
   for c in list(o.users_collection):c.objects.unlink(o)
   roofcol.objects.link(o)
+# Start with a usable full-campus viewport rather than the old36m study framing.
+for screen in bpy.data.screens:
+ for ar in screen.areas:
+  if ar.type=='VIEW_3D':
+   sp=ar.spaces.active;sp.clip_end=5000;sp.shading.color_type='MATERIAL'
+   if sp.region_3d:
+    sp.region_3d.view_location=(0,60,0);sp.region_3d.view_distance=800;sp.region_3d.view_rotation=bpy.data.objects['01_Overall_full_station'].rotation_euler.to_quaternion()
+exec(compile((R/'scripts/audit_stair_clearance.py').read_text(),str(R/'scripts/audit_stair_clearance.py'),'exec'))
 for f in bpy.data.fonts:
  if f.filepath and f.filepath!='<builtin>':
   path=Path('/usr/share/fonts/truetype/dejavu')/Path(f.filepath).name

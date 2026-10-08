@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/bin/blender",
+    "-b",
+    "-t",
+    "4",
+    "--python",
+    "south_indian_stations_v02/tvc/scripts/build_full_tvc.py"
+  ],
+  "exit_code": 0,
+  "peak_sampled_rss_kib": 1096092,
+  "peak_os_rss_kib": 1095616,
+  "minimum_system_available_kib": 5020100
+}
