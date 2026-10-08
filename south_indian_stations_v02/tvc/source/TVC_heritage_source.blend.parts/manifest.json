@@ -1,0 +1,24 @@
+{
+  "filename": "TVC_heritage_source.blend",
+  "size": 38471408,
+  "sha256": "c1ad0415e61ddec33a55588a70a78e52916ad8fbfffd7173a77f5c4872870ff4",
+  "git_blob_sha": "1aa0536ce31d8db5b7ec335596f9c20ddf3148f8",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "8195afb521f469c8c7592593044453186aec9f48ab1141af99c20699323a4da8"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "4be5f41a4b1113c6468752d4b311ce9763abc2b9235a669ced65328a4642e0f0"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 4916976,
+      "sha256": "8428ebf0a4d1f025be702d7580d7bc60f756ca1ed0d0e20e99ba36079a3a0517"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
+}
