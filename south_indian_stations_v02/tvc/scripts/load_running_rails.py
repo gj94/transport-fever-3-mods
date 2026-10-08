@@ -1,6 +1,6 @@
 col('10B_UNIONED_RUNNING_RAILS_WITH_FLANGEWAYS')
 railmesh=json.loads((R/'source/running_rails_mesh.json').read_text())
-for part,ma in [('foot',rust),('web',rust),('head',rail),('blade',rail)]:
+for part,ma in [('ballast',ballast),('foot',rust),('web',rust),('head',rail),('blade',rail)]:
  g=railmesh[part];o=mesh('Connected running rail '+part+' with genuine flangeways',g['vertices'],g['faces'],ma);o['construction']='Planar union of profile footprints, flange-channel subtraction; constrained triangulation';o['gauge_m']=1.676;o['flangeway_m']=.045
 # Check rails next to actual crossing noses, aligned to their parent routes.
 col('11B_CROSSING_CHECKRAILS_AND_FROG_FASTENINGS')

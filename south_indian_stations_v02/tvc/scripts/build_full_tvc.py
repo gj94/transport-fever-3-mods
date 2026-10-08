@@ -40,6 +40,8 @@ def emit(n,c,power):
 cream=bpy.data.materials['Weathered ivory limework'];dark=bpy.data.materials['Iron and rubber'];stone=bpy.data.materials['Granite variation 03'];white=material('Chalky off-white limewash',(.71,.73,.68),noise=4)
 plaster=material('Warm ochre lime plaster',(.64,.54,.34),noise=7);red=material('Oxide red skirting',(.32,.055,.033),noise=9);teal=material('Aged institutional teal',(.10,.26,.24),noise=12);wood=material('Varnished teak grain',(.25,.105,.035),noise=25)
 steel=material('Galvanised metal patina',(.38,.43,.43),.36,.7,16);rail=material('Polished rail head',(.48,.49,.46),.23,.87);rust=material('Oxidised rail webs',(.24,.085,.035),.68,.4,20);ballast=material('Crushed grey granite aggregate',(.29,.27,.22),noise=85);concrete=material('Stained concrete sleepers',(.48,.47,.40),noise=28)
+ballast_stones=[material('Ballast stone shade %d'%i,(.16+i*.045,.155+i*.042,.14+i*.035),noise=40) for i in range(4)]
+nd=ballast.node_tree.nodes;ln=ballast.node_tree.links;voro=nd.new('ShaderNodeTexVoronoi');voro.feature='DISTANCE_TO_EDGE';voro.inputs['Scale'].default_value=28;bump=nd.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.75;bump.inputs['Distance'].default_value=.045;ln.new(voro.outputs['Distance'],bump.inputs['Height']);ln.new(bump.outputs['Normal'],nd.get('Principled BSDF').inputs['Normal'])
 roof=material('Weathered blue-grey sheet',(.13,.24,.29),.56,.3,15);roofalt=material('Roof repaired sheet',(.26,.32,.33),.55,.3,14);tile=material('Warm cream terrazzo',(.60,.56,.45),noise=70);tile2=material('Terrazzo shade variation',(.48,.44,.34),noise=70);tactile=material('Oxide tactile tiles',(.48,.22,.12),noise=35);yellow=material('Faded railway yellow',(.88,.53,.03),noise=14);glass=material('Smoky window glass',(.10,.22,.24),.18,.2);green=material('Tropical leaves',(.055,.19,.035),noise=8);soil=material('Earth and verge',(.24,.23,.13),noise=18);asphalt=material('Road asphalt',(.095,.11,.12),noise=60);paper=material('Aged paper',(.78,.74,.59),noise=25);lit=emit('Warm fluorescent diffuser',(.86,.91,.80),3);led=emit('Red LED coach display',(.9,.012,.004),2)
 # Batch all repeated primitives by material. Every semantic collection remains editable mesh parts.
 def add(n,v,f,m):
@@ -90,11 +92,12 @@ def desk(x,y):
  box('Chair cushion',(x,y-.9,1.26),(.62,.58,.09),teal);box('Chair back',(x,y-1.14,1.63),(.62,.09,.55),teal)
  for k in range(3):box('Paper forms',(x+.55,y-.07,1.715+k*.012),(.35,.25,.012),paper,.06*k)
 def doorwall(n,x,y,w,h=4.2,opening=1.5):
+ dh=min(2.8,h-.15)
  for sg in (-1,1):box(n+' wall pier',(x+sg*(opening/2+(w-opening)/4),y,.85+h/2),((w-opening)/2,.23,h),plaster)
- box(n+' door lintel',(x,y,.85+(2.8+h)/2),(opening,.23,h-2.8),plaster)
- for sg in (-1,1):box(n+' door jamb',(x+sg*(opening/2+.035),y-.14,2.20),(.10,.12,2.7),wood)
- box(n+' door head',(x,y-.14,3.58),(opening+.2,.12,.12),wood)
- box(n+' door leaf open',(x-opening/2+.06,y+.58,2.18),(.065,1.18,2.66),teal)
+ box(n+' door lintel',(x,y,.85+(dh+h)/2),(opening,.23,h-dh),plaster)
+ for sg in (-1,1):box(n+' door jamb',(x+sg*(opening/2+.035),y-.14,.85+dh/2),(.10,.12,dh),wood)
+ box(n+' door head',(x,y-.14,.85+dh),(opening+.2,.12,.12),wood)
+ box(n+' door leaf open',(x-opening/2+.06,y+.58,.85+(dh-.1)/2),(.065,1.18,dh-.1),teal)
  rod(n+' lever handle',(x-opening/2-.025,y+1.04,2.10),(x-opening/2-.16,y+1.04,2.10),.015,steel)
 def room(n,cx,cy,w,d):
  box(n+' floor',(cx,cy,.73),(w,d,.24),tile);box(n+' ceiling',(cx,cy,5.17),(w,d,.16),white)
@@ -250,9 +253,24 @@ switchzones=[]
 for nd,neighbours in adj.items():
  if len(neighbours)<3:continue
  p=Vector(nodepos[nd]);vv=[(Vector(nodepos[n])-p).normalized() for n in neighbours];_,ii,jj=max((vv[i].dot(vv[j]),i,j) for i in range(len(vv)) for j in range(i+1,len(vv)));d=(vv[ii]+vv[jj]).normalized();switchzones.append((p,d,Vector((-d.y,d.x))))
-def switchbearer(x,y):
- p=Vector((x,y))
- return any(-3<(p-q).dot(d)<26 and abs((p-q).dot(n))<1.7 for q,d,n in switchzones)
+# One shared timber grid per crossing corridor prevents double bearer arrays.
+woodgrid={};woodrails={}
+for gi in range(-1333,1334):
+ x=gi*.6;points=[]
+ for aa,bb in allsegments:
+  if min(aa.x,bb.x)<=x<=max(aa.x,bb.x) and abs(bb.x-aa.x)>.001:
+   y=aa.y+(bb.y-aa.y)*(x-aa.x)/(bb.x-aa.x);p=Vector((x,y))
+   if any(-4<(p-q).dot(d)<34 and abs((p-q).dot(n))<3.35 for q,d,n in switchzones):points.append((y,math.atan2(bb.y-aa.y,bb.x-aa.x)))
+ points.sort();unique=[]
+ for y,a in points:
+  if not unique or abs(y-unique[-1][0])>.03:unique.append((y,a))
+ intervals=[]
+ for y,a in unique:
+  lo=y-1.45;hi=y+1.45
+  if intervals and lo<=intervals[-1][1]+.08:intervals[-1][1]=max(hi,intervals[-1][1])
+  else:intervals.append([lo,hi])
+ if intervals:woodgrid[gi]=intervals;woodrails[gi]=unique
+def switchbearer(x,y):return any(lo+.4<y<hi-.4 for lo,hi in woodgrid.get(round(x/.6),[]))
 col('10_TRACK_NETWORK_MAPPED_PROFILES')
 route_lengths={};route_paths={}
 for wi,w in enumerate(rails):
@@ -260,9 +278,9 @@ for wi,w in enumerate(rails):
  if len(pts)<2:continue
  active_route=w['id']
  tag=w['tags'];label=tag.get('service',tag.get('usage','rail'));wid=w['id'];route_paths[wid]=pts;route_lengths[wid]=sum(math.dist(a,b) for a,b in zip(pts,pts[1:]))
- pathmesh('Route '+wid+' '+label+' ballast',pts,[(-1.9,-.30),(-1.4,-.08),(1.4,-.08),(1.9,-.30)],ballast)
  for x,y,a in samples(pts,.60):
-  if not switchbearer(x,y):box('Precast PSC sleepers',(x,y,-.09),(.24,2.75,.16),concrete,a)
+  if switchbearer(x,y):continue
+  box('Precast PSC sleepers',(x,y,-.09),(.24,2.75,.16),concrete,a)
   nx=-math.sin(a);ny=math.cos(a)
   for sg in (-1,1):
    xx=x+nx*sg*.872;yy=y+ny*sg*.872
@@ -270,11 +288,11 @@ for wi,w in enumerate(rails):
    for sd in (-1,1):
     xxx=xx+nx*sd*.115;yyy=yy+ny*sd*.115
     box('Rail clip and shoulder',(xxx,yyy,.032),(.13,.055,.046),rust,a)
- for x,y,a in samples(pts,6):
-  # Scattered stones add actual aggregate silhouettes, not just shader noise.
-  for k in range(14):
-   off=random.uniform(-1.78,1.78);xx=x-math.sin(a)*off+random.uniform(-2.5,2.5)*math.cos(a);yy=y+math.cos(a)*off+random.uniform(-2.5,2.5)*math.sin(a)
-   box('Individual ballast stones',(xx,yy,-.035),(random.uniform(.06,.15),random.uniform(.05,.12),random.uniform(.04,.09)),ballast,random.random()*6.28)
+ for x,y,a in samples(pts,4):
+  for k in range(80):
+   off=random.uniform(-1.73,1.73);t=random.uniform(-2,2);xx=x-math.sin(a)*off+t*math.cos(a);yy=y+math.cos(a)*off+t*math.sin(a);rx=random.uniform(.035,.075);ry=random.uniform(.025,.060);ang=random.random()*math.tau;cs=math.cos(ang);sn=math.sin(ang)
+   vv=[(xx,yy,random.uniform(-.02,.035)),(xx,yy,-.105)]+[(xx+dx*cs-dy*sn,yy+dx*sn+dy*cs,-.055) for dx,dy in [(rx,0),(0,ry),(-rx,0),(0,-ry)]]
+   ff=[(0,2+i,2+(i+1)%4) for i in range(4)]+[(1,2+(i+1)%4,2+i) for i in range(4)];add('Individual angular ballast stones',vv,ff,ballast_stones[k%4])
  flush()
 # Physically identifiable switch components at each mapped junction.
 col('11_TURNOUTS_CHECKRAILS_DRIVES_AND_BUFFERS')
@@ -288,9 +306,6 @@ for nd,neighbours in adj.items():
    p=nodepos[nb];d=Vector((p[0]-x,p[1]-y));d.normalize();vectors.append(d)
   # Pair of closest outgoing directions is main vs divergent branch.
   pairs=[(vectors[i].dot(vectors[j]),i,j) for i in range(len(vectors)) for j in range(i+1,len(vectors))];_,i,j=max(pairs);d=(vectors[i]+vectors[j]).normalized();a=math.atan2(d.y,d.x);n=Vector((-d.y,d.x));turnouts.append(nd)
-  # Timber turnout bearer lengths span the diverging route envelope.
-  for k in range(-5,44):
-   p=Vector((x,y))+d*k*.60;box('Turnout extended bearer',(*p,-.10),(.24,3+max(k,0)*.08,.17),wood,a)
   p=Vector((x,y))+n*2.25+d*2
   candidates=[Vector((x,y))+n*sg*off+d*along for off in (2.5,3.5,4.5,5.5) for sg in (-1,1) for along in (2,5,9)]
   p=next((q for q in candidates if railclear(q,1.95)),p)
@@ -303,6 +318,14 @@ for nd,neighbours in adj.items():
   for sg in (-1,1):rod('Buffer stop diagonal',(x-dx*1.4+nx*sg*.8,y-dy*1.4+ny*sg*.8,.12),(x+nx*sg*.8,y+ny*sg*.8,1.15),.09,rust)
   box('Red buffer beam',(x,y,1.05),(.25,2.6,.35),red,a)
   for sg in (-1,1):box('Buffer white marker',(x+nx*sg*.65+dx*.15,y+ny*sg*.65+dy*.15,1.05),(.025,.35,.23),white,a)
+for gi,intervals in woodgrid.items():
+ x=gi*.6
+ for lo,hi in intervals:box('Single aligned turnout timber bearers',(x,(lo+hi)/2,-.10),(.29,hi-lo,.17),wood)
+ for y,a in woodrails[gi]:
+  for sg in(-1,1):
+   yy=y+sg*.872/max(abs(math.cos(a)),.7);box('Turnout elastic rail pad',(x,yy,.005),(.23,.18,.025),dark,a)
+   for sd in(-1,1):
+    box('Turnout rail clips',(x,yy+sd*.115,.032),(.13,.055,.046),rust,a);rod('Turnout clip bolts',(x,yy+sd*.115,.051),(x,yy+sd*.115,.075),.023,steel,6)
 exec(compile((R/'scripts/load_running_rails.py').read_text(),str(R/'scripts/load_running_rails.py'),'exec'))
 # Modelled tracks remain geographic paths. Detailed component placements reconstructed.
 col('12_MAPPED_PLATFORMS_AND_EDGES')
@@ -446,10 +469,16 @@ for x,y,sg in [(-325,28,1),(-310,46,1),(-295,68,1),(340,29,-1),(353,49,-1),(365,
  for z in [k*.28 for k in range(16)]:rod('Signal ladder rung',(x-.19,y+.25,z),(x+.19,y+.25,z),.018,steel)
  for xx in (x-.19,x+.19):rod('Signal ladder rail',(xx,y+.25,.1),(xx,y+.25,4.6),.018,steel)
  box('Signal cabinet',(x+1,y,1.0),(.6,.5,1.5),steel)
-for y in (8,72,121):
- for x in range(-570,571,2):
-  box('Covered cable trough',(x,y,-.01),(1.96,.38,.28),concrete);box('Cable trough lid',(x,y,.15),(1.94,.45,.05),cream)
- for x in range(-570,571,15):box('Cable junction marker',(x,y,.37),(.25,.25,.40),yellow)
+for x in range(-760,761,2):
+ ys=[]
+ for aa,bb in allsegments:
+  if min(aa.x,bb.x)<=x<=max(aa.x,bb.x) and abs(bb.x-aa.x)>.001:ys.append(aa.y+(bb.y-aa.y)*(x-aa.x)/(bb.x-aa.x))
+ if not ys:continue
+ for y0,sg in [(min(ys)-3.3,-1),(max(ys)+3.3,1)]:
+  y=y0
+  while not all(railclear((x+dx,y),2.0) for dx in(-1.05,0,1.05)):y+=sg*.4
+  box('Rail-clear perimeter cable trough',(x,y,-.15),(1.94,.38,.25),concrete);box('Cable trough lid',(x,y,-.007),(1.93,.43,.04),cream)
+  if x%30==0:box('Cable junction marker',(x,y,.25),(.20,.20,.50),yellow)
 # Open drains, sumps and visible water pipes alongside platforms and maintenance roads.
 col('16_DRAINAGE_WATERING_AND_COACHING_INFRASTRUCTURE')
 for y in (26,46.6,66.7,114,138):
@@ -534,6 +563,7 @@ camera('10_Turnout_detail',(tx-11,ty-10,8),(tx,ty,.1),43)
 camera('15_Frog_closeup',(tx-3,ty-3,2.8),(tx,ty,.1),52)
 camera('11_Maintenance_yard',(-105,230,50),(90,160,1),44)
 camera('12_Full_yard_top',(0,75,1050),(0,75,0),45,1680)
+camera('17_Platform_amenities_service_side',(-162,14.4,2.55),(-156,18.3,2.35),28)
 camera('16_Furnished_building_roof_off',(80,-150,165),(20,3,0),40)
 camera('13_Footbridge_detail',(-78,86,17),(-105,42,7),43)
 S.camera=bpy.data.objects['02_Heritage_forecourt'];S.render.engine='CYCLES';S.cycles.samples=24;S.cycles.use_denoising=False;S.render.threads_mode='FIXED';S.render.threads=4;S.render.resolution_x=1440;S.render.resolution_y=900;S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG';S.view_settings.view_transform='AgX'

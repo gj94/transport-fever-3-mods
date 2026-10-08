@@ -105,3 +105,47 @@ for x,y in [(-143,-19),(-86,-20),(84,-19),(149,-18),(-235,215),(245,131),(317,14
  for sg in(-1,1):box('Planter brick edging',(x+sg*2.3,y,.25),(.18,4.6,.5),red);box('Planter brick edging',(x,y+sg*2.3,.25),(4.6,.18,.5),red)
  box('Raised planting bed',(x,y,.10),(4.5,4.5,.2),soil)
 flush()
+col('22_SANITARY_FIXTURE_SHAPING_AND_BRIDGE_END_GUARDS')
+for ob in list(bpy.data.objects):
+ if ob.name.startswith(('Washbasin bowl','Toilet bowl')):bpy.data.objects.remove(ob,do_unlink=True)
+ceramic=material('Glazed porcelain',(.76,.78,.74),.22);water=material('Basin drain shadow',(.07,.11,.10),.16)
+def bowl(n,x,y,profile,stretch=1):
+ vs=[];N=32
+ for r,z in profile:
+  for k in range(N):
+   a=k*math.tau/N;vs.append((x+r*math.cos(a),y+r*math.sin(a)*stretch,z))
+ fs=[(i*N+k,i*N+(k+1)%N,((i+1)%len(profile))*N+(k+1)%N,((i+1)%len(profile))*N+k) for i in range(len(profile)) for k in range(N)];o=mesh(n,vs,fs,ceramic)
+ for f in o.data.polygons:f.use_smooth=True
+for x in(-73,-70,-67):
+ bowl('Concave ceramic washbasin',x,2.25,[(.10,1.772),(.18,1.81),(.245,1.925),(.28,1.945),(.29,1.93),(.245,1.81),(.15,1.762),(.10,1.762)],.78)
+ rod('Washbasin drain hole',(x,2.25,1.77),(x,2.25,1.779),.045,steel,16)
+for x in(-73,-70,-67,-64):
+ bowl('Open oval WC bowl',x,8.62,[(.10,1.14),(.155,1.20),(.20,1.34),(.24,1.36),(.25,1.32),(.20,1.19),(.14,1.11),(.10,1.11)],1.30)
+ bowl('Toilet seat ring',x,8.62,[(.19,1.36),(.235,1.36),(.24,1.40),(.19,1.40)],1.30)
+ rod('WC water visible',(x,8.62,1.139),(x,8.62,1.148),.11,water,20)
+for bx in(-105,178):
+ for y in(12,74):
+  for z in(7.85,8.50):rod('Footbridge end guard rail',(bx-2.1,y,z),(bx+2.1,y,z),.033,steel)
+  for k in range(15):rod('Footbridge end guard baluster',(bx-2+k*.285,y,7.50),(bx-2+k*.285,y,8.50),.019,steel)
+flush()
+col('23_PLATFORM_SERVICE_SIDE_STOCK_AND_AMENITIES')
+# Added useful presentation viewpoint shows this actual open side, not the kiosk rear.
+for x,y in [(-155,18.8),(55,40.3),(-45,60),(140,18.8)]:
+ for i in range(8):
+  xx=x-1.6+i*.24;box('Packaged snack cartons',(xx,y+.2,2.19),(.18,.19,.33),yellow if i%2 else red);box('Snack pack label',(xx,y+.095,2.19),(.12,.014,.16),paper)
+ rod('Refreshment tea urn',(x+1.25,y-.75,1.89),(x+1.25,y-.75,2.40),.19,steel,20);rod('Tea urn lid',(x+1.25,y-.75,2.40),(x+1.25,y-.75,2.44),.21,steel,20);rod('Urn tap',(x+1.25,y-.92,2.05),(x+1.25,y-1.10,2.05),.023,steel)
+ for k in range(4):
+  rod('Counter cups',(x+.15+k*.18,y-.8,1.91),(x+.15+k*.18,y-.8,2.05),.055,white,12)
+ box('Kiosk price list backing',(x+1.78,y-.99,2.58),(.35,.05,.55),paper);txt('Kiosk menu','TEA\nCOFFEE\nWATER',(x+1.78,y-1.025,2.73),.08,dark)
+ area('Kiosk service task lighting',(x,y-.5,3.27),(x,y-.5,1.7),70,1.8)
+# Water cooler and paired refuse bins near the photographed-side review kiosk.
+x=-161;y=18.6
+box('Amenities cooler plinth',(x,y,.98),(1.5,1.0,.26),concrete);box('Amenities steel water cooler',(x,y,1.59),(1.35,.85,1.05),steel);box('Cooler drip tray',(x,y-.50,1.37),(1.35,.27,.10),steel)
+for dx in(-.35,.35):rod('Cooler tap',(x+dx,y-.46,1.69),(x+dx,y-.63,1.69),.025,steel);box('Cooler tap lever',(x+dx,y-.58,1.79),(.04,.13,.04),dark)
+sign('DRINKING WATER',(x,y,2.85),2.8,.55,size=.20)
+for k in range(8):box('Cooler condenser grille',(x+.50,y-.442,1.35+k*.065),(.25,.018,.024),dark)
+for dx,ma in[(2.1,teal),(2.75,roof)]:
+ box('Amenities segregation bin',(x+dx,y-1.6,1.30),(.52,.49,.9),ma);box('Amenities bin lid',(x+dx,y-1.6,1.78),(.57,.54,.085),dark)
+ sign('WET' if dx==2.1 else 'DRY',(x+dx,y-1.856,1.45),.34,.22,size=.105)
+area('Canopy amenities ceiling light',(-157,15.8,4.85),(-157,18.2,1.5),350,3.0)
+flush()

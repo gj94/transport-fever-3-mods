@@ -7,12 +7,14 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[1];sys.path.insert(0,str(R/'.builddeps'))
 from shapely.geometry import LineString,Point,Polygon,box
 from shapely.ops import unary_union,triangulate,substring
+from shapely.geometry.polygon import orient
 from shapely import make_valid,constrained_delaunay_triangles
 D=json.loads((R/'source/mapped_geometry.json').read_text());ways=[w for w in D['ways'] if w['tags'].get('railway')=='rail'];clip=box(-820,-300,820,350)
-heads=[];webs=[];feet=[];flanges=[];offsets=[]
+heads=[];webs=[];feet=[];flanges=[];offsets=[];ballast_shapes=[]
 for w in ways:
  p=LineString(w['xy']).intersection(clip)
  if p.is_empty:continue
+ ballast_shapes.append(p.buffer(1.8,cap_style=2,join_style=2))
  for sg in (-1,1):
   run=p.offset_curve(sg*.872,join_style=2);flange=p.offset_curve(sg*.8155,join_style=2)
   heads.append(run.buffer(.034,cap_style=2,join_style=2));webs.append(run.buffer(.012,cap_style=2,join_style=2));feet.append(run.buffer(.075,cap_style=2,join_style=2));flanges.append(flange.buffer(.0225,cap_style=2,join_style=2));offsets.append((w['id'],sg,run))
@@ -60,10 +62,15 @@ def meshdata(g,z0,z1):
   if k not in index:index[k]=len(v);v.append(k)
   return index[k]
  for p in polygons(g):
+  p=orient(p,sign=1.0)
   if p.area<1e-7:continue
   for t in constrained_delaunay_triangles(p).geoms:
    if not p.covers(t.representative_point()):continue
-   xyz=list(t.exterior.coords)[:-1];f.append([idx(x,y,z1) for x,y in xyz]);f.append([idx(x,y,z0) for x,y in reversed(xyz)])
+   xyz=list(t.exterior.coords)[:-1]
+   signed=sum(xyz[i][0]*xyz[(i+1)%3][1]-xyz[(i+1)%3][0]*xyz[i][1] for i in range(3))
+   if signed<0:xyz.reverse()
+   if abs(signed)<1e-10:continue
+   f.append([idx(x,y,z1) for x,y in xyz]);f.append([idx(x,y,z0) for x,y in reversed(xyz)])
   for ring in [p.exterior,*p.interiors]:
    xy=list(ring.coords)
    for (a,b),(c,d) in zip(xy,xy[1:]):f.append([idx(a,b,z0),idx(c,d,z0),idx(c,d,z1),idx(a,b,z1)])
@@ -74,7 +81,7 @@ for i,(wid,sg,a) in enumerate(offsets):
   if wid==wid2:continue
   inter=a.intersection(b)
   if inter.geom_type=='Point':frogs.append({'xy':[inter.x,inter.y],'ways':[wid,wid2]})
-O={'method':'Union of mapped running rail footprints, subtract0.045m flange channels centred0.8155m either side of track centre. Railhead centres±0.872m,width0.068m:1.676m nominal gauge. Floatprecision6decimalmetres. Visual rather than engineering turnout geometry.','blade':meshdata(blades,.125,.179),'blade_nodes':blade_nodes,'head':meshdata(head,.125,.178),'web':meshdata(web,.012,.135),'foot':meshdata(foot,-.015,.012),'crossing_points':frogs,'flangeway_width_m':.045}
+O={'method':'Union of mapped running rail footprints, subtract0.045m flange channels centred0.8155m either side of track centre. Railhead centres±0.872m,width0.068m:1.676m nominal gauge. Floatprecision6decimalmetres. Visual rather than engineering turnout geometry.','ballast':meshdata(unary_union(ballast_shapes),-.36,-.08),'blade':meshdata(blades,.125,.179),'blade_nodes':blade_nodes,'head':meshdata(head,.125,.178),'web':meshdata(web,.012,.135),'foot':meshdata(foot,-.015,.012),'crossing_points':frogs,'flangeway_width_m':.045}
 (R/'source/running_rails_mesh.json').write_text(json.dumps(O,separators=(',',':')))
 print('head',len(O['head']['vertices']),'faces',len(O['head']['faces']),'crossings',len(frogs),'cuts_area',head_union.area-head.area)
 # Diagnostic true geometry plot at first interior crossing away from station platforms.
