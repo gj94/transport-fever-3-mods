@@ -662,14 +662,27 @@ for x in [-200,-120,10,95,190,320,445,590]:
   for z in [1.7,1.8,1.9,2.0]:cube('Relay cabinet louvre',(x,y-.36,z),(.7,.025,.025),black)
   cube('Relay door lock',(x+.35,y-.38,1.35),(.025,.04,.12),steel)
 for y in [11,106]:
- cube('Cable trough concrete',(110,y,.13),(1000,.5,.28),stone)
- for x in range(-385,610,2):cube('Cable trough lid joint',(x,y,.278),(.02,.5,.016),black)
- tube('Blue platform service water main',[(-190,y,.6),(410,y,.6)],.055,roofblue)
- for x in range(-180,410,30):tube('Water hydrant standpipe',[(x,y,.6),(x,y,1.2),(x,y+.3,1.2)],.04,roofblue)
+ # Recessed ducts/culverts remain entirely below sleeper/ballast elevations.
+ cube('Recessed cable trough concrete',(110,y,-.16),(1000,.5,.28),stone)
+ for x in range(-385,610,2):cube('Recessed cable trough lid joint',(x,y,-.012),(.02,.5,.016),black)
+ # Above-ground water mains dip underground wherever any rail route approaches.
+ runs=[];start=-190;last_safe=None
+ for x in range(-190,411,2):
+  safe=mast_clearance(x,y)>=2.5
+  if last_safe is None:last_safe=safe
+  if safe!=last_safe:runs.append((start,x,last_safe));start=x;last_safe=safe
+ runs.append((start,410,last_safe))
+ for a,b,safe in runs:
+  z=.6 if safe else -.30
+  tube('Blue service water main '+('exposed' if safe else 'buried rail crossing'),[(a,y,z),(b,y,z)],.055,roofblue)
+ for a,b,safe in runs[:-1]:tube('Water main depth transition',[(b,y,-.30),(b,y,.6)],.055,roofblue)
+ for x in range(-180,410,30):
+  if mast_clearance(x,y)<2.5 or mast_clearance(x,y+.3)<2.5:continue
+  tube('Water hydrant standpipe',[(x,y,.6),(x,y,1.2),(x,y+.3,1.2)],.04,roofblue)
 for y in [4,115]:
- cube('Open storm drainage channel',(110,y,-.03),(1050,1,.18),black)
- for dy in [-.55,.55]:cube('Storm drain raised sidewall',(110,y+dy,.08),(1050,.18,.42),stone)
- for x in range(-400,635,5):cube('Drain crossing grate',(x,y,.25),(.6,1,.035),steel)
+ cube('Recessed storm drainage channel',(110,y,-.10),(1050,1,.02),black)
+ for dy in [-.55,.55]:cube('Low drain and below-track culvert sidewall',(110,y+dy,-.26),(1050,.18,.42),stone)
+ for x in range(-400,635,5):cube('Recessed drain cover grille',(x,y,-.045),(.6,1,.025),steel)
 # Tropical boundary context: perimeter fence and deliberately modest low-rise surroundings.
 collection('14 | BOUNDARIES AND TROPICAL SURROUNDS')
 for y in [-21,160]:

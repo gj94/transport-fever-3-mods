@@ -1,52 +1,14 @@
-# Construct one local cast crossing top from a convex envelope, then subtract
-# the two45mm flange channels. This retains supporting metal between channels,
-# instead of leaving full-width long gaps in both intersecting running heads.
-collection('21 | CROSSING CASTINGS • clipped flange channels')
+# Globally unioned running rails with all-route45mm flange-channel subtraction.
+# Offline preprocessing is preserved in prepare_rail_solids.py; Blender only reads JSON.
+collection('21 | UNIONED RAIL SOLIDS • all-route flange channels')
 for ob in list(scene.objects):
- if ob.name.startswith('Derived manganese frog nose '):bpy.data.objects.remove(ob,do_unlink=True)
-def hull(pp):
- pp=sorted(set((float(p.x),float(p.y)) for p in pp))
- def c(o,a,b):return (a[0]-o[0])*(b[1]-o[1])-(a[1]-o[1])*(b[0]-o[0])
- lo=[];hi=[]
- for p in pp:
-  while len(lo)>=2 and c(lo[-2],lo[-1],p)<=0:lo.pop()
-  lo.append(p)
- for p in reversed(pp):
-  while len(hi)>=2 and c(hi[-2],hi[-1],p)<=0:hi.pop()
-  hi.append(p)
- return [Vector(p) for p in lo[:-1]+hi[:-1]]
-def halfclip(poly,n,bound,lower):
- out=[]
- for a,b in zip(poly,poly[1:]+poly[:1]):
-  fa=a.dot(n)-bound;fb=b.dot(n)-bound;ina=fa<=1e-9 if lower else fa>=-1e-9;inb=fb<=1e-9 if lower else fb>=-1e-9
-  if ina:out.append(a)
-  if ina!=inb:out.append(a+(b-a)*(fa/(fa-fb)))
- return out
-polys_count=0
-for idx,(p,ri,rj,da,db,sa,sb) in enumerate(events):
- # Use original orientation for each rail's inside-gauge side.
- dirs=[]
- for rr,ss in [(R[ri],sa),(R[rj],sb)]:dirs.append((sample(rr,ss+.10)-sample(rr,ss-.10)).normalized())
- da,db=dirs;st=abs(cross(da,db));extent=(.030+.045)/max(st,.015)
- corners=[]
- for d in dirs:
-  n=Vector((-d.y,d.x))
-  for sg in [-1,1]:
-   for side in [-1,1]:corners.append(p+d*extent*sg+n*.062*side)
- pieces=[hull(corners)]
- for rr,d in [(R[ri],da),(R[rj],db)]:
-  n=Vector((-d.y,d.x));offset=-rr['side']*(.030+.045/2);center=p.dot(n)+offset
-  remaining=[]
-  for poly in pieces:
-   for lower,bound in [(True,center-.045/2),(False,center+.045/2)]:
-    q=halfclip(poly,n,bound,lower)
-    if len(q)>=3:remaining.append(q)
-  pieces=remaining
- for part,poly in enumerate(pieces):
-  prism('Cast crossing '+str(idx)+' flange-separated part '+str(part),[(q.x,q.y) for q in poly],.515,.643,railhead);polys_count+=1
- # Low mounting casting stays well below flanges, not at running-head height.
- prism('Crossing sole casting '+str(idx),[(q.x,q.y) for q in hull(corners)],.46,.485,railmat)
-q=json.loads((P/'physical_pointwork.json').read_text());q['flange_separated_casting_parts']=polys_count;q['crossing_surface']='Convex local crossing casting clipped by both45mm normal flange channels; supporting nose/wing pieces retained.';(P/'physical_pointwork.json').write_text(json.dumps(q,indent=2))
+ if ob.name.startswith(('Physical rail ','Tapered physical switch blade ','Derived manganese frog nose ','Cast crossing ','Crossing sole casting ')):
+  old=ob.data;bpy.data.objects.remove(ob,do_unlink=True)
+  if old.users==0:bpy.data.meshes.remove(old)
+D=json.loads((P/'geometry'/'rail_solids.json').read_text())
+for kind,m in [('head',railhead),('blade',railhead),('web',railmat),('foot',railmat)]:
+ data=D[kind];ob=mesh('Globally unioned railway '+kind,data['vertices'],data['faces'],m);ob['construction']='Planar union minus ALL mapped route flange channels; no duplicated head overlays';ob['gauge_m']=1.676
+q=json.loads((P/'physical_pointwork.json').read_text());q['running_head_method']=D['method'];q['global_union_flange_width_m']=D['flangeway_width_m'];q['global_union_crossing_count']=len(D['crossing_points']);q['source_geometry']='geometry/rail_solids.json';(P/'physical_pointwork.json').write_text(json.dumps(q,indent=2))
 # Dark granular ballast, no pale concrete-looking base.
 bs=ballast.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.065,.073,.065,1)
 for node in ballast.node_tree.nodes:

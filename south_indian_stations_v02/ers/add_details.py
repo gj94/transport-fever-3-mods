@@ -111,8 +111,8 @@ for wid,pts,t in paths:
   d=v/l;per=Vector((-d.y,d.x))
   for k in range(math.ceil(dist/.6),math.floor((dist+l)/.6)+1):
    c=va+d*(k*.6-dist)
-   for side in [-1,1]:
-    q=c+per*random.uniform(1.1,1.80)*side;r=random.uniform(.07,.16);n=len(vv);z=.31
+   for side in [-1,1,-1,1,-1,1]:
+    q=c+d*random.uniform(-.28,.28)+per*random.uniform(1.1,1.80)*side;r=random.uniform(.025,.06);n=len(vv);z=.31
     vv.extend([(q.x-r,q.y-r*.6,z),(q.x+r,q.y-r*.4,z),(q.x+r*.5,q.y+r,z),(q.x-r*.7,q.y+r*.5,z),(q.x,q.y,z+r)])
     ff.extend([(n,n+1,n+4),(n+1,n+2,n+4),(n+2,n+3,n+4),(n+3,n,n+4)])
   dist+=l

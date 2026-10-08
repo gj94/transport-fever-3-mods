@@ -26,3 +26,6 @@ The builder reads `add_details.py`, sign textures and filtered OSM JSON locally.
 
 ## Rights
 No new open-source licence is granted to generated scripts/scene/artwork/renders. Photography and OSM reference/data attribution and applicable licences are documented separately in SOURCES.md. No official endorsement or survey accuracy is claimed.
+
+### Recreate the global rail-solid preprocessing
+The supplied `geometry/rail_solids.json` is sufficient for every Blender rebuild. To regenerate it, use Python with Shapely2.2.0 and Pillow, then run `python prepare_rail_solids.py` and `python verify_rail_geometry.py`. The source computes a global union of all43 mapped route-head footprints, subtracts every45mm route flange channel, partitions non-overlapping tapered blades, and triangulates actual polygon holes. Blender removes the obsolete local rail/casting objects before loading these global solids. `geometry/rail_geometry_validation.json` tests the actual generated mesh footprint and plain-track gauge sections; it explicitly skips multi-route sections that are unsuitable for a plain-track gauge measurement.
