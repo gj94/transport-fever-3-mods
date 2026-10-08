@@ -1,0 +1,621 @@
+{
+  "station": "TVCS",
+  "name": "Thiruvananthapuram South",
+  "units": "metres",
+  "nominal_gauge_m": 1.676,
+  "railhead_flange_channel_qa": {
+    "head_channel_intersection_area_m2": 0.0,
+    "blade_channel_intersection_area_m2": 0.0,
+    "blade_head_overlap_area_m2": 5.517506924180361e-14,
+    "head_valid": true,
+    "web_valid": true,
+    "guard_channel_intersection_area_m2": 1.7130952014929748e-11,
+    "guard_running_head_overlap_m2": 0.0
+  },
+  "reported_platform_faces": "2",
+  "model_platform_bodies": 2,
+  "platform_ids": [
+    "RECONSTRUCTED_PLATFORM_1",
+    "RECONSTRUCTED_PLATFORM_2"
+  ],
+  "platform_bounds": {
+    "RECONSTRUCTED_PLATFORM_1": [
+      -263.7755615494569,
+      -6.401805399487079,
+      264.8195642339929,
+      18.37948818314046
+    ],
+    "RECONSTRUCTED_PLATFORM_2": [
+      -265.18573793579975,
+      9.387965859985684,
+      265.9272762568037,
+      35.330539561556506
+    ]
+  },
+  "source_road_pieces": 4,
+  "road_piece_ids": [
+    "397808851",
+    "642058763",
+    "642058764",
+    "642058765"
+  ],
+  "source_track_centres_at_station": [
+    16.13,
+    22.01
+  ],
+  "no_trains": true,
+  "sleepers": 5489,
+  "buffers": 2,
+  "pointwork_sites": 8,
+  "objects": 986,
+  "meshes": 946,
+  "vertices": 423920,
+  "polygons": 314691,
+  "rail_bounds_xy": [
+    -1100.0,
+    -239.85283848390108,
+    1100.0,
+    153.1220436935325
+  ],
+  "building": {
+    "center": [
+      0,
+      3.3278682833245172
+    ],
+    "width": 30,
+    "depth": 9,
+    "side": -1,
+    "front_y": -1.1721317166754828,
+    "platform_y": 7.827868283324517,
+    "footprint": [
+      -15.0,
+      -1.1721317166754828,
+      15.0,
+      7.827868283324517
+    ],
+    "basis": "Photograph-informed exterior envelope; metric size and hidden room partitions reconstructed unless documented",
+    "sanitary_annex_approach": {
+      "center_x": 20.0,
+      "width_m": 1.6,
+      "endpoints": [
+        [
+          20.0,
+          5.277868283324517,
+          1.005
+        ],
+        [
+          20.0,
+          8.427868283324518,
+          0.964
+        ]
+      ],
+      "basis": "Explicitly reconstructed continuous connection to sanitary annex",
+      "clearance": {
+        "minimum_adopted_rail_centerline_distance_m": 7.699999999999999,
+        "nearest_rail_way": "397808851",
+        "required_model_clearance_m": 1.8,
+        "platform_contact": "Endpoint is0.30m inside a source platform cross-section, not extrapolated from the main-building origin"
+      }
+    },
+    "identity_panel_basis": "Current station name documented in October2024; platform-facing panel placement reconstructed for readable identity."
+  },
+  "footbridges": [
+    {
+      "x": -70,
+      "y": 11.14412265488108,
+      "landing_start_x": -67.57499999999999,
+      "landing_end_x": -55.12499999999999,
+      "deck_height": 7.9,
+      "landing_top_z": 8.01,
+      "first_tread_top_z": 7.842238095238095,
+      "nominal_rise_m": 0.16776190476190475,
+      "stair_transition_version": 2
+    },
+    {
+      "x": -70,
+      "y": 27.176293066043392,
+      "landing_start_x": -67.57499999999999,
+      "landing_end_x": -55.12499999999999,
+      "deck_height": 7.9,
+      "landing_top_z": 8.01,
+      "first_tread_top_z": 7.842238095238095,
+      "nominal_rise_m": 0.16776190476190475,
+      "stair_transition_version": 2
+    }
+  ],
+  "canopies": [
+    [
+      0,
+      -53,
+      45.6
+    ],
+    [
+      0,
+      127.38483153029591,
+      149.3848315302959
+    ],
+    [
+      1,
+      -53,
+      45.6
+    ],
+    [
+      1,
+      127.83789256672685,
+      149.83789256672685
+    ]
+  ],
+  "ohe_mast_count": 79,
+  "ohe_minimum_rail_center_distance": 2.9595353613462536,
+  "ohe_positions": [
+    [
+      -1080,
+      -230.72611283102407
+    ],
+    [
+      -1080,
+      -223.72611283102407
+    ],
+    [
+      -1026,
+      -201.45317892328487
+    ],
+    [
+      -1026,
+      -194.45317892328487
+    ],
+    [
+      -972,
+      -174.51846215904473
+    ],
+    [
+      -972,
+      -167.51846215904473
+    ],
+    [
+      -918,
+      -153.04637896226237
+    ],
+    [
+      -918,
+      -146.04637896226237
+    ],
+    [
+      -864,
+      -133.10927762056323
+    ],
+    [
+      -864,
+      -126.10927762056323
+    ],
+    [
+      -810,
+      -116.43354691867405
+    ],
+    [
+      -810,
+      -109.43354691867405
+    ],
+    [
+      -756,
+      -102.58192519383263
+    ],
+    [
+      -756,
+      -95.58192519383263
+    ],
+    [
+      -702,
+      -91.6452999889596
+    ],
+    [
+      -702,
+      -84.6452999889596
+    ],
+    [
+      -648,
+      -80.70867478408657
+    ],
+    [
+      -648,
+      -73.70867478408657
+    ],
+    [
+      -594,
+      -69.82055803381532
+    ],
+    [
+      -594,
+      -62.82055803381532
+    ],
+    [
+      -540,
+      -59.01902820974019
+    ],
+    [
+      -540,
+      -52.01902820974019
+    ],
+    [
+      -486,
+      -46.98034588925779
+    ],
+    [
+      -486,
+      -30.583687535372746
+    ],
+    [
+      -432,
+      -34.528207162350114
+    ],
+    [
+      -432,
+      -21.660734382793713
+    ],
+    [
+      -378,
+      -23.649729353987972
+    ],
+    [
+      -378,
+      -11.137441933202439
+    ],
+    [
+      -324,
+      -12.572513507233126
+    ],
+    [
+      -324,
+      -0.15988119995121863
+    ],
+    [
+      -270,
+      -2.9690940585575807
+    ],
+    [
+      -270,
+      10.082041476832416
+    ],
+    [
+      -216,
+      -0.42723882527188584
+    ],
+    [
+      -216,
+      23.013400747513337
+    ],
+    [
+      -162,
+      5.224587756309512
+    ],
+    [
+      -162,
+      28.6805491401924
+    ],
+    [
+      -108,
+      7.326716670476971
+    ],
+    [
+      -108,
+      31.264168522063894
+    ],
+    [
+      -54,
+      7.28022057137372
+    ],
+    [
+      -54,
+      30.96488942113169
+    ],
+    [
+      0,
+      30.86192051381315
+    ],
+    [
+      54,
+      7.998668074627465
+    ],
+    [
+      54,
+      30.75895160649461
+    ],
+    [
+      108,
+      9.391836405786606
+    ],
+    [
+      108,
+      30.655982699176068
+    ],
+    [
+      162,
+      10.785004736945746
+    ],
+    [
+      162,
+      32.85936422309664
+    ],
+    [
+      216,
+      10.587213577557632
+    ],
+    [
+      216,
+      35.25198496735978
+    ],
+    [
+      270,
+      13.934133953962561
+    ],
+    [
+      270,
+      29.66525598887228
+    ],
+    [
+      324,
+      11.925521919189617
+    ],
+    [
+      324,
+      25.660150963447506
+    ],
+    [
+      378,
+      10.439942637429187
+    ],
+    [
+      378,
+      29.557283722910405
+    ],
+    [
+      432,
+      9.361832430131091
+    ],
+    [
+      432,
+      16.36183243013109
+    ],
+    [
+      486,
+      8.283831608104588
+    ],
+    [
+      486,
+      15.283831608104588
+    ],
+    [
+      540,
+      9.113062402528936
+    ],
+    [
+      540,
+      16.113062402528936
+    ],
+    [
+      594,
+      10.095156741342798
+    ],
+    [
+      594,
+      17.095156741342798
+    ],
+    [
+      648,
+      14.908879741151384
+    ],
+    [
+      648,
+      21.908879741151384
+    ],
+    [
+      702,
+      23.313876215522583
+    ],
+    [
+      702,
+      30.313876215522583
+    ],
+    [
+      756,
+      46.796025912655345
+    ],
+    [
+      756,
+      53.796025912655345
+    ],
+    [
+      810,
+      56.37795372729956
+    ],
+    [
+      810,
+      63.37795372729956
+    ],
+    [
+      864,
+      72.45368609286365
+    ],
+    [
+      864,
+      79.45368609286365
+    ],
+    [
+      918,
+      90.00452441154559
+    ],
+    [
+      918,
+      97.00452441154559
+    ],
+    [
+      972,
+      107.55536273022753
+    ],
+    [
+      972,
+      114.55536273022753
+    ],
+    [
+      1026,
+      125.27629626266759
+    ],
+    [
+      1026,
+      132.27629626266759
+    ]
+  ],
+  "signal_positions": [
+    [
+      -283.7755615494569,
+      12.93
+    ],
+    [
+      284.8195642339929,
+      12.93
+    ],
+    [
+      -285.18573793579975,
+      25.21
+    ]
+  ],
+  "packed_images": [],
+  "cameras": [
+    {
+      "name": "01_FULL_STATION_NETWORK",
+      "location": [
+        616.0,
+        -659.3654174804688,
+        1100.0
+      ],
+      "target_rotation": [
+        0.6698189377784729,
+        -9.588398341975335e-08,
+        0.7853982448577881
+      ]
+    },
+    {
+      "name": "02_STATION_ARCHITECTURE",
+      "location": [
+        -25.5,
+        -24.67213249206543,
+        7.0
+      ],
+      "target_rotation": [
+        1.4564354419708252,
+        -2.5632161282374e-08,
+        -0.738703191280365
+      ]
+    },
+    {
+      "name": "03_PLATFORM_AND_TRACKS",
+      "location": [
+        -65.0,
+        11.139833450317383,
+        3.0
+      ],
+      "target_rotation": [
+        1.564799189567566,
+        5.712332296070599e-08,
+        -1.5407413244247437
+      ]
+    },
+    {
+      "name": "04_FURNISHED_INTERIOR",
+      "location": [
+        1.5,
+        0.447868287563324,
+        2.5999999046325684
+      ],
+      "target_rotation": [
+        1.5425245761871338,
+        -9.772303855015707e-09,
+        1.0129165649414062
+      ]
+    },
+    {
+      "name": "05_PHYSICAL_POINTWORK",
+      "location": [
+        -419.9346008300781,
+        -30.39613151550293,
+        7.0
+      ],
+      "target_rotation": [
+        1.0765931606292725,
+        4.145249477005564e-08,
+        -0.8960554003715515
+      ]
+    }
+  ],
+  "stair_transition_version": 2,
+  "status": "Built; independent visual/geometry QA pending",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "veranda_clearance_repair": {
+    "removed_components": [
+      {
+        "object": "Verandah column",
+        "component": 1,
+        "center_x": -10.714285373687744
+      },
+      {
+        "object": "Verandah column plinth",
+        "component": 1,
+        "center_x": -10.714285850524902
+      }
+    ],
+    "entry_clear_width_m": 3.3,
+    "ramp_clear_width_m": 1.7
+  },
+  "platform_facade_depth_repair": [
+    {
+      "object": "TVCS teal facade pier",
+      "component": 1,
+      "outward_shift_m": 0.32
+    },
+    {
+      "object": "TVCS teal facade pier",
+      "component": 3,
+      "outward_shift_m": 0.32
+    },
+    {
+      "object": "TVCS teal facade pier",
+      "component": 5,
+      "outward_shift_m": 0.32
+    },
+    {
+      "object": "TVCS teal facade pier",
+      "component": 7,
+      "outward_shift_m": 0.32
+    },
+    {
+      "object": "TVCS teal continuous facade band",
+      "component": 2,
+      "outward_shift_m": 0.32
+    },
+    {
+      "object": "TVCS teal continuous facade band",
+      "component": 3,
+      "outward_shift_m": 0.32
+    },
+    {
+      "object": "TVCS upper small vent",
+      "component": 4,
+      "outward_shift_m": 0.36
+    },
+    {
+      "object": "TVCS upper small vent",
+      "component": 5,
+      "outward_shift_m": 0.36
+    },
+    {
+      "object": "TVCS upper small vent",
+      "component": 6,
+      "outward_shift_m": 0.36
+    },
+    {
+      "object": "TVCS upper small vent",
+      "component": 7,
+      "outward_shift_m": 0.36
+    }
+  ]
+}

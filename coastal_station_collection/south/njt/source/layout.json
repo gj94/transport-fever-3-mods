@@ -1,0 +1,1590 @@
+{
+  "code": "NJT",
+  "name": "Nagercoil Town",
+  "metadata": {
+    "sequence": "55",
+    "station_code": "NJT",
+    "station_name": "Nagercoil Town",
+    "legacy_name_code": "",
+    "operational_status": "Listed current by SR2025; no subsequent closure found",
+    "official_map_chainage_km": "285.99",
+    "chainage_datum": "ERS via KTYM then KYJ",
+    "coastal_route_km": "271.67",
+    "halt_marked_in_2025_map": "False",
+    "platform_faces_verified": "",
+    "platform_bodies_verified": "",
+    "running_lines_verified": "",
+    "loops_verified": "",
+    "sidings_verified": "",
+    "topology_status": "Official current yard counts UNVERIFIED; separate mapped observations attached",
+    "chainage_source": "SR2025",
+    "chainage_source_date": "2025-04-01",
+    "notes": "",
+    "mapped_platform_faces": "",
+    "mapped_platform_bodies": "2",
+    "mapped_numbered_platform_positions": "",
+    "mapped_roads_at_marker_transect": "1",
+    "mapped_parallel_running_roads": "",
+    "mapped_connected_loops": "",
+    "mapped_nonloop_sidings": "",
+    "mapped_total_tracks_all_types": "",
+    "mapped_counts_evidence_class": "OSM geometry observed 2026-10-08; NOT current operational certification",
+    "mapped_notes": "One normal rail alignment and a second tagged railway=construction, with two long platform bodies on opposite sides. One normal-rail-adjacent face and one construction-side face in mapped geometry; do not report two current operational platforms without evidence. Both geometry and tagging predate 2026 commissioning.",
+    "mapped_snapshot_date": "2026-10-08",
+    "mapped_source_edit_dates": "2023-06-09T16:54:51Z / 2025-12-17T11:41:33Z",
+    "mapped_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=77.4104318,8.1905718,77.4284318,8.2085718",
+    "mapped_rail_way_ids": "256080322",
+    "mapped_platform_way_ids": "383031394;1180712996",
+    "mapped_excluded_nonoperational_way_ids": "1180712994",
+    "mapped_source_record": "south_observations.json#NJT",
+    "map_latitude": "8.1996884",
+    "map_longitude": "77.4202391",
+    "mapped_crossing_loop_alignments": "0",
+    "mapped_dead_end_extensions_simple_station_only": "0",
+    "wikipedia_reported_platforms": "3",
+    "wikipedia_reported_tracks": "3",
+    "wikipedia_platforms_numeric": "3",
+    "wikipedia_tracks_numeric": "3",
+    "wikipedia_platform_field_raw": "3",
+    "wikipedia_tracks_field_raw": "3",
+    "wikipedia_article_url": "https://en.wikipedia.org/wiki/Nagercoil_Town_railway_station",
+    "wikipedia_revision_url": "https://en.wikipedia.org/w/index.php?oldid=1370954565",
+    "wikipedia_revision_id": "1370954565",
+    "wikipedia_revision_timestamp": "2026-08-23T22:29:25Z",
+    "wikipedia_accessed_date": "2026-10-08",
+    "wikipedia_platform_inline_citation_present": "False",
+    "wikipedia_tracks_inline_citation_present": "False",
+    "wikipedia_conflict_notes": "Internal conflict: infobox reports 3 platforms and 3 tracks, while body says only one platform. Display 3 as the infobox-reported count, flagged disputed. OSM records two bodies, one adjoining older construction-tagged geometry.",
+    "wikipedia_lookup_status": "FOUND",
+    "wikipedia_count_is_current_verified_inventory": "False",
+    "wikipedia_display_flag": "*",
+    "wikipedia_count_source_class": "Wikipedia article infobox, reported secondary figure",
+    "wikipedia_tracks_source_url": "",
+    "wikipedia_tracks_revision_id": "",
+    "wikipedia_tracks_revision_timestamp": "",
+    "wikipedia_tracks_source_class": "",
+    "iri_reported_platforms": "3",
+    "iri_reported_tracks": "NOT_STATED",
+    "iri_platform_field_raw": "Number of Platforms: 3",
+    "iri_source_url": "https://indiarailinfo.com/station/map/nagercoil-town-njt/4793",
+    "iri_profile_updated_raw": "Jun 19 2024 (14:40)",
+    "iri_accessed_date": "2026-10-08",
+    "iri_retrieval_method": "Indexed full station profile returned by web search",
+    "iri_count_notes": "Profile platform total explicitly supplied; track category is not a yard-road total. Numerical tracks, loops and sidings are not stated in profile. Profile update date may concern address/category and does not date every field.",
+    "reported_platform_count": "3",
+    "reported_platform_source": "India Rail Info profile, fully cross-checked 2026-10-08",
+    "reported_platform_display": "3I*",
+    "reported_platform_source_url": "https://indiarailinfo.com/station/map/nagercoil-town-njt/4793",
+    "reported_count_scope": "Reported platform positions; not independently verified current operational inventory",
+    "dated_yard_evidence_count": "0",
+    "dated_yard_evidence_json": "",
+    "dated_yard_evidence_scope_note": "No additional dated yard inventory recovered in this bounded search.",
+    "iri_profile_id": "4793",
+    "iri_heading_station_code": "NJT",
+    "iri_heading_raw": "Station code NJT and (3 PFs) read in profile heading; spelling follows source URL",
+    "iri_track_category_raw": "Track: Double Electric-Line",
+    "iri_reported_running_lines": "NOT_STATED",
+    "iri_reported_loops": "NOT_STATED",
+    "iri_reported_sidings": "NOT_STATED",
+    "iri_profile_update_is_platform_confirmation": "False",
+    "iri_numeric_id_and_heading_identity_verified": "True",
+    "iri_current_operational_inventory_verified": "False",
+    "iri_platform_history_date_raw": "2024-03-31 15:03",
+    "iri_history_url": "https://indiarailinfo.com/blog/post/6014946",
+    "iri_history_findings": "Platform count explicitly changed 2 to 3, after 1 to 2 on 2023-08-13. Older Wikipedia prose saying one is stale relative to this sequence.",
+    "wikipedia_comparison": "AGREES",
+    "official_chainage_iri_check": "Profile does not supply official station-centre chainage; primary SR2025 value retained.",
+    "yard_totals_iri_check": "Numeric station tracks/loops/sidings NOT_STATED in inspected profile; no IRI corroboration claimed for Wikipedia totals or mapped counts.",
+    "route_status_assessment": "IRI Double Electric-Line supports southern doubled-section reporting, but supplies no commissioning date or exact changeover chainage.",
+    "iri_platform_adoption_reason": "IRI explicit platform total adopted after full-profile cross-check; Wikipedia raw figure retained separately.",
+    "iri_not_a_current_official_inventory": "True",
+    "iri_profile_update_year_explicit": "",
+    "iri_source_reference": "",
+    "iri_search_index_crawl_age_raw": "",
+    "iri_slug_identity_status": "",
+    "iri_source_evidence_file": "",
+    "iri_profile_updated_iso_local": "",
+    "iri_profile_updated_timezone": "",
+    "comparison_wikipedia_platforms": "",
+    "comparison_wikipedia_platform_source": "",
+    "comparison_wikipedia_revision_timestamp": "",
+    "comparison_wikipedia_platform_agreement": "",
+    "iri_explicit_platform_field_update_raw": "",
+    "iri_timeline_evidence_url": "",
+    "iri_platform_count_basis": "",
+    "iri_conflict_notes": "",
+    "satellite_observation_json": "{\"station_code\": \"NJT\", \"provider\": \"Google Maps satellite, cloud browser visually inspected\", \"accessed_date\": \"2026-10-08\", \"imagery_acquisition_date\": \"NOT_EXPOSED\", \"coordinates\": \"8.1999573,77.4193037\", \"observation\": \"Southern side platform beside station building and northern island platform, with alignments serving three faces, linked by footbridge.\", \"implication\": \"Visually consistent with IRI3 and its2024 platform-count edit; no commissioning date inferred.\", \"source_url\": \"https://www.google.com/maps/place/8%C2%B011'59.8%22N+77%C2%B025'12.2%22E/@8.1999573,77.4193037,225m/data=!3m1!1e3!4m4!3m3!8m2!3d8.199952!4d77.420044?entry=ttu&g_ep=EgoyMDI2MTAwNS4wIKXMDSoASAFQAw%3D%3D\"}",
+    "satellite_platform_bodies_observed": "2",
+    "satellite_body_count_scope": "Visible developed platform bodies; incomplete or undated imagery does not certify current operation.",
+    "iri_indexed_profile_updated_raw": "",
+    "iri_live_verification_note": "",
+    "iri_indexed_profile_updated_iso_local": ""
+  },
+  "config": {
+    "length": 620,
+    "building": [
+      25.54709467990692,
+      8.89678250428283
+    ],
+    "roof": "flat",
+    "color": [
+      0.85,
+      0.82,
+      0.71
+    ],
+    "pfwidth": 6.5,
+    "bridge": true,
+    "envelope": 1100,
+    "halt": false,
+    "architecture": "njt_barrel_entry",
+    "primary_platform_id": "1180712996",
+    "building_side": 1,
+    "photo_basis": "Google Maps R photo captureNovember2023/headerDecember2023: two-level cream modern flat-parapet block, deep pilaster bays, dark window/vent bands and a large separate barrel-vault approach canopy. Southern side and northern island follow inspected satellite; hidden rooms, dimensions and precise canopy placement reconstructed. Main envelope follows tagged OSM train_station way551805510; main block\u2192barrel canopy\u2192bridge order follows the2023 approach photo and independently image-picked Google satellite points. Canopy/bridge dimensions, stair direction toward mapped approach way383031404 and service-annex placement remain reconstructed.",
+    "building_x": 2.5408513351558697,
+    "building_y": -6.446556465933965,
+    "annex_side": -1,
+    "bridge_x": 49.33237009580953,
+    "bridge_stair_direction": -1,
+    "canopy_center_x_world": 20.83489168462457,
+    "canopy_center_y_world": -5.803624782755646
+  },
+  "transform": {
+    "origin_lonlat": [
+      77.4202391,
+      8.1996884
+    ],
+    "x_axis_east_north": [
+      -0.9279073524838212,
+      -0.37281087055833767
+    ],
+    "y_axis_east_north": [
+      0.37281087055833767,
+      -0.9279073524838212
+    ],
+    "units": "metres",
+    "geodetic": "Local equirectangular, appropriate short model extent"
+  },
+  "ways": [
+    {
+      "id": "256080322",
+      "source_id": "256080322",
+      "xy": [
+        [
+          1100.0,
+          -28.534656848581147
+        ],
+        [
+          1042.7906850061765,
+          -28.799313870980825
+        ],
+        [
+          827.7713998062794,
+          -26.347514242231114
+        ],
+        [
+          613.845448505867,
+          -29.981670014011655
+        ],
+        [
+          386.7790846805587,
+          -30.147073626121255
+        ],
+        [
+          215.5026937002324,
+          -28.61598496351234
+        ],
+        [
+          -14.64388939531488,
+          -28.61598496351234
+        ],
+        [
+          -209.21466404988033,
+          -28.673661105125092
+        ],
+        [
+          -321.0860865490189,
+          -28.506730201837357
+        ],
+        [
+          -463.84455168716084,
+          -28.581550529545694
+        ],
+        [
+          -605.4053406762124,
+          -27.803331693344745
+        ],
+        [
+          -699.9967976143535,
+          -27.776851238838162
+        ],
+        [
+          -958.644009292035,
+          -27.36917459742898
+        ],
+        [
+          -1013.8701451113008,
+          -25.62305224153272
+        ],
+        [
+          -1063.4634793167443,
+          -21.70848244179524
+        ],
+        [
+          -1100.0,
+          -14.694578651006033
+        ]
+      ],
+      "tags": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "name": "TVC-NCJ Line",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "timestamp": "2025-10-02T05:31:37Z",
+      "basis": "OSM mapped railway centreline; operating classification and edit date are not commissioning evidence"
+    },
+    {
+      "id": "1180712994",
+      "source_id": "1180712994",
+      "xy": [
+        [
+          1100.0,
+          -17.345456032196658
+        ],
+        [
+          1042.7752829297617,
+          -17.606980893269622
+        ],
+        [
+          827.7280803423448,
+          -18.741638560800368
+        ],
+        [
+          612.4040051329756,
+          -22.397790287401904
+        ],
+        [
+          387.3568092217403,
+          -23.005149388573926
+        ],
+        [
+          214.73082724326488,
+          -23.26674164461315
+        ],
+        [
+          -14.447913439259235,
+          -22.631094318642933
+        ],
+        [
+          -208.55043803742436,
+          -23.651235849422136
+        ],
+        [
+          -320.90999427499673,
+          -23.073753652491177
+        ],
+        [
+          -463.8274476562559,
+          -22.894091089639517
+        ],
+        [
+          -605.4350876729361,
+          -16.61714809885106
+        ],
+        [
+          -700.040889526954,
+          -16.596817029131017
+        ],
+        [
+          -958.5100168992476,
+          -16.189213417360293
+        ],
+        [
+          -1013.3001749345485,
+          -14.451476874248328
+        ],
+        [
+          -1061.9623496611562,
+          -10.61320388976526
+        ],
+        [
+          -1100.0,
+          -3.8311535184650003
+        ]
+      ],
+      "tags": {
+        "construction": "rail",
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1676",
+        "layer": "0",
+        "passenger_lines": "1",
+        "railway": "construction",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "timestamp": "2025-12-17T11:41:33Z",
+      "basis": "Mapped construction alignment represented physically after 2026 doubled-section reporting; exact commissioning and station-road role unverified"
+    },
+    {
+      "id": "NJT_satellite_third_platform_road",
+      "source_id": "Google satellite 2026-10-08",
+      "xy": [
+        [
+          -619.852335043863,
+          -27.79928732200834
+        ],
+        [
+          -614.8950927687983,
+          -27.844479484136496
+        ],
+        [
+          -609.9378504937335,
+          -27.973333057730056
+        ],
+        [
+          -604.9806082186689,
+          -28.182142976816507
+        ],
+        [
+          -600.0233659436041,
+          -28.486420361022834
+        ],
+        [
+          -595.0661236685394,
+          -28.8565958689895
+        ],
+        [
+          -590.1088813934746,
+          -29.286748404814837
+        ],
+        [
+          -585.1516391184099,
+          -29.77095687259714
+        ],
+        [
+          -580.1943968433451,
+          -30.303300176434742
+        ],
+        [
+          -575.2371545682804,
+          -30.87785722042594
+        ],
+        [
+          -570.2799122932156,
+          -31.48870690866907
+        ],
+        [
+          -565.3226700181509,
+          -32.12992814526241
+        ],
+        [
+          -560.3654277430862,
+          -32.795599834304305
+        ],
+        [
+          -555.4081854680214,
+          -33.47980087989307
+        ],
+        [
+          -550.4509431929567,
+          -34.17661018612699
+        ],
+        [
+          -545.4937009178919,
+          -34.88010665710442
+        ],
+        [
+          -540.5364586428273,
+          -35.58436919692364
+        ],
+        [
+          -535.5792163677625,
+          -36.283476709682986
+        ],
+        [
+          -530.6219740926978,
+          -36.97150809948076
+        ],
+        [
+          -525.6647318176331,
+          -37.64254227041526
+        ],
+        [
+          -520.7074895425683,
+          -38.290658126584844
+        ],
+        [
+          -515.7502472675036,
+          -38.909934572087785
+        ],
+        [
+          -510.7930049924388,
+          -39.49445051102243
+        ],
+        [
+          -505.8357627173741,
+          -40.03828484748706
+        ],
+        [
+          -500.8785204423093,
+          -40.53551648558002
+        ],
+        [
+          -495.9212781672446,
+          -40.9802243293996
+        ],
+        [
+          -490.9640358921799,
+          -41.36648728304412
+        ],
+        [
+          -486.00679361711514,
+          -41.688384250611904
+        ],
+        [
+          -481.0495513420504,
+          -41.939994136201264
+        ],
+        [
+          -476.09230906698565,
+          -42.115395843910505
+        ],
+        [
+          -471.13506679192096,
+          -42.208668277837944
+        ],
+        [
+          -466.17782451685616,
+          -42.23890226956216
+        ],
+        [
+          -461.2205822417915,
+          -42.2503540120147
+        ],
+        [
+          -456.2633399667267,
+          -42.247755899943435
+        ],
+        [
+          -451.306097691662,
+          -42.245157787872174
+        ],
+        [
+          -446.3488554165972,
+          -42.24255967580092
+        ],
+        [
+          -441.3916131415325,
+          -42.23996156372965
+        ],
+        [
+          -436.4343708664678,
+          -42.237363451658396
+        ],
+        [
+          -431.477128591403,
+          -42.234765339587135
+        ],
+        [
+          -426.5198863163383,
+          -42.23216722751587
+        ],
+        [
+          -421.56264404127353,
+          -42.22956911544462
+        ],
+        [
+          -416.60540176620884,
+          -42.22697100337335
+        ],
+        [
+          -411.64815949114404,
+          -42.224372891302096
+        ],
+        [
+          -406.69091721607936,
+          -42.221774779230834
+        ],
+        [
+          -401.73367494101456,
+          -42.21917666715957
+        ],
+        [
+          -396.77643266594987,
+          -42.21657855508832
+        ],
+        [
+          -391.8191903908851,
+          -42.21398044301705
+        ],
+        [
+          -386.8619481158204,
+          -42.211382330945796
+        ],
+        [
+          -381.90470584075564,
+          -42.208784218874534
+        ],
+        [
+          -376.9474635656909,
+          -42.20618610680327
+        ],
+        [
+          -371.9902212906262,
+          -42.20358799473202
+        ],
+        [
+          -367.0329790155614,
+          -42.20098988266075
+        ],
+        [
+          -362.0757367404967,
+          -42.198391770589495
+        ],
+        [
+          -357.118494465432,
+          -42.195793658518234
+        ],
+        [
+          -352.16125219036724,
+          -42.19319554644697
+        ],
+        [
+          -347.2040099153025,
+          -42.19059743437572
+        ],
+        [
+          -342.24676764023775,
+          -42.18799932230445
+        ],
+        [
+          -337.289525365173,
+          -42.185401210233195
+        ],
+        [
+          -332.3322830901083,
+          -42.18280309816193
+        ],
+        [
+          -327.3750408150436,
+          -42.18020498609067
+        ],
+        [
+          -322.41779853997883,
+          -42.17760687401942
+        ],
+        [
+          -317.4605562649141,
+          -42.18231881655723
+        ],
+        [
+          -312.50331398984935,
+          -42.18971585247852
+        ],
+        [
+          -307.5460717147846,
+          -42.197112888399815
+        ],
+        [
+          -302.58882943971986,
+          -42.204509924321115
+        ],
+        [
+          -297.6315871646551,
+          -42.211906960242416
+        ],
+        [
+          -292.6743448895904,
+          -42.21930399616371
+        ],
+        [
+          -287.71710261452563,
+          -42.226701032085
+        ],
+        [
+          -282.75986033946094,
+          -42.234098068006304
+        ],
+        [
+          -277.8026180643962,
+          -42.241495103927605
+        ],
+        [
+          -272.8453757893314,
+          -42.24889213984889
+        ],
+        [
+          -267.8881335142667,
+          -42.25628917577019
+        ],
+        [
+          -262.9308912392019,
+          -42.26368621169149
+        ],
+        [
+          -257.9736489641372,
+          -42.271083247612786
+        ],
+        [
+          -253.01640668907254,
+          -42.27848028353408
+        ],
+        [
+          -248.05916441400774,
+          -42.28587731945538
+        ],
+        [
+          -243.101922138943,
+          -42.29327435537668
+        ],
+        [
+          -238.1446798638783,
+          -42.300671391297975
+        ],
+        [
+          -233.1874375888135,
+          -42.30806842721927
+        ],
+        [
+          -228.23019531374882,
+          -42.31546546314057
+        ],
+        [
+          -223.27295303868402,
+          -42.32286249906187
+        ],
+        [
+          -218.31571076361934,
+          -42.33025953498316
+        ],
+        [
+          -213.35846848855465,
+          -42.33765657090446
+        ],
+        [
+          -208.40122621348985,
+          -42.343598695905285
+        ],
+        [
+          -203.4439839384251,
+          -42.342129232631706
+        ],
+        [
+          -198.48674166336036,
+          -42.34065976935814
+        ],
+        [
+          -193.52949938829562,
+          -42.33919030608456
+        ],
+        [
+          -188.57225711323093,
+          -42.337720842810995
+        ],
+        [
+          -183.61501483816613,
+          -42.336251379537416
+        ],
+        [
+          -178.65777256310145,
+          -42.33478191626385
+        ],
+        [
+          -173.7005302880367,
+          -42.33331245299027
+        ],
+        [
+          -168.74328801297196,
+          -42.331842989716705
+        ],
+        [
+          -163.78604573790722,
+          -42.33037352644313
+        ],
+        [
+          -158.82880346284247,
+          -42.32890406316956
+        ],
+        [
+          -153.87156118777773,
+          -42.32743459989599
+        ],
+        [
+          -148.91431891271304,
+          -42.325965136622415
+        ],
+        [
+          -143.95707663764824,
+          -42.32449567334884
+        ],
+        [
+          -138.99983436258356,
+          -42.32302621007527
+        ],
+        [
+          -134.04259208751876,
+          -42.321556746801704
+        ],
+        [
+          -129.08534981245407,
+          -42.320087283528125
+        ],
+        [
+          -124.12810753738933,
+          -42.31861782025456
+        ],
+        [
+          -119.17086526232458,
+          -42.31714835698098
+        ],
+        [
+          -114.21362298725984,
+          -42.315678893707414
+        ],
+        [
+          -109.25638071219515,
+          -42.314209430433834
+        ],
+        [
+          -104.29913843713041,
+          -42.31273996716027
+        ],
+        [
+          -99.34189616206561,
+          -42.31127050388669
+        ],
+        [
+          -94.38465388700092,
+          -42.309801040613124
+        ],
+        [
+          -89.42741161193612,
+          -42.30833157733955
+        ],
+        [
+          -84.47016933687144,
+          -42.30686211406598
+        ],
+        [
+          -79.51292706180664,
+          -42.305392650792406
+        ],
+        [
+          -74.55568478674195,
+          -42.30392318751883
+        ],
+        [
+          -69.59844251167726,
+          -42.30245372424526
+        ],
+        [
+          -64.64120023661246,
+          -42.30098426097169
+        ],
+        [
+          -59.683957961547776,
+          -42.299514797698116
+        ],
+        [
+          -54.726715686482976,
+          -42.29804533442454
+        ],
+        [
+          -49.76947341141829,
+          -42.29657587115098
+        ],
+        [
+          -44.8122311363536,
+          -42.2951064078774
+        ],
+        [
+          -39.8549888612888,
+          -42.29363694460383
+        ],
+        [
+          -34.897746586224116,
+          -42.29216748133025
+        ],
+        [
+          -29.940504311159316,
+          -42.29069801805669
+        ],
+        [
+          -24.98326203609463,
+          -42.28922855478311
+        ],
+        [
+          -20.02601976102983,
+          -42.28775909150954
+        ],
+        [
+          -15.068777485965143,
+          -42.28628962823597
+        ],
+        [
+          -10.111535210900342,
+          -42.286163679692415
+        ],
+        [
+          -5.154292935835656,
+          -42.286163679692415
+        ],
+        [
+          -0.19705066077085576,
+          -42.286163679692415
+        ],
+        [
+          4.760191614293831,
+          -42.286163679692415
+        ],
+        [
+          9.717433889358631,
+          -42.286163679692415
+        ],
+        [
+          14.674676164423317,
+          -42.286163679692415
+        ],
+        [
+          19.631918439488004,
+          -42.286163679692415
+        ],
+        [
+          24.589160714552804,
+          -42.286163679692415
+        ],
+        [
+          29.54640298961749,
+          -42.286163679692415
+        ],
+        [
+          34.50364526468229,
+          -42.286163679692415
+        ],
+        [
+          39.46088753974698,
+          -42.286163679692415
+        ],
+        [
+          44.41812981481178,
+          -42.286163679692415
+        ],
+        [
+          49.375372089876464,
+          -42.286163679692415
+        ],
+        [
+          54.33261436494115,
+          -42.286163679692415
+        ],
+        [
+          59.28985664000595,
+          -42.286163679692415
+        ],
+        [
+          64.24709891507064,
+          -42.286163679692415
+        ],
+        [
+          69.20434119013544,
+          -42.286163679692415
+        ],
+        [
+          74.16158346520024,
+          -42.286163679692415
+        ],
+        [
+          79.11882574026481,
+          -42.286163679692415
+        ],
+        [
+          84.07606801532961,
+          -42.286163679692415
+        ],
+        [
+          89.03331029039441,
+          -42.286163679692415
+        ],
+        [
+          93.99055256545921,
+          -42.286163679692415
+        ],
+        [
+          98.94779484052378,
+          -42.286163679692415
+        ],
+        [
+          103.90503711558858,
+          -42.286163679692415
+        ],
+        [
+          108.86227939065338,
+          -42.286163679692415
+        ],
+        [
+          113.81952166571796,
+          -42.286163679692415
+        ],
+        [
+          118.77676394078276,
+          -42.286163679692415
+        ],
+        [
+          123.73400621584756,
+          -42.286163679692415
+        ],
+        [
+          128.69124849091224,
+          -42.286163679692415
+        ],
+        [
+          133.64849076597704,
+          -42.286163679692415
+        ],
+        [
+          138.60573304104173,
+          -42.286163679692415
+        ],
+        [
+          143.56297531610642,
+          -42.286163679692415
+        ],
+        [
+          148.52021759117122,
+          -42.286163679692415
+        ],
+        [
+          153.47745986623602,
+          -42.286163679692415
+        ],
+        [
+          158.4347021413007,
+          -42.286163679692415
+        ],
+        [
+          163.3919444163654,
+          -42.286163679692415
+        ],
+        [
+          168.3491866914302,
+          -42.286163679692415
+        ],
+        [
+          173.306428966495,
+          -42.286163679692415
+        ],
+        [
+          178.26367124155956,
+          -42.286163679692415
+        ],
+        [
+          183.22091351662436,
+          -42.286163679692415
+        ],
+        [
+          188.17815579168916,
+          -42.286163679692415
+        ],
+        [
+          193.13539806675374,
+          -42.286163679692415
+        ],
+        [
+          198.09264034181854,
+          -42.286163679692415
+        ],
+        [
+          203.04988261688334,
+          -42.286163679692415
+        ],
+        [
+          208.00712489194802,
+          -42.286163679692415
+        ],
+        [
+          212.96436716701282,
+          -42.286163679692415
+        ],
+        [
+          217.9216094420775,
+          -42.30778705958119
+        ],
+        [
+          222.8788517171423,
+          -42.34911930801162
+        ],
+        [
+          227.836093992207,
+          -42.32741311423884
+        ],
+        [
+          232.7933362672718,
+          -42.22357764668425
+        ],
+        [
+          237.75057854233648,
+          -42.04353400124955
+        ],
+        [
+          242.70782081740117,
+          -41.79320327383642
+        ],
+        [
+          247.66506309246597,
+          -41.478506560346545
+        ],
+        [
+          252.62230536753077,
+          -41.105364956681605
+        ],
+        [
+          257.57954764259534,
+          -40.679699558743316
+        ],
+        [
+          262.53678991766014,
+          -40.20743146243333
+        ],
+        [
+          267.49403219272494,
+          -39.694481763653336
+        ],
+        [
+          272.45127446778963,
+          -39.14677155830505
+        ],
+        [
+          277.4085167428543,
+          -38.57022194229013
+        ],
+        [
+          282.3657590179191,
+          -37.97075401151026
+        ],
+        [
+          287.3230012929839,
+          -37.35428886186713
+        ],
+        [
+          292.2802435680486,
+          -36.72674758926245
+        ],
+        [
+          297.2374858431133,
+          -36.094051289597886
+        ],
+        [
+          302.1947281181781,
+          -35.46212105877511
+        ],
+        [
+          307.1519703932428,
+          -34.83687799269583
+        ],
+        [
+          312.1092126683076,
+          -34.22424318726172
+        ],
+        [
+          317.0664549433724,
+          -33.63013773837447
+        ],
+        [
+          322.02369721843695,
+          -33.06048274193579
+        ],
+        [
+          326.98093949350175,
+          -32.52119929384732
+        ],
+        [
+          331.93818176856655,
+          -32.018208490010764
+        ],
+        [
+          336.8954240436311,
+          -31.55743142632783
+        ],
+        [
+          341.8526663186959,
+          -31.14478919870017
+        ],
+        [
+          346.8099085937607,
+          -30.786202903029487
+        ],
+        [
+          351.7671508688255,
+          -30.487593635217465
+        ],
+        [
+          356.7243931438901,
+          -30.254882491165805
+        ],
+        [
+          361.6816354189549,
+          -30.093990566776164
+        ],
+        [
+          366.6388776940197,
+          -30.010838957950245
+        ],
+        [
+          371.5961199690844,
+          -30.01134876058973
+        ]
+      ],
+      "tags": {
+        "railway": "rail",
+        "service": "yard"
+      },
+      "timestamp": "imagery date not exposed",
+      "basis": "Physically visible third platform road fitted beyond mapped island; throat curves reconstructed, not surveyed"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "383031394",
+      "xy": [
+        [
+          -361.475689511719,
+          -39.80970234659014
+        ],
+        [
+          -458.1587707948885,
+          -33.46295696760123
+        ],
+        [
+          -459.614604696034,
+          -30.379333843288453
+        ],
+        [
+          -321.0869578053602,
+          -30.30673090568335
+        ],
+        [
+          -209.21574021521704,
+          -30.473661503212536
+        ],
+        [
+          -14.643622610513672,
+          -30.41598496351234
+        ],
+        [
+          211.5586697118065,
+          -30.41598496351234
+        ],
+        [
+          211.59611996908436,
+          -39.81696835740287
+        ],
+        [
+          -39.964838662596165,
+          -40.49366942803095
+        ],
+        [
+          -44.812764705953285,
+          -40.49510648695976
+        ],
+        [
+          -49.770006981017964,
+          -40.49657595023334
+        ],
+        [
+          -54.72724925608266,
+          -40.49804541350691
+        ],
+        [
+          -59.68449153114746,
+          -40.49951487678048
+        ],
+        [
+          -64.64173380621214,
+          -40.50098434005405
+        ],
+        [
+          -69.59897608127694,
+          -40.502453803327626
+        ],
+        [
+          -79.51346063140632,
+          -40.50539272987477
+        ],
+        [
+          -84.47070290647112,
+          -40.50686219314834
+        ],
+        [
+          -89.4279451815358,
+          -40.508331656421916
+        ],
+        [
+          -94.3851874566006,
+          -40.50980111969549
+        ],
+        [
+          -99.34242973166529,
+          -40.511270582969054
+        ],
+        [
+          -104.29967200673009,
+          -40.512740046242634
+        ],
+        [
+          -109.25691428179483,
+          -40.5142095095162
+        ],
+        [
+          -114.21415655685952,
+          -40.51567897278978
+        ],
+        [
+          -119.17139883192426,
+          -40.517148436063344
+        ],
+        [
+          -124.12864110698901,
+          -40.518617899336924
+        ],
+        [
+          -129.08588338205377,
+          -40.52008736261049
+        ],
+        [
+          -134.04312565711842,
+          -40.52155682588407
+        ],
+        [
+          -139.00036793218322,
+          -40.523026289157634
+        ],
+        [
+          -143.9576102072479,
+          -40.52449575243121
+        ],
+        [
+          -148.9148524823127,
+          -40.52596521570478
+        ],
+        [
+          -153.8720947573774,
+          -40.52743467897835
+        ],
+        [
+          -168.74382158257163,
+          -40.53184306879907
+        ],
+        [
+          -173.7010638576364,
+          -40.533312532072635
+        ],
+        [
+          -178.6583061327011,
+          -40.534781995346215
+        ],
+        [
+          -183.61554840776583,
+          -40.53625145861978
+        ],
+        [
+          -188.5727906828306,
+          -40.53772092189336
+        ],
+        [
+          -193.53003295789532,
+          -40.539190385166926
+        ],
+        [
+          -198.48727523296003,
+          -40.540659848440505
+        ],
+        [
+          -203.4445175080248,
+          -40.54212931171407
+        ],
+        [
+          -208.40041419063607,
+          -40.543598376116954
+        ],
+        [
+          -213.35604673203147,
+          -40.53765818066448
+        ],
+        [
+          -223.27026714013468,
+          -40.522864502966044
+        ],
+        [
+          -228.22750941519948,
+          -40.51546746704474
+        ],
+        [
+          -233.18475169026416,
+          -40.50807043112344
+        ],
+        [
+          -238.14199396532896,
+          -40.50067339520215
+        ],
+        [
+          -243.09923624039365,
+          -40.493276359280856
+        ],
+        [
+          -248.0564785154584,
+          -40.485879323359555
+        ],
+        [
+          -253.0137207905232,
+          -40.478482287438254
+        ],
+        [
+          -262.92820534065254,
+          -40.46368821559567
+        ],
+        [
+          -267.88544761571734,
+          -40.456291179674366
+        ],
+        [
+          -272.842689890782,
+          -40.448894143753066
+        ],
+        [
+          -277.7999321658468,
+          -40.44149710783178
+        ],
+        [
+          -282.75717444091157,
+          -40.43410007191048
+        ],
+        [
+          -287.71441671597626,
+          -40.42670303598918
+        ],
+        [
+          -297.62890126610574,
+          -40.41190896414659
+        ],
+        [
+          -307.54338581623523,
+          -40.39711489230399
+        ],
+        [
+          -317.458845335275,
+          -40.382319629690805
+        ],
+        [
+          -322.417414768768,
+          -40.377606425666485
+        ],
+        [
+          -327.3759842026826,
+          -40.38020523330742
+        ],
+        [
+          -332.33322647774736,
+          -40.38280334537868
+        ],
+        [
+          -337.29046875281205,
+          -40.385401457449944
+        ],
+        [
+          -342.2477110278768,
+          -40.3879995695212
+        ],
+        [
+          -343.92638265372153,
+          -40.38887936856526
+        ],
+        [
+          -361.475689511719,
+          -39.80970234659014
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification; interpreted using 2026-10-08 Google satellite southernside+northernisland evidence; mapped/inferred edge locally adjusted to1.8m visual rail-centre envelope, originalpolygon retained separately; notsurveyed",
+      "tags": {
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "no",
+        "ref": "2 / 3"
+      },
+      "timestamp": "2023-06-09T16:54:51Z"
+    },
+    {
+      "id": "1180712996",
+      "xy": [
+        [
+          -455.62100641089137,
+          -7.345149208254924
+        ],
+        [
+          212.5084622561053,
+          -9.114872074389922
+        ],
+        [
+          212.53805288769644,
+          -21.46065286923379
+        ],
+        [
+          -14.450147306237472,
+          -20.831081199320742
+        ],
+        [
+          -98.97468798599766,
+          -21.27531547445945
+        ],
+        [
+          -455.58988230821365,
+          -20.330723006594496
+        ],
+        [
+          -455.62100641089137,
+          -7.345149208254924
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification; interpreted using 2026-10-08 Google satellite southernside+northernisland evidence; mapped/inferred edge locally adjusted to1.8m visual rail-centre envelope, originalpolygon retained separately; notsurveyed",
+      "tags": {
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1"
+      },
+      "timestamp": "2023-06-09T16:54:51Z"
+    }
+  ],
+  "raw_platforms": [
+    {
+      "id": "383031394",
+      "xy": [
+        [
+          -308.60673929804847,
+          -41.21631837468939
+        ],
+        [
+          -336.9246899504221,
+          -40.61995513477616
+        ],
+        [
+          -361.475689511719,
+          -39.80970234659014
+        ],
+        [
+          -458.1587707948885,
+          -33.46295696760123
+        ],
+        [
+          -459.85233504386304,
+          -29.87579370911544
+        ],
+        [
+          211.55799878397806,
+          -30.247564722049546
+        ],
+        [
+          211.59611996908436,
+          -39.81696835740287
+        ],
+        [
+          -308.60673929804847,
+          -41.21631837468939
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification; interpreted using 2026-10-08 Google satellite southernside+northernisland evidence",
+      "tags": {
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "no",
+        "ref": "2 / 3"
+      },
+      "timestamp": "2023-06-09T16:54:51Z"
+    },
+    {
+      "id": "1180712996",
+      "xy": [
+        [
+          -455.58988230821365,
+          -20.330723006594496
+        ],
+        [
+          -455.62100641089137,
+          -7.345149208254924
+        ],
+        [
+          212.5084622561053,
+          -9.114872074389922
+        ],
+        [
+          212.53958635725692,
+          -22.100445872327988
+        ],
+        [
+          -455.58988230821365,
+          -20.330723006594496
+        ]
+      ],
+      "basis": "OSM footprint; mixed edit date, not operational certification; interpreted using 2026-10-08 Google satellite southernside+northernisland evidence",
+      "tags": {
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1"
+      },
+      "timestamp": "2023-06-09T16:54:51Z"
+    }
+  ],
+  "platform_corrections": [
+    {
+      "platform_id": "383031394",
+      "reason": "Original geometry crossed adopted route envelope or source registration left less than1.8m rail-centre clearance; preserve connected largest body and source extent, omit tiny detached fragments. Dimensions remain visual reconstruction.",
+      "original_area_m2": 6633.5955580388545,
+      "adopted_area_m2": 6291.989569069505,
+      "retained_fraction": 0.9485036454241805,
+      "minimum_rail_centre_distance_m": 1.799999735979912,
+      "adopted_bounds": [
+        -459.614604696034,
+        -40.543598376116954,
+        211.59611996908436,
+        -30.30673090568335
+      ],
+      "original_bounds": [
+        -459.85233504386304,
+        -41.21631837468939,
+        211.59611996908436,
+        -29.87579370911544
+      ],
+      "discarded_fragment_area_m2": 0.0
+    },
+    {
+      "platform_id": "1180712996",
+      "reason": "Original geometry crossed adopted route envelope or source registration left less than1.8m rail-centre clearance; preserve connected largest body and source extent, omit tiny detached fragments. Dimensions remain visual reconstruction.",
+      "original_area_m2": 8675.989441041815,
+      "adopted_area_m2": 8499.312649752306,
+      "retained_fraction": 0.9796361219097688,
+      "minimum_rail_centre_distance_m": 1.799999999999998,
+      "adopted_bounds": [
+        -455.62100641089137,
+        -21.46065286923379,
+        212.53805288769644,
+        -7.345149208254924
+      ],
+      "original_bounds": [
+        -455.62100641089137,
+        -22.100445872327988,
+        212.53958635725692,
+        -7.345149208254924
+      ],
+      "discarded_fragment_area_m2": 0.0
+    }
+  ],
+  "excluded": [],
+  "cross_section_y": [
+    -28.62,
+    -22.67,
+    -42.286163679692415
+  ]
+}
