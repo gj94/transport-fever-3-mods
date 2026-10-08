@@ -86,9 +86,9 @@ for x in range(-50,56,7):
  for xx in (x-2.9,x+2.9):box('Auto rank bay markings',(xx,-24,.052),(.10,5,.015),yellow)
  box('Auto rank end markings',(x,-26.5,.052),(5.9,.10,.015),yellow)
 for x in (-62,64):sign('AUTO / TAXI',(x,-22,2.8),3,.75,size=.28)
-with bpy.data.libraries.load(str(R/'source/TVC_heritage_source.blend'),link=False) as (src,dst):dst.objects=[n for n in src.objects if n.startswith('Auto ')]
-for o in dst.objects:
- if o:current.objects.link(o);o.location.y-=15;o.location.x*=1.9
+for o in list(bpy.data.collections['00_TEMP_AUTOS'].objects):
+ current.objects.link(o);bpy.data.collections['00_TEMP_AUTOS'].objects.unlink(o);o.location.y-=15;o.location.x*=1.9
+bpy.data.collections.remove(bpy.data.collections['00_TEMP_AUTOS'])
 # Dense tropical foliage clusters with individual low-poly lobes; no image billboards.
 leafmats=[material('Tropical foliage variation %d'%i,(.045+i*.015,.12+i*.035,.027+i*.007),noise=7) for i in range(4)]
 def lobe(p,s,ma):

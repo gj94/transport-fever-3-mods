@@ -7,8 +7,14 @@ from mathutils import Vector
 R=Path(__file__).resolve().parents[1];random.seed(22022)
 bpy.ops.wm.open_mainfile(filepath=str(R/'source/TVC_heritage_source.blend'))
 S=bpy.context.scene
+autocol=bpy.data.collections.new('00_TEMP_AUTOS');S.collection.children.link(autocol)
+for ob in list(S.objects):
+ if ob.name.startswith('Auto '):
+  autocol.objects.link(ob)
+  for cc in list(ob.users_collection):
+   if cc!=autocol:cc.objects.unlink(ob)
 for c in list(bpy.data.collections):
- if not c.name.startswith(('01_','02_')):
+ if not c.name.startswith(('00_TEMP','01_','02_')):
   for o in list(c.objects):bpy.data.objects.remove(o,do_unlink=True)
   bpy.data.collections.remove(c)
 for o in list(bpy.data.objects):
@@ -125,8 +131,30 @@ for lo,hi in [(-77,-27.5),(27.5,59)]:
 # Public rooms off the covered rear circulation. Fully furnished, explicitly reconstructed.
 col('04_FURNISHED_WAITING_LOUNGE_RECONSTRUCTED')
 room('Waiting lounge',-48,5.6,23,10)
-for x in (-56,-51,-46,-41):
- for y in (4,7):bench(x,y,n=5)
+leather=material('Chocolate leather upholstery',(.055,.030,.023),.40,noise=85)
+for x in (-55,-48,-41):
+ for y in (3.8,7.5):
+  box('Sofa upholstered base',(x,y,1.19),(3.0,.86,.36),leather)
+  for j in range(3):
+   xx=x+(j-1)*.91;box('Sofa seat cushion',(xx,y-.06,1.42),(.88,.74,.16),leather);box('Sofa back cushion',(xx,y+.37,1.80),(.89,.21,.67),leather)
+   for sg in(-1,1):box('Sofa cushion seam',(xx+sg*.42,y-.075,1.507),(.008,.67,.009),wood)
+  for sg in(-1,1):box('Sofa curved arm',(x+sg*1.51,y,1.59),(.19,.94,.43),leather)
+  for xx in (x-1.22,x+1.22):
+   for yy in(y-.28,y+.28):rod('Sofa chrome feet',(xx,yy,.85),(xx,yy,1.13),.034,steel,12)
+  box('Lounge side table',(x+2.12,y,1.43),(.70,.75,.055),wood)
+  for dx in(-.28,.28):rod('Lounge table legs',(x+2.12+dx,y,.85),(x+2.12+dx,y,1.40),.025,steel)
+flush()
+for ob in current.objects:
+ if ob.name.startswith(('Sofa upholstered','Sofa seat','Sofa back','Sofa curved')):
+  md=ob.modifiers.new('Soft upholstery edge radius','BEVEL');md.width=.055;md.segments=3
+# Primary2017 Southern Railway waiting-hall photograph informs finishes, not dimensions.
+cove=emit('Waiting-room blue cove glow',(.08,.42,1.0),2.5);wainscot=material('Waiting room taupe wainscot',(.46,.42,.35),.55)
+for x in(-59.3,-36.7):
+ box('AC lounge side wainscot',(x,5.6,1.70),(.065,9.5,1.68),wainscot);box('AC lounge brown wall band',(x,5.6,1.72),(.075,9.5,.32),wood);box('Waiting ceiling cove',(x+.1 if x< -48 else x-.1,5.6,4.98),(.20,9.4,.10),cove)
+for y in(.95,10.23):box('Waiting ceiling cove',(-48,y,4.98),(22.5,.18,.10),cove)
+box('Lounge wall television',(-48,10.27,3.65),(1.55,.14,.90),dark);box('TV screen',(-48,10.18,3.65),(1.40,.035,.75),glass);txt('TV passenger information','SOUTHERN RAILWAY',(-48,10.15,3.65),.12,white)
+rod('TV power cable',(-48,10.20,3.2),(-48,10.20,2.75),.012,dark);box('TV receiver shelf',(-48,10.17,2.73),(.62,.3,.07),steel);box('Set top receiver',(-48,10.15,2.82),(.44,.20,.10),dark)
+
 box('Lounge information board',(-48,10.42,3.25),(4,.12,1.3),teal)
 txt('Passenger information','PASSENGER INFORMATION\nKeep your belongings with you\nDrinking water  >',(-48,10.33,3.45),.23,white)
 box('Newspaper rack',(-58,6,1.45),(1.2,.35,1.2),wood)

@@ -33,3 +33,6 @@ Unknown room plans, ceiling heights, roof structure hidden by photographs, exact
 
 ## Map chronology caveat
 Most raw mapped yard ways carry 2020 edit dates; some service roads were edited in 2023, approaches split/edited in 2024, platform tags edited in 2026. Edit dates are not construction dates. No historical OSM snapshot or railway engineering survey was recovered. The railway layout must therefore be labelled mixed-date map-derived, never an exact 2022 as-built. The architecture intentionally excludes current redevelopment.
+
+## Additional directly inspected primary interior image
+Southern Railway's official account, AC paid waiting hall at Trivandrum, 2017: https://x.com/GMSRailway/status/886418272035328001 . Direct image https://pbs.twimg.com/media/DEw_3nvUIAALZcS.jpg was downloaded and its pixels inspected. It shows chocolate-brown upholstered sofas with chrome feet, cream/taupe tiled walls with a brown horizontal band, glossy pale paving, recessed blue perimeter ceiling light, a central wall TV/receiver/cable, fans and two pale restroom doors. The revised waiting-room furniture/finishes use these identifiable visual features. Room dimensions, opening locations and the rest of the floorplan remain reconstructed. No photograph pixels are used in the asset or published gallery, and the raw image is excluded from distribution.
