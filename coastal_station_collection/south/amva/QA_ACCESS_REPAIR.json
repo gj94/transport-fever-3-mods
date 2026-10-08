@@ -1,0 +1,75 @@
+{
+  "station": "AMVA",
+  "input_source_sha256": "42d2621fddb2b0ca7b78fc9fd00388e639ab942fffdb4575f4d967f3de2338c1",
+  "output_source_sha256": "d0fe50f13992587299c8495054f091d37a0ef3e8cb9e9fb2f71a364d496cbdce",
+  "scope": "Added only a short reconstructed continuous access link, sanitary block to platform for AMVA or around the closed ticket-shelter end wall for DAVM",
+  "foot_probes": [
+    {
+      "x": 6.26,
+      "y": -0.6909794960143429,
+      "floor_z": 1.0399999618530273,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": -0.5059794960143429,
+      "floor_z": 1.0324000120162964,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": -0.3209794960143429,
+      "floor_z": 1.0247999429702759,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": -0.1359794960143429,
+      "floor_z": 1.017199993133545,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 0.04902050398565716,
+      "floor_z": 1.0095999240875244,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 0.2340205039856571,
+      "floor_z": 1.0019999742507935,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 0.41902050398565716,
+      "floor_z": 0.9943999648094177,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 0.604020503985657,
+      "floor_z": 0.986799955368042,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 0.7890205039856573,
+      "floor_z": 0.9791999459266663,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 0.9740205039856571,
+      "floor_z": 0.9715999960899353,
+      "object": "AMVA reconstructed approach link"
+    },
+    {
+      "x": 6.26,
+      "y": 1.1590205039856571,
+      "floor_z": 0.9639999866485596,
+      "object": "Platform top RECONSTRUCTED_PLATFORM_1"
+    }
+  ],
+  "status": "Eleven actual floor support rays passed"
+}

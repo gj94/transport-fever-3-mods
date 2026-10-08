@@ -1,0 +1,239 @@
+{
+  "station": "AMVA",
+  "name": "Amaravila",
+  "source_scene_sha256": "d0fe50f13992587299c8495054f091d37a0ef3e8cb9e9fb2f71a364d496cbdce",
+  "frozen_at_utc": "2026-10-08T20:41:41.216720+00:00",
+  "status": "Frozen after builder visual review; independent audit tracked separately",
+  "revision": 1,
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/AMVA_station_v01.blend",
+      "relative_path": "south/amva/AMVA_station_v01.blend",
+      "bytes": 4655506,
+      "sha256": "d0fe50f13992587299c8495054f091d37a0ef3e8cb9e9fb2f71a364d496cbdce"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/README.md",
+      "relative_path": "south/amva/README.md",
+      "bytes": 4927,
+      "sha256": "a6ba3c611159b3fba571a971f801aae4727788187499322643a6b23faca5a270"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/SOURCES.json",
+      "relative_path": "south/amva/SOURCES.json",
+      "bytes": 10083,
+      "sha256": "d9dbf25116947776852b1c10d77b92517ed4853015bffa319d8e35a1cfda5166"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/amva/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/QA_BUILD.json",
+      "relative_path": "south/amva/QA_BUILD.json",
+      "bytes": 6474,
+      "sha256": "2c73274818c56040f983a4f1f7c160e8e74b225956919f9c266bf225f4aa7dff"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/QA_EXPORT.json",
+      "relative_path": "south/amva/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "b4459c385cf4d6314b9544d181fdae183ac3a0077391c49579401f4bd233628e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/RENDER_PROVENANCE.json",
+      "relative_path": "south/amva/RENDER_PROVENANCE.json",
+      "bytes": 3244,
+      "sha256": "d497dae86de5fbdde4bebb1c751dbfa0e0fa665a6b686b50641d59e459983eec"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/exchange/AMVA_portable_GLTF.zip",
+      "relative_path": "south/amva/exchange/AMVA_portable_GLTF.zip",
+      "bytes": 2787076,
+      "sha256": "58592526a3b5418d842d89ca631bb12b061613f08dec3203426a42fc4ed359ea"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/exchange/MANIFEST.json",
+      "relative_path": "south/amva/exchange/MANIFEST.json",
+      "bytes": 656,
+      "sha256": "5e0eb0751b4583921cd037bc385549a6acf3a9d5ba418769c78afa4065706d9d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/amva/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1482892,
+      "sha256": "9a229573c3ec041a144f63a732ce45b01345ddab5d2790c47229d31e78c298dc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/amva/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1863934,
+      "sha256": "e3d06c8a31255691778eb1ff99d43b50ab50dca9d91011382951fc5bd50acd40"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/amva/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1652810,
+      "sha256": "ed43d55cbe1c79147180f127e201d106d33c71991a172fedfbcc830c38baee14"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/amva/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1562898,
+      "sha256": "ef30bdc13c24b465e932934e7e7709b9a10cae7c19211f0a8068abb88755d25c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/amva/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1725546,
+      "sha256": "4cfbc628ca16fa72e4ea77985bbc55fbc93db0a92c29c0bb5100fb062436ce20"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/QA_SCENE.json",
+      "relative_path": "south/amva/QA_SCENE.json",
+      "bytes": 3406,
+      "sha256": "b76936efc1958eacbf6d0e2b3d5c90eb5ad1d209c888ba676e18919f7a8b2b8f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/amva/QA_CIRCULATION_RAYS.json",
+      "bytes": 858,
+      "sha256": "d99ed26e02473d516b1dcd7ecfe372998947d758c7d83e9a183a011f3d1615eb"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/VISUAL_QA.md",
+      "relative_path": "south/amva/VISUAL_QA.md",
+      "bytes": 834,
+      "sha256": "acc412fe08febd909972e0c70feaf064c0e06f2197279bb8d2c401b4832be790"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/QA_ACCESS_REPAIR.json",
+      "relative_path": "south/amva/QA_ACCESS_REPAIR.json",
+      "bytes": 2096,
+      "sha256": "e7cd01c96634082fdc3e188b5e167cae6e18d102507a286c8469e5d8bd4be686"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/REPAIR_LINEAGE.json",
+      "relative_path": "south/amva/REPAIR_LINEAGE.json",
+      "bytes": 552,
+      "sha256": "e63106880321eb560fd20a150e1d1939c9af214c8a96116a68fadbcdcbd191c7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/name_ta.svg",
+      "relative_path": "south/amva/source/name_ta.svg",
+      "bytes": 223,
+      "sha256": "90b3099fdb742b0d323af6a0d5cadc2125e206a0ba8ad54c874d5d002ae18f9c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/platform_mesh.json",
+      "relative_path": "south/amva/source/platform_mesh.json",
+      "bytes": 1222,
+      "sha256": "59f612ee316756d81fffb4890882820a9d2cdfc00389e2e842c1b570923f1873"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/build_config.json",
+      "relative_path": "south/amva/source/build_config.json",
+      "bytes": 439,
+      "sha256": "2a51e0d5d4f686941c21141399d5bc5e17e559ea111d84b26838f8debf8a45c4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/layout.json",
+      "relative_path": "south/amva/source/layout.json",
+      "bytes": 9182,
+      "sha256": "b2081a3ade8d106aca2e0a4caf76453a4915d75ae20e0eb8e38c9375bd80495b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/name_ml.svg",
+      "relative_path": "south/amva/source/name_ml.svg",
+      "bytes": 224,
+      "sha256": "fc93d3a7b92ac760c4704ff9e31385a50b2b340ebdf412dc9544572121d07e7c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/name_ml_outlined.svg",
+      "relative_path": "south/amva/source/name_ml_outlined.svg",
+      "bytes": 6825,
+      "sha256": "532f82b09648015fd86f70b41aafacac4c07cc8223141f7088c2fe424e300c2d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/name_ta_outlined.svg",
+      "relative_path": "south/amva/source/name_ta_outlined.svg",
+      "bytes": 5929,
+      "sha256": "3197896d76e03da6e078039f3a12124eacd854cd095da93c9e091e7b5323e63c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/rail_mesh.json",
+      "relative_path": "south/amva/source/rail_mesh.json",
+      "bytes": 21620,
+      "sha256": "c6ca6250068329b2f3d7cd3e568c522afda6daec1c125023f4a7d089832a5c55"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/native_names.json",
+      "relative_path": "south/amva/source/native_names.json",
+      "bytes": 143,
+      "sha256": "5ec8e6af065ce80d3aaa669be4f4e13191427830ada72d9c8b53ef29a334d0a1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/architectural_variants.py",
+      "relative_path": "south/amva/source/recipe/architectural_variants.py",
+      "bytes": 59581,
+      "sha256": "e29b1ea2ac61190f3a8ad48a12018dbd24494ecb13ed2c9fc8ed7143c822e08d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/amva/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/access_geometry.py",
+      "relative_path": "south/amva/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/build_station.py",
+      "relative_path": "south/amva/source/recipe/build_station.py",
+      "bytes": 46399,
+      "sha256": "570048f0ac0a58947669acbbbe2f51b11f945fbef09e7d8743b220c322457ea4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/prepare_geometry.py",
+      "relative_path": "south/amva/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/export_station.py",
+      "relative_path": "south/amva/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/repair_access_link.py",
+      "relative_path": "south/amva/source/recipe/repair_access_link.py",
+      "bytes": 7792,
+      "sha256": "045286e65bf51eb427ebdc0a67fd111c8f32fb040ea805154954017695d64cb7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/amva/source/recipe/scene_review_inputs.py",
+      "bytes": 2030,
+      "sha256": "00b147b651c882b44af05d895c7cafff9ee0669a2af50ff16b0fbed5fed918ed"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/source/recipe/render_station.py",
+      "relative_path": "south/amva/source/recipe/render_station.py",
+      "bytes": 5083,
+      "sha256": "12b26a12294ad886b747cde35a8bfdaa3509118fc5455e9b8d75793a9da50536"
+    }
+  ],
+  "excluded": [
+    "raw Google/third-party reference screenshots",
+    "redundant raw .glb after verified lossless archiving",
+    "Blender backup .blend1 files",
+    "logs and mutable region-wide working files"
+  ],
+  "total_bytes": 15969639
+}

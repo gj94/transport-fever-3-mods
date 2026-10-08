@@ -1,0 +1,26 @@
+{
+  "station": "PYD",
+  "input_source_sha256": "ef6ff6da192bfb369ec836c644d08ca7f5549751f5ffb5903d203e4bbf6e8f59",
+  "output_source_sha256": "9647b02f731c055609fb1c9a0ea950395f7c7535ea85bd0085a294aa0d5d28b6",
+  "changed_bounds": [
+    [
+      -38.13066864013672,
+      8.011068344116211,
+      0.7639999985694885
+    ],
+    [
+      -25.125,
+      25.645000457763672,
+      9.109999656677246
+    ]
+  ],
+  "retained_views": [
+    "02_STATION_ARCHITECTURE.png",
+    "05_TRACK_AND_PLATFORM_DETAIL.png"
+  ],
+  "rerender_prefixes": [
+    "01",
+    "03",
+    "04"
+  ]
+}

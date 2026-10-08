@@ -1,0 +1,145 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/amva/AMVA_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 755,
+  "object_types": {
+    "MESH": 734,
+    "FONT": 12,
+    "LIGHT": 4,
+    "CAMERA": 5
+  },
+  "unique_meshes": 734,
+  "unique_vertices": 227444,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -895.0,
+      -74.50546264648438,
+      -0.550000011920929
+    ],
+    [
+      895.0,
+      388.16546630859375,
+      12.068802833557129
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    },
+    {
+      "kind": "font",
+      "name": "DejaVu Sans Condensed",
+      "path": "//../../../../../../usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+      "packed": true,
+      "builtin": false
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "station_code": "AMVA",
+    "source_scope": "Google/photo-informed + OSM mixed-date source geometry + disclosed reconstructed architecture and hidden interiors; not surveyed",
+    "no_rolling_stock": "True",
+    "nominal_gauge_m": "1.676",
+    "wc_access_repair_input_sha256": "42d2621fddb2b0ca7b78fc9fd00388e639ab942fffdb4575f4d967f3de2338c1"
+  },
+  "cameras": [
+    "01_FULL_STATION_NETWORK",
+    "02_STATION_ARCHITECTURE",
+    "03_PLATFORM_AND_TRACKS",
+    "04_FURNISHED_INTERIOR",
+    "05_TRACK_AND_PLATFORM_DETAIL"
+  ],
+  "circulation_rays": {
+    "central_public_entry": {
+      "from": [
+        0.0,
+        -7.940979480743408,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        1.5590205192565918,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_to_veranda": {
+      "from": [
+        -2.799999952316284,
+        -7.940979480743408,
+        2.3499999046325684
+      ],
+      "to": [
+        -2.799999952316284,
+        -5.7409796714782715,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "veranda_to_central_entry": {
+      "from": [
+        -2.799999952316284,
+        -5.7409796714782715,
+        2.3499999046325684
+      ],
+      "to": [
+        0.0,
+        -5.7409796714782715,
+        2.3499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_bodypath": {
+      "from": [
+        -2.799999952316284,
+        -19.24098014831543,
+        0.7599999904632568
+      ],
+      "to": [
+        -2.799999952316284,
+        -7.640979290008545,
+        1.8899999856948853
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "full_ramp_low_clearance": {
+      "from": [
+        -2.799999952316284,
+        -19.24098014831543,
+        0.05000000074505806
+      ],
+      "to": [
+        -2.799999952316284,
+        -7.640979290008545,
+        1.190000057220459
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "d0fe50f13992587299c8495054f091d37a0ef3e8cb9e9fb2f71a364d496cbdce"
+}
