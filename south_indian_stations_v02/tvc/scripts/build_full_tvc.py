@@ -538,7 +538,7 @@ box('Frontage carriageway',(-5,-38,-.11),(810,15,.2),asphalt)
 for x in range(-400,401):box('Black and white roadside kerb',(x,-30.8,.06),(.98,.25,.30),white if x%2 else dark)
 for x in range(-395,396,5):box('Road centre dash',(x,-38,.006),(2.5,.13,.012),white)
 for x in range(-135,150,4):
- if -4<x<4:continue
+ if -4<x<4 or (x<117 and x+4>109):continue
  rod('Forecourt fence post',(x,-8,.1),(x,-8,1.12),.028,dark)
  for z in (.48,1.03):rod('Forecourt railing',(x,-8,z),(x+4,-8,z),.023,dark)
 for x in (-135,-100,-80,-40,40,80,145):
@@ -578,6 +578,7 @@ for w in ways:
    for z in range(2,int(h),3):box('Context building windows',(xx+nx*.05,yy+ny*.05,z),(1.0,.10,1.2),glass,angle)
 # Save build before optional expensive rendering or exchange operations.
 exec(compile((R/'scripts/add_rich_details.py').read_text(),str(R/'scripts/add_rich_details.py'),'exec'))
+exec(compile((R/'scripts/finish_entry_access.py').read_text(),str(R/'scripts/finish_entry_access.py'),'exec'))
 col('09_EDITABLE_MAPPED_ROUTE_GUIDES')
 current.hide_render=True;current.hide_viewport=True
 for wid,pts in route_paths.items():

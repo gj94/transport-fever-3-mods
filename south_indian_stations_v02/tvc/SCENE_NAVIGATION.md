@@ -1,13 +1,13 @@
 # Opening and inspecting the TVC scene
 
-Everything is in metres and in one shared local coordinate frame. Positive X points approximately WNW; positive Y points into the yard/SSW. The geometry is not compressed to fit a preview. Railway approaches are cropped at X = ±820 m; the route sum is about16.56 km because many tracks run in parallel.
+Everything is in metres and in one shared local coordinate frame. Positive X points approximately WNW; positive Y points into the yard/SSW. The geometry is not compressed to fit a preview. Railway approaches are cropped at X = ±820 m; the route sum is about 16.56 km because many tracks run in parallel.
 
 ## Useful collections
 - 01–02: photo-derived heritage pavilion/gallery geometry retained and refined from v01.
 - 03–06: entrance/back arcade, waiting lounge, office/toilets/pantry and separate reconstructed booking hall.
 - 09: editable mapped centreline guides, intentionally hidden from renders.
-- 10 and10B: rail-side components and unioned running rails/ballast. The railhead, web, foot and moving-tongue regions are distinct editable meshes.
-- 11 and11B: turnout mechanisms, single-grid bearers, buffers, checkrails and crossing fastenings.
+- 10 and 10B: rail-side components and unioned running rails/ballast. The railhead, web, foot and moving-tongue regions are distinct editable meshes.
+- 11 and 11B: turnout mechanisms, single-grid bearers, buffers, checkrails and crossing fastenings.
 - 12–14: mapped full-size platforms, furnished shelters and footbridges/stairs.
 - 15–16B: OHE/signals, drains and rail-clear service/cable routes.
 - 17–23: surroundings, operational furnishings, trilingual signs, platform paving and service-side kiosk details.
@@ -25,4 +25,4 @@ The booking-room preview is retained from an earlier saved checkpoint with its e
 All GLB exchange parts use the same world origin and metre units. Import together at identity transforms. glTF uses Y-up; the exporter handles Blender's Z-up conversion. Procedural grain/bump materials may simplify to base colour/roughness in another application. The authoritative blend retains the richer node materials, editable sources and packed signage/font resources.
 
 ## Important boundaries
-The model is a detailed visual reconstruction. It is not a2022 measured as-built, approved point design, train-clearance study or navigable safety simulation. Exact hidden room plans and many fixtures are reconstructed. R01–R46 labels are review keys tied to OSM way IDs, not verified operating road numbers. No rolling stock is present.
+The model is a detailed visual reconstruction. It is not a 2022 measured as-built, approved point design, train-clearance study or navigable safety simulation. Exact hidden room plans and many fixtures are reconstructed. R01–R46 labels are review keys tied to OSM way IDs, not verified operating road numbers. No rolling stock is present.
