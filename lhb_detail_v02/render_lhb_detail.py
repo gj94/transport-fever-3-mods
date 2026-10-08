@@ -99,11 +99,20 @@ for view in views:
  elif view=='vestibule':
   camera((9.10,.37,2.55),(11.15,.4,2.28),lens=18);fill.data.energy=95
  elif view=='toilet':
-  for o in objs:
-   if o.name.startswith('WC_door') and o.matrix_world.translation.x>10:o.hide_render=True;hidden.append(o.name)
+  bpy.context.view_layer.update()
+  def wc_center(ob):
+   return sum((ob.matrix_world @ Vector(c) for c in ob.bound_box),Vector())/8 if ob.type=='MESH' else ob.matrix_world.translation
+  doors=[ob for ob in objs if (ob.name=='WC_door' or ob.name.startswith('WC_door.')) and wc_center(ob).x>10]
+  for door in doors:
+   dc=wc_center(door);door.hide_render=True;hidden.append(door.name)
+   for ob in objs:
+    if ob.name.startswith(('WC_handle','WC_sign','WC_soap_dispenser','WC_door_latch','WC_cleanliness_notice')):
+     oc=wc_center(ob)
+     if abs(oc.x-dc.x)<.13 and oc.y*dc.y>0:
+      ob.hide_render=True;hidden.append(ob.name)
   camera((10.0,.73,2.76),(11.25,1.08,1.97),lens=18);fill.data.energy=80
  else:raise ValueError(view)
- sc.render.filepath=str(P/'previews'/f'LHB_{k}_{view}.png');start=time.time();bpy.ops.render.render(write_still=True)
+ sc.render.filepath=str(P/'previews'/f'LHB_{k}_{view}{os.environ.get("LHB_OUTPUT_SUFFIX","")}.png');start=time.time();bpy.ops.render.render(write_still=True)
  assert hashlib.sha256(source.read_bytes()).hexdigest()==source_sha,'Source changed during rendering'
  output=Path(sc.render.filepath);report={'variant':k,'view':view,'source':str(source.relative_to(P)),'source_sha256':source_sha,'render_script_sha256':script_sha,'image':str(output.relative_to(P)),'image_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'renderer':'Blender CPU Cycles','samples':sc.cycles.samples,'adaptive_threshold':sc.cycles.adaptive_threshold,'adaptive_min_samples':sc.cycles.adaptive_min_samples,'denoising':sc.cycles.use_denoising,'cpu_threads':sc.render.threads,'resolution':[sc.render.resolution_x,sc.render.resolution_y],'seconds':time.time()-start,'camera_xyz':list(sc.camera.location),'camera_lens_mm':sc.camera.data.lens,'camera_type':sc.camera.data.type,'hidden_for_review':hidden,'presentation_environment':environment_report,'environment_dependency':'../wap7_photoreal_v02/environment (Poly Haven CC0; existing repository assets)','actual_geometry_render':True,'image_generation_used':False}
- (P/'qa'/f'render_{k}_{view}.json').write_text(json.dumps(report,indent=2));print('RENDERED',k,view,round(time.time()-start,2),flush=True)
+ (P/'qa'/f'render_{k}_{view}{os.environ.get("LHB_OUTPUT_SUFFIX","")}.json').write_text(json.dumps(report,indent=2));print('RENDERED',k,view,round(time.time()-start,2),flush=True)

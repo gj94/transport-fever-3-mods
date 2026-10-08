@@ -9,7 +9,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 30, "examples": [{"object": "CABIN_control_legend", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 385, "isolated_vertices": 0, "signed_volume_m3_local": 7.339766067541483e-07}, {"object": "CABIN_control_legend.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 385, "isolated_vertices": 0, "signed_volume_m3_local": 7.339766067541483e-07}, {"object": "CABIN_control_legend.002", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertice
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.04700041], "size_m": [24.15999985, 3.3599999, 4.07400036]}
-- Source mesh totals: {"vertices": 447244, "edges": 853174, "polygons": 419685, "triangles": 866992, "closed_fabricated_components_checked": 6424, "text_objects_checked": 76, "text_seam_edges_before_weld": 33556}
+- Source mesh totals: {"vertices": 450124, "edges": 859078, "polygons": 422661, "triangles": 872848, "closed_fabricated_components_checked": 6401, "text_objects_checked": 76, "text_seam_edges_before_weld": 33556}
 
 ## 2A — PASS_WITH_WARNINGS
 
@@ -18,7 +18,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 24, "examples": [{"object": "CAPACITY_marking", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 403, "isolated_vertices": 0, "signed_volume_m3_local": 3.7288890181708107e-06}, {"object": "CAPACITY_marking.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 403, "isolated_vertices": 0, "signed_volume_m3_local": 3.7288890181708107e-06}, {"object": "CAPACITY_marking.002", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "in
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.04700041], "size_m": [24.15999985, 3.3599999, 4.07400036]}
-- Source mesh totals: {"vertices": 463828, "edges": 886235, "polygons": 435460, "triangles": 901564, "closed_fabricated_components_checked": 6219, "text_objects_checked": 64, "text_seam_edges_before_weld": 25952}
+- Source mesh totals: {"vertices": 469588, "edges": 898043, "polygons": 441412, "triangles": 913276, "closed_fabricated_components_checked": 6173, "text_objects_checked": 64, "text_seam_edges_before_weld": 25952}
 
 ## 3A — PASS_WITH_WARNINGS
 
@@ -27,7 +27,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 24, "examples": [{"object": "CAPACITY_marking", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 367, "isolated_vertices": 0, "signed_volume_m3_local": 3.669016457071271e-06}, {"object": "CAPACITY_marking.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 367, "isolated_vertices": 0, "signed_volume_m3_local": 3.669016457071271e-06}, {"object": "CAPACITY_marking.002", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inco
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.04700041], "size_m": [24.15999985, 3.3599999, 4.07400036]}
-- Source mesh totals: {"vertices": 449602, "edges": 861761, "polygons": 423884, "triangles": 875768, "closed_fabricated_components_checked": 5555, "text_objects_checked": 64, "text_seam_edges_before_weld": 26424}
+- Source mesh totals: {"vertices": 455362, "edges": 873569, "polygons": 429836, "triangles": 887480, "closed_fabricated_components_checked": 5509, "text_objects_checked": 64, "text_seam_edges_before_weld": 26424}
 
 ## 2S — PASS_WITH_WARNINGS
 
@@ -36,7 +36,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 18, "examples": [{"object": "CLASS_MARKING", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 4, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 466, "isolated_vertices": 0, "signed_volume_m3_local": 4.5122249733766896e-05}, {"object": "CLASS_MARKING.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 4, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 466, "isolated_vertices": 0, "signed_volume_m3_local": 4.5122249733766896e-05}, {"object": "DESTINATION_BOARD_text", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "incons
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.11899996], "size_m": [24.15999985, 3.3599999, 4.14599991]}
-- Source mesh totals: {"vertices": 547854, "edges": 1059705, "polygons": 522288, "triangles": 1074848, "closed_fabricated_components_checked": 5175, "text_objects_checked": 52, "text_seam_edges_before_weld": 23288}
+- Source mesh totals: {"vertices": 553614, "edges": 1071513, "polygons": 528240, "triangles": 1086560, "closed_fabricated_components_checked": 5129, "text_objects_checked": 52, "text_seam_edges_before_weld": 23288}
 
 ## CC — PASS_WITH_WARNINGS
 
@@ -45,7 +45,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 16, "examples": [{"object": "DESTINATION_BOARD_text", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 423, "isolated_vertices": 0, "signed_volume_m3_local": null}, {"object": "DESTINATION_BOARD_text.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 423, "isolated_vertices": 0, "signed_volume_m3_local": null}, {"object": "DESTINATION_BOARD_text.002", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.04700041], "size_m": [24.15999985, 3.3599999, 4.07400036]}
-- Source mesh totals: {"vertices": 1054380, "edges": 2023142, "polygons": 992317, "triangles": 2061664, "closed_fabricated_components_checked": 7350, "text_objects_checked": 55, "text_seam_edges_before_weld": 25956}
+- Source mesh totals: {"vertices": 1060140, "edges": 2034950, "polygons": 998269, "triangles": 2073376, "closed_fabricated_components_checked": 7304, "text_objects_checked": 55, "text_seam_edges_before_weld": 25956}
 
 ## SL — PASS_WITH_WARNINGS
 
@@ -54,7 +54,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 18, "examples": [{"object": "CAPACITY_marking", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 448, "isolated_vertices": 0, "signed_volume_m3_local": 3.9348114761372775e-06}, {"object": "CAPACITY_marking.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 448, "isolated_vertices": 0, "signed_volume_m3_local": 3.9348114761372775e-06}, {"object": "CAPACITY_marking.002", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 0, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 3, "nonfinite_vertices": 0, "in
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.11899996], "size_m": [24.15999985, 3.3599999, 4.14599991]}
-- Source mesh totals: {"vertices": 438616, "edges": 842852, "polygons": 415983, "triangles": 853752, "closed_fabricated_components_checked": 5695, "text_objects_checked": 62, "text_seam_edges_before_weld": 23756}
+- Source mesh totals: {"vertices": 444376, "edges": 854660, "polygons": 421935, "triangles": 865464, "closed_fabricated_components_checked": 5649, "text_objects_checked": 62, "text_seam_edges_before_weld": 23756}
 
 ## GS — PASS_WITH_WARNINGS
 
@@ -63,7 +63,7 @@ Read-only Blender inspection; no render or native TF3 conversion was performed.
 - fbx: pass_with_warnings
   - WARNING: editable_text_tessellation_clean — {"count": 18, "examples": [{"object": "CLASS_MARKING", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 752, "isolated_vertices": 0, "signed_volume_m3_local": null}, {"object": "CLASS_MARKING.001", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 752, "isolated_vertices": 0, "signed_volume_m3_local": null}, {"object": "DESTINATION_BOARD_text", "category": "editable_text_tessellation", "boundary_edges": 0, "nonmanifold_edges": 1, "wire_edges": 0, "zero_length_edges": 0, "zero_area_faces": 0, "nonfinite_vertices": 0, "inconsistent_winding_edges": 0, "faces": 4
 - Source bounds (metres): {"min_m": [-12.07999992, -1.67999995, -0.02699995], "max_m": [12.07999992, 1.67999995, 4.11899996], "size_m": [24.15999985, 3.3599999, 4.14599991]}
-- Source mesh totals: {"vertices": 406802, "edges": 781035, "polygons": 385262, "triangles": 791568, "closed_fabricated_components_checked": 5291, "text_objects_checked": 52, "text_seam_edges_before_weld": 24288}
+- Source mesh totals: {"vertices": 412562, "edges": 792843, "polygons": 391214, "triangles": 803280, "closed_fabricated_components_checked": 5245, "text_objects_checked": 52, "text_seam_edges_before_weld": 24288}
 
 ## Limits
 

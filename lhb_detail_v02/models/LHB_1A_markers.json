@@ -546,5 +546,15 @@
     "script": "scripts/fix_1a_legend_orientation.py",
     "sha256": "d0d99764e8dbbc49a43652505b71bd4ebd1ceaf3a4c2ef17e8cb5ab4ce646259",
     "purpose": "Orient eight cabin legends toward the interior (+Y); no non-text changes"
+  },
+  "wc_seat_ring_patch": {
+    "script": "scripts/fix_wc_seat_rings.py",
+    "sha256": "59a16f370a788e5445966352e826031399df6ff26468b7a5a8eafd89ec339f81",
+    "scope": "Only WC_seat_ring disconnected rods replaced by continuous manifold rings; all other evaluated geometry, hierarchy, custom properties and all material node inputs/links unchanged"
+  },
+  "wc_paper_mount_patch": {
+    "script": "scripts/fix_wc_paper_mounts.py",
+    "sha256": "52dd93467535a9939b03c5e50a18e40dddb2cc80264d65c0760b741732ecf70c",
+    "scope": "Only paper-holder and matching tissue-roll Y translations to actual corridor-wall inner face; all other evaluated geometry, hierarchy, custom properties and material node values/links unchanged"
   }
 }

@@ -32,5 +32,15 @@
   "glass_source_transmission": 0.96,
   "glass_fbx_alpha": 0.22,
   "native_TF3_conversion": false,
-  "runtime_tested": false
+  "runtime_tested": false,
+  "wc_seat_ring_patch": {
+    "script": "scripts/fix_wc_seat_rings.py",
+    "sha256": "59a16f370a788e5445966352e826031399df6ff26468b7a5a8eafd89ec339f81",
+    "scope": "Only WC_seat_ring disconnected rods replaced by continuous manifold rings; all other evaluated geometry, hierarchy, custom properties and all material node inputs/links unchanged"
+  },
+  "wc_paper_mount_patch": {
+    "script": "scripts/fix_wc_paper_mounts.py",
+    "sha256": "52dd93467535a9939b03c5e50a18e40dddb2cc80264d65c0760b741732ecf70c",
+    "scope": "Only paper-holder and matching tissue-roll Y translations to actual corridor-wall inner face; all other evaluated geometry, hierarchy, custom properties and material node values/links unchanged"
+  }
 }

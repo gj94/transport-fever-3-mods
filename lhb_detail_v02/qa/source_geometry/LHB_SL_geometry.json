@@ -1,8 +1,8 @@
 {
   "variant": "SL",
-  "generated_utc": "2026-10-07T21:00:05.077872+00:00",
+  "generated_utc": "2026-10-08T06:01:59.529790+00:00",
   "blender_version": "4.3.2",
-  "source_file": "/workspace/shared/lhb-detail/lhb_detail_v02/models/LHB_SL.blend",
+  "source_file": "/workspace/scratch/652ca471b64e/lhb_work/lhb_detail_v02/models/LHB_SL.blend",
   "checks": [
     {
       "name": "manifest_declared_contract",
@@ -30,7 +30,7 @@
       "name": "fbx_file_present_and_nonempty",
       "status": "pass",
       "details": {
-        "bytes": 22205532
+        "bytes": 22286988
       }
     },
     {
@@ -1008,12 +1008,12 @@
       "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
     },
     "statistics": {
-      "scene_objects": 5993,
-      "asset_objects": 5984,
-      "asset_mesh_objects": 5695,
+      "scene_objects": 5947,
+      "asset_objects": 5938,
+      "asset_mesh_objects": 5649,
       "asset_font_objects": 62,
       "asset_empty_objects": 227,
-      "materials": 34
+      "materials": 33
     },
     "bounds": {
       "min_m": [
@@ -3499,11 +3499,11 @@
     ],
     "topology": {
       "evaluated_totals": {
-        "vertices": 438616,
-        "edges": 842852,
-        "polygons": 415983,
-        "triangles": 853752,
-        "closed_fabricated_components_checked": 5695,
+        "vertices": 444376,
+        "edges": 854660,
+        "polygons": 421935,
+        "triangles": 865464,
+        "closed_fabricated_components_checked": 5649,
         "text_objects_checked": 62,
         "text_seam_edges_before_weld": 23756
       },
@@ -3767,10 +3767,10 @@
     "status": "pass_with_warnings"
   },
   "sha256": {
-    "blend": "46a92ed022b59952e6a3037836799927740cab4bed2bec7580aebe737d8e9e0d",
-    "manifest": "ad2972a2d7d44ada2d1f6a9f80331784ccecd2425ede1748b0fa78a07e0d64c1",
-    "markers": "66dfe455d75aadd6044a3b969e8e60fbce59927828b1cceec90d47a026fb1d30",
-    "fbx": "527525c26e66e2bc0b8a6e16a8146d4a755f4a73ccbdb3854fb24c105268cf7a"
+    "blend": "3076005a5a075b3fd61872b6daf7066e36f754b0a961c25d07025b854888f67d",
+    "manifest": "81fc1242c2542d119b841fa30a458ae815b7e89b454d466cad66111be5a03fa5",
+    "markers": "8b11ef3a1f5e6f18f820f89955603534875644e55f9534f568c8506fc957317f",
+    "fbx": "07291210078f2bc6bd12fb7798e549105ff075b62fe50e54c95dac624dce38c2"
   },
   "manifest": {
     "source_module_sha256": {
@@ -3806,7 +3806,17 @@
     "glass_source_transmission": 0.96,
     "glass_fbx_alpha": 0.22,
     "native_TF3_conversion": false,
-    "runtime_tested": false
+    "runtime_tested": false,
+    "wc_seat_ring_patch": {
+      "script": "scripts/fix_wc_seat_rings.py",
+      "sha256": "59a16f370a788e5445966352e826031399df6ff26468b7a5a8eafd89ec339f81",
+      "scope": "Only WC_seat_ring disconnected rods replaced by continuous manifold rings; all other evaluated geometry, hierarchy, custom properties and all material node inputs/links unchanged"
+    },
+    "wc_paper_mount_patch": {
+      "script": "scripts/fix_wc_paper_mounts.py",
+      "sha256": "52dd93467535a9939b03c5e50a18e40dddb2cc80264d65c0760b741732ecf70c",
+      "scope": "Only paper-holder and matching tissue-roll Y translations to actual corridor-wall inner face; all other evaluated geometry, hierarchy, custom properties and material node values/links unchanged"
+    }
   },
   "fbx": {
     "variant": "SL",
@@ -4799,9 +4809,9 @@
       "lhb_soft_finish.py": "91682274064dc7f378673aada387e4910e9275d92f33abc355f85f552bc5bd1d"
     },
     "statistics": {
-      "scene_objects": 5984,
-      "asset_objects": 5984,
-      "asset_mesh_objects": 5757,
+      "scene_objects": 5938,
+      "asset_objects": 5938,
+      "asset_mesh_objects": 5711,
       "asset_font_objects": 0,
       "asset_empty_objects": 227,
       "materials": 33
@@ -7292,11 +7302,11 @@
       "evaluated_totals": {
         "text_objects_checked": 62,
         "text_seam_edges_before_weld": 23756,
-        "vertices": 438616,
-        "edges": 842852,
-        "polygons": 415983,
-        "triangles": 853752,
-        "closed_fabricated_components_checked": 5695
+        "vertices": 444376,
+        "edges": 854660,
+        "polygons": 421935,
+        "triangles": 865464,
+        "closed_fabricated_components_checked": 5649
       },
       "issues": [
         {
@@ -7559,7 +7569,7 @@
       "unexpected": [],
       "changed": []
     },
-    "elapsed_seconds": 1.58,
+    "elapsed_seconds": 1.9,
     "status": "pass_with_warnings"
   },
   "status": "pass_with_warnings"

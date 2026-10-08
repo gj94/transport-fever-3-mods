@@ -1,6 +1,6 @@
 # LHB detailed coach family v0.2 — source assets and review gallery
 
-This isolated revision is being developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. All seven class sources and FBX exports have been rebuilt from matching current modules. Geometry, hierarchy, capacity and furnishing-placement checks pass for all seven classes, with separately reported editable-font tessellation warnings. Visual proofs are being reviewed and refined. The first published checkpoint remains explicitly WIP. Do not treat this checkpoint as a final release or runtime-ready asset.
+This isolated revision contains source assets and a 21-view rendered gallery (20 accepted views; lavatory detail under corrective review), developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. All seven class sources and FBX exports have been rebuilt from matching current modules. Geometry, hierarchy, capacity and furnishing-placement checks pass for all seven classes, with separately reported editable-font tessellation warnings. Visual proofs are being reviewed and refined. The first published checkpoint remains explicitly WIP. Do not treat this checkpoint as a final release or runtime-ready asset.
 
 ## Prototype and coordinate contract
 
@@ -71,8 +71,24 @@ Native editable sources are the seven `.blend` masters in `models/`; paired `.fb
 
 ## Visible fidelity caveats
 
-The models are detailed reference-informed authoring assets, not a claim of photorealistic perfection. At close range, some CC tray and armrest bevels reveal polygon faceting. Interior frames retain visible path-tracing grain because denoising is disabled. Sleeper corridor views mostly document layout; the 3A bay detail shows berth faces more clearly. Fine fixtures, coupler castings and equipment placement are representative interpretations, and editable-font tessellation warnings remain disclosed in QA. These limits do not change the measured source/FBX checks or imply native game readiness.
+The models are detailed reference-informed authoring assets, not a claim of photorealistic perfection. At close range, some CC tray and armrest bevels reveal polygon faceting. The lavatory is a representative modular layout; the rejected segmented seat and floating paper fixture were corrected in the documented WC repair revision. Interior frames retain visible path-tracing grain because denoising is disabled. Sleeper corridor views mostly document layout; the 3A bay detail shows berth faces more clearly. Fine fixtures, coupler castings and equipment placement are representative interpretations, and editable-font tessellation warnings remain disclosed in QA. These limits do not change the measured source/FBX checks or imply native game readiness.
 
 ## Provenance scope
 
 Final image and source SHA-256 values, render/helper dependency identities, eight 64-sample EXR batches and single final display transform are independently checked by `scripts/audit_final_gallery.py`. Local EXR caches are recovery/audit material and excluded from the portable source/gallery archive. Per-view `camera_xyz` and lens metadata describe the configured camera and are checked against the unchanged renderer. The nested checkpoint `spec.camera_matrix` was captured before dependency-graph evaluation and can retain the saved scene camera transform; it must not be described as the actual evaluated view matrix. For example, the 1A cabin-entry record correctly reports `camera_xyz` approximately (-7.15, -1.30, 2.59), while the nested pre-evaluation matrix retains translation (20, -29, 13). Existing records and fingerprints are preserved byte-for-byte rather than retroactively relabeled. Final checks do not assert native-game compatibility.
+
+## WC repair revision and exact rebuild order
+
+The final WC review found disconnected six-sided seat-ring rods and a paper-holder/tissue pair floating away from its mounting wall. Two deterministic post-build repairs replace only the rings with continuous manifold smooth meshes (same envelope, material and parent) and move only the paper fixtures onto the actual corridor-wall face. The tissue roll is offset just enough to avoid penetrating the wall. Every other evaluated object, hierarchy, anchor, custom property and material node value/link is fingerprinted unchanged at each step. Patch metadata added to the vehicle root and sidecars is explicit.
+
+To reproduce the latest masters from the unchanged original modules, run in this order:
+
+1. `blender -b -t 2 --python build_lhb_detail.py`
+2. `blender -b -t 2 --python scripts/fix_1a_legend_orientation.py`
+3. `blender -b -t 2 --python scripts/fix_wc_seat_rings.py`
+4. `blender -b -t 2 --python scripts/fix_wc_paper_mounts.py`
+5. `blender -b -t 2 --python scripts/verify_lhb_detail.py -- --fbx`
+
+The ring repair intentionally expects original 24-piece rings and stops if applied twice. The patch scripts export fresh FBX with the same documented alpha fallback. Their hashes are embedded in root/sidecar patch metadata and exact before/after source hashes are in `qa/wc_seat_ring_patch.json` and `qa/wc_paper_mount_patch.json`. Blender binary serialization may differ across runs; this recipe reproduces scoped geometry, not a promise of identical `.blend` bytes across Blender versions.
+
+The twenty previously accepted gallery frames remain linked to exact masters in `revisions/pre_wc_repair_20261008/models/`. They predate these concealed WC fixture changes and are not relabeled as newly rendered latest-source images. The corrected toilet view is rerendered from the latest master. Historical rejected toilet evidence is retained only in the revision directory. `GALLERY.md` and `DELIVERY_STATUS.json` explicitly label every source revision. The cutaway renderer hides each removed WC door's matched attachments using evaluated bounds; it never saves those visibility changes into masters.

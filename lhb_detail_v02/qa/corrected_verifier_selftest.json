@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "verifier_sha256": "2bc776042f18c6a1402d9834e097f0ce8450413853a7d71d1a46b63a8f03bf63",
+  "source_3A_sha256": "3910456addd931a5d35ac9c4b055453d02c81fe860f545b65d480934130b0b56",
+  "source_GS_sha256": "758bf9f9f1a9e18cb5bd72e946bdd6f1d14d25c03e59160cc96ba601f4d2b90f",
+  "source_1A_sha256": "938692053b0e2ee2fd8d51c95b3df0493dfe742c573f1dbb8f89990a92bccdb8",
+  "tests": [
+    {
+      "test": "unmodified dimensions, fixture positions and passenger placement",
+      "passed": true
+    },
+    {
+      "test": "detect upper-height seated passenger root",
+      "passed": true
+    },
+    {
+      "test": "detect fixture escaped beyond body",
+      "passed": true
+    },
+    {
+      "test": "detect wheelbase geometry error despite correct properties",
+      "passed": true
+    },
+    {
+      "test": "detect a displaced HVAC well floor",
+      "passed": true
+    },
+    {
+      "test": "detect privacy glass accidentally assigned clear alpha",
+      "passed": true
+    },
+    {
+      "test": "detect missing passenger despite correct root metadata",
+      "passed": true
+    },
+    {
+      "test": "unmodified GS mirrored banks, fans and transverse racks",
+      "passed": true
+    },
+    {
+      "test": "detect a missing GS fan despite unchanged metadata",
+      "passed": true
+    },
+    {
+      "test": "detect a GS main-bank passenger reflected to the wrong side",
+      "passed": true
+    },
+    {
+      "test": "detect longitudinal rather than transverse rack rail with unchanged count",
+      "passed": true
+    },
+    {
+      "test": "unmodified 1A ladder and wall fittings attach",
+      "passed": true
+    },
+    {
+      "test": "detect disconnected ladder stile",
+      "passed": true
+    },
+    {
+      "test": "detect coat-hook base floating off partition",
+      "passed": true
+    }
+  ]
+}
