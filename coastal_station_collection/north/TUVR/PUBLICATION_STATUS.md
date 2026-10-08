@@ -1,5 +1,5 @@
 # Publication checkpoint
 
-Frozen v03 source and lossless export checkpoint. Final independent station gate is pending; per-frame lineage is preserved in the sidecars.
+Final v03 passed independent station review with disclosed reconstruction limits. All five accepted previews preserve their documented per-frame source lineage, including retained unchanged-area views.
 
-Rendered preview images are withheld until independent visual acceptance; source/export files are preserved for recovery.
+5 independently accepted preview images are included.

@@ -1,0 +1,566 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/TUVR/TUVR_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 96,
+  "object_types": {
+    "MESH": 74,
+    "CURVE": 12,
+    "FONT": 2,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 74,
+  "unique_vertices": 603098,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.189029693603516
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f5e8da574e0>",
+    "station_code": "TUVR",
+    "station_name": "Turavur",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "flight_1_-0.6_0.45": {
+      "from": [
+        4.369545936584473,
+        48.15263748168945,
+        1.899999976158142
+      ],
+      "to": [
+        4.369545936584473,
+        63.352638244628906,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0_0.45": {
+      "from": [
+        4.969545841217041,
+        48.15263748168945,
+        1.899999976158142
+      ],
+      "to": [
+        4.969545841217041,
+        63.352638244628906,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0.6_0.45": {
+      "from": [
+        5.569545745849609,
+        48.15263748168945,
+        1.899999976158142
+      ],
+      "to": [
+        5.569545745849609,
+        63.352638244628906,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_1_0.45": {
+      "from": [
+        4.969545841217041,
+        63.15263748168945,
+        9.149999618530273
+      ],
+      "to": [
+        4.969545841217041,
+        64.8526382446289,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_-0.6_0.9": {
+      "from": [
+        4.369545936584473,
+        48.15263748168945,
+        2.3499999046325684
+      ],
+      "to": [
+        4.369545936584473,
+        63.352638244628906,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0_0.9": {
+      "from": [
+        4.969545841217041,
+        48.15263748168945,
+        2.3499999046325684
+      ],
+      "to": [
+        4.969545841217041,
+        63.352638244628906,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0.6_0.9": {
+      "from": [
+        5.569545745849609,
+        48.15263748168945,
+        2.3499999046325684
+      ],
+      "to": [
+        5.569545745849609,
+        63.352638244628906,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_1_0.9": {
+      "from": [
+        4.969545841217041,
+        63.15263748168945,
+        9.600000381469727
+      ],
+      "to": [
+        4.969545841217041,
+        64.8526382446289,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_-0.6_1.7": {
+      "from": [
+        4.369545936584473,
+        48.15263748168945,
+        3.1500000953674316
+      ],
+      "to": [
+        4.369545936584473,
+        63.352638244628906,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0_1.7": {
+      "from": [
+        4.969545841217041,
+        48.15263748168945,
+        3.1500000953674316
+      ],
+      "to": [
+        4.969545841217041,
+        63.352638244628906,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_1_0.6_1.7": {
+      "from": [
+        5.569545745849609,
+        48.15263748168945,
+        3.1500000953674316
+      ],
+      "to": [
+        5.569545745849609,
+        63.352638244628906,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_1_1.7": {
+      "from": [
+        4.969545841217041,
+        63.15263748168945,
+        10.399999618530273
+      ],
+      "to": [
+        4.969545841217041,
+        64.8526382446289,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_1_63.3426": {
+      "from": [
+        4.969545841217041,
+        63.34263610839844,
+        8.899999618530273
+      ],
+      "to": [
+        4.969545841217041,
+        63.34263610839844,
+        7.5
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        4.969545841217041,
+        63.34263610839844,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_1_63.3626": {
+      "from": [
+        4.969545841217041,
+        63.36263656616211,
+        8.899999618530273
+      ],
+      "to": [
+        4.969545841217041,
+        63.36263656616211,
+        7.5
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        4.969545841217041,
+        63.36263656616211,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "flight_2_-0.6_0.45": {
+      "from": [
+        25.97948455810547,
+        48.15263748168945,
+        1.899999976158142
+      ],
+      "to": [
+        25.97948455810547,
+        63.352638244628906,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0_0.45": {
+      "from": [
+        26.579484939575195,
+        48.15263748168945,
+        1.899999976158142
+      ],
+      "to": [
+        26.579484939575195,
+        63.352638244628906,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0.6_0.45": {
+      "from": [
+        27.179485321044922,
+        48.15263748168945,
+        1.899999976158142
+      ],
+      "to": [
+        27.179485321044922,
+        63.352638244628906,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_2_0.45": {
+      "from": [
+        26.579484939575195,
+        63.15263748168945,
+        9.149999618530273
+      ],
+      "to": [
+        26.579484939575195,
+        64.8526382446289,
+        9.149999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_-0.6_0.9": {
+      "from": [
+        25.97948455810547,
+        48.15263748168945,
+        2.3499999046325684
+      ],
+      "to": [
+        25.97948455810547,
+        63.352638244628906,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0_0.9": {
+      "from": [
+        26.579484939575195,
+        48.15263748168945,
+        2.3499999046325684
+      ],
+      "to": [
+        26.579484939575195,
+        63.352638244628906,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0.6_0.9": {
+      "from": [
+        27.179485321044922,
+        48.15263748168945,
+        2.3499999046325684
+      ],
+      "to": [
+        27.179485321044922,
+        63.352638244628906,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_2_0.9": {
+      "from": [
+        26.579484939575195,
+        63.15263748168945,
+        9.600000381469727
+      ],
+      "to": [
+        26.579484939575195,
+        64.8526382446289,
+        9.600000381469727
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_-0.6_1.7": {
+      "from": [
+        25.97948455810547,
+        48.15263748168945,
+        3.1500000953674316
+      ],
+      "to": [
+        25.97948455810547,
+        63.352638244628906,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0_1.7": {
+      "from": [
+        26.579484939575195,
+        48.15263748168945,
+        3.1500000953674316
+      ],
+      "to": [
+        26.579484939575195,
+        63.352638244628906,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "flight_2_0.6_1.7": {
+      "from": [
+        27.179485321044922,
+        48.15263748168945,
+        3.1500000953674316
+      ],
+      "to": [
+        27.179485321044922,
+        63.352638244628906,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "transition_2_1.7": {
+      "from": [
+        26.579484939575195,
+        63.15263748168945,
+        10.399999618530273
+      ],
+      "to": [
+        26.579484939575195,
+        64.8526382446289,
+        10.399999618530273
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_2_63.3426": {
+      "from": [
+        26.579484939575195,
+        63.34263610839844,
+        8.899999618530273
+      ],
+      "to": [
+        26.579484939575195,
+        63.34263610839844,
+        7.5
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        26.579484939575195,
+        63.34263610839844,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_2_63.3626": {
+      "from": [
+        26.579484939575195,
+        63.36263656616211,
+        8.899999618530273
+      ],
+      "to": [
+        26.579484939575195,
+        63.36263656616211,
+        7.5
+      ],
+      "clear": false,
+      "hit": "07 | Pedestrian footbridge reconstructed geometry / steel",
+      "hit_location": [
+        26.579484939575195,
+        63.36263656616211,
+        8.699999809265137
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "bed17316380d62dd8e7e2d924d84466a2c4d83ee10d3ae8899f7cc9ce1353504"
+}

@@ -1,0 +1,62 @@
+{
+  "station": "TUVR",
+  "reviewed_utc": "2026-10-08T19:46:49Z",
+  "status": "visual_pass_pending_final_lineage",
+  "intended_final_scene_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+  "scope": "All five current pixels inspected in fresh contact sheet; full02 and04 additionally inspected. Visual/source review, not geometry or release certification.",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "1f9cfeb5822cb8ab2e0f886b64a3f7545e654bec251b08c2568a43beb4ebac70",
+      "provenance_image_sha256": "1f9cfeb5822cb8ab2e0f886b64a3f7545e654bec251b08c2568a43beb4ebac70",
+      "source_scene_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+      "retained_for_final_blend_sha256": null
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "953ca5f06ebfa190e0b78329729d4464b8cac1c6d85a0c2bded9a8ba28425bae",
+      "provenance_image_sha256": "953ca5f06ebfa190e0b78329729d4464b8cac1c6d85a0c2bded9a8ba28425bae",
+      "source_scene_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+      "retained_for_final_blend_sha256": null
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "e849ddc9c87d2384550b99115b621f71a7d82c942b88e143cf611eceb154aaa7",
+      "provenance_image_sha256": "e849ddc9c87d2384550b99115b621f71a7d82c942b88e143cf611eceb154aaa7",
+      "source_scene_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+      "retained_for_final_blend_sha256": null
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "1563ad6aca247b06c25c3205a003a539890584cfa02f7a6f82aecbb29cd92695",
+      "provenance_image_sha256": "1563ad6aca247b06c25c3205a003a539890584cfa02f7a6f82aecbb29cd92695",
+      "source_scene_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+      "retained_for_final_blend_sha256": null
+    },
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "2c690e7c2214aea7944acbaaa1e004b87ed28df95b552d702acd222715b1c589",
+      "provenance_image_sha256": "2c690e7c2214aea7944acbaaa1e004b87ed28df95b552d702acd222715b1c589",
+      "source_scene_sha256": "d79cc9f6a7540dded82f3518c4caeca2a0e24de44b804199465811c4aa5d9b3a",
+      "retained_for_final_blend_sha256": null
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/north/research/TUVR_photo.png",
+      "sha256": "7072dc0f6a17dc26e582c1b77cf6e8fc43460bcdf59875336c0debb21587902e",
+      "actual_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/north/research/TUVR_tanks.jpg",
+      "sha256": "d3bb0c4c78bd546f46128d4dcdf6d75d94948730658bdc748d23583b51238164",
+      "actual_pixels_inspected": true
+    }
+  ],
+  "observations": [
+    "Three distinct ribbed black water tanks on separate metal stands over masonry pedestals are visibly represented, with compact red portico and correct readable name strip.",
+    "No invented upper-window clerestory remains.",
+    "Current04 clearly shows waiting chairs, ticket room and ceiling fan/lighting; reconstructed unseen room layout is disclosed.",
+    "Overall, platform and pointwork views provide useful coverage without rolling stock."
+  ],
+  "nonblocking_notes": [
+    "Frame05 has a near mast over its right side, but useful branch/rail hardware remains inspectable.",
+    "Model uses disclosed approximate wing massing and stylized materials; no photographic realism requirement."
+  ],
+  "lineage_note": "Frame05 still records old scene d79cc9f6\u2026 without final retained-subject declaration at review time. Technical auditor must resolve lineage; visual verdict applies only to exact reviewed image hash."
+}
