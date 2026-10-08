@@ -1,0 +1,190 @@
+{
+  "station": "KXP",
+  "name": "Kaniyapuram",
+  "source_scene_sha256": "7dfd6ba3408db78ace4e306915c7477ff7a6d993424306749713fd34d31e15ad",
+  "frozen_at_utc": "2026-10-08T19:22:34.114972+00:00",
+  "status": "Frozen after builder visual review; independent audit tracked separately",
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/KXP_station_v01.blend",
+      "relative_path": "south/kxp/KXP_station_v01.blend",
+      "bytes": 8599118,
+      "sha256": "7dfd6ba3408db78ace4e306915c7477ff7a6d993424306749713fd34d31e15ad"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/README.md",
+      "relative_path": "south/kxp/README.md",
+      "bytes": 5435,
+      "sha256": "bf141d86a72579ab69185706eeda3af8eb4a6d93edf71936b31484ef51f8da34"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/SOURCES.json",
+      "relative_path": "south/kxp/SOURCES.json",
+      "bytes": 12158,
+      "sha256": "e8255c969d7855e83d51b3caa503b064124353eb7f9f655becdb015b4decad2d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/kxp/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/QA_BUILD.json",
+      "relative_path": "south/kxp/QA_BUILD.json",
+      "bytes": 7084,
+      "sha256": "574dda22e818ec8097cef54e52e5f0a74c298aba0736a5e8dcdb768d5533ee98"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/QA_EXPORT.json",
+      "relative_path": "south/kxp/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "e3feb570567bb55b12aa78903330a9ae3e831b026340a692a2bce625b8613367"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/RENDER_PROVENANCE.json",
+      "relative_path": "south/kxp/RENDER_PROVENANCE.json",
+      "bytes": 2442,
+      "sha256": "f9e4a94f20356d8ca228f0ccaaa21ee2bda6482440b88661eba821377046c3a7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/exchange/KXP_portable_GLTF.zip",
+      "relative_path": "south/kxp/exchange/KXP_portable_GLTF.zip",
+      "bytes": 5429973,
+      "sha256": "8a3c7151d14621f2cff02f4258275ee2be25616c6412bad8fe80cffd64c9a8d7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/exchange/MANIFEST.json",
+      "relative_path": "south/kxp/exchange/MANIFEST.json",
+      "bytes": 654,
+      "sha256": "33f88a1f86753210bb685961bdf73004e4bf20f1eb57c7ca570eb7e0e1b91ece"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/kxp/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1443348,
+      "sha256": "be9cbcace31ec6bb14a0615a843cb0601b77e77e61a456a408d984077de03694"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/kxp/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1962124,
+      "sha256": "ca36817c57b3975afdfd245bd477cfdd0d6da85d8c5b63c5497eda4b59ccdc88"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/kxp/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1733900,
+      "sha256": "8c5fa4b02e955dade20d2508f273f7194884a4e3c2a1ea0c481720f75c109794"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/kxp/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1474670,
+      "sha256": "c8ef85b8b8c793fc86308233532d0f2da36ea3b4a7410de56f509568148db791"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/kxp/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1916064,
+      "sha256": "01a227f45f960ae3b07f804da95879388629848df8d629f5d62a31c618a779d6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/QA_SCENE.json",
+      "relative_path": "south/kxp/QA_SCENE.json",
+      "bytes": 3900,
+      "sha256": "89cdf612312de950fce83e7b3b1e28cb3b903eb4ddb061fed02f6fa56e0870e1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/kxp/QA_CIRCULATION_RAYS.json",
+      "bytes": 1183,
+      "sha256": "64163740baf3554f30e97295b7953bf622c9f8dd68cbe85c9964ea81163fc1cc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/VISUAL_QA.md",
+      "relative_path": "south/kxp/VISUAL_QA.md",
+      "bytes": 1479,
+      "sha256": "43ef45969be84ec6f08b066cca410dd17fa4149f202563514ed7e75d00a6358b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/platform_mesh.json",
+      "relative_path": "south/kxp/source/platform_mesh.json",
+      "bytes": 1443,
+      "sha256": "b25270327406f259f5847ad07fe79c5cde120ef8ef43e6064d5a4cb1e051e169"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/build_config.json",
+      "relative_path": "south/kxp/source/build_config.json",
+      "bytes": 370,
+      "sha256": "85b83c9e85782a6af2c514919652be82681452e35e1a0d7f81e70072fa710c36"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/layout.json",
+      "relative_path": "south/kxp/source/layout.json",
+      "bytes": 11397,
+      "sha256": "289923278b9dd1188379cfe7babf2406f15e8d323102c31ca59186d79fd351f7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/name_ml.svg",
+      "relative_path": "south/kxp/source/name_ml.svg",
+      "bytes": 233,
+      "sha256": "e79851a0b0a8e5a34ff74d8b874d98387d914f59c7e146d6203ce0a36d0c3c94"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/name_ml_outlined.svg",
+      "relative_path": "south/kxp/source/name_ml_outlined.svg",
+      "bytes": 8190,
+      "sha256": "e0f0f953a588d3633a5f9e439d402dae58b4487a1ed5394fe04fa9a8ec7a2847"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/rail_mesh.json",
+      "relative_path": "south/kxp/source/rail_mesh.json",
+      "bytes": 20063,
+      "sha256": "30acd23d254bc1905636b3d8412e30e3d4cba838d03d6e8c413a0352b06cef70"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/native_names.json",
+      "relative_path": "south/kxp/source/native_names.json",
+      "bytes": 82,
+      "sha256": "e7eb54e0c907424aa0f8c85b601cce5d5a55862de041e4572e4fac7592b34a30"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/recipe/architectural_variants.py",
+      "relative_path": "south/kxp/source/recipe/architectural_variants.py",
+      "bytes": 41593,
+      "sha256": "b8207e6edea0cecafca64b11e5a4a9ae1822b7f42192b1612a43e909f6ba109d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/recipe/build_station.py",
+      "relative_path": "south/kxp/source/recipe/build_station.py",
+      "bytes": 44483,
+      "sha256": "9721879bef843267eeee22d50c95d379f872f2ea188af1904864e3d97b3d0fd4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/recipe/prepare_geometry.py",
+      "relative_path": "south/kxp/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/recipe/export_station.py",
+      "relative_path": "south/kxp/source/recipe/export_station.py",
+      "bytes": 1844,
+      "sha256": "3cfc857dac244787ca897d7193247b4e4df2757504e8fd7b53930f64aa34181a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kxp/source/recipe/render_station.py",
+      "relative_path": "south/kxp/source/recipe/render_station.py",
+      "bytes": 2804,
+      "sha256": "a4fa519568afbe6d90c7e9e15d29f78cf215fc5fc823c4c73dacf2c75178e223"
+    }
+  ],
+  "excluded": [
+    "raw Google/third-party reference screenshots",
+    "redundant raw .glb after verified lossless archiving",
+    "Blender backup .blend1 files",
+    "logs and mutable region-wide working files"
+  ],
+  "total_bytes": 22752508
+}
