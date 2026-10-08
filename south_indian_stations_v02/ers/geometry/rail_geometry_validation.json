@@ -1,0 +1,165 @@
+{
+  "mesh_based_test": true,
+  "top_surface_polygon_count": 22205,
+  "raw_boundary_overlap_area_m2": 0.0027302867439580043,
+  "all_route_flange_channel_interior_overlap_area_m2": 0.0,
+  "rounding_tolerance_m": 2e-06,
+  "skipped_multiroute_sections": [
+    {
+      "way": "285881579",
+      "section_x_m": 180,
+      "reason": "Multiple route heads present in cross-section; not a plain-track gauge sample"
+    },
+    {
+      "way": "640552573",
+      "section_x_m": 180,
+      "reason": "Multiple route heads present in cross-section; not a plain-track gauge sample"
+    },
+    {
+      "way": "285881579",
+      "section_x_m": 280,
+      "reason": "Multiple route heads present in cross-section; not a plain-track gauge sample"
+    },
+    {
+      "way": "640552588",
+      "section_x_m": 280,
+      "reason": "Multiple route heads present in cross-section; not a plain-track gauge sample"
+    }
+  ],
+  "overlap_note": "Tiny boundary-only residue may result from1micrometre coordinate quantization; substantive channel fillings fail.",
+  "gauge_checks": [
+    {
+      "way": "49015817",
+      "section_x_m": 0,
+      "gauge_m": 1.676000166643711
+    },
+    {
+      "way": "285881579",
+      "section_x_m": 0,
+      "gauge_m": 1.6760004231024648
+    },
+    {
+      "way": "285881585",
+      "section_x_m": 0,
+      "gauge_m": 1.6759994222132883
+    },
+    {
+      "way": "514137864",
+      "section_x_m": 0,
+      "gauge_m": 1.6759999404706711
+    },
+    {
+      "way": "640487681",
+      "section_x_m": 0,
+      "gauge_m": 1.6760005294790008
+    },
+    {
+      "way": "640552570",
+      "section_x_m": 0,
+      "gauge_m": 1.675999637571765
+    },
+    {
+      "way": "640552573",
+      "section_x_m": 0,
+      "gauge_m": 1.6759998186340788
+    },
+    {
+      "way": "1311408253",
+      "section_x_m": 0,
+      "gauge_m": 1.6759996025404047
+    },
+    {
+      "way": "1311408254",
+      "section_x_m": 0,
+      "gauge_m": 1.6760005204909072
+    },
+    {
+      "way": "1453149441",
+      "section_x_m": 0,
+      "gauge_m": 1.6759996723976422
+    },
+    {
+      "way": "49015817",
+      "section_x_m": 180,
+      "gauge_m": 1.6760000477961248
+    },
+    {
+      "way": "285881585",
+      "section_x_m": 180,
+      "gauge_m": 1.6760000350525723
+    },
+    {
+      "way": "514137864",
+      "section_x_m": 180,
+      "gauge_m": 1.6759999369361311
+    },
+    {
+      "way": "640487681",
+      "section_x_m": 180,
+      "gauge_m": 1.676000217520953
+    },
+    {
+      "way": "640552570",
+      "section_x_m": 180,
+      "gauge_m": 1.6759993575677394
+    },
+    {
+      "way": "1311408253",
+      "section_x_m": 180,
+      "gauge_m": 1.6760000160897528
+    },
+    {
+      "way": "1311408254",
+      "section_x_m": 180,
+      "gauge_m": 1.6759999427795906
+    },
+    {
+      "way": "1453149441",
+      "section_x_m": 180,
+      "gauge_m": 1.6760001105239608
+    },
+    {
+      "way": "49015817",
+      "section_x_m": 280,
+      "gauge_m": 1.6759999784899016
+    },
+    {
+      "way": "285881585",
+      "section_x_m": 280,
+      "gauge_m": 1.676000067493471
+    },
+    {
+      "way": "514137864",
+      "section_x_m": 280,
+      "gauge_m": 1.676000366780925
+    },
+    {
+      "way": "640487681",
+      "section_x_m": 280,
+      "gauge_m": 1.6760000755046258
+    },
+    {
+      "way": "640552570",
+      "section_x_m": 280,
+      "gauge_m": 1.6760000068354026
+    },
+    {
+      "way": "1311408253",
+      "section_x_m": 280,
+      "gauge_m": 1.6759995100342362
+    },
+    {
+      "way": "1311408254",
+      "section_x_m": 280,
+      "gauge_m": 1.67599955472419
+    },
+    {
+      "way": "1453149441",
+      "section_x_m": 280,
+      "gauge_m": 1.67599973716037
+    }
+  ],
+  "nominal_gauge_m": 1.676,
+  "gauge_max_abs_error_m": 6.424322605003141e-07,
+  "model_is_engineering_certified": false
+}

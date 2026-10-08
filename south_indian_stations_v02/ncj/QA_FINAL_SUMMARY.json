@@ -1,0 +1,376 @@
+{
+  "scene": {
+    "unit_system": "METRIC",
+    "scale_length": 1.0,
+    "nonfinite_meshes": [],
+    "objects": 7947,
+    "mesh_count": 6105,
+    "vertices": 3141981,
+    "polygons": 2187393,
+    "material_count": 39,
+    "camera_count": 17,
+    "packed_fonts": true,
+    "no_rolling_stock": true,
+    "walk_circulation_rays": {
+      "entrance_to_hall": {
+        "from": [
+          0.0,
+          -6.0,
+          2.0
+        ],
+        "to": [
+          0.0,
+          3.0,
+          2.0
+        ],
+        "clear": true,
+        "hit": null
+      },
+      "hall_to_platform_central": {
+        "from": [
+          0.0,
+          8.0,
+          2.0
+        ],
+        "to": [
+          0.0,
+          12.0,
+          2.0
+        ],
+        "clear": true,
+        "hit": null
+      },
+      "waiting_door": {
+        "from": [
+          -25.0,
+          -2.0,
+          2.0
+        ],
+        "to": [
+          -25.0,
+          1.0,
+          2.0
+        ],
+        "clear": true,
+        "hit": null
+      },
+      "wc_entrance": {
+        "from": [
+          -68.0,
+          0.0,
+          2.0
+        ],
+        "to": [
+          -68.0,
+          3.0,
+          2.0
+        ],
+        "clear": true,
+        "hit": null
+      },
+      "bridge_stair_entry_1": {
+        "from": [
+          -87.0,
+          15.5,
+          8.300000190734863
+        ],
+        "to": [
+          -91.0,
+          15.5,
+          8.300000190734863
+        ],
+        "clear": true,
+        "hit": null
+      },
+      "bridge_stair_entry_23": {
+        "from": [
+          -87.0,
+          34.5,
+          8.300000190734863
+        ],
+        "to": [
+          -91.0,
+          34.5,
+          8.300000190734863
+        ],
+        "clear": true,
+        "hit": null
+      }
+    },
+    "rail_gauge_m": 1.676,
+    "render_threads": 4,
+    "denoise": false,
+    "simple_turnouts": 20,
+    "compound_treatment": "14nodes: source-route rail unions +46mm flange channels +one clipped bearer field; simplified fixed visual crossings, not movable pointwork/interlocking.",
+    "OHE_supports": "Portal-aligned connected suspension/brackets; legs outside route groups, geometric clearance report included."
+  },
+  "simple_turnouts": 20,
+  "compound_junctions": 14,
+  "compound_rail_crossings": 29,
+  "minimum_OHE_centreline_clearance_m": 3.4064225231891485,
+  "pit_facilities": [
+    {
+      "source_road": "514385386",
+      "clear_inspection_length_m": 413.9999860192864,
+      "sections_3m": 138,
+      "assignment": "Reconstructed facility on mapped road; actual pit number unknown"
+    },
+    {
+      "source_road": "514385387",
+      "clear_inspection_length_m": 300.00000000000017,
+      "sections_3m": 100,
+      "assignment": "Reconstructed facility on mapped road; actual pit number unknown"
+    },
+    {
+      "source_road": "514385388",
+      "clear_inspection_length_m": 407.9999999999996,
+      "sections_3m": 136,
+      "assignment": "Reconstructed facility on mapped road; actual pit number unknown"
+    },
+    {
+      "source_road": "1302623382",
+      "clear_inspection_length_m": 278.9999999999998,
+      "sections_3m": 93,
+      "assignment": "Reconstructed facility on mapped road; actual pit number unknown"
+    },
+    {
+      "source_road": "1302623383",
+      "clear_inspection_length_m": 311.9999968125747,
+      "sections_3m": 104,
+      "assignment": "Reconstructed facility on mapped road; actual pit number unknown"
+    }
+  ],
+  "source_status": "Mixed-date heritage/map reconstruction; interiors and engineering fixtures inferred. No as-built or interlocking certification.",
+  "stair_canopy_clearance": {
+    "roof_faces_cut": 428,
+    "roof_members_trimmed": 24,
+    "opening_bounds": [
+      -91.8,
+      -74.8
+    ],
+    "opening_clear_width_m": 2.9,
+    "flight_width_m": 2.2,
+    "swept_body_rays": [
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": -0.88,
+        "body_height_m": 0.4,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": -0.88,
+        "body_height_m": 1.0,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": -0.88,
+        "body_height_m": 1.8,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": 0,
+        "body_height_m": 0.4,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": 0,
+        "body_height_m": 1.0,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": 0,
+        "body_height_m": 1.8,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": 0.88,
+        "body_height_m": 0.4,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": 0.88,
+        "body_height_m": 1.0,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 15.5,
+        "lateral_offset_m": 0.88,
+        "body_height_m": 1.8,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": -0.88,
+        "body_height_m": 0.4,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": -0.88,
+        "body_height_m": 1.0,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": -0.88,
+        "body_height_m": 1.8,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": 0,
+        "body_height_m": 0.4,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": 0,
+        "body_height_m": 1.0,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": 0,
+        "body_height_m": 1.8,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": 0.88,
+        "body_height_m": 0.4,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": 0.88,
+        "body_height_m": 1.0,
+        "clear": true,
+        "hit": null
+      },
+      {
+        "platform_stair_y": 34.5,
+        "lateral_offset_m": 0.88,
+        "body_height_m": 1.8,
+        "clear": true,
+        "hit": null
+      }
+    ],
+    "all_clear": true,
+    "ground_floor_plinths_added": [
+      "STATION MANAGER",
+      "PARCEL OFFICE",
+      "TOILETS",
+      "ELECTRICAL / STAFF",
+      "COACH MAINTENANCE",
+      "GOODS SHED"
+    ]
+  },
+  "platform_building_insets": {
+    "platform_insets": {
+      "Mapped platform 514385384": {
+        "removed_under_buildings_m2": 73.71748971286252,
+        "original_bounds": [
+          -672.4168090820312,
+          6.999122142791748,
+          169.21275329589844,
+          24.299776077270508
+        ],
+        "final_bounds": [
+          -672.4168090820312,
+          6.999122142791748,
+          169.21275329589844,
+          24.299776077270508
+        ],
+        "intersections": [
+          "TOILETS",
+          "STATION MANAGER",
+          "PARCEL OFFICE"
+        ]
+      }
+    },
+    "paving_components_cleared": 78,
+    "coping_components_cleared": 25,
+    "safety_lines_clipped": 2,
+    "cubicle_floor_checks": [
+      {
+        "xy": [
+          -74.7,
+          10.4
+        ],
+        "hit": "Bathroom square ceramic tile.001",
+        "height": 0.7224999666213989,
+        "platform_conflict": false
+      },
+      {
+        "xy": [
+          -72.4,
+          10.4
+        ],
+        "hit": "Bathroom square ceramic tile",
+        "height": 0.7225000858306885,
+        "platform_conflict": false
+      },
+      {
+        "xy": [
+          -70.1,
+          10.4
+        ],
+        "hit": "Bathroom square ceramic tile",
+        "height": 0.7225001454353333,
+        "platform_conflict": false
+      },
+      {
+        "xy": [
+          -65.9,
+          10.4
+        ],
+        "hit": "Bathroom square ceramic tile",
+        "height": 0.7225001454353333,
+        "platform_conflict": false
+      },
+      {
+        "xy": [
+          -63.6,
+          10.4
+        ],
+        "hit": "Bathroom square ceramic tile",
+        "height": 0.7224999666213989,
+        "platform_conflict": false
+      },
+      {
+        "xy": [
+          -61.3,
+          10.4
+        ],
+        "hit": "Bathroom square ceramic tile.001",
+        "height": 0.7224999070167542,
+        "platform_conflict": false
+      }
+    ],
+    "rail_facing_edges_and_lengths_preserved": true
+  },
+  "final_scene_sha256": "c5ac2ad5b1830b1d00c44fc752df6cef562e2a305c4e7e021b9a323991454b8d"
+}

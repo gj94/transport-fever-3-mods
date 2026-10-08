@@ -1,0 +1,22 @@
+{
+  "camera": "07_Station_office",
+  "source_blend_sha256": "e724b331bf99cfdc7cbd06ec7349e6314d4f551c25f80da530817437cb849261",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples": 32,
+  "resolution": [
+    1200,
+    800
+  ],
+  "presentation_only_hidden_collections": [
+    "10_TRACK_NETWORK_MAPPED_PROFILES",
+    "10B_UNIONED_RUNNING_RAILS_WITH_FLANGEWAYS",
+    "11_TURNOUTS_CHECKRAILS_DRIVES_AND_BUFFERS",
+    "11B_CROSSING_CHECKRAILS_AND_FROG_FASTENINGS",
+    "15_OHE_PORTALS_SIGNALS_AND_CABLES_RECONSTRUCTED",
+    "16_DRAINAGE_WATERING_AND_COACHING_INFRASTRUCTURE",
+    "16B_MAP_FOLLOWING_RAILSIDE_SERVICES",
+    "17_FORECOURT_BOUNDARIES_AND_URBAN_CONTEXT",
+    "20_YARD_SMALL_OPERATIONAL_DETAILS"
+  ],
+  "note": "Authoritative saved blend still contains every collection. Camera-local preview excludes distant yard/urban geometry."
+}

@@ -1,0 +1,84 @@
+{
+  "platform_insets": {
+    "Mapped platform 514385384": {
+      "removed_under_buildings_m2": 73.71748971286252,
+      "original_bounds": [
+        -672.4168090820312,
+        6.999122142791748,
+        169.21275329589844,
+        24.299776077270508
+      ],
+      "final_bounds": [
+        -672.4168090820312,
+        6.999122142791748,
+        169.21275329589844,
+        24.299776077270508
+      ],
+      "intersections": [
+        "TOILETS",
+        "STATION MANAGER",
+        "PARCEL OFFICE"
+      ]
+    }
+  },
+  "paving_components_cleared": 78,
+  "coping_components_cleared": 25,
+  "safety_lines_clipped": 2,
+  "cubicle_floor_checks": [
+    {
+      "xy": [
+        -74.7,
+        10.4
+      ],
+      "hit": "Bathroom square ceramic tile.001",
+      "height": 0.7224999666213989,
+      "platform_conflict": false
+    },
+    {
+      "xy": [
+        -72.4,
+        10.4
+      ],
+      "hit": "Bathroom square ceramic tile",
+      "height": 0.7225000858306885,
+      "platform_conflict": false
+    },
+    {
+      "xy": [
+        -70.1,
+        10.4
+      ],
+      "hit": "Bathroom square ceramic tile",
+      "height": 0.7225001454353333,
+      "platform_conflict": false
+    },
+    {
+      "xy": [
+        -65.9,
+        10.4
+      ],
+      "hit": "Bathroom square ceramic tile",
+      "height": 0.7225001454353333,
+      "platform_conflict": false
+    },
+    {
+      "xy": [
+        -63.6,
+        10.4
+      ],
+      "hit": "Bathroom square ceramic tile",
+      "height": 0.7224999666213989,
+      "platform_conflict": false
+    },
+    {
+      "xy": [
+        -61.3,
+        10.4
+      ],
+      "hit": "Bathroom square ceramic tile.001",
+      "height": 0.7224999070167542,
+      "platform_conflict": false
+    }
+  ],
+  "rail_facing_edges_and_lengths_preserved": true
+}

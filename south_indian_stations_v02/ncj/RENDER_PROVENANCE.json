@@ -1,0 +1,85 @@
+{
+  "current_scene_sha256": "c5ac2ad5b1830b1d00c44fc752df6cef562e2a305c4e7e021b9a323991454b8d",
+  "current_geometry": "Globally corrected simple/compound pointwork, OHE, buried services and excavated path-following pits",
+  "views": {
+    "02_TICKET_HALL.png": {
+      "status": "Earlier render of unchanged ticket-hall interior; distant platform/OHE background predates final engineering corrections",
+      "samples": 128,
+      "file_sha256": "a34733a2c6ac3777320f6576d1f890e4ceb7f7c67014e3b86c90586f33408a43"
+    },
+    "03_WAITING_HALL.png": {
+      "status": "Final corrected geometry, current dedicated review viewpoint",
+      "samples": 128,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "1d8a84a938bea2f9895986156b5c0f14d0ab3fd491324e9ecc5624667fa2512a"
+    },
+    "04_TOILETS.png": {
+      "status": "Superseded intermediate study. Excluded from final gallery.",
+      "samples": 128,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "3862e84bac6a6fa809741048674fcf672a3676f239781d5df51a3db1b1b16e12"
+    },
+    "05_PLATFORM_DETAIL.png": {
+      "status": "Final review after full stair-canopy clearances, supporting plinths and annotation-shadow correction.",
+      "samples": 48,
+      "source_scene_sha256": "2a2682c1c8807db78abeb3e332d67646fb9f137267c5db364794888e59786b88",
+      "file_sha256": "0fc148c9d03847b8e724e07fc760e2b98cb57a221822da990139dd179c710cd5"
+    },
+    "07_YARD_POINTS.png": {
+      "status": "Superseded intermediate study. Excluded from final gallery.",
+      "samples": 12,
+      "file_sha256": "f6f7a26941df240d5b0da47c79467b8aaa2d4f5cadb8411d85673f0e8de64aee"
+    },
+    "09_FULL_YARD_AERIAL.png": {
+      "status": "Superseded intermediate study. Excluded from final gallery.",
+      "samples": 12,
+      "file_sha256": "0cf8e1c88f564ba983400504a3bf99dd51685affda2d9d401b45c5e07095df4a"
+    },
+    "17_PHYSICAL_TURNOUT_6045464001.png": {
+      "status": "Current corrected scene, accepted physical pointwork proof",
+      "samples": 48,
+      "file_sha256": "3dbdd0d828648370e1aa4d8b0416039e15b85ea6a2d78d657c7eccf979db9c9f"
+    },
+    "18_FROG_DETAIL_6045464001.png": {
+      "status": "Current corrected scene, accepted physical pointwork proof",
+      "samples": 48,
+      "file_sha256": "6e3543aaf2292f980b43ba3b510af5f29e24629e9d4f7b8b202a065abbfa4866"
+    },
+    "19_SWITCH_TOE_6045464001.png": {
+      "status": "Current corrected scene, accepted physical pointwork proof",
+      "samples": 48,
+      "file_sha256": "9e3dcf1abb9d82283531aea5826959dfa22ab9f15ef5620172c5d349ed83ed1d"
+    },
+    "01_FACADE_AND_STATION.png": {
+      "status": "Final corrected geometry, current dedicated review viewpoint",
+      "samples": 48,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "2bfcee4d8da11e47788d0a7121e654edbbfd9742e38915e3a9a5ad64a6304c2d"
+    },
+    "10_FULL_YARD_TOP.png": {
+      "status": "Final review after full stair-canopy clearances, supporting plinths and annotation-shadow correction.",
+      "samples": 48,
+      "source_scene_sha256": "2a2682c1c8807db78abeb3e332d67646fb9f137267c5db364794888e59786b88",
+      "file_sha256": "746f8d3f7306d28d0f19179899f9f30de3729cb04fd9ec1592547d8c408a1d6e"
+    },
+    "08_DEPOT_PITS.png": {
+      "status": "Final corrected geometry, current dedicated review viewpoint",
+      "samples": 48,
+      "source_scene_sha256": "29ad36a8613441274882d85b16a122c13e070eb30d9831737f411d73618a8c68",
+      "file_sha256": "33dd6715d671b0243cd1ba296b8d3300c543b574ed72ad298552dfa1a78c67c7"
+    },
+    "06_FOOTBRIDGE.png": {
+      "status": "Final review after full stair-canopy clearances, supporting plinths and annotation-shadow correction.",
+      "samples": 48,
+      "source_scene_sha256": "2a2682c1c8807db78abeb3e332d67646fb9f137267c5db364794888e59786b88",
+      "file_sha256": "6a2bf2cd3cf844b0167fb83c5e00621ed7c947db4f1e607d780b71d8428d1a10"
+    },
+    "04_TOILETS_CUTAWAY.png": {
+      "status": "Final toilet block cutaway after platform/building inset clearance; ceiling and overhead trim hidden only for review. Inferred room layout.",
+      "samples": 48,
+      "source_scene_sha256": "c5ac2ad5b1830b1d00c44fc752df6cef562e2a305c4e7e021b9a323991454b8d",
+      "render_script_sha256": "bcd4e27c89e1305da31cfafa63a842daa1e3a2a4e882f9390973a97d80674a82",
+      "file_sha256": "c0f38a81bd69381d6c0e880184e7c6a5fadfed1a445b7f179207b054924cfbcc"
+    }
+  }
+}

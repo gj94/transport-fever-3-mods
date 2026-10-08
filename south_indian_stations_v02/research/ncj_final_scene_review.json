@@ -1,0 +1,43 @@
+{
+  "file": "/workspace/scratch/652ca471b64e/south_indian_stations_v02/ncj/NCJ_full_station_v02.blend",
+  "objects": 11701,
+  "platform_bodies": [
+    "Mapped platform 514385384",
+    "Mapped platform 514385385"
+  ],
+  "stock_name_candidates": [
+    "Review: METRES  |  BG 1676 mm  |  NO ROLLING STOCK"
+  ],
+  "legacy_doorway_proxies": [],
+  "ray_checks": {
+    "parcel_door": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "manager_door": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "bridge_1": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    },
+    "bridge_23": {
+      "clear": true,
+      "hit_object": null,
+      "hit_location": null
+    }
+  },
+  "scene_metadata": {
+    "title": "NCJ detailed full-size pre-final-remodelling reconstruction",
+    "era": "Mixed dated evidence: heritage facade2010; platform outlines2021/2023; mapped rail approaches through2025. Not an as-built survey.",
+    "gauge_inner_faces_m": "1.676",
+    "rolling_stock": "NONE",
+    "interiors": "Original inferred furnished interiors; no measured room plan available",
+    "source_topology": "OSM mapped centreline graph, supplemented with explicitly named reconstructed links for unmapped pit-road connections",
+    "inferred_connections": "1302623382,1302623383"
+  }
+}

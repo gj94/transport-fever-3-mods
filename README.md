@@ -295,3 +295,10 @@ No open-source license is granted by this repository.
 Three editable historical architectural studies cover **TVC's November 2022 heritage entrance, NCJ's 2010 entrance and ERS's 2017 west frontage**. Dated photographic references inform the identifiable facades; streets, vegetation, platforms and footbridges include explicitly documented modular or inferred context. These are metre-scale Blender authoring sources, with exchange files identified as architecture-only or whole-scene where supplied. They are not surveyed full-yard layouts or current-day reconstructions.
 
 These station assets have not been converted, optimized or tested as Transport Fever 3 native stations. Existing vehicle families and the downloadable game pack are unchanged. Station-folder provenance identifies third-party photo/font rights separately; no new open-source licence is granted for generated assets.
+
+
+## Detailed full-station interiors and yards (v02)
+
+[Browse the full-station model gallery](south_indian_stations_v02/GALLERY.md) · [Open models, sources and export instructions](south_indian_stations_v02/README.md).
+
+TVC, NCJ and ERS now have richer furnished interiors, full mapped platform/approach/siding coverage, physical rail/pointwork detail and station service facilities. No rolling stock. These mixed-date visual reconstructions retain explicit source and layout uncertainties; they are not as-built engineering surveys or native TF3 station mods. Exact-byte parts reconstruct large Blender/glTF files; original station studies, vehicle assets and unrelated repository content remain unchanged.

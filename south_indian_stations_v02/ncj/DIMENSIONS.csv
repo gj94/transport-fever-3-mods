@@ -1,0 +1,23 @@
+element,value,unit,basis,confidence
+rail_inner_face_gauge,1.676,m,Standard broad gauge,high
+rail_head_width,0.065,m,Nominal reconstruction,medium
+rail_head_centre_spacing,1.741,m,Gauge plus head width,high
+sleeper_pitch,0.600,m,Generic standard visual assumption,medium
+sleeper_length,2.750,m,Generic BG sleeper reconstruction,medium
+rail_head_top,0.500,m,Local model datum,defined
+platform_top,1.260,m,Local model datum,defined
+platform_height_above_rail,0.760,m,Generic high-platform assumption,medium
+side_platform_total_longitudinal_span,841.630,m,OSM polygon514385384 including terminal bay-side extension,map-derived not usable-length survey
+island_platform_longitudinal_span,563.789,m,OSM polygon514385385,map-derived not usable-length survey
+model_longitudinal_clip_start,-1220,m,Explicit approach envelope boundary,defined
+model_longitudinal_clip_end,1150,m,Explicit approach envelope boundary,defined
+original_generated_centreline_lengths_sum,19634.168,m,Source and inferred centreline routes before local physical turnout refinement,computed baseline
+main_portico_frontage,37.250,m,2010 photo proportions,low
+main_portico_column_pitch,3.000,m,2010 photo proportions,low
+main_portico_canopy_height,9.180,m,2010 photo proportions,low
+main_booking_hall_depth,9.200,m,Inferred room footprint,low
+OHE_contact_height,6.150,m,Visual reconstruction above local datum,assumed
+OHE_portal_spacing,54,m,Visual reconstruction,assumed
+footbridge_deck_top,7.840,m,Modelled stair/clearance design,assumed
+footbridge_clear_width,3.200,m,Reconstructed circulation provision,assumed
+footbridge_stair_width,2.200,m,Reconstructed circulation provision,assumed

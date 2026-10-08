@@ -1,0 +1,31 @@
+{
+  "station": "tvc",
+  "note": "Source-generated portal leg locations;1.35m threshold gross footing/rail conflict, not certified clearance",
+  "candidate_masts": 64,
+  "hits": [
+    {
+      "mast_xy": [
+        65,
+        120
+      ],
+      "nearest_route": "641863877",
+      "distance_m": 1.233
+    },
+    {
+      "mast_xy": [
+        200,
+        120
+      ],
+      "nearest_route": "641863876",
+      "distance_m": 0.94
+    },
+    {
+      "mast_xy": [
+        245,
+        120
+      ],
+      "nearest_route": "641863875",
+      "distance_m": 0.252
+    }
+  ]
+}

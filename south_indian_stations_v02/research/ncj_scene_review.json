@@ -1,0 +1,79 @@
+{
+  "file": "/workspace/scratch/652ca471b64e/south_indian_stations_v02/ncj/NCJ_full_station_v02.blend",
+  "objects": 11572,
+  "platform_bodies": [
+    "Mapped platform 514385384",
+    "Mapped platform 514385385"
+  ],
+  "stock_name_candidates": [],
+  "bridge_decks": [
+    {
+      "name": "Footbridge deck",
+      "location": [
+        -90.0,
+        24.700000762939453,
+        7.699999809265137
+      ],
+      "dimensions": [
+        3.200000047683716,
+        33.0,
+        0.2800000011920929
+      ]
+    }
+  ],
+  "bay_1a_objects": [
+    "11_BAY_1A"
+  ],
+  "collections": [
+    "00_SITE",
+    "01_MAIN_2010_PHOTO",
+    "02_LEFT_VERANDA_2010_PHOTO",
+    "03_ANNEX_PHOTO_INFERRED",
+    "04_SIGNAGE",
+    "05_FORECOURT",
+    "06_PLATFORM_CONTEXT_NOT_SURVEYED",
+    "07_TRACK_CONTEXT",
+    "08_SET_DRESSING",
+    "09_LIGHTS_CAMERAS",
+    "10_HALL_INTERIOR_RECONSTRUCTED",
+    "11_WAITING_AND_OFFICES_RECONSTRUCTED",
+    "12_TOILETS_AND_SERVICE_RECONSTRUCTED",
+    "13_UPPER_FLOOR_RECONSTRUCTED",
+    "20_PLATFORMS_MAP_DERIVED",
+    "21_PLATFORM_FURNITURE",
+    "22_FOOTBRIDGE_RECONSTRUCTED",
+    "30_RAILS_OSM_1676mm",
+    "31_TURNOUT_COMPONENTS_RECONSTRUCTED",
+    "32_SLEEPERS_FASTENERS",
+    "33_BALLAST_DRAINAGE",
+    "34_OHE_SIGNALS_RECONSTRUCTED",
+    "35_DEPOT_PITS_AND_GOODS",
+    "40_SURROUNDINGS",
+    "90_REVIEW_CAMERAS",
+    "english_outlined.svg",
+    "hindi_outlined.svg",
+    "hindi_outlined.svg.001",
+    "hindi_outlined.svg.002",
+    "hindi_outlined.svg.003",
+    "hindi_outlined.svg.004",
+    "hindi_outlined.svg.005",
+    "hindi_outlined.svg.006",
+    "tamil_outlined.svg",
+    "tamil_outlined.svg.001",
+    "tamil_outlined.svg.002",
+    "tamil_outlined.svg.003",
+    "tamil_outlined.svg.004",
+    "tamil_outlined.svg.005",
+    "tamil_outlined.svg.006"
+  ],
+  "scene_metadata": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f31bc095520>",
+    "title": "NCJ detailed full-size pre-final-remodelling reconstruction",
+    "era": "Mixed dated evidence: heritage facade2010; platform outlines2021/2023; mapped rail approaches through2025. Not an as-built survey.",
+    "gauge_inner_faces_m": "1.676",
+    "rolling_stock": "NONE",
+    "interiors": "Original inferred furnished interiors; no measured room plan available",
+    "source_topology": "OSM mapped centreline graph, supplemented with explicitly named reconstructed links for unmapped pit-road connections",
+    "inferred_connections": "1302623382,1302623383"
+  }
+}

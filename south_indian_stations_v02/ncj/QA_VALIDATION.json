@@ -1,0 +1,105 @@
+{
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "nonfinite_meshes": [],
+  "objects": 7947,
+  "mesh_count": 6105,
+  "vertices": 3141981,
+  "polygons": 2187393,
+  "material_count": 39,
+  "camera_count": 17,
+  "packed_fonts": true,
+  "no_rolling_stock": true,
+  "walk_circulation_rays": {
+    "entrance_to_hall": {
+      "from": [
+        0.0,
+        -6.0,
+        2.0
+      ],
+      "to": [
+        0.0,
+        3.0,
+        2.0
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "hall_to_platform_central": {
+      "from": [
+        0.0,
+        8.0,
+        2.0
+      ],
+      "to": [
+        0.0,
+        12.0,
+        2.0
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "waiting_door": {
+      "from": [
+        -25.0,
+        -2.0,
+        2.0
+      ],
+      "to": [
+        -25.0,
+        1.0,
+        2.0
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "wc_entrance": {
+      "from": [
+        -68.0,
+        0.0,
+        2.0
+      ],
+      "to": [
+        -68.0,
+        3.0,
+        2.0
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "bridge_stair_entry_1": {
+      "from": [
+        -87.0,
+        15.5,
+        8.300000190734863
+      ],
+      "to": [
+        -91.0,
+        15.5,
+        8.300000190734863
+      ],
+      "clear": true,
+      "hit": null
+    },
+    "bridge_stair_entry_23": {
+      "from": [
+        -87.0,
+        34.5,
+        8.300000190734863
+      ],
+      "to": [
+        -91.0,
+        34.5,
+        8.300000190734863
+      ],
+      "clear": true,
+      "hit": null
+    }
+  },
+  "rail_gauge_m": 1.676,
+  "render_threads": 4,
+  "denoise": false,
+  "simple_turnouts": 20,
+  "compound_treatment": "14nodes: source-route rail unions +46mm flange channels +one clipped bearer field; simplified fixed visual crossings, not movable pointwork/interlocking.",
+  "OHE_supports": "Portal-aligned connected suspension/brackets; legs outside route groups, geometric clearance report included."
+}

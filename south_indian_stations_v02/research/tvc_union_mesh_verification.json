@@ -1,0 +1,12 @@
+{
+  "input": "tvc/source/running_rails_mesh.json",
+  "method": "Reconstruct actual JSON top-surface triangles; intersect combined running-head+blade solid against every generated45mm route flangechannel.2micrometre interior trim tolerates6decimalrounding.",
+  "head_area_m2": 2196.2359990886944,
+  "blade_area_m2": 44.057334272343674,
+  "head_blade_overlap_m2": 0.0,
+  "all_channel_overlap_m2_raw": 0.0036498193729946646,
+  "all_channel_interior_overlap_m2": 0.0,
+  "pass": true,
+  "normal_flangeway_target_m": 0.045,
+  "limitation": "Verifies generated head/blade mesh only. Final scene must remove oldrail/casting overlays; checkrails and turnout assembly separately reviewed."
+}

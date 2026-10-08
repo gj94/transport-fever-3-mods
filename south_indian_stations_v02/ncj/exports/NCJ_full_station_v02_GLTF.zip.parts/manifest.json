@@ -1,0 +1,29 @@
+{
+  "filename": "NCJ_full_station_v02_GLTF.zip",
+  "size": 61044052,
+  "sha256": "823706ed56e205422951f6db1a08ac4acb7c1699a2bf2d20a818f471dcfeede6",
+  "git_blob_sha": "3d57cb663b4c468da6a4288eb4a8f822549f8ff0",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "d0aa98333e39c6605bf91c739d8158734dc49ad851849ab78dd5005831ba811e"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "785b74112fdc1925a0cd3674e5626e2eb16baa2274bda71db2ca815902ba81e1"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 16777216,
+      "sha256": "41986bdcc9e0d4811c37eab60a7df5dba5eebaf3f4a47953b62381a4f1fce423"
+    },
+    {
+      "filename": "part004.bin",
+      "size": 10712404,
+      "sha256": "5e7b5edbe34332a46a3bf92ed3057d66eafc477423ea2ea664127880732e2128"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
+}

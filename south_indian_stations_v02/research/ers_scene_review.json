@@ -1,0 +1,82 @@
+{
+  "file": "/workspace/scratch/652ca471b64e/south_indian_stations_v02/ers/ERS_full_station_v02.blend",
+  "objects": 19948,
+  "platform_bodies": [
+    "Platform 4,5 red retaining body",
+    "Platforms 2/3 red retaining body",
+    "Platform 1 red retaining body",
+    "Platform No. 6 red retaining body"
+  ],
+  "stock_name_candidates": [],
+  "bridge_decks": [
+    {
+      "name": "Footbridge deck",
+      "location": [
+        -60.0,
+        59.0,
+        7.699999809265137
+      ],
+      "dimensions": [
+        3.5999999046325684,
+        94.0,
+        0.23999999463558197
+      ]
+    },
+    {
+      "name": "Footbridge deck.001",
+      "location": [
+        100.0,
+        59.0,
+        7.699999809265137
+      ],
+      "dimensions": [
+        3.5999999046325684,
+        94.0,
+        0.23999999463558197
+      ]
+    }
+  ],
+  "workshop_slab": [
+    {
+      "name": "Workshop slab",
+      "location": [
+        520.0,
+        168.0,
+        0.20000000298023224
+      ],
+      "dimensions": [
+        30.0,
+        14.0,
+        0.3499999940395355
+      ]
+    }
+  ],
+  "collections": [
+    "01 | WEST FRONTAGE \u2022 2017 photo-derived",
+    "02 | FORECOURT \u2022 inferred dressing",
+    "02B | FULL SITE \u2022 mapped envelope",
+    "03 | WEST INTERIORS \u2022 furnished reconstruction",
+    "04 | SANITARY AND SERVICE INTERIORS",
+    "05 | SIX PLATFORM FACES \u2022 map polygon plan",
+    "06 | CONNECTED YARD \u2022 map-derived 1676mm track",
+    "07 | TURNOUTS \u2022 blades frogs motors checkrails",
+    "08 | PLATFORM CANOPIES \u2022 full span trusses gutters lights",
+    "09 | KIOSKS AND PLATFORM EQUIPMENT",
+    "10 | FOOTBRIDGES \u2022 traversable stairs and landings",
+    "11 | EAST ENTRY \u2022 reconstructed booking and waiting hall",
+    "12 | OHE NETWORK \u2022 masts wires insulators",
+    "13 | SIGNALS DRAINAGE AND SERVICES",
+    "14 | BOUNDARIES AND TROPICAL SURROUNDS",
+    "15 | YARD MAINTENANCE WORKSHOP INTERIOR",
+    "90 | REVIEW CAMERAS AND LIGHTING",
+    "Collection"
+  ],
+  "scene_metadata": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f5a71b83520>",
+    "asset": "ERS full station v02: 2017 photo architecture + mixed-date mapped track plan + reconstructed interiors",
+    "survey_status": "No surveyed2017 as-built claim. Current OSM ways mixed dates; furnishings and turnout hardware reconstructed. See SOURCES and COVERAGE.",
+    "gauge_m": "1.676",
+    "no_rolling_stock": "True",
+    "coordinate_system": "X station-north, Y station-east, Z up, metres; mapped origin9.9693N76.29105E"
+  }
+}

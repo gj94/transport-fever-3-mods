@@ -1,0 +1,204 @@
+{
+  "opens_successfully": true,
+  "objects": 23054,
+  "mesh_vertices": 2309467,
+  "metres_per_unit": 1.0,
+  "gauge_pairs_checked": 26,
+  "gauge_max_abs_error_m": 6.424322605003141e-07,
+  "gauge_samples": [
+    {
+      "way": "49015817",
+      "section_x_m": 0,
+      "gauge_m": 1.676000166643711
+    },
+    {
+      "way": "285881579",
+      "section_x_m": 0,
+      "gauge_m": 1.6760004231024648
+    },
+    {
+      "way": "285881585",
+      "section_x_m": 0,
+      "gauge_m": 1.6759994222132883
+    },
+    {
+      "way": "514137864",
+      "section_x_m": 0,
+      "gauge_m": 1.6759999404706711
+    },
+    {
+      "way": "640487681",
+      "section_x_m": 0,
+      "gauge_m": 1.6760005294790008
+    },
+    {
+      "way": "640552570",
+      "section_x_m": 0,
+      "gauge_m": 1.675999637571765
+    },
+    {
+      "way": "640552573",
+      "section_x_m": 0,
+      "gauge_m": 1.6759998186340788
+    },
+    {
+      "way": "1311408253",
+      "section_x_m": 0,
+      "gauge_m": 1.6759996025404047
+    },
+    {
+      "way": "1311408254",
+      "section_x_m": 0,
+      "gauge_m": 1.6760005204909072
+    },
+    {
+      "way": "1453149441",
+      "section_x_m": 0,
+      "gauge_m": 1.6759996723976422
+    },
+    {
+      "way": "49015817",
+      "section_x_m": 180,
+      "gauge_m": 1.6760000477961248
+    },
+    {
+      "way": "285881585",
+      "section_x_m": 180,
+      "gauge_m": 1.6760000350525723
+    },
+    {
+      "way": "514137864",
+      "section_x_m": 180,
+      "gauge_m": 1.6759999369361311
+    },
+    {
+      "way": "640487681",
+      "section_x_m": 180,
+      "gauge_m": 1.676000217520953
+    },
+    {
+      "way": "640552570",
+      "section_x_m": 180,
+      "gauge_m": 1.6759993575677394
+    },
+    {
+      "way": "1311408253",
+      "section_x_m": 180,
+      "gauge_m": 1.6760000160897528
+    },
+    {
+      "way": "1311408254",
+      "section_x_m": 180,
+      "gauge_m": 1.6759999427795906
+    },
+    {
+      "way": "1453149441",
+      "section_x_m": 180,
+      "gauge_m": 1.6760001105239608
+    },
+    {
+      "way": "49015817",
+      "section_x_m": 280,
+      "gauge_m": 1.6759999784899016
+    },
+    {
+      "way": "285881585",
+      "section_x_m": 280,
+      "gauge_m": 1.676000067493471
+    },
+    {
+      "way": "514137864",
+      "section_x_m": 280,
+      "gauge_m": 1.676000366780925
+    },
+    {
+      "way": "640487681",
+      "section_x_m": 280,
+      "gauge_m": 1.6760000755046258
+    },
+    {
+      "way": "640552570",
+      "section_x_m": 280,
+      "gauge_m": 1.6760000068354026
+    },
+    {
+      "way": "1311408253",
+      "section_x_m": 280,
+      "gauge_m": 1.6759995100342362
+    },
+    {
+      "way": "1311408254",
+      "section_x_m": 280,
+      "gauge_m": 1.67599955472419
+    },
+    {
+      "way": "1453149441",
+      "section_x_m": 280,
+      "gauge_m": 1.67599973716037
+    }
+  ],
+  "packed_image_count": 11,
+  "unpacked_file_images": [],
+  "cameras": [
+    "01_West_architecture",
+    "02_Ticket_hall",
+    "03_Waiting_hall",
+    "04_Platform_concourse",
+    "05_Track_turnouts",
+    "06_Full_station_aerial",
+    "07_Full_yard_plan",
+    "08_East_waiting_hall",
+    "09_Toilet_interior",
+    "10_Footbridge_and_platform",
+    "11_Service_workshop",
+    "13_Turnout_frog_detail"
+  ],
+  "collections": [
+    "01 | WEST FRONTAGE \u2022 2017 photo-derived",
+    "02 | FORECOURT \u2022 inferred dressing",
+    "02B | FULL SITE \u2022 mapped envelope",
+    "03 | WEST INTERIORS \u2022 furnished reconstruction",
+    "04 | SANITARY AND SERVICE INTERIORS",
+    "05 | SIX PLATFORM FACES \u2022 map polygon plan",
+    "06 | CONNECTED YARD \u2022 map-derived 1676mm track",
+    "07 | TURNOUTS \u2022 blades frogs motors checkrails",
+    "08 | PLATFORM CANOPIES \u2022 full span trusses gutters lights",
+    "09 | KIOSKS AND PLATFORM EQUIPMENT",
+    "10 | FOOTBRIDGES \u2022 traversable stairs and landings",
+    "11 | EAST ENTRY \u2022 reconstructed booking and waiting hall",
+    "12 | OHE NETWORK \u2022 masts wires insulators",
+    "13 | SIGNALS DRAINAGE AND SERVICES",
+    "14 | BOUNDARIES AND TROPICAL SURROUNDS",
+    "15 | YARD MAINTENANCE WORKSHOP INTERIOR",
+    "16 | CLOSE RANGE \u2022 ticketing equipment notices and safety",
+    "17 | PLATFORM DETAIL \u2022 safety notices lights and surface wear",
+    "18 | BALLAST SURFACE \u2022 explicit angular stone geometry",
+    "19 | EAST HALL AND SANITARY FINISHING",
+    "20 | PHYSICAL POINTWORK \u2022 crossing gaps and derived frogs",
+    "21 | UNIONED RAIL SOLIDS \u2022 all-route flange channels",
+    "90 | REVIEW CAMERAS AND LIGHTING",
+    "Collection"
+  ],
+  "no_rolling_stock_name_candidates": [],
+  "metadata": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f98d301b5e0>",
+    "asset": "ERS full station v02: 2017 photo architecture + mixed-date mapped track plan + reconstructed interiors",
+    "survey_status": "No surveyed2017 as-built claim. Current OSM ways mixed dates; furnishings and turnout hardware reconstructed. See SOURCES and COVERAGE.",
+    "gauge_m": 1.676,
+    "no_rolling_stock": true,
+    "coordinate_system": "X station-north, Y station-east, Z up, metres; mapped origin9.9693N76.29105E"
+  },
+  "rail_geometry_validation_file": "geometry/rail_geometry_validation.json",
+  "all_route_flange_interior_overlap_m2": 0.0,
+  "source_blend_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e",
+  "formation_objects": [
+    "Globally unioned ballast formation"
+  ],
+  "global_rail_objects": [
+    "Globally unioned railway head",
+    "Globally unioned railway blade",
+    "Globally unioned railway web",
+    "Globally unioned railway foot"
+  ],
+  "obsolete_rail_overlay_objects": []
+}

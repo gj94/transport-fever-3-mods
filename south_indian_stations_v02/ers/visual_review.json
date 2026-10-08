@@ -1,0 +1,67 @@
+{
+  "scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e",
+  "reviews": {
+    "13_Turnout_frog_detail": {
+      "status": "accepted",
+      "notes": "Continuous formation surface, no rectangular voids; rail nose/wing metal and open flange channels visible; independent geometry review passed.",
+      "source_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e"
+    },
+    "04_Platform_concourse": {
+      "status": "accepted",
+      "notes": "Refreshed after the narrow stair-fixture move. Stocked kiosk and platform circulation remain visible; lower stair approach is clear.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    },
+    "05_Track_turnouts": {
+      "status": "accepted",
+      "notes": "Wide throat view shows connected routes, common bearers, clear ballast and OHE supports. Rail and OHE details are representative visual reconstruction, not engineered layouts.",
+      "source_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e"
+    },
+    "02_Ticket_hall": {
+      "status": "accepted",
+      "notes": "Refreshed from final frozen scene. Counter grilles, transaction openings, intercoms, queue controls, notices, clock/display and lighting fixtures are visible; furnishings remain reconstructed.",
+      "source_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e"
+    },
+    "01_West_architecture": {
+      "status": "accepted",
+      "notes": "Recognizable retained2017 facade, corrected arched galleries, whole-yard context and both footbridges visible. Unaffected by the narrow stair-fixture correction.",
+      "source_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e"
+    },
+    "03_Waiting_hall": {
+      "status": "accepted",
+      "notes": "Furnished seats/arms, clock, notices, fire equipment, ticket machines and hall circulation visible. Unaffected by the stair-fixture correction.",
+      "source_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e"
+    },
+    "06_Full_station_aerial": {
+      "status": "accepted",
+      "notes": "Entire station and both mapped throats/siding fans are visible at full scale, with staggered platform bodies, two entrances and two footbridges; no rolling stock.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    },
+    "07_Full_yard_plan": {
+      "status": "accepted",
+      "notes": "Actual orthographic complete-yard view shows mapped through lines, both throats, siding fans, four staggered platform bodies and two entrances. Labelled vector/PNG plan12 supplies readable identifiers.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    },
+    "08_East_waiting_hall": {
+      "status": "accepted",
+      "notes": "Furnished eastern waiting hall, booking counters, internal notices and direct platform doorway visible. The documented historical functions are represented with reconstructed layout and fixtures.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    },
+    "09_Toilet_interior": {
+      "status": "accepted",
+      "notes": "Wash basins, taps, dispensers, floor drainage and open/closed sanitary cubicles are visible. WC/cistern geometry remains modelled behind cubicle partitions; this view primarily reviews the wash area and circulation.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    },
+    "10_Footbridge_and_platform": {
+      "status": "accepted",
+      "notes": "Parent reviewed the refreshed image: full stairs, bridge lattice, platform and track detail are visible. Dense actual-scene headroom and fixture-clearance checks accompany this corrected view.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    },
+    "11_Service_workshop": {
+      "status": "accepted",
+      "notes": "Reconstructed service-store/workspace shows stocked shelving, desks, monitors and seating with open working floor area. It is a representative store/office interior, not a claim to an actual heavy-maintenance machinery layout.",
+      "source_scene_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e"
+    }
+  },
+  "ancestor_scene_sha256": "89667fb2d588576cfc6963456dd7a579d0311b7641acba81bae73fc2e514b54e",
+  "lineage_note": "Only obstructing stair fixtures moved. Unaffected earlier review images retain exact parent-scene bindings; affected platform/bridge views are refreshed."
+}

@@ -1,0 +1,315 @@
+{
+  "compound_node_count": 14,
+  "nodes": [
+    {
+      "node": "6045445471",
+      "reason": "Insufficient isolated closure length/lateral separation before adjacent junction",
+      "length": 44.956009938177054,
+      "lateral": 1.9892637930968666
+    },
+    {
+      "node": "6045445472",
+      "reason": "Complex degree4 junction, retained as explicitly approximate mapped visual crossing"
+    },
+    {
+      "node": "6045445433",
+      "reason": "Complex degree4 junction, retained as explicitly approximate mapped visual crossing"
+    },
+    {
+      "node": "3862338766",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "1115480188"
+      ]
+    },
+    {
+      "node": "3862338787",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045445453"
+      ]
+    },
+    {
+      "node": "6045464004",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045445449"
+      ]
+    },
+    {
+      "node": "3862338816",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045445409"
+      ]
+    },
+    {
+      "node": "3862338792",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "3862338789"
+      ]
+    },
+    {
+      "node": "6045464011",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045464010",
+        "1115471992"
+      ]
+    },
+    {
+      "node": "706398785",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "3862338769"
+      ]
+    },
+    {
+      "node": "5025569707",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "5025569705",
+        "5025569715"
+      ]
+    },
+    {
+      "node": "3862338774",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045464001"
+      ]
+    },
+    {
+      "node": "5025569714",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045464001",
+        "5025569715"
+      ]
+    },
+    {
+      "node": "1115477337",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "10965867801",
+        "1115469695"
+      ]
+    }
+  ],
+  "profile_method": "Boolean union of all mapped rail ribbons, subtract46mm normal inner flange channels, constrained triangulation with holes. Simple physical switch domains excluded.",
+  "crossing_locations": [
+    [
+      481.6306104419385,
+      64.82650633095317
+    ],
+    [
+      -573.0818089136518,
+      40.360205722381664
+    ],
+    [
+      -585.0776852246927,
+      40.19680258869564
+    ],
+    [
+      330.46813132150874,
+      58.393751647147404
+    ],
+    [
+      340.0305046758429,
+      58.745294725757134
+    ],
+    [
+      -721.363015937348,
+      33.22945892162171
+    ],
+    [
+      -735.2829852520669,
+      34.86075313219561
+    ],
+    [
+      -522.3903195213059,
+      30.342491662794533
+    ],
+    [
+      -504.15488162700706,
+      29.74576405586459
+    ],
+    [
+      278.3025798616704,
+      37.10269587184699
+    ],
+    [
+      386.9222145996431,
+      47.72438595410121
+    ],
+    [
+      374.0237359319,
+      47.374298677814046
+    ],
+    [
+      225.56505578833264,
+      76.41356362574518
+    ],
+    [
+      211.45009760946388,
+      76.24850321458493
+    ],
+    [
+      276.62298163893485,
+      66.66950258118393
+    ],
+    [
+      285.553803573866,
+      65.00821098156861
+    ],
+    [
+      -1011.2088560854344,
+      277.8447400199659
+    ],
+    [
+      -1009.5343487917964,
+      291.29549525821136
+    ],
+    [
+      618.1929617205587,
+      67.60060387636943
+    ],
+    [
+      603.1502989142252,
+      64.56758939075047
+    ],
+    [
+      510.18283100346895,
+      41.7597835099738
+    ],
+    [
+      531.464958497457,
+      46.45982180871728
+    ],
+    [
+      493.3775313595595,
+      41.06225061357564
+    ],
+    [
+      509.9719181560292,
+      43.489213093516454
+    ],
+    [
+      585.4238251718689,
+      59.93584753662938
+    ],
+    [
+      567.8799928041674,
+      57.34881546387214
+    ],
+    [
+      -721.3220867061037,
+      34.97082517523796
+    ],
+    [
+      -405.0274925556931,
+      -1.0611905770357841
+    ],
+    [
+      -423.0770290973164,
+      1.6292789141422968
+    ]
+  ],
+  "replacement_head_area_m2": 266.19408081081235,
+  "normal_flangeway_m": 0.046,
+  "old_components_clipped": {
+    "Rail 96235911": 18,
+    "Rail 96235911.001": 9,
+    "Rail 96236013": 54,
+    "Rail 96236013.001": 27,
+    "Rail 96236046": 199,
+    "Rail 96236046.001": 99,
+    "Rail 256080322": 22,
+    "Rail 256080322.001": 11,
+    "Rail 383031399": 148,
+    "Rail 383031399.001": 74,
+    "Rail 383031401": 82,
+    "Rail 383031401.001": 41,
+    "Rail 383031403": 198,
+    "Rail 383031403.001": 99,
+    "Rail 514385387": 18,
+    "Rail 514385387.001": 9,
+    "Rail 514385388": 22,
+    "Rail 514385388.001": 11,
+    "Rail 514385389": 51,
+    "Rail 514385389.001": 26,
+    "Rail 514385390": 78,
+    "Rail 514385390.001": 39,
+    "Rail 642058776": 42,
+    "Rail 642058776.001": 21,
+    "Rail 642058777": 22,
+    "Rail 642058777.001": 11,
+    "Rail 642058778": 66,
+    "Rail 642058778.001": 33,
+    "Rail 642058779": 118,
+    "Rail 642058779.001": 59,
+    "Rail 642058780": 54,
+    "Rail 642058780.001": 27,
+    "Rail 642058781": 26,
+    "Rail 642058781.001": 13,
+    "Rail 642058782": 22,
+    "Rail 642058782.001": 11,
+    "Rail 642058783": 72,
+    "Rail 642058783.001": 36,
+    "Rail 642061244": 44,
+    "Rail 642061244.001": 22,
+    "Rail 642061245": 22,
+    "Rail 642061245.001": 11,
+    "Rail 642061247": 22,
+    "Rail 642061247.001": 11,
+    "Rail 992276367": 70,
+    "Rail 992276367.001": 35,
+    "Rail 992276369": 76,
+    "Rail 992276369.001": 38,
+    "Rail 1239339982": 8,
+    "Rail 1239339982.001": 4,
+    "Rail 1294719458": 22,
+    "Rail 1294719458.001": 11,
+    "Rail 1434793650": 196,
+    "Rail 1434793650.001": 98,
+    "Rail 1434794786": 36,
+    "Rail 1434794786.001": 18,
+    "Rail 1434795154": 74,
+    "Rail 1434795154.001": 37,
+    "Concrete sleepers 96235911": 29,
+    "Rail seat pads": 6980,
+    "Elastic rail clips": 13889,
+    "Concrete sleepers 96236013": 113,
+    "Concrete sleepers 96236046": 383,
+    "Concrete sleepers 256080322": 38,
+    "Concrete sleepers 383031399": 291,
+    "Concrete sleepers 383031401": 161,
+    "Concrete sleepers 383031403": 375,
+    "Pit line discrete rail supports 514385387": 72,
+    "Pit line discrete rail supports 514385388": 82,
+    "Concrete sleepers 514385389": 104,
+    "Concrete sleepers 514385390": 145,
+    "Concrete sleepers 642058776": 77,
+    "Concrete sleepers 642058777": 39,
+    "Concrete sleepers 642058778": 115,
+    "Concrete sleepers 642058779": 243,
+    "Concrete sleepers 642058780": 108,
+    "Concrete sleepers 642058781": 59,
+    "Concrete sleepers 642058782": 39,
+    "Concrete sleepers 642058783": 142,
+    "Concrete sleepers 642061244": 83,
+    "Concrete sleepers 642061245": 39,
+    "Concrete sleepers 642061247": 39,
+    "Concrete sleepers 992276367": 130,
+    "Concrete sleepers 992276369": 145,
+    "Concrete sleepers 1239339982": 26,
+    "Concrete sleepers 1294719458": 38,
+    "Concrete sleepers 1434793650": 378,
+    "Concrete sleepers 1434794786": 72,
+    "Concrete sleepers 1434795154": 143,
+    "Granite ballast formation": 515
+  },
+  "fixed_visual_approximation": true,
+  "interlocking_or_fabrication_certified": false
+}

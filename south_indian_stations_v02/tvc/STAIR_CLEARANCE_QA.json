@@ -1,0 +1,14 @@
+{
+  "sampled_vertical_clearance_m": 2.0,
+  "lateral_samples_m": [
+    -0.9,
+    0,
+    0.9
+  ],
+  "stair_flights": 6,
+  "sample_count": 684,
+  "evaluated_obstacle_meshes": 59,
+  "hits": [],
+  "result": "PASS",
+  "scope": "Full flight tread centres at three lateral positions, evaluated shelter/bridge/room-ceiling meshes. This supplements entrance/landing circulation review; not building-code certification."
+}

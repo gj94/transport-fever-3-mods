@@ -1,0 +1,47 @@
+{
+  "station": "ncj",
+  "note": "Source-generated portal leg locations;1.35m threshold gross footing/rail conflict, not certified clearance",
+  "candidate_masts": 52,
+  "hits": [
+    {
+      "mast_xy": [
+        -396,
+        -4
+      ],
+      "nearest_route": "642061245",
+      "distance_m": 0.704
+    },
+    {
+      "mast_xy": [
+        -342,
+        -4
+      ],
+      "nearest_route": "642061247",
+      "distance_m": 1.184
+    },
+    {
+      "mast_xy": [
+        -180,
+        -4
+      ],
+      "nearest_route": "642061245",
+      "distance_m": 1.15
+    },
+    {
+      "mast_xy": [
+        360,
+        75
+      ],
+      "nearest_route": "96236013",
+      "distance_m": 0.58
+    },
+    {
+      "mast_xy": [
+        630,
+        75
+      ],
+      "nearest_route": "96236046",
+      "distance_m": 0.926
+    }
+  ]
+}

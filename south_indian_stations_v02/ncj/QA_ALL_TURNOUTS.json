@@ -1,0 +1,819 @@
+{
+  "corrected": [
+    {
+      "node": "6045464001",
+      "source_ways": [
+        "642061244",
+        "96236046"
+      ],
+      "toe_m": [
+        312.4595031738281,
+        56.856773376464844,
+        0.0
+      ],
+      "end_m": [
+        274.4854431152344,
+        60.35955810546875,
+        0.0
+      ],
+      "length_m": 37.88690010752484,
+      "lateral_m": -4.3454430654303025,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        294.785400390625,
+        57.33479690551758,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 96236046": 40,
+        "Rail 96236046.001": 20,
+        "Rail 642061244": 32,
+        "Rail 642061244.001": 16,
+        "Rail seat pads": 280,
+        "Elastic rail clips": 560,
+        "Concrete sleepers 96236046": 77,
+        "Concrete sleepers 642061244": 63
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "5025569711",
+      "source_ways": [
+        "514385389",
+        "642061244"
+      ],
+      "toe_m": [
+        -293.87030029296875,
+        58.02202606201172,
+        0.0
+      ],
+      "end_m": [
+        -248.90061950683594,
+        56.370811462402344,
+        0.0
+      ],
+      "length_m": 44.94241883858705,
+      "lateral_m": -2.2757387825890314,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -258.03106689453125,
+        57.65225601196289,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 514385389": 42,
+        "Rail 514385389.001": 21,
+        "Rail 642061244": 34,
+        "Rail 642061244.001": 17,
+        "Rail seat pads": 329,
+        "Elastic rail clips": 658,
+        "Concrete sleepers 514385389": 89,
+        "Concrete sleepers 642061244": 76
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "3862338807",
+      "source_ways": [
+        "383031401",
+        "642058781"
+      ],
+      "toe_m": [
+        -889.350341796875,
+        14.440817832946777,
+        0.0
+      ],
+      "end_m": [
+        -844.35107421875,
+        14.69705867767334,
+        0.0
+      ],
+      "length_m": 44.912614778041984,
+      "lateral_m": -2.803040099464234,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -858.411865234375,
+        13.558611869812012,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 383031401": 38,
+        "Rail 383031401.001": 19,
+        "Rail 642058781": 46,
+        "Rail 642058781.001": 23,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 654,
+        "Concrete sleepers 383031401": 76,
+        "Concrete sleepers 642058781": 88
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "1115480188",
+      "source_ways": [
+        "642058777",
+        "96236046"
+      ],
+      "toe_m": [
+        680.170654296875,
+        88.55049133300781,
+        0.0
+      ],
+      "end_m": [
+        636.5250244140625,
+        77.5932846069336,
+        0.0
+      ],
+      "length_m": 44.8999579880252,
+      "lateral_m": -2.9989619326652868,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        651.7703857421875,
+        80.28462219238281,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 96236046": 46,
+        "Rail 96236046.001": 23,
+        "Rail 642058777": 38,
+        "Rail 642058777.001": 19,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 652,
+        "Concrete sleepers 96236046": 89,
+        "Concrete sleepers 642058777": 75
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045445449",
+      "source_ways": [
+        "256080322",
+        "383031403"
+      ],
+      "toe_m": [
+        -793.0984497070312,
+        33.53434753417969,
+        0.0
+      ],
+      "end_m": [
+        -748.1796875,
+        30.83159828186035,
+        0.0
+      ],
+      "length_m": 44.89605468622411,
+      "lateral_m": -3.0568404622376826,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -763.8987426757812,
+        32.89406204223633,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 256080322": 44,
+        "Rail 256080322.001": 22,
+        "Rail 383031403": 38,
+        "Rail 383031403.001": 19,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 654,
+        "Concrete sleepers 256080322": 88,
+        "Concrete sleepers 383031403": 76
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045445453",
+      "source_ways": [
+        "642058782",
+        "992276367"
+      ],
+      "toe_m": [
+        -589.1810302734375,
+        35.53159713745117,
+        0.0
+      ],
+      "end_m": [
+        -544.2467041015625,
+        33.102325439453125,
+        0.0
+      ],
+      "length_m": 44.891934677307795,
+      "lateral_m": -3.1167612883136506,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -560.3483276367188,
+        35.10236358642578,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 642058782": 38,
+        "Rail 642058782.001": 19,
+        "Rail 992276367": 46,
+        "Rail 992276367.001": 23,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 654,
+        "Concrete sleepers 642058782": 76,
+        "Concrete sleepers 992276367": 88
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045445442",
+      "source_ways": [
+        "383031403",
+        "514385391"
+      ],
+      "toe_m": [
+        262.288818359375,
+        35.21919250488281,
+        0.0
+      ],
+      "end_m": [
+        217.5890350341797,
+        30.02980613708496,
+        0.0
+      ],
+      "length_m": 44.87293478464956,
+      "lateral_m": -3.3793081854999274,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        234.9992218017578,
+        33.244598388671875,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 383031403": 46,
+        "Rail 383031403.001": 23,
+        "Rail 514385391": 38,
+        "Rail 514385391.001": 19,
+        "Rail seat pads": 328,
+        "Elastic rail clips": 656,
+        "Concrete sleepers 383031403": 89,
+        "Concrete sleepers 514385391": 75
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045445409",
+      "source_ways": [
+        "642058776",
+        "642058780"
+      ],
+      "toe_m": [
+        -1006.720947265625,
+        346.52392578125,
+        0.0
+      ],
+      "end_m": [
+        -1003.0635375976562,
+        301.67279052734375,
+        0.0
+      ],
+      "length_m": 44.86467488588803,
+      "lateral_m": -3.4872549926217213,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -1005.748779296875,
+        319.72576904296875,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 642058776": 38,
+        "Rail 642058776.001": 19,
+        "Rail 642058780": 46,
+        "Rail 642058780.001": 23,
+        "Rail seat pads": 322,
+        "Elastic rail clips": 644,
+        "Concrete sleepers 642058776": 75,
+        "Concrete sleepers 642058780": 88
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "3862338769",
+      "source_ways": [
+        "1434793650",
+        "383031399"
+      ],
+      "toe_m": [
+        545.1118774414062,
+        54.87209701538086,
+        0.0
+      ],
+      "end_m": [
+        500.125,
+        53.78406524658203,
+        0.0
+      ],
+      "length_m": 44.83104359828333,
+      "lateral_m": -3.8958349411675286,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        520.1769409179688,
+        52.97221755981445,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 383031399": 38,
+        "Rail 383031399.001": 19,
+        "Rail 1434793650": 46,
+        "Rail 1434793650.001": 23,
+        "Rail seat pads": 322,
+        "Elastic rail clips": 642,
+        "Concrete sleepers 383031399": 75,
+        "Concrete sleepers 1434793650": 88
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045464010",
+      "source_ways": [
+        "642061245",
+        "642061246"
+      ],
+      "toe_m": [
+        -382.2966003417969,
+        -5.331989765167236,
+        0.0
+      ],
+      "end_m": [
+        -337.34857177734375,
+        -7.494160175323486,
+        0.0
+      ],
+      "length_m": 44.77945301292777,
+      "lateral_m": -4.449785147958773,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -359.39422607421875,
+        -7.845734596252441,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 642061245": 46,
+        "Rail 642061245.001": 23,
+        "Rail 642061246": 38,
+        "Rail 642061246.001": 19,
+        "Rail seat pads": 326,
+        "Elastic rail clips": 652,
+        "Concrete sleepers 642061245": 88,
+        "Concrete sleepers 642061246": 75
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "3862338786",
+      "source_ways": [
+        "383031403",
+        "514385391"
+      ],
+      "toe_m": [
+        -455.26312255859375,
+        24.591049194335938,
+        0.0
+      ],
+      "end_m": [
+        -410.2640380859375,
+        24.8761043548584,
+        0.0
+      ],
+      "length_m": 44.742575485658875,
+      "lateral_m": -4.806447639381487,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -433.3172302246094,
+        23.24898338317871,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 383031403": 46,
+        "Rail 383031403.001": 23,
+        "Rail 514385391": 38,
+        "Rail 514385391.001": 19,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 652,
+        "Concrete sleepers 383031403": 88,
+        "Concrete sleepers 514385391": 76
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "1115470515",
+      "source_ways": [
+        "514385389",
+        "96236046"
+      ],
+      "toe_m": [
+        -447.27606201171875,
+        46.6750373840332,
+        0.0
+      ],
+      "end_m": [
+        -402.6498718261719,
+        52.4631233215332,
+        0.0
+      ],
+      "length_m": 44.71034559027572,
+      "lateral_m": -5.097548155546207,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -426.0873718261719,
+        47.87322235107422,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 96236046": 44,
+        "Rail 96236046.001": 22,
+        "Rail 514385389": 38,
+        "Rail 514385389.001": 19,
+        "Rail seat pads": 326,
+        "Elastic rail clips": 652,
+        "Concrete sleepers 96236046": 88,
+        "Concrete sleepers 514385389": 75
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045445445",
+      "source_ways": [
+        "256080322",
+        "642058781"
+      ],
+      "toe_m": [
+        -1103.05029296875,
+        29.371816635131836,
+        0.0
+      ],
+      "end_m": [
+        -1058.2177734375,
+        25.49327850341797,
+        0.0
+      ],
+      "length_m": 44.69792409768128,
+      "lateral_m": -5.205341617792089,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -1082.09375,
+        29.122207641601562,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 256080322": 42,
+        "Rail 256080322.001": 21,
+        "Rail 642058781": 38,
+        "Rail 642058781.001": 19,
+        "Rail seat pads": 321,
+        "Elastic rail clips": 642,
+        "Concrete sleepers 256080322": 85,
+        "Concrete sleepers 642058781": 76
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "5025569705",
+      "source_ways": [
+        "514385386",
+        "514385387"
+      ],
+      "toe_m": [
+        196.33892822265625,
+        78.82339477539062,
+        0.0
+      ],
+      "end_m": [
+        151.3509979248047,
+        79.865478515625,
+        0.0
+      ],
+      "length_m": 44.617888168316185,
+      "lateral_m": -5.851841912918465,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        177.03842163085938,
+        80.95010375976562,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 514385386": 34,
+        "Rail 514385386.001": 17,
+        "Rail 514385387": 46,
+        "Rail 514385387.001": 23,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 649
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "3862338789",
+      "source_ways": [
+        "514385390",
+        "96236046"
+      ],
+      "toe_m": [
+        -533.935791015625,
+        47.529296875,
+        0.0
+      ],
+      "end_m": [
+        -488.9379577636719,
+        47.085723876953125,
+        0.0
+      ],
+      "length_m": 44.609306755510175,
+      "lateral_m": -5.9169038181123845,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -514.5740966796875,
+        49.02641296386719,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 96236046": 46,
+        "Rail 96236046.001": 23,
+        "Rail 514385390": 38,
+        "Rail 514385390.001": 19,
+        "Rail seat pads": 328,
+        "Elastic rail clips": 656,
+        "Concrete sleepers 96236046": 89,
+        "Concrete sleepers 514385390": 75
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "6045464006",
+      "source_ways": [
+        "642058781",
+        "642061245"
+      ],
+      "toe_m": [
+        -158.13357543945312,
+        -0.22479283809661865,
+        0.0
+      ],
+      "end_m": [
+        -202.81787109375,
+        -5.543110370635986,
+        0.0
+      ],
+      "length_m": 44.58825372960019,
+      "lateral_m": -6.071063796702182,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -176.5956573486328,
+        -0.784049928188324,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 642058781": 46,
+        "Rail 642058781.001": 23,
+        "Rail 642061245": 38,
+        "Rail 642061245.001": 19,
+        "Rail seat pads": 327,
+        "Elastic rail clips": 654,
+        "Concrete sleepers 642058781": 88,
+        "Concrete sleepers 642061245": 76
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "10965867801",
+      "source_ways": [
+        "1180712998",
+        "96235911"
+      ],
+      "toe_m": [
+        468.93756103515625,
+        69.0679702758789,
+        0.0
+      ],
+      "end_m": [
+        427.9412536621094,
+        87.53273010253906,
+        0.0
+      ],
+      "length_m": 44.12846058395238,
+      "lateral_m": -8.62111500306861,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        453.701171875,
+        73.53363037109375,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 96235911": 44,
+        "Rail 96235911.001": 22,
+        "Rail 1180712998": 40,
+        "Rail 1180712998.001": 20,
+        "Concrete sleepers 96235911": 60,
+        "Rail seat pads": 233,
+        "Elastic rail clips": 466,
+        "Concrete sleepers 1180712998": 75
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "1115471992",
+      "source_ways": [
+        "642058781",
+        "642061245"
+      ],
+      "toe_m": [
+        -466.9179992675781,
+        5.283121585845947,
+        0.0
+      ],
+      "end_m": [
+        -423.14459228515625,
+        0.7611271142959595,
+        0.0
+      ],
+      "length_m": 43.861339523280236,
+      "lateral_m": -3.5693884999280003,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        -438.3773193359375,
+        3.7918574810028076,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 642058781": 46,
+        "Rail 642058781.001": 23,
+        "Rail 642061245": 36,
+        "Rail 642061245.001": 18,
+        "Rail seat pads": 319,
+        "Elastic rail clips": 638,
+        "Concrete sleepers 642058781": 86,
+        "Concrete sleepers 642061245": 73
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "1115469695",
+      "source_ways": [
+        "96236013",
+        "96236046"
+      ],
+      "toe_m": [
+        531.1589965820312,
+        61.08137130737305,
+        0.0
+      ],
+      "end_m": [
+        488.0003356933594,
+        63.87809753417969,
+        0.0
+      ],
+      "length_m": 43.00178263598347,
+      "lateral_m": -4.6195037143909445,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        511.4627685546875,
+        61.11890411376953,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 96236013": 36,
+        "Rail 96236013.001": 18,
+        "Rail 96236046": 42,
+        "Rail 96236046.001": 21,
+        "Rail seat pads": 315,
+        "Elastic rail clips": 629,
+        "Concrete sleepers 96236013": 72,
+        "Concrete sleepers 96236046": 85
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    },
+    {
+      "node": "5025569715",
+      "source_ways": [
+        "514385388",
+        "514385390"
+      ],
+      "toe_m": [
+        258.9611511230469,
+        70.84685516357422,
+        0.0
+      ],
+      "end_m": [
+        227.83702087402344,
+        70.45951080322266,
+        0.0
+      ],
+      "length_m": 30.767869420428546,
+      "lateral_m": -4.711587667400677,
+      "flangeway_target_m": 0.046,
+      "frog_m": [
+        243.65818786621094,
+        72.11666107177734,
+        0.0
+      ],
+      "removed_components": {
+        "Rail 514385388": 26,
+        "Rail 514385388.001": 13,
+        "Rail 514385390": 36,
+        "Rail 514385390.001": 18,
+        "Rail seat pads": 235,
+        "Elastic rail clips": 469,
+        "Concrete sleepers 514385390": 65
+      },
+      "scope": "Reconstructed physical simple turnout, not surveyed NCJ switch type"
+    }
+  ],
+  "approximate_or_compound": [
+    {
+      "node": "6045445471",
+      "reason": "Insufficient isolated closure length/lateral separation before adjacent junction",
+      "length": 44.956009938177054,
+      "lateral": 1.9892637930968666
+    },
+    {
+      "node": "6045445472",
+      "reason": "Complex degree4 junction, retained as explicitly approximate mapped visual crossing"
+    },
+    {
+      "node": "6045445433",
+      "reason": "Complex degree4 junction, retained as explicitly approximate mapped visual crossing"
+    },
+    {
+      "node": "3862338766",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "1115480188"
+      ]
+    },
+    {
+      "node": "3862338787",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045445453"
+      ]
+    },
+    {
+      "node": "6045464004",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045445449"
+      ]
+    },
+    {
+      "node": "3862338816",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045445409"
+      ]
+    },
+    {
+      "node": "3862338792",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "3862338789"
+      ]
+    },
+    {
+      "node": "6045464011",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045464010",
+        "1115471992"
+      ]
+    },
+    {
+      "node": "706398785",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "3862338769"
+      ]
+    },
+    {
+      "node": "5025569707",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "5025569705",
+        "5025569715"
+      ]
+    },
+    {
+      "node": "3862338774",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045464001"
+      ]
+    },
+    {
+      "node": "5025569714",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "6045464001",
+        "5025569715"
+      ]
+    },
+    {
+      "node": "1115477337",
+      "reason": "Compound overlapping switch envelope; retained as explicitly approximate map-derived pointwork",
+      "overlaps": [
+        "10965867801",
+        "1115469695"
+      ]
+    }
+  ],
+  "standard_reference": "IRISET Signalling General section4.6.4:44\u201348mm BG check/wing flangeways; reconstructed target46mm, not certified profile."
+}
