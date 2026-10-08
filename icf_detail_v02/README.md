@@ -1,10 +1,10 @@
-# ICF detail v02 — work in progress
+# ICF detail v02 — source assets and completed gallery
 
 Separate, original authoring-source revision for seven conventional self-generating ICF classes: 1A, 2A, 3A, 2S, CC, SL and GS. The existing authoring families, locomotive coupling variants and native Transport Fever resources are unchanged.
 
 ## Current checkpoint
 
-All seven masters are now r12-stencil: four capacity labels per class were corrected to BERTHS or SEATS, with no fabricated tare mass. An exact non-stencil mesh/transform/hierarchy/material-assignment fingerprint confirms that the reviewed six-class r10 geometry and isolated first-class r11 privacy closure are otherwise unchanged. All source geometry, aperture, support, seated-root and relocated-FBX texture/hierarchy/bounds checks pass on r12. High-sample final image production is tracked in GALLERY.md and remains incomplete until all 24 views pass the audit. Earlier low-sample review images are retained as named history; source hashes in adjacent JSON files distinguish them from current final images.
+All seven masters are now r12-stencil: four capacity labels per class were corrected to BERTHS or SEATS, with no fabricated tare mass. An exact non-stencil mesh/transform/hierarchy/material-assignment fingerprint confirms that the reviewed six-class r10 geometry and isolated first-class r11 privacy closure are otherwise unchanged. All source geometry, aperture, support, seated-root and relocated-FBX texture/hierarchy/bounds checks pass on r12. All 24 high-sample final images are complete, audited and accepted for the gallery with the documented fidelity caveats. See GALLERY.md. Earlier low-sample review images are retained as named history; source hashes in adjacent JSON files distinguish them from current final images.
 
 Selected stock uses conventional screw couplings and side buffers. It is intentionally not a CBC clone of the existing native fleet. Coupling to the WAP7, linked rake articulation, character fit and all native game behavior are **unvalidated**. No TF3 conversion is included.
 
@@ -19,7 +19,7 @@ Capacities: 1A 18; 2A 46; 3A 64; 2S 108; CC 73; SL 72; GS selected 108-seat subt
 Work from the **repository root**, the parent directory of `icf_detail_v02`, with Blender 4.3.2 (the tested version), Python 3 and Blender's bundled NumPy. Open `<class>/ICF_<class>_master.blend` to inspect a vehicle, or use its adjacent FBX plus `.fbm` texture directory. Do not treat FBX as a native Transport Fever resource or a guarantee of Blender shader parity.
 
 - Source and portable-dependency checks: `python icf_detail_v02/scripts/verify_portable_package.py`
-- Resume the 24-view gallery: `python icf_detail_v02/scripts/run_final_gallery.py`
+- Reproduce or resume the 24-view gallery: `python icf_detail_v02/scripts/run_final_gallery.py`
 - Rebuild its completed-image index: `python icf_detail_v02/scripts/update_gallery_index.py`
 - Audit completed images and completeness: `python icf_detail_v02/scripts/audit_final_gallery.py`
 
@@ -35,11 +35,11 @@ Use Blender 4.3 or compatible: `blender -b -t 2 --python icf_detail_v02/scripts/
 
 Renders are actual Blender geometry, not image-generated illustrations. Cutaway hides the roof and one bodyside for inspection only. Studio lights and camera are excluded from FBX. Passenger and berth markers are authoring references, not claims of runtime validation.
 
-## Verified source state and remaining work
+## Verified source and gallery state
 
 All seven classes have completed source generation, geometry, support/contact, aperture, seated-root and relocated FBX texture/hierarchy/bounds checks. The current r12 sources and exports are frozen in `qa/final_geometry_lock.json`; recovery revalidation confirms unchanged hashes. These checks do not establish native game compatibility, animated character fit or dynamic mechanical clearances.
 
-Remaining work is the complete 24-view high-sample actual-model gallery, final pixel review and finished-gallery provenance audit. The truthful completion count is in GALLERY.md. Do not interpret prior review images as completed high-sample finals.
+All 24 high-sample actual-model gallery images are complete and have a per-image pixel review plus passing current-source provenance audit. The gallery and pixel ledger document their scope and remaining fidelity limitations. Final delivery review is separate from these technical checks; native game compatibility, exact as-built replication and dynamic clearance remain unvalidated.
 
 ## Portable render dependencies
 

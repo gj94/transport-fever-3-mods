@@ -1,6 +1,6 @@
 # LHB detailed coach family v0.2 — source assets and review gallery
 
-This isolated revision contains source assets and a 21-view rendered gallery (20 accepted views; lavatory detail under corrective review), developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. All seven class sources and FBX exports have been rebuilt from matching current modules. Geometry, hierarchy, capacity and furnishing-placement checks pass for all seven classes, with separately reported editable-font tessellation warnings. Visual proofs are being reviewed and refined. The first published checkpoint remains explicitly WIP. Do not treat this checkpoint as a final release or runtime-ready asset.
+This isolated revision contains source assets and a completed 21-view versioned-source render gallery (20 accepted pre-repair views and the corrected latest-source lavatory view), developed from the seven class-specific v0.1 masters. It does not replace earlier sources or the native TF3 pack. All seven class sources and FBX exports have been rebuilt from matching current modules. Geometry, hierarchy, capacity and furnishing-placement checks pass for all seven classes, with separately reported editable-font tessellation warnings. The completed gallery has been accepted with the documented fidelity caveats, including the corrected latest-source lavatory. Earlier checkpoints remain historical WIP. This is an authoring-source and render-gallery delivery, with no native-game runtime validation.
 
 ## Prototype and coordinate contract
 
@@ -51,7 +51,8 @@ Fine hardware remains representative original modelling; neither reference fidel
 
 The corrected CC antimacassar is a closed 1.2 mm draped textile with a sewn hem, replacing the earlier thick pad proxy. Its 25-ring chair-shoulder refinement preserves maximum dimensions and passenger datums. The corrected 64-sample close and interior proofs were visually reviewed before geometry lock. Fifteen isolated CC furnishing and topology checks pass. The full-family rebuild and independent source/FBX checks are repeated against this locked revision before final rendering.
 
-`scripts/render_final_gallery.py` runs a resumable actual CPU Cycles gallery at 512 maximum samples, 2% adaptive threshold, minimum 64 samples and four CPU threads, with no denoising. It verifies source and image hashes for each completed view and records completed/pending views in `qa/final_gallery_progress.json`. A 512-sample limit is not a claim that every pixel used 512 samples. The intended first set is all seven current-source interiors and exteriors, followed by selected chair, cabin, HVAC, running-gear and service-area details. Only records matching the current source and image hashes describe current renders. Gallery progress remains separate from geometry, FBX portability and native-game validation.
+`scripts/render_final_gallery.py` provides a full-gallery render route using the restart-safe workflow below. Final frames use eight independently seeded 64-sample passes, 512 uniform samples per pixel, four CPU threads, adaptive sampling disabled and no denoising. Gallery completion is separate from geometry, FBX portability and native-game validation. After a source repair, do not reuse old-source caches for a full rerender: preserve them and start fresh caches. The curated delivered gallery follows the explicit versioned-source policy below.
+
 
 ## Post-lock 1A typography correction
 
@@ -65,7 +66,7 @@ The portable implementation is `scripts/checkpoint_render.py`, invoked through `
 
 ## Delivery navigation
 
-See [GALLERY.md](GALLERY.md) for the current source-matched 21-view gallery and [DELIVERY_STATUS.json](DELIVERY_STATUS.json) for measured completion. These indexes are regenerated from actual source/image hashes before checkpointing; they do not treat stale or low-sample images as final. The approved set is fourteen class interiors/exteriors plus seven detail views, including the added 3A bay camera.
+See [GALLERY.md](GALLERY.md) for the completed, explicitly versioned-source 21-view gallery and [DELIVERY_STATUS.json](DELIVERY_STATUS.json) for measured completion. These indexes are regenerated from actual source/image hashes before checkpointing; they do not treat stale or low-sample images as final. The approved set is fourteen class interiors/exteriors plus seven detail views, including the added 3A bay camera.
 
 Native editable sources are the seven `.blend` masters in `models/`; paired `.fbx` files are portable exchange exports. This folder structure is not a native Transport Fever 3 mod and does not assert runtime readiness. See the explicit limitations above. Historical renderer helper bytes needed to explain earlier fingerprints are preserved under `scripts/render_provenance/`.
 
