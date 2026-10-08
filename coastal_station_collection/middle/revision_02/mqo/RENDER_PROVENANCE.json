@@ -1,0 +1,102 @@
+{
+  "station": "MQO",
+  "blend_file": "MQO_coastal_station_v01.blend",
+  "blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "camera_location": [
+        -56.0,
+        -44.0,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4120712280273438,
+        6.156076892693818e-08,
+        -0.4750107526779175
+      ],
+      "sha256": "2a637b833d990300f5b2feb3fecd283fdc5fe5111dcf66bd1c9621d0069fa70b",
+      "render_seconds": 16.73186707496643,
+      "source_blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1",
+      "retained_from_immutable_base": true,
+      "retention_reason": "Bridge geometry is outside this facade/interior view; camera, subject geometry, materials and illumination unchanged."
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "camera_location": [
+        -43.459999084472656,
+        -5.599999904632568,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.178077220916748,
+        -5.689241433515235e-08,
+        -1.1846954822540283
+      ],
+      "sha256": "bc9a091982eccdd742c06528016aca7ca94653caeee6763ac4f8c5da6d687983",
+      "render_seconds": 23.781580924987793,
+      "source_blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1",
+      "retained_from_immutable_base": true,
+      "retention_reason": "Bridge geometry is outside this facade/interior view; camera, subject geometry, materials and illumination unchanged."
+    },
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "deb2a6855db97a6cf5a7d8f1bbbe7931bd91b158d80c889d870457c0e86583c0",
+      "render_seconds": 15.552675724029541
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "camera": "02_STATION_AND_PLATFORMS",
+      "source_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+      "camera_location": [
+        -148.0,
+        -176.0,
+        125.0
+      ],
+      "camera_rotation": [
+        1.0867509841918945,
+        5.613909337398582e-10,
+        -0.6893095374107361
+      ],
+      "sha256": "e54fc8d3a83619fa0daa7846a7097c9d9c6543d0fd257ca3abb8ff629736f417",
+      "render_seconds": 15.44720721244812
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+      "camera_location": [
+        37.5920295715332,
+        -0.7827000021934509,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "a3316cc4b335094a72b30292da87c12b21b62d7643e9ba39a78d876538f36efd",
+      "render_seconds": 19.264298677444458
+    }
+  ]
+}

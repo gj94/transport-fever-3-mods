@@ -1,0 +1,102 @@
+{
+  "station_code": "MQO",
+  "status": "Frozen candidate; automatic source/render/export hash gates passed. Independent scene/gallery acceptance is tracked by the parent auditor.",
+  "blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+  "allowlist": [
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/MQO_coastal_station_v01.blend",
+      "bytes": 8326051,
+      "sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/BUILD_QA.json",
+      "bytes": 1962,
+      "sha256": "beac3e582d5ea910b1a276de08a6dd273f37dca047ab4f7afd9e4c0a3ac5dbc6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/EXPORT_QA.json",
+      "bytes": 1315,
+      "sha256": "06d2c3710b088d15c86c329102670de721b4d19e3cd27bb840bb53a7fe1cd904"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/RENDER_PROVENANCE.json",
+      "bytes": 3418,
+      "sha256": "516991432a3f6864e88ce0e61aa59ac444aedf0953f2aa99d34020ebf502eff8"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 8717,
+      "sha256": "ec3b891ea6d247abffc690ca69dc80a0e3337b9146bdd9e444ddc462821a4ff2"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/export/MQO_coastal_station_v01.glb.zip",
+      "bytes": 5004738,
+      "sha256": "8f35daf33831244786f27443d00faf1e7ad10f138ee1bc8ace472025e33c5d47"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/renders/04_facade_and_approach.png",
+      "bytes": 1227608,
+      "sha256": "2a637b833d990300f5b2feb3fecd283fdc5fe5111dcf66bd1c9621d0069fa70b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/renders/05_ticket_interior.png",
+      "bytes": 1480508,
+      "sha256": "bc9a091982eccdd742c06528016aca7ca94653caeee6763ac4f8c5da6d687983"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/renders/01_full_mapped_layout.png",
+      "bytes": 1046493,
+      "sha256": "deb2a6855db97a6cf5a7d8f1bbbe7931bd91b158d80c889d870457c0e86583c0"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/renders/02_station_and_platforms.png",
+      "bytes": 1116942,
+      "sha256": "e54fc8d3a83619fa0daa7846a7097c9d9c6543d0fd257ca3abb8ff629736f417"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/renders/03_platform_track_details.png",
+      "bytes": 1219911,
+      "sha256": "a3316cc4b335094a72b30292da87c12b21b62d7643e9ba39a78d876538f36efd"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/source/mapped_geometry.json",
+      "bytes": 56960,
+      "sha256": "889602611300d3ef95db83aca9ee38b89bad571f6fd8f9035b9c9e8cf59a4ca5"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/source/adopted_geometry.json",
+      "bytes": 97484,
+      "sha256": "7b5abd178eb02c61d57fa5c23655e4830a1130d7f4d87d4ca087e274ce8ad20a"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/source/station_nameboard.png",
+      "bytes": 33021,
+      "sha256": "ae3d6b909dbe5b1332612b32a7ab250b32684dada5afce65b6a600d5cfb1c114"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/source/nameboard_text.json",
+      "bytes": 416,
+      "sha256": "a63d5a39dd2870929d5bf20c85f8846262fbd01c5f5024819b6ed92bf5fa83bd"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/source/visual_evidence.json",
+      "bytes": 1955,
+      "sha256": "4bbf02c5a8e089a788829604102e57b3374f6c40ed97d08f0dab16f79c6d919b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/BRIDGE_REVISION.json",
+      "bytes": 1525,
+      "sha256": "0f55fb98038c08e5b73490f6d8feb123df80266814bfe34c689c267a06c2d69c"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/revision_02/mqo/source/repair_bridge_used.py",
+      "bytes": 3890,
+      "sha256": "d46ba3a5dba6ce42c6637ba61005cd19fc7bb43b08ccfda7fb70639cbefe6645"
+    }
+  ],
+  "included_render_count": 5,
+  "no_source_photos": true,
+  "licensing": "OSM-derived source geometry retained with ODbL attribution; generated label pixels only, no Google/provider imagery",
+  "provenance": "Per-view source hashes and retained-view reasons are explicit; export hash matches the authoritative packed Blend; exact builder or repair snapshot retained where captured",
+  "freeze_rule": "Do not mutate any allowlisted bytes after handoff. Revisions need a new directory."
+}

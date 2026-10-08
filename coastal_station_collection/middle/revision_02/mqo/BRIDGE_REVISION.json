@@ -1,0 +1,59 @@
+{
+  "base_blend_sha256": "950cf176f29fc8cb21420a3887f5d782801d77a390be513d24840c4cf4edb4b1",
+  "repaired_blend_sha256": "180d186b075c31a44773fb855b73c4ab43c8b374d7ec7f4b0bb62c159f2ddb4d",
+  "repair_script_sha256": "d46ba3a5dba6ce42c6637ba61005cd19fc7bb43b08ccfda7fb70639cbefe6645",
+  "changes": [
+    {
+      "object": "Footbridge deck",
+      "vertices": 8,
+      "dx_m": 0,
+      "dz_m": -0.12
+    },
+    {
+      "object": "Footbridge individual stair tread",
+      "vertices": 672,
+      "dx_m": -1.325,
+      "dz_m": 0.04026190476190476
+    },
+    {
+      "object": "Footbridge stair stringer",
+      "vertices": 64,
+      "dx_m": -1.5,
+      "dz_m": 0
+    },
+    {
+      "object": "Footbridge stair top rail",
+      "vertices": 64,
+      "dx_m": -1.5,
+      "dz_m": 0
+    },
+    {
+      "object": "Footbridge stair baluster",
+      "vertices": 960,
+      "dx_m": -1.5,
+      "dz_m": 0
+    },
+    {
+      "object": "Covered footbridge stair flight roof",
+      "vertices": 8,
+      "dx_m": -1.5,
+      "dz_m": 0
+    },
+    {
+      "object": "Covered stair roof upright",
+      "vertices": 320,
+      "dx_m": -1.5,
+      "dz_m": 0
+    }
+  ],
+  "unchanged": "All track, platform, building, furniture, materials, cameras and illumination outside the affected bridge mesh components remain unchanged.",
+  "retained_views": [
+    "04_facade_and_approach.png",
+    "05_ticket_interior.png"
+  ],
+  "rerender_views": [
+    "01_full_mapped_layout.png",
+    "02_station_and_platforms.png",
+    "03_platform_track_details.png"
+  ]
+}
