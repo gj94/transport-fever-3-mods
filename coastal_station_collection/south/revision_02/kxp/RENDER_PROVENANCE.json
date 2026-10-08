@@ -1,0 +1,100 @@
+{
+  "station": "KXP",
+  "views": {
+    "02_STATION_ARCHITECTURE.png": {
+      "source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+      "file_sha256": "37cc234a22bc5010f6fc791c202e028161123674a0c17e7fe48fe1b05cebd559",
+      "camera": "02_STATION_ARCHITECTURE",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 23.9,
+      "camera_override": null
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+      "file_sha256": "30641516e055c5a1c8e121dc825dd46d0487d87d6ebd824071ad96eae3b263eb",
+      "camera": "01_FULL_STATION_NETWORK",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 14.34,
+      "camera_override": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+      "file_sha256": "ae1a195ae50e707fcc5c3ed675996e9873802021457d584430d51d7784d041da",
+      "camera": "03_PLATFORM_AND_TRACKS",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 20.53,
+      "camera_override": {
+        "reason": "Railward platform-end viewpoint avoids nameboards, benches and stair undersides; render-only camera transform, source geometry unchanged",
+        "location": [
+          -200.01034545898438,
+          -8.93326187133789,
+          3.4000000953674316
+        ],
+        "target": [
+          -0.01035300857208199,
+          -9.116811703213514,
+          2.1
+        ],
+        "lens_mm": 30
+      }
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "source_scene_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+      "file_sha256": "185b37c107217ed050c0c3358e13f2231c322f19c9f8dacb2358022ff86567c3",
+      "camera": "04_FURNISHED_INTERIOR",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 29.98,
+      "camera_override": null,
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+          "to_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+          "previous_basis": null,
+          "basis": "Only added approach link is outside recorded camera frustum"
+        }
+      ],
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "source_scene_sha256": "7dfd6ba3408db78ace4e306915c7477ff7a6d993424306749713fd34d31e15ad",
+      "file_sha256": "01a227f45f960ae3b07f804da95879388629848df8d629f5d62a31c618a779d6",
+      "camera": "05_TRACK_AND_PLATFORM_DETAIL",
+      "engine": "BLENDER_EEVEE_NEXT",
+      "resolution": [
+        1600,
+        900
+      ],
+      "seconds": 24.59,
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum",
+      "inheritance_chain": [
+        {
+          "from_scene_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+          "to_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+          "previous_basis": "Changed stair AABB entirely outside recorded camera frustum; no other geometry or material edits",
+          "basis": "Only added approach link is outside recorded camera frustum"
+        }
+      ]
+    }
+  },
+  "current_source_scene_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65"
+}

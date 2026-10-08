@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/exchange/PASA_portable_GLTF.zip!PASA_station_v01.glb",
+    "bytes": 34865996,
+    "errors": [],
+    "warnings": [],
+    "sha256": "5d50f76fa17cf70bff86a26a90e1ee979b8e6632db1792aef7b979a8cb30bc11",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 34865996
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 582968
+      },
+      {
+        "type": 5130562,
+        "bytes": 34283000
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 901,
+    "mesh_count": 901,
+    "primitive_count": 901,
+    "vertex_reference_count": 1177020,
+    "accessor_count": 1992,
+    "validated_accessor_count": 1992,
+    "material_count": 24,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "ab6f02cca7f3be9ce2d4f3331c9fa5a418011c3f3993da1a3d09f26a3a9a5a5b",
+    "container_bytes": 5078543
+  }
+]

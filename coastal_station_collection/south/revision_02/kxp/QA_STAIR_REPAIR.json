@@ -1,0 +1,380 @@
+{
+  "station": "KXP",
+  "input_source_sha256": "7dfd6ba3408db78ace4e306915c7477ff7a6d993424306749713fd34d31e15ad",
+  "output_source_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+  "scope": "Only tread/nosing/stringer/handrail/baluster mesh assemblies and repair metadata changed. Original upper landing retained; first tread begins immediately beyond its outer edge, ordinary equal rise.",
+  "geometry_surface_checks": [
+    {
+      "y": -21.14948066114715,
+      "landing_edge_x": -67.725,
+      "landing_top_expected": 8.01,
+      "nominal_rise_m": 0.16776190476190475,
+      "landing_actual": {
+        "z": 8.010000228881836,
+        "object": "Stair upper landing"
+      },
+      "first_tread_actual": {
+        "z": 7.842237949371338,
+        "object": "Stair non-slip tread"
+      },
+      "actual_transition_rise_m": 0.16776227951049805,
+      "surface_samples": [
+        {
+          "z": 7.842237949371338,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.674476146697998,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.506714344024658,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.338952541351318,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.17119026184082,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.0034284591674805,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.835666656494141,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.667904853820801,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.500143051147461,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.332380771636963,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.164618492126465,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.996857166290283,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.829095363616943,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.661333084106445,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.4935712814331055,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.325809478759766,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.158047676086426,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.990285873413086,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.82252311706543,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.65476131439209,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.48699951171875,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.319238185882568,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.15147590637207,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.9837136268615723,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.8159523010253906,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.648190498352051,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.480428695678711,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.312666416168213,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.144904613494873,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.977142810821533,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.8093810081481934,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.6416187286376953,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.4738564491271973,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.3060946464538574,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.138333320617676,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.970571517944336,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.802809715270996,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.6350469589233398,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.46728515625,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.2995243072509766,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.1317620277404785,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 0.9639997482299805,
+          "object": "Stair non-slip tread"
+        }
+      ]
+    },
+    {
+      "y": -5.366811703213521,
+      "landing_edge_x": -67.725,
+      "landing_top_expected": 8.01,
+      "nominal_rise_m": 0.16776190476190475,
+      "landing_actual": {
+        "z": 8.010000228881836,
+        "object": "Stair upper landing"
+      },
+      "first_tread_actual": {
+        "z": 7.842237949371338,
+        "object": "Stair non-slip tread"
+      },
+      "actual_transition_rise_m": 0.16776227951049805,
+      "surface_samples": [
+        {
+          "z": 7.842237949371338,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.674476146697998,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.506714344024658,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.338952541351318,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.17119026184082,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 7.0034284591674805,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.835666656494141,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.667904853820801,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.500143051147461,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.332380771636963,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 6.164618968963623,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.996857166290283,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.829095363616943,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.6613335609436035,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.4935712814331055,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.325809478759766,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 5.158047676086426,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.990285873413086,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.822523593902588,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.65476131439209,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.486999988555908,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.319238662719727,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 4.151476860046387,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.9837136268615723,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.8159518241882324,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.648190498352051,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.480429172515869,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.312666893005371,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 3.1449050903320312,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.977142333984375,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.8093810081481934,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.6416187286376953,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.4738564491271973,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.3060946464538574,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 2.1383328437805176,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.970571517944336,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.802809715270996,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.635047435760498,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.4672856330871582,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.2995233535766602,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 1.1317625045776367,
+          "object": "Stair non-slip tread"
+        },
+        {
+          "z": 0.9639997482299805,
+          "object": "Stair non-slip tread"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "Actual Blender floor rays passed ordinary upper transition and42supported tread centers"
+}

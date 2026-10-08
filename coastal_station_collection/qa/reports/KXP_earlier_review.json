@@ -1,0 +1,20 @@
+{
+  "station_code": "KXP",
+  "status": "changes_required",
+  "manifest_sha256": "e6e58a3a971af29b57a89f17ef16e70a713725c9ab77c33db4b75e1910f15535",
+  "affected_blend_sha256": "7dfd6ba3408db78ace4e306915c7477ff7a6d993424306749713fd34d31e15ad",
+  "finding": "First tread buried under upper landing creates0.375953m final rise on both bridge flights, measured independently in exact frozen GLB and Blend.",
+  "passed_checks": [
+    "Five-view visual review and direct comparison to2017 frontage/2023 footbridge photographs",
+    "Portable export header/buffers/finite binary values/index bounds/embedded resources",
+    "All36 low/waist/head ramp, public-entry and bridge path rays",
+    "Five ramp-surface support probes"
+  ],
+  "required_correction": "Align top stair/landing transition to intended ordinary step height or continuous top tread; preserve original freeze and deliver new exact hashes.",
+  "evidence_reports": [
+    "KXP_exact_landing_transition.json",
+    "KXP_final_scene_inspection.json",
+    "south_first_exports_portable.json"
+  ],
+  "publication": "Hold final station gate pending narrow landing correction; source fidelity and unaffected geometry need not be rebuilt."
+}

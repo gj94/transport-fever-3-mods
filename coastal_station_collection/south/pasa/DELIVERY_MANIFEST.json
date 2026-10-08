@@ -1,0 +1,251 @@
+{
+  "station": "PASA",
+  "name": "Parassala",
+  "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+  "frozen_at_utc": "2026-10-08T21:44:46.958030+00:00",
+  "status": "Frozen after builder visual review; independent audit tracked separately",
+  "revision": 1,
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/PASA_station_v01.blend",
+      "relative_path": "south/pasa/PASA_station_v01.blend",
+      "bytes": 7676484,
+      "sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/README.md",
+      "relative_path": "south/pasa/README.md",
+      "bytes": 4996,
+      "sha256": "6fbf796eee2ee3ebd5089dad60b401a53ffa750125a4f580ae2755b427e7840c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/SOURCES.json",
+      "relative_path": "south/pasa/SOURCES.json",
+      "bytes": 9711,
+      "sha256": "82b163a2f03b3a2a872fb61c8cabd257f3bd7e99c24cdea045fc7901ce3bd161"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/pasa/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/QA_BUILD.json",
+      "relative_path": "south/pasa/QA_BUILD.json",
+      "bytes": 7803,
+      "sha256": "0df2c0635e558e1edf8f9d23a63bcec9eae4b52c9d4471bea8447ee23485616c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/QA_EXPORT.json",
+      "relative_path": "south/pasa/QA_EXPORT.json",
+      "bytes": 683,
+      "sha256": "6bb5579fa85966574c18cf08e7b6df9e5131fcc4ff8a588a5fdb0f3fc8af2f24"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/RENDER_PROVENANCE.json",
+      "relative_path": "south/pasa/RENDER_PROVENANCE.json",
+      "bytes": 3266,
+      "sha256": "a369c45e75ae0c7083a0a6d223b20c38e7ad03d8e08420a34cdef83d83fc4be6"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/exchange/PASA_portable_GLTF.zip",
+      "relative_path": "south/pasa/exchange/PASA_portable_GLTF.zip",
+      "bytes": 5078543,
+      "sha256": "ab6f02cca7f3be9ce2d4f3331c9fa5a418011c3f3993da1a3d09f26a3a9a5a5b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/exchange/MANIFEST.json",
+      "relative_path": "south/pasa/exchange/MANIFEST.json",
+      "bytes": 656,
+      "sha256": "9604521bba870145e6714a9d93ed4ab87096c8f90d333cbf08a2c2b55895d7d4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/pasa/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1485284,
+      "sha256": "fe15946f7fa895b9086cc9ec6b77c09fa1ee65d99d9df0edbfda42ae1c95d5cd"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/pasa/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 2015394,
+      "sha256": "5a950b99295fb3ccd19e5f40119aeff54b694d6be3fe647fec0b1f6cd0f8140c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/pasa/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1724194,
+      "sha256": "c2cabc924947b63eb71658231e70dfa1c78125c9501ef24f5626a65099bc1e69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/pasa/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1492476,
+      "sha256": "a90565301ce3f778a085c174011ffc55cf198e2e8ff7c1e1a331760c53c9648b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/renders/05_PHYSICAL_POINTWORK.png",
+      "relative_path": "south/pasa/renders/05_PHYSICAL_POINTWORK.png",
+      "bytes": 1863510,
+      "sha256": "dacfee79971a180e193c9068581ef166ed18246102eaa2b9270c0b5dafdd8360"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/QA_SCENE.json",
+      "relative_path": "south/pasa/QA_SCENE.json",
+      "bytes": 5625,
+      "sha256": "f33781e2c8aaa453137d334f883c5947d51419280e2311164ba55b64ab45b80a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/pasa/QA_CIRCULATION_RAYS.json",
+      "bytes": 2025,
+      "sha256": "19f9fa0aa0f71840251db76a412f3457e2945852ddf1fd5359b1d65469f50802"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/VISUAL_QA.md",
+      "relative_path": "south/pasa/VISUAL_QA.md",
+      "bytes": 703,
+      "sha256": "7865a50b073e10f655f50ffd0f597a273feb2479afbc8fcb30ba85dd246b3059"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/QA_ACCESS_REPAIR.json",
+      "relative_path": "south/pasa/QA_ACCESS_REPAIR.json",
+      "bytes": 2478,
+      "sha256": "2e31dd4042a748383cd25a0def2ba309cbc7844efb0efc8882a395013fdd8951"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/REPAIR_LINEAGE.json",
+      "relative_path": "south/pasa/REPAIR_LINEAGE.json",
+      "bytes": 545,
+      "sha256": "d212a677764a6d6c5cf252193ffdf7e46288f1617d27c41d3c82f0ef99c26cc7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/REPAIR_HISTORY.json",
+      "relative_path": "south/pasa/REPAIR_HISTORY.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/name_ta.svg",
+      "relative_path": "south/pasa/source/name_ta.svg",
+      "bytes": 223,
+      "sha256": "c6485f27a3fe41d10697901d5435c5b27ec459dabd4ec4bbfa522cfae46e6150"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/platform_mesh.json",
+      "relative_path": "south/pasa/source/platform_mesh.json",
+      "bytes": 4521,
+      "sha256": "52b3f26048479d3267d7f9ea1dafb93600edf6d09f3fab4306586376e5cf78a4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/build_config.json",
+      "relative_path": "south/pasa/source/build_config.json",
+      "bytes": 529,
+      "sha256": "6bf31c5ca48b07ceac2285f8bdaa388fcfb47154ff5de13edd1efaa3db699e0e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/layout.json",
+      "relative_path": "south/pasa/source/layout.json",
+      "bytes": 14638,
+      "sha256": "1f055f293c5a3376cc6cc2c21a8e026ee6d7c4b3f44b89fd0df2deb377bf6aa1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/name_ml.svg",
+      "relative_path": "south/pasa/source/name_ml.svg",
+      "bytes": 230,
+      "sha256": "519d61c9dff8fb13d2a19dc3e998fb907197b61d6473b0355997927c1e9cb195"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/name_ml_outlined.svg",
+      "relative_path": "south/pasa/source/name_ml_outlined.svg",
+      "bytes": 5466,
+      "sha256": "4cc193c9fb5174559d0dd70d2ab185daca304b7c5079397785f4e5f5cc509eee"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/name_ta_outlined.svg",
+      "relative_path": "south/pasa/source/name_ta_outlined.svg",
+      "bytes": 5003,
+      "sha256": "42438ed9dae956fdfc3b7e1f4b89c2a094ca186eee4ccdd1de56b14f6cc7b128"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/rail_mesh.json",
+      "relative_path": "south/pasa/source/rail_mesh.json",
+      "bytes": 174582,
+      "sha256": "be2668b950b27d9fb1e40e7c8e629a1a8174bdbdd4a527c01507b2ddddf5071d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/native_names.json",
+      "relative_path": "south/pasa/source/native_names.json",
+      "bytes": 149,
+      "sha256": "fc26822c6a0daa6fc7a2d2e35355b399dd7fa0b2c15e677e6a4ac56f0653518d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/architectural_variants.py",
+      "relative_path": "south/pasa/source/recipe/architectural_variants.py",
+      "bytes": 59913,
+      "sha256": "f580967d1bd10b6298bc81a1c8ee907e7794c6dd81b51367e1041af9ddaf1fe3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/pasa/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/access_geometry.py",
+      "relative_path": "south/pasa/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/build_station.py",
+      "relative_path": "south/pasa/source/recipe/build_station.py",
+      "bytes": 46452,
+      "sha256": "e89056107d2f55d8e8f6a425eb2564617b8abe93ba430e705275b481eeca6ff5"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/prepare_geometry.py",
+      "relative_path": "south/pasa/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/repair_veranda_columns.py",
+      "relative_path": "south/pasa/source/recipe/repair_veranda_columns.py",
+      "bytes": 5447,
+      "sha256": "52a2912949056f3e8bcc715f66f1b31d9da6226ba10e0d9058ea4f4f8cd91cc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/export_station.py",
+      "relative_path": "south/pasa/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/repair_access_link.py",
+      "relative_path": "south/pasa/source/recipe/repair_access_link.py",
+      "bytes": 7838,
+      "sha256": "1d6fd7f19853f4c45a79a2be66f35cc95586ac3f87980acef02aca57645e1d69"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/pasa/source/recipe/scene_review_inputs.py",
+      "bytes": 2138,
+      "sha256": "de09e1687b3fdd3aef6cea4ddbc2004e7c3db9533ea0c6fa6c8e420475819a22"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pasa/source/recipe/render_station.py",
+      "relative_path": "south/pasa/source/recipe/render_station.py",
+      "bytes": 5641,
+      "sha256": "6e47b1638945597c6a88f9a98609746cc8fd7f8b9d3d7dc9fd1ea1705bc1ca2e"
+    }
+  ],
+  "excluded": [
+    "raw Google/third-party reference screenshots",
+    "redundant raw .glb after verified lossless archiving",
+    "Blender backup .blend1 files",
+    "logs and mutable region-wide working files"
+  ],
+  "total_bytes": 21745621
+}

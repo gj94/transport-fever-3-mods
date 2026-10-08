@@ -1,0 +1,61 @@
+{
+  "station": "PASA",
+  "reviewed_utc": "2026-10-08T21:28:40Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+  "frames": {
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "fe15946f7fa895b9086cc9ec6b77c09fa1ee65d99d9df0edbfda42ae1c95d5cd",
+      "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "inheritance_basis": null
+    },
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "5a950b99295fb3ccd19e5f40119aeff54b694d6be3fe647fec0b1f6cd0f8140c",
+      "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "inheritance_basis": null
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "c2cabc924947b63eb71658231e70dfa1c78125c9501ef24f5626a65099bc1e69",
+      "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "inheritance_basis": null
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "a90565301ce3f778a085c174011ffc55cf198e2e8ff7c1e1a331760c53c9648b",
+      "source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "review_basis": "new_reduced_pixels_inspected",
+      "unchanged_view_verified": false,
+      "current_source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "inheritance_basis": null
+    },
+    "05_PHYSICAL_POINTWORK.png": {
+      "image_sha256": "dacfee79971a180e193c9068581ef166ed18246102eaa2b9270c0b5dafdd8360",
+      "source_scene_sha256": "77ea148c002e7a915c830abb5b9394c1ce8a6eaa0b35a593cd1fb6f4bbc5654d",
+      "review_basis": "preserved_prior_hash_bound_pass",
+      "unchanged_view_verified": true,
+      "current_source_scene_sha256": "0f2bc93da5829d6b504e9daad856d87f6b834cb49252bda24d8c96682d58048c",
+      "inheritance_basis": "Only added WC approach link, entirely outside recorded camera frustum"
+    }
+  },
+  "prior_review_reports": [
+    "PASA_77ea148c_visual_review.json"
+  ],
+  "observations": [
+    "New04 closes the former triangular roof-end enclosure gap; sky/bridge no longer visible through the far interior wall seam.",
+    "Counter/furniture remain coherent; new01\u201303 still useful and unobstructed, including readable station name on03.",
+    "Prior source-specific pale block, raised wall, portico and upper vent-band acceptance preserved; remote05 exact accepted hash retained with explicit unchanged-view lineage."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Earlier source/date and reconstruction qualifications continue unchanged.",
+    "Technical auditor owns full geometry/export/freeze/publication gate."
+  ]
+}

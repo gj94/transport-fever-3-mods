@@ -1,0 +1,26 @@
+{
+  "station": "KXP",
+  "input_source_sha256": "0250e671b917f7d4c35f35640c2516615f5ea4cfdb05110b12675f5aabe75dfe",
+  "output_source_sha256": "5297c53f227a3a958a5305c775cf9279e631871f3e9a6829cd19326cd1ef0d65",
+  "changed_bounds": [
+    [
+      14.699999809265137,
+      -2.91681170463562,
+      -0.20000000298023224
+    ],
+    [
+      16.299999237060547,
+      -0.26681169867515564,
+      1.0049999952316284
+    ]
+  ],
+  "retained_views": [
+    "04_FURNISHED_INTERIOR.png",
+    "05_TRACK_AND_PLATFORM_DETAIL.png"
+  ],
+  "rerender_prefixes": [
+    "01",
+    "02",
+    "03"
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/erl/exchange/ERL_portable_GLTF.zip!ERL_station_v01.glb",
+    "bytes": 58946432,
+    "errors": [],
+    "warnings": [],
+    "sha256": "eacaacbec50927904f96292c06d0fa880f0b4f70bc1d90411538466d292e5d01",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 58946432
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 607188
+      },
+      {
+        "type": 5130562,
+        "bytes": 58339216
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 955,
+    "mesh_count": 955,
+    "primitive_count": 955,
+    "vertex_reference_count": 1978691,
+    "accessor_count": 2052,
+    "validated_accessor_count": 2052,
+    "material_count": 26,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "6d8e9417224e8d577d95d3360255cc42989b86e6f94e7aa7174e2373a7981d93",
+    "container_bytes": 7646861
+  }
+]
