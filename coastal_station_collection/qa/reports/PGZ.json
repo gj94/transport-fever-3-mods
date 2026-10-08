@@ -1,0 +1,241 @@
+{
+  "station_code": "PGZ",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "south/pgz final freeze",
+  "manifest_sha256": "7fe63f6957070c39337b17cb405707cf85c5df4faa972d147b4819ea2a55768f",
+  "blend_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+  "export_sha256": "e8cd733f6eb225c8981e6cb0d9311930b306e4db5c8d25cd5862eb1784705573",
+  "export_zip_sha256": "590a0658ee19dba95ab72604e9033b0e3a986d2e16d9200d50e50c007bc64c9d",
+  "accepted_assets": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/PGZ_station_v01.blend",
+      "relative_path": "south/pgz/PGZ_station_v01.blend",
+      "bytes": 8573821,
+      "sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/README.md",
+      "relative_path": "south/pgz/README.md",
+      "bytes": 4980,
+      "sha256": "3f9b0efbf746474883fc457d729b7be3928468dec302a191f421dff074d15941"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/SOURCES.json",
+      "relative_path": "south/pgz/SOURCES.json",
+      "bytes": 11386,
+      "sha256": "95cf2258783c30c0f85db084660a4bb3aaaafde3691048d43542e9a9cfefb6c9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/pgz/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/QA_BUILD.json",
+      "relative_path": "south/pgz/QA_BUILD.json",
+      "bytes": 6594,
+      "sha256": "8b7d6c7fa6e7cf87b4585c4fb825fd6a25422c9fbe77f6dcffeff26759ef7c7f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/QA_EXPORT.json",
+      "relative_path": "south/pgz/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "dd8f65bc789dfa1d21305a36b75a828d410df7263d63c315e987c486cceda1d9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/RENDER_PROVENANCE.json",
+      "relative_path": "south/pgz/RENDER_PROVENANCE.json",
+      "bytes": 2567,
+      "sha256": "48e047cd03bd25953d7dbd858bea7cd87099cde62a208d340ef7649cec4798ef"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/exchange/PGZ_portable_GLTF.zip",
+      "relative_path": "south/pgz/exchange/PGZ_portable_GLTF.zip",
+      "bytes": 5467400,
+      "sha256": "590a0658ee19dba95ab72604e9033b0e3a986d2e16d9200d50e50c007bc64c9d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/exchange/MANIFEST.json",
+      "relative_path": "south/pgz/exchange/MANIFEST.json",
+      "bytes": 654,
+      "sha256": "24443631a3a60e7ce02de875a4f5dcc43ea86d6fb33a91ee73d95db711e489a1"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/pgz/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1471169,
+      "sha256": "203f8b127cd23ef907d2de665f1c9de71b5226092ba9e5690af1df2c4114eb29"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/pgz/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 2008965,
+      "sha256": "20c5bec9bb690537f8d74b07d697ca3638e0dd0d666e0468020290433fe5a94a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/pgz/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1918197,
+      "sha256": "123c549b0004c34ab145cf6c0508515cfe69f6cca3a160c301fa762c1e33e128"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/pgz/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1545276,
+      "sha256": "14268c05c0ae9acdc2151c91906c6bfde02834b2d9e5751f2aa5b3fddb6d006d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/pgz/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1905541,
+      "sha256": "cf43907060dff9d856b006ec0077a7fb4e3dea5835aa5de98da71d9ab6be5b4e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/QA_SCENE.json",
+      "relative_path": "south/pgz/QA_SCENE.json",
+      "bytes": 3299,
+      "sha256": "40ce23f7296a959e893679a78726bfa6689f1f735078d24756a6eb157aca25ef"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/pgz/QA_CIRCULATION_RAYS.json",
+      "bytes": 888,
+      "sha256": "3bed1b8423925b4ea1f444136367df02ba47254b1de3e262065460b1f4340f55"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/VISUAL_QA.md",
+      "relative_path": "south/pgz/VISUAL_QA.md",
+      "bytes": 1010,
+      "sha256": "7668bdaafc9bea2932d9637945351e4314d72fb522bb110d0cb6513cd6378d36"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/platform_mesh.json",
+      "relative_path": "south/pgz/source/platform_mesh.json",
+      "bytes": 1625,
+      "sha256": "af2566928b8cf5c2409ff28f2848460e50c94f32c31202fdcb88c7dbe80a235c"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/build_config.json",
+      "relative_path": "south/pgz/source/build_config.json",
+      "bytes": 602,
+      "sha256": "11f14eb14b96e1f4114c299d681cdbc9576402105126a6480151611e94d01510"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/layout.json",
+      "relative_path": "south/pgz/source/layout.json",
+      "bytes": 12215,
+      "sha256": "a7a6c5a23f9c4f1928fe2d0864fd7c3e1230bcceb12b7e9c197c76bc6d3e5f10"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/name_ml.svg",
+      "relative_path": "south/pgz/source/name_ml.svg",
+      "bytes": 236,
+      "sha256": "b690834df1e7905a573322cf9a2711846e3a87d730baeb05d6c8d2b9dadffa36"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/name_ml_outlined.svg",
+      "relative_path": "south/pgz/source/name_ml_outlined.svg",
+      "bytes": 8039,
+      "sha256": "f03b8a33f80fae12aabff1ac70573490c71a5307082e1e8a75377d23907b5fc2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/rail_mesh.json",
+      "relative_path": "south/pgz/source/rail_mesh.json",
+      "bytes": 58831,
+      "sha256": "57c6ea3ec9262e7ce1bbce463af087c12731667c3e9e9b667980c3542b96b83e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/native_names.json",
+      "relative_path": "south/pgz/source/native_names.json",
+      "bytes": 85,
+      "sha256": "2feff1375a0fd90f50dc27f34650d42393146ef940dc069853dddee93b67a24f"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/recipe/architectural_variants.py",
+      "relative_path": "south/pgz/source/recipe/architectural_variants.py",
+      "bytes": 56470,
+      "sha256": "f78e1b8f85f6febcaa744c022789391d7135eccfe2827f0a9558ef611eeffa68"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/recipe/build_station.py",
+      "relative_path": "south/pgz/source/recipe/build_station.py",
+      "bytes": 45517,
+      "sha256": "5d7f0df33292e3b538b9a05f4782b9efee7e142d44430a8981576a9edcd68b7d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/recipe/prepare_geometry.py",
+      "relative_path": "south/pgz/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/recipe/export_station.py",
+      "relative_path": "south/pgz/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/source/recipe/render_station.py",
+      "relative_path": "south/pgz/source/recipe/render_station.py",
+      "bytes": 4582,
+      "sha256": "d9d9eca3aea5eb2af75deb1970bdf183811cf0ea67e71d35e596947b8eb9ac0a"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/pgz/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1471169,
+      "sha256": "203f8b127cd23ef907d2de665f1c9de71b5226092ba9e5690af1df2c4114eb29"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/pgz/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 2008965,
+      "sha256": "20c5bec9bb690537f8d74b07d697ca3638e0dd0d666e0468020290433fe5a94a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/pgz/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1918197,
+      "sha256": "123c549b0004c34ab145cf6c0508515cfe69f6cca3a160c301fa762c1e33e128"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/pgz/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1545276,
+      "sha256": "14268c05c0ae9acdc2151c91906c6bfde02834b2d9e5751f2aa5b3fddb6d006d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/pgz/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/pgz/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1905541,
+      "sha256": "cf43907060dff9d856b006ec0077a7fb4e3dea5835aa5de98da71d9ab6be5b4e"
+    }
+  ],
+  "checks": {
+    "manifest": "All 29 allowlisted file hashes and byte counts independently verified.",
+    "visual": "All five final PNGs independently compared to actual 2016 frontage and 2020 ramp photographs. The revised track view is unobstructed; the refreshed contact sheet was checked and includes it.",
+    "layout": "Two reported platform positions and two reconstructed side bodies along two mapped roads. Independent platform-to-rail distances are approximately 2.0 m; the revised hut footprint is 6.769 m from the nearest rail centreline.",
+    "circulation": "The exact a2dc85b scene passes all 18 low, waist and head-height public/ramp rays, including three lateral paths through the contextual railing opening. Six actual floor probes find continuous rising ramp support.",
+    "resources": "The exact final scene is metric at scale 1.0, has finite geometry and bounds, and has no unpacked external resources or rolling-stock name candidates.",
+    "portable": "The final GLB and the GLB extracted from its lossless ZIP independently pass chunk/buffer/accessor bounds, finite binary values, index bounds and embedded-resource checks. Contained hashes agree.",
+    "lineage": "All five final render records cite the accepted source scene. Any camera-only override is recorded without pretending it changed the saved scene."
+  },
+  "evidence_reports": [
+    "PGZ_final_ramp_inspection.json",
+    "PGZ_final_layout.json",
+    "PGZ_final_portable.json",
+    "PGZ_final_zip_portable.json",
+    "PGZ_rail_component.json",
+    "../visual_batches/PGZ_a2dc85b_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification.",
+    "Dated photograph appearance is combined with mapped railway geometry; hidden interiors, dimensions and access details are reconstructed.",
+    "Procedural Blender surface effects fall back to base portable material colours; geometry and shaped lettering remain.",
+    "Targeted sampling is not exhaustive pairwise collision certification."
+  ],
+  "publication": "Independent final gate passed; parent retains publication approval."
+}

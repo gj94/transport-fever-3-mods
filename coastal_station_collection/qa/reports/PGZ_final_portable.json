@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/pgz/exchange/PGZ_station_v01.glb",
+    "bytes": 38332292,
+    "errors": [],
+    "warnings": [],
+    "sha256": "e8cd733f6eb225c8981e6cb0d9311930b306e4db5c8d25cd5862eb1784705573",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 38332292
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 528008
+      },
+      {
+        "type": 5130562,
+        "bytes": 37804256
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 816,
+    "mesh_count": 816,
+    "primitive_count": 816,
+    "vertex_reference_count": 1286577,
+    "accessor_count": 1801,
+    "validated_accessor_count": 1801,
+    "material_count": 23,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]
