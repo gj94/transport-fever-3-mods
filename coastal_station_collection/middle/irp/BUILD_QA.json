@@ -1,0 +1,48 @@
+{
+  "station_code": "IRP",
+  "blend": "IRP_coastal_station_v01.blend",
+  "generated_at_unix": 1791488707.3199115,
+  "builder_sha256": "79f96dc61ebefdcee66b866b4dd4e3b53b0c04ae90757ae244fb0398b053af56",
+  "source_adopted_sha256": "3eeb6c635144134155032c1bf8af968f8e666af9eaa53423380024faa4ee6238",
+  "units": "metres",
+  "gauge_inside_faces_m": 1.676,
+  "veranda_depth_adopted_m": 3.2,
+  "platform_top_m": 1.018,
+  "rail_top_m": 0.178,
+  "platform_positions_reported": "2",
+  "physical_platform_bodies": 2,
+  "track_routes": 2,
+  "track_route_total_length_m": 4302.124174520617,
+  "mapped_switch_nodes": 0,
+  "mapped_true_service_buffers": 0,
+  "mesh_objects": 160,
+  "total_objects": 178,
+  "vertices": 495672,
+  "polygons": 362197,
+  "no_rolling_stock": true,
+  "external_images": [],
+  "packed_resources": true,
+  "cameras": [
+    "01_FULL_MAPPED_LAYOUT",
+    "02_STATION_AND_PLATFORMS",
+    "03_PLATFORM_TRACK_DETAILS",
+    "04_FACADE_AND_APPROACH",
+    "05_TICKET_INTERIOR"
+  ],
+  "platforms": [
+    {
+      "label": "1",
+      "basis": "mapped polygon, locally inset for 1.90m rail-centre clearance",
+      "width_min_sample_m": 5.922349682092101,
+      "clearance_m": 1.8999999999999981
+    },
+    {
+      "label": "2",
+      "basis": "mapped polygon, locally inset for 1.90m rail-centre clearance",
+      "width_min_sample_m": 3.401244678951034,
+      "clearance_m": 1.9
+    }
+  ],
+  "corrections": [],
+  "notes": "Two mapped side platform bodies with unequal lengths retained. Compact ticket-office/waiting shelter, no large concourse. May2016 photograph guides a compact white/pale-blue flat-parapet building and tall repeated geometric grille windows; later repainting is not claimed."
+}

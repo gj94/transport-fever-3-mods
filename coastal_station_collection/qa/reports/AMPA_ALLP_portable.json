@@ -1,0 +1,138 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/AMPA/exports/AMPA_coastal_station_v01.glb",
+    "bytes": 78562060,
+    "errors": [],
+    "warnings": [],
+    "sha256": "612841c9631baf3a59c821ce33d34e43c276381fcb5b5434677b02e11de4b145",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 78562060
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 83244
+      },
+      {
+        "type": 5130562,
+        "bytes": 78478788
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 107,
+    "mesh_count": 107,
+    "primitive_count": 107,
+    "vertex_reference_count": 2608416,
+    "accessor_count": 320,
+    "validated_accessor_count": 320,
+    "material_count": 25,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  },
+  {
+    "path": "coastal_stations_overnight/north/AMPA/exports/AMPA_coastal_station_v02.glb",
+    "bytes": 78644248,
+    "errors": [],
+    "warnings": [],
+    "sha256": "68261b50c1d34567647f20addf4b1b7733c17eefad443920239913edb2fbed01",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 78644248
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 86088
+      },
+      {
+        "type": 5130562,
+        "bytes": 78558132
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 111,
+    "mesh_count": 111,
+    "primitive_count": 111,
+    "vertex_reference_count": 2611368,
+    "accessor_count": 330,
+    "validated_accessor_count": 330,
+    "material_count": 25,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  },
+  {
+    "path": "coastal_stations_overnight/north/ALLP/exports/ALLP_coastal_station_v01.glb",
+    "bytes": 86745768,
+    "errors": [],
+    "warnings": [],
+    "sha256": "03387bd31eb4f91062df5fce2a2e755010e14e7d245ffc94c533c61ec14082be",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 86745768
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 84372
+      },
+      {
+        "type": 5130562,
+        "bytes": 86661368
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 107,
+    "mesh_count": 107,
+    "primitive_count": 107,
+    "vertex_reference_count": 2884631,
+    "accessor_count": 322,
+    "validated_accessor_count": 322,
+    "material_count": 28,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  },
+  {
+    "path": "coastal_stations_overnight/north/ALLP/exports/ALLP_coastal_station_v02.glb",
+    "bytes": 86829876,
+    "errors": [],
+    "warnings": [],
+    "sha256": "06380f6e8347e4ac6a4cbae95bfe7c3c0a82fcf8fd81a1488337aec4e45e0431",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 86829876
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 85104
+      },
+      {
+        "type": 5130562,
+        "bytes": 86744744
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 108,
+    "mesh_count": 108,
+    "primitive_count": 108,
+    "vertex_reference_count": 2887895,
+    "accessor_count": 324,
+    "validated_accessor_count": 324,
+    "material_count": 28,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

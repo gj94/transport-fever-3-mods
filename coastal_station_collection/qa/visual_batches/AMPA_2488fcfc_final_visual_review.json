@@ -1,0 +1,146 @@
+{
+  "station": "AMPA",
+  "reviewed_utc": "2026-10-08T20:29:40Z",
+  "status": "frozen_five_view_visual_source_pass",
+  "final_scene_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "b5b65d0d8a576efedf9102a4ecddc3eb42de046461487153cc9655fcf7669c30",
+      "provenance_sha256": "b5b65d0d8a576efedf9102a4ecddc3eb42de046461487153cc9655fcf7669c30",
+      "source_scene_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "visual_status": "pass"
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "5b4636b1279eda37da7e22aa58d818094f7c7bd158c0d3536ca4c19c4f17970a",
+      "provenance_sha256": "5b4636b1279eda37da7e22aa58d818094f7c7bd158c0d3536ca4c19c4f17970a",
+      "source_scene_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "25e24a56d53b4f8b41441453fa2f023438a41ef3566bbac07cbc1bf15096a89e",
+      "provenance_sha256": "25e24a56d53b4f8b41441453fa2f023438a41ef3566bbac07cbc1bf15096a89e",
+      "source_scene_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "retained_for_final_blend_sha256": null,
+      "retained_scope_verification": null,
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "visual_status": "pass"
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601",
+      "provenance_sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601",
+      "source_scene_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+      "retained_for_final_blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision contains the explicitly recorded facade refinement: Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+        "original_image_sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601",
+        "related_patch_chain": {
+          "facade_refinement": {
+            "source_blend_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+            "source_blend_file": "AMPA_coastal_station_v01.blend",
+            "details": "Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source.",
+            "changed_existing_objects": [
+              {
+                "object": "04 | Ambalappuzha photographed architecture / red",
+                "removed_old_clerestory_vertices": 120
+              },
+              {
+                "object": "04 | Ambalappuzha photographed architecture / cream",
+                "removed_old_clerestory_vertices": 8
+              },
+              {
+                "object": "04 | Ambalappuzha photographed architecture / wood",
+                "removed_old_clerestory_vertices": 48
+              },
+              {
+                "object": "04 | Ambalappuzha photographed architecture / dark",
+                "removed_old_clerestory_vertices": 48
+              }
+            ],
+            "added_collection": "04A | AMPA source-identifying facade refinement",
+            "all_other_geometry_unchanged": true,
+            "script_sha256": "f3430454eab7e8a9b766abf96cd02e257af20ac439824293f202f2f3576595cf"
+          }
+        }
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "cf6a3062647ece86faf5a6f4197cb7897ea366ce6c660c323d331137da02fc6d",
+      "provenance_sha256": "cf6a3062647ece86faf5a6f4197cb7897ea366ce6c660c323d331137da02fc6d",
+      "source_scene_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+      "retained_for_final_blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision contains the explicitly recorded facade refinement: Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+        "original_image_sha256": "cf6a3062647ece86faf5a6f4197cb7897ea366ce6c660c323d331137da02fc6d",
+        "related_patch_chain": {
+          "facade_refinement": {
+            "source_blend_sha256": "5f3c74b8e913f6007c484a57853bab7d7b5d24463c1595b05ff6840cf84622a1",
+            "source_blend_file": "AMPA_coastal_station_v01.blend",
+            "details": "Raised2.4m central upper window tier; cream patterned breeze-block screen and offset middle black portico pier from the actual frontage source.",
+            "changed_existing_objects": [
+              {
+                "object": "04 | Ambalappuzha photographed architecture / red",
+                "removed_old_clerestory_vertices": 120
+              },
+              {
+                "object": "04 | Ambalappuzha photographed architecture / cream",
+                "removed_old_clerestory_vertices": 8
+              },
+              {
+                "object": "04 | Ambalappuzha photographed architecture / wood",
+                "removed_old_clerestory_vertices": 48
+              },
+              {
+                "object": "04 | Ambalappuzha photographed architecture / dark",
+                "removed_old_clerestory_vertices": 48
+              }
+            ],
+            "added_collection": "04A | AMPA source-identifying facade refinement",
+            "all_other_geometry_unchanged": true,
+            "script_sha256": "f3430454eab7e8a9b766abf96cd02e257af20ac439824293f202f2f3576595cf"
+          }
+        }
+      },
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "visual_status": "pass"
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/north/research/AMPA_photo.jpg",
+      "sha256": "04d324e80440575626e29ea6974ad8b299fa1235add4bb114f0d35e95123b8a9",
+      "actual_full_pixels_inspected": true
+    }
+  ],
+  "manifest_path": "coastal_stations_overnight/north/AMPA/MANIFEST.json",
+  "manifest_sha256": "0de8c3dc1105614b15cd138501e722797be4918826df1ebb5183b015a0fb46e4",
+  "observations": [
+    "Fresh final contact sheet reviewed for all five exact images; targeted revised02/04 inspected at full delivered size.",
+    "Requested source-identity and legibility corrections resolved; no new blocking visual defects.",
+    "Waiting seats, furnished ticket room and useful overall/platform/pointwork coverage present.",
+    "Retained images keep original source hashes with explicit final-subject declarations."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Unseen dimensions, room plans, exact wing/panel placement and fittings are disclosed reconstruction.",
+    "Technical auditor retains geometry, resource and final publication gate."
+  ],
+  "resolved_findings": [
+    "Raised upper window tier, stepped red corbels, pierced cream screen and third dark pier visible.",
+    "04 waiting furniture no longer cropped."
+  ]
+}

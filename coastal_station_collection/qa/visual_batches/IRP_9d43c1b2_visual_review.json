@@ -1,0 +1,62 @@
+{
+  "station": "IRP",
+  "reviewed_utc": "2026-10-08T20:12:02Z",
+  "status": "visual_source_pass",
+  "source_scene_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+  "frames": {
+    "renders/01_full_mapped_layout.png": {
+      "image_sha256": "ac8f235b68d8dcde417ec860147170f0280c420e8fbb234a5f172179546ac271",
+      "provenance_sha256": "ac8f235b68d8dcde417ec860147170f0280c420e8fbb234a5f172179546ac271",
+      "source_scene_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "renders/02_station_and_platforms.png": {
+      "image_sha256": "ed0644eafa6d99af0aada3806a5e8120f2f089c6e4602ba83b0a6341ceb1cac8",
+      "provenance_sha256": "ed0644eafa6d99af0aada3806a5e8120f2f089c6e4602ba83b0a6341ceb1cac8",
+      "source_scene_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "renders/03_platform_track_details.png": {
+      "image_sha256": "338cf50523872250e0d75d5f4ccf06bfb52bef4f5146958bbe7182d8ef8612ac",
+      "provenance_sha256": "338cf50523872250e0d75d5f4ccf06bfb52bef4f5146958bbe7182d8ef8612ac",
+      "source_scene_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "renders/04_facade_and_approach.png": {
+      "image_sha256": "a2506b69d37dae2cf6c09baa27822de83bb0ceb0b5bf81992356d128c5e21441",
+      "provenance_sha256": "a2506b69d37dae2cf6c09baa27822de83bb0ceb0b5bf81992356d128c5e21441",
+      "source_scene_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    },
+    "renders/05_ticket_interior.png": {
+      "image_sha256": "bed4e24e4064d367b0d25d83ac0d15aa28b44dcee5aaa0efbb2b9c8bebccfa4f",
+      "provenance_sha256": "bed4e24e4064d367b0d25d83ac0d15aa28b44dcee5aaa0efbb2b9c8bebccfa4f",
+      "source_scene_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true
+    }
+  },
+  "source": {
+    "path": "coastal_stations_overnight/research/screenshots/IRP_facade_2016-05.png",
+    "sha256": "94f3329c5dbc7fa265e79f1b9f8a1bfc037a7ed308da4c91bc727ba3f657cff7",
+    "actual_full_pixels_inspected": true,
+    "capture_date": "May2016"
+  },
+  "observations": [
+    "Compact pale-white/light-blue low flat-parapet building retains source identity.",
+    "Single central entry and patterned side grilles are represented with modest reconstructed proportions.",
+    "Ramp, landing and stairs visibly connect to the frontage; exact clearances remain technical audit responsibility.",
+    "Small ticket/waiting room contains desk/chair, counter grille, benches, bin and fan; no invented large concourse or duplicate assemblies.",
+    "Overall corridor, station-scale aerial and platform view provide useful complementary coverage.",
+    "Historical source appearance and unseen room reconstruction are disclosed in source records."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Not current architectural survey or engineering certification.",
+    "No independent geometry/resource/publication gate in this review."
+  ]
+}

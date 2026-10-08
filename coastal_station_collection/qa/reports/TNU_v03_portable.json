@@ -1,0 +1,70 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_historical_2016_unplaced.glb",
+    "bytes": 191268,
+    "errors": [],
+    "warnings": [],
+    "sha256": "5e3638b38db4bf9c3c61cce6ff66fcba3de3c45a4e48ddd77bc7f61e2301cf49",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 191268
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 14228
+      },
+      {
+        "type": 5130562,
+        "bytes": 177012
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 16,
+    "mesh_count": 16,
+    "primitive_count": 16,
+    "vertex_reference_count": 3296,
+    "accessor_count": 44,
+    "validated_accessor_count": 44,
+    "material_count": 12,
+    "embedded_images": 2,
+    "stock_name_candidates": [],
+    "status": "pass"
+  },
+  {
+    "path": "coastal_stations_overnight/north/revision_03/TNU/exports/TNU_mapped_corridor_unverified_remnants.glb",
+    "bytes": 26316704,
+    "errors": [],
+    "warnings": [],
+    "sha256": "e11558690b63749560980a2e8241738a18588e4c4b9795bc3caf9787b23ee649",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 26316704
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 29764
+      },
+      {
+        "type": 5130562,
+        "bytes": 26286912
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 37,
+    "mesh_count": 37,
+    "primitive_count": 37,
+    "vertex_reference_count": 875151,
+    "accessor_count": 115,
+    "validated_accessor_count": 115,
+    "material_count": 13,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

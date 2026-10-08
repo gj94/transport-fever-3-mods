@@ -1,0 +1,22 @@
+{
+  "station": "PYD",
+  "layout_sha256": "e5d8b13206a4f75ac5236e30117c09eda8c737ad185f62a0518d6b10745fbc5b",
+  "platform_mesh_sha256": "348878dd8c3cf139962f43493452ef42ca6ed78044ab65596f51d093c13f6fde",
+  "platforms": [
+    {
+      "id": "RECONSTRUCTED_PLATFORM_1",
+      "valid": true,
+      "area_m2": 1824.1340156353835,
+      "railcenter_min_m": 1.99999974232411,
+      "intrusion_inside_1_8m_m2": 0.0
+    }
+  ],
+  "building_railcenter_min_m": 7.1,
+  "reported_faces": "1",
+  "modeled_bodies": 1,
+  "route_piece_ids": [
+    "206074319"
+  ],
+  "gauge_m": 1.676,
+  "method": "Actual serialized top triangles, preserving holes and disconnected source components. Distance is to adopted source centerlines; not an engineering certification."
+}

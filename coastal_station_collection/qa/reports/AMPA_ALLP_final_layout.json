@@ -1,0 +1,93 @@
+{
+  "AMPA": {
+    "manifest_sha256": "0de8c3dc1105614b15cd138501e722797be4918826df1ebb5183b015a0fb46e4",
+    "verified_files": 34,
+    "plan_sha256": "a2ae02321f685f2c21e4f31d5e10aef360d2a09ff3d3bbbd0260cebe0ac924fa",
+    "platform_railcenter_min_m": [
+      2.050000000000002,
+      2.304831350640583
+    ],
+    "platform_valid": [
+      true,
+      true
+    ],
+    "building_railcenter_min_m": 9.949856843713064,
+    "enclosed_building_platform_overlap_m2": 7.469522756180448,
+    "motor_platform_overlap_m2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "motor_railcenter_min_m": [
+      2.2412977589272556,
+      2.3990761322629854,
+      2.452319560307167,
+      2.237723730650407,
+      2.2495802021522353,
+      2.2015518584115865,
+      2.2051588184855553,
+      2.460705743353108,
+      2.4864364586675807,
+      2.0835483733468445,
+      2.094322679306707,
+      2.3991009949919087
+    ],
+    "mapped_route_segments": 10,
+    "reported_faces": 3,
+    "modelled_bodies": 2,
+    "railhead_gauge_m": 1.676,
+    "motor_footprint_basis": "Full1.1m x1.4m inspection slab, enclosing motor and cover",
+    "enclosure_platform_overlap_interpretation": "Shallow mapped outer-edge abutment, maximum about0.40m into broad platform. Hall/plinth wall line reconstructed from roof envelope; residual7.47m2 overlap is disclosed rather than falsely claiming zero or clipping observed body. Public route is independently tested."
+  },
+  "ALLP": {
+    "manifest_sha256": "24231eefeaec42aeada19c35bd560962e660fe6c9409c2eb79658f961892fbdf",
+    "verified_files": 35,
+    "plan_sha256": "f5ef498b95a2f6a4ba95713f717569f8262a3df808a54b469c9fc927ec142806",
+    "platform_railcenter_min_m": [
+      2.049999999999998,
+      2.049999998876839
+    ],
+    "platform_valid": [
+      true,
+      true
+    ],
+    "building_railcenter_min_m": 9.570122359970757,
+    "enclosed_building_platform_overlap_m2": 0.0,
+    "motor_platform_overlap_m2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "motor_railcenter_min_m": [
+      2.405461114841308,
+      2.328544821440377,
+      2.3286239559981032,
+      2.432795530202972,
+      2.215245305211286,
+      2.0685148839094856,
+      2.4418275819327673,
+      1.9038310877182916,
+      2.453358089272323
+    ],
+    "mapped_route_segments": 13,
+    "reported_faces": 3,
+    "modelled_bodies": 2,
+    "railhead_gauge_m": 1.676,
+    "motor_footprint_basis": "Full1.1m x1.4m inspection slab, enclosing motor and cover"
+  }
+}

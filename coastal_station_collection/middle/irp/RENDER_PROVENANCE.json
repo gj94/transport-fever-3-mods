@@ -1,0 +1,98 @@
+{
+  "station": "IRP",
+  "blend_file": "IRP_coastal_station_v01.blend",
+  "blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "resolution": [
+    1280,
+    800
+  ],
+  "samples": 32,
+  "renders": [
+    {
+      "file": "renders/01_full_mapped_layout.png",
+      "camera": "01_FULL_MAPPED_LAYOUT",
+      "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "camera_location": [
+        -233.0,
+        -1290.0,
+        1397.5
+      ],
+      "camera_rotation": [
+        0.7552004456520081,
+        -5.2104160985777526e-09,
+        -0.19739556312561035
+      ],
+      "sha256": "ac8f235b68d8dcde417ec860147170f0280c420e8fbb234a5f172179546ac271",
+      "render_seconds": 15.614911079406738
+    },
+    {
+      "file": "renders/02_station_and_platforms.png",
+      "camera": "02_STATION_AND_PLATFORMS",
+      "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "camera_location": [
+        -156.0,
+        -175.5,
+        125.0
+      ],
+      "camera_rotation": [
+        1.0867509841918945,
+        5.613909337398582e-10,
+        -0.6893095374107361
+      ],
+      "sha256": "ed0644eafa6d99af0aada3806a5e8120f2f089c6e4602ba83b0a6341ceb1cac8",
+      "render_seconds": 15.642350435256958
+    },
+    {
+      "file": "renders/03_platform_track_details.png",
+      "camera": "03_PLATFORM_TRACK_DETAILS",
+      "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "camera_location": [
+        53.924652099609375,
+        13.092267990112305,
+        3.2179999351501465
+      ],
+      "camera_rotation": [
+        1.5607974529266357,
+        4.3377745839734416e-08,
+        1.5584893226623535
+      ],
+      "sha256": "338cf50523872250e0d75d5f4ccf06bfb52bef4f5146958bbe7182d8ef8612ac",
+      "render_seconds": 19.83560347557068
+    },
+    {
+      "file": "renders/04_facade_and_approach.png",
+      "camera": "04_FACADE_AND_APPROACH",
+      "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "camera_location": [
+        -64.0,
+        -43.5,
+        10.017999649047852
+      ],
+      "camera_rotation": [
+        1.4120712280273438,
+        6.156076892693818e-08,
+        -0.4750107526779175
+      ],
+      "sha256": "a2506b69d37dae2cf6c09baa27822de83bb0ceb0b5bf81992356d128c5e21441",
+      "render_seconds": 15.771138668060303
+    },
+    {
+      "file": "renders/05_ticket_interior.png",
+      "camera": "05_TICKET_INTERIOR",
+      "source_blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+      "camera_location": [
+        -51.880001068115234,
+        -5.099999904632568,
+        2.9679999351501465
+      ],
+      "camera_rotation": [
+        1.1981208324432373,
+        1.638248292579192e-08,
+        -1.2074501514434814
+      ],
+      "sha256": "bed4e24e4064d367b0d25d83ac0d15aa28b44dcee5aaa0efbb2b9c8bebccfa4f",
+      "render_seconds": 24.958992958068848
+    }
+  ]
+}

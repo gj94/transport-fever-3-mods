@@ -1,0 +1,53 @@
+{
+  "source_blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad",
+  "scenes": [
+    {
+      "scene": "HISTORIC_2016_BUILDING__UNPLACED",
+      "unit_system": "METRIC",
+      "scale_length": 1.0,
+      "objects": 21,
+      "meshes": 16,
+      "vertices": 1104,
+      "bounds_min": [
+        -13.0,
+        -12.5,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        13.0,
+        3.509999990463257,
+        5.157749652862549
+      ],
+      "georeferenced": false,
+      "finite": true,
+      "no_stock_name_candidates": [],
+      "central_entry_ray": {
+        "clear": true,
+        "hit_object": null
+      }
+    },
+    {
+      "scene": "MAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED",
+      "unit_system": "METRIC",
+      "scale_length": 1.0,
+      "objects": 41,
+      "meshes": 31,
+      "vertices": 289846,
+      "bounds_min": [
+        -280.0,
+        -1200.0,
+        -0.4000000059604645
+      ],
+      "bounds_max": [
+        280.0,
+        1200.0,
+        15.430768013000488
+      ],
+      "georeferenced": true,
+      "finite": true,
+      "no_stock_name_candidates": []
+    }
+  ],
+  "all_packed_images": true,
+  "status": "Two-scene inspection: closed historical study unplaced; separate mapped corridor."
+}

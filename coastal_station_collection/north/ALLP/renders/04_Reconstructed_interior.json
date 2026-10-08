@@ -1,0 +1,28 @@
+{
+  "file": "renders/04_Reconstructed_interior.png",
+  "camera": "04_Reconstructed_interior",
+  "source_blend_sha256": "8554dca0232a6b3a3c7b57a1a287080daec9ccef472ade4daaea06dfbdeb500c",
+  "image_sha256": "17ffefea9ddf90e9cfd35a6c3549b9951c09d13701ba41217f21caea82e6418a",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 48.85,
+  "samples": 48,
+  "denoising": false,
+  "camera_override": {
+    "reason": "Read-only camera framing makes existing waiting chairs and ticket furniture clearly visible; scene geometry unchanged.",
+    "position": [
+      6.188053131103516,
+      -10.001410484313965,
+      3.0999999046325684
+    ],
+    "rotation": [
+      1.5417975187301636,
+      1.47669183547805e-08,
+      0.3400970995426178
+    ],
+    "lens_mm": 28
+  },
+  "resolution": [
+    1280,
+    854
+  ]
+}

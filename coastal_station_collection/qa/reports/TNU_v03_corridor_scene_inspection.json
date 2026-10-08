@@ -1,0 +1,75 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/revision_03/TNU/TNU_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 41,
+  "object_types": {
+    "MESH": 31,
+    "CURVE": 4,
+    "FONT": 2,
+    "CAMERA": 3,
+    "LIGHT": 1
+  },
+  "unique_meshes": 47,
+  "unique_vertices": 290950,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.430768013000488
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCMAP_CORRIDOR_ONLY__REMNANTS_UNVERIFIED\", name=\"cycles\", address=0x7f7b54c3bee0>",
+    "station_code": "TNU",
+    "station_name": "Tirunettur",
+    "status": "CLOSED from2017-07-10",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676",
+    "site_status": "CLOSED2017; historical remnant location not verified"
+  },
+  "cameras": [
+    "M1_Mapped_corridor_record",
+    "M2_Closed_site_context",
+    "M3_Trackwork_optional"
+  ],
+  "blend_sha256": "a76fb0e6821c2ff9ef4635c84a7032b1e61ec439c9257e78ed98f41ca2d3efad"
+}

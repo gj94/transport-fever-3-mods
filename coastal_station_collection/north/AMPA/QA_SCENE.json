@@ -1,0 +1,294 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/AMPA/AMPA_coastal_station_v02.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 119,
+  "object_types": {
+    "MESH": 83,
+    "CURVE": 20,
+    "FONT": 8,
+    "CAMERA": 5,
+    "LIGHT": 3
+  },
+  "unique_meshes": 83,
+  "unique_vertices": 875130,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.452744483947754
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f2767009520>",
+    "station_code": "AMPA",
+    "station_name": "Ambalappuzha",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior",
+    "05_Mapped_turnout_detail"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform": {
+      "from": [
+        -18.821136474609375,
+        -12.299261093139648,
+        2.8499999046325684
+      ],
+      "to": [
+        2.852548122406006,
+        -12.299261093139648,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset-0.6": {
+      "from": [
+        22.99319076538086,
+        36.25074005126953,
+        3.049999952316284
+      ],
+      "to": [
+        22.99319076538086,
+        51.45073699951172,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body1_offset-0.6": {
+      "from": [
+        22.99319076538086,
+        36.25074005126953,
+        1.7999999523162842
+      ],
+      "to": [
+        22.99319076538086,
+        51.45073699951172,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0": {
+      "from": [
+        23.593191146850586,
+        36.25074005126953,
+        3.049999952316284
+      ],
+      "to": [
+        23.593191146850586,
+        51.45073699951172,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body1_offset0": {
+      "from": [
+        23.593191146850586,
+        36.25074005126953,
+        1.7999999523162842
+      ],
+      "to": [
+        23.593191146850586,
+        51.45073699951172,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body1_offset0.6": {
+      "from": [
+        24.19318962097168,
+        36.25074005126953,
+        3.049999952316284
+      ],
+      "to": [
+        24.19318962097168,
+        51.45073699951172,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body1_offset0.6": {
+      "from": [
+        24.19318962097168,
+        36.25074005126953,
+        1.7999999523162842
+      ],
+      "to": [
+        24.19318962097168,
+        51.45073699951172,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset-0.6": {
+      "from": [
+        4.831585884094238,
+        36.25074005126953,
+        3.049999952316284
+      ],
+      "to": [
+        4.831585884094238,
+        51.45073699951172,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body2_offset-0.6": {
+      "from": [
+        4.831585884094238,
+        36.25074005126953,
+        1.7999999523162842
+      ],
+      "to": [
+        4.831585884094238,
+        51.45073699951172,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0": {
+      "from": [
+        5.431585788726807,
+        36.25074005126953,
+        3.049999952316284
+      ],
+      "to": [
+        5.431585788726807,
+        51.45073699951172,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body2_offset0": {
+      "from": [
+        5.431585788726807,
+        36.25074005126953,
+        1.7999999523162842
+      ],
+      "to": [
+        5.431585788726807,
+        51.45073699951172,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_head_body2_offset0.6": {
+      "from": [
+        6.031585693359375,
+        36.25074005126953,
+        3.049999952316284
+      ],
+      "to": [
+        6.031585693359375,
+        51.45073699951172,
+        10.300000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "bridge_lower_body2_offset0.6": {
+      "from": [
+        6.031585693359375,
+        36.25074005126953,
+        1.7999999523162842
+      ],
+      "to": [
+        6.031585693359375,
+        51.45073699951172,
+        9.050000190734863
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7"
+}

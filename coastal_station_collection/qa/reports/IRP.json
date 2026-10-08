@@ -1,0 +1,150 @@
+{
+  "station_code": "IRP",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "middle/irp final freeze",
+  "manifest_sha256": "9638c205bd0ccf75814b523fb40525cbd55e31293114ec869125cf15e6c3c082",
+  "blend_sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721",
+  "export_sha256": "58527fd98dc537217a70662fcf232393413c4dd529885bf6b4f7b4821d1ea5c7",
+  "export_zip_sha256": "b6e01b439f63620bc9e2b7ba9a6b2d60f35a0ef44412acf52cd0fc653628ad48",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/middle/irp/IRP_coastal_station_v01.blend",
+      "bytes": 9641744,
+      "sha256": "9d43c1b2a898bb522116f356630fdd71e0ad1a0a38b9ec9a3da0d94fa0289721"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/BUILD_QA.json",
+      "bytes": 1697,
+      "sha256": "d63790c58135a96f32bbb981eee27fa4a8d03fe79f48ca17c431f2b91adb662d"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/EXPORT_QA.json",
+      "bytes": 1314,
+      "sha256": "3bca6a83c4dea40febc3096f30279102cea15d5ff7412665de18d8c7224052e7"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/RENDER_PROVENANCE.json",
+      "bytes": 3038,
+      "sha256": "499b26d1c3a50b57c872f133b99b37fd3be05bf69a072a9f344b9f5c4a012687"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 8164,
+      "sha256": "06eab1ee889092e22d5d55c29b4aa33bba32e6819432ba6886a34d4adb9fdb47"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/export/IRP_coastal_station_v01.glb.zip",
+      "bytes": 5688213,
+      "sha256": "b6e01b439f63620bc9e2b7ba9a6b2d60f35a0ef44412acf52cd0fc653628ad48"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/01_full_mapped_layout.png",
+      "bytes": 1040494,
+      "sha256": "ac8f235b68d8dcde417ec860147170f0280c420e8fbb234a5f172179546ac271"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/02_station_and_platforms.png",
+      "bytes": 1046412,
+      "sha256": "ed0644eafa6d99af0aada3806a5e8120f2f089c6e4602ba83b0a6341ceb1cac8"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/03_platform_track_details.png",
+      "bytes": 1272302,
+      "sha256": "338cf50523872250e0d75d5f4ccf06bfb52bef4f5146958bbe7182d8ef8612ac"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/04_facade_and_approach.png",
+      "bytes": 1180220,
+      "sha256": "a2506b69d37dae2cf6c09baa27822de83bb0ceb0b5bf81992356d128c5e21441"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/05_ticket_interior.png",
+      "bytes": 1456549,
+      "sha256": "bed4e24e4064d367b0d25d83ac0d15aa28b44dcee5aaa0efbb2b9c8bebccfa4f"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/mapped_geometry.json",
+      "bytes": 408804,
+      "sha256": "cc6e6c9618ea480e453d3706006c150f0ab31e9c4a9cfc434d49b7d767f9cae6"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/adopted_geometry.json",
+      "bytes": 71766,
+      "sha256": "3eeb6c635144134155032c1bf8af968f8e666af9eaa53423380024faa4ee6238"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/station_nameboard.png",
+      "bytes": 23683,
+      "sha256": "8550423b1d0727a735297b7a8a5224cea7c1845b50b2ddb6b167c2e3173775de"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/nameboard_text.json",
+      "bytes": 402,
+      "sha256": "45c926c5e57bb6642460aba7f03a6cbb7ea5965133ebbd0f7b11d2d169e3474b"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/visual_evidence.json",
+      "bytes": 1794,
+      "sha256": "746d8c36cb45e732725a779bf73b632334ef24accff78024e32ed624ce6d9623"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/build_station_used.py",
+      "bytes": 59450,
+      "sha256": "79f96dc61ebefdcee66b866b4dd4e3b53b0c04ae90757ae244fb0398b053af56"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/source/reference_spec.json",
+      "bytes": 602,
+      "sha256": "d25c204ccf4cf7e3b2a8a3df9aafe362bacbc35be3a11a100e7ddc8177debe22"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/01_full_mapped_layout.png",
+      "bytes": 1040494,
+      "sha256": "ac8f235b68d8dcde417ec860147170f0280c420e8fbb234a5f172179546ac271"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/02_station_and_platforms.png",
+      "bytes": 1046412,
+      "sha256": "ed0644eafa6d99af0aada3806a5e8120f2f089c6e4602ba83b0a6341ceb1cac8"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/03_platform_track_details.png",
+      "bytes": 1272302,
+      "sha256": "338cf50523872250e0d75d5f4ccf06bfb52bef4f5146958bbe7182d8ef8612ac"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/04_facade_and_approach.png",
+      "bytes": 1180220,
+      "sha256": "a2506b69d37dae2cf6c09baa27822de83bb0ceb0b5bf81992356d128c5e21441"
+    },
+    {
+      "path": "coastal_stations_overnight/middle/irp/renders/05_ticket_interior.png",
+      "bytes": 1456549,
+      "sha256": "bed4e24e4064d367b0d25d83ac0d15aa28b44dcee5aaa0efbb2b9c8bebccfa4f"
+    }
+  ],
+  "checks": {
+    "manifest": "All 18 frozen allowlist hashes and byte counts verified.",
+    "visual": "All five current images have hash-bound independent visual/source review; retained source distinctions and limitations are explicit.",
+    "resources": "Exact final scene has metric units at scale 1.0, finite meshes/bounds, packed resources and no stock-name candidates.",
+    "portable": "Lossless ZIP-contained GLB independently passes binary finite-value, index/accessor/buffer bounds and embedded-dependency checks; exact contained hash matches export provenance.",
+    "source": "Actual May2016 photograph independently compared: compact pale flat building with a single entry and patterned grille bays. Furnished ticket room, dimensions and hidden room use are reconstructed.",
+    "layout": "Two reported positions and two mapped opposing side-platform bodies. Actual triangulated body footprints retain minimum1.900m rail-center separation. No bridge has been invented.",
+    "circulation": "Fifteen low, waist and head-height public-entry, lateral-landing and full sloping-ramp paths clear. Nine actual floor probes confirm the supported ramp and continuous1.018m entry/rear-apron thresholds."
+  },
+  "evidence_reports": [
+    "IRP_scene_inspection.json",
+    "IRP_final_portable.json",
+    "IRP_layout_check.json",
+    "../visual_batches/IRP_9d43c1b2_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering/safety certification.",
+    "Hidden interiors, dimensions, source-era facade appearance and service assignments are disclosed reconstructions.",
+    "Procedural Blender surface effects use base-colour portable fallbacks.",
+    "Targeted checks are not exhaustive pairwise collision certification."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

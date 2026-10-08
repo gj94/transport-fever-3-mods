@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/kztw/exchange/KZTW_portable_GLTF.zip!KZTW_station_v01.glb",
+    "bytes": 20059336,
+    "errors": [],
+    "warnings": [],
+    "sha256": "8efe957b94c6e4151eafda451a71503ddea17abb0341f74dd8541ce3c55de46d",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 20059336
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 419784
+      },
+      {
+        "type": 5130562,
+        "bytes": 19639524
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 660,
+    "mesh_count": 660,
+    "primitive_count": 660,
+    "vertex_reference_count": 669896,
+    "accessor_count": 1418,
+    "validated_accessor_count": 1418,
+    "material_count": 20,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "d167481dd772e62564f9329238a5ce4f7a37aeab70ea340ff92f182bd4a7b2fc",
+    "container_bytes": 2875357
+  }
+]

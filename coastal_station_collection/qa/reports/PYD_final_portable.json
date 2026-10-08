@@ -1,0 +1,38 @@
+[
+  {
+    "path": "coastal_stations_overnight/south/pyd/exchange/PYD_portable_GLTF.zip!PYD_station_v01.glb",
+    "bytes": 19660440,
+    "errors": [],
+    "warnings": [],
+    "sha256": "4ca122d6d30f5b4c43cd021a399c555af02e1e582784f39ee9b51ad6d33d58ec",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 19660440
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 610816
+      },
+      {
+        "type": 5130562,
+        "bytes": 19049596
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 961,
+    "mesh_count": 961,
+    "primitive_count": 961,
+    "vertex_reference_count": 651373,
+    "accessor_count": 2038,
+    "validated_accessor_count": 2038,
+    "material_count": 24,
+    "embedded_images": 0,
+    "stock_name_candidates": [],
+    "status": "pass",
+    "container_sha256": "fba1e5faab4f594811c513e1ab31154ef74e206e95edf720bbb29ec498c76725",
+    "container_bytes": 2727944
+  }
+]

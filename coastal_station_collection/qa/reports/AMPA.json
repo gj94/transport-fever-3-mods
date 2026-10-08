@@ -1,0 +1,240 @@
+{
+  "station_code": "AMPA",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/AMPA",
+  "manifest_sha256": "0de8c3dc1105614b15cd138501e722797be4918826df1ebb5183b015a0fb46e4",
+  "blend_sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7",
+  "export_sha256": "68261b50c1d34567647f20addf4b1b7733c17eefad443920239913edb2fbed01",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/AMPA/AMPA_coastal_station_v02.blend",
+      "bytes": 18329294,
+      "sha256": "2488fcfc05a7d9870d64300b62d7e067247560e2d47418be72960b36a68ae4a7"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/BUILD_SOURCE.py",
+      "bytes": 49640,
+      "sha256": "8d847b3e999f61ce128f761513909fd18b0b23bdff286ba9d71c3c9df6084a77"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/EXPORT_SOURCE.py",
+      "bytes": 1574,
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/FACADE_PATCH_SOURCE.py",
+      "bytes": 6862,
+      "sha256": "f3430454eab7e8a9b766abf96cd02e257af20ac439824293f202f2f3576595cf"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/QA_BUILD.json",
+      "bytes": 9021,
+      "sha256": "c349738222b7411d00b3284fb5005526a47b9721a394064764256ebc2fcfa0f4"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/QA_EXPORT.json",
+      "bytes": 528,
+      "sha256": "addca42e77306ecaa72890b4bfe13716fee282f35b8404a879709aaba9dcb04e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/QA_LAYOUT.json",
+      "bytes": 4392,
+      "sha256": "c23ead347a83d1c1ada06d6747b64161e30f8d206e04b646859f32157d8a23e8"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/QA_RAY_INPUTS.json",
+      "bytes": 2462,
+      "sha256": "1cd3a33b9ebb59d8fbab96cba94d02d9d5dfd55a9f4bdff14cdd96b29aaedc57"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/QA_SCENE.json",
+      "bytes": 6599,
+      "sha256": "7b1a4cfd17cb2cafb3b01471ef7bedfd0a1ed3f5ce58b06fd3085ff12912247e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/README.md",
+      "bytes": 599,
+      "sha256": "9cc472c2f8b70e102a6df43161b65a66c04e9aedcbc6f651d8b5c9ba3a167ed1"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/RENDER_SOURCE.py",
+      "bytes": 2379,
+      "sha256": "9b6974d357cc2a3eea48c5ec707b31ab80fcd2e9ee00a8d6c7895d6b411ad9f7"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 5203,
+      "sha256": "b794a808d2847cb1b11d68793ce44270c092637ab925ae67ed5fcf4668ebefc0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/VISUAL_QA.md",
+      "bytes": 951,
+      "sha256": "c8f78bb2136ebebe5fe9d6be7b2d96378a821b18ea59d627c6106ebd688a0999"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/exports/AMPA_coastal_station_v02.glb",
+      "bytes": 78644248,
+      "sha256": "68261b50c1d34567647f20addf4b1b7733c17eefad443920239913edb2fbed01"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/exports/AMPA_coastal_station_v02.validation.json",
+      "bytes": 530,
+      "sha256": "b238c4b98f5a4fb81d495825a80a2d13e6a8e79bfa6115ef9145ed53fdc2f228"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/references/FULL_TRACK_PLAN.png",
+      "bytes": 69903,
+      "sha256": "3a4f5b772ca497107d014ad7c881494c3c060f3ca561e2c7017c9c27591f865f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/references/plan.json",
+      "bytes": 95502,
+      "sha256": "a2ae02321f685f2c21e4f31d5e10aef360d2a09ff3d3bbbd0260cebe0ac924fa"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/references/plan.png",
+      "bytes": 31738,
+      "sha256": "6a4998bbda5de1bbc6e5c20c4dbe6b9f2a50d205b0127c27dfd685ac5571a6ae"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/references/pointwork.json",
+      "bytes": 3461,
+      "sha256": "7a1b0dc8c18c69501c35fb0942e086711bcdf224cd4ca2e77fbd416acd2a2373"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/references/rail_meshes.json",
+      "bytes": 203324,
+      "sha256": "e324111928819946a5e50f8a7a05817314b1bc1f218296f8fc701d97f3e17efa"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/references/station_record.json",
+      "bytes": 7254,
+      "sha256": "c24ac84341522dcac6624d6b79625fe590e3746bdd8485b48cc24218fa405e3c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/01_Overall_station.json",
+      "bytes": 427,
+      "sha256": "75f094e983c310eaaaa15c9fc99bf92a39bba259815c2cc02a23031b0e674eaf"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/01_Overall_station.png",
+      "bytes": 1416685,
+      "sha256": "b5b65d0d8a576efedf9102a4ecddc3eb42de046461487153cc9655fcf7669c30"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/02_Entrance_architecture.json",
+      "bytes": 439,
+      "sha256": "aacef2db97ec326b4f56cf6afc64964074f71745980d439f4a4ffd4c50bae68f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/02_Entrance_architecture.png",
+      "bytes": 1467862,
+      "sha256": "5b4636b1279eda37da7e22aa58d818094f7c7bd158c0d3536ca4c19c4f17970a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/03_Platform_and_tracks.json",
+      "bytes": 435,
+      "sha256": "f4cee24519a77b0e2de6a4566b26d3248e781f15d730ba4a0a430578b9edd5f0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/03_Platform_and_tracks.png",
+      "bytes": 1298303,
+      "sha256": "25e24a56d53b4f8b41441453fa2f023438a41ef3566bbac07cbc1bf15096a89e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/04_Reconstructed_interior.json",
+      "bytes": 3107,
+      "sha256": "c7d1fdac0c790dadb545f357114066c41463de212385ead926b7bf25b3b43776"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/04_Reconstructed_interior.png",
+      "bytes": 1362658,
+      "sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/05_Mapped_turnout_detail.json",
+      "bytes": 2712,
+      "sha256": "ac73ec2298b452d653f9be8b7a694d343b7ecf3115c765e81e42e3d313d6c152"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/05_Mapped_turnout_detail.png",
+      "bytes": 1486810,
+      "sha256": "cf6a3062647ece86faf5a6f4197cb7897ea366ce6c660c323d331137da02fc6d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/textures/board.png",
+      "bytes": 53758,
+      "sha256": "836495ca79c6475722c98b73a476dc4c4433567a08457754089e5cb98c4394a9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/textures/fascia.png",
+      "bytes": 38519,
+      "sha256": "485213ce0b71d1feefe083e9dee9a43e37b93d29302c8acae8ac7c6f026dc1f8"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/textures/notice.png",
+      "bytes": 37758,
+      "sha256": "3ebee56e37c788e5a37daeba25dd07d881a261371d5b3470023d477f6e477529"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/01_Overall_station.png",
+      "bytes": 1416685,
+      "sha256": "b5b65d0d8a576efedf9102a4ecddc3eb42de046461487153cc9655fcf7669c30"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/02_Entrance_architecture.png",
+      "bytes": 1467862,
+      "sha256": "5b4636b1279eda37da7e22aa58d818094f7c7bd158c0d3536ca4c19c4f17970a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/03_Platform_and_tracks.png",
+      "bytes": 1298303,
+      "sha256": "25e24a56d53b4f8b41441453fa2f023438a41ef3566bbac07cbc1bf15096a89e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/04_Reconstructed_interior.png",
+      "bytes": 1362658,
+      "sha256": "741b04bfb6516b9b16ebc98368f4337837314864002472bf9ac7af1fffe20601"
+    },
+    {
+      "path": "coastal_stations_overnight/north/AMPA/renders/05_Mapped_turnout_detail.png",
+      "bytes": 1486810,
+      "sha256": "cf6a3062647ece86faf5a6f4197cb7897ea366ce6c660c323d331137da02fc6d"
+    }
+  ],
+  "checks": {
+    "manifest": "All 34 frozen file hashes and byte counts independently verified.",
+    "visual": "All five final images have hash-bound independent visual/source review; retained-frame source hashes and unchanged-subject declarations are preserved.",
+    "resources": "Exact packed Blender scene has metric units, finite meshes and bounds, no external unpacked resources and no rolling-stock name candidates.",
+    "portable": "Independent binary finite-value, accessor/index/buffer-bounds and embedded-resource checks pass with exact scene-to-export provenance.",
+    "layout": "Three reported faces are represented by two physical bodies. Full mapped route segments retained; both platform polygons valid and at least2.05m from adopted rail centers. All switch motor inspection-slab footprints clear of platforms; source-based enclosed hall stays away from rail envelopes.",
+    "circulation": "Fifty independent Blender and exported-triangle probes pass:39 low/waist/head public, ramp and bridge paths;11 floor probes support ramps/thresholds and confirm8.700m tread/deck continuity on both bodies.",
+    "source": "Source-specific facade revisions independently compared against actual viewed photographs; reconstructed dimensions and unseen interiors are distinguished."
+  },
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, dimensions and service assignments remain disclosed reconstructions.",
+    "Targeted checks are not exhaustive pairwise collision certification.",
+    "Portable materials retain base-colour fallbacks for some procedural Blender effects.",
+    "The estimated hall/plinth shallowly abuts the mapped outer platform edge:7.47m\u00b2 residual overlap, at most about0.40m inward. This is disclosed roof-envelope/wall-line uncertainty with ample remaining public width, not an exact surveyed non-overlap claim."
+  ],
+  "release_status": "Ready for reviewed publication.",
+  "evidence_reports": [
+    "AMPA_final_scene_inspection.json",
+    "AMPA_export_geometry_inspection.json",
+    "AMPA_ALLP_final_layout.json",
+    "AMPA_ALLP_portable.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/AMPA_2488fcfc_final_visual_review.json"
+  ],
+  "accepted_addenda": [
+    {
+      "path": "coastal_stations_overnight/north/AMPA/PLATFORM_EDGE_CLARIFICATION.md",
+      "bytes": 957,
+      "sha256": "4527abaf2d1fb096d4f13b3b7c0c74444c47a6ca08d469193f5dbe5d743e35fb",
+      "purpose": "Clarifies that shifted outside platform in retained plan is an approximate enclosure correction with a disclosed shallow edge abutment; no frozen asset changed."
+    }
+  ]
+}

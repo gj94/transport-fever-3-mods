@@ -1,0 +1,31 @@
+{
+  "IRP": {
+    "compared_rays": 24,
+    "hit_state_mismatches": [],
+    "maximum_hit_position_delta_m": 1.0819288657235673e-06,
+    "known_defect_hits": []
+  },
+  "MQO_original": {
+    "compared_rays": 6,
+    "hit_state_mismatches": [],
+    "maximum_hit_position_delta_m": null,
+    "known_defect_hits": [
+      "bridge_1_-0.6_waist",
+      "bridge_1_0_waist",
+      "bridge_1_0.6_waist",
+      "bridge_2_-0.6_waist",
+      "bridge_2_0_waist",
+      "bridge_2_0.6_waist"
+    ]
+  },
+  "validator": {
+    "path": "qa/ray_export.py",
+    "sha256": "0ce523b9798e54c2336c1bafb33b2017c0ec0e85f51861fcb5ad459ba745fb97",
+    "version": "1.0-static-triangles-full-node-transforms",
+    "limitations": [
+      "Static triangular primitives only; skins and morph targets are rejected.",
+      "Tests default glTF scene; multi-scene packages require explicit scene isolation checks.",
+      "Targeted paths and floor probes are not exhaustive pairwise collision or engineering certification."
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "station": "KZTW",
+  "name": "Kulitturai West",
+  "source_scene_sha256": "424cf312e59b232f29e75ada4158fa39a4e1d37325da67d6ae4e1466fc3bc9bc",
+  "frozen_at_utc": "2026-10-08T20:41:43.333800+00:00",
+  "status": "Frozen after builder visual review; independent audit tracked separately",
+  "revision": 1,
+  "allowlist": [
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/KZTW_station_v01.blend",
+      "relative_path": "south/kztw/KZTW_station_v01.blend",
+      "bytes": 4765348,
+      "sha256": "424cf312e59b232f29e75ada4158fa39a4e1d37325da67d6ae4e1466fc3bc9bc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/README.md",
+      "relative_path": "south/kztw/README.md",
+      "bytes": 4663,
+      "sha256": "97470795782805e73c04a304fc7752bc3873cb47c62e84ea56a26ff977bfee3a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/SOURCES.json",
+      "relative_path": "south/kztw/SOURCES.json",
+      "bytes": 9070,
+      "sha256": "f8ee81b225bf5d4f55dc3642e05d60de92e014469b3eb04fcd6a30e4bf63cdd2"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/THIRD_PARTY_NOTICES.txt",
+      "relative_path": "south/kztw/THIRD_PARTY_NOTICES.txt",
+      "bytes": 4281,
+      "sha256": "00b270b55cee4c9354ed7328b8b7a39fabfabfc6e1232753ff5cb736ace92961"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/QA_BUILD.json",
+      "relative_path": "south/kztw/QA_BUILD.json",
+      "bytes": 6070,
+      "sha256": "cf260817ce3d3ecc22f16d9f9fc6834e50afadcc066e739caf7fac9e7f961bf3"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/QA_EXPORT.json",
+      "relative_path": "south/kztw/QA_EXPORT.json",
+      "bytes": 682,
+      "sha256": "fd5cca1f3a1f53a148208ba71f80dc2528856953323d964060f580f9c9062e44"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/RENDER_PROVENANCE.json",
+      "relative_path": "south/kztw/RENDER_PROVENANCE.json",
+      "bytes": 3299,
+      "sha256": "14bc18615bd2f167a0a4759c68906cfc123ead32485c92f792ba6cb186f17c78"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/exchange/KZTW_portable_GLTF.zip",
+      "relative_path": "south/kztw/exchange/KZTW_portable_GLTF.zip",
+      "bytes": 2875357,
+      "sha256": "d167481dd772e62564f9329238a5ce4f7a37aeab70ea340ff92f182bd4a7b2fc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/exchange/MANIFEST.json",
+      "relative_path": "south/kztw/exchange/MANIFEST.json",
+      "bytes": 656,
+      "sha256": "4fdb123705a94ddccb383f81dea680048089ea5edef9e51ece6279be91a3a00a"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/renders/01_FULL_STATION_NETWORK.png",
+      "relative_path": "south/kztw/renders/01_FULL_STATION_NETWORK.png",
+      "bytes": 1515595,
+      "sha256": "f573b8caed83ee3b32f2ff919bbd41349057b22d312f23fe4e2d9c08ab3fa5f9"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/renders/02_STATION_ARCHITECTURE.png",
+      "relative_path": "south/kztw/renders/02_STATION_ARCHITECTURE.png",
+      "bytes": 1903060,
+      "sha256": "39cf48686236e2f8c7fd495a04e3de8aeedc017532ed562ffa126e50d51a6312"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/renders/03_PLATFORM_AND_TRACKS.png",
+      "relative_path": "south/kztw/renders/03_PLATFORM_AND_TRACKS.png",
+      "bytes": 1662875,
+      "sha256": "021add25bb81f8ee3eec1dd8f65c8c02c8ae606ce8983b01e5a028036e3db28d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/renders/04_FURNISHED_INTERIOR.png",
+      "relative_path": "south/kztw/renders/04_FURNISHED_INTERIOR.png",
+      "bytes": 1711759,
+      "sha256": "69800c32e2782671d0ea9bc7f221a9b30547d68d911c5736969a3bbb17c6a724"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "relative_path": "south/kztw/renders/05_TRACK_AND_PLATFORM_DETAIL.png",
+      "bytes": 1742736,
+      "sha256": "28a4a8d38ab13929585d215a7bf36a0b8d568d51adcf4b6abb3d11bb72e69a0e"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/QA_SCENE.json",
+      "relative_path": "south/kztw/QA_SCENE.json",
+      "bytes": 3307,
+      "sha256": "7d7f0bc80c390e0ad8e6a6a79f632b54d5ef2972434ed045c9eeeb18c3691492"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/QA_CIRCULATION_RAYS.json",
+      "relative_path": "south/kztw/QA_CIRCULATION_RAYS.json",
+      "bytes": 864,
+      "sha256": "90a9c03028994271abbd8bd83abf931a1b2de92689debf8e378cd0d12d43e1e0"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/VISUAL_QA.md",
+      "relative_path": "south/kztw/VISUAL_QA.md",
+      "bytes": 583,
+      "sha256": "b672d8229e80cc0aa006dafbe91bc51362542e5592fb71c90c3a3e84698c68dc"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/platform_mesh.json",
+      "relative_path": "south/kztw/source/platform_mesh.json",
+      "bytes": 1622,
+      "sha256": "4ed7ec9487ffa1841cd3c22dd900acc20a059fd6e54cbc2e7142170314ac8522"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/build_config.json",
+      "relative_path": "south/kztw/source/build_config.json",
+      "bytes": 503,
+      "sha256": "4a4cc304609b21ea8f1bd60d6f9e33db4da6776f57a012c790f9ec3a972a4f15"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/layout.json",
+      "relative_path": "south/kztw/source/layout.json",
+      "bytes": 11219,
+      "sha256": "8e1dfb75358b2f422fe8c0f95e9048df075f3dc31e4fa1694b7b80ce4dec1d94"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/rail_mesh.json",
+      "relative_path": "south/kztw/source/rail_mesh.json",
+      "bytes": 61745,
+      "sha256": "a6591cf925499b10f5622ca48a88cce567bf586b53931a7df85b2afc6607194b"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/native_names.json",
+      "relative_path": "south/kztw/source/native_names.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/architectural_variants.py",
+      "relative_path": "south/kztw/source/recipe/architectural_variants.py",
+      "bytes": 59581,
+      "sha256": "e29b1ea2ac61190f3a8ad48a12018dbd24494ecb13ed2c9fc8ed7143c822e08d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/repair_stair_landings.py",
+      "relative_path": "south/kztw/source/recipe/repair_stair_landings.py",
+      "bytes": 8901,
+      "sha256": "7e613519df9584e619a1cc9cd1f9d0540ea749b1fb2179ef056da551d95e0efa"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/access_geometry.py",
+      "relative_path": "south/kztw/source/recipe/access_geometry.py",
+      "bytes": 1872,
+      "sha256": "f4b92eaa958372b9f010bff99f622822ae5b888232f97ca2641a29494b20d88d"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/build_station.py",
+      "relative_path": "south/kztw/source/recipe/build_station.py",
+      "bytes": 46399,
+      "sha256": "570048f0ac0a58947669acbbbe2f51b11f945fbef09e7d8743b220c322457ea4"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/prepare_geometry.py",
+      "relative_path": "south/kztw/source/recipe/prepare_geometry.py",
+      "bytes": 21511,
+      "sha256": "74b4760d0930e38cd62fd337c92da2172678d2a7ad18a15ca288622e17c34ad8"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/export_station.py",
+      "relative_path": "south/kztw/source/recipe/export_station.py",
+      "bytes": 1908,
+      "sha256": "1f9777152477838c35dd1929d6122fd33ae8c4d15d4725cc6075a06bdfe12841"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/repair_access_link.py",
+      "relative_path": "south/kztw/source/recipe/repair_access_link.py",
+      "bytes": 7792,
+      "sha256": "045286e65bf51eb427ebdc0a67fd111c8f32fb040ea805154954017695d64cb7"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/scene_review_inputs.py",
+      "relative_path": "south/kztw/source/recipe/scene_review_inputs.py",
+      "bytes": 2030,
+      "sha256": "00b147b651c882b44af05d895c7cafff9ee0669a2af50ff16b0fbed5fed918ed"
+    },
+    {
+      "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/south/kztw/source/recipe/render_station.py",
+      "relative_path": "south/kztw/source/recipe/render_station.py",
+      "bytes": 5083,
+      "sha256": "12b26a12294ad886b747cde35a8bfdaa3509118fc5455e9b8d75793a9da50536"
+    }
+  ],
+  "excluded": [
+    "raw Google/third-party reference screenshots",
+    "redundant raw .glb after verified lossless archiving",
+    "Blender backup .blend1 files",
+    "logs and mutable region-wide working files"
+  ],
+  "total_bytes": 16440373
+}
