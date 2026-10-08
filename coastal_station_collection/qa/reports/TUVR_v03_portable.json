@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/TUVR/exports/TUVR_coastal_station_v03.glb",
+    "bytes": 53852108,
+    "errors": [],
+    "warnings": [],
+    "sha256": "06306abfed8025ae30799b9c1d6593176f6b3dbf522561670780a18618021aef",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 53852108
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 83096
+      },
+      {
+        "type": 5130562,
+        "bytes": 53768984
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 108,
+    "mesh_count": 108,
+    "primitive_count": 108,
+    "vertex_reference_count": 1794619,
+    "accessor_count": 322,
+    "validated_accessor_count": 322,
+    "material_count": 24,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

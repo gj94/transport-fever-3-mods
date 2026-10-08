@@ -1,0 +1,126 @@
+{
+  "code": "TUVR",
+  "blend_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+  "source_plan_sha256": "ac3feb42f0f5fac8f723db2cc8edb7b7770ee9c680b95d5366ac1856f6bfd400",
+  "platform_checks": [
+    {
+      "ref": "1",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.049999999999999
+    },
+    {
+      "ref": "2",
+      "railhead_overlap_area_m2": 0.0,
+      "nominal_center_clearance_m": 2.199999999999997
+    }
+  ],
+  "switch_motor_checks": [
+    {
+      "node_xy": [
+        19.5226,
+        -490.5319
+      ],
+      "motor_xy": [
+        16.4726,
+        -490.5319
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05001224574535,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        19.6009,
+        -437.7256
+      ],
+      "motor_xy": [
+        22.6509,
+        -437.7256
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500125571772188,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        54.2741,
+        444.8712
+      ],
+      "motor_xy": [
+        51.2241,
+        444.8712
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500320298577535,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        59.0947,
+        473.4132
+      ],
+      "motor_xy": [
+        56.044700000000006,
+        473.4132
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050000675780396,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        16.2268,
+        -436.3112
+      ],
+      "motor_xy": [
+        13.1768,
+        -436.3112
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500013140235396,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        11.1241,
+        -171.3169
+      ],
+      "motor_xy": [
+        14.1741,
+        -171.3169
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.434771521204251,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        32.8836,
+        338.9738
+      ],
+      "motor_xy": [
+        29.8336,
+        338.9738
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05002846807243,
+      "platform_overlap_m2": 0.0
+    },
+    {
+      "node_xy": [
+        23.4034,
+        -349.0362
+      ],
+      "motor_xy": [
+        26.453400000000002,
+        -349.0362
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499937795310714,
+      "platform_overlap_m2": 0.0
+    }
+  ],
+  "railhead_platform_clear": true,
+  "switch_motor_platform_clear": true,
+  "method": "Local nonmutating polygon/serialized-mesh checks, not an official engineering certification. Shared read-only Blender scene inspector runs separately with included ray inputs."
+}

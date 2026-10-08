@@ -1,0 +1,13 @@
+{
+  "plan": "coastal_stations_overnight/south/pgz/source/layout.json",
+  "mesh": "coastal_stations_overnight/south/pgz/source/rail_mesh.json",
+  "plan_sha256": "7d5faf698f5348dcea5364a67684d556200870c67fcc03dc9039cccf28715dd0",
+  "mesh_sha256": "95c1f7623a14cbfddf60d6ee168098e3216c11f1d66f8d5333a8d1bd0efe7e74",
+  "method": "Actual serialized top faces reconstructed as polygons, tested against route 45mm flange-channel union. 20 micrometre interior trim tolerates 5-decimal coordinate rounding.",
+  "head_area_m2": 473.4138886874787,
+  "head_valid": true,
+  "channel_raw_intrusion_m2": 0.0007368405799680295,
+  "channel_interior_intrusion_m2": 0.0,
+  "limitation": "Does not validate final scene overlays, switch blades, guardrails, or surveyed turnout design.",
+  "pass": true
+}

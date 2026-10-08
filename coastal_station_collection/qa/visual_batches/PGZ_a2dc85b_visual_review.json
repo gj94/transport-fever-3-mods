@@ -1,0 +1,78 @@
+{
+  "station": "PGZ",
+  "reviewed_utc": "2026-10-08T19:41:47Z",
+  "reviewer": "visual source-fidelity worker",
+  "scope": "Visual/source comparison only; technical auditor owns geometry, resources, hash lineage and publication gate.",
+  "scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+  "status": "visual_pass_with_packaging_note",
+  "frames": {
+    "02_STATION_ARCHITECTURE.png": {
+      "image_sha256": "20c5bec9bb690537f8d74b07d697ca3638e0dd0d666e0468020290433fe5a94a",
+      "source_scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+      "hash_matches_provenance": true,
+      "actual_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "04_FURNISHED_INTERIOR.png": {
+      "image_sha256": "14268c05c0ae9acdc2151c91906c6bfde02834b2d9e5751f2aa5b3fddb6d006d",
+      "source_scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+      "hash_matches_provenance": true,
+      "actual_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "01_FULL_STATION_NETWORK.png": {
+      "image_sha256": "203f8b127cd23ef907d2de665f1c9de71b5226092ba9e5690af1df2c4114eb29",
+      "source_scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+      "hash_matches_provenance": true,
+      "actual_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "03_PLATFORM_AND_TRACKS.png": {
+      "image_sha256": "123c549b0004c34ab145cf6c0508515cfe69f6cca3a160c301fa762c1e33e128",
+      "source_scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+      "hash_matches_provenance": true,
+      "actual_pixels_inspected": true,
+      "visual_status": "pass"
+    },
+    "05_TRACK_AND_PLATFORM_DETAIL.png": {
+      "image_sha256": "cf43907060dff9d856b006ec0077a7fb4e3dea5835aa5de98da71d9ab6be5b4e",
+      "source_scene_sha256": "a2dc85b3b6b7a32593886b6c5fffe3ad9f0277734d5b770af9016a1b2cf6e166",
+      "hash_matches_provenance": true,
+      "actual_pixels_inspected": true,
+      "visual_status": "pass"
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/PGZ_front_facade_2016-12.png",
+      "sha256": "c5f25c9a1a56bd73e65cb97d04f7fbdb1f3a7d6b62bc8b82feb4bba78b7e1ce7",
+      "actual_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/PGZ_hut_ramps_2020-02.png",
+      "sha256": "1bc34863040cdfb8d70129a78e22fdf516bbc365b6c0c850e0b9c97dd49a8ee5",
+      "actual_pixels_inspected": true
+    }
+  ],
+  "findings": [
+    {
+      "severity": "packaging",
+      "target": "south/pgz/renders/CONTACT_SHEET.jpg",
+      "issue": "Stale contact sheet shows superseded obstructed frame03, unlike clear current03 123c549b...",
+      "minimum_correction": "Regenerate contact sheet using hash-bound current PNG set; no model changes required."
+    }
+  ],
+  "observations": [
+    "Raised asymmetric left gabled facade, white projecting piers, paired geometric lattice panels and recessed lower panel remain distinctive.",
+    "Low right wing retains yellow fascia, narrow reddish door and open central entrance; sign is small in overview but station board is legible in platform view.",
+    "Two dated facade/ramp references are treated as historical, not a present-day survey. Exact dimensions, unseen furnishings and approach are reconstructions.",
+    "Current03 clearly shows both tracks, side platforms, station board, compact shelter and furnishings; previous board obstruction resolved.",
+    "Ticket interior is modest and functional, without duplicate counters or an invented large concourse.",
+    "Current02/04 were inspected again because their hashes changed. No prior pixel verdict was blindly retained."
+  ],
+  "limitations": [
+    "No independent geometry or clearance certification in this review.",
+    "Stylized materials and vegetation are acceptable; exact paint/weathering and photographic realism are not required.",
+    "Contact sheet must not be treated as authoritative for current image contents."
+  ]
+}

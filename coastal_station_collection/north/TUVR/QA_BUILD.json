@@ -1,0 +1,266 @@
+{
+  "station_code": "TUVR",
+  "created_utc": "2026-10-08",
+  "units": "metres",
+  "gauge_m": 1.676,
+  "stock_objects": 0,
+  "platform_faces_iri": 2,
+  "platform_bodies_modeled": 2,
+  "road_cross_section_count": 3,
+  "source_route_segments": 6,
+  "mapped_turnout_nodes": 8,
+  "furnished_interiors": "reconstructed; hidden room partitions, fittings, fixtures and room use are not surveyed",
+  "geometry_method": "OSM source-plan projected to local metres; three-part unioned broad-gauge rail solids with45mm visual flange channels; source-map resolution is not engineering turnout certification",
+  "closure": null,
+  "sleeper_count": 7003,
+  "switch_hardware": [
+    {
+      "node_xy": [
+        19.5226,
+        -490.5319
+      ],
+      "motor_xy": [
+        16.4726,
+        -490.5319
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05001224574535
+    },
+    {
+      "node_xy": [
+        19.6009,
+        -437.7256
+      ],
+      "motor_xy": [
+        22.6509,
+        -437.7256
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500125571772188
+    },
+    {
+      "node_xy": [
+        54.2741,
+        444.8712
+      ],
+      "motor_xy": [
+        51.2241,
+        444.8712
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500320298577535
+    },
+    {
+      "node_xy": [
+        59.0947,
+        473.4132
+      ],
+      "motor_xy": [
+        56.044700000000006,
+        473.4132
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.050000675780396
+    },
+    {
+      "node_xy": [
+        16.2268,
+        -436.3112
+      ],
+      "motor_xy": [
+        13.1768,
+        -436.3112
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0500013140235396
+    },
+    {
+      "node_xy": [
+        11.1241,
+        -171.3169
+      ],
+      "motor_xy": [
+        14.1741,
+        -171.3169
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 2.434771521204251
+    },
+    {
+      "node_xy": [
+        32.8836,
+        338.9738
+      ],
+      "motor_xy": [
+        29.8336,
+        338.9738
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.05002846807243
+    },
+    {
+      "node_xy": [
+        23.4034,
+        -349.0362
+      ],
+      "motor_xy": [
+        26.453400000000002,
+        -349.0362
+      ],
+      "placement": "Reconstructed visible outside platform and rail envelope",
+      "candidate_clearance": 3.0499937795310714
+    }
+  ],
+  "bridge_deck_underside_m": 8.4,
+  "bridge_deck_top_m": 8.700000000000001,
+  "stair_end_y": 63.352636619772994,
+  "stair_landing_method": "Last tread ends at deck leading edge and top equals slab top8.70m; no treads run underneath solid deck.",
+  "pointwork_proof_crossing": {
+    "ways": [
+      "619253921",
+      "640855309"
+    ],
+    "sides": [
+      1,
+      -1
+    ],
+    "xy": [
+      18.4374303179915,
+      -458.37294425247774
+    ],
+    "nearest_junction_distance_m": 20.680098800085048
+  },
+  "blender": "4.3.2",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 24,
+  "object_count": 116,
+  "mesh_objects": 76,
+  "mesh_vertices": 602938,
+  "mesh_faces": 426780,
+  "packed_images": true,
+  "images": [
+    {
+      "name": "board.png",
+      "packed": true,
+      "path": "//textures/board.png"
+    },
+    {
+      "name": "fascia.png",
+      "packed": true,
+      "path": "//textures/fascia.png"
+    },
+    {
+      "name": "notice.png",
+      "packed": true,
+      "path": "//textures/notice.png"
+    }
+  ],
+  "build_script_sha256": "c272b9c945a4d89dfe44460a9e2fe7b6ff859c4852fe81d49f769de24a03f5f3",
+  "source_plan_sha256": "ac3feb42f0f5fac8f723db2cc8edb7b7770ee9c680b95d5366ac1856f6bfd400",
+  "blend_file": "TUVR_coastal_station_v03.blend",
+  "blend_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+  "blend_bytes": 12561730,
+  "building_dimensions_m": {
+    "width": 12.189219657280027,
+    "length": 33.68094469809661,
+    "position_xy": [
+      -5.388632659432361,
+      -0.39736338022700934
+    ],
+    "height": 5.5
+  },
+  "platform_parameters": [
+    {
+      "x": 4.956060203818486,
+      "y": 0.0,
+      "bounds": [
+        0.9240868121917541,
+        -245.0,
+        17.83978023782913,
+        245.0
+      ],
+      "width": 8.000000172131834,
+      "ref": "1"
+    },
+    {
+      "x": 26.37021497052217,
+      "y": 0.0,
+      "bounds": [
+        22.202204566267156,
+        -245.0,
+        40.38389050400069,
+        245.0
+      ],
+      "width": 8.000068347934938,
+      "ref": "2"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Overall_station",
+      "position": [
+        -300.0,
+        -294.0,
+        240.0
+      ],
+      "rotation": [
+        1.0516942739486694,
+        7.685597935847e-09,
+        -0.7954989671707153
+      ]
+    },
+    {
+      "name": "02_Entrance_architecture",
+      "position": [
+        -40.48324203491211,
+        -25.397363662719727,
+        11.600000381469727
+      ],
+      "rotation": [
+        1.3673229217529297,
+        -2.1099630487242393e-08,
+        -0.859337329864502
+      ]
+    },
+    {
+      "name": "03_Platform_and_tracks",
+      "position": [
+        6.7560601234436035,
+        -66.3973617553711,
+        3.3499999046325684
+      ],
+      "rotation": [
+        1.5711636543273926,
+        1.572608043787227e-09,
+        -0.03821668028831482
+      ]
+    },
+    {
+      "name": "04_Reconstructed_interior",
+      "position": [
+        -10.583242416381836,
+        -7.397363185882568,
+        3.0999999046325684
+      ],
+      "rotation": [
+        1.5433212518692017,
+        -7.161725434912114e-09,
+        -0.42447710037231445
+      ]
+    },
+    {
+      "name": "05_Mapped_turnout_detail",
+      "position": [
+        22.937429428100586,
+        -465.3729553222656,
+        5.800000190734863
+      ],
+      "rotation": [
+        1.0153173208236694,
+        1.299136354049324e-08,
+        0.5713375210762024
+      ]
+    }
+  ],
+  "peak_rss_kb": 459432
+}

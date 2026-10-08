@@ -1,0 +1,20 @@
+{
+  "file": "renders/05_Mapped_turnout_detail.png",
+  "camera": "05_Mapped_turnout_detail",
+  "source_blend_sha256": "d79cc9f6a7540dded82f3518c4caeca2a0e24de44b804199465811c4aa5d9b3a",
+  "image_sha256": "2c690e7c2214aea7944acbaaa1e004b87ed28df95b552d702acd222715b1c589",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "render_seconds": 33.33,
+  "samples": 48,
+  "denoising": false,
+  "resolution": [
+    1280,
+    854
+  ],
+  "retained_for_final_blend_sha256": "75a95a356652de29882fbe75b9b1bde56d92584d3004a393f88284ef64ef15e6",
+  "retained_scope_verification": {
+    "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+    "scope": "Final revision changes the pedestrian bridge stair landing and/or exterior roof details. This retained remote rail close-up or enclosed hall view preserves its original, unchanged modeling subject. The image is not relabelled as a fresh rendering.",
+    "original_image_sha256": "2c690e7c2214aea7944acbaaa1e004b87ed28df95b552d702acd222715b1c589"
+  }
+}

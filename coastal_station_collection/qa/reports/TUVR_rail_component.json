@@ -1,0 +1,13 @@
+{
+  "plan": "coastal_stations_overnight/north/TUVR/references/plan.json",
+  "mesh": "coastal_stations_overnight/north/TUVR/references/rail_meshes.json",
+  "plan_sha256": "ac3feb42f0f5fac8f723db2cc8edb7b7770ee9c680b95d5366ac1856f6bfd400",
+  "mesh_sha256": "d2ff537e719a0ab12a460cc5897e16bb5b48cc8b6b353d012db032da86e1f1fb",
+  "method": "Actual serialized top faces reconstructed as polygons, tested against route 45mm flange-channel union. 20 micrometre interior trim tolerates 5-decimal coordinate rounding.",
+  "head_area_m2": 546.9623874255985,
+  "head_valid": true,
+  "channel_raw_intrusion_m2": 0.009097686371074104,
+  "channel_interior_intrusion_m2": 0.0,
+  "limitation": "Does not validate final scene overlays, switch blades, guardrails, or surveyed turnout design.",
+  "pass": true
+}
