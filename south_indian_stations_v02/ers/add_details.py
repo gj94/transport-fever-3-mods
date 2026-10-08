@@ -84,10 +84,13 @@ for x,y in [(18,48),(260,48),(30,68),(-105,98),(45,19)]:
  cube('Platform digital display',(x+8,y,4.05),(3,.20,.60),black)
  text('Platform digital display text','ERNAKULAM JN',(x+8,y-.115,3.95),.23,yellow)
 for x,y in [(6,48),(250,48),(15,68),(245,68),(-96,98),(75,19)]:
+ extras_before=set(scene.objects)
  notice('Kiosk menu','REFRESHMENTS',['TEA / COFFEE','BOTTLED WATER','PACKAGED SNACKS','PLEASE USE THE BIN'],x+1.45,y-1.62,3.05,.55,.88)
  cube('Kiosk serving kettle',(x-.8,y-1.1,2.83),(.30,.25,.38),steel,.04)
  for j in range(5):cyl('Stacked paper cups',(x-.15+j*.15,y-1.15,2.65),.055,.20,cream,10)
  printer(x+.7,y-.8,2.67)
+ for gx,gy,group in kiosk_groups:
+  if gx==x and gy==y:group.extend(set(scene.objects)-extras_before)
 # Fastened bench frames and foot pads augment individual seats.
 for o in list(bpy.data.objects):
  if o.name.startswith('Seat steel legs'):
@@ -150,3 +153,8 @@ for event_id,e in enumerate(json.loads((P/'physical_pointwork.json').read_text()
  toe=min(toes,key=lambda q:(q-p).length);center=sum((v.co.xy for v in ob.data.vertices),Vector((0,0)))/len(ob.data.vertices)
  if (center-p).dot(p-toe)<0:
   for v in ob.data.vertices:v.co.x=2*p.x-v.co.x;v.co.y=2*p.y-v.co.y
+
+# Storefronts face along the platform, as in the inspected2017 kiosk photo.
+for x,y,group in kiosk_groups:
+ rot=Matrix.Translation(Vector((x,y,0)))@Matrix.Rotation(math.pi/2,4,'Z')@Matrix.Translation(Vector((-x,-y,0)))
+ for ob in group:ob.matrix_world=rot@ob.matrix_basis

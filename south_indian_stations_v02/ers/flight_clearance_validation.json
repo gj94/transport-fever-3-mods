@@ -1,12 +1,4 @@
 {
-  "source_blend_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e",
-  "test": "Vertical headroom rays at about 50 mm longitudinal/lateral spacing across a 2.4 m clear width, to 2.0 m above actual tread tops; actual canopy/bridge meshes and swept pipe curves.",
-  "ray_count": 111720,
-  "clearance_target_m": 2.0,
-  "full_flights": 8,
-  "obstructions": [],
-  "pass": true,
-  "limitations": "Dense mesh-surface sample test; no accessibility or structural-design certification.",
   "floor_edge_contacts": [
     {
       "bridge_x": -60,
@@ -2141,5 +2133,13 @@
       ]
     }
   ],
-  "floor_edge_note": "Contacts exactly at the clear-width boundary with the stairs\u2019 own supporting stringers, below 60 mm above tread level, are listed separately as floor-edge structure rather than overhead obstruction."
+  "floor_edge_note": "Own supporting stringer boundary contacts below60mm are floor-edge structure, not overhead obstruction.",
+  "source_blend_sha256": "976d691c3d986de4c54678f69170e88a9eb9608b5801a48aa2afc1ad9a92724e",
+  "test": "Vertical headroom rays at dense0.05m longitudinal/lateral spacing across2.4m clear width, up to2.0m above actual tread top; actual canopy/bridge meshes and swept pipe curves",
+  "ray_count": 111720,
+  "clearance_target_m": 2.0,
+  "full_flights": 8,
+  "obstructions": [],
+  "pass": true,
+  "limitations": "Mesh surface ray test at111720sample points; does not certify accessibility or structural design."
 }

@@ -1,0 +1,30 @@
+ERS_full_station_v02.blend — editable packed metre-scale scene
+exports/ERS_full_station_v02.glb — portable geometry/material export
+build_ers_full.py — main reproducible Blender source
+add_details.py — interior/platform fixtures and furnishings
+refine_pointwork.py — support/bearer/check-rail context
+finish_crossing_castings.py — global rail/ballast solid loader
+prepare_rail_solids.py — optional Shapely preprocessing source
+verify_rail_geometry.py — actual rail mesh footprint checks
+render_review.py — reproducible cameras and review rendering
+export_asset.py — GLB export
+validate_asset.py — scene inventory/portability checks
+make_signs.py — original trilingual sign artwork generator
+make_coverage_plan.py — labelled map-derived coverage diagram
+requirements-preprocess.txt — optional offline preprocessing dependencies
+geometry/rail_solids.json — generated global rail/ballast mesh source
+geometry/mapped_routes.json — transformed mapped rail routes
+geometry/rail_geometry_validation.json — actual-mesh rail checks
+references/osm_rail.json — filtered OSM derivative source dataset
+references/osm_review.png — inspected map-trace reference view
+textures/*.png — original generated sign artwork, also packed in scene
+renders/*.png, *.proof.json and 12_Labelled_coverage_plan.svg — reviewed views and hash-bound proof records
+README.md, SOURCES.md, COVERAGE.md, DIMENSIONS.csv, QA.md — scope/provenance
+qa_build.json, qa_validation.json, track_network.json, physical_pointwork.json
+scene_lineage.json, visual_review.json, flight_clearance_validation.json
+validate_flight_clearance.py — dense actual-mesh/pipe stair headroom test
+SHA256SUMS.txt and MANIFEST.json — final delivered version hashes/inventory
+
+Not delivered: raw reference photos, raw broad-bbox OSM XML, logs, rejected
+intermediate proofs, Blender backup/checkpoint files, build caches or one-off
+migration scripts. The first station version remains preserved separately.

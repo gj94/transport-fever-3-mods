@@ -15,17 +15,8 @@ for node in ballast.node_tree.nodes:
  if node.type=='VALTORGB':
   node.color_ramp.elements[0].color=(.035,.042,.035,1);node.color_ramp.elements[1].color=(.14,.15,.13,1)
  if node.type=='BUMP':node.inputs['Strength'].default_value=.45;node.inputs['Distance'].default_value=.06
-# Continuous shared ballast underneath the common turnout bearer envelopes.
-beds=Batch('Shared turnout granular formation',ballast)
-for k in range(math.floor(-510/.65),math.ceil(850/.65)):
- x=k*.65
- for ya,yb in bands_at(x):beds.box((x,(ya+yb)/2,.18),(.65,yb-ya+.5,.28))
-beds.finish()
-# Trapezoidal outer shoulders instead of vertical blocks, where running beds remain.
-for ob in scene.objects:
- if not ob.name.startswith('Ballast formation '):continue
- vv=ob.data.vertices
- for i in range(0,len(vv),4):
-  if i+3>=len(vv):break
-  center=(vv[i+2].co+vv[i+3].co)/2
-  for j in [i+2,i+3]:vv[j].co=center+(vv[j].co-center)*.84
+# One continuous ballast solid replaces every overlapping per-route/fan bed.
+for ob in list(scene.objects):
+ if ob.name.startswith(('Ballast formation ','Shared turnout granular formation')):bpy.data.objects.remove(ob,do_unlink=True)
+data=D['ballast'];ob=mesh('Globally unioned ballast formation',data['vertices'],data['faces'],ballast)
+bev=ob.modifiers.new('Tapered gravel formation shoulders','BEVEL');bev.width=.14;bev.segments=1;bev.limit_method='ANGLE';bev.angle_limit=.6

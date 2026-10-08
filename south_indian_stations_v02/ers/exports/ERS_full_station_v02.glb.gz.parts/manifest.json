@@ -1,0 +1,24 @@
+{
+  "filename": "ERS_full_station_v02.glb.gz",
+  "size": 38271631,
+  "sha256": "a7bd3a2d2e4b7f1e546309d72ca2aab5d61cbb407efa1ce78db6d18b819a0faf",
+  "git_blob_sha": "9bc06da527475ba7fb422498156fc5c195614542",
+  "parts": [
+    {
+      "filename": "part001.bin",
+      "size": 16777216,
+      "sha256": "cc03847a13837fd8f730729ce233c22e3781762d8e3995f5ad3bb2499dd7e273"
+    },
+    {
+      "filename": "part002.bin",
+      "size": 16777216,
+      "sha256": "5f6ba470f02f7c1f557fb72d416b465f9f1861934c0538b8369939faebdd2859"
+    },
+    {
+      "filename": "part003.bin",
+      "size": 4717199,
+      "sha256": "45ce6edc4d3d7e2b639020f8e3999cf3309dd53928bcc5c6bcb41425dfaafe82"
+    }
+  ],
+  "packaging": "Exact original bytes split solely for GitHub API transport; parts cannot be opened individually."
+}

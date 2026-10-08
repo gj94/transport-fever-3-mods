@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""ERS 2017 visual reconstruction. Run blender -b -t 4 --python build_ers.py -- --render.
+"""ERS full-station v02. Run blender -b -t 4 --python build_ers_full.py.
+2017 photo-derived architecture, mixed-date mapped yard, reconstructed interiors.
 Full station scene using inspected map-derived plan, photo-derived facade and reconstructed interiors.
 """
 import bpy, math, random, json, sys, resource
@@ -26,10 +27,10 @@ def mat(name,color,rough=.7,metal=0,noise=0):
  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
  n=m.node_tree.nodes;bs=n.get('Principled BSDF');bs.inputs['Base Color'].default_value=(*color,1);bs.inputs['Roughness'].default_value=rough;bs.inputs['Metallic'].default_value=metal
  if noise:
-  tex=n.new('ShaderNodeTexNoise');tex.inputs['Scale'].default_value=noise;tex.inputs['Detail'].default_value=3
+  tex=n.new('ShaderNodeTexNoise');coord=n.new('ShaderNodeTexCoord');m.node_tree.links.new(coord.outputs['Object'],tex.inputs['Vector']);tex.inputs['Scale'].default_value=noise;tex.inputs['Detail'].default_value=3
   ramp=n.new('ShaderNodeValToRGB');ramp.color_ramp.elements[0].position=.15;ramp.color_ramp.elements[0].color=(*(v*.68 for v in color),1);ramp.color_ramp.elements[1].position=.87;ramp.color_ramp.elements[1].color=(*color,1)
   m.node_tree.links.new(tex.outputs['Fac'],ramp.inputs[0]);m.node_tree.links.new(ramp.outputs[0],bs.inputs['Base Color'])
-  bump=n.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.18;bump.inputs['Distance'].default_value=.035;m.node_tree.links.new(tex.outputs['Fac'],bump.inputs['Height']);m.node_tree.links.new(bump.outputs[0],bs.inputs['Normal'])
+  bump=n.new('ShaderNodeBump');bump.inputs['Strength'].default_value=.18;bump.inputs['Distance'].default_value=.008;m.node_tree.links.new(tex.outputs['Fac'],bump.inputs['Height']);m.node_tree.links.new(bump.outputs[0],bs.inputs['Normal'])
  return m
 white=mat('Warm white | weathered painted masonry',(.78,.78,.68),noise=4)
 blue=mat('2017 cobalt blue painted bands',(.038,.085,.28),noise=5)
@@ -254,7 +255,7 @@ tile=mat('Warm cream sanitary ceramic',(.73,.77,.70),.24,0,22)
 seat=mat('Waiting room blue molded seating',(.035,.15,.28),.36)
 soil=mat('Humid Kerala laterite soil',(.24,.17,.105),noise=35)
 collection('02B | FULL SITE • mapped envelope')
-cube('Full railway site base',(175,58,-.42),(1400,240,.65),soil)
+cube('Full railway site base',(175,58,-.325),(1400,240,.65),soil)
 cube('West access road',(120,-34,-.035),(850,20,.12),road)
 cube('East Karshaka Road',(20,134,-.035),(760,13,.12),road)
 # Reconstructed support rooms fit behind retained photo-derived frontage.
@@ -388,7 +389,8 @@ def strip(name,pts,width,z,depth,m):
  fs=[]
  for i in range(len(pts)-1):
   a=i*4;b=a+4;fs.extend([(a,b,b+1,a+1),(a+2,a+3,b+3,b+2),(a,a+2,b+2,b),(a+1,b+1,b+3,a+3)])
- return mesh(name,vs,fs,m)
+ last=4*(len(pts)-1);fs.extend([(0,1,3,2),(last+2,last+3,last+1,last)])
+ return mesh(name,vs,[tuple(reversed(face)) for face in fs],m)
 collection('05 | SIX PLATFORM FACES • map polygon plan')
 platforms=[]
 for w in W:
@@ -422,7 +424,7 @@ for w in W:
      key=tuple(round(q,3) for q in p);nkey=tuple(round(q,3) for q in pts[k]);existing=nodes.setdefault(key,[])
      if not any(tuple(round(q,3) for q in pair[0][1])==nkey for pair in existing):existing.append(([p,pts[k]],w['id']))
   # Mesh rail sections: true inner head faces separated by 1.676m.
-  strip('Ballast formation '+w['id'],pts,3.7,.17,.30,ballast)
+  strip('Ballast formation '+w['id'],pts,3.7,.15,.34,ballast)
   for side in [-1,1]:
    off=[]
    for i,p in enumerate(pts):
@@ -499,11 +501,13 @@ for label,y,lo,hi,width in platform_specs:
   for sy in [-1,1]:tube('Continuous gutter PF'+label,[(a,y+sy*width*.52,4.83),(b,y+sy*width*.52,4.83)],.08,steel)
   for off in [-.4,0,.4]:beam('Canopy purlin',(a,y+width*off,5.5-abs(off)*1.3),(b,y+width*off,5.5-abs(off)*1.3),.075,steel)
  for x in range(lo,hi,36):
-  tube('Rainwater downpipe',[(x,y+width*.50,4.83),(x,y+.28,4.6),(x,y+.28,1.21)],.05,steel)
-  bench(x+4,y,1.18,2.6)
+  fixture_x=x+24 if ((abs(x+46)<.01 and y==19) or (abs(x+47)<.01 and y==48)) else x
+  bench_x=x+4+(24 if abs(x+47)<.01 and y==48 else 0)
+  tube('Rainwater downpipe',[(fixture_x,y+width*.50,4.83),(fixture_x,y+.28,4.6),(fixture_x,y+.28,1.21)],.05,steel)
+  bench(bench_x,y,1.18,2.6)
   cyl('Lidded red waste bin',(x+7,y+.7,1.65),.24,.86,red,16);cyl('Waste bin top',(x+7,y+.7,2.10),.26,.055,black,16)
-  cube('Platform number board',(x,y,3.95),(1.05,.11,.72),blue)
-  text('Platform numbers '+label,label,(x,y-.065,3.78),.38,cream)
+  cube('Platform number board',(fixture_x,y,3.95),(1.05,.11,.72),blue)
+  text('Platform numbers '+label,label,(fixture_x,y-.065,3.78),.38,cream)
  for x in [lo+8,hi-8]:
   cube('Station name board',(x,y,2.92),(4,.12,1.6),yellow)
   sign('ERS multilingual platform sign',x,y-.07,2.92,3.88,1.48,'platform_name')
@@ -521,7 +525,9 @@ for label,y,lo,hi,width in platform_specs:
   text('Water cabinet legend','DRINKING WATER',(x+15,y-.365,2.28),.15,blue)
 # Platform kiosks are properly stocked, detailed four-sided assemblies.
 collection('09 | KIOSKS AND PLATFORM EQUIPMENT')
+kiosk_groups=[]
 def kiosk(x,y):
+ kiosk_before=set(scene.objects)
  cube('Catering kiosk floor',(x,y,1.25),(3.6,3,.16),stone)
  cube('Catering stall rear',(x,y+1.40,2.6),(3.6,.12,2.7),green)
  for xx in [x-1.72,x+1.72]:cube('Kiosk corner pier',(xx,y,2.65),(.17,2.9,2.8),green)
@@ -535,6 +541,7 @@ def kiosk(x,y):
   for k in range(13):cube('Packaged goods',(x-1.42+k*.23,y+.95,z+.16),(.18,.18,.28),[yellow,cream,red,blue][k%4])
  for k in range(10):
   cyl('Water bottles',(x-1.35+k*.3,y-.6,2.82),.075,.43,glass,10);cyl('Bottle caps',(x-1.35+k*.3,y-.6,3.05),.065,.045,blue,10)
+ kiosk_groups.append((x,y,list(set(scene.objects)-kiosk_before)))
 for x,y in [(6,48),(250,48),(15,68),(245,68),(-96,98),(75,19)]:kiosk(x,y)
 # Physical pedestrian bridges and stairs to each actual platform, open landing gates.
 collection('10 | FOOTBRIDGES • traversable stairs and landings')

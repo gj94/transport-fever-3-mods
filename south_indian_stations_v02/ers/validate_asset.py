@@ -1,4 +1,4 @@
-import bpy,json,math
+import bpy,json,math,hashlib
 from pathlib import Path
 from mathutils import Vector
 P=Path(__file__).resolve().parent;bpy.ops.wm.open_mainfile(filepath=str(P/'ERS_full_station_v02.blend'));s=bpy.context.scene
@@ -19,6 +19,8 @@ q={'opens_successfully':True,'objects':len(s.objects),'mesh_vertices':sum(len(o.
 railcheck=json.loads((P/'geometry/rail_geometry_validation.json').read_text())
 q['gauge_pairs_checked']=len(railcheck['gauge_checks']);q['gauge_max_abs_error_m']=railcheck['gauge_max_abs_error_m'];q['gauge_samples']=railcheck['gauge_checks'];q['rail_geometry_validation_file']='geometry/rail_geometry_validation.json'
 q['all_route_flange_interior_overlap_m2']=railcheck['all_route_flange_channel_interior_overlap_area_m2']
+q['source_blend_sha256']=hashlib.sha256((P/'ERS_full_station_v02.blend').read_bytes()).hexdigest()
+q['formation_objects']=[o.name for o in s.objects if o.name.startswith(('Globally unioned ballast','Ballast formation ','Shared turnout granular formation'))]
 q['global_rail_objects']=[o.name for o in s.objects if o.name.startswith('Globally unioned railway ')]
 q['obsolete_rail_overlay_objects']=[o.name for o in s.objects if o.name.startswith(('Physical rail ','Tapered physical switch blade ','Derived manganese frog nose ','Cast crossing '))]
 (P/'qa_validation.json').write_text(json.dumps(q,indent=2,default=str));print(json.dumps({k:v for k,v in q.items() if k not in ['gauge_samples','collections','metadata']},indent=2))

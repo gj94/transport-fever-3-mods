@@ -25,13 +25,10 @@ No new licence is granted to generated scene, scripts, signs or renders. Retaine
 These references ground the 2017 architectural baseline, not a historical yard survey. Actual image pixels were inspected.
 
 1. **Shady59**, *Ernakulam Junction Railway Station.jpg*, photographed 2 August 2017 21:19:11, own work, **CC BY-SA 4.0**. Main west frontage/night reference. https://commons.wikimedia.org/wiki/File:Ernakulam_Junction_Railway_Station.jpg
-   - Local: `references/night.jpg` (unmodified original in the working research cache; omitted from the lightweight deliverable).
    - Observed: white rectangular entry spandrel, broad cobalt blue curved portal and diagonal legs; continuous top trilingual sign; yellow trilingual awning fascia; clock; low left wing and blue horizontal strip; taller asymmetrical right wing with white fins, curved parapet, dark screened gallery; paved forecourt, lamps, palms, parking.
 2. **KannanVM**, *Ernakulam Junction Railway station.jpg*, photographed 19 November 2017 14:41:22, own work, **CC BY-SA 4.0**. https://commons.wikimedia.org/wiki/File:Ernakulam_Junction_Railway_station.jpg
-   - Local: `references/day.jpg` (unmodified original in the working research cache; omitted from the lightweight deliverable).
    - Observed: weathered yellow station board with regional scripts and pointed posts; silver lattice pedestrian bridge, horizontal guardrails, covered stair flight; grey corrugated roofing; red platform retaining wall/pale coping; overhead traction equipment; blue water pipe; white relay cabinets; broad-gauge track.
 3. **KannanVM**, *Ernakulam Junction Railway station Platform.jpg*, photographed 19 November 2017 14:40:49, own work, **CC BY-SA 4.0**. https://commons.wikimedia.org/wiki/File:Ernakulam_Junction_Railway_station_Platform.jpg
-   - Local: `references/platform.jpg` (unmodified original in the working research cache; omitted from the lightweight deliverable).
    - Observed: low open steel platform canopy, corrugated grey sheet, blue covered stair hood, green/yellow catering kiosk with product shelves, red waste bin, silver bridge behind. The visible **13 is a coach-position board, not platform 13**.
 
 Image licence: https://creativecommons.org/licenses/by-sa/4.0/
