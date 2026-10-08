@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/KAVR/exports/KAVR_coastal_station_v01.glb",
+    "bytes": 28142684,
+    "errors": [],
+    "warnings": [],
+    "sha256": "95607be4c55efab486c510c15ba4b805d03b02524c17e5504e1829959ba022ae",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 28142684
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 49564
+      },
+      {
+        "type": 5130562,
+        "bytes": 28093092
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 63,
+    "mesh_count": 63,
+    "primitive_count": 63,
+    "vertex_reference_count": 939144,
+    "accessor_count": 183,
+    "validated_accessor_count": 183,
+    "material_count": 24,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

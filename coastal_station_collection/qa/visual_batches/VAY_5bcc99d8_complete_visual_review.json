@@ -1,0 +1,59 @@
+{
+  "station": "VAY",
+  "reviewed_utc": "2026-10-08T21:21:55Z",
+  "status": "complete_four_view_visual_source_pass",
+  "source_scene_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "8e50b0517aae420e5eb6fb1375516b6dbf5a63caf8c91f1afe3f6f4a1f5561f0",
+      "source_scene_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "7289919147f9d963dc3710bb1d1f78ac6929eb5bf13a444de629aae7464e9a99",
+      "source_scene_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "26543c6edce57687cad1aa7809e460bc5fe708f8c144b0c1fa3db03e7aa3ddcb",
+      "source_scene_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "74d0d06f039f30794060e064069581c1bfb2ea77d697385ff5a3e531c30864d2",
+      "source_scene_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/VAY_facade_2019-07.png",
+      "sha256": "43f23289da0081cc3cb2d831184dd413fb504ea1acd57bc50029636befcf6c88",
+      "reduced_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/research/screenshots/VAY_platform_2025-09.png",
+      "sha256": "0e2c2fd960ee1d63485299ca493c53a1633b1547325aa5d5b18782c825edfd5f",
+      "reduced_pixels_inspected": true
+    }
+  ],
+  "observations": [
+    "Modest cyan/turquoise flat-roofed block with dark base, wide green sheet entry canopy and pale upper name fascia follows the observed facade.",
+    "Entrance and station name face are visible; no duplicated roof/support or fixture assembly apparent.",
+    "Overall view shows a single-platform modest halt environment; no invented large hall.",
+    "New03 gives clear useful platform/rail view; modest site and hut remain coherent.",
+    "New04 furnished interior is proportionate to halt scale, with waiting chairs, desk and compact ticket booth; no duplicated assembly/visible overlap."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Unseen interior plans, heights, dimensions and fixture layouts are disclosed reconstruction.",
+    "Technical auditor owns geometry/resources/full-track inventory and final freeze gate."
+  ],
+  "prior_review_reports": [
+    "VAY_5bcc99d8_partial_visual_review.json"
+  ]
+}

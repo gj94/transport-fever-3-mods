@@ -1,0 +1,115 @@
+{
+  "station": "SRTL",
+  "reviewed_utc": "2026-10-08T21:19:40Z",
+  "status": "five_view_visual_source_pass",
+  "source_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "02d2ba92e06a7aab19abd4c360c53f4ab6360d85f339f1a53d5dda35db41a795",
+      "source_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "current_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "65701970f6a173bce2f962e63b9990992d60e57580fde3820f6a5fa439a19155",
+      "source_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "current_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": true,
+      "retained_scope_verification": null
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "e858994147bfd1d63195fff90a43bd072c3bbc8003b19bec426202708a356303",
+      "source_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "current_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": null
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "d3517b92f96880e6b88102cb7c2890c0e1d3458135811f2af11a50a44219ef88",
+      "source_scene_sha256": "1b0607787cedaddd8b7c50400b957e333a78c6d988f7482a0f75f5ba96ed77e4",
+      "current_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision contains the explicitly recorded facade refinement: Stepped cream underside corbels added beneath the photographed twin-gable portico; existing wings remain reconstructed. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+        "original_image_sha256": "d3517b92f96880e6b88102cb7c2890c0e1d3458135811f2af11a50a44219ef88",
+        "related_patch_chain": {
+          "bridge_patch": {
+            "original_blend_file": "SRTL_coastal_station_v01.blend",
+            "original_blend_sha256": "3547d69a0c8981e1ce4f2b453598fe93328dcb294e84388e1e73c640bbfd4dc1",
+            "script_sha256": "c8cba1aa433ebf8ffdeec7880be4d64e785f1dfda7cb4c521b02f6ac82ad878a",
+            "changed_collections": [
+              "07 | Pedestrian footbridge reconstructed geometry",
+              "05 | Furnished reconstructed interiors: flush floor color tiles only"
+            ],
+            "flushed_tile_vertices": 2176,
+            "other_scene_geometry_unchanged": true
+          },
+          "facade_refinement": {
+            "source_blend_sha256": "1b0607787cedaddd8b7c50400b957e333a78c6d988f7482a0f75f5ba96ed77e4",
+            "source_blend_file": "SRTL_coastal_station_v02.blend",
+            "details": "Stepped cream underside corbels added beneath the photographed twin-gable portico; existing wings remain reconstructed.",
+            "changed_existing_objects": [],
+            "added_collection": "04A | SRTL source-identifying facade refinement",
+            "all_other_geometry_unchanged": true,
+            "script_sha256": "af436d2d10fb1320a962a4162042e7893ccf602b8df56a1355d888739a96c4e7"
+          }
+        }
+      }
+    },
+    "05_Mapped_turnout_detail.png": {
+      "image_sha256": "2a2c59eb8554df1d30ce50f0720f86c8bbe655c0fc50c5a16c7f75ca53a2e747",
+      "source_scene_sha256": "3547d69a0c8981e1ce4f2b453598fe93328dcb294e84388e1e73c640bbfd4dc1",
+      "current_scene_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false,
+      "retained_scope_verification": {
+        "method": "Changed geometry collections/positions checked against retained view subject; exact source image and source-scene checksum preserved. This is subject-equivalence lineage, not a claim of pixel-identical re-render.",
+        "scope": "Final revision contains the explicitly recorded facade refinement: Stepped cream underside corbels added beneath the photographed twin-gable portico; existing wings remain reconstructed. The retained remote rail close-up or enclosed waiting-room composition does not depict the changed exterior components. Related earlier bridge/buffer corrections, if any, remain listed in the patch chain. Its modeling subject is unchanged; actual source hash and pixels are preserved, without claiming pixel-identical re-rendering.",
+        "original_image_sha256": "2a2c59eb8554df1d30ce50f0720f86c8bbe655c0fc50c5a16c7f75ca53a2e747",
+        "related_patch_chain": {
+          "bridge_patch": {
+            "original_blend_file": "SRTL_coastal_station_v01.blend",
+            "original_blend_sha256": "3547d69a0c8981e1ce4f2b453598fe93328dcb294e84388e1e73c640bbfd4dc1",
+            "script_sha256": "c8cba1aa433ebf8ffdeec7880be4d64e785f1dfda7cb4c521b02f6ac82ad878a",
+            "changed_collections": [
+              "07 | Pedestrian footbridge reconstructed geometry",
+              "05 | Furnished reconstructed interiors: flush floor color tiles only"
+            ],
+            "flushed_tile_vertices": 2176,
+            "other_scene_geometry_unchanged": true
+          },
+          "facade_refinement": {
+            "source_blend_sha256": "1b0607787cedaddd8b7c50400b957e333a78c6d988f7482a0f75f5ba96ed77e4",
+            "source_blend_file": "SRTL_coastal_station_v02.blend",
+            "details": "Stepped cream underside corbels added beneath the photographed twin-gable portico; existing wings remain reconstructed.",
+            "changed_existing_objects": [],
+            "added_collection": "04A | SRTL source-identifying facade refinement",
+            "all_other_geometry_unchanged": true,
+            "script_sha256": "af436d2d10fb1320a962a4162042e7893ccf602b8df56a1355d888739a96c4e7"
+          }
+        }
+      }
+    }
+  },
+  "prior_review_reports": [
+    "SRTL_3a507828_02_targeted_recheck.json",
+    "SRTL_3a507828_partial_visual_review.json"
+  ],
+  "observations": [
+    "01\u201303 source/exterior passes preserved.",
+    "Retained04 actual pixels now inspected: furnished waiting seats, desk, ticket window and fan are coherent; no duplicate fixture overlap detected.",
+    "Retained05 actual pixels now inspected: useful unobstructed turnout/rail component close-up.",
+    "04/05 exact image hashes and unchanged-subject lineage verified against current scene."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Retained subject equivalence does not assert a pixel-identical rerender.",
+    "Exact hidden interiors remain reconstructed; technical auditor owns geometry/export and final acceptance."
+  ]
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/SRTL/exports/SRTL_coastal_station_v03.glb",
+    "bytes": 58037000,
+    "errors": [],
+    "warnings": [],
+    "sha256": "2d786ee1e2e4bd3cf24ce59a7ab99d201c3843893f3e3edaf411dff086d49fec",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 58037000
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 78272
+      },
+      {
+        "type": 5130562,
+        "bytes": 57958700
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 100,
+    "mesh_count": 100,
+    "primitive_count": 100,
+    "vertex_reference_count": 1936292,
+    "accessor_count": 300,
+    "validated_accessor_count": 300,
+    "material_count": 26,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

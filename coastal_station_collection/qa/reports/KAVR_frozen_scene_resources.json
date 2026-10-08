@@ -1,0 +1,101 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/KAVR/KAVR_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 70,
+  "object_types": {
+    "MESH": 59,
+    "CURVE": 2,
+    "FONT": 2,
+    "CAMERA": 4,
+    "LIGHT": 3
+  },
+  "unique_meshes": 59,
+  "unique_vertices": 317144,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.40827465057373
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7f7a5d2d3520>",
+    "station_code": "KAVR",
+    "station_name": "Kalavur",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform": {
+      "from": [
+        12.857410430908203,
+        2.199585199356079,
+        2.8499999046325684
+      ],
+      "to": [
+        -0.5912926197052002,
+        2.199585199356079,
+        2.8499999046325684
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    }
+  },
+  "blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830"
+}

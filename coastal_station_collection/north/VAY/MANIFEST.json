@@ -1,0 +1,207 @@
+{
+  "station": "VAY",
+  "status": "frozen_for_independent_audit",
+  "blend_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+  "export_sha256": "af86258e774c15b1fb327bea5af8b954789c4e8d8daa176717c4c776f3dccd77",
+  "render_final_scene_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+  "render_lineage": "Each render sidecar records actual source checksum; retained unaffected views explicitly cite final revision and verified change scope.",
+  "files": [
+    {
+      "path": "coastal_stations_overnight/north/VAY/BUILD_SOURCE.py",
+      "relative_station_path": "BUILD_SOURCE.py",
+      "sha256": "258a73a6c10229e875643944880cd16d55a7ac7b9116bed25e743ea9aa9a94e6",
+      "size": 51858
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/EXPORT_SOURCE.py",
+      "relative_station_path": "EXPORT_SOURCE.py",
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d",
+      "size": 1574
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/QA_BUILD.json",
+      "relative_station_path": "QA_BUILD.json",
+      "sha256": "566a35c8cf8f4ec17b4b0fae15c5f4a7c9cf9c04306cee30ab8fa2efa607229b",
+      "size": 3623
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/QA_EXPORT.json",
+      "relative_station_path": "QA_EXPORT.json",
+      "sha256": "7a137d056bb9c3c2f99bf26e67141d3374cd0abfa565ce82bd2270731cb8df8e",
+      "size": 524
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/QA_LAYOUT.json",
+      "relative_station_path": "QA_LAYOUT.json",
+      "sha256": "2370a927ade429eeba6885473cb93df58b2a5e8e14325b4f436987e54a4ed72e",
+      "size": 643
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/QA_RAY_INPUTS.json",
+      "relative_station_path": "QA_RAY_INPUTS.json",
+      "sha256": "230f456eaf5a8c8a1efe634006c5da2911dbc402d395dd6ec0efcbe65ffde0a4",
+      "size": 1911
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/QA_SCENE.json",
+      "relative_station_path": "QA_SCENE.json",
+      "sha256": "62cf1fbca2c18f6f4f8df2dcbaf807768916f53630c1975c4036c3c100e16e13",
+      "size": 5595
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/README.md",
+      "relative_station_path": "README.md",
+      "sha256": "ff9bdb127bb812426ad5803dd6240c74fbe98be7c3a59190dabf24c9f2831dc7",
+      "size": 592
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/RENDER_SOURCE.py",
+      "relative_station_path": "RENDER_SOURCE.py",
+      "sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30",
+      "size": 2538
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/SOURCES_AND_UNCERTAINTIES.md",
+      "relative_station_path": "SOURCES_AND_UNCERTAINTIES.md",
+      "sha256": "7f7d92c6cfcf554195895c4f77d13786eca1531469a82e05b3ac51ed51779570",
+      "size": 6030
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/VAY_coastal_station_v01.blend",
+      "relative_station_path": "VAY_coastal_station_v01.blend",
+      "sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8",
+      "size": 6554992
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/VISUAL_QA.md",
+      "relative_station_path": "VISUAL_QA.md",
+      "sha256": "447adfe13cd0a6fe896be44bb520bf143941083c9d0533f7bd24be97792a6f83",
+      "size": 1069
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/exports/VAY_coastal_station_v01.glb",
+      "relative_station_path": "exports/VAY_coastal_station_v01.glb",
+      "sha256": "af86258e774c15b1fb327bea5af8b954789c4e8d8daa176717c4c776f3dccd77",
+      "size": 27553172
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/exports/VAY_coastal_station_v01.validation.json",
+      "relative_station_path": "exports/VAY_coastal_station_v01.validation.json",
+      "sha256": "87108fef533d571780ac57cf6a886a37d36bd67f66ba088e9b74d8429b4ddb29",
+      "size": 559
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/FULL_TRACK_PLAN.png",
+      "relative_station_path": "references/FULL_TRACK_PLAN.png",
+      "sha256": "fe9b0fe42cbcb9ba91f30bd056f45fe1004887a60ed106466af4eeef81fb19d0",
+      "size": 66293
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/architecture_google_evidence.json",
+      "relative_station_path": "references/architecture_google_evidence.json",
+      "sha256": "c6dae5329a925b3933a9fb4be41e766c22f879c5f1b985669bed6e344bbd8c42",
+      "size": 3401
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/plan.json",
+      "relative_station_path": "references/plan.json",
+      "sha256": "620ca1d8279c9bc33a69db044747ea06e2723203303a3f7e97154e9b71a38ec6",
+      "size": 85479
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/plan.png",
+      "relative_station_path": "references/plan.png",
+      "sha256": "70b6a37d912b2defb85a6a057221f5970146e8350df97cb0e16e3693311026b3",
+      "size": 26826
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/pointwork.json",
+      "relative_station_path": "references/pointwork.json",
+      "sha256": "d391c87d2bc53907769ae7b28a35aba258a866fc4500716d0d4126b325081f93",
+      "size": 833
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/rail_meshes.json",
+      "relative_station_path": "references/rail_meshes.json",
+      "sha256": "46342caac4b2bd690fc1141c944f1f58b41fd97625688699e298715360d60003",
+      "size": 29517
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/references/station_record.json",
+      "relative_station_path": "references/station_record.json",
+      "sha256": "cba9bb10cc760726b126b8f05956de4d0333f7d10b675a8c4e15e1ebe0749bf5",
+      "size": 6229
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/01_Overall_station.json",
+      "relative_station_path": "renders/01_Overall_station.json",
+      "sha256": "9d1e9fa0fbc41bd9aa94b0bcafa1426b181a96963d60eab923b5ddc0a061f3b9",
+      "size": 553
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/01_Overall_station.png",
+      "relative_station_path": "renders/01_Overall_station.png",
+      "sha256": "8e50b0517aae420e5eb6fb1375516b6dbf5a63caf8c91f1afe3f6f4a1f5561f0",
+      "size": 1504052
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/02_Entrance_architecture.json",
+      "relative_station_path": "renders/02_Entrance_architecture.json",
+      "sha256": "000c7b507422e3883995d646dfc1f1b87108dba42c617ce4436543eddf78c052",
+      "size": 565
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/02_Entrance_architecture.png",
+      "relative_station_path": "renders/02_Entrance_architecture.png",
+      "sha256": "7289919147f9d963dc3710bb1d1f78ac6929eb5bf13a444de629aae7464e9a99",
+      "size": 1382091
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/03_Platform_and_tracks.json",
+      "relative_station_path": "renders/03_Platform_and_tracks.json",
+      "sha256": "c19a9f3ebcf9f044527e49bf08ba5c7597fcafb08bf75eea1dd9c3b33c7c7673",
+      "size": 561
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/03_Platform_and_tracks.png",
+      "relative_station_path": "renders/03_Platform_and_tracks.png",
+      "sha256": "26543c6edce57687cad1aa7809e460bc5fe708f8c144b0c1fa3db03e7aa3ddcb",
+      "size": 1252859
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/04_Reconstructed_interior.json",
+      "relative_station_path": "renders/04_Reconstructed_interior.json",
+      "sha256": "109d45ce4205c0fc66a8f526855c395a405997991dd5748c5bdfb721ebb5df57",
+      "size": 567
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/renders/04_Reconstructed_interior.png",
+      "relative_station_path": "renders/04_Reconstructed_interior.png",
+      "sha256": "74d0d06f039f30794060e064069581c1bfb2ea77d697385ff5a3e531c30864d2",
+      "size": 1346423
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/textures/board.png",
+      "relative_station_path": "textures/board.png",
+      "sha256": "1b7d13e13111a056bca555555f4deb828c2ed6333b29fa29ed61a922d4d05357",
+      "size": 41485
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/textures/fascia.png",
+      "relative_station_path": "textures/fascia.png",
+      "sha256": "837058d2cf65d023d9e1c43e2fc36466a41629ad16f92f7ecd335b649afefaf9",
+      "size": 29634
+    },
+    {
+      "path": "coastal_stations_overnight/north/VAY/textures/notice.png",
+      "relative_station_path": "textures/notice.png",
+      "sha256": "22194c13ff4131418d44d922e111b5a86c195eeb0b9e679c140340092668456b",
+      "size": 37246
+    }
+  ],
+  "file_count": 32,
+  "total_bytes": 39999294,
+  "photo_redistribution": "No downloaded Google Maps/Mappls/other source photography included. Original station sign art and generated render images only.",
+  "source_data_attribution": "\u00a9 OpenStreetMap contributors, ODbL1.0; IRI references linked",
+  "cautions": "Read SOURCES_AND_UNCERTAINTIES.md. Hidden interiors and some dimensions/placement are reconstructed; current yard inventory not certified."
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "path": "coastal_stations_overnight/north/VAY/exports/VAY_coastal_station_v01.glb",
+    "bytes": 27553172,
+    "errors": [],
+    "warnings": [],
+    "sha256": "af86258e774c15b1fb327bea5af8b954789c4e8d8daa176717c4c776f3dccd77",
+    "header": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 27553172
+    },
+    "chunks": [
+      {
+        "type": 1313821514,
+        "bytes": 53388
+      },
+      {
+        "type": 5130562,
+        "bytes": 27499756
+      }
+    ],
+    "finite_json": true,
+    "external_dependencies": [],
+    "node_count": 67,
+    "mesh_count": 67,
+    "primitive_count": 67,
+    "vertex_reference_count": 918353,
+    "accessor_count": 198,
+    "validated_accessor_count": 198,
+    "material_count": 26,
+    "embedded_images": 3,
+    "stock_name_candidates": [],
+    "status": "pass"
+  }
+]

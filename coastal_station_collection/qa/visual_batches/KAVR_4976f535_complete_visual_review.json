@@ -1,0 +1,58 @@
+{
+  "station": "KAVR",
+  "reviewed_utc": "2026-10-08T21:18:20Z",
+  "status": "complete_four_view_visual_source_pass",
+  "source_scene_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+  "frames": {
+    "01_Overall_station.png": {
+      "image_sha256": "2630511f9642d3693c6885494c682e7e938fa8a805d18a1c21320ead99705287",
+      "source_scene_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "02_Entrance_architecture.png": {
+      "image_sha256": "b12f1f175866822e9e7351de14816a7e6843e286ee80a1ef3e262b2b14a87f23",
+      "source_scene_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "03_Platform_and_tracks.png": {
+      "image_sha256": "dfe69ce8c8d88e02fc1743b1237c3cc747b19cb2bff2d94e0e3fcb90519293a1",
+      "source_scene_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    },
+    "04_Reconstructed_interior.png": {
+      "image_sha256": "4ccd8cec412a8d835c19d4ff2565c29de16f679b54bb71852faabff1cbcc913d",
+      "source_scene_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830",
+      "contact_pixels_inspected": true,
+      "full_pixels_inspected": false
+    }
+  },
+  "sources": [
+    {
+      "path": "coastal_stations_overnight/research/screenshots/KAVR_platform_hut_2017-04.png",
+      "sha256": "d182d9f71b92e2d102b827270f956dc92dbbb6e61bdd096bb03cf2936f0a1a23",
+      "reduced_pixels_inspected": true
+    },
+    {
+      "path": "coastal_stations_overnight/north/research/KAVR_photo.jpg",
+      "sha256": "c249a60d5b313de57a15f1db114345e3db5e3e9af5dceddb2f25608076afeca4",
+      "reduced_pixels_inspected": true
+    }
+  ],
+  "observations": [
+    "Modest pale flat-roofed hut, red trim/plinth and yellow nameboard are consistent with available distant source cues; no invented large concourse.",
+    "Station name is readable in entrance view; a single through line/platform setting is visually coherent.",
+    "Platform camera has a near mast at the extreme right but useful rail/platform/shelter sightline remains unobstructed. No material camera defect or duplicate fixture assembly detected.",
+    "New04 shows a modest furnished booking/waiting room with ticket window, desk and seats; no visible duplicate/overlap assembly."
+  ],
+  "minimum_corrections": [],
+  "limits": [
+    "Unseen interior plans, heights, dimensions and fixture layouts are disclosed reconstruction.",
+    "Technical auditor owns geometry/resources/full-track inventory and final freeze gate."
+  ],
+  "prior_review_reports": [
+    "KAVR_4976f535_partial_visual_review.json"
+  ]
+}

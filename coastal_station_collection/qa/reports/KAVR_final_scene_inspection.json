@@ -1,0 +1,397 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/KAVR/KAVR_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 70,
+  "object_types": {
+    "MESH": 59,
+    "CURVE": 2,
+    "FONT": 2,
+    "CAMERA": 4,
+    "LIGHT": 3
+  },
+  "unique_meshes": 59,
+  "unique_vertices": 317144,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.40827465057373
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7ffb2bbdd8e0>",
+    "station_code": "KAVR",
+    "station_name": "Kalavur",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior"
+  ],
+  "circulation_rays": {
+    "central_front_hall_platform_height0.3": {
+      "from": [
+        12.857410430908203,
+        2.199585199356079,
+        1.7999999523162842
+      ],
+      "to": [
+        -0.5912926197052002,
+        2.199585199356079,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height0.8": {
+      "from": [
+        12.857410430908203,
+        2.199585199356079,
+        2.299999952316284
+      ],
+      "to": [
+        -0.5912926197052002,
+        2.199585199356079,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "central_front_hall_platform_height1.7": {
+      "from": [
+        12.857410430908203,
+        2.199585199356079,
+        3.200000047683716
+      ],
+      "to": [
+        -0.5912926197052002,
+        2.199585199356079,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        10.05741024017334,
+        28.16604995727539,
+        0.30000001192092896
+      ],
+      "to": [
+        10.05741024017334,
+        10.766050338745117,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        10.05741024017334,
+        10.766050338745117,
+        1.75
+      ],
+      "to": [
+        10.05741024017334,
+        2.199585199356079,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        10.05741024017334,
+        28.16604995727539,
+        0.800000011920929
+      ],
+      "to": [
+        10.05741024017334,
+        10.766050338745117,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        10.05741024017334,
+        10.766050338745117,
+        2.25
+      ],
+      "to": [
+        10.05741024017334,
+        2.199585199356079,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        10.05741024017334,
+        28.16604995727539,
+        1.7000000476837158
+      ],
+      "to": [
+        10.05741024017334,
+        10.766050338745117,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        10.05741024017334,
+        10.766050338745117,
+        3.1500000953674316
+      ],
+      "to": [
+        10.05741024017334,
+        2.199585199356079,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_8.566465008880806": {
+      "from": [
+        10.05741024017334,
+        10.766050338745117,
+        1.7000000476837158
+      ],
+      "to": [
+        10.05741024017334,
+        10.766050338745117,
+        0.949999988079071
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        10.05741024017334,
+        10.766050338745117,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549753665924,
+        0.9965457916259766
+      ]
+    },
+    "floor_ramp_17.266465008880807": {
+      "from": [
+        10.05741024017334,
+        19.46605110168457,
+        0.9750000238418579
+      ],
+      "to": [
+        10.05741024017334,
+        19.46605110168457,
+        0.22499999403953552
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        10.05741024017334,
+        19.46605110168457,
+        0.7250000238418579
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549753665924,
+        0.9965457916259766
+      ]
+    },
+    "floor_ramp_25.966465008880803": {
+      "from": [
+        10.05741024017334,
+        28.16604995727539,
+        0.25
+      ],
+      "to": [
+        10.05741024017334,
+        28.16604995727539,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        10.05741024017334,
+        28.16604995727539,
+        0.0
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549753665924,
+        0.9965457916259766
+      ]
+    },
+    "floor_threshold_8.957410547976895": {
+      "from": [
+        8.95741081237793,
+        2.199585199356079,
+        1.7000000476837158
+      ],
+      "to": [
+        8.95741081237793,
+        2.199585199356079,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Kalavur photographed architecture / stone",
+      "hit_location": [
+        8.95741081237793,
+        2.199585199356079,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_8.757410547976894": {
+      "from": [
+        8.757411003112793,
+        2.199585199356079,
+        1.7000000476837158
+      ],
+      "to": [
+        8.757411003112793,
+        2.199585199356079,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Kalavur photographed architecture / stone",
+      "hit_location": [
+        8.757411003112793,
+        2.199585199356079,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_1.5087074005529555": {
+      "from": [
+        1.5087074041366577,
+        2.199585199356079,
+        1.7000000476837158
+      ],
+      "to": [
+        1.5087074041366577,
+        2.199585199356079,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Kalavur photographed architecture / stone",
+      "hit_location": [
+        1.5087074041366577,
+        2.199585199356079,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_1.3087074005529553": {
+      "from": [
+        1.308707356452942,
+        2.199585199356079,
+        1.7000000476837158
+      ],
+      "to": [
+        1.308707356452942,
+        2.199585199356079,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Kalavur photographed architecture / stone",
+      "hit_location": [
+        1.308707356452942,
+        2.199585199356079,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "4976f53590e74b67003c6c95cffda6c4e1db9e57880e4aae804b300d279e4830"
+}

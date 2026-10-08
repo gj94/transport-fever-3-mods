@@ -1,0 +1,241 @@
+{
+  "station_code": "SRTL",
+  "status": "accepted_with_disclosed_limits",
+  "accepted_revision": "north/SRTL final freeze",
+  "manifest_sha256": "0e1f8974c23fdfdc0dd93e4d26ef17a8cff0ced4ee10911031506626205eee93",
+  "blend_sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68",
+  "export_sha256": "2d786ee1e2e4bd3cf24ce59a7ab99d201c3843893f3e3edaf411dff086d49fec",
+  "accepted_assets": [
+    {
+      "path": "coastal_stations_overnight/north/SRTL/BRIDGE_PATCH_SOURCE.py",
+      "bytes": 4734,
+      "sha256": "c8cba1aa433ebf8ffdeec7880be4d64e785f1dfda7cb4c521b02f6ac82ad878a"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/BUILD_SOURCE.py",
+      "bytes": 49383,
+      "sha256": "1afc7fdaa0d1aec5cc7bc2e1bd6a729b975b2ab4d3e0afc00253c4a8f3eafd0f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/EXPORT_SOURCE.py",
+      "bytes": 1574,
+      "sha256": "7dbbb29fb2261f1b49a0f585bdd15bc7bdbd8f0b2b9548f7b22cebd8f2139a9d"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/FACADE_PATCH_SOURCE.py",
+      "bytes": 7104,
+      "sha256": "af436d2d10fb1320a962a4162042e7893ccf602b8df56a1355d888739a96c4e7"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/QA_BUILD.json",
+      "bytes": 8079,
+      "sha256": "d1177a71a8e2f4802994fdc2c29ead0c110c77c62fb3a04e0d4d20ab48d855a3"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/QA_EXPORT.json",
+      "bytes": 528,
+      "sha256": "eb099cc35bf64e8ae4157c54d08382c77c5c6fe9c2cb710696d3c448b52e41d0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/QA_LAYOUT.json",
+      "bytes": 3513,
+      "sha256": "23390cec4f478896caff24c7b80335cc1f825f9e79fb229d5cd2343139b24dd6"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/QA_RAY_INPUTS.json",
+      "bytes": 2371,
+      "sha256": "df1ff0e5b1649c9c6cb86cdcdc3b444f383b5ebfad04b4c8cc5fa190b6c0d817"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/QA_SCENE.json",
+      "bytes": 6614,
+      "sha256": "c760556328425911e554a1c1bdddac8d85a826b3fc02353c287107d48ccae8b7"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/README.md",
+      "bytes": 596,
+      "sha256": "97acce515678f60825452934b74ad6023aeaf18b97f281b4efb650da1e9d8124"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/RENDER_SOURCE.py",
+      "bytes": 2538,
+      "sha256": "2b5e3a35a4977378b60edfeb13a273d8f9c99c12a37b36c88b1d5a97d3be2c30"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/SOURCES_AND_UNCERTAINTIES.md",
+      "bytes": 5385,
+      "sha256": "3ca06609e0509e3139ae41bcbff197b5e14d6b50fb26b0a09ac37cac45823bf9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/SRTL_coastal_station_v03.blend",
+      "bytes": 13428849,
+      "sha256": "3a50782868dceb00a82be62eb874e377c34da75bf56f5e658ef59ce51b551b68"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/VISUAL_QA.md",
+      "bytes": 1070,
+      "sha256": "161e3bfec7ba48ef645781e2f5cdb02aa103361434ccda9458b2aada64905c90"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/exports/SRTL_coastal_station_v03.glb",
+      "bytes": 58037000,
+      "sha256": "2d786ee1e2e4bd3cf24ce59a7ab99d201c3843893f3e3edaf411dff086d49fec"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/exports/SRTL_coastal_station_v03.validation.json",
+      "bytes": 561,
+      "sha256": "9e6d54dff90d738d05dcb7e8b1d707cf4f557ef5c7ae669f9afe855b7daee769"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/FULL_TRACK_PLAN.png",
+      "bytes": 66715,
+      "sha256": "f5e18437c56d95f25276b6a87f9ed28ae729ec351aa0f9840c8ed439d11f07cc"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/IRI_IDENTITY_CLARIFICATION.json",
+      "bytes": 501,
+      "sha256": "595a7d547ba13799aee3115147ca58086e3a68f8655e2194c21553013f31b27c"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/plan.json",
+      "bytes": 65430,
+      "sha256": "e9d097703f9823d7255d6cf192c8a1dd6b262ba0fea2b7b83d2eb178c43469e3"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/plan.png",
+      "bytes": 30825,
+      "sha256": "096ff9ffda261b2cda6e3b69e9cc67983953c2fdb6c182291a8513b1dec6ac44"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/pointwork.json",
+      "bytes": 2940,
+      "sha256": "4e0aebc370498f6b8ec2743553cc6944c7ec562872ded1733db623bb51d2c9e0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/rail_meshes.json",
+      "bytes": 144811,
+      "sha256": "6692db244ab1f53f37fa2fb0406c0a5549af87185e59121b8b8a19ce7db9d4ee"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/references/station_record.json",
+      "bytes": 6869,
+      "sha256": "a6d261b036b08e98aa9ccbcc0f3ff6987749e7630653b7ee8ce3272fcf148cc9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/01_Overall_station.json",
+      "bytes": 552,
+      "sha256": "e3c0c71ac7e1dc10447d1287252ad2dc9a7a06743d91e2fd97b285c12f555cf0"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/01_Overall_station.png",
+      "bytes": 1496624,
+      "sha256": "02d2ba92e06a7aab19abd4c360c53f4ab6360d85f339f1a53d5dda35db41a795"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/02_Entrance_architecture.json",
+      "bytes": 565,
+      "sha256": "e973da5d16703caa365b165400688cd9bc0a4f8dab1640d4ee50a2ae902961bd"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/02_Entrance_architecture.png",
+      "bytes": 1425878,
+      "sha256": "65701970f6a173bce2f962e63b9990992d60e57580fde3820f6a5fa439a19155"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/03_Platform_and_tracks.json",
+      "bytes": 560,
+      "sha256": "308f2c3d8c9ee84317c3a2b7d1058eb4e29685969dc6c77480bcb485a023145e"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/03_Platform_and_tracks.png",
+      "bytes": 1370161,
+      "sha256": "e858994147bfd1d63195fff90a43bd072c3bbc8003b19bec426202708a356303"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/04_Reconstructed_interior.json",
+      "bytes": 3008,
+      "sha256": "5eb6106fa8254fab69850bd9701e7ee22d381ff3c1ddc75516232377682efce8"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/04_Reconstructed_interior.png",
+      "bytes": 1361648,
+      "sha256": "d3517b92f96880e6b88102cb7c2890c0e1d3458135811f2af11a50a44219ef88"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/05_Mapped_turnout_detail.json",
+      "bytes": 2618,
+      "sha256": "3215eeaddb1b1e3f2951ddf5d0e8de3f238cbb5585eb0ffbac7e7f34f995fab9"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/05_Mapped_turnout_detail.png",
+      "bytes": 1540174,
+      "sha256": "2a2c59eb8554df1d30ce50f0720f86c8bbe655c0fc50c5a16c7f75ca53a2e747"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/textures/board.png",
+      "bytes": 42989,
+      "sha256": "3ac8e8a68e9572ac89e7f72a0c426585938559a32430313e5a3160de3cf1597f"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/textures/fascia.png",
+      "bytes": 31683,
+      "sha256": "c14d1590877c4cc9fdb63ec7d73c68c007aee9e95fbf5f03b14ad34e9059b561"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/textures/notice.png",
+      "bytes": 36786,
+      "sha256": "7adb5f084937e2e28615a92cedc55afd6df3141321fcbdf38a5d12127f9acbab"
+    }
+  ],
+  "accepted_preview_files": [
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/01_Overall_station.png",
+      "bytes": 1496624,
+      "sha256": "02d2ba92e06a7aab19abd4c360c53f4ab6360d85f339f1a53d5dda35db41a795"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/02_Entrance_architecture.png",
+      "bytes": 1425878,
+      "sha256": "65701970f6a173bce2f962e63b9990992d60e57580fde3820f6a5fa439a19155"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/03_Platform_and_tracks.png",
+      "bytes": 1370161,
+      "sha256": "e858994147bfd1d63195fff90a43bd072c3bbc8003b19bec426202708a356303"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/04_Reconstructed_interior.png",
+      "bytes": 1361648,
+      "sha256": "d3517b92f96880e6b88102cb7c2890c0e1d3458135811f2af11a50a44219ef88"
+    },
+    {
+      "path": "coastal_stations_overnight/north/SRTL/renders/05_Mapped_turnout_detail.png",
+      "bytes": 1540174,
+      "sha256": "2a2c59eb8554df1d30ce50f0720f86c8bbe655c0fc50c5a16c7f75ca53a2e747"
+    }
+  ],
+  "checks": {
+    "manifest": "All 36 frozen file hashes and byte counts independently verified.",
+    "visual": "All 5 native gallery images have independent source/pixel review; source/reconstruction distinctions are preserved.",
+    "resources": "Exact packed scene inventory confirms metric units, finite geometry/bounds, packed resources and no rolling-stock name candidates.",
+    "portable": "Independent GLB binary finite-value, accessor/index/buffer-bounds and embedded-dependency checks pass; exact source-to-export provenance verifies.",
+    "layout": "Reported faces:3; physical bodies:2. All actual adopted platform polygons valid and clear of rail envelopes; enclosed building footprint has no platform overlap. Source footprints and inferred choices are retained.",
+    "circulation": "33 independent low/waist/head public and ramp paths clear; 11 actual floor probes support ramps and entrance/platform thresholds. Both physical bodies have supported8.700m tread/deck transitions."
+  },
+  "evidence_reports": [
+    "SRTL_frozen_scene_resources.json",
+    "SRTL_export_geometry_inspection.json",
+    "SRTL_final_inputs.json",
+    "SRTL_final_layout.json",
+    "SRTL_final_portable.json",
+    "export_ray_validation_controls.json",
+    "../visual_batches/SRTL_3a507828_final_visual_review.json"
+  ],
+  "limitations": [
+    "Visual reconstruction, not a surveyed current operating inventory or engineering certification.",
+    "Hidden interiors, approximate dimensions and station services remain disclosed reconstructions.",
+    "Targeted exported-triangle checks are not exhaustive pairwise collision certification.",
+    "Portable materials include base-colour fallbacks for procedural Blender effects."
+  ],
+  "release_status": "Ready for reviewed publication."
+}

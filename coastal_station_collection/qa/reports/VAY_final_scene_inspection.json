@@ -1,0 +1,589 @@
+{
+  "path": "/workspace/scratch/652ca471b64e/coastal_stations_overnight/north/VAY/VAY_coastal_station_v01.blend",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "objects": 74,
+  "object_types": {
+    "MESH": 59,
+    "CURVE": 6,
+    "FONT": 2,
+    "CAMERA": 4,
+    "LIGHT": 3
+  },
+  "unique_meshes": 59,
+  "unique_vertices": 309978,
+  "nonfinite_meshes": [],
+  "nonfinite_bounds": [],
+  "scene_bounds": [
+    [
+      -280.0,
+      -1200.0,
+      -0.4000000059604645
+    ],
+    [
+      280.0,
+      1200.0,
+      15.403429985046387
+    ]
+  ],
+  "resources": [
+    {
+      "kind": "image",
+      "name": "board.png",
+      "source": "FILE",
+      "path": "//textures/board.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "fascia.png",
+      "source": "FILE",
+      "path": "//textures/fascia.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "image",
+      "name": "notice.png",
+      "source": "FILE",
+      "path": "//textures/notice.png",
+      "packed": true,
+      "generated": false
+    },
+    {
+      "kind": "font",
+      "name": "Bfont Regular",
+      "path": "<builtin>",
+      "packed": false,
+      "builtin": true
+    }
+  ],
+  "unpacked_external_resources": [],
+  "stock_name_candidates": [],
+  "render_threads": 4,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "scene_custom_properties": {
+    "cycles": "<bpy id prop: owner=\"SCScene\", name=\"cycles\", address=0x7ffb2bbdc1a0>",
+    "station_code": "VAY",
+    "station_name": "Vayalar",
+    "status": "Listed current by SR2025; no subsequent closure found",
+    "evidence": "See references/plan.json, SOURCES_AND_UNCERTAINTIES.md",
+    "interiors": "Reconstructed, not measured",
+    "no_trains": "True",
+    "nominal_gauge_m": "1.676"
+  },
+  "cameras": [
+    "01_Overall_station",
+    "02_Entrance_architecture",
+    "03_Platform_and_tracks",
+    "04_Reconstructed_interior"
+  ],
+  "circulation_rays": {
+    "portico_bypass_approach_lower_-0.3_height0.3": {
+      "from": [
+        3.4778432846069336,
+        -3.299840211868286,
+        1.7999999523162842
+      ],
+      "to": [
+        0.17784319818019867,
+        -3.299840211868286,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_-0.3_height0.8": {
+      "from": [
+        3.4778432846069336,
+        -3.299840211868286,
+        2.299999952316284
+      ],
+      "to": [
+        0.17784319818019867,
+        -3.299840211868286,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_-0.3_height1.7": {
+      "from": [
+        3.4778432846069336,
+        -3.299840211868286,
+        3.200000047683716
+      ],
+      "to": [
+        0.17784319818019867,
+        -3.299840211868286,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0_height0.3": {
+      "from": [
+        3.4778432846069336,
+        -2.999840259552002,
+        1.7999999523162842
+      ],
+      "to": [
+        0.17784319818019867,
+        -2.999840259552002,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0_height0.8": {
+      "from": [
+        3.4778432846069336,
+        -2.999840259552002,
+        2.299999952316284
+      ],
+      "to": [
+        0.17784319818019867,
+        -2.999840259552002,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0_height1.7": {
+      "from": [
+        3.4778432846069336,
+        -2.999840259552002,
+        3.200000047683716
+      ],
+      "to": [
+        0.17784319818019867,
+        -2.999840259552002,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0.3_height0.3": {
+      "from": [
+        3.4778432846069336,
+        -2.6998403072357178,
+        1.7999999523162842
+      ],
+      "to": [
+        0.17784319818019867,
+        -2.6998403072357178,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0.3_height0.8": {
+      "from": [
+        3.4778432846069336,
+        -2.6998403072357178,
+        2.299999952316284
+      ],
+      "to": [
+        0.17784319818019867,
+        -2.6998403072357178,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_approach_lower_0.3_height1.7": {
+      "from": [
+        3.4778432846069336,
+        -2.6998403072357178,
+        3.200000047683716
+      ],
+      "to": [
+        0.17784319818019867,
+        -2.6998403072357178,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_bend_lower_height0.3": {
+      "from": [
+        0.17784319818019867,
+        -2.999840259552002,
+        1.7999999523162842
+      ],
+      "to": [
+        0.17784319818019867,
+        -3.999840259552002,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_bend_lower_height0.8": {
+      "from": [
+        0.17784319818019867,
+        -2.999840259552002,
+        2.299999952316284
+      ],
+      "to": [
+        0.17784319818019867,
+        -3.999840259552002,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "portico_bypass_bend_lower_height1.7": {
+      "from": [
+        0.17784319818019867,
+        -2.999840259552002,
+        3.200000047683716
+      ],
+      "to": [
+        0.17784319818019867,
+        -3.999840259552002,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_hall_platform_lower_height0.3": {
+      "from": [
+        0.17784319818019867,
+        -3.999840259552002,
+        1.7999999523162842
+      ],
+      "to": [
+        -13.216790199279785,
+        -3.999840259552002,
+        1.7999999523162842
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_hall_platform_lower_height0.8": {
+      "from": [
+        0.17784319818019867,
+        -3.999840259552002,
+        2.299999952316284
+      ],
+      "to": [
+        -13.216790199279785,
+        -3.999840259552002,
+        2.299999952316284
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "entry_hall_platform_lower_height1.7": {
+      "from": [
+        0.17784319818019867,
+        -3.999840259552002,
+        3.200000047683716
+      ],
+      "to": [
+        -13.216790199279785,
+        -3.999840259552002,
+        3.200000047683716
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.3": {
+      "from": [
+        -0.3221568167209625,
+        21.231918334960938,
+        0.30000001192092896
+      ],
+      "to": [
+        -0.3221568167209625,
+        3.831918239593506,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.3": {
+      "from": [
+        -0.3221568167209625,
+        3.831918239593506,
+        1.75
+      ],
+      "to": [
+        -0.3221568167209625,
+        -3.999840259552002,
+        1.75
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_0.8": {
+      "from": [
+        -0.3221568167209625,
+        21.231918334960938,
+        0.800000011920929
+      ],
+      "to": [
+        -0.3221568167209625,
+        3.831918239593506,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_0.8": {
+      "from": [
+        -0.3221568167209625,
+        3.831918239593506,
+        2.25
+      ],
+      "to": [
+        -0.3221568167209625,
+        -3.999840259552002,
+        2.25
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_1.7": {
+      "from": [
+        -0.3221568167209625,
+        21.231918334960938,
+        1.7000000476837158
+      ],
+      "to": [
+        -0.3221568167209625,
+        3.831918239593506,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "ramp_landing_1.7": {
+      "from": [
+        -0.3221568167209625,
+        3.831918239593506,
+        3.1500000953674316
+      ],
+      "to": [
+        -0.3221568167209625,
+        -3.999840259552002,
+        3.1500000953674316
+      ],
+      "clear": true,
+      "hit": null,
+      "hit_location": null,
+      "hit_normal": null
+    },
+    "floor_ramp_7.831758488056007": {
+      "from": [
+        -0.3221568167209625,
+        3.831918239593506,
+        1.7000000476837158
+      ],
+      "to": [
+        -0.3221568167209625,
+        3.831918239593506,
+        0.949999988079071
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -0.3221568167209625,
+        3.831918239593506,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549753665924,
+        0.9965457916259766
+      ]
+    },
+    "floor_ramp_16.531758488056006": {
+      "from": [
+        -0.3221568167209625,
+        12.5319185256958,
+        0.9750000238418579
+      ],
+      "to": [
+        -0.3221568167209625,
+        12.5319185256958,
+        0.22499999403953552
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -0.3221568167209625,
+        12.5319185256958,
+        0.7249999642372131
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549753665924,
+        0.9965457916259766
+      ]
+    },
+    "floor_ramp_25.231758488056006": {
+      "from": [
+        -0.3221568167209625,
+        21.231918334960938,
+        0.25
+      ],
+      "to": [
+        -0.3221568167209625,
+        21.231918334960938,
+        -0.5
+      ],
+      "clear": false,
+      "hit": "Accessible approach ramp",
+      "hit_location": [
+        -0.3221568167209625,
+        21.231918334960938,
+        0.0
+      ],
+      "hit_normal": [
+        0.0,
+        0.08304549753665924,
+        0.9965457916259766
+      ]
+    },
+    "floor_threshold_-1.4221568026033555": {
+      "from": [
+        -1.422156810760498,
+        -3.999840259552002,
+        1.7000000476837158
+      ],
+      "to": [
+        -1.422156810760498,
+        -3.999840259552002,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Vayalar photographed architecture / stone",
+      "hit_location": [
+        -1.422156810760498,
+        -3.999840259552002,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-1.6221568026033548": {
+      "from": [
+        -1.6221568584442139,
+        -3.999840259552002,
+        1.7000000476837158
+      ],
+      "to": [
+        -1.6221568584442139,
+        -3.999840259552002,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Vayalar photographed architecture / stone",
+      "hit_location": [
+        -1.6221568584442139,
+        -3.999840259552002,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-11.116789819414532": {
+      "from": [
+        -11.116789817810059,
+        -3.999840259552002,
+        1.7000000476837158
+      ],
+      "to": [
+        -11.116789817810059,
+        -3.999840259552002,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Vayalar photographed architecture / stone",
+      "hit_location": [
+        -11.116789817810059,
+        -3.999840259552002,
+        1.5
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "floor_threshold_-11.31678981941453": {
+      "from": [
+        -11.316789627075195,
+        -3.999840259552002,
+        1.7000000476837158
+      ],
+      "to": [
+        -11.316789627075195,
+        -3.999840259552002,
+        0.800000011920929
+      ],
+      "clear": false,
+      "hit": "04 | Vayalar photographed architecture / stone",
+      "hit_location": [
+        -11.316789627075195,
+        -3.999840259552002,
+        1.4500000476837158
+      ],
+      "hit_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "blend_sha256": "5bcc99d830a01f14954ce02f4058703f08b9c4703fbc22d18594961f5ab3cbd8"
+}
