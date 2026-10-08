@@ -66,3 +66,11 @@ Actual1400×840 uniform512 completed in1344.1seconds and reviewed. Open non-AC a
 ## Current-source final SL exterior, 8 October 2026 01:34 UTC
 
 Actual1400×840 uniform512 exterior completed614.1seconds and inspected. Paired narrow barred windows and ventilated non-AC roof differentiate SL from the air-conditioned types; the livery, doors, running gear and underfloor equipment remain coherent without a newly visible silhouette defect. Ten final frames complete. 2S interior is active.
+
+## Current-source final 2S interior, 8 October 2026 01:57 UTC
+
+Actual1400×840 uniform512 completed1379.3seconds and inspected.3+3 upright chair rows, barred windows, longitudinal luggage racks and twin fan rows are legible and coherent. No newly visible collision or unsupported fixture in this camera. Eleven approved finals complete;2S exterior is running.
+
+## Current-source final 2S exterior, 8 October 2026 02:08 UTC
+
+Actual1400×840 uniform512 exterior completed620.0seconds and reviewed. Blue/grey second-sitting livery, barred window rhythm, non-AC roof vents, door hardware and underframe are visually coherent; no newly observed silhouette issue. Twelve core finals completed;GS pair is the remaining core type before7planned detail views.
