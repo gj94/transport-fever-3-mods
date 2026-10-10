@@ -1,0 +1,849 @@
+{
+  "format": 1,
+  "collection": "Kerala Trackside Collection",
+  "repository": "gj94/transport-fever-3-mods",
+  "target_branch": "main",
+  "publication_directory": "kerala_trackside_collection/",
+  "created_utc": "2026-10-10T04:06:30.094117+00:00",
+  "base_commit": "089dbecca1d6209cc8dd35a2b431f4ec4063a490",
+  "scope": {
+    "reusable_entries": 52,
+    "designs": 44,
+    "lod_alternatives": 8,
+    "native_libraries": 5,
+    "independent_archives": 24,
+    "archive_storage_files": 59,
+    "packed_example_scenes": 2,
+    "lighting_presets": 1
+  },
+  "storage_note": "The original approved ZIP bytes are preserved. Archives over 20 MiB use exact 16 MiB parts and a final shorter part because the authenticated blob API rejected the full large archive. The included Python downloader restores all ZIPs with SHA-256 verification.",
+  "manifest_note": "files covers every payload file except this manifest and SHA256SUMS.txt; SHA256SUMS.txt additionally covers this manifest.",
+  "files": [
+    {
+      "path": "kerala_trackside_collection/.gitattributes",
+      "bytes": 154,
+      "sha256": "437db8d2f41da5aa39c63b8153e215595f11c456f9bd2ce1cb4a59045ee93496",
+      "git_blob_sha": "99701e3bb154733c3c74991ccd53fea7b52e4fd9",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/ARCHIVES.json",
+      "bytes": 23678,
+      "sha256": "1699b8e62a921af3e402ffa06c1f3722eb8c14a7dc5b3fc49e79680707ee4b47",
+      "git_blob_sha": "df4607880ceb7787e8fac3383302d4a56e1380da",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/ARCHIVE_SHA256SUMS.txt",
+      "bytes": 2612,
+      "sha256": "21fc53bc3689923e489c6d4d6e40b901a4e6f681ddf5c1a2b524c3eea6a6524f",
+      "git_blob_sha": "d6478e8e2199a861ae491fe629473ab1dbd62472",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/ASSET_INDEX.json",
+      "bytes": 55484,
+      "sha256": "0448b07044178ffadc2df8f6249c215f0ad9fe6f724cef56b31894eff588fb57",
+      "git_blob_sha": "103359c682b5321b8a56b3810ae82c6b3147a66c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/CATALOG.md",
+      "bytes": 7949,
+      "sha256": "cb181fb2b47a805737c370fcfde8dce889eddd928d16692f0b68d03311fbb9db",
+      "git_blob_sha": "9a871729258ba27aa60dcc8ce654f1b257a6777e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/DOWNLOADS.md",
+      "bytes": 8263,
+      "sha256": "5c3a416a28717c67fbbb4982b8cb8eb755d02903d128d8c5a1b28a4b732fb254",
+      "git_blob_sha": "062e8bc65b42326b8eb2899f9caff1b00086d930",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/GALLERY.md",
+      "bytes": 9196,
+      "sha256": "777c102c95b6a1d54b19acb1e6186068c04f998f60692e47bcebfe29b532da1a",
+      "git_blob_sha": "f3ecba22958242374c9cd65fb6351db5596ab6ec",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/QA_SUMMARY.json",
+      "bytes": 1519,
+      "sha256": "80bae5b629078950ec03ad646dab3819f29aaef21e55e4b0a7161275cdd5d4b5",
+      "git_blob_sha": "46b720369ea71634afbfa546a4ffaf9b5f2def15",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/README.md",
+      "bytes": 5194,
+      "sha256": "322839ccb84de6445a9d59dec2793198e8f1fbddd557012989ed1e6b8ecf9ca2",
+      "git_blob_sha": "a09bb4273993224aa17537158cdb379d457a398d",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/catalog/Inventory.csv",
+      "bytes": 14386,
+      "sha256": "600e6c398f65e93d93f6e0ad1a659d3b8e0207959897928463f6c265657cead5",
+      "git_blob_sha": "9c2cba20025281dc32fe0bd0282b7efe4630782c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/catalog/Kerala_Trackside_Catalog.pdf",
+      "bytes": 4171425,
+      "sha256": "2d95fbc7084d9e56c5b6e85f3855f6942e8d6c909c641b745e32ae80a1485d65",
+      "git_blob_sha": "8d0fb7ee0ea34f188bbfc4b32479e8f2eb346f59",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/download_collection.py",
+      "bytes": 5418,
+      "sha256": "71137bc2a87466365f0adf213b5746f3bf0e46e6e3bba50d0dda4ccfa52618a6",
+      "git_blob_sha": "fdc640ba0b4f10dbb537bd113ee45b2b22a65da6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01A_Buildings_Blender.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "c733bec96b179c0c2625b8ff724aec81254636be06f13f549ce311d23110cbd9",
+      "git_blob_sha": "b977617f1bf388f126d9957eb6a2c840aaa3a51d",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01A_Buildings_Blender.zip.parts/part002.bin",
+      "bytes": 12255611,
+      "sha256": "e0f123935a986c0d71e38ebc231c7d1bc84a4d0f4d384e67adb02f6c979aea0a",
+      "git_blob_sha": "6952c0bace91d87a8b3686893f31892d5fffddac",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01B_Buildings_Source.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "d76d17dddb081d1c2928c4638ac3dddb331393f3914c4a9338c21f2658b0ca30",
+      "git_blob_sha": "801241048b74aa7609eb90fcbbc1b80379e31f3e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01B_Buildings_Source.zip.parts/part002.bin",
+      "bytes": 5737379,
+      "sha256": "189d34d1d2449341c097cf9f6822a788b88cd3ed31aa23b142c200844f822f3e",
+      "git_blob_sha": "1b0ab589a00f17f3ce7b4fea889ebb85d3ad2dc6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01C_Buildings_GLB_01.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "3a0aec51a75796457f0de50d9fd2df731208c8a6e0ca932997f97e78d499d021",
+      "git_blob_sha": "3289fb2c6657c5fb2c15b62cc0de20de4ef329b8",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01C_Buildings_GLB_01.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "5c42597948b9fb89caaf5d5e0fb524b7d1e66530179a6bce0c99767ef06820e3",
+      "git_blob_sha": "ab1d3c9afbd6de636caef1d7a9b9c1c4ea8f5b44",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01C_Buildings_GLB_01.zip.parts/part003.bin",
+      "bytes": 1998044,
+      "sha256": "3d038b00cf9a7d0f5d67fc0a5090da44d0ddd86259903a794d0cb072387147ec",
+      "git_blob_sha": "daf67ca6a79766b68a50290358d6e8c7afcaa7e0",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01D_Buildings_GLB_02.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "306e94784b2fad2f5da9a161f6d375a276dd13daae3ec04b2da78bd959640c6a",
+      "git_blob_sha": "f479e962493b9652cd00015f30c5875d8b355347",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01D_Buildings_GLB_02.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "8650fb0ed6a972bccfe843148ac6e9bd506061f42c0af6a96db2f1e7c9d9ebce",
+      "git_blob_sha": "6cde0c8d4c2d2557d2072fc0b0dcdb19c4028999",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01D_Buildings_GLB_02.zip.parts/part003.bin",
+      "bytes": 2786203,
+      "sha256": "00bd5734923e5d02aecda67a331f90ca50fd7f3b5c223e633edc53b095bc0688",
+      "git_blob_sha": "cfc928008551888e27029a089da03a4d1fe212d6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01E_Buildings_GLB_03.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "1e281d648ff56c8a09808f711a677881f67a5664da6eae6a0376023abd1865ab",
+      "git_blob_sha": "c7f3096afd20610c9e748999f7268565dbc55dff",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01E_Buildings_GLB_03.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "508d476a7bb1ac937c0ec666346db8819f3c80ec15e8aaa3c7de2cdc4403ad18",
+      "git_blob_sha": "c641a46854f348533dea15e17583545f7c400b19",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_01E_Buildings_GLB_03.zip.parts/part003.bin",
+      "bytes": 28310,
+      "sha256": "adf49fa5dd3fe2bf5f28425f4e9195b36102c87eea632c6970a064a34e0d2e28",
+      "git_blob_sha": "d27b4375c866b2eb3eaf25c95649259f750af43e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02A1_Landscape_Plants_Blender.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "dbec42691efaeb665bcd733d3c477ddec083591e1d3e7f6d7d520327a2fe696e",
+      "git_blob_sha": "a638247a413f428b0aabac444623d9d0991646fb",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02A1_Landscape_Plants_Blender.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "31a961b1061b0adbb87fbb355aa5a6b7e7a8fb5a987df9ac3728e4715bb8630c",
+      "git_blob_sha": "3558b84179ddfe42853a38130236c8a3e72f7a5f",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02A1_Landscape_Plants_Blender.zip.parts/part003.bin",
+      "bytes": 6209989,
+      "sha256": "d7af46a69f275c7820a55ae43800361e5548c20d0a90c33da48c1bfb8f156fa7",
+      "git_blob_sha": "8f1bbdc22f7f73b91a647e905ff59342cbb54bd1",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+      "bytes": 15317037,
+      "sha256": "79668d2f1469929aa3c23c69e08b5a08385ff4b1848bca9a7bfa372bd11ce6d0",
+      "git_blob_sha": "d7102e688a8baa2cb36edc37c7cdac962d5cd80a",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02B_Landscape_Source.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "ed3669b08c009051cf9f2f6456f6a945583139cb3d6715fd9a486a2d72b22343",
+      "git_blob_sha": "18a3245300dd56eb8dce291a62e5b9c17c35f41c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02B_Landscape_Source.zip.parts/part002.bin",
+      "bytes": 6396649,
+      "sha256": "14215eb448897b823ecb14776562942a5f4fb0168338e7cfcaad1085c5f71f6c",
+      "git_blob_sha": "3d282d9d9c0f7cbe27c221fb92c64417fa917746",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02C_Landscape_GLB_01.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "6c5436fdcbfcabad43a883b127e5177b7c16ccefb94fb36926370481ba0f0fbb",
+      "git_blob_sha": "20017f14601c9823f4d4139321062750fd5a285f",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02C_Landscape_GLB_01.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "ab25dd0d633bfe3288422f28d17152e9717691a7daf73e574e772571ab496b75",
+      "git_blob_sha": "6a0abff29bbcbf7b05c8092143984922f2bc7095",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02C_Landscape_GLB_01.zip.parts/part003.bin",
+      "bytes": 9299538,
+      "sha256": "8e87b744fe616225c0ffeb263f5014b8c816200d079ea5e12474fb8311104cf9",
+      "git_blob_sha": "0487d8699842f37d4974e8bea3edbed0580c672f",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02D_Landscape_GLB_02.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "f9491c271572fd9e586be0e323c7242232dc8b409264d1558d169df020863f3c",
+      "git_blob_sha": "849d2b01ab4a99b5afad51aa1a77fae08d031831",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02D_Landscape_GLB_02.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "6b440a6d749707b40e75017d0c0bfb8d401dc4e51a2c626be328244126cb1e15",
+      "git_blob_sha": "2df4346d7b4295c1c6518891aea0a783eb589a26",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02D_Landscape_GLB_02.zip.parts/part003.bin",
+      "bytes": 1111282,
+      "sha256": "c42c6de5aa47a0ef0e587b074c64c7e1ddd2c6ac871078c1909ca2ab038f9bc0",
+      "git_blob_sha": "50034a695cc03226c1076177806cb995a947cdbe",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02E_Landscape_GLB_03.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "97d703a3b308017601980d512c06c329f2bd44a6a3d77f3c53b13f2b040bb8dc",
+      "git_blob_sha": "d400a0fd3078be1448570ea1f6511b94585fabaa",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_02E_Landscape_GLB_03.zip.parts/part002.bin",
+      "bytes": 14925305,
+      "sha256": "4f5b4d0da9466158d7f872172cae6eb2a8f00abdc9ff767ec6b6cb291302f807",
+      "git_blob_sha": "36eb9e0db6275e9637017c816a39dde05bb1f420",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03A_Railside_Blender.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "23c52853063def61455ded0ef9004c96c68340ee6d7a7a35aebe6ab50868517f",
+      "git_blob_sha": "b9e5cf82677d2c3afb9ba982480c48ebf58bf91a",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03A_Railside_Blender.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "162d90d1148c94765d307093c38c3fa1c6c629108cf0c2cd3c3345a5ad25ac87",
+      "git_blob_sha": "ec1c954f477df497f5bece82124180368e304201",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03A_Railside_Blender.zip.parts/part003.bin",
+      "bytes": 757179,
+      "sha256": "0826dba33ea5ecc3c59f373a2fa7629081cb336a7e1bef3d0f0fabb6e9abb8bf",
+      "git_blob_sha": "48618ef32ebe7b99f5918ac855c6c428a589fd3a",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03B_Railside_GLB_01.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "22b077901831c79424c65fec77f9f375ee488425cb475b6526332c7541b87d72",
+      "git_blob_sha": "425aa50f5fdf9574c84599419f67a604cd0ab84b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03B_Railside_GLB_01.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "344a1228ac3d53e0fe33f8ad1ea9b389217b06eb8769c48d73c1d5ca490110fe",
+      "git_blob_sha": "fdcb5c9648d8101cfb3380e93b80cc00f14c50d9",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03B_Railside_GLB_01.zip.parts/part003.bin",
+      "bytes": 10442275,
+      "sha256": "b50fc2b22f457b5e64e871ffbc55028aca6f7ea7ee25701e9f72656f1d5f1049",
+      "git_blob_sha": "01fa90070379690c29dd0eaba15f775f984c7f42",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03C_Railside_GLB_02.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "a04f86174b97e9eb09e883916419792aac746ad32f49b59d6a6ffcff74eb2d5e",
+      "git_blob_sha": "12148517b8d32bebb43a0abb9a5ead14f954c604",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03C_Railside_GLB_02.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "54913839b465fc664bb469ca45d94cd669ea01ef17fe592155883122e3f5c1e5",
+      "git_blob_sha": "3b5a7481be899a5de07f433bdde50dc931f6bc06",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03C_Railside_GLB_02.zip.parts/part003.bin",
+      "bytes": 8826654,
+      "sha256": "e1bb06572020f329b51b00d0c59f35cfceba1df7cbe6c33fe3ef423fafa592eb",
+      "git_blob_sha": "1a0006a8ee555321c365e790482975a914a014a1",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03D_Railside_GLB_03.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "e218c62d671612a731d1115beef4586de3b1ddfab3bc7e23c8ac3f551c4f2f44",
+      "git_blob_sha": "a877bc97d34ea7b4916bb624e5ae423e7786a12f",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03D_Railside_GLB_03.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "1a8a69a8b7ca3f9c81d4e51ef56c3059b5707121e51cb5d1a00847dbc72d5577",
+      "git_blob_sha": "693107aa9af589783afeee94c497708d0acea61c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03D_Railside_GLB_03.zip.parts/part003.bin",
+      "bytes": 6867031,
+      "sha256": "d192dbf72d66c3bd9c654c32786bfac0954d740cc260b3e347b3782c8244c051",
+      "git_blob_sha": "46b8e500e672388209a21d268df45c77cda07d18",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03E_Railside_Source.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "e050dc15859e1dcea2e9f957a1ad04cfee08ebfc447c57c990ee56f73836493e",
+      "git_blob_sha": "8277a0b319efae6f09059ea6eef2d4dd852d226a",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_03E_Railside_Source.zip.parts/part002.bin",
+      "bytes": 14257534,
+      "sha256": "0c42d72d5636497363da7fe31b19c8bed982e17940d4285653c787e34628032f",
+      "git_blob_sha": "39fec5d186bc49c2491db42ef591c4e36fe4b7cc",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04A_Showcase_Blender.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "7e2dda3a23d5d72bf9882f8d72e3236da0315fb12db097e9e5b0827ab01fbf06",
+      "git_blob_sha": "9220f8b9451a99a2b21fc2fea0f93f4052c1fa37",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04A_Showcase_Blender.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "8bd99901e6de446870639dad571703decc9016555c0ba4218904f70dac312051",
+      "git_blob_sha": "1cad8e956e0d102c76b1fb285dfe75ce41e0ee3f",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04A_Showcase_Blender.zip.parts/part003.bin",
+      "bytes": 11472620,
+      "sha256": "56943106fa568944729f6e2cc20e13e64deee760797bd08155c53e93a2e31643",
+      "git_blob_sha": "6327cd41591bd5fb6d8a66960495220a65ffdc95",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04B_Showcase_Gallery.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "1da49aa655417b7db03e67bdd33b2e58183f22f0bb1441183cfa551071ccbadc",
+      "git_blob_sha": "76e4278e6db8abd5ce643c9b3d1826b5696905db",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04B_Showcase_Gallery.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "c53a4abe7a3cb36d451d9de6c5502e2acb2a8dc999805e4569e546edd2b2d30c",
+      "git_blob_sha": "70b5109489f7e28797617bd19fc280e14200a18e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04B_Showcase_Gallery.zip.parts/part003.bin",
+      "bytes": 9961564,
+      "sha256": "8850f384d9f3d33e1dd2048a179144f465fa84213b04d20998042b7abf08001b",
+      "git_blob_sha": "fa78f85ea7423a958b62cf6f1d96918606958126",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04C_Detail_Gallery.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "836ca67444aaa6ce8ea9e99a00acd5fa7a7b62ad7086c678b7574700908308fc",
+      "git_blob_sha": "cae00ad99804958377e943ca647c809f624451f6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04C_Detail_Gallery.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "bc4f82b2ec825bc2cb9171dc295f17112b11047140c6de11beac6b561d8ee62d",
+      "git_blob_sha": "d5b56fb3f6c8c97865a2ed124c063d0338fd9dc7",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_04C_Detail_Gallery.zip.parts/part003.bin",
+      "bytes": 9235336,
+      "sha256": "2e7bf79c32cb327135a189ea8a493f88dbe7d4dae69c501f1922673506d1501f",
+      "git_blob_sha": "d19734b868ed25db891d79aa94961f0fb4afae8b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_05A_Utilities_Blender.zip",
+      "bytes": 13543929,
+      "sha256": "2edcbb466ddd930f94920b41061adf481ee6522497e9c22eb9a0488f065fe17e",
+      "git_blob_sha": "e3faaa3589349c4f0ffa9905f7819c4e0d6f678c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_05B_Utilities_Source.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "35a0cf2d1c534b521ce2f514d39c44085e7512fb8fbbf36218b51c8756cb61d4",
+      "git_blob_sha": "f4afe1f2cfc2eebd0782bcd6f9b14bac034f9223",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_05B_Utilities_Source.zip.parts/part002.bin",
+      "bytes": 14248092,
+      "sha256": "d4d526189dc2a9301aca1cc0ad320178408981941b998bc1782e68acbcdbc9c3",
+      "git_blob_sha": "061511536be34585534c208903b44f14159ce265",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_05C_Utilities_GLB_01.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "380da3ca0aa243f107625d25574a1a796031b2da7610cb98f09697b6a465dbf2",
+      "git_blob_sha": "20b0e3e6dc50dbe2198bda860c4a67ae8c8d65b7",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_05C_Utilities_GLB_01.zip.parts/part002.bin",
+      "bytes": 9224085,
+      "sha256": "49464485e1d0508f2041dbfd7ce155ec10a3493cfca6c2322026e8eba076bba9",
+      "git_blob_sha": "c0b499f6524a1e17817c332cfcbb32b172a954b7",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_06_Road_Crossing_Example.zip.parts/part001.bin",
+      "bytes": 16777216,
+      "sha256": "3032eb0d51ace2fe1ad8684b197475c6a8cbc668bcbb7818a9155dc814dec2fa",
+      "git_blob_sha": "0e6e8ce103e357e14027dde3e7c0f1ce27297b57",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_06_Road_Crossing_Example.zip.parts/part002.bin",
+      "bytes": 16777216,
+      "sha256": "cf05826b64d5e454eb39b8febdc25c30882bdca404a7d73648bfe2761ed40a24",
+      "git_blob_sha": "9d23968674f96c583df46e314d8698c69a0e1c9c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_06_Road_Crossing_Example.zip.parts/part003.bin",
+      "bytes": 13583510,
+      "sha256": "05ce765377a14f970479d4cc8f3d5d7c5cf91631621439415ebf8b9c4d49e72e",
+      "git_blob_sha": "a98c6853286f77997eb63f386ec8b6c5fb09f7a1",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/downloads/Kerala_Trackside_07_Dusk_Lighting_Preset.zip",
+      "bytes": 4171879,
+      "sha256": "6b10444cad04c991d6f233ddcbeee4395383c73597b8fc33a1185ec63a86a131",
+      "git_blob_sha": "f592f7a12b44287e3fa0c6ebadef69cc19d3c10d",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/Kerala_Trackside_Crossing_Closed.png",
+      "bytes": 2704075,
+      "sha256": "9baaf98168ea2b629497fe91dd984c5aefbf34e790a9c2c486c24bf95e71a6af",
+      "git_blob_sha": "0f91b267f77c53fea7a87c0839bdaed2366ad876",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/Kerala_Trackside_Showcase_Dusk.png",
+      "bytes": 4160543,
+      "sha256": "22447c5aa255bc3220017b0af3bde53cbd94f88e5b82fa28608faf6953f562d3",
+      "git_blob_sha": "0c9402f28a76018e4e054f359a2f309ec319437e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/Kerala_Trackside_Showcase_Hero.png",
+      "bytes": 8028741,
+      "sha256": "b1ec438d1fb47ec3bcc884b976e55689ffe4f905321b8760065b919741df866c",
+      "git_blob_sha": "014e5bd6975abb031de770f740a0826a785fd603",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_CoirYard_Shed_01.jpg",
+      "bytes": 95903,
+      "sha256": "ecb88881080cefb66fb6db4f8b681e53a9a6263c4802967e395f3a0faaf2e4ad",
+      "git_blob_sha": "a1abb23d8b548bda2cbc9408911e219bd3504ab3",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Cottage_Hipped_01.jpg",
+      "bytes": 106954,
+      "sha256": "655645fc10259fd11bb4f93c3d1863330bde745ec53da8a2c05550d0f424e6c9",
+      "git_blob_sha": "cf914fc083106f86094f704e81afda0a13ad85c4",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Gate_Double_01.jpg",
+      "bytes": 52216,
+      "sha256": "cf2e975bd2a2fdcdef36d67b4774535335ad0358c21a43e60716b227fde12aa2",
+      "git_blob_sha": "e0c0bb9121e9e958135ebbd73242eec699a2bac3",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Gateway_Tiled_01.jpg",
+      "bytes": 92740,
+      "sha256": "0c26e2dab1fce7948b0d82f4b502c2af9bc3e439d3d99da842ef36dcce5fa59f",
+      "git_blob_sha": "51e1cc3aad091bd57fa80653f7c4158aac25184e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Home_Concrete_01.jpg",
+      "bytes": 99101,
+      "sha256": "d13acf6d0599fa9e90064c805cfd9241dac9879a537423c5b176cb5d4f26bbf0",
+      "git_blob_sha": "1ea1ecbc2f02a697fc9404093bbdef6a49feba6c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Home_Verandah_01.jpg",
+      "bytes": 119198,
+      "sha256": "7706beb4de2de1d139ead84e27f2acf1aeab95f8092c2eb0fcaf122bcc0c6e43",
+      "git_blob_sha": "cd1fdd34c9bb79070860fde7d730d0a0c7f2694b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_TeaShop_Open_01.jpg",
+      "bytes": 103198,
+      "sha256": "044e92d6e17e2eae69afee554db60135caf349fe2edcaece50fc598154ff4b63",
+      "git_blob_sha": "0b12b7061436feea76dd2dff3bca81ee84f38600",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Wall_Laterite_3m_01.jpg",
+      "bytes": 62465,
+      "sha256": "db4f050ab0531444b7263bcd7e180b0e9a8f3264856ae1587d61e546ec878e5a",
+      "git_blob_sha": "54036b6ee7ce2dfca6a63d227109c0d3ccb4d639",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Well_Roofed_01.jpg",
+      "bytes": 87212,
+      "sha256": "03484600ba68893e9a3977ba13963e8ec0c8236a9a741a95b4d45fff4059f158",
+      "git_blob_sha": "525eb0cfe29d86e6ff397dd3ca7dc0f23b434ca6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/BLD_Workshop_Corrugated_01.jpg",
+      "bytes": 103393,
+      "sha256": "b86cbde3a98924166c157a2841b51b43ad4e847e53b507902e97e943110aad77",
+      "git_blob_sha": "624ec2beaa5489b41fab812a086e78df6e08a1c6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Backwater_Bank_8m.jpg",
+      "bytes": 46375,
+      "sha256": "f3db405e1e164d6e5886bdfa037441e6990ddb0ebe6d0f2c0480860228c0d95c",
+      "git_blob_sha": "339871bbc358713e2264c87455dbe061f0ae1037",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Banana_Clump.jpg",
+      "bytes": 65164,
+      "sha256": "2b51cebc3fbce7c3f6b3b93b8b8e185b8b013098e3ce5aae8fbbc888982d5fbc",
+      "git_blob_sha": "955c1809817b1088c18cfa5ebabbd644b1eab30b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Coconut_Juvenile_C.jpg",
+      "bytes": 125631,
+      "sha256": "3f54fe0eab95bd885d68fc3505dea1b1084205aaaaecf6ad9bf006012fdccffb",
+      "git_blob_sha": "21ffa07c09a93f0138c7dd5ba063bb8a0c677171",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Coconut_Leaning_B.jpg",
+      "bytes": 76478,
+      "sha256": "e98e61adab092f92a4a184e3ee26b66a4da2727c86c93e06c577097d933ae465",
+      "git_blob_sha": "ef28cadacd65f1346e381b6f565ca44eb4a07715",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Coconut_Tall_A.jpg",
+      "bytes": 58606,
+      "sha256": "9417b1c59c42463c67f39566e3f6cdb439bb9ee57a008aa7faa2cde18dc44b82",
+      "git_blob_sha": "7e3d85c15b4a7262b82b5ef4ef977557d8d2d234",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Coir_Coil_Husks.jpg",
+      "bytes": 38317,
+      "sha256": "1834dfca24d1dfd34176fbd6bb934526b0663f275e00d91259fda097c50b93fe",
+      "git_blob_sha": "bb3dea8de15a55973ed20196f1ed94da1833661d",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Colocasia_Clump.jpg",
+      "bytes": 49018,
+      "sha256": "e4817c1e2cdbb1cd90eba3d914168a3fccdee14f82a00420cd1ce0750af1643e",
+      "git_blob_sha": "0220f30b4eaef4e1b1854b5dc8532d35ca0c82f6",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Country_Canoe.jpg",
+      "bytes": 29152,
+      "sha256": "5cbf13c4139184ce7b1513110778a30c7e3562ae0c06bcff6abafd582c1c879f",
+      "git_blob_sha": "52205967b6c064cea6c47e72363f34cf5adc24eb",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Fern_Clump.jpg",
+      "bytes": 63500,
+      "sha256": "2dfcc03c69487faa71e4aa0e6a90481ad01b0c79f33c62c9c884f7fcaf982011",
+      "git_blob_sha": "4e73471c187a024aeb696da1ea33867c931e35fd",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Irrigation_Bund_8m.jpg",
+      "bytes": 44062,
+      "sha256": "05536b9444fe912472e1de1a973ef177b8d3fc7f3ed0826dce8d7653d34d341a",
+      "git_blob_sha": "7c9eb9947500ae4cb08dd7024584d8c001ff3d30",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Jackfruit_Tree.jpg",
+      "bytes": 107840,
+      "sha256": "f0992cb8a186afe11179b211058e97b857e71540ce057d23445a4f1dad9412d6",
+      "git_blob_sha": "483721096eeeab13e02a4a890779a9951fb1f5a2",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Paddy_Green_4m.jpg",
+      "bytes": 83906,
+      "sha256": "7eaefc0d9feb6b00a7f681faa60fc5e114d1d257d82bc315469b6eedbc2de2d9",
+      "git_blob_sha": "62cf0f836232d2b9f4863e4d536542b0b2dceb0b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Paddy_Ripe_4m.jpg",
+      "bytes": 89434,
+      "sha256": "b5bbb4d20a3190acff7ec9fe6e271a1fb304246105091d7b170786bd9af79cc0",
+      "git_blob_sha": "f661d3ae362b0c81e4692c7b7c7670aeac2671f2",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Pandanus_Clump.jpg",
+      "bytes": 74589,
+      "sha256": "9fe69046d62e79beaeb928144d56af2d167905e2d28fe59f653a05af1ec87a81",
+      "git_blob_sha": "c576178298c5be27ffe976a58ad8678ffe43cce8",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Rice_Tuft_Green.jpg",
+      "bytes": 29845,
+      "sha256": "7f59ef42ddf100d384d61e328263c735238cd8839922dd5899f2dca8f19c29b4",
+      "git_blob_sha": "1299e76931a9d93f9df18043a4917cccb633575c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Rice_Tuft_Ripe.jpg",
+      "bytes": 36086,
+      "sha256": "06eb7cf534f762847fbc794b66cb38bbff8ff47c76951bbe777282d80453b648",
+      "git_blob_sha": "86b580aa210e1500ff9ca1266c96384552cfed86",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KL_LS_Water_Hyacinth_Raft.jpg",
+      "bytes": 51122,
+      "sha256": "5dcf30215fe2b10192f029eebf55c8c208fcf03b7d594af51001f8a7f0f19011",
+      "git_blob_sha": "c87e2b8caaee22e2e7fddb020a049d3893af1d9b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R01.jpg",
+      "bytes": 50776,
+      "sha256": "3af0d3658d09b34be3120d93c8a51bf511b33151f185f1865c6740fde38db2ee",
+      "git_blob_sha": "f2e8c62aa493aef53e01f1fd15dc35d7b79417c0",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R02.jpg",
+      "bytes": 57548,
+      "sha256": "8e5968b9cb82ed0acbe3e57c15ba7a299404eca81abe12750429def5b90f33b9",
+      "git_blob_sha": "e47a83fca100f711a5f02640166d548a0dd8cda3",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R03.jpg",
+      "bytes": 33582,
+      "sha256": "00afaf152a2ff976a329ff4b426f1d7b51d8662e0265163847ce654afbb08dda",
+      "git_blob_sha": "a41fec5719653702505f82a68988d78cf4834f0a",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R04.jpg",
+      "bytes": 36137,
+      "sha256": "5854fd03e6702a11716e48964c4fe46c07db60698f59d772d60c968c8cc1949b",
+      "git_blob_sha": "7c0c31841fd1993441089ad5215d2a4d1e92256e",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R05.jpg",
+      "bytes": 40433,
+      "sha256": "fa3e21ec5cbfcba76a6b1016c6ea2cf73ac9f716d8516f4b490d8d1068ba74c0",
+      "git_blob_sha": "45499033cf389b1f4ea5cff19ee86d60d4d49050",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R06.jpg",
+      "bytes": 58063,
+      "sha256": "b60607e58b28facbf0a8db740582adaaf02a77836ab8b26e9cafe458f95ee341",
+      "git_blob_sha": "70422902c9146bc46efde7220ed01c3ce15dd11b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R07.jpg",
+      "bytes": 35333,
+      "sha256": "d02511ef1f595b14adb2656daed3e9adaced87794f476bb9c60358bc3fa31d0f",
+      "git_blob_sha": "13bcfb3c68e2b65e1339cbcaf0303b6e356aaeee",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R08.jpg",
+      "bytes": 40999,
+      "sha256": "572f1f3510642494752799ec4d90fdcc825575389336c23b3274e007b4a41916",
+      "git_blob_sha": "f66d763a531b57e162e0e3df7306fd21792980f3",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R09.jpg",
+      "bytes": 37022,
+      "sha256": "bb5dff2915028c9a5e02d9fc9130a32f1ffb0edf9ca2cd277b59888f5b1cf830",
+      "git_blob_sha": "1390ef6d1c6214a854a7337f9be1160f272a4611",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R10.jpg",
+      "bytes": 31572,
+      "sha256": "7cd6cee2e10990632f0a51f55628d3f4eceb3ae03d8546f83ac4108c8ba00308",
+      "git_blob_sha": "2343d2f440bc1a13f8ae9e0f67244684167fb327",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R11.jpg",
+      "bytes": 59453,
+      "sha256": "6a6db0de75bdab01aff41bd60737fccca891d66f369ddf6f2b588da4d7e9f7df",
+      "git_blob_sha": "d56f5253a4493e35dc83722ee940c5e908891e2b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R12.jpg",
+      "bytes": 48081,
+      "sha256": "eb837700d2ce181bb2e99bdd5ab20e6e29d5815ad10dc3e5f214a16d1825820d",
+      "git_blob_sha": "1d19cd1ab55808354bf6e574a3f25ac5175b680b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R13.jpg",
+      "bytes": 93027,
+      "sha256": "c10abe0977aaadc5b9be2631661e37063f2d8946c63e9ea13eee5a555fb80003",
+      "git_blob_sha": "5784b829c64a32002b6e0f78249f928c24361c3b",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_R14.jpg",
+      "bytes": 39566,
+      "sha256": "a8158b85a52e6d21f144b1935589ad4c81247dc57758bb96a38307a824253ee9",
+      "git_blob_sha": "2cd4d5494e9f163ee09fd26a51762d309c0feb5c",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_U01.jpg",
+      "bytes": 15882,
+      "sha256": "95e92956d624d042e05c75b60e46ecc4e3e3344351433e9c70a8f0ff9abb8e6c",
+      "git_blob_sha": "76ced3f59dbc1c11d8555545e99af79be3f95acd",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_U02.jpg",
+      "bytes": 31031,
+      "sha256": "1fe64ca5451bcb50007a26b5487075584b7c1dac2dbdb16df7126cc5a3f46b45",
+      "git_blob_sha": "f947b3afa1afc7caad7eeecf8d103e0b52af97f8",
+      "mode": "100644"
+    },
+    {
+      "path": "kerala_trackside_collection/previews/assets/KR_U03.jpg",
+      "bytes": 16140,
+      "sha256": "a19b7dbec344fd222ec54b4ff08c1cc57c00d05e6975084bdcc53b5394cb5e58",
+      "git_blob_sha": "854bbc2c0f98b63a0b91629eaaca60b3ffe03451",
+      "mode": "100644"
+    }
+  ]
+}

@@ -1,0 +1,1337 @@
+{
+  "counts": {
+    "reusable_entries": 52,
+    "distinct_designs": 44,
+    "landscape_entries": 25,
+    "architecture_entries": 10,
+    "railside_entries": 14,
+    "utility_entries": 3,
+    "native_libraries": 5,
+    "delivery_archives": 24,
+    "catalog_pages": 11,
+    "packed_scene_count": 2,
+    "final_scene_view_count": 6,
+    "lighting_presets": 1
+  },
+  "categories": [
+    {
+      "id": "buildings",
+      "title": "01 Architecture",
+      "description": "Homes, a tea shop, a workshop and compound details."
+    },
+    {
+      "id": "landscape_plants",
+      "title": "02 Palms and homestead plants",
+      "description": "Palms and jackfruit include three mesh-detail levels per design."
+    },
+    {
+      "id": "landscape_water",
+      "title": "02 Fields and backwaters",
+      "description": "Paddy, cultivated plants, canal banks, coir and a country canoe."
+    },
+    {
+      "id": "railside",
+      "title": "03 Lineside details",
+      "description": "Reusable railway scenery with fictional route markings."
+    },
+    {
+      "id": "utilities",
+      "title": "05 Route-side utilities",
+      "description": "Everyday utility and roadside structures for the wider settlement."
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "BLD_Home_Verandah_01",
+      "title": "Limewashed tiled-roof verandah home",
+      "category": "buildings",
+      "collection": "BLD_Home_Verandah_01",
+      "dimensions_m": [
+        8.1272,
+        7.36,
+        4.57
+      ],
+      "triangles": 34108,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01C_Buildings_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_01C_Buildings_GLB_01/models/BLD_Home_Verandah_01.glb",
+        "sha256": "9c968f90cab1ebe023385c30edb748dd434a9f797f2af530dcd4117ff5ad28f5"
+      },
+      "preview": "previews/assets/BLD_Home_Verandah_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Cottage_Hipped_01",
+      "title": "Aqua cottage with hipped clay roof",
+      "category": "buildings",
+      "collection": "BLD_Cottage_Hipped_01",
+      "dimensions_m": [
+        7.3075,
+        6.3975,
+        4.405
+      ],
+      "triangles": 13986,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01D_Buildings_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_01D_Buildings_GLB_02/models/BLD_Cottage_Hipped_01.glb",
+        "sha256": "52dccd32d110f6cb2b6ee1948d580469ae8c3372f7c69ac210ebe4cf31ed6b15"
+      },
+      "preview": "previews/assets/BLD_Cottage_Hipped_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Home_Concrete_01",
+      "title": "Faded pastel concrete-roof coastal home",
+      "category": "buildings",
+      "collection": "BLD_Home_Concrete_01",
+      "dimensions_m": [
+        7.4926,
+        7.6423,
+        5.01
+      ],
+      "triangles": 8404,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01C_Buildings_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_01C_Buildings_GLB_01/models/BLD_Home_Concrete_01.glb",
+        "sha256": "0cdd36041ff88c448e77bb277c099d0c65ea83a7847078d811e9dd0a6bacb727"
+      },
+      "preview": "previews/assets/BLD_Home_Concrete_01.jpg"
+    },
+    {
+      "asset_id": "BLD_TeaShop_Open_01",
+      "title": "Canal Side chayakkada with furnished service bay",
+      "category": "buildings",
+      "collection": "BLD_TeaShop_Open_01",
+      "dimensions_m": [
+        6.2597,
+        5.4928,
+        3.8701
+      ],
+      "triangles": 38528,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01D_Buildings_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_01D_Buildings_GLB_02/models/BLD_TeaShop_Open_01.glb",
+        "sha256": "20cb9c3b3561d06cc6ab84a0a3f5e3c17a853b16fb27b92348e8c1e44034f166"
+      },
+      "preview": "previews/assets/BLD_TeaShop_Open_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Workshop_Corrugated_01",
+      "title": "Coastal cycle and pump repair workshop",
+      "category": "buildings",
+      "collection": "BLD_Workshop_Corrugated_01",
+      "dimensions_m": [
+        6.29,
+        6.662,
+        3.4606
+      ],
+      "triangles": 11818,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01E_Buildings_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_01E_Buildings_GLB_03/models/BLD_Workshop_Corrugated_01.glb",
+        "sha256": "2356362f85ea720dfc090562876b961498a28a0d850bbd09b9743b0dab7369ba"
+      },
+      "preview": "previews/assets/BLD_Workshop_Corrugated_01.jpg"
+    },
+    {
+      "asset_id": "BLD_CoirYard_Shed_01",
+      "title": "Palm-leaf roof coir working-yard shed",
+      "category": "buildings",
+      "collection": "BLD_CoirYard_Shed_01",
+      "dimensions_m": [
+        5.72,
+        5.6667,
+        3.63
+      ],
+      "triangles": 34384,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01E_Buildings_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_01E_Buildings_GLB_03/models/BLD_CoirYard_Shed_01.glb",
+        "sha256": "6574f9e8d118090b4475b8e7626abfaf972cd9533a47fa14a64101fec666605d"
+      },
+      "preview": "previews/assets/BLD_CoirYard_Shed_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Well_Roofed_01",
+      "title": "Domestic roofed masonry well with pulley and bucket",
+      "category": "buildings",
+      "collection": "BLD_Well_Roofed_01",
+      "dimensions_m": [
+        3.02,
+        2.5783,
+        3.31
+      ],
+      "triangles": 7272,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01E_Buildings_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_01E_Buildings_GLB_03/models/BLD_Well_Roofed_01.glb",
+        "sha256": "30739891c4daae2d545c15f94048727b5be2e7e6cd5535019488cf9ecc064852"
+      },
+      "preview": "previews/assets/BLD_Well_Roofed_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Gateway_Tiled_01",
+      "title": "Compact tiled domestic gateway",
+      "category": "buildings",
+      "collection": "BLD_Gateway_Tiled_01",
+      "dimensions_m": [
+        4.38,
+        2.4513,
+        3.79
+      ],
+      "triangles": 7536,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01D_Buildings_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_01D_Buildings_GLB_02/models/BLD_Gateway_Tiled_01.glb",
+        "sha256": "fd51b32ea5053487f31f14e2053c322cc4984532e32b6183f775635539af149b"
+      },
+      "preview": "previews/assets/BLD_Gateway_Tiled_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Wall_Laterite_3m_01",
+      "title": "Three meter capped laterite compound wall",
+      "category": "buildings",
+      "collection": "BLD_Wall_Laterite_3m_01",
+      "dimensions_m": [
+        3.0,
+        0.44,
+        1.535
+      ],
+      "triangles": 3696,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01C_Buildings_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_01C_Buildings_GLB_01/models/BLD_Wall_Laterite_3m_01.glb",
+        "sha256": "99c886f65ab6fa8c2e7febf1da87e6dac77b18cced10083f40a10d86ac02bae6"
+      },
+      "preview": "previews/assets/BLD_Wall_Laterite_3m_01.jpg"
+    },
+    {
+      "asset_id": "BLD_Gate_Double_01",
+      "title": "Weathered twin-leaf metal compound gate",
+      "category": "buildings",
+      "collection": "BLD_Gate_Double_01",
+      "dimensions_m": [
+        4.02,
+        0.48,
+        1.9825
+      ],
+      "triangles": 2592,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_01A_Buildings_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_01A_Buildings_Blender/library/Kerala_Architecture_Asset_Library.blend",
+        "sha256": "57eb28d43a8d7f0d40fdaecd7fcda7c6872cb84183517c8b49c9f321d776ab0a"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_01C_Buildings_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_01C_Buildings_GLB_01/models/BLD_Gate_Double_01.glb",
+        "sha256": "32626248ccbdecd0b438a17a1a8bc423c881d7c2b3d3da82a54b46bdfe42f79d"
+      },
+      "preview": "previews/assets/BLD_Gate_Double_01.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Tall_A",
+      "title": "Tall coastal coconut palm",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Tall_A",
+      "dimensions_m": [
+        8.466,
+        9.041,
+        14.775
+      ],
+      "triangles": 101808,
+      "notes": "Mature coconut palm with subtly curved ring-scarred trunk, 28 modeled pinnate fronds, folded pinnae, young spears and coconut clusters.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Coconut_Tall_A.glb",
+        "sha256": "effee0ed264ad42e306b46f65e9fc3f5045e9abf4bdc3e5318a87913fd263e95"
+      },
+      "preview": "previews/assets/KL_LS_Coconut_Tall_A.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Tall_A_LOD1",
+      "title": "Tall coastal coconut palm LOD1",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Tall_A_LOD1",
+      "dimensions_m": [
+        8.466,
+        9.041,
+        14.775
+      ],
+      "triangles": 38701,
+      "notes": "Mature coconut palm with subtly curved ring-scarred trunk, 28 modeled pinnate fronds, folded pinnae, young spears and coconut clusters. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Coconut_Tall_A_LOD1.glb",
+        "sha256": "a0bfe96d12f0f49859a7dd3bf492e987ed3a71eaf1d27a41538d17f291c17515"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Tall_A_LOD2",
+      "title": "Tall coastal coconut palm LOD2",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Tall_A_LOD2",
+      "dimensions_m": [
+        8.466,
+        9.041,
+        14.775
+      ],
+      "triangles": 15096,
+      "notes": "Mature coconut palm with subtly curved ring-scarred trunk, 28 modeled pinnate fronds, folded pinnae, young spears and coconut clusters. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Coconut_Tall_A_LOD2.glb",
+        "sha256": "47a83884e7ae75bbd9ea0b2658730aff409de3ebc8e454f8ec647b9a83a806e0"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Leaning_B",
+      "title": "Leaning backwater coconut palm",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Leaning_B",
+      "dimensions_m": [
+        8.027,
+        8.225,
+        11.667
+      ],
+      "triangles": 96028,
+      "notes": "Leaning mature palm for canal margins. Independent silhouette and asymmetrical frond crown; approximate proportions.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Coconut_Leaning_B.glb",
+        "sha256": "c09e860b5a9378eb703f667d7179d65c1473e0c2ca1d1129950ed146e55ed099"
+      },
+      "preview": "previews/assets/KL_LS_Coconut_Leaning_B.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Leaning_B_LOD1",
+      "title": "Leaning backwater coconut palm LOD1",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Leaning_B_LOD1",
+      "dimensions_m": [
+        8.027,
+        8.225,
+        11.667
+      ],
+      "triangles": 36510,
+      "notes": "Leaning mature palm for canal margins. Independent silhouette and asymmetrical frond crown; approximate proportions. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Coconut_Leaning_B_LOD1.glb",
+        "sha256": "c805ab5b1173a48edef6f88bc10a4a8691850e446e98e3298dfa47ef758b447e"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Leaning_B_LOD2",
+      "title": "Leaning backwater coconut palm LOD2",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Leaning_B_LOD2",
+      "dimensions_m": [
+        8.027,
+        8.225,
+        11.667
+      ],
+      "triangles": 13980,
+      "notes": "Leaning mature palm for canal margins. Independent silhouette and asymmetrical frond crown; approximate proportions. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Coconut_Leaning_B_LOD2.glb",
+        "sha256": "297ffbd9e0320b62cd9cb44870c58e5872801d3bd34338a707fe9a6928e6a2ab"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Juvenile_C",
+      "title": "Young coconut palm",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Juvenile_C",
+      "dimensions_m": [
+        5.339,
+        5.33,
+        4.282
+      ],
+      "triangles": 64224,
+      "notes": "Compact young coconut with a low crown, spreading fronds and a short ringed trunk; art-directed age variation.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Coconut_Juvenile_C.glb",
+        "sha256": "e11fab92da77f0bcbf4050259f835e397b23ca43a52bd5f0bcc47dbcf4b3a0cd"
+      },
+      "preview": "previews/assets/KL_LS_Coconut_Juvenile_C.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Juvenile_C_LOD1",
+      "title": "Young coconut palm LOD1",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Juvenile_C_LOD1",
+      "dimensions_m": [
+        5.339,
+        5.33,
+        4.282
+      ],
+      "triangles": 24428,
+      "notes": "Compact young coconut with a low crown, spreading fronds and a short ringed trunk; art-directed age variation. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Coconut_Juvenile_C_LOD1.glb",
+        "sha256": "8c9aa63d738bb3f9b22441a8fb164fa13a6571888602226ba63fb10c64a43827"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Coconut_Juvenile_C_LOD2",
+      "title": "Young coconut palm LOD2",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Coconut_Juvenile_C_LOD2",
+      "dimensions_m": [
+        5.339,
+        5.33,
+        4.282
+      ],
+      "triangles": 9298,
+      "notes": "Compact young coconut with a low crown, spreading fronds and a short ringed trunk; art-directed age variation. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Coconut_Juvenile_C_LOD2.glb",
+        "sha256": "9c044ae38b69c15f49477e5d23c44e8c40a92d607dff3864fed7797051ee8788"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Jackfruit_Tree",
+      "title": "Homestead jackfruit tree",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Jackfruit_Tree",
+      "dimensions_m": [
+        9.365,
+        8.606,
+        8.412
+      ],
+      "triangles": 345084,
+      "notes": "Medium-sized homestead broadleaf tree with an irregular branching crown, thousands of individually curved elliptic leaves and warted fruits borne on the trunk and large branches. Original approximate Artocarpus heterophyllus form, for well-drained homestead land rather than flooded paddy.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Jackfruit_Tree.glb",
+        "sha256": "f2797215d0f5b73776b4f3830c7773ef63f057ed895e4f00443723b14ce1fe66"
+      },
+      "preview": "previews/assets/KL_LS_Jackfruit_Tree.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Jackfruit_Tree_LOD1",
+      "title": "Homestead jackfruit tree LOD1",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Jackfruit_Tree_LOD1",
+      "dimensions_m": [
+        9.364,
+        8.603,
+        8.419
+      ],
+      "triangles": 106388,
+      "notes": "Medium-sized homestead broadleaf tree with an irregular branching crown, thousands of individually curved elliptic leaves and warted fruits borne on the trunk and large branches. Original approximate Artocarpus heterophyllus form, for well-drained homestead land rather than flooded paddy. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Jackfruit_Tree_LOD1.glb",
+        "sha256": "96660b7fb2413df0c2d1c02aa23d8deb6bc035344364ab96e661ac2097ba3bbb"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Jackfruit_Tree_LOD2",
+      "title": "Homestead jackfruit tree LOD2",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Jackfruit_Tree_LOD2",
+      "dimensions_m": [
+        9.364,
+        8.603,
+        8.411
+      ],
+      "triangles": 63523,
+      "notes": "Medium-sized homestead broadleaf tree with an irregular branching crown, thousands of individually curved elliptic leaves and warted fruits borne on the trunk and large branches. Original approximate Artocarpus heterophyllus form, for well-drained homestead land rather than flooded paddy. Distance LOD using topology reduction; use original hero for close views.",
+      "catalog_visible": false,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Jackfruit_Tree_LOD2.glb",
+        "sha256": "3b8058e84b58e81c247ca49dda83d5be8bb4330332853fe02ebd9d1cec820fec"
+      }
+    },
+    {
+      "asset_id": "KL_LS_Banana_Clump",
+      "title": "Nendran-inspired banana clump",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Banana_Clump",
+      "dimensions_m": [
+        5.248,
+        4.896,
+        4.665
+      ],
+      "triangles": 55840,
+      "notes": "Mother plant and two suckers: overlapping pseudostem sheaths, broad veined and naturally split laminae, rolled spear, hanging unripe hands and purple flower heart. Nendran-inspired, not a cultivar-certified model.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Banana_Clump.glb",
+        "sha256": "87b5ea54a0706a58845e1d9a2c585a7839a709a5868cf558641b7bcd91be3d79"
+      },
+      "preview": "previews/assets/KL_LS_Banana_Clump.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Pandanus_Clump",
+      "title": "Pandanus-style coastal scrub",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Pandanus_Clump",
+      "dimensions_m": [
+        2.795,
+        2.755,
+        2.479
+      ],
+      "triangles": 10944,
+      "notes": "Three-headed coastal screw-pine form with spiral sword leaves and exposed prop roots. Botanical-form approximation; placement should be selective near coastal or backwater edges.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Pandanus_Clump.glb",
+        "sha256": "bbc2625a3d6c192d058dfe3ef95472f3b00e1936ae4f6c9d243b889d871cb83a"
+      },
+      "preview": "previews/assets/KL_LS_Pandanus_Clump.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Colocasia_Clump",
+      "title": "Colocasia-style wet verge foliage",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Colocasia_Clump",
+      "dimensions_m": [
+        2.411,
+        2.423,
+        1.39
+      ],
+      "triangles": 8190,
+      "notes": "Wet-verge broadleaf clump with modeled heart-shaped peltate blades, strong radial venation and fleshy petioles. Species-inspired approximation for shaded humid verges.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Colocasia_Clump.glb",
+        "sha256": "a116f9b4617fa7300591d05c00efa5db23ea346309cb0328c27cd309474f282d"
+      },
+      "preview": "previews/assets/KL_LS_Colocasia_Clump.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Fern_Clump",
+      "title": "Tropical fern understory",
+      "category": "landscape_plants",
+      "collection": "KL_LS_Fern_Clump",
+      "dimensions_m": [
+        1.427,
+        1.616,
+        0.784
+      ],
+      "triangles": 20076,
+      "notes": "Low tropical fern clump with twenty-one individually arched fronds and modeled pinnae. Generic fern form, not a species occurrence claim.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A1_Landscape_Plants_Blender/library/Kerala_Landscape_Plants.blend",
+        "sha256": "28137d63847a2b51485a6c88376040bf80682960a0aa539935cc63d44af426fb"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Fern_Clump.glb",
+        "sha256": "0c1fdfd2ccb4ee66ea7a35708813f74f6593591c6b9bdc1e29296942131d0dad"
+      },
+      "preview": "previews/assets/KL_LS_Fern_Clump.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Backwater_Bank_8m",
+      "title": "Backwater bank with coir protection",
+      "category": "landscape_water",
+      "collection": "KL_LS_Backwater_Bank_8m",
+      "dimensions_m": [
+        8.187,
+        4.234,
+        1.115
+      ],
+      "triangles": 35450,
+      "notes": "8 x 4 m bank section with removable olive water margin, soil slope, grass, stone scatter and coir fascines tied to timber stakes. Bottom is z=0; water surface z=.343 m; land crest about .74 m.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02C_Landscape_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_02C_Landscape_GLB_01/models/KL_LS_Backwater_Bank_8m.glb",
+        "sha256": "a5120108fc9a31267c89e4ba5923c73bdadef9748d3e56b02d0666376e544cda"
+      },
+      "preview": "previews/assets/KL_LS_Backwater_Bank_8m.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Coir_Coil_Husks",
+      "title": "Coir rope coil and coconut husks",
+      "category": "landscape_water",
+      "collection": "KL_LS_Coir_Coil_Husks",
+      "dimensions_m": [
+        1.911,
+        1.22,
+        0.301
+      ],
+      "triangles": 45020,
+      "notes": "Three-layer coiled coir rope with modeled three-strand twist, loose tail and three fibrous coconut husks. Appropriate small dressing for Alappuzha/Kollam backwater working banks.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Coir_Coil_Husks.glb",
+        "sha256": "06a3cf4abeb0683d5abd8e54f7c9a42e2decd27f6da9b715ea2b3345d527ac40"
+      },
+      "preview": "previews/assets/KL_LS_Coir_Coil_Husks.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Country_Canoe",
+      "title": "Small traditional country canoe",
+      "category": "landscape_water",
+      "collection": "KL_LS_Country_Canoe",
+      "dimensions_m": [
+        5.831,
+        1.665,
+        0.689
+      ],
+      "triangles": 17510,
+      "notes": "Open 5.8 m reference-inspired working canoe, with individual plank courses, caulking, ribs, rounded gunwales, three thwarts, a paddle and coir mooring rope. Keel/base is at ground origin; suggested scene waterline z=.20 m. Not a measured boat type replica.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Country_Canoe.glb",
+        "sha256": "d5292bcf76708c6f2ee57e70936047806eb2433e24e90205fbfb3484c5ac4cec"
+      },
+      "preview": "previews/assets/KL_LS_Country_Canoe.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Irrigation_Bund_8m",
+      "title": "Paddy irrigation bund and channel",
+      "category": "landscape_water",
+      "collection": "KL_LS_Irrigation_Bund_8m",
+      "dimensions_m": [
+        8.0,
+        4.105,
+        0.793
+      ],
+      "triangles": 29818,
+      "notes": "8 x 4 m closed earthen module: shallow channel, irregular grassed banks, scattered rubble and a simple timber foot-crossing. Bottom is z=0; water surface z=.148 m; earth bank crest z=.48 m.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02D_Landscape_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_02D_Landscape_GLB_02/models/KL_LS_Irrigation_Bund_8m.glb",
+        "sha256": "75b83b8c02cb604aa4a021b7c5fc887eff94a0b83c0215d34b26f06e48973c01"
+      },
+      "preview": "previews/assets/KL_LS_Irrigation_Bund_8m.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Paddy_Green_4m",
+      "title": "Green paddy field tile",
+      "category": "landscape_water",
+      "collection": "KL_LS_Paddy_Green_4m",
+      "dimensions_m": [
+        5.143,
+        5.021,
+        1.01
+      ],
+      "triangles": 40484,
+      "notes": "4 x 4 m soil footprint with shallow water and 289 irregular rice tufts, each with folded, bowed mesh blades. Vegetation overhangs the soil tile slightly; approximate vegetative stage.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Paddy_Green_4m.glb",
+        "sha256": "b516479ac6e06f042b35bf3c748e7bbd871cf3cc8347545a796b141f1179c163"
+      },
+      "preview": "previews/assets/KL_LS_Paddy_Green_4m.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Paddy_Ripe_4m",
+      "title": "Ripening paddy field tile",
+      "category": "landscape_water",
+      "collection": "KL_LS_Paddy_Ripe_4m",
+      "dimensions_m": [
+        5.069,
+        5.159,
+        1.015
+      ],
+      "triangles": 123138,
+      "notes": "4 x 4 m rice tile with green-gold foliage, bent grain-bearing panicles and individual husked grains; illustrative ripening stage rather than a named variety.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Paddy_Ripe_4m.glb",
+        "sha256": "2df7ff6ccbf5396ca0d6ffcabd2f7463d3921029d067e23490c88bd58094277e"
+      },
+      "preview": "previews/assets/KL_LS_Paddy_Ripe_4m.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Rice_Tuft_Green",
+      "title": "Green rice tuft for scattering",
+      "category": "landscape_water",
+      "collection": "KL_LS_Rice_Tuft_Green",
+      "dimensions_m": [
+        0.768,
+        0.559,
+        0.758
+      ],
+      "triangles": 140,
+      "notes": "A single lightweight seven-blade rice tuft for collection/geometry-node scattering, with no soil or water slab. Illustrative vegetative stage.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Rice_Tuft_Green.glb",
+        "sha256": "443d4c92c14dd10f3357b0ea065bb5ccc3c4c22a466de670350befb1bf8a51ef"
+      },
+      "preview": "previews/assets/KL_LS_Rice_Tuft_Green.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Rice_Tuft_Ripe",
+      "title": "Ripening rice tuft for scattering",
+      "category": "landscape_water",
+      "collection": "KL_LS_Rice_Tuft_Ripe",
+      "dimensions_m": [
+        0.696,
+        0.694,
+        0.79
+      ],
+      "triangles": 426,
+      "notes": "A single lightweight rice tuft with bowed panicles and mesh grains, for collection/geometry-node scattering with no soil/water slab. Illustrative ripening stage.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Rice_Tuft_Ripe.glb",
+        "sha256": "88fa34eac3ea9f16964420306856b256601a4c0011043217fe5482be1538a428"
+      },
+      "preview": "previews/assets/KL_LS_Rice_Tuft_Ripe.jpg"
+    },
+    {
+      "asset_id": "KL_LS_Water_Hyacinth_Raft",
+      "title": "Water hyacinth floating patch",
+      "category": "landscape_water",
+      "collection": "KL_LS_Water_Hyacinth_Raft",
+      "dimensions_m": [
+        1.236,
+        1.34,
+        0.62
+      ],
+      "triangles": 17496,
+      "notes": "Small optional floating patch with rounded glossy leaves, inflated petioles, dangling rootlets and occasional lilac flower spikes. Depicts an invasive plant documented in Kuttanad waterbodies; not a planting recommendation. Place water about .105 m above the base-origin.",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_02A2_Landscape_Water_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_02A2_Landscape_Water_Blender/library/Kerala_Landscape_Water.blend",
+        "sha256": "b780417dc84f0c4a61231fd158769086c72337b7825c108f6fef10924a7d4054"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_02E_Landscape_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_02E_Landscape_GLB_03/models/KL_LS_Water_Hyacinth_Raft.glb",
+        "sha256": "1648a38552a117d787369a39e8f3375e1d4a10bc535226eeab60dde0e119a50b"
+      },
+      "preview": "previews/assets/KL_LS_Water_Hyacinth_Raft.jpg"
+    },
+    {
+      "asset_id": "KR_R01",
+      "title": "Full location cabinet",
+      "category": "railside",
+      "collection": "KR_R01_Full_location_cabinet",
+      "dimensions_m": [
+        1.16,
+        0.811,
+        1.875
+      ],
+      "triangles": 12022,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03B_Railside_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_03B_Railside_GLB_01/models/KR_R01_Full_location_cabinet.glb",
+        "sha256": "19c3e5c0ce719633e54cdebe1275e9f1ad05f1100b125770bb4870793baccbf9"
+      },
+      "preview": "previews/assets/KR_R01.jpg"
+    },
+    {
+      "asset_id": "KR_R02",
+      "title": "Half location cabinet",
+      "category": "railside",
+      "collection": "KR_R02_Half_location_cabinet",
+      "dimensions_m": [
+        0.87,
+        0.811,
+        1.365
+      ],
+      "triangles": 12898,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03B_Railside_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_03B_Railside_GLB_01/models/KR_R02_Half_location_cabinet.glb",
+        "sha256": "b14f6b01c6f5588a240076f90640596c3f99dbcbbbd7a2f710d405952233ddac"
+      },
+      "preview": "previews/assets/KR_R02.jpg"
+    },
+    {
+      "asset_id": "KR_R03",
+      "title": "Cable trough covered",
+      "category": "railside",
+      "collection": "KR_R03_Cable_trough_covered",
+      "dimensions_m": [
+        2.42006,
+        0.475,
+        0.342
+      ],
+      "triangles": 3658,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03B_Railside_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_03B_Railside_GLB_01/models/KR_R03_Cable_trough_covered.glb",
+        "sha256": "dc3790e345f26426c884eec813df77bc70496d9511dca7699afe1744651cd33e"
+      },
+      "preview": "previews/assets/KR_R03.jpg"
+    },
+    {
+      "asset_id": "KR_R04",
+      "title": "Cable trough inspection",
+      "category": "railside",
+      "collection": "KR_R04_Cable_trough_inspection",
+      "dimensions_m": [
+        2.42006,
+        1.13784,
+        0.342
+      ],
+      "triangles": 3442,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03B_Railside_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_03B_Railside_GLB_01/models/KR_R04_Cable_trough_inspection.glb",
+        "sha256": "3d2d52f5763dfd21eaca66861c689c7b0aefeb4601c57e77c4a495029d9dc3d4"
+      },
+      "preview": "previews/assets/KR_R04.jpg"
+    },
+    {
+      "asset_id": "KR_R05",
+      "title": "Monsoon U drain",
+      "category": "railside",
+      "collection": "KR_R05_Monsoon_U_drain",
+      "dimensions_m": [
+        1.2,
+        3.0,
+        0.576
+      ],
+      "triangles": 3208,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03B_Railside_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_03B_Railside_GLB_01/models/KR_R05_Monsoon_U_drain.glb",
+        "sha256": "1aad3516d1183943905512f832eb4aa10476c7feaf12de410326e11d52707669"
+      },
+      "preview": "previews/assets/KR_R05.jpg"
+    },
+    {
+      "asset_id": "KR_R06",
+      "title": "Culvert and wingwalls",
+      "category": "railside",
+      "collection": "KR_R06_Culvert_and_wingwalls",
+      "dimensions_m": [
+        3.78438,
+        2.81,
+        1.895
+      ],
+      "triangles": 6170,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03C_Railside_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_03C_Railside_GLB_02/models/KR_R06_Culvert_and_wingwalls.glb",
+        "sha256": "9af2e43fd17452be6e430f0ddaad8684879b722b7c8094f98d70e60ffa948edf"
+      },
+      "preview": "previews/assets/KR_R06.jpg"
+    },
+    {
+      "asset_id": "KR_R07",
+      "title": "RCC wire fence",
+      "category": "railside",
+      "collection": "KR_R07_RCC_wire_fence",
+      "dimensions_m": [
+        3.32,
+        0.325,
+        1.64
+      ],
+      "triangles": 13380,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03C_Railside_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_03C_Railside_GLB_02/models/KR_R07_RCC_wire_fence.glb",
+        "sha256": "ec1810800a5cc225072344f18b122f109c368dc391f9ab274911e5f3e1d2767c"
+      },
+      "preview": "previews/assets/KR_R07.jpg"
+    },
+    {
+      "asset_id": "KR_R08",
+      "title": "Kilometre marker",
+      "category": "railside",
+      "collection": "KR_R08_Kilometre_marker",
+      "dimensions_m": [
+        0.5,
+        0.0669,
+        0.7
+      ],
+      "triangles": 3974,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03C_Railside_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_03C_Railside_GLB_02/models/KR_R08_Kilometre_marker.glb",
+        "sha256": "601849e0ec5207ee4c2c206e05f687387c1a626b844189f892c932d4c64a5270"
+      },
+      "preview": "previews/assets/KR_R08.jpg"
+    },
+    {
+      "asset_id": "KR_R09",
+      "title": "Gradient marker",
+      "category": "railside",
+      "collection": "KR_R09_Gradient_marker",
+      "dimensions_m": [
+        0.381,
+        0.0932,
+        0.76
+      ],
+      "triangles": 2890,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03C_Railside_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_03C_Railside_GLB_02/models/KR_R09_Gradient_marker.glb",
+        "sha256": "171139d7254d17815ec7a844b8c1ea3211e39249954f4f7047e3276450f60ac2"
+      },
+      "preview": "previews/assets/KR_R09.jpg"
+    },
+    {
+      "asset_id": "KR_R10",
+      "title": "Railway boundary stone",
+      "category": "railside",
+      "collection": "KR_R10_Railway_boundary_stone",
+      "dimensions_m": [
+        0.15,
+        0.152,
+        0.5
+      ],
+      "triangles": 2218,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03C_Railside_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_03C_Railside_GLB_02/models/KR_R10_Railway_boundary_stone.glb",
+        "sha256": "d868ceb1b16ec3b3e4408b41946e3ee2084436969bcaa4dc5caab5ee12acfd12"
+      },
+      "preview": "previews/assets/KR_R10.jpg"
+    },
+    {
+      "asset_id": "KR_R11",
+      "title": "PSC sleeper stack",
+      "category": "railside",
+      "collection": "KR_R11_PSC_sleeper_stack",
+      "dimensions_m": [
+        2.77739,
+        1.63,
+        0.913
+      ],
+      "triangles": 20628,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03C_Railside_GLB_02.zip",
+        "path_in_archive": "Kerala_Trackside_03C_Railside_GLB_02/models/KR_R11_PSC_sleeper_stack.glb",
+        "sha256": "3426d75b1361db7de5a48e719d07ab2766153f8d38e24575b2689fbf379bfc7f"
+      },
+      "preview": "previews/assets/KR_R11.jpg"
+    },
+    {
+      "asset_id": "KR_R12",
+      "title": "P way tools and chest",
+      "category": "railside",
+      "collection": "KR_R12_P_way_tools_and_chest",
+      "dimensions_m": [
+        2.64636,
+        1.227,
+        1.36857
+      ],
+      "triangles": 5064,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03D_Railside_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_03D_Railside_GLB_03/models/KR_R12_P_way_tools_and_chest.glb",
+        "sha256": "082e95c368afa393a62233bf7208fa6bb3637a8322995497fd4cc493cdff5f51"
+      },
+      "preview": "previews/assets/KR_R12.jpg"
+    },
+    {
+      "asset_id": "KR_R13",
+      "title": "P way tool store",
+      "category": "railside",
+      "collection": "KR_R13_P_way_tool_store",
+      "dimensions_m": [
+        3.20707,
+        3.39,
+        3.03057
+      ],
+      "triangles": 32500,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03D_Railside_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_03D_Railside_GLB_03/models/KR_R13_P_way_tool_store.glb",
+        "sha256": "8787f4cda1b82b0e63629e9076bbe2e02b600a4a5ba6079cba1051f5af7fe5e8"
+      },
+      "preview": "previews/assets/KR_R13.jpg"
+    },
+    {
+      "asset_id": "KR_R14",
+      "title": "Lifting barrier and lock post",
+      "category": "railside",
+      "collection": "KR_R14_Lifting_barrier_and_lock_post",
+      "dimensions_m": [
+        6.675,
+        1.29104,
+        1.335
+      ],
+      "triangles": 12890,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_03A_Railside_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_03A_Railside_Blender/library/KR_Railside_Asset_Library.blend",
+        "sha256": "bcbd456ad0123ff6c87083c774afc3b88e73060302221fe660368bf2290494b1"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_03D_Railside_GLB_03.zip",
+        "path_in_archive": "Kerala_Trackside_03D_Railside_GLB_03/models/KR_R14_Lifting_barrier_and_lock_post.glb",
+        "sha256": "12c27b0f90592ce818089846ac85fa8eef7c60e5012fc56cfa4b19bf3a2d4dd7"
+      },
+      "preview": "previews/assets/KR_R14.jpg"
+    },
+    {
+      "asset_id": "KR_U01",
+      "title": "PSC distribution pole",
+      "category": "utilities",
+      "collection": "KR_U01_PSC_distribution_pole",
+      "dimensions_m": [
+        1.1,
+        0.38021,
+        7.5
+      ],
+      "triangles": 12710,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_05A_Utilities_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_05A_Utilities_Blender/library/KR_Utility_Mini_Library.blend",
+        "sha256": "ec0b6689a569b24522821ec234a2b6cff684dc7995f280cb79a54e7c6b5f4585"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_05C_Utilities_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_05C_Utilities_GLB_01/models/KR_U01_PSC_distribution_pole.glb",
+        "sha256": "5d570bf53ef66e6ec170167ee93787ee455d1976cc6feeafa502e78caff232cc"
+      },
+      "preview": "previews/assets/KR_U01.jpg"
+    },
+    {
+      "asset_id": "KR_U02",
+      "title": "Pole mounted transformer",
+      "category": "utilities",
+      "collection": "KR_U02_Pole_mounted_transformer",
+      "dimensions_m": [
+        2.75,
+        1.16196,
+        7.5
+      ],
+      "triangles": 54460,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_05A_Utilities_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_05A_Utilities_Blender/library/KR_Utility_Mini_Library.blend",
+        "sha256": "ec0b6689a569b24522821ec234a2b6cff684dc7995f280cb79a54e7c6b5f4585"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_05C_Utilities_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_05C_Utilities_GLB_01/models/KR_U02_Pole_mounted_transformer.glb",
+        "sha256": "1b7499838d3a75972984596c5cfd28de97100e8f1d5de2858fab7f3f5fc03a17"
+      },
+      "preview": "previews/assets/KR_U02.jpg"
+    },
+    {
+      "asset_id": "KR_U03",
+      "title": "Pole mounted roadside light",
+      "category": "utilities",
+      "collection": "KR_U03_Pole_mounted_roadside_light",
+      "dimensions_m": [
+        1.6169,
+        0.321,
+        7.50008
+      ],
+      "triangles": 9082,
+      "notes": "",
+      "catalog_visible": true,
+      "blend": {
+        "archive": "Kerala_Trackside_05A_Utilities_Blender.zip",
+        "path_in_archive": "Kerala_Trackside_05A_Utilities_Blender/library/KR_Utility_Mini_Library.blend",
+        "sha256": "ec0b6689a569b24522821ec234a2b6cff684dc7995f280cb79a54e7c6b5f4585"
+      },
+      "glb": {
+        "archive": "Kerala_Trackside_05C_Utilities_GLB_01.zip",
+        "path_in_archive": "Kerala_Trackside_05C_Utilities_GLB_01/models/KR_U03_Pole_mounted_roadside_light.glb",
+        "sha256": "84f641873ad6be8a27d274a67e3f036a54e2f73f537ecbd5db5047123998b0b0"
+      },
+      "preview": "previews/assets/KR_U03.jpg"
+    }
+  ]
+}

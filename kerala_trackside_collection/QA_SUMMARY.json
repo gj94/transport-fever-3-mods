@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "validation_scope": "52 reusable asset entries, 5 packed native libraries, standalone GLB exports, source companions, 2 example scenes, dusk lighting preset and 24 exact delivery archives.",
+  "counts": {
+    "reusable_entries": 52,
+    "distinct_designs": 44,
+    "landscape_entries": 25,
+    "architecture_entries": 10,
+    "railside_entries": 14,
+    "utility_entries": 3,
+    "native_libraries": 5,
+    "delivery_archives": 24,
+    "catalog_pages": 11,
+    "packed_scene_count": 2,
+    "final_scene_view_count": 6,
+    "lighting_presets": 1
+  },
+  "verification": [
+    "All 24 archives match the final approved archive SHA-256 values.",
+    "Every archive was ZIP-tested, extracted and its payload checksums verified in final asset QA.",
+    "Native libraries were opened and append-tested, with packed dependencies checked.",
+    "Native geometry and materials were compared against individual assets; portable GLB exports were inspected.",
+    "Publication archive parts were reassembled locally and match the complete original archive hashes.",
+    "Archives were scanned for internal notes, logs, private paths and tool receipts."
+  ],
+  "limitations": [
+    "Approximate scenic dimensions, not surveyed or engineering specifications.",
+    "Reference-inspired fictional scenery; not a reconstruction of a surveyed route.",
+    "No game-runtime validation.",
+    "Showcase generic maps use compact 512px presentation textures; reusable libraries retain original-resolution maps."
+  ]
+}
