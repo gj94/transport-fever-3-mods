@@ -1,4 +1,4 @@
-"""Write public v1.0 identity while retaining TF3's monotonic build revision."""
+"""Write the public release identity and TF3's monotonic build revision."""
 import json
 from pathlib import Path
 from pack_settings import REVISION, RELEASE_NAME
@@ -15,7 +15,7 @@ def write_release_metadata(mod):
     (mod/'_metadata/modinfo.json').write_text(json.dumps({
         'name':RELEASE_NAME,
         'summary':'WAP-7, WAG-9, WAG-12B, seven ICF and seven LHB classes, Vande Bharat 8/16-car sets',
-        'description':'Indian Railways locomotives, coaches and trainsets with class-specific interiors, side-on icons and balanced capacities. Normal fares and automatic costs. Electric locomotives require electrified track. ICF from 1980, WAG-9 from 1995, WAP-7/LHB from 2000, WAG-12B from 2017 and Vande Bharat from 2019.',
+        'description':'Indian Railways gameplay upgrades: WAP-7 and WAG-12B 200 km/h with stronger acceleration; Vande Bharat 320 km/h, high power and very high comfort. Fourteen ICF/LHB coach classes, side-on icons, normal fares and automatic costs. Requires suitable electrified track. Availability: ICF 1980, WAG-9 1995, WAP-7/LHB 2000, WAG-12B 2017, Vande Bharat 2019.',
         'authors':[{'name':'gj94','role':'CREATOR'}],'tags':['Vehicle','Train'],
         'url':'https://github.com/gj94/transport-fever-3-mods'
     },indent=2)+'\n',encoding='utf8')

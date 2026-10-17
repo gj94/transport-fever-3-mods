@@ -1,10 +1,12 @@
-Indian Rail Prototype Pack v1.0
+Indian Rail Prototype Pack v1.1
 
-Installable pack: dist/Indian-Rail-Prototype-Pack-TF3.zip. Extract gj94_indian_rail_pack into TF3 local/mods and enable Indian Rail Prototype Pack v1.0. See TF3-INSTALL.md for installation, rebuilding and verification, and CHANGELOG.md for release notes.
+Installable pack: dist/Indian-Rail-Prototype-Pack-TF3.zip. Extract gj94_indian_rail_pack into TF3 local/mods and enable Indian Rail Prototype Pack v1.1. See TF3-INSTALL.md for installation, rebuilding and verification, and CHANGELOG.md for release notes.
 
-Public version is 1.0; TF3 resource revision is 14. The installed revision 13 has identical vehicle content, with new coach play testing pending. Install v1.0 after saving and exiting TF3; synchronize any staging_area copy because it takes priority. Source folder versions describe historical modelling handoffs.
+Public version is 1.1; TF3 resource revision is 15. The prepared private build is installed in both local/mods and local/staging_area, with every file verified. Source folder versions describe historical modelling handoffs. The performance upgrade awaits a game play test.
 
 Includes WAP-7, WAG-9, paired WAG-12B, Vande Bharat 8/16-car sets and fourteen ICF/LHB coaches (1A, 2A, 3A, 2S, CC, SL, GS per family), shown in the Indian Railways purchase section. The new SL and LHB 3A replace the old entries without duplicate vehicles.
+
+Performance upgrades: WAP-7 200 km/h, 9,000 kW / 600 kN; complete WAG-12B 200 km/h, 16,000 kW / 1,000 kN; Vande Bharat 320 km/h, 16,000 kW / 880 kN (8 cars) or 32,000 kW / 1,760 kN (16 cars), comfort CC 0.95 / EC 1.0. These are gameplay overrides. Normal fares and automatic pricing/upkeep are retained; higher power raises costs. Track limits and the slowest car still apply.
 
 All ICF classes: 1980 / 110 km/h. All LHB classes: 2000 / 200 km/h. Capacities use the user's doubled normalized scale; standard fares and automatic costs/upkeep are retained. See README.md and TF3-INSTALL.md for the class table and pending runtime checks.
 

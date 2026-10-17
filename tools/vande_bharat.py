@@ -2,10 +2,13 @@
 import json, math
 
 CAPACITY={'DTC':40,'MC':60,'MC2':60,'TC_CC':60,'TC_EC':40,'NDTC_EC':40,'NDTC_EC2':40}
-# Requested design-speed/family-date gameplay settings, rather than service
-# speed/introduction of the modelled 2.0 variant.
-SPEED=180
+# User-requested gameplay upgrades, not prototype specifications (17 October 2026).
+SPEED=320
 YEAR=2019
+MOTOR_POWER=4000  # kW per MC/MC2; 4 motor cars in 8-car sets, 8 in 16-car sets.
+MOTOR_EFFORT=220  # kN per motor car.
+COMFORT_CC=.95
+COMFORT_EC=1.0
 # Initial gameplay tuning, not certified full-size train specifications.
 WEIGHT={'DTC':42000,'MC':45000,'MC2':45000,'TC_CC':48000,'TC_EC':48000,'NDTC_EC':44000,'NDTC_EC2':44000}
 
@@ -55,6 +58,7 @@ def write_formations(rootdir,write_lua):
   vehicles=[{'name':'gj94_indian_rail_pack::/vehicle/train/vb_'+car['type'].lower()+'/vb_'+car['type'].lower()+'.mdl','forward':car['rotation_z_deg']==180} for car in source['cars']]
   assert vehicles[0]['forward'] and not vehicles[-1]['forward']
   assert sum(CAPACITY[c['type']] for c in source['cars'])==source['passenger_seats_compact_total']
-  write_lua(folder/f'vande_bharat_{count}.mu.lua',{'vehicles':vehicles,'name':f'Vande Bharat Express ({count} cars)','desc':f'Compact white/blue electric trainset. {source["passenger_seats_compact_total"]} seats, {source["total_outer_anchor_span_m"]:g} m spacing length. Requires electrified track.','filterTags':['default']})
+  motors=sum(car['type'].startswith('MC') for car in source['cars'])
+  write_lua(folder/f'vande_bharat_{count}.mu.lua',{'vehicles':vehicles,'name':f'Vande Bharat Express ({count} cars)','desc':f'Gameplay-upgraded compact electric trainset. {SPEED} km/h, {motors*MOTOR_POWER:,} kW, {motors*MOTOR_EFFORT:,} kN, very high comfort. {source["passenger_seats_compact_total"]} configured places, {source["total_outer_anchor_span_m"]:g} m spacing length. Requires electrified track.','filterTags':['default']})
   report.append({'cars':count,'capacity':source['passenger_seats_compact_total'],'spacing_length_m':source['total_outer_anchor_span_m'],'pantograph_indices':source['pantograph_indices'],'vehicles':vehicles})
  (rootdir/'game_build/vande_bharat_formations.json').write_text(json.dumps(report,indent=2))

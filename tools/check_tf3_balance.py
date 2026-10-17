@@ -7,6 +7,8 @@ import argparse,json,math,re,posixpath,zipfile
 from pathlib import Path
 from tf3_resource_paths import resolve_model_ref
 from coach_families import SPECS as COACH_SPECS
+from freight_locomotives import SPECS as FREIGHT_SPECS
+from vande_bharat import SPEED as VB_SPEED, COMFORT_CC, COMFORT_EC
 
 def table(text,key):
  match=re.search(r'\b'+key+r'\s*=\s*\{',text)
@@ -120,10 +122,14 @@ def main():
   stats=[model_stats(resolve_model_ref(mod.parents[2],p,ref).read_text()) for ref in refs]
   vande.append(unit_stats(f'Vande Bharat {count}',stats))
   assert all(v['ticket_price_factor']==.5 for v in stats),'VB must use the stock ticket-price factor'
-  assert all(v['comfort']<=.8 for v in stats),'Do not exceed stock express comfort'
+  assert all(COMFORT_CC<=v['comfort']<=COMFORT_EC for v in stats),'VB must use requested high comfort'
+  assert all(v['speed_kmh']==VB_SPEED for v in stats),'Every VB car must support 320 km/h'
   assert 2<=vande[-1]['seats_per_m']<=4.5,'Capacity density outside modern stock range'
-  peers=[s for s in stock if s['speed_kmh']>=159]
-  assert min(s['purchase_per_seat'] for s in peers)<=vande[-1]['purchase_per_seat']<=max(s['purchase_per_seat'] for s in peers),'Purchase cost per seat outside stock range'
+  # Enhanced performance deliberately exceeds the old stock-price envelope.
+  # Preserve automatic pricing and report the increased cost rather than capping it.
+  for ref in refs:
+   text=resolve_model_ref(mod.parents[2],p,ref).read_text()
+   assert number(table(text,'cost'),'price')==-1 and number(table(text,'maintenance'),'runningCosts')==-1
  conventional={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in ('wap7','icf_sleeper','lhb_3a')}
  assert conventional['icf_sleeper']['capacity']==160 and conventional['lhb_3a']['capacity']==176,'Doubled balanced coach capacities must be 160/176'
  assert all(v['ticket_price_factor']==.5 for v in conventional.values()),'Conventional pack vehicles must use the stock ticket-price factor'
@@ -133,7 +139,8 @@ def main():
   stock_rakes.append(platform_rake(engine+' + '+coach,stock_model(args.game_root,'train',engine),stock_model(args.game_root,'waggon',coach)))
  freight_models={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in ('wag9','wag12b_a','wag12b_b')}
  freight=[unit_stats('WAG-9',[freight_models['wag9']]),unit_stats('WAG-12B (complete pair)',[freight_models['wag12b_a'],freight_models['wag12b_b']])]
- assert freight[1]['power_kw']==9000 and freight[1]['tractive_effort_kn']==706 and freight[1]['weight_t']==180
+ assert freight[1]['power_kw']==sum(FREIGHT_SPECS[k]['power'] for k in ('wag12b_a','wag12b_b'))
+ assert freight[1]['tractive_effort_kn']==sum(FREIGHT_SPECS[k]['effort'] for k in ('wag12b_a','wag12b_b')) and freight[1]['weight_t']==180
  assert all(s['capacity']==0 and s['ticket_price_factor']==.5 for s in freight_models.values())
  stock_freight=[unit_stats('BR 185 TRAXX',[stock_model(args.game_root,'train','br_185_traxx')])]
  coaches={key:model_stats((mod/key/(key+'.mdl')).read_text()) for key in COACH_SPECS}

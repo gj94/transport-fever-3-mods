@@ -1,12 +1,15 @@
 # What can be modded on TF3 locomotives and coaches
 
-Research date: 30 September 2026; last updated: 1 October 2026. This guide separates capabilities verified in
+Research date: 30 September 2026; last updated: 17 October 2026. This guide separates capabilities verified in
 the installed TF3 resources from features already implemented in our pack.
 This guide is updated as subsequent integrations are installed.
 
-Current release is **v1.0**, using TF3 resource revision **14**. Installed
-revision 13 has the same vehicle content and remains active for the user's play
-test; the release metadata update will be installed after TF3 exits.
+Current release is **v1.1**, using TF3 resource revision **15**, installed in both
+local copies. WAP-7 is rated at 200 km/h / 9,000 kW / 600 kN. WAG-12B is rated
+at 200 km/h / 16,000 kW / 1,000 kN for the complete pair. Vande Bharat is rated
+at 320 km/h with 16,000/32,000 kW and 880/1,760 kN for 8/16 cars; CC/EC comfort
+is 0.95/1.0. These are gameplay upgrades, with normal fares and automatic costs.
+Actual runtime performance awaits a play test. Track and slowest-car limits apply.
 The pack has WAP-7, WAG-9, paired WAG-12B, Vande Bharat
 8/16-car formations and fourteen conventional coaches: ICF/LHB 1A, 2A, 3A,
 2S, CC, SL and GS. The former ICF SL and LHB 3A IDs now use their new family
@@ -57,7 +60,7 @@ not been individually reported as tested.
 | Animation | Door opening/closing, wheels/bogies, pantographs and direction-dependent visible parts | Independent pantographs implemented with wire-height sampling; Vande Bharat door tracks implemented; ICF/LHB doors and couplers static |
 | Lights | Head/tail lights and light-emitting or illuminated materials; native models have timed and direction-sensitive light setups | No complete lighting setup yet |
 | Sounds | Continuous tracks, event clips, volume/pitch curves, custom update scripts and distance settings | Private approved horn shared by WAP-7/WAG-9/WAG-12B; stock electric layers and wagon sound sets referenced |
-| Performance | Speed, empty/payload weight, engine type, power, tractive effort and friction; native train setup also includes braking | Initial prototype gameplay values; tune against intended gameplay and verified vehicle specs |
+| Performance | Speed, empty/payload weight, engine type, power, tractive effort and friction; native train setup also includes braking | v1.1 performance upgrades listed above; capacities, family years and weights preserved; actual route performance pending |
 | Passenger/cargo handling | Capacity, cargo class/type filters, compartments, seat assignments, load speed and visible load configuration | Doubled normalized class capacities listed above; ICF SL 40 and LHB 3A 44 game passengers; physical passenger locators remain independent of commercial capacity; boarding/unloading need testing |
 | Service and economics | Purchase price/scales, running cost/scales, lifespan, maintenance factors, noise/pollution and availability dates | Normal fare factor 0.5, maintenance factor 1, automatic price/upkeep and consistent family years; all fourteen coach costs checked against stock Lua |
 | Vehicle identity and UI | Names/descriptions, filter tags, icons, release/retirement years and availability notifications | Names, dates, tags, rendered icons and a default Indian Railways purchase tab implemented; purchase-tab appearance user-confirmed in game |

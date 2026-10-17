@@ -1,8 +1,8 @@
 # Validation report
 
-## Current TF3 integration — pack v1.0
+## Current TF3 integration — pack v1.1
 
-The reports below document source geometry. Pack **v1.0 (TF3 revision 14)** includes native conversion with passing resource/Lua, LOD, texture, icon and economics checks. Coach seated-root transforms and introduction-year filters also pass. New coach boarding, full passenger anatomy and curve clearance await a game test. See [current installation, integration and remaining checks](../../TF3-INSTALL.md).
+The reports below document source geometry. Pack **v1.1 (TF3 revision 15)** includes native conversion with passing resource/Lua, LOD, texture, icon and economics checks. Coach seated-root transforms and introduction-year filters also pass. New coach boarding, full passenger anatomy and curve clearance await a game test. See [current installation, integration and remaining checks](../../TF3-INSTALL.md).
 
 ## Original source handoff
 

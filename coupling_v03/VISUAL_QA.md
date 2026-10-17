@@ -1,8 +1,8 @@
 # Visual QA
 
-## Current TF3 integration — pack v1.0
+## Current TF3 integration — pack v1.1
 
-Pack v1.0 uses the corrected WAP-7 geometry and the newer class-specific ICF/LHB family masters. Their CBC datums are preserved in native resources. The fixture below documents the older source pairing; runtime curves and dynamic clearance remain pending. See [current installation and validation](../TF3-INSTALL.md).
+Pack v1.1 uses the corrected WAP-7 geometry and the newer class-specific ICF/LHB family masters. Their CBC datums are preserved in native resources. The fixture below documents the older source pairing; runtime curves and dynamic clearance remain pending. See [current installation and validation](../TF3-INSTALL.md).
 
 ## Original source review
 
