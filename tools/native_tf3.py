@@ -11,18 +11,8 @@ from freight_locomotives import SPECS as FREIGHT_SPECS
 from coach_families import SPECS as COACH_SPECS
 from pack_settings import CACHE_VERSION
 from release_metadata import write_release_metadata
-
-def lua(value):
- if isinstance(value,dict): return '{'+','.join(k+'='+lua(v) for k,v in value.items())+'}'
- if isinstance(value,(list,tuple)): return '{'+','.join(lua(v) for v in value)+'}'
- if isinstance(value,str): return json.dumps(value)
- if isinstance(value,bool): return 'true' if value else 'false'
- if isinstance(value,float):
-  assert math.isfinite(value)
-  return format(value,'.9g')
- return str(value)
-
-def write_lua(path,value): path.write_text('function data()\nreturn '+lua(value)+'\nend\n',encoding='utf8')
+from vehicle_performance import WAP7, apply_performance
+from tf3_lua import lua, write_lua
 
 def mesh_resource(path,mesh):
  mesh.calc_loop_triangles(); pos=[];norm=[];uv=[];tan=[];lookup={};idxs=[]
@@ -145,9 +135,8 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
   lods.append({'node':{'name':'RootNode','transf':[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],'children':[node(o,lod) for o in roots]},'visibleFrom':[0,100,400,1000][lod],'visibleTo':[100,400,1000,2500][lod]})
   for ob,m in mods:ob.modifiers.remove(m)
  names={'wap7':'Indian Railways WAP-7','lhb_3a':'LHB AC 3-tier','icf_sleeper':'ICF Sleeper (CBC retrofit)'}
- # Gameplay capacity is normalized slightly above the 72 physical berth locators.
- # User-selected speeds/years; power, capacity and fare balance are separate.
- specs={'wap7':(20.562,123000,180,2000,0,6)}
+ # Gameplay settings are separate from source geometry and physical accommodation.
+ specs={'wap7':(20.562,123000,WAP7['speed'],WAP7['year'],0,6)}
  if key in COACH_SPECS:
   coach=COACH_SPECS[key]
   names[key]=coach['name']
@@ -172,7 +161,7 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
  if key in FREIGHT_SPECS:render_bounds['bbMax'][2]=max(render_bounds['bbMax'][2],FREIGHT_SPECS[key]['panto_high'])
  axles=[o.name for o in newcoll.objects if o.type=='EMPTY' and 'axle' in o.name]
  compartment={'loadConfigs':[{'cargoEntry':{'capacity':capacity,'cargoTypeSet':{'cargoClassesIncluded':['PASSENGERS'] if capacity else [],'cargoClassesExcluded':[],'cargoTypesIncluded':[],'cargoTypesExcluded':[]},'loadIndicator':'','seats':[]},'toHide':[]}]}
- metadata={'availability':{'yearFrom':year,'yearTo':0},'cost':{'price':-1},'description':{'name':names[key],'description':'Original Indian Railways prototype converted for TF3.'},'emissions':{'noise':{'score':35},'pollution':{'score':5}},'extent':{'bbMin':[-length/2,-1.9,-.03],'bbMax':[length/2,1.9,4.5]},'landVehicle':{'brakeDeceleration':2.5,'engines':[{'power':4500,'tractiveEffort':392,'type':'ELECTRIC'}] if key=='wap7' else [],'friction':.02,'topSpeed':speed/3.6,'weightEmpty':weight,'weightMaxPayload':capacity*80},'maintenance':{'lifespan':10957,'runningCosts':-1},'railVehicle':{'config':{'axles':axles,'fakeBogies':[[],[],[{'group':'RootNode','offset':0,'position':-bogiedist},{'group':'RootNode','offset':0,'position':bogiedist}]]}},'seatProvider':{'crewModels':[],'drivingLicense':'RAIL','seats':[]},'soundConfig':{'soundSet':{'name':'::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if key=='wap7' else 'waggon/shared/sound/waggon_modern.snd')}},'transformatorConfig':{'skipFromLod':2,'transformator':{'name':'::/vehicle/train/shared/default_train.trf'}},'transportVehicle':{'carrier':'RAIL','comfortFactor':.8 if key=='lhb_3a' else .5,'compartments':[compartment],'engineTransportModes':['ELECTRIC_TRAIN'] if key=='wap7' else [],'transportModes':['TRAIN','ELECTRIC_TRAIN'],'filterTags':['default'],'reversible':key=='wap7','loadSpeed':3,'maintenanceFactor':1,'priceFactor':.5},'versioning':{'__version':CACHE_VERSION}}
+ metadata={'availability':{'yearFrom':year,'yearTo':0},'cost':{'price':-1},'description':{'name':names[key],'description':'Original Indian Railways prototype converted for TF3.'},'emissions':{'noise':{'score':35},'pollution':{'score':5}},'extent':{'bbMin':[-length/2,-1.9,-.03],'bbMax':[length/2,1.9,4.5]},'landVehicle':{'brakeDeceleration':2.5,'engines':[],'friction':.02,'topSpeed':speed/3.6,'weightEmpty':weight,'weightMaxPayload':capacity*80},'maintenance':{'lifespan':10957,'runningCosts':-1},'railVehicle':{'config':{'axles':axles,'fakeBogies':[[],[],[{'group':'RootNode','offset':0,'position':-bogiedist},{'group':'RootNode','offset':0,'position':bogiedist}]]}},'seatProvider':{'crewModels':[],'drivingLicense':'RAIL','seats':[]},'soundConfig':{'soundSet':{'name':'::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if key=='wap7' else 'waggon/shared/sound/waggon_modern.snd')}},'transformatorConfig':{'skipFromLod':2,'transformator':{'name':'::/vehicle/train/shared/default_train.trf'}},'transportVehicle':{'carrier':'RAIL','comfortFactor':.8 if key=='lhb_3a' else .5,'compartments':[compartment],'engineTransportModes':['ELECTRIC_TRAIN'] if key=='wap7' else [],'transportModes':['TRAIN','ELECTRIC_TRAIN'],'filterTags':['default'],'reversible':key=='wap7','loadSpeed':3,'maintenanceFactor':1,'priceFactor':.5},'versioning':{'__version':CACHE_VERSION}}
  metadata['railVehicle']['config']['fakeBogies'].append(metadata['railVehicle']['config']['fakeBogies'][-1])
  metadata['extent']['bbMin'][0]=rear;metadata['extent']['bbMax'][0]=front
  metadata['seatProvider']['seats']=seats
@@ -181,7 +170,6 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
   metadata['description']['description']=f"Indian Railways {names[key]}. Normalized capacity: {COACH_SPECS[key]['game_capacity']} passengers at standard game scale."
  if key in FREIGHT_SPECS:
   freight=FREIGHT_SPECS[key]
-  metadata['landVehicle']['engines']=[{'power':freight['power'],'tractiveEffort':freight['effort'],'type':'ELECTRIC'}]
   metadata['soundConfig']['soundSet']['name']='::/vehicle/train/shared/sound/train_electric_modern.snd'
   metadata['transportVehicle'].update(engineTransportModes=['ELECTRIC_TRAIN'],reversible=True)
   if key!='wag9':metadata['transportVehicle'].update(multipleUnitOnly=True,filterTags=[])
@@ -197,13 +185,13 @@ def native_export(rootdir,key,newcoll,merged,mats,image,seats,pantograph_tracks=
   metadata['transformatorConfig']={'skipFromLod':4,'transformator':{'name':'wap7.trf'}}
  if vb:
   powered=kind.startswith('MC')
-  metadata['landVehicle']['engines']=[{'power':1200,'tractiveEffort':90,'type':'ELECTRIC'}] if powered else []
   metadata['soundConfig']['soundSet']['name']='::/vehicle/'+('train/shared/sound/train_electric_modern.snd' if powered or kind=='DTC' else 'waggon/shared/sound/waggon_modern.snd')
-  # Stock express comfort, normal ticket income and standard maintenance.
+  # Requested comfort comes from vehicle_performance; fares remain normal.
   # priceFactor is a fare factor, not the purchase-price multiplier.
-  metadata['transportVehicle'].update(engineTransportModes=['ELECTRIC_TRAIN'] if powered else [],multipleUnitOnly=True,filterTags=[],reversible=True,comfortFactor=.8 if 'EC' in kind else .7,loadSpeed=4,priceFactor=.5,maintenanceFactor=1)
+  metadata['transportVehicle'].update(engineTransportModes=['ELECTRIC_TRAIN'] if powered else [],multipleUnitOnly=True,filterTags=[],reversible=True,loadSpeed=4,priceFactor=.5,maintenanceFactor=1)
   metadata['extent']['bbMax'][2]=render_bounds['bbMax'][2]
   if kind.startswith('TC'):metadata['transformatorConfig']={'skipFromLod':4,'transformator':{'name':'vb.trf'}}
+ apply_performance(metadata,key)
  if capacity:
   metadata['transportVehicle']['entrances']=[{'path':[[x,y*3,.56],[x,0,1.3]]} for x in (-length/2+2,length/2-2) for y in (-1,1)]
   if key in COACH_SPECS and COACH_SPECS[key]['family']=='lhb':

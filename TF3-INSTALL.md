@@ -1,7 +1,7 @@
 # TF3 conversion, installation and update workflow
 
-Last updated: 1 October 2026. Release: **Indian Rail Prototype Pack v1.0**
-(TF3 resource revision **14**). Source baseline: repository commit
+Last updated: 17 October 2026. Release: **Indian Rail Prototype Pack v1.1**
+(TF3 resource revision **15**). Source baseline: repository commit
 `7b6b23da96b839751c31faae5160f5a49e0424c1`.
 
 Interior update source: `e346a0e68f25af458eb9ef6ab5c69e94718b51db`.
@@ -18,15 +18,63 @@ WAP-7 now uses this master, which retains the accepted coupling-v03 geometry.
 
 The editable prototypes now have a locally generated TF3 pack containing WAP-7,
 WAG-9, paired WAG-12B, seven LHB classes, seven ICF classes and Vande Bharat
-8/16-car trainsets. The Blender masters are unchanged. Public release is **v1.0**;
+8/16-car trainsets. The Blender masters are unchanged. Public release is **v1.1**;
 Vande Bharat source is upstream commit `644de22`; WAG sources are `6f45a50`.
 
-The v1.0 archives are ready. Their vehicle resources are identical to installed
-revision 13; only `mod.json` and `_metadata/modinfo.json` change in the native
-pack. The current play test uses revision 13. Installation of v1.0 is deferred
-until TF3 exits, and the new coach play-test result is pending. Source folder
-names such as `icf_family_v01` retain their original handoff versions.
-See [v1.0 release notes](CHANGELOG.md).
+v1.1 upgrades WAP-7/WAG-12B speed, power and pulling force, and Vande Bharat
+speed, power, pulling force and comfort. Existing coach capacities, family years,
+normal fares, geometry, icons and the approved private horn are retained. Source
+folder names such as `icf_family_v01` retain their original handoff versions.
+See [release notes](CHANGELOG.md).
+
+## Current performance (v1.1)
+
+These are user-requested gameplay upgrades, not certified prototype specifications.
+WAG-12B values below describe the complete two-section purchase choice; each
+section has 8,000 kW / 500 kN. Vande Bharat MC/MC2 cars each have 4,000 kW /
+220 kN; all seven car types support 320 km/h, including unpowered trailers.
+
+| Vehicle / formation | Speed | Power | Starting effort | Comfort | Base purchase | Annual upkeep |
+|---|---:|---:|---:|---|---:|---:|
+| WAP-7 | 200 km/h | 9,000 kW | 600 kN | Unchanged | 33,315,534 | 5,552,589 |
+| WAG-12B pair | 200 km/h | 16,000 kW | 1,000 kN | Unchanged | 59,227,620 | 9,871,270 |
+| Vande Bharat 8 | 320 km/h | 16,000 kW | 880 kN | CC 0.95 / EC 1.0 | 62,726,334 | 10,454,389 |
+| Vande Bharat 16 | 320 km/h | 32,000 kW | 1,760 kN | CC 0.95 / EC 1.0 | 126,311,928 | 21,051,988 |
+
+Costs match the installed stock Lua formula before difficulty/company/global
+modifiers. Fare factor remains 0.5 and maintenance factor 1. No price discount
+is introduced: additional power increases automatic purchase and running costs.
+WAG-9 remains at 120 km/h / 4,500 kW / 460 kN. ICF/LHB ratings remain 110/200
+km/h, so attaching ICF to WAP-7 still caps that rake at 110 km/h. Track limits,
+curves, slopes and the slowest vehicle can limit the achieved speed.
+
+`tools/vehicle_performance.py` supplies shared export/update settings;
+`tools/vande_bharat.py` and `tools/freight_locomotives.py` own family settings.
+Apply to an existing geometry build with `python tools/apply_vehicle_performance.py`.
+Run `python tools/check_vehicle_performance.py` to execute the actual Lua models
+and formations, compare stock costs and check stronger ideal tractive force at
+starting, intermediate and former maximum speeds. This ideal force calculation
+is not a prediction of runtime acceleration under drag, gradients or adhesion.
+
+The update changes exactly ten model metadata tables, three formation descriptions
+and the two release metadata files. All 4,927 other files retain their hashes;
+within changed models, geometry, seats, weights, capacities, years, fares and
+animations are also verified unchanged. Native pack and balance checks pass.
+Report: `game_build/vehicle_performance_validation.json`. The new performance
+awaits an in-game test; no new editor walkthrough was required.
+
+The private v1.1 build is installed in both `local/mods` and `local/staging_area`,
+with all 4,942 copied files verified. Previous installations were backed up under
+`D:/TF3Mods/Indian-Rail-Prototype-Pack-before-performance-upgrade-*.zip`.
+Public and private packages are refreshed; public audio remains stock.
+
+Public archive: 4,940 files, 69,067,505 bytes, SHA-256
+`f86b5e03efc36cd4d83562a0e219edf7c93593d65a35b5e7e62c2359722ea4af`.
+Private archive: 4,942 files, 69,243,840 bytes, SHA-256
+`fd9e5a1249364eeb0a729187652f3443ad5eeb7659abe0ece3bc403fea39874d`.
+
+The historical sections below preserve earlier tuning and validation results;
+the performance table above supersedes their old locomotive/VB figures.
 
 For Steam installs, the pack folder belongs at:
 
@@ -39,7 +87,7 @@ a later release.
 
 ## Try it
 
-1. Start a new game and enable **Indian Rail Prototype Pack v1.0** in mod selection.
+1. Start a new game and enable **Indian Rail Prototype Pack v1.1** in mod selection.
 2. Choose year **2000 or later** for WAP-7 and all fourteen coach classes.
 3. Build an electrified railway and a connected train depot.
 4. Open **Indian Railways**, buy **Indian Railways WAP-7**, and add ICF or LHB coaches from the seven classes.
@@ -55,7 +103,7 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
 
 ## What is established so far
 
-- Revision 13 is installed in both `local/mods` and `local/staging_area`, with
+- Revision 15 (v1.1) is installed in both `local/mods` and `local/staging_area`, with
   the exact 4,942-file private build hash-verified in both places. Source masters
   remain unchanged. The new coach play test is pending with the user.
 - ICF 1A and 2A were opened from the final installed build in Model Editor 13;
@@ -72,8 +120,8 @@ or **Vande Bharat Express (16 cars)** from the electric trainset list.
   and a complete sound/LOD test have not been individually confirmed.
 - The user confirmed the revision-10 WAP-7 horn works. Revision 11 applies that
   same sound set to the newly converted freight engines; their runtime check is pending.
-- v1.0 archives use resource revision 14. The installed revision 13 is retained
-  during the user's play test; no vehicle content changes between them.
+- v1.1 uses resource revision 15 and the upgraded performance table above.
+  Automated metadata/resource/cost checks pass; runtime performance awaits the user's test.
 
 ### Earlier integration history
 
@@ -139,6 +187,7 @@ python tools/check_tf3_pack.py
 if ($LASTEXITCODE -ne 0) { throw 'Pack validation failed' }
 python tools/check_tf3_balance.py --game-root 'D:\SteamLibrary\steamapps\common\Transport Fever 3'
 if ($LASTEXITCODE -ne 0) { throw 'Stock balance comparison failed' }
+# After a metadata-only update, also run: python tools/check_vehicle_performance.py
 python tools/check_coach_families.py
 if ($LASTEXITCODE -ne 0) { throw 'Coach seating and stock-cost check failed' }
 python tools/check_vehicle_browser.py
@@ -217,7 +266,7 @@ rather than assuming the current distant silhouette is the final visual quality.
    `_metadata` and `content`. Keep the stable mod ID so existing saves resolve it.
 
 The private horn ZIP is `D:\TF3Mods\Indian-Rail-Prototype-Pack-TF3-Private.zip`.
-The tracked v1.0 ZIP includes all fourteen coaches, freight engines and side-on icons
+The tracked v1.1 ZIP includes the performance upgrades, fourteen coaches and side-on icons
 with stock audio. `--stock-audio` removes the private audio files and replaces
 their model references inside that archive without altering the local build.
 The private local build uses seconds 2–4 of the user's `HornSample.mp4`,

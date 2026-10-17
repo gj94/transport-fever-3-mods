@@ -1,8 +1,8 @@
 # WAG-9 · original modelling handoff v01
 
-## Current TF3 integration — pack v1.0
+## Current TF3 integration — pack v1.1
 
-Native conversion is included in **pack v1.0 (TF3 revision 14)** alongside fourteen ICF/LHB coaches. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. Existing locomotive/trainset geometry, gameplay, rigs and the approved private horn are retained. All vehicle store/construction PNGs use straight side views. The modelling and QA below document these original authoring files. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+Native conversion is included in **pack v1.1 (TF3 revision 15)** alongside fourteen ICF/LHB coaches. v1.1 upgrades WAP-7/WAG-12B/Vande Bharat performance; coach geometry and capacities are retained. Existing locomotive/trainset geometry, rigs and the approved private horn are retained. All vehicle store/construction PNGs use straight side views. The modelling and QA below document these original authoring files. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
 
 ## Original source handoff
 

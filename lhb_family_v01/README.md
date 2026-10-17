@@ -1,8 +1,8 @@
 # LHB coach family v0.1
 
-## Current TF3 integration — pack v1.0
+## Current TF3 integration — pack v1.1
 
-All seven family masters are included in **pack v1.0 (TF3 revision 14)**. The installed revision 13 has identical vehicle content; v1.0 installation follows the running play test. LHB game capacities for 1A/2A/3A/2S/CC/SL/GS are 14/32/44/62/48/48/62; all use 2000 / 200 km/h. The stable lhb_3a ID now uses the new 3A master. Each class appears once in Indian Railways. Normal fares and automatic costs are retained. Native resources, four LODs, glass, exact source seated-root transforms, side-on icons and introduction-year filtering pass automated checks. The new coaches await in-game boarding, passenger anatomy and curve checks. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
+All seven family masters are included in **pack v1.1 (TF3 revision 15)**. v1.1 upgrades WAP-7/WAG-12B/Vande Bharat performance; coach geometry and capacities are retained. LHB game capacities for 1A/2A/3A/2S/CC/SL/GS are 14/32/44/62/48/48/62; all use 2000 / 200 km/h. The stable lhb_3a ID now uses the new 3A master. Each class appears once in Indian Railways. Normal fares and automatic costs are retained. Native resources, four LODs, glass, exact source seated-root transforms, side-on icons and introduction-year filtering pass automated checks. The new coaches await in-game boarding, passenger anatomy and curve checks. See [current installation, integration and remaining checks](../TF3-INSTALL.md).
 
 ## Original source handoff
 

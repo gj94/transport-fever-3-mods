@@ -1,4 +1,4 @@
-# Indian Rail Prototype Pack v1.0
+# Indian Rail Prototype Pack v1.1
 
 ## ICF and LHB detailed coach sources v0.2
 
@@ -71,18 +71,19 @@ the conversion supplies native game resources, materials, LODs and metadata.
 
 A local TF3 conversion is installed. Earlier WAP-7, Vande Bharat and purchase-tab
 updates have user-confirmed play tests; the new coach families await the user's
-play test. **v1.0 uses TF3 resource revision 14** and preserves the stable mod ID.
-The installed revision 13 has the same vehicle content; v1.0 changes only release
-metadata and documentation. Installation is deferred while the game is running.
+play test. **v1.1 uses TF3 resource revision 15** and preserves the stable mod ID.
+It upgrades WAP-7 and WAG-12B to 200 km/h with stronger power/pull, and Vande
+Bharat to 320 km/h with very high comfort. The native resource and stock Lua
+cost checks pass; the new performance awaits an in-game play test.
 See [installation and play-test notes](TF3-INSTALL.md) for reproducible build steps,
-fixes and remaining checks, and [release notes](CHANGELOG.md) for v1.0.
-Download the [TF3 pack v1.0](dist/Indian-Rail-Prototype-Pack-TF3.zip).
+fixes and remaining checks, and [release notes](CHANGELOG.md) for v1.1.
+Download the [TF3 pack v1.1](dist/Indian-Rail-Prototype-Pack-TF3.zip).
 The rail purchase browser opens on an **Indian Railways** tab containing this
 pack's available locomotives, coaches and complete trainsets. The original
 Locomotive, Wagon, Multiple Unit and search tabs remain available. This new
 interface passes checks against the shipped GUI code, and the user confirmed
 its in-game appearance on 30 September 2026.
-v1.0 includes all fourteen coach classes. The existing ICF SL and LHB
+v1.1 includes all fourteen coach classes. The existing ICF SL and LHB
 3A resource IDs receive the new models, so each class appears once. The agreed
 capacity scale doubles the former normalized balance: ICF SL carries 40 and
 LHB 3A 44 passengers. 1A has the least capacity; 3A and SL both exceed 2A.
@@ -99,12 +100,23 @@ on all three locomotive classes; the user confirmed WAP-7 playback works. Its pr
 recording and archive are kept outside the tracked release package; see the
 installation notes for rebuilding and horn-key behavior.
 Extract its `gj94_indian_rail_pack` folder into your TF3 `local/mods` folder,
-enable **Indian Rail Prototype Pack v1.0**, and use electrified track (1995+ for WAG-9,
+enable **Indian Rail Prototype Pack v1.1**, and use electrified track (1995+ for WAG-9,
 2000+ for WAP-7, 2017+ for WAG-12B and 2019+ for Vande Bharat).
 Speeds and years use the user's chosen gameplay overrides: ICF 110 km/h / 1980,
-LHB 200 / 2000, WAP-7 180 / 2000, WAG-9 120 / 1995, WAG-12B 120 / 2017
-and Vande Bharat 180 / 2019. These mix design speeds and family dates rather
-than asserting the exact operating limits/introduction of each modelled variant.
+LHB 200 / 2000, WAP-7 200 / 2000, WAG-9 120 / 1995, WAG-12B 200 / 2017
+and Vande Bharat 320 / 2019. These are gameplay choices rather than assertions
+of prototype operating limits or exact introduction dates.
+
+| Vehicle / complete formation | Speed | Power | Starting effort | Comfort |
+|---|---:|---:|---:|---|
+| WAP-7 | 200 km/h | 9,000 kW | 600 kN | Unchanged |
+| WAG-12B pair | 200 km/h | 16,000 kW | 1,000 kN | Unchanged |
+| Vande Bharat 8 cars | 320 km/h | 16,000 kW | 880 kN | CC 0.95 / EC 1.0 |
+| Vande Bharat 16 cars | 320 km/h | 32,000 kW | 1,760 kN | CC 0.95 / EC 1.0 |
+
+Normal fares and automatic costs remain enabled; more power increases purchase
+and running costs. Track limits and the slowest vehicle still cap the train: ICF
+coaches remain at 110 km/h, LHB at 200 km/h. [Performance and validation](TF3-INSTALL.md#current-performance-v11).
 See also [moddable vehicle features and sounds](TF3-VEHICLE-FEATURES.md).
 
 For selectable speed caps on individual track sections, see the separate
@@ -113,7 +125,7 @@ revision 5 provides the **Speed limit** dropdown and automatic entrance boards;
 their appearance and section updates are user-confirmed in game.
 The original assets and their validation reports below describe the source prototypes.
 Their v0.1–v0.4 folder names identify authoring handoffs and remain unchanged;
-they are separate from the pack's v1.0 release version.
+they are separate from the pack's v1.1 release version.
 
 ## ICF and LHB coach-family modelling handoffs
 
@@ -123,7 +135,7 @@ The selected physical accommodation counts are ICF 18/46/64/108/73/72/108 and LH
 
 Blender masters, FBXs, source scripts, seated-root and separate berth-reference metadata, previews and validation reports are included. Spacing spans are 22.297 m for ICF and 24.000 m for LHB; complete visual bounds are reported separately. Both use the project's 1.105 m CBC alignment convention, with a checked mixed-family straight connection. Passenger markers use the documented stock seated-root offset rather than cushion or upper-berth locations.
 
-All fourteen sources are **converted in v1.0**, with class-specific interiors, transparent glass, four LODs, seated-root metadata, matched coupling spans and side-on store/construction icons. Source masters remain unchanged. All ICF variants retain 110 km/h / 1980 and all LHB variants retain 200 km/h / 2000. Doors and couplers are static; boarding, curves and passenger anatomy remain runtime checks.
+All fourteen sources are **converted in v1.1**, with class-specific interiors, transparent glass, four LODs, seated-root metadata, matched coupling spans and side-on store/construction icons. Source masters remain unchanged. All ICF variants retain 110 km/h / 1980 and all LHB variants retain 200 km/h / 2000. Doors and couplers are static; boarding, curves and passenger anatomy remain runtime checks.
 
 ## WAG-9 and WAG-12B
 
@@ -134,10 +146,10 @@ New editable source models, prepared against revision 6 of this repository's mod
 
 Both packages include Blender masters, static and baked-motion FBX exports, independent level-head pantograph controls, named coupling/driver/light markers, source generators, reference provenance, previews and QA reports. The WAG-9 motion FBX is supplied as a verified lossless ZIP; extract it before import. WAG-12B includes standard-wire and illustrative high-reach poses.
 
-**Converted in revision 11:** buy **Indian Railways WAG-9** or **Indian Railways
+**Converted in revision 11, performance updated in v1.1:** buy **Indian Railways WAG-9** or **Indian Railways
 WAG-12B (twin section)** and add freight wagons. WAG-12B is one depot choice with
-two independently articulated sections and outward cabs, totalling 9,000 kW,
-706 kN and 180 t. WAG-9 has 4,500 kW, 460 kN and 123 t. Both have transparent
+two independently articulated sections and outward cabs, totalling 16,000 kW,
+1,000 kN and 180 t, with a 200 km/h gameplay rating. WAG-9 has 4,500 kW, 460 kN and 123 t. Both have transparent
 glass, crew anchors, four LODs and height-sampled pantographs. Prices/upkeep use
 the installed game's automatic rules. [Integration details and validation](TF3-INSTALL.md#wag-9-wag-12b-and-construction-icons-revision-11-30-september-2026)
 distinguish build checks from the pending game check of wire contact, reversals,
@@ -163,8 +175,9 @@ The measured visible envelope includes both noses and all evaluated mesh project
 The handoff contains seven per-car Blender masters, eleven static/motion FBXs, independent door/bogie/axle/pantograph EMPTY hierarchies, interiors and character-placement guides. Both trailer pantograph rigs have live controls and baked motion samples. All eleven FBXs were freshly re-imported; all 22 inter-car joins align and both rigs passed 101-pose clearance checks. Linked assembly libraries use relative paths: keep the folder tree intact.
 
 **Converted in pack revision 5:** buy **Vande Bharat Express (8 cars)** or
-**Vande Bharat Express (16 cars)** on electrified track. Revision 11 sets their
-gameplay availability to **2019** and maximum speed to **180 km/h**.
+**Vande Bharat Express (16 cars)** on electrified track. Gameplay availability
+remains **2019**; v1.1 raises every car to **320 km/h**, upgrades all motor cars
+and sets CC/EC comfort to **0.95/1.0**.
 They have 420 / 880 configured passenger places and 155 / 310 m spacing lengths.
 The stock gameplay scale gives 105 / 220 passengers in the depot menu.
 The seven car types have interiors, transparent glazing, four LODs, passenger and
@@ -221,7 +234,7 @@ The original exterior prototypes remain below for comparison.
 - WAP-7: both cabs, driving desks, gauges, seats, pedals, window openings and transparent glazing
 - LHB 3A: nine daytime berth bays, folded middle backrests, ladders, racks, partitions, AC fittings, clear aisle and vestibule detail
 - ICF sleeper: variant-specific berth bays, fans, ladders, racks, shutter/window fittings and entry detail
-- These older coach sources each have 72 berth references and 72 seated locators; v1.0 uses the class-specific family masters instead
+- These older coach sources each have 72 berth references and 72 seated locators; v1.1 uses the class-specific family masters instead
 
 ### WAP-7 cab
 ![WAP-7 cab review](interiors_v02/wap7/WAP7_cab_review.png)

@@ -8,6 +8,7 @@ from tf3_resource_paths import resolve_model_ref
 from freight_locomotives import SPECS as FREIGHT_SPECS
 from coach_families import SPECS as COACH_SPECS
 from tf3_icons import construction_sizes
+from vehicle_performance import WAP7, settings as performance_settings
 
 MOD = Path(__file__).resolve().parents[1] / 'game_build' / 'gj94_indian_rail_pack'
 models = list((MOD / 'content').rglob('*.mdl'))
@@ -18,7 +19,7 @@ for model in models:
     transport_text = text.split('transportVehicle=',1)[1]
     assert 'priceFactor=0.5' in transport_text, f'{model.stem}: fare factor must match stock trains'
     from check_tf3_balance import model_stats,number,table
-    speed_year={'icf_sleeper':(110,1980),'lhb_3a':(200,2000),'wap7':(180,2000)}
+    speed_year={'wap7':(WAP7['speed'],WAP7['year'])}
     if model.stem in COACH_SPECS:
         spec=COACH_SPECS[model.stem]
         speed_year[model.stem]=(spec['speed'],spec['year'])
@@ -28,6 +29,11 @@ for model in models:
     if model.stem.startswith('vb_'):speed_year[model.stem]=(VB_SPEED,VB_YEAR)
     speed,year=speed_year[model.stem]
     assert abs(model_stats(text)['speed_kmh']-speed)<.001 and number(table(text,'availability'),'yearFrom')==year
+    performance=performance_settings(model.stem)
+    if performance:
+        stats=model_stats(text)
+        assert stats['power_kw']==performance['power'] and stats['tractive_effort_kn']==performance['effort'],model.stem
+        if 'comfort' in performance:assert stats['comfort']==performance['comfort'],model.stem
     if model.stem in COACH_SPECS:
         capacity = COACH_SPECS[model.stem]['capacity']
         assert f'capacity={capacity},' in transport_text, f'{model.stem}: incorrect balanced capacity'

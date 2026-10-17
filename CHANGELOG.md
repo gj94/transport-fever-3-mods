@@ -1,5 +1,19 @@
 # Indian Rail Prototype Pack release notes
 
+## v1.1 — 17 October 2026
+
+TF3 resource revision **15**; stable mod ID `gj94_indian_rail_pack`.
+
+- WAP-7: 200 km/h, 9,000 kW and 600 kN (previously 180 km/h, 4,500 kW and 392 kN).
+- Complete WAG-12B: 200 km/h, 16,000 kW and 1,000 kN (previously 120 km/h, 9,000 kW and 706 kN). Both sections are updated.
+- Vande Bharat: every car supports 320 km/h. Each motor car has 4,000 kW / 220 kN, giving 16,000 kW / 880 kN for 8 cars and 32,000 kW / 1,760 kN for 16 cars. CC/EC comfort rises to 0.95/1.0.
+- Normal fares and automatic purchase/upkeep are retained. Additional power increases costs. Coach capacities, family introduction years, WAG-9 tuning, weights, geometry, animation, side-on icons and the private horn are preserved.
+- Shared settings apply to both full exports and metadata-only updates. Actual native Lua checks confirm complete-formation speed, increased available pulling force and exact stock automatic costs. Only fifteen metadata/description files change; 4,927 other resources retain their hashes.
+- Refreshed public/private archives and installed the private build into both local copies with every copied file verified. Previous installations are backed up. Runtime acceleration, achieved route speeds and comfort await the user's play test.
+
+These are requested gameplay upgrades rather than real-world vehicle specifications.
+Track limits and the slowest car still apply; ICF/LHB remain at 110/200 km/h.
+
 ## v1.0 — 1 October 2026
 
 TF3 resource revision **14**; stable mod ID `gj94_indian_rail_pack`.

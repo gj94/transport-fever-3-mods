@@ -1,8 +1,8 @@
 # Interior v02 visual review
 
-## Current TF3 integration — pack v1.0
+## Current TF3 integration — pack v1.1
 
-Pack v1.0 uses the newer ICF SL family master under the stable `icf_sleeper` resource ID. The old interior source and review below remain reference material; current capacity is 40 game passengers, with new-coach runtime fit pending. See [current installation and validation](../../TF3-INSTALL.md).
+Pack v1.1 uses the newer ICF SL family master under the stable `icf_sleeper` resource ID. The old interior source and review below remain reference material; current capacity is 40 game passengers, with new-coach runtime fit pending. See [current installation and validation](../../TF3-INSTALL.md).
 
 ## Original source review
 

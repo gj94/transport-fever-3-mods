@@ -2,17 +2,18 @@
 import math
 
 # kW, kN, kg, km/h. WAG12B values are per section, not complete-pair values.
-# Power/weight/effort basis: NWR WTT 2025 p166 and RDSO Handout p7.
-# Speed/year are the user's explicit gameplay overrides (30 September 2026).
+# Original power/weight/effort basis: NWR WTT 2025 p166 and RDSO Handout p7.
+# WAG-12B speed/power/effort are gameplay upgrades requested 17 October 2026.
+# Weights and introduction years retain the established family settings.
 SPECS = {
     'wag9': dict(name='Indian Railways WAG-9', length=20.562, weight=123000,
                  speed=120, year=1995, bogie_distance=6.0, power=4500, effort=460,
                  panto_low=4.255, panto_high=5.917),
     'wag12b_a': dict(name='WAG-12B section A', length=19.2, weight=90000,
-                     speed=120, year=2017, bogie_distance=5.1, power=4500, effort=353,
+                     speed=200, year=2017, bogie_distance=5.1, power=8000, effort=500,
                      panto_low=4.245, panto_high=7.52),
     'wag12b_b': dict(name='WAG-12B section B', length=19.2, weight=90000,
-                     speed=120, year=2017, bogie_distance=5.1, power=4500, effort=353,
+                     speed=200, year=2017, bogie_distance=5.1, power=8000, effort=500,
                      panto_low=4.245, panto_high=7.52),
 }
 
@@ -60,12 +61,15 @@ def sample_tracks(bpy, key, clean):
 def write_formation(rootdir, write_lua):
     folder = rootdir / 'game_build/gj94_indian_rail_pack/content/vehicle/train/wag12b'
     folder.mkdir(parents=True, exist_ok=True)
+    power=sum(SPECS[key]['power'] for key in ('wag12b_a','wag12b_b'))
+    effort=sum(SPECS[key]['effort'] for key in ('wag12b_a','wag12b_b'))
+    speed=min(SPECS[key]['speed'] for key in ('wag12b_a','wag12b_b'))
     write_lua(folder / 'wag12b.mu.lua', {
         'vehicles': [
             {'name': 'gj94_indian_rail_pack::/vehicle/train/wag12b_a/wag12b_a.mdl', 'forward': True},
             {'name': 'gj94_indian_rail_pack::/vehicle/train/wag12b_b/wag12b_b.mdl', 'forward': False},
         ],
         'name': 'Indian Railways WAG-12B (twin section)',
-        'desc': 'Twin-section electric freight locomotive. 9,000 kW, 706 kN, 180 t, 120 km/h. Requires electrified track; add freight wagons.',
+        'desc': f'Gameplay-upgraded twin-section electric freight locomotive. {power:,} kW, {effort:,} kN, 180 t, {speed} km/h. Requires electrified track; add freight wagons.',
         'filterTags': ['default'],
     })
